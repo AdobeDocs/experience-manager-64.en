@@ -1,5 +1,5 @@
 ---
-uuid: 69c3947b-188b-4255-b565-226a4a6a9fbf
+uuid: cc1ed677-716a-49ee-9758-13c815bb30bb
 index: y
 internal: n
 snippet: y
@@ -26,25 +26,25 @@ In this page you will find:
 
 Once you have familiarized yourself with these basics, you will find in more advanced and detailed information in the following subpages:
 
-* [Technical Requirements](technical-requirements.md)
-* [Recommended Deployments](recommended-deploys.md)
-* [Custom Standalone Install](custom-standalone-install.md)
-* [Application Server Install](application-server-install.md)
-* [Troubleshooting](troubleshooting.md)
-* [Command Line Start and Stop](command-line-start-and-stop.md)
-* [Configuring](configuring.md)
-* [Upgrading to AEM 6.4](upgrade.md)
-* [eCommerce](ecommerce.md)
-* [Configuration How-To Articles](ht-deploy.md)
-* [Web Console](web-console.md)
-* [Troubleshooting Replication](troubleshoot-rep.md)
-* [Best Practices](best-practices.md)
+* [Technical Requirements](/content/help/en/experience-manager/6-4/sites/deploying/using/technical-requirements)
+* [Recommended Deployments](/content/help/en/experience-manager/6-4/sites/deploying/using/recommended-deploys)
+* [Custom Standalone Install](/content/help/en/experience-manager/6-4/sites/deploying/using/custom-standalone-install)
+* [Application Server Install](/content/help/en/experience-manager/6-4/sites/deploying/using/application-server-install)
+* [Troubleshooting](/content/help/en/experience-manager/6-4/sites/deploying/using/troubleshooting)
+* [Command Line Start and Stop](/content/help/en/experience-manager/6-4/sites/deploying/using/command-line-start-and-stop)
+* [Configuring](/content/help/en/experience-manager/6-4/sites/deploying/using/configuring)
+* [Upgrading to AEM 6.4](/content/help/en/experience-manager/6-4/sites/deploying/using/upgrade)
+* [eCommerce](/content/help/en/experience-manager/6-4/sites/deploying/using/ecommerce)
+* [Configuration How-To Articles](/content/help/en/experience-manager/6-4/sites/deploying/using/ht-deploy)
+* [Web Console](/content/help/en/experience-manager/6-4/sites/deploying/using/web-console)
+* [Troubleshooting Replication](/content/help/en/experience-manager/6-4/sites/deploying/using/troubleshoot-rep)
+* [Best Practices](/content/help/en/experience-manager/6-4/sites/deploying/using/best-practices)
 * [Deploying Communities](/content/help/en/experience-manager/6-4/communities/using/deploy-communities)
-* [Introduction to the AEM Platform](platform.md)
-* [Performance Guidelines](DO-NOT-DELETE-performance-guidelines-pdf.md)
+* [Introduction to the AEM Platform](/content/help/en/experience-manager/6-4/sites/deploying/using/platform)
+* [Performance Guidelines](/content/help/en/experience-manager/6-4/sites/deploying/using/DO-NOT-DELETE-performance-guidelines-pdf)
 * [Getting Started with AEM Mobile](/content/help/en/experience-manager/6-4/mobile/using/getting-started-aem-mobile)
-* [Maintenance Release Vehicle Definitions](maintenance-release-vehicle-definitions.md)
-* [What is AEM Screens?](aem-screens-introduction.md)
+* [Maintenance Release Vehicle Definitions](/content/help/en/experience-manager/6-4/sites/deploying/using/maintenance-release-vehicle-definitions)
+* [What is AEM Screens?](/content/help/en/experience-manager/6-4/sites/deploying/using/aem-screens-introduction)
 
 ---
 
@@ -93,11 +93,11 @@ There are many advanced options and elaborations of this setup, but the basic pa
 
 ### Prerequisites
 
-While production instances are usually run on dedicated machines running an officially supported OS (see [Technical Requirements](technical-requirements.md)), the Experience Manager server will actually run on any system that supports [**Java Standard Edition 8**](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+While production instances are usually run on dedicated machines running an officially supported OS (see [Technical Requirements](/content/help/en/experience-manager/6-4/sites/deploying/using/technical-requirements)), the Experience Manager server will actually run on any system that supports [**Java Standard Edition 8**](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
 For purposes of familiarization and for developing on AEM it is quite common to use an instance installed on your local machine running Apple OS X or desktop versions of Microsoft Windows or Linux.
 
-On the client-side, AEM works with all modern browsers (**Microsoft Edge**, **Internet Explorer** 11, **Chrome **51+** **, **Firefox **47+, **Safari** 8+) on both desktop and tablet operating systems. See [Supported Client Platforms](technical-requirements.md#main-pars_title_17) for details.
+On the client-side, AEM works with all modern browsers (**Microsoft Edge**, **Internet Explorer** 11, **Chrome **51+** **, **Firefox **47+, **Safari** 8+) on both desktop and tablet operating systems. See [Supported Client Platforms](/content/help/en/experience-manager/6-4/sites/deploying/using/technical-requirements#main-pars_title_17) for details.
 
 ### Getting the Software
 
@@ -108,7 +108,7 @@ The AEM software package is available in two foms:
 * **cq-quickstart-6.4.0.jar:** A standalone executable *jar* file that includes everything needed to get up and running.
 * **cq-quickstart-6.4.0.war: **A *war* file for deployment in a third-party application server.
 
-In the following section we describe the **standalone installation**. For details on installing AEM in an application server see [Application Server Install](application-server-install.md).
+In the following section we describe the **standalone installation**. For details on installing AEM in an application server see [Application Server Install](/content/help/en/experience-manager/6-4/sites/deploying/using/application-server-install).
 
 ### Default Local Install
 
@@ -186,8 +186,8 @@ You would install these two instances in, for example
 
 For more details on customizing your installation see the following:
 
-* [Custom Standalone Install](custom-standalone-install.md)
-* [Run Modes](configure-runmodes.md)
+* [Custom Standalone Install](/content/help/en/experience-manager/6-4/sites/deploying/using/custom-standalone-install)
+* [Run Modes](/content/help/en/experience-manager/6-4/sites/deploying/using/configure-runmodes)
 
 ### Unpacked Install Directory
 
@@ -237,7 +237,7 @@ This folder contains the following Unix bash shell scripts:
 
 There are also equivalent ** `bat`** files for Windows. `For more detailed information see:`
 
-* [Command Line Start and Stop](command-line-start-and-stop.md)
+* [Command Line Start and Stop](/content/help/en/experience-manager/6-4/sites/deploying/using/command-line-start-and-stop)
 
 AEM starts and automatically redirects your web browser to the appropriate page, usually the login page; for example:
 
@@ -257,23 +257,23 @@ Once logged in, you have access to AEM. For further information, depending on th
 
 The above section should give you a good understanding of the basics of AEM installation. However, installing a full production system of AEM can involve considerably more complexity. For full coverage of advanced installation see the following subpages:
 
-* [Technical Requirements](technical-requirements.md)
-* [Recommended Deployments](recommended-deploys.md)
-* [Custom Standalone Install](custom-standalone-install.md)
-* [Application Server Install](application-server-install.md)
-* [Troubleshooting](troubleshooting.md)
-* [Command Line Start and Stop](command-line-start-and-stop.md)
-* [Configuring](configuring.md)
-* [Upgrading to AEM 6.4](upgrade.md)
-* [eCommerce](ecommerce.md)
-* [Configuration How-To Articles](ht-deploy.md)
-* [Web Console](web-console.md)
-* [Troubleshooting Replication](troubleshoot-rep.md)
-* [Best Practices](best-practices.md)
+* [Technical Requirements](/content/help/en/experience-manager/6-4/sites/deploying/using/technical-requirements)
+* [Recommended Deployments](/content/help/en/experience-manager/6-4/sites/deploying/using/recommended-deploys)
+* [Custom Standalone Install](/content/help/en/experience-manager/6-4/sites/deploying/using/custom-standalone-install)
+* [Application Server Install](/content/help/en/experience-manager/6-4/sites/deploying/using/application-server-install)
+* [Troubleshooting](/content/help/en/experience-manager/6-4/sites/deploying/using/troubleshooting)
+* [Command Line Start and Stop](/content/help/en/experience-manager/6-4/sites/deploying/using/command-line-start-and-stop)
+* [Configuring](/content/help/en/experience-manager/6-4/sites/deploying/using/configuring)
+* [Upgrading to AEM 6.4](/content/help/en/experience-manager/6-4/sites/deploying/using/upgrade)
+* [eCommerce](/content/help/en/experience-manager/6-4/sites/deploying/using/ecommerce)
+* [Configuration How-To Articles](/content/help/en/experience-manager/6-4/sites/deploying/using/ht-deploy)
+* [Web Console](/content/help/en/experience-manager/6-4/sites/deploying/using/web-console)
+* [Troubleshooting Replication](/content/help/en/experience-manager/6-4/sites/deploying/using/troubleshoot-rep)
+* [Best Practices](/content/help/en/experience-manager/6-4/sites/deploying/using/best-practices)
 * [Deploying Communities](/content/help/en/experience-manager/6-4/communities/using/deploy-communities)
-* [Introduction to the AEM Platform](platform.md)
-* [Performance Guidelines](DO-NOT-DELETE-performance-guidelines-pdf.md)
+* [Introduction to the AEM Platform](/content/help/en/experience-manager/6-4/sites/deploying/using/platform)
+* [Performance Guidelines](/content/help/en/experience-manager/6-4/sites/deploying/using/DO-NOT-DELETE-performance-guidelines-pdf)
 * [Getting Started with AEM Mobile](/content/help/en/experience-manager/6-4/mobile/using/getting-started-aem-mobile)
-* [Maintenance Release Vehicle Definitions](maintenance-release-vehicle-definitions.md)
-* [What is AEM Screens?](aem-screens-introduction.md)
+* [Maintenance Release Vehicle Definitions](/content/help/en/experience-manager/6-4/sites/deploying/using/maintenance-release-vehicle-definitions)
+* [What is AEM Screens?](/content/help/en/experience-manager/6-4/sites/deploying/using/aem-screens-introduction)
 
