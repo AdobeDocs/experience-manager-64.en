@@ -1,5 +1,5 @@
 ---
-uuid: 1fb6359d-bea7-4a2a-9353-ba04d2198be8
+uuid: d138baec-a6db-4f6a-9f60-7fd301039091
 index: y
 internal: n
 snippet: y
@@ -49,7 +49,7 @@ DITA XML provides the structure we need to design information consistently. Adhe
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Concept </p> </td> 
-   <td colname="col2"> <p>The &amp;lt;concept &amp;gt; element is the top-level element for a topic that answers the question "what is?" and "why?" Concepts provide background information that users must know before they can successfully work with a product or interface. Often, a concept is an extended definition of a major abstraction such as a process or function. It might also have an example or a graphic, but generally the structure of a concept is fairly simple. </p> <p><strong>Special Use for Field Descriptions</strong> </p> <p>Context sensitive help often links to the parent concept. Often, readers are looking for definitions of fields in this circumstance. Where appropriate, place field description tables in the concept, under a heading that matches the interface page name. </p> <p>A concept that includes a procedure should have a separate child Task type that includes only step information. (What to click to accomplish at ask.) </p> </td> 
+   <td colname="col2"> <p>The &lt;concept &gt; element is the top-level element for a topic that answers the question "what is?" and "why?" Concepts provide background information that users must know before they can successfully work with a product or interface. Often, a concept is an extended definition of a major abstraction such as a process or function. It might also have an example or a graphic, but generally the structure of a concept is fairly simple. </p> <p><strong>Special Use for Field Descriptions</strong> </p> <p>Context sensitive help often links to the parent concept. Often, readers are looking for definitions of fields in this circumstance. Where appropriate, place field description tables in the concept, under a heading that matches the interface page name. </p> <p>A concept that includes a procedure should have a separate child Task type that includes only step information. (What to click to accomplish at ask.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Task </p> </td> 
@@ -127,7 +127,7 @@ Elements identify or formats words and paragraphs, to identify them as products,
     </ol> <p>Note:  Menucascade is preferable for navigation breadcrumbs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="ignoretag"><span class="uicontrol">menucascade</span> &amp;gt; <span class="uicontrol">abc</span></span> </td> 
+   <td colname="col1"><span class="ignoretag"><span class="uicontrol">menucascade</span> &gt; <span class="uicontrol">abc</span></span> </td> 
    <td colname="col2"> <p>Use for navigation breadcrumbs. </p> <p style="text-align: center;"><img href="assets/menucascade.png" id="image_BA8F841EB0784A8A85C9A7B98F721325" /> </p> </td> 
   </tr> 
   <tr> 
@@ -188,7 +188,7 @@ Elements identify or formats words and paragraphs, to identify them as products,
   </tr> 
   <tr> 
    <td colname="col1">xref </td> 
-   <td colname="col2"> <p>Use <span class="ignoretag"><span class="uicontrol">Insert</span> &amp;gt; <span class="uicontrol">Link</span></span> to access links. </p> <p>See <a format="dita" href="xmetal-style.md#section_0A21DDDC888C4D73987533D58C624DE4" scope="local">Cross References</a>. </p> </td> 
+   <td colname="col2"> <p>Use <span class="ignoretag"><span class="uicontrol">Insert</span> &gt; <span class="uicontrol">Link</span></span> to access links. </p> <p>See <a format="dita" href="xmetal-style.md#section_0A21DDDC888C4D73987533D58C624DE4" scope="local">Cross References</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">F8 </td> 
