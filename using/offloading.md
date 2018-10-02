@@ -1,5 +1,5 @@
 ---
-uuid: 5b8ae816-4df9-490a-ba6c-ce505ba01c9c
+uuid: 99510cb3-0803-4985-9322-f77d4f692a40
 index: y
 internal: n
 snippet: y
@@ -148,7 +148,7 @@ Use the Web Console or a sling:OsgiConfig node to configure the following proper
    <td>Repository Descriptor Name</td> 
    <td>leaderElectionRepositoryDescriptor</td> 
    <td> </td> 
-   <td>&amp;lt;no value&amp;gt;</td> 
+   <td>&lt;no value&gt;</td> 
   </tr> 
  </tbody> 
 </table>
@@ -279,12 +279,12 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
 
    | Property |Value |
    |---|---|
-   | Settings &gt; Serialization Type |Default |
-   | Transport &gt;Transport URI |http://*&lt;ip of target instance&gt;*:*&lt;port&gt;*/bin/receive?sling:authRequestLogin=1 |
-   | Transport &gt;Transport User |Replication user on target instance |
-   | Transport &gt;Transport Passoword |Replication user password on target instance |
-   | Extended &gt; HTTP Method |POST |
-   | Triggers &gt; Ignore Default |True |
+   | Settings > Serialization Type |Default |
+   | Transport >Transport URI |http://*<ip of target instance>*:*<port>*/bin/receive?sling:authRequestLogin=1 |
+   | Transport >Transport User |Replication user on target instance |
+   | Transport >Transport Passoword |Replication user password on target instance |
+   | Extended > HTTP Method |POST |
+   | Triggers > Ignore Default |True |
 
 #### Creating the reverse agent
 
@@ -294,11 +294,11 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
 
    | Property |Value |
    |---|---|
-   | Settings &gt; Serialization Type |Default |
-   | Transport &gt;Transport URI |http://*&lt;ip of target instance&gt;*:*&lt;port&gt;*/bin/receive?sling:authRequestLogin=1 |
-   | Transport &gt;Transport User |Replication user on target instance |
-   | Transport &gt;Transport Passoword |Replication user password on target instance |
-   | Extended &gt; HTTP Method |GET |
+   | Settings > Serialization Type |Default |
+   | Transport >Transport URI |http://*<ip of target instance>*:*<port>*/bin/receive?sling:authRequestLogin=1 |
+   | Transport >Transport User |Replication user on target instance |
+   | Transport >Transport Passoword |Replication user password on target instance |
+   | Extended > HTTP Method |GET |
 
 #### Creating the outbox agent
 
@@ -308,9 +308,9 @@ Example: `offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559`
 
    | Property |Value |
    |---|---|
-   | Settings &gt; Serialization Type |Default |
-   | Transport &gt;Transport URI |repo://var/replication/outbox |
-   | Trigger &gt; Ignore Default |True |
+   | Settings > Serialization Type |Default |
+   | Transport >Transport URI |repo://var/replication/outbox |
+   | Trigger > Ignore Default |True |
 
 #### Finding the Sling ID
 

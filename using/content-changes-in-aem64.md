@@ -1,5 +1,5 @@
 ---
-uuid: f3fddadd-43f2-484a-a918-8022ecd7b1e1
+uuid: f17e849a-eb19-42bb-bfac-08852f996dae
 index: y
 internal: n
 snippet: y
@@ -9,8 +9,8 @@ translate: y
 # Content changes and Backwards Compatibility in AEM 6.4
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
+ <tbody>
+  <tr>
    <td><strong>Previous Location</strong><br /> </td> 
    <td><strong>New Location</strong></td> 
    <td><p><strong>Type of config</strong></p> <p><strong><em>Options are 1) absolute path, 2) only global 3) tenant-aware. </em></strong></p> </td> 
@@ -18,8 +18,8 @@ translate: y
    <td><strong>Requirements to align to latest model</strong></td> 
    <td><strong>Additional commentary</strong></td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/clientlibs/fd/fp</span></td> 
    <td><span class="code">/libs/fd/fp/components</span></td> 
    <td>N/A</td> 
@@ -27,8 +27,8 @@ translate: y
    <td>None</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/clientlibs/fd/rte</span></td> 
    <td><span class="code">/libs/fd/rte</span></td> 
    <td>N/A</td> 
@@ -36,8 +36,8 @@ translate: y
    <td>None</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/clientlibs/fd/af</span></td> 
    <td><span class="code">/libs/fd/af/authoring/clientlibs</span></td> 
    <td>N/A</td> 
@@ -45,8 +45,8 @@ translate: y
    <td>None</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/clientlibs/fd/themes/themeLibrary</span></td> 
    <td>This no longer features as part of the AEM 6.4 out of the box package.</td> 
    <td>N/A</td> 
@@ -54,8 +54,8 @@ translate: y
    <td>This is partly user generated content. This will be delivered as a reference content package with the <span class="code">aem-forms-reference-themes</span> name.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/clientlibs/fd/expeditor</span></td> 
    <td><span class="code">/libs/fd/expeditor/clientlibs</span></td> 
    <td>N/A</td> 
@@ -63,8 +63,8 @@ translate: y
    <td>None<p> </p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/designs/fd/fp</span></td> 
    <td><span class="code">/libs/fd/fp</span></td> 
    <td>N/A</td> 
@@ -72,8 +72,8 @@ translate: y
    <td>In the listing of templates, the word<em> "deprecated</em>" will be added to the title In order to differentiate them with the newer templates.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/clientlibs/fd/fmaddon</span></td> 
    <td><span class="code">/libs/fd/fmaddon</span></td> 
    <td>N/A</td> 
@@ -81,8 +81,8 @@ translate: y
    <td>None</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/aep</span></td> 
    <td><span class="code">/var/fd/content/annotations</span></td> 
    <td>N/A</td> 
@@ -90,26 +90,26 @@ translate: y
    <td>These will be cleaned up after upgrade using a clean up filter.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><p><span class="code">/etc/cloudservices/typekit</span></p> <p><span class="code">/etc/cloudservices/recaptcha</span></p> <p><span class="code">/etc/cloudservices/echosign</span></p> </td> 
-   <td><p><span class="code">/conf/&amp;lt;tenantid&amp;gt;/settings/cloudconfigs/typekit</span></p> <p><span class="code">/conf/&amp;lt;tenantid&amp;gt;/settings/cloudconfigs/recaptcha</span></p> <p><span class="code">/conf/&amp;lt;tenantid&amp;gt;/settings/cloudconfigs/echosign</span></p> </td> 
+   <td><p><span class="code">/conf/&lt;tenantid&gt;/settings/cloudconfigs/typekit</span></p> <p><span class="code">/conf/&lt;tenantid&gt;/settings/cloudconfigs/recaptcha</span></p> <p><span class="code">/conf/&lt;tenantid&gt;/settings/cloudconfigs/echosign</span></p> </td> 
    <td>tenant-aware</td> 
    <td>Legacy cloudservices. Will be persisted on an inplace upgraded setup. Code to list and read them is still present in the product as a fallback.</td> 
    <td>Lazy content migration utility can be triggered from Forms Migration UI, in order to automatically convert to the new path.<br /> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/cloudservices/fdm</span></td> 
-   <td><span class="code">/conf/&amp;lt;tenantid&amp;gt;/settings/cloudconfigs/fdm</span></td> 
+   <td><span class="code">/conf/&lt;tenantid&gt;/settings/cloudconfigs/fdm</span></td> 
    <td>tenant-aware</td> 
    <td>Legacy cloudservices. Will be persisted on an inplace upgraded setup. Code to list and read them is still present in the product as a fallback.</td> 
    <td>Lazy content migration utility can be triggered from Forms Migration UI, in order to automatically convert to the new path.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/dam/adhocassetshare</span></td> 
    <td><span class="code">/libs/settings/dam/adhocassetshare</span></td> 
    <td>tenant-aware</td> 
@@ -117,8 +117,8 @@ translate: y
    <td>Project level customizations need to be cut and pasted under the equivalent <span class="code">/apps</span> or <span class="code">/conf</span> paths as applicable.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/dam/workflow/notification/email/downloadasset</span></td> 
    <td><span class="code">/libs/settings/dam/workflow</span></td> 
    <td>tenant-aware</td> 
@@ -126,8 +126,8 @@ translate: y
    <td>Project level customizations need to be cut and pasted under the equivalent <span class="code">/apps</span> or <span class="code">/conf</span> paths as applicable.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/dam/drm/licenses/</span></td> 
    <td><span class="code">/libs/settings/dam/drm</span></td> 
    <td>absolute path</td> 
@@ -135,8 +135,8 @@ translate: y
    <td>Project level customizations need to be cut and pasted under the equivalent <span class="code">/apps</span> or <span class="code">/conf</span> paths as applicable.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/dam/indesign/scripts</span></td> 
    <td><span class="code">/libs/settings/dam/indesign</span></td> 
    <td>tenant-aware</td> 
@@ -144,8 +144,8 @@ translate: y
    <td><p>Project level customizations need to be cut and pasted under the equivalent <span class="code">/apps</span> or <span class="code">/conf</span> paths as applicable.</p> <p>If you are running a customized Asset Ingestion workflow references to the old location in /etc wold still exist in the Media Extraction Process Configuration. Along with moving the scripts out of /etc to the equivalent /apps and /conf paths, customized Media Extraction process arguments need to be changed from absolute to relative paths, to accomodate for the changes.</p> <p>For more info, see <a href="/content/help/en/experience-manager/6-2/assets/using/indesign">this page</a>.</p> <p> </p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/dam/video</span></td> 
    <td><span class="code">/libs/settings/dam/video</span></td> 
    <td>tenant-aware</td> 
@@ -153,8 +153,8 @@ translate: y
    <td>Project level customizations need to be cut and pasted under the equivalent <span class="code">/apps</span> or <span class="code">/conf</span> paths as applicable.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/notification/email/default</span></td> 
    <td><span class="code">/libs/settings/dam/notification</span></td> 
    <td>tenant-aware</td> 
@@ -162,8 +162,8 @@ translate: y
    <td>None</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/designs</span><br /> </td> 
    <td><span class="code">/libs/settings/<strong>wcm</strong>/designs</span></td> 
    <td>Absolute Path</td> 
@@ -171,8 +171,8 @@ translate: y
    <td><br /> Move custom content from <span class="code">/etc/design</span> to <span class="code">/apps/settings/wcm/design</span> for alingment with the new repository structure. In the future, consider upgrading your sites to use editable templates functionality, which replaces the need for design mode and thus this content.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><p><span class="code">/etc/clientlibs/foundation/asseteditor</span></p> <p><span class="code">/etc/clientlibs/foundation/assetshare</span></p> <p><span class="code">/etc/clientlibs/foundation/assetinsights</span></p> </td> 
    <td><span class="code">/libs/dam/clientlibs</span></td> 
    <td>N/A</td> 
@@ -180,8 +180,8 @@ translate: y
    <td>None</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/tags</span></td> 
    <td><span class="code">/content/cq:tags</span></td> 
    <td>N/A</td> 
@@ -195,8 +195,8 @@ translate: y
     </ol> <p> </p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/scaffolding</span></td> 
    <td><p><span class="code">/libs/settings/wcm/template-types/scaffolding/scaffolding</span></p> <p><span class="code">/apps/settings/wcm/template-types/scaffolding/scaffolding</span></p> </td> 
    <td>absolute path</td> 
@@ -204,8 +204,8 @@ translate: y
    <td>Adobe recommends you use the new scaffold components under the new location.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/blueprints</span></td> 
    <td><p><span class="code">/apps/msm</span> for customer blueprint configurations</p> <p><span class="code">/libs/msm</span> for out of the box Screens and Commerce blueprint configurations</p> </td> 
    <td>absolute path</td> 
@@ -213,21 +213,21 @@ translate: y
    <td>The configurations need to be copied over to the new locations.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/mobile</span></td> 
    <td><span class="code">/libs/settings/mobile</span></td> 
    <td>tenant-aware</td> 
    <td>The feature leverages the Configuration Manager and still supports the old location as fallback.</td> 
-   <td> 
+   <td>
     <ol> 
-     <li>Relocate the configurations from <span class="code">/etc</span> to <span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/mobile</span></li> 
+     <li>Relocate the configurations from <span class="code">/etc</span> to <span class="code">/conf/&lt;tenant&gt;/settings/mobile</span></li> 
      <li>Then, update the reference in the content as follows:</li> 
-    </ol> <p><span class="code">/content/&amp;lt;tenant&amp;gt;/jcr:content/cq:deviceGroups{String[]}=mobile/groups/responsive</span></p> </td> 
+    </ol> <p><span class="code">/content/&lt;tenant&gt;/jcr:content/cq:deviceGroups{String[]}=mobile/groups/responsive</span></p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/msm/rolloutConfigs</span></td> 
    <td><span class="code">/libs/msm/wcm/rolloutconfigs</span></td> 
    <td>N/A</td> 
@@ -235,22 +235,22 @@ translate: y
    <td>To align with the new model, configurations need to be created in the new locations, and the old ones under <span class="code">/etc</span> must be deleted.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/segmentation/contexthub</span></td> 
    <td><span class="code">/conf/we-retail/settings/wcm/segments</span></td> 
    <td>tenant-aware</td> 
    <td><p>Segments from the old location:</p> 
     <ul> 
      <li>stay in read-only mode in audience console</li> 
-     <li>can be still loaded on page (if the given path is selected in <strong>Page Properties &amp;gt; Personalization &amp;gt; Segments Path</strong>)</li> 
+     <li>can be still loaded on page (if the given path is selected in <strong>Page Properties &gt; Personalization &gt; Segments Path</strong>)</li> 
      <li>can be used for content targetting</li> 
     </ul> </td> 
    <td>You can use the <a href="/upgrading-code-and-customizations.html?#MigrateConfigurations" target="_blank">Segments Migration Tool</a> to migrate to the new location.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/social/config/languageOpts</span></td> 
    <td><span class="code">/libs/social/translation/languageOpts</span></td> 
    <td>N/A</td> 
@@ -258,8 +258,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/community/templates</span></td> 
    <td><span class="code">/libs/settings/community/templates</span></td> 
    <td> </td> 
@@ -267,8 +267,8 @@ translate: y
    <td><p>A migration untility to align to the latest model can be found at <a href="https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-template-migration" target="_blank">this location</a>.</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span class="code">/etc/community/badging</span></td> 
    <td><p><strong>Badge Rules:</strong></p> <p><span class="code">/libs/settings/community/badging</span></p> <p><strong>Badge Images:</strong></p> <p>The out of the box images in the old location at <span class="code">/etc/community/badging/images</span> are moved to <span class="code">/libs/community/badging/images </span> </p> <p> </p> <p>Custom images are moved to <span class="code">/content/community/badging/images</span>.</p> <p> </p> </td> 
    <td>tenant-aware</td> 
@@ -284,26 +284,26 @@ translate: y
     </ol> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><p>/etc/cloudservices/facebookconnect</p> <p>/etc/cloudservices/twitterconnect</p> <p>/etc/cloudservices/pinterestconnect</p> </td> 
-   <td><p>/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/facebookconnect</p> <p>/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/twitterconnect</p> <p>/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/pinterestconnect</p> </td> 
+   <td><p>/conf/&lt;tenant&gt;/settings/cloudconfigs/facebookconnect</p> <p>/conf/&lt;tenant&gt;/settings/cloudconfigs/twitterconnect</p> <p>/conf/&lt;tenant&gt;/settings/cloudconfigs/pinterestconnect</p> </td> 
    <td>tenant-aware</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/community/scoring</td> 
    <td>/libs/settings/community/scoring</td> 
    <td> </td> 
    <td>The code is aware of the old badging paths.<br /> It always checks the existence of older paths<br /> first, if not present then it will fall back to new paths.</td> 
    <td><p>Manual Migration is Required</p> <p>Same as Badging rules above</p> </td> 
-   <td><p>Custom Rules can go into /apps/settings/community/scoring/rules at deploy time as a package. OR can be created in conf/&amp;lt;site-context&amp;gt;/settings/community/scoring/rules via crxde.</p> <p>To use/consume rules from /conf , communities site must have cq:conf property set. If no cq:conf set, scoringrules would be directly read from the given path for property 'scoringRules' at site's root node e.g./content/we-retail/us/en/community/jcr:content</p> <p> </p> </td> 
+   <td><p>Custom Rules can go into /apps/settings/community/scoring/rules at deploy time as a package. OR can be created in conf/&lt;site-context&gt;/settings/community/scoring/rules via crxde.</p> <p>To use/consume rules from /conf , communities site must have cq:conf property set. If no cq:conf set, scoringrules would be directly read from the given path for property 'scoringRules' at site's root node e.g./content/we-retail/us/en/community/jcr:content</p> <p> </p> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/community/notifications</td> 
    <td>/libs/settings/community/notifications</td> 
    <td>Absolute Path</td> 
@@ -316,8 +316,8 @@ translate: y
    <td><p>manual migration needed if customer want to move to new paths under "/apps/settings". We are using granite conf manager.</p> <p>So, in that case they need to set the property mergeList = true on "/libs/settings/community/subscriptions" node and add an nt:unstructred child node.</p> <p> </p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/community/subscriptions</td> 
    <td>/libs/settings/community/subscriptions</td> 
    <td>Absolute Path</td> 
@@ -330,8 +330,8 @@ translate: y
    <td><p>manual migration needed if customer want to move to new paths under</p> <p>"/apps/settings". We are using granite conf manager.</p> <p>So, in that case they need to set the property mergeList = true on "/libs/settings/community/subscriptions" node and add an nt:unstructred child node.</p> <p> </p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><p>/etc/enablement/reporting/config</p> <p>/libs/social/config/reporting</p> </td> 
    <td>-</td> 
    <td>N/A</td> 
@@ -339,8 +339,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/notification</td> 
    <td>/libs/community/notifications</td> 
    <td>N/A</td> 
@@ -348,8 +348,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/social/notification/emailtemplates/enrollment</td> 
    <td>-</td> 
    <td>N/A</td> 
@@ -357,8 +357,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/socialconfig/srpc/defaultconfiguration</td> 
    <td>/conf/global/settings/community/srpc/defaultconfiguration</td> 
    <td>global</td> 
@@ -366,8 +366,8 @@ translate: y
    <td>Lazy Content Migration Task available at<br /> <a href="https://git.corp.adobe.com/CQ/compat/blob/master/bundles/codeupgrade/src/main/java/com/day/cq/compat/codeupgrade/impl/cq64/CQ64CommunitiesConfigsCleanupTask.java">CQ64CommunitiesConfigsCleanupTask.java</a></td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/watchwords</td> 
    <td>/libs/community/watchwords</td> 
    <td>N/A</td> 
@@ -375,8 +375,8 @@ translate: y
    <td><p>Lazy Content Migration Task available at<br /> <a href="https://git.corp.adobe.com/CQ/compat/blob/master/bundles/codeupgrade/src/main/java/com/day/cq/compat/codeupgrade/impl/cq64/CQ64CommunitiesConfigsCleanupTask.java">CQ64CommunitiesConfigsCleanupTask.java</a></p> <p>Move watchwords from etc/watchwords to conf/global/settings/community/watchwords</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/cloudservices/socialdatastore</td> 
    <td>-</td> 
    <td>N/A</td> 
@@ -384,8 +384,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/community/assets/images/siteblueprint</td> 
    <td>/libs/community/assets/images/siteblueprint</td> 
    <td>N/A</td> 
@@ -393,8 +393,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/dam/scorm<br /> </td> 
    <td>/libs/dam/scorm</td> 
    <td>N/A</td> 
@@ -402,8 +402,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/forms/social</td> 
    <td>-</td> 
    <td>N/A</td> 
@@ -411,8 +411,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/community/tenants</td> 
    <td>-</td> 
    <td>N/A</td> 
@@ -420,8 +420,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/clientlibs/ckeditor</td> 
    <td>/libs/clientlibs/ckeditor</td> 
    <td>N/A</td> 
@@ -429,8 +429,8 @@ translate: y
    <td>Editing of these clientlibs was never supported and/or documented.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/workflow/instances</td> 
    <td>/var/workflow/instances</td> 
    <td>N/A</td> 
@@ -438,8 +438,8 @@ translate: y
    <td><p>All nelwly started workflows have instance information in<br /> the new /var location.</p> <p>Doc review issuse: <a href="https://jira.corp.adobe.com/browse/CQ-4226255"><img src="https://jira.corp.adobe.com/secure/viewavatar?size=xsmall&amp;avatarId=18818&amp;avatarType=issuetype" />CQ-4226255</a> - Review Documentation for workflow and workflow Editor In Progress</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/workflow/models</td> 
    <td><p>/libs/settings/workflow/models</p> <p>/conf/global/settings/workflow/models<br /> </p> <p>/var/workflow/models</p> </td> 
    <td>Absolute Path</td> 
@@ -447,8 +447,8 @@ translate: y
    <td><p>All newly created models are created in /conf/global/settings location<br /> Any edits in /etc or /libs require user to conciously create an override in /cong/global/settings before editing can be done. The Edit button has to be selected, and it will cause the override in /conf to be created and editing allowed.</p> <p>Doc review issuse: <a href="https://jira.corp.adobe.com/browse/CQ-4226255"><img src="https://jira.corp.adobe.com/secure/viewavatar?size=xsmall&amp;avatarId=18818&amp;avatarType=issuetype" />CQ-4226255</a> - Review Documentation for workflow and workflow Editor In Progress</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/workflow/launcher</td> 
    <td><p>/libs/settings/workflow/launcher</p> <p>/conf/global/settings/workflow/launcher</p> </td> 
    <td>Absolute Path</td> 
@@ -456,8 +456,8 @@ translate: y
    <td><p>Newly created/edited launcher configurations are in /conf location.</p> <p>Doc review issuse: <a href="https://jira.corp.adobe.com/browse/CQ-4226255"><img src="https://jira.corp.adobe.com/secure/viewavatar?size=xsmall&amp;avatarId=18818&amp;avatarType=issuetype" />CQ-4226255</a> - Review Documentation for workflow and workflow Editor In Progress</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/projects/dashboard/gadgets</td> 
    <td><p>/libs/cq/core/content/projects/dashboard/gadgets</p> <p>/apps/cq/core/content/projects/dashboard/gadgets</p> </td> 
    <td>N/A</td> 
@@ -465,8 +465,8 @@ translate: y
    <td>By default the legacy location gadgets not installed.<br /> Doc review issuse: <a href="https://jira.corp.adobe.com/browse/CQ-4226255"><img src="https://jira.corp.adobe.com/secure/viewavatar?size=xsmall&amp;avatarId=18818&amp;avatarType=issuetype" />CQ-4226255</a> - Review Documentation for workflow and workflow Editor In Progress</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/content/projects/translationjobs</td> 
    <td><p>/libs/cq/core/content/projects/dashboard/gadgets/translationjob</p> <p>/libs/cq/core/content/projects/dashboard/gadgets/translationsummary</p> </td> 
    <td>N/A</td> 
@@ -474,8 +474,8 @@ translate: y
    <td>Same as /etc/projects/dashboard/gadgets</td> 
    <td>Same as /etc/projects/dashboard/gadgets</td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/workflow/models</td> 
    <td><p>/libs/settings/workflow/models</p> <p>/conf/global/settings/workflow/models</p> </td> 
    <td>Absolute Path (as above)</td> 
@@ -483,8 +483,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/workflow/notification</td> 
    <td><p>/libs/settings/workflow/notification</p> <p>/conf/global/settings/workflow/notification</p> </td> 
    <td>Absolute Path</td> 
@@ -492,8 +492,8 @@ translate: y
    <td>Doc review issuse: <a href="https://jira.corp.adobe.com/browse/CQ-4226255"><img src="https://jira.corp.adobe.com/secure/viewavatar?size=xsmall&amp;avatarId=18818&amp;avatarType=issuetype" />CQ-4226255</a> - Review Documentation for workflow and workflow Editor In Progress</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/workflow/scripts</td> 
    <td><p>/libs/workflow/scripts</p> <p>/apps/workflow/scripts</p> </td> 
    <td>Absolute Path</td> 
@@ -514,10 +514,10 @@ translate: y
      <li>Editing and saving a WF Step (Process, Splits, etc.) that references a script under /etc/workflow/scripts will remove the script reference entirely.</li> 
     </ul> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/cloudservices/translation</td> 
-   <td><p>/libs/settings/cloudconfigs/translation/translationcfg</p> <p>/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/translation/translationcfg</p> <p> </p> </td> 
+   <td><p>/libs/settings/cloudconfigs/translation/translationcfg</p> <p>/conf/&lt;tenant&gt;/settings/cloudconfigs/translation/translationcfg</p> <p> </p> </td> 
    <td>tenant-aware</td> 
    <td>Legacy cloudservices. Will be persisted on an inplace upgraded set up. Code to list them and read them still present in the product as a fallback.</td> 
    <td><p>When a user want to move cloud configurations to /conf, he can either</p> 
@@ -527,10 +527,10 @@ translate: y
     </ul> <p>Once this is done, the configs need to be associated with Sites via Sites → Properties.</p> <p><strong>NOTE</strong>: Translation connectors should be compatible for AEM 6.4 for this to work.</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/cloudservices/msft-translation</td> 
-   <td><p>/libs/settings/cloudconfigs/translation/msft-translation</p> <p>/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/translation/msft-translation</p> </td> 
+   <td><p>/libs/settings/cloudconfigs/translation/msft-translation</p> <p>/conf/&lt;tenant&gt;/settings/cloudconfigs/translation/msft-translation</p> </td> 
    <td>tenant-aware</td> 
    <td>Legacy cloudservices. Will be persisted on an inplace upgraded set up. Code to list them and read them still present in the product as a fallback.</td> 
    <td><p>When a user want to move cloud configurations to /conf, he can either</p> 
@@ -540,10 +540,10 @@ translate: y
     </ul> <p>Once this is done, the configs need to be associated with Sites via Sites → Properties.</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/cloudsettings</td> 
-   <td><p>/libs/settings/cloudsettings</p> <p>/conf/&amp;lt;tenant&amp;gt;/settings/cloudsettings</p> </td> 
+   <td><p>/libs/settings/cloudsettings</p> <p>/conf/&lt;tenant&gt;/settings/cloudsettings</p> </td> 
    <td>tenant-aware</td> 
    <td><p>Existing entries under /etc/ remain in place on upgrade</p> <p>Accessing the cloud settings UI post-upgrade will copy over the existing cloud settings to the new structure, while preserving the existing content for backwards compatibility.</p> </td> 
    <td><p>Content models are the same, only location changed to align with context aware configurations.</p> <p>(Automatic) lazy migration task will perform the following:</p> 
@@ -559,8 +559,8 @@ translate: y
     </ul> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/replication/treeactivation</td> 
    <td>/libs/replication/treeactivation</td> 
    <td>N/A</td> 
@@ -568,8 +568,8 @@ translate: y
    <td>No action required, no models involved. Classic UI page that moved.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/cloudservices/dmscene7</td> 
    <td>/conf/global/settings/cloudservices/dmscene7</td> 
    <td>only global</td> 
@@ -581,8 +581,8 @@ translate: y
    <td><p>The customer can run migration script.</p> <p><a href="http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.json">http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.json</a></p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/dam/viewers</td> 
    <td>/libs/dam/viewers</td> 
    <td>N/A</td> 
@@ -590,8 +590,8 @@ translate: y
    <td>The viewer is served via proxy pointing to /etc/dam/viewers location with content inside /libs/dam/viewers. Therefore, no change required for the customer.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/dam/jobs</td> 
    <td>/var/dam/jobs</td> 
    <td>N/A</td> 
@@ -599,8 +599,8 @@ translate: y
    <td>Temp location to hold zip file for client to download. There is no need to update since when the client requests to download the asset. It will generate file in the new location.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/dam/presets/viewer</td> 
    <td><p>/libs/settings/dam/dm/presets/viewer</p> <p>/conf/global/settings/dam/dm/presets/viewer</p> </td> 
    <td>only global</td> 
@@ -608,8 +608,8 @@ translate: y
    <td><p>For OOTB viewer preset, it will only available in the new location. For custom viewer preset, the client will have to run migration script to move the node from /etc to /conf as <a href="http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.json">http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.json</a></p> <p>Similar to BC case, the client doesn't have to adjust their copyURL/embed code to point to /conf. The existing request to /etc will be re-route under the hood to the correct content from /conf.</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/dam/imageserver/macros</td> 
    <td>/conf/global/settings/dam/dm/presets/macro</td> 
    <td>only global</td> 
@@ -617,8 +617,8 @@ translate: y
    <td><p>The customer can run migration script.</p> <p><a href="http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.json">http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.json</a></p> <p> </p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/dam/video/dynamicmedia/Adaptive Video Encoding</td> 
    <td>/libs/settings/dam/dm/presets/video/jcr:content/Adaptive Video Encoding</td> 
    <td>N/A</td> 
@@ -626,8 +626,8 @@ translate: y
    <td>No need to do anything since this is OOTB profile. It will only exist in the new location.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/dam/video/dynamicmedia</td> 
    <td>/conf/global/settings/dam/dm/presets/video/jcr:content</td> 
    <td>only global</td> 
@@ -635,8 +635,8 @@ translate: y
    <td><p>The customer can run migration script.</p> <p><a href="http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.json">http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.json</a></p> <p> </p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/cloudservices/dynamicmediaservices</td> 
    <td>/conf/global/settings/dam/dm/cloudservices/dynamicmediaservices</td> 
    <td>only global</td> 
@@ -648,8 +648,8 @@ translate: y
    <td><p>The customer can run migration script.</p> <p><a href="http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.jso">http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.jso</a></p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/cloudservices/youtube</td> 
    <td>/libs/settings/dam/dm/youtube</td> 
    <td>only global</td> 
@@ -661,8 +661,8 @@ translate: y
    <td><p>The customer can run migration script.</p> <p><a href="http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.json">http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.json</a></p> <p> </p> <p> </p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/dam/presets/analytics</td> 
    <td>/libs/settings/dam/dm/analytics</td> 
    <td>only global</td> 
@@ -670,8 +670,8 @@ translate: y
    <td><p>The customer can run migration script.</p> <p><a href="http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.json">http://localhost:4502/libs/settings/dam/dm/presets.migratedmcontent.json</a></p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><p>/etc/notification/email/default/com.day.cq.replication</p> <p>/etc/notification/email/default/com.day.cq.wcm.core.page</p> </td> 
    <td>/libs/settings/notification-templates</td> 
    <td>only global</td> 
@@ -679,8 +679,8 @@ translate: y
    <td>If customers had modified those templates, they could now create new templates under /apps/settings/notification-templates and do their modifications there.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><p>/etc/msm/rolloutconfigs/launch</p> <p>/etc/msm/rolloutconfigs/pushonmodifyshallow</p> </td> 
    <td><p>/libs/msm/launches/rolloutconfigs/launch</p> <p>/libs/msm/launches/rolloutconfigs/pushonmodifyshallow</p> </td> 
    <td>N/A</td> 
@@ -688,8 +688,8 @@ translate: y
    <td><p>Service is able to map path of OOTB Configurations:</p> <p>Simply delete them.</p> <p>To meet 0dt requirement or on the long run:</p> <p>Script to move Configurations and references in Content.</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/commerce/products</td> 
    <td>/var/commerce/products</td> 
    <td>N/A</td> 
@@ -713,8 +713,8 @@ translate: y
     </ul> <p>After migration AEM needs a restart.</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/commerce/orders</td> 
    <td>/var/commerce/orders</td> 
    <td>N/A</td> 
@@ -722,8 +722,8 @@ translate: y
    <td>See the description for /etc/commerce/products.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/commerce/collections</td> 
    <td><span style="color: rgb(0,0,0);">/var/commerce/collections</span></td> 
    <td>N/A</td> 
@@ -731,8 +731,8 @@ translate: y
    <td>See the description for /etc/commerce/products.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/commerce/classifications</td> 
    <td>/var/commerce/classifications</td> 
    <td>N/A</td> 
@@ -740,8 +740,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/commerce/shipping-methods</td> 
    <td>/var/commerce/shipping-methods</td> 
    <td>N/A</td> 
@@ -749,8 +749,8 @@ translate: y
    <td>See the description for /etc/commerce/products.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/commerce/payment-methods</td> 
    <td>/var/commerce/payment-methods</td> 
    <td>N/A</td> 
@@ -758,8 +758,8 @@ translate: y
    <td>See the description for /etc/commerce/products.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/designs/commerce/images/cancel.png</td> 
    <td>-</td> 
    <td>N/A</td> 
@@ -767,8 +767,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/taskmanagement</td> 
    <td>/var/taskmanagement</td> 
    <td>N/A</td> 
@@ -776,8 +776,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/clientlibs/foundation/sitecatalyst</td> 
    <td>/libs/cq/analytics/clientlibs/analytics</td> 
    <td>N/A</td> 
@@ -785,8 +785,8 @@ translate: y
    <td>Editing of these clientlibs was never supported and/or documented.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/clientlibs/foundation/personalization</td> 
    <td>/etc/clientlibs/foundation/personalization</td> 
    <td>N/A</td> 
@@ -794,8 +794,8 @@ translate: y
    <td>Editing of these clientlibs was never supported and/or documented.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/clientlibs/foundation/searchpromote</td> 
    <td>/libs/cq/searchpromote/clientlibs/searchpromote</td> 
    <td>N/A</td> 
@@ -803,8 +803,8 @@ translate: y
    <td>Editing of these clientlibs was never supported and/or documented.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/clientlibs/foundation/target</td> 
    <td>/libs/cq/target/clientlibs/target</td> 
    <td>N/A</td> 
@@ -812,8 +812,8 @@ translate: y
    <td>Editing of these clientlibs was never supported and/or documented.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/workflow/packages</td> 
    <td>/var/workflow/packages</td> 
    <td>N/A</td> 
@@ -821,8 +821,8 @@ translate: y
    <td>Packages found in both /etc/workflow/packages and /var/workflow/packages can still be edited with the classic package editor (you can use it as the package editor URL). For better alignment with the new repository structure, /etc content can be copied to /var.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><span style="color: rgb(0,0,0);">/<span class="ediffChangedA">etc</span>/workflow/instances</span></td> 
    <td>/var/workflow/instances</td> 
    <td>N/A</td> 
@@ -830,8 +830,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/commerce/searchpromote</td> 
    <td>/var/cq/searchpromote</td> 
    <td>N/A</td> 
@@ -839,8 +839,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/dtm-hook</td> 
    <td>/var/cq/dtm/web-hook</td> 
    <td>N/A</td> 
@@ -848,8 +848,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/clientlibs/dtm</td> 
    <td>/var/cq/dtm/clientlibs</td> 
    <td>N/A</td> 
@@ -857,8 +857,8 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/clientlibs/address</td> 
    <td>/libs/cq/address/clientlibs</td> 
    <td>N/A</td> 
@@ -866,20 +866,20 @@ translate: y
    <td> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/translation/supportedLanguages</td> 
    <td><p>/libs/settings/translation/supportedLanguages</p> <p>/apps/settings/translation/supportedLanguages</p> </td> 
    <td>absolute path</td> 
    <td>Caveats: one would need to add customized languages to the list.</td> 
    <td>Overlay and update the new list with additional languages (if any). Alternatively, copying the old list to /apps location would also work.</td> 
-   <td> 
-    <div class="content-wrapper"> 
+   <td>
+    <div class="content-wrapper">
      <p><span style="color: rgb(0,0,0);">Added <span class="jira-issue" data-jira-key="CQ-4237887"><a class="jira-issue-key external-link" data-ext-link-init="true" target="_blank"><img class="icon" />CQ-4237887</a> - <span class="summary">[BC] read Translation supportedLanguages from /etc/translation/supportedLanguages on upgraded instance</span> <span class="aui-lozenge aui-lozenge-subtle aui-lozenge-complete jira-macro-single-issue-export-pdf">New</span></span> to fallback to older path in CFP/SP and <span><a class="external-link" data-ext-link-init="true" target="_blank">CQDOC-12213</a> to document the same.</span></span></p> 
     </div> <br /> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td>/etc/workflow/models/translation/translation_rules.xml</td> 
    <td><p>/libs/settings/translation/rules/translation_rules.xml</p> <p>/apps/settings/translation/rules/translation_rules.xml</p> <p>/conf/global/settings/translation/rules/translation_rules.xml</p> </td> 
    <td>only global</td> 
@@ -887,7 +887,7 @@ translate: y
    <td>To persist user's changes, copy file from /etc to /libs or /conf. Alternatively,<strong> </strong>remove file from etc.</td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 

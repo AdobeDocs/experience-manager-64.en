@@ -1,5 +1,5 @@
 ---
-uuid: fb4445d3-a382-4d94-9a25-63bb90c1efa6
+uuid: 3a12de67-f27e-4322-8041-7f475aaf8f4f
 index: y
 internal: n
 snippet: y
@@ -590,7 +590,7 @@ The benchmark tests were performed on the following specifications:
 | Operating System |RedHat Linux |RedHat Linux |
 | CPU / Cores |Intel(R) Xeon(R) CPU E5-2407 @2.40GHz, 8 cores |Intel(R) Xeon(R) CPU E5-2407 @2.40GHz, 8 cores  |
 | RAM |32GB |32GB |
-| Disk |Magnetic - &gt;1k IOPS |Magnetic - &gt;1k IOPS |
+| Disk |Magnetic - >1k IOPS |Magnetic - >1k IOPS |
 | Java |Oracle JRE Version 8 |N/A |
 | JVM Heap |16GB |N/A |
 | Product  |AEM 6.2 |MongoDB 3.2 WiredTiger |
@@ -675,8 +675,8 @@ For further details on TarMK vs MongoMK, see [Recommended Deployments](recommend
   </tr> 
   <tr> 
    <td>Disk</td> 
-   <td>Magnetic - &amp;gt;1k IOPS</td> 
-   <td>Magnetic - &amp;gt;1k IOPS</td> 
+   <td>Magnetic - &gt;1k IOPS</td> 
+   <td>Magnetic - &gt;1k IOPS</td> 
    <td> </td> 
   </tr> 
   <tr> 

@@ -1,5 +1,5 @@
 ---
-uuid: cef67f64-75f0-43cd-8b04-0ac5c6c32363
+uuid: 538698a1-445f-4784-afa1-1b93fae15581
 index: y
 internal: n
 snippet: y
@@ -434,7 +434,7 @@ Some of these will be dependent on your operating system.
   <tr> 
    <td>Thread dumps</td> 
    <td>Observe JVM threads. Identify contentions, locks and long-runners.</td> 
-   <td><p>Dependent on the operating system:<br /> - Unix/Linux: <span class="code">kill -QUIT &amp;lt;<i>pid</i>&amp;gt;</span><br /> - Windows (console mode): Ctrl-Break<br /> </p> <p>Analysis tools are also available, such as <a href="http://java.net/projects/tda/">TDA</a>.<br /> </p> </td> 
+   <td><p>Dependent on the operating system:<br /> - Unix/Linux: <span class="code">kill -QUIT &lt;<i>pid</i>&gt;</span><br /> - Windows (console mode): Ctrl-Break<br /> </p> <p>Analysis tools are also available, such as <a href="http://java.net/projects/tda/">TDA</a>.<br /> </p> </td> 
   </tr> 
   <tr> 
    <td>Heap Dumps</td> 
@@ -449,7 +449,7 @@ Some of these will be dependent on your operating system.
   <tr> 
    <td>Apache Bench</td> 
    <td>Identify memory leaks, selectively analyze response time.</td> 
-   <td><p>basic usage is:</p> <p><span class="code">ab -k -n &amp;lt;<i>requests</i>&amp;gt; -c &amp;lt;<i>concurrency</i>&amp;gt; &amp;lt;<i>url</i>&amp;gt;</span></p> <p>See <a href="#ApacheBench">Apache Bench</a> and the <a href="http://httpd.apache.org/docs/2.2/programs/ab.html">ab man page</a> for full details.</p> </td> 
+   <td><p>basic usage is:</p> <p><span class="code">ab -k -n &lt;<i>requests</i>&gt; -c &lt;<i>concurrency</i>&gt; &lt;<i>url</i>&gt;</span></p> <p>See <a href="#ApacheBench">Apache Bench</a> and the <a href="http://httpd.apache.org/docs/2.2/programs/ab.html">ab man page</a> for full details.</p> </td> 
   </tr> 
   <tr> 
    <td>Search Analysis</td> 

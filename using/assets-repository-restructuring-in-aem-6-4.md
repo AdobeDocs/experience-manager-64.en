@@ -1,5 +1,5 @@
 ---
-uuid: cbb37cfd-80b9-43ef-b142-16091bc80268
+uuid: b738d1fa-8a3f-49a9-9bf2-aadecc19ff0e
 index: y
 internal: n
 snippet: y
@@ -107,7 +107,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](repository-rest
     <ol> 
      <li>Copy the designs from the Previous Location to the New Location under <span class="code">/apps</span>.</li> 
      <li>Convert any CSS, JavaScript and static resources in the Design to a <a href="/content/help/en/experience-manager/6-4/sites/developing/using/clientlibs#main-pars_title_0" target="_blank">Client Library</a> with <span class="code">allowProxy = true</span>.</li> 
-     <li>Update references to the Previous Location in the <span class="code">cq:designPath</span> property via <strong>AEM &amp;gt; DAM Admin &amp;gt; Asset Share Page &amp;gt; Page Properties &amp;gt; Advanced Tab &amp;gt; Design Field</strong>.</li> 
+     <li>Update references to the Previous Location in the <span class="code">cq:designPath</span> property via <strong>AEM &gt; DAM Admin &gt; Asset Share Page &gt; Page Properties &gt; Advanced Tab &gt; Design Field</strong>.</li> 
      <li>Update any Pages referencing the Previous Location to use the new Client Library category. This requires updating Page implementation code.</li> 
      <li>Update the Dispatcher rules to allow serving of Client Libraries via the <span class="code">/etc.clientlibs/</span> proxy servlet.</li> 
     </ol> <p>For any Designs that are not managed in SCM, and modified run-time via Design Dialogs, do not move authorable designs out of <span class="code">/etc</span>.</p> </td> 

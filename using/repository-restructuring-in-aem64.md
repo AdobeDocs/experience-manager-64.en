@@ -1,5 +1,5 @@
 ---
-uuid: dd3ad30c-9eef-4fb6-bcbd-c9e7d6db91c9
+uuid: 577a0446-6fc1-48a1-902e-b5ce12796503
 index: y
 internal: n
 snippet: y
@@ -114,7 +114,7 @@ The table below includes an additional column named "Configuration Type" to expl
   <tr> 
    <td>AEM Sites / AEM Forms</td> 
    <td><p><span class="code">/etc/cloudservices/typekit</span></p> <p><span class="code">/etc/cloudservices/recaptcha</span></p> <p><span class="code">/etc/cloudservices/echosign</span></p> </td> 
-   <td><p><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/typekit</span></p> <p><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/recaptcha</span></p> <p><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/echosign</span></p> </td> 
+   <td><p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/typekit</span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/recaptcha</span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/echosign</span></p> </td> 
    <td>tenant-aware</td> 
    <td><p>Legacy cloudservices.</p> <p>Persisted on an in-place upgrade. Code to list and read them still present in AEM as a fallback.</p> </td> 
    <td>Lazy content migration utility can be triggered by Forms Migration UI, in order to automatically convert to the new path.<br /> </td> 
@@ -122,7 +122,7 @@ The table below includes an additional column named "Configuration Type" to expl
   <tr> 
    <td>AEM Forms</td> 
    <td><span class="code">/etc/cloudservices/fdm</span></td> 
-   <td><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/fdm</span></td> 
+   <td><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/fdm</span></td> 
    <td>tenant-aware</td> 
    <td><p>Legacy cloudservices.</p> <p>Persisted on an in-place upgraded setup. Code to list and read them still present in AEM as a fallback.</p> </td> 
    <td>Lazy content migration utility can be triggered by Forms Migration UI, in order to automatically convert to the new path.</td> 
@@ -207,9 +207,9 @@ The table below includes an additional column named "Configuration Type" to expl
    <td>The feature leverages the Configuration Manager and still supports the old location as fallback.</td> 
    <td> 
     <ol> 
-     <li>Relocate the configurations from <span class="code">/etc</span> to <span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/mobile</span></li> 
+     <li>Relocate the configurations from <span class="code">/etc</span> to <span class="code">/conf/&lt;tenant&gt;/settings/mobile</span></li> 
      <li>Then, update the reference in the content as follows:</li> 
-    </ol> <p><span class="code">/content/&amp;lt;tenant&amp;gt;/jcr:content/cq:deviceGroups{String[]}=mobile/groups/responsive</span></p> </td> 
+    </ol> <p><span class="code">/content/&lt;tenant&gt;/jcr:content/cq:deviceGroups{String[]}=mobile/groups/responsive</span></p> </td> 
   </tr> 
   <tr> 
    <td>AEM Sites</td> 
@@ -227,7 +227,7 @@ The table below includes an additional column named "Configuration Type" to expl
    <td><p>Segments from the old location:</p> 
     <ul> 
      <li>Remain in read-only mode in audience console.</li> 
-     <li>Still loaded on the page (if the given path is selected in <strong>Page Properties &amp;gt; Personalization &amp;gt; Segments Path</strong>).</li> 
+     <li>Still loaded on the page (if the given path is selected in <strong>Page Properties &gt; Personalization &gt; Segments Path</strong>).</li> 
      <li>Can be used for content targetting.</li> 
     </ul> </td> 
    <td>You can use the <a href="/upgrading-code-and-customizations.html?#MigrateConfigurations" target="_blank">Segments Migration Tool</a> to migrate to the new location.</td> 
@@ -267,7 +267,7 @@ The table below includes an additional column named "Configuration Type" to expl
   <tr> 
    <td>AEM Sites</td> 
    <td><p><span class="code">/etc/cloudservices/facebookconnect</span></p> <p><span class="code">/etc/cloudservices/twitterconnect</span></p> <p><span class="code">/etc/cloudservices/pinterestconnect</span></p> </td> 
-   <td><p><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/facebookconnect</span></p> <p><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/twitterconnect</span></p> <p><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/pinterestconnect</span></p> </td> 
+   <td><p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/facebookconnect</span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/twitterconnect</span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/pinterestconnect</span></p> </td> 
    <td>tenant-aware</td> 
    <td> </td> 
    <td> </td> 
@@ -347,7 +347,7 @@ The table below includes an additional column named "Configuration Type" to expl
   <tr> 
    <td>All</td> 
    <td><span class="code">/etc/cloudservices/translation</span></td> 
-   <td><p><span class="code">/libs/settings/cloudconfigs/translation/translationcfg</span></p> <p><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/translation/translationcfg</span></p> <p> </p> </td> 
+   <td><p><span class="code">/libs/settings/cloudconfigs/translation/translationcfg</span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/translation/translationcfg</span></p> <p> </p> </td> 
    <td>tenant-aware</td> 
    <td>Legacy cloudservices. Will be persisted on an in-place upgraded set up. Code to list them and read them is still present in the product as a fallback.</td> 
    <td><p>In order to move cloud configurations to <span class="code">/conf</span>, you can either:</p> 
@@ -359,7 +359,7 @@ The table below includes an additional column named "Configuration Type" to expl
   <tr> 
    <td>All</td> 
    <td><span class="code">/etc/cloudservices/msft-translation</span></td> 
-   <td><p><span class="code">/libs/settings/cloudconfigs/translation/msft-translation</span></p> <p><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/translation/msft-translation</span></p> </td> 
+   <td><p><span class="code">/libs/settings/cloudconfigs/translation/msft-translation</span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/translation/msft-translation</span></p> </td> 
    <td>tenant-aware</td> 
    <td>Legacy cloudservices. Will be persisted on an in-place upgraded set up. Code to list them and read them is still present in the product as a fallback.</td> 
    <td><p>In order to move cloud configurations to <span class="code">/conf</span>, you can either:</p> 
@@ -371,7 +371,7 @@ The table below includes an additional column named "Configuration Type" to expl
   <tr> 
    <td>All</td> 
    <td><span class="code">/etc/cloudsettings</span></td> 
-   <td><p><span class="code">/libs/settings/cloudsettings</span></p> <p><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudsettings</span></p> </td> 
+   <td><p><span class="code">/libs/settings/cloudsettings</span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudsettings</span></p> </td> 
    <td>tenant-aware</td> 
    <td><p>Existing entries under <span class="code">/etc</span> remain in place on upgrading the instance.</p> <p>Accessing the cloud settings UI after the upgrade will copy over the existing cloud settings to the new repository structure while preserving the existing content for backward compatibility.</p> </td> 
    <td><p>Content models are the same, only the location has been changed to align with context-aware configurations.</p> <p>The <a href="lazy-content-migration.md">Lazy Migration task</a> covering these cloud settings will perform the following actions:</p> 

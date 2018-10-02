@@ -1,5 +1,5 @@
 ---
-uuid: ff7fd407-9499-496c-834d-49ea86142513
+uuid: 49ca7cbd-15e3-4dd9-a26a-5822b525fe08
 index: y
 internal: n
 snippet: y
@@ -33,70 +33,70 @@ As described on the parent [Repository Restructuring in AEM 6.4](repository-rest
 ### E-mail Notification Templates
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
+ <tbody>
+  <tr>
    <td><strong>Previous location</strong></td> 
    <td><span class="code">/etc/community/notifications</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>New location(s)</strong></td> 
    <td><span class="code">/libs/settings/community/notifications</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Manual migration ia needed if you want to move to new path under "<span class="code">/apps/settings</span>". You can use the Granite Configuration Manager to perform the migration.</p> <p>You can perform the migration by setting the property <span class="code">mergeList</span> to <span class="code">true</span> on the "<span class="code">/libs/settings/community/subscriptions</span>" node and add an <span class="code">nt:unstructured</span> child node.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Notes</strong></td> 
    <td>N/A<br /> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ### Subscription Configurations
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
+ <tbody>
+  <tr>
    <td><strong>Previous location</strong></td> 
    <td><span class="code">/etc/community/subscriptions</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>New location(s)</strong></td> 
    <td><span class="code">/libs/settings/community/subscriptions</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Manual migration ia needed if you want to move to new path under "<span class="code">/apps/settings</span>". You can use the Granite Configuration Manager to perform the migration.</p> <p>You can perform the migration by setting the property <span class="code">mergeList</span> to <span class="code">true</span> on the "<span class="code">/libs/settings/community/subscriptions</span>" node and add an <span class="code">nt:unstructured</span> child node.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Notes</strong></td> 
    <td>N/A<br /> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ### Watchwords Configurations
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
+ <tbody>
+  <tr>
    <td><strong>Previous location</strong></td> 
    <td>/etc/watchwords</td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>New location(s)</strong></td> 
    <td>/libs/community/watchwords</td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td>A Lazy Migration task is available to clean up the Communities Configurations.<br /> <p>The Task moves watchwords from <span class="code">/etc/watchwords</span> to <span class="code">/conf/global/settings/community/watchwords</span>.</p> <p>If customized watchwords are stored in SCM, then they should be deployed to <span class="code">/apps/settings/...</span> and you must ensure that there is not an overlaying <span class="code">/conf/global/settings/...</span> configuration that would take precedence.</p> <p>Migration task removes <span class="code">/etc</span> locations.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Notes</strong></td> 
    <td>N/A<br /> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ---
@@ -106,16 +106,16 @@ As described on the parent [Repository Restructuring in AEM 6.4](repository-rest
 ### Badging Configurations
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
+ <tbody>
+  <tr>
    <td><strong>Previous location</strong></td> 
    <td><span class="code">/etc/community/badging</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>New location(s)</strong></td> 
    <td><p><strong>Badge Rules:</strong></p> <p><span class="code">/libs/settings/community/badging</span></p> <p><strong>Badge Images:</strong></p> <p>For default images: <span class="code">/etc/community/badging/images are moved to /libs/community/badging/images</span></p> <p>For custom images: <span class="code">/content/community/badging/images</span></p> <p> </p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Manual Migration is required.</p> <p>If your instance has customized the badging/scoring rules, there is no automated way to place all the rules under a bucket. Need customer inputs on which conf bucket (global or sitespecific) you want to use for your site.</p> <p>No UI available to configure the badging and scoring for a site.</p> <p>To align with new repository structure:</p> 
     <ol> 
@@ -129,67 +129,67 @@ As described on the parent [Repository Restructuring in AEM 6.4](repository-rest
       </ol> </li> 
      <li>Similarly, adjust the references to scoring rules in a badging rule node to have a relativepath.</li> 
     </ol> <p> </p> <p>Finally, clean up by removing the resource <span class="code">/etc/community/badging</span></p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Notes</strong></td> 
    <td>N/A<br /> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ### Classic Communities Console Designs
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
+ <tbody>
+  <tr>
    <td><strong>Previous location</strong></td> 
    <td><span class="code">/etc/designs/social/console</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>New location(s)</strong></td> 
    <td><p><span class="code">/libs/settings/wcm/designs/social/console</span></p> <p><span class="code">/apps/settings/wcm/designs/social/console</span></p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td>N/A</td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Notes</strong></td> 
    <td>N/A<br /> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ### Facebook Social Login Configurations
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
+ <tbody>
+  <tr>
    <td><strong>Previous location</strong></td> 
    <td><span class="code">/etc/cloudservices/facebookconnect</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/conf/global/settings/cloudconfigs/facebookconnect<br /> </span></p> <p><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/facebookconnect</span></p> <p> </p> </td> 
-  </tr> 
-  <tr> 
+   <td><p><span class="code">/conf/global/settings/cloudconfigs/facebookconnect<br /> </span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/facebookconnect</span></p> <p> </p> </td> 
+  </tr>
+  <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any new Facebook Cloud Configurations must be migrated to the New Location.</p> 
     <ol> 
-     <li>Migrate existing configurations in the Previous Location to the New Location. 
+     <li>Migrate existing configurations in the Previous Location to the New Location.
       <ol> 
-       <li>Manually recreate new Facebook Social Login Configurations via the AEM authoring UI at <strong>Tools &amp;gt; Cloud Services &amp;gt; Facebook Social Login Configuration</strong>.<br /> or <br /> </li> 
-       <li>Copy any new Facebook Cloud Configurations from Previous Location to the appropriate New Location, under <span class="code">/conf/global or /conf/&amp;lt;tenant&amp;gt;</span>.</li> 
+       <li>Manually recreate new Facebook Social Login Configurations via the AEM authoring UI at <strong>Tools &gt; Cloud Services &gt; Facebook Social Login Configuration</strong>.<br /> or <br /> </li> 
+       <li>Copy any new Facebook Cloud Configurations from Previous Location to the appropriate New Location, under <span class="code">/conf/global or /conf/&lt;tenant&gt;</span>.</li> 
       </ol> </li> 
      <li>Update any AEM Communities Site root to reference the new Facebook Social Login Configuration by setting the <span class="code">[cq:Page]/jcr:content@cq:conf</span> property to the absolute path in the New Location.</li> 
      <li>Disassociate the legacy Facebook Connect Cloud Service from any AEM Communities site roots updated to reference the New Location.</li> 
     </ol> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Notes</strong></td> 
    <td>N/A<br /> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ### Language Options Configurations
@@ -203,48 +203,48 @@ As described on the parent [Repository Restructuring in AEM 6.4](repository-rest
 ### Pinterest Social Login Configurations
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
+ <tbody>
+  <tr>
    <td><strong>Previous location</strong></td> 
    <td><span class="code">/etc/cloudservices/pinterestconnect</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/conf/global/settings/cloudconfigs/pinterestconnect<br /> </span></p> <p><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/pinterestconnect</span></p> <p> </p> </td> 
-  </tr> 
-  <tr> 
+   <td><p><span class="code">/conf/global/settings/cloudconfigs/pinterestconnect<br /> </span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/pinterestconnect</span></p> <p> </p> </td> 
+  </tr>
+  <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any new Pinterest Cloud Configurations must be migrated to the New Location.</p> 
     <ol> 
-     <li>Migrate existing configurations in the Previous Location to the New Location. 
+     <li>Migrate existing configurations in the Previous Location to the New Location.
       <ol> 
-       <li>Manually recreate new Pinterest Social Login Configurations via the AEM authoring UI at <strong>Tools &amp;gt; Cloud Services &amp;gt; Pinterest Social Login Configuration</strong>.<br /> or</li> 
-       <li>Copy any new Pinterest Cloud Configurations from Previous Location to the appropriate New Location under <span class="code">/conf/global or /conf/&amp;lt;tenant&amp;gt;</span>.</li> 
+       <li>Manually recreate new Pinterest Social Login Configurations via the AEM authoring UI at <strong>Tools &gt; Cloud Services &gt; Pinterest Social Login Configuration</strong>.<br /> or</li> 
+       <li>Copy any new Pinterest Cloud Configurations from Previous Location to the appropriate New Location under <span class="code">/conf/global or /conf/&lt;tenant&gt;</span>.</li> 
       </ol> </li> 
      <li>Update any AEM Communities Site root to reference the new Pinterest Social Login Configuration by settings the <span class="code">[cq:Page]/jcr:content@cq:conf</span> property to the absolute path in the New Location.</li> 
      <li>Disassociate the legacy Pinterest Connect Cloud Service from any AEM Communities site roots updated to reference the New Location.</li> 
     </ol> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Notes</strong></td> 
    <td>N/A<br /> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ### Scoring Configurations
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
+ <tbody>
+  <tr>
    <td><strong>Previous location</strong></td> 
    <td><span class="code">/etc/community/scoring</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>New location(s)</strong></td> 
    <td><span class="code">/libs/settings/community/scoring</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>To align with new repository structure, scoring rules can be stored in <span class="code">/apps/settings/</span> or /<span class="code">conf/.../settings</span></p> 
     <ol> 
@@ -252,71 +252,71 @@ As described on the parent [Repository Restructuring in AEM 6.4](repository-rest
     </ol> <p>Create context-aware configs in <span class="code">/conf/</span> by using CRXDELite:</p> 
     <ol> 
      <li>Create the configs in the desired <span class="code">/conf/.../settings</span> location<br /> </li> 
-     <li>Communities site must have the <span class="code">cq:conf </span>property property set. 
+     <li>Communities site must have the <span class="code">cq:conf </span>property property set.
       <ol> 
        <li>If no <span class="code">cq:conf</span> is set, scoring rules would be directly read from the given path for property '<span class="code">scoringRules</span>' at the site's root node, for example: <span class="code">/content/we-retail/us/en/community/jcr:content</span></li> 
       </ol> </li> 
     </ol> <p>Cleanup: Remove the resource <span class="code">/etc/community/scoring</span></p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Notes</strong></td> 
    <td>N/A<br /> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ### Twitter Social Login Configurations
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
+ <tbody>
+  <tr>
    <td><strong>Previous location</strong></td> 
    <td><span class="code">/etc/cloudservices/twitterconnect</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>New location(s)</strong></td> 
-   <td><p><span class="code">/conf/global/settings/cloudconfigs/twitterconnect<br /> </span></p> <p><span class="code">/conf/&amp;lt;tenant&amp;gt;/settings/cloudconfigs/twitterconnect</span></p> <p> </p> </td> 
-  </tr> 
-  <tr> 
+   <td><p><span class="code">/conf/global/settings/cloudconfigs/twitterconnect<br /> </span></p> <p><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/twitterconnect</span></p> <p> </p> </td> 
+  </tr>
+  <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any new Twitter Cloud Configurations must be migrated to the New Location.</p> 
     <ol> 
-     <li>Migrate existing configurations in the Previous Location to the New Location. 
+     <li>Migrate existing configurations in the Previous Location to the New Location.
       <ol> 
-       <li>Manually recreate new Twitter Social Login Configurations via the AEM authoring UI at <strong>Tools &amp;gt; Cloud Services &amp;gt; Twitter Social Login Configuration</strong>.<br /> or <br /> </li> 
-       <li>Copy any new Twitter Cloud Configurations from Previous Location to the appropriate New Location, under <span class="code">/conf/global or /conf/&amp;lt;tenant&amp;gt;</span>.</li> 
+       <li>Manually recreate new Twitter Social Login Configurations via the AEM authoring UI at <strong>Tools &gt; Cloud Services &gt; Twitter Social Login Configuration</strong>.<br /> or <br /> </li> 
+       <li>Copy any new Twitter Cloud Configurations from Previous Location to the appropriate New Location, under <span class="code">/conf/global or /conf/&lt;tenant&gt;</span>.</li> 
       </ol> </li> 
      <li>Update any AEM Communities Site root to reference the new Twitter Social Login Configuration by setting the <span class="code">[cq:Page]/jcr:content@cq:conf</span> property to the absolute path in the New Location.</li> 
      <li>Disassociate the legacy Twitter Connect Cloud Service from any AEM Communities site roots updated to reference the New Location.</li> 
     </ol> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Notes</strong></td> 
    <td>N/A<br /> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+ </tbody>
 </table>
 
 ### Misc
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
+ <tbody>
+  <tr>
    <td><strong>Previous location</strong></td> 
    <td><span class="code">/etc/community/templates</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>New location(s)</strong></td> 
    <td><span class="code">/libs/settings/community/templates</span></td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Adobe has provided a migration utility at:</p> <p><a href="https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-template-migration">https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-template-migration</a></p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+  <tr>
    <td><strong>Notes</strong></td> 
-   <td>The existing custom templates would move to <span class="code">/conf/global/settings/community/template/&amp;lt;groups/sites/functions&amp;gt;</span></td> 
-  </tr> 
- </tbody> 
+   <td>The existing custom templates would move to <span class="code">/conf/global/settings/community/template/&lt;groups/sites/functions&gt;</span></td> 
+  </tr>
+ </tbody>
 </table>
 

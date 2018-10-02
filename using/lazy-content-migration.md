@@ -1,5 +1,5 @@
 ---
-uuid: 84b10c1e-d5d8-4c8a-ae1c-90730b97f887
+uuid: 5dbf22a4-0f95-43ab-902a-224d69e4099c
 index: y
 internal: n
 snippet: y
@@ -26,25 +26,25 @@ Below is the full list of `CodeUpgradeTasks` introduced in 6.4:
 
 | **Name** |**Relevant** **for AEM versions prior to** |**Migration** **Type** |**Details** |
 |---|---|---|---|
-| `Cq561ProjectContentUpgrade` |&lt; 5.6.1 |Immediate |  |
+| `Cq561ProjectContentUpgrade` |< 5.6.1 |Immediate |  |
 | `Cq60MSMContentUpgrade` |< 6.0 |Immediate |Detects all `LiveRelationShips` from `VersionStorage` that have been deleted and add exclusion property to parent |
-| `Cq61CloudServicesContentUpgrade` |&lt; 6.1 |Immediate |Restructures cloudservices for secure by default setup |
-| `Cq62ConfContentUpgrade` |&lt; 6.2 |Immediate |Removes property based linking from **/content** to **/conf** (replaced by the OSGi mechanism), generates corresponding OSGi configuration |
-| `Cq62FormsContentUpgrade` |&lt; 6.2 |Immediate |Due to merge_preserve handling the secure by default deny rule overrides given permissions leading to the need to reorder on upgrade |
-| `CQ62Html5SmartFileUpgrade` |&lt; 6.2 |Immediate |Detects components utilizing the Html5SmartFile widget, searches for usages of the component in the content and restructures persistence, effectively moving the binary a level down and not store it on component level. |
-| `Cq62ProjectsCodeUpgrade` |&lt; 6.2 |Immediate |Moves old style projects from **/etc/projects** to **/content/projects** |
-| `Cq62TargetCampaignsContentUpgrade` |&lt; 6.2 |Immediate |Introduces a container layer to hierarchy (Areas) and adjusts references. |
-| `Cq62TargetContentUpgrade` |&lt; 6.2 |Immediate |Sets fixed location names to target components. |
-| `Cq62WorkflowContentUpgrade` |&lt; 6.2 |Immediate |Complex transformation of workflow models predating 6.2 structures, instances, notifications, then merging back from the backup location from **/var/backup** |
-| `CQ63AssetsMetadataFormsUpdate` |&lt; 6.3 |Immediate |Moves assets, custom metadata schemas and processing profiles from **/apps** to **/conf** and translates the metadata schema and metadata profiles forms from coral2 to coral3. |
-| `CQ63AssetsSearchFacetsUpdate` |&lt; 6.3 |Immediate |Moves assets and custom search facets from **/apps** to **/conf** and translates the metadata schema and metadata profiles forms from coral2 to coral3. |
-| `CQ63InboxItemsUpgrade` |&lt; 6.3 |Immediate |Updates InboxItems for ordering of inbox items (adjusting metadata for efficient sorting) |
-| `CQ63MetadataSchemaConfigUpdate` |&lt; 6.3 |Immediate |Adjusts the metadataSchema property on folder by replacing relative paths to **/conf** in place of **/apps** |
-| `CQ63MobileAppsNavUpgrade` |&lt; 6.3 |Immediate |Adjusting navigation structure |
-| `CQ63MonitoringDashboardsConfigUpdate` |&lt; 6.3 |Immediate |Moves custom configurations for the monitoring dashboards from **/libs** and **/apps** |
-| `CQ63ProcessingProfileConfigUpdate` |&lt; 6.3 |Immediate |Translates the processingProfile property (used until 6.1) in Assets in order to match the 6.3 and later structure. Also adjusts the profile's relative paths to **/conf** in place of **/apps**. |
-| `CQ63ToolsMenuEntriesContentUpgrade` |&lt; 6.3 |Immediate |Upgrade task that removes obsolete CRXDE Lite and Web Console menu entries in case of an upgrade. |
-| `CQ64CommunitiesConfigsCleanupTask` |&lt; 6.3 |Delayed |Moving SRP cloud configurations, community watchwords configurations, cleans up **/etc/social** and **/etc/enablement** (any references and data needs to be be adjusted when lazy migration is run - no application part should be depending on this sturcture anymore). |
-| `CQ64LegacyCloudSettingsCleanupTask` |&lt; 6.4 |Delayed |Cleans up **/etc/cloudsettings** (containing ContextHub Configuration). Configuration is automatically migrated on first access. In case Lazy Content Migration is started along with upgrade this content in **/etc/cloudsettings** must be preserved via package before the upgrade and reinstalled for the implicit transformation to kick in, along with a subsequent uninstallation of the package after completion. |
-| `CQ64UsersTitleFixTask` |&lt; 6.4 |Delayed |Adjusts legacy title structure to title in user profile node. |
+| `Cq61CloudServicesContentUpgrade` |< 6.1 |Immediate |Restructures cloudservices for secure by default setup |
+| `Cq62ConfContentUpgrade` |< 6.2 |Immediate |Removes property based linking from **/content** to **/conf** (replaced by the OSGi mechanism), generates corresponding OSGi configuration |
+| `Cq62FormsContentUpgrade` |< 6.2 |Immediate |Due to merge_preserve handling the secure by default deny rule overrides given permissions leading to the need to reorder on upgrade |
+| `CQ62Html5SmartFileUpgrade` |< 6.2 |Immediate |Detects components utilizing the Html5SmartFile widget, searches for usages of the component in the content and restructures persistence, effectively moving the binary a level down and not store it on component level. |
+| `Cq62ProjectsCodeUpgrade` |< 6.2 |Immediate |Moves old style projects from **/etc/projects** to **/content/projects** |
+| `Cq62TargetCampaignsContentUpgrade` |< 6.2 |Immediate |Introduces a container layer to hierarchy (Areas) and adjusts references. |
+| `Cq62TargetContentUpgrade` |< 6.2 |Immediate |Sets fixed location names to target components. |
+| `Cq62WorkflowContentUpgrade` |< 6.2 |Immediate |Complex transformation of workflow models predating 6.2 structures, instances, notifications, then merging back from the backup location from **/var/backup** |
+| `CQ63AssetsMetadataFormsUpdate` |< 6.3 |Immediate |Moves assets, custom metadata schemas and processing profiles from **/apps** to **/conf** and translates the metadata schema and metadata profiles forms from coral2 to coral3. |
+| `CQ63AssetsSearchFacetsUpdate` |< 6.3 |Immediate |Moves assets and custom search facets from **/apps** to **/conf** and translates the metadata schema and metadata profiles forms from coral2 to coral3. |
+| `CQ63InboxItemsUpgrade` |< 6.3 |Immediate |Updates InboxItems for ordering of inbox items (adjusting metadata for efficient sorting) |
+| `CQ63MetadataSchemaConfigUpdate` |< 6.3 |Immediate |Adjusts the metadataSchema property on folder by replacing relative paths to **/conf** in place of **/apps** |
+| `CQ63MobileAppsNavUpgrade` |< 6.3 |Immediate |Adjusting navigation structure |
+| `CQ63MonitoringDashboardsConfigUpdate` |< 6.3 |Immediate |Moves custom configurations for the monitoring dashboards from **/libs** and **/apps** |
+| `CQ63ProcessingProfileConfigUpdate` |< 6.3 |Immediate |Translates the processingProfile property (used until 6.1) in Assets in order to match the 6.3 and later structure. Also adjusts the profile's relative paths to **/conf** in place of **/apps**. |
+| `CQ63ToolsMenuEntriesContentUpgrade` |< 6.3 |Immediate |Upgrade task that removes obsolete CRXDE Lite and Web Console menu entries in case of an upgrade. |
+| `CQ64CommunitiesConfigsCleanupTask` |< 6.3 |Delayed |Moving SRP cloud configurations, community watchwords configurations, cleans up **/etc/social** and **/etc/enablement** (any references and data needs to be be adjusted when lazy migration is run - no application part should be depending on this sturcture anymore). |
+| `CQ64LegacyCloudSettingsCleanupTask` |< 6.4 |Delayed |Cleans up **/etc/cloudsettings** (containing ContextHub Configuration). Configuration is automatically migrated on first access. In case Lazy Content Migration is started along with upgrade this content in **/etc/cloudsettings** must be preserved via package before the upgrade and reinstalled for the implicit transformation to kick in, along with a subsequent uninstallation of the package after completion. |
+| `CQ64UsersTitleFixTask` |< 6.4 |Delayed |Adjusts legacy title structure to title in user profile node. |
 
