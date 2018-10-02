@@ -1,5 +1,5 @@
 ---
-uuid: 4dcc93e6-fb31-48fd-ae05-ca2db9688c01
+uuid: 74d48959-ef26-4dfa-8f73-760a68a5ca6e
 index: y
 internal: n
 snippet: y
@@ -21,17 +21,17 @@ Internal Wiki page about Concepts and Getting Started topics [here](https://wiki
 
 ## Showing Character Elements
 
-This is a **`<codephrase> character element` (used for inline code snippets).
+This is a `<codephrase> character element` (used for inline code snippets).
 
-Here is an **`<apiname> character element` embedded in <p>.
+Here is an <!-- APINAME - Required Post Migration Cleanup -->`<apiname> character element` embedded in &lt;p&gt;.
 
-Here is a <p> with **<bold>**, and *<italics>*, and a *`<term>`* (same style as italics), and **`<cmdname>` (specifies the name of a command when it is part of a software discussion), and **`foreign`.
+Here is a <p> with **<bold>**, and *<italics>*, and a *`<term>`* (same style as italics), and `<cmdname>` (specifies the name of a command when it is part of a software discussion), and `foreign`.
 
-Use **[!DNL <filepath> character element] embedded in <para> for URLs and file names, file extensions.
+Use [!DNL <filepath> character element] embedded in &lt;para&gt; for URLs and file names, file extensions.
 
-Solution names like **[!DNL Analytics] use <keyword>, but no special formatting. Tells localization vendor to leave in English.
+Solution names like [!DNL Analytics] use &lt;keyword&gt;, but no special formatting. Tells localization vendor to leave in English.
 
-Software element names like **[!UICONTROL Pages Report] use <wintitle>, but no special formatting. Tells localization vendor that the term is a page name or group of UI elements used in the UI.
+Software element names like [!UICONTROL Pages Report] use &lt;wintitle&gt;, but no special formatting. Tells localization vendor that the term is a page name or group of UI elements used in the UI.
 
 This is a *[!DNL varname]* element.
 
@@ -39,17 +39,17 @@ This is **[!UICONTROL uicontrol]** and **[!UICONTROL uicontrol]** without the me
 
 **[!UICONTROL uicontrol]** > **[!UICONTROL uicontrol]** in menucascade.
 
-**`This is a <screen> element that we never use.`
+`This is a <screen> element that we never use.`
 
 Symbols: ® © ¡ ¿ ¢ £ ¤ ¥ ¶ § ™ ª º ¹ ² ³ ¼ ½ ¾ ¦ €
 
-**[!DNL paramname]
+[!DNL paramname]
 
 ---
 
 ## Paragraph, List, and Heading Elements
 
-The following line contains an <object> element, which we use to [embed video](https://wiki.corp.adobe.com/display/techpubs/Embedding+videos). Note that we populate the object with attributes "data" and "type".
+The following line contains an &lt;object&gt; element, which we use to [embed video](https://wiki.corp.adobe.com/display/techpubs/Embedding+videos). Note that we populate the object with attributes "data" and "type".
 
 ### Video Title
 
@@ -60,23 +60,23 @@ The following line contains an <object> element, which we use to [embed video](h
 **Author's Name**
 [http://authors.website.com/](http://authors.website.com/)
 
-The following two "outputclass" lines let us apply a head attribute inside a <p> or a bold para, to give us a heading slightly larger than a regular or bold para. 
+The following two "outputclass" lines let us apply a head attribute inside a &lt;p&gt; or a bold para, to give us a heading slightly larger than a regular or bold para. 
 
 <p class="head">Outputclass Head </p>
 
-<p class="head"><b>Outputclass Head Bold</b> </p>
+<p class="head"><strong>Outputclass Head Bold</strong> </p>
 
 **[!UICONTROL Menu]** > **[!UICONTROL Cascade]**
 
 1. Ordered List
 1. Ordered List 
 
-   <p> embedded in the list. 
+   &lt;p&gt; embedded in the list. 
 
 1. Ordered List
 
-    1. level two embedded <ol>    
-    1. level two embedded <ol>
+    1. level two embedded &lt;ol&gt;    
+    1. level two embedded &lt;ol&gt;
 
         1. level three embedded        
         1. level three embedded
@@ -99,7 +99,7 @@ The following two "outputclass" lines let us apply a head attribute inside a <p>
             * level four            
             * level four
 
-The following is an example of <codeblock>:
+The following is an example of &lt;codeblock&gt;:
 
 ```
 <codeblock> element. The <codeblock> element represents lines of program code. Example: 
@@ -128,7 +128,7 @@ s.linkTrackEvents="None"
 
 ## Note Types
 
-Here are available <note> elements. We primarily use "note" and "important" attributes. We should consider applying styles to the "warning", "caution", and "remember."
+Here are available &lt;note&gt; elements. We primarily use "note" and "important" attributes. We should consider applying styles to the "warning", "caution", and "remember."
 
 >[!NOTE] {grayBox="false"}
 >
@@ -154,7 +154,7 @@ Here are available <note> elements. We primarily use "note" and "important" attr
 >
 >Note with "remember" attribute type. We never use this, but here it is.
 
-The following is an <image> element. This element is **always** embedded in a <p> element. Process graphics and some screen shots are used in Concepts. Most screens are in Task topics (in the <stepresult> element following a <cmd>.
+The following is an &lt;image&gt; element. This element is **always** embedded in a &lt;p&gt; element. Process graphics and some screen shots are used in Concepts. Most screens are in Task topics (in the &lt;stepresult&gt; element following a &lt;cmd&gt;.
 
 [ ![Image alt text](assets/key_metrics.png)](task-dita-topic.md) 
 
@@ -195,12 +195,12 @@ The following is an <image> element. This element is **always** embedded in a <p
 |  Element Name  | System requirements and a comparison of Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, and Data Workbench  |
 |  Element Name  | System requirements and a comparison of Analysis Workspace, Reports & Analytics, Ad Hoc Analysis, Report Builder, and Data Workbench  |
 
-<p class="head"><b>Product Requirements Outputclass Head</b> </p>
+<p class="head"><strong>Product Requirements Outputclass Head</strong> </p>
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 
   <tr> 
-   <td> <b>Product Name &amp; Help Link</b> </td> 
+   <td> <strong>Product Name &amp; Help Link</strong> </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/" scope="external"> Analysis Workspace </a> </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/sc/user/index.html" scope="external"> Reports &amp; Analytics </a> </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/dsc/" scope="external"> Ad Hoc Analysis </a> </td> 
@@ -209,7 +209,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/insight/" scope="external"> Data Workbench </a> </td> 
   </tr> 
   <tr> 
-   <td> <b>Access Method</b> </td> 
+   <td> <strong>Access Method</strong> </td> 
    <td> Browser solution for building robust, custom analysis projects, and democratizing insights. </td> 
    <td> Browser solution for digital analysis. </td> 
    <td> Java based tool for advanced digital analysis. </td> 
@@ -218,7 +218,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Multi-channel analytics tool for advanced analysis, such as custom attribution modeling, predictive analytics, and 360 customer analysis. </td> 
   </tr> 
   <tr> 
-   <td> <b>Report Breakdowns</b> </td> 
+   <td> <strong>Report Breakdowns</strong> </td> 
    <td> Unlimited </td> 
    <td> Up to 2 correlations </td> 
    <td> Unlimited </td> 
@@ -227,7 +227,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Unlimited </td> 
   </tr> 
   <tr> 
-   <td> <b>Segment Comparisons</b> </td> 
+   <td> <strong>Segment Comparisons</strong> </td> 
    <td> Unlimited </td> 
    <td> Up to 2 segments </td> 
    <td> Unlimited </td> 
@@ -236,7 +236,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Unlimited </td> 
   </tr> 
   <tr> 
-   <td> <b>Row Output Limit</b> </td> 
+   <td> <strong>Row Output Limit</strong> </td> 
    <td> 200 </td> 
    <td> 200 </td> 
    <td> 50,000 </td> 
@@ -245,7 +245,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Customizable </td> 
   </tr> 
   <tr> 
-   <td> <b>Unique Value Limits (within eVar/ prop reports)</b> </td> 
+   <td> <strong>Unique Value Limits (within eVar/ prop reports)</strong> </td> 
    <td> 500K-2MM </td> 
    <td> 500K-2MM </td> 
    <td> 500K-2MM </td> 
@@ -254,7 +254,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Customizable </td> 
   </tr> 
   <tr> 
-   <td> <b>Funnel/Pathing</b> </td> 
+   <td> <strong>Funnel/Pathing</strong> </td> 
    <td> Planned </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=reports" scope="external"> Yes </a> </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/dsc/?f=c_reports_paths" scope="external"> Yes </a> </td> 
@@ -263,7 +263,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Yes </td> 
   </tr> 
   <tr> 
-   <td> <b>Advanced Customer Journey Analysis</b> </td> 
+   <td> <strong>Advanced Customer Journey Analysis</strong> </td> 
    <td> Planned </td> 
    <td> No </td> 
    <td> Yes </td> 
@@ -272,7 +272,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Yes </td> 
   </tr> 
   <tr> 
-   <td> <b>Cohort Analysis</b> </td> 
+   <td> <strong>Cohort Analysis</strong> </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/?f=cohort_analysis" scope="external"> Yes </a> </td> 
    <td> No </td> 
    <td> No </td> 
@@ -281,7 +281,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Yes </td> 
   </tr> 
   <tr> 
-   <td> <b>Advanced Attribution</b> </td> 
+   <td> <strong>Advanced Attribution</strong> </td> 
    <td> Limited currently - first/last/linear </td> 
    <td> Limited - first/last/linear </td> 
    <td> Limited - first/last/linear </td> 
@@ -290,7 +290,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Yes </td> 
   </tr> 
   <tr> 
-   <td> <b>Enhanced Visualization Options</b> </td> 
+   <td> <strong>Enhanced Visualization Options</strong> </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/?f=analysis-workspace-features" scope="external"> Yes </a> </td> 
    <td> No </td> 
    <td> Yes </td> 
@@ -299,7 +299,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Yes </td> 
   </tr> 
   <tr> 
-   <td> <b>Customizable Layout</b> </td> 
+   <td> <strong>Customizable Layout</strong> </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/?f=analysis-workspace-features" scope="external"> Yes </a> </td> 
    <td> Yes - <a format="https" href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=dashboard" scope="external"> Dashboards </a> </td> 
    <td> No </td> 
@@ -308,7 +308,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Yes </td> 
   </tr> 
   <tr> 
-   <td> <b>Project Curation (Simplify reports for non-analysts)</b> </td> 
+   <td> <strong>Project Curation (Simplify reports for non-analysts)</strong> </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/?f=curate" scope="external"> Yes </a> </td> 
    <td> No </td> 
    <td> No </td> 
@@ -317,7 +317,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Yes </td> 
   </tr> 
   <tr> 
-   <td> <b>Project Sharing</b> </td> 
+   <td> <strong>Project Sharing</strong> </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/?f=curate" scope="external"> Yes </a>; all/any users </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=scheduling" scope="external"> Yes </a>; all/any users </td> 
    <td> Only with Ad Hoc Analysis users </td> 
@@ -326,7 +326,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Yes </td> 
   </tr> 
   <tr> 
-   <td> <b>Scheduled Report Delivery</b> </td> 
+   <td> <strong>Scheduled Report Delivery</strong> </td> 
    <td> Planned for Spring release 2016 </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=scheduling" scope="external"> Yes </a> </td> 
    <td> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/dsc/?f=c_schedule" scope="external"> Yes </a> </td> 
@@ -335,7 +335,7 @@ The following is an <image> element. This element is **always** embedded in a <p
    <td colname="col6"> Yes </td> 
   </tr> 
   <tr> 
-   <td> <b>System Requirements</b> </td> 
+   <td> <strong>System Requirements</strong> </td> 
    <td> <p>Browser </p> <p> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements" scope="external"> More... </a> </p> </td> 
    <td> <p>Browser </p> <p> <a format="https" href="https://marketing.adobe.com/resources/help/en_US/sc/user/?f=requirements" scope="external"> More... </a> </p> </td> 
    <td> <p>Java </p> <p> <a format="http" href="http://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_sys_reqs" scope="external"> More... </a> </p> </td> 

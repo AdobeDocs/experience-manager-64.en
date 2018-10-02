@@ -1,5 +1,5 @@
 ---
-uuid: 5410e92f-7a81-4a46-b087-9ae712cb3962
+uuid: 1fb6359d-bea7-4a2a-9353-ba04d2198be8
 index: y
 internal: n
 snippet: y
@@ -49,7 +49,7 @@ DITA XML provides the structure we need to design information consistently. Adhe
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Concept </p> </td> 
-   <td colname="col2"> <p>The &lt;concept &gt; element is the top-level element for a topic that answers the question "what is?" and "why?" Concepts provide background information that users must know before they can successfully work with a product or interface. Often, a concept is an extended definition of a major abstraction such as a process or function. It might also have an example or a graphic, but generally the structure of a concept is fairly simple. </p> <p><b>Special Use for Field Descriptions</b> </p> <p>Context sensitive help often links to the parent concept. Often, readers are looking for definitions of fields in this circumstance. Where appropriate, place field description tables in the concept, under a heading that matches the interface page name. </p> <p>A concept that includes a procedure should have a separate child Task type that includes only step information. (What to click to accomplish at ask.) </p> </td> 
+   <td colname="col2"> <p>The &amp;lt;concept &amp;gt; element is the top-level element for a topic that answers the question "what is?" and "why?" Concepts provide background information that users must know before they can successfully work with a product or interface. Often, a concept is an extended definition of a major abstraction such as a process or function. It might also have an example or a graphic, but generally the structure of a concept is fairly simple. </p> <p><strong>Special Use for Field Descriptions</strong> </p> <p>Context sensitive help often links to the parent concept. Often, readers are looking for definitions of fields in this circumstance. Where appropriate, place field description tables in the concept, under a heading that matches the interface page name. </p> <p>A concept that includes a procedure should have a separate child Task type that includes only step information. (What to click to accomplish at ask.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Task </p> </td> 
@@ -85,7 +85,7 @@ In a task, limit the information to navigation, screens, and what to click to su
 
 **Sample Task**
 
-![](assets/task.png)
+![](assets/task.png) 
 
 ---
 
@@ -113,21 +113,21 @@ Elements identify or formats words and paragraphs, to identify them as products,
  <tbody> 
   <tr> 
    <td colname="col1"><span class="keyword">keyword</span> </td> 
-   <td colname="col2"> <p>Identifies formal solution or product names, such as Analytics, Social, Target, Media Optimizer, Experience Manager, and Marketing Cloud. Example: </p> <p style="text-align: center;"><img href="assets/keyword.png" id="image_E05D1DD2064447F8A0E8C3DD8FADDF43" /> </p> <p><b>Purpose</b>: Enables vendors know that the word should remain in English. No change to formatting. </p> <p> <p>Note:  Capability names are not wrapped or capitalized. </p> </p> </td> 
+   <td colname="col2"> <p>Identifies formal solution or product names, such as Analytics, Social, Target, Media Optimizer, Experience Manager, and Marketing Cloud. Example: </p> <p style="text-align: center;"><img href="assets/keyword.png" id="image_E05D1DD2064447F8A0E8C3DD8FADDF43" /> </p> <p><strong>Purpose</strong>: Enables vendors know that the word should remain in English. No change to formatting. </p> <p> <p>Note:  Capability names are not wrapped or capitalized. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="keyword wintitle">wintitle</span> </td> 
-   <td colname="col2"> <p>Identifies interface elements, like windows or dialogs, or other user interface elements at the same level of grouping. Includes page names, report names, wizard titles, wizard page titles, and window pane titles. Example: </p> <p style="text-align: center;"><img href="assets/wintitle.png" id="image_440331862B57401AB2DBC68FA7585CDC" /> </p> <p>Use instead of <span class="term">uicontrol</span> inline. </p> <p> <b>Examples</b>: ASI Slots, Code Manager, Segment Builder, Fallout Report. (Include <span class="term">report</span> where appropriate). </p> <p><b>Purpose</b>: So that localization can identify a formal UI term. No change to formatting. </p> <p>Do not use for metric names. </p> </td> 
+   <td colname="col2"> <p>Identifies interface elements, like windows or dialogs, or other user interface elements at the same level of grouping. Includes page names, report names, wizard titles, wizard page titles, and window pane titles. Example: </p> <p style="text-align: center;"><img href="assets/wintitle.png" id="image_440331862B57401AB2DBC68FA7585CDC" /> </p> <p>Use instead of <span class="term">uicontrol</span> inline. </p> <p> <strong>Examples</strong>: ASI Slots, Code Manager, Segment Builder, Fallout Report. (Include <span class="term">report</span> where appropriate). </p> <p><strong>Purpose</strong>: So that localization can identify a formal UI term. No change to formatting. </p> <p>Do not use for metric names. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="ph uicontrol">uicontrol</span> </td> 
-   <td colname="col2"> <p>Use around interface controls (fields, options) primarily in procedures, where user action is required. Changes output to <b>bold</b>. </p> <p>Example: </p> 
+   <td colname="col2"> <p>Use around interface controls (fields, options) primarily in procedures, where user action is required. Changes output to <strong>bold</strong>. </p> <p>Example: </p> 
     <ol id="ol_B711EA96F1AC4496AB44D655EB6B3CD2"> 
      <li id="li_95D38154A7BC49E1A5536B51B9F2E88A">Click <span class="ph uicontrol">Upload</span>, then click <span class="ph uicontrol">Save</span>. </li> 
     </ol> <p>Note:  Menucascade is preferable for navigation breadcrumbs. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="ignoretag"><span class="uicontrol">menucascade</span> &gt; <span class="uicontrol">abc</span></span> </td> 
+   <td colname="col1"><span class="ignoretag"><span class="uicontrol">menucascade</span> &amp;gt; <span class="uicontrol">abc</span></span> </td> 
    <td colname="col2"> <p>Use for navigation breadcrumbs. </p> <p style="text-align: center;"><img href="assets/menucascade.png" id="image_BA8F841EB0784A8A85C9A7B98F721325" /> </p> </td> 
   </tr> 
   <tr> 
@@ -188,7 +188,7 @@ Elements identify or formats words and paragraphs, to identify them as products,
   </tr> 
   <tr> 
    <td colname="col1">xref </td> 
-   <td colname="col2"> <p>Use <span class="ignoretag"><span class="uicontrol">Insert</span> &gt; <span class="uicontrol">Link</span></span> to access links. </p> <p>See <a format="dita" href="xmetal-style.md#section_0A21DDDC888C4D73987533D58C624DE4" scope="local">Cross References</a>. </p> </td> 
+   <td colname="col2"> <p>Use <span class="ignoretag"><span class="uicontrol">Insert</span> &amp;gt; <span class="uicontrol">Link</span></span> to access links. </p> <p>See <a format="dita" href="xmetal-style.md#section_0A21DDDC888C4D73987533D58C624DE4" scope="local">Cross References</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">F8 </td> 
@@ -204,7 +204,7 @@ Elements identify or formats words and paragraphs, to identify them as products,
   </tr> 
   <tr> 
    <td colname="col1">shortdesc </td> 
-   <td colname="col2"> <p>Use as an abstract that defines the topic or, in some cases, the topic name. It is the purpose or theme of the topic. Examples: </p> <p><b>For Concepts / Definitions</b> </p> <p><b>Topic title:</b> Custom Events Report </p> <p>Shortdesc: <i>The conversion actions on your site that you want visitors to complete. These actions might be a registration, a subscription, a lead form completion, a chat initiation, a purchase, a booking, or a finished survey.</i> </p> <p><b>For Tasks</b> </p> <p><b>Task title:</b> Run a Custom Events report </p> <p> <i>Steps that describe how to run a Custom Events during implementation in ad hoc analysis.</i> </p> <p>Try to include useful information about the task, such as when or why the user must perform the task. In other words, avoid short descriptions that only repeat the task name. </p> </td> 
+   <td colname="col2"> <p>Use as an abstract that defines the topic or, in some cases, the topic name. It is the purpose or theme of the topic. Examples: </p> <p><strong>For Concepts / Definitions</strong> </p> <p><strong>Topic title:</strong> Custom Events Report </p> <p>Shortdesc: <i>The conversion actions on your site that you want visitors to complete. These actions might be a registration, a subscription, a lead form completion, a chat initiation, a purchase, a booking, or a finished survey.</i> </p> <p><strong>For Tasks</strong> </p> <p><strong>Task title:</strong> Run a Custom Events report </p> <p> <i>Steps that describe how to run a Custom Events during implementation in ad hoc analysis.</i> </p> <p>Try to include useful information about the task, such as when or why the user must perform the task. In other words, avoid short descriptions that only repeat the task name. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -252,7 +252,7 @@ For process graphics, ensure that an Illustrator version exists. Send with the o
 * No need to wrap ul with a para tag.
 * No need for para tags in li.
 
-![](assets/lists.png)
+![](assets/lists.png) 
 
 ---
 
@@ -329,8 +329,8 @@ A cumulative list of release notes should go at the end of your help (to not be 
 
 Please keep them lowercase, brief, and predictable. Pattern them after the UI page name, not the a task name (which inevitably changes frequently.
 
-Prepend **[!DNL t_] for task and **[!DNL r_] before reference. No need for **[!DNL c_] before concept.
+Prepend [!DNL t_] for task and [!DNL r_] before reference. No need for [!DNL c_] before concept.
 
 Examples:
 
-![](assets/filenames.png)
+![](assets/filenames.png) 
