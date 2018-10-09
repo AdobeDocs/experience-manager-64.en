@@ -1,6 +1,6 @@
 ---
 title: Planning Your Upgrade
-seo-title: Planning Your Upgrade
+seo-title: Planning Your Upgrade to Adobe Experience Manager (AEM) 6.4
 description: null
 seo-description: This article helps establish clear goals, phases and deliverables when planning the AEM upgrade.
 uuid: afd4217f-9647-4ce4-8dc8-bb0b5ae729ef
@@ -41,6 +41,8 @@ translate: y
 ---
 
 # Planning Your Upgrade
+
+This article helps establish clear goals, phases and deliverables when planning the AEM upgrade.
 
 ## AEM Project Overview
 AEM is often used in high impact deployments that might serve millions of users. In most cases, there are custom applications that are deployed on the instances which adds to the complexity. Any effort to upgrade such a deployment needs to be handled methodically.
