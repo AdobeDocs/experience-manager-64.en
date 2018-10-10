@@ -79,11 +79,10 @@ This document lists the supported client and server platforms for Adobe Experien
 ### Supported Configurations
 Adobe recommends these configurations and provides full support as part of the standard software maintenance agreement.
 
-| Support Level |Description  
-|
+| Support Level |Description |
 |---|---|
 | **A: Supported** |Adobe provides full support and maintenance for this configuration. This configuration is covered by Adobe's quality assurance process. |
-| **R: Restricted Support** |To ensure our customers project success, Adobe provides full support within a restricted support program, which requires that specific conditions are met. R-level support requires a formal customer request and confirmation by Adobe. For more informations, please contact Adobe Customer Care. |
+| **R: Restricted Support** |To ensure our customers project success, Adobe provides full support within a restricted support program, which requires that specific conditions are met. R-level support requires a formal customer request and confirmation by Adobe. For more information, please contact Adobe Customer Care. |
 
 ### Unsupported Configurations
 
@@ -102,13 +101,11 @@ Adobe Experience Manager operates with the following versions of the Java Virtua
 >
 >It is recommended to track the Security Bulletins from the Java vendor to ensure the safety and security of production environments and install the latest Java Updates.
 
-| Platform |Support Level  
-|
+| Platform |Support Level  |
 |---|---|
 | Oracle Java SE 10 JDK [1] |Z: Not supported  |
 | Oracle Java SE 9 JDK [1] |Z: Not supported |
-| **Oracle Java SE 8 JDK - 64bit** |A: Supported  
-|
+| **Oracle Java SE 8 JDK - 64bit** |A: Supported  |
 | IBM J9 VM - build 2.9, JRE 1.8.0 [2] |A: Supported |
 | IBM J9 VM - build 2.8, JRE 1.8.0 [2] |A: Supported |
 
