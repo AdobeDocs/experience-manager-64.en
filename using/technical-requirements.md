@@ -101,8 +101,7 @@ Adobe Experience Manager operates with the following versions of the Java Virtua
 >
 >It is recommended to track the Security Bulletins from the Java vendor to ensure the safety and security of production environments and install the latest Java Updates.
 
-| Platform |Support Level  
-|
+| Platform |Support Level  |
 |---|---|
 | Oracle Java SE 10 JDK [1] |Z: Not supported  |
 | Oracle Java SE 9 JDK [1] |Z: Not supported |
