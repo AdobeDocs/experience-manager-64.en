@@ -73,12 +73,8 @@ Before proceeding with an upgrade you should have a stable application code base
 
 In addition to the option of upgrading your code base and customizations to work with the new AEM version, 6.4 also helps manage your customizations more efficiently with the Backward Compatibility feature as described on [this page](backward-compatibility.md).
 
-As mentioned above and shown in the diagram below,running the [Pattern Detector](pattern-detector.md) in the first step will help you assess the overall complexity of the upgrade and whether you want to run in compatibility mode or update your customizations to use all the new AEM 6.4 features. Please see the [Backward Compatibility in AEM 6.4](backward-compatibility.md) page for more details.
-[ ![](assets/screen_shot_2018-03-30at175257.png)
-
-](assets/upgrade-code-base-highlevel.png) 
-
-[![](assets/screen_shot_2018-03-30at175257.png)](assets/upgrade-code-base-highlevel.png) 
+As mentioned above and shown in the diagram below,running the [Pattern Detector](/content/help/en/experience-manager/6-4/sites/deploying/using/pattern-detector) in the first step will help you assess the overall complexity of the upgrade and whether you want to run in compatibility mode or update your customizations to use all the new AEM 6.4 features. Please see the [Backward Compatibility in AEM 6.4](/content/help/en/experience-manager/6-4/sites/deploying/using/backward-compatibility) page for more details.
+[ ![](assets/screen_shot_2018-03-30at175257.png)](assets/upgrade-code-base-highlevel.png)
 
 
 ## Upgrade the Code Base
