@@ -78,7 +78,7 @@ As mentioned above and shown in the diagram below,running the [Pattern Detector]
 
 ](assets/upgrade-code-base-highlevel.png) 
 
-[![](assets/screen_shot_2018-03-30at175257.png)][assets/upgrade-code-base-highlevel.png] 
+[![](assets/screen_shot_2018-03-30at175257.png)](assets/upgrade-code-base-highlevel.png) 
 
 
 ## Upgrade the Code Base
