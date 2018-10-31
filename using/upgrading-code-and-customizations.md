@@ -43,7 +43,7 @@ snippet: y
 
 When planning an upgrade the following areas of an implementation need to be investigated and addressed.
 
-* [Upgrade the Code Base](upgrading-code-and-customizations.md#upgrade-code-base)
+* [Upgrade the Code Base](#upgrade-the-code-base)
 * [Align with 6.4 Repository Structure](#align-repository-structure)
 * [AEM Customizations](#aem-customizations)
 * [Testing Procedure](#testing-procedure)
