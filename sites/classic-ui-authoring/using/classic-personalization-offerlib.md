@@ -1,0 +1,30 @@
+---
+title: Creating and Managing Offers
+seo-title: Creating and Managing Offers
+description: null
+seo-description: Use the Offers console to create offers that you can use in activity experiences. Creating offers in the Offers console saves time when several experiences require the same offer.
+uuid: 9fd00c41-a4d8-4307-8541-66ec1bc34dee
+contentOwner: Chris Bohnert
+products: SG_EXPERIENCEMANAGER/6.4/SITES
+topic-tags: personalization
+content-type: reference
+discoiquuid: 81029a5b-7139-4b85-b1d1-81c2ec0ce282
+isreadyforlocalization: false
+index: y
+internal: n
+snippet: y
+---
+
+# Creating and Managing Offers{#creating-and-managing-offers}
+
+Use the Offers console to create offers that you can [use in activity experiences](../../classic-ui-authoring/using/classic-personalization-content-targeting-touch.md). Creating offers in the Offers console saves time when several experiences require the same offer:
+
+* Create the offer once in the library and use it in multiple experieces of your brand activities. 
+* Change the offer in the library and the change affects all of the experiences that use it.
+
+The Offers console organizes offers by brand. Each brand contains a library of offers that can be used in a brand's experiences. Use folders to define a heirarchical structure for organizing offers in each library. A logical folder structure enables authors to easily find offers by browsing. Tagging and search tools also enable authors to find offers.
+
+>[!NOTE]
+>
+>The offers console is not available in classic UI. See [Creating and Managing Offers](../../authoring/using/offerlib.md) in the standard authoring documentation for details.
+
