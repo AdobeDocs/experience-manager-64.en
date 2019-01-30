@@ -1,0 +1,73 @@
+---
+title: Embedding link component in a page
+seo-title: Embedding link component in a page
+description: null
+seo-description: You can use the link component to link an adaptive document or an adaptive form from any page.  
+uuid: e0c5b7a1-06b2-4cd3-a949-f952eaac1ea3
+acrolinxdate: 2016-05-31T06 37 46.168-0400
+acrolinxlastcheckedby: vishgupt
+acrolinxpagestatus: yellow
+acrolinxreporturl: http //checkstyle.corp.adobe.com 8031/output/en/embedding_link_component_page_admin_5e12de0b318c6865_2007_report.xml
+acrolinxsentences: 30
+acrolinxwords: 435
+content-type: reference
+products: SG_EXPERIENCEMANAGER/6.4/FORMS
+topic-tags: publish
+discoiquuid: 27083d35-98d5-4ce2-973d-f6509fe140d9
+isreadyforlocalization: false
+lastpublishqadate: 2015-06-12T04 24 42.956-0400
+index: y
+internal: n
+snippet: y
+---
+
+# Embedding link component in a page{#embedding-link-component-in-a-page}
+
+## Prerequisites {#prerequisites}
+
+The link component is a member of the Document Services category. Ensure that the Document Services category is visible in the AEM components browser. If the category is not listed, follow the steps listed at [Enabling forms portal components](../../forms/using/enabling-forms-portal-components.md).
+
+## Link Component {#link-component}
+
+The Link component allows form portal authors to create a link to an adaptive form from anywhere on a page. The Link component is available in the Document Services section in the component browser.
+
+Perform the following steps to add a Link component to the page:
+
+1. Drag the **Link **component on the page. Select the component and tap  ![](assets/cmppr.png)
+
+   . The Edit Link Component dialog opens.
+
+   ![](assets/edit-link-component.png)
+
+1. In the **Display **tab, specify the following:
+
+    * **Link Caption**: Link text or caption for the link.
+    * **Link Tooltip**: Tool tip for the link.
+    * **Layout Template**: Template for the layout of Link component.
+
+1. Open the **Asset Info** tab and specify the type of the asset. An asset can be a **form**. Depending upon the type of asset selected, the options listed below are displayed:
+
+    * **Asset Path**: Repository path where the asset is stored.  
+    
+    * **Render Type**: The render format--PDF, HTML, or Auto. The Auto render type detects the user environment and accordingly renders the form as HTML or as PDF. For example, if the form is accessed from a mobile device, the Auto render type render the form in HTML.
+    * **Submit URL: ** URL to the servlet where the form data is submitted.
+    * **HTML Profile**: Profile for rendering the form as HTML.
+    * **PDF Profile**: Profile for rendering the form as PDF document.
+
+1. Open the **Advanced **tab. You can specify the additional parameters in the key-value pair format. When the link is clicked, these additional parameters and passed along with the form.
+
+   Tap **Done** to save the configuration.
+
+## Best practices for using Link component <br> {#best-practices-for-using-link-component-br}
+
+* Ensure that you select PDF as the render type if the path specified in Form Path points to a document which has PDF as its allowed render format.
+* Submit URL for a form can be specified at several places and its order of precedence is as follows:
+
+    1. Submit URL embedded in the form (in submit button) has the highest priority.
+    1. Submit URL mentioned in Forms Manager has the medium priority.
+    1. Submit URL mentioned in forms portal has the lowest priority.
+
+>[!MORE_LIKE_THIS]
+>
+>* [Creating a forms portal page](../../forms/using/creating-form-portal-page.md)
+>* [Drafts and Submissions component](../../forms/using/draft-submission-component.md)

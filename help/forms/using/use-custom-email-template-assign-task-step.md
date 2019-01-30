@@ -1,0 +1,84 @@
+---
+title: Use custom email templates in an Assign Task step
+seo-title: Use custom email templates in an Assign Task step
+description: Custom email templates for forms workflow email notifications 
+seo-description: Custom email templates for forms workflow email notifications 
+uuid: 72610a8b-6089-41bc-9145-50d4a1a730f5
+topic-tags: publish
+discoiquuid: df384274-47c7-4632-85d1-8a3584fcafe8
+isreadyforlocalization: false
+index: y
+internal: n
+snippet: y
+---
+
+# Use custom email templates in an Assign Task step{#use-custom-email-templates-in-an-assign-task-step}
+
+Custom email templates for forms workflow email notifications 
+
+You can use the Assign Task step to create and assign tasks to a user or group. When a task is assigned to a user or group, an email notification is sent to the defined user or to each member of the defined group. A typical email notification contains link of the assigned task and information related to the task. The following image displays a sample email notification:
+
+![Email notification with out of the box template](assets/Default-email-template-1.PNG)
+
+You can customize the appearance and use custom metadata in an email notification. AEM Forms provide an out of the box template for email notifications. You can customize the out of the box template or create a new template from scratch.
+
+Email notification templates are based on [HTML email](https://en.wikipedia.org/wiki/HTML_email). These emails adapt to different email clients and screen sizes. Moreover, the styling of the email is defined within the template.
+
+The following image displays a customized email notification: 
+
+![Email notification using custom template](assets/customized-email.png) 
+
+## Customize the existing template {#customize-the-existing-template}
+
+Out of the box, AEM Forms provides a template for email notifications. The template provides title description, due date, priority, workflow name, and link of the assigned task. You can customize the template to change the appearance. Perform the following steps to customize the template:
+
+1. Log in to CRXDE with administrator account.  
+
+1. Navigate to /libs/fd/dashboard/templates/email.  
+
+1. Open the htmlEmailTemplate.txt file. It contains the default template.  
+
+1. Replace the content of htmlEmailTemplate.txt file with custom content.
+
+   An email notification template is an [HTML email](https://en.wikipedia.org/wiki/HTML_email). You can replace the existing html code with your custom code to change the appearance of the template.
+
+1. Save the file. Now, the customized template is ready for use.
+
+## Create an email template {#create-an-email-template}
+
+Out of the box, AEM Forms provides a template for email notifications. The template provides title description, due date, priority, workflow name, and link of the assigned task. You can also add a custom email template (your own template) for Assign task steps. Perform the following steps to add a custom email template:
+
+1. Log in to CRXDE with administrator account.  
+
+1. Navigate to /libs/fd/dashboard/templates/email.  
+
+1. Create a .txt file. For example, EmailOnTaskAssign.txt.  
+
+1. Add custom HTML code to the file.
+
+   An email notification template is an [HTML email](https://en.wikipedia.org/wiki/HTML_email). You can add custom HTML code to the file to create a new template.
+
+1. Save the file. The template is ready for use in Assign Task step.
+
+## Use an email template in an Assign Task step {#use-an-email-template-in-an-assign-task-step}
+
+Out of the box, Assign task step is configured to use the default template, htmlEmailTemplate.txt. You can choose to use a custom template. To change the template:
+
+1. Open the Assign Task step.  
+
+1. Navigate to Assignee &gt; HTML Email Template.  
+
+1. Select the newly created HTML Email Template.  
+
+1. Click OK. The template is changed.
+
+An email notification also uses [metadata](../../forms/using/use-metadata-in-email-notifications.md). For example, due date, priority, workflow name, and more. You can also configure the template to use [custom metadata](../../forms/using/use-metadata-in-email-notifications.md#main-pars-header-867020441). 
+
+>[!MORE_LIKE_THIS]
+>
+>* [Forms-centric workflow on OSGi](../../forms/using/aem-forms-workflow.md)
+>* [Manage Forms applications and tasks in AEM Inbox](../../sites/authoring/using/inbox.md)
+>* [Workflow Step Reference](../../sites/developing/using/workflows-step-ref.md)
+>* [Dynamically choose a user or group for Assign Task and Adobe Sign steps](../../forms/using/dynamically-select-a-user-or-group-for-aem-workflow.md)
+>* [AEM Workflow Best Practices](../../sites/developing/using/workflows-best-practices.md)
+>* [Use metadata in an email notification](../../forms/using/use-metadata-in-email-notifications.md)
