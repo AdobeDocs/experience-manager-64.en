@@ -4,8 +4,8 @@ seo-title: Known patterns and styles
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 0775ae5d-3884-4694-af9c-51ddcd1fd62e
-discoiquuid: 538f094c-7292-4d6a-952d-c5bfe38c83c5
+uuid: ff57ae5b-0ccb-4cde-8b3b-118ee7323bf8
+discoiquuid: 47a17d25-43e4-44c2-8cf7-7f478b5b7e7a
 lastpublishinternaldate: 2018-11-29T08 40 12.895-0500
 index: y
 internal: n
@@ -22,27 +22,138 @@ The service would start identifying and assigning correct fields or panels to th
 
 ## Style and layout {#style-and-layout}
 
-![](assets/Colored-dotted-filled-form.PNG) ![](assets/scanned-forms.jpeg) ![](assets/dense-forms-2.png)
+<details>
+ <summary>Service may not convert or partially convert PDF forms with a dotted outline, colored fields, or filled forms to adaptive forms. </summary>
+ <img captionBottom="Scanned PDF Forms, PDF Forms with the dynamic layout, dotted outline, and filled or colored fields are not supported. " imageRotate="0" src="assets/Colored-dotted-filled-form.PNG" />
+</details>
+
+<details>
+ <summary>Service does not support scanned forms or PDF forms with content in the form of an image.</summary>
+ <img imageRotate="0" src="assets/scanned-forms.jpeg" />
+</details>
+
+<details>
+ <summary>Service can leave some texts with very small fonts or very less width in between lines unidentified. To identify such texts, add space between the lines and increase the font size of such texts and re-convert the forms. </summary>
+ <img imageRotate="0" src="assets/dense-forms-2.png" />
+</details>
 
 ## Choice Group {#choice-group}
 
+<details>
+ <summary>Service may not or partially recognize nested choice groups</summary>
+</details>
+
+<details>
+ <summary>Choice groups with only box or circular shapes are supported. Choice groups with any other shape are not converted to corresponding adaptive form components </summary>
+</details>
+
+<details>
+ <summary>Item Title</summary>
+</details>
+
+<details>
+ <summary>Item Title</summary>
+</details>
+
+<details>
+ <summary>Item Title</summary>
+</details>
+
 ## Fields and widgets {#fields-and-widgets}
 
-![](assets/border-less-fields-1.PNG) ![](assets/caption-at-bottom-fields.PNG)
+<details>
+ <summary>Service can leave some form fields without borders unidentified</summary>
+ <img imageRotate="0" src="assets/border-less-fields-1.PNG" />
+</details>
 
->[!VIDEO](/content/dam/help/en/experience-manager/6-4/forms/using/wip/styles-and-pattern--considerations-and-best-practices-/jcr_content/main-pars/image/hidden-fields.mp4)
+<details>
+ <summary>Service can leave some form fields with captions at the bottom or right unidentified</summary>
+ <img imageRotate="0" src="assets/caption-at-bottom-fields.PNG" />
+</details>
 
-![]()
+<details>
+ <summary>Service does not support hidden fields</summary>
+ <video imageRotate="0" status="changing" videoLocalizationType="subtitle" videoSrcUrl="/content/dam/help/en/experience-manager/6-4/forms/using/wip/styles-and-pattern--considerations-and-best-practices-/jcr_content/main-pars/image/hidden-fields.mp4"></video>
+</details>
+
+<details>
+ <summary>Service can merge the form fields which are very near to each other or assign a wrong type to such fields</summary>
+</details>
+
+<details>
+ <summary>Service may not recognize fields without explicit labels</summary>
+ <img imageRotate="0" />
+</details>
+
+<details>
+ <summary>Service may not recognize fields with far away captions</summary>
+</details>
 
 ## Image {#image}
 
+<details>
+ <summary>Service does not identify images. Manually add images to converted forms</summary>
+</details>
+
+<details>
+ <summary>Service does not extract text present within an image. </summary>
+</details>
+
+<details>
+ <summary>Item Title</summary>
+</details>
+
+<details>
+ <summary>Item Title</summary>
+</details>
+
+<details>
+ <summary>Item Title</summary>
+</details>
+
 ## List {#list}
 
-![](assets/list-with-fields-patterns.png) ![](assets/lists-with-choice-group.png)
+<details>
+ <summary>Lists containing form fields are not supported</summary>
+ <img imageRotate="0" src="assets/list-with-fields-patterns.png" />
+</details>
+
+<details>
+ <summary>Service can leave a few nested lists unidentified </summary>
+</details>
+
+<details>
+ <summary>Service can merge some closely spaced list items with each other</summary>
+</details>
+
+<details>
+ <summary>Service can merge lists containing choice groups with each other</summary>
+ <img imageRotate="0" src="assets/lists-with-choice-group.png" />
+</details>
+
+<details>
+ <summary>Item Title</summary>
+</details>
 
 ## Table {#table}
 
-![](assets/border-less.PNG) ![](assets/tables.gif)
+<details>
+ <summary>Some borderless tables are not converted to adaptive form tables</summary>
+ <img imageRotate="0" src="assets/border-less.PNG" />
+</details>
+
+<details>
+ <summary>Service does not convert nested tables to adaptive form tables</summary>
+</details>
+
+<details>
+ <summary>Service may not convert some colored tables, large-empty table, and merged tables to adaptive form tables. Service easily converts simple tables, with empty fields, proper headers, and clear boundaries and borders to adaptive form tables.</summary>
+ <img imageRotate="0" src="assets/tables.gif" />
+</details>
+
+<details>
+ <summary>Tables with placeholder values are not converted to adaptive form tables</summary>
+</details>
 
 <!--
 Comment Type: draft
@@ -50,7 +161,26 @@ Comment Type: draft
 <h2>Text</h2>
 -->
 
-![](assets/dense-forms-2.png)
+<details>
+ <summary>Very small fonts with densely packaged content are not recognized</summary>
+ <img imageRotate="0" src="assets/dense-forms-2.png" />
+</details>
+
+<details>
+ <summary>Item Title</summary>
+</details>
+
+<details>
+ <summary>Item Title</summary>
+</details>
+
+<details>
+ <summary>Item Title</summary>
+</details>
+
+<details>
+ <summary>Item Title</summary>
+</details>
 
 <!--
 Comment Type: draft

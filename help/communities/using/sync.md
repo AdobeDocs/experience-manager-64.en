@@ -3,12 +3,12 @@ title: Communities User Synchronization
 seo-title: Communities User Synchronization
 description: null
 seo-description: How user synchronization works
-uuid: 3ee8d489-8b24-436b-b6d0-a3ed95be21d7
+uuid: ee0ceedb-7455-4178-adb2-8ba4dd78f6d8
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 04692f4b-d0ce-47b5-b689-608bef08ece7
+discoiquuid: 044feb8f-47f1-460c-8e2f-93d643885435
 isreadyforlocalization: false
 index: y
 internal: n
@@ -89,166 +89,149 @@ Following configurations are necessary to enable user synchronization on AEM Com
     * [AEM platform updates](/content/help/en/experience-manager/kb/aem62-available-hotfixes)
     * [AEM Communities updates](../../communities/using/deploy-communities.md#latestfeaturepack)
 
-The default values in the configuration are for a single publish instance. As user sync is useful to synchronize multiple publish instances, such as for a publish farm, additional publish instances need to be added to the configuration.
+<details> 
+ <summary>Apache Sling Distribution Agent - Sync Agents Factory &lt;n&gt;It fetches the content to be synced across the publishers.&lt;/n&gt;</summary> 
+ <p>The default values in the configuration are for a single publish instance. As user sync is useful to synchronize multiple publish instances, such as for a publish farm, additional publish instances need to be added to the configuration.</p> 
+ <p>On AEM Author instance:</p> 
+ <ol> 
+  <li>sign in with administrator privileges.</li> 
+  <li>access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</li> 
+  <li>locate <strong>Apache Sling Distribution Agent - Sync Agents Factory</strong> 
+   <ul> 
+    <li>select the existing configuration to open for edit (pencil icon)<br /> verify name : <strong>socialpubsync</strong></li> 
+    <li>select the <strong>Enabled </strong>checkbox</li> 
+    <li>select <strong>Use Multiple queues</strong></li> 
+    <li>specify <strong>Exporter Endpoints</strong> and <strong>Importer Endpoints </strong>(you can add more exporter and importer endpoints)<br /> These endpoints define where you want to get the content from and where you want to push the content. Author fetches the content from the specified exporter endpoint, and pushes the content to the publishers (other than the publisher from which it fetched the content).</li> 
+   </ul> </li> 
+ </ol> 
+ <img /> 
+</details>
 
-On AEM Author instance:
+<details> 
+ <summary>Adobe Granite Distribution - Encrypted Password Transport Secret Provider</summary> 
+ <p>It enables author to identify the authorized user, as having permission to sync user data from author to publish.</p> 
+ <p>The <a href="../../sites/administering/using/sync.md#createauthuser">authorized user created</a> on all the publish instances helps the publishers to connect with author and configure Sling distribution on author. This authorized user has all requisite <a href="../../sites/administering/using/sync.md#howtoaddacl">ACLs</a>.</p> 
+ <p>On AEM author instance:</p> 
+ <ul> 
+  <li>sign in with administrator privileges</li> 
+  <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console</a> 
+   <ul> 
+    <li>for example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a></li> 
+   </ul> </li> 
+  <li>locate <strong>Adobe Granite Distribution - Encrypted Password Transport Secret Provider</strong></li> 
+  <li>select the existing configuration to open for edit (pencil icon)<br /> Verify property name : <strong>socialpubsync-publishUser</strong></li> 
+  <li>set the username and password to the <a href="../../sites/administering/using/sync.md#createauthorizeduser">authorized user</a> 
+   <ul> 
+    <li>for example, usersync-admin</li> 
+   </ul> </li> 
+ </ul> 
+ <p>Whenever data is to be installed on or fetched from publishers, then author connects with the publishers using the credentials (user name and password) set in this configuration.</p> 
+ <img /> 
+</details>
 
-1. sign in with administrator privileges.
-1. access the [Web Console](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html).  
-   For example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
+<details> 
+ <summary>Apache Sling Distribution Agent - Queue Agents Factory</summary> 
+ <p>On AEM Publish instance:</p> 
+ <ul> 
+  <li>sign in with administrator privileges.</li> 
+  <li>access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html">Web Console</a> 
+   <ul> 
+    <li>for example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
+   </ul> </li> 
+  <li>locate <strong>Apache Sling Distribution Agent - Queue Agents Factory</strong> 
+   <ul> 
+    <li>select the existing configuration to open for edit (pencil icon)<br /> Verify Name : socialpubsync-reverse.</li> 
+    <li>select the <strong>Enabled</strong> checkbox and save.</li> 
+   </ul> </li> 
+  <li>repeat<strong> </strong>for each publish instance.</li> 
+ </ul> 
+</details>
 
-1. locate **Apache Sling Distribution Agent - Sync Agents Factory**
+<details> 
+ <summary>Adobe Granite Distribution - Diff Observer Factory</summary> 
+ <p>It syncs group membership across publishers.</p> 
+ <p>On each AEM Publish instance:</p> 
+ <ul> 
+  <li>sign in with administrator privileges.</li> 
+  <li>access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html">Web Console</a> 
+   <ul> 
+    <li>for example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
+   </ul> </li> 
+  <li>locate Adobe Granite Distribution - Diff Observer Factory 
+   <ul> 
+    <li>select the existing configuration to open for edit (pencil icon)<br /> Verify agent name : socialpubsync-reverse.</li> 
+    <li>select the Enabled checkbox and Save.</li> 
+   </ul> </li> 
+ </ul> 
+</details>
 
-    * select the existing configuration to open for edit (pencil icon)  
-      verify name : **socialpubsync**
-    
-    * select the **Enabled **checkbox
-    * select **Use Multiple queues**
-    * specify **Exporter Endpoints** and **Importer Endpoints **(you can add more exporter and importer endpoints)  
-      These endpoints define where you want to get the content from and where you want to push the content. Author fetches the content from the specified exporter endpoint, and pushes the content to the publishers (other than the publisher from which it fetched the content).
+<details> 
+ <summary>Apache Sling Distribution Trigger - Scheduled Triggers Factory</summary> 
+ <p>The author polls publishers every 30 seconds (default). If any packages are present at the folder /var/sling/distribution/packages/socialpubsync-vlt/shared, then it will fetch those packages and install them on other publishers.</p> 
+ <p><strong>To alter polling interval</strong></p> 
+ <p>On AEM author instance:</p> 
+ <ol> 
+  <li>sign in with administrator privileges.</li> 
+  <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console</a>,<br /> for example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a></li> 
+  <li>Locate <strong>Apache Sling Distribution Trigger - Scheduled Triggers Factory</strong></li> 
+ </ol> 
+ <ul> 
+  <li>select the existing configuration to open for edit (pencil icon)<br /> Verify Name : <strong>socialpubsync-scheduled-trigger</strong></li> 
+  <li>set the Interval in Seconds to the desired interval, and save.</li> 
+ </ul> 
+</details>
 
-![]()
+<details> 
+ <summary>&lt;h2&gt;AEM Communities User Sync Listener&lt;/h2&gt;&lt;p&gt;asfsdgsdfh&lt;/p&gt;</summary> 
+ <p>For issues in Sling distribution where there is discrepency in subscriptions and follows, check whether the following properties in <strong>AEM Communities User Sync Listener</strong> configurations are set.</p> 
+ <p>On each AEM Publish instance:</p> 
+ <ul> 
+  <li>sign in with administrator privileges.</li> 
+  <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console</a> 
+   <ul> 
+    <li>for example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
+   </ul> </li> 
+  <li>locate <strong>AEM Communities User Sync Listener.</strong></li> 
+  <li>select the existing configuration to open for edit (pencil icon)<br /> Verify Name : <strong>socialpubsync-scheduled-trigger</strong></li> 
+  <li>set the following <strong>NodeTypes</strong>:<br /> rep:User<br /> nt:unstructured<br /> nt:resource<br /> rep:ACL<br /> sling:Folder<br /> sling:OrderedFolder<br /> The node types specified in this property will synchronize, and the notifications info (blogs and configurations followed) are synced between different publishers.</li> 
+  <li>Add all the folders to synchronize in <strong>DistributedFolders</strong>. For example,<br /> segments/scoring<br /> social/relationships<br /> activities</li> 
+  <li>Set the ignorablenodes to:<br /> .tokens<br /> system<br /> rep:cache (since we use sticky sessions, we need not sync this node to different publishers)</li> 
+ </ul> 
+</details>
 
-It enables author to identify the authorized user, as having permission to sync user data from author to publish.
+<details> 
+ <summary>Item Title</summary> 
+ <img /> 
+ <p>If the Sling ID of a publish instance matches the Sling ID of any other publish instance, then:</p> 
+ <ol> 
+  <li>Stop one of the publish instances that has a matching Sling ID.</li> 
+  <li>In the crx-quickstart/launchpad/felix directory, search for and delete the file named <em>sling.id.file.<br /> </em>for example, on a Linux system:<em><br /> rm -i $(find . -type f -name sling.id.file)<br /> </em>for example, on a Windows system:<br /> use windows explorer and search for <em>sling.id.file</em></li> 
+  <li>Start the publish instance. On startup it will be assigned a new Sling ID. </li> 
+  <li>Validate that the <strong>Sling ID</strong> is now unique.</li> 
+ </ol> 
+ <p>Repeat these steps until all publish instances have an unique Sling ID.</p> 
+</details>
 
-The [authorized user created](../../sites/administering/using/sync.md#createauthuser) on all the publish instances helps the publishers to connect with author and configure Sling distribution on author. This authorized user has all requisite [ACLs](../../sites/administering/using/sync.md#howtoaddacl).
-
-On AEM author instance:
-
-* sign in with administrator privileges
-* access the [Web Console](../../sites/deploying/using/configuring-osgi.md)
-
-    * for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
-
-* locate **Adobe Granite Distribution - Encrypted Password Transport Secret Provider**
-* select the existing configuration to open for edit (pencil icon)  
-  Verify property name : **socialpubsync-publishUser**
-
-* set the username and password to the [authorized user](../../sites/administering/using/sync.md#createauthorizeduser)
-
-    * for example, usersync-admin
-
-Whenever data is to be installed on or fetched from publishers, then author connects with the publishers using the credentials (user name and password) set in this configuration.
-
-![]()
-
-On AEM Publish instance:
-
-* sign in with administrator privileges.
-* access the [Web Console](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html)
-
-    * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr).
-
-* locate **Apache Sling Distribution Agent - Queue Agents Factory**
-
-    * select the existing configuration to open for edit (pencil icon)  
-      Verify Name : socialpubsync-reverse.
-    * select the **Enabled** checkbox and save.
-
-* repeat** **for each publish instance.
-
-It syncs group membership across publishers.
-
-On each AEM Publish instance:
-
-* sign in with administrator privileges.
-* access the [Web Console](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html)
-
-    * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr).
-
-* locate Adobe Granite Distribution - Diff Observer Factory
-
-    * select the existing configuration to open for edit (pencil icon)  
-      Verify agent name : socialpubsync-reverse.
-    * select the Enabled checkbox and Save.
-
-The author polls publishers every 30 seconds (default). If any packages are present at the folder /var/sling/distribution/packages/socialpubsync-vlt/shared, then it will fetch those packages and install them on other publishers.
-
-**To alter polling interval**
-
-On AEM author instance:
-
-1. sign in with administrator privileges.
-1. access the [Web Console](../../sites/deploying/using/configuring-osgi.md),  
-   for example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr)
-
-1. Locate **Apache Sling Distribution Trigger - Scheduled Triggers Factory**
-
-* select the existing configuration to open for edit (pencil icon)  
-  Verify Name : **socialpubsync-scheduled-trigger**
-
-* set the Interval in Seconds to the desired interval, and save.
-
-For issues in Sling distribution where there is discrepency in subscriptions and follows, check whether the following properties in **AEM Communities User Sync Listener** configurations are set.
-
-On each AEM Publish instance:
-
-* sign in with administrator privileges.
-* access the [Web Console](../../sites/deploying/using/configuring-osgi.md)
-
-    * for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr).
-
-* locate **AEM Communities User Sync Listener.**
-* select the existing configuration to open for edit (pencil icon)  
-  Verify Name : **socialpubsync-scheduled-trigger**
-
-* set the following **NodeTypes**:  
-  rep:User  
-  nt:unstructured  
-  nt:resource  
-  rep:ACL  
-  sling:Folder  
-  sling:OrderedFolder  
-  The node types specified in this property will synchronize, and the notifications info (blogs and configurations followed) are synced between different publishers.
-
-* Add all the folders to synchronize in **DistributedFolders**. For example,  
-  segments/scoring  
-  social/relationships  
-  activities
-
-* Set the ignorablenodes to:  
-  .tokens  
-  system  
-  rep:cache (since we use sticky sessions, we need not sync this node to different publishers)
-
-![]()
-
-If the Sling ID of a publish instance matches the Sling ID of any other publish instance, then:
-
-1. Stop one of the publish instances that has a matching Sling ID.
-1. In the crx-quickstart/launchpad/felix directory, search for and delete the file named *sling.id.file.  
-   *for example, on a Linux system:* 
-   rm -i $(find . -type f -name sling.id.file)  
-   *for example, on a Windows system:  
-   use windows explorer and search for *sling.id.file*
-
-1. Start the publish instance. On startup it will be assigned a new Sling ID. 
-1. Validate that the **Sling ID** is now unique.
-
-Repeat these steps until all publish instances have an unique Sling ID.
-
-For updates to sync properly, it is necessary to modify the vault package builder for user sync. In /home/users a &#42;/rep:cache node is created. It is a cache which is used to find that if we query on a princepal name of a node then this cache can be used directly.
-
-On each AEM publish instance:
-
-1. access the [Web Console](../../sites/deploying/using/configuring-osgi.md)  
-   for example, [http://localhost:4503/system/console/configMgr](http://localhost:4503/system/console/configMgr).
-
-1. locate the **Apache Sling Distribution Packaging - Vault Package Builder Factory  
-   **Builder name: socialpubsync-vlt.
-1. select the edit icon.
-1. add two Package Filters:
-
-    * /home/users|-.&#42;/.tokens
-    * /home/users|**+**.&#42;/rep:cache
-
-1. policy handling
-
-    * to overwrite existing rep:policy nodes with new ones, add a third Package Filter:  
-      /home/users|**+**.&#42;/rep:policy
-    
-    * to prevent policies from being distributed, set  
-      Acl Handling: IGNORE
+<details> 
+ <summary>Vault Package Builder Factory</summary> 
+ <p>For updates to sync properly, it is necessary to modify the vault package builder for user sync. In /home/users a */rep:cache node is created. It is a cache which is used to find that if we query on a princepal name of a node then this cache can be used directly.</p> 
+ <p>On each AEM publish instance:</p> 
+ <ol> 
+  <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console</a><br /> for example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
+  <li>locate the <strong>Apache Sling Distribution Packaging - Vault Package Builder Factory<br /> </strong>Builder name: socialpubsync-vlt.</li> 
+  <li>select the edit icon.</li> 
+  <li>add two Package Filters: 
+   <ul> 
+    <li>/home/users|-.*/.tokens</li> 
+    <li>/home/users|<strong>+</strong>.*/rep:cache</li> 
+   </ul> </li> 
+  <li>policy handling 
+   <ul> 
+    <li>to overwrite existing rep:policy nodes with new ones, add a third Package Filter:<br /> /home/users|<strong>+</strong>.*/rep:policy</li> 
+    <li>to prevent policies from being distributed, set<br /> Acl Handling: IGNORE</li> 
+   </ul> </li> 
+ </ol> 
+</details>
 
 1. **Apache Sling Distribution Agent - Sync Agents Factory**
 

@@ -3,9 +3,9 @@ title: Best practices and considerations
 seo-title: Best practices and considerations 
 description: null
 seo-description: null
-uuid: b8e3e954-8ef8-494d-af4a-c982ef50a306
+uuid: d5569a4e-2de0-475c-b8cb-849479530739
 contentOwner: khsingh
-discoiquuid: bc94012a-3bcd-40ec-aad2-7e3876613f2d
+discoiquuid: 7383daf2-9302-4e31-b830-004f8cf624c0
 firstpublishinternaldate: 2018-11-29T02 02 12.582-0500
 lastpublishinternaldate: 2019-01-22T08 36 18.615-0500
 publishinternaldate: 2019-01-22T08 36 18.615-0500

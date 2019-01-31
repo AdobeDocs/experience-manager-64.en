@@ -3,7 +3,7 @@ title: Configure the Rich Text Editor
 seo-title: Configure the Rich Text Editor
 description: null
 seo-description: Learn to configure the AEM Rich Text Editor.
-uuid: b7fbd5b4-054d-4172-b8ae-02c92003db95
+uuid: 5788178c-50db-42c3-b786-2014c83b372d
 acrolinxdate: 2018-08-16T16 42 49.425-0400
 acrolinxlastcheckedby: asgupta
 acrolinxpagestatus: red
@@ -14,7 +14,7 @@ contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 1f1045b6-f508-4380-a604-432d4a601927
+discoiquuid: 915f2485-0c88-4893-b2b3-1846e6a42efc
 isreadyforlocalization: false
 jcr-lastmodifiedby: remove-legacypath-6-1
 locpublishoption: now
@@ -53,7 +53,7 @@ Last Modified Date: 2018-07-18T08:24:51.706-0400
 
 The Touch-enabled UI is the standard UI for AEM. Adobe introduced Touch UI with [responsive design](../../../sites/authoring/using/responsive-layout.md) for authoring environment, in version 5.6. The Touch UI is designed for touch and desktop devices. The UI differs considerably from the original classic UI.
 
-![Rich Text Editor toolbar in Touch-enabled UI](assets/chlimage_1-237.png)  ![Rich Text Editor toolbar in Classic UI](assets/rtedefault.png)
+![Rich Text Editor toolbar in Touch-enabled UI](assets/chlimage_1-237.png) ![Rich Text Editor toolbar in Classic UI](assets/rtedefault.png)
 
 **See also**:
 
@@ -120,9 +120,7 @@ In Classic UI, a slow double-click on the component allows inline editing and an
 
 ### Full screen editing {#full-screen-editing}
 
-AEM components can be opened in full screen view that hides the page content and occupies the available screen. Consider full screen editing a detailed version of the inline editing as it offers the most editing options. It can be opened by clicking  ![](assets/rte_fullscreen.png)
-
-, from the compact toolbar when using the inline editing mode.
+AEM components can be opened in full screen view that hides the page content and occupies the available screen. Consider full screen editing a detailed version of the inline editing as it offers the most editing options. It can be opened by clicking ![](assets/rte_fullscreen.png), from the compact toolbar when using the inline editing mode.
 
 In the dialog full screen mode, along with a detailed RTE toolbar, the options and components available in a dialog are also available. It is applicable only for a dialog that contains RTE alongside other components.
 
@@ -132,7 +130,7 @@ In the dialog full screen mode, along with a detailed RTE toolbar, the options a
 
 When a component is double-clicked a dialog box opens for editing the contents. The dialog box opens on top of the existing page. In some specific scenarios, the dialog opens as a pop-up window. For example, when a Text component is part of a column in a multicolumn page layout and the area available for the dialog is less.
 
-![Dialog editing mode in Touch-enabled UI](assets/dialog_editing_modetouchui.png)  ![Dialog box in Classic UI that contains detailed toolbar for editing](assets/chlimage_1-240.png) 
+![Dialog editing mode in Touch-enabled UI](assets/dialog_editing_modetouchui.png) ![Dialog box in Classic UI that contains detailed toolbar for editing](assets/chlimage_1-240.png) 
 
 ## About RTE plug-ins and the associated features {#aboutplugins}
 
@@ -481,11 +479,20 @@ These can be used to extend and customize your own RTE, for example:
 
 ## Known limitations {#known-limitations}
 
-RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like [Page Properties](../../../sites/developing/using/page-properties-views.md) and [Scaffolding](../../../sites/authoring/using/scaffolding.md) on Touch-enabled UI.
+<details> 
+ <summary>Use only in AEM components</summary> 
+ <p>RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like <a href="../../../sites/developing/using/page-properties-views.md" target="_blank">Page Properties</a> and <a href="../../../sites/authoring/using/scaffolding.md" target="_blank">Scaffolding</a> on Touch-enabled UI.</p> 
+</details>
 
-AEM does not work on [Hybrid devices](../../../release-notes/known-issues.md#knownissues).
+<details> 
+ <summary>Does not work with Hybrid devices</summary> 
+ <p>AEM does not work on <a href="../../../release-notes/known-issues.md#knownissues" target="_blank">Hybrid devices</a>.</p> 
+</details>
 
-Do not name the RTE configuration node as `config`. Otherwise, the RTE configurations take effect for only the administrators and not for the users in the group `content-author`.
+<details> 
+ <summary>Configuration node cannot be named config</summary> 
+ <p>Do not name the RTE configuration node as <span class="code">config</span>. Otherwise, the RTE configurations take effect for only the administrators and not for the users in the group <span class="code">content-author</span>.</p> 
+</details>
 
 >[!MORE_LIKE_THIS]
 >

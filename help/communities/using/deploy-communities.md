@@ -3,12 +3,12 @@ title: Deploying Communities
 seo-title: Deploying Communities
 description: null
 seo-description: How to deploy AEM Communities
-uuid: 098361b4-ab7e-467e-9dc2-362ab3cbfa83
+uuid: a73ba9cb-20ed-444e-a415-f3cbd4fd281c
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 4afa8ba7-d3bf-48f4-81a7-ab6c8218ab6c
+discoiquuid: 4424d3ab-2f6b-41e3-be3a-ecb3e12ec0da
 isreadyforlocalization: false
 index: y
 internal: n
@@ -156,9 +156,14 @@ The AEM Communities SCORM engine is required for the [enablement](../../communit
 
 For a new installation of SCORM engine, the package containing [SCORM 2017.1](https://rusticisoftware.com/blog/scorm-engine-2017-released/) (which is [  cq -social-  scorm -package, version 2.2.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg)) should be used. So that you are able to play learning resources supported by SCORM 2017.
 
-1. Install the ** [cq-social-scorm-package, version 2.2.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg).**
-1. Download **`/libs/social/config/scorm/database_scormengine_data.sql`** from cq instance and execute it in mysql server to create an upgraded scormEngineDB schema.
-1. Add `/content/communities/scorm/RecordResults` in Excluded Paths property in CSRF filter from **http://&lt;hostname&gt;:&lt;port&gt;/system/console/configMgr** on publishers.
+<details> 
+ <summary>To install a SCORM package for the first time</summary> 
+ <ol> 
+  <li><p>Install the <strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg" target="_blank">cq-social-scorm-package, version 2.2.2</a>.</strong></p> </li> 
+  <li><p>Download <strong><span class="code">/libs/social/config/scorm/database_scormengine_data.sql</span></strong> from cq instance and execute it in mysql server to create an upgraded scormEngineDB schema.</p> </li> 
+  <li><p>Add <span class="code">/content/communities/scorm/RecordResults</span> in Excluded Paths property in CSRF filter from <strong>http://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</strong> on publishers.</p> </li> 
+ </ol> 
+</details>
 
 Existing SCORM installations can be upgraded to [**cq-social-scorm-package, version 2.2.2**](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg) (which uses [SCORM 2017.1](https://rusticisoftware.com/blog/scorm-engine-2017-released/)), if the authored course content requires SCORM 2017.1.
 
@@ -166,18 +171,28 @@ Existing SCORM installations can be upgraded to [**cq-social-scorm-package, vers
 >
 >Upgrading to SCORM 2017.1 package requires migration of the existing database (as explained further).
 
-1. Take a back up of ScormEngineDB schema.
-1. Install the ** [cq-social-scorm-package, version 2.2.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg).**
-1. Download the package from `/libs/social/config/scorm/ScormEngine.zip`and extract the same.
-1. Go to **Installer** folder of the extracted directory.
-1. Update **SystemDatabaseConnectionString** with your  scorm   db  connection  url  in file **EngineInstall.xml**.  
-
-1. Run mysql schema upgrade tool in Installer folder with the command:
-
-   `java -Dlogback.configurationFile=logback.xml -cp "lib/*" RusticiSoftware.ScormContentPlayer.Logic.Upgrade.ConsoleApp EngineInstall.xml`
-
-1. Monitor `engine_upgrade.log` file for any kind of error and schema upgrade status.
-1. Add `/content/communities/scorm/RecordResults` in** Excluded Paths** property in CSRF filter from `http://<hostname>:<port>/system/console/configMgr` on publishers.
+<details> 
+ <summary>To upgrade version of your SCORM engine</summary> 
+ <ol> 
+  <li><p>Take a back up of ScormEngineDB schema.</p> </li> 
+  <li><p>Install the <strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg" target="_blank">cq-social-scorm-package, version 2.2.2</a>.</strong></p> </li> 
+  <li><p>Download the package from <span class="code">/libs/social/config/scorm/ScormEngine.zip </span>and extract the same.</p> </li> 
+  <li><p>Go to <strong>Installer</strong> folder of the extracted directory.</p> </li> 
+  <li><p>Update <strong>SystemDatabaseConnectionString</strong> with your 
+    <g class="gr_ gr_3 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="3" id="3">
+      scorm 
+    </g> 
+    <g class="gr_ gr_4 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="4" id="4">
+      db 
+    </g> connection 
+    <g class="gr_ gr_5 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="5" id="5">
+      url 
+    </g> in file <strong>EngineInstall.xml</strong>.<br /> </p> </li> 
+  <li><p>Run mysql schema upgrade tool in Installer folder with the command:</p> <p><span class="code">java -Dlogback.configurationFile=logback.xml -cp "lib/*" RusticiSoftware.ScormContentPlayer.Logic.Upgrade.ConsoleApp EngineInstall.xml</span></p> </li> 
+  <li><p>Monitor <span class="code">engine_upgrade.log</span> file for any kind of error and schema upgrade status.</p> </li> 
+  <li><p>Add <span class="code">/content/communities/scorm/RecordResults</span> in<strong> Excluded Paths</strong> property in CSRF filter from <span class="code">http://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</span> on publishers.</p> </li> 
+ </ol> 
+</details>
 
 #### SCORM Logging {#scorm-logging}
 

@@ -4,11 +4,11 @@ seo-title: Deploying Communities
 description: null
 seo-description: How to deploy AEM Communities
 page-status-flag: never-activated
-uuid: b622da2c-960a-4863-bccf-5703b7291141
+uuid: 7bb96d04-ccd9-479a-8cf6-5faf4acc7be9
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 46784934-5ab9-427f-91a6-44e08c753655
+discoiquuid: 22cabca4-ca82-4c9b-beaa-d5a37ab81649
 isreadyforlocalization: false
 index: y
 internal: n
@@ -158,23 +158,24 @@ Comment Type: draft
 </ul>
 -->
 
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Install the <strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/social/scorm/cq-social-scorm-pkg" target="_blank">cq-social-scorm-package, version 2.3.2</a> </strong>from the Package Share<strong>.</strong></p> </li>
-<li><p>Download <strong>/libs/social/config/scorm/database_scormengine_data.sql</strong> from
-<g class="gr_ gr_3 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="3" id="3">
-<g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="5" id="5">
-cq
-</g>
-</g> instance and execute it in
-<g class="gr_ gr_4 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="4" id="4">
-mysql
-</g> server to create an upgraded scormEngineDB schema.</p> </li>
-<li><p>Add <strong>/content/communities/scorm/RecordResults</strong> in Excluded Paths property in CSRF filter from <strong>http://&lt;hostname&gt;:&lt;port&gt;/system/console/configMgr</strong> on publishers.</p> </li>
-</ol>
--->
+<details> 
+ <summary>To install a SCORM package</summary> 
+ <draft-comment type="draft"> 
+  <ol> 
+   <li><p>Install the <strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/social/scorm/cq-social-scorm-pkg" target="_blank">cq-social-scorm-package, version 2.3.2</a> </strong>from the Package Share<strong>.</strong></p> </li> 
+   <li><p>Download <strong>/libs/social/config/scorm/database_scormengine_data.sql</strong> from 
+     <g class="gr_ gr_3 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="3" id="3"> 
+      <g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="5" id="5">
+        cq 
+      </g> 
+     </g> instance and execute it in 
+     <g class="gr_ gr_4 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="4" id="4">
+       mysql 
+     </g> server to create an upgraded scormEngineDB schema.</p> </li> 
+   <li><p>Add <strong>/content/communities/scorm/RecordResults</strong> in Excluded Paths property in CSRF filter from <strong>http://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</strong> on publishers.</p> </li> 
+  </ol> 
+ </draft-comment> 
+</details>
 
 #### SCORM Logging {#scorm-logging}
 

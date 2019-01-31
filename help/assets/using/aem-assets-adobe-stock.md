@@ -3,7 +3,7 @@ title: Use Adobe Stock assets in AEM Assets
 seo-title: Use Adobe Stock assets in AEM Assets
 description: null
 seo-description: Search, fetch, license, and manage Adobe Stock assets in AEM. Treat the licensed assets as any other AEM asset.
-uuid: 26f1526c-27c0-4bcc-a33f-08f47e74eb55
+uuid: 8eccb679-220d-4704-971f-049e78e6bac5
 acrolinxdate: 2019-01-12T17 37 46.853-0500
 acrolinxlastcheckedby: asgupta
 acrolinxpagestatus: green
@@ -13,7 +13,7 @@ acrolinxwords: 1118
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
-discoiquuid: 974e1202-6c19-4254-9d95-513ab7d49540
+discoiquuid: d748ba87-998f-4453-b1b4-cc3f55d4b8b1
 isreadyforlocalization: false
 locpublishoption: now
 index: y
@@ -75,9 +75,7 @@ Your AEM users, can search for assets in both, AEM and Adobe Stock. When the sea
 
 * To search for Adobe Stock assets, click **[!UICONTROL Navigation]** > **[!UICONTROL Assets]** > **[!UICONTROL Search Adobe Stock]**.  
 
-* To search for assets across Adobe Stock and AEM Assets, click the search icon  ![](assets/search_icon.png)
-
-  .
+* To search for assets across Adobe Stock and AEM Assets, click the search icon ![](assets/search_icon.png).
 
 Alternatively, start typing ' `Location: Adobe Stock`' in the search bar to select Adobe Stock assets.  AEM offers advanced filtering capabilities on the searched assets, allowing users to quickly zero-in on the required assets using filters, like types of supported assets, image orientation, and licensed state.
 
@@ -113,11 +111,20 @@ Users can see the properties for both, licensed and unlicensed assets.
 
 ## Known limitations {#known-limitations}
 
-When licensing an image, users cannot check if an image is Editorial Use Only. To prevent possible misuse, the administrators can turn off the access to editorial assets from the Admin Console.
+<details> 
+ <summary>Editorial image warning is not displayed</summary> 
+ <p>When licensing an image, users cannot check if an image is Editorial Use Only. To prevent possible misuse, the administrators can turn off the access to editorial assets from the Admin Console.<br /> </p> 
+</details>
 
-It is possible that an incorrect license type is displayed in AEM for an asset. Users can log into the Adobe Stock website to see the license type.
+<details> 
+ <summary>Wrong license type is displayed</summary> 
+ <p>It is possible that an incorrect license type is displayed in AEM for an asset. Users can log into the Adobe Stock website to see the license type.</p> 
+</details>
 
-When a user updates a license reference field, the license reference information is updated in AEM but not on the Adobe Stock website. Similarly, if the user updates the reference fields on the Adobe Stock website, the updates are not synchronized in AEM.
+<details> 
+ <summary>Reference fields and metadata are not synced</summary> 
+ <p>When a user updates a license reference field, the license reference information is updated in AEM but not on the Adobe Stock website. Similarly, if the user updates the reference fields on the Adobe Stock website, the updates are not synchronized in AEM.</p> 
+</details>
 
 ## Related resources {#related-resources}
 
