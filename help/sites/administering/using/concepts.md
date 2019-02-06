@@ -3,12 +3,12 @@ title: Concepts
 seo-title: Concepts
 description: General Concepts of eCommerce with AEM.
 seo-description: General Concepts of eCommerce with AEM.
-uuid: 8cdd9201-c5eb-45d9-8fbb-3b3cab352bfb
+uuid: 64a2c835-f52c-45f3-ba0a-bd291b883b74
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 6da8c93d-e546-4b7e-8f4d-eb599e0567d5
+discoiquuid: 8283c579-ee5d-44b2-86fb-44de6e2db8eb
 index: y
 internal: n
 snippet: y
@@ -65,13 +65,6 @@ This means that:
 >
 >A certain amount of development work is always needed to adapt the framework to your specifications.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:39.286-0500
-<p>still the appropriate statement?</p>
--->
-
 >[!CAUTION]
 >
 >The standard AEM installation includes the generic AEM (JCR) eCommerce implementation.
@@ -114,13 +107,6 @@ To optimize operation, both AEM and the eCommerce engine concentrate on their ow
 >
 >The exact details will depend on the eCommerce engine and the project implementation.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:39.358-0500
-<p>does this list need updating?</p>
--->
-
 A number of out-of-the-box AEM components are provided to use the integration layer. Currently these include:
 
 * Product information
@@ -134,11 +120,11 @@ Various search options are also available.
 
 The integration framework provides the API, a range of components to illustrate functionality and several extensions to provide examples of connection methods:
 
-![](assets/chlimage_1-202.png)
+![](assets/chlimage_1-193.png)
 
 The framework gives you access to functionality such as:
 
-![](assets/chlimage_1-203.png) 
+![](assets/chlimage_1-194.png) 
 
 ### Implementations {#implementations}
 
@@ -146,13 +132,6 @@ AEM eCommerce is implemented with an eCommerce engine:
 
 * The eCommerce integration framework has been built to allow you to easily integrate an eCommerce engine with AEM. The purpose built eCommerce engine controls product data, shopping carts, checkout and order fulfillment, while AEM controls the data display and marketing campaigns.  
   [A reference site has already been implemented using hybris](../../../sites/administering/using/hybris.md).
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:39.494-0500
-<p>still the appropriate statement?</p>
--->
 
 >[!NOTE]
 >
@@ -226,18 +205,11 @@ The integrated system caters for the following roles to maintain the data:
 
 Though the actual location can depend on your implementation; for example, generic or with an eCommerce engine:
 
-![](assets/chlimage_1-204.png) 
+![](assets/chlimage_1-195.png) 
 
 ## Products {#products}
 
 ### Product Data versus Marketing Data {#product-data-versus-marketing-data}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:39.666-0500
-<p>needs more content?</p>
--->
 
 #### Structural versus Marketing Categories {#structural-versus-marketing-categories}
 
@@ -261,27 +233,13 @@ Product data can be:
 * maintained in the eCommerce engine and made available in AEM.  
   Depending on the data type it is [synchronized](#datasynchronization) as necessary, or accessed directly; for example, highly volatile and critial data such as product prices are retrieved from the ecommerce engine (e.g. hybris) on every page request to ensure they are always up-to-date.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:39.746-0500
-<p>is all product data (generic and ecommerce engine) held under: /etc/commerce/products?</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:39.853-0500
-<p>can product data imported from an ecommerce engine be seen in the Products console?</p>
--->
-
 In either case, when the product data has been entered/imported into AEM it can be seen from the **Products** console. Here the card and list views of a product show information such as:
 
 * the image
 * the SKU code
 * when last modified
 
-![](assets/chlimage_1-205.png) 
+![](assets/chlimage_1-196.png) 
 
 ### Product Variants {#product-variants}
 
@@ -290,27 +248,6 @@ For appropriate products information about variants can also be held. For exampl
 ![](assets/ECommerceProductVariants.png) 
 
 ### Product Attributes {#product-attributes}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:39.973-0500
-<p>need more details<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:39.988-0500
-<ul>
-<li>price - in what currency? where is base currency defined?</li>
-<li>sku - what exactly is this in the context of AEM?</li>
-<li>description/summary/features - all these can be referenced separately on the product page?</li>
-<li>how does the color/size info interact with the same info at the variation level?</li>
-<li>can't specify an image when creating a product - have to register the product then go back and edit - is this by design? if so why?</li>
-<li>what exactly is the default asset category?</li>
-</ul>
--->
 
 The individual attributes held about each product may depend on the eCommerce engine being used and your AEM implementation. These are available (as appropriate) when viewing product pages and/or editing product information and can include:
 
@@ -349,13 +286,6 @@ The individual attributes held about each product may depend on the eCommerce en
 
 ### Product Assets {#product-assets}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:40.046-0500
-<p>need use-case and details / impact when with ecommerce engine</p>
--->
-
 A selection of assets can be held for individual products. Commonly these include images and videos.
 
 ## Catalogs {#catalogs}
@@ -372,41 +302,13 @@ For a multi-lingual store, you can import your catalog for each language tree in
 
 #### Catalogs for Multiple Brands {#catalogs-for-multiple-brands}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:40.155-0500
-<p>need use-case and details<br /> </p>
--->
-
 As with languages, large multi-national companies can need to cater for multiple brands.
 
 #### Catalogs by Tags {#catalogs-by-tags}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:40.197-0500
-<p>need use-case and details<br /> </p>
--->
-
 Tags can also be used to group products together into a catalog. These can be used for more dynamic catalogs such as seasonal offers.
 
 ### Catalog Setup (Initial Import) {#catalog-setup-initial-import}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:40.238-0500
-<p>The actual import seems to be engine specific (ie generic==csv, hybris==from hybris) - oder?</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:40.253-0500
-<p>can the product editor be used on data imported from an engine at all?<br /> </p>
--->
 
 Depending on your implementation, you can import the product data required for your base catalog into AEM from:
 
@@ -462,13 +364,13 @@ This scenario involves setting up two author instances:
 1. Dedicated DAM author instance  
    Imports and post-processes product assets from the PIM, then replicates these back to the master author instance for use.
 
-![Architecture diagram](assets/chlimage_1-206.png) 
+![Architecture diagram](assets/chlimage_1-197.png) 
 
 #### Only import product data {#only-import-product-data}
 
 For cases when products do not contain assets (images) to be imported, you can import the product data without being affected by asset post-processing.
 
-![Architecture diagram](assets/chlimage_1-207.png) 
+![Architecture diagram](assets/chlimage_1-198.png) 
 
 #### Import Throttling and Batch Saves {#import-throttling-and-batch-saves}
 
@@ -529,13 +431,6 @@ For all implementations the following points can be kept in mind:
 * Consider use of [proxy pages](../../../sites/administering/using/concepts.md#proxypages).
 
 ### Catalog Section Pages {#catalog-section-pages}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:40.596-0500
-<p>how/when are these set up (in principle)</p>
--->
 
 Catalog sections provide you with, for example:
 
@@ -670,56 +565,9 @@ A promotion can be held either in an experience or directly in the campaign:
 
 ### Customer Registration and Accounts {#customer-registration-and-accounts}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:41.022-0500
-<p>Martin:</p>
-<p>I would add these scenarios:</p>
-<ol>
-<li>User exists in both systems (no action required)</li>
-<li>User exists only in CQ -&gt; User will be created in hybris with same userID and random password which will be stored in CQ</li>
-<li>Users exists only in hybris. User will be created in hybris with same userID and password</li>
-</ol>
-<div>
-The reason in #2 for the random password is, that CQ tries to log into hybris with the first hybris call (e.g. go on a product page and hybris gets called for the price). And because this happens after the CQ login, we don't have the password anymore.
-</div>
-<div>
-</div>
-<div>
-in CQ we store only userid and pw (optional hybris user group), everything else like address is stored in hybris.
-</div>
-<div>
-</div>
-<div>
-AJH&gt; for the scenarios:
-</div>
-<div>
-1. Don't the accounts need to be synchronized somehow?
-</div>
-<div>
-3. Assume this is "User will be created in AEM".
-<br />
-</div>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:41.037-0500
-<p>does the lazy import occur with Elastic Path?<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:41.052-0500
-<p>"held independently" - what/where? need to know basis?</p>
--->
-
 When a shopper registers, the account details need to be synchronized between AEM and the eCommerce engine. Sensitive data is held independently, but profiles are shared:
 
-![](assets/chlimage_1-208.png)
+![](assets/chlimage_1-199.png)
 
 The exact mechanism can depend on the scenario:
 
@@ -738,13 +586,6 @@ The exact mechanism can depend on the scenario:
 
 When using an eCommerce engine, AEM only stores the account ID and password (optionally a user group). All other information is stored in the eCommerce engine.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:41.117-0500
-<p>Is the DuplicateUidException error valid for all engines?</p>
--->
-
 >[!NOTE]
 >
 >When using an eCommerce engine, you need to ensure that accounts created for users who log into an AEM instance are replicated (e.g. via workflows) to any other AEM instances that communicate with that engine.
@@ -755,7 +596,7 @@ Last Modified Date: 2017-11-30T04:59:41.117-0500
 
 Often sign-up is required for the shopper to have access to the shopping cart. This requires registration (Create Account) so that a customer-specific account can be created.
 
-![](assets/chlimage_1-209.png)
+![](assets/chlimage_1-200.png)
 
 >[!NOTE]
 >
@@ -765,7 +606,7 @@ Often sign-up is required for the shopper to have access to the shopping cart. T
 
 After sign-up the shopper can login with their account so that their actions can be tracked and their orders fulfilled.
 
-![](assets/chlimage_1-210.png) 
+![](assets/chlimage_1-201.png) 
 
 ### Single Sign-On {#single-sign-on}
 
@@ -773,27 +614,13 @@ Single-sign-on (SSO) is provided, so that authors are known in both AEM and the 
 
 ### myAccount {#myaccount}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:41.296-0500
-<p>need content</p>
--->
-
 Transaction data from the eCommerce engine is combined with personal information about the shopper. AEM uses some of this data as profile data. A form's action in AEM writes information back to the eCommerce engine.
 
 There is a page which allows you to easily manage your account informations. You can access it by clicking **My Account** at the top of a geometrixx page, or by navigating to `/content/geometrixx-outdoors/en/user/account.html`.
 
-![](assets/chlimage_1-211.png) 
+![](assets/chlimage_1-202.png) 
 
 ### Address Book {#address-book}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:41.357-0500
-<p>http://ec2author.day.com:8080/content/docs/en/cq/pre-release/overview/ecommerce/components.html#Address%20Book</p>
--->
 
 Your site will need to store a selection of addresses; including delivery, billing and alternative addresses. This can be implemented using forms based on your default address format or you can use the Address Book component provided by AEM.
 
@@ -807,7 +634,7 @@ You can choose which address you want as default.
 
 The address book component is reachable from the **My Account** page by clicking **Address Book** or by navigating to `/content/geometrixx-outdoors/en/user/account/address-book.html`.
 
-![](assets/chlimage_1-212.png)
+![](assets/chlimage_1-203.png)
 
 You can click** Add new address...** to add a new address in your address book. It opens a form that you can fill out and then click **Add address**.
 
@@ -817,7 +644,7 @@ You can click** Add new address...** to add a new address in your address book. 
 
 The Address Book is used when you checkout your cart:
 
-![](assets/chlimage_1-213.png)
+![](assets/chlimage_1-204.png)
 
 Addresses are persisted below `user_home/profile/addresses`.  
 For example, for Alison Parker, it would be under /home/users/geometrixx/aparker@geometrixx.info/profile/addresses
@@ -828,39 +655,11 @@ You can choose which address you want as default, this information is persisted 
 
 The eCommerce engine uses the context (essentially the shopper information) to determine the price it is holding, then provide the correct information back to AEM.
 
-<!--
-Comment Type: draft
-
-<h2>Experience Driven eCommerce</h2>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:41.534-0500
-<p>need content</p>
--->
-
 ## Shopping Cart and Orders {#shopping-cart-and-orders}
 
 When shopping the shopper will browse the product pages and select items to place them in their shopping cart. When they proceed to checkout an order can be placed.
 
 ### Anonymous Shoppers {#anonymous-shoppers}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:41.589-0500
-<p>If an anonymous shopper has placed items in a cart does registration have to happen before check out?</p>
-<p>if not, how is payment and shipping info collected?</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:41.604-0500
-<p>any differences across the implementations?</p>
--->
 
 An anonymous customer can:
 
@@ -925,32 +724,9 @@ Prior to the checkout, price changes are reflected (in both systems) as they occ
 
 ### Order Information {#order-information}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:41.811-0500
-<p>needs confirming/testing:</p>
-<p>can orders placed on a product/catalog managed by the eCommerce engine </p>
-<ul>
-<li>be viewed in the Commerce-&gt;Orders console</li>
-<li>or is that purely for generic<br /> </li>
-<li>or could it be project specific eg view only?<br /> </li>
-</ul>
--->
-
 Depending on your implementation information about an order is held either in the eCommerce engine or AEM, this information is rendered by AEM.
 
 A variety of information is stored, which can include:
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:41.838-0500
-<ul>
-<li>payment token - ?</li>
-<li>a lot of the fields seem to be free text - any validation, any suggestions as to what to document for proposed values?</li>
-</ul>
--->
 
 * **Order ID** 
   The reference number for the order.  
@@ -1012,16 +788,9 @@ When the order is held within AEM the Order console shows the following for each
 * when the order was placed
 * the status
 
-![](assets/chlimage_1-214.png) 
+![](assets/chlimage_1-205.png) 
 
 ### Order Tracking {#order-tracking}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:41.928-0500
-<p>can a complete order be cancelled?</p>
--->
 
 After placing an order, shoppers will often return to:
 
@@ -1033,7 +802,7 @@ After receiving the order delivery, shoppers may also want to view the history o
 
 Order fulfillment and tracking is usually managed by the eCommerce engine. Information can be displayed by AEM using the Order History component, which shows all relevant details, including the vouchers and promotions applied. For example:
 
-![](assets/chlimage_1-215.png) 
+![](assets/chlimage_1-206.png) 
 
 ## Checkout {#checkout}
 
@@ -1041,22 +810,7 @@ Checkout is implemented with standard AEM forms. This allows the marketing manag
 
 The eCommerce then manages the checkout process with input from the AEM forms.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:42.002-0500
-<p>If an anonymous shopper has placed items in a cart does registration have to happen before check out?</p>
-<p>if not, how is shipping/payment info collected?</p>
--->
-
 ### Payment Security {#payment-security}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:42.032-0500
-<p>credit cards link under myAccount?</p>
--->
 
 Payment details, including credit card information, are often managed by the eCommerce engine. AEM forwards such transactional information to the engine (from where it is then forwarded to a payment processing service).
 
@@ -1064,18 +818,11 @@ Payment Card Industry (PCI) complicance can be achieved.
 
 ### Confirmation of Order {#confirmation-of-order}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:59:42.076-0500
-<p>need more content</p>
--->
-
 The order is confirmed on screen and can be tracked with the [order tracking](#ordertracking).
 
 ## Search {#search}
 
-![](assets/chlimage_1-216.png)
+![](assets/chlimage_1-207.png)
 
 Since AEM uses standard pages for products, you can use the [standard search component](/content/docs/en/aem/6-3/author/page-authoring/default-components/editmode#Search) to create a search page.
 

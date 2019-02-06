@@ -3,12 +3,12 @@ title: Gesture customization
 seo-title: Gesture customization
 description: Customize the gestures on your AEM Forms app
 seo-description: Customize the gestures on your AEM Forms app
-uuid: a7dd741f-1cc7-4e75-8db1-b780e776f5a4
+uuid: 9a34e2a8-315a-4567-b936-a8b5644ec016
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 354da745-e716-40b1-84be-59b362296b9a
+discoiquuid: c1edbc30-764b-4167-9243-4315485b3eae
 index: y
 internal: n
 snippet: y
@@ -37,14 +37,6 @@ In the AEM Forms app, the left swipe opens up a new task or Startpoint while rig
    >[!NOTE]
    >
    >The task.js file contains the backbone view associated with each task or Startpoint listed in the task or Startpoint lists.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Peter G.A. Barraud (barraud)
-   Last Modified Date: 2017-11-30T06:09:51.366-0500
-   <p>SP1 UPDATE</p>
-   <p>Is the task.js used for both tasks and Startpoints</p>
-   -->
 
 1. In the `task.js` file, search for the events property of the view.
 

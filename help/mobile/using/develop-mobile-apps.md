@@ -3,12 +3,12 @@ title: Mobile Apps
 seo-title: Mobile Apps
 description: This page serves as a landing page to get started with authoring, developing, and administering mobile apps.
 seo-description: This page serves as a landing page to get started with authoring, developing, and administering mobile apps.
-uuid: efddffc2-9a85-4fd5-9aff-79210709ba24
+uuid: 433e8ab5-400d-4e4e-b964-d802d22e7907
 contentOwner: msm-service
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: introduction
-discoiquuid: 5538579e-8328-4e69-93e2-fa265e1b1374
+discoiquuid: 1a4c3c34-1559-4f38-a8ff-2a9f417c2582
 index: y
 internal: n
 snippet: y

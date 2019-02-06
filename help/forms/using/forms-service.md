@@ -3,11 +3,11 @@ title: Forms Service
 seo-title: Forms Service
 description: The article describes Forms service and the form-related tasks you can perform using Forms service.
 seo-description: The article describes Forms service and the form-related tasks you can perform using Forms service.
-uuid: b3a30f79-a93e-442b-82a5-fcf226fb4d08
+uuid: 6d23084d-a481-4329-aa79-1d882e64c0f3
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
-discoiquuid: d50ffe78-2028-4108-9b42-0eba4f68da5e
+discoiquuid: 2256c313-1a91-444a-bad4-cadfd52cc36a
 index: y
 internal: n
 snippet: y

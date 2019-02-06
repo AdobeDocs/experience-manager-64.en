@@ -3,12 +3,12 @@ title: Sustainable Upgrades
 seo-title: Sustainable Upgrades
 description: Learn about sustainable upgrades in AEM 6.4.
 seo-description: Learn about sustainable upgrades in AEM 6.4.
-uuid: 1582827e-5f2f-4a04-94fa-b0bab40a5a48
+uuid: ef2103ab-61ce-42ba-8221-d68e50d6495c
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
-discoiquuid: 4e43667f-79bf-47c0-bf98-04b754c2be55
+discoiquuid: 0c79c55f-f20a-4877-a33e-9337e9990ba2
 index: y
 internal: n
 snippet: y

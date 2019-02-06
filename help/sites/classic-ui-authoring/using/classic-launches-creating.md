@@ -3,12 +3,12 @@ title: Creating Launches
 seo-title: Creating Launches
 description: Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page.
 seo-description: Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page.
-uuid: b2a22e01-7518-4fa9-82df-8afe406dd1b7
+uuid: 2cf99171-6200-452d-a3cd-8ca9f584b191
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: d7ab9f93-9cac-41b4-ae46-f9a3a0779570
+discoiquuid: 3cf3b73a-b504-418a-b5f8-ed615c2063b7
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n
@@ -16,20 +16,6 @@ snippet: y
 ---
 
 # Creating Launches{#creating-launches}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-12-06T04:44:08.035-0500
-<p>6.2</p>
-<ul>
-<li>create from multiple roots</li>
-<li>clone a launch from the console
-<ul>
-<li>os there any connection between the clone and the original launch?<br /> </li>
-</ul> </li>
-</ul>
--->
 
 Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page:
 
@@ -54,7 +40,7 @@ The following procedure creates a launch.
     
     * **Launch Date**: The date and time when the launch copy is to be activated (dependent on the **Production Ready** flag; see [Launches - the Order of Events](../../../sites/authoring/using/launches.md#main-pars-title-6)).
 
-   ![](assets/chlimage_1-111.png)
+   ![](assets/chlimage_1-106.png)
 
 1. Click **Create**.
 
@@ -65,7 +51,7 @@ You can also delete a launch.
 1. In the [launches console](../../../sites/classic-ui-authoring/using/classic-launches.md), select the required launch.
 1. Click **Delete** - confirmation is required:
 
-   ![](assets/chlimage_1-112.png)
+   ![](assets/chlimage_1-107.png)
 
    >[!CAUTION]
    >

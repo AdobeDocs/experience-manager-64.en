@@ -3,10 +3,10 @@ title: Changing Page Zero content in Designer
 seo-title: Changing Page Zero content in Designer
 description: Do you know how you can change the message displayed on Page Zero of an XFA PDF when viewing it in a non-Adobe PDF viewer?
 seo-description: Do you know how you can change the message displayed on Page Zero of an XFA PDF when viewing it in a non-Adobe PDF viewer?
-uuid: e0b62acb-b101-4a6f-86a2-79f4cadea2cf
+uuid: 2856bed7-c5d7-440b-9e51-3a168f8f00bd
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: f9181982-19bf-44af-95a2-90cddb483f79
+discoiquuid: e040fba6-fd22-420d-8170-7db47cff8c0b
 index: y
 internal: n
 snippet: y

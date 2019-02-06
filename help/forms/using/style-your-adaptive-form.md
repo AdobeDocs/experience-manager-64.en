@@ -4,9 +4,9 @@ seo-title: [DO NOT PUBLISH] Style your adaptive form
 description: Learn to create a custom theme, style individual components, and use web fonts in a theme 
 seo-description: Learn to create a custom theme, style individual components, and use web fonts in a theme 
 page-status-flag: de-activated
-uuid: d8fbc90c-0cb0-468c-bfe2-6231cc67ff68
+uuid: 21bfe37a-dfd5-4d35-af7e-d869879e5777
 topic-tags: introduction
-discoiquuid: e47b7238-dd2c-41f7-b75e-df24c097384f
+discoiquuid: 4acefb23-ebd9-4ccc-9ab3-7ace62c442cb
 index: y
 internal: n
 snippet: y

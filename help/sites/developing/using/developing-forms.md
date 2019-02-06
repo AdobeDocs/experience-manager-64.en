@@ -3,12 +3,12 @@ title: Developing Forms (Classic UI)
 seo-title: Developing Forms (Classic UI)
 description: Learn how to develop forms
 seo-description: Learn how to develop forms
-uuid: 1c4184ec-b8ab-4096-b373-f22638a0ba17
+uuid: 6456ba4a-adc2-42cc-a77d-28d93ea99dfe
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 52237791-a69a-482c-ab3f-61bdd85c8f4c
+discoiquuid: 5c36f4d1-c48f-44c2-81eb-bfe535ee0fa9
 index: y
 internal: n
 snippet: y
@@ -96,7 +96,7 @@ A range of actions are provided with a standard AEM installation, these can be s
 
 and in the **Action Type** list of the **Form** component:
 
-![](assets/chlimage_1-244.png)
+![](assets/chlimage_1-237.png)
 
 This section covers how you can develop your own form action for inclusion in this list.
 
@@ -288,7 +288,7 @@ In Javascript, conditions use the value of the Element Name property to refer to
 
    For example:
 
-   ![](assets/chlimage_1-245.png)
+   ![](assets/chlimage_1-238.png)
 
 1. Click **OK** to save the definition.  
 
@@ -296,7 +296,7 @@ In Javascript, conditions use the value of the Element Name property to refer to
 
    Click **OK** to save all changes. 
 
-   ![](assets/chlimage_1-246.png)
+   ![](assets/chlimage_1-239.png)
 
    >[!CAUTION]
    >

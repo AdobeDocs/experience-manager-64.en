@@ -3,12 +3,12 @@ title: Style System
 seo-title: Style System
 description: The Style System allows a template author to define style classes in the content policy of a component so that a content author is able to select them when editing the component on a page. This leads to more reusable components that can be quickly and easily adapted to the needs of content authors without any AEM back-end development.
 seo-description: The Style System allows a template author to define style classes in the content policy of a component so that a content author is able to select them when editing the component on a page. This leads to more reusable components that can be quickly and easily adapted to the needs of content authors without any AEM back-end development.
-uuid: d27c2862-6739-4b8f-928a-0fe1a0c3c406
+uuid: 44271cda-b79c-4952-971f-b4b5cc553d4b
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
-discoiquuid: 529f997c-5f57-4461-be5c-aa5b7784fea2
+discoiquuid: 754521b0-1e23-4297-a63d-53e12f2d61bf
 redirecttarget: /content/help/en/experience-manager/6-4/sites/authoring/using/style-system.html
 index: y
 internal: n

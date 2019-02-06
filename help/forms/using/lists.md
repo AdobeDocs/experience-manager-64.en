@@ -3,10 +3,10 @@ title: Document Fragments
 seo-title: Document Fragments
 description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
 seo-description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
-uuid: 2856090d-18b2-492f-94f8-e83fec089227
+uuid: f65a945e-a028-4929-9576-0f099310bdb4
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 88990a59-da21-4b8a-94f6-331ca7c995fa
+discoiquuid: c9020413-6240-4931-963d-1a815b243d79
 index: y
 internal: n
 snippet: y

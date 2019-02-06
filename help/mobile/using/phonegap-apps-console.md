@@ -3,12 +3,12 @@ title: Creating and Editing Apps Using the Apps Console
 seo-title: Creating and Editing Apps Using the Apps Console
 description: Follow this page to learn about creating and editing apps using apps console.
 seo-description: Follow this page to learn about creating and editing apps using apps console.
-uuid: 16f8772f-3dc1-4762-8a4a-edf61e7ca59c
+uuid: 9fdcba36-b39e-42a1-bab4-a95487c2cdf0
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 423fb9ae-fcf0-46d4-8480-da502827cb71
+discoiquuid: 337aa720-ac4c-4914-8be2-fbf2086ef834
 index: y
 internal: n
 snippet: y
@@ -166,15 +166,6 @@ Perform the following procedure on the instance where you want to update the cac
 
    ![](assets/chlimage_1-164.png)
 
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>On the AEM publish instance, open the Content Sync console. (<a href="http://localhost:4503/libs/cq/contentsync/content/console.html">http://localhost:4503/libs/cq/contentsync/content/console.html</a>)</p> <p>If the Geometrixx sample web sites are installed on the publish instance, you will have to log in to Geometrixx before opening the Content Sync console.</p> </li>
-<li><p>Select your mobile application and click Update Cache.</p> <img imageRotate="0" src="assets/chlimage_1-165.png" /><p>When the update completes, the Last Updated date and time is updated.</p> </li>
-</ol>
--->
-
 ### Using App Templates {#using-app-templates}
 
 This is a feature that is available with Apps 6.1 Feature Pack 2 and provides an easy way to leverage existing app templates for the creation of new apps within AEM.
@@ -204,7 +195,7 @@ Steps to creating a new app based on an app template:
     1. Additionally, you can provide a PNG (supported PhoneGap icon format) as an icon by browsing AEM assets.
     1. Recall that you can edit all these fields after the app has been created in the Manage App tile. With the exception of the App Id, once the App Id has been set you are unable to change it.
 
-![](assets/chlimage_1-166.png)
+![](assets/chlimage_1-165.png)
 
 1. Click the create button, you will be presented with 2 options, either Done (go back to Apps catalog view) or Manage App (opens the app dashboard). 
 1. Once created, you should see the new app listed in the App catalog:
@@ -295,7 +286,7 @@ The Swipe Carousel component is a tool for showcasing and navigating site pages.
 
 Note that images appear in the carousel for pages that are associated with an image in a specific way. When pages are not associated with images, only the list of links appears.
 
-![](assets/chlimage_1-167.png)
+![](assets/chlimage_1-166.png)
 
 **Carousel properties tab**
 
@@ -346,12 +337,6 @@ Populate the list using a [Querybuilder](../../sites/developing/using/querybuild
 
 Add an image to your application content.
 
-<!--
-Comment Type: draft
-
-<h3>Menu List</h3>
--->
-
 ### Text {#text}
 
 Add rich text to your application content.
@@ -363,11 +348,11 @@ The Store Locations component provides users with tools for finding business out
 * Search
 * Lists of locations that are near or distant to the GPS coordinates of the device.
 
-The component requires that the repository contains location information for each store. Sample locations are installed at the /etc/commerce/locations/adobe node. ![](assets/chlimage_1-168.png)
+The component requires that the repository contains location information for each store. Sample locations are installed at the /etc/commerce/locations/adobe node. ![](assets/chlimage_1-167.png)
 
 ### Two Column Row {#two-column-row}
 
 Enables you to add side-by-side components to a page.
 
-![](assets/chlimage_1-169.png)
+![](assets/chlimage_1-168.png)
 

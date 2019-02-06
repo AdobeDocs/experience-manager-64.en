@@ -3,11 +3,11 @@ title: Content Delivery
 seo-title: Content Delivery
 description: null
 seo-description: null
-uuid: 8563e998-b135-4964-be22-4f4620c82d57
+uuid: 4db0fc2a-b47d-4c73-acb4-9d2e37a912c4
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: ab9bfbd3-e2c1-4de0-968b-9d29cda104f7
+discoiquuid: 1c4111d9-7a25-4227-a9ef-34581efe9c23
 index: y
 internal: n
 snippet: y
@@ -33,7 +33,7 @@ There are three main types of material that Content Services deliver:
 1. **Packaged HTML content (HTML/CSS/JS)**
 1. **Channel independent content**
 
-![](assets/chlimage_1-170.png) 
+![](assets/chlimage_1-169.png) 
 
 ## Assets {#assets}
 
@@ -63,7 +63,7 @@ The asset workflow is as follows:
 
 The following diagram shows the **Assets Reference Workflow**:
 
-![](assets/chlimage_1-171.png) 
+![](assets/chlimage_1-170.png) 
 
 ### Managing Assets {#managing-assets}
 
@@ -97,7 +97,7 @@ An app developer can get a list of what assets are available, by retrieving the 
 
 The result would be an object in a JSON format that would provide a list of the assets in the "icons" folder. 
 
-![](assets/chlimage_1-172.png) 
+![](assets/chlimage_1-171.png) 
 
 #### Getting an Image {#getting-an-image}
 
@@ -116,7 +116,7 @@ The following options are considered:
 * **Zip file:** To have the best chance at displaying properly on the device, all of the page’s referenced material - css, JavaScript, assets, etc. - will be included in a single compressed file with the response. The references in the HTML page will be adjusted to use a relative path to these files.
 * **Streaming:** Getting a manifest of the required files from AEM. Then use that manifest to request all of the files (HTML, CSS, JS, etc.) with subsequent requests.
 
-![](assets/chlimage_1-173.png) 
+![](assets/chlimage_1-172.png) 
 
 ## Channel Independent Content {#channel-independent-content}
 

@@ -3,9 +3,9 @@ title: What's New in AEM 6.4 Communities
 seo-title: What's New in AEM 6.4 Communities
 description: null
 seo-description: null
-uuid: 83d7b428-7fed-4f74-baef-cd12d4ba9e56
+uuid: ea27e587-06ea-4680-b80d-be29ed80bb85
 contentOwner: mgulati
-discoiquuid: 2f13fdaa-8274-4cd5-a6b0-c5a5b6922e1e
+discoiquuid: 0b339cda-2537-46eb-a798-4d691359667e
 index: y
 internal: n
 snippet: y
@@ -100,11 +100,4 @@ Keeping user data protection at the heart of communities experience, AEM Communi
 * Content Only and Search icons have been added in the Filter Rail in Bulk Moderation UI.
 * Content Path filter has been added in Filter Rail in Bulk Moderation UI.  
 * Switch to bulk mode and Exit bulk mode have been removed from the Bulk Moderation UI. To enter multi-select mode click the Select ( ![](assets/SelectIcon.png)) icon on a post, which appears on hovering over it with the mouse (desktop) or pressing and holding a finger on the post (mobile).
-
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-05-07T07:02:28.152-0400
-reCaptcha --> reCAPTCHA Done by Mini
--->
 

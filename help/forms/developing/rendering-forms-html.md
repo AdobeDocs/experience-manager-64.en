@@ -3,13 +3,13 @@ title: Rendering Forms as HTML
 seo-title: Rendering Forms as HTML
 description: null
 seo-description: null
-uuid: d93e742d-6c16-4c83-a70d-cf6778857acc
+uuid: dad2c0d2-608f-41d3-9138-b737f06b664b
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 68901ce7-9bf3-4da1-a512-31cdd2f9affd
+discoiquuid: 0c861811-0aeb-45dc-b52c-e958de88bf6d
 index: y
 internal: n
 snippet: y

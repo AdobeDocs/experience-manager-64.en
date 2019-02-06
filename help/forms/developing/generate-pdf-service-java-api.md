@@ -3,12 +3,12 @@ title: Generate PDF Service Java API QuickStart(SOAP)
 seo-title: Generate PDF Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: 4490766e-dd1f-4a78-915d-05685dd26002
+uuid: 86154fdb-1293-4717-90f9-ed21977e58e9
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 9d53eaab-48e1-4656-9847-f0cf706152e6
+discoiquuid: f2390096-bc60-4968-9ac8-16e71d4a7ce2
 index: y
 internal: n
 snippet: y

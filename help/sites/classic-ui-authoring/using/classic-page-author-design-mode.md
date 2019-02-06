@@ -4,12 +4,12 @@ seo-title: Configuring Components in Design Mode
 description: When AEM instance is installed out-of-the-box, a selection of components are immediately available in the sidekick. In addition to these, various other components are also available. You can use Design mode to Enable/disable such components. 
 seo-description: When AEM instance is installed out-of-the-box, a selection of components are immediately available in the sidekick. In addition to these, various other components are also available. You can use Design mode to Enable/disable such components. 
 page-status-flag: de-activated
-uuid: e1ad5ee0-a13a-4a68-a710-7d8202bb0e22
+uuid: ac12c2bd-5ee2-48f3-a84a-3d58566a1b9b
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 161b8bb6-efe7-40fc-b993-d186ac031c7f
+discoiquuid: 8f3ad266-c836-4de5-8abc-9ffd20d6357a
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ In Design mode, the sidekick is minimized and you have the possibility to config
 
 1. To enter Design mode, open a page for editing and use the Sidekick icon:
 
-   ![](assets/chlimage_1-15.png)
+   ![](assets/chlimage_1-12.png)
 
 1. Click **Edit** on the Paragraph system (**Design of par**).
 
@@ -66,13 +66,13 @@ In Design mode, you can also configure attributes for the individual components.
 
 1. To enter Design mode, open a page for editing and use the Sidekick icon:
 
-   ![](assets/chlimage_1-16.png)
+   ![](assets/chlimage_1-13.png)
 
 1. You can configure the design of components.
 
    For example, if you click **Edit** on the Image component (**Design of image**) you can configure the component specific parameters:
 
-   ![](assets/chlimage_1-17.png)
+   ![](assets/chlimage_1-14.png)
 
 1. Click **OK** to save your changes.  
 

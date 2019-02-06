@@ -3,12 +3,12 @@ title: Configure Your Users and User Groups
 seo-title: Configure Your Users and User Groups
 description: Follow this page to understand the user roles and how to configure your users and groups to support the authoring and mangement of your mobile apps.
 seo-description: Follow this page to understand the user roles and how to configure your users and groups to support the authoring and mangement of your mobile apps.
-uuid: 793aa4e3-2316-43dd-a932-2991328c21da
+uuid: c691219c-529a-45f9-a6e4-df8b5585d3e3
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
-discoiquuid: 9be677f9-452a-41ea-8c75-beccf2a4e17c
+discoiquuid: 84fa221a-6e07-40a0-8a4c-29c288f03de1
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Using Voting
 seo-title: Using Voting
 description: Adding the Voting component to a page
 seo-description: Adding the Voting component to a page
-uuid: 5fd179f8-d683-48e0-ba73-6a173fd2ce90
+uuid: 3042d6da-07ef-4381-991e-ec7c06481aee
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 15d4ced1-a03b-4cbf-a6c8-521b9f367cd1
+discoiquuid: 5ba5d5ef-ff02-48e8-8ecc-0efeafdbd8b3
 index: y
 internal: n
 snippet: y
@@ -30,17 +30,17 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/essentials-voting.md#essentialsforclientside) are included, this is how the `Voting` component will appear.
 
-![](assets/chlimage_1-319.png)
+![](assets/chlimage_1-306.png)
 
 ### Configuring Voting {#configuring-voting}
 
 Select the placed `Voting` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-320.png)
+![](assets/chlimage_1-307.png)
 
 Under the **Texts & Labels **tab, specify the properties used to record votes.
 
-![](assets/chlimage_1-321.png)
+![](assets/chlimage_1-308.png)
 
 * **Positive Response Label** 
   (*Required*) The internal property name for a positive response.

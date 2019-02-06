@@ -3,9 +3,9 @@ title: Best practices and considerations
 seo-title: Best practices and considerations 
 description: null
 seo-description: null
-uuid: cceaded2-51d8-4824-91bc-8b773c21cbeb
+uuid: 6ba813fe-9013-4624-a61c-3338aca27db7
 contentOwner: khsingh
-discoiquuid: 0b487e74-f58c-4634-8255-8e73eeca1055
+discoiquuid: 6d31bc90-d87b-4662-94d4-3f88409ef1fa
 index: y
 internal: n
 snippet: y
@@ -20,19 +20,6 @@ Automated Forms Conversion service is trained on a large set of forms. It easily
 The service would start identifying and assigning correct fields or panels to these patterns as it keeps learning from the source data. For the time being, you can use [Review and Correct](../../../forms/using/wip/review-correct-ui-edited.md) editor to fix such issues. Before start fixing the issues or reading further, familiarize yourself with [adaptive form components](../../../forms/using/introduction-forms-authoring.md).
 
 ## General {#general}
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>Service does not convert filled PDF forms to adaptive form. Use empty adaptive forms.Service does not convert colored PDF forms to adaptive form. Use black and white or grayscale adaptive forms. <br /> </li>
-<li>Service does not convert filled PDF forms to adaptive form. Use empty adaptive forms.</li>
-<li>Service does not support scanned forms. Do not use scanned forms. </li>
-<li>Service can fail to recognize text and fields in a dense form. Increase the width between text and fields of a dense form before starting the conversion.</li>
-<li>Service does not extract images. Manually add images to converted forms.</li>
-<li>Service does not extract text present within an image. Manually add text to the adaptive form.</li>
-</ul>
--->
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody>
@@ -131,25 +118,4 @@ Comment Type: draft
   </tr>
  </tbody>
 </table>
-
-<!--
-Comment Type: draft
-
-<h3>Choice groups</h3>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>Lists with form fields, nested lists, and nested choice groups are not supported.</li>
-<li>Form fields with captions at bottom or right are not supported.</li>
-<li>Form fiields without bordes are not supported.</li>
-<li>Hidden form fields are not supported.</li>
-<li>Button in PDF forms are not converted to adaptive form buttons.<br /> </li>
-<li>Tables with clear explicit boundaries and borders are supported.</li>
-<li>Fields with far away captions are not supported.<br /> </li>
-<li>Choice groups with only box or circle shaped selectors are supported. </li>
-</ul>
--->
 

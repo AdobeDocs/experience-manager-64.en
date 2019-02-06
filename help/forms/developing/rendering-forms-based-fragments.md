@@ -3,13 +3,13 @@ title: Rendering Forms Based on Fragments
 seo-title: Rendering Forms Based on Fragments
 description: null
 seo-description: null
-uuid: 1a02958c-9d9c-45aa-8bcd-45a7bce745c4
+uuid: ce83d437-6caa-4370-8292-24eba0b5878e
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 3f30796e-bdf1-45f2-98b9-3679ce2438c6
+discoiquuid: f53ff4bf-4370-48d9-9627-58cb6f25f927
 index: y
 internal: n
 snippet: y

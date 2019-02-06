@@ -3,12 +3,12 @@ title: Connecting to Microsoft Translator
 seo-title: Connecting to Microsoft Translator
 description: Learn how to connect AEM to Microsoft Translator.
 seo-description: Learn how to connect AEM to Microsoft Translator.
-uuid: 986d9b11-6ab5-4f47-8fba-70dfda60e1b1
+uuid: b857d03d-3575-4813-a188-780e4402408f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 9369d7cf-7285-4f31-9675-8c02510521e6
+discoiquuid: 27960499-40eb-4b87-9480-6416ab8e94fe
 index: y
 internal: n
 snippet: y
@@ -33,7 +33,7 @@ The following procedure uses the touch-optimized UI to create a Microsoft Transl
 1. In the Microsoft Translator area, then click or tap Show Configurations.
 1. Click the + link next to Available Configurations.
 
-   ![](assets/chlimage_1-458.png)
+   ![](assets/chlimage_1-442.png)
 
 1. Type a title for your configuration. The title identifies the configuration in the Cloud Services console as well as in page property drop-down lists. The default name is based on the title. Optionally, type a name to use for the repository node that stores the configuration. You should use the default value for the Parent Configuration property which is the path of the repository node.
 1. Click Create.
@@ -60,11 +60,11 @@ Microsoft Translation configuration pages provide a convenient link to the Micro
 1. On the rail, click or tap Tools &gt; Operations &gt; Cloud &gt; Cloud Services.
 1. In the Microsoft Translator area, click or tap Show Configurations, then click or tap Microsoft Translator Trial License (Microsoft Translation Configuration).
 
-   ![](assets/chlimage_1-459.png)
+   ![](assets/chlimage_1-443.png)
 
 1. On the configuration page, click Upgrade Subscription. Use the Microsoft web page that opens to configure your account.
 
-   ![](assets/chlimage_1-460.png)
+   ![](assets/chlimage_1-444.png)
 
 ### Customizing Your Microsoft Translator Engine {#customizing-your-microsoft-translator-engine}
 
@@ -80,45 +80,4 @@ You need to activate your cloud service configurations to support translated con
 
 * Microsoft Translation Service: /etc/cloudservices/msft-translation
 * Third-party Translation: /etc/cloudservices/machine-translation
-
-<!--
-Comment Type: draft
-
-<h2>Turning Off Translation</h2>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sbroders@adobe.com)
-Last Modified Date: 2017-11-30T05:02:29.830-0500
-<p>draft for now. Modify as required for 6.1. Rework to add sling:osgiconfig info</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>Use the <a href="http://localhost:4503/system/console/bundles">Web Console</a> to turn off all machine translation services, including the use of machine translation for page content and user generated content (UGC). When turned off, translation tools no longer appear in the UI, and translations of UGC no longer appears.</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Navigate to the <a href="http://localhost:4503/system/console/bundles">Web Console</a> and login with administrator privileges (default is admin/admin).</p> </li>
-<li><p>To find all translation-related bundles, enter <span class="code">Translation </span>in the filter box and click <span class="code">Apply Filter</span> :</p> <img imageRotate="0" src="assets/chlimage_1-461.png" /></li>
-<li><p>To the right of each translation-related bundle, under <span class="code">Actions</span>, click the square <span class="code">stop </span>button:</p>
-<ul>
-<li>Adobe CQ Translation Workflow </li>
-<li>AEM Social Communities Translation - Bundle</li>
-<li>Granite Translation - Microsoft Connector Core Bundle</li>
-<li>Granite Translation - Translation API</li>
-<li>Granite Translation - Translation Core</li>
-</ul> <p>When stopped, the square button changes to a triangle.</p> </li>
-<li><p>Restart AEM.</p>
-<note type="note">
-<p>To re-enable the translation services, click the triangle buttons next to each translation bundle and restart the server.</p>
-</note></li>
-<li><p>To re-enable the Translation service, click the arrow next to the Translation bundle and restart the server.</p> </li>
-</ol>
--->
 

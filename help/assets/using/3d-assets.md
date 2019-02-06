@@ -3,12 +3,12 @@ title: Working with 3D assets
 seo-title: Working with 3D assets
 description: Learn how to work with 3D assets in AEM 3D
 seo-description: Learn how to work with 3D assets in AEM 3D
-uuid: b185d7b5-12d5-4267-8f8f-5197448f7827
+uuid: d1152614-b06f-46e8-96dc-3d45d8e8ce7a
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: introduction
 content-type: reference
-discoiquuid: 110cd6f9-83f9-4c33-8b28-998c38ac2daf
+discoiquuid: cbb4dd74-fb3e-480b-ad46-b70f9abf0e1c
 index: y
 internal: n
 snippet: y

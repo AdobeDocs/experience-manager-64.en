@@ -3,32 +3,18 @@ title: Workflow Process Reference
 seo-title: Workflow Process Reference
 description: null
 seo-description: null
-uuid: f2ee2dcc-46c6-4d66-a20a-f4dd40cf477e
+uuid: 8408aff8-bea4-4af7-b812-8ee93aedf06b
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 8ab6a4fb-04ec-46aa-b372-35aec4947bfc
+discoiquuid: d8e74499-96b8-4041-88ec-73bc35bd3e60
 index: y
 internal: n
 snippet: y
 ---
 
 # Workflow Process Reference{#workflow-process-reference}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-02-26T08:10:30.130-0500
-<p>any github examples?</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-162E3E7B471F3A4A992015C3@AdobeID)
-Last Modified Date: 2018-02-26T08:10:30.155-0500
-<p>no github examples available for this, we will leave it as it is for now.</p>
--->
 
 AEM provides several process steps that can be used for creating workflow models. Custom process steps can also be added for tasks not covered by the built-in steps (see [Creating Workflow Models](/sites/developing/using/workflows-models)).
 

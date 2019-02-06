@@ -3,12 +3,12 @@ title: "IBM DB2 database: Running commands for regular maintenance"
 seo-title: "IBM DB2 database: Running commands for regular maintenance"
 description: This document lists IBM DB2 commands that are recommended for regular maintenance of your AEM forms database. 
 seo-description: This document lists IBM DB2 commands that are recommended for regular maintenance of your AEM forms database. 
-uuid: 909b6106-c8f3-4843-8d2d-2c204844da61
+uuid: 049a2205-6244-47cb-977a-dbdac0cd52ae
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 7f56e5cf-f2be-4a71-a79f-560c6e6b84c6
+discoiquuid: 95cfbbf6-079c-4bc9-920a-8cb7f5cc4a25
 index: y
 internal: n
 snippet: y
@@ -24,13 +24,6 @@ The following IBM DB2 commands are recommended for regular maintenance of your A
 
   As your databases grow and change, recalculating table statistics is critical to improving database performance and should be done regularly. These commands can be run either manually by using scripts or by using a cron job.
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Bug 1522079:</p>
--->
-
 >[!NOTE]
 >
 >Before you run the `runstats` command, the database must contain data, and at least one directory synchronization must have been performed.
@@ -42,13 +35,6 @@ For larger databases, such as for 100,000 users or 10,000 groups, run the `reorg
 ## Use the runstats command on your AEM forms database {#use-the-runstats-command-on-your-aem-forms-database}
 
 Run the `runstats` command on the following AEM forms database tables and indexes.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Bug 1909846:</p>
--->
 
 >[!NOTE]
 >

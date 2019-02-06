@@ -3,12 +3,12 @@ title: AEM Communities Overview
 seo-title: AEM Communities Overview
 description: An overview of AEM Communities features and setup
 seo-description: An overview of AEM Communities features and setup
-uuid: 6a63845b-454c-4a49-9fd9-69c1bf20d3c1
+uuid: 6f3adef1-f1e6-45c8-b7d8-049c3b518137
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 774ca04f-8cac-40b6-b4ee-f79386243c52
+discoiquuid: a88d0602-dcda-4107-9413-f8d448386732
 index: y
 internal: n
 snippet: y

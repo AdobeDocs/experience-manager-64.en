@@ -3,10 +3,10 @@ title: We.Gov reference site FOIA walkthrough
 seo-title: We.Gov reference site FOIA walkthrough
 description: See the We.Gov reference site walkthrough to understand how AEM Forms helps governments receive and impart information requested by individuals under the Freedom of Information Act. 
 seo-description: See the We.Gov reference site walkthrough to understand how AEM Forms helps governments receive and impart information requested by individuals under the Freedom of Information Act. 
-uuid: 9c3dca73-992f-4d81-bf21-c3010cbb5b58
+uuid: 8bff424f-5b85-4832-8868-776de97f330b
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a4355a17-3e34-42cf-95a3-fa17afb6c4e1
+discoiquuid: 1cc483a3-6a63-4050-86b3-fcfadc260ed8
 index: y
 internal: n
 snippet: y
@@ -42,33 +42,9 @@ Under the Freedom of Information Act, Sarah requests for copy of the Administrat
 
 ### How it works {#how-it-works}
 
-<!--
-Comment Type: draft
-
-<p>Sarah's eligibility is validated through an eligibility barrier created using rule editor. The rule editor lets you specify conditions that are met before an applicant can fill the application form. When Sarah, the applicant, meets all the eligibility conditions, she lands on the application form. </p>
-<p>The eligibility check is a part of the child support application adaptive form. The rule validates eligibility when:</p>
-<ul>
-<li>The applicant is a custodial parent</li>
-<li>The applicant and the child stay in the state of GX</li>
-<li>The applicant has the main day-to-day care of the child</li>
-<li>The age of the child getting support services coverage is under 16 years.<br /> </li>
-</ul>
--->
-
 ### See it yourself {#see-it-yourself}
 
 In your browser, open `http://<hostname>:<PublishPort>/wegov`. In the We.Gov site, tap Applications &gt; All Applications. In the All Applications page, tap Apply under Application for FOIA Request.
-
-<!--
-Comment Type: draft
-
-<p>To see the rules:</p>
-<ol>
-<li>Open the form in edit mode on the author instance. URL: http://&lt;hostname&gt;:&lt;AuthorPort&gt;/editor.html/content/forms/af/we-gov/child-support/css.html.</li>
-<li>Select a component and click <img src="assets/edit-rules.png" />.<br /> The Rule Editor opens listing all the rules applied in the form.<br /> </li>
-<li>In the left side panel, click rules passMsg and failMsg to understand how the eligibility check works.</li>
-</ol>
--->
 
 ## Sarah starts her application for information under FOIA {#sarah-starts-her-application-for-information-under-foia}
 

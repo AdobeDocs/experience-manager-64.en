@@ -3,11 +3,11 @@ title: General Security Considerations for AEM Forms on JEE
 seo-title: General Security Considerations for AEM Forms on JEE
 description: Learn how to prepare for hardening your AEM Forms on JEE environment.
 seo-description: Learn how to prepare for hardening your AEM Forms on JEE environment.
-uuid: b23f46f9-e8a8-4831-acdb-56ab9ee381d2
+uuid: 9d6b8212-9d8b-4437-ade1-12875f54597e
 content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
-discoiquuid: 35ffd418-2846-4438-a388-61d8a9bda9b1
+discoiquuid: 92c6eb93-c64d-4d09-861d-5aee644538d5
 index: y
 internal: n
 snippet: y

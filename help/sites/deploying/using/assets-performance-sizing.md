@@ -3,12 +3,12 @@ title: Assets Performance Guide
 seo-title: Assets Performance Guide
 description: Learn how to determine the optimal hardware sizing for a new Digital Asset Management (DAM) setup and how to troubleshoot performance issues
 seo-description: Learn how to determine the optimal hardware sizing for a new Digital Asset Management (DAM) setup and how to troubleshoot performance issues
-uuid: 65b2d041-a0c0-4aa9-a626-2d1fbdd9aec1
+uuid: 7633400c-2e9d-47ed-8867-bbe6000baab4
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: cb12d7c1-a795-4b1d-baa7-c85a0e33092f
+discoiquuid: bacaa45d-f62f-4a6c-8adb-cd0e5dd9f7ef
 index: y
 internal: n
 snippet: y
@@ -64,12 +64,6 @@ Allocate at least 16GB of heap and configure the DAM Update Asset workflow to us
 ## Understanding the System {#understanding-the-system}
 
 A typical DAM setup consists of end users accessing DAM via a load balancer. The DAM instance might be part of a clustered setup, where each DAM instance runs in a Java Virtual machine process on either a physical machine or a virtual machine. DAM storage is either provided by a RAID disk in cases of single-machine setups or a managed network attached storage in case of clustered setups.
-
-<!--
-Comment Type: draft
-
-<img alt="CQ5 DAM Architecture and Performance Pitfalls" imageRotate="0" src="assets/chlimage_1-70.png" title="DAM Architecture" />
--->
 
 The following legend describes the possible performance pitfall areas with some solutions, as appropriate.
 

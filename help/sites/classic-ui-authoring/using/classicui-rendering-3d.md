@@ -3,12 +3,12 @@ title: Rendering 3D assets
 seo-title: Rendering 3D assets
 description: You can render 3D assets you have manipulated and saved in AEM to create 2D images for use on your web content pages.
 seo-description: You can render 3D assets you have manipulated and saved in AEM to create 2D images for use on your web content pages.
-uuid: dec83d55-27b3-4f6d-b870-60c6d6b643f9
+uuid: 64b471a7-07ea-499b-be81-3d8ebe942634
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 992d91b2-e30d-4488-a559-98cceafa575f
+discoiquuid: af01abdc-8a29-4334-a8d3-8281352c0007
 index: y
 internal: n
 snippet: y
@@ -51,13 +51,13 @@ To render 3D assets:
 1. Tap the card of the 3D object to open it in the asset details page.
 1. Near the upper-left corner of the page, tap the drop-down list, then select **Render**.
 
-   ![](assets/chlimage_1-18.png)
+   ![](assets/chlimage_1-15.png)
 
 1. Near the upper-right corner of the asset details page, tap the Stage Selector icon (spotlight), then select a stage name with the background and lighting that you want to apply to the 3D object.
 
    See [About the use of stages in AEM 3D](../../../sites/classic-ui-authoring/using/classicui-stages-aem3d.md).
 
-   ![](assets/chlimage_1-19.png)
+   ![](assets/chlimage_1-16.png)
 
 1. On the Render drop-down list on the left side of the asset details page, select a renderer.
 
@@ -76,7 +76,7 @@ To render 3D assets:
 
    Left and right bars or top and bottom bars are a visual indicator as to which parts of the view will be rendered. When the camera is provided by the selected stage, you can select a pre-defined camera.
 
-   ![](assets/chlimage_1-20.png)
+   ![](assets/chlimage_1-17.png)
 
 1. Tap **Start Render** to begin the rendering process.
 

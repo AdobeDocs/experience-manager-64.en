@@ -3,12 +3,12 @@ title: Configuring SSL for JBoss Application Server
 seo-title: Configuring SSL for JBoss Application Server
 description: Learn how to configure SSL for JBoss Application Server.
 seo-description: Learn how to configure SSL for JBoss Application Server.
-uuid: b4de4673-e4d9-4d51-b6d6-9f5af75feebe
+uuid: a6a8cd14-5a12-4c97-83ba-47aa13625be8
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 84b5af66-7f7e-440a-b5fb-f5b309a488b7
+discoiquuid: db6cf648-f685-4f0c-a16a-084fd5269146
 index: y
 internal: n
 snippet: y
@@ -86,13 +86,6 @@ In this procedure:
 
     * (Windows) Right-click the cacerts file and select Properties, and then deselect the Read-only attribute.
     * (Linux) Type `chmod 777 cacerts`
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown
-   Last Modified Date:
-   <p>Bug 1791546:</p>
-   -->
 
 1. Import the certificate by typing the following command:
 

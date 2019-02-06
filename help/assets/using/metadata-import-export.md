@@ -3,11 +3,11 @@ title: Bulk Metadata Import and Export
 seo-title: Bulk Metadata Import and Export
 description: This article describes how to import and export metadata in bulk.
 seo-description: This article describes how to import and export metadata in bulk.
-uuid: 41fdf28e-e660-4659-8edc-6104f9567045
+uuid: b4f9bfdd-5528-47f9-9e1f-872cced1747c
 contentOwner: cmajumda
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
-discoiquuid: c83fbb1f-41c0-4ed1-b18c-6fb1adec2fb0
+discoiquuid: 4f3d97c5-e39a-4d68-97be-dc1d0ab19f9d
 index: y
 internal: n
 snippet: y
@@ -29,14 +29,6 @@ In other words, you can use a single CSV file to simultaneously update the metad
 
 1. Navigate to the Assets UI, and tap/click **Create** from the toolbar.
 1. From the menu, select **Metadata**.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: sbhasin
-   Last Modified Date: 2018-03-21T01:03:11.594-0400
-   Metadata Import is renamed to Metadata in create manu
-   -->
-
 1. In the **Metadata Import** page, tap/click the **Select File** button to select the CSV file with metadata values to be imported.
 1. Specify the following configuration parameters:
 
@@ -65,20 +57,6 @@ In other words, you can use a single CSV file to simultaneously update the metad
  </tbody>
 </table>
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: sbhasin
-   Last Modified Date: 2018-03-21T01:04:28.215-0400
-   Batch Size looks like heading due to bold format
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: sbhasin
-   Last Modified Date: 2018-03-21T01:06:40.273-0400
-   For launch workflows can we add that this will be slower operation and impact performance Asset Path column name makes it look like assets to be updated are defined here instead of column name of the csv with assets
-   -->
-
 1. Tap/click **Import** from the toolbar. After the metadata is imported a notification is sent to your Notification inbox. Navigate to asset property page and verify whether the metadata values are correctly imported for assets.
 
 ## Export Metadata {#export-metadata}
@@ -104,13 +82,6 @@ The metadata is exported asynchronously and, therefore, does not impact the perf
 
 1. From the toolbar, tap/click **Export**. A message confirms that the metadata is exported. Close the message.
 1. Open the inbox nofification for the export job. To download the CSV file with the metadata, tap/click the **CSV Download** icon from the toolbar.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: sbhasin
-   Last Modified Date: 2018-03-21T01:08:02.128-0400
-   Typo : metadat
-   -->
 
    ![](assets/csv_download.png)
 

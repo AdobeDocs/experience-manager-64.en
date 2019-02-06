@@ -3,32 +3,18 @@ title: Opting Into Aggregated Usage Statistics Collection
 seo-title: Opting Into Aggregated Usage Statistics Collection
 description: Learn how to opt into aggregated usage statistics.
 seo-description: Learn how to opt into aggregated usage statistics.
-uuid: 683636bb-1cca-48d4-bd41-c782f549dabd
+uuid: 2ff6502d-545b-4fd2-9012-45a02ca1d2b1
 contentOwner: raiman
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: f7f2f4a8-0941-4593-aa3c-8419b2f57e93
+discoiquuid: 7d0799c2-80c1-45ef-8d0b-109d68163ac4
 index: y
 internal: n
 snippet: y
 ---
 
 # Opting Into Aggregated Usage Statistics Collection{#opting-into-aggregated-usage-statistics-collection}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-05-25T00:16:24.946-0400
-<p>See email from Bill MItchell.<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-05-25T06:31:37.018-0400
-<p>Added a new note about GDPR.</p>
--->
 
 ## Introduction {#introduction}
 

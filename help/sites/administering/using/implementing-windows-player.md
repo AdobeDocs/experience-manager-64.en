@@ -3,9 +3,9 @@ title: REDIRECT Implementing Windows 10 Player
 seo-title: REDIRECT Implementing Windows 10 Player
 description: null
 seo-description: null
-uuid: 17f3a5cf-8c9f-4fdc-a59b-b0408ca2a2f5
+uuid: aeec150b-a0db-4e08-a141-2f6e59582f75
 contentOwner: jsyal
-discoiquuid: b97ea293-d05f-4dcc-8e20-e98284edb3ca
+discoiquuid: e19ac601-28c1-4356-a16c-80af58f5c6ad
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/implementing-windows-player
 index: y

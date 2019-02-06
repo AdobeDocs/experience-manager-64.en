@@ -4,9 +4,9 @@ seo-title: Style System
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 980a9ba2-0ab6-4352-96a1-1b1a5e9356bb
+uuid: be1189d3-ced2-45e0-8cb3-f2ef8e791bb2
 contentOwner: bohnert
-discoiquuid: 476cace2-ff21-422c-95d0-2be133b6127e
+discoiquuid: 80d9a866-6320-41e3-afdd-2aed8c2b6067
 index: y
 internal: n
 snippet: y

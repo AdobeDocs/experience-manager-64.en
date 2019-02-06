@@ -3,12 +3,12 @@ title: Working with the Author Environment
 seo-title: Working with the Author Environment
 description: The author environment allows you to perform tasks related to authoring (including page authoring and managing assets) and administering tasks you need when generating and maintaining the content on your website.
 seo-description: The author environment allows you to perform tasks related to authoring (including page authoring and managing assets) and administering tasks you need when generating and maintaining the content on your website.
-uuid: 097a7a51-f3d3-4703-a6d0-96231de2a8fc
+uuid: 053e99ce-5bf1-4035-9c80-b499d3e21b85
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 713121a9-8619-4c6e-b4ad-9c9b42a442bc
+discoiquuid: 037bcec3-3b72-4f3e-bc1d-132bbd8fce2f
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ Two graphical user interfaces are provided to achieve this, these are accessible
     * It is no longer maintained.
     * The following documentation focuses on this classic UI. For information about authoring in the modern, touch-based UI, see the [standard Authoring documentation](../../../sites/authoring/using/author.md).
 
-   ![](assets/chlimage_1-172.png)
+   ![](assets/chlimage_1-164.png)
 
 1. Touch-Optimized UI
 
@@ -47,9 +47,9 @@ Two graphical user interfaces are provided to achieve this, these are accessible
 
         * Desktop:
 
-   ![](assets/chlimage_1-173.png)
+   ![](assets/chlimage_1-165.png)
 
     * Tablet devices (or desktop less than 1024 pixels wide):
 
-   ![](assets/chlimage_1-10.jpeg)
+   ![](assets/chlimage_1-7.jpeg)
 

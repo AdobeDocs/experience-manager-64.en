@@ -3,12 +3,12 @@ title: Adobe Classifications
 seo-title: Adobe Classifications
 description: Learn about Adobe Classifications.
 seo-description: Learn about Adobe Classifications.
-uuid: 791f5417-5b09-4818-8b61-a6555dcf69a9
+uuid: 441495b2-468d-49f7-9661-2c6d51476306
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 7534445d-4bce-4938-b11c-0d75c6f4f7b7
+discoiquuid: 5e512e59-919a-4f9a-b12e-a81e483f6ef7
 index: y
 internal: n
 snippet: y
@@ -27,7 +27,7 @@ To configure this:
 
 1. Click **Create** to configure the settings.
 
-   ![](assets/chlimage_1-2.png)
+   ![](assets/chlimage_1-1.png)
 
    Properties include the following:
 

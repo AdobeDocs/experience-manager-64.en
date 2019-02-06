@@ -3,11 +3,11 @@ title: Spaces and Entities
 seo-title: Developing AEM Mobile Content Services
 description: This page serves a landing page for developing AEM Mobile Content Services.
 seo-description: This page serves a landing page for developing AEM Mobile Content Services.
-uuid: 3d3f6366-ec85-4ccc-acaa-8e6a9b92a8a7
+uuid: 00621609-ee73-45ff-98f4-c4e9e6f0c84b
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: 71e3bdbf-dc9e-4b03-aec0-d48115852f09
+discoiquuid: cb73a812-41de-4028-8dc3-2cada64083b5
 index: y
 internal: n
 snippet: y

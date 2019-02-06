@@ -3,10 +3,10 @@ title: Integration with Adobe Sign | Handling user data
 seo-title: Integration with Adobe Sign | Handling user data
 description: null
 seo-description: null
-uuid: 6d06b9f9-8c21-42ed-8f0d-a7303dbd6ac8
+uuid: 117657ce-183e-4eda-8fdd-6581de412060
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 9740042b-1d6a-481c-b0e0-a9ee277a740d
+discoiquuid: 9a8daf77-45dc-4bb8-89c8-640e7acd630a
 index: y
 internal: n
 snippet: y

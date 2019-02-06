@@ -3,12 +3,12 @@ title: Community Groups Console
 seo-title: Community Groups Console
 description: Groups console lets you create Community groups
 seo-description: Groups console lets you create Community groups
-uuid: eb38c482-9c39-4b76-8704-6d713d8780f5
+uuid: 9f97b1ee-ac4d-4555-8bf3-0510113e247c
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 37ab497f-f7ad-4a8e-abe3-08626858bb02
+discoiquuid: 0d1200bf-880b-4d36-9421-d5c3b0af927d
 pagetitle: Community Groups Console
 index: y
 internal: n
@@ -53,7 +53,7 @@ To access the Groups console :
     * the structure of the community site must include a groups function
     * these screen shots are from the Getting Started tutorial after [creating groups on publish](../../communities/using/published-site.md)
 
-![](assets/chlimage_1-139.png)
+![](assets/chlimage_1-132.png)
 
 Select the **Groups folder** to open it.
 
@@ -61,7 +61,7 @@ When opened, all existing groups, whether created on author or publish, are disp
 
 From this Groups console, it is possible to author new groups.
 
-![](assets/chlimage_1-140.png)
+![](assets/chlimage_1-133.png)
 
 * select **Create Group** button
 
@@ -103,7 +103,7 @@ After the community site is published, it is possible to [edit the properties](#
 
 #### COMMUNITY GROUP BRANDING {#community-group-branding}
 
-![](assets/chlimage_1-141.png)
+![](assets/chlimage_1-134.png)
 
 Community site branding is an image displayed as a header across the top of each page. It is possible to display a banner for the group which differs from other site pages.
 
@@ -122,7 +122,7 @@ When creating or selecting an image, keep in mind :
 
 #### MODERATION {#moderation}
 
-![](assets/chlimage_1-142.png)
+![](assets/chlimage_1-135.png)
 
 By default, the parent community site's list of moderators is inherited.
 
@@ -134,7 +134,7 @@ It is possible to add moderators specific to the group :
 
 The membership setting allows for selection of one of the three ways to secure a community group.
 
-![](assets/chlimage_1-143.png)
+![](assets/chlimage_1-136.png)
 
 * Optional Membership  
   If selected, the community group is a public group. Site members may participate in the group and post without explicitly joining the group. Default is selected.
@@ -146,7 +146,7 @@ The membership setting allows for selection of one of the three ways to secure a
 
 #### THUMBNAIL {#thumbnail}
 
-![](assets/chlimage_1-144.png)
+![](assets/chlimage_1-137.png)
 
 The thumbnail is an image to display for the group on author and publish.
 
@@ -154,11 +154,11 @@ The optimal size for a group image is 170 x 90 pixels in a supported image forma
 
 If no image is added, a default image is displayed.
 
-![](assets/chlimage_1-145.png)
+![](assets/chlimage_1-138.png)
 
 ### Step 4 : Create Group {#step-create-group}
 
-![](assets/chlimage_1-146.png)
+![](assets/chlimage_1-139.png)
 
 If any adjustments are needed, use the **Back **button to make them.
 
@@ -174,7 +174,7 @@ When the process completes, the card for the new sub-community site (group) is d
 
 ## Authoring Group Content {#authoring-group-content}
 
-![](assets/chlimage_1-147.png)
+![](assets/chlimage_1-140.png)
 
 The page content of a group may be authored with the same tools as any other AEM page. To open the group for authoring, select the Open Site icon which appears when hovering over the group card.
 
@@ -182,11 +182,11 @@ The page content of a group may be authored with the same tools as any other AEM
 
 The properties of an exisitng sub-community site, specified during the community group creation process, may be modified by selecting the Edit Site icon which appears when hovering over the group card :
 
-![](assets/chlimage_1-148.png)
+![](assets/chlimage_1-141.png)
 
 Details of the following properties match the descriptions provided in the [Group Creation](#groupcreation) section. Any nested group may be modified, whether created in the publish environment or author environment.
 
-![](assets/chlimage_1-149.png)
+![](assets/chlimage_1-142.png)
 
 ### Modify Basic {#modify-basic}
 
@@ -232,7 +232,7 @@ The STRUCTURE panel allows the modification of the structure initially created f
 
 #### Example: Adding a Calendar Function to a Sub-Community (Group) Structure {#example-adding-a-calendar-function-to-a-sub-community-group-structure}
 
-![](assets/chlimage_1-150.png)
+![](assets/chlimage_1-143.png)
 
 ### Modify Design {#modify-design}
 
@@ -257,13 +257,13 @@ The [THUMBNAIL](#thumbnail) panel allows for an image to be uploaded to represen
 
 ## Publishing the Group {#publishing-the-group}
 
-![](assets/chlimage_1-151.png)
+![](assets/chlimage_1-144.png)
 
 After a community group has been newly created or modified, it is possible to publish (activate) the group by selecting the `Publish Site` icon.
 
 Once the group is successfully published, a message will appear :
 
-![](assets/chlimage_1-152.png)
+![](assets/chlimage_1-145.png)
 
 >[!CAUTION]
 >
@@ -272,20 +272,6 @@ Once the group is successfully published, a message will appear :
 >The community site and nested groups should be published in a top down fashion.
 
 ## Deleting the Group {#deleting-the-group}
-
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-02-20T07:12:03.859-0500
-Added this heading, image and content for Deleting group. (6.4)
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: kmani
-Last Modified Date: 2018-03-16T07:05:11.233-0400
-Some more info is required in this section. Deleting group like site, removes the content underneath it. The membership of users is also removed.
--->
 
 ![](assets/DeleteIcon.PNG)
 

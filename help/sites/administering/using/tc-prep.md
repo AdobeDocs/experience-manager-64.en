@@ -3,12 +3,12 @@ title: Preparing Content for Translation
 seo-title: Preparing Content for Translation
 description: Learn how to prepare content for translation.
 seo-description: Learn how to prepare content for translation.
-uuid: 3a6e394d-b8e3-4f42-8e65-2a8dcfa34999
+uuid: 2a2630e8-5063-43a2-a6d6-311028e7bdc8
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 1ef30a01-daaf-49b0-8042-b94e45220385
+discoiquuid: 2644c828-c40e-4d59-8642-91aed3bd6673
 index: y
 internal: n
 snippet: y
@@ -65,12 +65,12 @@ The following procedure uses the touch-optimized UI to create a language copy of
 
 1. Click or tap Create, and then click or tap Create Page.
 
-   ![](assets/chlimage_1-25.png)
+   ![](assets/chlimage_1-22.png)
 
 1. Select the page template and then click or tap Next.
 1. In the Name field type the country code in the format of `<language-code>` or `<language-code>_<country-code>`, for example `en`, `en_US`, `en_us`, `en_GB`, `en_gb`. Type a title for the page.
 
-   ![](assets/chlimage_1-26.png)
+   ![](assets/chlimage_1-23.png)
 
 1. Click or tap Create. In the confirmation dialog box, click or tap either **Done** to return to the Sites console, or **Open** to open the language copy.
 
@@ -78,13 +78,13 @@ The following procedure uses the touch-optimized UI to create a language copy of
 
 The touch-optimized UI provides a References panel that shows a list of language roots that have been created.
 
-![](assets/chlimage_1-27.png)
+![](assets/chlimage_1-24.png)
 
 The following procedure uses the touch-optimized UI to open the References panel for a page.
 
 1. On the Sites console, select a page of the site and then click or tap **References**.
 
-   ![](assets/chlimage_1-28.png)
+   ![](assets/chlimage_1-25.png)
 
 1. In the references panel, click or tap **Language Copies**. The Language Copies panel shows the language copies of the web site.
 

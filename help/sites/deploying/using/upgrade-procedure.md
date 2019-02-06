@@ -3,12 +3,12 @@ title: Upgrade Procedure
 seo-title: Upgrade Procedure
 description: Learn about the procedure you need to follow in order to upgrade AEM.
 seo-description: Learn about the procedure you need to follow in order to upgrade AEM.
-uuid: 38d76301-1a99-4386-9e4b-e5359f6d5d43
+uuid: cfa252a9-6b56-4bb5-a80a-82ef9c898118
 contentOwner: sarchiz
 topic-tags: upgrading
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 852f4368-6e46-4299-a6b6-8bd52074d508
+discoiquuid: e0b9b9fe-1bc4-40d9-a5e2-08bce0426071
 targetaudience: target-audience upgrader
 index: y
 internal: n

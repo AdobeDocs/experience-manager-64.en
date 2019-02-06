@@ -3,12 +3,12 @@ title: MSM Rollout Conflicts
 seo-title: MSM Rollout Conflicts
 description: Learn how to deal with Multi Site Manager rollout conflicts.
 seo-description: Learn how to deal with Multi Site Manager rollout conflicts.
-uuid: 0730d1a1-1219-4abd-a841-bfb5fdf15604
+uuid: 0fa1372a-8b25-497b-8217-a6e28c66d123
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 68251ef7-14ad-46ea-9546-f285505c156f
+discoiquuid: c19ec728-8e4f-433c-a849-9e73b5d0be04
 index: y
 internal: n
 snippet: y

@@ -3,11 +3,11 @@ title: Adding and configuring users
 seo-title: Adding and configuring users 
 description: The User Management settings in the administration console allow you to create or delete users  and configure other user settings.
 seo-description: The User Management settings in the administration console allow you to create or delete users  and configure other user settings.
-uuid: bd191b3e-d9b4-4116-9e2b-165abe96dcc9
+uuid: d4284d08-1370-4624-a279-ebbfb1dee001
 contentOwner: admin
 geptopics: SG_AEMFORMS/categories
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
-discoiquuid: ff720ace-c46c-47c0-abb3-cb1c935f1400
+discoiquuid: 0205c5c8-f1df-446d-a23c-fa41c62ac25f
 index: y
 internal: n
 snippet: y
@@ -89,13 +89,6 @@ AEM forms cannot differentiate between user accounts that have identical user ID
 When using SQL Server as your database, you cannot create a user ID that exceeds 255 characters.
 
 When using MySQL, the user ID can contain extended characters. However, when a comparison is made between two strings, such as abcde and âbcdè, they are considered the same. For example, when syncing, if a new user was added to the database, a comparison is made to check whether a user with the same user ID exists in the database. If user *abcde* already exists in the database when the new user *âbcdè * is added, the comparison cannot distinguish between the two names. It is assumed that the user already exists in the database, and the new user is ignored and not added.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Bugs 1566428</p>
--->
 
 Avoid creating user names that begin with a number sign (#). Performing task searches returns no results for those user names. (See [Working with tasks](../../../forms/using/admin-help/tasks.md#working-with-tasks).)
 

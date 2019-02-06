@@ -3,12 +3,12 @@ title: FFmpeg for Communities
 seo-title: FFmpeg for Communities
 description: How to install and configure FFmpeg for Communities
 seo-description: How to install and configure FFmpeg for Communities
-uuid: 5ac7e446-4cfc-4417-a055-30f4715b3658
+uuid: 2d485ecd-f323-4b03-9581-269285a3c22c
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: e6139ab6-5675-44de-a83b-452eb2d20912
+discoiquuid: 19e7723c-b6ed-4110-8b90-495160049595
 index: y
 internal: n
 snippet: y
@@ -60,7 +60,7 @@ To modify the DAM Update Asset workflow, and in this example, to turn off transc
     * **Arugments **: clear all entries to disable transcoding  
       default values : `profile:firefoxhq,profile:hq,profile:flv,profile:iehq`
 
-![](assets/chlimage_1-384.png)
+![](assets/chlimage_1-371.png)
 
 * select **OK** to close the `Step Properties` dialog
 

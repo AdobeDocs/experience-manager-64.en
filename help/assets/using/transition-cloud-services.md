@@ -3,12 +3,12 @@ title: Applying translation cloud services to folders
 seo-title: Applying translation cloud services to folders 
 description: null
 seo-description: null
-uuid: 6d0c6001-e9b7-43c8-b52d-dbb18eb7a965
+uuid: e732ba28-8ee7-464c-afac-bb710abd45c4
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 71d29785-4e24-4124-879f-b7662dfcacbc
+discoiquuid: de63b3a5-beab-4e98-8a27-246434424362
 index: y
 internal: n
 snippet: y
@@ -27,16 +27,16 @@ Applying translation cloud services directly to your asset folder eliminates the
 1. From the Assets UI, select the folder to which you want to apply translation services.
 1. From the toolbar, click/tap the **Properties** icon to display the **Folder Properties** page.
 
-   ![](assets/chlimage_1-168.png)
+   ![](assets/chlimage_1-167.png)
 
 1. Navigate to the **Cloud Services** tab.
 1. From the Cloud Service Configurations list, choose the desired translation provider. For example, if you want to avail translation services from Microsoft, choose **Microsoft Translator**.
 
-   ![](assets/chlimage_1-169.png)
+   ![](assets/chlimage_1-168.png)
 
 1. Choose the connector for the translation provider.
 
-   ![](assets/chlimage_1-170.png)
+   ![](assets/chlimage_1-169.png)
 
 1. From the toolbar, click/tap **Save**, and then click **OK** to close the dialog.The translation service is applied to the folder.
 
@@ -48,14 +48,14 @@ If you want to apply a custom connector for the translation services you want to
 1. Click/tap the AEM logo, and navigate to **Tools** &gt; **Deployment** &gt; **Cloud Services**.
 1. Locate the connector you installed under **Third Party Services** in the **Cloud Services** page.
 
-   ![](assets/chlimage_1-171.png)
+   ![](assets/chlimage_1-170.png)
 
 1. Click/tap the **Configure now** link to open the **Create Configuration** dialog.
 
-   ![](assets/chlimage_1-172.png)
+   ![](assets/chlimage_1-171.png)
 
 1. Specify a title and a name for the connector, and then click/tap **Create**. The custom connector is available in the list of connectors in the **Cloud Services** tab described in step 5 of [Applying the translation services](#main-pars-title-1392200838). 
 1. Run any translation workflow described in [Creating Translation Projects](../../assets/using/translation-projects.md) after you apply the custom connector. Verify the details of the connector in the **Translation Summary** tile of the translation project in the **Projects** console.
 
-   ![](assets/chlimage_1-173.png)
+   ![](assets/chlimage_1-172.png)
 

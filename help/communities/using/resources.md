@@ -3,12 +3,12 @@ title: Enablement Resources Console
 seo-title: Enablement Resources Console
 description: The Resources console is where Enablement Managers create, manage, and assign resources to members of an enablement community site
 seo-description: The Resources console is where Enablement Managers create, manage, and assign resources to members of an enablement community site
-uuid: 8b681287-32de-4594-b503-ae497587acbd
+uuid: f001fba8-184a-4d43-abe4-7677bc6ac1ea
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: a18f1267-4c53-41ff-82f1-f6ff01e2ab76
+discoiquuid: b3f4a545-c9fd-4cab-9a78-d6679bb8b61b
 index: y
 internal: n
 snippet: y
@@ -75,7 +75,7 @@ In the author environment, to reach the Resources console
 
 * from global navigation : **Navigation, Communities, Resources**
 
-![](assets/chlimage_1-169.png) 
+![](assets/chlimage_1-162.png) 
 
 ### Select a Community Site {#select-a-community-site}
 
@@ -85,25 +85,25 @@ Enablement resources are created for a specific community site after selecting t
 
 Once a specific community site is selected, any existing enablement resources and learning paths are accessible for managing and modifying, and new enablement resources and learning paths may be created.
 
-![](assets/chlimage_1-170.png) 
+![](assets/chlimage_1-163.png) 
 
 #### Search {#search}
 
-![](assets/chlimage_1-171.png)
+![](assets/chlimage_1-164.png)
 
 Select the side-panel toggle icon in order to search for an enablement resource or learning path. When selected, a search panel opens up on the left side of the console and provides a text box into which search terms may be entered.
 
-![](assets/chlimage_1-172.png) 
+![](assets/chlimage_1-165.png) 
 
 #### Selection Mode {#selection-mode}
 
 To select multiple enablement resources, select the first by hovering over the card and selecting the checkmark icon. Once selected, selecting any other card will add it to the selection group. Selecting a second time de-selects the card.
 
-![](assets/chlimage_1-173.png) 
+![](assets/chlimage_1-166.png) 
 
 ## Create a Resource {#create-a-resource}
 
-![](assets/chlimage_1-174.png)
+![](assets/chlimage_1-167.png)
 
 To add a new enablement resource to the community site
 
@@ -122,7 +122,7 @@ When the resource is part of a course, a learning path, members should only be a
 
 ### 1 Basic Info {#basic-info}
 
-![](assets/chlimage_1-175.png)
+![](assets/chlimage_1-168.png)
 
 * **Add Image** 
   (*optional*) An image to display on the card for the enablement resource in the member's assignments page as well as the Resources console. The image is selected from the server's local file system. If an image is not provided, a thumbnail will be generated for the uploaded resource.  
@@ -156,13 +156,13 @@ When the resource is part of a course, a learning path, members should only be a
 
 ### 2 Add Content {#add-content}
 
-![](assets/chlimage_1-176.png)
+![](assets/chlimage_1-169.png)
 
 While it appears as if multiple enablement resources might be selected, only one is allowed.
 
 Select the `'+' icon`, in the upper right corner, to begin the process of choosing the resource by identifying the source.
 
-![](assets/chlimage_1-177.png)
+![](assets/chlimage_1-170.png)
 
 * **Upload from my local files** 
   Uploading from the local file system will use the native file browser to select and upload a file. Supported file types are SCORM.zip (HTML5 or SWF), MP4 video, SWF, PDF, and image types (JPG, PNG, GIF, BMP). The filename becomes the name of the asset, which is added to the asset library.
@@ -202,7 +202,7 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 
 #### Example of an added video resource {#example-of-an-added-video-resource}
 
-![](assets/chlimage_1-178.png)
+![](assets/chlimage_1-171.png)
 
 * **Resource Cover Image** 
   The cover image is an image to be displayed when the enablement resource is first viewed. For example, the cover image is displayed when a video resource is not yet playing. If a custom image is not uploaded, a default image is displayed. For video resources, it may be possible to [generate a thumbnail](../../communities/using/enablement.md#ffmpeg), but only when uploaded and not when the video is referenced as an URL. For location resources, the image can be used to provide additional information.  
@@ -212,7 +212,7 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 
 ### 3 Settings {#settings}
 
-![](assets/chlimage_1-179.png)
+![](assets/chlimage_1-172.png)
 
 >[!NOTE]
 >
@@ -246,20 +246,20 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
 
 ### 4 Assignments {#assignments}
 
-![](assets/chlimage_1-180.png)
+![](assets/chlimage_1-173.png)
 
 * **Add Assignees** 
   Use the pulldown menu to select from [members](#membersgroup) - the users and user groups (listed in bold face) - who are to be enrolled as Learners. When members sign into the community site, the enablement resources (and learning paths) in which they are enrolled will appear on their [Assignments](../../communities/using/functions.md#assignmentsfunction) page.
 
 * select **Create**
 
-![](assets/chlimage_1-181.png)
+![](assets/chlimage_1-174.png)
 
 Successful creation of the enablement resource returns to the Resources console with the newly created resource selected. From this console, it is possible to [manage the resource](#managingaresource).
 
 ## Create a Learning Path {#create-a-learning-path}
 
-![](assets/chlimage_1-182.png)
+![](assets/chlimage_1-175.png)
 
 To add a new learning path to the community site
 
@@ -280,7 +280,7 @@ For enablement resources included in a learning path, the assignments should onl
 
 ### Basic Info {#basic-info-1}
 
-![](assets/chlimage_1-183.png)
+![](assets/chlimage_1-176.png)
 
 * **Add Image** 
   (*optional*) An image to display on the card for the learning path in the member's assignments page as well as the Resources console. The image is selected from the server's local file system. If an image is not provided, a thumbnail will be generated for the uploaded resource.  
@@ -314,7 +314,7 @@ For enablement resources included in a learning path, the assignments should onl
 
 ### Add Prerequisites {#add-prerequisites}
 
-![](assets/chlimage_1-184.png)
+![](assets/chlimage_1-177.png)
 
 * **Prerequisite Learning Paths** 
   (*optional*) When other published learning paths are selected, they must be completed before a learner can select this learning path.
@@ -323,7 +323,7 @@ For enablement resources included in a learning path, the assignments should onl
 
 ### Add Resources {#add-resources}
 
-![](assets/chlimage_1-185.png)
+![](assets/chlimage_1-178.png)
 
 * **Enforce Order in Learning Path** 
   (*optional*) if set to On, then the order in which the enablement resources are added is the order in which learners are required to proceed through the learning path. Default is Off.
@@ -339,7 +339,7 @@ For enablement resources included in a learning path, the assignments should onl
 
 ### Settings {#settings-1}
 
-![](assets/chlimage_1-186.png)
+![](assets/chlimage_1-179.png)
 
 * **Add Enrollments** 
   Use the pulldown menu to select from the members and member groups (listed in bold face) who are members of the community site's [members group](#membersgroup). It is not necessary to add assignments when first creating the learning path. The learning path properties can be modified to add learners at a later time. 
@@ -375,7 +375,7 @@ To upload a new version of the enablement resource, it is recommended to create 
 
 ### Edit Resource {#edit-resource}
 
-![](assets/chlimage_1-187.png)
+![](assets/chlimage_1-180.png)
 
 By selecting the pencil icon, the steps shown for creating a an enablement resource are made available so that any of the information provided may be modified.
 
@@ -383,13 +383,13 @@ If the only change is to modify assignments on the Settings step, then saving th
 
 ### Delete Resource {#delete-resource}
 
-![](assets/chlimage_1-188.png)
+![](assets/chlimage_1-181.png)
 
 By selecting the trashcan icon, the enablement resource will be `Delete`d after confirmation.
 
 ### Publish {#publish}
 
-![](assets/chlimage_1-189.png)
+![](assets/chlimage_1-182.png)
 
 Before learners are able to see an assigned enablement resourse, it must be published :
 
@@ -401,25 +401,25 @@ Even though the dialog states the action is queued, it often is published immedi
 
 ### Unpublish {#unpublish}
 
-![](assets/chlimage_1-190.png)
+![](assets/chlimage_1-183.png)
 
 To temporarily make the enablement resources unaccessible to members in the publish environment without deleting it, use the world icon to `Unpublish`the resource.
 
 ### Report {#report}
 
-![](assets/chlimage_1-191.png)
+![](assets/chlimage_1-184.png)
 
 The Report icon provides access to the reports generated when learners interact with their assigned enablement resources in the publish environment. The report varies depending on the type of resource.
 
 For all learning paths, it is possible to view a report based either on resources or learners ( `User Report`).
 
-![](assets/chlimage_1-192.png)
+![](assets/chlimage_1-185.png)
 
 This Report is specifically for the current enablement resource or learning path. The depth of reporting provided depends on whether or not [Adobe Analytics](../../communities/using/analytics.md) is licensed and enabled for the community site. The [Timeline](#timeline), [Viewer Engagement](#viewerengagement), and [Engagement by Device](#engagementbydevice) reports are imported from Adobe Analytics based on the [polling interval](../../communities/using/analytics.md#reportimporter).
 
 For all enablement resources, regardless of whether or not Adobe Analytics is enabled, there are reports on [Assignee Status](#assigneestatus) and [Ratings](#ratings) as well as a [Report Summary](#reportsummary) table.
 
-![](assets/chlimage_1-193.png) 
+![](assets/chlimage_1-186.png) 
 
 #### Timeline {#timeline}
 
@@ -514,10 +514,3 @@ The Reports Summary table may be downloaded in CSV format using a button at the 
 * for a learning path: `Download Learning Path Report as CSV` button
 
 The complete Reports Summary is downloaded regardless of columns chosen for display.
-
-<!--
-Comment Type: draft
-
-<h2>Troubleshooting</h2>
--->
-

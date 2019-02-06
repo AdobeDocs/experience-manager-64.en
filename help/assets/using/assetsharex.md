@@ -3,12 +3,12 @@ title: Customizing Asset Share
 seo-title: Customizing Asset Share
 description: null
 seo-description: null
-uuid: 83617ee4-e3a4-4c13-b9e3-8727792c90bf
+uuid: 2ba6cc5b-adc0-4d87-91a7-41a535b7128c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: 470386e5-63af-46db-b43d-b906c69d5fc3
+discoiquuid: 27a203ee-7592-4323-bf80-9ca8cfefefdb
 index: y
 internal: n
 snippet: y

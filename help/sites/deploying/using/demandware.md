@@ -3,12 +3,12 @@ title: Salesforce Commerce Cloud
 seo-title: Salesforce Commerce Cloud / Demandware
 description: Learn how to deploy eCommerce with Salesforce Commerce Cloud / Demandware.
 seo-description: Learn how to deploy eCommerce with Salesforce Commerce Cloud / Demandware.
-uuid: 77d16da4-37b9-4884-87ea-6de0737dccfb
+uuid: 4897154f-453c-4952-a63f-a0bbfc8b3727
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: cb22f4bc-5e52-4338-ae42-d61dc25a9119
+discoiquuid: f238387e-ef17-4df5-87d6-afab0e67bfb1
 pagetitle: Deploying eCommerce with Demandware
 index: y
 internal: n
@@ -53,13 +53,13 @@ The server connection between AEM and the Demandware Sandbox needs to be configu
 1. Click **Demandware Client**.
 1. Enter the **Instance endpoint ip or hostname** as required.
 
-   ![](assets/chlimage_1-103.png)
+   ![](assets/chlimage_1-95.png)
 
 1. Click **Save**.
 1. Click **Demandware TransportHandler Plugin for WebDAV**.
 1. Set the **WebDAV user** and the **WebDAV user password**.
 
-   ![](assets/chlimage_1-104.png)
+   ![](assets/chlimage_1-96.png)
 
 1. Click **Save**.
 
@@ -80,7 +80,7 @@ For staging and productions systems, the OAuth clients need to be configured wit
 1. Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Click **Demandware Access Token provider**.
 
-   ![](assets/chlimage_1-105.png)
+   ![](assets/chlimage_1-97.png)
 
 1. Modify the values as required and click **Save**.
 
@@ -103,17 +103,4 @@ The Demandware Sandbox must be configured to run the new Velocity template engin
    >The extension will be `.vs`.
 
 1. Check also for exported JS and CSS files, for example under `adobe01-tech-prtnr-na01-dw.demandware.net/on/demandware.servlet/webdav/Sites/Libraries/SiteGenesisSharedLibrary`.
-
-<!--
-Comment Type: draft
-
-<p>Draft content for test only.</p>
-<p> </p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/screen_shot_2018-10-17at112307.png" />
--->
 

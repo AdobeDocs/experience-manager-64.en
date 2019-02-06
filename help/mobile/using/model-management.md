@@ -3,11 +3,11 @@ title: Models Overview
 seo-title: Models Overview
 description: null
 seo-description: null
-uuid: 534380ef-27ef-4f40-a74c-7db5dcc8b3e1
+uuid: cabdbbaf-f7bd-4dcc-9982-8292b747fc51
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: 70e0042d-2c87-45d5-804c-5f99b926d786
+discoiquuid: e980a54e-0839-47b0-9680-3f7dc3b74d24
 index: y
 internal: n
 snippet: y

@@ -4,8 +4,8 @@ seo-title: [DO NOT PUBLISH] Add custom plugin to AEM Forms App
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: a8bc30de-d42b-4277-a717-83b07e4e920b
-discoiquuid: 6f8e84e7-e3d0-47c7-bab9-efca7186c323
+uuid: c702eef4-f03f-4546-a292-48a1f965b484
+discoiquuid: 87cdfd2d-f2df-4c4a-9891-bbe0320e5b25
 index: y
 internal: n
 snippet: y
@@ -25,13 +25,6 @@ Using a pretty similar process, you can leverage the Apache Cordova APIs to inco
 
 For more information on Apache Cordova APIs and custom plugins, see [Plugin Development Guide](https://cordova.apache.org/docs/en/latest/guide/hybrid/plugins/).
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-05-15T09:36:26.193-0400
-More information about Cordova
--->
-
 ### Prerequisites {#prerequisites}
 
 For adding a custom Cordova plugin to AEM Forms APP, you need the following:
@@ -40,13 +33,6 @@ For adding a custom Cordova plugin to AEM Forms APP, you need the following:
 * Node.js
 * Android Studio / Xcode / Microsoft Visual Studio
 * Ensure that the system requirements of AEM Forms App on the client device
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-05-15T11:08:14.571-0400
-Ensure that the system requirements of AEM Forms App on the client device - [link]
--->
 
 ## Add a custom Android plugin in the AEM Forms App using Android Studio {#add-a-custom-android-plugin-in-the-aem-forms-app-using-android-studio}
 

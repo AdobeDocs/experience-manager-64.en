@@ -3,12 +3,12 @@ title: Deploying and Maintaining
 seo-title: Deploying and Maintaining
 description: Learn how to get started with the AEM installation.
 seo-description: Learn how to get started with the AEM installation.
-uuid: 64572029-2b6a-49df-b894-c6fc75aa0a23
+uuid: 2289a130-ff4e-4d12-8b9f-2957fe89ff90
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 7dc34799-5080-483d-a82a-2a0007499ca7
+discoiquuid: 2e496081-e3e8-4069-95ad-5f79efc75330
 index: y
 internal: n
 snippet: y
@@ -36,20 +36,6 @@ In this page you will find:
     * [Starting and Stopping](#startingandstopping)
 
 Once you have familiarized yourself with these basics, you will find in more advanced and detailed information in the following subpages:
-
-<!--
-Comment Type: annotation
-Last Modified By: jsyal
-Last Modified Date: 2018-11-08T18:08:01.177-0500
-Added under Typical Deployments
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: jsyal
-Last Modified Date: 2018-11-09T15:11:06.206-0500
-Does it make sense to include the link at the end of this section? (I'd like Pierre to confirm) For more details on AEM Managed Services product description, go to: https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html Pending (JS)
--->
 
 * [Technical Requirements](../../../sites/deploying/using/technical-requirements.md)
 * [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md)
@@ -116,39 +102,11 @@ The following sections describe both the scenarios:
 
 * **Managed Services - Cloud Manager for Adobe Experience Manager**: AEM deployed and managed by Adobe Managed Services.
 
-<!--
-Comment Type: annotation
-Last Modified By: jsyal
-Last Modified Date: 2018-11-08T18:08:29.149-0500
-two scenarios added
--->
-
 ### On-premise {#on-premise}
 
 You can install AEM on servers in your Corporate environment. Typical installation instances include: Development, Testing and Publishing environments. Please refer to the [Getting Started](../../../sites/deploying/using/deploy.md#getting%20started) section for basic details on how to get the AEM software to install it locally.
 
 To learn more about the typical on-premises deployments, refer to [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md).
-
-<!--
-Comment Type: annotation
-Last Modified By: jsyal
-Last Modified Date: 2018-11-08T18:08:37.084-0500
-New Section
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: jsyal
-Last Modified Date: 2018-11-09T15:11:14.588-0500
-for basic details on how to get the AEM software to install it locally. -Done (JS)
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: panchapa
-Last Modified Date: 2018-11-09T14:11:32.970-0500
-This sentence makes no sense. Do you mean by typical instances (Author, Publish, Dispatcher) or typical environments (Production, Stage, Development)? Currently this does not read well.
--->
 
 ### Managed Services using Cloud Manager {#managed-services-using-cloud-manager}
 

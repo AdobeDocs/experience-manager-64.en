@@ -3,12 +3,12 @@ title: Personalization
 seo-title: Personalization
 description: Learn about personalization in AEM.
 seo-description: Learn about personalization in AEM.
-uuid: 22b015db-20d2-4291-91e0-b7655fea7690
+uuid: 69fff2f1-14ff-434d-8923-08ca41899d16
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 3357f149-0eb4-4178-9893-b167e0e4e303
+discoiquuid: e7c6c927-cbcd-4d75-ba40-5a355bb134ab
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Changing the color scheme of the interface
 seo-title: Changing the color scheme of the interface
 description: How to modify the color scheme of AEM Forms workspace user interface portions selectively.
 seo-description: How to modify the color scheme of AEM Forms workspace user interface portions selectively.
-uuid: a6acf38f-b98c-4a5f-9799-1f6eaa2ee4b2
+uuid: d756cc2e-906f-4a29-aaa6-7bd7bcfe6b1c
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 333cf725-39f5-48fd-91ef-85c41ea3a3b2
+discoiquuid: ecac50d9-3502-4b5b-9c75-3ba6858b653c
 index: y
 internal: n
 snippet: y
@@ -38,15 +38,6 @@ To update the navigation bar at the top of AEM Forms workspace.
        background:#292929 url(../images/newBackground.jpg) repeat-x;
    }
    ```
-
-<!--
-Comment Type: remark
-Last Modified By: (upgoyal)
-Last Modified Date: 2018-01-18T11:26:01.662-0500
-<p>1. Generic steps of customization are already mentioned in the beginning of this article.</p>
-<p>2. I think link to CSS cutomization document should also present.</p>
-<p><br type="_moz" /> </p>
--->
 
 ### Using color property in CSS {#using-color-property-in-css}
 

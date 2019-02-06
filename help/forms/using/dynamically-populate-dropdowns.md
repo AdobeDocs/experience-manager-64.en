@@ -3,11 +3,11 @@ title: Dynamically populating drop-down lists
 seo-title: Dynamically populating drop-down lists 
 description: Procedure to dynamically populate drop-down lists based on some logic
 seo-description: Procedure to dynamically populate drop-down lists based on some logic
-uuid: 2444c736-4f02-46ec-ace4-6e8649c42e7e
+uuid: 25b03382-5a95-49e5-9b5a-5427b405f505
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 3fe82f19-b310-4399-b05b-9244538dbeae
+discoiquuid: 4128e147-42fb-486e-9fea-b7bbd02ee122
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Extending Asset Editor
 seo-title: Extending Asset Editor
 description: Learn how to extend the capabilities of Asset Editor using custom components.
 seo-description: Learn how to extend the capabilities of Asset Editor using custom components.
-uuid: 5fdc6318-d985-4752-b854-b48b52b90b76
+uuid: ac1f740d-cbca-4b59-8a52-b493f1849a59
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: 19e89262-b3c6-4fca-8201-4efead3df2ce
+discoiquuid: 52f86e5d-5762-4534-8264-5936218f7b53
 index: y
 internal: n
 snippet: y
@@ -208,12 +208,6 @@ This example describes how to build a component that shows and displays the meta
 1. Navigate to your browser, and on your sample page (for example, **asseteditor.html**) switch to design mode and enable your new component for the paragraph system.  
 
 1. In **Edit** mode, the new component (for example, **Sample Metadata**) is now available in the sidekick (found in the **Asset Editor **group). Insert the component. To be able to store the metadata, it must be added to the metadata form.
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-56.png" />
-   -->
 
 ### Modifying Metadata Options {#modifying-metadata-options}
 

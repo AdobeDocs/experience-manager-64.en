@@ -3,13 +3,13 @@ title: AEM 3D Release Notes
 seo-title: AEM 3D Release Notes
 description: Release notes specific to 3D content in Adobe Experience Manager Assets.
 seo-description: Release notes specific to 3D content in Adobe Experience Manager Assets.
-uuid: 2c116065-6a43-4111-9452-b3914a2ae52f
+uuid: e8afd2cd-bf35-4f34-bd21-0438ff7a27a6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 topic-tags: 3D
-discoiquuid: af269ebd-c5c9-43e1-8237-e0bfc05f61c6
+discoiquuid: fa0e8ff8-6d5c-43c6-82e6-0fc9366cb2a7
 index: y
 internal: n
 snippet: y
@@ -135,13 +135,6 @@ See also [Integrating AEM 3D with Autodesk Maya](../assets/using/integrate-maya-
  </tbody>
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-11-13T15:40:30.733-0500
-<<<<< Add hyperlink.
--->
-
 ## Enhancements and new features {#enhancements-and-new-features}
 
 Version 3.0
@@ -224,10 +217,4 @@ Version 3.1
 * **3D Component configuration** - You must install the 3D Feature Pack on all active Publish nodes and each node must be configured with **CRXDE Lite** to the same configuration options at `/libs/settings/dam/v3D/WebGLSites`.
 
 * **Missing textures, background, or lighting after publishing - **The **Publish** mechanism in AEM Sites automatically publishes the page's primary dependencies, including the 3D model and the 3D stage referenced by the 3D component. 3D stages and 3D models typically depend on secondary assets for IBL images and texture maps, which the Sites Publish mechanism does not publish automatically. Workaround: publish all 3D assets from Assets prior to publishing the web page from Sites. Doing so ensures that all dependencies for 3D assets are available on the Publish nodes.
-
-<!--
-Comment Type: draft
-
-<p>Trademark names may appear in this documentation. Rather than use a trademark symbol with every occurrence of a trademark name, we use the names only in an editorial fashion and to the benefit of the trademark owner, with no intention of infringement of the trademark.</p>
--->
 

@@ -3,11 +3,11 @@ title: Connecting AEM Forms with Adobe LiveCycle
 seo-title: Connecting AEM Forms with Adobe LiveCycle
 description: AEM LiveCycle connector allows you to start LiveCycle ES4 Document Services from within AEM apps and workflows.
 seo-description: AEM LiveCycle connector allows you to start LiveCycle ES4 Document Services from within AEM apps and workflows.
-uuid: f8f46865-e97c-4bdf-b13f-6902c832a9c1
+uuid: cf73948e-80d7-4ab8-8731-402b45f10daf
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
-discoiquuid: aa2b3f71-f776-4af5-acdf-fce76f2b27c6
+discoiquuid: 952c3a30-c867-450a-a931-17cbdb78345c
 index: y
 internal: n
 snippet: y

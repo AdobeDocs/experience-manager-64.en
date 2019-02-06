@@ -3,12 +3,12 @@ title: Creating Custom Extensions
 seo-title: Creating Custom Extensions
 description: You can call your custom code in Adobe Campaign from AEM or from AEM to Adobe Campaign
 seo-description: You can call your custom code in Adobe Campaign from AEM or from AEM to Adobe Campaign
-uuid: 5c5bfca4-4812-4dcc-8ae2-f716c0758e0b
+uuid: c5f898c5-2d64-43fd-a280-68b6b390f6c5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: ee99afa5-0488-42fe-8587-4f65bf8f2c31
+discoiquuid: 9dbda464-0bf9-4ac8-b233-5b6481d427c5
 index: y
 internal: n
 snippet: y
@@ -31,7 +31,7 @@ See [Integrating AEM with Adobe Campaign 6.1](../../../sites/administering/using
 
 The standard integration between AEM and Campaign is based on JSON and JSSP (JavaScript Server Page). These JSSP files can be found in the Campaign console, and all start with **amc** (Adobe Marketing Cloud).
 
-![](assets/chlimage_1-20.png)
+![](assets/chlimage_1-19.png)
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ In this example, we create a new custom JSSP file and call that from the AEM sid
 
 1. In Adobe Campaign, to create a new JSSP file, click the **New** icon.
 
-   ![](assets/chlimage_1-21.png)
+   ![](assets/chlimage_1-20.png)
 
 1. Enter the name of this JSSP file. In this example, we use **cus:custom.jssp** (meaning it will be in the **cus** namespace).
 
-   ![](assets/chlimage_1-22.png)
+   ![](assets/chlimage_1-21.png)
 
 1. Put the following code inside the jssp-file:
 
@@ -163,7 +163,7 @@ public class CustomServlet extends SlingSafeMethodsServlet {
 
 AEM offers out of the box APIs to retrieve the objects available anywhere in the siteadmin explorer view.
 
-![](assets/chlimage_1-23.png)
+![](assets/chlimage_1-22.png)
 
 >[!NOTE]
 >

@@ -3,56 +3,18 @@ title: Creating Accessible Content (WCAG 2.0 Conformance)
 seo-title: Creating Accessible Content (WCAG 2.0 Conformance)
 description: Help make web content accessible to, and usable by, persons with disabilities
 seo-description: Help make web content accessible to, and usable by, persons with disabilities
-uuid: 850f06a8-a3e0-4968-868a-8578eb44480a
+uuid: fc3fc2ea-d7ad-445e-9b1a-e2024d3b8f60
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 44c88ee6-5abf-4781-a6c2-8ea93bba932b
+discoiquuid: 7ea76960-523f-4dd1-9958-7b7844215e2b
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating Accessible Content (WCAG 2.0 Conformance){#creating-accessible-content-wcag-conformance}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:38.189-0500
-<p>Doesn't the following imply we meet all A and AA - is that the case?</p>
-<p>can create web content that meets WCAG 2.0 Level A and Level AA success criteria.</p>
-<p>What about:</p>
-<ul>
-<li>1.3.2 - Meaningful Sequence<br /> </li>
-<li>1.4.2 - Audio Control<br /> </li>
-<li>1.4.4 - Resize text<br /> </li>
-<li>2.1.1 - Keyboard<br /> </li>
-<li>2.1.2 - No Keyboard Trap<br /> </li>
-<li>2.2.1 - Timing Adjustable<br /> </li>
-<li>2.4.3 - Focus Order<br /> </li>
-<li>2.4.5 - Multiple Ways<br /> </li>
-<li>2.4.6 - Heading and Labels<br /> </li>
-<li>2.4.7 - Focus Visible<br /> </li>
-<li>3.2.1 - On Focus<br /> </li>
-<li>3.2.2 - On Input<br /> </li>
-<li>3.2.3 - Consistent Navigation<br /> </li>
-<li>3.2.4 - Consistent Identification<br /> </li>
-<li>3.3.1 - Error Identification<br /> </li>
-<li>3.3.3 - Error Suggestion<br /> </li>
-<li>3.3.4 - Error Prevention<br /> </li>
-<li>4.1.1 - Parsing<br /> </li>
-<li>4.1.2 - Name, Role, Value</li>
-</ul>
-<p>Shouldn't we explain why only selected criteria are covered on this page?<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:38.209-0500
-<p>will need to update some dialog screenshots at some point to touch-opt ui; but at the moment they're not fully converted anyway</p>
--->
 
 WCAG 2.0 consists of a set of technology independent guidelines and success criteria to help make web content accessible to, and usable by, persons with disabilities.
 
@@ -135,14 +97,6 @@ There are various forms of non-text content, so the value of the text alternativ
 * If the non-text content is contained in a button element and there is no text forming part of the same button, then the alternative text of the image must indicate the functionality of the button, not describe the image.
 * It is perfectly acceptable for an image to be given an empty (null) alternative text, but only if the image has no alternative text (for example, it is a purely decorative graphic) or if the equivalent text already exists in the page text.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:38.685-0500
-<p>still draft?</p>
-<p>seems to be as of 09/2014</p>
--->
-
 The [W3C draft: HTML5 Techniques for providing useful text alternatives](http://dev.w3.org/html5/alt-techniques/) has more details and examples of appropriate alternative text provision for images of different types.
 
 Specific types of non-text content that require text alternatives might include:
@@ -195,25 +149,6 @@ Specific types of non-text content that require text alternatives might include:
 * [W3C: HTML5 Techniques for providing useful text alternatives (draft)](http://dev.w3.org/html5/alt-techniques/)
 * [W3C explanation of and alternatives to CAPTCHAs](http://www.w3.org/TR/turingtest/)
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:39.216-0500
-<p>check link/status</p>
-<p>points to </p>
-<p>http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&amp;extid=1048489</p>
-<p>which redirects to</p>
-<p>https://creative.adobe.com/addons</p>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li><a href="http://www.adobe.com/cfusion/exchange/index.cfm?event=extensionDetail&extid=1048489">PHP CAPTCHA Server Object for AEM</a></li>
-</ul>
--->
-
 ### Time-based Media (1.2) {#time-based-media}
 
 [Guideline 1.2 Time-based Media: Provide alternatives for time-based media.](http://www.w3.org/TR/WCAG20/#text-equiv)
@@ -258,13 +193,6 @@ Providing this information in a different format, such as text (or audio for vid
 >If the audio or video content is provided as an alternative to content that already exists in another format on a web page, there is no need to follow the above requirements. For example, if a video illustrates a list of text instructions, then this video does not require an alternative as the text instructions already act as an alternative to the video.
 
 Inserting multimedia, specifically Flash content, into your AEM web pages is similar to inserting an image. However, as multimedia content is much more than a still image, there are a variety of different settings and options for controlling how the multimedia is played.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:39.451-0500
-<p>impact on our getting started slides? ie making them accessible</p>
--->
 
 >[!NOTE]
 >
@@ -344,25 +272,6 @@ Exact details of how to create audio-described video are beyond the scope of thi
 * [How to Meet Success Criteria 1.2.3](http://www.w3.org/WAI/WCAG20/quickref/#qr-media-equiv-audio-desc)
 * [Adobe Encore CS5](http://www.adobe.com/products/premiere/encore/)
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:39.961-0500
-<p>check link/status:</p>
-<p>www.adobe.com/products/soundbooth</p>
-<p>redirects to</p>
-<p>https://creative.adobe.com/products/audition</p>
-<p>is that OK?</p>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li><a href="http://www.adobe.com/products/soundbooth/">Adobe Soundbooth CS5</a></li>
-</ul>
--->
-
 ### Captions (Live) (1.2.4)  {#captions-live}
 
 * Success Criterion 1.2.4
@@ -430,92 +339,11 @@ This success criterion exists to make sure that such structural information is p
 
 #### How to Meet - Info and Relationships (1.3.1) {#how-to-meet-info-and-relationships}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:40.419-0500
-<p>Point 3 as well (see original a bit lower down)</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:40.438-0500
-<p>requires source - so only classic</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:40.457-0500
-<p>does/can/should Format provide list elements?</p>
-<ul>
-<li>No</li>
-</ul>
--->
-
 AEM makes it easy to construct web pages using the appropriate HTML elements. Open your page content in the RTE (a Text component), and use the **Paraformat** menu (paragraph symbol) to specify the appropriate structural element (for example paragraph, heading, etc.).
 
 The following image shows text that has been styled as paragraph text.
 
-![An example of the Paragraph element shown in source edit mode (classic UI).](assets/screen_shot_2018-03-21at165623.png) 
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:40.521-0500
-<p>Point 3</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:40.540-0500
-<p>&lt;strong&gt; or &lt;b&gt; ? / &lt;em&gt; or &lt;i&gt; ?</p>
-<ul>
-<li>effectively the same and strong/em are better (semantically correct html)</li>
-<li>dev crew can set up strong/em (instead of b/i) when setting up project code</li>
-</ul>
-<p>when can dt be selected in RTE?</p>
-<ul>
-<li>not supported</li>
-<li>workaround - use source edit - or maybe another type of list (ol or ul?)</li>
-</ul>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:40.559-0500
-<p>the inline images don't use our standard method - is this an issue? (keeping next paragraph as example)</p>
-<ul>
-<li>used in Coral - maybe</li>
-<li>might not be supported by all browser (IE 9?) - so maybe not good for a publically facing site</li>
-<li>otherwise nothing against it?</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<p><strong>Use lists</strong>: You can use HTML to specify three different types of lists:</p>
-<ul>
-<li>The <span class="code">&lt;ul&gt;</span> element is used for <i>unordered</i> lists (bulleted) lists. Individual list items are identified using the <span class="code">&lt;li&gt;</span> element.<br /> in the RTE, use the <strong>Bulleted List</strong> icon:<br /> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAYCAIAAACA18GRAAADlElEQVQ4ja3T/U/bRhjAcf+hm7qt2yrablp52TQEtBUbjG2sQPeibhQolfoCZF0NjIgCTWBJHPvOjm3y5vOdQ+KEFGrfORAgQZX2g4uamrZC2qTPT3ePvrKlezhgsgBoMoiDh2fBAZO2kjFLWV6q4MnEAyYL3L5bsBXPOitydQWUE7nnwKQScmVS2yw3MpXjdKX5RkphT0KuhCgnIeoDJpMQXRDKt3h8cyZ3dykX1bZThb1Yurq4keYj6nxUD+Aj2nxUj6o2xN5rLRkz0XAfPCGD90jXb5n2oZW/IibafcFH1Esdfe9/8vn5y10B5y5c+fBi550/1/TSEcQeJyLqA5hKiM4nKtfH1fPXVnturv8tFDOVo1Vg/XqXv/HHw7HJUMDI+OzoxNzCxqZS2JdM9qolIioiFsuyqYXs8FQiFCWxrCMhCnBNsxt6uanbp5Sbut2EZC9puEmDckmDthIRlUwfE9HJoelJbyci5o9xScNtJSIXYCYTD2C/5SYNKiImmUx8m5djLifkXV/SoELefaruPIpuza1ZT+SdeM4V8o5kemrpSLMbailIsxtaqQFwTcg7Qr6lJRo0kXNCka2RWfObqeyP08qSUFKLB8si+WWa/+n3h6MToYAb47Mjt+f46CbAe4JBuWTe9UmICnnnwTLuv2NcHJYv94dDa0Z+58WjtVRbe+97H3/20aXOgHOffvFBW8dkaDVVPBQRe/W+IGbApGGpOnAbtF0PD03EV2BZK9Vj6erixubjp6n5qBbAR1Q+qkbVEiTeazsEMYWYCXnKb5B7S+llqSQaLsRUsWrpSiOzfZypNIO2jzOVZqqwD5D7hn1UCEvb+7ntQ724DzGT0H/YbRG58cxuLP1MNJyT7/XUrbpWrKunaMW6VqzLxHvZgtj/O6oQBjFdgZWpBf3WXDIUycWzO4rlQZMC05WQA5B7igOQC0zXL3CQUF+q4AHs3l/eHJxMfj32T89IeDFuIuc4nMj0Doy1d3/71bUfAjp6Brv6hmbCCb18KFuspbXlQULvL6d7f16/cHWpc/DxQgyZ7nE4kekZGL3S3f/l1e8D2nsGuvq+mwnHgy2lwGSLrSrVkelE9/DiFC/HMs/UYg0SKpnOOwDs+gUOEtZKMtm6Xl2V7URuFxIKCZMtTysd6PahZh8E6PaBZh8ohZo/ycmE+SBhMmGK5eml/XS5rhX3ZMuDJ7dnwZ199Awty/u//AuqJbQ+Vn7WSAAAAABJRU5ErkJggg==" /></li>
-<li>The <span class="code">&lt;ol&gt;</span> element is used for <i>numbered</i> lists<i>. </i>Individual list items are identified using the <span class="code">&lt;li&gt;</span> element.<br /> In the RTE, use the <strong>Numbered List</strong> icon:<br /> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAIAAABvSEP3AAAC9klEQVQ4ja3TW28TRxgG4P2j7VXTK4KEKgUu2tBIRKoTkKlgidJiaBJzcipzsKoEB4hIMN7DzB583p2dWTs2dhLs+WbimCDIBRcLAWpTRQXpkUbzzbzv1YyCAvH1lG/VAkdsJpxQfDr5z/DHa4pJIFJsiDXr5fLGtkkABRwFUGy9rnQOK+23I3QO3cbAJDzKvm/BFLIOj91pxlMhpsJm0vD5tVR2Rl2K/3F72Iy6lFrV7XD/sxaLwT0DppbC+G1P88AO+4bPz8Wv/njyzPjE1LCxk2fmkhl36wAFwiSgGAQMAmYAuRqo6drpS/lkluo+RwFER8eh6D4YPlhMJh+9+HkOTVzITl/P5ypdTKUZSET7iO6N0jcDqfsQUXSf6z43CF8vdFdRJ4taj+y25nHD5wYRZvBFBoEoq/tc0TyuexwRnsp1Z9Pb85mtB89b+VpPJ4DoHg73MRsl3DcDqXk8okSL4fMVq7fweGdmqRxLoFyFGwR+u7x4YmLqp19iw05MTM3fWsHhQPNA87hi+DyCqHyQ71y4Wbx6t6J7YAagLt47G1PPxf8cNhlTk/ef2vV9k4DhcwUFgANwQpHRXk7OF0/NrifuO7rXs5ksNg8qnTfl9giVzhu3MYgeJwrgqEWmN9sXb5RnEjn1Tl6rdW0mUSAw/aLPfkC0YAqb5d5jp/vE3V13d0zCMQWn3ne3BiMVtgZ2uPexBVOwKLh1kXq6PZ1s/PqX//tyVfe5E4rn5faG29wstIZtuE2tumMxgSlgCgpmgBlYIeiEJx62J6/5t9aoFUqL8bMx9fux8bHx08O++2FcXUiXXhxYocDsQwtiUO3IJ4Xe9ELpfFI3SM+pi7+zWiK1spBeG5ZIrfzzrOg09qK4gpmwmHAaMqN1ZhdLk1e0ubtFg/Scuiy1X9d2D6s7b4fVdg8LrVeIAmaAmXjf4tZlRtu+sly9ueo/q3CLCYsJfGxKFLCYcBuy1OoXm32nLo+Gx6RYoTxi1+Wn2+NT/l/sX94BSNcLHFX5rhgAAAAASUVORK5CYII=" /></li>
-<li>The <span class="code">&lt;dl&gt;</span> element is used for definition lists. Here the list items appear as pairs, such as in a glossary of technical terms. The <span class="code">&lt;dl&gt;</span> element uses the <span class="code">&lt;dt&gt;</span> and <span class="code">&lt;dd&gt;</span> child elements, which refer to the definition term and the definition description respectively.</li>
-</ul>
-<p>If you want to change existing content into a specific list type, highlight the appropriate text and select the appropriate list type. As in the earlier example showing how paragraph text is entered, the appropriate list elements are automatically added to your HTML, but you can view this in source edit view.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:40.597-0500
-<p>the procedure after suggests creating a table with the RTE (Text component) with all options activated - is that recommended by us?</p>
-<ul>
-<li>should promote the Table component<br /> </li>
-</ul>
--->
+![An example of the Paragraph element shown in source edit mode (classic UI).](assets/screen_shot_2018-03-21at165623.png)
 
 You can make sure your web pages are given the appropriate structure by:
 
@@ -533,13 +361,6 @@ You can make sure your web pages are given the appropriate structure by:
 
     * Highlight the text you want to emphasize;
     * Click on the **B** icon (for &lt;strong&gt;) or the **I** icon (for &lt;em&gt;) shown within the **Properties** panel (make sure that HTML is selected).
-
-  <!--
-  Comment Type: remark
-  Last Modified By: Alison Heimoz (aheimoz)
-  Last Modified Date: 2017-11-30T04:50:40.816-0500
-  <p>development or configuration?</p>
-  -->
 
   >[!NOTE]
   >
@@ -594,54 +415,18 @@ You can make sure your web pages are given the appropriate structure by:
   >
   >By default, these elements and attributes are not directly available, though it is possible for the system administrator to add support for these values in the **Table properties** dialog box (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#addingsupportforadditionalhtmlelementsandattributes)).
 
-  <!--
-  Comment Type: remark
-  Last Modified By: Alison Heimoz (aheimoz)
-  Last Modified Date: 2017-11-30T04:50:41.094-0500
-  <p>6.1 - Review</p>
-  -->
-
   When adding a **Table** you can configure **Table properties** using the dialog.
 
     * an appropriate **Caption**.
     * Ideally remove any default values for **Width**, **Height**, **Border**, **Cell padding**, **Cell spacing**. as these properties can be set in a global style sheet.
 
-  ![Table properties dialog.](assets/chlimage_1-201.png) 
-
-  <!--
-  Comment Type: draft
-
-  <img alt="Table properties dialog; setting the first row as a header row." imageRotate="0" src="assets/chlimage_1-202.png" />
-  -->
-
-  <!--
-  Comment Type: remark
-  Last Modified By: Alison Heimoz (aheimoz)
-  Last Modified Date: 2017-11-30T04:50:41.193-0500
-  <p>6.1 - Review</p>
-  -->
+  ![Table properties dialog.](assets/chlimage_1-196.png)
 
   You can then use the **Cell propertires** to choose whether the cell is a data or header cell and, if a header cell, whether it relates to a row or column or both:
 
-  ![Call properties dialog; setting a row (usually the first one) as a header row.](assets/chlimage_1-203.png) 
-
-  <!--
-  Comment Type: draft
-
-  <img alt="Call properties dialog; setting a row (usually the first one) as a header row." imageRotate="0" src="assets/chlimage_1-204.png" />
-  -->
+  ![Call properties dialog; setting a row (usually the first one) as a header row.](assets/chlimage_1-197.png)
 
 * **Complex Data Tables:**
-
-  <!--
-  Comment Type: remark
-  Last Modified By: Alison Heimoz (aheimoz)
-  Last Modified Date: 2017-11-30T04:50:41.335-0500
-  <p>is RTE capable of such complicated tables?</p>
-  <ul>
-  <li>not really</li>
-  </ul>
-  -->
 
   In some cases, where there are complex tables with two or more levels of headers, then the basic Table Properties may not be enough to provide all the structural information necessary. For these kinds of complex tables, direct relationships need to be created between the headers and their related cells using the **header **and **id **attributes. For example, in the table below headers and ids are matched to make a programmatic association for assistive technology users.
 
@@ -652,21 +437,6 @@ You can make sure your web pages are given the appropriate structure by:
   >[!NOTE]
   >
   >In classic UI, tables should be realized with the **Table** component.
-
-  <!--
-  Comment Type: remark
-  Last Modified By: Alison Heimoz (aheimoz)
-  Last Modified Date: 2017-11-30T04:50:41.412-0500
-  <p>does RTE support id?</p>
-  <ul>
-  <li>no</li>
-  <li>can be added in the source view<br /> and can be configured so that RTE doesn't remove it....<br /> - create HTML rules beside the rtePlugins<br /> -- see http://ec2author.day.com:8080/content/docs/en/aem/6-2/administer/operations/page-authoring/rich-text-editor.html?#Styles%20and%20Protocols%20Allowed%20when%20Pasting%20Links<br /> -- instead of links use serializer<br /> -- then configure the serializer - documentation in the source code<br /> -- serializer - jcr:primaryType / Name / nt:unstructured<br /> -- with sub-node config<br /> --- config - jcr:primaryType / Name / nt:unstructured<br /> - idAttribMode / String / keep<br /> <br /> - for the serializer document the structure (as above) then refer to widget API for options</li>
-  <li>serializer isn't documented yet - see https://issues.adobe.com/browse/DOC-4798</li>
-  </ul>
-  <p> </p>
-  <p>entering the below table in a text/table component results in:</p>
-  <p>&lt;table&gt;<br /> &lt;tbody&gt;&lt;tr&gt;&lt;th rowspan="2"&gt;Homework&lt;/th&gt;<br /> &lt;th colspan="3"&gt;Exams&lt;/th&gt;<br /> &lt;th colspan="3"&gt;Projects&lt;/th&gt;<br /> &lt;/tr&gt;&lt;tr&gt;&lt;th headers="e"&gt;1&lt;/th&gt;<br /> &lt;th headers="e"&gt;2&lt;/th&gt;<br /> &lt;th headers="e"&gt;Final&lt;/th&gt;<br /> &lt;th headers="p"&gt;1&lt;/th&gt;<br /> &lt;th headers="p"&gt;2&lt;/th&gt;<br /> &lt;th headers="p"&gt;Final&lt;/th&gt;<br /> &lt;/tr&gt;&lt;tr&gt;&lt;td headers="h"&gt;15%&lt;/td&gt;<br /> &lt;td headers="e e1"&gt;15%&lt;/td&gt;<br /> &lt;td headers="e e2"&gt;15%&lt;/td&gt;<br /> &lt;td headers="e ef"&gt;20%&lt;/td&gt;<br /> &lt;td headers="p p1"&gt;10%&lt;/td&gt;<br /> &lt;td headers="p p2"&gt;10%&lt;/td&gt;<br /> &lt;td headers="p pf"&gt;15%&lt;/td&gt;<br /> &lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;<br /> <br /> </p>
-  -->
 
   ```xml
   <table>
@@ -696,14 +466,6 @@ You can make sure your web pages are given the appropriate structure by:
   ```
 
   To achieve this in AEM you must add the markup directly using the source edit mode.
-
-  <!--
-  Comment Type: remark
-  Last Modified By: Alison Heimoz (aheimoz)
-  Last Modified Date: 2017-11-30T04:50:41.469-0500
-  <p>needs link when documented:</p>
-  <p><a href="https://issues.adobe.com/browse/DOC-4798">https://issues.adobe.com/browse/DOC-4798</a></p>
-  -->
 
   >[!NOTE]
   >
@@ -774,14 +536,6 @@ Wherever color is used to convey information, make sure that the information is 
 
 For example, make sure that information provided by color is also provided explicitly in text. The illustration below shows how color and text both indicate seating availability for a performance:
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:41.872-0500
-<p>where's the color?</p>
-<p>what should they be or can we use the marked style (see draft example below) or an image instead.....<br /> </p>
--->
-
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
@@ -802,31 +556,6 @@ Last Modified Date: 2017-11-30T04:50:41.872-0500
   </tr> 
  </tbody> 
 </table>
-
-<!--
-Comment Type: draft
-
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td valign="top" width="254"><p><strong>Performance</strong></p> </td>
-<td valign="top" width="285"><p><strong>Availability</strong></p> </td>
-</tr>
-<tr>
-<td valign="top" width="254"><p>Tuesday March 16<sup>th</sup></p> </td>
-<td valign="top" width="285"><p><span class="uicontrol">SEATS AVAILABLE</span></p> </td>
-</tr>
-<tr>
-<td valign="top" width="254"><p>Wednesday March 17th</p> </td>
-<td valign="top" width="285"><p><span class="uicontrol">SEATS AVAILABLE</span></p> </td>
-</tr>
-<tr>
-<td valign="top" width="254"><p>Thursday March 18<sup>th</sup></p> </td>
-<td valign="top" width="285"><p>SOLD OUT</p> </td>
-</tr>
-</tbody>
-</table>
--->
 
 If color is used as a cue to provide information, you should provide an additional visual cue, such as changing the style (e.g. bold, italics) or font. This helps people with low vision or who have color vision deficiency to identify the information. Howver, it cannot be relied on entirely, as it will not help people who cannot see the page at all.
 
@@ -1016,14 +745,6 @@ Above all, make sure that the purpose of a link is clearly described within the 
     * Text: Evening classes for autumn 2010 - details.
     * Reason: By slightly adjusting the text and the position of the link element, the link text can be improved:
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:43.031-0500
-<p>"there are some issues surrounding the use of titles:"</p>
-<p>titles or the title attribute?</p>
--->
-
 Links should be phrased consistently across pages, especially for navigation bars. For example, if a link to a specific page is named **Publications** on one page, use that text on other pages to ensure consistency.
 
 However, at the time of writing, there are some issues surrounding the use of titles:
@@ -1123,33 +844,6 @@ Pages applying this success criterion allow:
 
 Tthe `lang` attribute can be used to identify changes in the language of content. For example, a quotation in German (ISO 639-1 code “de”) can be shown as follows:
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:43.492-0500
-<p>does RTE support blockquote and/or span lang?</p>
-<ul>
-<li>blockquotes not supported
-<ul>
-<li>would need a new component in AEM - might already be a jira issue to support blockquote</li>
-<li>might be 7.0 (ha-ha) as ootb, but customer can develop their own</li>
-</ul> </li>
-<li>span lang
-<ul>
-<li>no official/ui support</li>
-<li>can add it with source edit and it won't be removed</li>
-<li>(span only supported for adding a class)<br /> <br /> </li>
-</ul> </li>
-</ul>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:43.510-0500
-<p>see <a href="https://issues.adobe.com/browse/CQ-858">https://issues.adobe.com/browse/CQ-858</a></p>
--->
-
 ```xml
 <blockquote cite = "John F. Kennedy" lang = "de"> 
      <p>Ich bin ein Berliner</p>
@@ -1193,19 +887,7 @@ Providing instructions to help people complete forms is a fundamental part of go
 
 In AEM a default label is added when you add a form component, such as a **Text Field**, to the page. This default title is dependent on the component type, You can add your own title in the **Title and Text** tab of the edit dialog for that field. It is important to ensure that labels help users to understand the data associated with each form component.
 
-![Title and Text tab (edit dialog); the title ‘Description’ has been added.](assets/chlimage_1-205.png) 
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:43.814-0500
-<p>It is also possible to visually hide labels using the <strong>Hide Title</strong> checkbox (see screenshot above). <strong>Labels hidden in this way are still available to assistive technology</strong> but are not displayed on the screen. While this can be a good approach in some situations it is usually best to include a visual label wherever possible, since some users may be looking at a very small section of the screen (one field at a time) and need the labels to identify the field correctly. Also, <strong>hiding the title in this way may actually hide it from screen reader users also</strong>, so it will not be available to anyone.</p>
-<ul>
-<li>"Labels hidden in this way are still available to assistive technology"</li>
-<li>"hiding the title in this way may actually hide it from screen reader users also"</li>
-</ul>
-<p>slightly conflicting - what are the specific conditions?<br /> </p>
--->
+![Title and Text tab (edit dialog); the title ‘Description’ has been added.](assets/chlimage_1-198.png)
 
 This **Title** field must be used for field elements as it provides a label that is available to assistive technology. Simply writing a label in text beside the field is not sufficient.
 
@@ -1215,38 +897,23 @@ For some form components it is also possible to visually hide labels using the *
 
 Where image buttons are used (for example, the **Image Button** component) the **Title** field in the **Title and Text** tab of the edit dialog actually provides the alt text for the image, rather than the label. So, in the example below, the image with the text `Submit` has alt text of `Submit`, added using the **Title** field in the edit dialog.
 
-![Image button with the Alt Text set in the Title field (edit dialog).](assets/chlimage_1-206.png) 
+![Image button with the Alt Text set in the Title field (edit dialog).](assets/chlimage_1-199.png) 
 
 #### Groups of Form Fields {#groups-of-form-fields}
 
 Where there is a group of related controls, such as **Radio Group**, a title may be needed for the group, as well as individual controls. When adding a set of radio buttons in AEM, the **Title** field provides this group title, while individual titles are specified as the radio buttons (**Items**) are created.
 
-![Adding items to the radio group. The group title is 'Contact me by' - defined in the Title field.](assets/chlimage_1-207.png) 
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:43.970-0500
-<p>"Alternatively, a system administrator can add support for these elements so that they appear in the <strong>Field Properties</strong> dialog"</p>
-<p>can they? if so, how exactly?<br /> </p>
--->
+![Adding items to the radio group. The group title is 'Contact me by' - defined in the Title field.](assets/chlimage_1-200.png)
 
 However, there is no programmatic association between the group title and the radio buttons themselves. Template editors would need to wrap the title in the necessary `fieldset` and `legend` tags to create this association and this can only be done by editing the page source code. Alternatively, a system administrator can add support for these elements so that they appear in the **Field Properties** dialog (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#addingsupportforadditionalhtmlelementsandattributes)).
 
 #### Additional Considerations for Forms {#additional-considerations-for-forms}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:44.022-0500
-<p>shouldn't we mention the difference between the title (label) and the description? or at least clearly mention that there are two aspects?</p>
--->
-
 If data is to be entered in a specific format, make this clear in the label text. For example, if a date has to be entered in the `DD-MM-YYYY` format, specifically indicate this as part of the label. This means that when screen reader users encounter the field, the label is automatically announced, along with the additional information about format.
 
 If input for a form field is mandatory, make this clear by using the word required as part of the label. AEM adds an asterisk when a field is required, but it would be ideal to include the word `required`in the label itself (in the **Title** field in the edit dialog).
 
-![Adding additional information (the word required) for screen reader users in the ‘Title’ field.](assets/chlimage_1-208.png)
+![Adding additional information (the word required) for screen reader users in the ‘Title’ field.](assets/chlimage_1-201.png)
 
 The positioning of labels is also important as it helps them to locate appropriate fields. This is of particular importance when the user is faced with a complex form. Follow the convention below:
 

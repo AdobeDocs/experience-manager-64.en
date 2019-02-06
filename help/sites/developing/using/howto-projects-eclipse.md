@@ -3,12 +3,12 @@ title: How to Develop AEM Projects Using Eclipse
 seo-title: How to Develop AEM Projects Using Eclipse
 description: This guide describes how to use Eclipse for developing AEM based projects
 seo-description: This guide describes how to use Eclipse for developing AEM based projects
-uuid: 2ef4de8c-722a-491e-8b4f-298443b30aa2
+uuid: 282485ef-f26a-44fc-9a66-394117031b4c
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: c6ac314f-41b9-4fdc-b32f-cc77c3f7acc3
+discoiquuid: 82408c45-e343-43c2-bec5-c8518c3859b6
 index: y
 internal: n
 snippet: y
@@ -118,15 +118,15 @@ For that to work:
 1. In Eclipse, choose File &gt; Import...
 1. In the Import Dialog, choose Maven &gt; Existing Maven Projects, then click "Next".
 
-   ![](assets/chlimage_1-51.png)
+   ![](assets/chlimage_1-50.png)
 
 1. Enter the path to your project's top-level folder, then click "Select All" and "Finish".
 
-   ![](assets/chlimage_1-52.png)
+   ![](assets/chlimage_1-51.png)
 
 1. You are now all set for using Eclipse to develop your AEM project, including JSP autocompletion.
 
-   ![](assets/chlimage_1-53.png)
+   ![](assets/chlimage_1-52.png)
 
    >[!NOTE]
    >

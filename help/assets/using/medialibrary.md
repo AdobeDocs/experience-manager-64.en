@@ -3,12 +3,12 @@ title: AEM Assets vs. AEM MediaLibrary
 seo-title: AEM Assets vs. AEM MediaLibrary
 description: Frequently asked questions around AEM Assets and. AEM Media Library, including differences between the two.
 seo-description: Frequently asked questions around AEM Assets and. AEM Media Library, including differences between the two.
-uuid: d3c37d0f-efbb-4edb-8945-b3c011c794bf
+uuid: f75d39c9-a950-4334-bc00-aac38ea6bec0
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 1a7e652b-f216-4ff3-80d2-cf69210ea9fb
+discoiquuid: a5876b8a-d9c1-4f68-b3bd-527e55184d87
 index: y
 internal: n
 snippet: y
@@ -17,13 +17,6 @@ snippet: y
 # AEM Assets vs. AEM MediaLibrary{#aem-assets-vs-aem-medialibrary}
 
 Adobe Experience Manager (AEM) Assets is an integral part of the AEM platform. This smooth integration is seen as a major advantage of AEM and ensures consistency in content management and high productivity for content authors.
-
-<!--
-Comment Type: remark
-Last Modified By: (alvawb)
-Last Modified Date: 2017-11-30T05:30:08.738-0500
-<p>Chiradeep to check with team on validity and rebrand if necessary.</p>
--->
 
 ### Frequently asked questions {#frequently-asked-questions}
 
@@ -75,13 +68,3 @@ You can remove all AEM Assets-specific workflows, components, taxonomies, option
 #### I want to add images to a page and want to crop and resize these images. Do I need AEM Assets? {#i-want-to-add-images-to-a-page-and-want-to-crop-and-resize-these-images-do-i-need-aem-assets}
 
 For this use case it is not required to buy AEM Assets, even the use of the Media Library is not required to use images on a website as the smart image component allows uploading images directly into the page.
-
-<!--
-Comment Type: remark
-Last Modified By: (alvawb)
-Last Modified Date: 2017-11-30T05:30:08.935-0500
-<p>Copied from other page but it applies to this list:</p>
-<p>Remark by Geoffroy Schneck (gschneck) on Wed, 16 May 2012, 12:28:04 UTC<br /> <br /> </p>
-<p>On the FAQ Above, "How can I prevent my users from using DAM if I did not license DAM?", there is still mention of the CQ 5.3 remove-dam package .<br /> <br /> This one has not been updated for CQ 5.4 and 5.5, see Bug #35137 .<br /> <br /> I then think this FAQ should be updated as well..</p>
--->
-

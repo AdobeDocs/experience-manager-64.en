@@ -3,12 +3,12 @@ title: Programmatically Managing Endpoints
 seo-title: Programmatically Managing Endpoints
 description: null
 seo-description: null
-uuid: 7556c06e-0ea9-4290-8fa9-538dffdf492a
+uuid: 0087788b-ef95-47b4-bd54-964743cd4ff5
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 49e331b3-7876-4c7c-a2e0-1d135ad9fd72
+discoiquuid: 71fac5ab-efd8-4cde-8135-90ee9e2f2ea0
 index: y
 internal: n
 snippet: y
@@ -46,13 +46,6 @@ The Endpoint Registry service provides the ability to programmatically manage en
 * Modify endpoints (See [Modifying Endpoints](programmatically-endpoints#modifying_endpoints).)
 * Remove endpoints (See [Removing Endpoints](programmatically-endpoints#removing_endpoints).)
 * Retrieve endpoint connector information (See [Retrieving Endpoint Connector Information](programmatically-endpoints#retrieving_endpoint_connector_information).)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_ep_add_ejb_endpoints_ae.xml#WS624e3cba99b79e12e69a9941333732bac8-7e65.2_ver6.1
--->
 
 ## Adding EJB Endpoints {#adding-ejb-endpoints}
 
@@ -156,13 +149,6 @@ Add an EJB endpoint by using the Java API:
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
 
 [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_ep_add_soap_endpoints_as.xml#WS624e3cba99b79e12e69a9941333732bac8-7e63.2_ver6.1
--->
 
 ## Adding SOAP Endpoints {#adding-soap-endpoints}
 
@@ -268,13 +254,6 @@ Add a SOAP endpoint to a service by using the Java API:
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
 
 [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_ep_add_watched_folder_endpoints_aw.xml#WS624e3cba99b79e12e69a9941333732bac8-7e61.2_ver6.1
--->
 
 ## Adding Watched Folder Endpoints {#adding-watched-folder-endpoints}
 
@@ -508,13 +487,6 @@ The [QuickStart: Adding a Watched Folder endpoint using the Java API](/programmi
          public static final String PROPERTY_FILEPROVIDER_OVERWRITE_DUPLICATE_FILENAME = "overwriteDuplicateFilename";      
         }
 ```
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_ep_add_email_endpoints_ae.xml#WS624e3cba99b79e12e69a9941333732bac8-7e5f.2_ver6.1
--->
 
 ## Adding Email Endpoints {#adding-email-endpoints}
 
@@ -768,13 +740,6 @@ The [QuickStart: Adding an Email endpoint using the Java API](/programming-with-
  }
 ```
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_ep_add_remoting_endpoints_ar.xml#WS624e3cba99b79e12e69a9941333732bac8-7e5d.2_ver6.1
--->
-
 ## Adding Remoting Endpoints {#adding-remoting-endpoints}
 
 >[!NOTE]
@@ -887,13 +852,6 @@ Add a Remoting endpoint by using the Java API:
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
 
 [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_ep_add_taskmanager_endpoints_at.xml#WS624e3cba99b79e12e69a9941333732bac8-7e5b.2_ver6.1
--->
 
 ## Adding TaskManager Endpoints {#adding-taskmanager-endpoints}
 
@@ -1018,13 +976,6 @@ Add a TaskManager endpoint by using the Java API:
 
 ****
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_ep_modify_endpoints_me.xml#WS624e3cba99b79e12e69a9941333732bac8-7e59.2_ver6.1
--->
-
 ## Modifying Endpoints {#modifying-endpoints}
 
 You can programmatically modify an existing endpoint by using the AEM Forms Java API. By modifying an endpoint, you can change the behaviour of the endpoint. Consider, for example, a Watched Folder endpoint that specifies a folder that is used as the watched folder. You can programmatically modify configuration values that belong to the Watched Folder endpoint, resulting in another folder functioning as the watched folder. For information about configuration values that belong to a Watched Folder endpoint, see [Adding Watched Folder Endpoints](programmatically-endpoints#adding_watched_folder_endpoints).
@@ -1127,13 +1078,6 @@ Modify an endpoint by using the Java API:
 
 [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_ep_remove_endpoints_re.xml#WS624e3cba99b79e12e69a9941333732bac8-7e57.2_ver6.1
--->
-
 ## Removing Endpoints {#removing-endpoints}
 
 You can programmatically remove an endpoint from a service by using the AEM Forms Java API. After you remove an endpoint, the service cannot be invoked by using the invocation method that the endpoint enabled. For example, if you remove an SOAP endpoint from a service, you cannot invoke the service by using the SOAP mode.
@@ -1225,13 +1169,6 @@ Remove an endpoint by using the Java API:
 [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
 
 ****
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_ep_retrieve_endpoint_connector_info_re.xml#WS624e3cba99b79e12e69a9941333732bac8-7e55.2_ver6.1
--->
 
 ## Retrieving Endpoint Connector Information {#retrieving-endpoint-connector-information}
 

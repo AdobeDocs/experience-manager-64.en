@@ -3,12 +3,12 @@ title: Assembler Service Java API QuickStart(SOAP)
 seo-title: Assembler Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: 4c17685a-db2d-4507-9533-d36c93d91eac
+uuid: 3a5a8f7f-5428-4d7d-8de1-d23fb20cc86f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 0be8c20b-289d-44cb-894d-dcbc61b5a22e
+discoiquuid: 76c7c953-e242-4a82-89f9-e2c1c76fa05d
 index: y
 internal: n
 snippet: y

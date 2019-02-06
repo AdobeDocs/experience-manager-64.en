@@ -3,13 +3,13 @@ title: Bulk Offline Update
 seo-title: Bulk Offline Update
 description: Follow this page to learn how you can update all the channels in bulk.
 seo-description: Follow this page to learn how you can update all the channels in bulk.
-uuid: 162cab67-6380-49e1-aca5-85fd0fb5cfca
+uuid: 9346ccf9-ac9a-4097-ac23-b1a49795aeed
 admitteddomains: @adobe.com;@caesars.com
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: e289cc4c-cf6d-4cf5-b6ef-5d22d477d5f8
+discoiquuid: c922eb33-9f64-4f7d-93d1-f02315532ccb
 noindex: true
 index: y
 internal: n

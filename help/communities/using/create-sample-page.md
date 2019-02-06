@@ -3,12 +3,12 @@ title: Create a Sample Page
 seo-title: Create a Sample Page
 description: Create a Sample community site
 seo-description: Create a Sample community site
-uuid: 172386cc-9cf1-4687-9963-b772767d1235
+uuid: 83f8c515-7176-47fd-91bc-59e25ada00c4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: developing
-discoiquuid: 3471b5eb-f420-4ba1-8f65-0f21918e6c76
+discoiquuid: e1684f2c-6799-4286-a3cb-fd4a0e2af389
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ To get started, create a simple [community site template](../../communities/usin
 
 From global navigation on an author instance select **Tools, Communities,** **Site Templates**.
 
-![](assets/chlimage_1-88.png)
+![](assets/chlimage_1-81.png)
 
 * select `Create button`
 * BASIC INFO
@@ -43,7 +43,7 @@ From global navigation on an author instance select **Tools, Communities,** **Si
     * `Description`: A template consisting of a single Page function.
     * select `Enabled`
 
-![](assets/chlimage_1-89.png)
+![](assets/chlimage_1-82.png)
 
 * STRUCTURE
 
@@ -53,7 +53,7 @@ From global navigation on an author instance select **Tools, Communities,** **Si
         * `Title`: Single Page
         * `URL`: page
 
-![](assets/chlimage_1-90.png)
+![](assets/chlimage_1-83.png)
 
 * select **`Save`**for the configuration
 * select **`Save`**for the site template
@@ -64,7 +64,7 @@ Now create a new community site based on the simple site template.
 
 After creating the site template, from global navigation select **Communities**, **Sites**.
 
-![](assets/chlimage_1-91.png)
+![](assets/chlimage_1-84.png)
 
 * select**`Create`** `icon`
 
@@ -80,7 +80,7 @@ After creating the site template, from global navigation select **Communities**,
 
     * `Template`: choose `Single Page Template`
 
-![](assets/chlimage_1-92.png)
+![](assets/chlimage_1-85.png)
 
 * select `Next`
 * step `2 - Design`
@@ -93,23 +93,23 @@ After creating the site template, from global navigation select **Communities**,
 
 * select `Create`
 
-![](assets/chlimage_1-93.png)
+![](assets/chlimage_1-86.png)
 
 ## Publish the Site {#publish-the-site}
 
-![](assets/chlimage_1-94.png)
+![](assets/chlimage_1-87.png)
 
 From the [community sites console](../../communities/using/sites-console.md), select the publish icon to publish the site, by default to http://localhost:4503.
 
 ## Open the Site on Author in Edit Mode {#open-the-site-on-author-in-edit-mode}
 
-![](assets/chlimage_1-95.png)
+![](assets/chlimage_1-88.png)
 
 Select the open site icon to view the site in edit mode.
 
 The URL will be [http://localhost:4502/editor.html/content/sites/sample/en.html](http://localhost:4502/editor.html/content/sites/sample/en.html)
 
-![](assets/chlimage_1-96.png)
+![](assets/chlimage_1-89.png)
 
 On the simple home page it is possible to see what is pre-wired through the community functions and templates, and play with adding and configuring community components.
 

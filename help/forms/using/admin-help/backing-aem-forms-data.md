@@ -3,12 +3,12 @@ title: Backing up the AEM forms data
 seo-title: Backing up the AEM forms data
 description: This document describes the steps that are required to complete a hot, or online, backup of the AEM forms database, the GDS, and Content Storage Root directories.
 seo-description: This document describes the steps that are required to complete a hot, or online, backup of the AEM forms database, the GDS, and Content Storage Root directories.
-uuid: c42954dc-9453-4c63-a828-28625c4cce3f
+uuid: d7e870ec-5bb4-47ad-8af3-1983efb3872e
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: b2facafd-0ce1-487b-b661-e4d71d52b992
+discoiquuid: e1771a80-ccda-4920-8a43-e1f57322ffdb
 index: y
 internal: n
 snippet: y
@@ -156,13 +156,6 @@ You can use the command line interface to take AEM forms out of safe backup mode
    >[!NOTE]
    >
    >For the time that backup mode is off, continuous coverage cannot be reestablished. Any changes during that time are not protected.
-
-   <!--
-   Comment Type: remark
-   Last Modified By:
-   Last Modified Date:
-   <p>Bug 2297786: Added the leaveContinuousCoverage option</p>
-   -->
 
    >[!NOTE]
    >

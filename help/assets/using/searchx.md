@@ -3,12 +3,12 @@ title: Extending Assets Search
 seo-title: Extending Assets Search
 description: Extend the search capabilities of AEM Assets beyond out-of-the-box searches for assets by strings.
 seo-description: Extend the search capabilities of AEM Assets beyond out-of-the-box searches for assets by strings.
-uuid: 9ad746b6-f37b-41c1-9b75-64332bc6944f
+uuid: 4888c58f-e093-4f9d-9412-c3f6950e4640
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: 36a40471-a5e8-4424-a916-a039043dca57
+discoiquuid: c2579a93-a181-470a-bdcf-7ffadd1c53a4
 index: y
 internal: n
 snippet: y
@@ -259,31 +259,6 @@ To build a group predicate:
 1. In **Edit** mode, the new component is now available in the sidekick (found in the **Search **group). Insert the component in the **Predicates** column.
 
 ### Installed Predicate Widgets {#installed-predicate-widgets}
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:30:30.043-0500
-<p>Is this list complete? In the GUI for 5.5, I see the following additional confguration options:</p>
-<ul>
-<li>mainasset</li>
-<li>type</li>
-<li>orderby</li>
-<li>mimeoptions</li>
-<li>tagoptions</li>
-<li>scene7options</li>
-</ul>
-<p><br /> </p>
-<p></p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (rschaer@adobe.com)
-Last Modified Date: 2017-11-30T05:30:30.055-0500
-<p>The list is complete and provides predicate types (xtype property). Additional configured properties in 5.5 are either hidden or use one of the predicate types mentioned below. Hidden types are used to extend the search query with default search behavior (like ordering, mimetypes to search etc.) and may influence the search result remarkably, especially mainasset and type are necessary for DAM searches.</p>
-<p></p>
--->
 
 The following predicates are available as preconfigured ExtJS widgets.
 

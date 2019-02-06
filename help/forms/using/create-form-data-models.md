@@ -3,10 +3,10 @@ title: Create form data model
 seo-title: Create form data model
 description: Learn how to create form data models with or without configured data sources.
 seo-description: Learn how to create form data models with or without configured data sources.
-uuid: b24df7e4-e2db-4a6d-99bd-1304871c2e2d
+uuid: 6d60d10d-4181-4daf-ac4e-3774864b2f24
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
-discoiquuid: 3de65fab-651e-45ac-9b19-5dad42de6b5c
+discoiquuid: f4f7219f-3061-4eae-8ee5-5b61351a357a
 index: y
 internal: n
 snippet: y

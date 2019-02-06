@@ -3,12 +3,12 @@ title: Trying out Content Fragments in We.Retail
 seo-title: Trying out Content Fragments in We.Retail
 description: null
 seo-description: null
-uuid: 5b664ff0-616f-470e-b80d-4036be636d5f
+uuid: 4f5ce3e5-6fc5-47f1-a077-ab1bc10ef64c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: cff2e6de-006d-45b2-a8cb-044ac2cdc793
+discoiquuid: 25634b1e-423f-4d2f-9e39-bc9b0736920d
 index: y
 internal: n
 snippet: y

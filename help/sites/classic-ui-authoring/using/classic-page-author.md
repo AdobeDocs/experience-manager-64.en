@@ -3,12 +3,12 @@ title: Authoring Pages
 seo-title: Authoring Pages
 description: "There are two overviews to authoring with AEM: First Steps for Authors - an introduction for new authors and Quick Guide to Authoring Pages - a quick guide (high-level) to the main actions."
 seo-description: "There are two overviews to authoring with AEM: First Steps for Authors - an introduction for new authors and Quick Guide to Authoring Pages - a quick guide (high-level) to the main actions."
-uuid: a8ebe674-223f-4fce-8d81-0e0121a11ef1
+uuid: 85f90f0c-257a-49b8-b745-8c36b443fd51
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: c888de75-e02c-4cd8-9663-2a59bb33e833
+discoiquuid: 7ec0ceaf-ae95-40b0-83ae-9fc6cf29af5a
 index: y
 internal: n
 snippet: y

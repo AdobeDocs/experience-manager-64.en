@@ -3,10 +3,10 @@ title: Employee recruitment reference site walkthrough
 seo-title: Employee recruitment
 description: AEM Forms reference site showcases how organizations can use AEM Forms features to implement employee recruitment workflow.
 seo-description: AEM Forms reference site showcases how organizations can use AEM Forms features to implement employee recruitment workflow.
-uuid: b46d7ecd-dc2f-45f1-ae36-f04c9182eb61
+uuid: c8606817-5050-4551-abd9-3b4198198008
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 40d2ed02-b040-4bf5-a953-c31725b1a4f1
+discoiquuid: 6593809f-25f8-4a12-96b0-b76cd359193d
 index: y
 internal: n
 snippet: y
@@ -28,13 +28,6 @@ We.Finance is an organization that allows candidates to apply for employment thr
 * Collection of candidate details
 * Candidate background checking
 * Rolling out offers to selected candidates
-
-<!--
-Comment Type: annotation
-Last Modified By: virai
-Last Modified Date: 2017-06-15T02:43:44.296-0400
-Check for consistent use of H1 and H2s etc. Some seem to be off.
--->
 
 >[!NOTE]
 >
@@ -92,35 +85,7 @@ Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en.html` and
 
 Ensure that you specify a valid email ID in the application as any communication through this walkthrough will be sent to the specified email ID.
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-21T01:45:53.114-0400
-test the links
--->
-
 ## John Jacobs shortlists Sarah Rose's profile for the hiring manager's screening {#john-jacobs-shortlists-sarah-rose-s-profile-for-the-hiring-manager-s-screening}
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-21T01:46:26.611-0400
-Does this not need to be a specific persona instead of We.Finance?
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-21T03:15:48.007-0400
-1:33 on the video
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-29T07:00:27.879-0400
-Change all we.,gov and we.finanace to the organization and put a note on top that this article is applicable for both
--->
 
 The organization receives the job application submitted by Sarah. John Jacobs, a recruiter, is assigned the task to review Sarah's profile. He reviews the task in his AEM Inbox, finds the profile matching the job requirement, and clicks Shortlist. Sarah's profile is forwarded to Gloria Rios, the hiring manager, for her approval. 
 
@@ -135,13 +100,6 @@ The submit action in the Job Application form triggers a workflow that creates a
 Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/login.html?resource=/aem/inbox.html`and log in using jjacobs/password as username/password for John Jacobs. Open the Candidate Profile Review task and shortlist the applicant.
 
 ## Gloria reviews the application and approves the applicant for an interview {#gloria-reviews-the-application-and-approves-the-applicant-for-an-interview}
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-21T03:22:32.716-0400
-2:07 on the video
--->
 
 Gloria, the hiring manager, receives the shortlisted profile as a task in her AEM Inbox. She reviews it and approves the candidate, Sarah Rose, for the interview. 
 
@@ -159,52 +117,17 @@ Go to `http://[publishHost]:[publishPort]/content/we-finance/global/en/login.htm
 
 ## John Doe schedules an interview {#john-doe-schedules-an-interview}
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-21T03:25:53.809-0400
-2:34 on the video John or Gloria?
--->
-
-John Doe receives the task of scheduling an interview in his inbox. John Doe selects and opens the task and fixes the interview date and time, location, and the HR person responsible for the interview as John Jacob. John Doe clicks Send Invitation Email. An email is sent to Sarah and a task is assigned to Gloria, the hiring manager, for interviewing Sarah.
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-07-03T07:30:40.093-0400
-at this moment - a task is assigned to the Hiring Manager
--->
+John Doe receives the task of scheduling an interview in his inbox. John Doe selects and opens the task and fixes the interview date and time, location, and the HR person responsible for the interview as John Jacob. John Doe clicks Send Invitation Email. An email is sent to Sarah and a task is assigned to Gloria, the hiring manager, for interviewing Sarah. 
 
 ![](assets/JohnJAcobsAEMInbox.png) ![](assets/JohnDoeScheduleInterview.png)
 
 ## Sarah Rose receives the email with interview schedule {#sarah-rose-receives-the-email-with-interview-schedule}
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-21T03:33:42.977-0400
-4:45 on the video
--->
-
 Sarah Rose receives the email with interview schedule, venue, and other details. She clicks Accept to signify that she is OK with the interview schedule and venue. As guided by the precise information, Sarah makes it to the interviews.
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-07-03T05:48:37.421-0400
-the same information is sent to the interviewers?
--->
 
 ![](assets/SarahRoseInterviewEmail.png)
 
 ## After the interviews, the Hiring Manager shortlists Sarah Rose {#after-the-interviews-the-hiring-manager-shortlists-sarah-rose}
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-21T03:36:16.735-0400
-5:30 on the video - check the wording of the heading
--->
 
 After Sarah Rose goes through the interviews and clears them, Gloria Rios, the Hiring Manager, opens the Candidate Selection task from her inbox and clicks Select. Gloria Rios's decision is conveyed to the HR person, John Doe, for further processing.
 
@@ -218,13 +141,6 @@ Before asking a candidate to join the organization, her background needs to be c
 
 ## Sarah Rose receives an email requesting further information {#sarah-rose-receives-an-email-requesting-further-information}
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-28T12:12:52.900-0400
-7:15 on the video Check this - there may be a confusion here.
--->
-
 Sarah Rose receives an email notifying her that further information is required for processing her employment application. The email includes a link to the form for filling up the required information. 
 
 ![](assets/SarahRoseEmailMoreDetails.png)
@@ -235,45 +151,17 @@ Sarah clicks the Provide Details link in the email. A form appears. Sarah fills 
 
 ## John Doe reviews the selected candidate profile for the additional information provided {#john-doe-reviews-the-selected-candidate-profile-for-the-additional-information-provided}
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-21T06:38:45.831-0400
-10:05 on the video
--->
-
 John Doe selects the candidate review request and opens it. John Doe finds that Sarah has filled up all the information as required. After reviewing the application, John Doe clicks Approve. On approval by John Doe, the request to perform a background check on Sarah Rose is forwarded to John Jacobs.
 
 ![](assets/JohnDoeAdditionaInformationInbox.png) ![](assets/JohnDoeAdditionalInformationReview-copy.png)
 
 ## John Jacobs receives a background check request {#john-jacobs-receives-a-background-check-request}
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-21T07:04:58.117-0400
-10:40 on the video
--->
-
 John Jacobs sees the background check request in his inbox. John Jacobs opens the task and reviews the information provided by Sarah Rose. After performing a background check, John Jacobs clicks Go Ahead to signify that the background check has been successful.
 
 ![](assets/JohnJacobsBackgroundCheckInbox.png) ![](assets/JohnJacobsBackgroundCheckGoAhead.png)
 
 ## John Doe sends out the joining letter to Sarah Rose {#john-doe-sends-out-the-joining-letter-to-sarah-rose}
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-21T07:06:45.033-0400
-11:11 in the video
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-21T07:18:49.881-0400
-check this again
--->
 
 John Doe receives a request in his AEM inbox for sending the joining letter. John opens the request and views the details. John Doe attaches the joining letter PDF and then clicks Attach & Send Joining Letter.
 
@@ -288,53 +176,4 @@ Sarah Rose receives the joining letter for signing. Sarah clicks Click Here To R
 Sarah can choose either to type in, use draw to handwrite, insert an image of signature, or use her mobile's touchscreen to draw her signature. Sarah types in her name, clicks Click To Sign, and dwonloads the signed copy of the joining letter. 
 
 ![](assets/SarahRoseJoiningLetterSign.png) ![](assets/SarahRoseJoiningLetterSign2.png)
-
-<!--
-Comment Type: draft
-
-<h2>John Doe verifies that the joining letter is signed and sends the offer of employment</h2>
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-06-29T07:10:45.930-0400
-make this the last step - affter sarah signs the joining letter
--->
-
-<!--
-Comment Type: draft
-
-<p>John Doe receives a task to verify signed joining letter. John Doe selects and opens the task. John Doe verifies that Sarah Rose has signed the joining letter and clicks Attach & Send Joining Letter. </p>
--->
-
-<!--
-Comment Type: draft
-
-<img captionBottom="John Doe's AEM inbox" imageRotate="0" src="assets/JohnDoeVerifySignedLetterInbox.png" />
--->
-
-<!--
-Comment Type: draft
-
-<img captionBottom="John Doe verifies the signature on the joining letter and clicks Attach & Send Joining Letter" imageRotate="0" src="assets/JohnDoeOfferAttachnSend.png" />
--->
-
-<!--
-Comment Type: draft
-
-<h2>Sarah Rose receives the offer of employment</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>Sarah Rose receives offer of employment on email. The email has the joining letter attached with it. Sarah reviews all the details and responds to the email with her consent to join the organization.</p>
--->
-
-<!--
-Comment Type: draft
-
-<img captionBottom="Sarah Rose receives offer of employment on email" imageRotate="0" src="assets/SarahEmailSignedJoiningLetter.png" />
--->
 

@@ -3,11 +3,11 @@ title: Configuring AEM DS settings
 seo-title: Configuring AEM DS settings
 description: You need to specify the processing server URL before you submit a form.
 seo-description: You need to specify the processing server URL before you submit a form.
-uuid: e3cc7c40-e2b5-43a7-935b-027f374f362b
+uuid: 5a7f075d-4fbd-44d7-ab5c-b5b752d7e62f
 contentOwner: amgoyal
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
-discoiquuid: d30c6b07-9def-4cb8-89c2-7d468d4c3f96
+discoiquuid: 115fe296-845c-40e9-bbb0-9a5651a1c87c
 index: y
 internal: n
 snippet: y
@@ -46,35 +46,6 @@ Following are the steps to configure the **[!UICONTROL AEM DS Settings]**:
    ****[!UICONTROL Processing Server User Name]****: Workflow user's User Name [based on the server URL being used]
 
    ****[!UICONTROL Processing Server Password]****: Workflow user's Password
-
-   <!--
-   Comment Type: draft
-
-   <table border="1" cellpadding="1" cellspacing="0" width="100%">
-   <tbody>
-   <tr>
-   <th> Option</th>
-   <th><strong>AEM Workflow</strong></th>
-   <th><strong>Remote Save<br /> </strong></th>
-   </tr>
-   <tr>
-   <td width="33%">Processing Server URL</td>
-   <td> </td>
-   <td> </td>
-   </tr>
-   <tr>
-   <td>Processing Server User Name<br /> </td>
-   <td> </td>
-   <td> </td>
-   </tr>
-   <tr>
-   <td>Processing Server password</td>
-   <td> </td>
-   <td> </td>
-   </tr>
-   </tbody>
-   </table>
-   -->
 
    >[!NOTE]
    >

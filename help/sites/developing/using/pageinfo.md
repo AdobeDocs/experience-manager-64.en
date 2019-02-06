@@ -3,12 +3,12 @@ title: Obtaining Page Information in JSON Format
 seo-title: Obtaining Page Information in JSON Format
 description: To obtain the page information, send a request to the PageInfo servlet to obtain the page metadata in JSON format
 seo-description: To obtain the page information, send a request to the PageInfo servlet to obtain the page metadata in JSON format
-uuid: 2552e9e8-16f5-4e95-8f54-599041e13971
+uuid: 52ff8e50-2d4e-49e0-844e-c0efc4c2891c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 001630cc-74e9-4bd8-843b-78aea7820cbe
+discoiquuid: 324e9e47-f3ae-4ce2-90e6-bde47d061cb6
 index: y
 internal: n
 snippet: y

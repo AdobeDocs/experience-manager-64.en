@@ -3,12 +3,12 @@ title: General Release Notes for Adobe Experience Manager 6.4
 seo-title: Release Notes
 description: Adobe Experience Manager 6.4 notes outlining the release information, what's new, how to install and detailed change lists. 
 seo-description: Adobe Experience Manager 6.4 notes outlining the release information, what's new, how to install and detailed change lists. 
-uuid: a3cfe8f4-ed40-4a7f-b0d2-52ad11fdacbd
+uuid: 5acd7c75-b221-4dc3-90ec-507c1f54acdd
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 7f388fc9-a5b0-486d-ab43-14832b4fde1a
+discoiquuid: 9611d48a-edc3-4014-a2f9-554d3bac5bc7
 index: y
 internal: n
 snippet: y
@@ -403,22 +403,6 @@ For Adobe Experience Manager 6.4, [read the list of deprecated and removed capab
 ## Known Issues {#known-issues}
 
 [List of known issues](release-notes/known-issues.md)
-
-<!--
-Comment Type: draft
-
-<h2>Links</h2>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li><a href="http://www.adobe.com/solutions/web-experience-management.html">Adobe Experience Manager Product Page on adobe.com</a></li>
-<li><a href="https://docs.adobe.com/content/docs/en/aem/6-3.html" style="font-size: 1em; line-height: 1.25em;">AEM Documentation</a></li>
-<li><a href="/sites/developing/using/reference-materials/diff-previous/changes">API Differences between AEM 6.3 and AEM 6.4</a></li>
-</ul>
--->
 
 ### Product Download and Support (Restricted Sites) {#product-download-and-support-restricted-sites}
 

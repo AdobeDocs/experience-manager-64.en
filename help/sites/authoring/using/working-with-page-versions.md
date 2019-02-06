@@ -3,12 +3,12 @@ title: Working with Page Versions
 seo-title: Working with Page Versions
 description: Create, compare, and restore versions of a page
 seo-description: Create, compare, and restore versions of a page
-uuid: 1df11fd8-1792-4b9b-913a-4bca2623dc19
+uuid: 9c83fecd-e0ee-47b3-94d6-b06bed634168
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 9306d9ff-7ca3-4225-aa2d-a977388e27d7
+discoiquuid: ff6bee4d-5238-42aa-b847-0c731b706a1a
 index: y
 internal: n
 snippet: y
@@ -41,7 +41,7 @@ You can create a version of your resource from:
 1. Select **Save as Version**.
 1. Enter a **Label** and **Comment** if required.
 
-   ![](assets/chlimage_1-117.png)
+   ![](assets/chlimage_1-116.png)
 
 1. Confirm the new version with **Create**.
 

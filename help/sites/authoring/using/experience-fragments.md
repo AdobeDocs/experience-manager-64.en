@@ -3,12 +3,12 @@ title: Experience Fragments
 seo-title: Experience Fragments
 description: null
 seo-description: null
-uuid: ecf822dd-15bd-466d-925f-ef1f9ab81c3d
+uuid: cf74116f-3bde-4dad-ad2d-ba99db406701
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 15fe7685-daa6-4dcd-8a0f-bd65276db7bc
+discoiquuid: c6447c2f-9632-40f6-910e-3346e5b91aac
 index: y
 internal: n
 snippet: y
@@ -33,13 +33,6 @@ You can use Experience Fragments:
 
 * If an author wants to re-use parts (a fragment of an experience) of a page, they need to copy and paste that fragment. Creating and maintaining these copy/paste experiences is time-consuming and prone to user errors. Experience Fragments eliminate the need for copy/paste.  
 * To support the headless CMS use-case. Authors want to use AEM only for authoring but not for delivering to the customer. A third party system/touchpoint would consume that experience and then deliver to the end user.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-17T07:36:33.479-0500
-<p>Add link when available.<br /> </p>
--->
 
 >[!NOTE]
 >
@@ -158,13 +151,6 @@ You can create variations of your Experience Fragment, depending on your needs:
 
 ## Using your Experience Fragment {#using-your-experience-fragment}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2019-01-07T00:33:58.138-0500
-<p>cross-reference the integration with Target page as well....???</p>
--->
-
 You can now use your Experience Fragment when authoring your pages:
 
 1. Open any page for editing.
@@ -230,13 +216,6 @@ You can drag your building block to the paragraph system of any fragment, as wit
 
 ## The Plain Rendition {#the-plain-rendition}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2019-01-07T00:32:54.042-0500
-<p>provide a link to the developing docu page - when available</p>
--->
-
 Using the `.plain.` selector in the URL, you can access the plain HTML rendition.
 
 This is available from the browser, but its primary purpose is to allow other applications (for example, third party web apps, custom mobile implementations) to access the content of the Experience Fragment directly, using only the URL.
@@ -259,62 +238,7 @@ For example:
 
 ## Exporting Experience Fragments {#exporting-experience-fragments}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2019-01-04T01:00:33.376-0500
-<p>6.5 </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2019-01-04T01:04:06.780-0500
-<p><a href="https://wiki.corp.adobe.com/display/DMSArchitecture/%5BM3%5D+%5BExperience+Fragments%5D+Support+JSON+offers+for+Target">https://wiki.corp.adobe.com/display/DMSArchitecture/%5BM3%5D+%5BExperience+Fragments%5D+Support+JSON+offers+for+Target</a></p>
-<h2>How to Document</h2>
-<p>Documentation should be added in, or below, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html">https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html</a></p>
-<ul>
-<li>Title "Exporting Experience Fragments"</li>
-<li>Explaining that:
-<ul>
-<li>by default, Experience Fragments are delivered in HTML format</li>
-<li>for 3rd-party channels, export also happens in HTML format</li>
-<li>for exporting to Adobe Target, i.e. creating offers that can be used in Target activities
-<ul>
-<li>Experience fragments can be exported in HTML format, JSON, or both, depending on if HTML or JSON offers are being created on Target side.</li>
-<li>Media assets such as images are not being sent to Target, just their reference. The asset itself remains stored in AEM and is delivered from AEM publish, hence the need to publish experience fragments before export to Target.</li>
-<li>Adobe Target must be connected with AEM, via Target Cloud Service in AEM, and respective cloud service attached to pages, either via configs or directly.</li>
-<li>Explain the sequence of user interactions for exporting to Target, from admin and page editor.</li>
-</ul> </li>
-</ul> </li>
-</ul>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2019-01-04T02:52:02.140-0500
-<p>as the page:</p>
-<p>- /content/help/en/experience-manager/6-4/sites/administering/using/experience-fragments-target.html</p>
-<p>already mentions exporting and publishing to Target, surely it makes more sense to have the detailed content there....oder?<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2019-01-04T02:58:08.164-0500
-<p>Do we have to limit the discussion of JSON to the export to Target - can it be used by other solutions/3rd-parties?</p>
-<p>Or is it simply a matter of covering all the steps of exporting to Target as a specific case?<br /> </p>
--->
-
 By default, Experience Fragments are delivered in the HTML format. This can be used by both AEM and third party channels alike.
 
-For export to Adobe Target, HTML is used. See [Target Integration with Experience Fragments](../../../sites/administering/using/experience-fragments-target.md) for full information.
-
-<!--
-Comment Type: draft
-
-<p>By default, Experience Fragments are delivered in the HTML format. This can be used by both AEM and third party channels alike.</p>
-<p>For export to Adobe Target, JSON can also be used. See <a href="../../../sites/administering/using/experience-fragments-target.md">Target Integration with Experience Fragments</a> for full information.<br /> </p>
--->
+For export to Adobe Target, HTML is used. See [Target Integration with Experience Fragments](../../../sites/administering/using/experience-fragments-target.md) for full information.  
 

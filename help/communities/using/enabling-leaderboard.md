@@ -3,12 +3,12 @@ title: Leaderboard Feature
 seo-title: Leaderboard Feature
 description: Adding a Leaderboard component to a page
 seo-description: Adding a Leaderboard component to a page
-uuid: 1fee88d7-8f5c-41ac-b007-2d1c7b2348b8
+uuid: 3ebc7c2a-ff73-4d2d-9fc7-127c2d99e7ad
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 9f0a2b3e-72cc-4ee4-b0ca-92822a8f4270
+discoiquuid: 09c5e025-254e-460c-843e-3621bb0f2624
 index: y
 internal: n
 snippet: y

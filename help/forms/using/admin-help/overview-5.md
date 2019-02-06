@@ -3,12 +3,12 @@ title: Introduction to working with PDF Generator
 seo-title: Introduction to working with PDF Generator
 description: Learn how to convert various file formats to PDF.
 seo-description: Learn how to convert various file formats to PDF.
-uuid: b9e51d23-a1b2-4adb-872b-72d5882dce31
+uuid: f823e9fe-d79d-4544-8696-356402a8894a
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: c17f5889-9fb7-4fcb-93a0-3b5427039533
+discoiquuid: a120eccc-3283-4b5c-ae24-acce8f6014f3
 index: y
 internal: n
 snippet: y

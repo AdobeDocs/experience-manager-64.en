@@ -3,12 +3,12 @@ title: Authoring - the Environment and Tools
 seo-title: Authoring - the Environment and Tools
 description: The Websites console allows you to manage and navigate your website. Using two panes, the structure of your website can be expanded and actions taken on the required elements.
 seo-description: The Websites console allows you to manage and navigate your website. Using two panes, the structure of your website can be expanded and actions taken on the required elements.
-uuid: 758b7255-ae87-4721-8418-f4956b5adbd3
+uuid: 436ff53e-2df1-4154-b6bc-5c521b780313
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 6ec169db-ee9c-4c0a-82b4-05ec9689c6ae
+discoiquuid: 1a452858-1ab8-4de3-b5a3-5f70435bf277
 index: y
 internal: n
 snippet: y
@@ -22,14 +22,7 @@ The authoring environment of AEM provides various mechanisms for organizing and 
 
 The **Websites** console allows you to manage and navigate your website. Using the two panes the structure of your website can be expanded and actions taken on the required element:
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:06:26.837-0500
-<p>6.2 - check screenshot</p>
--->
-
-![](assets/chlimage_1-176.png) 
+![](assets/chlimage_1-168.png) 
 
 ## Editing your Page Content {#editing-your-page-content}
 
@@ -37,7 +30,7 @@ There is a separate page editor with the classic UI, using the content finder an
 
 `http://localhost:4502/cf#/content/geometrixx/en/products/triangle.html`
 
-![](assets/chlimage_1-177.png) 
+![](assets/chlimage_1-169.png) 
 
 ## Accessing Help {#accessing-help}
 
@@ -59,7 +52,7 @@ Or by using the **Help** button in the edit dialog of specific components; this 
 
 The **Components** tab of the sidekick allows you to browse the components available to be added to the current page. The required group can be expanded, then a component dragged to the required location on the page.
 
-![](assets/chlimage_1-178.png) 
+![](assets/chlimage_1-170.png) 
 
 ## The Content Finder {#the-content-finder}
 
@@ -85,7 +78,7 @@ This tab lists any images in the repository.
 
 After you have created an Image paragraph on your page, you can drag an item and drop it into the paragraph.
 
-![](assets/chlimage_1-179.png) 
+![](assets/chlimage_1-171.png) 
 
 ### Finding Documents {#finding-documents}
 
@@ -93,7 +86,7 @@ This tab lists any documents in the repository.
 
 After you have created a Download paragraph on your page, you can drag an item and drop it into the paragraph.
 
-![](assets/chlimage_1-180.png) 
+![](assets/chlimage_1-172.png) 
 
 ### Finding Movies {#finding-movies}
 
@@ -101,31 +94,31 @@ This tab lists any movies (for example, Flash items) in the repository.
 
 After you have created an appropriate paragraph (for example, Flash) on your page, you can drag an item and drop it into the paragraph.
 
-![](assets/chlimage_1-181.png) 
+![](assets/chlimage_1-173.png) 
 
 ### Products {#products}
 
 This tab lists any products. After you have created an appropriate paragraph (for example, Product) on your page, you can drag an item and drop it into the paragraph.
 
-![](assets/chlimage_1-182.png) 
+![](assets/chlimage_1-174.png) 
 
 ### Finding Pages {#finding-pages}
 
 This tab shows all pages. Double-click any page to open it for editing.
 
-![](assets/chlimage_1-183.png) 
+![](assets/chlimage_1-175.png) 
 
 ### Referencing Paragraphs from other Pages {#referencing-paragraphs-from-other-pages}
 
 This tab allows you to search for another page. All paragraphs from that page will be listed. You can then drag a paragraph to your current page, this will create a reference to the original paragraph.
 
-![](assets/chlimage_1-184.png) 
+![](assets/chlimage_1-176.png) 
 
 ### Using the Full Repository View {#using-the-full-repository-view}
 
 This tab shows all the resources in the repository.
 
-![](assets/chlimage_1-185.png) 
+![](assets/chlimage_1-177.png) 
 
 ### Using Search with the Content Browser {#using-search-with-the-content-browser}
 
@@ -158,13 +151,6 @@ the following search patterns will find it (and any other images matching the pa
 * `name:ad?nm??is.*`  
   you can use any number of wildcards in a query.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:06:27.650-0500
-<p>6.2 - is this still accurate?</p>
--->
-
 >[!NOTE]
 >
 >You can also use [SQL2](/sites/developing/using/reference-materials/javadoc/org/apache/jackrabbit/commons/query/sql2/package-summary) search.
@@ -196,7 +182,7 @@ Other [inter-page relationships can be seen in the Websites console](../../../si
 
 The **Audit Log** can be accessed from the **Information** tab of the sidekick. It lists the recent actions taken on the current page; for example:
 
-![](assets/chlimage_1-186.png) 
+![](assets/chlimage_1-178.png) 
 
 ## Page Information {#page-information}
 
@@ -206,7 +192,7 @@ The Website console also [provides information about the current status of the p
 
 When editing a page with the classic UI there are various modes that can be accessed using the icons at the bottom of the sidekick:
 
-![](assets/chlimage_1-187.png)
+![](assets/chlimage_1-179.png)
 
 The row of icons at the bottom of the Sidekick are used to switch modes for working with the pages:
 

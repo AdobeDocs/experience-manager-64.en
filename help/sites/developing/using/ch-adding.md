@@ -3,12 +3,12 @@ title: Adding ContextHub to Pages and Accessing Stores
 seo-title: Adding ContextHub to Pages and Accessing Stores
 description: Add ContextHub to your pages to enable the ContextHub features and to link to the ContextHub Javascript libraries
 seo-description: Add ContextHub to your pages to enable the ContextHub features and to link to the ContextHub Javascript libraries
-uuid: 95a90e4f-b9a1-4603-9ac4-8c4e59b7e352
+uuid: f670fdf5-f1e5-4e6e-ba04-fe48311fbb6a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 82a685e5-8f07-4599-b15d-d3fb87f9cc0f
+discoiquuid: 564416ff-c282-493c-8890-c999f75c983d
 index: y
 internal: n
 snippet: y
@@ -93,12 +93,6 @@ The tree structure defines data items in the store as key/value pairs. In the ab
 ContextHub provides the [ `ContextHub.Utils.JSON.tree`](../../../sites/developing/using/contexthub-api.md#main-pars-title-38) class for manipulating Javascript objects. Use the functions of this class for manipulating Javascript objects before you add them to a store, or after you obtain them from a store. [](../../../sites/developing/using/contexthub-api.md#main-pars-title-38)
 
 Additionally, the [ `ContextHub.Utils.JSON`](../../../sites/developing/using/contexthub-api.md#main-pars-title-39) class provides functions for serializing objects to stings, and deserializing strings to objects. Use this class for handling JSON data to support browsers that do not natively include the `JSON.parse` and `JSON.stringify` functions.
-
-<!--
-Comment Type: draft
-
-<h2>Creating ContextHub Stores Using Javascript</h2>
--->
 
 ## Interacting with ContextHub Stores {#interacting-with-contexthub-stores}
 

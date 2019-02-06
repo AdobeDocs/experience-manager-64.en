@@ -3,26 +3,18 @@ title: Creating and Organizing Pages
 seo-title: Creating and Organizing Pages
 description: This section describes how to create and manage pages with AEM so that you can then create content on those pages.
 seo-description: This section describes how to create and manage pages with AEM so that you can then create content on those pages.
-uuid: 522f3c93-814f-44d9-b942-151cf67d3f71
+uuid: 00d17b60-71c7-4a42-8167-5510306296d6
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 3f1cdfef-f92a-4005-9208-a4c9320744f9
+discoiquuid: 23980aed-fb75-4109-9846-e3d8daf11152
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating and Organizing Pages{#creating-and-organizing-pages}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:06:29.767-0500
-<p>review title-sizing/structure etc when we get the touch/classic specific procedure component</p>
-<p>https://issues.adobe.com/browse/INFRA-4265</p>
--->
 
 This section describes how to create and manage pages with Adobe Experience Manager (AEM) so that you can then [create content](../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md) on those pages.
 
@@ -74,7 +66,7 @@ The following shows an extract from the Geometrixx site; where, for example, the
 
 This structure can be viewed from the Websites console, which you can use to [navigate through the tree structure](../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#main-pars-text-15).
 
-![](assets/chlimage_1-174.png) 
+![](assets/chlimage_1-166.png) 
 
 ### Page Naming Conventions {#page-naming-conventions}
 
@@ -173,13 +165,6 @@ Unless all pages have been created for you in advance, before you can start crea
 1. From the **Websites** console, select the level at which you want to create a new page.
 
    In the following example, you are creating a page under the level **Products** - shown in the left pane; the right pane shows pages that already exist at the level under **Products**.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-   Last Modified Date: 2017-11-30T05:06:30.216-0500
-   <p>6.2 - check screenshot</p>
-   -->
 
    ![](assets/screen_shot_2012-02-15at114413am.png)
 
@@ -352,7 +337,7 @@ You can [lock/unlock a page](../../../sites/classic-ui-authoring/using/classic-p
 1. In the **New...** menu (click the arrow next to **New...**), select **New Folder...**. 
 1. The **Create Folder** dialog will open. Here you can enter the **Name** and **Title**:
 
-   ![](assets/chlimage_1-175.png)
+   ![](assets/chlimage_1-167.png)
 
 1. Select **Create** to create the folder.
 

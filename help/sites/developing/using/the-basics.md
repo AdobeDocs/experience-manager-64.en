@@ -3,12 +3,12 @@ title: AEM Core Concepts
 seo-title: The Basics
 description: An overview of the core concepts of how AEM is structured and how to develop on top of it including understanding the JCR, Sling, OSGi, the dispatcher, workflows, and MSM
 seo-description: An overview of the core concepts of how AEM is structured and how to develop on top of it including understanding the JCR, Sling, OSGi, the dispatcher, workflows, and MSM
-uuid: 6a311cae-7452-46e4-be96-260b95b1afbe
+uuid: 40bd8d93-e1f2-4d99-a340-07278111c03b
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 4185518f-aa95-418a-ab22-9a8adf168252
+discoiquuid: a3225db7-f1f5-4d26-9a15-cd027bee96d8
 index: y
 internal: n
 snippet: y
@@ -64,11 +64,11 @@ See [Discover Sling in 15 minutes](https://sling.apache.org/documentation/gettin
 
 The following diagram explains Sling script resolution: it shows how to get from HTTP request to content node, from content node to resource type, from resource type to script and what scripting variables are available.
 
-![](assets/chlimage_1-96.png)
+![](assets/chlimage_1-94.png)
 
 The following diagram explains all the hidden, but powerful, request parameters you can use when dealing with the SlingPostServlet, the default handler for all POST requests that gives you endless options for creating, modifying, deleting, copying and moving nodes in the repository.
 
-![](assets/chlimage_1-97.png) 
+![](assets/chlimage_1-95.png) 
 
 ### Sling is Content Centric {#sling-is-content-centric}
 
@@ -126,7 +126,7 @@ Using these principles:
 
 The figure below illustrates the mechanism used, which will be discussed in more detail in the following sections.
 
-![](assets/chlimage_1-98.png)
+![](assets/chlimage_1-96.png)
 
 With Sling, you specify which script renders a certain entity (by setting the sling:resourceType property in the JCR node). This mechanism offers more freedom than one in which the script accesses the data entities (as an SQL statement in a PHP script would do) as a resource can have several renditions.
 

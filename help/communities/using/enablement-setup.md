@@ -3,12 +3,12 @@ title: Initial Setup for Enablement
 seo-title: Initial Setup
 description: Initial Setup for Enablement
 seo-description: Initial Setup for Enablement
-uuid: 6fef369f-5ef7-403b-8cda-c0db8a636155
+uuid: 5b2ead98-9424-419a-bd03-07fc8668c783
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 6a414bdd-467e-4948-be28-6d89a7356e8f
+discoiquuid: 7d2788ce-31ae-4c21-b9a3-4f9294d55077
 index: y
 internal: n
 snippet: y
@@ -92,7 +92,7 @@ Use the [Tagging console](../../sites/administering/using/tags.md#taggingconsole
 * `Tutorial : Arts / Auditory`
 * `Tutorial : Arts / History`
 
-![](assets/chlimage_1-429.png)
+![](assets/chlimage_1-416.png)
 
 Then follow the instructions to
 
@@ -170,7 +170,7 @@ A fourth user is created in the author environment and assigned the roles of Com
 
 #### Community Ski Class properties {#community-ski-class-properties}
 
-![](assets/chlimage_1-430.png)
+![](assets/chlimage_1-417.png)
 
 >[!NOTE]
 >
@@ -215,7 +215,7 @@ Scroll down to `Add User to Groups` :
 
 * select **Save**
 
-![](assets/chlimage_1-431.png)
+![](assets/chlimage_1-418.png)
 
 |   |** [Author a New Community Site for Enablement ⇒](../../communities/using/enablement-create-site.md)** |
 |---|---|

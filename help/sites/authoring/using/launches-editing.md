@@ -3,12 +3,12 @@ title: Editing Launches
 seo-title: Editing Launches
 description: After creating a launch for your page (or set of pages) you can edit the content in the launch copy of the page(s). 
 seo-description: After creating a launch for your page (or set of pages) you can edit the content in the launch copy of the page(s). 
-uuid: 0db45f16-fec8-44a4-957a-acb08f8e27f6
+uuid: a4b0c0a8-f37f-4bbd-b942-2020cdc409c1
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 4947755e-1838-4bc5-add4-618ba0bd8593
+discoiquuid: c9bf2e83-5602-45cf-9f5d-5f5ab6e300d5
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n
@@ -21,32 +21,8 @@ snippet: y
 
 When a launch has been created for a page (or set of pages) you can edit the content in the launch copy of the page(s).
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T04:52:42.811-0500
-<p>no way to open a launch page for editing from the Launches console?</p>
-<p>MS&gt;&gt;&gt; no, the launches console is for managing launches, less so editing launch content</p>
--->
-
 1. Access the [Launch from References (Sites console)](../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole) to show the available actions.
 1. Select **Go to the page** to open the page for editing.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-   Last Modified Date: 2017-11-30T04:52:42.954-0500
-   <p>this only takes you to the root page.....in touch how to:</p>
-   <ul>
-   <li>navigate to subpages (edit url or continually flip to preview?) - slightly easier in classic</li>
-   <li>create a new child page somewhere (possible in classic)</li>
-   </ul>
-   <p>for 6.4 see </p>
-   <ul>
-   <li>https://jira.corp.adobe.com/browse/CQ-84464</li>
-   <li>https://jira.corp.adobe.com/browse/CQ-55740</li>
-   </ul>
-   -->
 
 ### Editing Launch Pages Subject to a Live Copy {#editing-launch-pages-subject-to-a-live-copy}
 
@@ -72,7 +48,7 @@ To track the changes you have made, you can view the launch in **References** an
 1. Open the ** [References](../../../sites/authoring/using/basic-handling.md#references)** panel and select **Launches**.
 1. Select your specific launch then **Compare to Source**:
 
-   ![](assets/chlimage_1-119.png)
+   ![](assets/chlimage_1-118.png)
 
 1. The two pages (launch and source) will be opened side-by-side.
 
@@ -124,5 +100,5 @@ At any time you can edit the properties for a launch:
 
 The status is shown when you select a specific launch from the references tab (see [Launches in References (Sites Console)](../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole)).
 
-![](assets/chlimage_1-120.png)
+![](assets/chlimage_1-119.png)
 

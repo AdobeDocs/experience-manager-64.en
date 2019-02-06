@@ -3,12 +3,12 @@ title: Creating a Closed User Group
 seo-title: Creating a Closed User Group
 description: Learn how to create a Closed User Group.
 seo-description: Learn how to create a Closed User Group.
-uuid: 6988caa5-dc84-4baf-98f6-445ad0ce1926
+uuid: 7fb8e084-a4f1-4631-b8da-40b88f557230
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 6a2fd203-c61c-41b0-8bf8-eb25ba8dcc2a
+discoiquuid: a978fa3d-3353-4d0e-84eb-781092cc0ac2
 index: y
 internal: n
 snippet: y
@@ -74,27 +74,11 @@ To apply the CUG to a page:
 1. Scroll down and enable the tickbox in the **Authentication Requirement** section.  
 
 1. Add your comnfiguration path below, then press Save.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alexandru Sarchiz (sarchiz)
-   Last Modified Date: 2018-10-30T10:40:05.490-0400
-   <p>To clarify what this means exactly.</p>
-   -->
-
 1. Next, go to the **Permissions** tab and press the **Edit Closed User Group** button.
 
    ![](assets/screenshot_2018-10-30at163003.png)
 
 1. Look for and add your CUG in the following window - in this case add the group named **cug_access**. Finally, press **Save**.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alexandru Sarchiz (sarchiz)
-   Last Modified Date: 2018-10-30T10:34:19.246-0400
-   <p>Are steps below this one still required for Touch UI?<br /> </p>
-   -->
-
 1. Click **Enabled** to define that this page (and any child pages) belong to a CUG.
 1. Specify the **Login Page** that members of the group will use; for example:  
    `/content/geometrixx/en/toolbar/login.html`   

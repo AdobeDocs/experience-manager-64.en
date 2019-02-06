@@ -3,12 +3,12 @@ title: Configuring Email Notification
 seo-title: Configuring Email Notification
 description: Learn how to configure Email Notification in AEM.
 seo-description: Learn how to configure Email Notification in AEM.
-uuid: 17d0dc3d-137a-43f6-879e-db0d0bab4de3
+uuid: 60a8fabb-2c5a-4b8f-a61e-d8b505884c25
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 5d871bf4-40bf-40e7-a410-c2cf6f24c1ea
+discoiquuid: 5eb6691d-e7bd-455e-8290-962be14ac210
 index: y
 internal: n
 snippet: y
@@ -51,26 +51,11 @@ To help you debug an issue with the **Day CQ Mail Service**, you can watch the l
 
 The configuration looks as follows in the Web console:
 
-![](assets/chlimage_1-333.png) 
+![](assets/chlimage_1-319.png) 
 
 ## Configuring the Email Notification Channel {#configuring-the-email-notification-channel}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:01:05.357-0500
-<p>As part of https://jira.corp.adobe.com/browse/CQDOC-9878</p>
-<p>Have checked the Web Console and <strong>Day CQ Email Notification Channel</strong> seems to have been replaced by <strong>Notification Email Channel</strong>.</p>
--->
-
 When you subscribe to either page or forum events notifications, the from-email address is set to `no-reply@acme.com` per default. You can change this value by configuring the **Notification Email Channel** service in the Web Console.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:01:05.386-0500
-<p>are the following (manual) steps still required? and/or recommended? if so, what's the specific scenario?</p>
--->
 
 To configure the from-email address, add a `sling:OsgiConfig` node to the repository. Use the following procedure to add the node directly using CRXDE Lite:
 
@@ -99,7 +84,7 @@ When you receive workflow email notifications, both the from-email address and t
 
 The default configuration looks as follows in the Web Console:
 
-![](assets/chlimage_1-334.png) 
+![](assets/chlimage_1-320.png) 
 
 ### Email Templates for Page Notification {#email-templates-for-page-notification}
 
@@ -311,14 +296,6 @@ To add a template for a new language:
 >The `<language-code>` used as the filename for the email template needs to be a two-letters lower-case language code that is recognized by AEM. For language codes, AEM relies on ISO-639-1.
 
 ## Configuring AEM Assets email notifications {#assetsconfig}
-
-<!--
-Comment Type: remark
-Last Modified By: Ashish Gupta . (asgupta)
-Last Modified Date: 2018-10-10T09:04:33.170-0400
-<p>asgupta, 10/10/18: I am adding a fix for CQDOC-13344 here in this article, alongside the other email notification settings, so as to keep all email notification settings consolidated in a single article. Also, I'm backlinking it from the Managing Collections page.</p>
-<p>I see a few email configurations required for Assets' workflows to work. Over time, as and when the need arises, these will be consolidated in this section. Hence, the title is generic.</p>
--->
 
 When Collections in AEM Assets are shared or unshared, users can receive email notifications from AEM. To configure email notifications, follow these steps.
 

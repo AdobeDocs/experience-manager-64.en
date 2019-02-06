@@ -3,12 +3,12 @@ title: Externalizing URLs
 seo-title: Externalizing URLs
 description: The Externalizer is an OSGI service that allows you to programmatically transform a resource path into an external and absolute URL
 seo-description: The Externalizer is an OSGI service that allows you to programmatically transform a resource path into an external and absolute URL
-uuid: b8cf332c-11d4-42f9-b737-298f9b869231
+uuid: 627a1b59-2f56-4edd-ab6a-88cdb3b83b1b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 30209a04-e504-4498-9332-41de2e6cf43a
+discoiquuid: aeb309eb-f920-404c-b25d-bc3bf0310ece
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ To define a domain mapping for the **Externalizer** service:
    >
    >The direct link to the configuration is `http://<host>:<port>/system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl`
 
-   ![](assets/chlimage_1-54.png)
+   ![](assets/chlimage_1-53.png)
 
 1. Define a domain mapping: a mapping consists of a unique name that can be used in the code to reference the domain, a space and the domain:  
    `<unique-name> [scheme://]server[:port][/contextpath]`, where:

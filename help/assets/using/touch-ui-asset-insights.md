@@ -3,12 +3,12 @@ title: Asset Insights
 seo-title: Asset Insights
 description: Learn how the Asset Insights feature lets you track user ratings and usage statistics of assets that are used in third-party websites, marketing campaigns, and Adobe's creative solutions.
 seo-description: Learn how the Asset Insights feature lets you track user ratings and usage statistics of assets that are used in third-party websites, marketing campaigns, and Adobe's creative solutions. Derive insights regarding asset performance and popularity.
-uuid: 9eb79c41-d07b-4193-bed8-720bab79a057
+uuid: da7aa8fe-3e3e-4c9f-891e-dcdc9d92e04a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 1a5ac6dc-1aaa-4d75-b1e4-1d7a12e33af9
+discoiquuid: 0165131a-3fba-4621-b15b-4e5587fedfcd
 index: y
 internal: n
 snippet: y
@@ -61,7 +61,7 @@ You can view the Asset Insights scores from the metadata page.
 
 1. To obtain the embed code for the asset that you include in websites to gets performance data, tap/click **Get Embed Code** below the asset thumbnail. For more information on how to include your Embed code in third-party web pages, see [Using Page Tracker and Embed code in web pages](../../assets/using/touch-ui-using-page-tracker.md).
 
-   ![](assets/chlimage_1-257.png)
+   ![](assets/chlimage_1-256.png)
 
 ## Viewing aggregate statistics for assets {#viewing-aggregate-statistics-for-assets}
 
@@ -78,7 +78,7 @@ Asset Insights fetches usage data for assets from Adobe Analytics report suites 
 1. Tap the AEM logo, and go to **Tools** &gt; **Operations** &gt; **Web Console**.
 1. Open the **Adobe CQ DAM Asset Performance Report Sync Job** service configuration.
 
-   ![](assets/chlimage_1-258.png)
+   ![](assets/chlimage_1-257.png)
 
 1. Specify the desired scheduler frequency and the start time for the job in the property scheduler expression. Save the changes.
 

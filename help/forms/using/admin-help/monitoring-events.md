@@ -3,12 +3,12 @@ title: Monitoring events
 seo-title: Monitoring events
 description: When the auditing capability is enabled, document security enables you to monitor certain types of events. You can easily search and sort the events list using the document security.
 seo-description: When the auditing capability is enabled, document security enables you to monitor certain types of events. You can easily search and sort the events list using the document security.
-uuid: 091914c8-b7ce-4f71-8eed-c5cfb1788385
+uuid: 52ba24f6-afeb-4eef-9b50-691640608883
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0d64e319-6f15-4c54-8337-7789bcee6610
+discoiquuid: 0d66352e-d062-4dfb-b180-ce1a4738b0d5
 index: y
 internal: n
 snippet: y
@@ -37,13 +37,6 @@ If a policy allows anonymous user access but the administrator later turns off a
 ## Enable event auditing {#enable-event-auditing}
 
 These setup requirements must be met for event auditing to take place:
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Start RMAdminOnly</p>
--->
 
 * The system or administrator must enable the auditing capability for the server.
 

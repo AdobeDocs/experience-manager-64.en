@@ -3,12 +3,12 @@ title: Ideation Essentials
 seo-title: Ideation Essentials
 description: Ideation feature overview
 seo-description: Ideation feature overview
-uuid: 6acb8ef6-12ee-4c7d-9877-648bb50ad5d0
+uuid: 14ed2722-ff8d-43f9-9611-d3b7c78aeea2
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 22e597c9-e6b6-4cb2-bb90-417e9d3e8e9b
+discoiquuid: 02fe7088-9d4d-45c5-8efa-b2dd070bb873
 index: y
 internal: n
 snippet: y
@@ -50,26 +50,6 @@ This page provides the essential information for working with the ideation featu
 </table>
 
 * [Client-side Customizations](../../communities/using/client-customize.md)
-
-<!--
-Comment Type: draft
-
-<h2>Essentials for Server-Side</h2>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>Ideation API ???</li>
-</ul>
-<ul>
-<li>Ideation Endpoints ???</li>
-</ul>
-<ul>
-<li><a href="../../communities/using/server-customize.md">Server-side Customizations</a> ???</li>
-</ul>
--->
 
 ### Ideation Function {#ideation-function}
 

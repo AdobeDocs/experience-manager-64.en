@@ -3,12 +3,12 @@ title: Creating and managing policies
 seo-title: Creating and managing policies
 description: A policy is a set of confidentiality settings and users who can access a document to which the policy is applied. You can create and manage various types of policies using AEM forms.
 seo-description: A policy is a set of confidentiality settings and users who can access a document to which the policy is applied. You can create and manage various types of policies using AEM forms.
-uuid: 1cc5a9fd-b46b-4673-903b-3e3159c27434
+uuid: 6a569cc0-7ace-4a7b-b354-3657fe16fb54
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 558e52d2-b8aa-435c-8a43-93261cd4b8c1
+discoiquuid: 6bc5ae6e-4b20-4764-8166-c71694fa8707
 index: y
 internal: n
 snippet: y
@@ -33,13 +33,6 @@ Invited users can also create, edit, copy, and delete personal policies if the a
 Administrators and policy set coordinators create shared policies based on the confidentiality requirements that your organization identifies for different types of documents and users. Shared policies are contained within policy sets and are available to all authorized users (document publishers, policy set coordinators, and document recipients) for a particular policy set. Administrators and policy set coordinators can enable and disable shared policies. Shared policies appear in policy sets on the Policy Sets tab of the Policies page.
 
 When you first install document security, it contains one shared policy, named *Restrict to All Principals*. When this policy is applied to a document, any user who can log in to document security can access the document. This policy is located in the policy set named *Global Policy Set*. By default, this policy is not enabled. You can enable it if it suits your organization’s needs.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>End RMAdminOnly</p>
--->
 
 **Microsoft Outlook auto-generated policies**
 
@@ -111,13 +104,6 @@ When you edit policies, these restrictions apply:
     * carriage return (ASCII character 13)
     * new line (ASCII character 10).
 
-   <!--
-   Comment Type: remark
-   Last Modified By:
-   Last Modified Date:
-   <p>Bug 1674900:</p>
-   -->
-
    >[!NOTE]
    >
    >You can create a policy name that contains extended characters; however, when a comparison is made between two strings, accented and non-accented characters such as "e" and "é" are considered to be the same. When someone creates a policy, a comparison is made to check whether a policy with the same name already exists. The comparison cannot distinguish between names that are the same except for accented characters. It is assumed that the policy is already added to the database and the new one is not added.
@@ -165,13 +151,6 @@ After registering, invited users can use policy-protected documents that they ha
 You can specify document permissions for one user or group at a time, or you can select multiple users and groups from the list and change their permissions using the options in the column headings area.
 
 By default, all policy-protected documents have a permission that allows users to open them while online.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Start RMAdminOnly</p>
--->
 
 The Permissions and Options tab are displayed in document security.
 
@@ -263,13 +242,6 @@ If you are overriding the global authentication settings, you can choose the aut
 
 The Advanced Settings area contains the following settings:
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Start RMAdminOnly</p>
--->
-
 **Dynamic Watermark:** Select a watermark to be dynamically displayed on the pages of a document (for example, when a recipient prints the document). Dynamic watermarks uniquely identify a document, therefore helping to ensure the confidentiality of the document and preventing copyright infringement. For example, the administrator can configure a dynamic watermark that displays the current date, the user name or identifier of the person who is using the document, or the name of the policy used to protect the document. A watermark can also display custom text or graphic elements if configured. Administrators configure the watermarks options, and administrators and users can apply them to policies.
 
 (See [Configure dynamic watermarks](../../../forms/using/admin-help/configuring-client-server-options.md#configure-dynamic-watermarks).)
@@ -320,13 +292,6 @@ A red X appears beside a disabled policy.
 1. Click the appropriate policy set name and click the Policies tab.
 1. Select the check box beside the appropriate policy, click either Enable or Disable, and then click OK.
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>End RMAdminOnly</p>
--->
-
 ## View information about a policy {#view-information-about-a-policy}
 
 Using the My Policies tab, you can search personal policies.
@@ -355,13 +320,6 @@ You can view more detailed information about a policy that appears in the list, 
 1. On the Policy Detail page, you can see details about the policy, edit the policy, or view events related to the policy.
 
 ## Search for policies {#search-for-policies}
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>This topic is tagged Admin Only</p>
--->
 
 Administrators can search for shared policies and for personal policies that were created by other users.
 
@@ -405,13 +363,6 @@ External users can copy policies only if the administrator enables this capabili
     * carriage return (ASCII character 13)
     * new line (ASCII character 10).
 
-   <!--
-   Comment Type: remark
-   Last Modified By:
-   Last Modified Date:
-   <p>Bug 1674900:</p>
-   -->
-
    >[!NOTE]
    >
    >You can create a policy name that contains extended characters; however, when a comparison is made between two strings, accented and non-accented characters such as "e" and "é" are considered to be the same. When someone creates a policy, a comparison is made to check whether a policy with the same name already exists. The comparison cannot distinguish between names that are the same except for accented characters. It is assumed that the policy is already added to the database and the new one is not added.
@@ -424,22 +375,7 @@ You can delete policies that you created. Administrators can delete policies tha
 
 Invited users can delete policies only if the administrator enables this capability. If you cannot delete policies, the delete option will not be available.
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Start RMAdminOnly</p>
--->
-
-1. On the document security page, click Policies.
-
-   <!--
-   Comment Type: remark
-   Last Modified By:
-   Last Modified Date:
-   <p>Set this to Admin Only. The EU options don include deleting shared policies.</p>
-   -->
-
+1. On the document security page, click Policies. 
 1. Click the My Policy tab.
 1. To delete a shared policy, click the Policy Sets tab and click the appropriate policy set name. 
 1. Select the check box beside the appropriate policy and click Delete, and then click OK.

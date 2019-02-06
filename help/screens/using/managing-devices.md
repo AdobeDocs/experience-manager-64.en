@@ -3,12 +3,12 @@ title: Managing Devices
 seo-title: Managing Devices
 description: This page describes device assignment.
 seo-description: Follow this page to learn about device assignment. The Devices console allows you to access the device manager to assign your device to a display.
-uuid: e6d45ba5-16b5-4b7f-9012-6f034cca40cb
+uuid: 9e4e0ebe-61d2-4d59-a577-cae6b5bf4821
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 343498bc-6997-447c-bb68-0c661ee61e77
+discoiquuid: 2ba88878-ad96-47d0-86fc-5cdea2a3852c
 index: y
 internal: n
 snippet: y

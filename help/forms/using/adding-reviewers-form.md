@@ -3,10 +3,10 @@ title: Associating submission reviewers with a form
 seo-title: Associating submission reviewers with a form
 description: Learn how to associate submission reviewers with a form in AEM Forms. Associated reviewers review a form submitted via forms portal.
 seo-description: Learn how to associate submission reviewers with a form in AEM Forms. Associated reviewers review a form submitted via forms portal.
-uuid: 9800d637-2d1f-4c05-aff9-4a5bea2a537d
+uuid: fa248061-4cd5-464c-a71d-9d226a9952ba
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 7dcf78d6-fdbb-45cc-b2eb-bc19ad2603cd
+discoiquuid: 5620b46f-0743-4b66-9573-39a257bde7ab
 index: y
 internal: n
 snippet: y

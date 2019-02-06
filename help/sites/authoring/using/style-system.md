@@ -3,11 +3,11 @@ title: Style System
 seo-title: Style System
 description: The Style System allows a template author to define style classes in the content policy of a component so that a content author is able to select them when editing the component on a page. These styles can be alternative visual variations of a component, making it more flexible.
 seo-description: The Style System allows a template author to define style classes in the content policy of a component so that a content author is able to select them when editing the component on a page. These styles can be alternative visual variations of a component, making it more flexible.
-uuid: e730da7b-8c51-4010-b04c-75d95dab8ada
+uuid: d5de3fa3-a1d2-409a-8ac0-2a1360e2323c
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: b05b9362-703c-4b9a-88f1-054990052f50
+discoiquuid: ac6309f8-d340-4e90-b8aa-66417d2504e0
 index: y
 internal: n
 snippet: y

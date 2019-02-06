@@ -3,12 +3,12 @@ title: Leaderboard Essentials
 seo-title: Leaderboard Essentials
 description: Leaderboard feature overview
 seo-description: Leaderboard feature overview
-uuid: 90571efe-717d-4da2-9922-6ba2132f3efd
+uuid: 04b5d8d0-fe71-410a-9f5e-9b594c510b25
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 8532b7a4-f8be-4923-9760-7a12bd4895ef
+discoiquuid: 0175d858-8f90-49f5-a2b9-28758e2de5fe
 index: y
 internal: n
 snippet: y
@@ -52,26 +52,6 @@ Prior to including the leaderboard component on a page, it is necessary to confi
 </table>
 
 * [Client-side Customizations](../../communities/using/client-customize.md)
-
-<!--
-Comment Type: draft
-
-<h2>Essentials for Server-Side</h2>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>Leaderboard API ???</li>
-</ul>
-<ul>
-<li>Leaderboard Endpoints ???</li>
-</ul>
-<ul>
-<li><a href="../../communities/using/server-customize.md">Server-side Customizations</a> ???</li>
-</ul>
--->
 
 ### File Library Function {#file-library-function}
 

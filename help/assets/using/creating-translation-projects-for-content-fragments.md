@@ -3,12 +3,12 @@ title: Creating Translation Projects for Content Fragments
 seo-title: Creating Translation Projects for Content Fragments
 description: Learn how to translate content fragments.
 seo-description: Learn how to translate content fragments.
-uuid: e8d101c5-c0e2-4f2b-86ec-9423add79715
+uuid: 7949c40e-3fb2-4dfd-b948-831d51f326cb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: c1cd4161-8cda-4bcd-8594-d188a2e0f74f
+discoiquuid: f58c28dc-b3c3-4101-9fba-8c2cc115aebb
 index: y
 internal: n
 snippet: y
@@ -58,103 +58,103 @@ To be able to translate content fragments that include mixed media, first edit t
 1. Click/tap the AEM logo, and navigate to **Tools** &gt; **Deployment** &gt; **Cloud Services**.
 1. Locate **Translation Integration** under **Adobe Marketing Cloud**, and click/tap **Show Configurations**. 
 
-   ![](assets/chlimage_1-457.png)
+   ![](assets/chlimage_1-448.png)
 
 1. From the list of available configurations, click/tap **Default configuration (Translation Integration configuration)** to open the **Default configuration** page.
 
-   ![](assets/chlimage_1-458.png)
+   ![](assets/chlimage_1-449.png)
 
 1. Click **Edit** from the toolbar to display the **Translation Config** dialog.
 
-   ![](assets/chlimage_1-459.png)
+   ![](assets/chlimage_1-450.png)
 
 1. Navigate to the **Assets** tab, and choose **Inline Media Assets and Associated Collections** from the **Translate Content Fragment Assets** list. Click/tap **OK** to save the changes.
 
-   ![](assets/chlimage_1-460.png)
+   ![](assets/chlimage_1-451.png)
 
 1. From within the English root folder, open a content fragment.
 
-   ![](assets/chlimage_1-461.png)
+   ![](assets/chlimage_1-452.png)
 
 1. Click/tap the **Insert Asset** icon.
 
-   ![](assets/chlimage_1-462.png)
+   ![](assets/chlimage_1-453.png)
 
 1. Insert an asset into the content fragment.
 
-   ![](assets/chlimage_1-463.png)
+   ![](assets/chlimage_1-454.png)
 
 1. Click/tap the **Associate Content** icon.
 
-   ![](assets/chlimage_1-464.png)
+   ![](assets/chlimage_1-455.png)
 
 1. Click/tap **Associate Content**.
 
-   ![](assets/chlimage_1-465.png)
+   ![](assets/chlimage_1-456.png)
 
 1. Select a collection and include it into the content fragment. Click/tap **Save**.
 
-   ![](assets/chlimage_1-466.png)
+   ![](assets/chlimage_1-457.png)
 
 1. Select the content fragment, and click/tap the **GlobalNav** icon.
 1. Select **References** from the menu to display the **References** pane.
 
-   ![](assets/chlimage_1-467.png)
+   ![](assets/chlimage_1-458.png)
 
 1. Click/tap **Language Copies** under **Copies** to display the language copies.
 
-   ![](assets/chlimage_1-468.png)
+   ![](assets/chlimage_1-459.png)
 
 1. Click/tap **Create & Translate** from at the bottom of the panel to display the **Create & Translate** dialog.
 
-   ![](assets/chlimage_1-469.png)
+   ![](assets/chlimage_1-460.png)
 
 1. Select the target language from the **Target Languages** list.
 
-   ![](assets/chlimage_1-470.png)
+   ![](assets/chlimage_1-461.png)
 
 1. Select the translation project type from the **Project** list.
 
-   ![](assets/chlimage_1-471.png)
+   ![](assets/chlimage_1-462.png)
 
 1. Specify the title of the project in the **Project Title** box and then click/tap **Create**.
 
-   ![](assets/chlimage_1-472.png)
+   ![](assets/chlimage_1-463.png)
 
 1. Navigate to the **Projects** console, and open the project folder for the translation project you created.
 
-   ![](assets/chlimage_1-473.png)
+   ![](assets/chlimage_1-464.png)
 
 1. Click/tap the project tile to open the project details page. 
 
-   ![](assets/chlimage_1-474.png)
+   ![](assets/chlimage_1-465.png)
 
 1. From the Translation Job tile, verify the number of assets to be translated.
 1. From the **Translation Job** tile, start the translation job.
 
-   ![](assets/chlimage_1-475.png)
+   ![](assets/chlimage_1-466.png)
 
 1. Click the ellipses at the bottom of the Translation Job tile to display the status of the translation job.
 
-   ![](assets/chlimage_1-476.png)
+   ![](assets/chlimage_1-467.png)
 
 1. Click/tap the content fragment to check the path of the translated associated assets.
 
-   ![](assets/chlimage_1-477.png)
+   ![](assets/chlimage_1-468.png)
 
 1. Review the language copy for the collection in the Collections console.
 
-   ![](assets/chlimage_1-478.png)
+   ![](assets/chlimage_1-469.png)
 
    Notice that only the content of the collection are translated. The collection itself is not translated.
 
 1. Navigate to the path of the translated associated asset. Observe that the translated asset is stored under the target language root.
 
-   ![](assets/chlimage_1-479.png)
+   ![](assets/chlimage_1-470.png)
 
 1. Navigate to the assets within the collection that are translated along with the content fragment. Observe that the translated copies of the assets are stored at the appropriate target language root.
 
-   ![](assets/chlimage_1-480.png)
+   ![](assets/chlimage_1-471.png)
 
    >[!NOTE]
    >

@@ -3,12 +3,12 @@ title: Known Issues
 seo-title: Known Issues
 description: Release notes specific to the Known Issues with Adobe Experience Manager 6.3.
 seo-description: Release notes specific to the Known Issues with Adobe Experience Manager 6.3.
-uuid: 29c75758-2329-4962-8122-1d2b1772a496
+uuid: 0adc5cdf-57b3-4b90-8e43-d13e05246c1b
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 81a484d1-9c49-4967-9bbc-5abb705c4577
+discoiquuid: 7cc8d6a0-b626-4e0a-a8f1-cd4890fa8e9a
 index: y
 internal: n
 snippet: y
@@ -70,18 +70,6 @@ If you are using Edge as browser:
 * **Omnisearch: **Left rail predicates are getting along with the Omnisearch server request (GRANITE-20524)
 * **Omnisearch:** Omnisearch does not support context paths (GRANITE-16044)
 
-<!--
-Comment Type: draft
-
-<h2>Sites</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>...</p>
--->
-
 ## Assets {#assets}
 
 * **UI**: Asset UI hangs after Copy-Paste and Select-All (CQ-4236142)
@@ -97,18 +85,6 @@ Comment Type: draft
 * **BrandPortal**:** **Publish to BrandPortal is not working for collections (CQ-4238731)
 
 * **Upload**: When uploading assets with special characters in the file name, the validation error message about the unallowed characters is not displayed for each assets. While it is displayed for only the first asset, the interface clearly indicates to the user that the file name of the provided asset are not allowed. (CQ-4256876)
-
-<!--
-Comment Type: draft
-
-<h2>Dynamic Media</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>...</p>
--->
 
 ## Communities {#communities}
 

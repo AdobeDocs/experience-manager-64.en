@@ -3,10 +3,10 @@ title: Introduction to HTML5 forms
 seo-title: Introduction to HTML5 forms
 description: HTML5 forms is a new capability in Adobe Experience Manager 6.0 (AEM 6.0) software that offers rendering of XFA form templates in HTML5 format. 
 seo-description: HTML5 forms is a new capability in Adobe Experience Manager 6.0 (AEM 6.0) software that offers rendering of XFA form templates in HTML5 format. 
-uuid: 54adbeea-2f5c-4476-b40a-a7624ecbc51a
+uuid: c7cb6aed-6296-43df-9a59-7d58f6c93c85
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 8cd025c3-5b04-4b7f-a081-1e2aed96510b
+discoiquuid: a710e956-9b99-420d-bea0-6fb50f2d58f0
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Setting Your Referrer Filter to Allow Empty
 seo-title: Setting Your Referrer Filter to Allow Empty
 description: Follow this page to learn about Referrer Filter. In order to allow the AEM Mobile Application Viewer to view apps on your Author instance, you'll need to set your HTML referrer filter to 'allow empty'.
 seo-description: Follow this page to learn about Referrer Filter. In order to allow the AEM Mobile Application Viewer to view apps on your Author instance, you'll need to set your HTML referrer filter to 'allow empty'.
-uuid: f087f463-0671-4474-924a-18c1d44439ab
+uuid: f4e5fc5f-c689-4c8d-bad2-c0654017cb64
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
-discoiquuid: 2617b5ec-958a-4a87-b108-3cbb4cb603ff
+discoiquuid: 328ff4b8-560b-4abb-8e52-33d6f1dda6f7
 index: y
 internal: n
 snippet: y

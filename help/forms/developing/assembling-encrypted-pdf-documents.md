@@ -3,13 +3,13 @@ title: Assembling Encrypted PDF Documents
 seo-title: Assembling Encrypted PDF Documents
 description: null
 seo-description: null
-uuid: e2c4b5f1-8fb0-4aab-b1bd-8bfcf92552c5
+uuid: 4cb7621d-52ed-4ad2-8be6-6ad957ec3777
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: ab483b8b-eca9-4bac-9d84-94b232a0c6b2
+discoiquuid: e9a5da52-45f7-4047-bbf5-03f93431ae50
 index: y
 internal: n
 snippet: y

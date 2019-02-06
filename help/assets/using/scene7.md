@@ -3,12 +3,12 @@ title: Adding Scene7 Features to your Page
 seo-title: Adding Scene7 Features to your Page
 description: Learn how to add Scene7 features and components to your AEM page.
 seo-description: Learn how to add Scene7 features and components to your AEM page.
-uuid: 1bb91c69-06c8-4acd-b32d-a2b61e097ea8
+uuid: 10841f2b-db24-4482-b2de-d71f14a44188
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: managing-assets
-discoiquuid: fbfb3e0a-be42-4d8a-952c-f288c642b71e
+discoiquuid: 00827794-2841-49b3-92a2-7aaed27c99ec
 index: y
 internal: n
 snippet: y
@@ -89,7 +89,7 @@ To add a Scene7 component/viewer to a page in the touch-optimized UI:
 
 1. If no Scene7 components are available, click **Design** mode, tap/click any component with a blue border, click the Parent icon, and then the Configuration icon. In **Parsys (Design)**, select all the **Scene7** components to make them available and click **OK**.
 
-   ![](assets/chlimage_1-177.png)
+   ![](assets/chlimage_1-176.png)
 
 1. Click **Edit** to return to Edit mode.  
 
@@ -122,7 +122,7 @@ To add an interactive viewing experience to a responsive site in the touch-optim
 1. Select the component and tap or click the configuration icon.
 1. In the **Scene7 Settings** tab, adjust the breakpoints.
 
-   ![](assets/chlimage_1-178.png)
+   ![](assets/chlimage_1-177.png)
 
 1. Confirm that the viewers are responsively resizing and that all interactions are optimized for desktop, tablet, and mobile.
 
@@ -136,7 +136,7 @@ Although configuration options vary, the following are common to all Scene7 comp
 
 You set these configuration options by opening (double-clicking) a Scene7 component, for example, when you open a **Zoom** component:
 
-![](assets/chlimage_1-179.png) 
+![](assets/chlimage_1-178.png) 
 
 ### Zoom {#zoom}
 
@@ -144,7 +144,7 @@ The HTML5 Zoom component displays a larger image when you press the + button.
 
 The asset has zoom tools at the bottom. Click **+** to enlarge. Click **-** to reduce. Clicking the **x** or the reset zoom arrow brings the image back to the original size it was imported as. Click the diagonal arrows to make it full screen. Click **Edit** to configure the component. With this component, you can configure [settings common to all Scene7 components](#settingscommontoallscene7components).
 
-![](assets/chlimage_1-180.png) 
+![](assets/chlimage_1-179.png) 
 
 ### Flyout {#flyout}
 
@@ -156,19 +156,19 @@ In the HTML5 Flyout component, the asset is shown as split screen; left the asse
 >
 >If your Flyout component uses the default size, as set in the Design view, then the default size is used and the component stretches to accomodate the page layout size with responsive setup of the component enabled. Be aware, however, that there is a limitation on responsive setup of the component. When the you use the Flyout component with responsive setup, you should not use it with full page stretch. Otherwise, the Flyout may extend beyond the page's right border.
 
-![](assets/chlimage_1-181.png) 
+![](assets/chlimage_1-180.png) 
 
 ### Image {#image}
 
 The Scene7 Image component lets you add Scene7 functionality to your images, such as Scene7 modifiers, image or viewer presets, and sharpening. The Scene7 image component is similar to other image components in AEM with special Scene7 functionality. In this example, the image has the Scene7 URL modifier, **&op_invert=1** applied.
 
-![](assets/chlimage_1-182.png)
+![](assets/chlimage_1-181.png)
 
 **Title, Alt Text** In the Advanced tab, add a title to the image and alt text for those users who have graphics turned off.
 
 **URL, Open in** You can set an asset from to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
 
-![](assets/chlimage_1-183.png)
+![](assets/chlimage_1-182.png)
 
 **Viewer preset** Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See Managing Viewer Presets. You cannot select a viewer preset if you are using an image preset and vice versa.
 
@@ -190,7 +190,7 @@ The Scene7 Image component lets you add Scene7 functionality to your images, suc
 
 Click **Edit** to configure the component. You can configure [settings common to all Scene7 components](../../sites/administering/using/scene7.md#settingscommontoallscene7components) as well as other settings described in this section.
 
-![](assets/chlimage_1-184.png)
+![](assets/chlimage_1-183.png)
 
 **File Reference, Width, Height** See settings common to all Scene7 components.
 
@@ -202,31 +202,31 @@ Click **Edit** to configure the component. You can configure [settings common to
 
 **URL, Open in** You can set an asset from to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
 
-![](assets/chlimage_1-185.png)
+![](assets/chlimage_1-184.png)
 
 **Parameter Panel** When importing an image, the parameters are pre-populated with information from the image. If there is no content that can be dynamically changed, this window is empty.
 
-![](assets/chlimage_1-186.png) 
+![](assets/chlimage_1-185.png) 
 
 #### Changing text dynamically {#changing-text-dynamically}
 
 To change the text dynamically, enter new text in the fields and click **OK**. In this example, the **Price** is now $50 and shipping is 99 cents.
 
-![](assets/chlimage_1-187.png)
+![](assets/chlimage_1-186.png)
 
 The text in the image changes. You can reset the text back to the original value by clicking **Reset** next to the field.
 
-![](assets/chlimage_1-188.png) 
+![](assets/chlimage_1-187.png) 
 
 #### Changing text to reflect the value of a client context value {#changing-text-to-reflect-the-value-of-a-client-context-value}
 
 To link a field to a client context value, click **Select** to open the client-context menu, select the client context, and click **OK**. In this example, the name changes based on linking the Name with the formatted name in the profile.
 
-![](assets/chlimage_1-189.png)
+![](assets/chlimage_1-188.png)
 
 The text reflects the name of the currently logged in user. You can reset the text back to the original value by clicking **Reset **next to the field.
 
-![](assets/chlimage_1-190.png) 
+![](assets/chlimage_1-189.png) 
 
 #### Making the Scene7 image template a link {#making-the-scene-image-template-a-link}
 
@@ -235,7 +235,7 @@ To make the Scene7 image template component a clickable link:
 1. On the page with the Scene7 image template component, click **Edit**.
 1. In the **URL** field, enter the URL that users go to when the image is clicked. In the **Open in** field, select whether you want the target to open (a new window or same window). 
 
-   ![](assets/chlimage_1-191.png)
+   ![](assets/chlimage_1-190.png)
 
 1. Click **OK**.
 
@@ -247,7 +247,7 @@ It can be used for adaptive video sets, a single MP4 video, or a single F4V vide
 
 See [Video](../../assets/using/s7-video.md) for more information on how videos work with Scene7 integration. In addition, see how [the **Scene7 video **component compares to the foundation **video** component](../../assets/using/s7-video.md). 
 
-![](assets/chlimage_1-192.png) 
+![](assets/chlimage_1-191.png) 
 
 ### Known limitations for the video component {#known-limitations-for-the-video-component}
 
@@ -294,11 +294,11 @@ Browse Scene7 assets by selecting **Scene7** from the third drop-down menu. Scen
 >* If you have a secure preview server set, the browser will use that preview server to render thumbnails and assets.
 >
 
-![](assets/chlimage_1-193.png)
+![](assets/chlimage_1-192.png)
 
 In addition, you can browse resolution information, size, days since modification, and file name by hovering over the asset in the browser.
 
-![](assets/chlimage_1-194.png)
+![](assets/chlimage_1-193.png)
 
 * For Adaptive Video Sets and Templates, no size information is generated for thumbnails.
 * For Adaptive Video Sets, no resolution is generated for thumbnails.
@@ -313,7 +313,7 @@ When searching in either UI, you can filter by the following criteria (shown her
 
 **Enter keywords** You can search assets by name. When searching the keywords you enter is what the file name starts with. For example, typing the word "swimming" would look for any asset file names that start with those letters in that order. Be sure to click enter after you type the term to find the asset.
 
-![](assets/chlimage_1-195.png)
+![](assets/chlimage_1-194.png)
 
 **Folder/path** The name of the folder that appears is based on the configuration you have selected. You can drill down to lower levels by clicking the folder icon and selecting a sub-folder, then clicking the checkmark to select it.
 
@@ -321,19 +321,19 @@ If you enter a keyword and select a folder, AEM searches that folder and any sub
 
 By default, AEM searches the folder selected and all sub-folders.
 
-![](assets/chlimage_1-196.png)
+![](assets/chlimage_1-195.png)
 
 **Type of Asset** Select Scene7 to browse Scene7 content. This option is only available if Scene7 has been configured.
 
-![](assets/chlimage_1-197.png)
+![](assets/chlimage_1-196.png)
 
 **Configuration** If you have more than one Scene7 configuration defined in Cloud Services, you can select it here. As a result the folder will change based on the configuration you have chosen.
 
-![](assets/chlimage_1-198.png)
+![](assets/chlimage_1-197.png)
 
 **Asset type** Within the Scene7 browser, you can filter results to include any of the following: images, templates, videos, and adaptive video sets. If you do not select any asset type, AEM by default searches all asset types.
 
-![](assets/chlimage_1-199.png)
+![](assets/chlimage_1-198.png)
 
 >[!NOTE]
 >
@@ -345,5 +345,5 @@ By default, AEM searches the folder selected and all sub-folders.
 
 **Publish Status** You can filter for assets based on publication status: Unpublished or Published. If you do not select any Publish Status, AEM by default searches all publish statuses.
 
-![](assets/chlimage_1-200.png)
+![](assets/chlimage_1-199.png)
 

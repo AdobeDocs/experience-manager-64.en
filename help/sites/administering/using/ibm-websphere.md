@@ -3,12 +3,12 @@ title: IBM Websphere Commerce
 seo-title: IBM Websphere Commerce
 description: Learn how to use AEM with IBM Websphere Commerce.
 seo-description: Learn how to use AEM with IBM Websphere Commerce.
-uuid: 6f15586f-bd4d-4875-804e-2d7c13a67a92
+uuid: 1bc892ac-37ee-4fb2-933a-c2bd24c912ed
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: d3b6621f-89ff-43a4-bce7-41fd2e5927f3
+discoiquuid: 9cb73656-1740-43c1-a4b7-e9da86e3b395
 pagetitle: Administering IBM Websphere Commerce
 index: y
 internal: n
@@ -112,7 +112,7 @@ To change the price of a product:
 1. Expand the left menu tree of the **Geometrixx Outdoors** catalog to find the required product, for example **Mens** and then **Mens Apparel**.
 1. Select the required product, for example Ashanti Nomad shirt, open the context menu and select **Show SKUs List**.
 
-   ![](assets/chlimage_1-357.png)
+   ![](assets/chlimage_1-342.png)
 
 1. Double click the first entry to open the **S** size variant of the shirt.
 1. Go to **Manage SKU** tab and scroll down to **Pricing**.

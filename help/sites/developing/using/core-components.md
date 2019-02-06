@@ -3,12 +3,12 @@ title: Core Components
 seo-title: Core Components
 description: Components are the building blocks of any AEM site. Core Components leverage the latest technology to allow the creation of flexible, extensible, and feature-rich components to enable authors to easily create content.
 seo-description: Components are the building blocks of any AEM site. Core Components leverage the latest technology to allow the creation of flexible, extensible, and feature-rich components to enable authors to easily create content.
-uuid: 208b5577-2138-4656-98e5-a1fc2236882e
+uuid: af8678f7-d7ea-4941-b44f-1808769ab833
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: fdd1e84b-4396-4c9b-bb3c-37ace41d79eb
+discoiquuid: 692c11fe-47cb-404c-89ad-ac9afa0ec0b4
 redirecttarget: /content/help/en/experience-manager/core-components/user-guide
 index: y
 internal: n

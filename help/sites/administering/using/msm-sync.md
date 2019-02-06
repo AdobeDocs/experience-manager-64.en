@@ -3,12 +3,12 @@ title: Configuring Live Copy Synchronization
 seo-title: Configuring Live Copy Synchronization
 description: Learn about configuring Live Copy Synchronization.
 seo-description: Learn about configuring Live Copy Synchronization.
-uuid: 5e33169d-b81d-4f24-b231-b8349df87cb0
+uuid: 68d7b7f7-64ea-48dd-b53e-ff3c4f29cef7
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 5154700f-914f-4dce-a015-3984a950b069
+discoiquuid: 212b8200-7e94-4680-a789-48e3ce1c35ff
 index: y
 internal: n
 snippet: y
@@ -119,43 +119,6 @@ The following table lists the rollout configurations that are installed with AEM
 ### Installed Synchronization Actions {#installed-synchronization-actions}
 
 The following table lists the synchronization actions that are installed with AEM. If the installed actions do not meet your requirements, you can [Create a New Synchronization Action](../../../sites/developing/using/extending-msm.md#creatinganewsynchronizationaction).
-
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-12-13T00:50:38.186-0500
-<p>Remark by unknown unknown (sbroders) on Thu, 21 May 2015, 17:50:56 EDT</p>
-<p>need to add: dpsMetadataFilter (com.adobe.cq.media.publishing.impl.liveActions)</p>
-<p>AJH &gt;&gt;&gt; Still relevant?<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-12-13T00:50:38.235-0500
-<ul>
-<li>ims-author-08583C574D27377E0A746C1C@AdobeID (yesterday)
-<ul>
-<li>osgi config of RefUpdate - cross LiveCopy update</li>
-</ul> </li>
-</ul>
-<div>
-</div>
-<ul>
-<li>ims-author-08583C574D27377E0A746C1C@AdobeID (yesterday)
-<ul>
-<li>enable Properties are not used anymore</li>
-<li>Done</li>
-</ul> </li>
-<li>ims-author-08583C574D27377E0A746C1C@AdobeID (yesterday)
-<ul>
-<li>sourceVersion mark as do not use</li>
-<li>Done</li>
-</ul> </li>
-<lisourceversion>
-</lisourceversion>
-</ul>
--->
 
 <table border="1" cellpadding="1" cellspacing="0"> 
  <tbody> 
@@ -350,7 +313,7 @@ Several properties and node types are excluded by default, these are defined in 
 
 By default properties matching the following regular expressions are excluded (i.e. not updated) on rollout:
 
-![](assets/chlimage_1-22.png)
+![](assets/chlimage_1-19.png)
 
 You can change the expressions defining the exclusion list as required.
 
@@ -400,13 +363,6 @@ The following list of locations where you can specify the rollout configurations
 * **Live copy parent page properties:** When neither the live copy page nor the blueprint source page are configured with a rollout configuration, the rollout configuration that applies to the live copy page's parent page is used. 
 * ** [System default](../../../sites/administering/using/msm-sync.md#main-pars-title-1613566049):** When the rollout configuration of the live copy's parent page cannot be determined, the system default rollout configuration is used.
 
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-12-13T00:50:39.255-0500
-<p>are the statements still correct for We.Retail?</p>
--->
-
 For example, a blueprint uses the We.Retail Reference Site as source content. A site is created from the blueprint. Each item in the following list describes a different scenario regarding the use of rollout configurations:
 
 * None of the blueprint pages or the live copy pages are configured to use a rollout configuration. MSM uses the system default rollout configuration for all of the live copy pages. 
@@ -426,7 +382,7 @@ You can also configure the rollout configurations for a live copy page when you 
 
    The **Configuration** section shows the rollout configurations that the page inherits.
 
-   ![](assets/chlimage_1-23.png)
+   ![](assets/chlimage_1-20.png)
 
 1. If required, adjust the **Live Copy Inheritance** flag. If checked the live copy configuration is effective on all children.  
 
@@ -434,7 +390,7 @@ You can also configure the rollout configurations for a live copy page when you 
 
    The selected rollout configurations appear below the drop-down list.
 
-   ![](assets/chlimage_1-24.png)
+   ![](assets/chlimage_1-21.png)
 
 1. Click or tap **Save**.
 

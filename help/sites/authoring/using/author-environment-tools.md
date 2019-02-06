@@ -3,12 +3,12 @@ title: Authoring - the Environment and Tools
 seo-title: Authoring - the Environment and Tools
 description: The authoring environment of AEM provides various mechanisms for organizing and editing your content
 seo-description: The authoring environment of AEM provides various mechanisms for organizing and editing your content
-uuid: 0630ff57-dea0-4236-9e5f-482a448bfa90
+uuid: 4dbd0def-01e1-415e-94b4-441ca38106db
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 4ef0bf65-bad9-4b0e-bc6c-b9cf8fc78f34
+discoiquuid: a4b673fa-e20f-46be-bd2d-7c74e80d84f1
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ The **Sites** console allows you to navigate and manage your website, using the 
 
 For example, card view:
 
-![](assets/chlimage_1-362.png) 
+![](assets/chlimage_1-349.png) 
 
 ## Editing Page Content {#editing-page-content}
 
@@ -115,7 +115,7 @@ When you open the side panel it will slide open from the left side. Select the *
 
 When the assets browser is open you can browse through all the assets available for your page. Infinite scrolling is used to expand the list when required.
 
-![](assets/chlimage_1-363.png)
+![](assets/chlimage_1-350.png)
 
 To add an asset to your page, select and drag to the required location. This can be:
 
@@ -232,7 +232,7 @@ Select the appropriate reference type for more information. In certain situation
 
 For example, you can fix a broken reference within a Reference component:
 
-![](assets/chlimage_1-364.png) 
+![](assets/chlimage_1-351.png) 
 
 ## Events - Timeline {#events-timeline}
 
@@ -273,13 +273,6 @@ In addition, **Page Information** can provide access to analytics and recommenda
 
 ## Page Modes {#page-modes}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:51:11.776-0500
-<p>live copy - need link to dedicated MSM docu<br /> </p>
--->
-
 There are various modes when editing a page allowing for different actions:
 
 * [Edit](../../../sites/authoring/using/editing-content.md) - the mode to use when editing the page content.
@@ -301,7 +294,7 @@ There are various modes when editing a page allowing for different actions:
 
 You can access these using the icons in the top right corner. The actual icon will change to reflect the mode you are currently using:
 
-![](assets/chlimage_1-365.png)
+![](assets/chlimage_1-352.png)
 
 >[!NOTE]
 >
@@ -337,21 +330,21 @@ Once a resource is selected, the **Select** button at the upper-right of the dia
 
 If the context allows for the selection of multiple resources, selecting a resource also activates the Select button, but also adds a count of the number of selected resources to the upper-right of the window. Click the X next to the number to deselect all.
 
-![](assets/chlimage_1-366.png)
+![](assets/chlimage_1-353.png)
 
 The breadcrumbs can be used to quickly jump within the resource hierarchy.
 
-![](assets/chlimage_1-367.png)
+![](assets/chlimage_1-354.png)
 
 At any time you can use the search field at the top of the dialogue.
 
-![](assets/chlimage_1-368.png)
+![](assets/chlimage_1-355.png)
 
 Click the X in the search field to clear the search.
 
 To narrow your search, you can reveal the filter options and filter your results based on a certain path.
 
-![](assets/chlimage_1-369.png) 
+![](assets/chlimage_1-356.png) 
 
 ## Keyboard Shortcuts {#keyboard-shortcuts}
 

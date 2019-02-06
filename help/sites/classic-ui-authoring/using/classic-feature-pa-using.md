@@ -3,12 +3,12 @@ title: Seeing Page Analytics Data
 seo-title: Seeing Page Analytics Data
 description: Use page analytics data to gauge the effectiveness of their page content.
 seo-description: Use page analytics data to gauge the effectiveness of their page content.
-uuid: 76a924bf-c365-40a2-b7c1-4ddf7855be14
+uuid: 3e09c20c-64d2-4fa0-91d7-8974fc2b1ef3
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 4c7b62c1-6e4f-4b4c-b8e7-3286b8c5a6bd
+discoiquuid: 689c45bf-f094-4af4-bda7-03a5180668c0
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 Use page analytics data to gauge the effectiveness of their page content.
 
-![](assets/chlimage_1-127.png)
+![](assets/chlimage_1-122.png)
 
 Page analytics data is displayed in the Sites console. When sites are displayed in list format, the following columns are available by default:
 

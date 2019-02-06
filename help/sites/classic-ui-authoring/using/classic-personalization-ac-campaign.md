@@ -3,12 +3,12 @@ title: Working with Adobe Campaign 6.1 and Adobe Campaign Standard
 seo-title: Working with Adobe Campaign 6.1 and Adobe Campaign Standard
 description: You can create email content in AEM and process it in Adobe Campaign emails.
 seo-description: You can create email content in AEM and process it in Adobe Campaign emails.
-uuid: fb1159b6-4808-464d-b7ee-eb05233b8670
+uuid: e9d05380-ac16-41c3-b035-b802548f9236
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 55f30173-946d-4800-a4b4-73575829914c
+discoiquuid: 04dde6fe-1583-4812-849f-efe8b3311aac
 index: y
 internal: n
 snippet: y
@@ -57,7 +57,7 @@ Detailed instructions are described in this document.
    >
    >[Email samples are only available in Geometrixx](../../../sites/developing/using/we-retail.md#weretail). Please download sample Geometrixx content from Package Share.
 
-   ![](assets/chlimage_1-197.png)
+   ![](assets/chlimage_1-188.png)
 
 1. Select **New** &gt; **New Page** to create new email content.
 1. Select one of the available templates specific to Adobe Campaign, then fill the general properties of the page. Three templates are available by default:
@@ -65,7 +65,7 @@ Detailed instructions are described in this document.
     * **Adobe Campaign Email (AC 6.1)**: lets you add content to a predefined template before sending it to Adobe Campaign 6.1 for delivery. 
     * **Adobe Campaign Email (ACS)**: lets you add content to a predefined template before sending it to Adobe Campaign Standard for delivery.
 
-   ![](assets/chlimage_1-198.png)
+   ![](assets/chlimage_1-189.png)
 
 1. Click **Create **to create your email or newsletter.
 
@@ -78,7 +78,7 @@ In addition you may also need to select the Adobe Campaign template and change t
 1. Select the **Page** tab in the sidekick, then select **Page properties.**
 1. In the **Cloud services** tab in the pop-up window, select **Add Service** to add the Adobe Campaign service and click **OK**.
 
-   ![](assets/chlimage_1-199.png)
+   ![](assets/chlimage_1-190.png)
 
 1. Select the configuration that matches your Adobe Campaign instance from the drop-down list, then click **OK**.
 
@@ -90,32 +90,7 @@ In addition you may also need to select the Adobe Campaign template and change t
 
    In Adobe Campaign Standard, the template is **Delivery with AEM Content**. In Adobe Campaign 6.1, the template is **Email delivery with AEM content**.
 
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (ims-author-50BC48A24CE15F640A04B84F@AdobeID)
-   Last Modified Date: 2017-11-30T05:06:41.917-0500
-   <p>Actually you should choose the "AEM e-Mail" template here (don't know the exact name and don't have the time to look it up, sorry).</p>
-   <p>In a standard use-case, this has already the correct External Account and Content Mode, so this does not have to be done by the user.</p>
-   <p>Unfortunately we didn't change the default setting. Will open a JIRA for it.</p>
-   -->
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (ims-author-7A535D734CFE87FA0A04B88B@AdobeID)
-   Last Modified Date: 2017-11-30T05:06:41.933-0500
-   <p>It's the "Delivery with AEM content" template.</p>
-   -->
-
    When you select the template, AEM automatically enables the **Adobe Campaign Newsletter** components.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-   Last Modified Date: 2017-11-30T05:06:41.963-0500
-   <p>From on prem docs, just for reference:</p>
-   <p>There are both Adobe Campaign and Adobe Campaign newsletter components.</p>
-   <p>[damien] the Adobe Campaign components are the ones used for the forms.</p>
-   -->
 
 ### Editing email content {#editing-email-content}
 
@@ -123,17 +98,17 @@ You can edit email content in either the classic user interface or the touch-opt
 
 1. Enter the subject and the text version of the email by selecting **Page properties** &gt; **Email** from the toolbox. 
 
-   ![](assets/chlimage_1-200.png)
+   ![](assets/chlimage_1-191.png)
 
 1. Edit email content by adding the elements you would like from those available in the sidekick. To do this, drag and drop them. Then double click the element you want to edit.
 
    For example, you can add text containing personalization fields.
 
-   ![](assets/chlimage_1-201.png)
+   ![](assets/chlimage_1-192.png)
 
    See [Adobe Campaign Components](../../../sites/classic-ui-authoring/using/classic-personalization-ac-components.md) for a description of components available for Adobe Campaign newsletters/email campaigns.
 
-   ![](assets/chlimage_1-202.png)
+   ![](assets/chlimage_1-193.png)
 
 ### Inserting personalization {#inserting-personalization}
 
@@ -160,15 +135,15 @@ See [Adobe Campaign Components](../../../sites/classic-ui-authoring/using/classi
    >
    >See [Linking an AEM page to an Adobe Campaign email](/sites/classic-ui-authoring/using/classic-personalization-ac-campaign.html?cq_ck=1450290357185#LinkinganAEMpagetoanAdobeCampaignemail).
 
-   ![](assets/chlimage_1-203.png)
+   ![](assets/chlimage_1-194.png)
 
 1. Select **Client Context** in the sidekick to test the personalization fields using the data in the persona profiles.
 
-   ![](assets/chlimage_1-204.png)
+   ![](assets/chlimage_1-195.png)
 
 1. A window appears and lets you select the persona you like. The personalization fields are automatically replaced by data from the selected profile.
 
-   ![](assets/chlimage_1-205.png)
+   ![](assets/chlimage_1-196.png)
 
 ### Previewing a newsletter {#previewing-a-newsletter}
 
@@ -177,7 +152,7 @@ You can preview how the newsletter will look as well as preview the personalizat
 1. Open the newsletter you want to preview and click Preview (magnifying glass) to shrink the sidekick. 
 1. Click one of the email client icons to see what your newsletter looks like in each email client.
 
-   ![](assets/chlimage_1-206.png)
+   ![](assets/chlimage_1-197.png)
 
 1. Expand the sidekick to begin editing again.
 
@@ -187,21 +162,21 @@ After the content is finished, you can start the approval process. Go to the **W
 
 This out-of-the-box workflow has two steps: revision then approval, or revision then rejection. Nevertheless, this workflow can be extended and adapted to a more complex process.
 
-![](assets/chlimage_1-207.png)
+![](assets/chlimage_1-198.png)
 
 To approve content for Adobe Campaign, apply the workflow by selecting **Workflow** in the sidekick and selecting** Approve for Adobe Campaign** and click** Start Workflow. **Go through the steps and approve the content. You can also reject the contents by selecting **Reject** instead of **Approve** in the last workflow step.
 
-![](assets/chlimage_1-208.png)
+![](assets/chlimage_1-199.png)
 
 After content is approved, it appears as approved in Adobe Campaign. The email can then be sent.
 
 In Adobe Campaign Standard:
 
-![](assets/chlimage_1-209.png)
+![](assets/chlimage_1-200.png)
 
 In Adobe Campaign 6.1:
 
-![](assets/chlimage_1-210.png)
+![](assets/chlimage_1-201.png)
 
 >[!NOTE]
 >

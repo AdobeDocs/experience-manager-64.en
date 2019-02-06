@@ -3,11 +3,11 @@ title: User, Group and Access Rights Administration
 seo-title: User, Group and Access Rights Administration
 description: Learn about user, group and access rights administration in AEM.
 seo-description: Learn about user, group and access rights administration in AEM.
-uuid: ef9bbc78-7af3-48ff-8086-24ab81b9c5e7
+uuid: 3cbd84c7-e9e7-4380-8dd3-2def2d3d1b27
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 1d2b13b8-4063-4ea8-bd75-86e820e6848b
+discoiquuid: 403475f1-248d-45e0-804b-4dc6aa06a253
 index: y
 internal: n
 snippet: y
@@ -47,15 +47,6 @@ In CRX a group has the following properties:
 * Hierarchical grouping can be achieved with member relationships. You cannot place a group directly below another group in the repository.
 
 * You can define the access rights for all group members.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacyref-6-1)
-Last Modified Date: 2017-11-30T05:02:38.479-0500
-<p>hierarchies:</p>
-<p>AS: "users and group may not be created in a hierarchy i.e. rep:User or rep:Group node cannot reside underneath another node of that node type. hierarchical ordering of users and groups can however be achieved by using intermediate nodes of type rep:AuthorizableFolder. so, i'd say this is the same."<br /> </p>
-<p><br /> Do we want to mention this (rep:Authorizable) or just leave to what is possible over the GUI?<br /> </p>
--->
 
 **Access Rights** CRX uses Access Rights to control access to specific areas of the repository.
 
@@ -104,7 +95,7 @@ The list of access rights applicable for the subject is constructed from:
 * the rights that you assign directly to the user account  
 * plus all rights assigned to any of the groups that the user belongs to
 
-![](assets/chlimage_1-358.png)
+![](assets/chlimage_1-343.png)
 
 >[!NOTE]
 >
@@ -119,7 +110,7 @@ When CRX handles the request it compares the access request from the subject wit
 
 So if Linda requests to update the `/features` node in the following repository structure:
 
-![](assets/chlimage_1-359.png) 
+![](assets/chlimage_1-344.png) 
 
 ### Order of Precedence {#order-of-precedence}
 
@@ -172,22 +163,6 @@ In this case:
 
 Access rights from multiple group principals are evaluated based on their order, both within the hierarchy and within a single access control list.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacyref-6-1)
-Last Modified Date: 2017-11-30T05:02:38.760-0500
-<p>example?<br /> </p>
-<p>needed? or should they avoid such a situation?<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacyref-6-1)
-Last Modified Date: 2017-11-30T05:02:38.771-0500
-<p>check claims about multiple groups.<br /> </p>
-<p>see also "be positive" in the best practices table below...<br /> </p>
--->
-
 ### Best Practices {#best-practices}
 
 The following table list some recommendations and best practices:
@@ -227,14 +202,6 @@ The following table list some recommendations and best practices:
  </tbody> 
 </table>
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacyref-6-1)
-Last Modified Date: 2017-11-30T05:02:38.814-0500
-<p>need confirmation of whether the above are still accurate.</p>
-<p>in particular the "Be Positive" comment about order of group evaluation.<br /> </p>
--->
-
 ## User Administration {#user-administration}
 
 A standard dialog is used for **User Administration**.
@@ -244,7 +211,7 @@ You must be logged into the appropriate workspace, then you can access the dialo
 * the **User Administration** link on the Main Console of CRX
 * the **Security** menu of the CRX Explorer
 
-![](assets/chlimage_1-360.png)
+![](assets/chlimage_1-345.png)
 
 **Properties**
 
@@ -462,17 +429,7 @@ With the **Access Control** tab of CRXDE Lite you can define the access control 
 
 For example, for **Current Path** select the required resource in the left pane, the Access Control tab in the bottom right pane:
 
-![](assets/CRX_AccessControl_Tab.png) 
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacyref-6-1)
-Last Modified Date: 2017-11-30T05:02:39.332-0500
-<p>Applicable Policy is policy that can be applied to this node. So using the sample picture above, for node /content/geometrixx-outdoors/en/men/shirts/ashanti we can create/apply acl policy. Once this policy is created, it will be become/appear as local policy and the applicable policy table has no entry anymore (as no other applicable policy is available/configured). You can think applicable policies as the available choices when creating local policy.<br /> </p>
-<p>Once we have local policy, then it will add/override the policy from the parent.</p>
-<p>Lastly the effective policy will just display the aggregated policies from the local and inhereted from parent. </p>
-<p>The corresponding jcr api is http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/security/AccessControlManager.html</p>
--->
+![](assets/CRX_AccessControl_Tab.png)
 
 The policies are categorized according to:
 
@@ -501,13 +458,6 @@ The policies can be selected for:
   A principal that is registered in the repository.  
   You can either type in the **Principal** name or click the icon to the right of the field to open the **Select Principal** dialog.  
   This allows you to **Search** for a **User** or **Group**. Select the required principal from the resulting list, then click **OK** to carry the value back to the previous dialog.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacyref-6-1)
-Last Modified Date: 2017-11-30T05:02:39.387-0500
-<p><i>Repository</i> is selecting repository level access control. For example setting it to something like jcr:namespaceManagement privilege, which is only make sense for repository, not a node.<br /> </p>
--->
 
 ![](assets/CRX_AccessControl_SelectPrincipal.png)
 
@@ -650,15 +600,6 @@ You can also register new privileges:
    >
    >
    >For this you need to use "".
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (cleonard@adobe.com)
-   Last Modified Date: 2017-11-30T05:02:40.022-0500
-   <p>There is a hack for rep:glob to specify empty string. Need to use "".</p>
-   <p>https://bugs.day.com/bugzilla/show_bug.cgi?id=33695</p>
-   <p>This is temporary solution until it is fixed permanently. </p>
-   -->
 
 1. Define your access control policy and click **OK** to save. Your new policy will:
 

@@ -3,12 +3,12 @@ title: Processing Assets Using Media Handlers and Workflows
 seo-title: Processing Assets Using Media Handlers and Workflows
 description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
 seo-description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
-uuid: 46f34324-17a9-45c0-8b4e-fa59d544761c
+uuid: 9afc2e25-f8d7-4875-9746-1463c25a5ce5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: 4309c615-215f-4988-87d3-a8b61d0b283d
+discoiquuid: 0842d970-a781-4793-adb0-c58f1f474128
 index: y
 internal: n
 snippet: y
@@ -111,7 +111,7 @@ It is possible to view the active media handlers:
 1. Click the link com.day.cq.dam.core.impl.store.AssetStoreImpl.
 1. A list with all the active media handlers is displayed. For example:
 
-![](assets/chlimage_1-449.png) 
+![](assets/chlimage_1-441.png) 
 
 ## Using Media Handlers in Workflows to perform tasks on Assets {#using-media-handlers-in-workflows-to-perform-tasks-on-assets}
 
@@ -121,59 +121,9 @@ AEM has some default workflows to process assets. To view them, open the Workflo
 
 Existing workflows can be extended and new ones can be created to process assets according to specific requirements.
 
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:30:07.573-0500
-<p>The following example uses a workflow that no longer exists. For now, made example Draft. Need to create new example. </p>
-<p></p>
--->
-
 The following example shows how to enhance the AEM Assets Synchronization workflow so that sub-assets are generated for all assets except PDF documents.
 
 The workflow will look as follows:
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-450.png" />
--->
-
-<!--
-Comment Type: draft
-
-<p>Proceed as follows:</p>
-<ol>
-<li>Go to the <strong>Workflow</strong> console.</li>
-<li>Edit the the <strong>DAM Asset Synchronization</strong> workflow model.</li>
-<li>Add an <strong>OR Split</strong> after the <strong>Sync asset</strong> step.</li>
-<li>Add a <strong>Create Sub Asset</strong> step to the left branch.</li>
-<li>Add a <strong>No Operation</strong> step to the right branch.</li>
-<li>Edit the OR Split:
-<ul>
-<li>Add the script 1 below - that returns false for PDF files - to the Branch 1.<br /> </li>
-<li>Set Branch 1 as the default route.</li>
-<li>Add the script 2 below- that returns true for PDF files - to the Branch 2.</li>
-</ul> </li>
-<li>Save the workflow.<br /> </li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock gutter="true" class="syntax xml">
-//&nbsp;script&nbsp;1:&nbsp;returns&nbsp;false&nbsp;for&nbsp;PDF&nbsp;files!!discoiqbr!!!!discoiqbr!!function&nbsp;check()&nbsp;{&nbsp;!!discoiqbr!!&nbsp;if&nbsp;(workflowData.getPayloadType()&nbsp;==&nbsp;"JCR_PATH")&nbsp;{&nbsp;!!discoiqbr!!&nbsp;&nbsp;var&nbsp;path&nbsp;=&nbsp;workflowData.getPayload().toString();&nbsp;!!discoiqbr!!&nbsp;&nbsp;var&nbsp;node&nbsp;=&nbsp;jcrSession.getItem(path);&nbsp;!!discoiqbr!!&nbsp;&nbsp;if&nbsp;(node.getPath().indexOf(".pdf")&nbsp;>=&nbsp;0)&nbsp;{&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;return&nbsp;false;!!discoiqbr!!&nbsp;&nbsp;}&nbsp;else&nbsp;{&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;return&nbsp;true;&nbsp;!!discoiqbr!!&nbsp;&nbsp;}&nbsp;!!discoiqbr!!&nbsp;}&nbsp;else&nbsp;{&nbsp;!!discoiqbr!!&nbsp;&nbsp;return&nbsp;true;&nbsp;!!discoiqbr!!&nbsp;}&nbsp;!!discoiqbr!!}
-</codeblock>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock gutter="true" class="syntax xml">
-//&nbsp;script&nbsp;2:&nbsp;returns&nbsp;true&nbsp;for&nbsp;PDF&nbsp;files!!discoiqbr!!!!discoiqbr!!function&nbsp;check()&nbsp;{&nbsp;!!discoiqbr!!&nbsp;if&nbsp;(workflowData.getPayloadType()&nbsp;==&nbsp;"JCR_PATH")&nbsp;{&nbsp;!!discoiqbr!!&nbsp;&nbsp;var&nbsp;path&nbsp;=&nbsp;workflowData.getPayload().toString();&nbsp;!!discoiqbr!!&nbsp;&nbsp;var&nbsp;node&nbsp;=&nbsp;jcrSession.getItem(path);&nbsp;!!discoiqbr!!&nbsp;&nbsp;if&nbsp;(node.getPath().indexOf(".pdf")&nbsp;>=&nbsp;0)&nbsp;{&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;return&nbsp;true;!!discoiqbr!!&nbsp;&nbsp;}&nbsp;else&nbsp;{&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;return&nbsp;false;&nbsp;!!discoiqbr!!&nbsp;&nbsp;}&nbsp;!!discoiqbr!!&nbsp;}&nbsp;else&nbsp;{&nbsp;!!discoiqbr!!&nbsp;&nbsp;return&nbsp;false;&nbsp;!!discoiqbr!!&nbsp;}&nbsp;!!discoiqbr!!}
-</codeblock>
--->
 
 ### Disabling/Enabling a Media Handler {#disabling-enabling-a-media-handler}
 
@@ -574,13 +524,6 @@ After you perform the following procedure, when you upload a txt file into AEM, 
 1.
 
    In your browser, open the Apache Felix Web Management Console. Select the Components tab and disable the default text handler com.day.cq.dam.core.impl.handler.TextHandler.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ltrielof)
-Last Modified Date: 2017-11-30T05:30:08.047-0500
-<p>A screenshot would be nice.</p>
--->
 
 ## Command Line Based Media Handler {#command-line-based-media-handler}
 

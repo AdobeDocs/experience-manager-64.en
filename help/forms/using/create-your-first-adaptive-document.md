@@ -4,8 +4,8 @@ seo-title: [DO NOT PUBLISH] Create your first adaptive document
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 674907fa-03e5-49e4-9912-fe3b5b8d674b
-discoiquuid: feb1358e-37c9-4ea6-aea5-448d596c49aa
+uuid: d61edab2-95ca-43bc-84b5-302d8400590d
+discoiquuid: ca46bc6f-f480-44c9-9888-7c79ca159341
 index: y
 internal: n
 snippet: y
@@ -51,13 +51,6 @@ You will have an adaptive document similar to the following at the end of the tu
  </tbody>
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-01-25T07:51:18.864-0500
-add snapshot check persistence
--->
-
 ## Step 1: Create Form Data Model {#step-create-form-data-model}
 
 A form data model allows to connect an adaptive document to disparate data sources. For example, AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. A Form data model is a unified data representation schema of business entities and services available in connected data sources. You can use the form data model with an adaptive document to retrieve data from connected data sources. For more information about form data model, see [AEM Forms Data Integration](../../forms/using/data-integration.md).
@@ -84,13 +77,6 @@ Goals:
 
 ## Step 3: Apply rules to adaptive document fields (Web channel only) {#step-apply-rules-to-adaptive-document-fields-web-channel-only}
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-11-15T06:47:53.905-0500
-create ADF conditions using Rule Editor
--->
-
 Adaptive document provides an editor to write rules on adaptive document objects. These rules define actions to trigger on document objects based on preset conditions and user actions on the document. It helps ensuring accuracy and speeds up user experience in the web version of the adaptive document. For more information about adaptive document rules and rules editor, see [rule editor](../../forms/using/rule-editor.md).
 
 Goals:
@@ -108,40 +94,8 @@ Goals:
 * Apply theme to the adaptive document web channel
 * Validate appearence of the adaptive document web channel on mobile devices and desktop
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-01-25T09:52:35.346-0500
-any styles already applied to text editor will not be overridden by themes
--->
-
-<!--
-Comment Type: draft
-
-<h2>Step 5: Test the adaptive document ?</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>AEM Forms provide a SDK (Calvin SDK) to automate testing of adaptive documents. To learn about SDK, see <a href="/content/help/en/experience-manager/kt/forms/using/calvin-sdk-test-adaptive-forms-article-use" target="_blank">Using Automated Tests with AEM Adaptive D</a>ocument.</p>
-<p>Goals:</p>
-<ul>
-<li>Install Calvin SDK</li>
-<li>Create test suite and test cases for the adaptive document</li>
-</ul>
--->
-
 ## Step 5: Publish the adaptive document {#step-publish-the-adaptive-document}
 
 Once you are done creating your adaptive document, you need to publish it for it to be available on your publish instance where the agents could use the adaptive document to create the communication instances based on it.
 
-To publish the adaptive document, the document authors need to have the required permissions.
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-01-31T12:01:02.420-0500
-Check concrete in this doc - MG
--->
-
+To publish the adaptive document, the document authors need to have the required permissions. 

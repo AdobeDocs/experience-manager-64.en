@@ -3,25 +3,18 @@ title: Organize Digital Assets
 seo-title: Organize Digital Assets
 description: null
 seo-description: null
-uuid: 473b7a81-93ea-43a6-b52a-d6e5826b7e18
+uuid: cc1c47d5-d028-4586-8b08-20be50fa0fca
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 95d24880-b11e-420f-af6b-b83f990095d0
+discoiquuid: a5c6f67b-afb8-43e0-95c6-c6c104874966
 index: y
 internal: n
 snippet: y
 ---
 
 # Organize Digital Assets{#organize-digital-assets}
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:31:05.777-0500
-<p>Move to authoring and rebrand. Screenshots need updates</p>
--->
 
 All digital assets, metadata and content of Microsoft Office and PDF documents are extracted and made searchable. Search allows sophisticated filtering on assets and fully respects the proper permissions. Metadata is covered in detail in Metadata in Digital Asset Management.
 
@@ -50,7 +43,7 @@ You can limit who can access certain folders in Assets by making the folder part
 
 1. Click the **CUG** tab.
 
-   ![](assets/chlimage_1-201.png)
+   ![](assets/chlimage_1-200.png)
 
 1. Select the **Enabled** check box to make the folder and its assets available only to a closed user group.  
 

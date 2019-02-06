@@ -3,12 +3,12 @@ title: JSON Exporter for Content Services
 seo-title: JSON Exporter for Content Services
 description: AEM Content Services are designed to generalize the description and delivery of content in/from AEM beyond a focus on web pages. They provide the delivery of content to channels that are not traditional AEM web pages, using standardized methods that can be consumed by any client. 
 seo-description: AEM Content Services are designed to generalize the description and delivery of content in/from AEM beyond a focus on web pages. They provide the delivery of content to channels that are not traditional AEM web pages, using standardized methods that can be consumed by any client. 
-uuid: 0125b634-3da5-4324-b8cc-aa0ec4f6d5c4
+uuid: daace964-bd2e-4d00-a56a-333edcc923ce
 contentOwner: User
 content-type: reference
 topic-tags: components
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 17628811-0be7-498e-aa69-28624ea98ae7
+discoiquuid: d3cde380-fc3d-4ab6-8ca2-0a1dbbdf001b
 index: y
 internal: n
 snippet: y
@@ -46,7 +46,7 @@ Within AEM the delivery is achieved using the suffix
 
 1. Will deliver content such as:
 
-   ![](assets/chlimage_1-209.png)
+   ![](assets/chlimage_1-202.png)
 
 You can alternatively deliver the contents of a structured content fragment by targeting it specifically.
 
@@ -64,7 +64,7 @@ Your page can contain either a single content fragment or multiple components of
 
 * Will deliver content such as:
 
-  ![](assets/chlimage_1-210.png)
+  ![](assets/chlimage_1-203.png)
 
   >[!NOTE]
   >

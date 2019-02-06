@@ -3,12 +3,12 @@ title: Encapsulated Token Support
 seo-title: Encapsulated Token Support
 description: Learn about the Encapsulated Token support in AEM.
 seo-description: Learn about the Encapsulated Token support in AEM.
-uuid: 6e3f8773-fa34-428b-938f-a5dd4d107f8c
+uuid: a88ecb1e-8a5e-4233-9e27-f4450cf5a4d1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 40d874a3-9d1f-435f-a855-465931023006
+discoiquuid: 4925c9ec-74ab-472d-ad75-a7ec9d96cdb5
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ By default, AEM uses the Token Authentication Handler to authenticate each reque
 
 This is of particular importance for horizontal scalability. In a multi instances setup like the publish farm depicted below, load balancing cannot be achieved in an optimal manner. With stateful authentication, the persisted authentication state will only be available on the instance where the user is first authenticated.
 
-![](assets/chlimage_1-38.png)
+![](assets/chlimage_1-34.png)
 
 Take the following scenario as an example:
 
@@ -40,7 +40,7 @@ The Encapsulated Token is a piece of cryptography that allows to securely create
 
 You can see how this works in a geographically distributed deployment with MongoMK authors and TarMK publish instances below:
 
-![](assets/chlimage_1-39.png)
+![](assets/chlimage_1-35.png)
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ There are a few things you need to take into consideration when configuring the 
 
 The HMAC key is present as a binary property of `/etc/key` in the repository. You can download it separately by pressing the **view** link next to it:
 
-![](assets/chlimage_1-40.png)
+![](assets/chlimage_1-36.png)
 
 In order to replicate the key across instances, you need to:
 

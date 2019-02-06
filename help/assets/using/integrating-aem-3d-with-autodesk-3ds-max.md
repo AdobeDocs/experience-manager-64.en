@@ -3,12 +3,12 @@ title: Integrating AEM 3D with Autodesk 3ds Max
 seo-title: Integrating AEM 3D with AutoDesk 3ds Max
 description: You can optionally integrate AEM 3D with Autodesk 3ds Max software to enable support for native 3ds Max files (.MAX). Rendering by way of 3ds Max is not supported at this time.
 seo-description: You can optionally integrate AEM 3D with Autodesk 3ds Max software to enable support for native 3ds Max files (.MAX). Rendering by way of 3ds Max is not supported at this time.
-uuid: c9f6588e-bbd4-420a-b8f7-5decbc6f3874
+uuid: b7e00cc5-1039-46a4-a26f-de7cc87b9431
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: 3D
-discoiquuid: 1915a4e0-9c4c-4b50-8bfb-26ad266a6d29
+discoiquuid: 68112bf6-edaa-4ff2-84b7-dc3231105c47
 index: y
 internal: n
 snippet: y

@@ -3,11 +3,11 @@ title: Customizing templates for forms portal components
 seo-title: Customizing templates for forms portal components
 description: Display custom metadata in form listing
 seo-description: Display custom metadata in form listing
-uuid: 7cfa6ebe-ae93-4a7f-bd8e-edafe6a04b69
+uuid: cb17282b-3b75-4b0b-9094-885fa1fce6d0
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: f924363b-c831-4631-ad71-1f3d2721962b
+discoiquuid: 2b4397ea-3e0f-4050-8741-49a9b0fa4f1c
 index: y
 internal: n
 snippet: y

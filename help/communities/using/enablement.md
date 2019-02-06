@@ -3,12 +3,12 @@ title: Configuring Enablement Features
 seo-title: Configuring Enablement Features
 description: Configure enablement features in Communities
 seo-description: Configure enablement features in Communities
-uuid: f06e57df-8a50-4188-9455-9992fb0794db
+uuid: 03db61d3-7ab0-4c03-bcc6-c044f549b8b4
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 9f814f5c-4b79-4e5c-b3e1-607bc3803f90
+discoiquuid: 6e1f49f7-704f-4943-ac5a-cae9aeb38128
 index: y
 internal: n
 snippet: y

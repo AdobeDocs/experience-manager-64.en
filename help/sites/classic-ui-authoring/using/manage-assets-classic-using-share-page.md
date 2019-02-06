@@ -3,12 +3,12 @@ title: Using Asset Share Pages
 seo-title: Using Asset Share Pages
 description: Asset Share is a web application that you use to search for assets using queries and predicates, browse and select assets using lenses, and perform actions on selected lenses. 
 seo-description: Asset Share is a web application that you use to search for assets using queries and predicates, browse and select assets using lenses, and perform actions on selected lenses. 
-uuid: 48207b05-463e-449e-bc56-28e716a159ab
+uuid: 87ff8056-173e-4d0d-8e69-14604abdc60d
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 9415082d-2979-4133-a706-f2520768dfca
+discoiquuid: bca45566-c1c9-4987-8e62-14a77075c31c
 legacypath: /content/docs/en/aem/6-2/author/assets/using-asset-share-pages
 index: y
 internal: n
@@ -16,13 +16,6 @@ snippet: y
 ---
 
 # Using Asset Share Pages{#using-asset-share-pages}
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:07:30.334-0500
-<p>Chiradeep to check validity</p>
--->
 
 Depending on your instance of AEM, you can use a customized version of the DAM Finder called an Asset Share page. Asset Share is a web application that you use to search for assets using queries and predicates, browse and select assets using lenses, and perform actions on selected lenses.
 
@@ -41,7 +34,7 @@ To find assets on the asset share page:
 1. Select tags to further narrow your search. Selecting tags filters the results to those with the selected tags.  
 1. You can collect assets in the lightbox and perform actions on them, such as downloading.
 
-![](assets/chlimage_1-163.png)
+![](assets/chlimage_1-155.png)
 
 ### Downloading Assets {#downloading-assets}
 
@@ -69,6 +62,6 @@ To download assets using the Lightbox:
 1. Select additional assets that you want to download. Click **Add** until you have selected all the assets you want in the Lightbox. 
 1. Click the **Download** in the Lightbox.
 
-![](assets/chlimage_1-164.png)
+![](assets/chlimage_1-156.png)
 
 AEM Assets again creates a ZIP file containing all the assets in the lightbox. You can empty the lightbox by clicking **Remove** at any time to start a new asset collection.

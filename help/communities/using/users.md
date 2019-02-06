@@ -3,12 +3,12 @@ title: Managing Users and User Groups
 seo-title: Managing Users and User Groups
 description: Users of AEM Communities can self-register and edit their profiles
 seo-description: Users of AEM Communities can self-register and edit their profiles
-uuid: 4a68d065-324c-4b1a-9380-b4a609c23d2a
+uuid: e4bee65c-db8f-49ad-841b-c1b60bf246a1
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: eaef7d72-88c9-4ad0-a364-684e7822e8fc
+discoiquuid: 4e03632a-88b2-41b1-96f0-1e15fd336da9
 index: y
 internal: n
 snippet: y
@@ -233,20 +233,20 @@ To create a user who may be assigned the role of `Community Site Enablement Mana
 
 * select **Create**
 
-![](assets/chlimage_1-136.png)
+![](assets/chlimage_1-129.png)
 
 * In the left pane :
 
     * search for the newly created user and select to display in the right pane
 
-![](assets/chlimage_1-137.png)
+![](assets/chlimage_1-130.png)
 
 In the left pane :
 
 * clear the search box and select **Hide Users**
 * locate and drag `community-enablementmanagers` to the **Groups **tab of the new user displayed in the right pane
 
-![](assets/chlimage_1-138.png) 
+![](assets/chlimage_1-131.png) 
 
 ### Community Administrators Role {#community-administrators-role}
 
@@ -290,20 +290,6 @@ When using a [publish farm](../../communities/using/topologies.md), ensure users
 If importing user groups, to ensure the user groups have the same path on each publish instance, import to one instance, then [create a package](../../sites/administering/using/package-manager.md#creatinganewpackage) for export, and install that package on all other publish instances.
 
 While the syncing of user groups through user sync will be included in a future release, presently only the *membership *of a user group will sync when user sync runs.
-
-<!--
-Comment Type: draft
-
-<h3>Inactivating Members</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>When members become inactive, it is strongly recommended to disable their accounts instead of deleting them.</p>
-<p>This prevents re-use of the same userid by another member who might then be granted privileges unexpectedly.</p>
-<p>This also preserves information related to any UGC the member may have posted.</p>
--->
 
 ## About Community Groups {#about-community-groups}
 

@@ -3,12 +3,12 @@ title: Configuring SSL on Windows Vista
 seo-title: Configuring SSL on Windows Vista
 description: Learn how to configure SSL on Windows Vista.
 seo-description: Learn how to configure SSL on Windows Vista.
-uuid: 712e2947-f854-4b5f-998a-4d743d7824b6
+uuid: 8cc7ff02-7ae0-4334-bf42-7cb2ad2db03b
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 33492096-f373-499c-bb8d-3b85b30abac6
+discoiquuid: 0579a274-871d-49b9-964e-847cfbfef654
 index: y
 internal: n
 snippet: y

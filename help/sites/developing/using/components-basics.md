@@ -3,12 +3,12 @@ title: AEM Components - The Basics
 seo-title: AEM Components - The Basics
 description: When you start to develop new components you need to understand the basics of their structure and configuration
 seo-description: When you start to develop new components you need to understand the basics of their structure and configuration
-uuid: 40d01e49-5bb9-47c7-a047-126e2147a3d5
+uuid: 14edec73-77a8-410e-83be-06f187303965
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: cb8a92f9-dc8e-414b-a957-c5e4340741e0
+discoiquuid: 6d6fea22-1f71-4e0c-b3c0-7d1a693984b3
 legacypath: /content/docs/en/aem/6-0/develop/components/components-develop
 index: y
 internal: n
@@ -69,14 +69,6 @@ For this reason we will cover the basics of both, and how to recognize them, on 
 
 ### Content Logic and Rendering Markup  {#content-logic-and-rendering-markup}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T11:18:32.974-0500
-<p>need more info/links</p>
-<p>advantages of HTL to separate logic and rendering?</p>
--->
-
 It is recommended to keep the code responsible for markup and rendering separate from the code that controls the logic used to select the component's content.
 
 This philosophy is supported by [HTL](/content/help/en/experience-manager/htl/user-guide), a templating language that is purposely limited to ensure a real programming language is used to define the underlying business logic. This (optional) logic is invoked from HTL with a specific command. This mechanism highlights the code that is called for a given view and, if required, allows specific logic for different views of the same component.
@@ -89,28 +81,11 @@ The discussion of whether to use [HTL](/content/help/en/experience-manager/htl/u
 
 Both HTL and JSP can be used for developing components for both the classic and the touch-enabled UI. Although there can be a tendency to assume that HTL is only for the touch-enabled UI and JSP for the classic UI, this is a misconception and more due to timing. The touch-enabled UI and HTL were incorporated into AEM over approximately the same period. Since HTL is now the recommended language, it is being used for new components, which tend to be for the touch-enabled UI.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T11:18:33.071-0500
-<p>need more info/links?</p>
-<p>mention advantages of HTL ability to separate logic and rendering?</p>
--->
-
 >[!NOTE]
 >
 >The exceptions are Granite UI Foundation Form Fields (as used in dialogs). These still require the use of JSP.
 
 ### Developing Your Own Components {#developing-your-own-components}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T11:18:33.141-0500
-<p>CM&gt; (<a href="https://jira.corp.adobe.com/browse/DOC-4494">https://jira.corp.adobe.com/browse/DOC-4494</a>)</p>
-<p>"The whole "Developing Components" deals with JSPs; we should probably have some explanations on HTL too."</p>
-<p>AJH&gt; Agree, but we need examples from RnD/PMs.</p>
--->
 
 To create your own components for the appropriate UI see (after reading this page):
 
@@ -291,13 +266,6 @@ The [Component Console](../../../sites/authoring/using/default-components-consol
 
 ### Properties and Child Nodes of a Component {#properties-and-child-nodes-of-a-component}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T11:18:33.768-0500
-<p>link to https://docs.adobe.com/docs/en/aem/6-2/develop/platform/custom-nodetypes.html#cq:Component when it's updated?</p>
--->
-
 Many of the nodes/properties needed to define a component are common to both UIs, with differences remaining independent so that your component can work in both environments.
 
 A component is a node of type `cq:Component` and has the following properties and child nodes:
@@ -446,7 +414,7 @@ If we look at the **Text** component (either version), we can see these elements
 
 * HTL ( `/libs/wcm/foundation/components/text`)
 
-  ![](assets/chlimage_1-262.png)
+  ![](assets/chlimage_1-252.png)
 
 * JSP ( `/libs/foundation/components/text`)
 
@@ -482,17 +450,6 @@ Child nodes of particular interest include:
 
 ### Dialogs {#dialogs}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T11:18:34.218-0500
-<p>special mention/cross-reference?</p>
-<p>...for page properties:</p>
-<p>/content/docs/en/aem/6-2/develop/extending/customizing-page-properties/page-properties-views.html</p>
-<p>...and cq-msm-lockable</p>
-<p>https://jira.corp.adobe.com/browse/DOC-5575</p>
--->
-
 Dialogs are a key element of your component as they provide an interface for authors to configure and provide input to that component.
 
 Depending on the complexity of the component your dialog may need one or more tabs - to keep the dialog short and to sort the input fields.
@@ -504,23 +461,6 @@ Dialog definitions are specific to the UI:
 >* For compatibility purposes the touch-enabled UI can use the definition of a classic UI dialog, when no dialog has been defined for the touch-enabled UI.
 >* The [Dialog Conversion Tool](../../../sites/developing/using/dialog-conversion.md) is also provided to help you extend/convert components that only have dialogs defined for the classic UI.
 >
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T11:18:34.333-0500
-<p>need info that: ?</p>
-<ul>
-<li>touch
-<ul>
-<li>rendered server-side</li>
-</ul> </li>
-<li>classic
-<ul>
-<li>rendered client-side</li>
-</ul> </li>
-</ul>
--->
 
 * Touch-Enabled UI ``
 
@@ -535,7 +475,7 @@ Last Modified Date: 2018-01-18T11:18:34.333-0500
             * For out-of-the box components this often references a page in the documentation. 
             * If no `helpPath` is specified, the default URL (documentation overview page) is shown.
 
-  ![](assets/chlimage_1-263.png)
+  ![](assets/chlimage_1-253.png)
 
   Within the dialog, individual fields are defined:
 
@@ -554,11 +494,11 @@ Last Modified Date: 2018-01-18T11:18:34.333-0500
             * For out-of-the box components this often references a page in the documentation. 
             * If no `helpPath` is specified, the default URL (documentation overview page) is shown.
 
-  ![](assets/chlimage_1-264.png)
+  ![](assets/chlimage_1-254.png)
 
   Within the dialog, individual fields are defined:
 
-  ![](assets/chlimage_1-265.png)
+  ![](assets/chlimage_1-255.png)
 
   Within a classic dialog:
 
@@ -587,7 +527,7 @@ Once a component has been defined it must be made available for use. To make a c
 
    `/etc/designs/geometrixx/jcr:content/contentpage/par`
 
-   ![](assets/chlimage_1-266.png)
+   ![](assets/chlimage_1-256.png)
 
 ### Components and the Content They Create {#components-and-the-content-they-create}
 
@@ -595,7 +535,7 @@ If we create and configure an instance of the **Title** component on the page: `
 
 * Touch-Enabled UI
 
-  ![](assets/chlimage_1-267.png)
+  ![](assets/chlimage_1-257.png)
 
 * Classic UI
 
@@ -855,13 +795,6 @@ The `dialogLayout` property defines how a dialog should open by default.
 ### Configuring with cq:EditConfig Child Nodes {#configuring-with-cq-editconfig-child-nodes}
 
 ### cq:dropTargets {#cq-droptargets}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T11:18:36.726-0500
-<p>planned for touch in 6.2 - see <a href="https://jira.corp.adobe.com/browse/CQ-41577">https://jira.corp.adobe.com/browse/CQ-41577</a><br /> </p>
--->
 
 The `cq:dropTargets` node (node type `nt:unstructured`) defines a list of drop targets that can accept a drop from an asset dragged from the content finder. It serves as a collection of nodes of type `cq:DropTargetConfig`.
 

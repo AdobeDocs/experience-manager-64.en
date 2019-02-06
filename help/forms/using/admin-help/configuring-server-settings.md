@@ -3,12 +3,12 @@ title: Configuring Server Settings
 seo-title: Configuring Server Settings
 description: The Server Settings page provides access to email, task notification and administrator notification settings.
 seo-description: The Server Settings page provides access to email, task notification and administrator notification settings.
-uuid: ac0906c0-f8b9-4c51-9051-4c5fa4e701dc
+uuid: 883b0e95-dde4-419e-94f0-8b0bef25cc45
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 099e9e03-3f6e-4e73-b15a-5c851cdfcd3b
+discoiquuid: 933b56be-f671-479e-87c5-d1f0a09ea472
 index: y
 internal: n
 snippet: y
@@ -51,13 +51,6 @@ If your processes are designed and implemented without requiring email, you do n
 >If you enter incorrect information, you can click Cancel to go back to the previously displayed page.
 
 ### Configuring email templates to use AEM Forms Workspace {#configuring-email-templates-to-use-html-workspace}
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>AG, 01/22/2013: Adding this topic as a fix for bug 3474761.</p>
--->
 
 >[!NOTE]
 >

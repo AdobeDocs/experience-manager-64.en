@@ -3,12 +3,12 @@ title: Introduction to managing forms
 seo-title: Introduction to managing forms
 description: AEM Forms provides tools to manage Adaptive Forms and related assets. This article introduces you to the key forms management capabilities and user interface elements.
 seo-description: AEM Forms provides tools to manage Adaptive Forms and related assets. This article introduces you to the key forms management capabilities and user interface elements.
-uuid: d91a750d-c915-409f-a080-2ea751b6aa8d
+uuid: 9fc11e68-6a03-496e-8633-fc8086f1cbcb
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 topic-tags: introduction
-discoiquuid: 90c085b4-31ad-47d1-a663-7cd990a266be
+discoiquuid: 6b78c99b-22ee-4cd4-a739-3bbf8ec9778a
 index: y
 internal: n
 snippet: y

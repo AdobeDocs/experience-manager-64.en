@@ -3,12 +3,12 @@ title: Promoting Launches
 seo-title: Promoting Launches
 description: You need to promote launch pages to move the content back into the source (production) before publishing. When a launch page is promoted, the corresponding page of the source pages is replaced with the content of the promoted page.
 seo-description: You need to promote launch pages to move the content back into the source (production) before publishing. When a launch page is promoted, the corresponding page of the source pages is replaced with the content of the promoted page.
-uuid: be21f04e-3d94-4300-97e1-dc805209f377
+uuid: 26af311f-949c-4ae8-ae39-7f843183c403
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 8c3efa93-15d8-461b-b9d2-463cfcd9b5b5
+discoiquuid: 4a570915-433b-42f5-bc63-98e8def32d5b
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n
@@ -16,16 +16,6 @@ snippet: y
 ---
 
 # Promoting Launches{#promoting-launches}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:06:05.501-0500
-<p>6.2 </p>
-<ul>
-<li>smart launches; only promote pages that have changed<br /> </li>
-</ul>
--->
 
 You need to promote launch pages to move the content back into the source (production) before publishing. When a launch page is promoted, the corresponding page of the source pages is replaced with the content of the promoted page. The following options are available when promoting a launch page:
 
@@ -59,5 +49,5 @@ To start a workflow automatically when pages are promoted, [configure a workflow
 
 For example, you can automatically generate page activation requests when authors promote Launches pages. Configure a workflow launcher to start the Request Activation workflow when the package node is modified. 
 
-![](assets/chlimage_1-153.png)
+![](assets/chlimage_1-147.png)
 

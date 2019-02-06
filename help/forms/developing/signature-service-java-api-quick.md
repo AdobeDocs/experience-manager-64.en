@@ -3,12 +3,12 @@ title: Signature Service Java API QuickStart(SOAP)
 seo-title: Signature Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: 5a3d52cc-1c69-44fa-9282-af8374421717
+uuid: 4195bd28-fac5-40dd-a5e6-2099038d1f6d
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 7fde66c5-295e-42c6-abd0-720a5ca3260e
+discoiquuid: 2953db34-449c-4bcb-a324-5c5111438cc3
 index: y
 internal: n
 snippet: y

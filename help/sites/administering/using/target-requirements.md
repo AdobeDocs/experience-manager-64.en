@@ -3,12 +3,12 @@ title: Prerequisites for Integrating with Adobe Target
 seo-title: Prerequisites for Integrating with Adobe Target
 description: Find out about the prerequisites for integrating with Adobe Target.
 seo-description: Find out about the prerequisites for integrating with Adobe Target.
-uuid: 2086be04-8109-4402-8fb5-bcb3b0e2a294
+uuid: 62cb578c-7882-4506-bc93-82023e085be5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 309a9cbc-7502-4a92-9d44-9a57375cc968
+discoiquuid: 927a8ec6-b930-4fe0-b5a1-b06fae54e6fd
 index: y
 internal: n
 snippet: y
@@ -70,5 +70,5 @@ To configure the AEM externalizer:
 1. Navigate to the OSGi web console at** http://&lt;server&gt;:&lt;port&gt;/system/console/configMgr.**
 1. Find **Day CQ Link Externalizer** and enter the domain for the author node.
 
-   ![](assets/chlimage_1-132.png)
+   ![](assets/chlimage_1-126.png)
 

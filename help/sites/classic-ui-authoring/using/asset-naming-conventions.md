@@ -3,12 +3,12 @@ title: Naming conventions for assets testing
 seo-title: Naming conventions for assets
 description: Nodes in the repository are subject to naming conventions of the Java Content Repository. However, Adobe Experience Manager imposes further conventions for the name of asset nodes.
 seo-description: Nodes in the repository are subject to naming conventions of the Java Content Repository. However, Adobe Experience Manager imposes further conventions for the name of asset nodes.
-uuid: b793a4d2-0580-4d71-9ed2-5a745aa59693
+uuid: 7037effe-07a2-41f2-b8cc-1add8ed46443
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: d26c0ff2-56ad-46a0-a5b2-9f051b0614dc
+discoiquuid: 130e6ff1-06c3-48d7-9669-d6383eabbb45
 index: y
 internal: n
 snippet: y

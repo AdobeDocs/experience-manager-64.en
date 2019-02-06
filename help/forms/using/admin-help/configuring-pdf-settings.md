@@ -3,12 +3,12 @@ title: Configuring Adobe PDF settings
 seo-title: Configuring Adobe PDF settings
 description: Learn how to configure Adobe PDF settings.
 seo-description: Learn how to configure Adobe PDF settings.
-uuid: 6eddf931-36c7-4581-865d-0680796c1826
+uuid: 3889d962-f06e-4829-9017-2062411a435d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 39269b28-d57c-4991-9d9e-e31a1778ce0e
+discoiquuid: ff412328-e55e-45ca-a4b1-135d60141ab8
 index: y
 internal: n
 snippet: y

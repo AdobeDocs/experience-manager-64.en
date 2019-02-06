@@ -4,10 +4,10 @@ seo-title: Create an email campaign using interactive communication
 description: Create an email campaign using interactive communication
 seo-description: Create an email campaign using interactive communication
 page-status-flag: never-activated
-uuid: 3333d9d7-9e23-4034-904f-fb7c54e04b33
+uuid: 55b9af87-0d60-4c08-a36b-0bde1bbcb8df
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 5777b9e8-e2af-4a1a-9abe-9f558d2ea7e0
+discoiquuid: 2f9b7e72-ec80-4598-b64a-5ae5365d7766
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Using Reviews and Reviews Summary (Display)
 seo-title: Using Reviews and Reviews Summary (Display)
 description: Adding the Reviews and Reviews Summary components to a page
 seo-description: Adding the Reviews and Reviews Summary components to a page
-uuid: 03c14e1d-2050-4520-b8df-9aed30ba412b
+uuid: 5d0b3e08-f598-482f-afb5-231391975ff4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: ca9da4d2-c6eb-46fc-a0ae-07da3ca71390
+discoiquuid: 0289dbeb-2b3a-4a5f-8824-ec8fac67f761
 index: y
 internal: n
 snippet: y
@@ -36,17 +36,17 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/reviews-basics.md#essentialsforclientside) are included, this is how the `Reviews`component will appear.
 
-![](assets/chlimage_1-352.png)
+![](assets/chlimage_1-339.png)
 
 ### Configuring Reviews {#configuring-reviews}
 
 Select the placed `Reviews` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-353.png)
+![](assets/chlimage_1-340.png)
 
 Under the **Allowed Ratings **tab, specify the complete list of ratings to be shown to members. The first rating should be an overall/general rating, as it is the rating which provides the average rating for the `Review Summary (Display)` component. The next two ratings in the default configuration should be given a different title, other than "Subrating 1" or "Subrating 2".
 
-![](assets/chlimage_1-354.png)
+![](assets/chlimage_1-341.png)
 
 * **Allowed Ratings** 
   A list of ratings from which a member can choose.  
@@ -57,7 +57,7 @@ Under the **Required Ratings **tab, re-enter items from the list of **Allowed Ra
 
 On the website, required ratings are marked with an asterisk. If an item is required and left unmarked, a message is displayed to the member and the submission is denied until all required ratings are marked.
 
-![](assets/chlimage_1-355.png)
+![](assets/chlimage_1-342.png)
 
 * **Required Ratings** 
   A subset of allowed ratings, indicating which ratings are required.  
@@ -70,7 +70,7 @@ On the website, required ratings are marked with an asterisk. If an item is requ
 
 Under the **Reviews **tab, specify how reviews are handled.
 
-![](assets/chlimage_1-356.png)
+![](assets/chlimage_1-343.png)
 
 * **Allow Replies** 
   If checked, allow replies to reviews. Default is unchecked.
@@ -98,7 +98,7 @@ Under the **Reviews **tab, specify how reviews are handled.
 
 Under the **User Moderation **tab, specify how the posted reviews are managed. For more information, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
 
-![](assets/chlimage_1-357.png)
+![](assets/chlimage_1-344.png)
 
 * **Pre-Moderation** 
   If checked, reviews must be approved before they will appear on a publish site. Default is unchecked.
@@ -139,7 +139,7 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/reviews-basics.md#essentialsforclientside) are included, this is how the `Reviews Summary (Display)`component will appear.
 
-![](assets/chlimage_1-358.png)
+![](assets/chlimage_1-345.png)
 
 >[!NOTE]
 >
@@ -149,11 +149,11 @@ When the [required client-side libraries](../../communities/using/reviews-basics
 
 Select the placed `Reviews Summary (Display)` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-359.png)
+![](assets/chlimage_1-346.png)
 
 Under the **Review Summary** tab
 
-![](assets/chlimage_1-360.png)
+![](assets/chlimage_1-347.png)
 
 * `Review Path`  
   enter or browse to the placed instance of the `reviews`component to summarize, for example, if added to the Web Page of the [Geometrixx Engage site,](../../communities/using/getting-started.md) the path would be :  
@@ -172,7 +172,7 @@ Once the custom resource types is known, enter [Design Mode](../../sites/authori
 
 Under the **Resource Types **tab, specify the custom resourceType for new instances of the `Comments or Voting`components :
 
-![](assets/chlimage_1-361.png)
+![](assets/chlimage_1-348.png)
 
 * **Comment Resource Type** 
   Navigate to the resourceType of an extended `comment`component (single comment) in /apps. For example, `/apps/social/commons/components/hbs/comments/comment`  

@@ -3,12 +3,12 @@ title: Adding Scene7 Features to your Page
 seo-title: Adding Scene7 Features to your Page
 description: Adobe Scene7 is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
 seo-description: Adobe Scene7 is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
-uuid: b0fd7aac-6622-4b1f-8377-61dbac4d2113
+uuid: bd4678ee-9176-41ef-aa3d-1d4e7a50bcbf
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 634eb267-cac4-4374-8f33-3c9c8ae0850e
+discoiquuid: 47d00a16-89b3-447a-9a1b-0f9c6772c5a8
 index: y
 internal: n
 snippet: y
@@ -51,20 +51,13 @@ You can publish digital assets to Scene7 either from the Assets console in the c
 
 ### Publishing from the Assets console {#publishing-from-the-assets-console}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2017-12-06T05:06:05.596-0500
-<p>Not available in touch-optimized UI</p>
--->
-
 To publish to Scene7 from the Assets console if the assets are in a Scene7 target folder:
 
 1. In the AEM classic UI, click** Digital Assets** to access the digital asset manager.  
 
 1. Select the asset (or assets) or folder from within the target folder you want to publish to Scene7 and right-click and select **Publish to Scene7**. Alternatively, you can select** Publish to Scene7 **from the **Tools **menu**. **
 
-   ![](assets/chlimage_1-86.png)
+   ![](assets/chlimage_1-81.png)
 
 1. Go to Scene7 and confirm that the assets are available.
 
@@ -73,13 +66,6 @@ To publish to Scene7 from the Assets console if the assets are in a Scene7 targe
    >If the assets are not in a Scene7 synchronized folder, **Publish to Scene7** in both menus is visible but disabled.
 
 ### Publishing from an asset {#publishing-from-an-asset}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2017-12-06T05:06:06.035-0500
-<p>Not in touch ui</p>
--->
 
 You can manually publish an asset as long as that asset is located inside the synchronized Scene7 folder.
 
@@ -105,15 +91,6 @@ To publish to Scene7 directly from a digital asset:
 
 ### Publishing assets from outside the CQ Target folder {#publishing-assets-from-outside-the-cq-target-folder}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2017-12-06T05:06:06.643-0500
-<p>Confirmed that this is not in the Touch UI for 6.1. Seems to be the same for 6.2</p>
-<p>Clarification - the step where you click/tap Check Publication Status does not work in the Touch UI. There is a bug for it. All other steps can be completed in touch UI. </p>
-<p>For now not documenting the Touch UI part as it's incomplete and requires switching between UIs.</p>
--->
-
 Adobe recommends that you publish assets to Scene7 only from assets within the Scene7 target folder. However, if you need to upload assets from a folder outside of the target folder, you can still do that by uploading them to an **ad-hoc** folder on Scene7.
 
 You do this by first configuring the Cloud configuration for the page where the asset will appear. You then add a Scene7 component to the page and drag and drop an asset on the component. After the page properties are set for that page, a **Publish to Scene7** link appears that when selected triggers uploading to Scene7.
@@ -131,7 +108,7 @@ To publish assets that reside outside the CQ target folder:
 1. Click **Cloud Services** and click **Add services **and select **Scene7**.
 1. In the** Adobe Scene7 **drop-down list, select the desired configuration and click **OK**.
 
-   ![](assets/chlimage_1-87.png)
+   ![](assets/chlimage_1-82.png)
 
 1. On the web page, add a Scene7 component to the desired location on the page.
 1. From the content finder, drag a digital asset to the component. You see a link to **Check Scene7 Publication Status**.
@@ -140,7 +117,7 @@ To publish assets that reside outside the CQ target folder:
    >
    >If the digital asset is in the CQ target folder, then no link to **Check Scene7 Publication Status** appears. The assets is simply placed in the component.
 
-   ![](assets/chlimage_1-88.png)
+   ![](assets/chlimage_1-83.png)
 
 1. Click **Check Scene7 Publication Status**. If the assets is not published, AEM publishes the asset to Scene7. After it is uploaded, the asset is located in the ad-hoc folder. By default, the ad-hoc folder is located in the **name_of_the_company/CQ5_adhoc**. You can [configure this, if needed](#configuringtheadhocfolder).
 
@@ -207,7 +184,7 @@ To add an interactive viewing experience to a responsive site in the classic UI:
 1. In a website with the Scene7 components enabled, drag an **Image** viewer to the page.
 1. Edit the component and adjust the breakpoints in the **Scene7 Settings** tab.
 
-   ![](assets/chlimage_1-89.png)
+   ![](assets/chlimage_1-84.png)
 
 1. Confirm that the viewers are responsively resizing and that all interactions are optimized for desktop, tablet, and mobile.
 
@@ -221,7 +198,7 @@ Although configuration options vary, the following are common to all Scene7 comp
 
 You set these configuration options by opening (double-clicking) a Scene7 component, for example, when you open a **Zoom** component:
 
-![](assets/chlimage_1-90.png) 
+![](assets/chlimage_1-85.png) 
 
 ### Zoom {#zoom}
 
@@ -229,7 +206,7 @@ The HTML5 Zoom component displays a larger image when you press the + button.
 
 The asset has zoom tools at the bottom. Click **+** to enlarge. Click **-** to reduce. Clicking the **x** or the reset zoom arrow brings the image back to the original size it was imported as. Click the diagonal arrows to make it full screen. Click **Edit** to configure the component. With this component, you can configure [settings common to all Scene7 components](#settingscommontoallscene7components).
 
-![](assets/chlimage_1-91.png) 
+![](assets/chlimage_1-86.png) 
 
 ### Flyout {#flyout}
 
@@ -241,19 +218,19 @@ In the HTML5 Flyout component, the asset is shown as split screen; left the asse
 >
 >If your Flyout component uses the default size, as set in the Design view, then the default size is used and the component stretches to accomodate the page layout size with responsive setup of the component enabled. Be aware, however, that there is a limitation on responsive setup of the component. When the you use the Flyout component with responsive setup, you should not use it with full page stretch. Otherwise, the Flyout may extend beyond the page's right border.
 
-![](assets/chlimage_1-92.png) 
+![](assets/chlimage_1-87.png) 
 
 ### Image {#image}
 
 The Scene7 Image component lets you add Scene7 functionality to your images, such as Scene7 modifiers, image or viewer presets, and sharpening. The Scene7 image component is similar to other image components in AEM with special Scene7 functionality. In this example, the image has the Scene7 URL modifier, **&op_invert=1** applied.
 
-![](assets/chlimage_1-93.png)
+![](assets/chlimage_1-88.png)
 
 **Title, Alt Text** In the Advanced tab, add a title to the image and alt text for those users who have graphics turned off.
 
 **URL, Open in** You can set an asset from to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
 
-![](assets/chlimage_1-94.png)
+![](assets/chlimage_1-89.png)
 
 **Viewer preset** Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See Managing Viewer Presets. You cannot select a viewer preset if you are using an image preset and vice versa.
 
@@ -275,7 +252,7 @@ The Scene7 Image component lets you add Scene7 functionality to your images, suc
 
 Click **Edit** to configure the component. You can configure [settings common to all Scene7 components](../../../sites/administering/using/scene7.md#settingscommontoallscene7components) as well as other settings described in this section.
 
-![](assets/chlimage_1-95.png)
+![](assets/chlimage_1-90.png)
 
 **File Reference, Width, Height** See settings common to all Scene7 components.
 
@@ -287,31 +264,31 @@ Click **Edit** to configure the component. You can configure [settings common to
 
 **URL, Open in** You can set an asset from to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
 
-![](assets/chlimage_1-96.png)
+![](assets/chlimage_1-91.png)
 
 **Parameter Panel** When importing an image, the parameters are pre-populated with information from the image. If there is no content that can be dynamically changed, this window is empty.
 
-![](assets/chlimage_1-97.png) 
+![](assets/chlimage_1-92.png) 
 
 #### Changing text dynamically {#changing-text-dynamically}
 
 To change the text dynamically, enter new text in the fields and click **OK**. In this example, the **Price** is now $50 and shipping is 99 cents.
 
-![](assets/chlimage_1-98.png)
+![](assets/chlimage_1-93.png)
 
 The text in the image changes. You can reset the text back to the original value by clicking **Reset** next to the field.
 
-![](assets/chlimage_1-99.png) 
+![](assets/chlimage_1-94.png) 
 
 #### Changing text to reflect the value of a client context value {#changing-text-to-reflect-the-value-of-a-client-context-value}
 
 To link a field to a client context value, click **Select** to open the client-context menu, select the client context, and click **OK**. In this example, the name changes based on linking the Name with the formatted name in the profile.
 
-![](assets/chlimage_1-100.png)
+![](assets/chlimage_1-95.png)
 
 The text reflects the name of the currently logged in user. You can reset the text back to the original value by clicking **Reset **next to the field.
 
-![](assets/chlimage_1-101.png) 
+![](assets/chlimage_1-96.png) 
 
 #### Making the Scene7 image template a link {#making-the-scene-image-template-a-link}
 
@@ -320,7 +297,7 @@ To make the Scene7 image template component a clickable link:
 1. On the page with the Scene7 image template component, click **Edit**.
 1. In the **URL** field, enter the URL that users go to when the image is clicked. In the **Open in** field, select whether you want the target to open (a new window or same window). 
 
-   ![](assets/chlimage_1-102.png)
+   ![](assets/chlimage_1-97.png)
 
 1. Click **OK**.
 
@@ -332,7 +309,7 @@ It can be used for adaptive video sets, a single MP4 video, or a single F4V vide
 
 See [Video](../../../sites/classic-ui-authoring/using/manage-assets-classic-s7-video.md) for more information on how videos work with Scene7 integration. In addition, see how [the **Scene7 video **component compares to the foundation **video** component](../../../sites/classic-ui-authoring/using/manage-assets-classic-s7-video.md). 
 
-![](assets/chlimage_1-103.png) 
+![](assets/chlimage_1-98.png) 
 
 ### Known limitations for the video component {#known-limitations-for-the-video-component}
 
@@ -367,7 +344,7 @@ Browse content in Scene7 by clicking the **S7** tab.
 
 You can change the configuration you are accessing by selecting the configuration.The folders change depending on which configuration you select.
 
-![](assets/chlimage_1-104.png)
+![](assets/chlimage_1-99.png)
 
 As with the content finder for Assets, you can search for assets and filter results. However, unlike the Assets finder, when entering a keyword in the **S7** tab, the file name **starts with** the string that you entered, rather than **containing** the keyword in the file name.
 
@@ -392,7 +369,7 @@ When searching in either UI, you can filter by the following criteria (shown her
 
 **Enter keywords** You can search assets by name. When searching the keywords you enter is what the file name starts with. For example, typing the word "swimming" would look for any asset file names that start with those letters in that order. Be sure to click enter after you type the term to find the asset.
 
-![](assets/chlimage_1-105.png)
+![](assets/chlimage_1-100.png)
 
 **Folder/path** The name of the folder that appears is based on the configuration you have selected. You can drill down to lower levels by clicking the folder icon and selecting a sub-folder, then clicking the checkmark to select it.
 
@@ -400,19 +377,19 @@ If you enter a keyword and select a folder, AEM searches that folder and any sub
 
 By default, AEM searches the folder selected and all sub-folders.
 
-![](assets/chlimage_1-106.png)
+![](assets/chlimage_1-101.png)
 
 **Type of Asset** Select Scene7 to browse Scene7 content. This option is only available if Scene7 has been configured.
 
-![](assets/chlimage_1-107.png)
+![](assets/chlimage_1-102.png)
 
 **Configuration** If you have more than one Scene7 configuration defined in Cloud Services, you can select it here. As a result the folder will change based on the configuration you have chosen.
 
-![](assets/chlimage_1-108.png)
+![](assets/chlimage_1-103.png)
 
 **Asset type** Within the Scene7 browser, you can filter results to include any of the following: images, templates, videos, and adaptive video sets. If you do not select any asset type, AEM by default searches all asset types.
 
-![](assets/chlimage_1-109.png)
+![](assets/chlimage_1-104.png)
 
 >[!NOTE]
 >
@@ -424,5 +401,5 @@ By default, AEM searches the folder selected and all sub-folders.
 
 **Publish Status** You can filter for assets based on publication status: Unpublished or Published. If you do not select any Publish Status, AEM by default searches all publish statuses.
 
-![](assets/chlimage_1-110.png)
+![](assets/chlimage_1-105.png)
 

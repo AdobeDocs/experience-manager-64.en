@@ -3,12 +3,12 @@ title: MySQL Configuration for Enablement Features
 seo-title: MySQL Configuration for Enablement Features
 description: Connecting your MySQL server
 seo-description: Connecting your MySQL server
-uuid: f11eaab7-0dad-43b9-b614-21208dd9b67d
+uuid: 3c1592c0-fe16-4520-b893-6f0bb926cae9
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 1d9673fa-63c9-43e6-bf88-45ae5e5d5399
+discoiquuid: 899d09ea-538a-4182-b109-f40a4117603b
 index: y
 internal: n
 snippet: y
@@ -74,7 +74,7 @@ MySQL Workbench should be downloaded and installed following the instructions fo
 
 When the MySQL Workbench is first launched, unless already in use for other purposes, it will not yet show any connections :
 
-![](assets/chlimage_1-339.png) 
+![](assets/chlimage_1-326.png) 
 
 ### New Connection Settings {#new-connection-settings}
 
@@ -98,17 +98,17 @@ When the MySQL Workbench is first launched, unless already in use for other purp
 
 #### Successful Connection {#successful-connection}
 
-![](assets/chlimage_1-340.png) 
+![](assets/chlimage_1-327.png) 
 
 #### New Enablement Connection {#new-enablement-connection}
 
-![](assets/chlimage_1-341.png) 
+![](assets/chlimage_1-328.png) 
 
 ## Database Setup {#database-setup}
 
 Upon opening the new Enablement connection, notice there is a test schema and default user accounts.
 
-![](assets/chlimage_1-342.png) 
+![](assets/chlimage_1-329.png) 
 
 ### Obtain SQL Scripts {#obtain-sql-scripts}
 
@@ -122,7 +122,7 @@ The SQL scripts are obtained using CRXDE Lite on the author instance. The [SCORM
 1. download&#42; `database_scormengine.sql`
 1. download&#42; `database_scorm_integration.sql`
 
-![](assets/chlimage_1-343.png)
+![](assets/chlimage_1-330.png)
 
 &#42; One method for downloading the schema is to
 
@@ -164,7 +164,7 @@ In the MySQL Workbench
     1. `database_scormengine.sql`
     1. `database_scorm_integration.sql`
 
-![](assets/chlimage_1-344.png) 
+![](assets/chlimage_1-331.png) 
 
 #### Step 2 : execute SQL Script {#step-execute-sql-script}
 
@@ -172,19 +172,19 @@ In the Workbench window for the file opened in Step 1, select the `lightening (f
 
 Note that the execution of the `database_scormengine.sql` script to create the SCORM database may take a minute to complete.
 
-![](assets/chlimage_1-345.png) 
+![](assets/chlimage_1-332.png) 
 
 #### Refresh {#refresh}
 
 Once the scripts are executed, it is necessary to refresh the `SCHEMAS`section of the `Navigator` in order to see the new database. Use the refresh icon to the right of 'SCHEMAS' :
 
-![](assets/chlimage_1-346.png) 
+![](assets/chlimage_1-333.png) 
 
 ####  Result : scormenginedb {#result-scormenginedb}
 
 After installing and refreshing SCHEMAS, the **`scormenginedb`**will be visible.
 
-![](assets/chlimage_1-347.png) 
+![](assets/chlimage_1-334.png) 
 
 ## Configure JDBC Connections {#configure-jdbc-connections}
 
@@ -203,7 +203,7 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 * locate the `Day Commons JDBC Connections Pool`
 * select the '+' icon to create a new configuration
 
-![](assets/chlimage_1-348.png)
+![](assets/chlimage_1-335.png)
 
 * enter the following values :
 
@@ -244,7 +244,7 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 * locate the `AEM Communities ScormEngine Service`
 * select the edit icon
 
-![](assets/chlimage_1-349.png)
+![](assets/chlimage_1-336.png)
 
 * verify the following parameter values are consistent with the [JDBC Connection](#configurejdbcconnectionspool) config :
 
@@ -278,7 +278,7 @@ To ensure enablement courses work correctly in all browsers, it is necessary to 
 * locate `Adobe Granite CSRF Filter`
 * select the edit icon
 
-![](assets/chlimage_1-350.png)
+![](assets/chlimage_1-337.png)
 
 * select the `[+]` icon to add a Safe User Agent
 * enter `Mozilla/*`

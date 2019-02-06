@@ -3,11 +3,11 @@ title: Assets Repository Restructuring in AEM 6.4
 seo-title: Assets Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Assets.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Assets.
-uuid: 32b3e5da-9f60-490a-8013-194340f4ff34
+uuid: b0f9a759-ed0b-4e5b-b07c-810a86100fcf
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: aeb8be35-dd0a-46a7-b477-d92a3fad5df7
+discoiquuid: 7de20239-3bb8-496d-8858-a768c6015d10
 index: y
 internal: n
 snippet: y
@@ -61,13 +61,6 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 ## Prior to 6.5 Upgrade {#prior-to-upgrade}
 
 ### Asset/Collection Event E-mail Notification Template {#asset-collection-event-e-mail-notification-template}
-
-<!--
-Comment Type: annotation
-Last Modified By: ashishc
-Last Modified Date: 2018-10-25T23:46:33.892-0400
-Many-a paths are incorrect (e.g., either they're missing `/dam/`, or are unnecessarily adding them) 1. In "New locations". it should read: /libs/settings/dam/notification/email/default /apps/settings/dam/notification/email/default 2. In "Restructuring guidance", it should read: If the e-mail templates for Asset/Collection Events were modified, then follow the below procedure in order to align to the new structure: 1. The updated e-mail template should be copied from /etc/notification/email/default to /apps/settings/dam/notification/email/default. a. Because the destination is in /apps this change should be persisted in SCM. 2. Remove the folder: /etc/notification/email/default after the e-mail templates within it have been moved. a. If no updates were made to the e-mail template under /etc/notification/email/default, the folder can be simply removed as the original email template exists under /libs/settings/dam/notification/email/default as part of AEM 6.4 install.
--->
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -132,13 +125,6 @@ Many-a paths are incorrect (e.g., either they're missing `/dam/`, or are unneces
 
 ### Download Asset E-mail Notification Template {#download-asset-e-mail-notification-template}
 
-<!--
-Comment Type: annotation
-Last Modified By: ashishc
-Last Modified Date: 2018-10-25T23:49:01.242-0400
-In "New Location" and "Notes" sections, workflow and notification are different path sections and need a `/` between them, like so: -> New Location: /libs/settings/dam/workflow/notification/email/downloadasset /apps/settings/dam/workflow/notification/email/downloadasset -> Notes: /conf/global/settings/dam/workflow/notification/email/downloadasset
--->
-
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
@@ -171,13 +157,6 @@ In "New Location" and "Notes" sections, workflow and notification are different 
 </table>
 
 ### Example DRM Licenses {#example-drm-licenses}
-
-<!--
-Comment Type: annotation
-Last Modified By: ashishc
-Last Modified Date: 2018-10-26T00:08:26.822-0400
-In "New Locations": /libs/settings/dam/drm/licenses /apps/settings/dam/drm/licenses /conf/global/settings/dam/drm/licenses In "Restructuring Guidance" If the license pages in /etc/dam/drm/licenses were added or modified, then follow the below procedure in order to align to the new structure: 1. Any additional licenses that were added in /etc/dam/drm/licenses for AEM <= 6.3 can either stay there, or be moved to /apps/settings/dam/drm/licenses or /conf/global/settings/dam/drm/licenses without requiring any changes to metadata of referencing assets a. For the licences with the destination as /apps, the change should be persisted in SCM. 2. Any new licenses for AEM >= 6.4 must be added to either /apps/settings/dam/drm/licenses or /conf/global/settings/dam/drm/licenses. a. If no updates were made to the licenses under /etc/dam/drm/licenses, the folder can be simply removed as the OOTB licenses exists under /libs/settings/dam/drm/licenses as part of AEM 6.4 install.
--->
 
 | **Previous location** | `/etc/dam/drm/licenses/` |
 |---|---|
@@ -219,13 +198,6 @@ In "New Locations": /libs/settings/dam/drm/licenses /apps/settings/dam/drm/licen
 </table>
 
 ### InDesign Workflow Scripts {#indesign-workflow-scripts}
-
-<!--
-Comment Type: annotation
-Last Modified By: ashishc
-Last Modified Date: 2018-10-26T00:10:22.411-0400
-In "New Locations" /libs/settings/dam/indesign/scripts /apps/settings/dam/indesign/scripts
--->
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 

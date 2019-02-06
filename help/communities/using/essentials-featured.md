@@ -3,12 +3,12 @@ title: Featured Content Essentials
 seo-title: Featured Content Essentials
 description: Working with feature content
 seo-description: Working with feature content
-uuid: dc1aef58-f0de-4643-86d4-2679c056235c
+uuid: 17aca0ce-59b2-4a9a-ac69-44c7ff9fedf5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 9925a5cc-de64-4820-9d98-f5cc38a25f59
+discoiquuid: 97e6085b-5989-4aa2-8276-bc7f8baf2ba4
 index: y
 internal: n
 snippet: y
@@ -52,26 +52,6 @@ In contrast to pinning a post to the top of a forum, this feature allows for con
 </table>
 
 * [Client-side Customizations](../../communities/using/client-customize.md)
-
-<!--
-Comment Type: draft
-
-<h2>Essentials for Server-Side</h2>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>FeaturedContent API ???</li>
-</ul>
-<ul>
-<li>FeaturedContent Endpoints ???</li>
-</ul>
-<ul>
-<li><a href="../../communities/using/server-customize.md">Server-side Customizations</a> ???</li>
-</ul>
--->
 
 ### File Library Function {#file-library-function}
 

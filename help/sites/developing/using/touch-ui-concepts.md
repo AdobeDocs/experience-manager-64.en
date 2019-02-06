@@ -3,28 +3,18 @@ title: Concepts of the AEM Touch-Enabled UI
 seo-title: Concepts of the AEM Touch-Enabled UI
 description: With AEM 5.6 Adobe introduced a new touch-optimized UI with responsive design for the author environment
 seo-description: With AEM 5.6 Adobe introduced a new touch-optimized UI with responsive design for the author environment
-uuid: 628febad-4ae3-47cb-ab1f-49ea676a0fe1
+uuid: c8283950-e10b-411f-8be4-0cbf83d0b557
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 3bd8e16c-7acf-40df-9753-8dfb9ed4aa49
+discoiquuid: 82066ba7-8ac1-4182-8a83-1690403e2bd1
 index: y
 internal: n
 snippet: y
 ---
 
 # Concepts of the AEM Touch-Enabled UI{#concepts-of-the-aem-touch-enabled-ui}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:25:34.196-0500
-<p>Which are still relevant? </p>
-<p><a href="https://wiki.day.com/content/wiki/Users/acapt/Widgets/Widgets2012.html">https://wiki.day.com/content/wiki/Users/acapt/Widgets/Widgets2012.html</a></p>
-<p><a href="https://zerowing.corp.adobe.com/display/obuadobeui/AUI">https://zerowing.corp.adobe.com/display/obuadobeui/AUI</a> ?<br /> </p>
-<p><a href="https://zerowing.corp.adobe.com/display/uxd/ADMS+UI+Style+Guide">https://zerowing.corp.adobe.com/display/uxd/ADMS+UI+Style+Guide</a></p>
--->
 
 With AEM 5.6 Adobe introduced a new touch-enabled UI with [responsive design](../../../sites/authoring/using/responsive-layout.md) for the author environment. This differs considerably from the original classic UI as it is designed to operate on both touch and desktop devices.
 
@@ -64,7 +54,7 @@ The touch-enabled UI includes:
     * Uses a responsive design (the display resizes automatically according to your device and/or window size)  
     * Uses infinite scrolling (no more pagination, all items are listed ine one window)
 
-![](assets/chlimage_1-200.png)
+![](assets/chlimage_1-193.png)
 
 >[!NOTE]
 >
@@ -91,7 +81,7 @@ For a further overview of the touch-enabled UI structure, see the article [Struc
 
 AEM uses the Granite platform as a base and the Granite platform includes, amongst other things, the Java Content Repository. 
 
-![](assets/chlimage_1-201.png) 
+![](assets/chlimage_1-194.png) 
 
 ## Granite {#granite}
 
@@ -125,16 +115,7 @@ These adhere to the requirements:
 * Be extensible
 * Be easy to override
 
-![](assets/chlimage_1-202.png) 
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:25:34.429-0500
-<p><a href="https://zerowing.corp.adobe.com/display/granite/Granite+Home#">https://zerowing.corp.adobe.com/display/granite/Granite+Home#</a></p>
-<p> </p>
--->
-
+![](assets/chlimage_1-195.png)  
 GraniteUI.pdf
 
 [Get File](assets/graniteui.pdf)
@@ -148,7 +129,7 @@ The Granite UI:
 * Is designed for both mobile and desktop devices (respects mobile first)
 * Can be used in any Granite-based platform/product/project; eg AEM
 
-![](assets/chlimage_1-203.png)
+![](assets/chlimage_1-196.png)
 
 * [Granite UI Foundation Components](#graniteuifoundationcomponents)  
   This library of foundation components can be used or extended by other libraries.
@@ -162,7 +143,7 @@ The client-server communication in the Granite UI consists of hypertext, not obj
 * The server enriches the HTML with semantic data
 * The client enriches the hypertext with hypermedia (interaction)
 
-![](assets/chlimage_1-204.png) 
+![](assets/chlimage_1-197.png) 
 
 #### Client-Side {#client-side}
 
@@ -316,37 +297,10 @@ Implementation:
 
 ## Coral UI {#coral-ui}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:25:34.805-0500
-<p><a href="https://git.corp.adobe.com/pages/Reef/CoralUI/index.html#">https://git.corp.adobe.com/pages/Reef/CoralUI/index.html#</a></p>
-<p> </p>
-<p><a href="https://git.corp.adobe.com/pages/Reef/CoralUI/jsdoc/index.html">https://git.corp.adobe.com/pages/Reef/CoralUI/jsdoc/index.html</a></p>
--->
-
 CoralUI.pdf
 
 [Get File](assets/coralui.pdf)
 Coral UI (CUI) is an implementation of Adobe's visual style for the touch-enabled UI, that has been designed to provide consistency in the user experience across multiple products. Coral UI provides everything you need to adopt the visual style used on the authoring environment.
-
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>Coral UI is a UI library made available to AEM customers for building applications and web interfaces within the boundaries of their licensed use of the product. Its use is intended for their internal business users (e.g. authors).</p>
-<p>Use of Coral UI is only permitted:<br /> </p>
-<ul>
-<li>When it has been shipped and bundled with CQ.</li>
-<li>For use when extending the existing UI of the authoring environment.</li>
-</ul>
-<p>Use of Coral UI is not permitted:</p>
-<ul>
-<li>On/for public facing websites</li>
-<li>On AEM publish instances<br /> </li>
-</ul>
-</note>
--->
 
 >[!CAUTION]
 >
@@ -370,27 +324,11 @@ Comment Type: draft
 
 The Coral UI is a collection of building blocks for developing web applications.
 
-![](assets/chlimage_1-205.png)
+![](assets/chlimage_1-198.png)
 
 Designed to be modular from the start, each module forms a distinct layer based on its primary role. Although the layers have been designed to support each other, they can also be used independently if needed. This makes it possible to implement Coral’s user experience in any HTML-capable environment.
 
 With the Coral UI it is not mandatory to use a particular development model and/or platform. The primary goal of Coral is to provide unified and clean HTML5 markup, independent of the actual method used to emit this markup. This might be used for client or server-side rendering, templates, JSP, PHP, or even Adobe Flash RIA applications - to name just a few.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:25:35.045-0500
-<p>needs updating when the coral docu is ready</p>
-<p>https://issues.adobe.com/browse/CUI-816</p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>The Coral UI documentation gives further details.</p>
-</note>
--->
 
 ### HTML Elements - The Markup Layer {#html-elements-the-markup-layer}
 
@@ -418,16 +356,9 @@ For example, the markup:
 <button class="btn btn-large" type="button">Large button</button>
 ```
 
-Is displayed as:
+Is displayed as: 
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:25:35.166-0500
-<p>clearer image would be good<br /> </p>
--->
-
-![](assets/chlimage_1-206.png)
+![](assets/chlimage_1-199.png)
 
 The look-and-feel is defined in LESS, tied to an element by dedicated class name (the following extract has been shortened for the sake of brevity):
 
@@ -518,14 +449,7 @@ $(‘.cards’).cardlayout ();
 
 This will show as:
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:25:35.408-0500
-<p>need a better screenshot (clearer)<br /> </p>
--->
-
-![](assets/chlimage_1-207.png)
+![](assets/chlimage_1-200.png)
 
 The `cardLayout` plugin lays out the enclosed `UL` elements based on their respective heights and also taking the parent’s width into consideration.
 
@@ -576,7 +500,7 @@ The plugin emits HTML markup (this markup uses basic elements, which may use oth
 
 This will show as:
 
-![](assets/chlimage_1-208.png) 
+![](assets/chlimage_1-201.png) 
 
 ### Utility Library {#utility-library}
 

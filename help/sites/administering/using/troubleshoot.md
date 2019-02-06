@@ -3,25 +3,18 @@ title: Troubleshooting AEM
 seo-title: Troubleshooting AEM
 description: Learn about troubleshooting issues with AEM.
 seo-description: Learn about troubleshooting issues with AEM.
-uuid: ac54c10c-48a0-480e-abc7-da93be096574
+uuid: 8e7a7c9a-665d-4ae9-a202-ec9540d69aa6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 210d9789-e511-4772-a4ed-d26989b06875
+discoiquuid: a422b7ce-c7c4-4c0c-8707-9a2ee46b010d
 index: y
 internal: n
 snippet: y
 ---
 
 # Troubleshooting AEM{#troubleshooting-aem}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-17AF698443500C5F992016B8@AdobeID)
-Last Modified Date: 2017-11-30T05:02:35.020-0500
-<p> A troubleshooting section in Developing would also make a lot of sense. Would need content for this.</p>
--->
 
 The following section covers some issues that you may encounter when using AEM, together with suggestions on how to troubleshoot them.
 
@@ -87,27 +80,6 @@ The thread dump is a list of all the Java threads that are currently active. If 
 1. Select the **Threads **under** Status** tab.
 
 ![](assets/screen_shot_2012-02-13at43925pm.png) 
-
-<!--
-Comment Type: draft
-
-<h3>Using javadump</h3>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li>Find the PID (process id) of your Java instance.</li>
-<li>Run:<br /> <span class="code">javadump.exe &lt;pid&gt;</span></li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<p>See the <a href="/content/docs/en/aem/6-3/develop/javadump_exe">thread dump tool documentation</a> for more information</p>
--->
 
 ### Using jstack (command line) {#using-jstack-command-line}
 

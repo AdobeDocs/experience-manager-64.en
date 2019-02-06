@@ -3,12 +3,12 @@ title: Configuring Connector for IBM FileNet
 seo-title: Configuring Connector for IBM FileNet
 description: Learn how to configure the Connector for IBM FileNet to enable communication between AEM forms and IBM FileNet.
 seo-description: Learn how to configure the Connector for IBM FileNet to enable communication between AEM forms and IBM FileNet.
-uuid: 02289e5e-28a0-44ed-abe2-63595d5a3765
+uuid: 78c658a8-2e86-4e44-b929-3bec584d1cdf
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 7b7728c0-b285-4daa-8042-6bea9605bd57
+discoiquuid: da122031-0d45-4d3f-b86e-41d17950ba1c
 index: y
 internal: n
 snippet: y
@@ -87,38 +87,4 @@ The following options are available:
 
 1. In administration console, click Services > Connector for IBM FileNet.
 1. In the Repository Service Provider Information area, select the alternative repository service provider, and then click Save.
-
-<!--
-Comment Type: draft
-
-<h2 id="enable_the_request_for_sharing_of_workspace_task_queues">Enable the request for sharing of Workspace task queues</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p></p>
--->
-
-<!--
-Comment Type: draft
-
-<p>Some manual steps are required to ensure that the Request for Sharing of Task Queue feature in Workspace functions properly with Connector for IBM FileNet:</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-<li> </li>
-</ol>
--->
 

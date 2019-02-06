@@ -3,9 +3,9 @@ title: Configure the Automated Forms Conversion service
 seo-title: Configure the Automated Forms Conversion service
 description: Ready your AEM instance to use Automated Forms Conversion service
 seo-description: Ready your AEM instance to use Automated Forms Conversion service
-uuid: 1073a62c-ed7d-46c0-825b-8fc533e2b652
+uuid: 4502cc0c-aab0-4728-8532-f3e5f64e9756
 contentOwner: khsingh
-discoiquuid: 813a0d5d-933d-4918-a2ef-c19c8fcef0c5
+discoiquuid: 9b9f5aa6-d390-4f65-aa5c-1fd0d28a4d0a
 index: y
 internal: n
 snippet: y
@@ -46,28 +46,9 @@ Conversion Manager package provides AEM cloud service configurations and Review 
 1. Step text
 1. Step text
 
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Log in to AEM instance as an administrator and open the package share. The default URL of the package share is <a>http://[server]:[port]/crx/packageshare</a>.</p> </li>
-<li><p>In package share, search <strong>AEM Forms <strong>Conversion Manager package</strong></strong>, click the package applicable to your AEM Forms instance, and click <strong>Download</strong>. Read and accept the license agreement and click <strong>OK</strong>. The download starts.</p> </li>
-<li><p>After the download completes, click <strong>Downloaded</strong>. You are redirected to package manager. In the package manager, search the downloaded package, and click <strong>Install</strong>. </p> <p>After the package is successfully installed, the <strong>Start Automated Form Conversion</strong> option becomes visible in Forms & Documents UI. Do not start the conversion yet. </p> </li>
-<li>Step text</li>
-<li>Step text</li>
-</ol>
--->
-
 ## Configure email notification {#configure-email-notification}
 
 Configure the ** [Day CQ Mail Service](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/notification.html#ConfiguringtheMailService)** and specify an email address in the profile of a [forms user](https://helpx.adobe.com/experience-manager/6-4/forms/using/forms-groups-privileges-tasks.html). Emails are sent to specified email address on successful completion or failure of a conversion. To specify an email address for a user:
-
-<!--
-Comment Type: annotation
-Last Modified By: khsingh
-Last Modified Date: 2018-12-17T02:00:03.194-0500
-Day CQ Mail Service: - After beta, change the email link to /content/help/en/experience-manager/6-4/sites/administering/using/notification.html#ConfiguringtheMailService form users - After beta, change the email link to /content/help/en/experience-manager/6-4/forms/using/forms-groups-privileges-tasks.html
--->
 
 1. On your AEM Forms instance, tap **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Tools]**> **[!UICONTROL Security]** > **[!UICONTROL Users]**.
 1. Select the user designated to run the service and tap **[!UICONTROL Properties]**. The Edit User Settings page opens. 

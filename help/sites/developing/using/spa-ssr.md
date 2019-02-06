@@ -3,12 +3,12 @@ title: SPA and Server-Side Rendering
 seo-title: SPA and Server-Side Rendering
 description: null
 seo-description: null
-uuid: dfc1e498-d2a8-4cd8-ba06-3fb7bf47ef5c
+uuid: c7b8d10b-e706-4c12-91d2-2dad00ae703e
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 56d63122-e3b7-45b7-9ff1-777064542af4
+discoiquuid: 489f14a0-4b0d-4095-bd2d-a76a6ae77209
 index: y
 internal: n
 snippet: y
@@ -25,13 +25,6 @@ snippet: y
 Single page applications (SPAs) can offer the user a rich, dynamic experience that reacts and behaves in familiar ways, often just like a native application. [This is achieved by relying on the client to load the content up front and then do the heavy lifting of handling user interaction](../../../sites/developing/using/spa-walkthrough.md#main-pars-header-29566281) and thus minimizing the amount of communication needed between the client and the server, making the app more reactive.
 
 However this can lead to longer initial load times, especially if the SPA is large and rich in its content. In order to optimize load times, some of the content can be rendered server-side. Using server side rendering (SSR) can accelerate the initial load of the page and then pass further rendering on to the client.
-
-<!--
-Comment Type: annotation
-Last Modified By: fauchere
-Last Modified Date: 2018-12-06T11:23:40.461-0500
-In Gabriel's slides, there is a section about the importance of this initial load time over SEO
--->
 
 ## AEM-Driven Communication Flow {#aem-driven-communication-flow}
 

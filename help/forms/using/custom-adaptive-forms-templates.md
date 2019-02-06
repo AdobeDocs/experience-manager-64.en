@@ -3,26 +3,17 @@ title: Creating a custom adaptive form template
 seo-title: Creating a custom adaptive form template
 description: This article describes how to create custom adaptive form templates.
 seo-description: This article describes how to create custom adaptive form templates.
-uuid: 7c675071-45b5-40f9-89bb-1d6a35abee4f
+uuid: b3aecacf-cc0e-4c53-90bb-54002eb842ac
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 99da68c2-2c3a-4c09-84a0-4c3e313a0b52
+discoiquuid: 2efffb20-582c-46be-a81b-4c68b8b89682
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating a custom adaptive form template{#creating-a-custom-adaptive-form-template}
-
-<!--
-Comment Type: remark
-Last Modified By: Chiradeep Majumdar (cmajumda)
-Last Modified Date: 2017-11-30T06:07:08.483-0500
-<p>Add pre-req section:</p>
-<p>1. Awareness of cq:page and cq:template components.</p>
-<p>2. Know-how to create a cq client library. --Done</p>
--->
 
 ## Prerequisites {#prerequisites}
 
@@ -32,29 +23,11 @@ Last Modified Date: 2017-11-30T06:07:08.483-0500
 
 ## Adaptive form template {#adaptive-form-template}
 
-<!--
-Comment Type: remark
-Last Modified By: Chiradeep Majumdar (cmajumda)
-Last Modified Date: 2017-11-30T06:07:08.545-0500
-<p>We should not sat that adaptive form templates are adaptive form.</p>
-<p>Though they have the same structure but different types. We can rather say:</p>
-<p>Adaptive Form template is a hierarchy of nodes, without any actual content, that is copied to create an adaptive form. It has preconfigured layouts, styles and component hierarchy. -- Done</p>
--->
-
 An Adaptive Form template is specialized AEM Page Template, with certain properties and content structure that is used to create Adaptive Form. The template has preconfigured layouts, styles, and basic initial content structure.
 
 Once you create a form, any changes to the original template content structure are not reflected in the form.
 
 ## Default adaptive form templates {#default-adaptive-form-templates}
-
-<!--
-Comment Type: remark
-Last Modified By: Chiradeep Majumdar (cmajumda)
-Last Modified Date: 2017-11-30T06:07:08.594-0500
-<p>Survey Template: enables author, to create a single page Adaptive Form using Responsive layout, that is, multiple columns configured, adjust with various screen sizes.</p>
-<p>Simple enrolment Template: enables author to create a multi-step Adaptive Form using wizard layout, that is, one might give a step completion expression, which would be validated before proceeding to the next step.</p>
-<p>Tabbed enrolment Template: enables author to create a multi-tab Adaptive Form using Tabs-on-left layout, where one can visit tabs in any random order. -- Done</p>
--->
 
 AEM QuickStart provides the following adaptive form templates:
 
@@ -169,14 +142,6 @@ The `head.jsp` file of the `enrollmentpage` component for the new template inclu
 
 * Define a custom theme and replace the default theme `guide.theme.simpleEnrollment` with the custom theme.
 * Define a new client library under /etc/designs/mycompany. Include the client library after the default theme entry in the jsp page. Include all overridden styles and additional Java Script files in this client library.
-
-<!--
-Comment Type: remark
-Last Modified By: Chiradeep Majumdar (cmajumda)
-Last Modified Date: 2017-11-30T06:07:09.611-0500
-<p>Add a note stating:</p>
-<p>Theme is the terminology used to refer a cq client library, which is included in page component used for rendering an Adaptive Form. This library majorly governs the look and feel of an Adaptive Form. -- Done</p>
--->
 
 >[!NOTE]
 >

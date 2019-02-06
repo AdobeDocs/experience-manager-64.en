@@ -3,10 +3,10 @@ title: Create Correspondence
 seo-title: Create Correspondence
 description: After you have created a letter template, you can use it to create correspondence in AEM Forms by managing data, content, and attachments.
 seo-description: After you have created a letter template, you can use it to create correspondence in AEM Forms by managing data, content, and attachments.
-uuid: 9d4a1a18-1530-439e-a6ce-4e5b06ffe9e1
+uuid: bd296ccd-22dc-4820-ba75-fc5210b815e0
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 30bb3438-c8d0-49d7-9f8c-6850555c926e
+discoiquuid: 369888fe-7a24-499d-afc9-cc092b811c3f
 index: y
 internal: n
 snippet: y
@@ -32,14 +32,6 @@ Select the letter to preview using the following steps:
    >[!NOTE]
    >
    >If a data dictionary is not associated with the letter, the letter preview opens. Otherwise, if the letter is data dictionary based, Correspondence Management displays Preview and Custom options in the Preview menu and you can select one of the two options. You can also associate test data with a Data Dictionary. When the [Data Dictionary has associated test data](../../forms/using/data-dictionary.md#main-pars-header-18), then on selecting the preview option, the normal preview opens with the test data populated.
-
-   <!--
-   Comment Type: draft
-
-   <note>
-   <p>While previewing the letter, you may encounter the error "Error in loading letter: Could not import asset from XML input." This may happen even when a previously unpublished text asset in the letter is published now. For more information and troubleshooting such a scenario, see <a href="../../forms/using/cm-troubleshooting.md" target="_blank">Troubleshooting known issues</a>.</p>
-   </note>
-   -->
 
 1. To be able to render a correspondence while previewing it, you should either be an administrator or a part of one of the following groups:
 

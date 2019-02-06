@@ -3,12 +3,12 @@ title: Editor
 seo-title: Editor
 description: Learn how to switch back to the Classic UI Editor.
 seo-description: Learn how to switch back to the Classic UI Editor.
-uuid: 436091a6-3ac0-430b-b8b5-278897722e9b
+uuid: 19ab7cd1-c8f3-4015-8090-3c8e522f24d9
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 58013c0d-0d83-4cda-95bb-f5986247b086
+discoiquuid: 91cc310f-1a59-4edc-848b-ef93f061901e
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 By default, the ability to switch to the classic UI from the editor has been disabled.
 
-![](assets/chlimage_1-11.png)
+![](assets/chlimage_1-10.png)
 
 To re-enable the option **Open in Classic UI** in the **Page Information** menu, follow these steps.
 
@@ -40,5 +40,5 @@ To re-enable the option **Open in Classic UI** in the **Page Information** menu,
 
 1. The **Open in Classic UI** option is again available in the **Page Information** menu when editing pages.
 
-   ![](assets/chlimage_1-12.png)
+   ![](assets/chlimage_1-11.png)
 

@@ -3,10 +3,10 @@ title: Customizing error messages for HTML5 forms
 seo-title: Customizing error messages for HTML5 forms
 description: Learn how to customize the display of error messages for HTML5 forms including how to change their position and appearance.
 seo-description: Learn how to customize the display of error messages for HTML5 forms including how to change their position and appearance.
-uuid: 3372cf26-f8d4-4cd9-a083-13895f246436
+uuid: 259e4395-9ba0-47fa-8a3d-7c35e4e511af
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 0ad03c93-f546-4d64-8035-65b703b708b1
+discoiquuid: 90d90ecd-d67d-458e-8d03-413b670956fc
 index: y
 internal: n
 snippet: y

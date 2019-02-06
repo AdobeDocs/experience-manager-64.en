@@ -3,11 +3,11 @@ title: Create or Configure a watched folder
 seo-title: Create or Configure a watched folder
 description: Learn how to create or delete a watched folder, or modify the properties of an existing watched folder.
 seo-description: Learn how to create or delete a watched folder, or modify the properties of an existing watched folder.
-uuid: b9849815-8475-49e6-bdd4-0870ada66b3c
+uuid: 8fb5ae00-1bee-44c8-83ea-43554119d1e7
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: 328ad43f-59e0-4c9c-a44e-422788af46da
+discoiquuid: 803ed90d-38e4-422f-b183-8441df58f1ba
 index: y
 internal: n
 snippet: y

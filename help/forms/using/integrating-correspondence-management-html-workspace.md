@@ -3,10 +3,10 @@ title: Integrating third-party applications in AEM Forms workspace
 seo-title: Integrating third-party applications in AEM Forms workspace
 description: How-to integrate third-party apps like Correspondence Management in AEM Forms workspace.
 seo-description: How-to integrate third-party apps like Correspondence Management in AEM Forms workspace.
-uuid: c43e6a60-93d4-4805-a980-666924d416fa
+uuid: c7b84018-f83b-4213-aa6f-19b9a91aed43
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: a9ff93e7-61fa-4ade-9be9-02f53810b343
+discoiquuid: e73f11f9-e4be-44e7-b153-6a7e5c71df39
 index: y
 internal: n
 snippet: y
@@ -27,131 +27,6 @@ Start by creating a sample Correspondence Management template that is rendered i
 Access the Correspondence Management template at its URL to verify if the Correspondence Management template can be rendered successfully. The URL has a pattern similar to `http://[server]:[port]/lc/content/cm/createcorrespondence.html?cmLetterId=encodedLetterId&cmUseTestData=1&cmPreview=0;`
 
 where `encodedLetterId` is the URL-encoded letter Id. Specify the same letter Id, when defining the render process for workspace task in Workbench.
-
-<!--
-Comment Type: draft
-
-<p>Hidden heading: Create a task to view the external app</p>
--->
-
-<!--
-Comment Type: draft
-
-<img captionBottom="Correspondence Management integration in AEM Forms workspace" imageRotate="0" src="assets/it_cmintegration.png" />
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Add a process called CMTest to the application.</p> </li>
-<li><p>Add an xdp (say ApplicationforLongTermCareServices.xdp) to the application and place it under CMDemoSample/CMDemoSample/1.0</p> <p> </p> </li>
-<li><p> Select ‘AssignTask’ from Activity Picker. A warning may appear asking you to change the process from short lived to long lived. Click Yes.</p> <p> </p> </li>
-<li><p>In ‘Initial User Selection’, select ‘Assign to specific user’ and add user (say Gloria Rios).</p> </li>
-<li><p>In the ‘Presentation and Data’ tab’ for the asset, browse to ApplicationforLongTermCareServices.xdp added in step 2. This asset is a placeholder and will not be used in case of external application.</p> </li>
-<li><p>Click ‘Manage Action Profiles’</p> <p> </p> </li>
-<li><p>Add a new Action Profile and name it CMTest</p> <p> </p> </li>
-<li><p>In Render Process, select the renderer you created, that is <br /> /CMDemoSample/1.0/CMRenderer.process</p> </li>
-<li><p>Click OK. Render process properties are displayed as shown here:</p> <img imageRotate="0" src="assets/RenderProcessProperties.png" /><p>Specify a letter Id for example /content/apps/cm/correspondence/letters/NoticeOfActionLetterWithoutPostProcess. This is the same letter Id that you created at the beginning of the exercise.</p> </li>
-<li><p>Deploy the Application. Check in and save assets if prompted.</p> </li>
-<li><p>Right click the CMTest process from Workbench and select Invoke.</p> </li>
-<li><p>Log in to AEM Forms workspace <span class="code">http://[server]:[port]/lc/content/ws</span> as Gloria Rios, as specified in Step 4.</p> <p> </p> </li>
-<li><p>Open the task you had added. The Correspondence Management Letter should open up.</p> <p> </p> </li>
-<li><p>Fill in the required data and submit the letter. The window should close. Any Correspondence Management post-process activity associated with the letter is invoked.</p> </li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<p>Hidden heading: Create Custom Render/Submit Process</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The custom render/submit process let you use the data specified in 'Assign Task' operation. The process interprets the location of the form template and data and returns it appropriately to the workspace client.</p>
-<p>Use the following steps to create a custom renderer:</p>
-<p> </p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Launch Workbench. Log in to localhost as administrator.</p> <p> </p> </li>
-<li><p>Click File &gt; New &gt; Application. In the Application Name field, enter <span class="code">CMDemoSample</span> and then click Finish.</p> </li>
-<li><p>Select <span class="code">CMDemoSample/1.0</span> and right-click <span class="code">NewProcess</span>. In the name field, enter <span class="code">CMRenderer</span> and then click Finish.</p> </li>
-<li><p>Drag the Activity Picker and add the Set Value Operation.</p> </li>
-<li><p>Create an output variable <span class="code">runtimeMap</span> of type ‘map’ and subtype ‘object’ (WorkflowDSC &gt; object).</p> </li>
-<li><p>Add mappings as shown here.</p>
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td style="text-align: center;"><strong>Location</strong></td>
-<td style="text-align: center;"><strong>Expression</strong></td>
-<td> </td>
-</tr>
-<tr>
-<td>/process_data/runtimeMap[@id="hint:externalAppForm"]<br /> </td>
-<td>true()<br /> </td>
-<td>Denotes if the application is an external application. Value in this field is mandatory for successful integration.<br /> </td>
-</tr>
-<tr>
-<td>/process_data/runtimeMap[@id="externalAppFormUrl"]<br /> </td>
-<td>concat('/lc/content/cm/createcorrespondence.html?cmLetterId=',/process_data/@letterId,'&cmUseTestData=1&cmPreview=0&cmLcWorkspace=1')<br /> </td>
-<td>Complete URL, which when loaded in workspace client iframe, renders the external application form user interface.</td>
-</tr>
-<tr>
-<td>/process_data/runtimeMap[@id="externalAppFormType"]</td>
-<td>'text/html'</td>
-<td>Optional. Denotes the external app content type. Not in use currently. Meant for any possible future enhancements (Default: text/html)<br /> </td>
-</tr>
-<tr>
-<td>/process_data/runtimeMap[@id="hideACLActions"]</td>
-<td><br /> true()</td>
-<td>Optional. If true, hides actions such as forward, reject, and share from the user interface (Default: false)</td>
-</tr>
-<tr>
-<td>/process_data/runtimeMap[@id="hideDirectActions"]</td>
-<td>false()</td>
-<td>Optional. If true, hides actions such as submit and save from the user interface (Default: false)<br /> </td>
-</tr>
-<tr>
-<td>/process_data/runtimeMap[@id="cancelMessage"]</td>
-<td>'submitCancel'</td>
-<td>Optional. Message from third-party app to notify workspace to cancel the task (that is, close without save/submit). (Default: cancel)</td>
-</tr>
-<tr>
-<td>/process_data/runtimeMap[@id="errorMessage"]</td>
-<td>'submitFault'</td>
-<td>Optional. Message from third-party app to notify workspace that an error occurred. (Default: error)</td>
-</tr>
-<tr>
-<td>/process_data/runtimeMap[@id="successMessage"]</td>
-<td>'submitSuccess'</td>
-<td>Optional. Message from third-party app to workspace that an event has occurred successfully. (Default: submit)</td>
-</tr>
-<tr>
-<td>/process_data/runtimeMap[@id="actionEnabledMessage"]</td>
-<td>'actionChanged'<br /> </td>
-<td>Optional. Message from third-party app to notify workspace whether to enable a direct action button. The third-party app is required to send a payload (true/false).</td>
-</tr>
-<tr>
-<td>/process_data/runtimeMap[@id="externalAppName"]</td>
-<td>'ccrSwf'<br /> </td>
-<td>Optional. Id of the embed tag of the third-party application. (Default 'ccrSwf')</td>
-</tr>
-</tbody>
-</table> </li>
-<li><p>Drag the Activity Picker to add an Execute Script Operation.</p> </li>
-<li><p>Add the following script:</p> <p><span class="code">import java.util.Map;</span></p> <p><span class="code">import java.util.HashMap;</span></p> <p><span class="code">Map runtimeMap = patExecContext.getProcessDataMapValue("runtimeMap");</span></p> <p><span class="code">Map routeActionMap = new HashMap();</span></p> <p><span class="code">routeActionMap.put("complete","Submit");</span></p> <p><span class="code">routeActionMap.put("Approve","Submit");</span></p> <p><span class="code">routeActionMap.put("Reject","Submit");</span></p> <p><span class="code">runtimeMap.put("routeActionMap",routeActionMap);</span></p> <p><span class="code">patExecContext.setProcessDataMapValue("runtimeMap",runtimeMap);</span></p> <p>This maps the user actions defined for the task with the third-party application actions. If no user action is defined for the task, ‘complete’ is used. Otherwise, the named actions are used. Since a render service is orchestration-agnostic, map all possible user actions (across processes) to the corresponding third-party app actions.</p> </li>
-<li><p> Add another variable to the application named letterId of type string. Mark it as input and required </p> <p> </p>
-<note>
-<p>Correspondence Management does not have a requirement of custom submit process as Correspondence Management submit takes care of the post process requirements. For other applications, a custom submit can be created for the additional requirements.</p>
-</note></li>
-</ol>
--->
 
 ## Create a task to render and submit a letter in AEM Workspace {#create-a-task-to-render-and-submit-a-letter-in-aem-workspace}
 

@@ -3,12 +3,12 @@ title: Application Server Install
 seo-title: Application Server Install
 description: Learn how to install AEM with an application server.
 seo-description: Learn how to install AEM with an application server.
-uuid: ae33d78c-4343-4434-ba44-5e800acc9359
+uuid: 437cdddd-708d-4125-b837-75410b349b27
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 682df2f4-cdbc-4bee-b8ec-f496b179a826
+discoiquuid: 3062aa37-2134-427f-ae81-ee259d144ddc
 index: y
 internal: n
 snippet: y
@@ -20,13 +20,6 @@ snippet: y
 >
 >`JAR` and `WAR` are the file types AEM is released in. These formats are undergoing quality assurance to accomodate the support levels Adobe has committed to.
 >
-
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-03-13T05:10:49.796-0400
-<p>This should not be the final form. To check later.<br /> </p>
--->
 
 This section tells you how to install Adobe Experience Manager (AEM) with an application server. Consult the [Supported Platforms](../../../sites/deploying/using/technical-requirements.md#servletenginesapplicationservers) section to see the specific support levels provided for the individual application servers.
 
@@ -67,14 +60,6 @@ You can change the default behaviour in the following way:
 
 * context root: rename the AEM war file
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>When using an EAR file , the web.xml file is located in EAR/WAR/Web-Inf.</p>
-</note>
--->
-
 #### Publish installation {#publish-installation}
 
 To get a publish instance deployed you need to set the run mode to publish:
@@ -106,50 +91,6 @@ For demonstration purposes it can be appropriate to install author and publish i
 1. After Deployment stop the two web applications.
 1. In both author and publish instances assure that in the sling.properties files the property felix.service.urlhandlers=false is set to false (default is that it is set to true).
 1. Start the two web applications again.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ppiegaze@adobe.com)
-Last Modified Date: 2018-03-13T05:10:57.669-0400
-<p>Upgrade info needs to be updated to 6.0. Until then, set old stuff to draft</p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Upgrade from previous CQ Versions</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>Before an upgrade read the <a href="#generaldescription">General Description</a> above.<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<p><strong>Upgrade from CQ 5.5 resp CQ 5.5 SP2.1:</strong></p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Create a Backup from your instance.</p> </li>
-<li><p>Uninstall the CQ 5.5 web application (the crx-quickstart folder will remain).</p> </li>
-<li><p>Configure the AEM web application if needed, the sling.home and sling.run.modes parameter needs to be the same as in the CQ 5.5 version.</p> </li>
-<li><p>Install the AEM web application.</p> </li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<p><strong>Upgrade from CQ 5.4</strong></p>
-<p>To upgrade from CQ 5.4 in your Application Server please consult the following page:<br /> </p>
-<p><a href="/content/docs/en/aem/6-3/deploy/upgrade/upgrading-to-5-6-1#Application Server Upgrade">Upgrading to AEM 5.6 with Application Servers</a></p>
--->
 
 ## Application Servers Installation Procedures {#application-servers-installation-procedures}
 

@@ -3,12 +3,12 @@ title: Configure Asset tagging using the Smart Content Service
 seo-title: Configure Asset tagging using the Smart Content Service
 description: Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service.
 seo-description: How to configure the Smart Tags Content Service from within AEM.
-uuid: 2c23a56f-4bf9-42fe-89bc-3c163d2fba3e
+uuid: 6b816e41-1f17-4208-9a65-51af7d4269c8
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 48acb00f-2e2b-405b-b3f9-21315ed13095
+discoiquuid: 17f84693-3d01-40b2-a0b9-61d0a0eb5552
 legacypath: /content/docs/en/aem/6-2/author/assets/managing-assets-touch-ui/configuring-smart-content-services-integration
 index: y
 internal: n
@@ -28,13 +28,6 @@ The article details out the following key tasks that are required to configure t
 * Configure your AEM instance using the API key and other credentials from Adobe I/O.  
 * Optionally, enable auto-tagging on asset upload.
 
-<!--
-Comment Type: annotation
-Last Modified By: asgupta
-Last Modified Date: 2018-06-19T05:37:42.741-0400
-It is Smart Content Service not smart tags cloud service. This change is done in the article.
--->
-
 ## Prerequisites {#prerequisites}
 
 Before you can use the Smart Content Service, ensure the following to create an integration on Adobe I/O:
@@ -47,13 +40,6 @@ To enable Enhanced Smart Tags, in addition to the above, also install [AEM 6.4 l
 ## Obtain public certificate {#obtain-public-certificate}
 
 A public certificate allows you to authenticate your profile on Adobe I/O.
-
-<!--
-Comment Type: annotation
-Last Modified By: asgupta
-Last Modified Date: 2018-06-27T05:14:17.770-0400
-Remove UDP. Replace with ADobe IO where required. The change is done and backported.
--->
 
 1. From the AEM user interface, tap the AEM logo, and go to **[!UICONTROL Tools > Cloud Services]**> **[!UICONTROL Legacy Cloud Services]**.  
 

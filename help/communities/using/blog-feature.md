@@ -3,12 +3,12 @@ title: Blog Feature
 seo-title: Blog Feature
 description: Community information in a journaling format
 seo-description: Community information in a journaling format
-uuid: 793ef91b-e9fa-4a5f-a07a-56b142e8460b
+uuid: d73d72b3-8e04-4e82-8fb9-a24c45ccb54f
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 5318e825-8e1d-46f3-925b-40b387250d32
+discoiquuid: 2b75cab3-bcce-4cc8-ab6f-b7b9b7ab6f98
 index: y
 internal: n
 snippet: y
@@ -57,17 +57,17 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/blog-developer-basics.md#essentialsforclientside) are included, this is how the `Blog`component will appear :
 
-![](assets/chlimage_1-153.png)
+![](assets/chlimage_1-146.png)
 
 And how the `Blog Sidebar` will appear :
 
-![](assets/chlimage_1-154.png)
+![](assets/chlimage_1-147.png)
 
 ### Configuring Blog {#configuring-blog}
 
 Select the placed `Blog` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-155.png) ![](assets/chlimage_1-156.png)
+![](assets/chlimage_1-148.png) ![](assets/chlimage_1-149.png)
 
 #### Settings tab {#settings-tab}
 
@@ -168,7 +168,7 @@ When you double-click the `Blog Sidebar` component, an edit dialog opens up.
 
 Under the **Journal Sidebar Settings** tab, specify the date format for archives and what type of entries to display in the sidebar :
 
-![](assets/chlimage_1-157.png)
+![](assets/chlimage_1-150.png)
 
 * **Date format** 
   The format used to display for archives of blog entries. The format uses placeholders following the Java convention.
@@ -220,7 +220,7 @@ The blog articles will appear under the appropriate tab (Published, Drafts or Sc
 
 When the signed in user has moderator or administrator privileges, they are able to perform [moderation tasks](../../communities/using/moderate-ugc.md) (as permitted by the configuration of the component) on all blog articles and comments posted to a blog.
 
-![](assets/chlimage_1-158.png)
+![](assets/chlimage_1-151.png)
 
 #### Members {#members}
 
@@ -235,13 +235,13 @@ Specifically, they may
 * delete their own blog article or comment
 * flag others' blog articles or comments
 
-![](assets/chlimage_1-159.png) ![](assets/chlimage_1-160.png)
+![](assets/chlimage_1-152.png) ![](assets/chlimage_1-153.png)
 
 #### Anonymous {#anonymous}
 
 Site visitors who are not signed in may only read posted blog articles and comments, translate them if supported, but may not add a blog article or comment nor flag others' articles or comments.
 
-![](assets/chlimage_1-161.png)
+![](assets/chlimage_1-154.png)
 
 ## Additional Information {#additional-information}
 

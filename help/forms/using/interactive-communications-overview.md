@@ -3,12 +3,12 @@ title: Interactive Communications Overview
 seo-title: Interactive Communications Overview
 description: This article includes overview, sample use cases, creation workflow, and differences between Interactive Communication and letter.
 seo-description: Interactive Communication key capabilities, sample use cases, creation workflow, and differences between Interactive Communication and Correspondence Management
-uuid: d3c326c0-c91e-4460-b40f-782d868740bf
+uuid: 70411779-5e0b-476d-9b23-f3583c27188f
 contentOwner: gtalwar
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: c184ecf8-493e-4ccc-8424-33a6c9873237
+discoiquuid: 2674a5ac-8118-4600-8a8d-32bafd019334
 index: y
 internal: n
 snippet: y
@@ -36,13 +36,6 @@ Following are the key capabilities of Interactive Communications:
 ## Sample use case {#sample-use-case}
 
 The [Welcome kit for a credit card customer](../../forms/using/finance-reference-site-walkthrough.md#creditcardapplicationwalkthrough) sample use case showcases the capabilities of an Interactive Communication. 
-
-<!--
-Comment Type: annotation
-Last Modified By: alvawb
-Last Modified Date: 2018-05-07T16:17:19.146-0400
-Broken link.
--->
 
 ## Interactive Communication creation  {#interactive-communication-creation}
 

@@ -3,11 +3,11 @@ title: Set up the Android studio project and build the Android app
 seo-title: Set up the Android studio project and build the Android app
 description: Steps to set up the Android Studio project and build the installer for the AEM Forms app
 seo-description: Steps to set up the Android Studio project and build the installer for the AEM Forms app
-uuid: 3c8028e4-9b24-4138-b779-e2eb2426d048
+uuid: 75efe132-79be-4513-a70c-b5881a9e38dd
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: forms-app
-discoiquuid: b403f183-8aa6-4c7a-80f1-3cec53c294a0
+discoiquuid: a2c60def-b98c-4080-ba1d-4ea936d75d9a
 index: y
 internal: n
 snippet: y
@@ -42,13 +42,6 @@ The following image displays the directory structure of the `android`folder in t
 ## Build standard AEM Forms app <br> {#set-up-the-xcode-project}
 
 1. Perform the following steps to set up a project in Android™ Studio and provide a signing identity:
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2017-11-22T03:39:04.616-0500
-   is signing identity required?
-   -->
 
    Log in to a machine that has Android™ Studio installed and configured.
 
@@ -106,13 +99,6 @@ The following image displays the directory structure of the `android`folder in t
    ![](assets/connecteddevice.png)
 
 After you have built the project, you can choose to install the app using Android™ Debug Bridge or Android™ Studio.
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-11-22T09:01:47.414-0500
-Check if this is applicable.
--->
 
 ### Using Android™ Debug Bridge {#andriod-debug-bridge}
 

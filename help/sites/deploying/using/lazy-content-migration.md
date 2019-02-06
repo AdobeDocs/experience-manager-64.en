@@ -3,12 +3,12 @@ title: Lazy Content Migration
 seo-title: Lazy Content Migration
 description: Learn about Lazy Content Migration in AEM 6.4.
 seo-description: Learn about Lazy Content Migration in AEM 6.4.
-uuid: a85c2f10-d287-449c-b836-32f1f676e5b1
+uuid: dd3ddb1c-5d07-49f1-a2a6-8e6fe0e12e28
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
-discoiquuid: 514e5776-a50a-4d95-a2e5-8ccf2db652c6
+discoiquuid: 808ae1a1-9e0e-467d-8671-059b39c4e960
 index: y
 internal: n
 snippet: y
@@ -19,20 +19,6 @@ snippet: y
 For the sake of backwards compatibility, content and configuration in **/etc** and **/content** starting with AEM 6.3 will not be touched or transformed immediately with the upgrade. This is done in order to ensure that dependencies of customer applications on those structures stay intact. The functionality relating to these content structures is still the same even though the content in an out of the box AEM 6.4 would be hosted in another place.
 
 While not all of those locations may be transformed automatically, there are a few delayed `CodeUpgradeTasks` also refered to as Lazy Content Migration. This allows customers to trigger those automatic transformations by restarting the instance with this system property:
-
-<!--
-Comment Type: annotation
-Last Modified By: chaikels
-Last Modified Date: 2018-03-22T15:53:53.588-0400
-when writing "not all those locations may be transformed automatically", we'll want to link to the /etc repository migration documentation when it's written
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: dgonzale
-Last Modified Date: 2018-04-10T16:26:02.908-0400
-We need to be clear about 1) Why Lazy Content migration is needed 2) What the implications of Lazy Content migration are on the Customer App (could/should there be code changes to go along w this? If so what for each item in the lazy migration? 3) Call out these are not captured as part of Pattern Detector 4) Need to be very clear about immediate vs delayed 5) Each row in the lazy migration table should be clear about what its changing (ie so cusotmer apps can be update) and how to test for the change, and any clean-up tasks (or will migrated content be auto-deleted from the original location)
--->
 
 ```shell
 -Dcom.adobe.upgrade.forcemigration=true
@@ -69,11 +55,4 @@ Below is the full list of `CodeUpgradeTasks` introduced in 6.4:
 | `CQ64CommunitiesConfigsCleanupTask` |< 6.3 |Delayed |Moving SRP cloud configurations, community watchwords configurations, cleans up **/etc/social** and **/etc/enablement** (any references and data needs to be be adjusted when lazy migration is run - no application part should be depending on this sturcture anymore). |
 | `CQ64LegacyCloudSettingsCleanupTask` |< 6.4 |Delayed |Cleans up **/etc/cloudsettings** (containing ContextHub Configuration). Configuration is automatically migrated on first access. In case Lazy Content Migration is started along with upgrade this content in **/etc/cloudsettings** must be preserved via package before the upgrade and reinstalled for the implicit transformation to kick in, along with a subsequent uninstallation of the package after completion. |
 | `CQ64UsersTitleFixTask` |< 6.4 |Delayed |Adjusts legacy title structure to title in user profile node. |
-
-<!--
-Comment Type: annotation
-Last Modified By: dgonzale
-Last Modified Date: 2018-03-22T15:51:03.897-0400
-We should make clear what the difference between Immediate and Delayed is - and maybe avoid using them in a "different' context in the intro paragraph to avoid confusion.
--->
 

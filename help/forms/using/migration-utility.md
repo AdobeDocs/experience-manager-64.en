@@ -3,14 +3,14 @@ title: Migrate AEM Forms assets and documents
 seo-title: Migrate AEM Forms assets and documents
 description: The Migration utility allows you to Migrate AEM Forms assets and documents from AEM 6.3 Forms or prior versions to AEM 6.4 Forms.
 seo-description: The Migration utility allows you to Migrate AEM Forms assets and documents from AEM 6.3 Forms or prior versions to AEM 6.4 Forms.
-uuid: 7f32501a-2d41-4a8d-a5a6-9714c1c05070
+uuid: 60cad862-6b1a-49eb-98a0-0b021b0b8110
 content-type: reference
 topic-tags: correspondence-management
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-strategy: max-2018
-discoiquuid: 330a69a3-4e28-4218-b890-b01a00723a34
+discoiquuid: 4d47b28c-fb09-4cd6-9186-8982aa57b94e
 index: y
 internal: n
 snippet: y
@@ -45,40 +45,6 @@ If it is an out of place (fresh) installation, before you can use the assets and
 
 Then you need to import your asset package (zip or cmp) on the new setup and then update the assets and documents by [running the Migration utility](#runningmigrationutility). Due to [backward compatibility-related](../../sites/deploying/using/backward-compatibility.md) changes, locations of a few folders in crx-repository are changed. Manually export and import dependencies (custom libraries and assets) from previous setup to fresh environment.
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-19T09:15:00.123-0500
-check AEM Forms 6.4 User Guide page. link Check with RJ (applicable only for Correspondence Management assets and when you are migrating from a version prior to AEM 6.2 Forms) Removed - since no direct upgrade from 6.1
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-21T01:51:16.944-0500
-in place not available right now - but you can try with the fresh installation - hidden
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-26T06:06:44.630-0400
-shift to upgrade documentation - KS
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-04-06T02:57:38.193-0400
-Remove pre-migration utility from the graphics below
--->
-
-<!--
-Comment Type: draft
-
-<img alt="Approaches to migration using the Migration utility" imageRotate="0" src="assets/MigrationUtility.png" title="Approaches to migration" />
--->
-
 ## Read before you proceed with the migration {##prerequisites}
 
 For Correspondence Management assets:
@@ -95,13 +61,6 @@ For Correspondence Management assets:
 * Any tab spaces being used for alignment in text modules need to be readjusted. For more information, see [Correspondence Management - Using tab spacing for arranging text](/content/help/en/aem-forms/kb/cm-tab-spacing-limitations).
 * Asset composer configurations changes to Correspondence Management configurations.   
 * Assets are moved under folders with names such as Existing Text and Existing List.
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-04-06T03:01:21.944-0400
-Since image content modules are converted to DAM assets and layouts and fragments are added to forms during migration, the Updated By property for these modules changes to admin. gyanesh to confirm Make UI items bold
--->
 
 ## Using the Migration utility {#using-the-migration-utility}
 
@@ -137,41 +96,6 @@ When you run the Migration Utility for the first time, a log is created with the
         * Themes
         * Letters
         * Data dictionaries
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-20T02:20:55.164-0500
-   Check with RJ - > Check one point with Davinder During assets migration, you may find warning messages such as “Conflict found for…”. Such messages indicate that rules for some of the components in adaptive forms could not be migrated. For example, if the component had an event which had both rules and scripts, if rules occur after any script none of the rules for the component are migrated. However, such rules can be migrated by opening the rule editor in adaptive form authoring. - Davinder - this is fine These components can be migrated by opening them in Rule Editor in Adaptive Forms editor. - Davinder To migrate rules and scripts in custom components, tap Adaptive Forms Custom Components Migration, and in the next screen, tap Start Migration. The following get migrated: Rules and Scripts created using rule editor (6.2 and later) Scripts created using the Script tab in the UI of 6.2 and later To migrate templates, tap Adaptive Forms Template Migration, and in the next screen, tap Start Migration. The following get migrated: Old templates - the adaptive forms templates created under /apps using AEM Forms 6.2 or later. This includes the scripts that were defined in the template components. New templates - Adaptive forms templates created using template editor under /conf. This includes migration of rules and scripts created using the rule editor.
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-19T08:35:15.226-0500
-   AEM Forms Cloud Configuration Management - check with RJ for details
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-20T02:19:18.761-0500
-   Check with Davinder Kaur Themese and AF - do they get migrated? Anything else to be added? Templates - Custom and out of the box Check with Sachin / Sakshi
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-20T10:11:09.315-0500
-   why will I migrate AEM Forms cloud services Considerations before running
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-21T06:09:35.353-0500
-   Main - > etc cleanup due to 0DT paradigm - Separation of content and apps move to conf - the cloud service If custommizations are there - first change the customizations classic UI support -> Touch UI
-   -->
 
    >[!NOTE]
    >
@@ -211,13 +135,6 @@ When you run the Migration Utility for the first time, a log is created with the
         * Adaptive form templates created under /apps or /conf using AEM Template Editor.
 
     * Migrate AEM Forms Cloud Configuration services to leverage the new context-aware cloud service paradigm, which includes the touch enabled UI (under /conf). When you migrate AEM Forms Cloud Configuration services, the cloud services in /etc are moved to /conf. If you do not have any cloud services customizations that depend on the legacy paths (/etc), it is recommended that you run the migration utility right after upgrading to 6.4 and use cloud configuration Touch UI for any further work. If you have any existing cloud services customizations, continue using classic UI on upgraded setup until the customizations are updated to align with the migrated paths (/conf) and then run the migration utility.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-04-16T03:21:56.969-0400
-   Sachin Jain
-   -->
 
    To migrate **AEM Forms cloud services**, which include the following, tap AEM Forms Cloud Configuration Migration (cloud config migration is independent of AEMFD Compatibility package), tap AEM Forms Cloud Configurations Migration and then on the Configuration Migration page, tap **Start Migration**:
 
@@ -271,11 +188,4 @@ After running the Migration utility, take care of the following housekeeping tas
 
 1. Publish all the assets that were published in the previous system before migration. The migration utility updates the assets only on the author instance and to update the assets on the publish instance (s) you need to publish the assets.
 1. In AEM Forms 6.4, some of the rights of the forms users groups are changed. If you want any of your users to be able to upload XDPs and Adaptive Forms containing scripts or use code editor, you need to add them to forms-power-users group. Similarly, template-authors can no longer use the code editor in Rule Editor. For users to be able to use code editor, add them to af-template-script-writers group. For instructions on adding users to groups, see [Managing Users and User Groups](../../communities/using/users.md).
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-26T06:49:01.431-0400
-shift to upgrade: In case of export/import, you need to replicate the configurations set on the old system (export system) to the new system (import system). This is to make sure that the appearance and other settings such as audit enabled/disabled, cache, reload enabled/disabled remain the same in the latest version of AEM Forms as they were in the previous version. For more information on the configuration properties, see Correspondence Management Configuration Properties. For fresh install of AEM Forms 6.4, create new users and assign forms-users group (for AEM Forms on OSGI) or Forms Manager Administrator role (for AEM Forms on JEE setup). For in-place upgrade, assign the new group\role to the existing users (forms-users group for OSGI and Forms Manager Administrator role for JEE).
--->
 

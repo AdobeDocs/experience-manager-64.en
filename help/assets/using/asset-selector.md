@@ -3,12 +3,12 @@ title: Asset Selector
 seo-title: Asset Selector
 description: Learn how to use the asset selector to search, filter, browse, and fetch metadata for assets within Adobe Experience Manager (AEM) Assets. Also learn how to customize the asset selector interface.
 seo-description: Learn how to use the asset selector to search, filter, browse, and fetch metadata for assets within Adobe Experience Manager (AEM) Assets. Also learn how to customize the asset selector interface.
-uuid: 15716a7d-59b2-4612-b89b-dd6a5d654b27
+uuid: 5d47ad1a-1f92-4d17-9bb3-ebddd2d64af1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 16619399-61a8-45db-8da4-e56aa0802bbf
+discoiquuid: 0ae6daaa-4bb0-492f-bd81-7e6069f4f0a4
 index: y
 internal: n
 snippet: y
@@ -86,15 +86,15 @@ You can pass the following request parameters in a URL to launch the asset selec
 1. To access the asset selector interface, go to *http://&lt;host&gt;:&lt;port&gt;/aem/assetpicker*.
 1. Navigate to the desired folder, and select one or more assets.
 
-   ![](assets/chlimage_1-454.png)
+   ![](assets/chlimage_1-445.png)
 
    Alternatively, you can search for the desired asset from the OmniSearch box and then select it.
 
-   ![](assets/chlimage_1-455.png)
+   ![](assets/chlimage_1-446.png)
 
    If you search for asssets using the OmniSearch box, you can select various filters from the **Filters** pane to refine your search.
 
-   ![](assets/chlimage_1-456.png)
+   ![](assets/chlimage_1-447.png)
 
 1. Tap/click **Select** from the toolbar.
 

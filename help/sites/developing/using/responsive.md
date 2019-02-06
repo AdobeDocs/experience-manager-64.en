@@ -3,12 +3,12 @@ title: Responsive Design for Web Pages
 seo-title: Responsive Design for Web Pages
 description: With responsive design, the same pages can be effectively displayed on multiple devices in multiple orientations
 seo-description: With responsive design, the same pages can be effectively displayed on multiple devices in multiple orientations
-uuid: 06130759-9ca0-490e-b8c9-f24fa789c0ca
+uuid: 747a8686-ca88-49f7-830e-30ede103b1c5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: mobile-web
 content-type: reference
-discoiquuid: 25c3368a-ac94-4131-b96d-e21cf0a02c2c
+discoiquuid: 5d58e657-5307-42ad-b895-e4b6fe7fdf3c
 legacypath: /content/docs/en/aem/6-0/develop/mobile/responsive
 index: y
 internal: n
@@ -172,19 +172,6 @@ See previews of your pages in different viewport sizes to test the behavior of y
 To enable the device preview in Sidekick, you must configure the page and the MobileEmulatorProvider service. Another page configuration controls the list of devices that appears in the Devices list.
 
 ### Adding the Devices List {#adding-the-devices-list}
-
-<!--
-Comment Type: draft
-
-<h3>Adding the Devices List to Sidekick</h3>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:25:21.074-0500
-<p>needs to be rewritten to cover the touch-optimized UI too....have changed the title above to provide a stable link (original in draft)<br /> </p>
--->
 
 The Devices list appears in Sidekick when your page includes the JSP script that renders the Devices list. To add the Devices list to Sidekick, include the `/libs/wcm/mobile/components/simulator/simulator.jsp` script in the `head` section of your page.
 

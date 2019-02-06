@@ -3,12 +3,12 @@ title: Dialog Conversion Tool
 seo-title: Dialog Conversion Tool
 description: The dialog conversion tool is provided to help you extend existing components that only have a dialog defined for the classic UI
 seo-description: The dialog conversion tool is provided to help you extend existing components that only have a dialog defined for the classic UI
-uuid: f2f38060-fef1-48ec-b07d-f66c3b87da35
+uuid: f499d698-8ccf-4241-9b37-ea9fdbdba7eb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: d2c70790-f94a-4433-81b6-06d5eb8ac9f2
+discoiquuid: b3e149c8-42f4-49ed-8ebd-e4512bc974c0
 index: y
 internal: n
 snippet: y
@@ -62,15 +62,15 @@ Use the following steps to convert one or more dialogs:
 
    `http://<*hostname*>:<*port*>/libs/cq/dialogconversion/content/console.html`
 
-   ![](assets/chlimage_1-24.png)
+   ![](assets/chlimage_1-23.png)
 
 1. Enter the required path such as `/apps/geometrixx/components`. You can also enter a direct path to a single dialog such as `/apps/geometrixx/components/lead`.
 
-   ![](assets/chlimage_1-25.png)
+   ![](assets/chlimage_1-24.png)
 
 1. Select **Show dialogs** to display all dialogs below that location.
 
-   ![](assets/chlimage_1-26.png)
+   ![](assets/chlimage_1-25.png)
 
    The table lists all existing legacy dialogs below the entered path. Each dialog has its Type listed. Types include:
 
@@ -86,21 +86,21 @@ Use the following steps to convert one or more dialogs:
 
 1. Select one or more dialogs for conversion and click or tap **Convert X dialog(s)** to start the conversion process.
 
-   ![](assets/chlimage_1-27.png)
+   ![](assets/chlimage_1-26.png)
 
 1. The selected dialogs are listed with the results of their conversions. If the conversion was successful, then the row contains links to view the converted dialog or to open it in CRXDE Lite.
 
    Click or tap **Back** to return to the Dialog Conversion Tool.
 
-   ![](assets/chlimage_1-28.png)
+   ![](assets/chlimage_1-27.png)
 
 1. Back in the Dialog Conversion Tool, the converted dialogs are no longer shown in the list. Note however that the total number of dialogs found are still listed, including those already converted, i.e. the number of rows in the table does not necessarily match that of the number found.
 
-   ![](assets/chlimage_1-29.png)
+   ![](assets/chlimage_1-28.png)
 
 1. Check the option **Show converted dialogs** to show those dialogs located at the specified path that have already been converted.
 
-   ![](assets/chlimage_1-30.png)
+   ![](assets/chlimage_1-29.png)
 
    If the dialog is already converted, links are also provided to the converted dialog. A dialog is considered converted if there is a sibling Granite UI / Coral 3 dialog already available.
 

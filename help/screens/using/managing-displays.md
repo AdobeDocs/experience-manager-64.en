@@ -3,12 +3,12 @@ title: Creating and Managing Displays
 seo-title: Managing Displays
 description: Follow this page to learn about creating a new display and device config. Additionally, learn about the display dashboard.
 seo-description: Follow this page to learn about creating a new display and device config. Additionally, learn about the display dashboard.
-uuid: c71c0287-b1b1-4685-82a3-7b0a0fb6ec6b
+uuid: 5b86b8f4-b28e-4921-adc8-ee8d5a38381f
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: e90e563a-2076-41e9-bb59-8088d539f6e4
+discoiquuid: bbcb501d-cb45-4df6-94d6-76b1119c68ea
 index: y
 internal: n
 snippet: y

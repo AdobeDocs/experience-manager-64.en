@@ -3,12 +3,12 @@ title: Files to back up and recover
 seo-title: Files to back up and recover
 description: This document describes the application and data files that must be backed up.
 seo-description: This document describes the application and data files that must be backed up.
-uuid: 29066e4c-f790-48c2-9d7f-48e8fffb7ea9
+uuid: a4f7005c-214e-4e95-b215-fa3887f4c5c4
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 90d9b118-0747-47b1-82bd-3007281583ef
+discoiquuid: f764cf9b-060f-4916-82a0-0f6ea2120ecf
 index: y
 internal: n
 snippet: y
@@ -55,13 +55,6 @@ You can enable AEM forms document storage in the AEM forms database using the ad
 
 When you select the “Enable document storage in the database” option in the Core System Settings in the administration console or by using Configuration Manager, AEM forms does not allow snapshot backup mode and rolling backup mode. Therefore, you do not need to manage backup modes using AEM forms. If you use this option, you should back up the GDS only once after enabling the option. When you recover AEM forms from a backup, you do not need to rename the backup directory for the GDS or restore GDS.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Bug 2356957. Reference to the DBDS option. This section would change per ECO 41 (2350860)</p>
--->
-
 ## AEM repository {#aem-repository}
 
 AEM repository (crx-repository) is created if crx-repository is configured while installing AEM forms. The location of the crx-repository directory is determined during the AEM forms installation process. AEM repository backup and restore is required along with database and GDS for consistent AEM forms data in AEM forms. AEM repository contains data for Correspondence Management Solution, Forms manager, and AEM Forms Workspace.
@@ -97,13 +90,6 @@ To back up the database in real time, you must either use snapshot mode or confi
 >[!NOTE]
 >
 >Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See [Adobe product lifecycle document](http://www.adobe.com/support/products/enterprise/eol/eol_matrix.html). To know about configuring Content Services (Deprecated), see [Administering Content Services](http://help.adobe.com/en_US/livecycle/9.0/admin_contentservices.pdf).
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Need to refer to the DBDS option. This section might change per ECO 41 (2350860)</p>
--->
 
 ### DB2 {#db2}
 
@@ -204,13 +190,6 @@ If the /backup-lucene-indexes directory is not present, back up the /lucene-inde
 The default location for the Index Root directory is *[aem-forms root]*/lucene-indexes on each node.
 
 ## Customer-installed fonts {#customer-installed-fonts}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Bug 1729380:</p>
--->
 
 If you installed additional fonts on your AEM forms environment, you must back them up separately. Back up all Adobe and customer font directories that are specified in administration console under Settings &gt; Core System &gt; Configurations. Ensure that you back up the entire font directory.
 

@@ -3,13 +3,13 @@ title: Compatibility Package
 seo-title: Compatibility Package
 description: Installing the Compatibility package on AEM Forms 6.4 allows you to use the Correspondence Management assets from AEM Forms 6.3 and deprecated adaptive forms templates and pages 
 seo-description: Installing the Compatibility package on AEM Forms 6.4 allows you to use the Correspondence Management assets from AEM Forms 6.3 and deprecated adaptive forms templates and pages
-uuid: 420ddb2e-f542-40b1-b3f6-83e756399ef2
+uuid: 8c39243c-d7a2-42e6-b3ac-b55b66009ff3
 contentOwner: gtalwar
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: installing
 topic-tags: correspondence-management
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: 52428030-80ed-44e5-9439-782a113bd69c
+discoiquuid: 5b4f1eab-6c15-42c0-adb9-b9c8e979047f
 index: y
 internal: n
 snippet: y
@@ -32,13 +32,6 @@ The AEMFD Compatibility package allows you to use the following assets from AEM 
 
 For more information, see [Assets made compatible with AEM Forms 6.4 by installing the Compatibility package](../../forms/using/compatibility-package.md#assetsmadecompatible).
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-04-11T02:24:20.738-0400
-https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/sites/deploying/using/backward-compatibility.html
--->
-
 ## Add support for AEM Forms 6.3 and 6.2 assets in AEM Forms 6.4 {#add-support-for-aem-forms-and-assets-in-aem-forms}
 
 After performing an upgrade, do the following to install the AEMFD compatibility package and make your assets compatible with 6.4:
@@ -48,13 +41,6 @@ Ensure that you have [AEM Compatibility package](../../sites/deploying/using/bac
 1. Install the [Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT).
 
    For more information on uploading and installing the package, see [How to work with packages](../../sites/administering/using/package-manager.md).
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-04-16T03:42:19.551-0400
-   link to the package share
-   -->
 
 1. After the logs are stabilized, restart the server. 
 1. Use the migration utility for making your assets compatible with 6.4.
@@ -88,11 +74,4 @@ By installing the Compatibility package, you can make the following assets and t
     * /libs/fd/af/components/page/survey
     * /libs/fd/af/components/page/tabbedenrollment
     * /libs/fd/afaddon/components/page/advancedenrollment
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-04-11T02:43:59.685-0400
-doc fragments too
--->
 

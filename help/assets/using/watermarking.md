@@ -3,12 +3,12 @@ title: Watermarking
 seo-title: Watermarking
 description: Learn how to use the Watermarking feature to add a digital watermark to assets.
 seo-description: Use the Watermarking feature to add a digital watermark to assets, which helps users verify your authenticity and ownership of copyright of the assets.
-uuid: 722498ed-4989-47d8-948b-5ff0dd76bb25
+uuid: 6f931acb-3d12-419f-9556-1f42c52a40f3
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 6b859602-ea9f-46aa-958b-a322d023ecd2
+discoiquuid: 05fd66c9-60c6-46d5-81aa-45db93aa566e
 index: y
 internal: n
 snippet: y

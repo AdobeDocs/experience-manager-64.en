@@ -3,11 +3,11 @@ title: Barcoded Forms Service
 seo-title: Using AEM Forms Barcoded Forms Service
 description: Use AEM Forms Barcoded Forms service to extract data from electronic images of barcodes. 
 seo-description: Use AEM Forms Barcoded Forms service to extract data from electronic images of barcodes. 
-uuid: 4e89bc12-58dc-4a55-89d7-90fcf8114839
+uuid: a6c05c29-39ef-4355-a97c-a2892b128ecc
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
-discoiquuid: 3c6f89d0-605b-48f7-977c-1701197d6b9d
+discoiquuid: bde9e9d5-b23f-4463-9da0-c482667c8f80
 index: y
 internal: n
 snippet: y

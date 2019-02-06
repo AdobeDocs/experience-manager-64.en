@@ -3,11 +3,11 @@ title: Customizing tabs for a task
 seo-title: Customizing tabs for a task
 description: How-to customize the names of the tabs for your tasks, in LiveCycle AEM Forms workspace.
 seo-description: How-to customize the names of the tabs for your tasks, in LiveCycle AEM Forms workspace.
-uuid: 8f35640f-7af7-47ff-a463-107e901edfd3
+uuid: 4fbba804-a2b0-4f5a-833e-0a1bce6ea2ef
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: b4705064-863c-4738-97be-fb5862fc16fa
+discoiquuid: ae108352-7d8e-4843-90f6-d4966f49ba06
 index: y
 internal: n
 snippet: y

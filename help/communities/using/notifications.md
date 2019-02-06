@@ -3,12 +3,12 @@ title: Communities Notifications
 seo-title: Communities Notifications
 description: AEM Communities has notifications that display events of interest to the signed-in community member
 seo-description: AEM Communities has notifications that display events of interest to the signed-in community member
-uuid: 0df90d04-e139-4ded-a4a4-1986bf23fe3d
+uuid: 85925cda-18d3-46ff-8344-c7dbc4b25175
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: dc370b9b-8876-4be5-8ee2-4064d9f4805b
+discoiquuid: d4d34f9d-fcc4-41f1-a160-68b8c30fc5ae
 index: y
 internal: n
 snippet: y
@@ -65,7 +65,7 @@ Note that
 
 ## Notifications from Following {#notifications-from-following}
 
-![](assets/chlimage_1-261.png)
+![](assets/chlimage_1-253.png)
 
 The **Follow **button provides a means to follow entries as activities, subscriptions and/or notifications. Each time the **Follow **button is selected, it is possible to toggle on or off a selection. The `Email Subscriptions` selection is only present when configured.
 
@@ -88,17 +88,17 @@ By selecting the Notification Settings link from the Notifications page, it is p
 
 The web channel is always enabled.
 
-![](assets/chlimage_1-262.png)
+![](assets/chlimage_1-254.png)
 
 The email channel, which relies on proper [configuration of email](../../communities/using/email.md), provides the same settings as for the web channel.
 
 The email channel is off by default.
 
-![](assets/chlimage_1-263.png)
+![](assets/chlimage_1-255.png)
 
 It may be turned on by a member, but still depends on email being configured.
 
-![](assets/chlimage_1-264.png)
+![](assets/chlimage_1-256.png)
 
 ## Viewing Notifications {#viewing-notifications}
 
@@ -108,11 +108,11 @@ A [wizard created community site](../../communities/using/sites-console.md) now 
 
 When visiting the published site, selecting the `Notifications` link will display all notifications for the member.
 
-![](assets/chlimage_1-265.png)
+![](assets/chlimage_1-257.png)
 
 ### Email Notifications {#email-notifications}
 
 When the email channel is enabled, the member receives an email which contains a link to the content on the web.
 
-![](assets/chlimage_1-266.png)
+![](assets/chlimage_1-258.png)
 

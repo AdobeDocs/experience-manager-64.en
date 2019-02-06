@@ -3,12 +3,12 @@ title: Previewing Pages Using ContextHub Data
 seo-title: Previewing Pages Using ContextHub Data
 description: The ContextHub toolbar displays data from ContextHub stores and enables you to change store data and  is useful for previewing content
 seo-description: The ContextHub toolbar displays data from ContextHub stores and enables you to change store data and  is useful for previewing content
-uuid: 9c55ec6d-3538-401d-9d0c-1046067a5428
+uuid: c39b523d-8e70-4bae-9272-18bb75ef9696
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 2f75c0aa-e5e9-47da-b609-0565dfdd0ead
+discoiquuid: 8ffd9bd1-25d2-4878-8baf-a215a04fd4ed
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ The ContextHub toolbar is available in Preview mode. The toolbar is available on
 
 1. With your page open for editing, on the toolbar click or tap Preview.
 
-   ![](assets/chlimage_1-228.png)
+   ![](assets/chlimage_1-220.png)
 
 1. To reveal the toolbar, click or tap the ContextHub icon.
 
@@ -65,5 +65,5 @@ The popup overlay of a module can include form elements that enable you to chang
 
 Popup overlays can include an icon that you click or tap to expand the popup content to cover the entire browser window or screen.
 
-![](assets/chlimage_1-229.png)
+![](assets/chlimage_1-221.png)
 

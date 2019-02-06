@@ -3,12 +3,12 @@ title: Adaptive Template Rendering
 seo-title: Adaptive Template Rendering
 description: null
 seo-description: null
-uuid: f52d08f3-5b72-4fad-8f95-d350c68499bd
+uuid: 9dc6ab51-338a-4dec-9020-07e0b2054124
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 8e52c2b6-264b-46b9-b1df-02fcbb6d8d79
+discoiquuid: a960d2b7-44b8-434d-8f37-8d4cacbe874f
 index: y
 internal: n
 snippet: y
@@ -45,11 +45,11 @@ For this example, we are going to configure the existing device group **Smart Ph
 
    Set the option **Disable Emulator** and save.
 
-   ![](assets/chlimage_1-170.png)
+   ![](assets/chlimage_1-168.png)
 
 1. The selector will be available for the **Blackberry** and **iPhone 4** provided the device group **Smart Phone** is added to the template and page structures in the following steps.
 
-   ![](assets/chlimage_1-171.png)
+   ![](assets/chlimage_1-169.png)
 
 1. Using CRX DE Lite, allow the device group to be used on your template by adding it to the multi-value string property `cq:deviceGroups` on the structure of your template.
 
@@ -59,7 +59,7 @@ For this example, we are going to configure the existing device group **Smart Ph
 
    `/conf/we-retail/settings/wcm/templates/experience-page/structure/jcr:content`
 
-   ![](assets/chlimage_1-172.png)
+   ![](assets/chlimage_1-170.png)
 
 1. Using CRX DE Lite, allow the device group to be used on your site by adding it to the multi-value string property `cq:deviceGroups` on the structure of your site.
 
@@ -69,7 +69,7 @@ For this example, we are going to configure the existing device group **Smart Ph
 
    `/content/we-retail/jcr:content`
 
-   ![](assets/chlimage_1-173.png)
+   ![](assets/chlimage_1-171.png)
 
 Now when using the [emulator](../../../sites/authoring/using/responsive-layout.md#main-pars-title-2) in the page editor (such as when [modifying the layout](../../../sites/authoring/using/responsive-layout.md)) and you choose a device of the configured device group, the page will be rendered with a selector as part of the URL.
 
@@ -77,5 +77,5 @@ In our example, when editing a page based on the **Experience Page** template, a
 
 The page can also be called directly using this selector.
 
-![](assets/chlimage_1-174.png)
+![](assets/chlimage_1-172.png)
 

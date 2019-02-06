@@ -3,12 +3,12 @@ title: Deploying Communities
 seo-title: Deploying Communities
 description: How to deploy AEM Communities
 seo-description: How to deploy AEM Communities
-uuid: df8b055f-9f50-4b37-b8c0-12aa83fb0bb1
+uuid: 03a16e76-ebfa-4d71-9e83-a12703446632
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 92b11673-2ebc-4916-b7c7-40bad4e68fde
+discoiquuid: 37ed54b1-924d-4534-9552-4229b109a42b
 index: y
 internal: n
 snippet: y
@@ -134,16 +134,9 @@ Further information on installing bundles is found on the [Web Console](../../si
 
 #### Example : Installed MySQL Connector Bundle {#example-installed-mysql-connector-bundle}
 
-![](assets/chlimage_1-422.png) 
+![](assets/chlimage_1-409.png) 
 
 ### SCORM Package {#scorm-package}
-
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-10-29T07:19:36.581-0400
-Updated the topic as per engineering suggestions.
--->
 
 Shareable Content Object Reference Model (SCORM) is a collection of standards and specifications for e-learning. SCORM also defines how content may be packaged into a transferable ZIP file.
 
@@ -261,7 +254,7 @@ By default, the `AEM Communities Publisher Configuration` OSGi configuration is 
 
 Therefore, it is necessary to **edit the configuration on all secondary publish instances** to uncheck the **`Primary Publisher`** checkbox.
 
-![](assets/chlimage_1-423.png)
+![](assets/chlimage_1-410.png)
 
 For all other (secondary) publish instances in a publish farm :
 
@@ -305,11 +298,11 @@ The following images show the results of changing the port from 4503 to 6103 by 
 
 #### Default Agent (publish) {#default-agent-publish}
 
-![](assets/chlimage_1-424.png) 
+![](assets/chlimage_1-411.png) 
 
 #### Reverse Replication Agent (publish reverse) {#reverse-replication-agent-publish-reverse}
 
-![](assets/chlimage_1-425.png) 
+![](assets/chlimage_1-412.png) 
 
 ### Tunnel Service on Author {#tunnel-service-on-author}
 
@@ -333,7 +326,7 @@ To enable the tunnel service :
 * check the **enable **box
 * select **Save**
 
-![](assets/chlimage_1-426.png) 
+![](assets/chlimage_1-413.png) 
 
 ### Replicate the Crypto Key {#replicate-the-crypto-key}
 
@@ -393,7 +386,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 
 * [refresh the Granite Crypto bundle](#refreshthegranitecryptobundle)
 
-![](assets/chlimage_1-427.png) 
+![](assets/chlimage_1-414.png) 
 
 #### Refresh the Granite Crypto Bundle {#refresh-the-granite-crypto-bundle}
 
@@ -404,7 +397,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 * locate `Adobe Granite Crypto Support` bundle (com.adobe.granite.crypto)
 * select **Refresh**
 
-![](assets/chlimage_1-428.png)
+![](assets/chlimage_1-415.png)
 
 * after a moment, a **Success **dialog should appear :  
   `Operation completed successfully.`
@@ -440,13 +433,6 @@ If using a Dispatcher, see :
 * [Installing Dispatcher](/content/help/en/experience-manager/dispatcher/using/dispatcher-install)
 * [Configuring Dispatcher for Communities](../../communities/using/dispatcher.md)
 * [Known Issues](../../communities/using/troubleshooting.md#dispatcherrefetchfails)
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-10-23T11:35:00.488-0400
-<p>Changed the Dispatcher download link due to CQDOC-13423.</p>
--->
 
 ## Related Communities Documentation {#related-communities-documentation}
 

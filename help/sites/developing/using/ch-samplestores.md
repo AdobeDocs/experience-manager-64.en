@@ -3,12 +3,12 @@ title: Sample ContextHub Store Candidates
 seo-title: Sample ContextHub Store Candidates
 description: ContextHub provides several sample store candidates that you can use in your solutions
 seo-description: ContextHub provides several sample store candidates that you can use in your solutions
-uuid: 746cf140-dad5-474d-9d4a-8d4e015cf408
+uuid: ee04dddf-c556-4492-9a8c-698ccafb7e9d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 56e663e7-0c7b-4818-b6ce-2b9683b34d0a
+discoiquuid: 25008b96-c502-487b-8e6e-67713a56181a
 index: y
 internal: n
 snippet: y
@@ -47,12 +47,6 @@ When you create an aem.segmentation store, you do not need to provide a detailed
    }
 }
 ```
-
-<!--
-Comment Type: draft
-
-<p><strong>Data Tree</strong></p>
--->
 
 ## aem.resolvedsegments Sample Store Candidate {#aem-resolvedsegments-sample-store-candidate}
 

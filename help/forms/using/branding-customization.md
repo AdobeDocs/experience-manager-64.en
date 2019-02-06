@@ -3,12 +3,12 @@ title: Branding Customization
 seo-title: Branding Customization
 description: Customize the application icon, application name, launch images, and login page to provide a distinct organization-specific look and feel to AEM Forms app.
 seo-description: Customize the application icon, application name, launch images, and login page to provide a distinct organization-specific look and feel to AEM Forms app.
-uuid: 13cdc21b-e35f-4af0-b114-afab2b8b3fa0
+uuid: b26865e7-e456-4389-aac5-941a88b3943a
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 915b7b89-5eeb-4069-babd-80942ca22333
+discoiquuid: e9964167-66e9-40db-a7d2-5f1f333384ab
 index: y
 internal: n
 snippet: y

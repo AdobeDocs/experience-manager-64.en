@@ -3,12 +3,12 @@ title: Asset link sharing
 seo-title: Asset link sharing
 description: This article describes how to share assets, folders, and collections within AEM Assets as a URL to external parties.
 seo-description: Share assets, folders, and collections as a URL to external parties without them having to first log in to AEM Assets, thereby securing your asset repository.
-uuid: 12d5f4e2-7ee6-44a3-b40a-02f6cff8a323
+uuid: 57d630ce-4d33-46ac-8a00-0129523f40e2
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: b930c8e5-6ef1-4bde-b3cd-d720f6fe5b77
+discoiquuid: 8dc7956c-b075-4c49-809b-770e9cc42149
 index: y
 internal: n
 snippet: y
@@ -37,7 +37,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
 
    An asset link is auto-created in the **[!UICONTROL Share Link]** field. Copy this link and share it with the users. The default expiration time for the link is 7 days.
 
-   ![Dialog with the Link Share](assets/chlimage_1-507.png)
+   ![Dialog with the Link Share](assets/chlimage_1-498.png)
 
    Alternatively, proceed to perform steps 3-7 of this procedure to add email recipients, configure the expiration time for the link, and send it from the dialog.
 
@@ -72,7 +72,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
 
    To enable emails to be sent out to users, configure the SMTP server details in [Day CQ Mail Service](../../assets/using/link-sharing.md#main-pars-title).
 
-   ![Share links to assets directly from the Link Sharing dialog](assets/chlimage_1-508.png)
+   ![Share links to assets directly from the Link Sharing dialog](assets/chlimage_1-499.png)
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
 1. In the **[!UICONTROL Message]** box, enter an optional message.
 1. In the **[!UICONTROL Expiration]** field, specify an expiration date and time for the link using the date picker. By default, the expiration date is set for a week from the date you share the link.
 
-   ![](assets/chlimage_1-509.png)
+   ![](assets/chlimage_1-500.png)
 
 1. To let users download the original image along with the renditions, select **[!UICONTROL Allow download of original file]**.
 
@@ -93,13 +93,13 @@ To generate the URL for assets you want to share with users, use the Link Sharin
 1. Click **[!UICONTROL Share]**. A message confirms that the link is shared with the user(s) through an email.
 1. To view the shared asset, click/tap the link in the email that is sent to the user. The shared asset is displayed in the **[!UICONTROL Adobe Marketing Cloud]** page.
 
-   ![](assets/chlimage_1-510.png)
+   ![](assets/chlimage_1-501.png)
 
    To toggle to the list view, click/tap the layout icon on the toolbar.
 
 1. Click/tap the shared asset to generate a preview of the asset. Click/tap **[!UICONTROL Back]** on the toolbar to close the preview and return to the **[!UICONTROL Marketing Cloud]** page. If you have shared a folder, click/tap **[!UICONTROL Parent Folder]** to return to the parent folder.
 
-   ![](assets/chlimage_1-511.png)
+   ![](assets/chlimage_1-502.png)
 
    >[!NOTE]
    >
@@ -120,7 +120,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
 
 1. To download the shared asset, click/tap the **[!UICONTROL Select]** icon from the toolbar, click/tap the asset, and then click/tap **[!UICONTROL Download]** from the toolbar.
 
-   ![](assets/chlimage_1-512.png)
+   ![](assets/chlimage_1-503.png)
 
 1. To view the assets you shared as links, go to the Assets UI and click/tap the **[!UICONTROL GlobalNav]** icon. Choose **[!UICONTROL Navigation]** from the list to display the Navigation pane.
 1. From the Navigation pane, choose **[!UICONTROL Shared Links]** to display a list of shared assets.
@@ -143,7 +143,7 @@ To generate the URL for assets you want to share with users, use the Link Sharin
     * SMTP user: email server usename
     * SMTP password: email server password
 
-   ![](assets/chlimage_1-513.png)
+   ![](assets/chlimage_1-504.png)
 
 1. Click/tap **Save**.
 
@@ -155,7 +155,7 @@ When you download assets from the link shared using the Link Sharing feature, AE
 1. From the web console, locate the **Day CQ DAM Adhoc Asset Share Proxy Servlet** configuration.
 1. Open the **Day CQ DAM Adhoc Asset Share Proxy Servlet** configuration in edit mode, and modify the value of the **Max Content Size (uncompressed)** parameter.
 
-   ![](assets/chlimage_1-514.png)
+   ![](assets/chlimage_1-505.png)
 
 1. Save the changes.
 

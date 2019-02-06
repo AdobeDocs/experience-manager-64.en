@@ -3,12 +3,12 @@ title: Replicating Using Mutual SSL
 seo-title: Replicating Using Mutual SSL
 description: Learn how to configure AEM so that a replication agent on the author instance uses mutual SSL (MSSL) to connect with the publish instance. Using MSSL, the replication agent and the HTTP service on the publish instance use certificates to authenticate each other. 
 seo-description: Learn how to configure AEM so that a replication agent on the author instance uses mutual SSL (MSSL) to connect with the publish instance. Using MSSL, the replication agent and the HTTP service on the publish instance use certificates to authenticate each other. 
-uuid: e51b26a5-e1d3-47db-afcf-1ce10c2764f7
+uuid: a88676d5-0d3d-4a74-8f35-9608d8897293
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: 75102dfa-09ca-4fc5-ad14-1f72290b11a4
+discoiquuid: 3c39f4fc-aa30-4dad-8e42-f160e8d39224
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ Configuring MSSL for replication involves performing the following steps:
 1. Configure the Jetty-Based HTTP Service on the Publish instance.
 1. Configure the transport and SSL properties of the replication agent.
 
-![](assets/chlimage_1-71.png)
+![](assets/chlimage_1-64.png)
 
 You must determine which user account is performing the replication. When installing the trusted author certificate on the publish instance, the certificate is associated with this user account.
 
@@ -148,17 +148,17 @@ To perform the following procedure, you must be logged in as an adminstrator of 
 1. If the Create KeyStore link appears in the Account Settings area, click the link. Configure a password and click OK.
 1. In the Account Settings area, click Manage Keystore.
 
-   ![](assets/chlimage_1-72.png)
+   ![](assets/chlimage_1-65.png)
 
 1. Click Add Private Key From Key Store File.
 
-   ![](assets/chlimage_1-73.png)
+   ![](assets/chlimage_1-66.png)
 
 1. Click Select Key Store file, then browse for and select the author.keystore file or the author.pfx file if using pkcs#12, then click Open.
 1. Enter an alias and the password for the key store. Enter the alias and password for the private key, then click Submit.
 1. Close the KeyStore Management dialog box.
 
-   ![](assets/chlimage_1-74.png)
+   ![](assets/chlimage_1-67.png)
 
 #### Install the Publish Certificate {#install-the-publish-certificate}
 
@@ -168,12 +168,12 @@ To perform the following procedure, you must be logged in as an adminstrator of 
 1. In the Account Settings area, click Manage TrustStore.
 1. Click Add Certificate From CER File.
 
-   ![](assets/chlimage_1-75.png)
+   ![](assets/chlimage_1-68.png)
 
 1. Clear the Map Certificate to User option. Click Select Certificate File, select publish.cer, and click Open.
 1. Close the TrustStore Management dialog box.
 
-   ![](assets/chlimage_1-76.png)
+   ![](assets/chlimage_1-69.png)
 
 ## Install Private Key and TrustStore on Publish {#install-private-key-and-truststore-on-publish}
 
@@ -249,7 +249,7 @@ To enable MSSL, configure the properties on the Transport tab according to the f
  </tbody> 
 </table>
 
-![](assets/chlimage_1-77.png)
+![](assets/chlimage_1-70.png)
 
 After you configure the replication agent, test the connection to determine whether MSSL is configured correctly.
 

@@ -3,12 +3,12 @@ title: AEM 6.4 Service Pack Release Notes
 seo-title: AEM 6.4 Service Pack Release Notes
 description: Release notes specific to Adobe Experience Manager 6.4 Service Pack 3.
 seo-description: Release notes specific to Adobe Experience Manager 6.4 Service Pack 3.
-uuid: 3dcf80ae-cde6-40c9-92a6-8bc1bc647273
+uuid: 8ea5cdb2-fb45-4d91-a985-9061010975c3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 1d71b342-dc08-42e4-8ced-4e6651a452d2
+discoiquuid: eed14f81-9e06-4979-8984-3a6a530296fd
 legacypath: /content/docs/en/aem/6-1/release-notes-sp1
 index: y
 internal: n
@@ -1122,21 +1122,6 @@ The key highlights for AEM 6.4.3.0 forms are:
  </div> 
 </details>
 
-<!--
-Comment Type: draft
-
-<h2>API Changes</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>In AEM 6.3 Service Pack 1 (6.3.1.0), the following APIs have been updated:</p>
-<ul>
-<li> </li>
-</ul>
--->
-
 ## Install 6.4.3.0 {#install}
 
 ### Setup requirements {#setup-requirements}
@@ -1168,14 +1153,6 @@ Perform the following steps to install the Service Pack on an existing AEM 6.4 i
 >**Dialog on Package Manager UI sometimes exits immaturely during installation of 6.4.3.0**
 >
 >Therefore, it is recommended to wait for error logs to stabilize before accessing the instance. The user has to wait for specific logs related to uninstallation of updater bundle before being ensured that the installations is successful. It generally happens on Safari but can intermittently happen on any browser.
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>The best way to monitor the installation process is to tail the error.log. Proceed to <a href="../release-notes/sp-release-notes.md#main-pars-title-1080826836">Validate installation</a> after the error.log goes quiet with "BundleEvent STARTED" messages</p>
-</note>
--->
 
 ### Automatic installation {#automatic-installation}
 

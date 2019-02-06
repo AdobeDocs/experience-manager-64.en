@@ -3,13 +3,13 @@ title: Invoking AEM Forms using APIs
 seo-title: Invoking AEM Forms using APIs
 description: null
 seo-description: null
-uuid: 384001a3-d7e8-47b0-836d-3946c30eb969
+uuid: ed553df6-0cb4-49d1-aece-42ddf27b8176
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 topic-tags: development-tools
-discoiquuid: 0c86a9f6-48e6-42a5-8a1f-d107a76e15b7
+discoiquuid: 3cfc4d63-003b-43e2-b830-aed77fef843f
 index: y
 internal: n
 snippet: y

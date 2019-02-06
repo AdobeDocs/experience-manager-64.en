@@ -3,12 +3,12 @@ title: Launches
 seo-title: Launches
 description: Launches enable you to efficiently develop content for a future release. They allow you to make changes ready for future publication, while maintaining your current pages
 seo-description: Launches enable you to efficiently develop content for a future release. They allow you to make changes ready for future publication, while maintaining your current pages
-uuid: 464a0fb9-173b-4bc7-b06e-a1e5f5552831
+uuid: ce583f34-9c2d-48e4-9061-49c1221086b0
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: ad8bc223-f1c1-449e-ba56-6f1f3ef1fea6
+discoiquuid: 7de407cc-3661-4601-bf26-e3ae1a2f080a
 index: y
 internal: n
 snippet: y
@@ -55,7 +55,7 @@ Launches allow you to:
   >
   >Multiple source branches for a launch is not possible in classic UI.
 
-  ![](assets/chlimage_1-248.png)
+  ![](assets/chlimage_1-239.png)
 
 * Edit the launch configuration:
 
@@ -83,14 +83,14 @@ Launches allow you to:
     * Changes to the source pages are automatically implemented in the launch copy (if set up as with inheritance; i.e. as a live copy).  
     * Changes to your launch copy can be made without disrupting these automatic updates or the source pages.
 
-  ![](assets/chlimage_1-249.png)
+  ![](assets/chlimage_1-240.png)
 
 * [Create a nested launch](../../../sites/authoring/using/launches-creating.md#creatinganestedlaunch) - a launch within a launch:
 
     * The source is an existing launch.
     * You can [promote a nested launch](../../../sites/authoring/using/launches-promoting.md#promotinganestedlaunch) to any target; this can be a parent launch or the top-level source pages (Production).
 
-  ![](assets/chlimage_1-250.png)
+  ![](assets/chlimage_1-241.png)
 
   >[!CAUTION]
   >
@@ -116,9 +116,9 @@ The Launches console provides an overview of your launches and allows you to tak
 1. Open the **References** rail and select the source page.
 1. Select **Launches**, the existing launch(es) will be listed:
 
-   ![](assets/chlimage_1-251.png)
+   ![](assets/chlimage_1-242.png)
 
 1. Tap/click on the appropriate launch, the list of possible actions will be displayed:
 
-   ![](assets/chlimage_1-252.png)
+   ![](assets/chlimage_1-243.png)
 

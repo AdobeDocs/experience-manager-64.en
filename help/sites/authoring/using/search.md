@@ -3,12 +3,12 @@ title: Search
 seo-title: Search
 description: Find your content faster with comprehensive search
 seo-description: Find your content faster with comprehensive search
-uuid: 0144db6c-7683-4405-b2fa-9c77d5bb5a0a
+uuid: 57b29a7e-1156-457c-866c-f30aeafb914b
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: db4e03e8-2e90-4f59-994c-c0d76ce89230
+discoiquuid: efba86f2-7206-44cd-bdc1-b989b7d5069f
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ The author environment of AEM provides various mechanisms for searching for cont
 
 Search is available from the top toolbar:
 
-![](assets/chlimage_1-210.png)
+![](assets/chlimage_1-203.png)
 
 With the search rail you can:
 

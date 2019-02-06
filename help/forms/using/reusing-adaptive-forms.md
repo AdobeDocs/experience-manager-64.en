@@ -3,10 +3,10 @@ title: Reusing adaptive forms
 seo-title: Reusing adaptive forms
 description: You can reuse an existing adaptive form to create new adaptive forms. 
 seo-description: You can reuse an existing adaptive form to create new adaptive forms. 
-uuid: 013d9b1e-b46c-4d7e-8ca8-c9a93ffa94d3
+uuid: 7e0be904-7c1c-43a7-b593-011c59339630
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: b7d3a401-8287-4ca5-b0cf-25eb20ae17e2
+discoiquuid: 24fb37a7-0390-465b-973e-b1222c1c1bc4
 index: y
 internal: n
 snippet: y
@@ -21,14 +21,6 @@ If you want to use some of the properties of an existing adaptive form to genera
 >[!NOTE]
 >
 >The status and the review details are not copied. For example, if your adaptive form is published and then if you copy it, the pasted adaptive form is in unpublished state. Similarly, if a copied asset is under review, the pasted asset is not under the same review.
-
-<!--
-Comment Type: draft
-
-<note>
-<p>To know more about how to start a review of a form, see <a href="../../forms/using/create-reviews-forms.md">Creating and managing reviews of forms</a></p>
-</note>
--->
 
 ### Copy an adaptive form {#copy-an-adaptive-form}
 

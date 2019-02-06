@@ -3,12 +3,12 @@ title: Introduction to authoring adaptive forms
 seo-title: Introduction to authoring adaptive forms 
 description: AEM Forms provide easy-to-use yet powerful interface for authoring adaptive forms. It provides a host of components and tools that you can use to build forms.
 seo-description: AEM Forms provide easy-to-use yet powerful interface for authoring adaptive forms. It provides a host of components and tools that you can use to build forms.
-uuid: c36e5e09-e9b3-4cf4-926d-8a12f5857d48
+uuid: e7eae38d-7da0-46e7-a348-caaa3c941012
 content-type: reference
 topic-tags: author
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: d84c3111-279f-4033-889c-8c9dd2c01064
+discoiquuid: 52a7e2d1-de34-475a-96b5-c7df5abf14b5
 index: y
 internal: n
 snippet: y
@@ -376,23 +376,4 @@ The content structure typically contains the following primary components:
 * **toolbar: **An adaptive form container has an associated global toolbar, which is global to the form. This toolbar can be added using the **Add Toolbar **action in the edit bar, which allows authors to add actions, such as Submit, Save, Reset, and so on. 
 
 * **assets: **This node contains additional information used for form authoring. For example, form model details, localization details, and so on).
-
-<!--
-Comment Type: draft
-
-<related-links>
-<a href="../../forms/using/creating-adaptive-form.md" target="_blank">Creating an adaptive form</a>
-<a href="../../forms/using/creating-forms-repeatable-sections.md" target="_blank">Creating forms with repeatable sections</a>
-<a href="../../forms/using/authoring-in-field-help.md" target="_blank">Authoring in-context help for form fields</a>
-<a href="../../forms/using/synchronizing-adaptive-forms-xfa.md" target="_blank">Synchronizing adaptive forms with XFA form templates</a>
-<a href="../../forms/using/introduction-form-sequence.md" target="_blank">Introduction to multi-step form sequence</a>
-<a href="../../forms/using/creating-accessible-adaptive-forms.md" target="_blank">Creating accessible adaptive forms</a>
-<a href="/forms/using/localizing-adaptive-forms" target="_blank">Localizing adaptive forms</a>
-<a href="../../forms/using/configuring-redirect-page.md" target="_blank">Configuring redirect page</a>
-<a href="../../forms/using/configuring-submit-actions.md" target="_blank">Configuring the submit action</a>
-<a href="/forms/using/enabling-eSign-your-adaptive-forms" target="_blank">Enabling eSign signatures in adaptive forms</a>
-<a href="../../forms/using/layout-capabilities-adaptive-forms.md" target="_blank">Layout capabilities of adaptive forms</a>
-<a href="../../forms/using/custom-adaptive-forms-templates.md" target="_blank">Creating a custom adaptive form template</a>
-</related-links>
--->
 

@@ -3,12 +3,12 @@ title: View statistics related to Work Manager
 seo-title: View statistics related to Work Manager
 description: The Work Manager tab displays statistics that relate to Work Manager items. Learn how you can view and filter the work items.
 seo-description: The Work Manager tab displays statistics that relate to Work Manager items. Learn how you can view and filter the work items.
-uuid: 61ad791f-1245-4100-a2d0-36a46527d979
+uuid: ede13879-9375-451b-808a-4bff4f5d0dd1
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/health_monitor
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 21f52090-0396-489c-aa7e-d71dfb859bd6
+discoiquuid: 50d09983-4621-4e75-97b0-f04a2c1eca99
 index: y
 internal: n
 snippet: y
@@ -86,13 +86,6 @@ Select an option in this filter to show only those work items that were created 
 Sets the date and time that the Create Time filter uses as an end date. Keep the Use Current Date & Time option selected to filter back from the current date and time, or deselect the option and enter the appropriate values. Click either the calendar icons or the clock icons to select values by using those tools.
 
 For example, selecting Create Time = 1 day and Prior to = Use Current Date & Time returns all work items that were created within the last 24 hours.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Bug 2285833:</p>
--->
 
 >[!NOTE]
 >

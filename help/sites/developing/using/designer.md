@@ -3,12 +3,12 @@ title: Designs and the Designer
 seo-title: Designs and the Designer
 description: You will need to create a design for your website and in AEM, you do so by using the Designer
 seo-description: You will need to create a design for your website and in AEM, you do so by using the Designer
-uuid: fb04763a-74f8-4a60-b156-1165038bc299
+uuid: 846dbe9f-7547-474c-b530-9d66ffd46711
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 165a0e8f-3c03-44d8-9707-b9cdd8c29547
+discoiquuid: aa7fe25a-633c-4498-aedf-de4d09509c31
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ Here you can create the structure required to store the design, then upload the 
 
 Designs are stored under `/etc/designs`. The path to the design to be used for a website is specified using the `cq:designPath` property of the `jcr:content` node.
 
-![](assets/chlimage_1-85.png)
+![](assets/chlimage_1-84.png)
 
 >[!NOTE]
 >
@@ -47,13 +47,6 @@ To realize your design you will need:
 **Images** Any images that you use for features such as backgrounds, buttons.
 
 ### Considerations When Designing Your Website {#considerations-when-designing-your-website}
-
-<!--
-Comment Type: remark
-Last Modified By: (colligno@adobe.com)
-Last Modified Date: 2018-01-18T11:19:17.680-0500
-<p>Clientlibs should be used instead.</p>
--->
 
 When developing a website, it is highly recommended to store images and CSS files under `/etc/design/<project>` so you can reference your resources based on the current design like described by the following snippet.
 

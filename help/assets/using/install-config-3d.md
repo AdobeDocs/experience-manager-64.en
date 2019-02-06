@@ -3,12 +3,12 @@ title: Installing and configuring AEM 3D
 seo-title: Installing and configuring AEM 3D
 description: Learn how to install and configure AEM 3D
 seo-description: Learn how to install and configure AEM 3D
-uuid: a04e3488-4d95-4d69-b109-254468c0f614
+uuid: 10093d7e-2cde-47a5-843c-5792abe96d26
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: faad534e-04a2-4936-8948-234f44e02a6b
+discoiquuid: 82b80d8a-577b-407c-b674-d3db9edad661
 index: y
 internal: n
 snippet: y
@@ -150,28 +150,28 @@ To configure the 3D asset ingestion workflow:
 
    On the "Unresolved Dependencies" banner for the `stage-helipad.fbx` card, click the Exclamation Point icon to navigate to the asset's properties and open the **Dependencies **tab.
 
-   ![](assets/chlimage_1-328.png)
+   ![](assets/chlimage_1-325.png)
 
 1. Click the Folder/Magnifying Glass icon to the right of the file name to open the asset browser and resolve the dependencies as follows:
 
-   ![](assets/chlimage_1-329.png)
+   ![](assets/chlimage_1-326.png)
 
 1. Click **Save** and **Close** to finish processing the asset and return to the Card View, respectively.
 1. When processing is complete, you see the following in Card View:
 
-   ![](assets/chlimage_1-330.png)
+   ![](assets/chlimage_1-327.png)
 
 1. On the test3d page, click the `logo-sphere.fbx` card to open the model in Detail view.
 
    Near the upper-right corner of the logo-sphere.fbx page, click the Stage Spotlight icon to expand the drop-down menu, then select **stage-spotlights.fbx**.
 
-   ![](assets/chlimage_1-331.png)
+   ![](assets/chlimage_1-328.png)
 
 1. From the Stage Spotlight drop-down list, select `stage-helipad.fbx`.
 
    Using the left mouse button to adjust the view. The background and model lighting changes to reflect the new stage selection.
 
-   ![](assets/chlimage_1-332.png)
+   ![](assets/chlimage_1-329.png)
 
 ## Configuring support for Adobe Dimension assets {#configuring-support-for-adobe-dimension-assets}
 

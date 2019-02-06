@@ -3,9 +3,9 @@ title: AEM Commerce - GDPR Readiness
 seo-title: AEM Commerce - GDPR Readiness
 description: null
 seo-description: null
-uuid: d789b73e-8f39-4e72-bff6-3e30aeb398a8
+uuid: 03cba6cc-80a5-41b5-957f-4639353ba9f5
 contentOwner: carlino
-discoiquuid: 747dd2ea-14e3-471e-be1f-c92028727a69
+discoiquuid: 16a5f089-750d-451a-8e71-8d74b3f488e6
 index: y
 internal: n
 snippet: y
@@ -36,20 +36,6 @@ For the hybris and IBM WebSphere integrations, there is some data in AEM. You sh
 1. **Where is my data stored/used?** Cached user profile information such as name, commerce user identifier, token, password, address data, and so on is shown from AEM.
 1. **With whom do I share the covered GDPR data?** Any update of GDPR relevant data in AEM Commerce does not get stored (except relevant profile information, as mentionned above) but is proxied back to the commerce platform.
 1. **How to delete my user data**? Delete the user profile in AEM and invoke the user deletion on the commerce platform.
-
-<!--
-Comment Type: annotation
-Last Modified By: wmitchel
-Last Modified Date: 2018-05-14T10:55:21.465-0400
-Change to ", AEM Commerce does not store information covered by the GDPR." this should be narrowed to this service, because other parts of AEM does contain GDPR
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: wmitchel
-Last Modified Date: 2018-05-14T10:57:49.489-0400
-change to "With whom do I share the covered GDPR data? Any update of data covered by the GDPR in AEM..." Should this be "AEM Commerce"?
--->
 
 >[!NOTE]
 >

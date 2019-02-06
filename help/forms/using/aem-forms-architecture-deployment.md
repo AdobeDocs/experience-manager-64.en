@@ -3,12 +3,12 @@ title: Architecture and deployment topologies for AEM Forms
 seo-title: Architecture and deployment topologies for AEM Forms
 description: Architecture details for AEM Forms and recommended topologies for new and existing AEM customers and customers upgrading from LiveCycle ES4 to AEM Forms.
 seo-description: Architecture details for AEM Forms and recommended topologies for new and existing AEM customers and customers upgrading from LiveCycle ES4 to AEM Forms.
-uuid: 6648ca58-54bf-4454-a82a-895f23cf85c9
+uuid: aae9b45e-6a4e-48ce-9505-7fb0e30dc0cd
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: 019c2e1e-f508-4622-b75d-cb6991e3660d
+discoiquuid: 8973ee59-a1e6-4da8-a652-4e8030da03a8
 index: y
 internal: n
 snippet: y
@@ -77,13 +77,6 @@ A Processing instance is configured to run in the Author run mode because:
 
 * It enables reverse-replication of raw form data from a Publish instance. The default data storage handler requires the reverse-replication feature.
 * AEM Workflows, which are the primary means of processing raw form data arriving from a Publish instance, are recommended to run on an author-style system.
-
-<!--
-Comment Type: draft
-
-<p><strong>Data Source/Save Submit DataBase:</strong></p>
-<p><strong>Topology Leader:</strong></p>
--->
 
 ## Sample physical topologies for AEM Forms on JEE {#sample-physical-topologies-for-aem-forms-on-jee}
 

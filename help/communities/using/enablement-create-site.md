@@ -3,12 +3,12 @@ title: Author a New Community Site for Enablement
 seo-title: Author a New Community Site for Enablement
 description: Create a community site for enablement
 seo-description: Create a community site for enablement
-uuid: 7f056d1d-05e5-4e74-96d2-141a42282cc5
+uuid: 72b0aed3-ed51-45e9-a168-158d9239b306
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: f976304c-593c-4cee-b8e8-88f5498a6a5a
+discoiquuid: f9d7e3e7-2bb5-4148-af7c-6a485c0b4c06
 index: y
 internal: n
 snippet: y
@@ -71,7 +71,7 @@ Select the desired style to apply to the template. When selected, the theme will
 
 (optional) Upload a banner image to display across the site pages. The banner is pinned to the left edge of the browser, between the community site header and menu (navigation links). The banner height is cropped to 120 pixels. There is no resizing of the banner to fit the width of the browser and 120 pixel height.
 
-![](assets/chlimage_1-296.png) ![](assets/chlimage_1.jpeg)
+![](assets/chlimage_1-283.png) ![](assets/chlimage_1.jpeg)
 
 Select **Next**.
 
@@ -93,7 +93,7 @@ Ensure most checkboxes are unchecked for [User Management](../../communities/usi
 * do NOT allow login with Facebook
 * do NOT allow login with Twitter
 
-![](assets/chlimage_1-297.png)
+![](assets/chlimage_1-284.png)
 
 #### TAGGING {#tagging}
 
@@ -106,7 +106,7 @@ Finding namespaces is easy using type-ahead search. For example,
 * type 'tut'
 * select `Tutorial`
 
-![](assets/chlimage_1-298.png)
+![](assets/chlimage_1-285.png)
 
 ### ROLES {#roles}
 
@@ -123,31 +123,13 @@ For example,
 >
 >[Tunnel service](../../communities/using/deploy-communities.md#tunnelserviceonauthor) allows selection of members and groups existing only in the publish environment.
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p><a href="../../communities/using/deploy-communities.md#tunnelserviceonauthor" target="_blank">Tunnel service</a> allows selection of members and groups existing only in the
-<g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" data-gr-id="5" id="5">
-<g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" data-gr-id="5" id="5">
-publish
-</g>
-</g> environment. When Tunnel service is on, members and groups created in the
-<g class="gr_ gr_4 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" data-gr-id="4" id="4">
-<g class="gr_ gr_4 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" data-gr-id="4" id="4">
-author
-</g>
-</g> environment are also available for selection in the Roles section.</p>
-</note>
--->
-
 ![](assets/Community_Roles.png)
 
 #### MODERATION {#moderation}
 
 Accept the default global settings for [moderating](../../communities/using/sites-console.md#moderation) user generated content (UGC).
 
-![](assets/chlimage_1-299.png)
+![](assets/chlimage_1-286.png)
 
 #### ANALYTICS {#analytics}
 
@@ -155,7 +137,7 @@ From the pull-down menu, select the Analytics cloud service framework configured
 
 The selection seen in the screenshot, `Communities`, is the framework example from the [configuration documentation.](../../communities/using/analytics.md#aemanalyticsframeworkconfiguration)
 
-![](assets/chlimage_1-300.png)
+![](assets/chlimage_1-287.png)
 
 #### TRANSLATION {#translation}
 
@@ -164,7 +146,7 @@ The [Translation settings](../../communities/using/sites-console.md#translation)
 * check **Allow Machine Translation**
 * use the default settings
 
-![](assets/chlimage_1-301.png)
+![](assets/chlimage_1-288.png)
 
 #### ENABLEMENT {#enablement}
 
@@ -179,7 +161,7 @@ For an enablement community, it is necessary to identify one or more Community E
 * **Marketing Cloud Org Id** 
   (optional) The ID for an Adobe Analytics account which is necessary when including [Video Heartbeat Analytics](../../communities/using/analytics.md#videoheartbeatanalytics) in the enablement reporting.
 
-![](assets/chlimage_1-302.png)
+![](assets/chlimage_1-289.png)
 
 Select **Next**.
 
@@ -187,7 +169,7 @@ Select **Next**.
 
 Select **Create.**
 
-![](assets/chlimage_1-303.png)
+![](assets/chlimage_1-290.png)
 
 When the process completes, the folder for the new site is displayed in the Communities - Sites console.
 
@@ -202,20 +184,6 @@ After selecting the community site's folder, hover over the site icon such that 
 ![](assets/SiteActionIcons.png)
 
 On selecting the ellipses icon (More Actions icon), Export Site and Delete Site options show up.
-
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-02-20T05:04:02.946-0500
-Added this content and the following image for "Delete site" option. (6.4)
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: kmani
-Last Modified Date: 2018-03-16T06:55:01.017-0400
-'On selecting the ellipses icon' may be more apt, as the count of icons can vary based on screen size
--->
 
 ![](assets/SiteActionsNew.png)
 
@@ -243,11 +211,11 @@ From left to right they are :
 
 Select the world icon to publish the community site.
 
-![](assets/chlimage_1-304.png)
+![](assets/chlimage_1-291.png)
 
 There will be an indication the site was published.
 
-![](assets/chlimage_1-305.png)
+![](assets/chlimage_1-292.png)
 
 ## Community Users & User Groups {#community-users-user-groups}
 
@@ -257,7 +225,7 @@ Along with the new community site, new user groups are created which have the ap
 
 For this new community site, given the site name "enable" in Step 1, the new user groups that exist in the publish environment may be seen from the [Communities Members & Groups console](../../communities/using/members.md#groupsconsole) :
 
-![](assets/chlimage_1-306.png)
+![](assets/chlimage_1-293.png)
 
 ### Assign Members to Community Enable Members Group {#assign-members-to-community-enable-members-group}
 
@@ -276,13 +244,13 @@ In this example, the group `Community Ski Class` is added as a member of the gro
 
 * select **Save**
 
-![](assets/chlimage_1-307.png)
+![](assets/chlimage_1-294.png)
 
 ## Configurations on Publish {#configurations-on-publish}
 
 #### http://localhost:4503/content/sites/enable/en.html {#http-localhost-content-sites-enable-en-html}
 
-![](assets/chlimage_1-308.png)
+![](assets/chlimage_1-295.png)
 
 ### Configure for Authentication Error {#configure-for-authentication-error}
 
@@ -339,13 +307,13 @@ To get started
 >
 >To disable, simply prepend the `sling:match` property value with an 'x' - `xlocalhost.4503/$` - and **Save All**.
 
-![](assets/chlimage_1-309.png)
+![](assets/chlimage_1-296.png)
 
 #### Troubleshooting : Error Saving Map {#troubleshooting-error-saving-map}
 
 If unable to save changes, be sure the node name is `localhost.4503`, with a 'dot' separator, and not `localhost:4503` with a 'colon' separator, as `localhost`is not a valid namespace prefix.
 
-![](assets/chlimage_1-310.png)
+![](assets/chlimage_1-297.png)
 
 #### Troubleshooting : Fail to Redirect {#troubleshooting-fail-to-redirect}
 
@@ -382,11 +350,11 @@ Select the STRUCTURE panel to add a Catalog or modify an existing Catalog :
 * **Select All Namespaces** : leave as default.
 * select **Save**
 
-![](assets/chlimage_1-311.png)
+![](assets/chlimage_1-298.png)
 
 Use the Position Icon to move the Catalog function to the second position, after Assignments.
 
-![](assets/chlimage_1-312.png)
+![](assets/chlimage_1-299.png)
 
 Select **Save** in the upper right corner to save the changes to the community site.
 

@@ -3,11 +3,11 @@ title: Use Adobe Stock assets in AEM Assets
 seo-title: Use Adobe Stock assets in AEM Assets
 description: Search, fetch, license, and manage Adobe Stock assets in AEM. Treat the licensed assets as any other AEM asset.
 seo-description: Search, fetch, license, and manage Adobe Stock assets in AEM. Treat the licensed assets as any other AEM asset.
-uuid: 2e0944c7-15b2-4226-a724-6ca435215a81
+uuid: b9848159-fdcd-4cb9-98af-916e2625ca03
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
-discoiquuid: 8a22731e-4133-48c0-b6aa-f23ef6f5fe3d
+discoiquuid: 8662c51e-382c-4f99-931f-04bd6faa159b
 index: y
 internal: n
 snippet: y

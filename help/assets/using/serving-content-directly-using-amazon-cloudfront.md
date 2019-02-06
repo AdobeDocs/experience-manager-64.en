@@ -4,11 +4,11 @@ seo-title: Enable Amazon Cloudfront to serve content
 description: Use S3-based datastore using AWS Cloudfront to directly serve content.
 seo-description: Use S3-based datastore using AWS Cloudfront to directly serve content.
 page-status-flag: never-activated
-uuid: ed3ae29c-5283-4551-983a-169ee659efef
+uuid: bff54d8b-9205-4f92-b068-23169b530a96
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
-discoiquuid: 608b898d-a0db-4218-b4b5-bf37d963acf3
+discoiquuid: 14760e66-7aaf-45ed-a145-f171b39350f9
 index: y
 internal: n
 snippet: y
@@ -30,36 +30,6 @@ To know more, see [Amazon Simple Storage Service documentation](https://aws.amaz
 >
 >This feature is incompatible with the Catalog feature. If this feature is enabled, Catalogs do not work.
 
-<!--
-Comment Type: draft
-
-<h2>Prerequisites</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>To use the feature, you require the following:</p>
-<ul>
-<li>Amazon S3 as AEM datastore.</li>
-<li>Root access of AWS account to generate or upload CloudFront keys and configure CloudFront access.</li>
-<li>AWS Lambda to remove asset name from URL before fetching the asset from the S3 bucket</li>
-<li>AEM APIs:
-<ul>
-<li><span class="code">sling-org-apache-sling-api:2.16.4</span></li>
-<li><span class="code">sling-org-apache-sling-jcr-resource:3.0.6</span></li>
-<li><span class="code">sling-org-apache-sling-servlets-get:2.1.28</span></li>
-</ul> </li>
-</ul>
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: asgupta
-Last Modified Date: 2018-07-11T03:21:04.547-0400
-Drafting the prerequisites section as requested in CQDOC-11872.
--->
-
 ## Security considerations {#security-considerations}
 
 The feature incorporates the following to reduce security risks:
@@ -70,13 +40,6 @@ The feature incorporates the following to reduce security risks:
 * The CloudFront URI for the requested content is generated based on the contentID of the binary large object (BLOB) entity. It is not available in the Oak API. Therefore, a reflection is used to fetch it. To safeguard against implementation changes in Oak, the Granite URI provider implementation fails to return a URL if it isn't able to get the content. In this case, the requested content is served from AEM.
 
 ## Configure the feature {#configure-the-feature}
-
-<!--
-Comment Type: annotation
-Last Modified By: satyam
-Last Modified Date: 2018-06-22T06:43:58.640-0400
-I do not think if the 4th point of security considerations is necessary here.
--->
 
 The feature uses Adobe Granite's implementation for `org.apache.sling.api.resource.URIProvider`. It provides signed AWS CloudFront URLs for S3 objects stored in an Oak S3 DataStore.
 

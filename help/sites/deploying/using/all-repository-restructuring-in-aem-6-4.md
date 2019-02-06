@@ -3,12 +3,12 @@ title: Common Repository Restructuring in AEM 6.4
 seo-title: Common Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 that are common for all areas of AEM.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 that are common for all areas of AEM.
-uuid: 3c0e31f2-5880-4763-8981-0b776c44f2b0
+uuid: 17909598-4c9a-4db9-a22e-1050aa0cd0a0
 contentOwner: chaikels
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: 1797f679-0eea-4c27-93ed-320a4a08cfcb
+discoiquuid: bc98a159-11d6-4307-8ae5-c22734bcbaad
 index: y
 internal: n
 snippet: y
@@ -99,13 +99,6 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 </table>
 
 ### Workflow Instances {#workflow-instances}
-
-<!--
-Comment Type: annotation
-Last Modified By: dgonzale
-Last Modified Date: 2018-07-09T12:34:11.037-0400
-IIRC the idea was to have AEM 6.4 Upgrade section first, then AEM 6.5 Upgrades (which is what you have) .. but within each of these super-sections, each "row" would be ordered alphabetically... within the upgrade super-sections, the order appears random?
--->
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody>
@@ -458,13 +451,6 @@ IIRC the idea was to have AEM 6.4 Upgrade section first, then AEM 6.5 Upgrades (
 </table>
 
 ### Multi-site Manager Blueprint Configurations {#multi-site-manager-blueprint-configurations}
-
-<!--
-Comment Type: annotation
-Last Modified By: dgonzale
-Last Modified Date: 2018-07-09T12:32:18.964-0400
-Should Blueprint Configurations be capitalized? It seems like this would match all the other titles?
--->
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody>

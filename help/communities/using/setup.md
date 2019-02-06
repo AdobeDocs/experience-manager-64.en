@@ -3,12 +3,12 @@ title: Initial Setup
 seo-title: Initial Setup
 description: Setting up Communities
 seo-description: Setting up Communities
-uuid: bf495a0b-bc60-473f-badc-7277ef686ddc
+uuid: 01eaca5d-c066-4f54-918a-e9311c4b2be2
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: a665da2d-23e8-4d27-8d5b-fa1d37fd41e8
+discoiquuid: 8984de55-d114-4570-bef6-8b6199c27327
 index: y
 internal: n
 snippet: y
@@ -115,7 +115,7 @@ Scroll down to `Add User to Groups` :
 
 * select **Save**
 
-![](assets/chlimage_1-313.png)
+![](assets/chlimage_1-300.png)
 
 ## Enable Social Login {#enable-social-login}
 
@@ -141,7 +141,7 @@ Use the [Tagging console](../../sites/administering/using/tags.md#taggingconsole
 * `Tutorial : Arts / Auditory`
 * `Tutorial : Arts / History`
 
-![](assets/chlimage_1-314.png)
+![](assets/chlimage_1-301.png)
 
 Then follow the instructions to
 

@@ -3,12 +3,12 @@ title: Tools Consoles
 seo-title: Tools Consoles
 description: Learn about the different tools consoles throughout AEM.
 seo-description: Learn about the different tools consoles throughout AEM.
-uuid: 756b8fff-2d2f-4549-92a8-5a25357a447a
+uuid: 2d2e6626-60ab-4359-bdd1-27547d7d8b2f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 550293d6-e419-4e79-9acd-1debe141a668
+discoiquuid: c2d867f9-ea25-4fd4-8187-4a6a3641d858
 index: y
 internal: n
 snippet: y
@@ -202,18 +202,6 @@ The **Tools** consoles provide access to a number of specialized tools that help
   </tr> 
  </tbody> 
 </table>
-
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:02:34.557-0500
-<p>Removed entry about:</p>
-<ul>
-<li>Importers - <a href="/content/docs/en/aem/6-3/deploy/upgrade">Upgrade from CQ3/CQ4</a></li>
-<li>Lets you specify the URL of a CQ 3 or 4 instance from within a new AEM instance. The content and basic functionality will then be upgraded and imported into your new AEM installation. The upgrade of customized functionality cannot be guaranteed and must be analyzed individually.</li>
-</ul>
-<p>Entry still available in classic UI, but registers a Not Found error when opened.</p>
--->
 
 ## Tools - Touch-Optimized UI {#tools-touch-optimized-ui}
 

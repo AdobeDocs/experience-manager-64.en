@@ -3,12 +3,12 @@ title: How to programmatically access the AEM JCR
 seo-title: How to programmatically access the AEM JCR
 description: You can programmatically modify nodes and properties located within the AEM repository, which is part of the Adobe Marketing Cloud
 seo-description: You can programmatically modify nodes and properties located within the AEM repository, which is part of the Adobe Marketing Cloud
-uuid: 7cf12596-0106-437b-a463-dac4f5594de5
+uuid: d8f7fbb1-67e1-4ff9-81e3-a4f5b39e0cec
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: c33c20d2-a96c-4fd0-88c7-72ccaf102d56
+discoiquuid: 849294c6-ac7f-418e-a9a8-6121960400c6
 index: y
 internal: n
 snippet: y
@@ -142,5 +142,5 @@ try {
 
 After you run the full code example and create the nodes, you can view the new nodes in the CRXDE Lite, as shown in the following illustration.
 
-![](assets/chlimage_1-78.png)
+![](assets/chlimage_1-77.png)
 

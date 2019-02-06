@@ -3,12 +3,12 @@ title: Getting Started with AEM Communities
 seo-title: Getting Started with AEM Communities
 description: A tutorial on getting started with AEM Communities
 seo-description: A tutorial on getting started with AEM Communities
-uuid: 955eed6a-567c-4c52-a50f-41ee636052f1
+uuid: 5f833849-2e00-4ede-8812-66f0f6d125fb
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 5f3f66d5-2ceb-432d-b123-fe792f661fc7
+discoiquuid: a38cd2e0-22ed-4f59-95a1-92059b63b85e
 index: y
 internal: n
 snippet: y

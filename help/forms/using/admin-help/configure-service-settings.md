@@ -3,12 +3,12 @@ title: Configure service settings
 seo-title: Configure service settings
 description: Learn how to configure service settings.
 seo-description: Learn how to configure service settings.
-uuid: f000ec97-58e0-4b1c-a14b-56d78e250a1e
+uuid: 39ac27ae-5a85-4e88-814b-d5eaf7d8c6a6
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_services
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 5b97921c-b0f1-4451-80ca-fcd0e012db21
+discoiquuid: 892b0358-75b8-4d8c-a61b-04decb3f7418
 index: y
 internal: n
 snippet: y
@@ -57,34 +57,9 @@ The following settings are available for the barcoded forms service.
 
 ***Note**: By default, all of the options are selected. Deselect an option only if you are certain that no barcodes appear that way on your forms.*
 
-<!--
-Comment Type: draft
-
-<h2 id="batch_processor_service_settings">Batch Processor service settings</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p></p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Batch Processor service <span class="code">(BatchProcessor)</span> runs batch jobs within AEM forms by repetitively reading from an input source and invoking a service that is part of AEM forms. In particular, the <span class="code">BatchProcessor</span> service is relevant for jobs involving batch generation of documents for the Interactive Statements solution accelerator.</p>
-<p>The following settings are available for the <span class="code">BatchProcessor</span> service.</p>
--->
-
 **Base File Path:** The file path relative to which the batch input and output file parameters for the Run XML File Job and Run Flat File Job operations are resolved. In clustered configurations, the base file path must be a shared file system location to which all cluster nodes have read/write access.
 
 **Data Source Name:** The name of data source used to maintain state and history information about batch processing jobs. The specified data source must support global (XA) transactions.
-
-<!--
-Comment Type: draft
-
-<p>The default data source, <span class="code">IDP_DS</span>, is suitable for the JBoss Application Server. However, you should specify a different data source for the WebSphere and WebLogic application servers.</p>
--->
 
 ## Central Migration Bridge service (Deprecated) settings {#central-migration-bridge-service-settings}
 
@@ -188,13 +163,6 @@ The following settings are available for the Document Management service.
 
 **HTTP Port:** The port used to access Content Services (Deprecated). The default value is 8080.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Need definitions for: Host, External Public URL, HTTP Connections Per Host .</p>
--->
-
 ## Email service settings {#email-service-settings}
 
 Email is commonly used to distribute content or provide status information as part of an automated process. The Email service ( `EmailService`) enables processes to receive email messages from a POP3 or IMAP server, and send email messages to an SMTP server.
@@ -250,25 +218,6 @@ The following settings are available for the Encryption service.
 **Default LDAP Password:** If the LDAP server requires authentication, specify the password that corresponds with the user name to be used to connect to the LDAP server.
 
 ***Note**: Use simple authentication (user name and password) only when the connection is protected via SSL (using LDAPS).*
-
-<!--
-Comment Type: draft
-
-<h2 id="forms_service_settings">Forms service settings</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p></p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Forms service enables you to create interactive data capture client applications that validate, process, transform, and deliver forms typically created in Designer. Form authors develop a single form design that the Forms service renders as PDF, HTML, or as Guides in a variety of browser environments that support Adobe Flash Player.</p>
-<p>The following setting is available for the Forms service. </p>
--->
 
 **Compatibility Mode:**
 
@@ -371,13 +320,6 @@ The default values for the Guide Utilities service support most use cases. Howev
 
 ### Using Guides in a server cluster {#using-guides-in-a-server-cluster}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Bug 2930483</p>
--->
-
 Rendering a Guide in a server cluster that does not use sticky sessions fails with a NullPointerException. A Guides request leverages secure URLs that, by default, are unique to the server they are generated on. In a cluster that uses sticky sessions, after a request hits a node in the cluster, all subsequent requests for that session or user are routed exclusively to that server, and everything is ok. In a cluster that does not use sticky sessions, subsequent requests can hit any server in the cluster. If the server that the requests hit is not the original server, they fail to resolve the secure URL.
 
 If you are using Guides in a server cluster that does not use sticky sessions, set the macKeySeed value for the GuidesUtility service, and then stop and start the cluster.
@@ -467,52 +409,7 @@ The following settings are available for the Microsoft SharePoint configuration 
 * Username for a user with impersonation permissions
 * Password for the above user
 
-<!--
-Comment Type: draft
-
-<h2 id="microsoft_sharepoint_content_repository_service_settings">Microsoft SharePoint content repository service settings</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p></p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Need description of the service and definition for the option below. Marked topic as internal</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The following setting is available for the Microsoft SharePoint content repository service:</p>
--->
-
 **Enable SSL (HTTPS):**
-
-<!--
-Comment Type: draft
-
-<h2 id="mobile_provisioning_service_settings">Mobile Provisioning service settings</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p></p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Mobile Provisioning service (<span class="code">Mobile Provisioning</span>) is used by AEM forms Mobile.</p>
-<p>For more information about using AEM forms Mobile, see Setting up AEM forms Mobile.</p>
-<p>The following options control the behavior of the mobile client applications:</p>
--->
 
 **Time to Live:** Length of time, in seconds, that this provisioning profile is valid and cached on the client. The default is 86400 (24 hours). When a client application syncs with the server and the specified amount of time has passed, the client application requests a new provisioning profile from the server.
 

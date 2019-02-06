@@ -3,12 +3,12 @@ title: Install and configure ImageMagick to work with AEM Assets
 seo-title: Install and configure ImageMagick to work with AEM Assets
 description: Learn about ImageMagick software, how to install it, set up the command line process step, and use it to edit, compose, and generate thumbnails from images.
 seo-description: Learn about ImageMagick software, how to install it, set up the command line process step, and use it to edit, compose, and generate thumbnails from images.
-uuid: 75352f40-7880-46a1-a76c-9029a10a0290
+uuid: bdb405bc-c263-4e95-85d7-8314204f73ef
 contentOwner: asgupta
 topic-tags: extending-assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 9e2915ab-5e8b-4176-9fbe-097e7da45158
+discoiquuid: 6d3ba374-9287-49ec-9637-175a9b447dfd
 index: y
 internal: n
 snippet: y

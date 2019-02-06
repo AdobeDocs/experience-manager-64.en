@@ -3,11 +3,11 @@ title: Creating and Adding Templates and Components
 seo-title: Creating and Adding Templates and Components
 description: Follow this page to learn about creating and adding templates and components to your app. The page uses Geometrixx Unlimited App as the app that contains a sample app template and page templates.
 seo-description: Follow this page to learn about creating and adding templates and components to your app. The page uses Geometrixx Unlimited App as the app that contains a sample app template and page templates.
-uuid: 39bd4a3c-82d7-433f-9d59-d61990f511bb
+uuid: a4d62ee8-2068-4a94-890a-8d1b0d310db1
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: 3b533797-b951-4b85-8b89-97123cb47950
+discoiquuid: 001e6c9c-9c15-45d4-a7c4-5dc58048817f
 index: y
 internal: n
 snippet: y

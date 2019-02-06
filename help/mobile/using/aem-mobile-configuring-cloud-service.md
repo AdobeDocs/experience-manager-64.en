@@ -3,12 +3,12 @@ title: Configuring Adobe Target Cloud Service
 seo-title: Configuring Adobe Target Cloud Service
 description: Follow this page to understand how to get right set of permissions for users and groups, creating cloud services, configuring the application for the activity, and finally generating the content.
 seo-description: Follow this page to understand how to get right set of permissions for users and groups, creating cloud services, configuring the application for the activity, and finally generating the content.
-uuid: abb0587b-c058-4ad4-b323-b1cdbd81c0f9
+uuid: d9971a9d-76db-4ca4-9018-d292ca661665
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: b20926d0-4551-4e91-af7a-9d72b6303738
+discoiquuid: 15173e9d-ff7d-42d5-9971-3d6bac8a3f5b
 index: y
 internal: n
 snippet: y

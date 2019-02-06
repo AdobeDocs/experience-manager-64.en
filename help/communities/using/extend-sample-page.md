@@ -3,12 +3,12 @@ title: Add Comment to Sample Page
 seo-title: Add Comment to Sample Page
 description: Add Custom Comments to a page
 seo-description: Add Custom Comments to a page
-uuid: ab30b3f3-d78f-425a-8bc4-efc2595918e3
+uuid: 2f3948fb-b797-429e-b22e-258595c09668
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 621ae437-5249-4a8b-8244-bfaf47ff56f3
+discoiquuid: 3412e0be-a629-4e5e-9ba5-935b0e5692c0
 index: y
 internal: n
 snippet: y

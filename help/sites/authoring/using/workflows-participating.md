@@ -3,12 +3,12 @@ title: Participating in Workflows
 seo-title: Participating in Workflows
 description: Workflows typically include steps that require a person to perform an activity on a page or asset.
 seo-description: Workflows typically include steps that require a person to perform an activity on a page or asset.
-uuid: a5552f8c-6b59-4237-8710-515c26cce48f
+uuid: 81386049-d16b-4398-a3fe-842118814c1b
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: ca95cedc-a83c-4cc7-b240-0d0861bf7112
+discoiquuid: 001f8abd-db4f-4cf7-b7bc-9e0881d023c5
 index: y
 internal: n
 snippet: y
@@ -99,13 +99,6 @@ Use the following procedure to complete the work item:
 You can also use timeline to complete and advance a step:
 
 1. Select the required page and open **Timeline** (or open **Timeline** and select the page):
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-03-08T03:34:14.993-0500
-   <p>why is the Timeline link in blue? check and redo screenshot if necessary (sigh)<br /> </p>
-   -->
 
    ![](assets/WF-65.png)
 

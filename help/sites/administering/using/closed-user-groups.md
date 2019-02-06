@@ -3,12 +3,12 @@ title: Closed User Groups in AEM
 seo-title: Closed User Groups in AEM
 description: Learn about Closed User Groups in AEM.
 seo-description: Learn about Closed User Groups in AEM.
-uuid: 10881a97-7763-47c8-b544-0c8b19b7e19a
+uuid: ec32bdc7-3a79-4505-b3c7-d4fcdf6e36f0
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: cc8b4800-2392-4b21-abc3-7a96ee5c7294
+discoiquuid: 784a14d6-7aff-4d1c-9099-7e352d3e5ba9
 index: y
 internal: n
 snippet: y
@@ -462,13 +462,6 @@ while (isSupported(node)) {
 }
 ```
 
-<!--
-Comment Type: draft
-
-<p><strong>UI To Manage Authentication Requirements</strong></p>
-<p>CQDOC-9497</p>
--->
-
 ### Combining CUG Policies and the Authentication Requirement {#combining-cug-policies-and-the-authentication-requirement}
 
 The following table lists the valid combinations of CUG policies and the authentication requirement in an AEM instance that has both modules enabled through configuration.
@@ -490,13 +483,6 @@ The following table lists the valid combinations of CUG policies and the authent
 This sections provides an overview to the OSGi components and the individual configuration options introduced with the new CUG implementation.
 
 See also the CUG mapping documentation for a comprehensive mapping of the confguration options between the old and the new implementation.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-11-30T05:02:04.242-0500
-<p>link to new CUG mapping page</p>
--->
 
 ### Authorization: Setup and Configuration {#authorization-setup-and-configuration}
 
@@ -852,13 +838,6 @@ This move from residual JCR properties to a dedicated access control policy has 
 CUG policies are expected to be created at the JCR node defining the subtree to be subject to restricted read access. This is likely to be a AEM page in case the CUG is expected afect the whole tree.
 
 Note that placing the CUG policy only at the jcr:content node located below a given page will only restrict access to the content s.str. of a given page but will not take effect on any siblings or child pages. This may be a valid use case and it is possible to achieve with a repository editor that allows to apply fine grained access content content. However, it contrasts the former implementation where placing a cq:cugEnabled property on the jcr:content node was internally re-mapped to the page node. This mapping is no longer performed.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-11-30T05:02:05.105-0500
-<p>what does s.str. mean?</p>
--->
 
 **Permission Evaluation With CUG Policies**
 

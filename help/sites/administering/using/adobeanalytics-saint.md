@@ -3,9 +3,9 @@ title: redirect (SAINT Exporter)
 seo-title: redirect (SAINT Exporter)
 description: null
 seo-description: null
-uuid: 07b1c158-23c7-4343-b324-c3ebb1ab77fd
+uuid: 60cc84b7-f892-49d9-bbb6-16a53b9eaf3c
 contentOwner: aheimoz
-discoiquuid: abd0b297-53ed-4a4b-96b9-e95b852a0ce0
+discoiquuid: ba97f012-a677-4ccf-92c7-8cf435f1c756
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/administering/using/adobeanalytics-classifications
 index: y
@@ -14,11 +14,4 @@ snippet: y
 ---
 
 # redirect (SAINT Exporter){#redirect-saint-exporter}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-07-05T02:41:39.376-0400
-<p>Redirects to /content/help/en/experience-manager/6-4/sites/administering/using/adobeanalytics-classifications.html</p>
--->
 

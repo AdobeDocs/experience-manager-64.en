@@ -3,12 +3,12 @@ title: Mixed Media Sets
 seo-title: Mixed Media Sets
 description: Learn how to work with mixed media sets in dynamic media
 seo-description: Learn how to work with mixed media sets in dynamic media
-uuid: ec3c14bb-5475-4d12-ab5c-e6e389892fec
+uuid: 2bf26fb6-9d01-43e1-851d-809cbfee8165
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: f0b1cda6-8665-4feb-9985-c6e0dee2dcdb
+discoiquuid: 8638342b-5a3b-4ee2-a5b8-d43d325cf26d
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ Mixed Media Sets let you provide a mix of images, Image Sets, Spin Sets, and vid
 
 Mixed Media Sets are designated by a banner with the word **MixedMediaSet**. In addition, if the Mixed Media Set is published, then the publish date, indicated by the **World** icon is on the banner along with the last modification date, indicated by the **Pencil** icon displays. 
 
-![](assets/chlimage_1-302.png)
+![](assets/chlimage_1-301.png)
 
 >[!NOTE]
 >
@@ -33,14 +33,6 @@ To get you up and running quickly with Mixed Media Sets, follow these steps:
 1. [Upload your assets](#uploadingassets).
 
    Start by uploading the images and videos for your Mixed Media Sets. If necessary, create your [Image Sets](../../assets/using/image-sets.md) and [Spin Sets](../../assets/using/spin-sets.md). Because users can zoom on images in the Mixed Media Set Viewer, take zooming into account when you choose images. Make sure that the images are least 2000 pixels in the largest dimension.
-
-   <!--
-   Comment Type: draft
-
-   <note type="note">
-   <p>You must publish your assets <strong>before</strong> you publish your mixed media set.</p>
-   </note>
-   -->
 
 1. [Create Mixed Media Sets.](#creatingmixedmediasets)
 
@@ -90,23 +82,15 @@ You can add images, Image Sets, Spin Sets, and videos to your Mixed Media set. M
 
 When you add assets to your set, they are automatically added in alphanumeric order. You can manually re-order or sort assets after they have been added.
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Assets in the mixed media set must be published before the mixed media set is published.</p>
-</note>
--->
-
 To create a Mixed Media Set:
 
 1. In Assets, navigate to where you want to create a mixed media set, and click **Create**, and select** Mixed Media Set**. You can also create the set from inside a folder that contains your assets. The Mixed Media Set Editor displays.
 
-   ![](assets/chlimage_1-303.png)
+   ![](assets/chlimage_1-302.png)
 
 1. In the Mixed Media Set Editor, in **Title**, enter a name for the Mixed Media Set. The name appears in the banner across the Mixed Media Set. Optionally, enter a description.
 
-   ![](assets/chlimage_1-304.png)
+   ![](assets/chlimage_1-303.png)
 
    >[!NOTE]
    >
@@ -118,11 +102,11 @@ To create a Mixed Media Set:
 
    See [Working with Selectors](../../assets/using/working-with-selectors.md).
 
-   ![](assets/chlimage_1-305.png)
+   ![](assets/chlimage_1-304.png)
 
 1. Re-order the assets by dragging them up or down the list (must select the reorder icon), as necessary.
 
-   ![](assets/chlimage_1-306.png)
+   ![](assets/chlimage_1-305.png)
 
    If you want to add thumbnails, click the **+** **thumbnail** icon next to the image and navigate to the thumbnail you want. When done selecting all the thumbnail images click **Save.**
 
@@ -145,14 +129,6 @@ You can perform a variety of editing tasks to assets in Mixed Media Sets directl
 * Change the default thumbnail.
 
 To edit a Mixed Media Set:
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>You can create mixed media sets manually or automatically through set automation. Note, however, that you cannot see set members in the user interface. See <a href="#viewingmixedmediasetmembers">Viewing Mixed Media Set Members</a>.</p>
-</note>
--->
 
 1. Do any one of the following:
 

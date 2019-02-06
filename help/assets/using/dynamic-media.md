@@ -3,12 +3,12 @@ title: Working with Dynamic Media
 seo-title: Working with Dynamic Media
 description: Learn how to use Dynamic Media to deliver assets for consumption on web, mobile, and social sites.
 seo-description: Learn how to use Dynamic Media to deliver assets for consumption on web, mobile, and social sites.
-uuid: f9a17eb8-b1fd-4a24-946b-a06d04c0cee6
+uuid: 47362063-b191-4bbf-995d-312ff5ff9a2e
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: introduction
 content-type: reference
-discoiquuid: 8cef1640-be6c-4df4-8548-d56e34fce143
+discoiquuid: 465d94e0-7080-40c6-8b1b-096229038559
 index: y
 internal: n
 snippet: y
@@ -63,40 +63,27 @@ When clicking on an image asset, the view of the asset is different with Dynamic
 
 Dynamic renditions such as image and viewer presets (under **Dynamic**) are available when Dynamic Media is enabled.
 
-![](assets/chlimage_1-312.png) 
+![](assets/chlimage_1-311.png) 
 
 #### Image sets, spins sets, mixed media sets {#image-sets-spins-sets-mixed-media-sets}
 
 Image sets, spin sets, and mixed media sets are available if Dynamic Media is enabled.
 
-![](assets/chlimage_1-313.png) 
+![](assets/chlimage_1-312.png) 
 
 #### Ptiff renditions {#ptiff-renditions}
 
 Dynamic media enabled assets include pyramid.tiffs.
 
-![](assets/chlimage_1-314.png) 
+![](assets/chlimage_1-313.png) 
 
 #### Asset views change {#asset-views-change}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2018-03-15T16:31:34.766-0400
-<p>Need to compare against a non DM enabled instance</p>
--->
-
 With Dynamic Media enabled, you can zoom in and out by clicking the + and - buttons. You can also click/tap to zoom into certain area. Revert brings you to the original version and you can make the image full screen by clicking the diagonal arrows. Dynamic Media enabled looks like this:
 
-![](assets/chlimage_1-315.png)
+![](assets/chlimage_1-314.png)
 
 With dynamic media disabled you can zoom in and out and revert to the original size:
 
-![](assets/chlimage_1-316.png) 
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-317.png" />
--->
+![](assets/chlimage_1-315.png)
 

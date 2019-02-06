@@ -3,12 +3,12 @@ title: AEM Brackets Extension
 seo-title: AEM Brackets Extension
 description: null
 seo-description: null
-uuid: ddd07491-f54b-4231-8faf-0ffb2a986d03
+uuid: f94a1f1f-8f72-42fd-ac19-3506b08c3602
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: f8d3e6f2-2a9d-4f0e-afa0-a79690d61cd8
+discoiquuid: 12d34ee2-b2c9-41a2-b3de-b9f7c3d8ce2d
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ snippet: y
 
 The AEM Brackets Extension provides a smooth workflow to edit AEM components and client libraries, and leverages the power of the [Brackets](http://brackets.io/) code editor, which gives access from within the code editor to Photoshop files and layers. The easy synchronization provided by the extension (no Maven or File Vault required) increases developer efficiency and also helps front-end developers with limited AEM knowledge to participate on projects. This extension also provides some support for the [HTML Template Language (HTL)](/content/help/en/experience-manager/htl/user-guide), which takes away the complexity of JSP to make component development easier and more secure.
 
-![](assets/chlimage_1-63.png) 
+![](assets/chlimage_1-62.png) 
 
 #### Features {#features}
 
@@ -53,7 +53,7 @@ To install the extension proceed as follows:
 1. Open Brackets. In menu **File**, select **Extension Manager…**
 1. Enter **AEM** in the search bar and look for **AEM Brackets Extension**.
 
-   ![](assets/chlimage_1-64.png)
+   ![](assets/chlimage_1-63.png)
 
 1. Click **Install**.
 1. Close the dialog and Extension Manager after the installation completed.
@@ -82,7 +82,7 @@ In Brackets' **File** menu, choose **Open Folder…** and pick either the `jcr_r
 
 In order to synchronize your content to and from an AEM development instance, you need to define your Project Settings. This can be done by going to the **AEM** menu and choosing** Project Settings…**
 
-![](assets/chlimage_1-65.png)
+![](assets/chlimage_1-64.png)
 
 The Project Settings allow to define:
 
@@ -103,7 +103,7 @@ This will only synchronize changes from Brackets to the AEM instance, but never 
 
 In the Project Explorer, open the contextual menu by right-clicking on any file or folder, and the **Export to Server** or **Import from Server** options can be accessed.
 
-![](assets/chlimage_1-66.png)
+![](assets/chlimage_1-65.png)
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ In the Project Explorer, open the contextual menu by right-clicking on any file 
 
 In the **AEM** menu, the **Export Content Package** or **Import Content Package** options allow to synchronize the whole project with the server.
 
-![](assets/chlimage_1-67.png) 
+![](assets/chlimage_1-66.png) 
 
 #### Synchronization Status {#synchronization-status}
 
@@ -126,7 +126,7 @@ The AEM Brackets Extension features a notification icon in the toolbar on the ri
 
 Clicking on the notification icon will open the Synchronization Status report dialog that lists of all the status for each synchronized file.
 
-![](assets/chlimage_1-68.png)
+![](assets/chlimage_1-67.png)
 
 >[!NOTE]
 >

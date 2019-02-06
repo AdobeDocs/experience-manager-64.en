@@ -3,12 +3,12 @@ title: Integrating with Adobe Search&Promote
 seo-title: Integrating with Adobe Search&Promote
 description: Learn how to integrate with Adobe Search&Promote.
 seo-description: Learn how to integrate with Adobe Search&Promote.
-uuid: 719e22a6-d53d-4b7d-900a-ad0a8630c8d5
+uuid: a39f0cd9-7e72-4303-abbb-6524889ee293
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: a56a2f9d-377f-4c39-b937-ea3eb6e0d3d7
+discoiquuid: b71fa045-6aa5-43bb-9645-89fd5636d763
 index: y
 internal: n
 snippet: y
@@ -58,7 +58,7 @@ Configure one or more connections to Search&Promote so that your web pages can i
 
    If you would like to learn more about Search&Promote click** Learn More **instead.
 
-   ![](assets/chlimage_1-361.png)
+   ![](assets/chlimage_1-346.png)
 
 1. Enter a **Title** that is recognizable to page authors, and enter a unique **Name**, then click **Create**.
 
@@ -66,7 +66,7 @@ Configure one or more connections to Search&Promote so that your web pages can i
   
    Also, the newly created Configuration appears below **Available Configurations** on the **Cloud Services dashboard** Adobe Search&Promote list item.
 
-   ![](assets/chlimage_1-362.png)
+   ![](assets/chlimage_1-347.png)
 
 1. Add the following to the fields in the **Edit Component** dialog box.
 
@@ -116,7 +116,7 @@ To configure the data center:
 
 1. Navigate to the Web console at `http://localhost:4502/system/console/configMgr/com.day.cq.searchpromote.impl.SearchPromoteServiceImpl`
 
-   ![](assets/chlimage_1-363.png)
+   ![](assets/chlimage_1-348.png)
 
 1. Depending on the location of the server, change the URI to one of the following:
 

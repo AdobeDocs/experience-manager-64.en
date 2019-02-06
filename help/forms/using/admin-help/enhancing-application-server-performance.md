@@ -3,12 +3,12 @@ title: Enhancing application server performance
 seo-title: Enhancing application server performance
 description: This document describes optional settings that you can configure to improve the performance of your AEM forms application server.
 seo-description: This document describes optional settings that you can configure to improve the performance of your AEM forms application server.
-uuid: baf65a53-197f-45bc-89f1-e67012e1db31
+uuid: e79e5eb1-b14f-4553-a04c-b30d899fd416
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a789dd63-c5cf-4d2e-ac5e-72ed2541f74e
+discoiquuid: 92ac82b1-4f20-4156-be07-df156f0cd32c
 index: y
 internal: n
 snippet: y
@@ -62,14 +62,6 @@ When the application server administrator determines the correct connection pool
 ### Configure connection pool settings for WebSphere for DB2 {#configure-connection-pool-settings-for-websphere-for-db2}
 
 1. In the navigation tree, click Resources &gt; JDBC &gt; JDBC Providers. In the right pane, click the data source you created, either DB2 Universal JDBC Driver Provider or LiveCycle - db2 - IDP_DS.
-
-   <!--
-   Comment Type: remark
-   Last Modified By:
-   Last Modified Date:
-   <p>Has the name of the data source changed?</p>
-   -->
-
 1. Under Additional Properties, click Data Sources and then select IDP_DS.
 1. On the next screen, under Additional Properties, click Connection Pool Properties and enter a value in the Maximum Connections box and the Minimum Connections box.
 1. Click OK or Apply, and then click Save Directly To Master Configuration.

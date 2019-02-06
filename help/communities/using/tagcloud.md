@@ -3,12 +3,12 @@ title: Using Social Tag Cloud
 seo-title: Using Social Tag Cloud
 description: Adding a Social Tag Cloud component to a page
 seo-description: Adding a Social Tag Cloud component to a page
-uuid: c4e6a5d7-43b9-4cd7-a81c-285cb7f45018
+uuid: 70473457-34cf-4ba0-88ec-faf7aafc1d8f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: d2eab32f-d09d-45a7-822c-31c5b7abf95a
+discoiquuid: 15ef21ff-4720-4f5c-b19e-630bdda736c7
 index: y
 internal: n
 snippet: y
@@ -40,17 +40,17 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/tag.md#essentialsforclientside) are included, this is how the `Social Tag Cloud` component will appear :
 
-![](assets/chlimage_1-315.png)
+![](assets/chlimage_1-302.png)
 
 ### Configuring Social Tag Cloud {#configuring-social-tag-cloud}
 
 Select the placed `Social Tag Cloud` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-316.png)
+![](assets/chlimage_1-303.png)
 
 Under the **Social Tag Cloud** tab, specify which tags to display and, if the tags are active links, the location of the page for search results.:
 
-![](assets/chlimage_1-317.png)
+![](assets/chlimage_1-304.png)
 
 * **Social Tags to Display** 
   Identify which UGC tags to display. The pull-down options are
@@ -75,7 +75,7 @@ To edit the display of the **Social Tag Cloud**, enter [Design Mode](../../sites
 
 Using the **Social Tag Cloud (Design)** tab, specify how tags are displayed. A tag may be a simple tag, a single word in the default namespace, or a hierarchical taxonomy :
 
-![](assets/chlimage_1-318.png)
+![](assets/chlimage_1-305.png)
 
 * **Show full title paths** 
   If checked, shows the titles for the parent tags and namespace for each applied tag.   

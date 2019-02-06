@@ -3,11 +3,11 @@ title: Oak-run.jar Indexing Use Cases
 seo-title: Oak-run.jar Indexing Use Cases
 description: Learn about the various user cases for performing indexing with the Oak-run tool.
 seo-description: Learn about the various user cases for performing indexing with the Oak-run tool.
-uuid: efcaab25-8b24-402f-8d79-bd9ec4c4cf98
+uuid: af2c8c2d-a0ef-45e1-bcea-0584c8b2c16d
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 43ffeaba-50d7-4d4f-89cb-d790d8eed839
+discoiquuid: c1c35245-5eed-49ac-8abc-46728f7d6982
 noindex: true
 index: y
 internal: n
@@ -26,14 +26,6 @@ The overarching benefits of using the oak-run.jar index command approach for man
 1. Oak-run provides out-of-band re-indexing, supporting situations where production must be available, and cannot tolerate maintenance or downtime otherwise required to reindex.
 
 Sections below would provide sample commands. oak-run index command supports all NodeStore and BlobStore setups. The examples provided below are around setups having FileDataStore and SegmentNodeStore.
-
-<!--
-Comment Type: remark
-Last Modified By: David Gonzalez (dgonzale)
-Last Modified Date: 2018-04-06T15:01:17.765-0400
-<p>This needs to be reviewed and replaced with a customer facing doc intro text.</p>
-<p>--- Edited by David Gonzalez prior to publication</p>
--->
 
 ## Use Case 1 - Index Consistency Check {#usercase1indexconsistencycheck}
 
@@ -158,20 +150,6 @@ For `SegmentNodeStore` installations reindexing can be done in one of the follow
 
 Follow the established way where reindexing is done via setting `reindex` flag.
 
-<!--
-Comment Type: remark
-Last Modified By: David Gonzalez (dgonzale)
-Last Modified Date: 2018-04-06T14:53:45.621-0400
-<p>Is pointing to this
-<g class="gr_ gr_4 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="4" id="4">
-jira
-</g> on the apache oak
-<g class="gr_ gr_3 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="3" id="3">
-ws
-</g> relevant in this case?</p>
-<p>Additional optimization like reindexing in a different lane can be performed. For more details, see <a href="https://issues.apache.org/jira/browse/OAK-5553">OAK-5553</a>.</p>
--->
-
 #### Online Reindex - SegmentNodeStore - The AEM Instance is Running {#onlinereindexsegmentnodestoretheaeminstanceisrunning}
 
 For `SegmentNodeStore` installations only one process can access segment files in read-write mode. Due to this some operations in oak-run indexing require additional manual steps being taken.
@@ -214,30 +192,6 @@ In this use case, you can perform reindexing on a cloned setup to minimize impac
 1. Import the index files via JMX.
 
 Under this use case, it is assumed that the Data Store is accessible on another instance which may not be possible if `FileDataStore` is placed on a cloud based storage solution like EBS. This excludes the scenario where `FileDataStore` is also cloned. If the index definition does not perform fulltext indexing, then access to `DataStore` is not required.
-
-<!--
-Comment Type: draft
-
-<h4 id="FurtherEnhancements">Further Enhancements</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>Going forward we can build up on reindexing flow implemented via <span class="code">oak-run</span> to support following features:</p>
-<ol>
-<li>Interrupt Resilience - It should be possible for reindexing to resume from some last state instead of starting again in case of network failure<br /><br /> </li>
-<li>Faster Reindexing - We need to explore ways to perform reindexing in faster mode. One such approach is being explored in OAK-6353<br /><br /> </li>
-<li>For SegmentNodeStore setups implement OAK-5553 such that reindexing can be done on same server with minimum hassel and some lesser impact</li>
-</ol>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: David Gonzalez (dgonzale)
-Last Modified Date: 2018-04-06T14:52:46.340-0400
-<p>Does this need to be public?</p>
--->
 
 ## Use Case 4 - Updating Index Definitions {#usecase4updatingindexdefinitions}
 

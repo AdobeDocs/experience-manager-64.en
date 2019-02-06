@@ -3,12 +3,12 @@ title: Creating Adobe Campaign Forms in AEM
 seo-title: Creating Adobe Campaign Forms in AEM
 description: AEM lets you create and use forms that interact with Adobe Campaign on your website
 seo-description: AEM lets you create and use forms that interact with Adobe Campaign on your website
-uuid: 6b79f52f-b54b-47ae-bf3b-be835c02e777
+uuid: aaca67a3-533b-4c5d-9fb1-caeb6afca264
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 1ae25c7f-109f-4ac6-949d-91f1b55e66be
+discoiquuid: fdcbd1e1-77b1-4808-b0a6-c65b1dc8ef27
 index: y
 internal: n
 snippet: y
@@ -38,14 +38,6 @@ Although you create these forms independently, in a typical use case, you genera
 
 The form automatically updates based on the user. See [Editing Form Content](#editingformcontent) for more information.
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>If using Feature Pack 6576 (for touch-enabled UI editing), you must also <a href="https://github.com/Adobe-Marketing-Cloud/aem-adobecampaign-forms-sample">download</a> the sample Adobe Campaign form page template for AEM from github: <a href="https://github.com/Adobe-Marketing-Cloud/aem-adobecampaign-forms-sample">https://github.com/Adobe-Marketing-Cloud/aem-adobecampaign-forms-sample</a>. The content package contains a sample AEM template and page component to create an Adobe Campaign profile/subscription form page supporting both classic UI and standard UI authoring.</p>
-</note>
--->
-
 ## Making a Template Available {#making-a-template-available}
 
 Before being able to create forms that are specific to Adobe Campaign, you must make the different templates available in your AEM application.
@@ -64,7 +56,7 @@ First of all, check the connection between the author and publish instances and 
 1. In AEM, in Sites, navigate to where you want to create a new page.
 1. Create a page and select **Adobe Campaign Classic Profile **or** Adobe Campaign Standard Profile** and click **Next**.
 
-   ![](assets/chlimage_1-29.png)
+   ![](assets/chlimage_1-28.png)
 
    >[!NOTE]
    >
@@ -74,7 +66,7 @@ First of all, check the connection between the author and publish instances and 
 1. In the **Title** field, enter a title and click **Create**.
 1. Open the page and select **Open Properties** and in Cloud Services add the Adobe Campaign configuration and select the checkmark to save your changes.
 
-   ![](assets/chlimage_1-30.png)
+   ![](assets/chlimage_1-29.png)
 
 1. On the page, in the **Form Start** component, select the type of form it is - **Subscribe, Unsubscribe, **or** Save Profile**. You can only have one type per form. You can now [edit the form's content](#editingformcontent).
 
@@ -90,11 +82,11 @@ This section only details specific links to Adobe Campaign. For more information
 
 1. Select **Open Properties** and in Cloud Services add the Adobe Campaign configuration and select the checkmark to save your changes.
 
-   ![](assets/chlimage_1-31.png)
+   ![](assets/chlimage_1-30.png)
 
 1. On the page, in the **Form Start** component, click the Configuration icon.
 
-   ![](assets/chlimage_1-32.png)
+   ![](assets/chlimage_1-31.png)
 
 1. Click the **Advanced** tab and select the type of form it is - **Subscribe, Unsubscribe, **or** Save Profile **and click** OK.** You can only have one type per form.
 
@@ -107,26 +99,18 @@ This section only details specific links to Adobe Campaign. For more information
 
    Generated links to this form need to use this URL parameter and assign it the encrypted primary key of an Adobe Campaign profile. The encrypted primary key must be properly URL (percent) encoded.
 
-   ![](assets/chlimage_1-33.png)
+   ![](assets/chlimage_1-32.png)
 
 1. Add components to the form as needed, such as a Text field, Date field, Checkbox field, Option field, and so on. See [Adobe Campaign Form Components](../../../sites/authoring/using/adobe-campaign-components.md) for more information on each component.
 1. Click the Configuration icon to open the component. For example, in **Text Field (Campaign) **component, change the title and text.
 
    Click** Adobe Campaign** to map the form field to an Adobe Campaign metadata variable. When you submit the form, the mapped field is updated in Adobe Campaign. Only fields with matching types are available in the variable picker (for example, string variables for text fields).
 
-   ![](assets/chlimage_1-34.png)
+   ![](assets/chlimage_1-33.png)
 
    >[!NOTE]
    >
    >You can add/remove fields that are displayed in the recipient table by following the instructions here: [http://blogs.adobe.com/experiencedelivers/experience-management/aem-campaign-integration/](http://blogs.adobe.com/experiencedelivers/experience-management/aem-campaign-integration/)
-
-   <!--
-   Comment Type: draft
-
-   <note type="note">
-   <p>You can also specify whether the field is part of the reconciliation key, which allows recipients that are already present in the Adobe Campaign database to be recognized.</p>
-   </note>
-   -->
 
 1. Click **Publish Page**. The page is activated on your site. You can view it by going to your AEM publication instance. You can also [test a form](#testingaform).
 

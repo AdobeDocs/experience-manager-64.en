@@ -3,12 +3,12 @@ title: Advanced Scoring and Badges
 seo-title: Advanced Scoring and Badges
 description: Setting up advanced scoring
 seo-description: Setting up advanced scoring
-uuid: 4b65fb8f-23f4-498f-ba13-24d70bdecbec
+uuid: 67b0b56f-d695-4389-a1f4-5a7e3fb8804b
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 8ed8bd09-6e69-4bf4-bc7f-f6f2738c8c17
+discoiquuid: 8c013203-6ef1-435b-9fa7-504bcf1fcd99
 index: y
 internal: n
 snippet: y
@@ -56,7 +56,7 @@ The differences in setting up the scoring and badging rules are :
 
 The advanced scoring engine provides an OSGi configuration with parameters that affect the advanced scoring algorithm. 
 
-![](assets/chlimage_1-267.png)
+![](assets/chlimage_1-259.png)
 
 * **scoring weights** 
   For a topic, specify the verb that should be given the highest priority when calculating the score. One or more topics may be entered, but limited to **one verb per topic**. See [Topics and Verbs](../../communities/using/implementing-scoring.md#topicsandverbs).  
@@ -92,7 +92,7 @@ To invoke the advanced scoring engine, the `scoringType`should be set to `advanc
 
 See [Scoring Sub-Rules](../../communities/using/implementing-scoring.md#scoringsubrules).
 
-![](assets/chlimage_1-268.png)
+![](assets/chlimage_1-260.png)
 
 ### stopwords {#stopwords}
 
@@ -112,7 +112,7 @@ The advanced badging rule properties differ from the [basic badging rule propert
 
 Instead of associating points with a badge image, it is only necessary to identify the number of experts allowed and the badge image to award.
 
-![](assets/chlimage_1-269.png)
+![](assets/chlimage_1-261.png)
 
 <table border="2" cellpadding="4" cellspacing="2" width="90%"> 
  <tbody>
@@ -153,7 +153,7 @@ Included in this beta release is one reward-based expert badge :
 * expert  
   /etc/community/badging/images/expert-badge/jcr:content/expert.png
 
-![](assets/chlimage_1-270.png)
+![](assets/chlimage_1-262.png)
 
 In order for the expert badge to appear as a reward for activity, there are two things that must happen :
 

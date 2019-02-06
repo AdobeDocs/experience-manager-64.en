@@ -3,12 +3,12 @@ title: Troubleshooting Oak Indexes
 seo-title: Troubleshooting Oak Indexes
 description: How to detect and fix slow re-indexing.
 seo-description: How to detect and fix slow re-indexing.
-uuid: 91be8eeb-9b21-4a3f-b574-f56e5820aac0
+uuid: e6ec41db-439c-4cd4-9431-6d651b79d5b7
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 792fe92d-fb27-4bcc-92ff-3a58ff3083fc
+discoiquuid: 26ca8d71-ff7a-4315-913b-dd99e8c85d01
 index: y
 internal: n
 snippet: y
@@ -61,7 +61,7 @@ In exceptional circumstances, the thread pool used to manage asychronous indexin
     * Add an entry to the "Allowed Thread Pools" field with the value of "oak".
     * Click Save in the bottom-right to save the changes.
 
-   ![](assets/chlimage_1-136.png)
+   ![](assets/chlimage_1-122.png)
 
 1. Verify that the new Apache Sling Scheduler thread pool is registered and displays in the Apache Sling Scheduler Satus web console.
 
@@ -71,7 +71,7 @@ In exceptional circumstances, the thread pool used to manage asychronous indexin
         * ApacheSlingoak
         * ApacheSlingdefault
 
-   ![](assets/chlimage_1-137.png)
+   ![](assets/chlimage_1-123.png)
 
 ## Observation queue is full {#observation-queue-is-full}
 
@@ -146,7 +146,7 @@ To safely abort re-indexing, follow these steps:
         
         * The lane is also available by accessing AEM's Index Manager in the "Async" column. To access the Index manager navigate to Operations&gt;Diagnosis&gt;Index Manager.
 
-   ![](assets/chlimage_1-138.png)
+   ![](assets/chlimage_1-124.png)
 
 1. Invoke the `abortAndPause()` command on the appropriate `IndexStats` MBean.
 1. Mark the Oak index definition appropriately to prevent resuming re-indexing when the indexing lane resumes.

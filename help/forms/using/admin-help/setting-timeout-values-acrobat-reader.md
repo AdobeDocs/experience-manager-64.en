@@ -3,25 +3,18 @@ title: Setting timeout values for use with Acrobat Reader DC extensions
 seo-title: Setting timeout values for use with Acrobat Reader DC extensions 
 description: Learn how to set timeout values for use with Acrobat Reader DC extensions.
 seo-description: Learn how to set timeout values for use with Acrobat Reader DC extensions.
-uuid: a8b89ab2-5cad-4042-963c-03ddb57292d4
+uuid: 5b464a29-f467-4f61-9311-8b95bfd9e22d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 6f6493b2-d285-4388-be28-8aab89fa4c7e
+discoiquuid: abc97f48-e6a4-4bab-866a-5c50a80d6b4d
 index: y
 internal: n
 snippet: y
 ---
 
 # Setting timeout values for use with Acrobat Reader DC extensions {#setting-timeout-values-for-use-with-acrobat-reader-dc-extensions}
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Bug 1539440:</p>
--->
 
 When working on many PDF files in Acrobat Reader DC extensions, ensure that the following time-out values are set appropriately to prevent jobs from timing out and failing:
 

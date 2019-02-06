@@ -3,12 +3,12 @@ title: Creating Custom AEM Page Template with Adobe Campaign Form Components
 seo-title: Creating Custom AEM Page Template with Adobe Campaign Form Components
 description: Build a custom page template that uses Adobe Campaign Form components
 seo-description: Build a custom page template that uses Adobe Campaign Form components
-uuid: 0dcb7ab6-95b1-4a47-a936-06c73abf8fb8
+uuid: 2b83cee1-9e7e-407b-9a77-0527df5f0518
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 28e1e3ac-bc93-43f7-aed1-2e0db2b27395
+discoiquuid: f3d5f886-bc3a-4316-9464-99edc75b9569
 index: y
 internal: n
 snippet: y
@@ -33,7 +33,7 @@ To create a custom AEM page template using Adobe Campaign Form components, make 
     * `com.day.cq.mcm.campaign.servlets.TemplateListServlet`
     * `com.day.cq.mcm.campaign.servlets.SaveProfileServlet`
 
-   ![](assets/chlimage_1-218.png)
+   ![](assets/chlimage_1-211.png)
 
 1. **ClientContext Settings**
 
@@ -42,7 +42,7 @@ To create a custom AEM page template using Adobe Campaign Form components, make 
     * ClientContext points to `/etc/clientcontext/campaign`
     * There is also an extra *config* node.
 
-   ![](assets/chlimage_1-219.png)
+   ![](assets/chlimage_1-212.png)
 
 1. **head.jsp (/apps/geometrixx-outdoors/components/page_campaign_profile/head.jsp)**
 
@@ -68,7 +68,7 @@ To create a custom AEM page template using Adobe Campaign Form components, make 
 
    `/apps/geometrixx-outdoors/components/page_campaign_profile/dialog/items/tabs/items/campaign`
 
-   ![](assets/chlimage_1-220.png)
+   ![](assets/chlimage_1-213.png)
 
 1. **Template settings**.
 
@@ -78,5 +78,5 @@ To create a custom AEM page template using Adobe Campaign Form components, make 
    |---|---|
    | **acTemplateId** |mail |
 
-   ![](assets/chlimage_1-221.png)
+   ![](assets/chlimage_1-214.png)
 

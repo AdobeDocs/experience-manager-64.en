@@ -3,12 +3,12 @@ title: About administration and process terminology
 seo-title: About administration and process terminology
 description: Learn about administration and process terms like process instance, process diagram and operation.
 seo-description: Learn about administration and process terms like process instance, process diagram and operation.
-uuid: 29fb7808-0d52-45d7-9a06-8498027ad8f4
+uuid: 4534698c-d809-4ccc-a373-100492524c74
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1d61e448-717b-4d98-aaf2-e084a27d7d00
+discoiquuid: 93bdb99e-6bdb-4185-9f42-431ecd891192
 index: y
 internal: n
 snippet: y

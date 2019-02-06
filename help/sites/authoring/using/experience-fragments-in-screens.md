@@ -3,9 +3,9 @@ title: REDIRECT Using Experience Fragments
 seo-title: REDIRECT Using Experience Fragments
 description: null
 seo-description: null
-uuid: 5e30e1f6-aa22-46d4-91ce-68cfc06bc19d
+uuid: 8ef7d66e-c547-436a-b674-83986c770bd5
 contentOwner: jsyal
-discoiquuid: 1db23b6f-3346-44e1-9b5d-a8a586aaf692
+discoiquuid: 6557a7d2-f4fc-430f-be46-1c6703038e79
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/experience-fragments-in-screens
 index: y

@@ -3,12 +3,12 @@ title: Configuring Video Tracking for Adobe Analytics
 seo-title: Configuring Video Tracking for Adobe Analytics
 description: Learn about configuring video tracking for SiteCatalyst.
 seo-description: Learn about configuring video tracking for SiteCatalyst.
-uuid: df83e16b-f9c9-4011-b4d9-7f449d90a244
+uuid: 3859b318-c7bf-40bd-9d0e-71a822f88f5e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 2c1a64bd-83f0-48b3-9881-0e863f1bc6e8
+discoiquuid: 978e2ec7-da69-4a84-96cb-4f8da0e57d96
 index: y
 internal: n
 snippet: y
@@ -384,10 +384,3 @@ When using the** legacy seconds** method, Adobe Analytics calls get triggered ev
 **References used in this tutorial:**
 
 [0] [https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/video_overview.html](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/video_overview.html)
-
-<!--
-Comment Type: draft
-
-<p>[1] https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf - possible resource - other old one could not be found.</p>
--->
-

@@ -4,11 +4,11 @@ seo-title: AEM Desktop App Release Notes
 description: Release notes specific to Desktop App Adobe Experience Manager 6.3 Assets.
 seo-description: Release notes specific to Desktop App Adobe Experience Manager 6.3 Assets.
 page-status-flag: never-activated
-uuid: be8af837-8d83-4ea7-82a7-7c56f13c6243
+uuid: f00f001c-8f0e-4c50-b8f6-7ec354289dc0
 topic-tags: release-notes
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4
-discoiquuid: 0dfa05de-50e1-4933-8982-db3d335b8c21
+discoiquuid: d54f71c7-9823-4965-a9b3-7e6897e2229e
 index: y
 internal: n
 snippet: y
@@ -81,27 +81,6 @@ This release extends and replaces the previous versions of the Experience Manage
 >Cache size limit is not enforced. When the desktop app starts, the cache size is calculated once, and a notification is shown if the size is close to the predefined limit. 
 >
 >AEM Desktop App can only connect through network proxy that does not require additional authentication. A possible workaround for customers IT team is to whitelist the AEM Assets URL in the proxy server.
-
-<!--
-Comment Type: draft
-
-<h2>Download AEM Desktop app</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>Download the AEM Desktop v1.8.1 for your operating system from the links below.</p>
-<ul>
-<li><a href="http://download.macromedia.com/aem-assets-companion-app/aem-desktop-osx-1.8.1.0.dmg">Mac OS X 64 bit</a></li>
-</ul>
-<ul>
-<li><a href="http://download.macromedia.com/aem-assets-companion-app/aem-desktop-win32-1.8.1.0.exe">Windows 32 bit</a></li>
-</ul>
-<ul>
-<li><a href="http://download.macromedia.com/aem-assets-companion-app/aem-desktop-win64-1.8.1.0.exe">Windows 64 bit</a></li>
-</ul>
--->
 
 ## System requirements and prerequisites {#system-requirements-and-prerequisites}
 
@@ -448,46 +427,9 @@ Since the /Volumes folder no longer requires administrative rights, this change 
     * Files with Alternate Data Streams (ADS) are only fully supported on NTFS. Copying such files to the WebDAV share provided by the Desktop App will result in a caution dialog warning the user that the file has properties that can't be copied to the new location. This is usually fine since the properties are only relevant to a particular application on the user's desktop and have nothing to do with the actual file contents (CQ-103770) [win]
     * Desktop App on Windows needs to be installed by the user that will be using it (CQ-4216389) [win]
 
-<!--
-Comment Type: annotation
-Last Modified By: ims-author-230927A44C16A40C0A04B82A@AdobeID
-Last Modified Date: 2017-06-23T13:13:38.564-0400
-Update for 1.5 - GK - done - cleaned up resolved issues, added 1.5.1 relevant open issues - Bob/Team - TBD Updated for 1.5.1 - Removed InDesign update warning issue - Removed Disconnect issue error 43 - Removed relink issue - Removed desktop app crash issue using large folder
--->
-
 ## Installation instructions {#installation-instructions}
 
 For detailed instructions, see [install and configure AEM Desktop app](/content/help/en/experience-manager/desktop-app/install-configure-aem-desktop-app).
-
-<!--
-Comment Type: draft
-
-<div>
-<span class="uicontrol">Issues Resolved with AEM 1.5 - for reference - KEEP AS DRAFT</span>
-<br />
-</div>
-<ul>
-<li>FIXED After unmounting AEM, Mount AEM Assets might not actually mount the repository. (CQ-4200793)</li>
-</ul>
-<p><strong>Workaround: </strong>The workaround is to quit Desktop Application and start again, then mount should work again.</p>
-<p><span class="uicontrol">Issues Resolved with AEM 1.4 - for reference - KEEP AS DRAFT</span></p>
-<ul>
-<li>Copying
-<g class="gr_ gr_25 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" data-gr-id="25">
-large number
-</g> of assets at the same time from the local machine to AEM using AEM Desktop App might fail after 40-50 assets. CQ-92912<br /> <strong><br /> Note</strong>: Desktop App should not be used to carry out bulk copy operations on
-<g class="gr_ gr_24 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="24">
-larger
-</g> number of files. Instead, consider using a smaller batch size or use a tool/script to upload assets directly through the AEM HTTP API.<br /> </li>
-<li>File and folder names with Unicode characters are not properly handled. CQ-85558 </li>
-<li>Folders may show an incorrect modified date in Finder. CQ-92289 </li>
-</ul>
-<p>Windows</p>
-<ul>
-<li>Assets can't be uploaded to private folders owned by admin. CQ-101556</li>
-<li>Folders created by the Desktop App are not removed after they are deleted in the same session. CQ-104605<br /> </li>
-</ul>
--->
 
 ## Helpful resources {#helpful-resources}
 

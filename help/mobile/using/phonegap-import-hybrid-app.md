@@ -3,12 +3,12 @@ title: Import an existing hybrid app
 seo-title: Import an existing hybrid app
 description: A sample app has been created that demonstrates all of the new features in AEM Mobile to support migrating an existing PhoneGap app into AEM as well as valid app structure.
 seo-description: A sample app has been created that demonstrates all of the new features in AEM Mobile to support migrating an existing PhoneGap app into AEM as well as valid app structure.
-uuid: 3be38c01-a229-4aa1-a9b7-34a73ce93742
+uuid: e66578cb-c48a-4644-85a2-5c82b8de32de
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
-discoiquuid: a256fe9e-ce47-4971-b282-07c1b69c0e2d
+discoiquuid: 541f9b81-59b8-4f06-83d2-2c7c69ffc4a3
 redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/phonegap-adding-content-to-imported-app
 index: y
 internal: n

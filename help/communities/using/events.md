@@ -3,12 +3,12 @@ title: OSGi Events for Communities Components
 seo-title: OSGi Events for Communities Components
 description: OSGi events are sent that can trigger asynchronous listeners
 seo-description: OSGi events are sent that can trigger asynchronous listeners
-uuid: 5dc1e725-00fe-4c78-9df1-948771c54108
+uuid: b78d6879-7b44-4005-bd68-1765aa2870dd
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 5f5ab84b-bb73-409a-9219-47e0e74b473e
+discoiquuid: 343d84c7-fb64-4174-86d2-37a87ebed198
 index: y
 internal: n
 snippet: y

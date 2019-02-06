@@ -3,12 +3,12 @@ title: Managing Packages Using Maven
 seo-title: Managing Packages Using Maven
 description: Use the Content Package Maven plugin to integrate package management tasks into your Maven projects
 seo-description: Use the Content Package Maven plugin to integrate package management tasks into your Maven projects
-uuid: d18458cb-1d93-4204-9de2-a4c217af341f
+uuid: 30e6b2fd-04c9-4802-a217-9c29dfd0553d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 17ed2c06-d112-40f5-9f8f-ec92771ebb86
+discoiquuid: 6bdffe29-2e59-4819-bea7-2b9e19a59db4
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Tagging User Generated Content
 seo-title: Tagging User Generated Content
 description: Tagging of user generated content (UGC) is how community members can help other members search for content
 seo-description: Tagging of user generated content (UGC) is how community members can help other members search for content
-uuid: 8f2ec517-552e-40e6-a1fd-986148b3ac79
+uuid: 92063555-9966-4716-95f9-e4e20cc721dd
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 1a260425-b461-43eb-9702-367d64eed3ce
+discoiquuid: cde0fde7-4e6b-4559-b66b-764546539573
 index: y
 internal: n
 snippet: y
@@ -52,5 +52,5 @@ See [Setting Tag Permissions](../../sites/administering/using/tags.md#settingtag
 
 The following is how it appears in CRXDE when an administrator applies read permissions to `/etc/tag/discussions` for the group `*Community Engage Members*`.
 
-![](assets/chlimage_1-76.png)
+![](assets/chlimage_1-73.png)
 

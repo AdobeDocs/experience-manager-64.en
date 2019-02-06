@@ -3,12 +3,12 @@ title: Implementing Server-Side Page Naming for Analytics
 seo-title: Implementing Server-Side Page Naming for Analytics
 description: Adobe Analytics uses the s.pageName property to uniquely identify pages and to associate the data that is collected for the pages
 seo-description: Adobe Analytics uses the s.pageName property to uniquely identify pages and to associate the data that is collected for the pages
-uuid: 838e2a76-f75b-4510-b164-48d3bdce7116
+uuid: 886f78ad-900d-4582-a169-a06281296a57
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: c1b04c85-835d-4ad4-8b21-0920c9f5dad0
+discoiquuid: f9597299-33ca-40a9-bc81-bb36c06d0231
 index: y
 internal: n
 snippet: y
@@ -72,13 +72,6 @@ For example, a custom pag component can include a page property that authors use
 >Ask your Analytics consultant for help in developing an effective strategy for your `s.pageName` value.
 
 ### Implementing an Analytics Page Name Provider Service {#implementing-an-analytics-page-name-provider-service}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sbroders@adobe.com)
-Last Modified Date: 2017-12-04T09:56:14.967-0500
-<p>Add links to javadocs when they are available.</p>
--->
 
 Implement the `com.day.cq.analytics.sitecatalyst.AnalyticsPageNameProvider` interface as an OSGi service to customize the logic that retrieves the s.pageName property value. The Sites page analytics and Content Insight use the service to retrieve report data from Analytics.
 

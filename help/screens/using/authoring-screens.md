@@ -3,12 +3,12 @@ title: Authoring Screens
 seo-title: Authoring Screens
 description: This page serves as a landing page for authoring AEM Screens. It provides an overview of the various roles and responsibilities of an AEM Screens author.
 seo-description: This page serves as a landing page for authoring AEM Screens. It provides an overview of the various roles and responsibilities of an AEM Screens author.
-uuid: 35081fc4-7d27-48ab-be63-7d95de43097f
+uuid: 192febe4-70af-4ce8-a2d2-3be3c152a10e
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: bc4dc39f-1698-445e-a5ae-a53398c7a79d
+discoiquuid: ee3bf8c7-dd23-434d-b7fd-e65576176e25
 index: y
 internal: n
 snippet: y

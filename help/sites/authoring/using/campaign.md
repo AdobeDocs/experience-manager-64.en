@@ -3,12 +3,12 @@ title: Working with Adobe Campaign Classic and Adobe Campaign Standard
 seo-title: Working with Adobe Campaign 6.1 and Adobe Campaign Standard
 description: You can create email content in AEM and process it in Adobe Campaign emails
 seo-description: You can create email content in AEM and process it in Adobe Campaign emails
-uuid: b513e89c-5322-4452-85e4-de1ae7d90b85
+uuid: 72d82464-1d09-4393-abc5-def1e91f47c9
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 8fac39e3-83b0-47b4-9d71-e5adb3fa135f
+discoiquuid: 2fdd3ed5-3fff-459d-8fa1-e6a1b7933344
 index: y
 internal: n
 snippet: y
@@ -213,15 +213,7 @@ You can preview how the newsletter will look as well as preview the personalizat
 
 1. You can view the seed data coming from Adobe Campaign that is associated with the currently selected persona. To do this, click/tap the Adobe Campaign module in the ContextHub bar. This opens a dialog box displaying all seed data of the current profile. Again, the data adapts when switching to a different persona.
 
-   ![](assets/chlimage_1-15.png) 
-
-   <!--
-   Comment Type: draft
-
-   <note type="note">
-   <p>When using the S7 template component, you will not see images displayed in content editing mode. Images are not displayed in the content editing HTML view but are displayed during preview when using a profile. Note that this issue only happens if the Scene7 template component contains text that includes Adobe Campaign personalization fields.</p>
-   </note>
-   -->
+   ![](assets/chlimage_1-15.png)
 
 ### Approving content in AEM {#approving-content-in-aem}
 
@@ -306,18 +298,6 @@ To link a page created in AEM with an email from Adobe Campaign:
 
    When the email is linked to an AEM content, the content cannot be edited in Adobe Campaign.
 
-   <!--
-   Comment Type: draft
-
-   <p>You can open the content in AEM by selecting<strong> Open content in Adobe Experience Manager</strong> from the Adobe Campaign content action bar.</p>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-24.png" />
-   -->
-
 1. Specify the other parameters of your email from its dashboard (audiences, execution schedule).
 1. Execute the email delivery. During the delivery analysis, the most up-to-date version of the AEM content is retrieved.
 
@@ -344,7 +324,7 @@ Adobe Campaign allows you to recover and synchronize content created in AEM with
 
 In AEM, if a newsletter is linked to a single delivery, the delivery code displays on the page. 
 
-![](assets/chlimage_1-25.png)
+![](assets/chlimage_1-24.png)
 
 >[!NOTE]
 >
@@ -358,7 +338,7 @@ To synchronize content created in AEM with a delivery from Adobe Campaign:
 
 1. Create a delivery or add a delivery activity to a campaign workflow by selecting the **Email delivery with AEM content (mailAEMContent)** delivery template.
 
-   ![](assets/chlimage_1-26.png)
+   ![](assets/chlimage_1-25.png)
 
 1. Select **Synchronize** in the toolbar to access the list of contents available in AEM.
 
@@ -366,7 +346,7 @@ To synchronize content created in AEM with a delivery from Adobe Campaign:
    >
    >If the **Synchronize** option does not appear in the delivery's toolbar, check that the **Content editing mode** field is correctly configured in **AEM** by selecting **Properties** &gt; **Advanced**.
 
-   ![](assets/chlimage_1-27.png)
+   ![](assets/chlimage_1-26.png)
 
 1. Select the content you would like to synchronize with your delivery.
 
@@ -381,7 +361,7 @@ To synchronize content created in AEM with a delivery from Adobe Campaign:
    >
    >By default, the content that is already synchronized with a delivery is hidden. However, you can display it and use it. For example, if you want to use content as a template for several deliveries.
 
-   ![](assets/chlimage_1-28.png)
+   ![](assets/chlimage_1-27.png)
 
 1. Specify the other parameters of your delivery (target, etc.)
 1. If necessary, start the delivery approval process in Adobe Campaign. Content approval in AEM is necessary in addition to approvals configured in Adobe Campaign (budget, target, etc.). Content approval in Adobe Campaign is only possible if the content is already approved in AEM.

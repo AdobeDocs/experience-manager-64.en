@@ -3,9 +3,9 @@ title: REDIRECT Bulk Offline Update
 seo-title: REDIRECT Bulk Offline Update
 description: null
 seo-description: null
-uuid: 579054d4-f465-49d3-afaa-d393a8fe4e9a
+uuid: 0a3fc05a-f6c9-4aed-b79c-b60e45cb9c21
 contentOwner: jsyal
-discoiquuid: e742e7a5-b1cf-4a5f-adbc-ffea92ebb735
+discoiquuid: 5e4fb1bb-cb2c-4e63-a063-e0e5af6d4563
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/bulk-offline-update
 index: y

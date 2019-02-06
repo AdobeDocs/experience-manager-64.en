@@ -3,11 +3,11 @@ title: Performance
 seo-title: Performance
 description: null
 seo-description: null
-uuid: 82d63404-8420-40bb-9f25-98c052b8ddba
+uuid: 21869719-c841-4aa9-9814-562698d48c74
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 003dcc73-9cb1-4873-a204-19ca907e271b
+discoiquuid: 80ebc6d8-1977-4fa8-9889-627a2814439c
 index: y
 internal: n
 snippet: y

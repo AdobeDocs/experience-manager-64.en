@@ -3,12 +3,12 @@ title: Web Console
 seo-title: Web Console
 description: Learn how to use the AEM web console.
 seo-description: Learn how to use the AEM web console.
-uuid: 4e3677b5-ee59-49ad-a58d-611338cfe1de
+uuid: 371e03ca-1c41-4e81-bd19-814a55e7a1a6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: 5c4bc300-5847-4495-8e5c-3dc99ea592c3
+discoiquuid: 43e91338-9efe-4ec0-b2c5-09f3af0d6bb8
 index: y
 internal: n
 snippet: y
@@ -70,7 +70,7 @@ There are two types of configurations available from the drop down lists on this
 
 Selecting any entry from the lists will display the parameters related to that configuration:
 
-![](assets/chlimage_1-27.png)
+![](assets/chlimage_1-21.png)
 
 You can then update the parameters as required and:
 
@@ -148,7 +148,7 @@ A list of components will be shown. Various icons are available to enable you to
 
 Clicking on the name of a particular component will display further information on its status. Here you can also enable, disable or reload the component.
 
-![](assets/chlimage_1-28.png)
+![](assets/chlimage_1-22.png)
 
 >[!NOTE]
 >

@@ -3,11 +3,11 @@ title: [Redirect] Authoring Adobe Flash Content
 seo-title: Authoring Adobe Flash Content
 description: null
 seo-description: null
-uuid: 1b0711d3-2ded-4cdf-811d-559014d3341b
+uuid: 93daeae9-99b5-48c5-a53f-69738d8f50b2
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: d6f931c1-0f43-4822-a21e-02c19c77950c
+discoiquuid: 6ec36fb5-5d1f-4435-ace7-7cee16dd4244
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/assets/user-guide
 index: y
@@ -16,13 +16,6 @@ snippet: y
 ---
 
 # [Redirect] Authoring Adobe Flash Content{#redirect-authoring-adobe-flash-content}
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2018-03-02T03:00:37.571-0500
-<p>Chiradeep to check. May be legacy</p>
--->
 
 Do you wish to manage your Flash based AIR application the same way you manage your web site? That is: authoring Flash content without being a developer? Or enabling your customers to view your Flash based web site on an iPad? The short answer is: AEM does it all for you!
 
@@ -69,22 +62,6 @@ The following procedure shows you how to set up the Mobile Trader application on
     1. In the AIR app, click the top title **Geometrixx Financial Services**.
     1. Click **OK** below the URL field to see the modified tab.
 
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2018-03-02T03:00:37.647-0500
-<p>step 5: when I open the page from the siteadmin, it opens the html5 version.<br /> </p>
-<p>-&gt; bug 37731<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2018-03-02T03:00:37.673-0500
-<p>step 7: bug: the console doesn't show the replicated status icon<br /> </p>
-<p>-&gt; this is a platform (known) issue<br /> </p>
--->
-
 You can also:
 
 * Rearrange the order of existing components on a page by dragging and dropping them.  
@@ -124,99 +101,6 @@ You can also:
 >[!NOTE]
 >
 >To see the changes in the AIR application, you need to perform the steps 7 and 8 of the above procedure.
-
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2018-03-02T03:00:37.738-0500
-<p>Is it possible to add some text?</p>
-<p>I've been able to add a text component in the browser but it's not showing in the AIR app.<br /> </p>
-<p>It's because the flash-text component is not enabled<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2018-03-02T03:00:37.761-0500
-<p>The following section ("Authoring Flash Content for Web Sites") should be discarded as the feature should not be available in its current state. </p>
-<p>The corresponding content will be removed from the repository. </p>
-<p>Discussed with David N. and Tobi B. on 18.10.2011.<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Authoring Flash Content for Web Sites</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>With CQ it is possible to create and manage Adobe Flash content within a browser environment. The Flash content is managed the same way a web page is authored with CQ. You can manage titles, texts and images.</p>
-<p>The following procedure shows you how to create a web page that includes Flash content consisting of a title, some text and an image:</p>
-<ol>
-<li>In <strong>Site Admin</strong> console, create a page below <strong>Websites / Geometrixx Demo Site / English</strong>:
-<ul>
-<li><strong>Title</strong>: My Flash Page</li>
-<li>Select the <strong>Mosaic Content Page</strong> template</li>
-<li>Click <strong>Create</strong>.</li>
-</ul> </li>
-<li>Open the new page.</li>
-<li>Add a title to the page: from the <strong>Components</strong> tab of the Sidekick, drag and drop a <strong>Title</strong> component to the page.</li>
-<li>Edit the title:<br />
-<ol>
-<li>Click the <strong>Title</strong> component.</li>
-<li>Edit the title.</li>
-<li>Press <strong>Enter</strong> to save the changes.<br /> You can also double-click the <strong>Title</strong> component, define the title in the dialog and click <strong>OK</strong>.<br /> </li>
-</ol> </li>
-<li>Add a <strong>Text</strong> component to the page: from the <strong>Components</strong> tab of the Sidekick, drag and drop a <strong>Text</strong> component to the page.</li>
-<li>Edit the text:<br />
-<ol>
-<li>Double-click the <strong>Text</strong> component.</li>
-<li>Edit the text.</li>
-<li>Click <strong>OK</strong> to save the changes.<br /> You can also right-click the <strong>Text</strong> component, define the text in the dialog and click <strong>OK</strong>.<br /> </li>
-</ol> </li>
-<li>Add an <strong>Image</strong> component to the page: from the <strong>Components</strong> tab of the Sidekick, drag and drop an <strong>Image</strong> component to the page.</li>
-<li>Edit the image:
-<ol>
-<li>Drag and drop an image from the <strong>Content Finder</strong> into the <strong>Image</strong> component.</li>
-<li>Edit the image: double-click it, modify it and click <strong>OK</strong>.<br /> You can also right-click the image to open the edit dialog.</li>
-</ol> </li>
-</ol>
-<p>You can also:</p>
-<ul>
-<li>Rearrange the order of existing components on a page by dragging and dropping them.<br /> </li>
-<li>Delete a component:
-<ol>
-<li>Right-click the component.<br /> </li>
-<li>Select <strong>Delete Component</strong> in the context menu.</li>
-</ol> </li>
-</ul>
-<p></p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2018-03-02T03:00:37.822-0500
-<p>the component dialog doesn't display ok (some shifts in the lines).<br /> </p>
-<p>-&gt; bug 37732<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2018-03-02T03:00:37.845-0500
-<p>there is a typo in the context menu of the component:<br /> 'Edit Copmonent' should be 'Edit Component'<br /> </p>
-<p>-&gt; known issue<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2018-03-02T03:00:37.867-0500
-<p>doesn't work on publish (javascript error):<br /> -&gt; tobi is not planning to invest more time on this feature as it is not known yet how customer will use this feature<br /> <br /> <br /> </p>
--->
 
 ### Viewing Flash Content on an iPad {#viewing-flash-content-on-an-ipad}
 

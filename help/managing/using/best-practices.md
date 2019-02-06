@@ -3,13 +3,13 @@ title: Managing Projects - Best Practices Checklist
 seo-title: Managing Projects - Best Practices Checklist
 description: Managing a project to implement Adobe Experience Manager (AEM) requires planning and understanding. The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. 
 seo-description: Managing a project to implement Adobe Experience Manager (AEM) requires planning and understanding. The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. 
-uuid: 850f66c1-6f17-42ac-947a-a62dd8dfd62f
+uuid: 769d0d7a-b66f-4223-9820-9361178c8e7e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
 topic-tags: introduction
-discoiquuid: 339f6820-13c9-4756-8228-97136d1ab646
+discoiquuid: 8edb8650-7c5d-47e2-b118-7e59fbedc9d1
 index: y
 internal: n
 snippet: y
@@ -37,14 +37,6 @@ To help you, the best practices consist of:
 * [Further reference](../../managing/using/best-practices-further-reference.md) material to provide more details on specific areas.
 
 ## Project Heartbeat Dashboard {#project-heartbeat-dashboard}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-12-18T03:46:21.993-0500
-<p>what are the official definitions?</p>
-<p>more detail needed?</p>
--->
 
 The **Project Heartbeat** worksheet provides a graphical overview of critical metrics for your project:
 
@@ -131,13 +123,6 @@ Planning your project consolidates the preparation. Here you need to start conve
 #### Milestones {#milestones-1}
 
 * **Handover**
-
-  <!--
-  Comment Type: remark
-  Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-  Last Modified Date: 2017-12-18T03:46:28.643-0500
-  <p>which sorts of handover? </p>
-  -->
 
   A clean handover ensures that the appropriate persona/groups are aware of their responsibilites within the project.
 
@@ -358,13 +343,6 @@ Development is a crucial phase that requires more than just coding.
   Ensure that all team members and project persona are kept up-to-date as necessary.
 
 * **Documentation**
-
-  <!--
-  Comment Type: remark
-  Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-  Last Modified Date: 2017-12-18T03:46:47.726-0500
-  <p>user guides?</p>
-  -->
 
   Document the solution fully; including:
 

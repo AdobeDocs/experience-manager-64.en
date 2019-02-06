@@ -3,25 +3,18 @@ title: Configuring caching for Output
 seo-title: Configuring caching for Output 
 description: The Output service caches the form designs, fragments and images. Learn how to configure the caching for output.
 seo-description: The Output service caches the form designs, fragments and images. Learn how to configure the caching for output.
-uuid: 2227da3b-75bb-4707-98d7-b13694c5b44e
+uuid: 67e174de-2d47-436d-8724-756c5da26f6a
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 87f47304-b65d-4d0c-992a-ac08e8984f11
+discoiquuid: 96457548-441c-4282-8769-4407e0fd68d6
 index: y
 internal: n
 snippet: y
 ---
 
 # Configuring caching for Output {#configuring-caching-for-output}
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Comment from Neal Davies: There is a new service in ES2 to reset the cache from a java program or by running a LC process to help customers automate deployment - is this documented? - can it be referenced here? (MJ: It won’t be documented in Admin. May go in SDK help or Services guide. Add a pointer to it in ES 2.5 or 3)</p>
--->
 
 The Output service merges XML form data with a form design created in Designer to create a document output stream in various formats.
 

@@ -3,12 +3,12 @@ title: Calendar Feature
 seo-title: Calendar Feature
 description: Provides community event information in a calendar format
 seo-description: Provides community event information in a calendar format
-uuid: 9d866650-0662-4ccc-8f02-5933124247cd
+uuid: 36605db2-2aca-43d1-97a1-8aca406f01be
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 8a129f5f-1ac7-4bfd-95b4-cf3b9a09dc30
+discoiquuid: 47f09625-7ebe-4248-81d2-b454f485aa56
 index: y
 internal: n
 snippet: y
@@ -37,13 +37,13 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/calendar-basics-for-developers.md#essentialsforclientside) are included, this is how the `Calendar` component will appear.
 
-![](assets/chlimage_1-118.png)
+![](assets/chlimage_1-111.png)
 
 ### Configuring Calendar {#configuring-calendar}
 
 Select the placed `Calendar`component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-119.png) ![](assets/chlimage_1-120.png)
+![](assets/chlimage_1-112.png) ![](assets/chlimage_1-113.png)
 
 #### Settings tab {#settings-tab}
 
@@ -158,7 +158,7 @@ Other abilities depend on whether the site visitor is a moderator, administrator
 
 When the signed in user has moderator or administrator privileges, they are able to perform [moderation tasks](../../communities/using/moderate-ugc.md) (as permitted by the configuration of the component) on all calendar events and comments posted to an event.
 
-![](assets/chlimage_1-121.png)
+![](assets/chlimage_1-114.png)
 
 #### Members {#members}
 
@@ -172,13 +172,13 @@ Specifically, they may
 * delete their own calendar event or comment
 * flag others' calendar events or comments
 
-![](assets/chlimage_1-122.png) ![](assets/chlimage_1-123.png)
+![](assets/chlimage_1-115.png) ![](assets/chlimage_1-116.png)
 
 #### Anonymous {#anonymous}
 
 Site visitors who are not signed in may only read posted calendar events, translate them if supported, but may not add an event or comment nor flag others' events or comments.
 
-![](assets/chlimage_1-124.png)
+![](assets/chlimage_1-117.png)
 
 ## Additional Information {#additional-information}
 

@@ -3,26 +3,18 @@ title: Data Store Garbage Collection
 seo-title: Data Store Garbage Collection
 description: Learn how to configure Data Store Garbage Collection to free up disk space.
 seo-description: Learn how to configure Data Store Garbage Collection to free up disk space.
-uuid: e172fcd4-bad7-4f10-a21d-28ac658f58bd
+uuid: 55c92433-5456-4d0d-b50d-245929227166
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: c3ad00e2-9101-47ff-b357-304dc196a06a
+discoiquuid: dab613a5-37e9-4889-966a-81d15ce45e8a
 index: y
 internal: n
 snippet: y
 ---
 
 # Data Store Garbage Collection{#data-store-garbage-collection}
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>DataStore Garbage Collection is a Jackrabbit 2 mechanism that is only used with crx2. MicroKernel implementations for Oak might have similar mechanism. Please read the corresponding documentation section in <a href="https://docs.adobe.com/content/docs/en/aem/6-0/deploy/upgrade/microkernels-in-aem-6-0.html">Micro Kernels and Other Storage Elements in AEM 6.0</a>.</p>
-</note>
--->
 
 When a conventional WCM asset is removed, the reference to the underlying data store record may be removed from the node hierarchy, but the data store record itself remains. This unreferenced data store record then becomes "garbage" that need not be retained. In instances where a number of garbage assets exist, it is beneficial to get rid of them to preserve space and to optimize backup and filesystem maintenance performance.
 
@@ -116,15 +108,15 @@ Before running data store garbage collection you should check that no backups ar
 1. Open the Operations Dashboard by **Navigation** -&gt; **Tools** -&gt; **Operations** -&gt; **Maintenance**.
 1. Click or tap the **Weekly Maintenance Window**.
 
-   ![](assets/chlimage_1-133.png)
+   ![](assets/chlimage_1-127.png)
 
 1. Select the **Data Store Garbage Collection** task and then click or tap the **Run** icon.
 
-   ![](assets/chlimage_1-134.png)
+   ![](assets/chlimage_1-128.png)
 
 1. Data store garbage collection runs and its status is displayed in the dashboard.
 
-   ![](assets/chlimage_1-135.png)
+   ![](assets/chlimage_1-129.png)
 
 >[!NOTE]
 >
@@ -159,14 +151,6 @@ To run garbage collection:
 >
 >The data store garbage colleciton task will only start if you have configured an external file data store. If an external file data store has not been configured, the task will return the message `Cannot perform operation: no service of type BlobGCMBean found` after invoking. See [Configuring node stores and data stores in AEM 6](../../../sites/deploying/using/data-store-config.md#main-pars-title-6) for information on how to set up a file data store.
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>In a cluster, run garbage collection on all instances with the ClusterDataStore, and on any instances with the FileDataStore.</p>
-</note>
--->
-
 ## Automating Data Store Garbage Collection {#automating-data-store-garbage-collection}
 
 If possible, data store garbage collection should be run when there is little load on the system, for example in the morning.
@@ -192,67 +176,7 @@ curl -u admin:admin -X POST --data markOnly=true  http://localhost:4503/system/c
 
 The curl command returns immediately.
 
-<!--
-Comment Type: draft
-
-<p>Datastore garbage collection can be automated by creating a Repository Garbage Collection Scheduler configuration through the <a href="../../../sites/deploying/using/configuring-osgi.md">Adobe Web Console or Configuration Nodes</a>.</p>
-<p>To schedule datastore garbage collection in the Adobe Web Console,</p>
-<ol>
-<li>go to http://&lt;host&gt;:&lt;port&gt;/system/console/configMgr</li>
-<li>click the "+" icon next to "Repository Garbage Collection Scheduler"</li>
-<li>specify the schedule in <a href="http://www.quartz-scheduler.org/documentation/quartz-1.x/tutorials/crontrigger">crontab format</a>.</li>
-<li>click "Save"</li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<table>
-<colgroup>
-<col width="75" />
-<col width="525" />
-</colgroup>
-<tbody>
-<tr>
-<td><strong>Parameter (Option)</strong></td>
-<td><strong>Description</strong></td>
-</tr>
-<tr>
-<td><p>
-<nobr>
-<span class="code">delete=true</span>
-</nobr></p> <p>
-<nobr>
-(Delete unused items)
-</nobr></p> </td>
-<td>Selecting this option means that any unused files are deleted from the Data Store. If this option is disabled, only the last modified date of the used items is updated, but no files are deleted. If multiple repositories share the same data store, this option should not be enabled; instead, old items should be removed manually or by using a script (for example, by deleting files older than one week).</td>
-</tr>
-</tbody>
-</table>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-11-30T04:59:56.845-0500
-<p>See if there's a replacement scheduler for 6.x</p>
--->
-
 ## Checking Data Store Consistency {#checking-data-store-consistency}
-
-<!--
-Comment Type: draft
-
-<p>CRX can check the consistency of the datastore to confirm that objects expected to be available in the datastore are actually there.</p>
-<p>The datastore consistency check is started by calling the consistencyCheck method of the com.adobe.granite:type=Repository MBean.</p>
-<p>Any datastore inconsistencies found will be logged. The consistencyCheck method will also log any repository inconsistencies that are found in the same manner as the traversalCheck method. However, it will not log the nodes that are processed and that do not yield any errors.</p>
-<p>The consistencyCheck Method takes the following arguments:</p>
-<ul>
-<li><strong>rootNodeName</strong> (String)<br /> The node to start from. To perform a consistency check across the complete repository, use /<br /> <br /> </li>
-<li><strong>fixInconsistencies</strong> (Boolean)<br /> If true, CRX will fix inconsistencies that are detected as they are encountered by deleting child node entries that point to missing nodes in the given tree. As opposed to a consistency fix that is performed by <a href="http://helpx.adobe.com/crx/kb/TarPMConfiguration.html">configuring the Tar Persistence Manager</a>, this will not re-attach any nodes where the node points to the correct parent, but the parent doesn't point to the child.<br /> <strong>Note that this will not take action on inconsistencies in the Datastore</strong>.</li>
-</ul>
--->
 
 The data store consistency check will report any data store binaries that are missing but are still referenced. To start a consistency check, follow these steps:
 

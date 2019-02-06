@@ -3,12 +3,12 @@ title: Support for IPTC Metadata
 seo-title: Support for IPTC Metadata
 description: Learn how Adobe Experience Manager (AEM) Assets supports the IPTC metadata, Creative ratings, and keywords added to assets through Adobe Bridge and other Creative Apps.
 seo-description: Learn how Adobe Experience Manager (AEM) Assets supports the IPTC metadata, Creative ratings, and keywords added to assets through Adobe Bridge and other Creative Apps.
-uuid: de42760c-7ad2-40bb-a7f0-3a15a963ff21
+uuid: 77f5c14a-5004-4c21-8a7b-d2a80eae6334
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 0f57f261-102c-47f5-bb21-e231ed30f2ab
+discoiquuid: a2da8adf-1b64-49e6-b425-ca6476459a03
 index: y
 internal: n
 snippet: y

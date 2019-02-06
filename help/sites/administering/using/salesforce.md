@@ -3,12 +3,12 @@ title: Integrating with Salesforce
 seo-title: Integrating with Salesforce
 description: Learn about integrating AEM with Salesforce.
 seo-description: Learn about integrating AEM with Salesforce.
-uuid: ca9c929c-f908-4db1-aca8-e50300d235b0
+uuid: 5d725f5a-7917-45e2-a6b7-d876538ac227
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: e7f41402-e0a4-4827-9292-aedc0baffc7b
+discoiquuid: 41351448-55f4-482f-a5a8-2ba4eb432d54
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ To configure AEM to integrate with Salesforce:
 
 1. In AEM, navigate to **Cloud Services**. In Third-Party Services, click **Configure Now** in **Salesforce**.
 
-   ![](assets/chlimage_1-96.png)
+   ![](assets/chlimage_1-90.png)
 
 1. Create a new configuration, for example, **developer**.
 
@@ -55,17 +55,17 @@ To configure AEM to integrate with Salesforce:
 1. In Salesforce, navigate to **Create** &gt; **Apps **to get to **Connected Apps** (in former versions of salesforce, the workflow was **Deploy** &gt; **Remote Access**). 
 1. Click **New** to connect AEM with Salesforce. 
 
-   ![](assets/chlimage_1-97.png)
+   ![](assets/chlimage_1-91.png)
 
 1. Enter the **Connected App Name**, **API Name**, and **Contact Email**. Select the **Enable OAuth Settings** check box and enter the **Callback URL** and add an OAuth scope (for example, full access). The callback URL looks similar to this: `http://localhost:4502/etc/cloudservices/salesforce/developer.html`
 
    Change the server name/port number and page name to match your configuration.
 
-   ![](assets/chlimage_1-98.png)
+   ![](assets/chlimage_1-92.png)
 
 1. Click **Save** to save the salesforce configuration. Salesforce creates a **consumer key **and **consumer secret**, which you need for AEM configuration.
 
-   ![](assets/chlimage_1-99.png)
+   ![](assets/chlimage_1-93.png)
 
    >[!NOTE]
    >
@@ -82,13 +82,13 @@ To configure AEM to integrate with Salesforce:
 
 1. Click **Connect to Salesforce** to connect. Salesforce requests that you allow your configuration to connect to salesforce.
 
-   ![](assets/chlimage_1-100.png)
+   ![](assets/chlimage_1-94.png)
 
    In AEM, a confirmation dialog opens telling you that you connected successfully. 
 
 1. Navigate to the root page of your website and click **Page Properties**. Then select **Cloud Services** and add **Salesforce** and select the correct confguration (for example, **developer**).
 
-   ![](assets/chlimage_1-101.png)
+   ![](assets/chlimage_1-95.png)
 
    Now you can use the workflow model to post leads to Salesforce and create components that access data from Salesforce.
 
@@ -100,11 +100,11 @@ To export AEM users as Salesforce leads:
 
 1. Navigate to the Salesforce workflow at `http://localhost:4502/workflow` by right-clicking the workflow** Salesforce.com Export** and clicking **Start**.
 
-   ![](assets/chlimage_1-102.png)
+   ![](assets/chlimage_1-96.png)
 
 1. Select the AEM user you want to create as a lead as the **Payload** for this workflow (home -&gt; users). Be sure to select the profile node of the user as it contains information like **givenName**, **familyName**, and so on, which are mapped to Salesforce lead's **FirstName** and **LastName** fields.
 
-   ![](assets/chlimage_1-103.png)
+   ![](assets/chlimage_1-97.png)
 
    >[!NOTE]
    >
@@ -128,11 +128,11 @@ To configure the Salesforce.com export workflow:
 
 1. Open the Salesforce.com Export step, select the **Arguments** tab, and select the correct configuration is selected and click **OK**. In addition if you want the workflow to re-create a lead that was deleted in Salesforce, select the check box.
 
-   ![](assets/chlimage_1-104.png)
+   ![](assets/chlimage_1-98.png)
 
 1. Click **Save** to save your changes.
 
-   ![](assets/chlimage_1-105.png)
+   ![](assets/chlimage_1-99.png)
 
 ### Mapping configuration between AEM user and Salesforce Lead {#mapping-configuration-between-aem-user-and-salesforce-lead}
 
@@ -141,7 +141,7 @@ To view or edit the current mapping configuration between an AEM user and a Sale
 1. Open the Configuration Manager by clicking **Web Console** or going directly to `http://<hostname>:<port>/system/console/configMgr.`
 1. Search for **Salesforce Lead Mapping Configuration**.
 
-   ![](assets/chlimage_1-106.png)
+   ![](assets/chlimage_1-100.png)
 
 1. Change mappings, as required. The default mapping follows the pattern** aemUserAttribute=sfLeadAttribute**. Click **Save** to save your changes.
 
@@ -169,7 +169,7 @@ You need to map an AEM user with a Salesforce ID in order to load it in the clie
 
    When you drag the component to the page, it displays **Link to Salesforce=Off**.
 
-   ![](assets/chlimage_1-107.png)
+   ![](assets/chlimage_1-101.png)
 
    >[!NOTE]
    >
@@ -177,11 +177,11 @@ You need to map an AEM user with a Salesforce ID in order to load it in the clie
 
 1. After you drag the component on the page, open it to configure it. Select the configuration, type of contact, and the Salesforce lead or contact, and click **OK**.
 
-   ![](assets/chlimage_1-108.png)
+   ![](assets/chlimage_1-102.png)
 
    AEM links the user with the Salesforce contact or lead.
 
-   ![](assets/chlimage_1-109.png)
+   ![](assets/chlimage_1-103.png)
 
 ### Adding Salesforce Data to Client Context {#adding-salesforce-data-to-client-context}
 
@@ -197,11 +197,11 @@ You can load user data from Salesforce in the Client Context to use for personal
 
 1. Double-click the component to open it. Select **Add Item** and select a property from the drop-down list. Add as many properties as you want and select **OK**.
 
-   ![](assets/chlimage_1-110.png)
+   ![](assets/chlimage_1-104.png)
 
 1. Now, you see Salesforce-specific properties from Salesforce displayed in the client context.
 
-   ![](assets/chlimage_1-111.png)
+   ![](assets/chlimage_1-105.png)
 
 ### Building a segment using data from Salesforce Client Context Store {#building-a-segment-using-data-from-salesforce-client-context-store}
 
@@ -230,9 +230,9 @@ To use this component:
 
 1. Open the Search component and specify the search parameters and click **OK.**
 
-   ![](assets/chlimage_1-112.png)
+   ![](assets/chlimage_1-106.png)
 
 1. AEM displays the leads specified in your search component that match the criteria specified.
 
-   ![](assets/chlimage_1-113.png)
+   ![](assets/chlimage_1-107.png)
 

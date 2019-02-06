@@ -3,12 +3,12 @@ title: Demandware
 seo-title: Demandware
 description: Learn how to use AEM with Demandware.
 seo-description: Learn how to use AEM with Demandware.
-uuid: 82455611-bf56-4673-80b1-86001fce6eda
+uuid: 40f55376-631e-4be1-ac01-aee6ee430240
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: aeadfcd0-06e4-4524-88e4-2e7db402e417
+discoiquuid: 050757b8-d53c-4c47-aecd-f4a22e471623
 pagetitle: Administering Demandware
 index: y
 internal: n
@@ -25,11 +25,11 @@ Demandware products can be imported into AEM to be used by product pickers, comp
 1. In AEM, navigate to Products: [http://localhost:4502/aem/products.html/etc/commerce/products](http://localhost:4502/aem/products.html/etc/commerce/products)
 1. Click **Create** button and **Import Products**.
 
-   ![](assets/chlimage_1-66.png)
+   ![](assets/chlimage_1-60.png)
 
 1. Select **Demandware** as **Importer**.
 
-   ![](assets/chlimage_1-67.png)
+   ![](assets/chlimage_1-61.png)
 
 1. Select the exported xml as **Source** and enter a store name.
 

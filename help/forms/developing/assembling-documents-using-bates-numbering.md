@@ -3,13 +3,13 @@ title: Assembling Documents Using Bates Numbering
 seo-title: Assembling Documents Using Bates Numbering
 description: null
 seo-description: null
-uuid: d664fc62-d1cb-4b73-a6bb-54eb12ec9c15
+uuid: b8a80ddb-f72e-4b85-b707-c08526ad2007
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 2f94de24-125f-4f37-a83a-6299dd2d14c2
+discoiquuid: b62501a3-372c-4d44-b7b0-a0484eca2853
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Sample ContextHub UI Module Types
 seo-title: Sample ContextHub UI Module Types
 description: ContextHub provides several sample UI modules that you can use in your solutions
 seo-description: ContextHub provides several sample UI modules that you can use in your solutions
-uuid: 61648ede-9202-444f-b7cf-205cae42facb
+uuid: 5fb6309f-c647-4380-8b3c-0ba8b28c107a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 830c512c-07f4-4c54-b0af-68615219c1a3
+discoiquuid: 40d272a1-7fcf-4ff3-9ae1-e6c40fb423f3
 index: y
 internal: n
 snippet: y
@@ -81,13 +81,13 @@ The following example configures a contexthub.base UI module to display informat
 }
 ```
 
-![](assets/chlimage_1-87.png) 
+![](assets/chlimage_1-86.png) 
 
 ## contexthub.browserinfo UI Module Type {#contexthub-browserinfo-ui-module-type}
 
 The contexthub.browserinfo UI module displays information about the client web browser and operating system. Information is obtained from the surferinfo store, based on the [contexthub.surferinfo](../../../sites/developing/using/ch-samplestores.md#main-pars-title-1446016736) store candidate.
 
-![](assets/chlimage_1-88.png)
+![](assets/chlimage_1-87.png)
 
 The source code for the UI module is located at /libs/granite/contexthub/components/modules/browserinfo. Although contexthub.browserinfo extends the contexthub.base UI module, it does not override or provide additional functions. The implementation provides a default configuration for rendering browser information.
 
@@ -108,7 +108,7 @@ Instances of the contexthub.browserinfo UI module do not require a value for the
 
 The contexthub.datetime UI module displays the date and time that is stored in a store named datetime that is based on the [contexthub.datetime](../../../sites/developing/using/ch-samplestores.md#main-pars-title-877835219) store candidate.
 
-![](assets/chlimage_1-89.png)
+![](assets/chlimage_1-88.png)
 
 The module provides a popover form that enables you to change the date and time in the store.
 
@@ -133,7 +133,7 @@ Instances of the contexthub.datetime UI module do not require a value for the De
 
 The contexthub.device UI Module displays the name of the client device. The module obtains information from a ContextHub store named emulators that is based on the [granite.emulators](../../../sites/developing/using/ch-samplestores.md#main-pars-title-427753803) store candidate.
 
-![](assets/chlimage_1-90.png)
+![](assets/chlimage_1-89.png)
 
 The source code for the module is located at /etc/cloudsettings/default/contexthub/emulators.
 
@@ -156,7 +156,7 @@ Instances of the contexthub.datetime UI module do not require a value for the De
 
 The contexthub.location UI module displays the longitude and latitude of the client. The module provides a popover that displays a Google map that you can click to change the current location. The module obtains information from a ContextHub store named geolocation that is based on the [contexthub.geolocation](../../../sites/developing/using/ch-samplestores.md#main-pars-title-1304151477) store candidate.
 
-![](assets/chlimage_1-91.png)
+![](assets/chlimage_1-90.png)
 
 The source of the UI module is located at /etc/cloudsettings/default/contexthub/geolocation.
 
@@ -199,7 +199,7 @@ Instances of the contexthub.location UI module do not require a value for the De
 
 The contexthub.screen-orientation UI module displays the current screen orientation of the client. Although disabled by default, the module provides a popover that enables you to select an orientation. The module obtains information from a ContextHub store named emulators that is based on the [granite.emulators](../../../sites/developing/using/ch-samplestores.md#main-pars-title-427753803) store candidate.
 
-![](assets/chlimage_1-92.png)
+![](assets/chlimage_1-91.png)
 
 The source of the UI module is located at /libs/granite/contexthub/components/modules/screen-orientation.
 
@@ -219,55 +219,11 @@ Instances of the contexthub.screen-orientation UI module do not require a value 
 }
 ```
 
-<!--
-Comment Type: draft
-
-<h2>contexthub.season UI Module Type</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>The contexthub.season UI module displays the season for the current client. The module provides a popup where you can select a different season from a list. The module obtains information from a ContextHub store named datetime that is based on the <a href="../../../sites/developing/using/ch-samplestores.md#main-pars-title-877835219">contexthub.datetime</a> store candidate.</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-93.png" />
--->
-
-<!--
-Comment Type: draft
-
-<p>The source of the module is located at /libs/granite/contexthub/components/modules/season.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h4>Configuration</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>Instances of the contexthub.season UI module do not require a value for the Detail Configuration. The following JSON text represents the default configuration of the module.</p>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock class="syntax xml">
-{!!discoiqbr!!&nbsp;&nbsp;&nbsp;"icon":"coral-Icon--calendar",!!discoiqbr!!&nbsp;&nbsp;&nbsp;"title":"Season",!!discoiqbr!!&nbsp;&nbsp;&nbsp;"clickable":true,!!discoiqbr!!&nbsp;&nbsp;&nbsp;"storeMapping":{"d":"datetime"},!!discoiqbr!!&nbsp;&nbsp;&nbsp;"template":"<p&nbsp;class=\"contexthub-module-line1\">{{i18n&nbsp;\"Season\"}}</p><p&nbsp;class=\"contexthub-module-line2\">{{i18n&nbsp;d.season}}</p>",!!discoiqbr!!&nbsp;&nbsp;&nbsp;"listType":"radio",!!discoiqbr!!&nbsp;&nbsp;&nbsp;"list":[!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"title":"Spring","data":{"season":"Spring"}},!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"title":"Summer","data":{"season":"Summer"}},!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"title":"Fall","data":{"season":"Fall"}},!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{"title":"Winter","data":{"season":"Winter"}}!!discoiqbr!!&nbsp;&nbsp;&nbsp;]!!discoiqbr!!}
-</codeblock>
--->
-
 ## contexthub.tagcloud UI Module Type {#contexthub-tagcloud-ui-module-type}
 
 The contexthub.tagcloud UI module displays information about tags. On the toolbar the UI module shows the number of tags. The popup reveals a tagcloud and a texbox for adding new tags. The UI module obtains information from a ContextHub store named tagcloud that is based on the [contexthub.tagcloud](../../../sites/developing/using/ch-samplestores.md#main-pars-title-55392515) store candidate.
 
-![](assets/chlimage_1-94.png)
+![](assets/chlimage_1-92.png)
 
 The source of the UI module is located at /libs/granite/contexthub/components/modules/tagcloud.
 
@@ -291,7 +247,7 @@ Instances of the contexthub.tagcloud UI module do not require a value for the De
 
 The granite.profile ContextHub UI module displays the display name of the current user. The popup reveals the login name of the user and enables you to change the value of the display name. The UI module obtains information from a ContextHub store named profile that is based on the [granite.profile](../../../sites/developing/using/ch-samplestores.md#main-pars-title-222346835) store candidate.
 
-![](assets/chlimage_1-95.png)
+![](assets/chlimage_1-93.png)
 
 The source of the UI module is at /libs/granite/contexthub/components/modules/profile.
 

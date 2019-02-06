@@ -3,12 +3,12 @@ title: Working with stalled operations and branches
 seo-title: Working with stalled operations and branches
 description: The Stalled Operations page and the Stalled Branches page show the processes that have stalled.
 seo-description: The Stalled Operations page and the Stalled Branches page show the processes that have stalled.
-uuid: f95df184-f5f7-408a-aaaa-f54305545401
+uuid: 374f289e-5a55-4991-9ff7-b97d0fb23ab0
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 3f974e7f-f7db-4f08-9038-b193b129bc0e
+discoiquuid: a57325ce-d80a-470d-87b2-feba0dcb29e4
 index: y
 internal: n
 snippet: y

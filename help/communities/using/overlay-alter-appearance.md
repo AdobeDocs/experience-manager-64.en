@@ -3,12 +3,12 @@ title: Alter the Appearance
 seo-title: Alter the Appearance
 description: Modify the script
 seo-description: Modify the script
-uuid: 4e893f61-dfb2-411e-b662-1816a6a03dc4
+uuid: ad2102f5-e395-470d-b7e6-c8e0f14ab5c4
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: d0218dda-248c-453a-ab29-c5d4f31b4e88
+discoiquuid: 51c69acb-dafa-4d66-9788-43f6ce1a9fee
 index: y
 internal: n
 snippet: y

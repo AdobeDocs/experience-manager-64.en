@@ -3,12 +3,12 @@ title: Developing (generic)
 seo-title: Developing (generic)
 description: The integration framework includes an integration layer with an API, allowing you to build AEM components for eCommerce capabilities
 seo-description: The integration framework includes an integration layer with an API, allowing you to build AEM components for eCommerce capabilities
-uuid: 9102cc6b-39f5-4917-9fab-53ee02d6fbe2
+uuid: 5bb319b9-a228-4aa3-b46c-0bdfd43f8081
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: c54eab01-24c2-49b9-8fd1-fe83a9a02b1a
+discoiquuid: 12384509-2f2f-4a2f-9695-3c618eeb9ca2
 index: y
 internal: n
 snippet: y
@@ -55,13 +55,6 @@ The eCommerce framework can be used with any eCommerce solution, the engine bein
     * For example, a `cq:commerceProvider` property with the value geometrixx will correlate to the OSGi configuration for **Day CQ Commerce Factory for Geometrixx-Outdoors** ( `com.adobe.cq.commerce.hybris.impl.GeoCommerceServiceFactory`) - where the parameter `commerceProvider` also has the value `geometrixx`.  
     
     * Here further properties can be configured (when appropriate and available).
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2017-11-30T05:24:45.841-0500
-<p>is geometrixx the best example, or would geometrixx-outdoors be better?</p>
--->
 
 In a standard AEM installation a specific implementation is required, for example:
 
@@ -348,7 +341,7 @@ public class AxisFilter implements VariantFilter {
 
 * The following illustrates an example of cart information in the ClientContext cart:
 
-![](assets/chlimage_1-43.png) 
+![](assets/chlimage_1-42.png) 
 
 #### Architecture of Checkout {#architecture-of-checkout}
 
@@ -372,15 +365,6 @@ The `CommerceSession` owns the three elements:
 
 1. **Pricing**
 
-   <!--
-   Comment Type: remark
-   Last Modified By: (aheimoz)
-   Last Modified Date: 2017-11-30T05:24:46.314-0500
-   <p>TO-DO - VICTOR SAAR</p>
-   <p>Jeff Young:</p>
-   <p>These need to be updated to the 5.6 API.<br /> (See Victor Saar for more info.)</p>
-   -->
-
    The pricing schema is also fixed by the API:
 
    ```java
@@ -393,15 +377,6 @@ The `CommerceSession` owns the three elements:
    ```
 
 1. **Order Details**
-
-   <!--
-   Comment Type: remark
-   Last Modified By: (aheimoz)
-   Last Modified Date: 2017-11-30T05:24:46.372-0500
-   <p>TO-DO - VICTOR SAAR</p>
-   <p>Jeff Young:</p>
-   <p>These need to be updated to the 5.6 API.<br /> (See Victor Saar for more info.)</p>
-   -->
 
    However, order details are *not* fixed by the API:
 
@@ -436,7 +411,7 @@ The eCommerce project contains a default search component, located in:
 
 `/libs/commerce/components/search`
 
-![](assets/chlimage_1-44.png)
+![](assets/chlimage_1-43.png)
 
 This makes use of the search API to query the selected commerce engine (see [eCommerce Engine Selection](#ecommerceengineselection)):
 
@@ -653,27 +628,4 @@ Three promotion handlers are provided out of the box:
 * `DiscountPromotionHandler` applies a cart-wide absolute or percentage discount
 * `PerfectPartnerPromotionHandler` applies a product absolute or percentage discount if the product partner is also in the cart
 * `FreeShippingPromotionHandler` applies free shipping
-
-<!--
-Comment Type: remark
-Last Modified By: (jey@adobe.com)
-Last Modified Date: 2017-11-30T05:24:46.603-0500
-<p>We need to document catalog generation:</p>
-<ul>
-<li>Creating a catalog blueprint</li>
-<li>Specifying sections in a blueprint</li>
-<li>Specifying templates in a blueprint</li>
-<li>Specifying product selection in a blueprint</li>
-<li>Doing a catalog rollout</li>
-</ul>
-<p>There's a demo script [0] you can follow to get a general idea of how it works.</p>
-<p><br _rte_temp_br="brEOB" /> [0] https://wiki.day.com/content/wiki/Users/vsaar/CQHybrisIntegration/Catalog%20Generation%20demo%20script.html<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: (jey@adobe.com)
-Last Modified Date: 2017-11-30T05:24:46.615-0500
-<p>Perhaps also how to use the PIM data CSV importer?</p>
--->
 

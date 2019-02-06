@@ -3,12 +3,12 @@ title: SPA WKND Tutorial
 seo-title: SPA WKND Tutorial
 description: Immerse yourself in SPA development with this multi-part tutorial leading you through project setup, component mapping, front-end development tools, and application routing to implement your own SPA.
 seo-description: Immerse yourself in SPA development with this multi-part tutorial leading you through project setup, component mapping, front-end development tools, and application routing to implement your own SPA.
-uuid: c383e607-0f85-453f-b036-5945988040d3
+uuid: e448db07-ccd3-4b57-a233-dd9ed52afba3
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 4468bcad-f7a5-40e9-8df3-b21c3e31b63a
+discoiquuid: 427e69a8-f26a-488f-b1b3-9c2b3b9a00f7
 index: y
 internal: n
 snippet: y

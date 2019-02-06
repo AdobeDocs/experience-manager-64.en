@@ -3,12 +3,12 @@ title: Invoking AEM Forms using the JavaAPI
 seo-title: Invoking AEM Forms using the JavaAPI
 description: null
 seo-description: null
-uuid: 3a34650f-71d5-45b6-9b10-01f05ef22c3e
+uuid: c8f49d3d-c875-4281-b694-7b32d3a87566
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
-discoiquuid: 7b42f0bd-1810-4f8a-b22a-4c57938036b6
+discoiquuid: 78858a6e-414f-4593-9165-3373d7f442d3
 index: y
 internal: n
 snippet: y

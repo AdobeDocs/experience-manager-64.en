@@ -3,12 +3,12 @@ title: Recovering the AEM forms data
 seo-title: Recovering the AEM forms data
 description: This document describes the steps required to recover the AEM forms data.
 seo-description: This document describes the steps required to recover the AEM forms data.
-uuid: 0e996051-3e2a-4ba6-8806-fabfab812183
+uuid: 3cd2d236-269a-4e92-afb8-f4f39c5c4638
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 22199bfc-4b5c-4d22-a3f3-8f869f425405
+discoiquuid: 32722213-2f67-4830-976d-c79a844c0f75
 index: y
 internal: n
 snippet: y
@@ -17,13 +17,6 @@ snippet: y
 # Recovering the AEM forms data{#recovering-the-aem-forms-data}
 
 This section describes the steps required to recover the AEM forms data. Also see [Special considerations for backup and recovery](../../../forms/using/admin-help/backup-recovery-strategy-aem-forms.md#special-considerations-for-backup-and-recovery).
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Bug 1675335:</p>
--->
 
 >[!NOTE]
 >
@@ -85,13 +78,6 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
 
       *[appserver root]*/installedApps/adobe/*[server]*/DocumentStorage/restore.
 
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown
-   Last Modified Date:
-   <p>Check paths in bullets above</p>
-   -->
-
 1. Recover the Content Storage Root directory by first deleting the contents of the Content Storage Root directory on the existing installation of AEM forms and then recovering the contents by following the tasks for either stand-alone or clustered environments:
 
    >[!NOTE]
@@ -133,25 +119,11 @@ If your GDS is restored to a location other than where it was originally, run th
 >
 >This circumstance is the only one under which you should use this script to change the GDS location. To change the GDS location while AEM forms is running, use Administration Console. (See [Configure general AEM forms settings](../../../forms/using/admin-help/configure-general-aem-forms-settings.md#configure-general-aem-forms-settings)*.) *
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Bug 1851233:</p>
--->
-
 >[!NOTE]
 >
 >Component deployment will fail on Windows if the GDS directory is at the drive root (for example, D:\). For GDS, you must make sure that the directory is not located at the root of the drive but is located in a subdirectory. For example, the directory should be D:\GDS and not simply D:\.
 
 ## Recovering the GDS to a clustered environment {#recovering-the-gds-to-a-clustered-environment}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Bug 1721373</p>
--->
 
 To change the GDS location in a clustered environment, shut down the entire cluster and run the LCSetGDS script on a single node of the cluster. (See [Changing the GDS location during recovery](recovering-aem-forms-data#changing_the_gds_location_during_recovery).) Start only that node. When that node is fully started, other nodes in the cluster may be started safely and will correctly point at the new GDS.
 

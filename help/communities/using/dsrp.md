@@ -3,12 +3,12 @@ title: DSRP - Relational Database Storage Resource Provider
 seo-title: DSRP - Relational Database Storage Resource Provider
 description: Set up AEM Communities to use a relational database as its common store
 seo-description: Set up AEM Communities to use a relational database as its common store
-uuid: 5d8ae6cb-4937-4f57-9c1d-73b57c2c4446
+uuid: a4fb4eac-e7fb-4e3c-9dd8-af8eeb5737da
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 8602de62-b4cd-4f62-8fd8-1e7bce76d098
+discoiquuid: c76f6c3e-0595-4b15-9a26-f7671540121d
 index: y
 internal: n
 snippet: y
@@ -60,7 +60,7 @@ On author, to access the Storage Configuration console
 
         * as an example, the resulting location is: [http://localhost:4502/communities/admin/defaultsrp](http://localhost:4502/communities/admin/defaultsrp)
 
-![](assets/chlimage_1-134.png)
+![](assets/chlimage_1-127.png)
 
 * select **Database Storage Resource Provider (DSRP)**
 * **Database Configuration**

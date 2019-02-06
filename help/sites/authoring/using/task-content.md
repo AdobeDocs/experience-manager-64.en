@@ -3,12 +3,12 @@ title: Working with Tasks
 seo-title: Working with Tasks
 description: Tasks represent items of work to be done on content and are used in projects to determine the level of completeness of current tasks
 seo-description: Tasks represent items of work to be done on content and are used in projects to determine the level of completeness of current tasks
-uuid: c2adead1-d796-41ba-b3c4-cc8fed666aef
+uuid: e047b37c-72b4-40d2-be9e-a016c1d8b833
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: 878f9e04-5a53-4176-8fa4-901562da9c17
+discoiquuid: 1cb827a0-ed3b-489f-9926-46352048b372
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ If a project has any related tasks, a Task Tile is displayed inside the project.
 * Percentage of active tasks
 * Percentage of overdue tasks
 
-![](assets/chlimage_1-121.png)
+![](assets/chlimage_1-120.png)
 
 ### Viewing or Modifying the Tasks in a Project {#viewing-or-modifying-the-tasks-in-a-project}
 
@@ -48,19 +48,19 @@ Besides tracking progress, you may also want to view more information about the 
 
 Click the ellipsis (...) in the Task tile to display the list of the tasks related to the project. The tasks are divided by parent workflows. The task details are displayed along with metadata such as due date, assignee, priority, and status.
 
-![](assets/chlimage_1-122.png)
+![](assets/chlimage_1-121.png)
 
 #### Task Details {#task-details}
 
 For more information on a particular task, in the Task List, tap/click the task and **Task Details **open.
 
-![](assets/chlimage_1-123.png)
+![](assets/chlimage_1-122.png)
 
 ### Viewing and Modifying Task Comments {#viewing-and-modifying-task-comments}
 
 In Task details, you can edit or add comments. In addition all comments in a project are visible in the Comments area.
 
-![](assets/chlimage_1-124.png)
+![](assets/chlimage_1-123.png)
 
 ### Adding Tasks {#adding-tasks}
 
@@ -71,7 +71,7 @@ To add a task:
 1. In the project, in the **Tasks** tile, tap/click the + icon. The **Add Task **window opens.
 1. Enter information about the task. The title of the task and which group it is assigned to are mandatory. Additional information such as the content path, description, task priority, and due date are optional. In addition, you can select the **Advanced** tab to enter the name of the task, which is used to name the URL.
 
-   ![](assets/chlimage_1-125.png)
+   ![](assets/chlimage_1-124.png)
 
 1. Tap/click **Create**.
 
@@ -79,51 +79,11 @@ To add a task:
 
 Another way to access tasks is from the Inbox. From the inbox, you can open the content to implement the required changes. When done, you set the task status to Completed. Tasks also appear in your inbox when they are assigned to a user group that you belong to. In this case, any member of the group can perform the work and complete the task.
 
-![](assets/chlimage_1-126.png)
+![](assets/chlimage_1-125.png)
 
 The task status is also displayed on the Task Management page, where projects are managed. (See [Track Content Changes Using Task Management](../../../sites/administering/using/task-manager.md).)
 
 To complete a task, select the task and click **Complete**. Add information to the task and then click **Done**. See [Your Inbox](../../../sites/authoring/using/inbox.md) for more information.
 
-![](assets/chlimage_1-127.png)
-
-<!--
-Comment Type: draft
-
-<h3>Viewing or Modifying Your Tasks in the Inbox</h3>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2018-02-02T12:33:25.094-0500
-<p>Subsequent procedure/section is classic UI, I think. mark as draft for now. doesn't seem to have equivalent in touch ui.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Inbox console lists the work items that are assigned to you or to a user group to which you belong. The columns of the list provide information about the workflow and the work item:</p>
-<ul>
-<li><strong>Name</strong>: The name of the work item. This generic title typically indicates the type of work that is required of you. </li>
-<li><strong>Status</strong>: Whether the task is active or inactive.</li>
-<li><strong>Assign to:</strong> The user or group to whom the work item has been delegated.</li>
-<li><strong>Content Path</strong>: The path of the page that requires work.</li>
-<li><strong>Description</strong>: More information on the task.</li>
-<li><strong>Task Priority</strong>: The priority level - low, medium, high.</li>
-<li><strong>Workflow Title:</strong> The title of the workflow that the initiator of the workflow provided. Workflows can include no title. </li>
-<li><strong>Current Assignee:</strong> </li>
-<li><strong>Start Time:</strong> The time at which the work item was assigned.</li>
-</ul>
-<p>The following procedure describe how to open the Inbox console.</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>On the AEM home page, click Tools.</p> </li>
-<li><p>In the Tasks area, click Inbox.</p> </li>
-</ol>
--->
+![](assets/chlimage_1-126.png)
 

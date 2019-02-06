@@ -3,25 +3,18 @@ title: Reporting
 seo-title: Reporting
 description: Learn how to work with Reporting in AEM.
 seo-description: Learn how to work with Reporting in AEM.
-uuid: 4424837a-8c75-49f2-bf19-dce9b661e71f
+uuid: cdf911b2-196a-48ea-92c5-f2e8f55ed66c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 267fbe19-6afe-411d-ab8b-abd68fed9174
+discoiquuid: 60e05eb6-72f3-49d5-af11-5db1c7b2b12f
 index: y
 internal: n
 snippet: y
 ---
 
 # Reporting{#reporting}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:01:25.475-0500
-<p>.fakedata.<br /> </p>
--->
 
 To help you monitor and analyze the state of your instance, AEM provides a selection of default reports, which can be configured for your individual requirements:
 
@@ -176,7 +169,7 @@ Once data collection has started you can select:
 
 Select your requirements, then click **Go** to apply them to the report. To update the display after further snapshots have been made, click **Go** again.
 
-![](assets/chlimage_1-69.png)
+![](assets/chlimage_1-63.png)
 
 When snapshots are being collected you can:
 
@@ -203,7 +196,7 @@ The historical data report can also change slightly in appearance due to limits 
 
 Each horizontal line is known as a series (and corresponds to an entry in the chart legend), each vertical column of dots represents the aggregated snapshots.
 
-![](assets/chlimage_1-70.png)
+![](assets/chlimage_1-64.png)
 
 To keep the chart clean over longer periods of time there are limits which can be set. For the standard reports these are:
 
@@ -216,7 +209,7 @@ So when the (appropriate) limits are exceeded the:
 * the dots will not be displayed
 * the legend for the historical data chart might show a different number of entries to that of the current data chart
 
-![](assets/chlimage_1-71.png)
+![](assets/chlimage_1-65.png)
 
 Customized reports can also show the **Total** value for all series. This is shown as a series (horizontal line and entry in the legend).
 
@@ -310,13 +303,6 @@ All components are included, product-standard and project-specific. Using the **
 
 ### Disk Usage {#disk-usage}
 
-<!--
-Comment Type: remark
-Last Modified By: Stefan Grimm (sgrimm)
-Last Modified Date: 2017-11-30T05:01:26.568-0500
-<p>Can't provide feedback on this report.<br /> </p>
--->
-
 The disk usage report shows information about the data stored within your repository.
 
 The report starts in the root ( / ) of the repository; by clicking on a particular branch you can drill down inside the repository (the current path will be reflected in the report title).
@@ -324,13 +310,6 @@ The report starts in the root ( / ) of the repository; by clicking on a particul
 ![](assets/reportdiskusage.png) 
 
 ### Health Check {#health-check}
-
-<!--
-Comment Type: remark
-Last Modified By: Stefan Grimm (sgrimm)
-Last Modified Date: 2017-11-30T05:01:26.629-0500
-<p>Can't provide feedback on this report.<br /> </p>
--->
 
 This report analyzes the current request log:  
 `<*cq-installation-dir*>/crx-quickstart/logs/request.log`  
@@ -404,20 +383,6 @@ Allow you to:
 
 ![](assets/reportusercontent.png) 
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:01:26.784-0500
-<p> is it correct that referrer shows the amazon details? <br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Stefan Grimm (sgrimm)
-Last Modified Date: 2017-11-30T05:01:26.798-0500
-<p>I think ltrielof should now.<br /> </p>
--->
-
 ### User Report {#user-report}
 
 This report gives information about all users that have registered an account and/or profile; this can include both authors within your organization and external visitors.
@@ -442,13 +407,6 @@ Allow you to:
 
 * See the demographic spread of your users.
 * Report on customized fields you have added to the profiles.
-
-<!--
-Comment Type: remark
-Last Modified By: Stefan Grimm (sgrimm)
-Last Modified Date: 2017-11-30T05:01:26.839-0500
-<p>Note that ltrielof might provide you with more use cases, as he "invented" most of the reports, so I guess he should know the reason behind each and every column.<br /> </p>
--->
 
 ![](assets/reportusercanned.png) 
 
@@ -502,13 +460,6 @@ This gives you a concise overview, providing information about the individual in
 Mean you can:
 
 * Monitor the mean duration of workflows; if this happens regularly it can highlight issues with the workflow.
-
-<!--
-Comment Type: remark
-Last Modified By: Stefan Grimm (sgrimm)
-Last Modified Date: 2017-11-30T05:01:27.031-0500
-<p>Again, I'd suggest to contact Lars Trielof for additional use cases.<br /> </p>
--->
 
 ![](assets/reportworkflowintance.png) 
 

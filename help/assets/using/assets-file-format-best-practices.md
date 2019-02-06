@@ -3,12 +3,12 @@ title: Assets file format best practices
 seo-title: Assets file format best practices
 description: Best practices for file support in AEM Assets.
 seo-description: Best practices for file support in AEM Assets.
-uuid: b660ee6d-1076-4cd1-b029-2285676da702
+uuid: eef73c62-7d94-4d64-ad49-6187a11f86ca
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 1600ed26-ab4e-4c53-91e4-b16a3834313a
+discoiquuid: 1bb02ab2-fbb5-4d87-9042-c1750d98d5b5
 index: y
 internal: n
 snippet: y
@@ -77,92 +77,3 @@ Imaging Transcoding library supports the following MIME types:
 * ICN
 
 For details, see [Imaging Transcoding Library](../../assets/using/imaging-transcoding-library.md).
-
-<!--
-Comment Type: draft
-
-<h2>TIFF file support</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>AEM Assets encounters out-of-memory issues not only if the size of the image you upload is large but also if its dimensions exceed recommended limits. Generally, you can avoid such issues with large TIFF files by using FLITE or Image Transcoding Library, instead of using heap memory.<br /> </p>
-<p>In addition, open Configuration Manager and set the <span class="code">threshold size to use intermediate temporary file</span> property of the <span class="code">com.day.cq.dam.commons.handler.StandardImageHandler</span> component to a value greater than 0.</p>
-<p>Adobe does not recommend using Camera Raw for TIFF processing (due to CMYK issues). If renditions are generated incorrectly, you may want to check by regenerating using the Camera Raw library. However, the Camera Raw library cannot process images that have more than 65000 pixels on their longest side. Moreover, irrespective of the file size, the Camera Raw library can only process images that contain a maximum of 512 MP (512 x 1024 x 1024 pixels).</p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Working with TIFF files</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>It is difficult to accurately determine the maximum size of a TIFF image that can be processed. In addition to the size of the file, the ability to process depends on other factors, such as pixel size. For example, the Camera Raw library may be able to process a 255-MB TIFF file out of the box. However, it may fail to process an 18-MB file if it has a huge pixel difference. Also, Camera Raw library cannot be used to process CMYK TIFF images.<br /> </p>
-<p>The following table lists the sizes of Camera Raw-generated TIFF files that have been validated with a 14 GB heap space.</p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>In general, increasing heap size helps processing larger files efficiently. However, when processing compressed files (ZIP files), low resolution files may not be processed.</p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td><strong>Size</strong> (MB)</td>
-<td><strong>Dimension</strong> (px)</td>
-</tr>
-<tr>
-<td>18</td>
-<td>18897 x 47244</td>
-</tr>
-<tr>
-<td>38.3</td>
-<td>8301 x 3429</td>
-</tr>
-<tr>
-<td>39.9</td>
-<td>3936 x 2624</td>
-</tr>
-<tr>
-<td>46.6</td>
-<td>3008 x 2008</td>
-</tr>
-<tr>
-<td>51.5</td>
-<td>3000 x 3000</td>
-</tr>
-<tr>
-<td>72</td>
-<td>2048 x 3072</td>
-</tr>
-<tr>
-<td>91.4</td>
-<td>3264 x 2448</td>
-</tr>
-<tr>
-<td>91.5</td>
-<td>4000 x 4000</td>
-</tr>
-<tr>
-<td>143</td>
-<td>5000 x 5000</td>
-</tr>
-<tr>
-<td>225.1</td>
-<td>5433 x 7240</td>
-</tr>
-</tbody>
-</table>
--->
-

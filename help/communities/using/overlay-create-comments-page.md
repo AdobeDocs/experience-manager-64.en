@@ -3,12 +3,12 @@ title: Create Comments Page
 seo-title: Create Comments Page
 description: View Comments page
 seo-description: View Comments page
-uuid: 7930d45e-5c62-4364-ae4d-0524540711a1
+uuid: 46eb50bc-f9d6-4600-acea-2e6991dc4a96
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: d504103a-2108-40c8-9023-e5802d47770c
+discoiquuid: ecf8130e-3a37-4fac-a695-02016e7dc424
 index: y
 internal: n
 snippet: y
@@ -27,7 +27,7 @@ View the page on the author instance :
 
 * [http://localhost:4502/editor.html/content/community-components/en/comments.html](http://localhost:4502/editor.html/content/community-components/en/comments.html)
 
-![](assets/chlimage_1-131.png)
+![](assets/chlimage_1-124.png)
 
 | ** [⇐ Overlay Comments Component](../../communities/using/overlay-comments.md)** |** [Create Nodes ⇒](../../communities/using/overlay-create-nodes.md)** |
 |---|---|

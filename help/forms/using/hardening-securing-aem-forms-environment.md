@@ -3,9 +3,9 @@ title: Hardening and Securing AEM forms on OSGi environment
 seo-title: Hardening and Securing AEM forms on OSGi environment
 description: Learn recommendations and best practices for securing AEM Forms on OSGi server.
 seo-description: Learn recommendations and best practices for securing AEM Forms on OSGi server.
-uuid: 74e742e8-ff3b-47d1-a187-d4e22647539a
+uuid: fb97814b-01df-480d-b332-5afc23f81434
 topic-tags: Security
-discoiquuid: 079dc16c-f7c0-4167-a6e5-0b9a9e7918d7
+discoiquuid: d671289d-2b75-4e74-9492-71972dac0699
 index: y
 internal: n
 snippet: y
@@ -191,18 +191,6 @@ In general, Processing clusters and Forms Workflow add-on (AEM Forms on JEE) run
 ### Secure processing cluster {#secure-processing-cluster}
 
 A processing cluster runs in the author mode but do not use it for development activities. Do not allow a normal user to be included in content-authors and form-users groups of a processing cluster.
-
-<!--
-Comment Type: draft
-
-<h3>Secure Forms Workflows add-on (AEM Forms on JEE servers)</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>A separate set of instructions are available for securing <a href="../../forms/using/hardening-aem-forms-jee-environment.md" target="_blank">forms workflow add-on (AEM Forms on JEE)</a> environment. </p>
--->
 
 ### USE AEM best practices to secure an AEM Forms environment {#use-aem-best-practices-to-secure-an-aem-forms-environment}
 

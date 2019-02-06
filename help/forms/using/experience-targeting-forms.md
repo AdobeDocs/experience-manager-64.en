@@ -3,11 +3,11 @@ title: Create targeted experiences in AEM Forms
 seo-title: Create targeted experiences in AEM Forms
 description: Use Target in AEM Forms to create customized experiences for targeted customers. 
 seo-description: Use Target in AEM Forms to create customized experiences for targeted customers. 
-uuid: 77d9bc52-51f4-4b63-bf6c-20fde65d181a
+uuid: 8f2a1253-113a-4ae5-b4bf-a4d2ddbf3925
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
-discoiquuid: bca295b1-065d-4955-b9fe-19fa24631302
+discoiquuid: 3957d7d2-adbb-483f-8308-7d52df335d96
 index: y
 internal: n
 snippet: y

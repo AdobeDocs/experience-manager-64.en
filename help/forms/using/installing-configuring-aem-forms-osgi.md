@@ -3,10 +3,10 @@ title: Install and configure data capture capabilities
 seo-title: Install and configure data capture capabilities
 description: Install and configure adaptive forms, PDF Forms, and HTML5 Forms. Configure Adobe Analytics and Adobe Target for adaptive forms to analyze usage of forms and target users based on their profile.
 seo-description: Install and configure adaptive forms, PDF Forms, and HTML5 Forms. Configure Adobe Analytics and Adobe Target for adaptive forms to analyze usage of forms and target users based on their profile.
-uuid: 45d4abcd-2bc4-41a9-91be-94e132539ef4
+uuid: 9df99922-0a13-4af3-a43f-d044c1aa7d56
 contentOwner: khsingh
 topic-tags: installing
-discoiquuid: 06225c9f-f7d7-4f78-8b58-507bc4df46fb
+discoiquuid: 2ba1ca85-f107-4788-8636-28de5a958d9b
 index: y
 internal: n
 snippet: y
@@ -204,12 +204,6 @@ To use Adobe Analytics with AEM Forms, see [Configuring analytics and reports](.
 Your customers are likely to abandon a form if the experience it delivers is not engaging. While it is frustrating for the customers, it can also upturn the support volume and cost for your organization. It is critical as well as challenging to identify and provide the right customer experience that increases the conversion rate. AEM forms holds the key to this problem.
 
 AEM forms integrates with Adobe Target, an Adobe Marketing Cloud solution, to deliver personalized and engaging customer experiences across multiple digital channels. To use Adobe Target to A/B test adaptive forms, [Integrate Adobe Target with AEM Forms](../../forms/using/ab-testing-adaptive-forms.md#setupandintegratetargetinaemforms).
-
-<!--
-Comment Type: draft
-
-<h2>Known issues and troubleshooting</h2>
--->
 
 ## Next steps {#next-steps}
 

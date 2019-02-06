@@ -3,10 +3,10 @@ title: Configure data sources
 seo-title: Configure data sources
 description: Learn how to configure different types of data sources and leverage to create form data models.
 seo-description: Learn how to configure different types of data sources and leverage to create form data models.
-uuid: 6866ad2f-df75-41f3-9e77-0ecaaed161cc
+uuid: 96b9a566-25aa-4c4f-9910-8513630f6f92
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
-discoiquuid: abf892c5-9676-47d5-a829-19957aab308d
+discoiquuid: b2fba30f-97e9-4ab8-b34e-a05c8b05a393
 index: y
 internal: n
 snippet: y

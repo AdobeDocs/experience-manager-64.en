@@ -3,12 +3,12 @@ title: Configuring watched folder endpoints
 seo-title: Configuring watched folder endpoints
 description: Learn how to configure watched folder endpoints.
 seo-description: Learn how to configure watched folder endpoints.
-uuid: 8b180b06-6a54-4554-ad7c-139d17237d9f
+uuid: 88032a57-9ab0-4cce-a726-7b97373182b4
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 7ddf19fd-d505-4167-8760-37d1c63ab94f
+discoiquuid: bfb1dab6-475e-44b0-9e64-122673275587
 index: y
 internal: n
 snippet: y
@@ -357,13 +357,6 @@ Each watched folder is configured with a user name and password. These credentia
 ## Tips and tricks for watched folders {#tips-and-tricks-for-watched-folders}
 
 Here are some tips and tricks when configuring the Watched Folder endpoint:
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Bug 1543517:</p>
--->
 
 * If you have a watched folder on Windows that is processing image files, specify values for the Include File Pattern or Exclude File Pattern option to prevent the Windows auto-generated Thumbs.db file from being polled by the watched folder.
 * If a cron expression is specified, the repeat interval is ignored. The cron expression usage is based on the Quartz open source job-scheduling system, version 1.4.0.

@@ -3,12 +3,12 @@ title: Communities Components Basics
 seo-title: Communities Components Basics
 description: Add Communities features to AEM sites in edit mode and configure components
 seo-description: Add Communities features to AEM sites in edit mode and configure components
-uuid: 5310b495-0a76-4287-9395-536cf1e6268e
+uuid: 1ee727b5-e7a2-4a75-98b6-134da32c4d5e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: e3991604-f479-4740-a101-4c00a6482819
+discoiquuid: 4e06d52b-8e41-4cc1-a899-84b0473c9366
 index: y
 internal: n
 snippet: y
@@ -42,11 +42,11 @@ For details, see [Configuring Components in Design Mode](../../sites/authoring/u
 
 Following are images of selecting a few Communities components and viewing them in the components browser :
 
-![](assets/chlimage_1-436.png)
+![](assets/chlimage_1-423.png)
 
 The selected components are now available in the components browser :
 
-![](assets/chlimage_1-437.png)
+![](assets/chlimage_1-424.png)
 
 ## Required Clientlibs {#required-clientlibs}
 
@@ -56,11 +56,11 @@ When adding a Communities component to a page, if the result is an error or an u
 
 #### Example : initially placed reviews without client libraries ... {#example-initially-placed-reviews-without-client-libraries}
 
-![](assets/chlimage_1-438.png)
+![](assets/chlimage_1-425.png)
 
 #### ... and with client libraries {#and-with-client-libraries}
 
-![](assets/chlimage_1-439.png)
+![](assets/chlimage_1-426.png)
 
 ## Tagging {#tagging}
 

@@ -3,25 +3,18 @@ title: Teasers and Strategies
 seo-title: Teasers and Strategies
 description: Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests. One or more teasers are defined for a specific campaign.
 seo-description: Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests. One or more teasers are defined for a specific campaign.
-uuid: 25b55064-fdc3-4ef3-a2d1-af03d2d9535c
+uuid: 9de5491c-bd49-43f2-9b50-a23a909fe642
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 45b27046-b3d5-42ce-bb7b-ac4167f40a99
+discoiquuid: a5632363-2440-442b-a45e-69172cc8a2aa
 index: y
 internal: n
 snippet: y
 ---
 
 # Teasers and Strategies{#teasers-and-strategies}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2017-11-30T05:07:11.642-0500
-<p>Delete this page? Teasers are no longer part of 6.3. Deprecated in 6.2.</p>
--->
 
 Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests. One or more teasers are defined for a specific campaign.
 
@@ -238,86 +231,16 @@ Typically a teaser page is a temporary action that will last for a specific peri
 
 After creating your brand and campaign you can create and set up your teaser experience.
 
-<!--
-Comment Type: draft
-
-<h3>Creating a Teaser Experience</h3>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Select your new campaign in the left pane, or double-click it in the right pane.<br /> </p> </li>
-<li><p>Select the list view, using the icon:<br /> </p> <img imageRotate="0" src="assets/MCM_Icon_ListView.png" /></li>
-<li> <p>Click <strong>New...</strong><br /> </p>
-<draft-comment color="yellow" lastmodifiedby="aheimoz" lastmodifieddate="2017-11-30T05:07:12.159-0500" prevfirstname="Alison" prevlastname="Heimoz" type="remark">
-<p>Teaser Page or Experience?</p>
-<p>What are the implications of using the one or the other?</p>
-<p>What about all the other options available here - need more detailed docu albeit not in this procedure:</p>
-<p>- Blank Canvas page<br /> - Experience<br /> - Teaser Page<br /> - Offer<br /> - Voucher<br /> - Promotion<br /> - Teaser Page<br /> - Geometrixx Newsletter<br /> - Voucher<br /> - Promotion</p>
-<p>What can you nest within what and why?</p>
-</draft-comment> <p>You can specify the <strong>Title</strong>, <strong>Name</strong> and type of experience to be created; in this case, <strong>Teaser Page</strong>.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-4.png" /></li>
-<li><p>Click <strong>Create</strong>.<br /> </p> </li>
-<li><p>A new dialog will open immediately. Here you can use the various tabs to enter properties for the teaser.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-5.png" />
-<draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T05:07:12.298-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark">
-<p>exactly how do identifiers work for the location?</p>
-</draft-comment>
-<ul>
-<li><strong>Title</strong><br /> A title for the teaser.</li>
-<li><strong>Tags/Keywords</strong><br /> Tags and/or keywords that can be assigned to the teaser.</li>
-<li><strong>Description</strong><br /> A description for the teaser.</li>
-<li><strong>Location</strong><br /> Where the teaser is displayed; path or identifier.<br /> </li>
-<li><strong>On/Off Time</strong><br /> If required, the on and off times for when the teaser can be used.</li>
-<li><strong>Segments</strong><br /> The visitor segment(s) with which the teaser can be used.</li>
-<li><strong>Image</strong><br /> An image to identify the teaser.</li>
-</ul> <p>These can be updated at a later stage from the <strong>Properties...</strong> dialog.<br /> </p> </li>
-<li><p>Click <strong>OK</strong> to save.<br /> </p> </li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Adding Content to your Teaser</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>To add content to your teaser:</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Select your campaign, then from the list view, select your teaser experience and click <strong>Edit</strong>. The teaser page will open.<br /> </p> </li>
-<li><p>Use the sidekick to add components, then add your content to the teaser page:<br /> </p> <img imageRotate="0" src="assets/chlimage_1-6.png" />
-<note type="caution">
-<p>When adding content to a teaser page (shown above) <strong>do not enable targeting</strong> on any of the components within this page (that is, do not select <strong>Target</strong> from the context menu when hovering over a component on this page). </p>
-<p>Targeting is enabled on a teaser (or indeed any component) <strong>on the page where it is displayed to visitors</strong>, not here in the page used for editing.</p>
-</note></li>
-</ol>
--->
-
 ### Creating a Touchpoint for your Teaser {#creating-a-touchpoint-for-your-teaser}
 
 >[!NOTE]
 >
 >The Teaser component has been deprecated in AEM 6.2. Please use the [Target component](../../../sites/classic-ui-authoring/using/classic-personalization-content-targeting-touch.md#creatinganofferbyaddingatargetcomponent) instead.
 
-<!--
-Comment Type: draft
-
-<p>After creating your teaser you need to create a touchpoint (where the visitor will see and access the teaser) to lead to your campaign.</p>
-<p>You do this by strategically placing the teaser paragraph within your content:</p>
--->
-
 1. Navigate to the content page where you want to place the teaser paragraph that will lead to your campaign page.
 1. Add a **Teaser** component (available in the **Personalization** section of sidekick) in the required position. When first created it will show that the campaign path is not yet configured:
 
-   ![](assets/chlimage_1-7.png)
+   ![](assets/chlimage_1-4.png)
 
 1. Edit the teaser component to add the:
 
@@ -327,15 +250,15 @@ Comment Type: draft
     * ** [Strategy](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#strategies)** 
       Method used for selection when multiple segments resolve successfully.
 
-   ![](assets/chlimage_1-8.png)
+   ![](assets/chlimage_1-5.png)
 
 1. Click **OK** to save. Depending on the segments you have set on the teaser and the profile of the user you are currently logged in as, the appropriate content will be displayed:
 
-   ![](assets/chlimage_1-9.png)
+   ![](assets/chlimage_1-6.png)
 
 1. Mouse over the teaser paragraph to reveal the question mark icon (bottom right corner of the component). Click this to view the segments applied and whether they currently resolve.
 
-   ![](assets/chlimage_1-10.png)
+   ![](assets/chlimage_1-7.png)
 
 ### Teaser Overview {#teaser-overview}
 
@@ -343,17 +266,9 @@ As well as the campaign view in the MCM, the campaign page also gives informatio
 
 1. From the **Websites** console, open the campaign page; for example:
 
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2017-11-30T05:07:12.957-0500
-   <p>Open the campaign page or the experience page?</p>
-   <p>Either / or / both ?<br /> </p>
-   -->
-
    `` `http://localhost:4502/content/campaigns/geometrixx-outdoors/storefront/summer.html`
 
    This shows an overview of the teaser definitions and viewing statistics:
 
-   ![](assets/chlimage_1-11.png)
+   ![](assets/chlimage_1-8.png)
 

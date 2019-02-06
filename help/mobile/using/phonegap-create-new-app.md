@@ -3,12 +3,12 @@ title: Creating a new AEM Mobile app using create wizard
 seo-title: Creating a new AEM Mobile app using create wizard
 description: AEM Mobile apps are based on a blueprint that defines a page structure and properties. Follow this page to learn about how to create a new app based on an app template.
 seo-description: AEM Mobile apps are based on a blueprint that defines a page structure and properties. Follow this page to learn about how to create a new app based on an app template.
-uuid: 0c3de712-82b3-46fc-bf85-7852e9f7e3d4
+uuid: f106ecfa-b0fa-4886-a15b-b6ef2f16045f
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
-discoiquuid: 87610f30-6b9f-4b8d-8659-c5a7e6b9e5c8
+discoiquuid: 33b46bb0-dc33-4b1e-80b9-30677d9434b0
 index: y
 internal: n
 snippet: y
@@ -52,15 +52,15 @@ Steps to creating a new app based on an app template:
 1. Navigate to the AEM Mobile app catalog: &lt;*server-url*&gt;aem/apps.html/content/mobileapps
 1. Select **Create** and then choose **App** as shown below
 
-![](assets/chlimage_1-174.png)
+![](assets/chlimage_1-173.png)
 
 Select an app template made available to you by an AEM developer. See [Structure of an AEM Mobile App](../../mobile/using/phonegap-structure-an-app.md) for developer assistance.
 
-![](assets/chlimage_1-175.png)
+![](assets/chlimage_1-174.png)
 
 Fill out your new app's details as needed including optionally changing its thumbnail image. These values can be edited later from the **Manage App** tile.
 
-![](assets/chlimage_1-176.png) 
+![](assets/chlimage_1-175.png) 
 
 ### The Next Steps {#the-next-steps}
 

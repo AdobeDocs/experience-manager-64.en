@@ -4,9 +4,9 @@ seo-title: Review and Correct Converted Adaptive Forms
 description: Review and correct the adaptive forms converted by the Automated Forms Conversion service.
 seo-description: Review and correct the adaptive forms converted by the Automated Forms Conversion service
 page-status-flag: never-activated
-uuid: 76e34267-1015-4092-a0ec-3a4696f1fa0c
+uuid: a5cb5fff-8118-49b8-9390-b19384f742fd
 contentOwner: vishabgu
-discoiquuid: ebd76747-2810-4116-ba74-0a2b49f815f8
+discoiquuid: f87ffffa-d05b-44e6-b25f-193e18108b27
 index: y
 internal: n
 snippet: y
@@ -40,37 +40,6 @@ Once the adaptive form is generated, you can review the conversion quality and m
 * Filter the conversions based on components.****
 * Call the Automated Forms Conversion service for reconversion and view the modified results at runtime.****
 * Open form in adaptive form editor for more corrections, if necessary.
-
-<!--
-Comment Type: draft
-
-<p>AEM Forms Automated Forms Conversion service converts supported PDF forms into device-friendly adaptive forms. After the adaptive form is generated, you can review the output and make necessary updates to extracted fields and contents for an enhanced output closer to desired experience. </p>
-<p> </p>
-<p>You can configure the conversion service, run the conversions, review, and correct the conversion results from within your AEM instance. The conversion takes place in real time and generates the following assets for each print form:</p>
-<ul>
-<li>An adaptive form</li>
-<li>An adaptive form schema</li>
-<li>Adaptive form fragments</li>
-<li>Fragment schemas</li>
-</ul>
-<p>Before you get into the Review and Correct feature, it is recommended to go through the following articles to understand the Automated Forms Conversion service and related information.</p>
-<ul>
-<li><a href="/cf#introduction-to-automated-form-conversion-service.html">Automated Forms Conversion service</a></li>
-<li><a href="/cf#configure-the-automated-forms-conversion-service.html">Configure the Automated Forms Conversion service</a></li>
-<li><a href="/cf#convert-existing-forms-to-adaptive-forms.html">Convert existing forms to adaptive forms</a></li>
-<li>Supported forms for conversion (Link TBD)</li>
-<li>FAQs (Link TBD)</li>
-</ul>
-<p>Once the adaptive form is generated, you can review the conversion quality and make the required changes to the fields and extracted content in the Review and Correct UI within your AEM instance. After making the required changes, you can call the Automated Forms Conversion service for reconversion from the Review and Correct UI. Once the reconversion is complete, the updated assets including the adaptive form, schema, and fragments are reflected in the AEM instance. In case any form component is not properly converted, there is an option in the Review and Correct UI to open the converted form in adaptive form editor and make the required changes.</p>
-<p><strong>Advantages of Review and Correct UI</strong></p>
-<ul>
-<li>Easy to use interface.<strong></strong></li>
-<li>Review and correct the conversion results from same UI.<strong></strong></li>
-<li>Filter the conversions based on components.<strong></strong></li>
-<li>Call the Automated Forms Conversion service for reconversion and view the modified results at runtime.<strong></strong></li>
-<li>Open form in adaptive form editor for more corrections, if necessary.</li>
-</ul>
--->
 
 ## Supported components and field types {#supported-components-and-field-types}
 

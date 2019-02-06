@@ -3,12 +3,12 @@ title: Upgrading Custom Search Forms
 seo-title: Upgrading Custom Search Forms
 description: This article details the adjustments that are required after an upgrade in order for the custom search forms to function.
 seo-description: This article details the adjustments that are required after an upgrade in order for the custom search forms to function.
-uuid: bafc131f-0083-4a75-80a5-d59b5d089311
+uuid: 700ed5cb-1fcb-4b57-b623-42c83aa262ce
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
-discoiquuid: db7ef4f7-b015-4fac-9546-5e60866f9040
+discoiquuid: 48c8f128-bf2e-495e-a534-1e6f7db83d34
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Developing AEM Components - Code Samples
 seo-title: Developing AEM Components - Code Samples
 description: This section provides some examples on how to create your own components for AEM.
 seo-description: This section provides some examples on how to create your own components for AEM.
-uuid: b87e7507-d334-4cac-8dd8-8f3302f422df
+uuid: 5feabee4-9281-44f6-9653-b3434fb30d31
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 9cbf43e7-ac64-4717-8568-fd19595ce955
+discoiquuid: e6b4a354-9e35-4f17-81db-2627dc9b8ca4
 legacypath: /content/docs/en/aem/6-2/develop/components/components-develop
 index: y
 internal: n

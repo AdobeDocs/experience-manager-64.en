@@ -3,11 +3,11 @@ title: Configuring AEM Forms to submit form data to an AEM Forms on JEE process
 seo-title: Configuring AEM Forms to submit form data to an AEM Forms on JEE process
 description: AEM Forms allows you to integrate adaptive forms with AEM Forms on JEE processes for processing form data.
 seo-description: AEM Forms allows you to integrate adaptive forms with AEM Forms on JEE processes for processing form data.
-uuid: ed32e7fe-b8c7-47cb-9bd0-adc1aa7b2b0f
+uuid: 5fac8b17-1afc-43dc-97c3-5e7343d6c213
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
-discoiquuid: 636da148-7b7d-47ad-bbbf-c20f05cf6389
+discoiquuid: 5f3c94a0-2221-41fb-a57d-d6a321c634b7
 index: y
 internal: n
 snippet: y

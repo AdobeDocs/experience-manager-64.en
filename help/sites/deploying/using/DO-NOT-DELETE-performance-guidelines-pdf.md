@@ -4,11 +4,11 @@ seo-title: Performance Guidelines PDF
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 5cf75a4c-23a1-4fd2-84ab-104333c19500
+uuid: 8f0120d4-fadc-4162-8555-2fa31c32aa21
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 5e7e619b-c0ad-4085-a763-2e4e476bc81a
+discoiquuid: ddbacf68-5649-4d93-9270-02091b675b61
 index: y
 internal: n
 snippet: y

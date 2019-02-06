@@ -3,10 +3,10 @@ title: Configuring the Submit action
 seo-title: Configuring the Submit action
 description: AEM Forms allows you to configure a submit action to define how an adaptive form is processed after submission. You can use built-in submit actions or write your own from scratch.
 seo-description: AEM Forms allows you to configure a submit action to define how an adaptive form is processed after submission. You can use built-in submit actions or write your own from scratch.
-uuid: 3e42d99f-5fc3-4c19-82b5-199db19d9c66
+uuid: 6b7db1d4-fd7b-4b3f-b332-992b52facc82
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 3cf125ab-dadb-4148-980a-49bbe96fa1d4
+discoiquuid: 645d6568-188a-4fde-8a8d-dbbb695ae3f4
 index: y
 internal: n
 snippet: y
@@ -90,12 +90,6 @@ In this example, `data` stores the XML data, and `att` stores attachment data.
 
 The **Send Email **submit action** **sends an email to one or more recipients on successful submission of the form. The email generated can contain form data in a predefined format.
 
-<!--
-Comment Type: draft
-
-<p>For more information, see <a href="../../forms/using/form-submission-receipt-via-email.md" target="_blank">Sending a form submission acknowledgement via email</a>.</p>
--->
-
 >[!NOTE]
 >
 >All the form fields must have different element names, even if they are placed on different panels), for including form data in an email.
@@ -105,12 +99,6 @@ Comment Type: draft
 The **Send PDF via Email **submit action sends an email with a PDF containing form data, to one or more recipients on successful submission of the form.
 
 **Note:** *This submit action is available for XFA-based adaptive forms and XSD-based adaption forms that have the Document of Record template.*
-
-<!--
-Comment Type: draft
-
-<p>For more information about configuring the Email PDF action and submit action, see <a href="../../forms/using/form-submission-receipt-via-email.md" target="_blank">Sending a form submission acknowledgement via email</a>.</p>
--->
 
 ## Invoke a forms workflow {#invoke-a-forms-workflow}
 

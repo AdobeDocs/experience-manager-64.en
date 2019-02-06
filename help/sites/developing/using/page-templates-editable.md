@@ -3,12 +3,12 @@ title: Page Templates - Editable
 seo-title: Page Templates - Editable 
 description: Editable templates have been introduced to, allow non-developers to create and edit templates, provide templates that retain a dynamic connection to any pages created from them, and make the page component more generic
 seo-description: Editable templates have been introduced to, allow non-developers to create and edit templates, provide templates that retain a dynamic connection to any pages created from them, and make the page component more generic
-uuid: 0335c713-15a2-42f9-9d85-21a43b7a7d27
+uuid: 3df71cae-482f-4c27-b3cc-2153be9febc0
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: eb81ff5e-62f6-4f79-b618-84991bc637de
+discoiquuid: d6a556bb-4cf6-4ab0-b4ed-d66dbf94b8a4
 index: y
 internal: n
 snippet: y
@@ -386,19 +386,6 @@ The out-of-the box template types are stored under:
 >
 >You must not change anything in the `/libs` path. This is because the content of `/libs` is overwritten the next time you upgrade your instance (and may be overwritten when you apply either a hotfix or feature pack).
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T09:24:30.207-0500
-<p>AJH&gt;&gt;&gt; which is the correct location for template types - have heard/seen both and both exist in L20 - and both work (have tested)<br /> </p>
-<ul>
-<li>/apps/settings/wcm/template-types (as below)<br /> </li>
-<li>/conf/&lt;<i>my-folder-01</i>&gt;/&lt;<i>my-folder-02</i>&gt;/settings/wcm/template-types (as further below)</li>
-</ul>
-<p>LP&gt;&gt;&gt; both locations are correct. But I would recommend to add the template types to /apps, as this is part of the application itself... but this is discussable as templates are part of the appllication too. So as said, both is correct</p>
-<p>PF&gt;&gt;&gt; Note that We.Retail sample define their template-type under conf/, if I remember well. I feel like apps/ is more appropriate as stated later on<br /> (conf/we-retail/settings/wcm/template-types)</p>
--->
-
 Your site-specific template types should be stored in the comparable location of:
 
 * `/apps/settings/wcm/template-types`
@@ -616,7 +603,7 @@ Pages created from editable templates:
     * `cq:templateType`  
       Provides a reference to the template type.
 
-![](assets/chlimage_1-271.png)
+![](assets/chlimage_1-261.png)
 
 The above diagram shows how templates, content, and components interrelate:
 

@@ -3,12 +3,12 @@ title: Managing Assets with the Touch-Optimized UI
 seo-title: Managing Assets with the Touch-Optimized UI
 description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 seo-description: Learn how to upload, manage, and edit assets using the touch-optimized user interface
-uuid: 4383af0c-9689-4705-bfae-09bc20776ab9
+uuid: fef343db-be97-4b90-a9fa-e0127ce68ba7
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 1d31854f-f574-49aa-af0a-8368a4ab8d46
+discoiquuid: 233004e3-cbde-4b30-919c-0880796e3e2d
 index: y
 internal: n
 snippet: y
@@ -19,13 +19,6 @@ snippet: y
 Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 
 This article describes how to manage and edit assets using the Adobe Experience Manager (AEM) Assets Touch-optimized user interface (UI). For elementary knowledge about the UI, see [Basic handling of Touch UI](../../sites/authoring/using/basic-handling.md).
-
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-15T21:19:34.254-0400
-There are many points on this docs page where I did not check for accuracy because of lack of knowledge and time. This means that my verification of the page is not as thorough as I would have liked
--->
 
 >[!CAUTION]
 >
@@ -54,14 +47,7 @@ Before uploading an asset, ensure that it is in a [format](../../assets/using/as
 
    You can pause the uploading of large assets (greater than 500 MB) and resume it later from the same page. Tap the **Pause** icon beside progress bar that appears when the uploading starts.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-12-10T16:41:34.097-0500
-   From the paragraph below, I see this should be MB not Mb. RB: Fixed.
-   -->
-
-   ![](assets/chlimage_1-383.png)
+   ![](assets/chlimage_1-376.png)
 
    The size above which an asset is considered a large asset is configurable. For example, you can configure the system to consider assets above 1000 MB (instead of 500 MB) as large assets. In this case, the **Pause** button in the progress bar appears when assets of size greater than 1000 MB are uploaded.
 
@@ -69,23 +55,9 @@ Before uploading an asset, ensure that it is in a [format](../../assets/using/as
 
    To modify the size limit, configure the `chunkUploadMinFileSize` property of the `fileupload`node in the CRX repository.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-12-10T16:48:10.466-0500
-   Maybe there should be more information about how to do this or, even better, a link to a page the describes how to change this value RB: Will not fix.
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-12-10T16:50:36.842-0500
-   The Pause button does not show if a file >1000MB is uploaded with a file <1000MB However, if you cancel the <1000MB file upload, then the Pause button appears RB: Fixed.
-   -->
-
    When you click the **Pause** icon, it toggles to a **Play** icon. To resume uploading, click the **Play** icon. 
 
-   ![](assets/chlimage_1-384.png)
+   ![](assets/chlimage_1-377.png)
 
    To cancel an ongoing upload, click the '**X**' button beside the progress bar. When you cancel the upload operation, AEM Assets deletes the partially uploaded portion of the asset.
 
@@ -99,7 +71,7 @@ Before uploading an asset, ensure that it is in a [format](../../assets/using/as
 
    You can choose to replace an existing asset, create another version, or keep both by renaming the new asset that is uploaded. If you replace an existing asset, the metadata for the asset and any prior modifications (for example annotations, croppings, and so on) you made to the existing asset are deleted. If you choose to keep both assets, the new asset is renamed with the number 1 appended to its name.
 
-   ![](assets/chlimage_1-385.png)
+   ![](assets/chlimage_1-378.png)
 
    >[!NOTE]
    >
@@ -117,7 +89,7 @@ Before uploading an asset, ensure that it is in a [format](../../assets/using/as
    >
    >The **Duplicates Detected** dialog appears only when the Duplicate Detection feature is enabled. To enable the Duplicate Detection feature, see [Enabling Duplicate Detection](../../assets/using/duplicate-detection.md).
 
-   ![](assets/chlimage_1-386.png)
+   ![](assets/chlimage_1-379.png)
 
    Tap/click **Keep** to retain the duplicate asset in AEM Assets. Tap/click **Delete** to delete the duplicate asset you uploaded.
 
@@ -125,21 +97,7 @@ Before uploading an asset, ensure that it is in a [format](../../assets/using/as
 
    To suit specific file naming conventions for your organization, the Upload Assets dialog lets you specify long names for the files that you upload.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-12-10T16:55:32.017-0500
-   should this be "characters"? RB: Fixed.
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-12-10T16:56:33.297-0500
-   I do not understand what this paragraph is trying to say? RB: Not fixed.
-   -->
-
-   ![](assets/chlimage_1-387.png)
+   ![](assets/chlimage_1-380.png)
 
    In addition, the Assets UI displays the most recent asset that you upload or the folder you create first in all the views (Card, List, and Column views).
 
@@ -147,20 +105,13 @@ Before uploading an asset, ensure that it is in a [format](../../assets/using/as
 
    The Upload Progress dialog in AEM Assets displays the count of successfully uploaded files and the files that failed to upload.
 
-   ![](assets/chlimage_1-388.png)
+   ![](assets/chlimage_1-381.png)
 
    If you cancel the upload operation before the files are uploaded, AEM Assets stops uploading the current file and refreshes the content. However, files that are already uploaded are not deleted.
 
 ### Uploading assets using FTP {#uploading-assets-using-ftp}
 
 Dynamic Media enables batch uploading of assets via FTP server. If you intend to upload large assets ( &gt; 1 GB) or upload entire folders and subfolders, you should use FTP. You can even set up FTP upload to occur on a recurring scheduled basis.
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-12-10T17:49:40.840-0500
-For which mode? Hybrid, S7, or both? Or SPS only?
--->
 
 >[!NOTE]
 >
@@ -299,34 +250,6 @@ For which mode? Hybrid, S7, or both? Or SPS only?
  </tbody> 
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-12-10T17:17:53.496-0500
-It should be noted somewhere that the crop works differently than within AEM and is a non-destructive crop RB: Fixed.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-12-10T17:25:43.884-0500
-templates are not supported by AEM RB: Fixed.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-12-10T17:33:03.754-0500
-eCatalogs are not supported by AEM; they may also be EOL soon, but I do not know for sure RB: Fixed. Added Note.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-14T20:16:04.965-0400
-This is not the same as using Video Profiles within AEM. I do not know how evideos work with reverse publish
--->
-
 #### Setting image editing options at upload {#setting-image-editing-options-at-upload}
 
 When uploading image files, including AI, EPS, and PSD files, you can take the following editing actions in the Upload Job Options dialog box:
@@ -402,13 +325,6 @@ When uploading image files, including AI, EPS, and PSD files, you can take the f
  </tbody> 
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-12-10T17:21:13.917-0500
-I'm not sure how this will work with reverse publish RB: ? - Not fixed.
--->
-
 #### Setting PostScript and Illustrator upload options {#setting-postscript-and-illustrator-upload-options}
 
 When you upload PostScript (EPS) or Illustrator (AI) image files, you can format them in various ways. You can rasterize the files, maintain the transparent background, choose a resolution, and choose a color space. Options for formatting PostScript and Illustrator files are available in the Upload Job Options dialog box under PostScript Options and Illustrator Options.
@@ -470,13 +386,6 @@ PSD (Photoshop Document) files are most often used to create image templates. Wh
 Dynamic Media creates multiple images from a PSD file with layers if you use the file to create a template; it creates one image for each layer.
 
 Use the Crop Options and Color Profile Options, described above, with Photoshop upload options.
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-12-10T17:28:11.951-0500
-It should be mentioned that templates are not supported in AEM RB: Fixed. Noted added.
--->
 
 >[!NOTE]
 >
@@ -540,13 +449,6 @@ It should be mentioned that templates are not supported in AEM RB: Fixed. Noted 
 #### Setting PDF upload options {#setting-pdf-upload-options}
 
 When you upload a PDF file, you can format it in various ways. You crop its pages, extract search words, enter a pixels-per-inch resolution, and choose a color space. PDF files often contain a trim margin, crop marks, registration marks, and other printer’s marks. You can crop these marks from the sides of pages as you upload a PDF file.
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-12-10T17:31:17.273-0500
-It should be mentioned that eCatalogs are not supported in AEM RB: Fixed. Added Note below.
--->
 
 >[!NOTE]
 >
@@ -618,13 +520,6 @@ Choose from the following options:
 
 You can transcode a video file by choosing from a variety of video presets.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-12-10T17:48:44.618-0500
-eVideos are handled differently in SPS compared with AEM DMS7 Video Assets RB: Not sure what you are asking me to fix.
--->
-
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
@@ -670,13 +565,6 @@ See [Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets](..
 
 If you upload numerous assets, I/O calls to the AEM server increases drastically, which reduces upload efficiency and can even cause it to time out. AEM Assets supports streamed uploading of assets. Streamed uploading reduces disk I/O during the upload operation by avoiding asset storage in a temporary folder on the server before copying it to the repository. Instead, the data is transferred directly to the repository. This way, the time to upload large assets and the possibility of timeouts is reduced. Streamed upload is enabled by default in AEM Assets.
 
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-15T12:14:59.214-0400
-How do I do a streamed upload? There should be a link to this or instructions
--->
-
 >[!NOTE]
 >
 >Streaming upload is disabled for AEM running on JEE server with servlet-api version less than 3.1.
@@ -696,14 +584,7 @@ See also [Previewing Dynamic Media Assets.](../../assets/using/previewing-assets
 
    Tap the **Reset **button to reset the view to the original size.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-15T12:28:58.408-0400
-   Please check the Reset icon in viewers. It may have changed
-   -->
-
-   ![](assets/chlimage_1-389.png)
+   ![](assets/chlimage_1-382.png)
 
 ## Editing Properties {#editing-properties}
 
@@ -725,18 +606,11 @@ See also [Previewing Dynamic Media Assets.](../../assets/using/previewing-assets
 
 1. To schedule a particular date/time for the activation of the asset, use the date picker beside the **On Time** field.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-12-10T17:53:29.542-0500
-   Scheduling activation and deactivation does not equate to Publish. Publish is separate RB: Not fixed. There is no mention of publishing anywhere in these steps. Only activating and deactivating assets.
-   -->
-
-   ![](assets/chlimage_1-390.png)
+   ![](assets/chlimage_1-383.png)
 
 1. To deactivate the asset after a particular duration, choose the deactivation date/time from the date picker beside the **Off Time** field.
 
-   ![](assets/chlimage_1-391.png)
+   ![](assets/chlimage_1-384.png)
 
    >[!NOTE]
    >
@@ -749,13 +623,6 @@ See also [Previewing Dynamic Media Assets.](../../assets/using/previewing-assets
 1. In the **Tags** field, select one or more tags. To add a custom tag, type the name of the tag in the box and press Enter. The new tag is saved in AEM.
 
    YouTube requires Tags to publish and have a link to YouTube (if a suitable link can be found).
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-10T15:48:25.314-0500
-   Maybe add a note stating YouTube requires Tags in order to publish and have a link to YouTube, if a suitable link can be found RB: Fixed
-   -->
 
    >[!NOTE]
    >
@@ -808,7 +675,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. Click the **Paste** asset icon from the toolbar:
 
-   ![](assets/chlimage_1-392.png)
+   ![](assets/chlimage_1-385.png)
 
    The assets are copied to this location.
 
@@ -859,7 +726,7 @@ The other properties and metadata information is retained. A partial copy is not
 
 1. Tap/click the asset to open its asset page. 
 
-   ![](assets/chlimage_1-393.png)
+   ![](assets/chlimage_1-386.png)
 
 1. Tap/click the GlobalNav icon, and select **Renditions **from the list.
 
@@ -885,7 +752,7 @@ The other properties and metadata information is retained. A partial copy is not
 
    Navigate to the asset details page for the asset, and tap/click the **Add Rendition **icon in the toolbar to upload a new rendition for the asset. 
 
-   ![](assets/chlimage_1-394.png)
+   ![](assets/chlimage_1-387.png)
 
    >[!NOTE]
    >
@@ -898,7 +765,7 @@ The other properties and metadata information is retained. A partial copy is not
 
    Similarly, you can customize the Annotation page image by overlaying *libs/dam/gui/content/assets/annotate/jcr:content/body/content/content/items/content/renditionpicker*.
 
-   ![](assets/chlimage_1-395.png)
+   ![](assets/chlimage_1-388.png)
 
    To configure rendition dimensions for a video asset, navigate to the **videopicker** node in the CRX repository at the location*/libs/dam/gui/content/assets/assetpage/jcr:content/body/content/content/items/assetdetail  
    /items/col1/items/assetview/videopicker*, overlay the node, and then edit the appropriate property.
@@ -915,18 +782,11 @@ Subasset generation is disabled by default. To enable subasset generation, add t
 
 For Word documents, the DAM Parse Word Documents workflow generates a `cq:Page` component from the contents of the Word document. The images extracted from the document are referenced from the `cq:Page` component. These images are extracted even if subasset generation is disabled.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-12-10T17:59:40.490-0500
-change to use correct sentence structure RB: Fixed.
--->
-
 1. To view subassets, navigate to the location of the asset and open its asset page.  
 
 1. Tap/click the GlobalNav icon, and choose **Subassets **from the list 
 
-   ![](assets/chlimage_1-396.png)
+   ![](assets/chlimage_1-389.png)
 
    >[!NOTE]
    >
@@ -934,7 +794,7 @@ change to use correct sentence structure RB: Fixed.
 
    When you select **Subassets** from the list, the **subassets** page displays the subassets linked to the parent asset.
 
-   ![](assets/chlimage_1-397.png)
+   ![](assets/chlimage_1-390.png)
 
 ## Deleting Assets {#deleting-assets}
 
@@ -1031,7 +891,7 @@ The following are the Export/Download options. Dynamic renditions are unique to 
 
 1. In the dialog, specify your download options.
 
-   ![](assets/chlimage_1-398.png)
+   ![](assets/chlimage_1-391.png)
 
     * **Cancel** to stop the download
     * **Renditions **to download the renditions of the asset
@@ -1059,7 +919,7 @@ The following are the Export/Download options. Dynamic renditions are unique to 
 1. Either select the **Publish** quick action from the asset card, or select the asset and tap/click the **Quick Publish** icon from the toolbar.
 1. If the asset references other assets, its references are listed in the wizard. Only references that are either unpublished or modified since they were last published/unpublished are displayed. Choose the references you want to publish.
 
-   ![](assets/chlimage_1-399.png)
+   ![](assets/chlimage_1-392.png)
 
    >[!NOTE]
    >
@@ -1100,13 +960,6 @@ The following are the Export/Download options. Dynamic renditions are unique to 
 A closed user group (CUG) is used to limit access to specific asset folders published from AEM. If you create a CUG for a folder, access to the folder (including folder assets and subfolders) is restricted to assigned members or groups only. To access the folder, they must log in using their security credentials.
 
 CUGs are an extra way to restrict access to your assets. You can also configure a login page for the folder.
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-10T15:51:17.653-0500
-I do not know if this has ever been tested with Dynamic Meida RB: Who would know? Who should be testing it?
--->
 
 1. Select a folder from the Assets UI, and tap/click the Properties icon from the toolbar to display the properties page.
 1. From the **Permissions** tab, add members or groups under **Closed User Group**.
@@ -1177,32 +1030,32 @@ The editing tools in the AEM Assets interface let you perform small editing jobs
 
 1. To crop the image, tap/click the **Crop** icon.
 
-   ![](assets/chlimage_1-400.png)
+   ![](assets/chlimage_1-393.png)
 
 1. Select the desired option from the list. The crop area appears on the image based on the option you choose. The **Free Hand** option lets you crop the image without any aspect ratio restrictions.
 
-   ![](assets/chlimage_1-401.png)
+   ![](assets/chlimage_1-394.png)
 
 1. Select the area to be cropped, and resize or reposition it on the image.
 1. Use the **Finish** icon (top right corner) to crop the image. Clicking the **Finish** icon also triggers the regeneration of renditions.
 
-   ![](assets/chlimage_1-402.png)
+   ![](assets/chlimage_1-395.png)
 
 1. Use the **Undo** and **Redo** icons on the top right to revert to the uncropped image or retain the cropped image, respectively.
 
-   ![](assets/chlimage_1-403.png)
+   ![](assets/chlimage_1-396.png)
 
 1. Tap/click the appropriate Rotate icon to rotate the image clockwise or anti-clockwise.
 
-   ![](assets/chlimage_1-404.png)
+   ![](assets/chlimage_1-397.png)
 
 1. Tap/click the appropriate Flip icon to flip the image horizontally or vertically.
 
-   ![](assets/chlimage_1-405.png)
+   ![](assets/chlimage_1-398.png)
 
 1. Tap/click the **Finish** icon to save the changes.
 
-   ![](assets/chlimage_1-406.png)
+   ![](assets/chlimage_1-399.png)
 
 >[!NOTE]
 >
@@ -1247,13 +1100,6 @@ Annotations are comments or explanatory notes added to images or videos. Annotat
 
 Video annotations are only supported on browsers with HTML5-compatible video formats. Video formats that AEM Assets supports depend on the browser.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-10T16:00:06.300-0500
-Mac Firefox has supported MP4 for a while now RB: Fixed. Removed sentence.
--->
-
 >[!NOTE]
 >
 >For Content Fragments, [annotations are created in the editor](../../assets/using/content-fragments-variations.md#annotatingacontentfragment); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../release-notes/sp-release-notes.md).
@@ -1264,11 +1110,11 @@ Mac Firefox has supported MP4 for a while now RB: Fixed. Removed sentence.
     * [Quick actions](../../assets/using/managing-assets-touch-ui.md#quickactions)
     * From the toolbar after selecting the asset or navigating to the asset page
 
-   ![](assets/chlimage_1-407.png)
+   ![](assets/chlimage_1-400.png)
 
 1. Add a comment in the **Comment** box at the bottom of the timeline. Alternatively, mark up an area on the image and add an annotation in the **Add Annotation** dialog.
 
-   ![](assets/chlimage_1-408.png)
+   ![](assets/chlimage_1-401.png)
 
 1. To notify a user about an annotation, specify the email address of the user and add the comment. For example, to notify Aaron MacDonald about an annotation, enter @aa. Hints for all matching users is displayed in a list. Select Aaron's email address from the list to tag her with the comment. Similarly, you can tag more users anywhere within the annotation or before or after it.
 
@@ -1276,11 +1122,11 @@ Mac Firefox has supported MP4 for a while now RB: Fixed. Removed sentence.
    >
    >For a non-administrator user, suggestions appear only if the user has Read permissions at */home* in Crx-de.
 
-   ![](assets/chlimage_1-409.png)
+   ![](assets/chlimage_1-402.png)
 
 1. After adding the annotation, click **Add** to save it. A notification for the annotation is sent to Aaron. 
 
-   ![](assets/chlimage_1-410.png)
+   ![](assets/chlimage_1-403.png)
 
    >[!NOTE]
    >
@@ -1295,11 +1141,11 @@ Mac Firefox has supported MP4 for a while now RB: Fixed. Removed sentence.
 
 1. To choose a different color so you can differentiate between users, click/tap the Profile icon and click/tap **My Preferences**.
 
-   ![](assets/chlimage_1-411.png)
+   ![](assets/chlimage_1-404.png)
 
    Specify the desired color in the **Annotation Color** box and then click/tap **Accept**.
 
-   ![](assets/chlimage_1-412.png)
+   ![](assets/chlimage_1-405.png)
 
 >[!NOTE]
 >
@@ -1311,15 +1157,15 @@ Mac Firefox has supported MP4 for a while now RB: Fixed. Removed sentence.
 
 1. Tap/click the GlobalNav icon, and choose **Timeline** from the list.
 
-   ![](assets/chlimage_1-413.png)
+   ![](assets/chlimage_1-406.png)
 
 1. From the **Show All** list in the timeline, select **Comments** to filter the results based on annotations.
 
-   ![](assets/chlimage_1-414.png)
+   ![](assets/chlimage_1-407.png)
 
    Tap/click a comment in the **Timeline** panel to view the corresponding annotation on the image.
 
-   ![](assets/chlimage_1-415.png)
+   ![](assets/chlimage_1-408.png)
 
    Tap/click **Delete**, to delete a particular comment.
 
@@ -1339,19 +1185,19 @@ To print the annotations and review status, tap/click the **Print** icon and fol
 
 1. To print specific annotations, select the annotations from the timeline.
 
-   ![](assets/chlimage_1-416.png)
+   ![](assets/chlimage_1-409.png)
 
    To print the review status only, select it from the timeline.
 
-   ![](assets/chlimage_1-417.png)
+   ![](assets/chlimage_1-410.png)
 
 1. Tap/click the **Print** icon from the toolbar.
 
-   ![](assets/chlimage_1-418.png)
+   ![](assets/chlimage_1-411.png)
 
 1. From the Print dialog, choose the position you want the annotations/review status to be displayed on the PDF. For example, if you want the annotations/status to be printed at the top-right of the page that contains the printed image, use the **Top-Left** setting. It is selected by default.
 
-   ![](assets/chlimage_1-419.png)
+   ![](assets/chlimage_1-412.png)
 
    You can choose other settings depending on the position where you want the annotations/status to appear in the printed PDF. If you want the annotations/status to appear in a page that is separate from the printed asset, choose **Next Page**.
 
@@ -1361,11 +1207,11 @@ To print the annotations and review status, tap/click the **Print** icon and fol
 
 1. Tap/click **Print**. Depending upon the option you choose in step 2, the generated PDF displays the annotations/status at the specified position. For example, if you choose to print both annotations and the review status using the **Top-Left** setting, the generated output resembles the PDF file depicted here.
 
-   ![](assets/chlimage_1-420.png)
+   ![](assets/chlimage_1-413.png)
 
 1. Download or print the PDF using the options at the top-right.
 
-   ![](assets/chlimage_1-421.png)
+   ![](assets/chlimage_1-414.png)
 
    >[!NOTE]
    >
@@ -1373,7 +1219,7 @@ To print the annotations and review status, tap/click the **Print** icon and fol
 
    To modify the appearance of the rendered PDF file, for example the font color, size, and style, background color of the comments and statuses, open the** Annotation PDF configuration** from Configuration Manager, and modify the desired options. For example, to change the display color of the approved status, modify the color code in the corresponding field. For information around changing the font color of annotations, see [Annotating](../../assets/using/managing-assets-touch-ui.md#main-pars-title-9).
 
-   ![](assets/chlimage_1-422.png)
+   ![](assets/chlimage_1-415.png)
 
    Return to the rendered PDF file and refresh it. The refreshed PDF reflects the changes you made.
 
@@ -1423,13 +1269,6 @@ The versioning functionality lets you do the following:
 * View the current revision for an asset.
 * Restore the asset to a previous version.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-10T16:02:12.936-0500
-I think it should be "you need to" instead of "you to" RB: Fixed.
--->
-
 1. Navigate to the location of the asset for which you want to create a version, and tap/click it to open its asset page.  
 
 1. Tap/click the GlobalNav icon, and the choose **Timeline** from the menu.
@@ -1438,15 +1277,15 @@ I think it should be "you need to" instead of "you to" RB: Fixed.
 
 1. Tap/click the **Actions** (arrow) icon at the bottom to view the available actions you can perform on the asset.
 
-   ![](assets/chlimage_1-423.png)
+   ![](assets/chlimage_1-416.png)
 
 1. Tap/click **Save as Version** to create a version for the asset.
 
-   ![](assets/chlimage_1-424.png)
+   ![](assets/chlimage_1-417.png)
 
 1. Add a label and comment, and then click **Create** to create a version. Alternatively, tap/click **Cancel** to exit the operation.
 
-   ![](assets/chlimage_1-425.png)
+   ![](assets/chlimage_1-418.png)
 
 1. To view the new version, open the **Show All** list in the timeline from the asset details page or the Assets UI, and choose **Versions**.
 
@@ -1489,25 +1328,6 @@ I think it should be "you need to" instead of "you to" RB: Fixed.
 
    ![](assets/compare_versions.png)
 
-<!--
-Comment Type: draft
-
-<p>You can disable the version creation while overriding assets using the WebDAV client. To disable version creation, open the <span class="code">com.day.cq.core.impl.io.AssetIOHandler.name</span> package in Configuration Manager, and deselect <strong>create version</strong>.</p>
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: asgupta
-Last Modified Date: 2018-07-12T05:42:33.176-0400
-Drafted to address CQDOC-12864. WebDAV is no longer used in Desktop App. It uses HTTPS for all traffic.
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-426.png" />
--->
-
 ### Starting a workflow on an asset {#starting-a-workflow-on-an-asset}
 
 1. Navigate to the location of the asset for which you want to start a workflow, and tap/click the asset to open the asset page.
@@ -1517,23 +1337,23 @@ Comment Type: draft
 
 1. Tap/click the **Actions** (arrow) icon at the bottom to open the list of actions available for the asset.
 
-   ![](assets/chlimage_1-427.png)
+   ![](assets/chlimage_1-419.png)
 
 1. Tap/click **Start Workflow** from the list.
 
-   ![](assets/chlimage_1-428.png)
+   ![](assets/chlimage_1-420.png)
 
 1. In the **Start Workflow** dialog, select a workflow model from the list.
 
-   ![](assets/chlimage_1-429.png)
+   ![](assets/chlimage_1-421.png)
 
 1. (Optional) Specify a title for the workflow, which can be used to reference the workflow instance.
 
-   ![](assets/chlimage_1-430.png)
+   ![](assets/chlimage_1-422.png)
 
 1. Tap/click **Start **and then tap/click **Proceed** in the dialog to confirm. Each step of workflow is displayed in the timeline as an event.
 
-   ![](assets/chlimage_1-431.png)
+   ![](assets/chlimage_1-423.png)
 
 ## Collections {#collections}
 

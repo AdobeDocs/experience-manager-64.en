@@ -3,12 +3,12 @@ title: Working with the Marketing Campaign Manager
 seo-title: Working with the Marketing Campaign Manager
 description: The Marketing Campaign Manager (MCM) is a console that helps you manage multi-channel campaigns. With this marketing automation software you can manage all your brands, campaigns and experiences together with the related segments, lists, leads, and reports.
 seo-description: The Marketing Campaign Manager (MCM) is a console that helps you manage multi-channel campaigns. With this marketing automation software you can manage all your brands, campaigns and experiences together with the related segments, lists, leads, and reports.
-uuid: 838e1645-2cf1-4eea-8d17-a53ffec12252
+uuid: e2000aa3-4af9-444a-bb12-e43f85c86227
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: ad2f0cd5-ab12-4af2-b2fd-2293bfb792f7
+discoiquuid: 1a8e1af0-08f4-4669-9279-10cde9e33c81
 index: y
 internal: n
 snippet: y
@@ -160,18 +160,11 @@ For the individual campaigns there are two views available:
     
     * Click on a teaser (in the right pane) to set the **On Time** and **Off Time**.
 
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-   Last Modified Date: 2017-11-30T05:07:04.261-0500
-   <p>The link "English" under the teaser name - is this a link to the touchpoint page?<br /> </p>
-   -->
-
 1. **List View**
 
    Use the icon:
 
-   ![](assets/MCM_Icon_ListView-1.png)
+   ![](assets/MCM_Icon_ListView.png)
 
    This lists all experiences (e.g. teasers and newsletters) for the selected campaign:
 

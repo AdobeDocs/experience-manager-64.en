@@ -4,9 +4,9 @@ seo-title: Installing and Configuring Forms-centric workflow on OSGi
 description: Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits. 
 seo-description: Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits. 
 page-status-flag: never-activated
-uuid: 8ab6f578-f6b3-4a30-b16e-5801cc1b1fe8
+uuid: e6d27dce-9545-443a-b2be-6e2f05e870a8
 topic-tags: installing
-discoiquuid: e57c5fc2-ed32-4e2c-a9fb-c77c9280f8ac
+discoiquuid: 393a860f-c4ee-48ca-b003-43cfceb5e1d6
 index: y
 internal: n
 snippet: y
@@ -39,12 +39,6 @@ The following topology is indicative topology to run AEM Forms Interactive Commu
 ![](assets/recommended-topology.png)
 
 AEM Forms Forms-centric workflow on OSGi runs AEM Inbox and AEM Workflow Model creation UI on the Author instances of AEM Forms.
-
-<!--
-Comment Type: draft
-
-<p>The Publish instances, non-mandatory, can host processed documents which are ready for consumption by end-users. For example, encrypted PDF documents.</p>
--->
 
 ## System Requirements {#system-requirements}
 
@@ -203,12 +197,6 @@ Adobe Sign enables e-signature workflows for adaptive forms. E-signatures improv
 In a typical Adobe Sign and Forms-centric workflow on OSGi scenario, a user fills an adaptive form to** **apply for a service**. **For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, an approval/rejection workflow is started. The service provider reviews the application in AEM Inbox and uses Adobe Sign to electronically sign the application. To enable similar electronic-signature workflows, you can integrate Adobe Sign with AEM Forms.
 
 To use Adobe Sign with AEM Forms, [Integrate Adobe Sign with AEM Forms](../../forms/using/adobe-sign-integration-adaptive-forms.md).
-
-<!--
-Comment Type: draft
-
-<h2>Known issues and troubleshooting</h2>
--->
 
 ## Next steps {#next-steps}
 

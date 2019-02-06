@@ -3,12 +3,12 @@ title:  Adobe IMS Authentication and Admin Console Support for AEM Managed Servi
 seo-title:  Adobe IMS Authentication and Admin Console Support for AEM Managed Services 
 description: Learn how to use the the Admin Console in AEM.
 seo-description: Learn how to use the the Admin Console in AEM.
-uuid: 76b3d7da-4b93-47e5-be7d-55c07eb7c546
+uuid: 67495d9a-22e7-4413-a171-6a4240f6814f
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 49b2ec69-433f-461c-89e7-29ff540d591b
+discoiquuid: 1754cdb4-aab6-4d2b-9bab-c28ddeaf9010
 index: y
 internal: n
 snippet: y
@@ -130,66 +130,9 @@ More information about the new group features can be found here:
 >
 >The User Management API that is used by the User Sync Tool is covered at this [location](https://www.adobe.io/apis/cloudplatform/umapi-new.html).
 
-<!--
-Comment Type: draft
-
-<h2>AEM Configuration</h2>
--->
-
 >[!NOTE]
 >
 >The AEM IMS configuration will be handled by the Adobe Managed Services team. However, the customer administrator may modify it as per their requirements (for example Auto Group Membership or Group Mapping). The IMS client will also be registered by your Managed Services team.
-
-<!--
-Comment Type: draft
-
-<p>The overall approach is to configure Adobe IMS as an OAuth provider, the <strong>Apache Jackrabbit Oak Default Sync Handler </strong>can be modified just like for LDAP sync to manage auto group membership and other settings.</p>
-<p> </p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li> <img imageRotate="0" src="assets/image2018-9-24_0-55-54.png" />
-<draft-comment type="draft">
-<h4>Configure the IMS Provider with these details:<br /><br /> </h4>
-<ul>
-<li><p><span class="code">Provider ID</span>: ims</p> </li>
-<li><span class="code">Authorization Endpoint (oauth.provider.ims.authorization.url)</span>: <a href="https://ims-na1-dev1.adobelogin.com/ims/authorize/v1">https://ims-na1.adobelogin.com/ims/authorize/v1</a></li>
-<li><span class="code">Token Endpoint (oauth.provider.ims.token.url)</span>: <a href="https://ims-na1-dev1.adobelogin.com/ims/token/v1">https://ims-na1.adobelogin.com/ims/token/v1</a></li>
-<li><span class="code">Profile Endpoint (oauth.provider.ims.profile.url)</span>: <a href="https://ims-na1-dev1.adobelogin.com/ims/profile/v1">https://ims-na1.adobelogin.com/ims/profile/v1</a></li>
-<li><span class="code">Organization</span>: The IMS org ID for your organization.</li>
-</ul>
-</draft-comment></li>
-<li><h4>Add the IMS Provider</h4> <p> </p>
-<ol>
-<li>Go to the <a href="../../../sites/deploying/using/configuring-web-console.md" target="_blank">Web Console Configuration Manager</a></li>
-<li>Look for and click <em><strong>Adobe Granite OAuth Application and Provider</strong></em></li>
-<li>Add the following configurations:
-<ol>
-<li><span class="code">Config ID</span>: Some identification of this configuration. For example: <em>ims</em>. This value is later used as the value of the config ID request parameter below.</li>
-<li><span class="code">Client ID</span>: For example, aem-AEMMS-Onboard-Stage</li>
-<li><span class="code">Client Secret</span>: Client Secret</li>
-<li><span class="code">Scope</span>: AdobeID,openid</li>
-<li><span class="code">Provider ID</span>: ims. This must match the <em>Provider ID</em> of the configured IMS Provider (see above)</li>
-<li><span class="code">Create Users</span>: Check</li>
-<li>Add "content-authors" in oauth.create.users.groups</li>
-</ol> </li>
-<li>Save<br /> </li>
-</ol> <p> </p> <img imageRotate="0" src="assets/image2018-9-24_1-17-43.png" /><p><strong>Automatically created configurations</strong></p> <p>At this point, the following two configurations are created automatically.</p>
-<ul>
-<li><p>Apache Jackrabbit Oak External Login Module</p> </li>
-<li><p>Apache Jackrabbit Oak Default Sync Handler</p> </li>
-</ul> </li>
-<li><h4>Bind the OAuth Authentication Handler configuration</h4>
-<ol>
-<li>Open the <em>Adobe Granite OAuth Authentication Handler</em></li>
-<li>Save</li>
-</ol> <p> </p> </li>
-<li><p><strong>Modify the Apache Jackrabbit Oak Default Sync Handler:</strong></p> <p>If the user is not part of any group they will not be able to log in, so the AEM administrator should decide a group to add users to as they log in. An example could be the <em>Contributors</em> group.</p> <p><span class="code">User auto membership</span>: contributor</p> <p> </p> </li>
-</ol>
--->
 
 ## How to Use {#how-to-use}
 

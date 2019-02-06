@@ -3,12 +3,12 @@ title: Troubleshooting Slow Queries
 seo-title: Troubleshooting Slow Queries
 description: null
 seo-description: null
-uuid: a6b59973-4a13-43b0-8197-2909877c9f08
+uuid: ca63bdd0-60bc-4d86-9840-57c48fe7ece1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: e40f081e-c9e1-4762-baa5-d094c0e04d3e
+discoiquuid: 29fe1eea-00d9-4800-b5c3-23eb66239079
 index: y
 internal: n
 snippet: y
@@ -41,13 +41,6 @@ Since each potential result must be inspected, the cost to determine the actual 
 Adding query restrictions and tuning indexes allows the index data to be stored in an optimized format affording fast result retrieval and, reduces or eliminates the need for the linear inspection of potential result sets.
 
 In AEM 6.3, by default, when a traversal of 100,000 is reached, the query fails and throws an exception. This limit does not exist by default in AEM versions prior to AEM 6.3, but can be set via the Apache Jackrabbit Query Engine Settings OSGi configuration and QueryEngineSettings JMX bean (property LimitReads).
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-7D5C17924D243FD20A746C1C@AdobeID)
-Last Modified Date: 2017-11-30T05:25:43.173-0500
-<p>Can we call out the name of the property to configure for max number of nodes traversed ? Is it LimitReads inhttp://jackrabbit.apache.org/oak/docs/query/query-engine.html#Slow_Queries_and_Read_Limits </p>
--->
 
 ### Detecting Index-less Queries {#detecting-index-less-queries}
 

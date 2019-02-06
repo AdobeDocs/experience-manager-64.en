@@ -3,12 +3,12 @@ title: Member Contribution Limits
 seo-title: Member Contribution Limits
 description: Contribution limits feature lets you limit the contributions to protect against spam
 seo-description: Contribution limits feature lets you limit the contributions to protect against spam
-uuid: 7cd6a97d-acfe-4bbf-889d-c5773cc6c2b1
+uuid: d56770f6-526a-450c-86e8-092681fdfa9a
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: d40da923-eb6c-442c-b2bf-2671a19bc2c6
+discoiquuid: a83a1343-4730-4ffc-9c16-ef2cb330ebb5
 index: y
 internal: n
 snippet: y
@@ -45,7 +45,7 @@ To reach this OSGi configuration :
 * locate `AEM Communities User Generated Content Contribution Limits Configuration`
 * select the edit icon
 
-![](assets/chlimage_1-133.png)
+![](assets/chlimage_1-126.png)
 
 * **Automatically Apply UGC Contribution Limits** 
   If checked, automatically set contribution limits on users when they register as community members. This is reflected in the community member's profile and may be enabled/disabled from the [members console](../../communities/using/members.md). New members with an email address from a white listed domain are never constrained.  

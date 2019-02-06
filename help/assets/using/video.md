@@ -3,25 +3,18 @@ title: Video
 seo-title: Video
 description: Learn how to work with video in dynamic media
 seo-description: Learn how to work with video in dynamic media
-uuid: 72b38206-e971-45dd-b481-f9358bf9fd0c
+uuid: 163ffcd4-0b32-4342-a4ff-ff1fbcd3a754
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: a65692d0-b332-4e7e-928a-2a413babf427
+discoiquuid: 8c1324f7-6424-4f3f-b761-4786b32ce7e2
 index: y
 internal: n
 snippet: y
 ---
 
 # Video{#video}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2018-03-15T15:31:46.261-0400
-<p>To do: (from cynthia) For 20GB video, can we please cross-reference the Dam documentation under the Dynamic Media video upload doc?</p>
--->
 
 This section describes working with video in Dynamic Media.
 
@@ -266,11 +259,11 @@ The following table describes the device, browser, and playback method of videos
 
 The following graphic shows the overall authoring workflow of videos that are uploaded and encoded by way of DMGateway and made available for public consumption.
 
-![](assets/chlimage_1-439.png) 
+![](assets/chlimage_1-431.png) 
 
 ## Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
 
-![](assets/chlimage_1-440.png) 
+![](assets/chlimage_1-432.png) 
 
 ## Best practices for encoding videos {#best-practices-for-encoding-videos}
 
@@ -869,19 +862,19 @@ To monitor progress (including failed encoding/YouTube publish):
 
     * In card view, video encoding progress displays on the asset by percent. If there is an error, this information also displays on the asset.
 
-   ![](assets/chlimage_1-441.png)
+   ![](assets/chlimage_1-433.png)
 
     * In list view, video encoding progress displays in the **Processing Status** column. If there is an error, this message displays in that same column.
 
-   ![](assets/chlimage_1-442.png)
+   ![](assets/chlimage_1-434.png)
 
    This column does not display by default. To enable the column, select **View Settings** from the views drop-down menu, and add the **Processing Status** column and tap or click **Update**.
 
-   ![](assets/chlimage_1-443.png)
+   ![](assets/chlimage_1-435.png)
 
 1. View progress in the asset details. When you tap or click an asset, open the drop-down menu and select **Timeline**. To narrow it down to workflow activities like encoding or YouTube publishing, select **Workflows**.
 
-   ![](assets/chlimage_1-444.png)
+   ![](assets/chlimage_1-436.png)
 
    Any workflow information such as encoding displays in the timeline. For YouTube publish, the Workflow timeline also includes the name of the YouTube channel and the YouTube video URL. In addition, you see any failure notifications in the Workflow timeline.
 
@@ -904,11 +897,11 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >You may need administrative rights to access the **Tools** menu.
 
-   ![](assets/chlimage_1-445.png)
+   ![](assets/chlimage_1-437.png)
 
    Select the instance and tap or click **Open History**.
 
-   ![](assets/chlimage_1-446.png)
+   ![](assets/chlimage_1-438.png)
 
    From the Workflow Instances area, you can also suspend, terminate, or rename workflows. See [Administering workflows](../../sites/administering/using/workflows-administering.md) for more information. 
 
@@ -918,7 +911,7 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >You may need administrative rights to access the **Tools** menu.
 
-   ![](assets/chlimage_1-447.png)
+   ![](assets/chlimage_1-439.png)
 
    >[!NOTE]
    >
@@ -939,7 +932,7 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >You may need administrative rights to access the **Tools** menu.
 
-   ![](assets/chlimage_1-448.png)
+   ![](assets/chlimage_1-440.png)
 
 1. You may receive email notifications about aborted or failed workflow jobs. These email notifications are configurable by an administrator. See [Configuring email notifications](#configuringemailnotifications).
 
@@ -1088,14 +1081,6 @@ Captioning also allows for greater accessibility by using closed captioning for 
 >[!NOTE]
 >
 >The video player that you use must support the display of captions.
-
-<!--
-Comment Type: draft
-
-<p>If desired, you can create and brand your own custom video viewer with captions instead of using a video viewer preset. For instructions on creating your own HTML5 viewer with captions, in the <i>Adobe Scene7 Viewer SDK for HTML5</i> guide, in the <i>Adobe Scene7 Viewer SDK</i>, reference the classes s7sdk.video.VideoPlayer and s7sdk.common.ClosedCaptionButton.</p>
-<p>The <i>Adobe Scene7 Viewer SDK</i> is available as a download from the following location:</p>
-<p><a href="http://help.adobe.com/en_US/scene7/using/WSef8d5860223939e2-43dedf7012b792fc1d5-8000.html">Adobe Developer Connection</a>.</p>
--->
 
 Dynamic Media has the capability of converting caption files to JSON (JavaScript Object Notation) format. This conversion means you can embed the JSON text into a web page as a hidden but complete transcript of the video. Search engines can then crawl and index the content to make the videos more easily discoverable and give customers additional details about the video content.
 

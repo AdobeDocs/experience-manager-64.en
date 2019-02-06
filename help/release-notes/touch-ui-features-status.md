@@ -3,12 +3,12 @@ title: Touch UI Feature Status
 seo-title: Touch UI Feature Status
 description: Release notes specific to Adobe Experience Manager 6.3 Touch UI.
 seo-description: Release notes specific to Adobe Experience Manager 6.3 Touch UI.
-uuid: d264acc1-1606-4842-bad0-a0ce9a05d1fb
+uuid: fc9d9ab9-692a-47fd-a62d-72d25a2fa0e3
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 504a4ce6-7fdc-4c05-ba34-1244a873866f
+discoiquuid: 99cc535d-821c-4382-b1ec-d58f76c86cb7
 index: y
 internal: n
 snippet: y
@@ -428,20 +428,6 @@ This is a list of capabilities the classic UI Page Editor ( `/cf#`) has and the 
   </tr>
  </tbody>
 </table>
-
-<!--
-Comment Type: annotation
-Last Modified By: aheimoz
-Last Modified Date: 2018-04-05T03:33:53.852-0400
-The workflow model editor is now available in touch. See: https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/workflows-models.html
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: aheimoz
-Last Modified Date: 2018-04-05T03:43:40.530-0400
-Workflow Package Handling Still looks like classic, but it's available through touch (which is documented). See: https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/workflows-participating.html#ViewingtheWorkflowPayloadMultipleResources
--->
 
 ## Feature Status: Text, Table, and Image Editors {#feature-status-text-table-and-image-editors}
 

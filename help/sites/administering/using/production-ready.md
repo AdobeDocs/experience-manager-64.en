@@ -3,12 +3,12 @@ title: Running AEM in Production Ready Mode
 seo-title: Running AEM in Production Ready Mode
 description: Learn how to run AEM in Production Ready Mode.
 seo-description: Learn how to run AEM in Production Ready Mode.
-uuid: b835fc56-85a7-4653-8b17-9bef30f3d238
+uuid: a8663658-c8e2-4666-828a-079bbb1575a9
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: e3530217-3dfa-4e63-828d-316b62a85951
+discoiquuid: ad9ad5c8-e8ca-47eb-a6ee-bfd7bd2970f0
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ The new runmode will not only automatically configure the instance to adhere to 
 >
 >Also, note that running AEM in Production Ready Mode will effectively disable access to CRXDE Lite. If you need it for debugging purposes, see [Enabling CRXDE Lite in AEM](../../../sites/administering/using/enabling-crxde-lite.md).
 
-![](assets/chlimage_1-95.png)
+![](assets/chlimage_1-89.png)
 
 In order to run AEM in production ready mode all you need to do is add the `nosamplecontent` via the `-r` runmode switch to your existing startup arguments:
 

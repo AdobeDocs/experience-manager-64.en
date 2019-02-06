@@ -3,12 +3,12 @@ title: Configuring Segmentation with ContextHub
 seo-title: Configuring Segmentation with ContextHub
 description: Learn how to configure segmentation with Context Hub.
 seo-description: Learn how to configure segmentation with Context Hub.
-uuid: 31be484c-347a-4ba7-9dc0-20d8abebb7c5
+uuid: 2299fb90-5fd7-4768-bff0-c533aaed9525
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 9e4965e3-5b13-4311-9038-bb1aea552e1e
+discoiquuid: a35df940-0691-459c-814f-aaa59ad1914d
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ The [Audiences](../../../sites/authoring/using/managing-audiences.md) console is
 
 To access your segments, in global navigation select **Navigation &gt; Personalization &gt; Audiences**. [](../../../sites/administering/using/campaign-segmentation.md)
 
-![](assets/chlimage_1-364.png) 
+![](assets/chlimage_1-349.png) 
 
 ## Segment Editor {#segment-editor}
 
@@ -130,11 +130,11 @@ To define your new segment:
 
 1. After [accessing the segments](../../../sites/administering/using/segmentation.md#main-pars-title-532601851), click or tap the Create button and select **Create ContextHub Segment**.
 
-   ![](assets/chlimage_1-365.png)
+   ![](assets/chlimage_1-350.png)
 
 1. In the **New ContextHub Segment**, enter a title for the segment as well as a boost value if required and then tap or click **Create**.
 
-   ![](assets/chlimage_1-366.png)
+   ![](assets/chlimage_1-351.png)
 
    Each segment has a boost parameter that is used as a weighting factor. A higher number indicates that the segment will be selected in preference to a segment with a lower number in instances where multiple segments are valid.
 
@@ -249,15 +249,15 @@ If you have set up an activity and experience using the prime age group segment 
 
 1. In editing mode of a page where you have set up targeted content, you can see that the content is targeted via arrow icon on the content.
 
-   ![](assets/chlimage_1-367.png)
+   ![](assets/chlimage_1-352.png)
 
 1. Switch to preview mode and using the context hub, switch to a persona that does not match the segmentation configured for the experience.
 
-   ![](assets/chlimage_1-368.png)
+   ![](assets/chlimage_1-353.png)
 
 1. Switch to a persona that does match the segmentation configured for the experience and see that the experience changes accordingly.
 
-   ![](assets/chlimage_1-369.png)
+   ![](assets/chlimage_1-354.png)
 
 ## Using Your Segment {#using-your-segment}
 

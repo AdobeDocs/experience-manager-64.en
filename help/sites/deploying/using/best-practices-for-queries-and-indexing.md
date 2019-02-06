@@ -3,12 +3,12 @@ title: Best Practices for Queries and Indexing
 seo-title: Best Practices for Queries and Indexing
 description: This article provides guidelines on how to optimize your indexes and queries.
 seo-description: This article provides guidelines on how to optimize your indexes and queries.
-uuid: 174f2ccc-4c4d-4acf-872c-1823aa1f9fdb
+uuid: 1b0f5051-856e-4f81-8079-f9ac8fdce35f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 38476225-ba76-432b-aa42-66715e523841
+discoiquuid: ea3aa840-4e09-49cb-8756-323e142e8668
 index: y
 internal: n
 snippet: y
@@ -211,13 +211,6 @@ When removing an index on a MongoDB instance, the cost of deletion is proportion
 >For more information about oak-mongo.js, see the [Command Line Tools section](http://jackrabbit.apache.org/oak/docs/command_line.html) of the Oak documentation.
 
 ## Re-indexing {#re-indexing}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-4BBD45BB4870CF25992015C3@AdobeID)
-Last Modified Date: 2017-11-30T05:41:37.429-0500
-<p>The canonical list of the acceptable reasons for re-indexing is on the <a href="http://jackrabbit.apache.org/oak/docs/query/indexing.html#reindexing" target="_blank">Apache Oak documentation</a>. This section is subserviant to that section, and should be kept up-to-date with it.</p>
--->
 
 This section outlines the **only** acceptable reasons to re-index Oak indexes.
 
@@ -448,7 +441,7 @@ Under normal operation of AEM, for example uploading Assets via the Web UI or pr
 >
 >* *
 
-![Text pre-extraction process flow](assets/chlimage_1-156.png)
+![Text pre-extraction process flow](assets/chlimage_1-142.png)
 
 **Generate  list  of content to pre-extract**
 

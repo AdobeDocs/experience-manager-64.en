@@ -3,12 +3,12 @@ title: AEM Forms Keyboard Shortcuts
 seo-title: AEM Forms Keyboard Shortcuts
 description: This article lists the keyboard shortcuts that can be used with Adaptive Form Editor, Theme Editor, Content Browser, and Correspondence Management for Windows and Macintosh operating systems.
 seo-description: This article lists the keyboard shortcuts that can be used with Adaptive Form Editor, Theme Editor, Content Browser, and Correspondence Management.
-uuid: 7c3bf499-6826-4ccb-9fae-ae89120cfd4e
+uuid: b67f3dec-dda4-43eb-8cad-e89041e4d223
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 content-type: reference
 topic-tags: author
 topic-tags: correspondence-management
-discoiquuid: eddf2553-f2f3-4edb-bcea-5234a1f1497d
+discoiquuid: 122bec70-43d2-44dd-af98-dce20b10d68e
 index: y
 internal: n
 snippet: y

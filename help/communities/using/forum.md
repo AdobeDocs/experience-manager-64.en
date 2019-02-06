@@ -3,12 +3,12 @@ title: Forum Feature
 seo-title: Forum Feature
 description: How to add and configure the forum feature
 seo-description: How to add and configure the forum feature
-uuid: 6383c591-8ac0-4491-b161-59fb3e76580f
+uuid: f1e79b94-9b14-4cb8-b749-f6ff3a1b8c85
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: e45a5336-22a5-4720-97cf-5f1a743817f5
+discoiquuid: 77d8deae-70dc-4d67-8a3c-47011eca3ffd
 index: y
 internal: n
 snippet: y

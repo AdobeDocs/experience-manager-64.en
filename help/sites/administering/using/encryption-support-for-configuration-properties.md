@@ -3,11 +3,11 @@ title: Encryption Support for Configuration Properties
 seo-title: Encryption Support for Configuration Properties
 description: null
 seo-description: null
-uuid: 1106a5b5-bf74-4f16-bd1b-ce1aa7e39079
+uuid: 71a81707-5ac2-4a8c-86fd-ea35fd35eae5
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 0131df35-5ddc-4834-8c0c-07924db9037b
+discoiquuid: 46077785-533f-4a5c-aff0-e4fff35caf50
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ These steps show how to encrypt the SMTP password for the Mail service. You can 
 1. Go to the AEM Web Console at *http://serveraddress:serverport/system/console/configMgr*
 1. In the upper left corner, go to **Main - Crypto Support**
 
-   ![](assets/chlimage_1-379.png)
+   ![](assets/chlimage_1-364.png)
 
 1. The **Adobe Experience Manager Web Console Crypto Support** page is displayed.
 

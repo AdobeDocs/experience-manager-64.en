@@ -3,12 +3,12 @@ title: SCF Handlebars Helpers
 seo-title: SCF Handlebars Helpers
 description: Handlebars Helper methods to facilitate work with SCF
 seo-description: Handlebars Helper methods to facilitate work with SCF
-uuid: da14fecd-d9e7-4fb7-8fdc-9d0d1d268b27
+uuid: 32aa60c4-ced0-4758-ae64-867287a37298
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 32b7b3e9-d4a1-4fb8-878f-b27b6761a63d
+discoiquuid: b37f51f4-ba25-440b-9817-e19d65e3ebab
 index: y
 internal: n
 snippet: y
@@ -250,38 +250,6 @@ This helper, appropriate only on the server-side, provides functionality similar
 
 This will include a new comments component at `this.id` + /comments
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (jkendall)
-Last Modified Date: 2017-11-30T05:39:20.900-0500
-<p>From DOC-5174</p>
-<ul>
-<li>{ {include "fake string" path="/absolute/path/to/be/included"}}</li>
-<li>{ {include "/prefix/component/path" path="non/absolute/suffix/for/component"}}</li>
-</ul>
-<p>Things that don't work, but feel like the should:</p>
-<ul>
-<li>{ {include "/absolute/path/to/component"}} - renders empty as idToRender becomes "/absolute/path/to/component/null"</li>
-<li>{ {include path="/absolute/path/to/component"}} - results in infinite recursion</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Internal Use Only</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>Prior to AEM 6.1 it was not possible to configure a <a href="#addorincludeacommunitiescomponent">non-existing resource</a> as the component's dialog was not available in author mode, nor was there a node to edit from <a href="http://localhost:4502/crx/de">CRX|DE Lite</a>.</p>
-<p>Using the SCF include block helper for server-side rendering, it is possible to embed JSON in the body of the helper to configure the dynamic component. Attributes that normally reside on the component node may be specified as name/value pairs. For example, to enable RTE : </p>
-<ul>
-<li>{{#include <strong>this</strong>.id path="comments" resourceType="social/commons/components/hbs/comments"}}<br /> { "rteEnabled" : <strong>true </strong>}<br /> {{/include}}</li>
-</ul>
--->
-
 ## includeClientLib {#includeclientlib}
 
 A helper that includes an AEM html client library, which can be a js, a css or a theme library. For multiple inclusions of different types, for example js and css, this tag needs to be used multiple times in the Handlebars script.
@@ -341,40 +309,6 @@ This helper, appropriate only on the server-side, provides functionality similar
     <link href="/etc/clientlibs/social/hbs/socialgraph.css" rel="stylesheet" type="text/css">
     <link href="/etc/clientlibs/social/hbs/comments.css" rel="stylesheet" type="text/css">
 ```
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (jkendall)
-Last Modified Date: 2017-11-30T05:39:21.001-0500
-<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Conscious decision to not document </p>
-<ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">
-<li>lastPath</li>
-<li>loadmore</li>
-<li>modifycontext</li>
-<li>pages</li>
-</ul>
-<div style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">
-Not sure about
-</div>
-<ul>
-<li>dom-id</li>
-<li>encodeForHTMLAttr</li>
-<li>encodeForJSString</li>
-<li>encodeURI</li>
-<li>filterHTML</li>
-<li>if-wcm-mode</li>
-</ul>
-<div style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">
-https://git.corp.adobe.com/CQ/social-commons/blob/master/bundles/cq-social-handlebars/src/main/java/com/adobe/cq/social/handlebars/DefaultHelpersRegister.java
-</div>
-<div style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">
-</div>
-<div style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">
-https://git.corp.adobe.com/CQ/social-commons/blob/master/content/jcr_root/etc/clientlibs/social/commons/scf/helpers.js
-</div>
-<div style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">
-</div>
--->
 
 ## pretty-time {#pretty-time}
 

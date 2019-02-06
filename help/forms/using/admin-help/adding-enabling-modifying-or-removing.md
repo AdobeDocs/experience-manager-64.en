@@ -3,12 +3,12 @@ title: Adding, enabling, modifying, or removing endpoints
 seo-title: Adding, enabling, modifying, or removing endpoints
 description: Learn how to add, enable, modify and remove endpoints.
 seo-description: Learn how to add, enable, modify and remove endpoints.
-uuid: 01ecbb81-50e3-4190-8b56-2d924e7f9e57
+uuid: 690f5cf3-ae33-4027-afab-b9c5d463c636
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: bcb22793-cf7d-4f84-b3b6-25bc7da5501c
+discoiquuid: 413fd114-4f24-4aa5-925e-2f796f0f53ba
 index: y
 internal: n
 snippet: y

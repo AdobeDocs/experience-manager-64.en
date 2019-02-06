@@ -3,12 +3,12 @@ title: Mapping Component Data with Adobe Analytics Properties
 seo-title: Mapping Component Data with Adobe Analytics Properties
 description: Learn how to map component data with SiteCatalyst properties.
 seo-description: Learn how to map component data with SiteCatalyst properties.
-uuid: 9d1727ea-ee3e-41cb-85f8-7835164e4d00
+uuid: 06711ad2-f0e7-4583-b667-213413047721
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: e6c65c85-6cd6-4947-b652-30721343a902
+discoiquuid: 4e19f2ed-bc7c-4d18-9879-99cb8aa2cd55
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ When the **AEM view** is open the Analytics variables appear in the content find
 
 You can map the same **Analytics variable** with multiple CQ variables. You can also map multiple Analytics variables with the same **CQ variable**.
 
-![](assets/chlimage_1-192.png)
+![](assets/chlimage_1-183.png)
 
 The mapped data is sent to Adobe Analytics when the page loads and the following conditions are met:
 

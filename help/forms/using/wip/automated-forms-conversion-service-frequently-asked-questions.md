@@ -3,8 +3,8 @@ title: "Automated Forms Conversion service: frequently asked questions"
 seo-title: "Automated Forms Conversion service: frequently asked questions"
 description: null
 seo-description: null
-uuid: d75c2d98-5455-46e8-9e46-a956d0682fbc
-discoiquuid: 4ce66462-9c9f-40e6-a2e6-481f2262f9a2
+uuid: 4d812257-9f71-4f7d-9ab0-9ba44521bf73
+discoiquuid: 3a2bbc09-dfe4-434e-af8c-01497cc0a916
 index: y
 internal: n
 snippet: y

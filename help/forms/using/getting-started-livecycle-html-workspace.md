@@ -3,12 +3,12 @@ title: Getting started with AEM Forms workspace
 seo-title: Getting started with AEM Forms workspace
 description: How to get started with using the LiveCycle AEM Forms workspace to manage your business automation processes.
 seo-description: How to get started with using the LiveCycle AEM Forms workspace to manage your business automation processes.
-uuid: 72edb8a9-aea9-42a0-99bc-d5a5a77bcda9
+uuid: c31325cb-c470-44a0-a753-96f976ad349e
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: eb7168b6-2f00-45db-9053-ce1c05edc653
+discoiquuid: 1bda4660-752d-45ad-8273-06c4d9ca4bec
 index: y
 internal: n
 snippet: y

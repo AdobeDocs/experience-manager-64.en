@@ -3,12 +3,12 @@ title: Best Practices for Assets
 seo-title: Best Practices for Assets
 description: Depending upon your AEM Assets deployment and features that you use for asset ingestion, rendition generation, and metadata extraction, identifying and adhering to best practices in different areas greatly enhances system stability and performance under load.
 seo-description: Depending upon your AEM Assets deployment and features that you use for asset ingestion, rendition generation, and metadata extraction, identifying and adhering to best practices in different areas greatly enhances system stability and performance under load.
-uuid: 275f783c-5e7c-44b7-a62a-08006aa82e02
+uuid: 36dcac4f-c1e2-4970-b12a-b41cfd0ded1d
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 35ce6ef2-a789-46c7-9305-668818d66814
+discoiquuid: d1af354e-8be3-43aa-b0f1-4ba970d49edb
 index: y
 internal: n
 snippet: y

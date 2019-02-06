@@ -3,12 +3,12 @@ title: User Synchronization
 seo-title: User Synchronization
 description: Learn about user synchronization in AEM.
 seo-description: Learn about user synchronization in AEM.
-uuid: 0ebe684a-9845-4e9e-9b6d-374c75242cc2
+uuid: a6375431-5bfd-4aa4-8ddb-93c9ad457b98
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 1a0d53b1-282f-466e-8bc0-9174b95a685b
+discoiquuid: 6829903d-1f28-4d84-ae32-8357465e0d63
 index: y
 internal: n
 snippet: y
@@ -51,18 +51,6 @@ The benefits of user sync using Sling distribution, compared to traditional repl
 >Therefore, when the deployment is a publish farm, if a user is added to or removed from the ***administrators** *group, the modification must be manually made on each publish instance.
 
 ## Enable User Sync {#enable-user-sync}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-D9FB647253FD17BE0A4C98A6@AdobeID)
-Last Modified Date: 2018-01-12T05:19:07.315-0500
-<p> <strong> ************ IMPORTANT - PLEASE READ **************</strong></p>
-<p>All titles in this section are referenced from diagnostic code by GoURLs.</p>
-<p><strong> navigate to : Tools, Operations, Diagnosis, User Sync Diagnostics</strong></p>
-<p>If titles are altered, it may affect links to documentation embedded in code.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOC-6923">DOC-6923 Health Checker for user sync</a></p>
-<p><a href="https://wiki.corp.adobe.com/display/aemdoc/AEM+GoURLs">AEM GoURLs wiki</a> : look for URLs prefixed with <i>aem6_2_docs_usersync_enable</i></p>
--->
 
 >[!NOTE]
 >
@@ -108,7 +96,7 @@ Once user sync is enabled, only newly created users and groups are syncrhonized.
 
 ** **
 
-![](assets/chlimage_1-152.png)
+![](assets/chlimage_1-143.png)
 
 ### 2. Create Authorized User {#createauthuser}
 
@@ -162,7 +150,7 @@ This authorized user will be used in step 3 to configure Sling distribution on a
 * select **Save All**
 *
 
-![](assets/chlimage_1-153.png)
+![](assets/chlimage_1-144.png)
 
 See also
 
@@ -190,7 +178,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 
         * for example, `usersync-admin`
 
-![](assets/chlimage_1-154.png)
+![](assets/chlimage_1-145.png)
 
 ### 4. Apache Sling Distribution Agent - Queue Agents Factory {#apache-sling-distribution-agent-queue-agents-factory}
 
@@ -213,7 +201,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 
     * **repeat **for each publish instance
 
-![](assets/chlimage_1-155.png)
+![](assets/chlimage_1-146.png)
 
 ### 5. Adobe Granite Distribution - Diff Observer Factory {#diffobserver}
 
@@ -234,7 +222,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
         * select the `Enabled` checkbox
         * select `Save`
 
-![](assets/chlimage_1-156.png)
+![](assets/chlimage_1-147.png)
 
 ### 6. Apache Sling Distribution Trigger - Scheduled Triggers Factory {#apache-sling-distribution-trigger-scheduled-triggers-factory}
 
@@ -258,21 +246,9 @@ By default, author will poll for changes every 30 seconds. To alter this interva
         * set the `Interval in Seconds` to the desired interval
         * select `Save`
 
-![](assets/chlimage_1-157.png)
+![](assets/chlimage_1-148.png)
 
 ## Configure for Multiple Publish Instances {#configure-for-multiple-publish-instances}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-D9FB647253FD17BE0A4C98A6@AdobeID)
-Last Modified Date: 2018-01-12T05:19:08.155-0500
-<p> <strong> ************ IMPORTANT - PLEASE READ **************</strong></p>
-<p>All titles in this section are referenced from diagnostic code by GoURLs.</p>
-<p><strong> navigate to : Tools, Operations, Diagnosis, User Sync Diagnostics</strong></p>
-<p>If titles are altered, it may affect links to documentation embedded in code.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOC-6923">DOC-6923 Health Checker for user sync</a></p>
-<p><a href="https://wiki.corp.adobe.com/display/aemdoc/AEM+GoURLs">AEM GoURLs wiki</a> : look for URLs prefixed with <i>aem6_2_docs_usersync_multpub</i></p>
--->
 
 The default configuration is for a single publish instance. As the reason for enabling user sync is to synchronize multiple publish instances, such as for a publish farm, the additional publish instances will need to be added to the Sync Agents Factory.
 
@@ -292,7 +268,7 @@ The default configuration is for a single publish instance. As the reason for en
         * select the existing configuration to open for edit (pencil icon)  
           Verify `Name` : `socialpubsync`
 
-![](assets/chlimage_1-158.png)
+![](assets/chlimage_1-149.png)
 
 * **Exporter Endpoints** 
   There should be an exporter endpoint for each publisher. For example, if there are 2 publishers, localhost:4503 and 4504, there should be 2 entries:
@@ -325,7 +301,7 @@ If there is custom data that is desired to be synchronized across multiple publi
     * select the existing configuration to open for edit (pencil icon)  
       Verify `Name` : `socialpubsync-scheduled-trigger`
 
-![](assets/chlimage_1-159.png)
+![](assets/chlimage_1-150.png)
 
 * **Node Types** 
   This is the list of node types that will synchronize. Any node type other than sling:Folder needs to be listed here (sling:folder is handled separately).  
@@ -369,7 +345,7 @@ To validate that all Sling ID values differ, on each publish instance :
 1. browse to [http://*host:port*/system/console/status-slingsettings](http://localhost:4503/system/console/status-slingsettings)
 1. check the value of **Sling ID**
 
-![](assets/chlimage_1-160.png)
+![](assets/chlimage_1-151.png)
 
 If the Sling ID of a publish instance matches the Sling ID of any other publish instance, then :
 
@@ -421,7 +397,7 @@ In order for updates to sync properly, it is necessary to modify the vault packa
 
         * `Acl Handling :` `IGNORE`
 
-![](assets/chlimage_1-161.png)
+![](assets/chlimage_1-152.png)
 
 ## What Happens When ... {#what-happens-when}
 
@@ -482,7 +458,7 @@ Simply entering the User Sync Diagnostics console will display the results.
 
 This is what is displayed when User Synchronization has not been enabled :
 
-![](assets/chlimage_1-162.png)
+![](assets/chlimage_1-153.png)
 
 #### How To Run Diagnostics for Publishers {#how-to-run-diagnostics-for-publishers}
 
@@ -492,7 +468,7 @@ Included in the list is an URL for each publish instance that will run the diagn
 
 **Note** : before launching the URL, the *authorized sync user* must already be signed into that publish instance.
 
-![](assets/chlimage_1-163.png)
+![](assets/chlimage_1-154.png)
 
 ### Configuration Improperly Added {#configuration-improperly-added}
 
@@ -502,23 +478,23 @@ Following are views of how the edited, default configurations should appear in t
 
 #### (author) One Apache Sling Distribution Agent - Sync Agents Factory {#author-one-apache-sling-distribution-agent-sync-agents-factory}
 
-![](assets/chlimage_1-164.png)
+![](assets/chlimage_1-155.png)
 
 #### (author) One Adobe Granite Distribution - Encrypted Password Transport Secret Provider {#author-one-adobe-granite-distribution-encrypted-password-transport-secret-provider}
 
-![](assets/chlimage_1-165.png)
+![](assets/chlimage_1-156.png)
 
 #### (publish) One Apache Sling Distribution Agent - Queue Agents Factory {#publish-one-apache-sling-distribution-agent-queue-agents-factory}
 
-![](assets/chlimage_1-166.png)
+![](assets/chlimage_1-157.png)
 
 #### (publish) One Adobe Granite Distribution - Diff Observer Factory {#publish-one-adobe-granite-distribution-diff-observer-factory}
 
-![](assets/chlimage_1-167.png)
+![](assets/chlimage_1-158.png)
 
 #### (author) One Apache Sling Distribution Trigger - Scheduled Triggers Factory {#author-one-apache-sling-distribution-trigger-scheduled-triggers-factory}
 
-![](assets/chlimage_1-168.png)
+![](assets/chlimage_1-159.png)
 
 ### Modify Operation Exception During Response Processing {#modify-operation-exception-during-response-processing}
 

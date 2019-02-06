@@ -3,12 +3,12 @@ title: Carousel Banners
 seo-title: Carousel Banners
 description: Learn how to work with carousel banners in dynamic media
 seo-description: Learn how to work with carousel banners in dynamic media
-uuid: 9da1694c-53d2-4600-92fa-156ff2d0f3b8
+uuid: 9b23828a-4537-401a-96d6-0ec28de99493
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 41119cb6-2a7f-4f63-99fb-c409b46d8979
+discoiquuid: 61204f77-4d87-477a-96e1-c9022329ec13
 index: y
 internal: n
 snippet: y
@@ -22,17 +22,17 @@ Creating and modifying content featured in promotional banners can be time-consu
 
 Carousel Banners are designated by a banner with the word **CAROUSELSET**:
 
-![](assets/chlimage_1-451.png)
+![](assets/chlimage_1-442.png)
 
 On your website, a carousel banner can look as follows:
 
-![](assets/chlimage_1-452.png)
+![](assets/chlimage_1-443.png)
 
 Here you can navigate through the images (by clicking on the numbers). In addition, the slides automatically rotate based on a time interval you can customize. Images that you add in the carousel banner support both hotspots and image maps, where users can either tap or to go to a hyperlink or access a quick view window.
 
 In this example, a user has tapped or clicked an image map and accessed the quick view window for gloves:
 
-![](assets/chlimage_1-453.png) 
+![](assets/chlimage_1-444.png) 
 
 ### Watch how carousel banners are created {#watch-how-carousel-banners-are-created}
 
@@ -175,42 +175,11 @@ Consider the following examples of quick view URLs and their resulting hotspot o
  </tbody> 
 </table>
 
-<!--
-Comment Type: draft
-
-<p><strong><u>Example</u></strong></p>
-<p>You can apply the same approach used in the three examples above to the demo web page:</p>
-<p><a href="https://marketing.adobe.com/resources/help/en_US/aod/shop-banner/landing-0.html">https://marketing.adobe.com/resources/help/en_US/aod/shop-banner/landing-0.html</a></p>
-<p>The demo web page has several product thumbnails, each having a quick view button labeled “See More”. With your web browser's debugging tool still activated, click each button and note the recorded quick view URLs. After you activate all four product quick views available on the page, you have the following list of quick view requests made to the backend:</p>
-<ul>
-<li><span class="code">/datafeed/Men-Windbreaker.json</span></li>
-<li><span class="code">/datafeed/Men-SimpleHenley.json</span></li>
-<li><span class="code">/datafeed/Men-CamoPullover.json</span></li>
-<li><span class="code">/datafeed/Women-QuiltedDownJacket.json</span></li>
-</ul>
-<p>Looking at these server calls, you see that product-specific information is only present in the request path. You also notice that the query string is not used at all and there are two distinct types of data pieces involved:</p>
-<ul>
-<li>The first type is Men or Women. You can call this "product category".</li>
-<li>The second type is product name, such as CamoPullover. You can assume this is the product SKU.</li>
-</ul>
-<p>Given this information, the entire quick view URL has the following pattern:</p>
-<p><span class="code">/datafeed/$categoryId$-$SKU$.json</span></p>
-<p>Based on such analysis, you would use <span class="code">categoryId</span> and <span class="code">SKU</span> for hotspots.</p>
--->
-
 ## Uploading Image Banners {#uploading-image-banners}
 
 If you have already uploaded the images that you want to use, advance to the next step, [Creating Carousel Sets](#creatingcarouselsets). Please note the images used in the carousel must be uploaded after Dynamic Media has been enabled.
 
 To upload image banners, see [Uploading assets](../../assets/using/managing-assets-touch-ui.md).
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Upload image banners that you want to make interactive.<br /> </p> <p>See <a href="../../assets/using/managing-assets-touch-ui.md">Uploading assets</a>.<br /> </p> <p>You are now ready to create a carousel set; see the next task below.</p> </li>
-</ol>
--->
 
 ## Creating Carousel Sets {#creating-carousel-sets}
 
@@ -435,22 +404,6 @@ You need to publish the carousel in order to use it. Publishing a Carousel Set a
 
 See [Publishing Dynamic Media Assets](../../assets/using/publishing-dynamicmedia-assets.md) for info on how to publish carousel banners.
 
-<!--
-Comment Type: draft
-
-<p>To publish carousel banners:</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>In AEM, tap or click the AEM logo and tap or click <strong>Assets</strong>. </p> </li>
-<li><p>Navigate to the Carousel Set and select the set by hovering over the thumbnail and tapping or clicking the check mark.</p> </li>
-<li><p>Tap or click <strong>Publish</strong> in the toolbar.</p> </li>
-</ol>
--->
-
 ## Adding a Carousel Banner to Your Website Page {#adding-a-carousel-banner-to-your-website-page}
 
 After you have uploaded banner images to create a carousel, added hotspots and/or image maps to the banner, and published the carousel set, you are now ready to add it to your existing website page.
@@ -466,46 +419,6 @@ However, if you are a stand-alone AEM assets customer you can manually add the c
 
 1. Add the embed code that you copied from AEM Assets to your webpage.  
    The copied embed code is responsive so it should automatically fit the embedding area of the page.
-
-<!--
-Comment Type: draft
-
-<p><strong><u>Example</u></strong></p>
-<p>Using the demo website as an example:</p>
-<p><a href="https://marketing.adobe.com/resources/help/en_US/aod/shop-banner/landing-0.html">https://marketing.adobe.com/resources/help/en_US/aod/shop-banner/landing-0.html</a></p>
-<p>Notice that the picture of the three men is a static IMG tag:</p>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock gutter="true" class="syntax xml">
-<img&nbsp;class="img-responsive"&nbsp;width="100%"&nbsp;title="Hero&nbsp;Image&nbsp;2"&nbsp;alt="Hero&nbsp;Image&nbsp;2"&nbsp;src="images/shoppable-banner.jpg">
-</codeblock>
--->
-
-<!--
-Comment Type: draft
-
-<p>Integration is as simple as removing the <span class="code">IMG</span> tag and replacing it with the copied embed code from AEM Assets. You can see the result in the following URL which shows the shoppable interactive image on the page with three circle hotspots:</p>
-<p><a href="https://marketing.adobe.com/resources/help/en_US/aod/shop-banner/landing-1.html">https://marketing.adobe.com/resources/help/en_US/aod/shop-banner/landing-1.html</a></p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>As this point, the hotspots on the shoppable interactive image of the demo website are for display purposes only; they are not yet integrated with the existing quick views.</p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<p>To apply a "crop" to a shoppable interactive image for a responsive environment, you can include the Interactive Image configuration attribute <span class="code">ZoomView.iscommand</span> to the path--where <span class="code">ZoomView</span> is the component to call and <span class="code">iscommand</span> is the "crop" image serving command that you apply.</p>
-<p>See <a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_interactive_image_config_attrib_zoomview_iscommand.html">ZoomView.iscommand</a> configuration attribute.</p>
-<p>See <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_crop.html">crop</a> image serving command.</p>
--->
 
 ## Integrating the Carousel Banner with an Existing Quickview {#integrating-the-carousel-banner-with-an-existing-quickview}
 
@@ -535,122 +448,13 @@ In such an event handler, the front-end code does the following:
 
 The embed code returned by AEM Assets already has a ready-to-use event handler in place that is commented out.
 
-<!--
-Comment Type: draft
-
-<p>, as seen in the following highlighted code snippet:</p>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock gutter="true" class="syntax xml">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;s7interactiveimageviewer&nbsp;=&nbsp;new&nbsp;s7viewers.InteractiveImage({!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"containerId"&nbsp;:&nbsp;"s7interactiveimage_div",!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"params"&nbsp;:&nbsp;{&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"serverurl"&nbsp;:&nbsp;"https://aodmarketingna.assetsadobe.com/is/image",!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"contenturl"&nbsp;:&nbsp;"https://aodmarketingna.assetsadobe.com/",&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"config"&nbsp;:&nbsp;"/etc/dam/presets/viewer/Shoppable_Media",!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"asset"&nbsp;:&nbsp;"/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.jpg"&nbsp;}!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/*&nbsp;//&nbsp;Example&nbsp;of&nbsp;interactive&nbsp;image&nbsp;event&nbsp;for&nbsp;quick&nbsp;view.!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s7interactiveimageviewer.setHandlers({&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"quickViewActivate":&nbsp;function(inData)&nbsp;{!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;sku=inData.sku;&nbsp;//SKU&nbsp;for&nbsp;product&nbsp;ID!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//To&nbsp;pass&nbsp;other&nbsp;parameter&nbsp;from&nbsp;the&nbsp;hotspot,&nbsp;you&nbsp;will&nbsp;need&nbsp;to&nbsp;add&nbsp;custom&nbsp;parameter&nbsp;during&nbsp;the&nbsp;hotspot&nbsp;setup&nbsp;as&nbsp;parameterName=value!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;loadQuickView(sku);&nbsp;//Replace&nbsp;this&nbsp;call&nbsp;with&nbsp;your&nbsp;quickview&nbsp;plugin!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//Please&nbsp;refer&nbsp;to&nbsp;your&nbsp;quickviewer&nbsp;plugin&nbsp;for&nbsp;the&nbsp;quickview&nbsp;call!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*/!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;s7interactiveimageviewer.init();
-</codeblock>
--->
-
 So, it is only necessary to uncomment the code and replace the dummy handler body with the code that is specific to the particular web page.
 
 The process of constructing the quick view URL is basically opposite of the process used for identifying hotspot and image map variables covered earlier.
 
 See [Identifying hotspot and image map variables](#identifyinghotspotandimagemapvariables).
 
-<!--
-Comment Type: draft
-
-<p>Using our previous quick view URL examples, you can see, in the following examples, how the quick view URL is constructed in each case:</p>
--->
-
-<!--
-Comment Type: draft
-
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td valign="top" width="17.035775127768314%"><p>Single SKU, found in the query string</p> </td>
-<td valign="top" width="82.96422487223168%"><code class="code">s7interactiveimageviewer.setHandlers({
-<discoiqbr /> "quickViewActivate": function(inData) {
-<discoiqbr /> var quickViewUrl = "http://server/json?productId=" + inData.sku + "&amp;source=100";
-<discoiqbr /> },
-<discoiqbr /> });</code></td>
-</tr>
-<tr>
-<td valign="top" width="17.035775127768314%"><p>Single SKU, found in the URL path</p> </td>
-<td valign="top" width="82.96422487223168%"><code class="code">s7interactiveimageviewer.setHandlers({
-<discoiqbr /> "quickViewActivate": function(inData) {
-<discoiqbr /> var quickViewUrl = "http://server/product/" + inData.sku;
-<discoiqbr /> },
-<discoiqbr /> });</code></td>
-</tr>
-<tr>
-<td valign="top" width="17.035775127768314%"><p>SKU and category ID in the query string</p> </td>
-<td valign="top" width="82.96422487223168%"><code class="code">s7interactiveimageviewer.setHandlers({
-<discoiqbr /> "quickViewActivate": function(inData) {
-<discoiqbr /> var quickViewUrl = "http://server/quickView/product/?category=" + inData.categoryId + "&amp;prodId=" + inData.sku;
-<discoiqbr /> },
-<discoiqbr /> });</code></td>
-</tr>
-</tbody>
-</table>
--->
-
 The last step to trigger the quick view URL and activate the quick view panel most likely requires the assistance of a front-end IT person from your IT department. They have the knowledge to know best how to accurately trigger the quick view implementation from the proper step, having a ready-to-use quick view URL.
-
-<!--
-Comment Type: draft
-
-<p>You can see how these steps are applied to the demo website to fully integrate a shoppable interactive image with the quick view code. Earlier, the structure of the quick view URL was identified as the following:</p>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock class="syntax xml">
-/datafeed/$categoryId$-$SKU$.json
-</codeblock>
--->
-
-<!--
-Comment Type: draft
-
-<p>To reconstruct this URL inside the <span class="code">quickViewActivate</span> handler, you can use the <span class="code">categoryId</span> and <span class="code">SKU</span> fields available in the <span class="code">inData</span> object that is passed to the handler by the viewer's code:</p>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock gutter="true" class="syntax xml">
-var&nbsp;sku=inData.sku;!!discoiqbr!!var&nbsp;categoryId=inData.categoryId;!!discoiqbr!!var&nbsp;quickViewUrl&nbsp;=&nbsp;"datafeed/"&nbsp;+&nbsp;categoryId&nbsp;+&nbsp;"-"&nbsp;+&nbsp;sku&nbsp;+&nbsp;".json";
-</codeblock>
--->
-
-<!--
-Comment Type: draft
-
-<p>The demo website is triggering the quick view dialog box using a simple <span class="code">loadQuickView()</span> function call. This function takes only one argument, which is the quick view data URL. As such, the last step needed to integrate the shoppable interactive image is to add the following line of code to the <span class="code">quickViewActivate</span> handler:</p>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock gutter="true" class="syntax xml">
-loadQuickView(quickViewUrl);
-</codeblock>
--->
-
-<!--
-Comment Type: draft
-
-<p>The following is the complete source code:</p>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock gutter="true" class="syntax xml">
-&nbsp;var&nbsp;s7interactiveimageviewer&nbsp;=&nbsp;new&nbsp;s7viewers.InteractiveImage({!!discoiqbr!!&nbsp;&nbsp;"containerId"&nbsp;:&nbsp;"s7interactiveimage_div",!!discoiqbr!!&nbsp;&nbsp;"params"&nbsp;:&nbsp;{&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;"serverurl"&nbsp;:&nbsp;"https://aodmarketingna.assetsadobe.com/is/image",!!discoiqbr!!&nbsp;&nbsp;&nbsp;"contenturl"&nbsp;:&nbsp;"https://aodmarketingna.assetsadobe.com/",&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;"config"&nbsp;:&nbsp;"/etc/dam/presets/viewer/Shoppable_Media",!!discoiqbr!!&nbsp;&nbsp;&nbsp;"asset"&nbsp;:&nbsp;"/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.jpg"&nbsp;}!!discoiqbr!!&nbsp;})!!discoiqbr!!&nbsp;&nbsp;&nbsp;s7interactiveimageviewer.setHandlers({&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;"quickViewActivate":&nbsp;function(inData)&nbsp;{!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;sku=inData.sku;!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;categoryId=inData.categoryId;!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;quickViewUrl&nbsp;=&nbsp;"datafeed/"&nbsp;+&nbsp;categoryId&nbsp;+&nbsp;"-"&nbsp;+&nbsp;sku&nbsp;+&nbsp;".json";!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;loadQuickView(quickViewUrl);!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;},&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;});!!discoiqbr!!&nbsp;s7interactiveimageviewer.init();
-</codeblock>
--->
 
 ## Using Quickviews to create custom pop-ups {#using-quickviews-to-create-custom-pop-ups}
 

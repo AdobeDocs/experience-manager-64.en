@@ -3,12 +3,12 @@ title: Tagging Enablement Resources
 seo-title: Tagging Enablement Resources
 description: Tagging of enablement resources allows for filtering of resources and learning paths as members browse catalogs
 seo-description: Tagging of enablement resources allows for filtering of resources and learning paths as members browse catalogs
-uuid: 774ed75b-4e29-459b-bb46-4591d44e3ad4
+uuid: a71c564c-9071-4094-94f2-7a8e6e93c2bd
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 8f93515e-04c1-4257-9104-1ac8a03ddfe1
+discoiquuid: 4c4bc0b7-6713-428f-b802-8c025a3802f2
 index: y
 internal: n
 snippet: y
@@ -59,7 +59,7 @@ For a community site, after the site is published and the tags are published, it
 
 The following is how it appears in CRXDE when an administrator applies read permissions to `/etc/tags/ski-catalog` for the group `Community Enable Members`.
 
-![](assets/chlimage_1-432.png)
+![](assets/chlimage_1-419.png)
 
 ## Catalog Tag Namespaces {#catalog-tag-namespaces}
 
@@ -67,7 +67,7 @@ The catalog feature uses tags to define itself. When configuring the catalog fun
 
 The Catalog function includes a tag setting which defines the tags listed in the filter UI for the catalog. The setting "All Namespaces" refers to the scope of tag namespaces selected for the community site.
 
-![](assets/chlimage_1-433.png)
+![](assets/chlimage_1-420.png)
 
 ## Applying Tags to Enablement Resources {#applying-tags-to-enablement-resources}
 
@@ -89,7 +89,7 @@ Thus, any enablement resource tagged with one of :
 
 will appear in `Ski Catalog` after the enablement resource has been published.
 
-![](assets/chlimage_1-434.png)
+![](assets/chlimage_1-421.png)
 
 ## Viewing Catalog on Publish {#viewing-catalog-on-publish}
 
@@ -101,5 +101,5 @@ If tag namespaces were added and are missing, ensure the tags and the site were 
 
 If no enablement resources appear after selecting a tag when viewing the catalog, ensure there is a tag from the catalog's namespace(s) applied to the enablement resource.
 
-![](assets/chlimage_1-435.png)
+![](assets/chlimage_1-422.png)
 

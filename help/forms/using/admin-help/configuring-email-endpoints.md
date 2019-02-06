@@ -3,12 +3,12 @@ title: Configuring email endpoints
 seo-title: Configuring email endpoints
 description: Learn how to configure email endpoints.
 seo-description: Learn how to configure email endpoints.
-uuid: 95316eda-1a36-459a-8ddc-d12a13f5c94f
+uuid: 8de170be-67da-4649-8e6b-da125047950e
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: b0881de5-2bf6-4194-8c7b-688b07a62f50
+discoiquuid: 76507d13-9e0e-4a53-a5f0-3be0ba722967
 index: y
 internal: n
 snippet: y

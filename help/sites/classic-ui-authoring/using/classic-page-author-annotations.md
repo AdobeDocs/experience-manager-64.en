@@ -4,12 +4,12 @@ seo-title: Annotations when Editing a Page
 description: Adding content to the pages of your website is often subject to discussions prior to it actually being published. To aid this, many components directly related to content allow you to add an annotation.
 seo-description: Adding content to the pages of your website is often subject to discussions prior to it actually being published. To aid this, many components directly related to content allow you to add an annotation.
 page-status-flag: de-activated
-uuid: 3f8d91ba-4190-4a2d-bfb0-c21853608abc
+uuid: d6bf32ba-2e8f-4c63-ad5b-c79507135713
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 2db664b0-652b-4edf-aa62-7f88168ba375
+discoiquuid: 934d6d90-7802-4c4f-9d9a-7c4dc6595163
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ Depending on the paragraph design, annotation is either available as an option o
 
 In either case select **Annotate**. A colored sticky-note annotation will be applied to the paragraph, you are immediately in Edit mode, allowing you to add text directly:
 
-![](assets/chlimage_1-154.png)
+![](assets/chlimage_1-148.png)
 
 You can move the annotation to a new position on the page. Click on the top border area, then hold and simultaneously drag the annotation to the new position. This can be anywhere on the page, though it is usually meaningful to keep it connected to the paragraph in some way.
 
@@ -75,7 +75,7 @@ The three icons at top left allow you to minimize the annotation (together with 
 
 Sketches are a feature of annotations that allow you to create simple line graphics anywhere on the browser window (visible portion):
 
-![](assets/chlimage_1-155.png)
+![](assets/chlimage_1-149.png)
 
 * The cursor will change to a crosswire when you are in sketch mode. You can draw multiple distinct lines.  
 * The sketch line reflects the annotation color and can be either:

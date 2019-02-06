@@ -3,12 +3,12 @@ title: Community Site Essentials
 seo-title: Community Site Essentials
 description: Exporting and deleting community sites and creating custom site templates
 seo-description: Exporting and deleting community sites and creating custom site templates
-uuid: 4caf5f58-de45-46f4-a12b-c25a2a6ab608
+uuid: f0d4824c-cea3-4cdf-b313-a817c8bc9190
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 2fb91037-dda7-4343-8671-da0ccbbeefe4
+discoiquuid: d65ae744-91fb-46b2-bdc1-d2c11042ca40
 index: y
 internal: n
 snippet: y
@@ -66,7 +66,7 @@ Identify the custom template by adding a `page-template` property to the configu
 
 /content/sites/sample/en/configuration
 
-![](assets/chlimage_1-86.png)
+![](assets/chlimage_1-79.png)
 
 Be sure to** Save All** and replicate custom code to all AEM instances (custom code is not included when the community site content is published from the console).
 
@@ -133,25 +133,6 @@ On all author and publish instances, from the [security console](../../sites/adm
 * followed by [unique site id](#communityuniquesiteid)
 
 For example, `community-engage-x0e11-members`.
-
-<!--
-Comment Type: draft
-
-<h3>Community Web Site</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>From the main console :</p>
-<ul>
-<li>select <strong>Sites</strong></li>
-<li>select <strong>Community Sites</strong> folder</li>
-<li>enter <strong>Select </strong>mode</li>
-<li>select Community Site to delete</li>
-<li>select <strong>Delete</strong> (may need to select from <strong>More...</strong>)</li>
-</ul>
--->
 
 ### Enablement Assets {#enablement-assets}
 

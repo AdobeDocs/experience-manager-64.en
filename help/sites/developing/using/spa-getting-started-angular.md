@@ -3,11 +3,11 @@ title: Getting Started with SPAs in AEM - Angular
 seo-title: Getting Started with SPAs in AEM - Angular
 description: This article presents a sample SPA application, explains how it is put together, and allows you to get up-and-running with your own SPA quickly using the Angular framework.
 seo-description: This article presents a sample SPA application, explains how it is put together, and allows you to get up-and-running with your own SPA quickly using the Angular framework.
-uuid: 7556e4af-26c3-46b9-abeb-4fefced5c5ff
+uuid: eaecb963-33fc-47de-8162-70179144d6e4
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: e4f49fb3-f2e7-4420-9dcd-0ddacd5a86bc
+discoiquuid: 476860f8-28f0-4f54-bf65-9aa5998e7a5e
 index: y
 internal: n
 snippet: y

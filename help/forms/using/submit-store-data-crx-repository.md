@@ -4,23 +4,16 @@ seo-title: DO NOT PUBLISH - Submitting and storing content in JCR repository
 description: You can configure store content path for your Adaptive Forms to configure to store form data in JCR repository on form submission. 
 seo-description: You can configure store content path for your Adaptive Forms to configure to store form data in JCR repository on form submission. 
 page-status-flag: de-activated
-uuid: 6c3dd01a-d25c-4847-a153-520df166f4f1
+uuid: 391d27fc-0fa4-4a0e-9053-592a6656da6a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 785d7de1-bf77-4887-867a-ab44804177f6
+discoiquuid: e17ced0f-cf33-4813-93f9-5fb93f1ebf07
 index: y
 internal: n
 snippet: y
 ---
 
 # DO NOT PUBLISH - Submitting and storing content in JCR repository{#do-not-publish-submitting-and-storing-content-in-jcr-repository}
-
-<!--
-Comment Type: remark
-Last Modified By: Vishal. Gupta (vishgupt)
-Last Modified Date: 2017-11-30T06:08:24.560-0500
-<p>Unpulished this article as we do not recommend storing forms data in JCR repo.</p>
--->
 
 Adaptive forms provides several out-of-the-box submit actions for submitting form data to different endpoints or workflows. This article discusses how you can use the Store content (deprecated) submit action to store form data in JCR repository. Also, it discusses how Store PDF (deprecated) submit action works.
 
@@ -64,17 +57,3 @@ Consider the following when configuring the store content path:
 ## Store PDF (deprecated) submit action {#store-pdf-deprecated-submit-action}
 
 The Store PDF (deprecated) submit action is available as part of the AEM Forms add-on package and applies only to XFA-based adaptive forms. In addition to storing the data on the node, the Store PDF (deprecated) submit action merges the form data with the XDP to generate and store a PDF at the configured store content path. If the form is configured to use Adobe Document Cloud eSign services for signing the PDF, the signed PDF is stored in the configured node as a child node.
-
-<!--
-Comment Type: draft
-
-<related-links>
-<a href="../../forms/using/custom-submit-action-form.md" target="_blank">Submitting and storing content in a custom data store</a>
-<a href="../../forms/using/form-submission-receipt-via-email.md" target="_blank">Sending a form submission acknowledgement via email</a>
-<a href="../../forms/using/submit-form-data-livecycle-process.md" target="_blank">Submitting and processing your form data using forms workflows</a>
-<a href="/forms/using/aem-workflows-submit-process-form" target="_blank">Submitting and processing form data using AEM workflows</a>
-<a href="../../forms/using/aem-document-services-programmatically.md" target="_blank">Using AEM Document Services programmatically</a>
-<a href="/forms/using/aem-workflows-using-document-services" target="_blank">Creating AEM workflows that use AEM Document Services</a>
-</related-links>
--->
-

@@ -3,12 +3,12 @@ title: Extending the Multi Site Manager
 seo-title: Extending the Multi Site Manager
 description: This page helps you extend the functionalities of the Multi Site Manager
 seo-description: This page helps you extend the functionalities of the Multi Site Manager
-uuid: d8de5156-2fd2-478d-9a55-8129272a5b02
+uuid: 1b1060f3-f409-4177-8207-83b828058294
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: b33e6546-3455-4ff9-b587-d7bdeb6a262a
+discoiquuid: 4e676f16-e6c9-4d32-ae98-0ea2916189f9
 index: y
 internal: n
 snippet: y
@@ -40,12 +40,12 @@ Multi Site Management consists of the following packages:
 
 The main MSM API objects interact as follows (see also [Terms Used](../../../sites/administering/using/msm.md#termsused)):
 
-![](assets/chlimage_1-45.png)
+![](assets/chlimage_1-44.png)
 
 * **`Blueprint`** 
   A `Blueprint` (as in [blueprint configuration](../../../sites/administering/using/msm.md#sourceblueprintsandblueprintconfigurations)) specifies the pages from which a live copy can inherit content. 
 
-  ![](assets/chlimage_1-46.png)
+  ![](assets/chlimage_1-45.png)
 
     * The use of a blueprint configuration ( `Blueprint`) is optional, but:
 
@@ -54,16 +54,7 @@ The main MSM API objects interact as follows (see also [Terms Used](../../../sit
         * Defines the default rollout configuration for any resultant live copies.
 
 * 
-  **`LiveRelationship`** 
-
-  <!--
-  Comment Type: remark
-  Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-  Last Modified Date: 2017-12-04T12:01:53.977-0500
-  <p>check - has changed from Geometrixx to We.Retail</p>
-  -->
-
-  The `LiveRelationship` specifies the connection (relationship) between a resource in the live copy branch and its equivalent source/blueprint resource.
+  **`LiveRelationship`** The `LiveRelationship` specifies the connection (relationship) between a resource in the live copy branch and its equivalent source/blueprint resource.
 
     * The relationships are used when realizing inheritance and rollout.
     * `LiveRelationship` objects provide access (references) to the rollout configurations ( `RolloutConfig`), `LiveCopy`, and `LiveStatus` objects related to the relationship. 
@@ -117,30 +108,6 @@ The `LiveActionFactory` creates instances of the `LiveAction` class for a given 
     * `createAction`: Creates an instance of the `LiveAction`. The optional `Resource` parameter can be used to provide configuration information.
     
     * `createsAction`: Returns the name of the associated `LiveAction`.
-
-<!--
-Comment Type: draft
-
-<p>Create custom synchronization actions to use with your rollout configurations. Create a synchronization action when the <a href="../../../sites/administering/using/msm-sync.md#installedsynchronizationactions">installed actions</a> do not meet your specific application requirements. To do so, create two classes:</p>
-<ul>
-<li>An implementation of the <a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveAction"><span class="code">com.day.cq.wcm.msm.api.LiveAction</span></a> interface that performs the action. </li>
-<li>An OSGI component that implements the <a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveActionFactory"><span class="code">com.day.cq.wcm.msm.api.LiveActionFactory</span></a> interface and creates instances of your <span class="code">LiveAction</span> class.</li>
-</ul>
-<p>The <span class="code">LiveAction</span> class is not registered as an OSGi service. Typically, the <span class="code">LiveAction</span> class is used only by one <span class="code">LiveActionFactory</span> so it is convenient to define the <span class="code">LiveAction</span> class as a static nested class of the <span class="code">LiveActionFactory</span> class.</p>
-<ul>
-<li><span class="code">LiveAction</span> classes include the following methods:
-<ul>
-<li><span class="code">getName</span>: Returns the name of the action The name is used to refer to the action, for example in rollout configurations.</li>
-<li><span class="code">execute</span>: Performs the tasks of the action.</li>
-</ul> </li>
-<li><span class="code">LiveActionFactory</span> classes include the following members:
-<ul>
-<li><span class="code">LIVE_ACTION_NAME</span>: A field that contains the name of the associated <span class="code">LiveAction</span>. This name must coincide with the value that is returned by the <span class="code">getName</span> method of the <span class="code">LiveAction</span> class.</li>
-<li><span class="code">createAction</span>: Creates an instance of the <span class="code">LiveAction</span>. The optional <span class="code">Resource</span> parameter can be used to provide configuration information.</li>
-<li><span class="code">createsAction</span>: Returns the name of the associated <span class="code">LiveAction</span>.</li>
-</ul> </li>
-</ul>
--->
 
 #### Accessing the LiveAction Configuration Node {#accessing-the-liveaction-configuration-node}
 
@@ -585,7 +552,7 @@ Configure the rollout configuration that you created in the previous procedure s
     
     * **Type**: `cq:LiveSyncAction`
 
-   ![](assets/chlimage_1-47.png)
+   ![](assets/chlimage_1-46.png)
 
 1. Click **Save All**.
 1. Select the `exampleLiveAction` node and add the following property:
@@ -602,13 +569,6 @@ Configure the rollout configuration that you created in the previous procedure s
 
 #### Create the Live Copy {#create-the-live-copy}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-12-04T12:01:58.557-0500
-<p>check - has changed from Geometrixx to We.Retail</p>
--->
-
 [Create a live copy](../../../sites/administering/using/msm-livecopy.md#creatingalivecopyofapage) of the English/Products branch of the We.Retail Reference Site using your rollout configuration:
 
 * **Source**: `/content/we-retail/language-masters/en/products`
@@ -623,13 +583,6 @@ Activate the **Products** (english) page of the source branch and observe the lo
 ```
 
 ### Removing the Chapters Step in the Create Site Wizard {#removing-the-chapters-step-in-the-create-site-wizard}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-12-04T12:01:58.667-0500
-<p>check - has changed from Geometrixx to We.Retail</p>
--->
 
 In some cases, the **Chapters** selection is not required in the create site wizard (only the **Languages** selection is required). To remove this step in the default We.Retail English blueprint:
 
@@ -669,7 +622,7 @@ The language list is stored below the `/libs/wcm/core/resources/languages` node.
 * The `country` property of the node stores the full name of the country for the code.
 * When the node name consists only of a language code (such as `en`), the country property is `*`, and an additional `defaultCountry` property stores the code of the language-country to indicate the country to use.
 
-![](assets/chlimage_1-48.png)
+![](assets/chlimage_1-47.png)
 
 To modify the languages:
 
@@ -680,7 +633,7 @@ To modify the languages:
 
 1. Repeat the previous step to create the `/apps/wcm/core` folder tree. Create a node of type `sling:Folder`** **in core called `resources`.
 
-   ![](assets/chlimage_1-49.png)
+   ![](assets/chlimage_1-48.png)
 
 1. Right-click the `/libs/wcm/core/resources/languages` node and click **Copy**.
 1. Right-click the `/apps/wcm/core/resources` folder and click **Paste**. Modify the child nodes as required.
@@ -688,7 +641,7 @@ To modify the languages:
 1. Click **Tools**, **Operations** then **Web Console**. From this console click **OSGi**, then **Configuration**.
 1. Locate and click **Day CQ WCM Language Manager**, and change the value of **Language List** to `/apps/wcm/core/resources/languages`, then click **Save**.
 
-   ![](assets/chlimage_1-50.png)
+   ![](assets/chlimage_1-49.png)
 
 ### Configuring MSM Locks on Page Properties (Touch-Enabled UI) {#configuring-msm-locks-on-page-properties-touch-enabled-ui}
 

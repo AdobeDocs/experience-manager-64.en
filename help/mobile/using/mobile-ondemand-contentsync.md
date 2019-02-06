@@ -3,12 +3,12 @@ title: Mobile with Content Sync
 seo-title: Mobile with Content Sync
 description: Follow this page to learn about Content Sync. Pages that are authored in AEM can be used as app content, even when the device is offline. Furthermore, because AEM pages are based on web standards, they work cross-platform enabling you to embed them in any native wrapper. This strategy reduces develoment effort and enables you to easily update app content.
 seo-description: Follow this page to learn about Content Sync. Pages that are authored in AEM can be used as app content, even when the device is offline. Furthermore, because AEM pages are based on web standards, they work cross-platform enabling you to embed them in any native wrapper. This strategy reduces develoment effort and enables you to easily update app content.
-uuid: 334224f0-e027-4ddf-b819-97ef945040d1
+uuid: e352da4d-e5d7-42ca-b393-997d6274cc8a
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
-discoiquuid: 66dd8fcb-0d16-4466-9d2f-4c6c1e854da6
+discoiquuid: 33a68e3f-813f-4c9b-b0f4-828b24bd00c2
 index: y
 internal: n
 snippet: y

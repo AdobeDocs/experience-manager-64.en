@@ -3,9 +3,9 @@ title: spa-react-editable-components
 seo-title: spa-react-editable-components
 description: null
 seo-description: null
-uuid: 31942ac1-8319-434f-aef6-b937ecba1134
+uuid: a5e3efff-c436-47ba-af27-c52b17e8dc3e
 contentOwner: carlino
-discoiquuid: 66a48e05-d7e4-4e2c-892d-d91f5a996df8
+discoiquuid: 729384fc-d5d3-40e4-803c-22de577c6c3b
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/reference-materials
 index: y

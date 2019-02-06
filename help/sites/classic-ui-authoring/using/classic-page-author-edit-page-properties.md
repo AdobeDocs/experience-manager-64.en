@@ -3,12 +3,12 @@ title: Editing Page Properties
 seo-title: Editing Page Properties
 description: Properties of a page can vary depending on the nature of the page. For example some pages might be connected to a live copy while others are not and the live copy information will be available as appropriate.
 seo-description: Properties of a page can vary depending on the nature of the page. For example some pages might be connected to a live copy while others are not and the live copy information will be available as appropriate.
-uuid: 438d1844-dc58-40a0-bfae-db50b23c156c
+uuid: 353bd779-14d8-4881-85cc-66e10edc2f20
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 444082a0-0b32-403a-8642-25106951e809
+discoiquuid: e70f7d07-0fb5-4d9e-855b-e7a78ba06435
 index: y
 internal: n
 snippet: y
@@ -178,13 +178,6 @@ The properties are distributed across several tabs:
   Define properties for a Live Copy page within [multi-site management](../../../sites/administering/using/msm.md). Controls the circumstances under which modifications will be propagated from the Blueprint.
 
 ### Site Structure {#site-structure}
-
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:06:25.931-0500
-<p>need more info; need links</p>
--->
 
 * Provide links to pages that provide site-wide functionality, such as **Signup Page**, **Offline Page**, amongst others.
 

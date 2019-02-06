@@ -3,12 +3,12 @@ title: Clientlibs for Communities Components
 seo-title: Clientlibs for Communities Components
 description: Client-side libraries for Communities
 seo-description: Client-side libraries for Communities
-uuid: 3fb6ae8b-a5aa-472f-9e6e-6d489c67939d
+uuid: ccbca033-4e10-42bc-9696-fb1c9ea7a5d3
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 92bec745-f939-4032-b0ac-a83ae32830aa
+discoiquuid: 1608861f-c479-453b-a9a8-2fb33d3ed4e1
 index: y
 internal: n
 snippet: y
@@ -36,11 +36,11 @@ When the required clientlibs are missing, [adding a Communities component to a p
 
 ### Example : Placed Reviews without Clientlibs {#example-placed-reviews-without-clientlibs}
 
-![](assets/chlimage_1-250.png) 
+![](assets/chlimage_1-243.png) 
 
 ### Example : Placed Reviews with Clientlibs {#example-placed-reviews-with-clientlibs}
 
-![](assets/chlimage_1-251.png) 
+![](assets/chlimage_1-244.png) 
 
 ## Identifying Required Clientlibs {#identifying-required-clientlibs}
 
@@ -53,38 +53,13 @@ For example, at the very top of the [Reviews page](http://localhost:4502/content
 * cq.ckeditor
 * cq.social.hbs.reviews
 
-![](assets/chlimage_1-252.png) 
+![](assets/chlimage_1-245.png) 
 
 ## Adding Required Clientlibs {#adding-required-clientlibs}
 
 When it is desired to add a Communities component to a page, it will be necessary to add the required clientlibs for the component if not already present.
 
 Use [CRXDE|Lite](#usingcrxdelite) to modify an existing clientlibslist for a community site page.
-
-<!--
-Comment Type: draft
-
-<h3>Using Client Libs List Component</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>There is a component in the <span class="code">Community Tools</span> group named <span class="code">Client Lib List</span> (if there are two entries, chose the (Social) version).</p>
-<p>When dragged onto a page, it is not visible unless hovered over, and then the component will be outlined. Selecting the invisible component will open a dialog to which client librariess can be entered, similar to adding them directly into the respository using CRXDE|Lite.</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-253.png" />
--->
-
-<!--
-Comment Type: draft
-
-<h3>Using CRXDE Lite</h3>
--->
 
 To add a clientlib for a community site using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 
@@ -113,5 +88,5 @@ To add a clientlib for a community site using [CRXDE Lite](../../sites/developin
 
 Using the [Getting Started with AEM Communities](../../communities/using/getting-started.md) example, where `site-name` is *engage*, this is how the clientliblist would appear if adding the reviews component :
 
-![](assets/chlimage_1-254.png)
+![](assets/chlimage_1-246.png)
 

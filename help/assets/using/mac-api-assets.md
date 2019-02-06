@@ -3,12 +3,12 @@ title: Assets HTTP API
 seo-title: Assets HTTP API
 description: Learn about the implementation, data model, and features of Assets HTTP API. Use Assets HTTP API to perform various tasks around assets.
 seo-description: Learn about the implementation, data model, and features of Assets HTTP API. Use Assets HTTP API to perform various tasks around assets.
-uuid: d74f4b0a-24f1-4e74-90f5-2fc1a929b681
+uuid: bc444088-bdab-41b3-9165-d856bff21053
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: 8ee11c94-6c3b-40f3-864b-71048949c42c
+discoiquuid: eb563681-56da-42ef-bb06-4dcb1a00923e
 index: y
 internal: n
 snippet: y
@@ -16,114 +16,15 @@ snippet: y
 
 # Assets HTTP API{#assets-http-api}
 
-<!--
-Comment Type: remark
-Last Modified By: Ashish Gupta . (asgupta)
-Last Modified Date: 2018-12-13T03:12:21.192-0500
-<p style="text-align: center;"><strong>DO NOT PUBLISH</strong></p>
-<p>Contains AEM 6.5 content in Draft-only mode.</p>
-<p>Article marked Preview to avoid accidental publishing.</p>
--->
-
 ## Overview {#overview}
 
 The Assets HTTP API is a specific part of the general Marketing Cloud API. For general documentation, see Marketing Cloud API user documentation.
 
 The Assets HTTP API is exposed at */api/assets*, and allows for create-read-update-delete (CRUD) operations on Assets, including binary, metadata, renditions, and comments.
 
-<!--
-Comment Type: annotation
-Last Modified By: meyer
-Last Modified Date: 2018-12-14T06:30:37.007-0500
-I don't think we should use the term "Marketing Cloud API" (as "Marketing Cloud" anyway becomes "Experience Cloud"). IMO the first sentence can be removed
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: msiegel
-Last Modified Date: 2018-12-17T14:41:56.420-0500
-Correct, must be removed ("marketing cloud api"), or refactored to "Adobe I/O", in case that is relevant. Not sure it as, as Assets HTTP API is an AEM REST API period.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: msiegel
-Last Modified Date: 2018-12-17T14:43:11.503-0500
-continue with ... and structured content with AEM Content Fragments
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-18T01:14:04.082-0500
-<p>6.5 content in Draft-only mode</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Assets HTTP API is exposed at <em>/api/assets</em>, and allows for create-read-update-delete (CRUD) operations on Assets, including binary, metadata, renditions, and comments, together with structured content usng AEM Content Fragments.</p>
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: meyer
-Last Modified Date: 2018-12-14T06:30:37.007-0500
-I don't think we should use the term "Marketing Cloud API" (as "Marketing Cloud" anyway becomes "Experience Cloud"). IMO the first sentence can be removed
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: msiegel
-Last Modified Date: 2018-12-17T14:41:56.420-0500
-Correct, must be removed ("marketing cloud api"), or refactored to "Adobe I/O", in case that is relevant. Not sure it as, as Assets HTTP API is an AEM REST API period.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: msiegel
-Last Modified Date: 2018-12-17T14:43:11.503-0500
-continue with ... and structured content with AEM Content Fragments
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-13T08:36:32.322-0500
-<p>6.5 content in Draft-only mode</p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>The Assets HTTP API encompasses the:</p>
-<ul>
-<li>Assets REST API
-<ul>
-<li>including <a href="../../assets/using/assets-api-content-fragments.md">support for Content Fragments</a></li>
-</ul> </li>
-</ul>
-<p>The current implementation of AEM Assets HTTP API is REST.</p>
-</note>
--->
-
 ## Current implementation {#current-implementation}
 
 The Assets HTTP API was first introduced with Adobe Experience Manager (AEM) Assets 6.1.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-13T00:08:01.737-0500
-<p>6.5 content in Draft-only mode</p>
--->
-
-<!--
-Comment Type: draft
-
-<p><a href="../../assets/using/assets-api-content-fragments.md">Support for Content Fragments</a> was added in AEM Assets 6.5.</p>
--->
 
 To access the API:
 
@@ -131,99 +32,9 @@ To access the API:
 1. Open the API Service Document at `http://<*hostname*>:<*port*>/api.json`
 1. Follow the Assets service link.
 
-<!--
-Comment Type: draft
-
-<h2>Content Fragments</h2>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-13T00:08:14.330-0500
-<p>6.5 content in Draft-only mode</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>A <a href="../../assets/using/content-fragments.md">content fragment</a> is a special type of asset. They can be used to access structured data, such as texts, numbers, dates, amongst others. </p>
-<p>As there are several differences to <em>standard</em> assets (such as images or documents), some additional rules apply to handling them.</p>
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: msiegel
-Last Modified Date: 2018-12-17T15:08:07.919-0500
-audio is not quite a "standard asset". Like video, it's streamed, progressively downloaded, etc etc. Just "images" suffices in the sentence here. Or "such as images or documents". Maybe use "images and documents" as synonym for "standard assets" throughout.
--->
-
-<!--
-Comment Type: draft
-
-<p>For further information see <a href="../../assets/using/assets-api-content-fragments.md">Content Fragments Support in the AEM Assets HTTP API</a>.<br /> </p>
--->
-
 ## Data model {#data-model}
 
 The Assets HTTP API exposes two major elements, folders and assets.
-
-<!--
-Comment Type: annotation
-Last Modified By: msiegel
-Last Modified Date: 2018-12-17T15:13:26.583-0500
-continue with ..., for standard assets, and more detailed elements for custom data models describing structured content in Content Fragments. See
-<here>
-for more information about Content Fragment Data Models.
-</here>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-18T01:20:40.372-0500
-<p>6.5 content in Draft-only mode</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Assets HTTP API exposes two major elements, folders and assets (for standard assets).</p>
-<p>Additionally, it exposes more detailed elements for the custom data models that describe structured content in Content Fragments. See <a href="../../assets/using/assets-api-content-fragments.md#contentfragments">Content Fragment Data Models</a> for further information.</p>
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: msiegel
-Last Modified Date: 2018-12-17T15:13:26.583-0500
-continue with ..., for standard assets, and more detailed elements for custom data models describing structured content in Content Fragments. See
-<here>
-for more information about Content Fragment Data Models.
-</here>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-13T00:08:10.979-0500
-<p>6.5 content in Draft-only mode</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-18T01:46:18.216-0500
-<p>msiegel (yesterday)</p>
-<p>with the addition above we shouldn't need this note anymore</p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>The Data Model does not apply to <a href="../../assets/using/assets-api-content-fragments.md">Content Fragments</a>.<br /> </p>
-</note>
--->
 
 ### Folders {#folders}
 
@@ -250,22 +61,6 @@ thumbnail -- (Optional) link to a folder thumbnail image
 
 ### Assets {#assets}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-18T01:34:49.495-0500
-<p>6.5 content in Draft-only mode</p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Standard assets (such as images and documents) consist of the following elements.</p>
-<p>For information about elements in Content Fragments see <a href="../../assets/using/assets-api-content-fragments.md#contentfragments">Content Fragments Support in AEM Assets HTTP API</a>.<br /> </p>
-</note>
--->
-
 Assets are actually multi-part elements:
 
 * The properties and metadata of the asset
@@ -282,16 +77,6 @@ The children of Assets are its renditions.
 
 **Links**
 
-<!--
-Comment Type: annotation
-Last Modified By: msiegel
-Last Modified Date: 2018-12-17T15:12:30.823-0500
-Here we need a final branch-off to Content Fragments. "Folders" above still applies for content fragments as well. Everything below "Assets" here is specific to "standard assets", or "standard assets such as images and documents". Something like Assets Assets such as images and documents consist of the following elements (see
-<here>
-for information about elements in Content Fragments): - the properties ... - multiple renditions ... ...
-</here>
--->
-
 ## Available features {#available-features}
 
 The Assets HTTP API includes the following features:
@@ -307,13 +92,6 @@ The Assets HTTP API includes the following features:
 * Copy a folder or asset
 * Move a folder or asset
 * Delete a folder, asset, or rendition
-
-<!--
-Comment Type: annotation
-Last Modified By: meyer
-Last Modified Date: 2018-12-14T06:31:43.345-0500
-For "browsing convenience", can we maybe have the different sections visible in the TOC that appears on the right side of the page?
--->
 
 >[!NOTE]
 >

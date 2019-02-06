@@ -3,12 +3,12 @@ title: Analyzing Page Performance
 seo-title: Analyzing Page Performance
 description: Use the Content Insight page to analyze the performance of the page that you are authoring
 seo-description: Use the Content Insight page to analyze the performance of the page that you are authoring
-uuid: cbda4ba0-dde0-44b2-8ca4-5b45f5058f30
+uuid: 70528441-81c4-4dae-95f7-3a007e85dc05
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 8f2b1c1d-fc29-4ea9-969f-293ca5f0c079
+discoiquuid: 47c1d988-e978-4c14-bbcd-4989d45ca7a9
 index: y
 internal: n
 snippet: y
@@ -38,19 +38,19 @@ Change the following time-related aspects of the analytics reports:
 * The period of time on which to report.
 * The granularity of the data.
 
-The tools for changing the time-related aspects of the reports appear at the top of the Content Insight page. ![](assets/chlimage_1-280.png)
+The tools for changing the time-related aspects of the reports appear at the top of the Content Insight page. ![](assets/chlimage_1-271.png)
 
 #### Changing the Reporting Period {#changing-the-reporting-period-1}
 
 Change the reporting period of the Content Insight page to focus your analysis of page activity to a specific period of time. When you change the reporting period, the reports automatically refresh. The shaded area on the timeframe represents the reporting period. The dates on the timeframe increase from left to right.
 
-![](assets/chlimage_1-281.png)
+![](assets/chlimage_1-272.png)
 
 To change the reporting period of a Content Insight page:
 
 1. If the timeframe does not appear at the top of the page, click or tap the Toggle Timeframe icon.
 
-   ![](assets/chlimage_1-282.png)
+   ![](assets/chlimage_1-273.png)
 
 1. To change the start date of the reporting period, drag the circle that appears at the left side of the shaded area to the desired start date.
 
@@ -68,7 +68,7 @@ The granularity affects the reports that plot data against time, such as the Vie
 
 1. If the granularity control does not appear, click or tap the Toggle Granularity icon.
 
-   ![](assets/chlimage_1-283.png)
+   ![](assets/chlimage_1-274.png)
 
 1. Click or tap the desired granularity. Once selected, the report automatically updates to reflect the granularity.
 
@@ -76,11 +76,11 @@ The granularity affects the reports that plot data against time, such as the Vie
 
 Use the SEO Recommendations report to create tasks for improving page visibility to search engines. For each recommendation in the report that does not have a checkmark, you can create a task that you assign to a user to perform the required work. 
 
-![](assets/chlimage_1-284.png)
+![](assets/chlimage_1-275.png)
 
 The status of the SEO recommendation indicates when the task is created but not yet completed.
 
-![](assets/chlimage_1-285.png)
+![](assets/chlimage_1-276.png)
 
 When created, the task appears in the user's Tasks list. For information about tasks, see [Track Content Changes Using Task Management](../../../sites/administering/using/task-manager.md) and [Working with Tasks](../../../sites/authoring/using/task-content.md).
 
@@ -88,11 +88,11 @@ Use the following procedure to create a task for an SEO recommendation.
 
 1. Click or tap the information icon for the SEO recommendation.
 
-   ![](assets/chlimage_1-286.png)
+   ![](assets/chlimage_1-277.png)
 
 1. Click the encircled triangle icon that appears next to the information icon.
 
-   ![](assets/chlimage_1-287.png)
+   ![](assets/chlimage_1-278.png)
 
 1. Fill the form fields that appear and then tap Create:
 

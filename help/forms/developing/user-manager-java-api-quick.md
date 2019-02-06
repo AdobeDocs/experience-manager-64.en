@@ -3,12 +3,12 @@ title: User Manager Java API Quick Start(SOAP)
 seo-title: User Manager Java API Quick Start(SOAP)
 description: null
 seo-description: null
-uuid: 694cf158-f64c-4813-b823-ea97818521cc
+uuid: a8a1df7a-6ba9-41ad-8795-1041d7b29a81
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 14f885a1-d435-4051-b707-d550c8c97adf
+discoiquuid: 7774202f-88b7-4795-a517-7877b775db30
 index: y
 internal: n
 snippet: y

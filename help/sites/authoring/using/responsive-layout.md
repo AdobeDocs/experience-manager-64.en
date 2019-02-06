@@ -3,12 +3,12 @@ title: Responsive Layout
 seo-title: Responsive Layout
 description: AEM allows you to realize a responsive layout for your pages
 seo-description: AEM allows you to realize a responsive layout for your pages
-uuid: 08f6bea5-bc2d-4967-917a-95ee5b3c7020
+uuid: ddca3255-cf66-462d-8af3-87d2800fd961
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 9e560013-c823-42a2-a4dc-e819313e51ec
+discoiquuid: 0e7a84f5-2706-42ae-9ecf-d0a6c0598e0e
 index: y
 internal: n
 snippet: y

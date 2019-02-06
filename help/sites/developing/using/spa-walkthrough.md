@@ -3,12 +3,12 @@ title: SPA Introduction and Walkthrough
 seo-title: SPA Introduction and Walkthrough
 description: This article introduces the concepts of a SPA and walks through using a basic SPA application for authoring, showing how it relates to the underlying AEM SPA Editor.
 seo-description: This article introduces the concepts of a SPA and walks through using a basic SPA application for authoring, showing how it relates to the underlying AEM SPA Editor.
-uuid: fc78f484-c195-4ef5-801e-0aa8f956efbc
+uuid: a563a4f8-72f4-48b8-965d-1248835b6a72
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: d35e3866-5a96-4b33-95f9-08e9c3f3aaf0
+discoiquuid: bddf7254-3f1a-46d2-a009-0e39366255c0
 index: y
 internal: n
 snippet: y
@@ -214,38 +214,17 @@ The next section, [Loading an SPA Application](../../../sites/developing/using/s
 
    Each component chooses what it exposes and how it is rendered (server-side with HTL or client-side with React). Of course this article focuses on client-side rendering with React.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: fauchere
-   Last Modified Date: 2018-06-14T06:09:15.717-0400
-   Sling Models must implement a few interfaces depending on their role in the exported model structure. ComponentExporter, ContainerExporter, HierarchyNodeExporter https://git.corp.adobe.com/CQ/foundation/tree/master/bundles/com.adobe.cq.export.json/src/main/java/com/adobe/cq/export/json
-   -->
-
 1. The model can also group pages together so that they are loaded synchronously, reducing the number of page reloads needed.
 
    In the example of We.Retail Journal, the `home`, `blog`, and `aboutus` pages are loaded synchronously, since visitors commonly visit all of those pages. However the `weather` page is loaded asynchronously, since visitors are less likely to visit it.
 
    This behavior is not mandatory and is fully definable.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: fauchere
-   Last Modified Date: 2018-06-14T06:12:31.392-0400
-   We will have to provide the name of the properties responsible for shaping the exported hierarchy of pages [0]. We will eventually come up with a UI for setting these fields [0] https://wiki.corp.adobe.com/display/WEM/SPA+-+AEM+Page+component#SPA-AEMPagecomponent-SlingModelJSONExportedStructureConfiguration
-   -->
-
    ![](assets/screen_shot_2018-06-07at153945.png)
 
 1. To view this difference in behavior, reload the page and clear the network activity of the inspector. Navigate to the blog and about us pages in the page menu and see that there is no network activity reported.
 
    Navigate to the weather page and see that the `weather.model.json` is called asynchronously.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: fauchere
-   Last Modified Date: 2018-06-14T06:13:51.057-0400
-   the following pic contains two calls to the same URL. this is an issue we have recently addressed on the dev branches
-   -->
 
    ![](assets/screen_shot_2018-06-07at155738.png)
 
@@ -276,13 +255,6 @@ In the following section we will explore the contract that allows the SPA Editor
    This is the only markup attribute required for the editor to recognize this as an editable component within the SPA. Based on this attribute, the SPA Editor will determine which editable configuration is associated with the component, so that the correct frame, toolbar, etc. is loaded.
 
    Some specific class names are also added for marking placeholders and for asset drag-and-drop functionality.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: fauchere
-   Last Modified Date: 2018-06-14T06:17:43.537-0400
-   this paths allow to retrieve and associate the edit context configuration object of each component some specific class names are also added for marking placeholders and the asset drag and drop functionality
-   -->
 
    >[!NOTE]
    >

@@ -3,12 +3,12 @@ title: Creating Device Group Filters
 seo-title: Creating Device Group Filters
 description: Create a device group filter to define a set of device capability requirements
 seo-description: Create a device group filter to define a set of device capability requirements
-uuid: 5214a2c6-c7d4-4172-aa4b-93a9ff10d865
+uuid: c678b17a-1708-4ce6-acfa-b2d476cfa52e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: mobile-web
 content-type: reference
-discoiquuid: b473b0ec-e68c-4316-833a-14930f94e161
+discoiquuid: e3dbd293-8f6a-4eb4-a766-c2c85360c790
 legacypath: /content/docs/en/aem/6-0/develop/mobile/groupfilters
 index: y
 internal: n

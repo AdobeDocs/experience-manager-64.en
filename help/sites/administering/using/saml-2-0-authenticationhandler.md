@@ -3,26 +3,18 @@ title: SAML 2.0 Authentication Handler
 seo-title: SAML 2.0 Authentication Handler
 description: Learn about the SAML 2.0 Authentication Handler in AEM.
 seo-description: Learn about the SAML 2.0 Authentication Handler in AEM.
-uuid: ae64a0a7-9fa1-4cdc-82a5-3b585fe6a647
+uuid: 907d7cbe-fc57-43e3-b7ac-d2364cfa67ad
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 18d97328-fdf0-4b9d-b4fa-40ebb3c6f624
+discoiquuid: e3849cc5-e938-4f7e-8e35-e8891fdae2f9
 index: y
 internal: n
 snippet: y
 ---
 
 # SAML 2.0 Authentication Handler{#saml-authentication-handler}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (colligno@adobe.com)
-Last Modified Date: 2018-03-14T13:20:43.299-0400
-<p><strong>Issue</strong> tracked by https://issues.adobe.com/browse/DOC-2769</p>
-<p>Dev <strong>draft</strong> <a href="https://zerowing.corp.adobe.com/display/granite/SAML+2.0+Authentication+Handler">https://zerowing.corp.adobe.com/display/granite/SAML+2.0+Authentication+Handler</a></p>
--->
 
 AEM ships with a [SAML](http://saml.xml.org/saml-specifications) authentication handler. This handler provides support for the [SAML](http://saml.xml.org/saml-specifications) 2.0 Authentication Request Protocol (Web-SSO profile) using the `HTTP POST` binding.
 
@@ -108,7 +100,7 @@ SAML assertions are signed and may optionally be encrypted. In order for this to
 1. Upload the IdP certificate.
 1. Take note of the certificate Alias. The alias is **admin#1436172864930** in the example below.
 
-   ![](assets/chlimage_1-446.png)
+   ![](assets/chlimage_1-430.png)
 
 ## Add the Service Provider key and certificate chain to the AEM keystore {#add-the-service-provider-key-and-certificate-chain-to-the-aem-keystore}
 
@@ -128,7 +120,7 @@ SAML assertions are signed and may optionally be encrypted. In order for this to
 1. Upload the certificate file by clicking **Select Certificate Chain Files**.
 1. Assign an Alias, as shown below:
 
-   ![](assets/chlimage_1-447.png)
+   ![](assets/chlimage_1-431.png)
 
 ## Configure a Logger for SAML {#configure-a-logger-for-saml}
 

@@ -3,44 +3,19 @@ title: AEM and the Web Accessibility Guidelines
 seo-title: AEM and the Web Accessibility Guidelines
 description: Learn how to create accessible websites and content with AEM.
 seo-description: Learn how to create accessible websites and content with AEM.
-uuid: 207ae9e9-025a-4376-a64c-eb75ebe5bd6c
+uuid: 2723152e-b99f-429f-935e-8d9044395200
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-accessibility
 content-type: reference
 topic-tags: introduction
-discoiquuid: 20ebe337-c80b-4d36-b6ba-29b482c8ab8a
+discoiquuid: c66ada07-2776-4e41-a581-c3c341583b1a
 index: y
 internal: n
 snippet: y
 ---
 
 # AEM and the Web Accessibility Guidelines{#aem-and-the-web-accessibility-guidelines}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-02-07T07:33:00.896-0500
-<p>original content provided by Andrew Kirkpatrick<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Amy Chen (amychen)
-Last Modified Date: 2018-02-28T18:26:10.149-0500
-<p>rename page? to one of the following?:</p>
-<ul>
-<li>AEM and Web Content Accessibility</li>
-<li>AEM and Accessibility Guidelines</li>
-</ul>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-02-23T05:44:52.711-0500
-<p>https://theblog.adobe.com/marie-van-driessche-designing-deaf-people-everyone-actually/ </p>
--->
 
 There are many social, economical, and legal motivations for ensuring that web content is designed to be as accessible as possible to the target audience, regardless of any disability or limitations they may have. Web accessibility is therefore an increasingly important aspect of good web design.
 
@@ -71,13 +46,6 @@ The following pages and section provide information and guidelines:
 
 The [World Wide Web Consortium (W3C)](http://www.w3.org/) is an international community dedicated to developing web standards. To help web designers and developers produce accessible web sites the [Web Accessibility Initiative (WAI)](http://www.w3.org/WAI/) published the [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG20/) in December 2008 (updating the original version published in 1999).
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-02-12T04:33:44.644-0500
-<p>review for AEM 6.5</p>
--->
-
 >[!NOTE]
 >
 >An [updated version of the guidelines](https://www.w3.org/TR/WCAG21/) is currently in development, but will not be considered for this version of AEM.
@@ -92,13 +60,6 @@ WCAG 2.0 provides [guidelines (with related success criteria) covering the acces
 
 These, as they relate to AEM, are covered under [Level A and AA Conformance](../../sites/authoring/using/creating-accessible-content.md). When creating your site, you should determine the overall level to which you would like your site to conform.
 
-<!--
-Comment Type: annotation
-Last Modified By: aheimoz
-Last Modified Date: 2018-03-01T02:31:03.610-0500
-WCAG 2.0 provides guidelines (with related success criteria) covering the accessibility levels. DONE
--->
-
 >[!NOTE]
 >
 >As it is not possible to satisfy all Level AAA Success Criteria for certain types of content, it is not recommended as a required level of conformance.
@@ -106,34 +67,3 @@ WCAG 2.0 provides guidelines (with related success criteria) covering the access
 ### Accessibility at Adobe {#accessibility-at-adobe}
 
 For additional information, please visit the [Adobe Accessibility Resource Center](http://www.adobe.com/accessibility/).
-
-<!--
-Comment Type: annotation
-Last Modified By: aheimoz
-Last Modified Date: 2018-03-01T02:32:52.086-0500
-For additional information, please visit Adobe Accessibility. DONE
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-03-01T02:39:01.569-0500
-<p>FOR 6.5</p>
-<p>Amy Chen:</p>
-<p>The Adobe Experience Manager 6.5 Accessibility Conformance Report gives information about product conformance to accessibility standards.</p>
-<p>The current/old sentence points to a document from AEM 5.6. I will be creating a new document, now called Accessibility Conformance Reports instead of VPATs for AEM 6.5.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Adobe Experience Manager 6.5 Accessibility Conformance Report gives information about product conformance to accessibility standards.<br /> </p>
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: aheimoz
-Last Modified Date: 2018-03-01T02:38:44.770-0500
-The Adobe Experience Manager 6.5 Accessibility Conformance Report gives information about product conformance to accessibility standards. PREPPED FOR 6.5
--->
-

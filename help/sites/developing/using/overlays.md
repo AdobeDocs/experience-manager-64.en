@@ -3,12 +3,12 @@ title: Overlays
 seo-title: Overlays
 description: AEM uses the principle of overlays to allow you to extend and customize the consoles and other functionality 
 seo-description: AEM uses the principle of overlays to allow you to extend and customize the consoles and other functionality 
-uuid: d35b9193-8db5-4fcd-91de-4aa01dd0a9cc
+uuid: 9d7de6ff-b73c-486e-ba24-a21b5fb31e20
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: acdfee79-fdf5-4c0c-aba4-acf8681d98ef
+discoiquuid: e50ab521-5d68-41e3-8318-27eff7dbef74
 index: y
 internal: n
 snippet: y

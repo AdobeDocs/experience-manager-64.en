@@ -3,12 +3,12 @@ title: Digitally Signing and Certifying Documents
 seo-title: Digitally Signing and Certifying Documents
 description: null
 seo-description: null
-uuid: 3eb06511-52d8-4acd-aa66-1960d53ea073
+uuid: 4c5eff36-cc49-4769-861e-efcd0814e887
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 40897864-7c9d-4639-9c62-1fb24d2a97a6
+discoiquuid: feeec918-219e-454e-b90f-60df9e533420
 index: y
 internal: n
 snippet: y

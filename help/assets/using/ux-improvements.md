@@ -3,9 +3,9 @@ title: DO NOT PUBLISH | User Experience Improvements
 seo-title: DO NOT PUBLISH | User Experience Improvements
 description: This article describes the user experience improvements in AEM 6.4 Assets.
 seo-description: User experience improvements in AEM 6.4 Assets
-uuid: 8e6c8e03-5860-4ca3-8c7c-5872c94da193
+uuid: fda1d604-4852-4bd3-bdd5-c8e4028b3224
 contentOwner: asgupta
-discoiquuid: 06a16264-1c25-40fc-bb4f-a55e0621f92f
+discoiquuid: f095c329-6690-4703-b3b4-fdd19248749e
 index: y
 internal: n
 snippet: y

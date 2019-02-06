@@ -3,44 +3,18 @@ title: Live Copy Overview Console
 seo-title: Live Copy Overview Console
 description: Learn about the basics of the Live Copy Overview Console.
 seo-description: Learn about the basics of the Live Copy Overview Console.
-uuid: 968d4c7b-2d76-41d6-b26c-41fb9b1a3a8a
+uuid: 3287856d-52c5-4d01-a1b0-b827a151329f
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: a0a62236-bec1-4275-babe-69045c6f7099
+discoiquuid: ffde6253-3518-48a5-8478-f2ff56596706
 index: y
 internal: n
 snippet: y
 ---
 
 # Live Copy Overview Console{#live-copy-overview-console}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:01:01.683-0500
-<p><a href="https://jira.corp.adobe.com/browse/KT-59">https://jira.corp.adobe.com/browse/KT-59</a></p>
-<p><a href="https://jira.corp.adobe.com/browse/CQ-84617">https://jira.corp.adobe.com/browse/CQ-84617</a></p>
-<p><a href="https://wiki.corp.adobe.com/display/WEM/KT+-+Sites+-+MSM+in+touch-enabled+UI%2C+parity+with+classic+UI">https://wiki.corp.adobe.com/display/WEM/KT+-+Sites+-+MSM+in+touch-enabled+UI%2C+parity+with+classic+UI</a></p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:01:01.699-0500
-<p>CQ-84617 issue:</p>
-<ul>
-<li>View/manage inheritances across a site
-<ul>
-<li>view blueprint tree and corresponding live copy structure, with inheritance statuses</li>
-<li>edit inheritances statuses</li>
-<li>view blueprint and live copy properties, <strong>in popup inspectors directly in sitemap view</strong></li>
-</ul> </li>
-<li>Perform rollout actions</li>
-<li>See attached images with Classic UI patterns for these actions</li>
-</ul>
--->
 
 The **Live Copy Overview** enables you to:
 
@@ -66,7 +40,7 @@ The **Live Copy Overview** can be opened from the **References** side panel of t
 1. In the **Sites** console, [navigate to your blueprint page and select it](../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresources).
 1. Open the ** [References](../../../sites/authoring/using/basic-handling.md#references)** panel and select **Live Copies**.
 
-   ![](assets/chlimage_1-433.png)
+   ![](assets/chlimage_1-417.png)
 
    >[!NOTE]
    >
@@ -82,7 +56,7 @@ The **Live Copy Overview** can be opened when viewing properties of a blueprint 
 1. Open **Properties** for the appropriate blueprint page.
 1. Open the **Blueprint** tab - the **Live Copy Overview** option will be shown in the top toolbar:
 
-   ![](assets/chlimage_1-434.png)
+   ![](assets/chlimage_1-418.png)
 
 1. Select **Live Copy Overview** to show and use the overview of all live copies related to the current blueprint.
 
@@ -94,13 +68,6 @@ The **Live Copy Overview** can be opened when viewing properties of a blueprint 
 
 ## Using the Live Copy Overview {#using-the-live-copy-overview}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:01:02.245-0500
-<p>needs more info - in general and about the specific tabs</p>
--->
-
 The **Live Copy Overview** can also be used to peform actions on the live copy:
 
 1. Open the **Live Copy Overview**.
@@ -110,7 +77,7 @@ The **Live Copy Overview** can also be used to peform actions on the live copy:
 
 When you select a blueprint page, the following actions are available:
 
-![](assets/chlimage_1-435.png)
+![](assets/chlimage_1-419.png)
 
 * Edit
 
@@ -124,7 +91,7 @@ When you select a blueprint page, the following actions are available:
 
 When you select a live copy page, the following actions are available:
 
-![](assets/chlimage_1-436.png)
+![](assets/chlimage_1-420.png)
 
 * Edit
 
@@ -165,28 +132,11 @@ The **Relationship Status** console has two tabs providing a range of functional
 
 This tab provides detailed information about the status of the relationship between the blueprint and live copy:
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:01:02.549-0500
-<p>will need a new screenshot after the typos are corrected </p>
-<p><a href="https://jira.corp.adobe.com/browse/CQ-112553">https://jira.corp.adobe.com/browse/CQ-112553</a></p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:01:02.564-0500
-<p>ims-author-08583C574D27377E0A746C1C@AdobeID (last week)</p>
-<p>Would maybe nice to have an list of posibile status?</p>
-<p>Yes, please confirm what variations are possible in this context.</p>
--->
-
-![](assets/chlimage_1-437.png) 
+![](assets/chlimage_1-421.png) 
 
 ### Live Copy Information {#live-copy-information}
 
 This tab allows you to view and edit the live copy configuration:
 
-![](assets/chlimage_1-438.png)
+![](assets/chlimage_1-422.png)
 

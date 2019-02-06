@@ -3,11 +3,11 @@ title: Content Fragment Models
 seo-title: Content Fragment Models
 description: Content Fragment Models are used to create content fragments with structured content.
 seo-description: Content Fragment Models are used to create content fragments with structured content.
-uuid: 26a5e98a-cbc6-4cbb-a729-64fc59da4789
+uuid: f85cac6a-e0e3-4984-b580-b801d638e7ad
 content-type: reference
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 9b5000b7-4bfd-4f37-8302-1420de1412c1
+discoiquuid: f0d7846f-0369-4570-b844-198e90c80dca
 index: y
 internal: n
 snippet: y
@@ -22,14 +22,6 @@ snippet: y
 Content Fragment Models define the structure of content for your [content fragments](../../assets/using/content-fragments.md).
 
 ## Enable Content Fragment Models {#enable-content-fragment-models}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-09-18T09:44:41.058-0400
-<p>need a link once the conf manager has been documented</p>
-<p>See <a href="https://jira.corp.adobe.com/browse/CQDOC-6654">https://jira.corp.adobe.com/browse/CQDOC-6654</a></p>
--->
 
 >[!CAUTION]
 >
@@ -56,14 +48,6 @@ To [create a new Content Fragment Model](#creatingacontentfragmentmodel) you **m
 1. Select **Create** to save the definition.
 
 ### Apply the Configuration to your Assets Folder {#apply-the-configuration-to-your-assets-folder}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-31T01:12:19.457-0500
-<p>need a link to the standard Assets documentation once available</p>
-<p>see <a href="https://jira.corp.adobe.com/browse/CQDOC-11913">https://jira.corp.adobe.com/browse/CQDOC-11913</a><br /> </p>
--->
 
 When the configuration **global** is enabled for content fragment models, then any models that users create can be used in any Assets folder.
 
@@ -147,20 +131,6 @@ To delete a content fragment model:
    >If the model is referenced a warning will be given. Take action appropriately.
 
 ## Publishing a Content Fragment Model {#publishing-a-content-fragment-model}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-22T05:08:29.116-0500
-<p>msiegel (last week)<br /> Please confirm with gknob and sgrimm this is still the case in 6.4. It was an issue in 6.3 FP that models and fragments had to be published separately, and if you forgot to publish the model, the fragment was screwed. And there was no time to clean this up. I have to check with them, too, if this is improving in 6.4</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-02-13T08:19:55.104-0500
-<p>Apparently a dialog/confirmation box will indicate that the model hasn't been published and that it should/will be.<br /> </p>
--->
 
 Content fragment models need to be published when/before any dependent content fragments are published.
 

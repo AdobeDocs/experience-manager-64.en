@@ -3,12 +3,12 @@ title: Tracking Bounced Emails
 seo-title: Tracking Bounced Emails
 description: When you send a newsletter to many users, there are usually some invalid emails addresses in the list. Sending newsletters to those addresses bounce back. AEM is capable of managing those bounces and can stop sending newsletters to those addresses after the configured bounce counter is exceeded.
 seo-description: When you send a newsletter to many users, there are usually some invalid emails addresses in the list. Sending newsletters to those addresses bounce back. AEM is capable of managing those bounces and can stop sending newsletters to those addresses after the configured bounce counter is exceeded.
-uuid: eb6a0d1e-df99-42ba-9740-a22fab6e603c
+uuid: 780c18a1-3766-4ec3-b55e-9815ae88b26e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: a5776a03-9038-4aa6-8714-006ca3b06815
+discoiquuid: 62f1ba9b-e9ef-4423-9e9a-e27cc73ce94f
 index: y
 internal: n
 snippet: y
@@ -107,18 +107,4 @@ To configure the newsletter service:
 
     * Writes an activity to the users hidden stream upon successful sending of a newsletter.
     * Writes an activity if a bounce is detected and the users bounce counter changes.
-
-   <!--
-   Comment Type: draft
-
-   <p>Still available in 5.5? not in osgi console.</p>
-   <p>sent.activity.pathprefix</p>
-   <p>Defines the pathprefix to use for the newsletter sent activity.</p>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <p>How does this information display? How do you know it's working?<br /> </p>
-   -->
 

@@ -3,12 +3,12 @@ title: Configuring Layout Container and Layout Mode
 seo-title: Configuring Layout Container and Layout Mode
 description: Lear how to configure Layout Container and Layout Mode.
 seo-description: Lear how to configure Layout Container and Layout Mode.
-uuid: b611e73d-2d89-4891-b388-0c60f2abe819
+uuid: 34309d1f-f931-4708-a3d1-0cff31c911e1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 766cd48e-39e8-45a6-ac9d-bcd23483b087
+discoiquuid: f3a00f92-e10b-47ea-a3ef-46ffb4872b41
 legacypath: /content/docs/en/aem/6-2/administer/operations/page-authoring/configuring-responsive-layouting
 index: y
 internal: n
@@ -17,24 +17,7 @@ snippet: y
 
 # Configuring Layout Container and Layout Mode{#configuring-layout-container-and-layout-mode}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-16T04:34:57.450-0500
-<p><a href="https://wiki.corp.adobe.com/display/~dantipa/Responsive+Grid+Technical+Description">https://wiki.corp.adobe.com/display/~dantipa/Responsive+Grid+Technical+Description</a></p>
-<p><a href="https://jira.corp.adobe.com/browse/CQ-20112">https://jira.corp.adobe.com/browse/CQ-20112</a></p>
-<p><a href="https://wiki.corp.adobe.com/display/WEM/AEM+6.1+Demo+Script+for+Sites">https://wiki.corp.adobe.com/display/WEM/AEM+6.1+Demo+Script+for+Sites</a></p>
-<p><a href="/content/docs/en/aem/6-3/develop/mobile/responsive">http://docs.adobe.com/docs/en/aem/6-0/develop/mobile/responsive.html</a></p>
--->
-
 [Responsive Layout](../../../sites/authoring/using/responsive-layout.md) is a mechanism for realizing [responsive web design](http://en.wikipedia.org/wiki/Responsive_web_design). This allows the user to create web pages that have a layout and dimensions dependent on the devices their users use.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-16T04:34:57.523-0500
-<p>need confirmation on note</p>
--->
 
 >[!NOTE]
 >
@@ -77,13 +60,6 @@ With these responsive grid mechanisms you can:
 >In an out-of-the-box installation, responsive layout has been configured for the [We.Retail reference site](../../../sites/developing/using/we-retail.md). You must still [activate the Layout Container component](#activatingthelayoutcontainerforapage) for other pages.
 
 ## Configuring the Responsive Emulator {#configuring-the-responsive-emulator}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-16T04:34:57.765-0500
-<p>http://docs.adobe.com/docs/en/aem/6-0/develop/mobile-web/responsive.html#Registering%20Page%20Components%20for%20Simulation</p>
--->
 
 This tasks allow you to see the responsive **Emulator** on your site.
 
@@ -179,14 +155,6 @@ An example definition:
 
 ### Add a Responsive Information Provider {#add-a-responsive-information-provider}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-16T04:34:58.813-0500
-<p>more details would be good</p>
-<p>will there be anything in any javadocs?</p>
--->
-
 >[!NOTE]
 >
 >This is only needed if the page component is not based on the foundation page component.
@@ -229,22 +197,6 @@ The following two examples illustrate the definition:
 ### Include the Responsive CSS {#include-the-responsive-css}
 
 #### CSS for Breakpoints using LESS {#css-for-breakpoints-using-less}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-16T04:34:59.411-0500
-<p>AH&gt;&gt;&gt; how close is the future?</p>
-<p>"In future this may be fully automated based on the breakpoint data of the page's template in the JCR."</p>
-<p>GK&gt;&gt;&gt; could be 6.2</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-16T04:34:59.450-0500
-<p>more detail needed?</p>
--->
 
 AEM uses LESS to generate parts of the necessary CSS, these need to be included for your projects.
 
@@ -330,13 +282,6 @@ To allow authors to add further responsive grids to the content pages you need t
 
 * **Component Definition**
 
-  <!--
-  Comment Type: remark
-  Last Modified By: Alison Heimoz (aheimoz)
-  Last Modified Date: 2018-01-16T04:35:00.147-0500
-  <p>need link to detailed documentation when available</p>
-  -->
-
   Use `allowedComponent` or a static include when defining the component.
 
 ### Configure the Grid of the Layout Container {#configure-the-grid-of-the-layout-container}
@@ -364,82 +309,4 @@ You can configure the number of columns available for each specific instance of 
     * Components that can be added to the current component:
 
         * `components="[/libs/wcm/foundation/components/responsivegrid, ...`
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-16T04:35:00.655-0500
-<p>GW:</p>
-<p>"Note that if a responsive parsys takes 12 columns, the second configuration doesn't have to be defined, but for anything else it has to be set."</p>
-<p>AH&gt;&gt;&gt; What, when, why - exactly?</p>
-<p>Managed to configure - see draft table below:</p>
--->
-
-<!--
-Comment Type: draft
-
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td><strong>nested</strong> <br /> (every time I change 1 <br /> the other 2 change as well)<strong><br /> </strong></td>
-<td>6</td>
-<td>6</td>
-<td>6</td>
-<td> </td>
-</tr>
-<tr>
-<td><strong>basic</strong></td>
-<td>--------</td>
-<td>8</td>
-<td>--------</td>
-<td>4</td>
-</tr>
-</tbody>
-</table>
--->
-
-<!--
-Comment Type: draft
-
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td><strong>nested</strong><br /> (every time I change 1<br /> the other 2 change as well)<strong><br /> </strong></td>
-<td>--------</td>
-<td>5</td>
-<td>--------</td>
-<td> </td>
-</tr>
-<tr>
-<td>defined as 5, but taking up <br /> the full width of 8<br /> </td>
-<td>--------</td>
-<td>5</td>
-<td>--------</td>
-<td> </td>
-</tr>
-<tr>
-<td> </td>
-<td>--------</td>
-<td>5</td>
-<td>--------</td>
-<td> </td>
-</tr>
-<tr>
-<td><strong>basic</strong></td>
-<td>--------</td>
-<td>8</td>
-<td>--------</td>
-<td>4</td>
-</tr>
-</tbody>
-</table>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>If you have nested layout containers then all containers at the same level use the same column configuration.</p>
-</note>
--->
 

@@ -3,12 +3,12 @@ title: Admin Consoles
 seo-title: Admin Consoles
 description: Lear how to use the Admin Consoles available in AEM.
 seo-description: Lear how to use the Admin Consoles available in AEM.
-uuid: df69f17c-f021-4cbc-9f34-8400d4c19738
+uuid: 267fa2fa-0cd2-4b09-ac4e-b6119ecb046a
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 268b3917-deb1-470e-b2ac-52c639884368
+discoiquuid: 5bb5b384-ef1c-45e1-80e0-1db8475d6473
 index: y
 internal: n
 snippet: y

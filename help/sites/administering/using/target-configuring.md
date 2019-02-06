@@ -3,12 +3,12 @@ title: Manually Configuring the Integration with Adobe Target
 seo-title: Manually Configuring the Integration with Adobe Target 
 description: Learn how to manually configure the integration with Adobe Target.
 seo-description: Learn how to manually configure the integration with Adobe Target.
-uuid: ab32abfe-379c-4f89-a715-a55ee3080131
+uuid: d97b601b-a484-4047-9b77-0befb863fc07
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 2668f8b1-6540-4a66-94b1-4d93b03f7657
+discoiquuid: 9cb3ed2b-e334-465f-9532-5577114b3e0a
 index: y
 internal: n
 snippet: y
@@ -60,7 +60,7 @@ The following property values are used in the Provisioned Target Configuration c
 
 The Provisioned Target Framework that the Opt-in wizard creates is configured to send context data from the Profile Data store. The age and the gender data items of the store is sent to Target by default. Your solution likely requires additional parameters to be sent. 
 
-![](assets/chlimage_1-193.png)
+![](assets/chlimage_1-184.png)
 
 You can configure the framework to send additional context information to Target as described in [Adding a Target Framework](../../../sites/administering/using/target-configuring.md#main-pars-title-14).
 
@@ -93,7 +93,7 @@ To do this, you need to specify which A4T cloud configuration to connect your Ad
    >    
    >
 
-   ![](assets/chlimage_1-194.png)
+   ![](assets/chlimage_1-185.png)
 
    Click **OK**. When you target content with Adobe Target, you are able to [select your report source](../../../sites/authoring/using/content-targeting-touch.md).
 
@@ -139,7 +139,7 @@ Use the following procedure to create a Target cloud configuration in AEM:
 
    The edit dialog opens. 
 
-   ![](assets/chlimage_1-195.png)
+   ![](assets/chlimage_1-186.png)
 
    >[!NOTE]
    >
@@ -198,11 +198,11 @@ You can create multiple frameworks for a single Target configuration. Multiple f
 1. On your Target configuration page, click the **+** (plus sign) next to Available Frameworks.
 1. In the Create Framework dialog, specify a **Title**, select the **Adobe Target Framework**, and click **Create**.
 
-   ![](assets/chlimage_1-196.png)
+   ![](assets/chlimage_1-187.png)
 
    The framework page opens. Sidekick provides components that represent information from the [Client Context](../../../sites/administering/using/client-context.md) or [ContextHub](../../../sites/administering/using/contexthub-config.md) that you can map.
 
-   ![](assets/chlimage_1-197.png)
+   ![](assets/chlimage_1-188.png)
 
 1. Drag the Client Context component that represents the data that you want to use for mapping to the drop target. Alternatively, drag the** ContextHub Store** component to the framework.
 
@@ -212,11 +212,11 @@ You can create multiple frameworks for a single Target configuration. Multiple f
 
    For example, to use** Profile Data **about your site vistors to control your Target campaign, drag the **Profile Data** component to the page. The profile data variables that are available for mapping to Target parameters appear. 
 
-   ![](assets/chlimage_1-198.png)
+   ![](assets/chlimage_1-189.png)
 
 1. Select the variables that you want to make visible to the Adobe Target system by selecting the **Share** checkbox in the appropriate columns.
 
-   ![](assets/chlimage_1-199.png)
+   ![](assets/chlimage_1-190.png)
 
    >[!NOTE]
    >
@@ -251,7 +251,7 @@ When you associate a page with the framework, the child pages inherit the associ
 1. Tap/click **Edit**.
 1. Tap/click **Add Configuration** under **Cloud Service Configurations** and select **Adobe Target**.
 
-   ![](assets/chlimage_1-200.png)
+   ![](assets/chlimage_1-191.png)
 
 1. Select the framework you want under **Configuration Reference**.
 

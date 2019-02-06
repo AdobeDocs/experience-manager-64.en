@@ -3,12 +3,12 @@ title: Upgrade to AEM 6.4 Forms
 seo-title: Upgrade to AEM 6.4 Forms
 description: You can perform a direct upgrade from AEM 6.1 Forms, AEM 6.2 Forms, and LiveCycle ES4 SP1 to AEM 6.3 Forms. 
 seo-description: You can perform a direct upgrade from AEM 6.1 Forms, AEM 6.2 Forms, and LiveCycle ES4 SP1 to AEM 6.3 Forms. 
-uuid: 38122353-5263-46c3-807e-0df2ce47a97f
+uuid: 64ee4ebb-a16f-42a2-94fd-ffafbd11af46
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: 56c4dce1-9c2c-497f-962c-08cbd045009a
+discoiquuid: 05dbd29a-1f40-4df1-ad28-b8cc3daca68f
 index: y
 internal: n
 snippet: y
@@ -19,24 +19,6 @@ snippet: y
 AEM 6.4 Forms includes several new features and enhancements that streamline the creation, management, and user experiences with forms and correspondences. To learn about all the new capabilities and enhancements of AEM 6.4 Forms, see [New features summary document](../../forms/using/whats-new.md).
 
 You can upgrade your existing LiveCycle or AEM Forms installation to obtain new capabilities and enhancements offered in AEM 6.4 Forms while retaining existing data, processes, and assets intact. On upgrade, metadata and state of the processes are also preserved. You can choose an upgrade path to get started with upgrade.
-
-<!--
-Comment Type: draft
-
-<h2>Choose between upgrade and migration</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p><strong>Upgrade</strong> refers to the process by which an existing AEM Forms server is moved from one version to a newer version. Upgrades are always fully supported and are tested in many configurations before being released. In an upgrade, data on the server is transformed at the database level, and all data, metadata, and state of the processes is preserved. Upgrading to an AEM Forms server involves downtime.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p><strong>Migration</strong> refers to the process of replaying actions from one system into another fresh installation of AEM Forms. One of the key differences as compared to an upgrade is that a migration involves moving only assets (PDF, XDP, images, adaptive forms, correspondence management assets) from one server to another - processes (LCA), settings, configurations, and a few other pieces of metadata are not migrated. Migration can be performed with the minimum amount of downtime. Depending on the modules, processes, and assets used, migration can also require a lot of rework.</p>
--->
 
 The following diagram displays the available upgrade paths for AEM Forms on OSGi:
 
@@ -336,43 +318,3 @@ Migration involves moving only assets (PDF, XDP, images, adaptive forms, corresp
       Methods to calculate average fill time for forms and average read time for have changed. So, when you upgrade to AEM 6.3 forms, older data (data from previous AEM Forms release) for these metrics is available only in Adobe Analytics. It is not visible in AEM Forms analytics reports. For these metrics, AEM Forms analytics reports display data which is captured after performing the upgrade.
 
 [TBD]
-
-<!--
-Comment Type: draft
-
-<h4 id="MigrateWhen">Migrate when</h4>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>You do not require existing workflows and processes. Migration does not move existing processes (LCAs) to AEM 6.3 Forms.<br /> </li>
-<li>You are using AEM Forms on JEE only for document services (PDF Generator, Output, and more) or forms (adaptive forms, HTML5 forms, PDF Forms), then <a href="#main-pars-accordion-container-1460251140">Migrate to AEM 6.3 Forms on OSGi</a>.</li>
-<li>You are using AEM Forms on JEE Process Management and the <a href="../../forms/using/aem-forms-workflow.md" target="_blank">Forms-centric AEM Workflows on OSGi</a> capability suits your requirement.<br /> </li>
-<li>You are running short lived processes on AEM Forms on JEE. You have the following choices in the order of recommendation
-<ul>
-<li>Set up a fresh AEM 6.3 Forms on JEE environment and <a href="#main-pars-accordion-container-1460251140">migrate existing processes (LCAs) or other assets to the fresh environment</a>.<br /> </li>
-<li>Install a fresh instance of AEM 6.3 Forms on OSGi, <a href="#main-pars-accordion-container-1460251140">move XDP, and other compatible assets to the new instance, and build services</a>, if necessary.<br /> </li>
-<li>Set up a fresh AEM 6.3 Forms on JEE environment and <a href="#main-pars-accordion-container-1460251140" style="outline: 1px dotted; outline-offset: 0px;">migrate existing processes (LCA) or other assets to fresh environment</a>. Migrate to AEM Forms on OSGi at a later stage.<br /> </li>
-</ul> </li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<h4>Upgrade when</h4>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>You are looking to use latest features of AEM 6.3 Forms while keeping everything (processes and assets) available on the previous version intact.<br /> </li>
-<li>You are running long lived processes on AEM Forms on JEE.</li>
-<li>You are using AEM Form Document Security, <a href="../../forms/using/upgrade.md#main-pars-accordion-container-270280220">upgrade to AEM 6.3 Forms on JEE</a>.</li>
-<li>You are using <a href="../../forms/using/aem-forms-workflow.md" target="_blank">advanced feature</a> of AEM Forms on JEE Process Management.</li>
-</ul>
--->
-

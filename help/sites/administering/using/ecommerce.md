@@ -3,12 +3,12 @@ title: eCommerce
 seo-title: eCommerce
 description: AEM eCommerce helps marketers deliver branded, personalized shopping experiences across web, mobile, and social touchpoints. 
 seo-description: AEM eCommerce helps marketers deliver branded, personalized shopping experiences across web, mobile, and social touchpoints. 
-uuid: a43e9857-50d7-4345-a44a-5588049b7294
+uuid: dd0ea488-0b1f-45c9-9105-3a4609cc15fa
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 3e795624-cde6-4d2d-8837-14b53418d82a
+discoiquuid: 4d0daf3f-4998-47ee-9604-58bc3a1c7551
 index: y
 internal: n
 snippet: y
@@ -29,16 +29,6 @@ snippet: y
 >[!NOTE]
 >
 >The connectors for AEM 6.4 are still under development.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:02.360-0500
-<p>need input on the products tab in the content finder.</p>
-<p>very basic description at:</p>
-<p>http://ec2author.day.com:8080/docs/en/cq/current/wcm/working_with_cq_wcm/using_the_contentfinder.html#Products</p>
-<p>need full use-case info</p>
--->
 
 eCommerce, together with Product Information Management (PIM), handles the activities of a website focused on selling products via an online store:
 
@@ -81,7 +71,7 @@ AEM eCommerce provides:
     * Vouchers
     * and others
 
-  ![](assets/chlimage_1-187.png)
+  ![](assets/chlimage_1-178.png)
 
   >[!NOTE]
   >
@@ -94,20 +84,13 @@ AEM eCommerce provides:
     * a third party search (such as Search&Promote)   
     * or a combination thereof.
 
-  ![](assets/chlimage_1-188.png)
+  ![](assets/chlimage_1-179.png)
 
 * Uses the AEM ability to **present your content on multiple channels**, be that full browser window or mobile device. This delivers your content in the format needed by your visitors.
 
-  ![](assets/chlimage_1-189.png)
+  ![](assets/chlimage_1-180.png)
 
 * The ability to **develop your own integration implementation based on the [AEM eCommerce framework](#theframework)**.
-
-  <!--
-  Comment Type: remark
-  Last Modified By: Alison Heimoz (aheimoz)
-  Last Modified Date: 2017-11-30T05:00:02.736-0500
-  <p>Changes, please review. Does this need updating for additional 3rd party impls?</p>
-  -->
 
   The two implementations currently available are both built on the same basis - on top of the general API (the framework). Implementing a new integration only involves implementing the feature(s) that your integration needs. Front end components can be used by any new implementation as they use interfaces (so are independent from the implementation).
 
@@ -118,20 +101,13 @@ AEM eCommerce provides:
 
   In the example below one teaser is shown as the contents of the cart are less than $75:
 
-  ![](assets/chlimage_1-190.png)
+  ![](assets/chlimage_1-181.png)
 
   This can be changed when the contents of the cart exceed $75:
 
-  ![](assets/chlimage_1-191.png)
+  ![](assets/chlimage_1-182.png)
 
 * And other features including:
-
-  <!--
-  Comment Type: remark
-  Last Modified By: Alison Heimoz (aheimoz)
-  Last Modified Date: 2017-11-30T05:00:02.898-0500
-  <p>Please review. </p>
-  -->
 
     * Shopping cart contents retained across sessions
     * Full order history  

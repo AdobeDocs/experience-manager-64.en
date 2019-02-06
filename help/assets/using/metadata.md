@@ -3,25 +3,18 @@ title: Managing Metadata for Digital Assets
 seo-title: Managing Metadata for Digital Assets
 description: Learn about the types of metadata an how AEM Assets helps manage metadata for assets to allow easier categorization and organization of assets. With the ability to keep and manage arbitrary metadata with your assets, AEM Assets makes it possible to automatically organize and process assets based on their metadata.
 seo-description: Learn about the types of metadata an how AEM Assets helps manage metadata for assets to allow easier categorization and organization of assets. With the ability to keep and manage arbitrary metadata with your assets, AEM Assets makes it possible to automatically organize and process assets based on their metadata.
-uuid: 601dc88b-b84a-4cb7-80d2-480591fa26eb
+uuid: a32b36a0-ba89-4e7f-8865-d91d51eddf0c
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: a7f7a7d0-d1d9-46dd-ae1f-6ebc2cce2179
+discoiquuid: f5505fcf-6379-43fd-bc96-2e5dbb21b104
 index: y
 internal: n
 snippet: y
 ---
 
 # Managing Metadata for Digital Assets{#managing-metadata-for-digital-assets}
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:30:10.488-0500
-<p>Keep in admin and update branding</p>
--->
 
 Adobe Experience Manager (AEM) Assets keeps metadata for every asset. This allows for a easier categorization and organization of assets and it helps people who are looking for a specific asset. With the ability to extract metadata from files uploaded to AEM Assets, metadata management integrates with the creative workflow. With the ability to keep and manage arbitrary metadata with your assets, AEM Assets makes it possible to automatically organize and process assets based on their metadata. Finally AEM Assets end-user interface, the [DAM Finder](../../sites/classic-ui-authoring/using/manage-assets-classic-using-share-page.md) can be [customized by site owners and developers](../../assets/using/extending-assets.md)to reflect the metadata you are using in your organization.
 
@@ -159,13 +152,6 @@ The metadata schemata supported are listed in the following section.
 
 #### Application-Specific Metadata {#application-specific-metadata}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ltrielof)
-Last Modified Date: 2017-11-30T05:30:10.756-0500
-<p>take a look at <a href="http://ec2.day.com:8080/crxde/#/crx.default/jcr%3aroot/libs/dam/options/metadata">http://ec2.day.com:8080/crxde/#/crx.default/jcr%3aroot/libs/dam/options/metadata</a><br /> </p>
--->
-
 >[!NOTE]
 >
 >Application-specific metadata includes technical and descriptive metadata. If you use these, other applications may not be able to use the metadata. For example, if you have an asset with Adobe Photoshop metadata and another image-rendering application tries to access the metadata, it may not be able to.
@@ -212,13 +198,6 @@ Last Modified Date: 2017-11-30T05:30:10.756-0500
 
 * xmpDM - Dynamic Media
 * xmpMM - Media Management
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (scharles@adobe.com)
-Last Modified Date: 2017-11-30T05:30:10.855-0500
-<p>Broken URL: Updated XMP specification URL. XMP Specification is divided in to 3 parts so its better to point to the latest Specification page rather than perticular PDF.<br /> </p>
--->
 
 ## Metadata-driven Workflows {#metadata-driven-workflows}
 

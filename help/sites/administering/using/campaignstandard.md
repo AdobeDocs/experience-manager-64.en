@@ -3,12 +3,12 @@ title: Integrating with Adobe Campaign Standard
 seo-title: Integrating with Adobe Campaign Standard
 description: Integrating with Adobe Campaign Standard.
 seo-description: Integrating with Adobe Campaign Standard.
-uuid: 0d0d73ac-872e-4308-a2fd-268d1401d731
+uuid: ff12c4c4-98e1-459d-b838-4f14d85c80af
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: d708be06-c356-4b88-a7f4-e261436a7397
+discoiquuid: 9dbdfedb-e1ab-44ac-91f5-91f0e9b92c72
 index: y
 internal: n
 snippet: y
@@ -57,13 +57,6 @@ Make sure you have the following elements beforehand:
 * [An AEM publishing instance](../../../sites/deploying/using/deploy.md#authorandpublishinstalls)
 * [An Adobe Campaign instance](https://docs.adobe.com/content/docs/en/campaign/ACS.html)
 
-<!--
-Comment Type: remark
-Last Modified By: (sarchiz)
-Last Modified Date: 2017-11-30T04:59:27.621-0500
-<p>The Campaign link should remain unchanged for now, as there's no helpx <br /> alternative. We'll have another look after the Campaign docs are <br /> migrated over.</p>
--->
-
 >[!CAUTION]
 >
 >Operations detailed in the [Configuring Adobe Campaign](#configuringadobecampaign) and [Configuring Adobe Experience Manager](#configuringadobeexperiencemanager) sections are necessary for the integration functionalities between AEM and Adobe Campaign to work correctly.
@@ -89,7 +82,7 @@ To configure an AEM external account:
 
 1. Go to **Administration** &gt; **Application settings** &gt; **External accounts**.
 
-   ![](assets/chlimage_1-317.png)
+   ![](assets/chlimage_1-308.png)
 
 1. Select the default **aemInstance** external account or create a new one by clicking the **Create **button.
 1. Select **Adobe Experience Manager **in the **Type **field and enter the access parameters used for your AEM authoring instance: server address, account name and password.
@@ -129,7 +122,7 @@ To create an AEM-specific email delivery template:
 
    Email deliveries created from this template will have the AEM content feature enabled.
 
-   ![](assets/chlimage_1-318.png)
+   ![](assets/chlimage_1-309.png)
 
 ## Configuring Adobe Experience Manager {#configuring-adobe-experience-manager}
 
@@ -155,7 +148,7 @@ To configure replication between AEM instances:
 
 1. From the authoring instance, select **AEM logo**&gt; **Tools **icon &gt; **Deployment** &gt; **Replication** &gt; **Agents on author**, then click **Default Agent**.
 
-   ![](assets/chlimage_1-319.png)
+   ![](assets/chlimage_1-310.png)
 
    >[!NOTE]
    >
@@ -167,7 +160,7 @@ To configure replication between AEM instances:
 
 1. Configure the URI by replacing **localhost** with the IP address or the address of the AEM publishing instance.
 
-   ![](assets/chlimage_1-320.png)
+   ![](assets/chlimage_1-311.png)
 
 ### Connecting AEM to Adobe Campaign {#connecting-aem-to-adobe-campaign}
 
@@ -179,7 +172,7 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 
 1. Select **Tools** &gt; **Operations** &gt; **Cloud** &gt; **Cloud Services**, then **Configure now** in the Adobe Campaign section.
 
-   ![](assets/chlimage_1-321.png)
+   ![](assets/chlimage_1-312.png)
 
 1. Create a new configuration by entering a **Title** and click **Create**, or choose the existing configuration that you want to link with your Adobe Campaign instance.
 1. Edit the configuration so that it matches the parameters of your Adobe Campaign instance.
@@ -191,13 +184,13 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 
 1. Select **Connect to Adobe Campaign **and click **OK**.
 
-   ![](assets/chlimage_1-322.png)
+   ![](assets/chlimage_1-313.png)
 
    >[!NOTE]
    >
    >After you [create your email and publish it](../../../sites/authoring/using/campaign.md), you need to re-publish the configuration onto your publish instance.
 
-   ![](assets/chlimage_1-323.png)
+   ![](assets/chlimage_1-314.png)
 
 >[!NOTE]
 >
@@ -215,194 +208,5 @@ See [Configure the externalizer](../../../sites/developing/using/externalizer.md
 
 If it points to `localhost:4503` or another server that Adobe Campaign cannot reach, your images will not appear on the Adobe Campaign console.
 
-![](assets/chlimage_1-324.png) 
-
-<!--
-Comment Type: draft
-
-<h2>Advanced Configurations</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>You can also perform some advanced configurations, namely:</p>
-<ul>
-<li>Manage personalization fields and blocks.</li>
-<li>Deactivate a personalization block.</li>
-<li>Manage target extension data.</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Managing personalization fields and blocks</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>The fields and blocks available to add personalization to your email content in AEM are managed by Adobe Campaign.</p>
-<p>A default list is provided but can be modified. You can also add or hide personalization fields and blocks.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h4>Adding a personalization field</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>To add a new personalization field to those that are already available, you have to extend the Adobe Campaign <strong>nms:seedMember</strong> schema as follows:</p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>The field that you need to add must have already been added via a recipient schema extension (<strong>nms:recipient</strong>). For more information, see the <a href="https://docs.campaign.adobe.com/doc/AC6.1/en/CFG_Editing_schemas_Editing_schemas.html">Configuration</a> guide.</p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p></p><p>Go to the <strong>Administration</strong> &gt; <strong>Configuration</strong> &gt; <strong>Data schemas</strong> node in the Adobe Campaign navigation.</p> <p></p> </li>
-<li><p>Select <strong>New</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-325.png" /></li>
-<li><p>In the pop-up window, select <strong>Extend the data in the table using an extension schema</strong> and click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-326.png" /></li>
-<li><p>Enter the different parameters of the extended schema:</p> <p></p>
-<ul>
-<li><strong>Schema</strong>: select the <strong>nms:seedMember</strong> schema. The other fields in the window are automatically completed.</li>
-<li><strong>Namespace</strong>: personalize the namespace of the extended schema.</li>
-</ul> <p></p> </li>
-<li><p>Edit the XML code of the schema to specify the field that you want to add there. For more information on extending schemas in Adobe Campaign, refer to the <a href="https://docs.campaign.adobe.com/doc/AC6.1/en/CFG_Editing_schemas_Extending_a_schema.html">Configuration guide</a>.</p> </li>
-<li><p></p><p>Save your schema then update the Adobe Campaign database structure via the <strong>Tools</strong> &gt; <strong>Advanced</strong> &gt; <strong>Update database structure</strong> menu in the console.</p> <p></p> </li>
-<li><p>Disconnect then reconnect to the Adobe Campaign console to save your changes. The new field now appears in the list of personalization fields available in AEM.</p> </li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<h4>Example</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>To add a <strong>Registration Number</strong> field, you must have the following elements:</p>
-<ul>
-<li>The <strong>nms:recipient</strong> schema extension named <strong>cus:recipient</strong> contains:</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock class="syntax xml">
-<element&nbsp;desc="Recipient&nbsp;table&nbsp;(profiles)"&nbsp;img="nms:recipient.png"&nbsp;label="Recipients"&nbsp;labelSingular="Recipient"&nbsp;name="recipient">!!discoiqbr!!!!discoiqbr!!&nbsp;&nbsp;<attribute&nbsp;dataPolicy="smartCase"&nbsp;desc="Recipient&nbsp;registration&nbsp;number"&nbsp;!!discoiqbr!!&nbsp;&nbsp;label="Registration&nbsp;Number"!!discoiqbr!!&nbsp;&nbsp;length="50"&nbsp;name="registrationNumber"&nbsp;type="string"/>!!discoiqbr!!!!discoiqbr!!</element>
-</codeblock>
--->
-
-<!--
-Comment Type: draft
-
-<p>The <strong>nms:seedMember</strong> schema extension named <strong>cus:seedMember</strong> contains:</p>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock class="syntax xml">
-<element&nbsp;desc="Seed&nbsp;to&nbsp;insert&nbsp;in&nbsp;the&nbsp;export&nbsp;files"&nbsp;img="nms:unknownad.png"&nbsp;label="Seed&nbsp;addresses"&nbsp;labelSingular="Seed"&nbsp;name="seedMember">!!discoiqbr!!!!discoiqbr!!&nbsp;&nbsp;<element&nbsp;name="custom_nms_recipient">!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;<attribute&nbsp;name="registrationNumber"&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;template="cus:recipient:recipient/@registrationNumber"/>!!discoiqbr!!&nbsp;&nbsp;</element>!!discoiqbr!!!!discoiqbr!!</element>
-</codeblock>
--->
-
-<!--
-Comment Type: draft
-
-<p>The <strong>Registration Number</strong> field is now part of the available personalization fields:</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-327.png" />
--->
-
-<!--
-Comment Type: draft
-
-<h4>Hiding a personalization field</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>To hide a personalization field among those that are already available, you must extend the Adobe Campaign <strong>nms:seedMember </strong>schema as detailed in the <a href="#addingapersonalizationfield">Adding a personalization field</a> section. Apply the following steps:</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p> </p> <p>Copy the field that you want to take from the <strong>nms:seedMember</strong> schema in the extended schema (<strong>cus:seedMember</strong> for example).</p> <p> </p> </li>
-<li><p></p><p>Add the <strong>advanced="true"</strong> XML attribute to the field. It no longer appears in the list of personalization fields available in AEM.</p> <p></p> <p>For example, to hide the <strong>Middle Name</strong> field, the <strong>cud:seedMember</strong> schema must contain the following element:</p>
-<codeblock class="syntax xml">
-<element&nbsp;desc="Seed&nbsp;to&nbsp;insert&nbsp;in&nbsp;the&nbsp;export&nbsp;files"&nbsp;img="nms:unknownad.png"&nbsp;label="Seed&nbsp;addresses"&nbsp;labelSingular="Seed"&nbsp;name="seedMember">!!discoiqbr!!!!discoiqbr!!&nbsp;&nbsp;<element&nbsp;name="custom_nms_recipient">!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;<attribute&nbsp;advanced="true"&nbsp;name="middleName"/>!!discoiqbr!!&nbsp;&nbsp;</element>!!discoiqbr!!!!discoiqbr!!</element>
-</codeblock></li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Deactivating a personalization block</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>To deactivate a personalization block among those available:</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p></p><p>Go to the <strong>Resources</strong> &gt; <strong>Campaign Management</strong> &gt; <strong>Personalization blocks</strong> node in the Adobe Campaign navigation.</p> <p></p> </li>
-<li><p></p><p>Select the personalization block that you want to deactivate in AEM.</p> <p></p> </li>
-<li><p>Clear the <strong>Visible in the customization menus</strong> checkbox and save your changes. The block no longer appears in the list of personalization blocks available in Adobe Campaign.</p> <img imageRotate="0" src="assets/chlimage_1-328.png" /></li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Managing target extension data</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>You can also insert target extension data for personalization. Target extension data (also called 'Target Data'), comes from enriching or adding data in a query in a campaign workflow for example. For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/AC6.1/en/WKF_Quick_start_Creating_queries.html">Creating queries</a> and <a href="https://docs.campaign.adobe.com/doc/AC6.1/en/WKF_Quick_start_Enriching_and_modifying_data.html">Enriching data</a> sections in the <strong>Workflow</strong> guide.</p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>The data in the target is only available if the AEM content is synchronized with an Adobe Campaign delivery. Refer to the <a href="../../../sites/authoring/using/campaign.md#synchronizingcontentcreatedinaemwithadeliveryfromadobecampaign">Synchronizing content created in AEM with a delivery from Adobe Campaign</a> section.</p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-329.png" />
--->
+![](assets/chlimage_1-315.png)
 

@@ -4,9 +4,9 @@ seo-title: Channel Layout Editor
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 13f23cb1-9db8-4d39-823b-543b9c244f2a
+uuid: 11d56df2-14e1-4405-a071-9c22583d3aa7
 contentOwner: jsyal
-discoiquuid: 59aaa6c5-41f8-4884-a95f-3dcd6940242d
+discoiquuid: ee705bad-1e82-4660-8d7c-0513c777e3ac
 index: y
 internal: n
 snippet: y

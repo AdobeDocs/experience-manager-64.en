@@ -3,12 +3,12 @@ title: Automate testing of adaptive forms
 seo-title: Automate testing of adaptive forms
 description: Using Calvin you can create test cases in CRXDE and run UI tests directly in the web browser to thoroughly test your adaptive forms.
 seo-description: Using Calvin you can create test cases in CRXDE and run UI tests directly in the web browser to thoroughly test your adaptive forms.
-uuid: c2e6dbed-86ca-41ca-bb21-44e54e468074
+uuid: 6dcd6bf9-49f9-464a-a7a7-21deb4e01561
 contentOwner: gtalwar
 content-type: reference
 topic-tags: adaptive_forms
 topic-tags: develop
-discoiquuid: 46871355-effa-4fe3-a31e-7aad31954f0d
+discoiquuid: bab8c2f2-2fdf-45ff-ae0c-f325a71c0d8c
 index: y
 internal: n
 snippet: y
@@ -269,16 +269,6 @@ The following example walks you through creation of a test suite for testing mul
     }(window, window.hobs));
    
    ```
-
-   <!--
-   Comment Type: draft
-
-   <p>The above code:</p>
-   <ul>
-   <li>Creates a test suite named "[]"</li>
-   <li>Creates a test case that navigates to a specific form and verifies if an expression of a specific Adaptive Form Object is properly executed on a particular UI operation. </li>
-   </ul>
-   -->
 
    The test case is created. Proceed to run the test case to test adaptive forms through Hobbes. For steps for running the test cases, see [Executing Tests in Testing Your UI Using Automated Tests](../../sites/developing/using/hobbes.md).
 

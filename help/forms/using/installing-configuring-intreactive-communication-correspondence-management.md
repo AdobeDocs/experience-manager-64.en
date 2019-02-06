@@ -3,9 +3,9 @@ title: Install and configure Interactive Communications
 seo-title: Install and configure Interactive Communications
 description: Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits. 
 seo-description: Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits. 
-uuid: b4e488d0-76b6-4ae1-8d9b-fd10b30c42be
+uuid: 9ecdf594-7708-4284-8b7a-4d1ed1ff2e0e
 topic-tags: installing
-discoiquuid: d18e7116-cd98-4ae1-b51d-832a45284642
+discoiquuid: 8199358a-ab36-412c-b956-de28e090ab32
 index: y
 internal: n
 snippet: y
@@ -168,51 +168,6 @@ Dispatcher is caching and load balancing tool for AEM. AEM Dispatcher also helps
 1. Step text
 1. Step text
 
-<!--
-Comment Type: draft
-
-<h4>Configure Cache</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>Caching is a mechanism to shorten data access times, reduce latency, and improve input/output (I/O) speeds. Adaptive forms cache stores only HTML content and JSON structure of an adaptive form without saving any pre-filled data. It helps in reducing the time required to render an adaptive form.</p>
-<ul>
-<li>On using the adaptive forms cache, use the <a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html" target="_blank">AEM Dispatcher</a> to cache client libraries (CSS and JavaScript) of an adaptive form.</li>
-<li>While developing custom components, keep the adaptive forms cache disabled on the server used for development.</li>
-</ul>
-<p>Perform the following steps to configure the adaptive forms cache: </p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Go to AEM web console configuration manager at http://[server]:[port]/system/console/configMgr.</p> </li>
-<li><p>Click <strong>Adaptive Form Configuration Service</strong> to edit its configuration values. In the edit configuration values dialog, specify the maximum number of forms or documents an instance of the AEM Forms server can cache in the <strong>Number of Adaptive Forms</strong> field. The default value is 100. Click <strong>Save</strong>.</p>
-<note type="note">
-<p>To disable the cache, set the value in the Number of Adaptive Forms field to <strong>0</strong>. The cache is reset and all forms and documents are removed from the cache when you disable or change the cache configuration. <br /> </p>
-</note></li>
-<li></li>
-<li>Step text</li>
-<li>Step text</li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<h4>Configure Adobe Analytics</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>AEM Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable.</p>
-<p>To use Adobe Analytics with AEM Forms, see <a href="../../forms/using/configure-analytics-forms-documents.md" target="_blank">Configuring analytics and reports</a>.<br /> </p>
--->
-
 #### Integrate Adobe Target {#integrate-adobe-target}
 
 Your customers are likely to abandon an interactive communication if the experience it delivers is not engaging. While it is frustrating for the customers, it can also upturn the support volume and cost for your organization. It is critical and challenging to identify and provide the right customer experience that increases the conversion rate. AEM forms holds the key to this problem.
@@ -224,12 +179,6 @@ AEM forms integrates with Adobe Target, an Adobe Marketing Cloud solution, to de
 You can enable SSL communication for Form Data Model. To enable SSL communication for Form data model, before starting any AEM Forms instance, add certificates to Java Trust Store of all the instances. You can run the below command to add the certificates:
 
 `keytool -import -alias <alias-name> -file <pathTo .cer certificate file> -keystore <<pathToJRE>\lib\security\cacerts>`
-
-<!--
-Comment Type: draft
-
-<h2>Known issues and troubleshooting</h2>
--->
 
 ## Next steps {#next-steps}
 

@@ -3,12 +3,12 @@ title: Selecting your UI
 seo-title: Selecting your UI
 description: Configure which interface you will use to work in AEM
 seo-description: Configure which interface you will use to work in AEM
-uuid: c5d33062-5a65-414b-a9fd-e551fce45950
+uuid: 04da9a9b-432f-483f-b595-0812fe7c2f93
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: fc98014f-b34c-4373-84d1-8e14848bfa5e
+discoiquuid: 587dfb24-7bfc-481c-8289-236c6848ee3f
 index: y
 internal: n
 snippet: y
@@ -101,16 +101,9 @@ When using the touch-enabled UI desktop users might want to revert to the classi
 
 If enabled, **Open the Classic UI** is available from the **Page Information** dialog:
 
-![](assets/chlimage_1-35.png)
+![](assets/chlimage_1-34.png)
 
 ### UI Overrides for the Editor {#ui-overrides-for-the-editor}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:52:33.207-0500
-<p>6.1 Review - is the info about cookies and their effects still valid?</p>
--->
 
 The settings defined by a user or system administrator can be overriden by the system in the case of page authoring.
 

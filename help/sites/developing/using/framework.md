@@ -3,12 +3,12 @@ title: AEM Tagging Framework
 seo-title: AEM Tagging Framework
 description: Tag content and leverage the AEM Tagging infrastructure
 seo-description: Tag content and leverage the AEM Tagging infrastructure
-uuid: 4e8207b9-6eda-42f0-9f35-fa21eb482600
+uuid: ab4bd921-b931-4e62-bff6-d1457e86a87e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 65145a99-fe02-4f65-9544-ff78bfd30031
+discoiquuid: 5b818605-9bcf-43e3-b57f-cc1a8c2eb44d
 index: y
 internal: n
 snippet: y
@@ -22,13 +22,6 @@ To tag content and leverage the AEM Tagging infrastructure :
 
 * The tagged content node's NodeType must include the [ `cq:Taggable`](#taggablecontentcqtaggablemixin) mixin
 * The [TagID](#tagid) is added to the content node's [ `cq:tags`](#taggedcontentcqtagsproperty) property and resolves to a node of type ` [cq:Tag](#tagscqtagnodetype)`
-
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-11-29T01:57:05.860-0500
-Confirm about "The tag must exist as a node of type cq:Tag..."
--->
 
 ## Tags : cq:Tag Node Type  {#tags-cq-tag-node-type}
 
@@ -79,25 +72,11 @@ The tag's namespace is the first level in the taxonomy subtree, which is the nod
 
 All tags have a namespace. If no namespace is specified, the tag is assigned to the default namespace, which is TagID `default` (Title is `Standard Tags),`that is `/content/cq:tags/default.`
 
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-11-28T08:04:42.239-0500
-Doubt: confirm about cq:Tag note type from the Engineering.
--->
-
 ### Container Tags {#container-tags}
 
 A container tag is a node of type `cq:Tag` containing any number and type of child nodes, which makes it possible to enhance the tag model with custom metadata.
 
 Furthermore, container tags (or super-tags) in a taxonomy serve as the sub-summation of all sub-tags: for example content tagged with fruit/apple is considered to be tagged with fruit as well, i.e. searching for content just tagged with fruit would also find the content tagged with fruit/apple.
-
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-11-28T08:05:56.185-0500
-Doubt: confirm about "node of type cq:Tag.." note type from the Engineering.
--->
 
 ### Resolving TagIDs {#resolving-tagids}
 
@@ -110,21 +89,7 @@ Tag referencing non-existing paths or paths that do not point to a cq:Tag node a
 The following table shows some sample TagIDs, their elements, and how the TagID resolves to an absolute path in the repository:
 
 The following table shows some sample TagIDs, their elements, and how the TagID resolves to an absolute path in the repository :  
-The following table shows some sample TagIDs, their elements, and how the TagID resolves to an absolute path in the repository :  
-
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-11-28T08:07:34.264-0500
-Doubt: Confirm about TagID, and how is it useful and where from the engineering.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-11-28T08:08:44.698-0500
-what is a cq:Tag node talked about here in 3rd sentence?
--->
+The following table shows some sample TagIDs, their elements, and how the TagID resolves to an absolute path in the repository : 
 
 <table border="1" cellpadding="2" cellspacing="2" width="100%"> 
  <tbody> 

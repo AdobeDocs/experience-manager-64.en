@@ -3,12 +3,12 @@ title: Connecting Assets to Desktop Applications with Adobe Drive
 seo-title: Connecting Assets to Desktop Applications with Adobe Drive
 description: null
 seo-description: null
-uuid: 8f876397-51cb-4987-bf76-26163b16bfc9
+uuid: 1959dd13-4a08-41fd-8873-acc8efbefe5a
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 70ca432a-7a30-4600-a47e-893e508efb44
+discoiquuid: 889bbbad-5671-4a6d-9852-64be41467c34
 draft: true
 index: y
 internal: n
@@ -16,13 +16,6 @@ snippet: y
 ---
 
 # Connecting Assets to Desktop Applications with Adobe Drive{#connecting-assets-to-desktop-applications-with-adobe-drive}
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-12-13T04:41:51.291-0500
-<p>Chiradeep to update page. </p>
--->
 
 **Adobe Drive CC** connects your Adobe desktop applications, including CC 2015, CC 2014, CC, and CS6) to the Adobe Experience Manager (AEM) service.
 
@@ -64,7 +57,7 @@ To connect to an AEM server:
     * In Windows Explorer, right-click a folder, a file, or your desktop, and choose **Adobe Drive 5 &gt; Connect To** from the context menu. 
     * In Mac OS, CTRL-click a folder or file in Finder or your desktop, and choose **More &gt; Adobe Drive 5 &gt; Connect To** from the context menu.
 
-   ![](assets/chlimage_1-246.png)
+   ![](assets/chlimage_1-245.png)
 
 1. Click **Add Drive**.
 1. Click **AEM DAM** to indicate that you want to connect using the AEM Assets Services Connector.
@@ -82,7 +75,7 @@ To connect to an AEM server:
     * In Windows Explorer, it should be under **My Computer**.
     * In Mac OS Finder, it should be under **Devices**.
 
-   ![](assets/chlimage_1-247.png)
+   ![](assets/chlimage_1-246.png)
 
 ### Troubleshooting {#troubleshooting}
 
@@ -107,11 +100,11 @@ To connect AEM Assets to Adobe Bridge, you must first mount it as a drive on you
 
 Next, start Adobe Bridge, select **Adobe Drive** on the left-hand panel and double click on the drive you want to connect to in the center panel:
 
-![](assets/chlimage_1-248.png)
+![](assets/chlimage_1-247.png)
 
 You can now navigate into the mounted drive to reveal all your AEM assets:
 
-![](assets/chlimage_1-249.png) 
+![](assets/chlimage_1-248.png) 
 
 ### Browsing and manipulating documents and folders {#browsing-and-manipulating-documents-and-folders}
 
@@ -177,15 +170,15 @@ Alternatively you right-click the asset and choose **File Info**. The resulting 
 
 In addition, the Adobe Bridge **Label** menu gives you access to the view and edit rating and label information:
 
-![](assets/chlimage_1-250.png)
+![](assets/chlimage_1-249.png)
 
 Alternatively you right-click the asset and choose **File Info**. The resulting dialog provides access to all XMP metadata properties:
 
-![](assets/chlimage_1-251.png)
+![](assets/chlimage_1-250.png)
 
 In addition, the Adobe Bridge **Label** menu gives you access to the view and edit rating and label information:
 
-![](assets/chlimage_1-252.png) 
+![](assets/chlimage_1-251.png) 
 
 ### Searching documents and folders {#searching-documents-and-folders}
 
@@ -204,7 +197,7 @@ To search for a document or a folder on an AEM server from Adobe Bridge:
 >
 >You can search assets based on any metadata information except "**File size**", "**Check in comment**", or "**Lock owner**" (although these are listed in the search criteria).
 
-![](assets/chlimage_1-253.png) 
+![](assets/chlimage_1-252.png) 
 
 ### Check-out and version management {#check-out-and-version-management}
 

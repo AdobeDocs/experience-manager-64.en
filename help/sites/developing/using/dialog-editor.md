@@ -3,12 +3,12 @@ title: Dialog Editor
 seo-title: Dialog Editor
 description: The dialog editor provides a graphical interface for easily creating and editing dialog boxes and scaffolds
 seo-description: The dialog editor provides a graphical interface for easily creating and editing dialog boxes and scaffolds
-uuid: 5dd01d5f-1b3f-4722-bc96-889035dff947
+uuid: 4b71d6db-9a9d-4835-8972-436d9b7b9107
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: e59f788e-4e4d-46d8-8389-e9d97a3657f6
+discoiquuid: 1267c948-9002-406e-bbff-b71bf77d9287
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ The dialog editor provides a graphical interface for easily creating and editing
 
 To see how it works, go to CRXDE Lite, open the explorer tree to `/libs/foundation/components/chart` and double click on the node `dialog`:
 
-![](assets/chlimage_1-268.png)
+![](assets/chlimage_1-258.png)
 
 The dialog node will open in the **dialog editor**:
 

@@ -3,12 +3,12 @@ title: Q&A Forum Feature
 seo-title: Q&A Forum Feature
 description: Adding the QnA forum feature to a page
 seo-description: Adding the QnA forum feature to a page
-uuid: 6d5f28a0-6749-478e-a7b3-3ecb1b4b9f99
+uuid: 70a2b9e6-7284-4520-83aa-b2c2cd6567cc
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 9e4e7b12-75b0-406c-8543-06f0d4ad6752
+discoiquuid: c87fa852-1c28-4a98-b4a1-f0ea681c7669
 index: y
 internal: n
 snippet: y
@@ -45,13 +45,13 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/qna-essentials.md#essentialsforclientside) are included, this is how the `QnA`component will appear :
 
-![](assets/chlimage_1-291.png)
+![](assets/chlimage_1-279.png)
 
 ### Configuring QnA {#configuring-qna}
 
 Select the placed `QnA` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-292.png) ![](assets/chlimage_1-293.png)
+![](assets/chlimage_1-280.png) ![](assets/chlimage_1-281.png)
 
 #### Settings tab {#settings-tab}
 
@@ -161,24 +161,6 @@ Under the **Sort Settings **tab, specify how the posted comments are sorted when
 
 * **Select Time Options for Analytics Sorting** 
   Pull down to select one of `All, Last 24 Hours, Last 7 Days, Last 30 Days`. Default is `All`.
-
-<!--
-Comment Type: draft
-
-<h2>Related Questions Component</h2>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Configuring Related Questions</h3>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-294.png" />
--->
 
 ## Site Visitor Experience {#site-visitor-experience}
 

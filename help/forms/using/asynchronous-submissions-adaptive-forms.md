@@ -3,11 +3,11 @@ title: Asynchronous submission of adaptive forms
 seo-title: Asynchronous submission of adaptive forms
 description: Learn to configure asynchronous submission for adaptive forms.
 seo-description: Learn to configure asynchronous submission for adaptive forms.
-uuid: db2554f4-619d-4537-ae79-11dbba338a83
+uuid: bf949193-7503-493a-901c-0f495390ac5e
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 3dd97f54-1886-4f30-96c1-00bb2920c639
+discoiquuid: d7dad7e5-2781-476d-b3c2-1f1efc41bf5f
 index: y
 internal: n
 snippet: y
@@ -99,16 +99,4 @@ Perform the following steps to write rules in code editor to handle success and 
 1. In the code editor, tap **[!UICONTROL Edit Code]**. Tap **[!UICONTROL Edit]** on the confirmation dialog.
 1. Choose **[!UICONTROL Successful Submission]** or **[!UICONTROL Error in Submission]** from the **[!UICONTROL Event]** drop-down.
 1. Write a rule for the selected event and tap **[!UICONTROL Done]** to save the rule.
-
-<!--
-Comment Type: draft
-
-<h3 id="example">Example rules</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>TBD</p>
--->
 

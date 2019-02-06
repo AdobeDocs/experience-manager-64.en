@@ -3,11 +3,11 @@ title: Introduction to Interactive Communication authoring UI
 seo-title: An introduction to the various user interface elements you can use to author Interactive Communication
 description: An introduction to the various user interface elements you can use to author Interactive Communication
 seo-description: An introduction to the various user interface elements you can use to author Interactive Communication
-uuid: fa49de81-d381-4ad2-b35e-a4b9a5a1862e
+uuid: 11729892-3723-43d5-8d00-2ea62fa78e4f
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications
-discoiquuid: eb2a65f3-c072-4509-ad89-1fc95c5cb6f6
+discoiquuid: 0d2e8ec5-cccf-4214-8188-745182bd2463
 index: y
 internal: n
 snippet: y
@@ -54,55 +54,6 @@ The Channel browser helps you switch between the print and web channels of the I
 * **Components browser** 
   Includes components that you can use to build the print and web channels of a document. You can drag components to the Interactive Communication to add elements, and configure added element as per the requirements. The following table describes the components listed in Components browser for print and web channels**:**
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-01-22T06:28:30.091-0500
-add layout fragments in "Assets browser"
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-14T11:39:02.181-0500
-Check the details of the content browser - add information about how it can be used to add attachments verify the present info
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-22T07:23:21.492-0400
-three available components > three components available in the components browser DONE seven possible components > seven components in the components browser
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: khsingh
-Last Modified Date: 2018-03-12T06:04:27.585-0400
-Shows object hierarchy of the document for the selected channel Could not find Form Objects and Data Model Objects in content rowser UI
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: khsingh
-Last Modified Date: 2018-03-12T06:08:04.744-0400
-To see properties of the interactive document container: Select a component, then tap > Interactive Communication Container, and then tap ....... Is incorrect ... Kindly revisit
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: khsingh
-Last Modified Date: 2018-03-12T06:41:45.768-0400
-Does it contains assets available only in DAM?
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-17T16:23:02.647-0400
-Data Model Objects Lets you see the form data model hierarchy. It allows you to drag-and-drop elements in the Web channel. The added elements automatically get converted into document components while retaining their original properties.
--->
-
 | **Component** |**Print Channel** |**Web Channel** |**Functionality** |
 |---|---|---|---|
 | Chart |✓ |✓ |Adds a chart that you can use in an Interactive Communication for visual representation of two-dimensional data retrieved from an form data model collection item. |
@@ -119,13 +70,6 @@ Data Model Objects Lets you see the form data model hierarchy. It allows you to 
 
 * **Data Sources Browser** 
   Data Sources Browser displays the available data sources in the form data model you selected while creating the Interactive Communication.
-
-<!--
-Comment Type: annotation
-Last Modified By: khsingh
-Last Modified Date: 2018-03-12T06:49:37.630-0400
-Use entities and properties
--->
 
 #### Key points for working with components {#key-points-for-working-with-components}
 
@@ -174,13 +118,6 @@ J. **More**: Provides more options to work with the selected component.
 * Add panel toolbar (for panels only)
 * Replace (not for panels)
 
-<!--
-Comment Type: annotation
-Last Modified By: khsingh
-Last Modified Date: 2018-03-12T07:34:06.600-0400
-What are panels and fragements?
--->
-
 ## Page toolbar {#page-toolbar}
 
 The Page toolbar on the top provides options that let you preview the Interactive Communication and change its properties. You can preview the Interactive Communication when you author it, and make changes accordingly. In the page toolbar, you see:
@@ -200,23 +137,4 @@ The Page toolbar on the top provides options that let you preview the Interactiv
     * Target: Lets you enable or disable custom components, or out-of-the-box components that are not listed in the Sidebar.
 
 * Preview: Lets you preview how the Interactive Communication looks when you publish it.
-
-<!--
-Comment Type: draft
-
-<related-links>
-<a href="../../forms/using/creating-adaptive-form.md" target="_blank">Creating an adaptive form</a>
-<a href="../../forms/using/creating-forms-repeatable-sections.md" target="_blank">Creating forms with repeatable sections</a>
-<a href="../../forms/using/authoring-in-field-help.md" target="_blank">Authoring in-context help for form fields</a>
-<a href="../../forms/using/synchronizing-adaptive-forms-xfa.md" target="_blank">Synchronizing adaptive forms with XFA form templates</a>
-<a href="../../forms/using/introduction-form-sequence.md" target="_blank">Introduction to multi-step form sequence</a>
-<a href="../../forms/using/creating-accessible-adaptive-forms.md" target="_blank">Creating accessible adaptive forms</a>
-<a href="/forms/using/localizing-adaptive-forms" target="_blank">Localizing adaptive forms</a>
-<a href="../../forms/using/configuring-redirect-page.md" target="_blank">Configuring redirect page</a>
-<a href="../../forms/using/configuring-submit-actions.md" target="_blank">Configuring the submit action</a>
-<a href="/forms/using/enabling-eSign-your-adaptive-forms" target="_blank">Enabling eSign signatures in adaptive forms</a>
-<a href="../../forms/using/layout-capabilities-adaptive-forms.md" target="_blank">Layout capabilities of adaptive forms</a>
-<a href="../../forms/using/custom-adaptive-forms-templates.md" target="_blank">Creating a custom adaptive form template</a>
-</related-links>
--->
 

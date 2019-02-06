@@ -3,12 +3,12 @@ title: Technical Requirements
 seo-title: Technical Requirements
 description: A list of the supported client and server platforms for AEM.
 seo-description: A list of the supported client and server platforms for AEM.
-uuid: cd47a3c7-0e96-484e-8510-f7d9e94d4362
+uuid: 9997a94a-c095-488f-a7cd-e9e02d73fe04
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: b1b89b01-544e-4dd8-87a5-6176e733c527
+discoiquuid: 5379058b-111a-46d4-8f7f-7cb9cb8995ea
 index: y
 internal: n
 snippet: y
@@ -321,13 +321,6 @@ Adobe Experience Manager works with the following server platforms:
 1. AEM Assets: No support for [enhanced PDF Rasterizer](../../../assets/using/aem-pdf-rasterizer.md)
 1. AEM Forms: Not supported
 
-<!--
-Comment Type: annotation
-Last Modified By: chuesler
-Last Modified Date: 2018-04-03T15:53:20.011-0400
-Ubuntu and Forms - what version is supported with AEM 6.4?
--->
-
 ### Virtual & Cloud Computing Environments {#virtual-cloud-computing-environments}
 
 Adobe Experience Manager is supported running in a virtual machine on cloud computing environments, such as Microsoft Azure and Amazon Web Services (AWS), in compliance with the technical requirements listed on this page, and according to Adobe’s standard support terms.
@@ -442,18 +435,6 @@ The AEM user interface is optimized for larger screens (typically notebooks and 
 ### Supported Browsers for Websites {#supported-browsers-for-websites}
 
 Generally, browser support for websites rendered by AEM Sites depends on the implementation of AEM page templates, design and component output, and is therefore in control of the party implementing these parts.
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Some browser-related exceptions for mobile clients are as listed below. These exceptions are only for AEM Forms:</p>
-<ul>
-<li>Forms Portal is supported on Safari on iPad only.</li>
-<li>Blackberry browser supports only adaptive forms.</li>
-</ul>
-</note>
--->
 
 ### WebDAV Clients {#webdav-clients}
 
@@ -654,13 +635,6 @@ XMP write-back is supported and enabled for the following platforms and file for
 * INDD
 * AI
 * EPS
-
-<!--
-Comment Type: annotation
-Last Modified By: chuesler
-Last Modified Date: 2018-04-03T16:02:22.526-0400
-is XMP write-back still only 32bit?
--->
 
 ### Requirements for AEM Screens Player {#requirements-for-aem-screens-player}
 

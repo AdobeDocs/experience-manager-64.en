@@ -3,12 +3,12 @@ title: Troubleshooting Integration Issues
 seo-title: Troubleshooting Integration Issues
 description: Learn how to troubleshoot integration issues.
 seo-description: Learn how to troubleshoot integration issues.
-uuid: e73e596a-2c24-4c68-93f4-dcd262c035ac
+uuid: 768ab41c-6629-4cc9-84bb-ccd858054a24
 contentOwner: raiman
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 4e4ca23e-5d42-4d51-8d58-20b99ea3eba9
+discoiquuid: 59b80889-eae5-456b-8e78-2f3c501ae76f
 index: y
 internal: n
 snippet: y
@@ -43,36 +43,6 @@ ${ myHtlVariable }
 For additional details about logging, see the [Logging](../../../sites/deploying/using/configure-logging.md) and [Working with Audit Records and Log Files](../../../sites/deploying/using/monitoring-and-maintaining.md#workingwithauditrecordsandlogfiles) pages.
 
 ## Analytics Integration Issues {#analytics-integration-issues}
-
-<!--
-Comment Type: draft
-
-<h3>The "Unable to validate authentication" error is shown during configuration</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>This error is shown during configuration because the method <span class="code">Company.GetLoginKey</span> of the Analytics API 1.4 has been deprecated due to a security issue. As a result, authentication against the API is no longer possible with the username/password combination because AEM is not able to fetch the necessary secret with this API call anymore.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h4>Solution</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>Install one of the following CFP/SP</p>
-<ul>
-<li>6.3.1.2</li>
-<li>6.2SP1-CFP9</li>
-<li>cq-5.6.1-hotfix-26424</li>
-</ul>
-<p>If a CFP/SP or HF is not available for your AEM version a back port request for <a href="https://jira.corp.adobe.com/browse/CQ-4218071">CQ-4218071</a> is required.</p>
--->
 
 ### The Report Importer causes high CPU/Memory usage {#the-report-importer-causes-high-cpu-memory-usage}
 

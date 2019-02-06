@@ -3,11 +3,11 @@ title: We.Finance reference site walkthrough
 seo-title: We.Finance reference site walkthrough
 description: Explore the We.Finance reference site and understand how it has been implemented. We.Finance is a sample implementation to showcase key features and functionalities of AEM Forms. 
 seo-description: Explore the We.Finance reference site and understand how it has been implemented. We.Finance is a sample implementation to showcase key features and functionalities of AEM Forms. 
-uuid: f19de256-8c11-4fda-9ba1-f03b1bdc8342
+uuid: fdd4d891-096e-4d02-b626-30eedb17eae2
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: fd4225c4-25ea-45d7-90d2-1fe726e43a35
+discoiquuid: d9e56c58-0221-4d84-b5f4-c97a92698cd5
 index: y
 internal: n
 snippet: y

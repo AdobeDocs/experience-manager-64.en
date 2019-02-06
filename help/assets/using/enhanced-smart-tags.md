@@ -3,11 +3,11 @@ title: Enhanced Smart Tags
 seo-title: Enhanced Smart Tags
 description: null
 seo-description: null
-uuid: 46c5e8cc-7e2b-4ba8-8265-77f6067d4023
+uuid: 406fe305-f834-49ee-82fd-041d56b90158
 contentOwner: cmajumda
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
-discoiquuid: 86e5fc38-871e-4f0b-993d-80188c190b9a
+discoiquuid: 6ad8160e-30b6-4eb1-ad60-4af7b6e6d764
 index: y
 internal: n
 snippet: y
@@ -37,20 +37,6 @@ In summary, here are the main steps to use the Smart Content Service:
 * Reviewing assets and tags (taxonomy definition)
 * Training the Smart Content Service
 * Automatic tagging
-
-<!--
-Comment Type: annotation
-Last Modified By: satyam
-Last Modified Date: 2018-03-13T01:28:24.890-0400
-[Satya Deep] - Typo | Custom | Custom Tags
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: satyam
-Last Modified Date: 2018-03-22T01:52:38.052-0400
-[Satya Deep] - "add you as a user." This doesn't make sense. Probably it can be removed.
--->
 
 ![](assets/Flowchart.gif) 
 
@@ -91,13 +77,6 @@ You can train the service multiple times to improve its ability to apply relevan
 
 You can train the Smart Content Service periodically or on requirement basis.
 
-<!--
-Comment Type: annotation
-Last Modified By: dee
-Last Modified Date: 2018-03-14T04:24:21.407-0400
-[dee] 1. we should mention somewhere about defining tags taxonomy. 2. should we mention algorithm here ? 3. add note for first time training should be at least on two set of assets i.e. two different tags for successful running training to complete.
--->
-
 >[!NOTE]
 >
 >The training workflow runs on folders only.
@@ -129,13 +108,6 @@ You can train the Smart Content Service whenever required from the Workflow cons
 
 To check whether the Smart Content Service is trained on your tags in the training set of assets, review the training workflow report from the Reports console.
 
-<!--
-Comment Type: annotation
-Last Modified By: sneh
-Last Modified Date: 2018-03-14T04:23:16.683-0400
-Do we want to do away with the word algorithm or is it ok?
--->
-
 1. Tap/click the AEM logo, and go to **Tools** &gt; **Assets** &gt; **Reports**.
 1. In the **Asset Reports** page, tap/click **Create**.
 1. Select the **Smart Tags Training** report, and then tap/click **Next** from the toolbar.
@@ -164,13 +136,6 @@ You can run the tagging workflow periodically or whenever required.
 You can enable the Smart Content Service to periodically tag assets within a folder. Open the properties page of your asset folder, select **Enable Smart Tags** under the **Details** tab, and save the changes.
 
 Once this option is selected for a folder, the Smart Content Service automatically tags the assets within the folder. By default, the the tagging workflow runs every day at 12:00 AM.
-
-<!--
-Comment Type: annotation
-Last Modified By: asgupta
-Last Modified Date: 2018-07-05T10:35:28.739-0400
-Which time zone? Distributed server.
--->
 
 ### On-demand tagging {#on-demand-tagging}
 

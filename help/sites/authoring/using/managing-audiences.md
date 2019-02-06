@@ -3,12 +3,12 @@ title: Managing Audiences
 seo-title: Managing Audiences
 description: The Audiences console enables you to create, organize, and manage audiences for your Adobe Target account or manage segments for ContextHub or Client Context
 seo-description: The Audiences console enables you to create, organize, and manage audiences for your Adobe Target account or manage segments for ContextHub or Client Context
-uuid: 7a9a442c-5c0f-404c-800a-dcc440e2c1ef
+uuid: ffe73e67-2152-4513-bbe0-68c145e21c82
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: ac5bab16-0b15-468c-8dc0-abbe76906f2b
+discoiquuid: 5e057958-230e-4268-86bb-084ad4063f39
 index: y
 internal: n
 snippet: y
@@ -42,7 +42,7 @@ To create a ContextHub segment in the Audiences console:
 1. In the Navigation console, click or tap **Personalization**. Click or tap **Audiences**.
 1. Tap or click **Create ContextHub Segment**.
 
-   ![](assets/chlimage_1-370.png)
+   ![](assets/chlimage_1-357.png)
 
 1. In the **New ContextHub Segment** dialog box, enter a title and adjust the boost and click **Create**. Your new ContextHub segment appears in the audience list.
 
@@ -68,11 +68,11 @@ To create an Adobe Target audience:
 
 1. In the Navigation console, click or tap **Personalization**. Click or tap **Audiences**.
 
-   ![](assets/chlimage_1-371.png)
+   ![](assets/chlimage_1-358.png)
 
 1. In the Audiences console, tap or click **Create** and then** Create Target Audience**.
 
-   ![](assets/chlimage_1-372.png)
+   ![](assets/chlimage_1-359.png)
 
 1. In the **Adobe Target Configuration** dialog box, select the target configuration and tap or click **OK**.
 1. In the Rule#1 area, tap or click the attribute type and enter any attribute information in the fields that are available. When finished, select the check mark to the right of the attribute to save it. See [Attributes and their options](#attributesandtheiroptions) for information on all the attributes.

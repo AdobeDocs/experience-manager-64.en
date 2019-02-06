@@ -3,11 +3,11 @@ title: Saving a task or form as a draft
 seo-title: Saving a task or form as a draft
 description: Steps to save a draft copy of a task or a form in the AEM Forms app
 seo-description: Steps to save a draft copy of a task or a form in the AEM Forms app
-uuid: 982294be-b86f-448d-a977-99bcbf93d755
+uuid: de52d8a8-8640-4d4d-a7f9-9c354fbdf660
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 9adff179-62f9-47ba-8741-fd9500274e6b
+discoiquuid: 3b6d6297-f1bc-4425-848e-62a1e7d02ea1
 index: y
 internal: n
 snippet: y

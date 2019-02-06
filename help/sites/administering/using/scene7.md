@@ -3,25 +3,18 @@ title: Integrating with Dynamic Media Classic (Scene7)
 seo-title: Integrating with Dynamic Media Classic (Scene7)
 description: Learn how to integrate AEM with Scene7.
 seo-description: Learn how to integrate AEM with Scene7.
-uuid: 9ab2ee42-073c-45ab-b613-896190070799
+uuid: 3cec96c7-e695-4aab-86bd-1126acf42885
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 682e179c-10ea-4a38-9b2d-fcbb706079cf
+discoiquuid: 869ef75a-3e2d-4579-b48a-30665eee0626
 index: y
 internal: n
 snippet: y
 ---
 
 # Integrating with Dynamic Media Classic (Scene7){#integrating-with-dynamic-media-classic-scene}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2018-03-15T23:52:06.705-0400
-<p>Most of the procedures are still only in classic UI (cloud services), but added procedure for enabling config in wcm in touch ui. Update was made in October.</p>
--->
 
 [Adobe Scene7](http://help.adobe.com/en_US/scene7/using/WS26AB0D9A-F51C-464e-88C8-580A5A82F810.html) is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
 
@@ -288,7 +281,7 @@ If you run AEM behind a proxy or have special firewall settings, you may need to
 
 If you navigate to **/etc/cloudservices/scene7/endpoints.html**, you see the servers listed (and can edit them by clicking on the URL):
 
-![](assets/chlimage_1-347.png) 
+![](assets/chlimage_1-332.png) 
 
 ### Creating a cloud configuration for Scene7 {#creating-a-cloud-configuration-for-scene}
 
@@ -310,7 +303,7 @@ To configure AEM to be able to publish assets to Scene7, perform the following s
 
 1. Click **Configure Now**.
 
-   ![](assets/chlimage_1-348.png)
+   ![](assets/chlimage_1-333.png)
 
 1. In the **Title** field, and optionally in the **Name** field, enter the appropriate information. Click **Create**.
 
@@ -333,7 +326,7 @@ To configure AEM to be able to publish assets to Scene7, perform the following s
    >
    >Depending on the size of the Scene7 folder, importing a root folder can take a long time. In addition, Scene7 data could exceed the AEM storage. Ensure you are importing the correct folder. Importing too much data can stop your system.
 
-   ![](assets/chlimage_1-349.png)
+   ![](assets/chlimage_1-334.png)
 
 1. Click **OK**. AEM saves your configuration.
 
@@ -354,7 +347,7 @@ To enable it:
 1. Tap or click the Tools icon, then navigate to **Operations** &gt; **Web Console**. The Web console opens.
 1. Navigate to **Adobe CQ Scene7 Dam Listener** and select the **Enabled** check box. 
 
-   ![](assets/chlimage_1-350.png)
+   ![](assets/chlimage_1-335.png)
 
 1. Tap or click **Save**.
 
@@ -364,7 +357,7 @@ When an AEM instance is configured to handle video encoding through Dynamic Medi
 
 1. Navigate to **http://localhost:4502/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl**.
 
-   ![](assets/chlimage_1-351.png)
+   ![](assets/chlimage_1-336.png)
 
 1. Change the number as desired in the **Active job timeout** field. Any non-negative number is accepted with the unit of measure in seconds. By default, this is set to 2100.
 
@@ -398,7 +391,7 @@ To configure autouploading from AEM Assets:
 1. Navigate back to the AEM welcome page and click **Workflows**. Double-click the** DAM Update Asset** workflow to open it.
 1. In the sidekick, navigate to the **Workflow** components, and select **Scene7**. Drag **Scene7** to the workflow and click **Save**. Assets added to AEM Assets in the target folder will automatically be uploaded to Scene7.
 
-   ![](assets/chlimage_1-352.png)
+   ![](assets/chlimage_1-337.png)
 
    >[!NOTE]
    >
@@ -459,7 +452,7 @@ To set the state of assets pushed to Scene7 as unpublished:
 
    See [Scene7 documentation](http://help.adobe.com/en_US/scene7/using/WSd968ca97bf00cf72-5eeee3a113268dc80f5-8000.html) for more information on testing assets before making them public.
 
-   ![](assets/chlimage_1-353.png)
+   ![](assets/chlimage_1-338.png)
 
 1. Click **OK**.
 
@@ -487,7 +480,7 @@ To enable Scene7 for WCM in the touch-optimized UI:
 1. Tap or click **Cloud Services** and tap or click **Add Configuration **and select **Scene7**.
 1. In the **Adobe Scene7** drop-down list, select the desired configuration and click **OK**.
 
-   ![](assets/chlimage_1-354.png)
+   ![](assets/chlimage_1-339.png)
 
    Video presets from that configuration of Scene7 are available for use in AEM with the Scene7 video component on that page and child pages.
 
@@ -517,7 +510,7 @@ To configure the default configuration:
 
 1. In the **General** tab, select the **Default Configuration **check box to make this the default company and root path that appears in the **Scene7 Content Browser**.
 
-   ![](assets/chlimage_1-355.png)
+   ![](assets/chlimage_1-340.png)
 
    >[!NOTE]
    >
@@ -534,7 +527,7 @@ To configure the adhoc folder:
 
 1. Tap or click the **Advanced** tab. In the** Ad-hoc Folder **field, you can modify the **Ad-hoc** folder. By default, it is the **name_of_the_company/CQ5_adhoc**.
 
-   ![](assets/chlimage_1-356.png)
+   ![](assets/chlimage_1-341.png)
 
 ### Configuring universal presets {#configuring-universal-presets}
 

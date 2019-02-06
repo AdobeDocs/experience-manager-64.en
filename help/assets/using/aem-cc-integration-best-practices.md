@@ -3,12 +3,12 @@ title: AEM and Creative Cloud Integration Best Practices
 seo-title: AEM and Creative Cloud Integration Best Practices
 description: Best practices for integrating an AEM instance with Adobe Creative Cloud to streamline asset transfer workflows and achieve maximum efficiency.
 seo-description: Best practices for integrating an AEM instance with Adobe Creative Cloud.
-uuid: a4fc4ab8-75d0-49e2-ae1b-aae78fcf4b37
+uuid: c01513f0-e45c-4284-abd0-b3676920c4d1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 747d952f-d896-4cc8-b4e5-d90ed632ba4d
+discoiquuid: f7798e57-9baa-46c7-9a0a-69a8222f26f6
 index: y
 internal: n
 snippet: y
@@ -64,7 +64,7 @@ The following types of integration are described in this guide:
 
 The follow diagram depicts both types of integration and describes how they connect work and assets in DAM with user's work on desktop:
 
-![](assets/chlimage_1-254.png) 
+![](assets/chlimage_1-253.png) 
 
 ### Determining which integration to use {#determining-which-integration-to-use}
 
@@ -269,7 +269,7 @@ The following use cases describe various types of workflows between DAM and desi
 
 The following diagram illustrates the digital asset lifecycle. It depicts how creative users and DAM users (marketers, LOB users) leverage existing assets and use them to create more assets, and send them for approval.
 
-![](assets/chlimage_1-255.png)
+![](assets/chlimage_1-254.png)
 
 The asset lifecycle includes the following stages:
 
@@ -296,7 +296,7 @@ In some cases, assets in DAM might require changes. Examples include:
 
 In such cases, AEM Desktop App provides the easiest way of performing these operations.
 
-![](assets/chlimage_1-256.png)
+![](assets/chlimage_1-255.png)
 
 Here is the flow of events depicted in the diagram:
 

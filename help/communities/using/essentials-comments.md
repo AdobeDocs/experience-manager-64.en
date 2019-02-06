@@ -3,12 +3,12 @@ title: Comments Essentials
 seo-title: Comments Essentials
 description: Comments component overview
 seo-description: Comments component overview
-uuid: 533ab45c-8016-484e-a343-d07f6d549038
+uuid: 8bbc1421-6cfd-4f6e-a097-4db795f9bcb5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: e955d2b7-64cd-4537-b6e2-4ee0167fa349
+discoiquuid: b2381804-5179-4e72-8c98-a5fb2670bca6
 index: y
 internal: n
 snippet: y

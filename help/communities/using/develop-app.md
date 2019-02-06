@@ -3,12 +3,12 @@ title: Develop Sandbox Application
 seo-title: Develop Sandbox Application
 description: Develop application using foundation scripts
 seo-description: Develop application using foundation scripts
-uuid: 06e10944-e7f4-4ecd-95a1-8121707b9d84
+uuid: b280adef-65f2-4978-a72d-aa6b8412c296
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 8d6d2208-53e4-4116-9d08-b0f9a9742418
+discoiquuid: 142eb3f4-b6ee-49be-a793-52e677d642ed
 index: y
 internal: n
 snippet: y
@@ -41,7 +41,7 @@ Using CRXDE Lite:
 1. Click the green** [+] Add**
 1. click **Save All**
 
-![](assets/chlimage_1-237.png) 
+![](assets/chlimage_1-230.png) 
 
 ### head and body scripts {#head-and-body-scripts}
 
@@ -126,13 +126,13 @@ You should not only see the heading **Community Play**, but also the UI for edit
 
 The Assets/Component side panel is seen when both the side panel is toggled open and the window is wide enough for both the side content and the page content to be displayed.
 
-![](assets/chlimage_1-238.png)
+![](assets/chlimage_1-231.png)
 
 * Classic UI : [http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html](http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html)
 
 Following is how the play page appears in the classic UI including with content finder (cf) :
 
-![](assets/chlimage_1-239.png) 
+![](assets/chlimage_1-232.png) 
 
 ## Communities Components {#communities-components}
 

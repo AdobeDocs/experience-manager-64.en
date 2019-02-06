@@ -3,12 +3,12 @@ title: Reports Console
 seo-title: Reports Console
 description: Learn how to access reports
 seo-description: Learn how to access reports
-uuid: 9c624243-3fc7-47de-8a72-d76928df8c0c
+uuid: 68c5ddb1-a4d8-4f89-bcce-a46f3cf74a34
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: b4b5b2a4-39c6-4585-bf66-e408993ec4b6
+discoiquuid: b2234b7c-5799-44e0-a3f8-474b28ed1bc8
 index: y
 internal: n
 snippet: y
@@ -51,7 +51,7 @@ Tabular reports can be exported in .csv format for subsequent processing.
 
         * generate a report for selected Community Site, Content Type, and Time Period
 
-![](assets/chlimage_1-162.png)
+![](assets/chlimage_1-155.png)
 
 ### Reports for Enablement Resources and Learning Paths {#reports-for-enablement-resources-and-learning-paths}
 
@@ -84,7 +84,7 @@ The Assignments console allows reports to be filtered by enablement community si
 
 The report provides information on their progress as well as any comments or ratings provided.
 
-![](assets/chlimage_1-163.png)
+![](assets/chlimage_1-156.png)
 
 Select the criteria for the report :
 
@@ -101,13 +101,13 @@ Select the criteria for the report :
 
 Select **Generate** to create the report :
 
-![](assets/chlimage_1-164.png)
+![](assets/chlimage_1-157.png)
 
 ## Views Report {#views-report}
 
 The Views console allows reports to be generated on page views by community feature(s) for a given time period.
 
-![](assets/chlimage_1-165.png)
+![](assets/chlimage_1-158.png)
 
 Select the criteria for the report :
 
@@ -127,13 +127,13 @@ Select the criteria for the report :
 
 Select **Generate** to create the report :
 
-![](assets/chlimage_1-166.png)
+![](assets/chlimage_1-159.png)
 
 ## Posts Report {#posts-report}
 
 The Posts console allows reports to be generate on number of posts to community feature(s) for a given time period.
 
-![](assets/chlimage_1-167.png)
+![](assets/chlimage_1-160.png)
 
 Select the criteria for the report :
 
@@ -153,7 +153,7 @@ Select the criteria for the report :
 
 Select **Generate** to create the report :
 
-![](assets/chlimage_1-168.png)
+![](assets/chlimage_1-161.png)
 
 ## Troubleshooting {#troubleshooting}
 

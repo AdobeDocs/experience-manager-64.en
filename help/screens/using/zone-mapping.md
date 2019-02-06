@@ -4,9 +4,9 @@ seo-title: Display Layout Editor
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: a55d4f37-4943-4c8d-98c4-40aed0a459ba
+uuid: dd68f813-b90e-4405-bc51-a1d53ce5d672
 contentOwner: jsyal
-discoiquuid: cf8c1b18-ff67-41db-a55c-d85407bd502a
+discoiquuid: 90f0879d-4fca-4ec4-9fa3-db6605eaa63b
 index: y
 internal: n
 snippet: y
@@ -31,13 +31,6 @@ The following templates are available while creating zones for display:
 * 5x1
 
 Using any one of these templates allows you to create an intuitive and interactive digital signage experience where a variety of content can be leveraged on a single screen.
-
-<!--
-Comment Type: annotation
-Last Modified By: jsyal
-Last Modified Date: 2018-09-28T13:22:59.206-0400
-wrong nomenclature?
--->
 
 >[!NOTE]
 >

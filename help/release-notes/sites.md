@@ -3,12 +3,12 @@ title: AEM Sites Release Notes
 seo-title: AEM Sites
 description: Release notes specific to Adobe Experience Manager 6.4 Sites.
 seo-description: Release notes specific to Adobe Experience Manager 6.4 Sites.
-uuid: 06b06875-fc3e-4fc3-99de-deacb235c973
+uuid: 15eb3e50-419f-4fb5-9110-2b227781d0d2
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 68ec99c1-0f44-4246-9d6a-8cd2f1e27321
+discoiquuid: f0237462-429f-4571-8e5d-1f71ea0e7d40
 index: y
 internal: n
 snippet: y
@@ -114,12 +114,6 @@ See the following for AEM Sites 6.4 enhancements in detail:
 
 * Support folders to organize segments based on site/context (CQ-94620)
 * Moved default location for segments into /conf to have site/context specific Segment lists.
-
-<!--
-Comment Type: draft
-
-<h3> </h3>
--->
 
 ### AEM &amp; Adobe Target&nbsp; {#aem-amp-adobe-target-nbsp}
 

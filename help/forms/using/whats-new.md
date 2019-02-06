@@ -3,11 +3,11 @@ title: New features summary | AEM 6.4 Forms
 seo-title: New features summary | AEM 6.4 Forms
 description: Summary of new features and enhancements in AEM 6.4 Forms.
 seo-description: Summary of new features and enhancements in AEM 6.4 Forms.
-uuid: 9917c66f-354b-4d64-acc0-3d20ba65c15d
+uuid: 4de9ba6a-e4a3-4d22-9376-a428ba186d79
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: c09ae3b6-d025-4f6a-bfe4-4bad6a966558
+discoiquuid: f0a95138-c18b-45e2-bd16-463d6ffd77e7
 index: y
 internal: n
 snippet: y
@@ -19,22 +19,9 @@ Summary of new features and enhancements in AEM 6.4 Forms.
 
 AEM Forms includes several new features and enhancements that further streamline creation, management, and user experiences with adaptive forms and interactive communications.
 
-<!--
-Comment Type: draft
-
-<p>Read on for quick introduction to new features and enhancements. For complete list of available documents, see <a href="/content/help/en/experience-manager/aem-beta" target="_blank">Adobe Experience Manager 6.4 Beta Help</a>.</p>
--->
-
 Read on for quick introduction to new features and enhancements. Visit documentation for resources offering details. Also, see AEM 6.4 Forms [release notes](../../release-notes/forms.md). For complete AEM 6.4 Forms documentation, visit [AEM 6.4 Forms User Guide](/forms/user-guide).
 
 ## Interactive Communications {#interactive-communications}
-
-<!--
-Comment Type: annotation
-Last Modified By: virai
-Last Modified Date: 2018-01-11T06:23:17.356-0500
-Customer documents and communications Can we write or atleast suggest this?
--->
 
 ![](assets/Correspondence-management.png)
 
@@ -118,12 +105,6 @@ For more information, see:
 ### Compatibility package for existing assets {#compatibility-package-for-existing-assets}
 
 By default, letter assets from the previous versions of AEM Forms are not supported in this release. If you intend to continue using the letters from AEM 6.3 Forms and AEM 6.2 Forms, you need to install Compatibility package.
-
-<!--
-Comment Type: draft
-
-<p>For more information, see <a href="../../forms/using/compatibility-package.md" target="_blank">Compatibility Package</a>.</p>
--->
 
 ## Data Integration {#data-integration}
 
@@ -330,16 +311,4 @@ AEM Forms can be set up using any combination of supported operating systems, ap
 </table>
 
 1. AIX and Solaris operating systems are available only for upgrade customers.
-
-<!--
-Comment Type: draft
-
-<h2>Document Security</h2>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/AEM-Forms-Document-Security-.png" title="Document Security" />
--->
 

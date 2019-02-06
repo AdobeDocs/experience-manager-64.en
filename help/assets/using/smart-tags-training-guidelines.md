@@ -3,9 +3,9 @@ title: Smart Content Service Training Guidelines
 seo-title: Smart Content Service Training Guidelines
 description: null
 seo-description: null
-uuid: 20f16f89-bc86-410c-903b-1faf9bb8ace2
+uuid: f159ec67-e225-4d36-acc8-28e76a98b99b
 contentOwner: cmajumda
-discoiquuid: 304ceba8-280e-4448-baf4-f944f8927e02
+discoiquuid: 9676a821-1df0-417d-879b-dc64831279c8
 index: y
 internal: n
 snippet: y
@@ -52,13 +52,6 @@ Enhanced smart tags are based on learning models of brand images and their tags.
 * Tagging is supported in the locales that AEM is supported in. For a list of languages, see [Smart Content Services release notes](../../release-notes/smart-content-service-release-notes.md).
 
 To search for assets with smart tags (regular or enhanced), use the Assets Omni-search (full-text search). There is no separate search predicate for smart tags. 
-
-<!--
-Comment Type: annotation
-Last Modified By: sneh
-Last Modified Date: 2018-03-14T04:30:43.049-0400
-This needs to be highlighted in the section for running training workflows as well
--->
 
 >[!NOTE]
 >

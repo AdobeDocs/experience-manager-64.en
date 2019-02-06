@@ -4,35 +4,14 @@ seo-title: DO NOT PUBLISH Content Fragments Configuring Components for Rendering
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 8ef1ee05-b5e1-475e-8ef5-2cfdf6e10c31
-discoiquuid: 32e0cc2a-5341-42c5-8e27-d3adf93e5d74
+uuid: 1985b229-3c59-4477-82ee-b86daa6df18d
+discoiquuid: 5f9b30ef-817a-4f7a-b86f-83e4793f08bb
 index: y
 internal: n
 snippet: y
 ---
 
 # DO NOT PUBLISH Content Fragments Configuring Components for Rendering{#do-not-publish-content-fragments-configuring-components-for-rendering}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-11-27T00:23:05.967-0500
-<p>6.5</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-10-30T09:58:04.583-0400
-<p>THIS PAGE IS WRITTEN FOR 6.5 M1 - DO NOT PUBLISH FOR 6.4<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-07-13T04:16:28.869-0400
-<p>see https://wiki.corp.adobe.com/display/~sgrimm/Configuring+components+for+rendering</p>
--->
 
 There are several advanced services related to the rendering of content fragments. To use these services, the resource types of such components must make themselves known to the content fragments framework.
 
@@ -58,13 +37,6 @@ The services that require the registration of a component are:
 If you need one or more of these features, then (typically) it is easier to use the out-of-the-box functionality, instead of developing it from scratch.
 
 ## OSGi Configuration {#osgi-configuration}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-07-26T09:56:08.081-0400
-<p>A link to the OSGi configuration page would be good....once we know where this page will be located (and whether there will be any other 6.5 pages available).</p>
--->
 
 The configuration needs to be bound to the OSGi service **Content Fragment Component Configuration**:
 
@@ -150,13 +122,6 @@ As an example, see the following (on an out-of-the-box AEM instance):
 ```
 
 This contains:
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-07-26T09:58:41.062-0400
-<p>is a direct copy of file contents from the repository, so is it liable to change (often)....otherwise a reference/link might be safer?</p>
--->
 
 ```
 dam.cfm.component.resourceType="core/wcm/extension/components/contentfragment/v1/contentfragment"

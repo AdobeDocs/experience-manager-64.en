@@ -3,10 +3,10 @@ title: Inline styling of adaptive form components
 seo-title: Inline CSS properties for adaptive form components
 description: While you can apply custom styles on an adaptive form, you can also apply inline CSS properties on individual components of an adaptive form.
 seo-description: While you can apply custom styles on an adaptive form, you can also apply inline CSS properties on individual components of an adaptive form.
-uuid: bd26fbdc-e131-45f0-afeb-fd85cd50db3f
+uuid: e5713101-0667-4995-afce-4000f32efe9b
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 4879ae45-fca9-4202-92b9-ec402d49fc87
+discoiquuid: e7a3634c-0722-407a-99fe-6b607a4f02f6
 index: y
 internal: n
 snippet: y
@@ -15,33 +15,6 @@ snippet: y
 # Inline styling of adaptive form components{#inline-styling-of-adaptive-form-components}
 
 You can define the overall appearance and style of an adaptive form by specifying styles using [theme editor](../../forms/using/themes.md). Also, you can apply inline CSS styles to individual adaptive form components and preview the changes on the fly. Inline styles override styling provided in the theme.
-
-<!--
-Comment Type: draft
-
-<p>With the help of the following image of a text component, let’s first learn about the different part of an adaptive form component on which you can apply styles. </p>
--->
-
-<!--
-Comment Type: draft
-
-<img alt="Parts of an adaptive form component" imageRotate="0" src="assets/inline-style-components.png" title="Parts of an adaptive form component" />
--->
-
-<!--
-Comment Type: draft
-
-<p>Different parts on an adaptive form component called out in the above image are as follows:</p>
-<p>A.<strong> Label</strong>: caption for the component. <br /> B.<strong> Field</strong>: area that encompasses all parts of the component<br /> C.<strong> Widget</strong>: area where user specifies or selects a value for the field<br /> D.<strong> Help</strong>: short description, long description, and help indicator for the component</p>
--->
-
-<!--
-Comment Type: draft
-
-<note>
-<p>You can only style the appearance of the label. To change lable text, use the Title propertly of the text box in the edit mode. For more information, see <a href="../../forms/using/introduction-forms-authoring.md#page-toolbar" target="_blank">Page Toolbar</a>. </p>
-</note>
--->
 
 ## Apply inline CSS properties {#apply-inline-css-properties}
 

@@ -3,12 +3,12 @@ title: Creating and Managing Offers
 seo-title: Creating and Managing Offers
 description: Use the Offers console to create offers that you can use in activity experiences
 seo-description: Use the Offers console to create offers that you can use in activity experiences
-uuid: 2c0522c0-731a-4a4b-b23c-9d8b1e7910b0
+uuid: 1593c5ca-5114-4488-9d63-cc12c3218463
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: fc3b3aad-6197-407a-9de2-0d39234e5c41
+discoiquuid: 270fb3e0-8ba5-4370-bf22-d4d25b2fbd46
 index: y
 internal: n
 snippet: y
@@ -31,7 +31,7 @@ When you create a brand using the Offers console, it also appears in the [Activi
 
 1. In the Navigation console, click or tap **Personalization** &gt; **Offers**.
 
-   ![](assets/chlimage_1-378.png)
+   ![](assets/chlimage_1-365.png)
 
 1. Click or tap **Create** and then **Create** **Brand**.
 1. Select the brand template and click or tap **Next**.
@@ -45,12 +45,12 @@ Add a folder to the offer library of a brand to organize and store offers. You c
 1. In the Offers console, open the location where you want to create the folder. For example, open the brand to create a top-level folder, or open another folder in the library.
 1. Click or tap **Create** &gt; **Create Folder or Offer**.
 
-   ![](assets/chlimage_1-379.png)
+   ![](assets/chlimage_1-366.png)
 
 1. Select **Folder** and click **Next**. 
 1. Type a title for the folder as you want it to appear in the offer library and type or select tags.
 
-   ![](assets/chlimage_1-380.png)
+   ![](assets/chlimage_1-367.png)
 
 1. Click or tap **Create**.
 
@@ -63,7 +63,7 @@ After you create the offer you can open it to author the content.
 1. In the Offers console, open the location where you want to create the offer. For example, open the brand to create a top-level offer, or open a folder in the library.
 1. Click or tap **Create** &gt; **Create Folder or Offer**.
 
-   ![](assets/chlimage_1-381.png)
+   ![](assets/chlimage_1-368.png)
 
 1. Select the **Offer Page** template and then click or tap **Next**.
 1. Type a title for the offer and optionally select or type one or more tags to associate with the offer, then click or tap **Create**.
@@ -98,43 +98,12 @@ You can delete an offer while viewing either folder contents in an offer library
 
 Search for offers of any brand using keywords for matching the title.
 
-<!--
-Comment Type: draft
-
-<p>Search for offers of any brand using the following criteria:</p>
-<ul>
-<li>Keywords for matching the title.</li>
-<li>Tags that are associated with offers.</li>
-<li>The modification date.</li>
-<li>Whether the offer is published or is a livecopy.</li>
-</ul>
-<p>When you specify multiple search criteria, the results include offers that satisfy all the criteria. For example, specifying the keyword Mobile and a modification range of In Last Year returns all offers that have Mobile in the title that were modified within the previous 12 months.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>See <a href="../../../sites/authoring/using/search.md">Searching</a> for detailed information.</p>
--->
-
-![](assets/chlimage_1-382.png)
+![](assets/chlimage_1-369.png)
 
 The current search criteria appear next to the search results. You can also sort the results by column in ascending or descending order. You can perform a search from any folder of any offer library. The search results are the same regardless of the current folder.
-
-<!--
-Comment Type: draft
-
-<p>You can add or remove criteria as required. If you perform several searches, you can move back in the search history to see previous search results.</p>
--->
 
 To search offers:
 
 1. At the top of the Offers console, click or tap the magnifying glass icon. By default the search is limited to offers. 
 1. Enter your keyword to search for offers. Select from the results.
-
-   <!--
-   Comment Type: draft
-
-   <p>For more information on how to add criteria see <a href="../../../sites/authoring/using/search.md">Searching</a>.</p>
-   -->
 

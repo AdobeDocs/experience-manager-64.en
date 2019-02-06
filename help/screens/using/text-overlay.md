@@ -3,12 +3,12 @@ title: Text Overlay
 seo-title: Text Overlay
 description: Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more.
 seo-description: Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more.
-uuid: a39d33b2-a04b-46cd-bd3d-a4466ccf453a
+uuid: c6ff1ae7-d2bb-4a46-9e0b-da5aa4f6ca0d
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 4447b2fd-7ed5-4953-bff1-4215790b3fab
+discoiquuid: c1ea3c1c-d7c1-430e-9bd6-4b322acd4d04
 noindex: true
 index: y
 internal: n

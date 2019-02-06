@@ -3,10 +3,10 @@ title: Employee self-service reference site walkthrough
 seo-title: Employee self-service
 description: AEM Forms reference site showcases how organizations can leverage AEM Forms features to implement employee recruitment and self-service workflows.
 seo-description: AEM Forms reference site showcases how organizations can leverage AEM Forms features to implement employee recruitment and self-service workflows.
-uuid: c8bd9036-166b-4003-9eb5-e0edf2d0fe79
+uuid: e2583e6b-ca76-4b4e-8dd7-853148f1ef73
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a074b88d-8406-431d-b0d3-4696bc58ca69
+discoiquuid: 7297dc2e-0f82-46f6-94e6-9b1260921afd
 index: y
 internal: n
 snippet: y

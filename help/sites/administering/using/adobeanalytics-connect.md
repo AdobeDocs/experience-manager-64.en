@@ -3,28 +3,18 @@ title: Connecting to Adobe Analytics and Creating Frameworks
 seo-title: Connecting to Adobe Analytics and Creating Frameworks
 description: Learn about connecting AEM to SiteCatalyst and creating frameworks.
 seo-description: Learn about connecting AEM to SiteCatalyst and creating frameworks.
-uuid: 5ad3e594-83e0-4481-938b-9f73b1dd03b9
+uuid: 432fa1ac-bb10-4834-903a-a5356061c864
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 13fb10a5-90c7-4620-8c98-34252e715151
+discoiquuid: 507673dc-a009-4113-b086-3744c4fec109
 index: y
 internal: n
 snippet: y
 ---
 
 # Connecting to Adobe Analytics and Creating Frameworks{#connecting-to-adobe-analytics-and-creating-frameworks}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-02-05T06:46:05.235-0500
-<p>just for the record:</p>
-<p>2018-01-31</p>
-<p>AJH&gt; still CQ variables?</p>
-<p>RSchaer&gt; Answer: Yes</p>
--->
 
 To track web data from your AEM pages in Adobe Analytics, create a Adobe Analytics Cloud Services configuration and a Adobe Analytics framework:
 
@@ -37,16 +27,6 @@ When you assocate a web page with a framework, the framework performs tracking f
 
 ### Adobe Analytics Account {#adobe-analytics-account}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-02-05T06:46:05.362-0500
-<p>AJH&gt;</p>
-<p>Marketing Cloud for 6.3<br /> Experience Cloud for 6.4<br /> oder?</p>
-<p>RSchaer&gt; AFAIK Yes</p>
-<p>AJH&gt; the link is still marketing.adobe.com</p>
--->
-
 To track AEM data in Adobe Analytics, you must have a valid Adobe Marketing Cloud Adobe Analytics account.
 
 The Adobe Analytics account needs to:
@@ -58,17 +38,7 @@ The Adobe Analytics account needs to:
 >
 >Providing **Administrator** privileges (within Adobe Analytics) is not enough to allow a user to connect from AEM to Adobe Analytics. The account must also have **Web Service Access** privileges.
 
-![](assets/chlimage_1-370.png) 
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-02-05T06:46:05.559-0500
-<p>AJH&gt;</p>
-<p>Marketing Cloud for 6.3<br /> Experience Cloud for 6.4<br /> oder?</p>
-<p>RSchaer&gt; AFAIK Yes</p>
-<p>AJH&gt; the link is still marketing.adobe.com</p>
--->
+![](assets/chlimage_1-355.png)
 
 Before proceeding, ensure your credentials allow you to log in to Adobe Analytics. Via either:
 
@@ -222,13 +192,6 @@ For the Report Suite ID (RSID) that you are using, you can control which server 
 
 1. In the **Report Suites** section of the side pod (right side of main panel), click **Add Item**. Then use the drop-down to select the Report Suite ID (for example, `geometrixxauth`) with which the framework will interact.
 
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-05-04T02:22:53.982-0400
-   <p>geometrixxauth or diiweretail?</p>
-   -->
-
    >[!NOTE]
    >
    >The content finder on the left is populated with Adobe Analytics variables (SiteCatalyst Variables) when you select a Report Suite ID.
@@ -297,13 +260,6 @@ See [Seeing Page Analytics Data](../../../sites/authoring/using/pa-using.md) for
 
 ### Configuring the Import Interval {#configuring-the-import-interval}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-05-10T04:55:02.070-0400
-<p>Is the default interval 4320000milliseconds or 1800seconds?</p>
--->
-
 Configure the appropriate instance of the **Adobe AEM Managed Polling Configuration** service:
 
 * **Poll Interval**:  
@@ -322,14 +278,6 @@ As when creating an Adobe Analytics configuration or framework, navigate to the 
 When editing an Adobe Analytics configuration, you also need to press the **Edit** button when on the configuration page itself in order to open the **Edit Component** dialog.
 
 ## Deleting Adobe Analytics Frameworks {#deleting-adobe-analytics-frameworks}
-
-<!--
-Comment Type: remark
-Last Modified By: Roland Schaer (rschaer)
-Last Modified Date: 2018-02-05T06:46:07.890-0500
-<p>how to delete a configuration?</p>
-<p>rschaer&gt; Seems only possible via Classic UI</p>
--->
 
 To delete an Adobe Analytics framework, first [open it for editing](#editingadobeanalyticsconfigurationsandorframeworks).
 

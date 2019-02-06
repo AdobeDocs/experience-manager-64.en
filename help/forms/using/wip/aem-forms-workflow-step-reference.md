@@ -4,8 +4,8 @@ seo-title: Forms-centric workflow on OSGi - Step Reference
 description: Forms-centric workflow on OSGi steps allow you rapidly build adaptive forms based workflows.
 seo-description: Forms-centric workflow on OSGi steps allow you rapidly build adaptive forms based workflows.
 page-status-flag: never-activated
-uuid: d2d437f8-b515-4a36-aea4-c5b8eb4516e0
-discoiquuid: aa139a90-3fe9-4087-83af-3af10bfc7bfd
+uuid: 198974a0-7a82-45d6-a2e6-dfa2e05f75a5
+discoiquuid: 6c174a05-834a-44a0-9b0c-501c1787b30c
 index: y
 internal: n
 snippet: y
@@ -16,20 +16,6 @@ snippet: y
 ## Forms Workflow Steps {#forms-workflow-steps}
 
 Forms workflow steps perform AEM Forms-specific operations in an AEM workflow. These steps allow you rapidly build adaptive forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal- and acros- the-firewall business processes. You can also use Forms Workflow steps to start document services, integrate with Adobe Sign signature workflow, and perform other AEM Forms operations. You require [AEM Forms add-on](http://www.adobe.com/go/learn_aemforms_documentation_63) to use these steps in a workflow.
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-13T05:54:24.984-0500
-Forms workflow steps are in addition to default workflow steps. - needs rephrasing
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-13T05:55:13.340-0500
-These steps allow you rapidly build adaptive forms based Forms-centric workflow on OSGi. --> These steps allow you to rapidly build adaptive forms based Forms-centric workflow on OSGi.
--->
 
 ## Assign task step {#assign-task-step}
 

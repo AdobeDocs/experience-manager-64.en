@@ -4,12 +4,12 @@ seo-title: Components Console
 description: The Components console allows you to browse through all components defined for your instance and view key information for each component.
 seo-description: The Components console allows you to browse through all components defined for your instance and view key information for each component.
 page-status-flag: de-activated
-uuid: c6acff5b-6f14-457a-b5e6-94bfeab0a9ba
+uuid: d8775a62-e1d0-41cf-80cd-1d9feca6f843
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 2780569a-92c8-451b-8425-ea33073f21dc
+discoiquuid: 4ac778f2-9ae8-4b7e-a960-ffaec2892a69
 index: y
 internal: n
 snippet: y

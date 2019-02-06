@@ -3,11 +3,11 @@ title: PhoneGap
 seo-title: Authoring Content for Adobe PhoneGap Enterprise
 description: This page serves as starting point for developing apps using PhoneGap Enterprise with AEM. AEM integrates with PhoneGap so that you can easily create apps using AEM pages. PhoneGap allows the user to create utility apps that lets user to work with the content. 
 seo-description: This page serves as starting point for developing apps using PhoneGap Enterprise with AEM. AEM integrates with PhoneGap so that you can easily create apps using AEM pages. PhoneGap allows the user to create utility apps that lets user to work with the content. 
-uuid: 57ea3b3f-fc34-434a-bb9d-5f0866980595
+uuid: c9316644-8400-4d76-9c92-df8989bff832
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: 9c789ac3-7b5f-42f4-8cad-7873e2d09b93
+discoiquuid: 31fa5116-357f-4ad7-bbfa-cd079c448312
 index: y
 internal: n
 snippet: y

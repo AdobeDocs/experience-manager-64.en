@@ -3,12 +3,12 @@ title: Configuring Messaging
 seo-title: Configuring Messaging
 description: Communities messaging
 seo-description: Communities messaging
-uuid: 33bd97b5-eddf-4bc8-bf2e-33758a224981
+uuid: 69cde1b4-397a-4ef7-96e9-f8672be61123
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 0e1da304-9760-492e-b1d4-91543d9db206
+discoiquuid: dc998ea0-f5b3-49d5-9f15-81df25b33ffc
 index: y
 internal: n
 snippet: y

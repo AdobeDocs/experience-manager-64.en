@@ -3,12 +3,12 @@ title: Offloading Jobs
 seo-title: Offloading Jobs
 description: Learn how to configure and use AEM instances in a topology in order to perform specific types of processing.
 seo-description: Learn how to configure and use AEM instances in a topology in order to perform specific types of processing.
-uuid: bc367b83-5a05-48cf-9588-ba70c1a3e774
+uuid: 24f08dbb-bf84-4821-8a39-3baa5c083b6a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: ad73f56d-302c-4d97-a702-3d509bef9130
+discoiquuid: c7c30111-2dfb-4a22-b204-8ce054df6bf0
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ When JobManager creates a job, the Offloading framework selects an Experience Ma
 
 See [Configuring Topic Consumption](../../../sites/deploying/using/offloading.md#main-pars-title-2) for information about refining job distribution.
 
-![](assets/chlimage_1-126.png)
+![](assets/chlimage_1-112.png)
 
 When the Offloading framework selects a cluster to execute a job, and the cluseter is comprised of multiple instances, Sling Distribution determines which instance in the cluster executes the job.
 
@@ -59,7 +59,7 @@ Each Experience Manager instance runs the following Offloading-related services:
 
 The Discovery Service of all members of the topology point to the Topology Connector on one of the members. In the sections that follow, this member is referred to as the root member.
 
-![](assets/chlimage_1-127.png)
+![](assets/chlimage_1-113.png)
 
 Each cluster in the topology contains an instance that is recognized as the leader. The cluster leader interacts with the topology on behalf of the other members of the cluster. When the leader leaves the cluster, a new leader for the cluster is automatically chosen.
 
@@ -82,7 +82,7 @@ For each instance in the cluster, you can see several topology-related propertie
 
    The clusters that are participating in the topology appear.
 
-   ![](assets/chlimage_1-128.png)
+   ![](assets/chlimage_1-114.png)
 
 1. Click a cluster to see a list of the instances in the cluster and their ID, Current status, and Leader status.
 1. Click an instance ID to see more detailed properties.
@@ -98,7 +98,7 @@ Use the following procedure to open the Topology Management page of the Web Cons
 1. Open the Web Console in your browser. ([http://localhost:4502/system/console](http://localhost:4502/system/console))
 1. Click Main &gt; Topology Management.
 
-   ![](assets/chlimage_1-129.png)
+   ![](assets/chlimage_1-115.png)
 
 #### Configuring Topology Membership {#configuring-topology-membership}
 
@@ -184,12 +184,12 @@ Jobs are distributed amoung instances that have the associated topic enabled usi
 
    The offloading topics and the server instances that that can consume the topics appear.
 
-   ![](assets/chlimage_1-130.png)
+   ![](assets/chlimage_1-116.png)
 
 1. To disable the consumption of a topic for an instance, below the topc name click Disable beside the instance.
 1. To configure all topic consumption for an instance, click the instance identifier below any topic. 
 
-   ![](assets/chlimage_1-131.png)
+   ![](assets/chlimage_1-117.png)
 
 1. Click one of the following buttons beside a topic to configure the consumption behavior for the instance, and then click Save:
 
@@ -234,7 +234,7 @@ The offloading framework uses replication to transport resources between author 
 
 Create the replication agents that transport job payloads between instances for offloading. The following illustration shows the agents that are required to offload from the author to a worker instance. The author has a Sling ID of 1 and the worker instance has a Sling ID of 2: 
 
-![](assets/chlimage_1-132.png)
+![](assets/chlimage_1-118.png)
 
 This setup requires the following three agents:
 
@@ -332,7 +332,7 @@ The following procedure assumes the following characteristics for the offloading
 1. Configure the root Topography Connector so that the connecting instances are on the whitelist. 
 1. Open Offloading Browser and disable the `com/adobe/granite/workflow/offloading` topic on the instances with which users interact to upload or change DAM assets.
 
-   ![](assets/chlimage_1-133.png)
+   ![](assets/chlimage_1-119.png)
 
 1. On each instance that users interact with to upload or change DAM assets, configure workflow launchers to use the DAM Update Asset Offloading workflow:
 
@@ -350,71 +350,4 @@ In addition to the details presented on this page, you can also read the followi
 * For information about using Java APIs to create jobs and job consumers, see [Creating and Consuming Jobs for Offloading](../../../sites/developing/using/dev-offloading.md).
 * For general guidelines and best practices for asset offloading, see [General Guidelines and Best Practices for Asset Offloading](../../../assets/using/assets-offloading-best-practices.md#generalguidanceandbestpracticesforassetoffloading).
 * To know how to disable the automatic creation of offloading agents, see [Turning Off Automatic Agent Management](../../../assets/using/assets-offloading-best-practices.md#turningoffautomaticagentmanagement).
-
-<!--
-Comment Type: draft
-
-<h3>Known Offloading Issues</h3>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-0436B4A35714BFF67F000101@AdobeID)
-Last Modified Date: 2017-11-30T05:42:15.361-0500
-<p>Hidden this chapter as a result of <a href="https://jira.corp.adobe.com/browse/CQDOC-10772">CQDOC-10772</a> (see comments).</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The following issues are related to the behavior of the Offloading framework.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h4>Working Offline</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>You can use offloading without using a network interface where all instances run on the same computer using different ports. This situation is useful for demonstration or development purposes. To enable this situation, configure all IP addresses and URLs using localhost as the computer name.</p>
-<p>To use offloading offline, you should initially start your Experience Manager instances when the computer is offline so that the replication agents are created using <span class="code">localhost as the IP address. Using localhost causes the correct behavior if the computer later goes online.</span></p>
-<p>If you initially start your instances when the computer has a network interface, the IP address of the computer is used in the properties of the replication agents. If you later go offline, the replication agents will not function correctly.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h4>Problems Using the Automatically-Generated Replication Agents</h4>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-0436B4A35714BFF67F000101@AdobeID)
-Last Modified Date: 2017-11-30T05:42:15.422-0500
-<p>See Granite-3338</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>By default, the offloading framework automatically creates the replication agents for transporting resources between author and offloading workers. These agents are meant to be administered using the Granite Replication Agent UI and therefore do not appear in the Experience Manager Replication Agent console. Limitations of the Granite Replication Agent UI prevent the full management of replication agents. Therefore, you must use the Experience Manager Replication console and use the following procedure to implement the following changes:</p>
-<ul>
-<li>Disable the automatic creation of the replication agents.</li>
-<li>Remove any automatically-created agents.</li>
-<li>Manually create the agents that the Offloading framework requires.</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li> </li>
-<li> </li>
-<li> </li>
-</ol>
--->
 

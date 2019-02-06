@@ -3,12 +3,12 @@ title: Communities Scoring and Badges
 seo-title: Communities Scoring and Badges
 description: AEM Communities scoring and badges lets you identify and reward community members
 seo-description: AEM Communities scoring and badges lets you identify and reward community members
-uuid: 19d8a107-ed3f-4a28-9d78-b3d49145205f
+uuid: 2840af97-2c2d-4981-9970-d3bee90b56c8
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 3dd2fbe5-861d-4d4d-8434-7ec7b9548b16
+discoiquuid: 9b87084d-b235-4159-9bca-6141c4d476da
 tagskeywords: scoring, badging, badges, gamification
 index: y
 internal: n
@@ -67,7 +67,7 @@ Included in the release are three role-based badges :
 * privileged member  
   `/etc/community/badging/images/privileged-member/jcr:content/privileged-member.png`
 
-![](assets/chlimage_1-378.png) 
+![](assets/chlimage_1-365.png) 
 
 ### Awarded Badges {#awarded-badges}
 
@@ -89,7 +89,7 @@ Included in the release are three reward-based badges :
 * bronze  
   `/etc/community/badging/images/bronze-badge/jcr:content/bronze.png`
 
-![](assets/chlimage_1-379.png)
+![](assets/chlimage_1-366.png)
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ A boolean property, `allowBadges`, enables/disables the display of badges for a 
 
 #### Example : allowBadges for Forum component instance {#example-allowbadges-for-forum-component-instance}
 
-![](assets/chlimage_1-380.png)
+![](assets/chlimage_1-367.png)
 
 >[!NOTE]
 >
@@ -329,7 +329,7 @@ The `scoringRules`property on a badging rule simply restricts which scoring rule
 >
 >Best practice : create badge images unique to each AEM site.
 
-![](assets/chlimage_1-381.png) 
+![](assets/chlimage_1-368.png) 
 
 <table border="2" cellpadding="4" cellspacing="2" width="90%"> 
  <tbody> 
@@ -610,7 +610,7 @@ It is possible to quickly try scoring and badging using the [Getting Started Tut
 
 * select **Save All**
 
-![](assets/chlimage_1-382.png)
+![](assets/chlimage_1-369.png)
 
 Next ensure the forum and comments components allow badges to be displayed :
 
@@ -627,7 +627,7 @@ Next ensure the forum and comments components allow badges to be displayed :
     
     * **Value** : `true`
 
-![](assets/chlimage_1-383.png)
+![](assets/chlimage_1-370.png)
 
 Next, [republish](../../communities/using/sites-console.md#publishingthesite) the community site.
 

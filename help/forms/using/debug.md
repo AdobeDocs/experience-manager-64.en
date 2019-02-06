@@ -3,12 +3,12 @@ title: Debugging HTML5 forms
 seo-title: Debugging HTML5 forms
 description: The document list steps to troubleshoot various known issues. 
 seo-description: The document list steps to troubleshoot various known issues. 
-uuid: 2ee4014e-1625-48b6-a8ef-21b1f2d02867
+uuid: 2d9434cf-84cd-4251-a5d2-f0ed56f0aeaa
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: c344be90-1716-453d-98e2-0e0791f22e36
+discoiquuid: ff8f0049-15fe-4d2c-b2d7-e1c9ccdb8445
 index: y
 internal: n
 snippet: y

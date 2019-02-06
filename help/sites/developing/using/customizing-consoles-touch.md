@@ -3,27 +3,18 @@ title: Customizing the Consoles
 seo-title: Customizing the Consoles
 description: AEM provides various mechanisms to enable you to customize the consoles of your authoring instance
 seo-description: AEM provides various mechanisms to enable you to customize the consoles of your authoring instance
-uuid: 9027a0ca-c1ed-4664-82c3-1586d28f0278
+uuid: a288472f-92e3-4883-ad7d-aa8ab3e658d3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: b6f9867c-84c5-4aa7-8a8f-898dcbd7e9d0
+discoiquuid: ccd7e35f-e6b7-4783-9549-ed3592f5b45e
 index: y
 internal: n
 snippet: y
 ---
 
 # Customizing the Consoles{#customizing-the-consoles}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-18T11:19:42.686-0500
-<p>following paragraph also occurs on <a href="http://ec2author.day.com:8080/content/docs/en/aem/6-2/develop/extending/customizing-page-authoring-touch.html">http://ec2author.day.com:8080/content/docs/en/aem/6-2/develop/extending/customizing-page-authoring-touch.html</a> - update one update both</p>
-<p>gknob: why not a paragraph reference?</p>
-<p>ajh&gt;&gt;&gt; because we decided not to use them in docu.....long story</p>
--->
 
 >[!CAUTION]
 >
@@ -38,13 +29,6 @@ AEM provides various mechanisms to enable you to customize the consoles (and the
   Overlays are based on node definitions and allow you to overlay the standard functionality (in `/libs`) with your own customized functionality (in `/apps`). When creating an overlay a 1:1 copy of the original is not required, as the sling resource merger allows for inheritance.
 
 These can be used in many ways to extend your AEM consoles. A small selection are covered below (at a high level).
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-18T11:19:42.787-0500
-<p>Title of Gems session is version specific - need to check/revisit/reword for 6.1.<br /> </p>
--->
 
 >[!NOTE]
 >
@@ -127,20 +111,7 @@ You can find the code of this page on GitHub
 
 ### Create a Custom Console {#create-a-custom-console}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-18T11:19:43.127-0500
-<p>6.2 Review - is this still a good example?</p>
--->
-
 1. You can create a custom console with related actions; for example, Launches at the top level (below Sites):
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-254.png" />
-   -->
 
    This involves:
 
@@ -168,13 +139,7 @@ Last Modified Date: 2018-01-18T11:19:43.127-0500
             * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content/head`
             * `/apps/<*yourProject*>/admin/ext/launches/content/jcr:content/body`
 
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-255.png" />
-   -->
-
-   ![](assets/chlimage_1-256.png)
+   ![](assets/chlimage_1-247.png)
 
    To use the new console (for example in the [rail for navigation](#addnewnavigationoptiontorail)) an ID is used, so that it can be explicitly referenced. The ID is used to connect the console and its navigation definition. The ID is defined in the `rail` node of the page; for example, for the Sites console:
 
@@ -249,13 +214,7 @@ You can find the code of this page on GitHub
 
    Create the new nodes and properties:
 
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-257.png" />
-   -->
-
-   ![](assets/chlimage_1-258.png)
+   ![](assets/chlimage_1-248.png)
 
     * Extend navigation:
 
@@ -308,31 +267,6 @@ You can find the code of this page on GitHub
    `jcr:content/body/content/header/items/default/items/create/items/createsite/rendercondition`
 
    Using properties on this node you can define the `groups` allowed to perform the specific action; for example, `administrators`
-
-<!--
-Comment Type: draft
-
-<h3>Renaming a Rail Entry</h3>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>You can rename a navigation entry in the rail by overriding:</p> <p style="margin-left: 40px;"><span class="code">/libs/cq/core/content/nav/sites/jcr:title</span></p> </li>
-<li><p>Depending on how you want to configure your instance, you might want to consider the impact on:</p>
-<ul>
-<li>The title as used in the toolbar:<br /> <span class="code">/libs/wcm/core/content/sites/jcr:content/body/title/rootTitle</span></li>
-<li>The tab title in the window:<br /> <span class="code">/libs/wcm/core/content/sites/jcr:content/jcr:title</span></li>
-<li>The entry in the breadcrumbs<br /> <span class="code">/libs/wcm/core/content/sites/jcr:content/body/breadcrumbs/rootTitle</span> </li>
-</ul>
-<draft-comment color="blue" lastModifiedBy="gknob@adobe.com" lastModifiedDate="2018-01-18T11:19:44.506-0500" prevFirstName="unknown" prevLastName="unknown" type="remark">
-<p>Also found this entry - where/how is it used?</p>
-<p>/libs/cq/gui/content/common/links/sites/jcr:title - ??? seems to be a left-over</p>
-<p>gknob: yes, this one can be ignored.</p>
-</draft-comment></li>
-</ol>
--->
 
 ### Remove Access to Navigation Option on Rail {#remove-access-to-navigation-option-on-rail}
 

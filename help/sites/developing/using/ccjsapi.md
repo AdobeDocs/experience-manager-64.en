@@ -3,25 +3,18 @@ title: Client Context Javascript API
 seo-title: Client Context Javascript API
 description: The Javascript API for Client Context
 seo-description: The Javascript API for Client Context
-uuid: 39de3cdb-1101-4e8f-a4b3-26085b0593c5
+uuid: c1d9eca5-2c97-4b7a-bbb2-9beaaf6a3603
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: b08c77bc-9e04-422d-a392-7807b4e211f8
+discoiquuid: f32b5f5b-19f3-4a03-a422-a34275a87448
 index: y
 internal: n
 snippet: y
 ---
 
 # Client Context Javascript API{#client-context-javascript-api}
-
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:18:11.620-0500
-<p>This reference does not include all members of the API. Add to this as customers request more information.</p>
--->
 
 ## CQ_Analytics.ClientContextMgr {#cq-analytics-clientcontextmgr}
 
@@ -30,13 +23,6 @@ The CQ_Analytics.ClientContextMgr object is a singleton that contains a set of s
 Extends CQ_Analytics.PersistedSessionStore.
 
 ### Methods {#methods}
-
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:18:11.729-0500
-<p>Only the methods that seemed useful to customers are documented.</p>
--->
 
 #### getRegisteredStore(name) {#getregisteredstore-name}
 
@@ -61,31 +47,6 @@ Registers a session store with Client Context. Fires the storeregister and store
 **Returns**
 
 No returned value.
-
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:18:11.916-0500
-<p>update is called automatically (via event listeners) when a store is updated, so users don't really need to use this</p>
--->
-
-<!--
-Comment Type: draft
-
-<h4>update</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>Updates a session store. The session store in the registry is updated with the given CQ_Analytics.SessionStore object. Fires the <span class="code">storeupdate</span> event upon completion.</p>
-<p><strong>Parameters</strong></p>
-<ul>
-<li>sessionstore: CQ_Analytics.SessionStore. The session store object to update.</li>
-</ul>
-<p><strong>Returns</strong></p>
-<p>No returned value.</p>
--->
 
 ## CQ_Analytics.ClientContextUtils {#cq-analytics-clientcontextutils}
 
@@ -633,17 +594,6 @@ The name of the session store. Use getName to retrieve the value of this propert
 
 ### Methods {#methods-8}
 
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:18:15.348-0500
-<p>The following are not documented:</p>
-<ul>
-<li>getLabel: simply returns the argument</li>
-<li>getLink: simply returns the argument</li>
-</ul>
--->
-
 #### addInitProperty(name, value) {#addinitproperty-name-value}
 
 Adds a property and value to the session store initialization data.
@@ -829,44 +779,3 @@ Sets the value of a property. Fires the `update` event upon completion. Calls th
 **Returns**
 
 No returned value.
-
-<!--
-Comment Type: draft
-
-<h2>Class</h2>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Properties</h3>
--->
-
-<!--
-Comment Type: draft
-
-<h4>property</h4>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Methods</h3>
--->
-
-<!--
-Comment Type: draft
-
-<h4>Method</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p> </p>
-<p><strong>Parameters</strong></p>
-<p> </p>
-<p><strong>Returns</strong></p>
-<p> </p>
--->
-

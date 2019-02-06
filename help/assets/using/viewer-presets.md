@@ -3,12 +3,12 @@ title: Applying Viewer Presets
 seo-title: Applying Viewer Presets
 description: Learn how to apply viewer presets in dynamic media
 seo-description: Learn how to apply viewer presets in dynamic media
-uuid: 2762771a-f012-45a6-aa92-25cd19d4eef4
+uuid: f6ba8d09-e110-4033-96b5-c06c4f7e49dc
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: c921113b-e19e-4ddf-a712-fd18c6ce5a25
+discoiquuid: d9203171-59dc-44c8-9d29-56553094cd1c
 index: y
 internal: n
 snippet: y
@@ -48,13 +48,6 @@ To apply any applicable viewer preset to an asset:
    >
 
 1. Select a viewer** **from the left pane to apply it to the asset as seen in the right pane. You can also [copy the URL to share](../../assets/using/linking-urls-to-yourwebapplication.md) with others users.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-12-10T16:15:29.698-0500
-   This second sentence does not quite make sense. When choosing a Viewer Preset, a separate popup window does not display. the Viewer should load to the right of the left rail. RB: Fixed.
-   -->
 
 ### Obtaining Viewer Preset URLs {#obtaining-viewer-preset-urls}
 

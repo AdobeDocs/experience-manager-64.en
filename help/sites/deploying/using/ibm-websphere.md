@@ -3,12 +3,12 @@ title: IBM Websphere Commerce
 seo-title: IBM Websphere Commerce
 description: Integrating AEM with IBM Websphere Commerce
 seo-description: Integrating AEM with IBM Websphere Commerce
-uuid: 9ee523f7-d01e-4976-8deb-f3e2292c8fc7
+uuid: e7ff9442-0ed4-4077-9e3d-d64dc700b09c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 55c55839-8058-4ea0-84fa-05b1ce0bdd2f
+discoiquuid: 12473035-caf4-438b-a553-ca2040b538f4
 pagetitle: Deploying eCommerce with IBM Websphere Commerce
 index: y
 internal: n

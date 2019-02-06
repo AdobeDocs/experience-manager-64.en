@@ -3,12 +3,12 @@ title: Creating Components
 seo-title: Creating Components
 description: AEM components are used to hold, format, and render the content made available on your webpages. Follow this page to learn about authoring channels and rendering components.
 seo-description: AEM components are used to hold, format, and render the content made available on your webpages. Follow this page to learn about authoring channels and rendering components.
-uuid: 1ff78ffe-ead4-4d0d-9ce5-3330a3e99830
+uuid: e7df6b9b-ef7a-47b4-b28b-17f5daccfb21
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: developing
-discoiquuid: 5cb7ac3e-14c7-4788-8217-ab2939a8a0e4
+discoiquuid: 3f930790-8079-459a-a20e-6ed470b4b02e
 index: y
 internal: n
 snippet: y

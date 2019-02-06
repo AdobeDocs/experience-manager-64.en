@@ -3,12 +3,12 @@ title: Linking URLs to your Web Application
 seo-title: Linking URLs to your Web Application
 description: How to link URLs to your web application in dynamic media
 seo-description: How to link URLs to your web application in dynamic media
-uuid: f01198e5-ab8c-4bcc-8da8-267ddf2357ab
+uuid: 39c31d38-9a50-4943-b09c-15c6317af16e
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 379a4e05-9042-436b-b1c4-fb18453bde53
+discoiquuid: 7a84bc1c-8696-4180-be54-cf386f108c0b
 index: y
 internal: n
 snippet: y
@@ -70,7 +70,7 @@ There are several different ways you can obtain a URL string. However, the steps
 
    At the bottom of the left rail, tap **URL**.
 
-   ![](assets/chlimage_1-224.png)
+   ![](assets/chlimage_1-223.png)
 
     * If you selected a spin set, an image set, a carousel set, or a video, in the drop-down menu, click or tap **Viewers**.
 
@@ -78,7 +78,7 @@ There are several different ways you can obtain a URL string. However, the steps
 
    In the left rail, at the bottom, tap or click **URL**.
 
-   ![](assets/chlimage_1-225.png)
+   ![](assets/chlimage_1-224.png)
 
 1. Select and copy the text to your web browser to preview the asset or to add to your web content page.
 
@@ -204,19 +204,6 @@ Dynamic Media supports the delivery of static assets, which are additional asset
 1. Complete the URL by appending `.m3u8` to the end of the string. For example, appending `.m3u8` to the string from the previous step, the complete URL path would appear as follows:
 
    `https://gateway-na.assetsadobe.com/DMGateway/public-ssl/demoCo/content/dam/marketing/MyVideo.mp4.m3u8`
-
-<!--
-Comment Type: draft
-
-<h3>How to deliver secure video</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>You can control whether a video is delivered over a secure SSL connection (HTTPS) or an insecure connection (HTTP). By default, the video delivery protocol is automatically inherited from the protocol of the embedding web page. If the web page is loaded over HTTPS, the video is also delivered over HTTPS. And vice versa, if the web page is on HTTP, the video is delivered over HTTP. In most cases, this default behavior is fine and there is no need to make any configuration changes. However, you can override this default behavior by appending <span class="code">VideoPlayer.ssl=on</span> to the end of the URL to force secure video delivery.</p>
-<p>For more information about secure video delivery and using the <span class="code">VideoPlayer.ssl</span> configuration attribute in your URL path, see <a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_video_viewer_20_securevideodelivery.html" target="_blank">Secure Video Delivery</a> in the Viewers Reference Guide. Secure video delivery is available for the Video viewer, Mixed Media viewer, and Interactive Video viewer. </p>
--->
 
 ### Using HTTP/2 to deliver your Dynamic Media assets {#using-http-to-deliver-your-dynamic-media-assets}
 

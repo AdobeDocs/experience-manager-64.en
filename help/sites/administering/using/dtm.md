@@ -3,12 +3,12 @@ title: Integrating with Adobe Dynamic Tag Management
 seo-title: Integrating with Adobe Dynamic Tag Management
 description: Learn about integration with Adobe Dynamic Tag Management.
 seo-description: Learn about integration with Adobe Dynamic Tag Management.
-uuid: b481f785-547b-4cc8-bc25-4d95a2aa2d23
+uuid: e6cdf032-b555-41a8-b90f-0e1d836218c2
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 97326e06-15e8-4159-b2f0-5a81ba39ba31
+discoiquuid: ff01133f-0436-41a3-9f09-5c0cabdd40b4
 index: y
 internal: n
 snippet: y
@@ -166,7 +166,7 @@ When hosting the Dynamic Tag Management libraries on AEM, AEM automatically conf
  </tbody> 
 </table>
 
-![](assets/chlimage_1-426.png) 
+![](assets/chlimage_1-410.png) 
 
 ### Cloud Hosting Properties - Staging and Production {#cloud-hosting-properties-staging-and-production}
 
@@ -193,7 +193,7 @@ You configure the following properties for your Dynamic Tag Management configura
  </tbody> 
 </table>
 
-![](assets/chlimage_1-427.png)
+![](assets/chlimage_1-411.png)
 
 The following procedure uses the touch-optimized UI to configure the integration with Dynamic Tag Management.
 
@@ -203,7 +203,7 @@ The following procedure uses the touch-optimized UI to configure the integration
     * Click Configure Now if this is the first configuraiton that you are adding.
     * Click Show Configurations and then click the + link beside Available Configurations if one or more configurations have been created.
 
-   ![](assets/chlimage_1-428.png)
+   ![](assets/chlimage_1-412.png)
 
 1. Type a title for the configuration and then click Create.
 1. In the API Token field, enter the value of the API Token property of your Dynamic Tag Management user account.
@@ -214,7 +214,7 @@ The following procedure uses the touch-optimized UI to configure the integration
    >
    >The API token does not expire until the Dynamic Tag Management user explicitly requests it.
 
-   ![](assets/chlimage_1-429.png)
+   ![](assets/chlimage_1-413.png)
 
 1. Click Connect to DTM. AEM authenticates with Dynamic Tag Management and retrieves the list of companies that your account is associated with.
 1. Select the Company, and then select the Property that you are using to track your AEM site.
@@ -229,7 +229,7 @@ Manually download the Dynamic Tag Management libraries to immediately update the
 1. In the Dynamic Tag Management area, click Show Configurations and then click your configuration.
 1. In either the Staging Settings area or the Production Settings area, click the Trigger Download Workflow button to download and deploy the library bundle.
 
-   ![](assets/chlimage_1-430.png)
+   ![](assets/chlimage_1-414.png)
 
 >[!NOTE]
 >
@@ -253,7 +253,7 @@ Use the following procedure to associate a page and the decsendents with a Dynam
 1. Use Sidekick to open the page properties.
 1. On the Cloud Services tab, click Add Service, select Dynamic Tag Management, and then click OK.
 
-   ![](assets/chlimage_1-431.png)
+   ![](assets/chlimage_1-415.png)
 
 1. Use the Dynamic Tag Management drop-down menu to select your configuration, and then click OK.
 
@@ -263,7 +263,7 @@ Use the following procedure to override the inherited configuration association 
 1. Use Sidekick to open the page properties.
 1. On the Cloud Services tab, click the padlock icon next to the Inherited From property, then click Yes in the confirmation dialog box.
 
-   ![](assets/chlimage_1-432.png)
+   ![](assets/chlimage_1-416.png)
 
 1. Remove or select a different Dynamic Tag Management configuration, and then click OK.
 

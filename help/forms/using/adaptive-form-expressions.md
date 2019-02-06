@@ -3,10 +3,10 @@ title: Adaptive Form Expressions
 seo-title: Adaptive Form Expressions
 description: Use adaptive forms expressions to add automatic validation, calculation, and turn visibility of a section on or off. 
 seo-description: Use adaptive forms expressions to add automatic validation, calculation, and turn visibility of a section on or off. 
-uuid: 57ac257e-54eb-40c4-b05f-2f8149fe4d3a
+uuid: 8c5af063-90db-48d6-927d-4dd14fbd771c
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 89076640-5f6b-497d-b428-127c1d0179ea
+discoiquuid: 51716499-6f49-44eb-a974-7caadd2fecff
 index: y
 internal: n
 snippet: y

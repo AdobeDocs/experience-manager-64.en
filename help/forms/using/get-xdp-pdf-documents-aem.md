@@ -3,11 +3,11 @@ title: Getting XDP and PDF documents in AEM Forms
 seo-title: Getting XDP and PDF documents in AEM Forms
 description: AEM Forms allows you to upload forms and supported assets to use with adaptive forms. You can also bulk upload forms and related resources as a ZIP.
 seo-description: AEM Forms allows you to upload forms and supported assets to use with adaptive forms. You can also bulk upload forms and related resources as a ZIP.
-uuid: 8ced8135-4227-47fb-883d-1ed81581f8d8
+uuid: adbc1209-da67-4e2d-9326-710e9b5c65bf
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: e3a65205-0e0a-4119-a778-0f2384502843
+discoiquuid: 236f6215-e160-4838-a3d2-3ccc9579e786
 index: y
 internal: n
 snippet: y

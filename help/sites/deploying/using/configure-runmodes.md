@@ -3,12 +3,12 @@ title: Run Modes
 seo-title: Run Modes
 description: Learn how to tune your AEM instance for specific purposes by using run modes.
 seo-description: Learn how to tune your AEM instance for specific purposes by using run modes.
-uuid: a33b87fa-47e5-4356-9a89-81b028fbc1e1
+uuid: 5f4ecf39-d435-494c-902e-ace8c0c33477
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 546f2771-ba4e-45d9-abaa-46e1887db3c0
+discoiquuid: f2637bb7-cdc1-48c3-8ca5-64e15a15cd9e
 index: y
 internal: n
 snippet: y
@@ -73,15 +73,6 @@ You can also create your own, customized, run modes. These can be combined to co
 Customized run modes can also be selected at each startup.
 
 ## Using samplecontent and nosamplecontent {#using-samplecontent-and-nosamplecontent}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:41:40.773-0500
-<p><a href="https://issues.adobe.com/browse/DOC-3078">https://issues.adobe.com/browse/DOC-3078</a></p>
-<p>apparently doesn't do much for 5.6, but looks hopeful for 5.6.1</p>
-<p><a href="https://issues.adobe.com/browse/CQ5-31383">https://issues.adobe.com/browse/CQ5-31383</a></p>
--->
 
 These modes allow you to control the use of sample content. The sample content is defined before the quickstart is built and can include packages, configurations, etc:
 

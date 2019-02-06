@@ -3,12 +3,12 @@ title: Seeing Page Analytics Data
 seo-title: Seeing Page Analytics Data
 description: Use page analytics data to gauge the effectiveness of their page content
 seo-description: Use page analytics data to gauge the effectiveness of their page content
-uuid: 9f8d4e9b-a432-4fe6-907c-6e4064e99540
+uuid: b18ab50d-f2a0-4622-9aa5-756e5f4388b7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 04c91c42-06ef-47f4-a147-c40868fb4f97
+discoiquuid: a715dd65-20e5-430e-80c3-d3f1de5507f0
 index: y
 internal: n
 snippet: y
@@ -56,14 +56,6 @@ The current reporting period appears on the toolbar of the Sites console (right 
 
 Members of the analytics-administrators user group can configure the Sites console to enable authors to see extra Analytics columns.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sbroders@adobe.com)
-Last Modified Date: 2018-02-22T00:17:03.122-0500
-<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Following note is for https://jira.corp.adobe.com/browse/CQ-30933</p>
-<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">(When a tree of pages contains children that are associated with different Adobe Analytics cloud configurations, you cannot configure available data columns for the pages.)</p>
--->
-
 >[!NOTE]
 >
 >When a tree of pages contains children that are associated with different Adobe Analytics cloud configurations, you cannot configure available data columns for the pages.
@@ -85,7 +77,7 @@ Open [Content Insight](../../../sites/authoring/using/content-insights.md) from 
 1. In the Sites console, select the page for which you want to see Content Insights.
 1. On the tool bar, click the Analytics and Recommendations icon.
 
-   ![](assets/chlimage_1-209.png)
+   ![](assets/chlimage_1-202.png)
 
 ## Analytics visible from the Page Editor (Activity Map) {#analytics-visible-from-the-page-editor-activity-map}
 

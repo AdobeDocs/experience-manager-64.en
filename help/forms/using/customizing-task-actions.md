@@ -3,11 +3,11 @@ title: Customizing Task Actions
 seo-title: Customizing Task Actions
 description: You can customize appearance of the task actions, use only images for actions, and customize the images used in route actions.
 seo-description: You can customize appearance of the task actions, use only images for actions, and customize the images used in route actions.
-uuid: 6dfef3ab-9a1a-480b-9e6e-98ccf3f1636e
+uuid: e2efb1ed-592a-4c42-8d51-fcd1dfadc9ca
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 9e7f3871-ab83-433e-bfb1-8923bb8a229d
+discoiquuid: f4aa67aa-782b-4aeb-9196-6526e9622840
 index: y
 internal: n
 snippet: y

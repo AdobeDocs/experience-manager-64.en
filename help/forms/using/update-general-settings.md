@@ -3,11 +3,11 @@ title: Updating general settings
 seo-title: Updating general settings
 description: Update AEM Forms app settings such as the Home screen and fetch Startpoints and attachments options
 seo-description: Update AEM Forms app settings such as the Home screen and fetch Startpoints and attachments options
-uuid: 60cd4984-7e4e-4e8e-a74b-5ec68d630320
+uuid: 246fe03b-677b-4c6f-9538-54b539fe1ea7
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 1329f772-6317-4922-b2e4-485e7ad110d4
+discoiquuid: 88ce4772-fcc8-47b4-b78d-10a87983956e
 index: y
 internal: n
 snippet: y
@@ -29,13 +29,6 @@ In the General tab, change the download attachments, offline mode, landing scree
 
 1. To go to the Setting screen, tap the Menu button at the upper-left corner of the Home screen, and then Tap **Settings**.
 1. In the Settings screen, tap the General tab.
-
-   <!--
-   Comment Type: remark
-   Last Modified By:
-   Last Modified Date:
-   <p>Art Spec: If not leaving art spec, delete only the first of the 2 &lt;draft-comment&gt; elements under &lt;adobefig&gt;.</p>
-   -->
 
    ![General settings in the AEM Forms app](assets/gen-settings-2.png)
 

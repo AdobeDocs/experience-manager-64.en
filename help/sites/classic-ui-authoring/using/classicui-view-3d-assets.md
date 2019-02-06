@@ -3,12 +3,12 @@ title: Viewing 3D assets
 seo-title: Viewing 3D assets
 description: The interactive 3D viewer is available from the asset details page in AEM. The viewer includes, among other things, a collection of interactive camera controls that let you orbit, zoom, and pan the 3D asset.
 seo-description: The interactive 3D viewer is available from the asset details page in AEM. The viewer includes, among other things, a collection of interactive camera controls that let you orbit, zoom, and pan the 3D asset.
-uuid: bb349753-d3cc-4550-93be-48bb6f154362
+uuid: 0d0d3608-f46d-42d6-b486-5148d9f0797c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 9622e4ae-056d-4494-8553-773e0de490ae
+discoiquuid: d125fcfe-78aa-4fc2-b9ab-c4682e4843e2
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 The interactive 3D viewer is available from the asset details page in AEM. The viewer includes, among other things, a collection of interactive camera controls that let you orbit, zoom, and pan the 3D asset.
 
-![](assets/chlimage_1-21.png)
+![](assets/chlimage_1-18.png)
 
 Besides using the default stages in AEM 3D, you can also use stages that you have created in a third-party application and uploaded into AEM.
 
@@ -94,14 +94,14 @@ To view 3D assets:
 
     * Near the upper-right corner of the asset details page, tap the Stage Selector icon. Select a stage name with the background and lighting that you want to apply to the 3D asset.
 
-   ![](assets/chlimage_1-22.png)
+   ![](assets/chlimage_1-19.png)
 
    Stages provide the environment-background, ground plane, and lighting-in which the 3D model is viewed.  
    See [About the use of stages in AEM 3D](../../../sites/classic-ui-authoring/using/classicui-stages-aem3d.md).
 
     * Near the upper-right corner of the asset details page, tap the Camera Selector icon, then select a camera view that you want to apply to the 3D asset.
 
-   ![](assets/chlimage_1-23.png)
+   ![](assets/chlimage_1-20.png)
 
    Stages often provide pre-defined cameras. You can re-select the current camera to restore it to its pre-defined settings.  
    See [About the use of stages in AEM 3D](../../../sites/classic-ui-authoring/using/classicui-stages-aem3d.md).

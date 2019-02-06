@@ -3,12 +3,12 @@ title: Activity Streams Feature
 seo-title: Activity Streams Feature
 description: Activities of a signed-in community member
 seo-description: Activities of a signed-in community member
-uuid: 4ca8f8ca-7163-4f70-81de-d40ab8060886
+uuid: 679dec65-9e6c-4fa4-b6b9-de08d1699e25
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 37676bda-b213-4e9f-a877-a4b2dc59b4a1
+discoiquuid: 19b0d286-ee9e-4e35-a13f-1b363d9876a0
 index: y
 internal: n
 snippet: y
@@ -39,17 +39,17 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/essentials-activities.md#essentialsforclientside) are included, this is how the `Activity Streams` component will appear :
 
-![](assets/chlimage_1-201.png)
+![](assets/chlimage_1-194.png)
 
 ### Configuring Activity Streams {#configuring-activity-streams}
 
 Select the placed `Activity Streams` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-202.png)
+![](assets/chlimage_1-195.png)
 
 Under the **User Activities** tab, specify which activities to display :
 
-![](assets/chlimage_1-203.png)
+![](assets/chlimage_1-196.png)
 
 * **Max number of activities** 
   the number of activities to display
@@ -70,7 +70,7 @@ Under the **User Activities** tab, specify which activities to display :
 
 Components must be configured to enable following. Features that allow following are [blog](../../communities/using/blog-feature.md), [forum](../../communities/using/forum.md), [QnA](../../communities/using/working-with-qna.md), [calendar](../../communities/using/calendar.md), [filelibrary](../../communities/using/file-library.md), and [comments](../../communities/using/comments.md).
 
-![](assets/chlimage_1-204.png)
+![](assets/chlimage_1-197.png)
 
 The **Follow **button provides a means to follow entries as activities, [notifications](../../communities/using/notifications.md), and/or [subscriptions](../../communities/using/subscriptions.md). Each time the **Follow **button is selected, it is possible to toggle on or off a selection. The `Email Subscriptions` selection is only present when configured.
 

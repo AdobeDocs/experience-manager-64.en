@@ -3,12 +3,12 @@ title: Working with Content Fragments
 seo-title: Working with Content Fragments
 description: Learn how Content Fragments allow you to design, create, curate and use page-independent content.
 seo-description: Learn how Content Fragments allow you to design, create, curate and use page-independent content.
-uuid: 64ea04bc-c639-4d7d-829b-efe995af8bbb
+uuid: 4a884d5b-1e17-4215-9278-ce0ab5d085e5
 contentOwner: Alison Heimoz
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: 83207309-5462-4f59-bedf-59eaf218f9ba
+discoiquuid: 1743024f-941e-4903-99a9-89c6c465a55d
 index: y
 internal: n
 snippet: y
@@ -21,20 +21,6 @@ snippet: y
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../../release-notes/sp-release-notes.md).
 
 Adobe Experience Manager (AEM) Content Fragments allow you to design, create, curate and [publish page-independent content](../../sites/authoring/using/content-fragments.md). They allow you to prepare content ready for use in multiple locations/over multiple channels.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-22T02:33:57.556-0500
-<p>need links to</p>
-<ul>
-<li>the JSON exporter page in 6-4</li>
-<li>appropriate core components page</li>
-</ul>
-<p>msiegel (last week)<br /> agreed, with a brief explanation though, that content fragments can be delivered in JSON format by using Sling Model (JSON) export capabilities of AEM core components, and then the link. Also that this form of delivery allows using the component to manage which elements of a fragment to delivery, and that it allows bulk-delivery by adding multiple content fragment core components on the page that is used for API delivery</p>
-<p>AJH - intro below - will add links when available</p>
-<p> </p>
--->
 
 Content fragments can also be delivered in JSON format, using the Sling Model (JSON) export capabilities of AEM core components. This form of delivery:
 
@@ -114,13 +100,6 @@ Together with the JSON export capabilities of AEM core components, this structur
 >AEM also supports the translation of fragment content. See [Creating Translation Projects for Content Fragments](../../assets/using/creating-translation-projects-for-content-fragments.md) for further information.
 
 ## Types of Content Fragment {#types-of-content-fragment}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-22T02:38:50.445-0500
-<p>msiegel (last week)<br /> nice, I like this definition -<br /> brief, to the point, and without introduction of new terms and names. </p>
--->
 
 Content fragments can be either:
 

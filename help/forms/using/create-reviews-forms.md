@@ -3,24 +3,17 @@ title: Creating and managing reviews for assets in forms
 seo-title: Creating and managing reviews for assets in forms
 description: A Review is a mechanism that allows one or more reviewers to comment on an asset that is available in a form. 
 seo-description: A Review is a mechanism that allows one or more reviewers to comment on an asset that is available in a form. 
-uuid: e3d887d3-05e8-41dd-b8ba-c04d3acc21d2
+uuid: dd17d1a9-e61c-49a8-8839-090d940ecfc2
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: 677ff24e-c108-4c97-ba31-d7c7dd265ac1
+discoiquuid: 1284a0f6-2f52-48c8-995f-dcb07843e437
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating and managing reviews for assets in forms{#creating-and-managing-reviews-for-assets-in-forms}
-
-<!--
-Comment Type: remark
-Last Modified By: (sakarora)
-Last Modified Date: 2017-11-30T06:06:57.649-0500
-<p>CHANGE THE URL OF THIS ARTICLE BEFORE LOC HO.</p>
--->
 
 ## Review {#review}
 

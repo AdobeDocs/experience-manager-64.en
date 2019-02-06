@@ -3,12 +3,12 @@ title: Change the character set
 seo-title: Change the character set
 description: You can specify the character set used to encode the output stream. Learn how you can change the character set.
 seo-description: You can specify the character set used to encode the output stream. Learn how you can change the character set.
-uuid: d937205c-8574-4f45-8a7a-fa8df51f0418
+uuid: 19b3f21a-f9fd-41ee-970b-630c58efbf2a
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 59e94beb-e4ba-4e82-8a3b-0295551c9606
+discoiquuid: 8508f3d1-879c-4af8-8f2c-60ee3962190c
 index: y
 internal: n
 snippet: y

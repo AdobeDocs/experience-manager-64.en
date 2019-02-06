@@ -3,12 +3,12 @@ title: Integrating with BrightEdge Content Optimizer
 seo-title: Integrating with BrightEdge Content Optimizer
 description: Learn about integrating AEM with BrightEdge Content Optimizer.
 seo-description: Learn about integrating AEM with BrightEdge Content Optimizer.
-uuid: 4a8b2671-a4bf-496d-af83-6ecba45a8e49
+uuid: 691b4d46-37e6-442d-8f2e-dcb0d69329eb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 40d4533d-2895-4b3f-a58b-097865b2145b
+discoiquuid: 55aa6686-6f48-432e-a345-08f903f6a91c
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ When you create the configuration, you specify a title. The title should be desc
     * Configure Now: This link appears when no coniguration has been created.
     * Show Configurations: This link appears when one or more configurations have been created.
 
-   ![](assets/chlimage_1-6.png)
+   ![](assets/chlimage_1-5.png)
 
 1. If you clicked Show Configurations, click the + link beside Available Configurations.
 1. Type a title for the configuration. Optionally, type a name for the node that is used to store the configuration in the repository. Click Create.
@@ -39,7 +39,7 @@ Modify the user name and password of a BrightEdge configuration when required. T
 1. On the rail, click Tools &gt; Operations &gt; Cloud &gt; Cloud Services.
 1. In the BrightEdge Content Optimizer section, click Show Configurations.
 
-   ![](assets/chlimage_1-7.png)
+   ![](assets/chlimage_1-6.png)
 
 1. Click the name of the configuration that you want to edit.
 1. Click Edit, modify the property values, and then click OK.
@@ -54,7 +54,7 @@ Associate pages with a BrightEdge configuration to send page data to the BrightE
 1. On the Cloud Services tab, click the Add Service button, and in the Cloud Services dialog select BrightEdge Content Optimizer and then click OK.
 1. In the BrightEdge Content Optimizer list, select the BrightEdge configuration to associate with the page and then click OK.
 
-   ![](assets/chlimage_1-8.png)
+   ![](assets/chlimage_1-7.png)
 
 ## Activating a BrightEdge Configuration {#activating-a-brightedge-configuration}
 
@@ -63,9 +63,9 @@ Activate a BrightEdge configuration to replicate it on the publish instance and 
 1. On the rail, click Sites, and then browse to and select the page that you associated with the BrightEdge configuration.
 1. Click or tap the Publish icon, and then click or tap Publish.
 
-   ![](assets/chlimage_1-9.png)
+   ![](assets/chlimage_1-8.png)
 
 1. In the list of configurations that appear, ensure that your BrightEdge configuration is selected and then click Publish.
 
-   ![](assets/chlimage_1-10.png)
+   ![](assets/chlimage_1-9.png)
 

@@ -3,12 +3,12 @@ title: Integrating with ExactTarget
 seo-title: Integrating with ExactTarget
 description: Learn how to integrate AEM with ExactTarget.
 seo-description: Learn how to integrate AEM with ExactTarget.
-uuid: ec8d7961-e5d4-4e6b-a577-61a5976014d6
+uuid: 7d3b6aef-43c8-4f6c-82fe-ccc94c0b8b96
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 863668fc-bc4d-4428-b62f-ff7b72ccc1b8
+discoiquuid: 7beca539-9c41-4f3e-a9c3-8a39b28bff9c
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ To create an ExactTarget configuration in Cloud Services:
 1. On the welcome page, click **Cloud Services**. (Or directly access at `http://<hostname>:<port>/etc/cloudservices.html`.)
 1. Click **ExactTarget** and then **Configure**. The ExactTarget configuration window opens.
 
-   ![](assets/chlimage_1-217.png)
+   ![](assets/chlimage_1-208.png)
 
 1. Enter a title and optionally, a name and click **Create**. The** ExactTarget Settings** configuration window opens.
 

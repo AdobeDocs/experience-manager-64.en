@@ -3,12 +3,12 @@ title: Programmatically Disassembling PDF Documents
 seo-title: Programmatically Disassembling PDF Documents
 description: null
 seo-description: null
-uuid: 6a36a00c-8cff-455b-b6d2-1b900f40c0f3
+uuid: e16155a5-cc68-4ea2-95ac-258151e83e39
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 1e16bc84-53a6-4b90-9929-00588d991527
+discoiquuid: ebe63834-8311-4497-b16f-cf9c1bf6f1e0
 index: y
 internal: n
 snippet: y

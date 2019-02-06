@@ -3,13 +3,13 @@ title: Asset Level Scheduling
 seo-title: Asset Level Scheduling
 description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone. 
 seo-description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone. 
-uuid: 41d440ab-f52a-4266-bd73-44f91c4d9113
+uuid: b0b5d737-bfaf-4641-85ab-f25216a21987
 admitteddomains: @adobe.com;@caesars.com
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: c362580b-b63b-45df-a80a-63740c369f08
+discoiquuid: 3f840e6d-28d8-4b56-b87e-0a018910cf82
 noindex: true
 index: y
 internal: n
@@ -108,13 +108,6 @@ To use multi-asset level scheduling for your assets, create an AEM Screens proje
 
 * Create an AEM Screens project titled as **MultiAssetDemo**
 * Create a channel titled as **MultiAssetChannel** and add content to the channel, as shown in the figure below
-
-<!--
-Comment Type: annotation
-Last Modified By: jsyal
-Last Modified Date: 2018-12-19T12:57:48.509-0500
-MultiAssetDemo
--->
 
 ![](assets/screen_shot_2018-12-21at70128am.png)
 

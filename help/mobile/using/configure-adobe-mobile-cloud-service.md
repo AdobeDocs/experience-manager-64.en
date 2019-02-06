@@ -3,12 +3,12 @@ title: Configure your Adobe Mobile Services Cloud Service
 seo-title: Configure your Adobe Mobile Services Cloud Service
 description: Follow this page to configure your Adobe Mobile Services Cloud Service.
 seo-description: Follow this page to configure your Adobe Mobile Services Cloud Service.
-uuid: 2797e150-3f2f-4d6f-9305-a3ba5f4545da
+uuid: 22987cc0-1d34-4a9a-835f-a4dd80900173
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
-discoiquuid: dd66a5fc-e048-4a87-b9fd-4818811a5b6e
+discoiquuid: 7edcdc83-61dc-4420-ab13-0bd13f31d076
 legacypath: /content/docs/en/aem/6-1/develop/mobile-apps/apps/managing-aem-mobile-apps/configure-your-adobe-phonegap-build-cloud-service1
 index: y
 internal: n

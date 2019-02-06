@@ -3,12 +3,12 @@ title: Using Quickviews to create custom pop-ups
 seo-title: Using Quickviews to create custom pop-ups
 description: The default Quickview is used in ecommerce experiences whereby a pop-up is displayed with product information to drive a purchase. You can trigger custom content to display in the pop-ups.
 seo-description: The default Quickview is used in ecommerce experiences whereby a pop-up is displayed with product information to drive a purchase. You can trigger custom content to display in the pop-ups.
-uuid: 74fc3f2a-2f28-4bd0-b5ee-ed12f83bb1e3
+uuid: c2be2c5c-96c2-4db4-9368-c543c4fd62a1
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 5c2642f0-c84e-4720-bab4-c18cea98c9a3
+discoiquuid: 66800a58-b74c-467c-9a7d-9d3556e43a10
 index: y
 internal: n
 snippet: y
@@ -83,7 +83,7 @@ While the functionality of each viewer differs, the process of creating a Quickv
    **Example** 
    Suppose you were using the following sample embed code on your web page for an interactive image:
 
-   ![](assets/chlimage_1-245.png)
+   ![](assets/chlimage_1-244.png)
 
    The handler is loaded into the viewer using `setHandlers`:
 

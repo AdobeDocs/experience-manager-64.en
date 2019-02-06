@@ -3,25 +3,18 @@ title: Creating and managing policy sets
 seo-title: Creating and managing policy sets
 description: Policy sets are used to group policies that have a common business purpose. You can create, edit and delete policies in a policy set.
 seo-description: Policy sets are used to group policies that have a common business purpose. You can create, edit and delete policies in a policy set.
-uuid: 9962ca68-9142-4a87-b08c-279e65badf53
+uuid: 4df7e168-bc36-4def-ba90-dcf4cf29f529
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2c9137d4-0571-4453-8686-46a1afc66633
+discoiquuid: 40770ba0-4983-42c4-accf-8bc0c3ddae6b
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating and managing policy sets{#creating-and-managing-policy-sets}
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>This is an Admin Only content, but not tagging because the EU Help is not conreffing this topic.</p>
--->
 
 Policy sets are used to group policies that have a common business purpose. Policy sets can be made available to a subset of users in the system.
 
@@ -44,13 +37,6 @@ When you delete a policy set, policies that were part of the set cannot be appli
 The super user or policy set coordinator adds domains that are created in User Management to the visible user and group for each policy set. This list is visible to the policy set coordinator and is used to put limits on which domains the policy set coordinator can browse when choosing users to add to policies.
 
 When you create policy sets, you assign users the role of document publisher. The *document publisher* is the user who protects the document with a policy. This user is, by default, always included on a policy with full access rights, including revoke and policy switching capabilities. However, administrators can change the document publisher’s access rights for shared policies. For example, the administrator can disable the document publisher’s right to revoke document access or switch the policy. If an administrator switches the policy attached to the document, the Publisher name will be updated to the name of the owner of the policy last applied to the document.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Bug #2848755-- Change due to engg. bug </p>
--->
 
 Upon installation of document security, a default policy set is created called *Global Policy Set*. This policy set is managed by the administrator who installed the software or the policy set coordinator who is designated for this policy set.
 
@@ -97,13 +83,6 @@ During policy set creation, you can use the Back button to return to the previou
 
 1. Click Save.
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Bug 1674900:</p>
--->
-
 You can now add policies to your policy set. (See [Creating and editing policies](../../../forms/using/admin-help/creating-policies.md#creating-and-editing-policies).)
 
 ## Edit a policy set {#edit-a-policy-set}
@@ -131,11 +110,4 @@ When you delete a policy set, policies that were part of the set cannot be appli
 1. Click Policies and click the Policy Sets tab.
 1. Select the check box for the policy set to delete.
 1. Click Delete and then click OK.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>End RMAdminOnly</p>
--->
 

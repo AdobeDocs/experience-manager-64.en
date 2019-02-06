@@ -3,12 +3,12 @@ title: Intershop
 seo-title: Intershop
 description: Learn how to use AEM with Intershop.
 seo-description: Learn how to use AEM with Intershop.
-uuid: a103145a-765a-42e7-acc4-ef016f55d28d
+uuid: 96423243-109f-46d5-bbf3-0a0bd708d680
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 2a9a2c75-74fa-400c-8062-961828d34771
+discoiquuid: 1463b09e-6370-42fd-b490-8f8c9abb1717
 pagetitle: Administering Intershop
 index: y
 internal: n
@@ -104,7 +104,7 @@ The import process can take a long time so you can select specific areas of the 
 1. On the **General** tab mark the checkbox **Express Update**.
 1. Click **Apply** and click the lock icon on top of the page again to unlock the product.
 
-   ![](assets/chlimage_1-116.png)
+   ![](assets/chlimage_1-110.png)
 
 1. Open the Intershop importer in AEM:
 
@@ -125,7 +125,7 @@ The parameters used by the importer can be configured for:
 **Intershop Product and Catalog Importer** 
 ( `com.adobe.cq.commerce.intershop.impl.importer.IntershopImporter`)
 
-![](assets/chlimage_1-117.png)
+![](assets/chlimage_1-111.png)
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ The parameters used by the parser can be configured for:
 **Intershop JSON Parser** 
 ( `com.adobe.cq.commerce.intershop.impl.importer.IntershopJSONParser`)
 
-![](assets/chlimage_1-118.png)
+![](assets/chlimage_1-112.png)
 
 >[!NOTE]
 >

@@ -3,12 +3,12 @@ title: Oak Queries and Indexing
 seo-title: Oak Queries and Indexing
 description: Learn how to configure indexes in AEM.
 seo-description: Learn how to configure indexes in AEM.
-uuid: adbe5cfe-90d0-4a58-90d1-680f55f5ba09
+uuid: 1c6bc266-bdf0-4ad7-bdca-b4cb42195b53
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: f7a76601-860f-4a11-9bf8-1b15b68c0c2d
+discoiquuid: e580e5a9-1d29-4179-8e36-897d6c5b58f3
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/queries-and-indexing
 index: y
 internal: n
@@ -52,7 +52,7 @@ The **Traversal Index** is used if no other indexer is available. This means tha
 
 If multiple indexers are available for a query, each available indexer estimates the cost of executing the query. Oak then chooses the indexer with the lowest estimated cost.
 
-![](assets/chlimage_1-166.png)
+![](assets/chlimage_1-151.png)
 
 The above diagram is a high level representation of the query execution mechanism of Apache Oak.
 
@@ -195,7 +195,7 @@ The analyzers can be configured via the `analyzers` node (of type `nt:unstructur
 
 The default analyzer for an index is configured in the `default` child of the analyzers node.
 
-![](assets/chlimage_1-167.png)
+![](assets/chlimage_1-152.png)
 
 >[!NOTE]
 >
@@ -407,13 +407,6 @@ Recommended Solr configuration files
 
 [Get File](assets/recommended-conf.zip)
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-02-22T05:06:45.702-0500
-<p>The ACS Indexing tools are a part of the product since 6.1, and will be moved to the Ops Dashboard page. See DOC-5152 and DOC-5138</p>
--->
-
 ### AEM Indexing Tools {#aem-indexing-tools}
 
 AEM 6.1 also integrates two indexing tools present in AEM 6.0 as part of the Adobe Consulting Services Commons toolset:
@@ -425,128 +418,13 @@ You can now reach them by going to **Tools - Operations - Dashboard - Diagnosis*
 
 For more information on how to use them, see the [Operations Dashboard documentation](../../../sites/administering/using/operations-dashboard.md).
 
-<!--
-Comment Type: draft
-
-<h3>ACS Commons Indexing Tools</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>The <a href="https://adobe-consulting-services.github.io/acs-aem-commons/">Adobe Consulting Service Commons</a> toolkit introduces a set of indexing tools in an effort to simplify management and maintenance of indexes in the underlining data storage layer of AEM, Apache OAK.</p>
-<p>The tools are:</p>
-<ul>
-<li><strong>Explain Query</strong>, a tool designed to help administrators understand how queries are executed;<br /> </li>
-<li><strong>Oak Index Manager</strong>, a Web User Interface for maintaining existing indexes.</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Starting with AEM 6.1, both the Explain Query and Oak Index Manager tools will ship with product, thus eliminating the need to install the separately.</p>
-<p>You can reach them by going to <strong>Tools - Operations - Dashboard - Diagnosis</strong> from the AEM Welcome screen.<br /> </p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<h4>The Explain Query Tool</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>For any given query, Oak attempts to figure out the best way to execute based on the Oak indexes defined in the repository under the <strong>oak:index</strong> node. Depending on the query, different indexes may be chosen by Oak. Understanding how Oak is executing a query is the first step to optimizing the query.</p>
-<p>The Explain Query is a tool that explains how Oak is executing a query.</p>
-<p><strong>Features</strong></p>
-<ul>
-<li>Supports the Xpath, JCR-SQL and JCR-SQL2 query languages<br /> </li>
-<li>Reports the actual execution time of the provided query<br /> </li>
-<li>Detects slow queries and warns about queries that could be potentially slow<strong></strong><br /> </li>
-<li>Reports the Oak index used to execute the query</li>
-<li>Displays the actual Oak Query engine explanation</li>
-<li>Provides click-to-load list of Slow and Popular queries</li>
-</ul>
-<p><strong>Installing Explain Query</strong></p>
-<p>Explain Query is part of the ACS Toolset and can be installed as a standard AEM package. In order to use it, you need to:<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Go to the <a href="https://adobe-consulting-services.github.io/acs-aem-tools/">ACS Tools Website</a> and download the package.</p> </li>
-<li><p>Go to <span class="code">http://localhost:4502/crx/packmgr/index.js</span>p to access the Package Manager.</p> </li>
-<li><p>Upload the package and install it. For more information on how to work with Package Manager, see <a href="../../../sites/administering/using/package-manager.md#main-pars-title-10">How to Work with Packages</a>.</p> </li>
-<li><p>Access the Explain Query UI by pointing your browser to <span class="code">http://localhost:4502/etc/acs-tools/explain-query.html</span><br /> </p> </li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<p>Once in the Explain Query UI, select the query language, enter a query and press the Explain button.</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-168.png" />
--->
-
-<!--
-Comment Type: draft
-
-<p>The first entry in the Query Explanation section is the actual explanation. The explanation will show the type of index that was used to execute the query.</p>
-<p>The second entry is the query plan.</p>
-<p>Ticking the <strong>Include exectuion time</strong> box before running the query will also show the amount of time the query was executed in, allowing for more information that can be used for optimizing the indexes for your application or deployment.</p>
-<p>The tool will also build a list of popular and slow queries that can be automatically loaded in the UI by clicking their name in the predefined list, as shown below.<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-169.png" />
--->
-
-<!--
-Comment Type: draft
-
-<h4>The Oak Index Manager</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Oak Index Manager is a simple WebUI created to facilitate index management such as maintaining indexes, viewing their status or triggering re-indexes.</p>
-<p>It can be downloaded as a part of the <a href="https://adobe-consulting-services.github.io/acs-aem-commons/">ACS AEM Commons</a> package and installed via Package Manager in AEM.</p>
-<p>Once installed, it can be accessed by going to <strong>Tools - ACS AEM Commons - Oak Index Manager</strong> from the welcome screen or by directly accesing the url at <span class="code">http://localhost:4502/etc/acs-commons/oak-index-manager.html</span></p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-170.png" />
--->
-
-<!--
-Comment Type: draft
-
-<p>The UI can be used to filter indexes in the table by typing in the filter criteria in the search box in the upper left corner of the screen.</p>
-<p>A single reindex can be triggered by clicking the icon in the <strong>Reindex</strong> column for the respective index. A bulk reindex can be triggered by selecting multiple indexes and clicking the <strong>Bulk Reindex</strong> button.</p>
--->
-
 #### Creating Property Indexes via OSGi {#creating-property-indexes-via-osgi}
 
 The ACS Commons package also exposes OSGi configurations that can be used to create property indexes.
 
 You can access it from the Web Console by searching for "**Ensure Oak Property Index**".
 
-![](assets/chlimage_1-171.png) 
+![](assets/chlimage_1-153.png) 
 
 ### Troubleshooting indexing issues {#troubleshooting-indexing-issues}
 

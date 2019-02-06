@@ -3,12 +3,12 @@ title: Performance Guidelines
 seo-title: Performance Guidelines
 description: This article provides general guidelines on how to optimize the performance of your AEM deployment.
 seo-description: This article provides general guidelines on how to optimize the performance of your AEM deployment.
-uuid: 7aa0e323-18e1-415c-8fe2-8d50b4bf193b
+uuid: 0c3a694e-d4da-419c-9835-26402b7ef35b
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: 7f5e0c63-5583-47ad-b616-640836c3c50a
+discoiquuid: 7713e7ec-2e94-44d0-9dbe-9a769c6b50bc
 index: y
 internal: n
 snippet: y
@@ -254,20 +254,6 @@ Illustrated below are the deployment options available for AEM (scroll to view a
  </tbody> 
 </table>
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-23T09:28:01.819-0500
-<p>This needs to be translated into a table component.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-0436B4A35714BFF67F000101@AdobeID)
-Last Modified Date: 2018-01-23T09:28:01.866-0500
-<p>Done.</p>
--->
-
 >[!NOTE]
 >
 >The performance guidelines apply mainly to AEM Sites.
@@ -334,26 +320,6 @@ For further details on the available configuration options, see [Configuring Nod
 >
 >For additional details also see the [technical requirements](../../../sites/deploying/using/technical-requirements.md#supportedplatforms) page.
 
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-4.png" />
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-23T09:28:02.903-0500
-<p>This needs to be tidied up - "Datastore" should fit in a single line. Same for the diagram below.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-0436B4A35714BFF67F000101@AdobeID)
-Last Modified Date: 2018-01-23T09:28:02.947-0500
-<p>Done.</p>
--->
-
 ### Search {#search}
 
 Listed in this section are the custom index providers used with AEM. To know more about indexing, see [Oak Queries and Indexing](../../../sites/deploying/using/queries-and-indexing.md).
@@ -362,7 +328,7 @@ Listed in this section are the custom index providers used with AEM. To know mor
 >
 >For most deployments, Adobe recommends using the Lucene Index. You should use Solr only for scalability in specialized and complex deployments.
 
-![](assets/chlimage_1-5.png) 
+![](assets/chlimage_1-4.png) 
 
 ### Development Guidelines {#development-guidelines}
 
@@ -447,38 +413,17 @@ To establish good performance when using TarMK, you should start from the follow
 
 Illustrated below are the architecture guidelines for AEM sites and AEM Assets.
 
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-01-23T09:28:03.585-0500
-<p>Buletted text needs to start with a capital letter.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-01-23T09:28:03.628-0500
-<p>Done.</p>
--->
-
 >[!NOTE]
 >
 >Binary-less replication should be turned **ON** if the File Datastore is shared.
 
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-01-23T09:28:03.707-0500
-<p>Should include an explanation as to why binaryless replication needs to be turned on for FDS - i.e. if the data store is shared, there is no need to replicate it across instances since all of them use the same DS. Remember earlier discussions on the subject.</p>
--->
-
 **Tar Architecture Guidelines for AEM Sites**
 
-![](assets/chlimage_1-6.png)
+![](assets/chlimage_1-5.png)
 
 **Tar Architecture Guidelines for AEM Assets**
 
-![](assets/chlimage_1-7.png) 
+![](assets/chlimage_1-6.png) 
 
 ### TarMK Settings Guideline {#tarmk-settings-guideline}
 
@@ -537,20 +482,6 @@ For good performance, you should follow the settings guidelines presented below.
  </tbody> 
 </table>
 
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-01-23T09:28:04.036-0500
-<p>All parameters and code samples in the table should be monospaced (mark the Style as "Code").</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-01-23T09:28:04.078-0500
-<p>Done.</p>
--->
-
 ### TarMK Performance Benchmark {#tarmk-performance-benchmark}
 
 #### Technical Specifications {#technical-specifications}
@@ -577,15 +508,7 @@ The benchmark tests were performed on the following specifications:
 >
 >The numbers presented below have been normalized to 1 as the baseline and are not the actual throughput numbers.
 
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-01-23T09:28:04.337-0500
-<p>Not very clear what "normalize to 1" means in this context. It can't mean getting the results closer to 1 unit, because there are values like 0.9 in the table.</p>
-<p>If it means "getting rid of the second and third decimals", maybe you should find a way to make that more explicit in the note.</p>
--->
-
-![](assets/chlimage_1-8.png) ![](assets/chlimage_1-9.png) 
+![](assets/chlimage_1-7.png) ![](assets/chlimage_1-8.png) 
 
 ## MongoMK {#mongomk}
 
@@ -602,20 +525,6 @@ To establish good performance when using MongoMK, you should start from the foll
 * Three MongoDB instances
 * Two Dispatchers
 
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-01-23T09:28:04.621-0500
-<p>Again, items in the bulleted list should start with capitals.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-01-23T09:28:04.681-0500
-<p>Done.</p>
--->
-
 >[!NOTE]
 >
 >In production environments, MongoDB will always be used as a replica set with a primary and two secondaries. Reads and writes go to the primary and reads can go to the secondaries. If storage is not available, one of the secondaries can be replaced with an arbiter, but MongoDB replica sets must always be composed of an odd number of instances.
@@ -624,7 +533,7 @@ Last Modified Date: 2018-01-23T09:28:04.681-0500
 >
 >Binary-less replication should be turned **ON** if the File Datastore is shared.
 
-![](assets/chlimage_1-10.png) 
+![](assets/chlimage_1-9.png) 
 
 ### MongoMK Settings Guidelines {#mongomk-settings-guidelines}
 
@@ -683,20 +592,6 @@ For good performance, you should follow the settings guidelines presented below.
  </tbody> 
 </table>
 
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-01-23T09:28:04.966-0500
-<p>Parameters and code samples should be styled as "Code".</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-01-23T09:28:05.029-0500
-<p>Done.</p>
--->
-
 ### MongoMK Performance Benchmark {#mongomk-performance-benchmark}
 
 ### Technical Specifications {#technical-specifications-1}
@@ -723,14 +618,7 @@ The benchmark tests were performed on the following specifications:
 >
 >The numbers presented below have been normalized to 1 as the baseline and are not the actual throughput numbers.
 
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-01-23T09:28:05.273-0500
-<p>Same as above note about normalization to 1.</p>
--->
-
-![](assets/chlimage_1-11.png) ![](assets/chlimage_1-12.png) 
+![](assets/chlimage_1-10.png) ![](assets/chlimage_1-11.png) 
 
 ## TarMK vs MongoMK {#tarmk-vs-mongomk}
 
@@ -758,36 +646,11 @@ For further details on TarMK vs MongoMK, see [Recommended Deployments](../../../
 * Volume of page edits per day: in hundreds of thousands or more
 * Volume of searches per day: in tens of thousands or more
 
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-01-23T09:28:05.564-0500
-<p>"Provides a failover mechanism - Cold Standby" should be rephrased to something like:</p>
-<p>"Provides a failover mechanism - see Cold Standby for more details".</p>
-<p>OR</p>
-<p>"Provides a failover mechanism called Cold Stanby in AEM.</p>
-<p>NB: the linking is alright.<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-01-23T09:28:05.604-0500
-<p>Done.</p>
--->
-
 ### TarMK vs MongoMK Benchmarks {#tarmk-vs-mongomk-benchmarks}
 
 >[!NOTE]
 >
 >The numbers presented below have been normalized to 1 as the baseline and are not actual throughput numbers.
-
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-01-23T09:28:05.713-0500
-<p>Again, clarify what normalization is.<br /> </p>
--->
 
 ### Scenario 1 Technical Specifications {#scenario-technical-specifications}
 
@@ -869,28 +732,13 @@ Last Modified Date: 2018-01-23T09:28:05.713-0500
 
 ### Scenario 1 Performance Benchmark Results {#scenario-performance-benchmark-results}
 
-![](assets/chlimage_1-13.png) 
+![](assets/chlimage_1-12.png) 
 
 ### Scenario 2 Technical Specifications {#scenario-technical-specifications-1}
 
 >[!NOTE]
 >
 >To enable the same number of Authors with MongoDB as with one TarMK system you need a cluster with two AEM nodes. A four node MongoDB cluster can handle 1.8 times the number of Authors than one TarMK instance. An eight node MongoDB cluster can handle 2.3 times the number of Authors than one TarMK instance.
-
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-01-23T09:28:05.958-0500
-<p>Correct this sentece:</p>
-<p>"To enable the same number of Authors with MongoDB <strong>than</strong> with one TarMK system you need a cluster with two AEM nodes."</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-01-23T09:28:05.993-0500
-<p>Done.</p>
--->
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -969,27 +817,13 @@ Last Modified Date: 2018-01-23T09:28:05.993-0500
 
 ### Scenario 2 Performance Benchmark Results {#scenario-performance-benchmark-results-1}
 
-![](assets/chlimage_1-14.png) 
+![](assets/chlimage_1-13.png) 
 
 ### Architecture Scalability Guidelines For AEM Sites and Assets {#architecture-scalability-guidelines-for-aem-sites-and-assets}
 
-![](assets/chlimage_1-15.png) 
+![](assets/chlimage_1-14.png) 
 
 ## Summary of Performance Guidelines  {#summary-of-performance-guidelines}
-
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-01-23T09:28:06.274-0500
-<p>Crosslink this with the Recommended Deployments page.<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-01-23T09:28:06.330-0500
-<p>Done.</p>
--->
 
 The guidelines presented on this page can be summarized as follows:
 

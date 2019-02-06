@@ -3,12 +3,12 @@ title: Enterprise DevOps
 seo-title: Enterprise DevOps
 description: Learn about the processes, methods and communication required to ease deployment and simplify collaboration.
 seo-description: Learn about the processes, methods and communication required to ease deployment and simplify collaboration.
-uuid: cb3f46cf-3e70-4a41-a219-ac2712b1725c
+uuid: 11924976-15d0-4d09-93c8-4a42b98d9f1a
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
-discoiquuid: 267d63e3-0518-4d95-b201-64bcf22bea93
+discoiquuid: d56baa2b-4845-4e51-a1cb-c8852669f21a
 index: y
 internal: n
 snippet: y
@@ -68,25 +68,6 @@ The staging environment should be a mirror of the production environment - confi
 * It is used to test the scripts used to implement the actual deployment.
 * It can be used for final tests (design, functionality and interfaces) before deploying to the production environments. 
 * Although it is not always possible to have the staging environment identical to the production environment, it should be as close as possible to enable performance and load testing.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:41.720-0500
-<p>The John Lewis document states "Staging is generally used to create content outside of production in lieu of a “launch”. "</p>
-<p>Include something similar here? Conflicts with the diagrams provided.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:41.732-0500
-<p>see <a href="http://archive.corp.adobe.com/discussion-groups/content/lists/adobe-tech/2016-06/2016-06-16_Authoring_and_software_engineering_workflows_in_enterprise_AEM_deployments_Giovanni_Sarbia.html/1#mail_1">http://archive.corp.adobe.com/discussion-groups/content/lists/adobe-tech/2016-06/2016-06-16_Authoring_and_software_engineering_workflows_in_enterprise_AEM_deployments_Giovanni_Sarbia.html/1#mail_1</a></p>
-<p>"guidelines should be provided on how to select an appropriate subset of content to ensure that any test in staging is still relevant"</p>
-<ul>
-<li>how?</li>
-</ul>
--->
 
 ### Production - Author and Publish {#production-author-and-publish}
 

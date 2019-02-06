@@ -3,12 +3,12 @@ title: SRP - Community Content Storage
 seo-title: SRP - Community Content Storage
 description: As of AEM Communities 6.1, user generated content (UGC) is stored in a single, common store provided by a storage resource provider (SRP)
 seo-description: As of AEM Communities 6.1, user generated content (UGC) is stored in a single, common store provided by a storage resource provider (SRP)
-uuid: e0437d0a-e8c8-45fb-9acb-b5fc4d6b6b65
+uuid: 208385ce-bb81-4f9f-a833-fd70046bd83a
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 0367c55b-9f0b-4f74-bdd0-5160fa0f49c9
+discoiquuid: 540879ba-dd63-49e4-bbd7-9f06ce3d8011
 index: y
 internal: n
 snippet: y
@@ -95,19 +95,6 @@ For configuration details of each option, see :
 * [JSRP - JCR Storage Resource Provider](../../communities/using/jsrp.md)
 
 If no storage option is actively selected, JSRP is enabled by default.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (jkendall)
-Last Modified Date: 2017-11-30T05:39:59.605-0500
-<p>ASRP has to have a report suite, but does not need to be in a tenant. </p>
-<p>For ASRP tenants, each tenant has to have a report suite (unique for each tenant).</p>
-<p>There can be Tenants for ASRP or MSRP, but not JSRP (it’s just a dev/demo publish-only storage method).</p>
-<p>Possible configs are</p>
-<p>Default: JSRP || ASRP (report suite1) || MSRP (mongo instance 1)</p>
-<p>Tenant 1: ASRP (report suite 2) || MSRP (mongo instance 2)</p>
-<p>Tenant 2: ASRP (report suite 3) || MSRP (mongo instance 3)</p>
--->
 
 ## Additional Information {#additional-information}
 

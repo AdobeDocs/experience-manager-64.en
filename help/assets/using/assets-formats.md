@@ -3,12 +3,12 @@ title: Assets Supported Formats
 seo-title: Assets Supported Formats
 description: List of file formats supported by AEM Assets and features supported for each format.
 seo-description: List of file formats supported by AEM Assets and features supported for each format.
-uuid: 9c52714c-d7f8-48a3-9e31-0081d01c45e3
+uuid: 41b217e1-558d-44ff-9436-d6900618517a
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 92a045ea-b8ec-409a-b891-aeeb4a358dc8
+discoiquuid: b982bd02-6a98-4b2c-b057-69475fd59eac
 index: y
 internal: n
 snippet: y
@@ -1056,18 +1056,4 @@ See also [Enabling MIME type-based Assets/Scene7 upload job parameter support](.
   </tr>
  </tbody>
 </table>
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-04-18T16:56:04.255-0400
-pdfOptions - Need to add values to this link plus an example.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-04-18T16:56:56.530-0400
-Need values and examples added to the linked topic.
--->
 

@@ -3,25 +3,18 @@ title: Using and Extending Widgets (Classic UI)
 seo-title: Using and Extending Widgets (Classic UI)
 description: AEM's web-based interface uses AJAX and other modern browser technologies to enable WYSIWYG editing and formatting of content by authors right on the web page
 seo-description: AEM's web-based interface uses AJAX and other modern browser technologies to enable WYSIWYG editing and formatting of content by authors right on the web page
-uuid: bce10c12-a9d6-4c63-a113-01c8588333b1
+uuid: b7de010d-4eb3-49bc-9ce8-5db12e5f00f9
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 859dc3d2-1339-450e-a982-18e88267176d
+discoiquuid: 64911ac5-3b57-4c53-9f3c-f06856c3ef27
 index: y
 internal: n
 snippet: y
 ---
 
 # Using and Extending Widgets (Classic UI){#using-and-extending-widgets-classic-ui}
-
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2017-11-30T05:26:12.002-0500
-<p>CQ’s ExtJS is namespaced under CQ.Ext<br /> CQ’s jQuery is namespaced under $CQ<br /> </p>
--->
 
 Adobe Experience Manager's web-based interface uses AJAX and other modern browser technologies to enable WYSIWYG editing and formatting of content by authors right on the web page.
 
@@ -49,21 +42,7 @@ The package includes examples of:
 >
 >This page describes the usage of widgets within the classic UI. Adobe recommends that you leverage the modern, [touch-enabled UI](../../../sites/developing/using/touch-ui-concepts.md) based on [Coral UI](../../../sites/developing/using/touch-ui-concepts.md#main-pars-title-0) and [Granite UI](../../../sites/developing/using/touch-ui-concepts.md#main-pars-title-3).
 
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2017-11-30T05:26:12.053-0500
-<p>The package <strong>Using ExtJS Widgets</strong> (v01) was tested with CQ 5.4 and CQ 5.5</p>
--->
-
 ### Including the Client-Sided Code in a Page {#including-the-client-sided-code-in-a-page}
-
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2017-11-30T05:26:12.087-0500
-<p>very interesting piece of information:<br /> http://www.wemblog.com/2012/01/how-to-use-and-debug-cq-client-library.html<br /> </p>
--->
 
 Client sided javascript and stylesheet code should be placed in a client library.
 
@@ -170,7 +149,7 @@ Include the **1. Dialog Basics** component in the sample page:
 
 The component displays as follows:
 
-![](assets/chlimage_1-148.png) 
+![](assets/chlimage_1-146.png) 
 
 #### Example 1: Full Dialog {#example-full-dialog}
 
@@ -293,7 +272,7 @@ To include the **2. Dynamic Dialogs** component on the sample page:
 
 The component displays as follows:
 
-![](assets/chlimage_1-149.png) 
+![](assets/chlimage_1-147.png) 
 
 #### Example 1: Switch Tabs Dialog {#example-switch-tabs-dialog}
 
@@ -388,17 +367,6 @@ To use the **Arbitrary** dialog:
 
 1. Edit the component: the dialog displays as follows:
 
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2017-11-30T05:26:12.895-0500
-<p>what is the rec (record) in loadcontent="function(field,rec,path){Ejst.x2.showInfo(field,rec,path);}"?<br /> </p>
-<p> </p>
-<p>ownerdraw.getEl().update(html):</p>
-<p>there's no update() for CQ.Ext.Element in the jsdocs</p>
-<p>jsdocs issue? </p>
--->
-
 ![](assets/screen_shot_2012-02-01at115300am.png) 
 
 #### Example 3: Toggle Fields Dialog {#example-toggle-fields-dialog}
@@ -442,13 +410,6 @@ To use the **Toggle Fields** dialog:
 
 1. Edit the component: the dialog displays as follows:
 
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2017-11-30T05:26:13.007-0500
-<p>what is this doing: fieldSet.items.each(function(field) {... ?<br /> </p>
--->
-
 ![](assets/screen_shot_2012-02-01at115518am.png) 
 
 ### Custom Widgets {#custom-widgets}
@@ -467,7 +428,7 @@ The custom widgets and the plugin are included in the component called **3. Cust
 1. The component displays a title, some text and, when clicking the **PROPERTIES** link, the properties of the paragraph stored in the repository. Clicking again hides the properties.  
    The component displays as follows:
 
-![](assets/chlimage_1-150.png) 
+![](assets/chlimage_1-148.png) 
 
 #### Example 1: Custom Multifield Widget {#example-custom-multifield-widget}
 

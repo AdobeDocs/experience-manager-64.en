@@ -3,12 +3,12 @@ title: Enabling Access to Classic UI
 seo-title: Enabling Access to Classic UI
 description: Lear how to enable access to Classic UI.
 seo-description: Lear how to enable access to Classic UI.
-uuid: 3b56973e-0547-4971-a2c7-90cad7970de8
+uuid: d1a47aa5-f014-49f4-8dbb-9cbc54223619
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 77671bae-784f-4836-ac60-683623c3dfd7
+discoiquuid: c3c906ac-0311-4b95-ac3b-ac0a8f3969a5
 index: y
 internal: n
 snippet: y

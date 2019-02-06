@@ -3,13 +3,13 @@ title: GDPR Readiness
 seo-title: AEM and General Data Protection Regulation (GDPR) 
 description: Learn about AEM support for the EU General Data Protection Regulation (GDPR) and how to comply when implementing a new AEM project.
 seo-description: Learn about AEM support for the EU General Data Protection Regulation (GDPR) and how to comply when implementing a new AEM project.
-uuid: fec610ad-e91b-42fb-8c61-6da10dbe490d
+uuid: 21a000b4-e41b-4bb5-8268-4f11489654af
 contentOwner: aheimoz
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: grdp
-discoiquuid: 8628c8f2-dbcf-4e0e-b17a-d413d6784412
+discoiquuid: fdee551f-b659-46ca-afb8-dad287d4a9c3
 index: y
 internal: n
 snippet: y
@@ -46,42 +46,6 @@ See [Handling GDPR Requests for the AEM Foundation](../../sites/administering/us
 ## AEM Opting Into Aggregate Usage Statistics Collection {#aem-opting-into-aggregate-usage-statistics-collection}
 
 See [Aggregated Usage Statistics Collection](../../sites/deploying/using/opt-in-aggregated-usage-statistics.md).
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-05-23T01:27:01.102-0400
-<p>see <a href="https://jira.corp.adobe.com/browse/CQ-110592">https://jira.corp.adobe.com/browse/CQ-110592</a></p>
-<p>PROPOSED LANGUAGE:</p>
-<p>Aggregated Usage Statistics Collection (title of window)</p>
-<p>Help us improve Adobe Marketing Cloud by sending us usage statistics about how you interact with Adobe Experience Manager. This information does not contain any data about your company’s site visitors, and will only be used to help us deliver, support, and improve your user experience.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-05-23T01:05:21.170-0400
-<p>Based on the legal review for the UI.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The <a href="../../sites/deploying/using/opt-in-aggregated-usage-statistics.md">Aggregated Usage Statistics Collection</a> is GDPR compliant. No Personal Data is stored in AEM in relation to the statistics.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-05-23T01:05:03.610-0400
-<p>From legal review for GDPR.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p><a href="../../sites/deploying/using/opt-in-aggregated-usage-statistics.md">Aggregated Usage Statistics Collection</a> does not use, collect or store Personal Data in relation to the statistics.</p>
--->
 
 ## AEM Sites {#aem-sites}
 

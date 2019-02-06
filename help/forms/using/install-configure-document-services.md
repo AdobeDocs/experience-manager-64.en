@@ -3,9 +3,9 @@ title: Installing and configuring document services
 seo-title: Installing and configuring document services
 description: Install AEM Forms document services to create, assemble, distribute, archive PDF documents, add digital signatures to limit access to documents, and decode barcoded forms.
 seo-description: Install AEM Forms document services to create, assemble, distribute, archive PDF documents, add digital signatures to limit access to documents, and decode barcoded forms.
-uuid: 964891b6-c069-406b-83d0-0d350227e587
+uuid: 602e1ae3-a377-47b3-9a92-8377eb1e6d85
 topic-tags: installing
-discoiquuid: 698cf5ba-7d3f-4578-8af7-ce664cbc408d
+discoiquuid: c1ee2754-da0e-44ec-9ba9-7205738365ef
 index: y
 internal: n
 snippet: y
@@ -78,13 +78,6 @@ Before you begin to install and configure AEM Forms document services, ensure th
       ](../../forms/using/AEM-forms-JEE-supported-platforms.md#main-pars-header-8)
     
     * **Linux**: Install [Apache OpenOffice](../../forms/using/AEM-forms-JEE-supported-platforms.md#main-pars-header-8)
-
-<!--
-Comment Type: annotation
-Last Modified By: khsingh
-Last Modified Date: 2018-02-22T01:25:39.181-0500
-I think we can externalize the common parts which'll show up all articles. -- System Reqs -- Install the Add-on I will take it up with the second article.
--->
 
 >[!NOTE]
 >
@@ -351,23 +344,9 @@ To avoid receiving the error, you can disable the Windows error reporting. For m
 
 The PDF Generator service provides WebKit, WebCapture, and PhantomJS routes or methods to convert HTML files to PDF documents. On Windows, to enable conversion for WebKit and Acrobat WebCapture routes, copy the Unicode font to %windir%\fonts directory.
 
-<!--
-Comment Type: annotation
-Last Modified By: khsingh
-Last Modified Date: 2018-02-22T01:11:05.772-0500
-This assumes that the Add-on is already installed. [KS]: Done
--->
-
 ### Extra configurations for HTML to PDF conversion  {#extra-configurations-for-html-to-pdf-conversion}
 
 On UNIX-based platforms, the PDF Generator service supports WebKit and PhantomJS routes to convert HTML files to PDF documents. To enable HTML to PDF conversion, perform the following configurations, applicable to your preferred conversion route:
-
-<!--
-Comment Type: annotation
-Last Modified By: khsingh
-Last Modified Date: 2018-02-22T01:25:06.690-0500
-Why are we repeating this content? If we have some common content, let's see if we can pull it out into a common section. [KS]: All the content is specific to OS except the header section. Only a couple of starting lines are common with Linux.
--->
 
 #### Enable support for Unicode fonts (WebKit only) {#enable-support-for-unicode-fonts-webkit-only}
 
@@ -381,13 +360,6 @@ Copy the Unicode font to any of the following directories as appropriate for you
 * /usr/X11R6/lib/X11/fonts/TTF
 * /usr/openwin/lib/X11/fonts/TrueType (Solaris)
 
-<!--
-Comment Type: annotation
-Last Modified By: khsingh
-Last Modified Date: 2018-02-22T01:16:09.312-0500
-Either remove Windows or pull this section out into the common area. [KS]: Removed the Windows related content.
--->
-
 >[!NOTE]
 >
 >* On RedHat Enterprise Linux 6.x and later, the courier fonts are not available. To install the courier fonts, download the font-ibm-type1-1.0.3.zip archive. Extract the archive at /usr/share/fonts. Create a symbolic link from /usr/share/X11/fonts to /usr/share/fonts.  
@@ -398,13 +370,6 @@ Either remove Windows or pull this section out into the common area. [KS]: Remov
 >
 
 ## Install AEM Forms add-on package {#install-aem-forms-add-on-package}
-
-<!--
-Comment Type: annotation
-Last Modified By: virai
-Last Modified Date: 2018-02-21T09:06:29.041-0500
-Let's externalize and modularize the install the Add-on instructions in a separate article.
--->
 
 AEM Forms add-on package is an application deployed onto AEM. The package contains AEM Forms Document Services and other AEM Forms capabilities. Perform the following steps to install the package:
 
@@ -540,19 +505,6 @@ On Microsoft Windows, the PDF Generator service uses Adobe Acrobat to convert su
 
 1. Step text
 
-<!--
-Comment Type: draft
-
-<h4 id="Multi-threaded file conversions">Configure multi-threaded file conversions</h4>
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: khsingh
-Last Modified Date: 2018-02-16T08:45:14.788-0500
-The following article has information about Enabling multi-threaded file conversions. Most of the sections mentioned in article are already covered in previous configuration. What special configurations are remaining. Moreover, the article is for JEE. What need to move required information to OSGi article. https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/enabling-multi-threaded-file-conversions.html
--->
-
 #### Configure primary route for HTML to PDF conversion (Windows only) {#configure-primary-route-for-html-to-pdf-conversion-windows-only}
 
 The PDF Generator service provides multiple routes to convert HTML files to PDF documents: Webkit, Acrobat WebCapture (Windows only), and PhantomJS. Adobe recommends using PhantomJS route because it has the capability to handle dynamic content and has no dependencies on 32-bit libraries, 32-bit JDK, or requires no extra fonts. Also, PhantomJS route does not require sudo or root access to run the conversion.
@@ -562,13 +514,6 @@ The default primary route for HTML to PDF conversion is Webkit. To change the co
 1. On AEM author instance, navigate to **[!UICONTROL Tools]**> **[!UICONTROL Forms]**> **[!UICONTROL Configure PDF Generator]**.
 
 1. In the **[!UICONTROL General Configuration]** tab, select the preferred conversion route from the **[!UICONTROL Primary Route for HTML to PDF conversions]** drop-down.
-
-<!--
-Comment Type: annotation
-Last Modified By: virai
-Last Modified Date: 2018-02-21T09:03:15.827-0500
-Why are we repeating this content? If we have some common content, let's see if we can pull it out into a common section.
--->
 
 #### Set up certificates for Reader extension and encryption service {#set-up-certificates-for-reader-extension-and-encryption-service}
 

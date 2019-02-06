@@ -3,12 +3,12 @@ title: Backup and Restore
 seo-title: Backup and Restore
 description: Learn how to backup and restore your AEM content.
 seo-description: Learn how to backup and restore your AEM content.
-uuid: 9040f964-32d2-48a5-8f0f-f8eb1e37cded
+uuid: fbead077-6673-4ba5-8498-54ad9a702bba
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 19935da7-8555-42fa-b50c-ba5d693bbb25
+discoiquuid: c96ce93d-3775-4a0d-8bbd-e47a271b68b1
 index: y
 internal: n
 snippet: y
@@ -47,14 +47,6 @@ In most cases you will use a filesystem snapshot to create a read-only copy of t
 * start the application
 
 As the snapshot backup usually takes only a few seconds, the entire downtime is less than a few minutes.
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Instead of stopping CRX, you can also use calls to JMX MBeans to prevent CRX from writing to the disk, which reduces the time CRX is unavailable to seconds. This is described under <a href="../../../sites/administering/using/backup-and-restore.md#filesystemsnapshotbackup">Filesystem Snapshot Backup</a> below.</p>
-</note>
--->
 
 ## Online Backup {#online-backup}
 
@@ -126,11 +118,11 @@ To create a backup:
 1. Go to **Tools - Operations - Backup.**
 1. Click **Create**. The backup console will open.
 
-   ![](assets/chlimage_1-3.png)
+   ![](assets/chlimage_1-2.png)
 
 1. On the backup console, specify the ** [Target Path](#targetpath)** and ** [Delay](#path)**.
 
-   ![](assets/chlimage_1-4.png)
+   ![](assets/chlimage_1-3.png)
 
    >[!NOTE]
    >
@@ -148,7 +140,7 @@ To create a backup:
 
 1. When the backup is complete, the zip files are listed in the backup window.
 
-   ![](assets/chlimage_1-5.png)
+   ![](assets/chlimage_1-4.png)
 
    >[!NOTE]
    >
@@ -157,13 +149,6 @@ To create a backup:
    >[!NOTE]
    >
    >If you have backed up to a directory: after the backup process is finished AEM will not write to the target directory.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (ims-author-0436B4A35714BFF67F000101@AdobeID)
-   Last Modified Date: 2017-11-30T04:59:16.497-0500
-   <p>TBD - New screenshots after the UI for 6.3 is finalized</p>
-   -->
 
 ### Automating AEM Online Backup {#automating-aem-online-backup}
 
@@ -222,46 +207,6 @@ The process described here is specially suited for large repositories.
 1. Mount the filesystem snapshot.
 1. Perform a backup and unmount the snapshot.
 
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>To call <span class="code">unblockRepositoryWrites</span>, you need to use a locally attached JMX client if you are using an out-of-the-box repository configuration.</p>
-<p>The JMX console is inappropriate in this case, as its availability is not guaranteed after <span class="code">blockRepositoryWrites</span> has been called.</p>
-<p>Read on for alternatives.</p>
-<p> </p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<p>The default CRX locking strategy will lock the complete workspace, so that the web console will not be able to authenticate the request to the web console which is supposed to unblock repository writes. For this reason, if you have not changed the crx.default workspace configuration and so use <a href="http://jackrabbit.apache.org/api/2.0/org/apache/jackrabbit/core/state/DefaultISMLocking.html">DefaultISMLocking</a>, you cannot unblock writes through the web console.</p>
-<p>You can instead use <span class="code">com.day.crx.core.lock.BackupAwareISMLocking</span> as a locking strategy, by adding the following line to <span class="code">repository/workspaces/crx.default/workspace.xml</span> just after <span class="code">&lt;/SearchIndex&gt;</span>:</p>
-<p><span class="code">&lt;ISMLocking class="com.day.crx.core.lock.BackupAwareISMLocking"/&gt;</span></p>
-<p><span class="code">BackupAwareISMLocking</span> otherwise works in the same way as <span class="code">DefaultISMLocking</span>.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Backing Up the Data Store Separately</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>If the file data store has been configured outside the main repository, it is not included in the backup. This will reduce the size of the online backup and the backup directory. However, the data store needs to be backed up as well. Because files in the file data store directory are immutable, they can be backed up incrementally (potentially using <strong>rsync</strong>) or after running the online backup.<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Do <strong>not</strong> run the data store backup and revision clean up concurrently.</p>
-</note>
--->
-
 ### How AEM Online Backup Works {#how-aem-online-backup-works}
 
 AEM Online Backup is comprised of a series of internal actions to ensure the integrity of the data being backed up and the backup file(s) being created. These are listed below for those interested.
@@ -294,97 +239,12 @@ The files are copied to the target directory in four stages:
     * If a zip file was specified, this is now created from the temporary directory. Progress indicator 70% - 100%. The temporary directory is then deleted.
     * If the target was a directory, the empty file named `backupInProgress.txt` is deleted to indicate that the backup is finished.
 
-<!--
-Comment Type: draft
-
-<ol>
-<li>The online backup uses the following algorithm:</li>
-<li>When creating a zip file, the first step is to create or locate the target directory.<br />
-<ol>
-<li>If backing up to a zip file, a temporary directory is created. The directory name starts with backup. and ends with .temp; for example backup.f4d3.temp.</li>
-<li>If backing up to a directory, the name specified in the target path is used. An existing directory can be used, otherwise a new directory will be created.<br /> An empty file named backupInProgress.txt is created in the target directory when the backup starts. This file is deleted when the backup is finished.</li>
-</ol> </li>
-<li>All files are copied from the source directory to the target directory (or temporary directory when creating a zip file). The progress bar indicator of this sub-process is between 0% - 70% when creating a zip file, or 0% - 100% if no zip file is created.</li>
-<li>If the backup is being made to a pre-existing directory, then "old" files in the target directory are deleted. Old files are files that do not exist in the source directory.</li>
-<li>The files are copied to the target directory in four stages.
-<ol>
-<li>In the first copy stage (progress indicator 0% - 63% when creating a zip file or 0% - 90% if no zip file is created), all files are copied concurrently while the repository is running normally.</li>
-<li>In the second copy stage (progress indicator 63% - 66.5% when creating a zip file or 90% - 95% if no zip file is created) only files that were created or modified in the source directory since the first copy stage was started are copied. Depending on the activity of the repository, this might range from no files at all, up to a significant number of files (because the first file copy stage usually takes a lot of time).</li>
-<li>In the third copy stage (progress indicator 66.5% - 68.6% when creating a zip file or 95% - 98% if no zip file is created) only files that were created or modified in the source directory since the second copy stage was started are copied. Depending on the activity of the repository, there might be no files to copyl, or a very small number of files (because the second file copy stage is usually fast).</li>
-<li>File copy stages one to three are all done concurrently while the repository is running. The fourth and last file copy stage will first lock repository write operations (write operations are paused; they do not throw an exception, but will wait). Only files that were created or modified in the source directory since the third copy stage was started are copied. Depending on the activity of the repository, there might be no files to copy, or a very, very small number of files (because the second file copy stage usually is very fast). After that, repository access continues. Progress indicator 68.6% - 70% when creating a zip file or 98% - 100% if no zip file is created.</li>
-</ol> </li>
-<li>Depending on the target:
-<ol>
-<li>If a zip file was specified, this is now created from the temporary directory. Progress indicator 70% - 100%. The temporary directory is then deleted.</li>
-<li>If the target was a directory, the empty file named backupInProgress.txt is deleted to indicate that the backup is finished.</li>
-</ol> </li>
-</ol>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-0436B4A35714BFF67F000101@AdobeID)
-Last Modified Date: 2017-11-30T04:59:16.969-0500
-<p>Modified the text due to CQDOC-10218.</p>
--->
-
 ## Restoring the Backup {#restoring-the-backup}
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>This kind of restore restores the complete repository including the application, all content, logfiles, etc.</p>
-</note>
--->
 
 You can restore a backup as follows:
 
 * In case you performed a Filesystem Snapshot Backup, you can simply restore an image of the system.
 * In case you created the backup as a zip file, just unzip the contents in a new folder and start AEM from that location.
-
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>Before you start the restored AEM instance, delete the <span class="code">crx-quickstart/repository/index</span> folder.</p>
-</note>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-0436B4A35714BFF67F000101@AdobeID)
-Last Modified Date: 2017-11-30T04:59:17.040-0500
-<p>The warning is not valid for the 6.3 version due to CQDOC-9562.</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Restore a backup image on the system. if you backup the datastore separately, make sure, that the datastore is restored as well to the correct location.<br /> </p> <p>In case you have created a backup as a zip file, unpack this zip file using:<br /> </p>
-<codeblock gutter="true" class="syntax shell">
-jar&nbsp;-xvf&nbsp;backupJune.zip
-</codeblock></li>
-<li><p>On Unix systems, the "x"-bit of the following scripts are not preserved by the zip file:</p>
-<ul>
-<li>server/start</li>
-<li>server/stop</li>
-<li>server/serverctl</li>
-</ul> <p>You have to adjust these manually after restoring the backup.</p> </li>
-<li><p>Now the repository is ready to use. You can start it now using the regular start scripts.<br /> </p> </li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<p>This approach has some unique features:</p>
-<ul>
-<li>additional disk consumption is low. A snapshot only consumes space if data on the original data is changed.</li>
-<li>Snapshots are very fast and efficient, therefor the required time to create a snapshot is low (much lower than copying the data), as only metadata are duplicated.<br /> </li>
-</ul>
--->
 
 ## Package Backup {#package-backup}
 
@@ -403,56 +263,4 @@ When you back up nodes using either the Package Manager or the Content Zipper, C
 When backing up, AEM loses the following information:
 
 * The version history.
-
-<!--
-Comment Type: draft
-
-<h3>Creating a Backup using the Content Zipper</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>To create the backup using the Content Zipper:</p>
-<ol>
-<li>Lock the top node of the tree you want to back up or a parent node of that node.</li>
-<li>In the <strong>Content Zipper</strong>, type the path of the tree you want to back up. For a format, click <strong>CRX package</strong>.</li>
-<li>Click <strong>Submit Query</strong>. Your Web browser now offers the package file as a download. Save the download on your computer.</li>
-<li>Unlock the node again.</li>
-</ol>
-<p>The file you have downloaded contains the current version of the tree you have exported, including the node type and namespace definitions, but without the version history.</p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>The CRX package file is Adobe’s proprietary file format for CRX node information. It is optimized for a small file size and optimal performance. If you prefer a standard XML file for further processing, click <strong>XML sys view </strong>in step 2. If you use the file only for archiving, use the <strong>CRX package</strong> format. <a href="/content/help/en/experience-manager/aem-previous-versions" target="_blank" title="Importing and Exporting Content">Importing and Exporting Content</a> describes the various file formats and their uses.</p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Restoring a Backup using the Content Loader</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>To restore the backup using the Content Loader:</p>
-<ol>
-<li>Lock the node you want to restore. You can still modify the node and the nodes below it, but others cannot.</li>
-<li>In the <strong>Content Loader</strong>, load the CRX package that you want to restore.</li>
-<li>Unlock the node again.</li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>You cannot restore the versioning history using the previous steps. CRX allows you to save the version history, but it does not currently support restoring it.</p>
-</note>
--->
 

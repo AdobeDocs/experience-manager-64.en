@@ -3,11 +3,11 @@ title: Building a secure AEM Forms app for iOS
 seo-title: Building a secure AEM Forms app for iOS
 description: Steps to build a secure AEM Forms app.
 seo-description: Steps to build a secure AEM Forms app.
-uuid: 5f14da34-8774-462d-a734-ea2064e9c7d7
+uuid: ccac3a75-c527-4caf-a897-22b058f410e3
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: a06375ce-b0c5-4fe6-bd4d-4e3a24d7b087
+discoiquuid: bd92499f-d52a-4a04-8401-5c9ff7771443
 index: y
 internal: n
 snippet: y

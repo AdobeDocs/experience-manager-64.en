@@ -3,12 +3,12 @@ title: Overlay Comments Component
 seo-title: Overlay Comments Component
 description: Overlay Comments component overview
 seo-description: Overlay Comments component overview
-uuid: 83085876-1511-4b5d-8685-f168bb5c83a0
+uuid: a0c3daaf-80fe-4fec-b5c0-0041ca13adba
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 21750134-a175-47a0-ab3a-638b79388af2
+discoiquuid: 20ec8eaa-e2c2-4fca-925c-cca1adc588a8
 index: y
 internal: n
 snippet: y

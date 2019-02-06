@@ -3,25 +3,18 @@ title: Security Checklist
 seo-title: Security Checklist
 description: Learn about the various security considerations when configuring and deploying AEM.
 seo-description: Learn about the various security considerations when configuring and deploying AEM.
-uuid: 3f3c5a3b-0aeb-45eb-8338-a7bb51aa4f8a
+uuid: c78944e1-1748-46a0-9d84-e9efeb0ff745
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 5cf4f1ad-c02a-4446-a861-5fcdc1c48c93
+discoiquuid: 6463c2a5-9f4a-46b5-b238-e4341c178009
 index: y
 internal: n
 snippet: y
 ---
 
 # Security Checklist{#security-checklist}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-00AF43764F54BE740A490D44@AdobeID)
-Last Modified Date: 2018-02-26T17:04:54.825-0500
-<p>I think we need to beef this up a bit.</p>
--->
 
 This section deals with various steps that you should take to ensure that your AEM installation is secure when deployed. The checklist is meant to be applied from top to bottom.
 
@@ -52,13 +45,6 @@ Enabling the HTTPS transport layer on both author and publish instances is manda
 Ensure that you have installed the latest [Security Hotfixes provided by Adobe](https://helpx.adobe.com/experience-manager/kb/aem63-available-hotfixes.html).
 
 ### Change Default Passwords For the AEM and OSGi Console Admin Accounts {#change-default-passwords-for-the-aem-and-osgi-console-admin-accounts}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-00AF43764F54BE740A490D44@AdobeID)
-Last Modified Date: 2018-02-26T17:04:55.067-0500
-<p>I think this entire sections need to be simplied. I think the procedure must be somewhere and actually I'm pretty sure we describe this procedure many times in the documentation.<br /> </p>
--->
 
 Adobe strongly recommends that after installation you change the password for the privileged [**AEM** `admin` accounts](#changingthecqadminpassword) (on all instances).
 
@@ -91,29 +77,6 @@ Aside from the AEM `admin` account, failing to change the default password for t
 
 For more information on changing the web console password, see [Changing the OSGi web console admin password](../../../sites/administering/using/security-checklist.md#main-pars-title-11-iclxdv-refd) below.
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>To change the password of the admin account you must use the specific procedure - <a href="#changingthecqadminpassword">Changing the AEM admin password</a>.<br /> </p>
-<p>To change the password for the other AEM user accounts you can use the <a href="../../../sites/administering/using/security.md#changingauserpassword">User Management</a> console.<br /> </p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<p>Adobe also recommends that you either remove the example user <span class="code">author</span>, or (at minimum) disable it by changing the password; see the <a href="../../../sites/administering/using/security.md#changingauserpassword">User Management documentation</a> for details on changing a user password.</p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Further actions are described in the table <a href="../../../sites/administering/using/security.md#defaultusersandgroups">Default Users and Groups</a>, which gives an overview of the default users and groups included in the standard installation.</p>
-</note>
--->
-
 #### Changing the OSGi web console admin password {#changing-the-osgi-web-console-admin-password}
 
 You must also change the password used for accessing the Web console. This is done by configuring the following properties of the [Apache Felix OSGi Management Console](../../../sites/deploying/using/osgi-configuration-settings.md#apachefelixosgimanagementconsole):
@@ -126,7 +89,7 @@ To do this:
 1. Navigate to the web console at `<server>:<port>/system/console/configMgr`.
 1. Navigate to** Apache Felix OSGi Management Console** and change the **user name** and **password**.
 
-   ![](assets/chlimage_1-201.png)
+   ![](assets/chlimage_1-192.png)
 
 1. Click **Save**.
 
@@ -234,40 +197,7 @@ To configure the referrer filter service:
 
 1. Click **Save** to save your changes.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-02-26T17:04:56.096-0500
-<p>To link to the main CRX Authentication Handler article when it's done.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-00AF43764F54BE740A490D44@AdobeID)
-Last Modified Date: 2018-02-26T17:04:56.113-0500
-<p>This was fixed a long time ago if I remember correctly and understood what Angela said this week. Better check twice, though.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h2>Default Access to User Profile(s) is everyone</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>By default, <span class="code">everyone</span> (the built-in group) has read access to all user profile(s)<span class="code"></span>. If such access is not appropriate for your installation you can change these default settings. See <a href="../../../sites/administering/using/identity-management.md#main-pars-par5">Profiles and User Accounts</a>.</p>
--->
-
 ### OSGI Settings {#osgi-settings}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-00AF43764F54BE740A490D44@AdobeID)
-Last Modified Date: 2018-02-26T17:04:56.176-0500
-<p>To be reviewed and simplied, see https://jira.corp.adobe.com/browse/DOC-5392<br /> </p>
--->
 
 Some OSGI settings are set by default to allow easier debugging of the application. These need to be changed on your publish and author productive instances to avoid internal information leaking to the public.
 
@@ -387,13 +317,6 @@ In order to mitigate this, please follow the below steps:
 
 ### Disable WebDAV {#disable-webdav}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-00AF43764F54BE740A490D44@AdobeID)
-Last Modified Date: 2018-02-26T17:04:56.554-0500
-<p>There is no known WebDAV vulns. It is however recommended to turn it off in order to reduce the attack surface.<br /> </p>
--->
-
 WebDAV should be disabled on both the author and publish environments. This can be done by stopping the appropriate OSGi bundles.
 
 1. Connect to the **Felix Management Console** running on:
@@ -441,13 +364,6 @@ Although not recommended, you can disable it in case you need the old implementa
 >For more information, see the Oak documentation on [Authorizable Node Name Generation](https://jackrabbit.apache.org/oak/docs/security/user/authorizablenodename.html).
 
 ### Prevent Clickjacking {#prevent-clickjacking}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-00AF43764F54BE740A490D44@AdobeID)
-Last Modified Date: 2018-02-26T17:04:56.972-0500
-<p>Probably not needed since it's in the dispatcher checklist... or maybe just for author as dispatcher is not strongly recommended there.<br /> </p>
--->
 
 To prevent clickjacking we recommend that you configure your webserver to provide the `X-FRAME-OPTIONS` HTTP header set to `SAMEORIGIN`.  
   

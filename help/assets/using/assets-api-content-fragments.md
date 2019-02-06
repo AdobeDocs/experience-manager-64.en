@@ -4,33 +4,15 @@ seo-title: DO NOT PUBLISH Content Fragments Support in AEM Assets HTTP API
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 3b9f8989-dded-46e1-9433-f08817d5370d
+uuid: 981fa350-d670-4c11-bc38-029ed180d827
 contentOwner: aheimoz
-discoiquuid: 59af4625-a77a-4838-b6af-8a2243fc2d14
+discoiquuid: f1786ffa-139c-4e04-8d59-bf123f8d44ca
 index: y
 internal: n
 snippet: y
 ---
 
 # DO NOT PUBLISH Content Fragments Support in AEM Assets HTTP API{#do-not-publish-content-fragments-support-in-aem-assets-http-api}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-18T02:29:31.498-0500
-<p>not tagged yet</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-13T01:55:05.060-0500
-<p>Based on:</p>
-<ul>
-<li><a href="https://wiki.corp.adobe.com/pages/viewpage.action?pageId=1570187152">https://wiki.corp.adobe.com/pages/viewpage.action?pageId=1570187152</a></li>
-</ul>
-<p>There are some additional comments there too.<br /> </p>
--->
 
 ## Overview {#overview}
 
@@ -62,29 +44,6 @@ The Assets REST API:
 ## Prerequisites {#prerequisites}
 
 The Assets REST API is available on each out-of-the-box install of a recent AEM version.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-13T00:13:36.637-0500
-<p>Both notes in Draft-only mode at the moment; activate whichever (if any) appropriate at publication.<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>For AEM 6.4 you have to install a Prerelease Feature Pack to get full support for content fragments. For some use-cases you then have to perform some additional configuration; see the <a href="../../assets/using/assets-api-content-fragments.md#security">Security</a> section.</p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>For versions of AEM before 6.5, you have to install a Feature Pack to get full support for content fragments. For some use-cases you then have to perform some additional configuration; see the <a href="../../assets/using/assets-api-content-fragments.md#security">Security</a> section.</p>
-</note>
--->
 
 ## Key Concepts {#key-concepts}
 
@@ -156,14 +115,6 @@ This means that subsequent ( `write`) requests cannot be combined into a single 
 
 If the Assets REST API is used within an environment without specific authentication requirements, AEM's CORS filter needs to be configured correctly.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-13T02:11:34.155-0500
-<p>need a public/localhost link for the readme of the github repository</p>
-<p>(second note is in draft-only mode)</p>
--->
-
 >[!NOTE]
 >
 >For further information see:
@@ -172,34 +123,7 @@ Last Modified Date: 2018-12-13T02:11:34.155-0500
 >* [Video - Developing for CORS with AEM](/content/help/en/experience-manager/kt/platform-repository/using/cors-security-technical-video-develop)
 >
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>For further information see:</p>
-<ul>
-<li>the README of this GitHub repository</li>
-<li><a href="/content/help/en/experience-manager/kt/platform-repository/using/cors-security-article-understand">CORS/AEM explained</a></li>
-<li><a href="/content/help/en/experience-manager/kt/platform-repository/using/cors-security-technical-video-develop">Video - Developing for CORS with AEM</a></li>
-</ul>
-</note>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-13T07:29:14.635-0500
-<p>OAuth is still an open issue for the security docs - disparate info received so far. Alexandru is raising the matter with Arun.</p>
-<p>Apparently the Gems session doesn't mention Assets, and the sound quality is very bad.<br /> </p>
--->
-
 In environments with specific authentication requirements, OAuth is recommended.
-
-<!--
-Comment Type: draft
-
-<p>In environments with specific authentication requirements, OAuth is recommended. To configure please see this <a href="/content/help/en/experience-manager/kt/eseminars/gems/aem-oauth-server-functionality-in-aem">Gem session</a>. Additional information is available under <a href="/content/help/en/experience-manager/kt/platform-repository/using/oauth-code-sample-develop">OAuth scopes</a>.</p>
--->
 
 ## Available Features {#available-features}
 
@@ -288,13 +212,6 @@ Associated content is currently not exposed.
 
 ## API Reference {#api-reference}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-13T09:18:13.206-0500
-<p>need (final) package to load so we have the public link to the swagger documentation for 'Adobe Experience Manager Assets API - Content Fragments'</p>
--->
-
 See here for detailed API references:
 
 * Adobe Experience Manager Assets API - Content Fragments
@@ -308,22 +225,4 @@ For further information see:
 
 * [Assets HTTP API documentation](../../assets/using/mac-api-assets.md)
 * [AEM Gem session: OAuth](/content/help/en/experience-manager/kt/eseminars/gems/aem-oauth-server-functionality-in-aem)
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-13T02:46:13.040-0500
-<p>need public link to complete<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<p>For further information see:</p>
-<ul>
-<li><a href="../../assets/using/mac-api-assets.md">Assets HTTP API documentation</a></li>
-<li><a href="/content/help/en/experience-manager/kt/eseminars/gems/aem-oauth-server-functionality-in-aem">AEM Gem session: OAuth</a></li>
-<li>HAF Extensibility</li>
-</ul>
--->
 

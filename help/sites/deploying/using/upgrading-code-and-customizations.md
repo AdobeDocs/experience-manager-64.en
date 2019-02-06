@@ -3,12 +3,12 @@ title: Upgrading Code and Customizations
 seo-title: Upgrading Code and Customizations
 description: Learn more about upgrading custom code in AEM.
 seo-description: Learn more about upgrading custom code in AEM.
-uuid: 24920635-a76f-4666-abdf-dfb7853eb955
+uuid: e00a1097-765d-4209-8bb1-17570241fcbf
 contentOwner: sarchiz
 topic-tags: upgrading
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: f68082af-9d3c-4547-b336-a8e87c32a07d
+discoiquuid: 3758080a-f5ab-40ab-b8a0-4831efec50c7
 targetaudience: target-audience upgrader
 index: y
 internal: n
@@ -34,13 +34,6 @@ When planning an upgrade the following areas of an implementation need to be inv
 
 1. **Deploy to 6.4 Environment** - A clean instance of AEM 6.4 (Author + Publish) should be stood up in a Dev/QA environment. Updated code base and a representative sample of content (from current production) should be deployed.
 1. **QA Validation and Bug fix** - QA should validate the application on both Author and Publish instances of 6.4. Any bugs found should be fixed and committed to the 6.4 code base. Repeat Dev-Cycle as necessary until all bugs are fixed.
-
-<!--
-Comment Type: annotation
-Last Modified By: dgonzale
-Last Modified Date: 2018-04-10T16:51:59.866-0400
-We need to very cleart call out Migrate and Upgrade configurations (see right side). This is INCREDIBLY important as it requires dev work, and may break an upgrade if not performed. Possibly move the how-to-execute data to the Repo Structuring page w instructions, and link to it? TBD based on how this will be formatted.
--->
 
 Before proceeding with an upgrade you should have a stable application code base that has been thoroughly tested against the target version of AEM. Based on observations made in testing there could be ways to optimize the custom code. This might include refactoring the code to avoid traversing the repository, custom indexing to optimize search, or use of unordered nodes in JCR, amongst others.
 
@@ -90,13 +83,6 @@ Several tools for tools for analyzing and inspecting query performance are avail
 Classic UI authoring is still available in AEM 6.4 but is being deprecated. More information can be found [here](../../../release-notes/deprecated-removed-features.md#pre-announcement-for-next-release). If your application is currently running on the Classic UI author environment it is recommended to upgrade to AEM 6.4 and continue using the Classic UI. Migration to the Touch UI can then be planned as separate project to be completed over several development cycles. In order to use the Classic UI in AEM 6.4 several OSGi configurations are needed to be committed to the code base. More details on how to configure this can be found [here](../../../sites/administering/using/enable-classic-ui.md).
 
 ## Align with 6.4 Repository Structure {#align-repository-structure}
-
-<!--
-Comment Type: annotation
-Last Modified By: bohnert
-Last Modified Date: 2018-03-26T07:03:25.524-0400
-Because not all configuration data could be automatically migrated to support 0DT, some configs must be manually migrated by the user.
--->
 
 To make upgrades easier and ensure that configurations are not overwritten during an upgrade, the repository is restructured in 6.4 to separate content from configuration.
 
@@ -153,13 +139,6 @@ If you require asset IDs for a subset of your entire assets, use the `migrateAss
 For all other purposes, use the `migrateAllAssets()` API.
 
 ### InDesign Script Customizations {#indesign-script-customizations}
-
-<!--
-Comment Type: annotation
-Last Modified By: ashishc
-Last Modified Date: 2018-10-26T01:27:52.952-0400
-This is no longer true for an "Upgrade to 6.4", since this path is _not wiped out_ upon upgrade. It is just that we want to discourage customizations under /etc (the recommended path is /apps/settings/dam/indesign/scripts) This section would need to be reworded
--->
 
 Adobe recommends putting custom scripts at `/apps/settings/dam/indesign/scripts` location. More information about InDesign Script customizations can be found [here](../../../assets/using/indesign.md#configuring-the-aem-assets-workflow).
 

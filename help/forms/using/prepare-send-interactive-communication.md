@@ -3,10 +3,10 @@ title: Prepare and send Interactive Communication using the Agent UI
 seo-title: Prepare and send Interactive Communication using the Agent UI
 description: The Agent UI allows the agents to prepare and send Interactive Communication to the post process. The Agent makes the required modifications as allowed, and submits the Interactive Communication to a post process, such as email or print. 
 seo-description: Prepare and send Interactive Communication using the Agent UI
-uuid: 1a5496e0-8e98-436e-bbb7-1b160aed1f2b
+uuid: c6849e2e-29b2-43d1-9ed0-24ffd4a95624
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 96f4e284-12f9-4e1a-b9ca-841944d997ab
+discoiquuid: 6886ce75-2566-41dd-8336-d662f9d0730f
 index: y
 internal: n
 snippet: y
@@ -76,21 +76,7 @@ In the Content tab, manage the content such as document fragments and content va
     * [Special characters](#specialcharacters)
     * [Keyboard shortcuts](../../forms/using/keyboard-shortcuts.md)
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-23T02:07:40.080-0500
-   Is this not relevant for the agent on the publish?
-   -->
-
    For more information on the actions available for various document fragments in the Agent user interface, see [Actions and info available in the Agent user interface](#actionsagentui).
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-03-14T06:16:09.141-0400
-   make this a step
-   -->
 
 1. To add a page break to the print output of the Interactive Communication, place the cursor where you want to insert a page break and select Page Break Before or Page Break After ( ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/PageBreakBeforeAfter.png){width="48"}).
 
@@ -104,14 +90,7 @@ In the Content tab, manage the content such as document fragments and content va
 
 1. Select **[!UICONTROL Attachment]**. The Agent UI displays the available attachments as set up while creating the Interactive Communication.
 
-   You can choose not to submit an attachment along with the Interactive Communication by tapping the view icon and you can tap the cross in the attachment to delete it (if the agent is allowed to delete or hide the attachment) from the Interactive Communication. For the attachments specified as mandatory while creating the Interactive Communication, the View and Delete icons are disabled.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-03-14T06:19:03.066-0400
-   add icon of the eye
-   -->
+   You can choose not to submit an attachment along with the Interactive Communication by tapping the view icon and you can tap the cross in the attachment to delete it (if the agent is allowed to delete or hide the attachment) from the Interactive Communication. For the attachments specified as mandatory while creating the Interactive Communication, the View and Delete icons are disabled. 
 
    ![](assets/AttachmentsAgentUI.png)
 
@@ -125,19 +104,6 @@ In the Content tab, manage the content such as document fragments and content va
 1. Use Web Preview and Print Preview to see if the two outputs are as per your requirement.
 
    If you find the previews to be satisfactory, tap **[!UICONTROL Submit]** to submit/send the Interactive Communication to a post process. Or to make changes, exit the preview to go back to the making changes.
-
-<!--
-Comment Type: draft
-
-<h2 id="FormattingText">Preview</h2>
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-14T06:28:01.431-0400
-- Preview and Submit - web preview is available only if the IC has a web channel and print is master - post process is invoked only if there's a post process attached to the IC shift the step about previewing in this
--->
 
 ## Formatting text {#formattingtext}
 
@@ -161,60 +127,15 @@ The Agent UI has built in support for 210 special characters. The admin can [add
 
 ##
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>To be able to render an Interactive Communication while previewing it, you should either be an administrator or a part of one of the following groups:</p>
-<ul>
-<li>forms-users </li>
-<li>cm-agent-users </li>
-</ul>
-<p>If you do not have the required permissions, request the admin for the appropriate access. For more information on creating and adding users to groups, see <a href="https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/sites/administering/using/security.html">Adding Users or Groups to a Group</a>. If you try to render an Interactive Communication without having the appropriate permissions, the 404 error page appears.</p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<p>A dialog appears asking you to select the data you would like to preview the interactive communication with:</p>
-<ul>
-<li><span class="uicontrol">Test Data of Form Data Model</span>: Select this option if you have created test data in the form data model associated with your interactive communication and want to use it. For more information, see <a href="../../forms/using/data-integration.md" target="_blank">Data Integration</a>. </li>
-<li><span class="uicontrol">Data from Prefill service associated with Interactive Communication</span>: Select this option to preview your interactive communication with sample data from the prefill service associated with your interactive communication. </li>
-<li><span class="uicontrol">Upload Sample Data</span>: Select this option to upload sample data and preview your interactive communication with that. </li>
-</ul>
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-13T07:48:36.075-0500
-more information about the Upload sample data
--->
-
 #### Attachment delivery {#attachmentdelivery}
 
 * When the Interactive Communication is rendered using Server-side APIs as an interactive or non-interactive PDF, the rendered PDF contains attachments as PDF attachments.
 * When a post process associated with an Interactive Communication is loaded as part of the Submit using Agent UI, attachments are passed as the List&lt;com.adobe.idp.Document&gt; inAttachmentDocs parameter.
 * Delivery mechanism workflows, such as email and print, also deliver attachments along with the PDF version of the Interactive Communication.
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-16T06:53:25.494-0500
-check this
--->
-
 ## Actions and info available in the Agent user interface {#actionsagentui}
 
 ### Document fragments {#document-fragments}
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-14T06:45:27.984-0400
-in content tab
--->
 
 ![](assets/ContentOptionsDocFragments.png)
 
@@ -224,33 +145,12 @@ in content tab
 * **Indent**: Increase or decrease indent of a document fragment. 
 * **Page Break After **(applicable for child fragments of target area): Inserts page break after the document fragment.
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-14T06:43:34.813-0400
-add the extended toolbar - which includes search expand all collapse all
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-14T06:46:19.693-0400
-add a heading - text document fragment
--->
-
 ![](assets/DocFragOptions.png)
 
 * Edit (text fragments only): Open rich text editor for editing the text document fragment. For more information, see [Formatting text](#formattingtext).  
 
 * Selection (eye icon): Includes\excludes document fragment from the Interactive Communication.
 * Unfilled Values (info): Indicates the number of unfilled variables in the document fragment.
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-14T06:47:41.105-0400
-add Open/Close content variable: Opens or closes the variables of a document fragment
--->
 
 ### List document fragments {#list-document-fragments}
 
@@ -260,18 +160,4 @@ add Open/Close content variable: Opens or closes the variables of a document fra
 * Selection (eye icon): Includes\excludes document fragment from the Interactive Communication.  
 * Skip Bullets/Numberings: Enable to skip bullets/numbering in the list document fragment.
 * Unfilled Values (info): Indicates the number of unfilled variables in the document fragment.
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-14T06:50:43.730-0400
-Add the following: bullets content library @vijay for list inside list instance +
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-14T06:52:18.426-0400
-Add a section Actions and info available in the target area T (insert inline text) Insert Blank line Lock (info - reordering locked or not)
--->
 

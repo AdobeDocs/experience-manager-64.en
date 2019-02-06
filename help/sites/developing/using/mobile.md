@@ -3,12 +3,12 @@ title: Creating Sites for Mobile Devices
 seo-title: Creating Sites for Mobile Devices
 description: Creating a mobile site is similar to creating a standard site as it also involves creating templates and components
 seo-description: Creating a mobile site is similar to creating a standard site as it also involves creating templates and components
-uuid: c7a196a5-4f92-407f-af27-f9a0137ce5d0
+uuid: 7261e482-0438-42eb-8ef4-8b96344bc27a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: mobile-web
 content-type: reference
-discoiquuid: a3b20ef1-180b-4f9a-bd56-34a251355b8e
+discoiquuid: ef934f84-6110-4d2a-97e5-1613cc90cbc7
 legacypath: /content/docs/en/aem/6-0/develop/mobile/mobile
 index: y
 internal: n
@@ -186,17 +186,6 @@ To create an emulator, please refer to the [Creating a Custom Mobile Emulator](.
 * At request time in edit mode, the emulator implementation is used to render the page.
 * When the template of the page relies on the mobile page component, the emulator functionalities are automatically integrated in the page (through the `head.jsp` of the mobile page component).
 
-<!--
-Comment Type: remark
-Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-Last Modified Date: 2017-11-30T05:25:07.754-0500
-<p>When you request a page on author with or without a selector (eg products.feature.html) you can be redirected to another selector e.g. .../products.touch.html.</p>
-<p>This is because the page is retrieved with a cookie, not with the selector.</p>
-<p></p>
-<p></p>
-<p></p>
--->
-
 ### Device Groups {#device-groups}
 
 Mobile device groups provide segmentation of mobile devices based on the device capabilities. A device group provides the information required for emulator-based authoring on the author instance and for correct content rendering on the publish instance: once authors have added content to the mobile page and have published it, the page can be requested on the publish instance. There, instead of the emulator editing view, the content page is rendered using one of the configured device groups. The selection of the device group occurs based on [mobile device detection](#devicedetection). The matching device group then provides the necessary styling information.
@@ -364,14 +353,6 @@ Add a user-agent as a regular expression below /apps/wcm/mobile/devicespecs/wurf
 The above configuration causes devices for which the User-Agent matches the supplied regular expression to be mapped to the apple_ipad_ver1 WURFL™ device ID, if it exists.
 
 ## Client-Side Device Detection {#client-side-device-detection}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacyref-6-1)
-Last Modified Date: 2017-11-30T05:25:08.101-0500
-<p>Related issue : <a href="https://issues.adobe.com/browse/DOC-2637">DOC-2637</a></p>
-<p>Wiki documentation : <a href="https://zerowing.corp.adobe.com/display/cq5/BrowserMap">BrowserMap</a></p>
--->
 
 This section describes how to use the device client-side detection of AEM in order to optimize page rendering or to provide the client with alternate website versions.  
   

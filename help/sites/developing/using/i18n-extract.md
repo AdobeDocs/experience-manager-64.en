@@ -3,25 +3,18 @@ title: Extracting Strings for Translating
 seo-title: Extracting Strings for Translating
 description: Use xgettext-maven-plugin to extract strings from your source code that need translating
 seo-description: Use xgettext-maven-plugin to extract strings from your source code that need translating
-uuid: 7f743c9c-09be-475c-a133-0f936e3c05fb
+uuid: 4519f26b-04c1-4752-bdff-411d4212dad5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
-discoiquuid: b31081b4-97d2-4f9a-a154-5ffa24e004fb
+discoiquuid: 52ceafec-09f0-434d-b114-792d19487f2f
 index: y
 internal: n
 snippet: y
 ---
 
 # Extracting Strings for Translating{#extracting-strings-for-translating}
-
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2017-11-30T05:25:00.694-0500
-<p>This section is required only if the maven plugin is publicly available.</p>
--->
 
 Use xgettext-maven-plugin to extract strings from your source code that need translating. The Maven plugin extracts strings to an XLIFF file that you send for translating. Strings are extracted from the following locations:
 
@@ -30,13 +23,6 @@ Use xgettext-maven-plugin to extract strings from your source code that need tra
 * XML representations of SVN resources (JCR Nodes)
 
 ### Configuring String Extraction {#configuring-string-extraction}
-
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2017-11-30T05:25:00.727-0500
-<p>Where will users get the default or example I18n.any file?</p>
--->
 
 Configure how the xgettext-maven-plugin tool extracts strings for your project.
 
@@ -111,12 +97,6 @@ When used within a pattern, the / character indicates a subdirectory and the &#4
   </tr> 
  </tbody> 
 </table>
-
-<!--
-Comment Type: draft
-
-<h4>Identifying the JCR Properties to Parse</h4>
--->
 
 ### Extracting the Strings  {#extracting-the-strings}
 

@@ -3,12 +3,12 @@ title: Using Tags
 seo-title: Using Tags
 description: Tags are a quick and easy method of classifying content within a website. Tags may be thought of as keywords or labels that can be attached to a page, an asset, or other content to enable searches to find that content and related content.
 seo-description: Tags are a quick and easy method of classifying content within a website. Tags may be thought of as keywords or labels that can be attached to a page, an asset, or other content to enable searches to find that content and related content.
-uuid: 84abfd25-0ce3-43cd-b613-22de1ecf73c8
+uuid: 45517b8e-2450-4c8d-88d2-d6e076d4b357
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: e5af991c-9549-4a19-9f00-a5de1e7bc6d2
+discoiquuid: beff8d64-bd79-4b0d-86e1-32e3f646f5a8
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Performance Tree
 seo-title: Performance Tree
 description: Learn about the steps that need to be taken in order to troubleshoot performance issues in AEM.
 seo-description: Learn about the steps that need to be taken in order to troubleshoot performance issues in AEM.
-uuid: a9b2e636-8856-4943-9232-07ba1e22afb7
+uuid: 6b2f3199-a96b-4a13-a7f9-c0b01c245854
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: c20225d8-66a3-4004-b739-178b7dd50fd1
+discoiquuid: 04ba833f-c0f5-4381-b498-ec9d6dabddf5
 index: y
 internal: n
 snippet: y
@@ -30,23 +30,23 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
 
 ### Section 1 {#section}
 
-![](assets/chlimage_1-117.png) 
+![](assets/chlimage_1-106.png) 
 
 ### Section 2 {#section-1}
 
-![](assets/chlimage_1-118.png) 
+![](assets/chlimage_1-107.png) 
 
 ### Section 3 {#section-2}
 
-![](assets/chlimage_1-119.png) 
+![](assets/chlimage_1-108.png) 
 
 ### Section 4 {#section-3}
 
-![](assets/chlimage_1-120.png) 
+![](assets/chlimage_1-109.png) 
 
 ### Section 5 {#section-4}
 
-![](assets/chlimage_1-121.png) 
+![](assets/chlimage_1-110.png) 
 
 ## Reference Links {#reference-links}
 

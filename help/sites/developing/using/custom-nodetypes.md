@@ -3,12 +3,12 @@ title: Custom Node Types
 seo-title: Custom Node Types
 description: AEM is based on Sling and uses a JCR repository with node types offered by both, but AEM also provides a range of custom node types
 seo-description: AEM is based on Sling and uses a JCR repository with node types offered by both, but AEM also provides a range of custom node types
-uuid: e1178ca2-826a-4fb9-a6aa-5afe718e32e5
+uuid: e6977b7a-fb4d-4753-a76d-742eb9fcd56e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: ab87a337-4e0a-4644-9e5e-4c9c207896a9
+discoiquuid: 82d63365-2712-402e-8238-c0c9ad297061
 index: y
 internal: n
 snippet: y
@@ -23,19 +23,6 @@ As CQ is based on Sling and uses a JCR repository, node types offered by both of
 
 In addition to these. CQ provides a range of custom node types.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:20.869-0500
-<p>Taken from the CQ 5.3.0 branch (and compared with current versions):</p>
-<ul>
-<li>http://svn.day.com/view/svn/cq5/trunk/content/jcr_root/libs/.../*.cnd</li>
-</ul>
-<p>A tool to generate the docu automatically (isn't standard javadocs) would be good - but not all comments use the same formatting (and proof-reading is good too). Currently using awk and sed to extract relevant information.<br /> </p>
-<p>Updates encountered for 5.4 are currently set as draft.<br /> </p>
-<p>Need confirmation of status on some node types flagged as ToDo.<br /> </p>
--->
-
 ## Audit {#audit}
 
 ### cq:AuditEvent {#cq-auditevent}
@@ -49,50 +36,9 @@ Last Modified Date: 2018-01-18T11:19:20.869-0500
 * @prop cq:category
 * @prop cq:properties
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:20.963-0500
-<p>Description needs more detail from RnD.<br /> </p>
--->
-
 **Definition** [cq:AuditEvent] - &#42; (undefined) - &#42; (undefined) multiple + &#42; (nt:base) = nt:base multiple version - cq:time (date) - cq:userid (string) - cq:path (string) - cq:type (string) - cq:category (string) - cq:properties (binary)
 
-<!--
-Comment Type: draft
-
-<h2>Calendar</h2>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-D9FB647253FD17BE0A4C98A6@AdobeID)
-Last Modified Date: 2018-01-18T11:19:21.036-0500
-<p>Calendar mixin as a marker for calendar subtrees.</p>
-<p>Removed for <a href="https://jira.corp.adobe.com/browse/DOC-6415">DOC-6415</a></p>
-<p>5.6.1 (1.3.12) and 6.0 (1.5.124) have<br /> /libs/social/calendar/nodestypes/calendar.cnd<br /> cq:Calendar<br /> cq:CalendarComponent<br /> cq:CalendarEvent<br /> cq:CalendarRecurrence<br /> cq:CalendarRecurrenceRule<br /> cq:CalendarTodo<br /> cq:Alarm<br /> cq:CalendarAttendee</p>
-<p>6.1 GA (1.7.197) does not have calendar.cnd</p>
--->
-
 ## Comment {#comment}
-
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-D9FB647253FD17BE0A4C98A6@AdobeID)
-Last Modified Date: 2018-01-18T11:19:21.082-0500
-<p>UNSURE WHETHER THESE SHOULD BE UNDER<br /> develop/platform<br /> or<br /> develop/communities</p>
-<p>Updating per AEM 6.1 FP2 (1.8.269) /libs/social/commons/nodetypes/</p>
-<ul>
-<li>comments.cnd
-<ul>
-<li>removed cq:Rating per <a href="https://jira.corp.adobe.com/browse/CQ-39458">CQ-39458</a></li>
-</ul> </li>
-<li>commentscontent.cnd</li>
-<li>commentattachment.cnd</li>
-<li>location.cnd</li>
-</ul>
-<p> </p>
--->
 
 ### cq:Comment {#cq-comment}
 
@@ -131,55 +77,6 @@ Last Modified Date: 2018-01-18T11:19:21.082-0500
 **Description** Defines the node type of a trackback node.
 
 **Definition** [cq:Trackback] > mix:title, mix:created, mix:language, nt:unstructured
-
-<!--
-Comment Type: draft
-
-<h2>Content Sync</h2>
--->
-
-<!--
-Comment Type: draft
-
-<h3>cq:ContentSyncConfig</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p><strong>FOR CQ5.4</strong></p>
-<p><strong>Description</strong></p>
-<p></p>
-<p>Defines a CQ Content Sync Configuration.</p>
-<p></p>
-<p><strong>Definition</strong></p>
-<p></p>
-<p>[cq:ContentSyncConfig] &gt; sling:Folder</p>
-<p></p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>cq:ContentSyncHash</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p><strong>FOR CQ 5.4</strong></p>
-<p><strong>Description</strong></p>
-<p></p>
-<p>Defines a mixin that adds a md5 hash.<br /> </p>
-<ul>
-<li>@prop md5<br /> MD5 hash as hex string.<br /> </li>
-</ul>
-<p></p>
-<p><strong>Definition</strong></p>
-<p></p>
-<p>[cq:ContentSyncHash] mixin<br /> - md5 (string) copy</p>
-<p></p>
--->
 
 ## Core {#core}
 
@@ -344,14 +241,6 @@ Comment Type: draft
 
 **Definition** [cq:EditConfig] > nt:unstructured, nt:hierarchyNode orderable - cq:dialogMode (string) < 'auto', 'floating', 'inline' - cq:layout (string) < 'editbar', 'rollover', 'auto' + cq:formParameters (nt:base) = nt:unstructured - cq:actions (string) multiple + cq:actionConfigs (nt:base) = nt:unstructured - cq:emptyText (string) + cq:dropTargets (nt:base) = nt:unstructured + cq:listeners (nt:base) = cq:EditListenersConfig
 
-<!--
-Comment Type: draft
-
-<p><strong>For CQ5.4</strong></p>
-<p> after dialogMode:</p>
-<p> + cq:inplaceEditing (cq:InplaceEditingConfig) = cq:InplaceEditingConfig<br /> </p>
--->
-
 ### cq:DropTargetConfig {#cq-droptargetconfig}
 
 **Description** Configures one drop target of a component. The name of the this node will be used as an ID for drag and drop.
@@ -365,34 +254,6 @@ Comment Type: draft
   Name of the property used to store the reference.
 
 **Definition** [cq:DropTargetConfig] > nt:unstructured orderable - accept (string) multiple - groups (string) multiple - propertyName (string) + parameters (nt:base) = nt:unstructured
-
-<!--
-Comment Type: draft
-
-<h3>cq:InplaceEditingConfig</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p><strong>For CQ 5.4</strong></p>
-<p><strong>Description</strong></p>
-<p></p>
-<p>Configures inplace editing of a component.</p>
-<ul>
-<li>@prop active<br /> True to activate inplace editing for the component.</li>
-<li>@prop editorType<br /> ID of the inplace editor to be used.</li>
-<li>@prop configPath<br /> Path to the configuration of the editor (optional).</li>
-<li>@node config<br /> Configuration of the editor (used if no configPath is specified; optional).<br /> </li>
-</ul>
-<p></p>
-<p><strong>Definition</strong></p>
-<p><code class="code">[cq:InplaceEditingConfig] &gt; nt:unstructured
-<discoiqbr /> - active (boolean)
-<discoiqbr /> - editorType (string)
-<discoiqbr /> - configPath (string)
-<discoiqbr /> + config (nt:unstructured) = nt:unstructured</code></p>
--->
 
 ### cq:VirtualComponent {#cq-virtualcomponent}
 
@@ -448,38 +309,17 @@ Comment Type: draft
 
 **Description** Content of a DAM asset.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:22.647-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [dam:AssetContent] > nt:unstructured + metadata (nt:unstructured) + renditions (nt:folder)
 
 ### dam:Asset {#dam-asset}
 
 **Description** DAM asset.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:22.743-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [dam:Asset] > nt:hierarchyNode + jcr:content (dam:AssetContent) = dam:AssetContent copy primary + &#42; (nt:base) = nt:base version
 
 ### dam:Thumbnail {#dam-thumbnail}
 
 **Description** Thumbnail to represent a DAM asset.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:22.835-0500
-<p>Need definition from RnD.<br /> </p>
--->
 
 **Definition** [dam:Thumbnails] mixin + dam:thumbnails (nt:folder)
 
@@ -488,13 +328,6 @@ Last Modified Date: 2018-01-18T11:19:22.835-0500
 ### cq:containerList {#cq-containerlist}
 
 **Description** Container List.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:22.958-0500
-<p>Need definition from RnD.<br /> </p>
--->
 
 **Definition** [cq:containerList] mixin
 
@@ -582,13 +415,6 @@ The items in a "cq:Cq4ContentPage" are:
 
 **Definition** [cq:LiveRelationship] mixin - cq:lastRolledout (date) - cq:lastRolledoutBy (string) - cq:sourceUUID (string)
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:23.597-0500
-<p>remove sourceUUID for CQ 5.4<br /> </p>
--->
-
 ### cq:LiveSync {#cq-livesync}
 
 **Description** Defines a LiveSync mixin. If a node is involved in a LiveRelationship with a master node as a slave, it is marked a LiveSync.
@@ -628,13 +454,6 @@ Last Modified Date: 2018-01-18T11:19:23.597-0500
 
 **Description** Live Sync configuration.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:24.024-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [cq:LiveSyncConfig] - cq:master (string) mandatory - cq:isDeep (boolean) - cq:trigger (string) /&#42;&#42; deprecated &#42;&#42;/
 
 For CQ 5.4 add to the end of list:
@@ -645,39 +464,7 @@ For CQ 5.4 add to the end of list:
 
 **Description** Blueprint action.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:24.135-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [cq:BlueprintAction] > nt:unstructured
-
-<!--
-Comment Type: draft
-
-<h3>cq:BlueprintSyncConfig</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p><strong>FOR CQ 5.4</strong></p>
-<p><strong>Description</strong></p>
-<p></p>
-<p>Blueprint Sync configuration.<br /> </p>
-<p></p>
-<p></p>
-<p><strong>Remark</strong> by Alison Heimoz (aheimoz) on Fri, 8 Oct 2010, 00:29:38 EDT<br /> </p>
-<p>Need definition from RnD.<br /> </p>
-<p></p>
-<p></p>
-<p><strong>Definition</strong></p>
-<p></p>
-<p>[cq:BlueprintSyncConfig] &gt; nt:unstructured<br /> - cq:rolloutConfigs (string) multiple</p>
-<p></p>
--->
 
 ## Platform {#platform}
 
@@ -723,13 +510,6 @@ Comment Type: draft
 * @prop cq:isPathDependent
 * @node &#42; ACEs
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:24.599-0500
-<p>Need more detailed definition from RnD.<br /> </p>
--->
-
 **Definition** [cq:PrivilegeAcl] > cq:ApplicationPrivilege mixin orderable - cq:isPathDependent (boolean) + &#42; (cq:PrivilegeAce) = cq:PrivilegeAce
 
 ### cq:PrivilegeAce {#cq-privilegeace}
@@ -738,13 +518,6 @@ Last Modified Date: 2018-01-18T11:19:24.599-0500
 
 * @prop path
 * @prop deny
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:24.689-0500
-<p>Need more detailed definition from RnD.<br /> </p>
--->
 
 **Definition** [cq:PrivilegeAce] - path mandatory - deny (boolean)
 
@@ -760,13 +533,6 @@ Last Modified Date: 2018-01-18T11:19:24.689-0500
 
 * @prop cq:isPathDependent
 * @node &#42; ACEs
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:24.862-0500
-<p>Need more detailed definition from RnD.<br /> </p>
--->
 
 **Definition** [cq:PrivilegeAcl] > cq:ApplicationPrivilege mixin orderable - cq:isPathDependent (boolean) + &#42; (cq:PrivilegeAce) = cq:PrivilegeAce
 
@@ -811,25 +577,11 @@ Last Modified Date: 2018-01-18T11:19:24.862-0500
 
 ### cq:UserTaggable (ToDo) {#cq-usertaggable-todo}
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:25.480-0500
-<p>is this active or todo for 5.3?<br /> </p>
--->
-
 **Description** Any user/public website can tag the content (Web2.0 style), used inside cq:userContent.
 
 **Definition** [cq:UserTaggable] > cq:Taggable mixin
 
 ### cq:AllowsUserContent {#cq-allowsusercontent}
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:25.586-0500
-<p>is this active or todo for 5.3?<br /> </p>
--->
 
 **Description** Adds a cq:userContent subnode that can be modified by users; each user will have their own cq:userContent/<userid> subnode, that typically has the mixin cq:UserTaggable.
 
@@ -845,21 +597,7 @@ Last Modified Date: 2018-01-18T11:19:25.586-0500
 
 `` ``
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:25.655-0500
-<p>ToDo by when? Leave in or remove from here.<br /> </p>
--->
-
 ### cq:UserContent {#cq-usercontent}
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:25.700-0500
-<p>is this active or todo for 5.3?<br /> </p>
--->
 
 **Description** Can be modified by users.
 
@@ -868,13 +606,6 @@ Last Modified Date: 2018-01-18T11:19:25.700-0500
 ### cq:UserData {#cq-userdata}
 
 **Description** User data.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:25.818-0500
-<p>is this active or todo for 5.3?<br /> </p>
--->
 
 **Definition** [cq:UserData] > nt:unstructured, cq:UserTaggable
 
@@ -890,25 +621,11 @@ Last Modified Date: 2018-01-18T11:19:25.818-0500
 
 **Description** Widget.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:26.003-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [cq:Widget] > nt:unstructured orderable - xtype (string) - name (string) - title (string) + items (nt:base) = cq:WidgetCollection copy
 
 ### cq:WidgetCollection {#cq-widgetcollection}
 
 **Description** Widget collection.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:26.095-0500
-<p>Need definition from RnD.<br /> </p>
--->
 
 **Definition** [cq:WidgetCollection] > nt:unstructured orderable + &#42; (cq:Widget) = cq:Widget copy
 
@@ -916,25 +633,11 @@ Last Modified Date: 2018-01-18T11:19:26.095-0500
 
 **Description** Dialog.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:26.187-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [cq:Dialog] > cq:Widget orderable
 
 ### cq:Panel {#cq-panel}
 
 **Description** Panel.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:26.297-0500
-<p>Need definition from RnD.<br /> </p>
--->
 
 **Definition** [cq:Panel] > cq:Widget orderable
 
@@ -942,25 +645,11 @@ Last Modified Date: 2018-01-18T11:19:26.297-0500
 
 **Description** Tab panel.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:26.407-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [cq:TabPanel] > cq:Panel orderable - activeTab (long)
 
 ### cq:Field {#cq-field}
 
 **Description** Field.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:26.554-0500
-<p>Need definition from RnD.<br /> </p>
--->
 
 **Definition** [cq:Field] > cq:Widget orderable - fieldLabel (string) - value (string) - ignoreData (boolean)
 
@@ -970,38 +659,17 @@ Last Modified Date: 2018-01-18T11:19:26.554-0500
 
 **Description** Wiki topic.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:26.694-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [wiki:Topic] > nt:unstructured, nt:hierarchyNode, mix:versionable, mix:lockable + &#42; (wiki:Topic) version + wiki:attachments (nt:folder) = nt:folder version + wiki:properties (wiki:Properties) = wiki:Properties copy - wiki:text (string) mandatory primary - wiki:lastModified (date) mandatory - wiki:lastModifiedBy (string) mandatory - wiki:topicName - wiki:topicTitle - wiki:lockedBy - wiki:logMessage (string) - wiki:quietSave (boolean)
 
 ### wiki:User {#wiki-user}
 
 **Description** Wiki user.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:26.799-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [wiki:User] mixin - wiki:subscriptions (string) multiple
 
 ### wiki:Properties {#wiki-properties}
 
 **Description** Wiki properties.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:26.910-0500
-<p>Need definition from RnD.<br /> </p>
--->
 
 **Definition** [wiki:Properties] - wiki:isGlobal (boolean) - &#42; (undefined)
 
@@ -1017,38 +685,17 @@ Last Modified Date: 2018-01-18T11:19:26.910-0500
 
 **Description** Work item.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:27.174-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [cq:WorkItem] - assignee (String) - workflowId (String) - nodeId (String) - startTime (Date) - endTime (Date) - dueTime (Date) - sling:resourceType (String) = "cq/workflow/components/workitem" mandatory autocreated + metaData (nt:unstructured)
 
 ### cq:Payload {#cq-payload}
 
 **Description** Payload.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:27.278-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [cq:Payload] - path (Path) - uuid (String) - jcr:url (String) - binary (Binary) - javaObject (String) - &#42; (undefined) - &#42; (undefined) multiple
 
 ### cq:WorkflowData {#cq-workflowdata}
 
 **Description** Workflow data.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:27.377-0500
-<p>Need definition from RnD.<br /> </p>
--->
 
 **Definition** [cq:WorkflowData] - &#42; (undefined) - &#42; (undefined) multiple + payload (cq:Payload) + metaData (nt:unstructured) copy
 
@@ -1062,25 +709,11 @@ Last Modified Date: 2018-01-18T11:19:27.377-0500
 
 **Description** Workflow node.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:27.564-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [cq:WorkflowNode] orderable - title (String) - description (String) - maxIdleTime (long) - type (String) - &#42; (undefined) - &#42; (undefined) multiple + metaData (nt:unstructured) copy + timeoutConfiguration (nt:unstructured) copy
 
 ### cq:WorkflowTransition {#cq-workflowtransition}
 
 **Description** Workflow transition.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:27.654-0500
-<p>Need definition from RnD.<br /> </p>
--->
 
 **Definition** [cq:WorkflowTransition] orderable - from (String) - to (String) - rule (String) + metaData (nt:unstructured) copy
 
@@ -1088,25 +721,11 @@ Last Modified Date: 2018-01-18T11:19:27.654-0500
 
 **Description** Or tab.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:27.745-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [cq:OrTab] - workflowId (String) // not compulsory as this node will already be attached to the workflow node - nodeId (String)
 
 ### cq:Wait {#cq-wait}
 
 **Description** Wait.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:27.835-0500
-<p>Need definition from RnD.<br /> </p>
--->
 
 **Definition** [cq:Wait] - workflowId (String) // not compulsory as this node will be already attached to the workflow node - destNodeId (String) - fromNodeId (String)
 
@@ -1114,37 +733,16 @@ Last Modified Date: 2018-01-18T11:19:27.835-0500
 
 **Description** Workflow stack.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:27.926-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [cq:WorkflowStack] - containeeInstanceId (String) - parentInstanceId (String) - nodeId (String)
 
 ### cq:ProcessStack {#cq-processstack}
 
 **Description** Process stack.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:28.015-0500
-<p>Need definition from RnD.<br /> </p>
--->
-
 **Definition** [cq:ProcessStack] - workflowId (String) // not compulsory as this node will be already attached to the workflow node - containerWorkflowModelId (String) - containerWorkflowNodeId - containerWorkflowEndNodeId // still needed (if name already defines that id)
 
 ### cq:WorkflowLauncher {#cq-workflowlauncher}
 
 **Description** Workflow launcher.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:28.107-0500
-<p>Need definition from RnD.<br /> </p>
--->
 
 **Definition** [cq:WorkflowLauncher] - nodetype (String) - glob (String) - eventType (Long) - description (String) - condition (String) - workflow (String) - &#42; (undefined) - &#42; (undefined) multiple

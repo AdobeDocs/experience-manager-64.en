@@ -3,12 +3,12 @@ title: The Checklist
 seo-title: The Checklist
 description: The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. 
 seo-description: The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. 
-uuid: 88cbcca2-453a-4717-91fd-2f646344a8cc
+uuid: ea25c53f-faaf-4d86-bdba-07adb77154b1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
-discoiquuid: b6f43120-2b1d-46d0-beb5-54d202cd4703
+discoiquuid: 3cb33570-73d3-47e8-90fa-ecc4608bbff0
 index: y
 internal: n
 snippet: y
@@ -22,26 +22,11 @@ There are checklists for each persona (role) involved in your project. These det
 
 ### Download {#download}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:59.622-0500
-<p>please provide the official file for download</p>
-<p>version below is as of 2016-11-15</p>
--->
-
 AEM Project Best Practices Checklist v2
 
 [Get File](assets/aem_project_bp_checklistv2.xlsx)
 
 ### Worksheets {#worksheets}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:59.663-0500
-<p>does the glossary only cover deliverables?</p>
--->
 
 The spreadsheet provides you with the following worksheets:
 

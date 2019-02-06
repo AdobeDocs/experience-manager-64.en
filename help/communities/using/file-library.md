@@ -3,12 +3,12 @@ title: File Library Feature
 seo-title: File Library Feature
 description: The File Library feature lets signed-in site visitors upload, manage, and download files
 seo-description: The File Library feature lets signed-in site visitors upload, manage, and download files
-uuid: 65b864ba-23d6-4b34-84ab-b71f48f2400c
+uuid: cbbe4ccb-3b98-4bea-9180-772927fb703f
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 95a004e1-75ea-46f1-a78b-32a005d19c82
+discoiquuid: f47f6358-596e-4c5e-aa97-9171308d421d
 index: y
 internal: n
 snippet: y
@@ -37,13 +37,13 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/essentials-file-library.md#essentialsforclientside) are included, this is how the `File Library` component will appear :
 
-![](assets/chlimage_1-442.png)
+![](assets/chlimage_1-429.png)
 
 ### Configuring File Library {#configuring-file-library}
 
 Select the placed `File Library` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-443.png) ![](assets/chlimage_1-444.png)
+![](assets/chlimage_1-430.png) ![](assets/chlimage_1-431.png)
 
 #### Comments tab {#comments-tab}
 

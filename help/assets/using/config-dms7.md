@@ -3,12 +3,12 @@ title: Configuring Dynamic Media - Scene7 mode
 seo-title: Configuring Dynamic Media - Scene7 mode
 description: Information on how to configure Dynamic Media - Scene7 mode.
 seo-description: Information on how to configure Dynamic Media - Scene7 mode.
-uuid: 90b23438-fa8e-44a9-9070-9c39e465897e
+uuid: ea50f961-8e51-4953-bc71-87e3e0be55f5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 3ac81c9e-1541-418f-b7fa-d76a52e75336
+discoiquuid: c7223313-43f4-4fc6-85aa-7d274c4d2764
 index: y
 internal: n
 snippet: y
@@ -16,23 +16,7 @@ snippet: y
 
 # Configuring Dynamic Media - Scene7 mode{#configuring-dynamic-media-scene-mode}
 
-<!--
-Comment Type: remark
-Last Modified By: Rick Brough (rbrough)
-Last Modified Date: 2018-02-26T13:31:46.483-0500
-<p>The NPR 18912 can be used for migration and/or synchronize with FTP bulk upload assets. The use cases are somewhat independent.</p>
-<p>[awb] - Changed "and" to "and/or" in that sentence.</p>
-<p><strong>Remove all mention of FP-14410 throughout DM; rename topic to "Configuring Dynamic Media-Scene7 mode". Leave mention of FP-18912, but point to new topic that is just on installing FP-18912. Leave everything else including batch set documentation because that is done in S7 Classic.</strong></p>
--->
-
 If you use Adobe Experience Manager set up for different environments, such as one for development, one for staging, and one for live production, you need to configure Dynamic Media Cloud Services for each one of those environments.
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-02-21T17:18:54.630-0500
-Remove ref to 14410 in paragraphs above and note below.
--->
 
 ## Architecture diagram of Dynamic Media - Scene7 mode {#architecture-diagram-of-dynamic-media-scene-mode}
 
@@ -44,16 +28,9 @@ With the new architecture, AEM is responsible for master assets and synchs with 
 1. After the renditions are generated, AEM can securely access and preview the remote Dynamic Media renditions (no binaries are sent back to the AEM instance). 
 1. After content is ready to be published and approved, it triggers the Dynamic Media service to push content out to delivery servers and cache content at the CDN.
 
-![](assets/chlimage_1-72.png) 
+![](assets/chlimage_1-71.png) 
 
 ## Enabling Dynamic Media in Scene7 mode {#enabling-dynamic-media-in-scene-mode}
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-02-21T17:45:11.432-0500
-Leave this runmode topic. BUT, maybe move it to "Configuring Dynamic Media" main topic?
--->
 
 [Dynamic media](http://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable it.
 
@@ -87,13 +64,6 @@ Feature Pack 18912 lets you bulk ingest assets by way of FTP, or migrate assets 
 
 See [Installing Feature Pack 18912](../../assets/using/bulk-ingest-migrate.md) for more information.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-02-21T17:46:40.490-0500
-Remove 14410 from title and paragraphs. Leave here but link to new topic where it gets installed.
--->
-
 ## Configuring Dynamic Media Cloud Services {#configuring-dynamic-media-cloud-services}
 
 **Before you configure Dynamic Media Cloud Services**: After you receive your provisioning email with Dynamic Media credentials, you must [log in](http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) to Dynamic Media Classic to change your password. The password provided in the provisioning email is system-generated and intended to be a temporary password only. It is important that you update the password so that Dynamic Media Cloud Service is set up with the correct credentials.
@@ -120,13 +90,6 @@ To configure dynamic media cloud services:
     
     * **Secure Preview Server** - lets you specify the URL path to your secure renditions preview server. That is, after renditions are generated, AEM can securely access and preview the remote Dynamic Media renditions (no binaries are sent back to the AEM instance).  
       Unless you have a special arrangment to use your own company's server or a special server, Adobe Systems recommends that you leave this setting as specified.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-03-02T18:09:09.379-0500
-   Is the "Secure Preview Server" description accurate???
-   -->
 
    >[!NOTE]
    >
@@ -174,13 +137,6 @@ Setup and configuration tasks include the following:
 * [Configuring color management](#configuringcolormanagement)
 * [Configuring asset processing](#configuringassetprocessing)
 * [Creating batch set presets to auto-generate Image Sets and Spin Sets](#creatingbatchsetpresetstoautogenerateimagesetsandspinsets)
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-02-21T17:51:41.310-0500
-DMS7 content
--->
 
 #### Publishing setup for Image Server {#publishing-setup-for-image-server}
 
@@ -387,7 +343,7 @@ spin-01-01
 
 With this information, your Batch Set Type recipe might be created as follows:
 
-![](assets/chlimage_1-73.png)
+![](assets/chlimage_1-72.png)
 
 Grouping for the shared asset name part of the spinset is added to the **Match** field (as highlighted). The variable part of the asset name containing the row and column is added to the **Row** and **Column** fields, respectively.
 
@@ -489,13 +445,6 @@ The Granite Workflow queue is used for non-transient workflows. In Dynamic Media
 
 1. Navigate to `http://<server>/system/console/configMgr` and search for **Queue: Granite Workflow Queue**.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-08-09T17:43:09.441-0400
-   Use to be a live link to http://localhost:4502/system/console/configMgr
-   -->
-
    >[!NOTE]
    >
    >A text search is necessary instead of a direct URL because the OSGi PID is dynamically generated.
@@ -517,14 +466,6 @@ The Scene7 Upload Connection setting synchronizes AEM assets to Dynamic Media Cl
 **To update the Scene7 upload connection:**
 
 1. Navigate to `http://<server>/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl`
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-08-09T17:42:13.189-0400
-   Used to be a live link to http://localhost:4502/system/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl
-   -->
-
 1. In the **Number of connections** field and/or the **Active job timeout** field, change the number as desired.
 
    The** Number of connections** setting controls the maximum number of HTTP connections allowed for AEM to Dynamic Media upload; typically, the predefined value of 10 connections is sufficient.
@@ -587,7 +528,7 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon and navigate to **General **&gt; **CRXDE Lite**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters` to review the filters.
 
-   ![](assets/chlimage_1-74.png)
+   ![](assets/chlimage_1-73.png)
 
 1. To define the Mime Type for the filter, you can locate the Mime Type as follows:
 
@@ -595,7 +536,7 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 
    The following graphic is an example of an asset's path to dc:format.
 
-   ![](assets/chlimage_1-75.png)
+   ![](assets/chlimage_1-74.png)
 
    Notice that the `dc:format` for the asset `Fiji Red.jpg` is `image/jpeg`.
 
@@ -632,7 +573,7 @@ If you are using Dynamic Media for imaging and/or video, then you can use the de
 
    The following graphic is an example of an asset's renditions.
 
-   ![](assets/chlimage_1-76.png)
+   ![](assets/chlimage_1-75.png)
 
    If you only wanted to replicate the original, then you would enter `+original`.
 

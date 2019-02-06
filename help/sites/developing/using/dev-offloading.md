@@ -3,12 +3,12 @@ title: Creating and Consuming Jobs for Offloading
 seo-title: Creating and Consuming Jobs for Offloading
 description: The Apache Sling Discovery feature provides a Java API that enables you to create JobManager jobs and JobConsumer services that consume them
 seo-description: The Apache Sling Discovery feature provides a Java API that enables you to create JobManager jobs and JobConsumer services that consume them
-uuid: f2b7eb8e-c5dc-455f-9770-4e2ecdf30803
+uuid: 216574eb-a1c1-4d10-a5c0-b20f9d167048
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: bccbfb4d-e930-44af-b288-7a083f7aa166
+discoiquuid: 60953928-ac4d-47b9-b965-130d474f9c01
 index: y
 internal: n
 snippet: y
@@ -177,7 +177,7 @@ The MyJobConsumer class generates the following log messages for an input payloa
 
 The Consumed property can be observed using CRXDE Lite:
 
-![](assets/chlimage_1-31.png) 
+![](assets/chlimage_1-30.png) 
 
 ### Maven Dependencies {#maven-dependencies}
 

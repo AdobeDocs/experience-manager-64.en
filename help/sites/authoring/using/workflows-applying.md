@@ -3,12 +3,12 @@ title: Applying Workflows to Pages
 seo-title: Applying Workflows to Pages
 description: When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow..
 seo-description: When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow..
-uuid: a2379449-b5f2-4ce2-bcd1-bb21de2bff1e
+uuid: 71acbdae-22a5-42e2-9a8d-48fef547a70f
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: dfcb3efa-bd66-4134-935b-df76c6140131
+discoiquuid: 5cdd561e-5a71-4802-a967-1713fc4ff1ff
 index: y
 internal: n
 snippet: y
@@ -137,14 +137,6 @@ You can specify details:
 ## Starting a Workflow from the Page Editor {#starting-a-workflow-from-the-page-editor}
 
 When editing a page you can select **Page Information** from the toolbar. The drop down menu has the option **Start in Workflow**. This will open a dialog where you can specify the required workflow, together with a title if required:
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-03-09T03:53:23.214-0500
-<p>image is completely mis-sized - this is an issue with the chl-author environment</p>
-<p>https://jira.corp.adobe.com/browse/MWPW-20327</p>
--->
 
 ![](assets/WF-54.png)
 

@@ -3,12 +3,12 @@ title: Feature differentiation between HTML5 forms and PDF forms
 seo-title: Feature differentiation between HTML5 forms and PDF forms 
 description: Feature supported in HTML5 forms and PDF forms
 seo-description: Feature supported in HTML5 forms and PDF forms
-uuid: 470f2361-3fea-4117-b2ae-2d12ed496871
+uuid: 26761233-8623-4acf-b9e6-6b0dc6407263
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: f6ecca38-4cce-45ea-a20b-35a99f58f4d7
+discoiquuid: 42999aea-2a09-4d2d-a1bd-5b8db9576754
 index: y
 internal: n
 snippet: y

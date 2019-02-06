@@ -3,8 +3,8 @@ title: Folder Metadata Schema
 seo-title: Folder Metadata Schema
 description: This article describes how to create metadata schema for asset folders in AEM Assets.
 seo-description: How to create metadata schema for asset folders in AEM Assets.
-uuid: de798c7e-9b3d-4d42-8d22-deaad153b0da
-discoiquuid: 81a894e1-8403-4f93-848d-abc26a07da92
+uuid: 56c6c371-4332-48bd-9184-6b81289d23e5
+discoiquuid: b1669f1a-cb2a-4667-910e-8d66158c099c
 index: y
 internal: n
 snippet: y

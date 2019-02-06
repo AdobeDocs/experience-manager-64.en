@@ -3,25 +3,18 @@ title: E-mail Marketing
 seo-title: E-mail Marketing
 description: E-mail marketing (for example, newsletters) are an important part of any marketing campaign as you use them to push content to your leads. In AEM, you can create newsletters from existing AEM content as well as add new content, specific to the newsletters.
 seo-description: E-mail marketing (for example, newsletters) are an important part of any marketing campaign as you use them to push content to your leads. In AEM, you can create newsletters from existing AEM content as well as add new content, specific to the newsletters.
-uuid: 1569989e-db02-4e5f-946b-01b5cc985f38
+uuid: 7f285aca-a0f0-45b0-8af6-1a0b12114014
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 55c83cc3-da31-4fad-9c94-bef10d0b6379
+discoiquuid: 09183891-8d38-468e-a845-c06572a8dfa9
 index: y
 internal: n
 snippet: y
 ---
 
 # E-mail Marketing{#e-mail-marketing}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2017-11-30T05:06:50.317-0500
-<p>Need to update this for we.retail. Also not sure how this is now implemented.</p>
--->
 
 >[!NOTE]
 >
@@ -59,7 +52,7 @@ This document describes the basics of creating newsletters in AEM. For more deta
 
 1. Select the list view, using the icon:
 
-   ![](assets/MCM_Icon_ListView-2.png)
+   ![](assets/MCM_Icon_ListView-1.png)
 
 1. Click **New...**
 
@@ -164,11 +157,11 @@ To switch between clients, click the corresponding icon to view the newsletter i
 
 1. Click an e-mail client in the top bar to see what the newsletter would look like in that client.
 
-   ![](assets/chlimage_1-192.png)
+   ![](assets/chlimage_1-183.png)
 
 1. Repeat this step for any additional e-mail clients you want to see.
 
-   ![](assets/chlimage_1-193.png)
+   ![](assets/chlimage_1-184.png)
 
 ## Customizing Newsletter Settings {#customizing-newsletter-settings}
 
@@ -303,7 +296,7 @@ To subscribe to a newsletter (using the Geometrixx web site as an example):
 
 1. Click **Websites** and navigate to the Geometrixx **Toolbar** and open it.
 
-   ![](assets/chlimage_1-194.png)
+   ![](assets/chlimage_1-185.png)
 
 1. In the Geometrixx Newsletter **Sign Up** field, enter your e-mail address and click **Sign Up**. You are now subscribed to the newsletter.
 

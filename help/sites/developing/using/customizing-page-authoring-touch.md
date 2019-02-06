@@ -3,12 +3,12 @@ title: Customizing Page Authoring
 seo-title: Customizing Page Authoring
 description: AEM provides various mechanisms to enable you to customize page authoring functionality
 seo-description: AEM provides various mechanisms to enable you to customize page authoring functionality
-uuid: 079ae21e-0c24-448f-bba5-a02be4d281fb
+uuid: 0a0966a6-990f-4ab9-b3cd-2a65271a9718
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 7be35841-a923-42cc-99b8-1529aa8168e5
+discoiquuid: 509e9344-e9cd-4cde-a671-7a8fa8c4295d
 index: y
 internal: n
 snippet: y
@@ -216,34 +216,6 @@ You can find the code of this page on GitHub
 #### Configuring Multiple In-Place Editors {#configuring-multiple-in-place-editors}
 
 It is possible to configure a component so that it has multiple in-place editors. When multiple in-place editors are configured, you can select the appropriate content and open the appropriate editor. See the [Configuring Multiple In-Place Editors](../../../sites/developing/using/multiple-inplace-editors.md) documentation for more information.
-
-<!--
-Comment Type: draft
-
-<h2>Add New Tab to Side Panel</h2>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-03-02T05:37:49.781-0500
-<p>6.0 </p>
-<ul>
-<li>what is the status?</li>
-<li>GK&gt;&gt;&gt; not yet implemented</li>
-</ul>
-<p>6.2</p>
-<ul>
-<li>AJH&gt;&gt;&gt; has this been implemented yet - if so need a code sample</li>
-<li>CM&gt;&gt;&gt; The API is not so nice yet, so I’d prefer not to document it for the moment. If developers look into the JS documentation, they could still find a new on how to do it.</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<p>When editing a page, you can open the side tab. In a standard AEM installation the tabs depend on the <a href="../../../sites/authoring/using/author-environment-tools.md#modestouchoptimizedui">mode</a> (layer) you are using. In edit mode (i.e. using the edit layer) the panel holds the <a href="../../../sites/authoring/using/author-environment-tools.md#assetsbrowsertouchoptimizedui">assets browser</a> and <a href="../../../sites/authoring/using/author-environment-tools.md#componentsbrowsertouchoptimizedui">components browser</a>, in developer mode, the panel holds tabs for components, hobbes and errors.</p>
--->
 
 ## Add a New Page Action {#add-a-new-page-action}
 

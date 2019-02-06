@@ -3,12 +3,12 @@ title: AEM Forms
 seo-title: AEM Forms
 description: Release notes specific to Adobe Experience Manager 6.3 Forms.
 seo-description: Release notes specific to Adobe Experience Manager 6.3 Forms.
-uuid: c99aae4a-8d7c-4399-a78b-5ac47f7eb806
+uuid: 992fe234-ae72-402a-bba4-ee7a94f06c10
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 3d369c48-e202-4d52-bb6b-bfb6dbdbbf13
+discoiquuid: 2b2b1e1f-46e5-4ff5-9d00-4e0b5fbe445a
 index: y
 internal: n
 snippet: y

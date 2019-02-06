@@ -3,12 +3,12 @@ title: Rich Text Editor Essentials
 seo-title: Rich Text Editor Essentials
 description: Rich text Editor feature overview
 seo-description: Rich text Editor feature overview
-uuid: 6de74dc6-0478-43a0-b153-08d7cc1b751b
+uuid: f33cc253-c290-4826-9f4f-fb938d0d694b
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 417aa81c-acd2-4d29-b025-9500d729ecf8
+discoiquuid: bcd79c9a-f155-45d2-8a47-18724b4010d5
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ A Rich Text Editor (RTE) provides the ability to enter text with markup.
 
 For Communities components, while similar to the [rich text editor in the author environment](../../sites/authoring/using/rich-text-editor.md), it affects text entered in the publish environment.
 
-![](assets/chlimage_1-422.png) 
+![](assets/chlimage_1-409.png) 
 
 ## Enabling Rich Text Editor {#enabling-rich-text-editor}
 

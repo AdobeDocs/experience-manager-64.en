@@ -3,12 +3,12 @@ title: The Checklist - Further Reference
 seo-title: The Checklist - Further Reference
 description: Learn about further details that elaborate on and/or augment the documents and principles covered by the Managing Projects - Best Practices Checklist.
 seo-description: Learn about further details that elaborate on and/or augment the documents and principles covered by the Managing Projects - Best Practices Checklist.
-uuid: 8af87327-223e-4f3a-ac49-09f24d0cf0d3
+uuid: e5eb4413-2680-4245-bd2b-df70db4bbc2c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
-discoiquuid: c5b97387-2b58-4226-a06d-85c44661d3a5
+discoiquuid: 8fe67c2c-fd48-40c3-ba40-00cf4ff9b05e
 index: y
 internal: n
 snippet: y

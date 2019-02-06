@@ -4,9 +4,9 @@ seo-title: Cloud Services
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 1dd1f1c9-477e-4969-a26d-781012e9d841
+uuid: 3ac4b8b1-38cf-4ee1-a359-f545e6c4d26a
 contentOwner: raiman
-discoiquuid: 0d9b3261-30bc-47b8-ac63-3662c68f55da
+discoiquuid: e8135fc4-e656-4184-b253-747d784cecdb
 noindex: true
 index: y
 internal: n

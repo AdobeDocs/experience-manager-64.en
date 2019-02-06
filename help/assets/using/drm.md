@@ -3,12 +3,12 @@ title: Digital Rights Management in Assets
 seo-title: Digital Rights Management in Assets
 description: Learn how to manage asset expiration states and information for licensed assets in AEM.
 seo-description: Learn how to manage asset expiration states and information for licensed assets in AEM.
-uuid: f6cc5172-c283-4b74-8b70-d33f0382a4e1
+uuid: 0dbb2344-ff71-469c-91a5-5fd5f40020f5
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 5e812c75-4265-4166-a4e8-97de6e1e1f7b
+discoiquuid: e323e5b9-add7-49e1-9079-8116c61b4c27
 legacypath: /content/docs/en/aem/6-2/author/assets/managing-assets-touch-ui/drm
 index: y
 internal: n
@@ -39,26 +39,26 @@ For expired assets, the **Status** column displays the **Expired **banner.
 
 You can view the expiration status of an asset in the timeline. Select the asset and choose Timeline from the GlobalNav menu.
 
-![](assets/chlimage_1-97.png)
+![](assets/chlimage_1-96.png)
 
 You can also view the expiration status of assets in the **References **rail. It manages asset expiration statuses and relationships between compound assets and referenced subassets, collections, and projects.
 
 1. Navigate to the asset for which you want to view referencing web pages and compound assets.
 1. Select the asset, and click/tap the GlobalNav icon.
 
-   ![](assets/chlimage_1-98.png)
+   ![](assets/chlimage_1-97.png)
 
 1. Choose **References** from the menu.
 
-   ![](assets/chlimage_1-99.png)
+   ![](assets/chlimage_1-98.png)
 
    For expired assets, the References rail displays the expiry status **Asset is Expired** at the top. 
 
-   ![](assets/chlimage_1-100.png)
+   ![](assets/chlimage_1-99.png)
 
    If the asset has expired subassets, the References rail displays the status **Asset has Expired Sub-Assets**.
 
-   ![](assets/chlimage_1-101.png)
+   ![](assets/chlimage_1-100.png)
 
 ### Search expired assets {#search-expired-assets}
 
@@ -66,23 +66,23 @@ You can search for expired assets, including expired subassets in the Search pan
 
 1. In the Assets console, click the **Search** icon in the toolbar to display the Omni Search box.
 
-   ![](assets/chlimage_1-102.png)
+   ![](assets/chlimage_1-101.png)
 
 1. With the cursor in the Omni Search box, hit the Return key to display the Search Results page. 
 
-   ![](assets/chlimage_1-103.png)
+   ![](assets/chlimage_1-102.png)
 
 1. Click the GlobalNav icon to display the Search panel.
 
-   ![](assets/chlimage_1-104.png)
+   ![](assets/chlimage_1-103.png)
 
 1. Click/tap the **Expiry Status** option to expand it.
 
-   ![](assets/chlimage_1-105.png)
+   ![](assets/chlimage_1-104.png)
 
 1. Select **Expired**. The expired assets are displayed in search results.
 
-   ![](assets/chlimage_1-106.png)
+   ![](assets/chlimage_1-105.png)
 
 When you choose the **Expired** option, the Assets console only displays the expired assets and subassets that are referenced by compound assets. The compound assets that reference expired subassets are not displayed immediately after the subassets expire. Instead, they are displayed after AEM Assets detects that they reference expired subassets the next time the scheduler runs.
 
@@ -95,7 +95,7 @@ To enable the Assets console to display the referencing compound assets along wi
 1. Open AEM Configuration Manager.
 1. Choose **Adobe CQ DAM Expiry Notification**. By default, **Time based Scheduler** is selected, which schedules a job to check at a specific time whether an asset has expired subassets.** **After the job completes, assets that have expired subassets and referenced assets are displayed as expired in search results.
 
-   ![](assets/chlimage_1-107.png)
+   ![](assets/chlimage_1-106.png)
 
 1. To run the job periodically, clear the **Time Based Scheduler Rule** field and modify the time in seconds in the **Periodic Scheduler** field. For example, the example expression '0 0 0 &#42; &#42; ?' triggers the job at 00 hrs.
 1. Select **send email** to receive emails when an asset expires.
@@ -116,56 +116,56 @@ The Assets console of Adobe Experience Manager (AEM) Assets can display various 
 
 1. In the Assets user interface, select an asset.
 
-   ![](assets/chlimage_1-108.png)
+   ![](assets/chlimage_1-107.png)
 
 1. Tap/click the **Publish** icon from the toolbar. If you can't see the **Publish** icon on the toolbar, tap/click **More** on the toolbar and locate the **Publish** icon.
 
-   ![](assets/chlimage_1-109.png)
+   ![](assets/chlimage_1-108.png)
 
 1. Choose **Publish** from the menu, and then close the confirmation dialog.
 1. Exit the selection mode. The publication status for the asset appears at the bottom of the asset thumbnail in the card view. In the list view, the Published column displays the time when the asset was published.
 
-   ![](assets/chlimage_1-110.png)
+   ![](assets/chlimage_1-109.png)
 
 1. In the Assets UI, select an asset and tap/click the **Properties** icon to display its asset details page.
 
-   ![](assets/chlimage_1-111.png)
+   ![](assets/chlimage_1-110.png)
 
 1. In the Advanced tab, and set an expiration date for the asset from the **Expires** field under.
 
-   ![](assets/chlimage_1-112.png)
+   ![](assets/chlimage_1-111.png)
 
 1. Click **Save** and then click **Close **to display the Asset console. 
 1. The publication status for the asset indicates an expired status at the bottom of the asset thumbnail in the card view. In the list view, the status of the asset is displayed as **Expired**.
 
-   ![](assets/chlimage_1-113.png)
+   ![](assets/chlimage_1-112.png)
 
 1. In the Assets console, select a folder and create a review task on the folder.
 1. Review and approve/reject the assets in the review task and click **Complete**.
 1. Navigate to the folder for which you created the review task. The status for the assets that you approved/reject is displayed at the bottom in the card view. In the list view, the approval and expiry statuses are diaplayed in appropriate columns.
 
-   ![](assets/chlimage_1-114.png)
+   ![](assets/chlimage_1-113.png)
 
 1. To search for assets based on their status, click/tap the **Search** icon to display the Omni Search bar.
 
-   ![](assets/chlimage_1-115.png)
+   ![](assets/chlimage_1-114.png)
 
 1. Hit the Return key and then click/tap the GlobalNav icon to display the Search panel. 
 1. In the Search panel, tap/click **Publish Status** and select **Published** to search for published assets in AEM Assets.
 
-   ![](assets/chlimage_1-116.png)
+   ![](assets/chlimage_1-115.png)
 
 1. Tap/click **Approval Status** and click the appropriate option to search for approved or rejected assets.
 
-   ![](assets/chlimage_1-117.png)
+   ![](assets/chlimage_1-116.png)
 
 1. To search for assets based on their expiration status, select **Expiry Status** in the Search panel and choose the appropriate option.
 
-   ![](assets/chlimage_1-118.png)
+   ![](assets/chlimage_1-117.png)
 
 1. You can also search for assets based on a combination of statuses under various search facets. For example, you can search for published assets that have been approved in a review task and have not yet expired by selecting the appropriate options in the search facets.
 
-   ![](assets/chlimage_1-119.png)
+   ![](assets/chlimage_1-118.png)
 
 ## Digital Rights Management in Assets {#digital-rights-management-in-assets}
 
@@ -196,7 +196,7 @@ An asset is considered protected if either of these conditions are fulfilled:
    >
    >The **Download** button is enabled only when you choose to agree to the license agreement for a protected asset. However, if your selection comprises both protected and unprotected assets, only the protected assets are listed in the left pane and the **Download** button is enabled to download the unprotected assets. To simultaneously accept license agreements for multiple protected assets, select the assets from the list and then choose **Agree**.
 
-   ![](assets/chlimage_1-120.png)
+   ![](assets/chlimage_1-119.png)
 
 1. In the dialog, tap/click **Download** to download the asset or its renditions.
 

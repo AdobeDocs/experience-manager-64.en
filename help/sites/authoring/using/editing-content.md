@@ -3,12 +3,12 @@ title: Editing Page Content
 seo-title: Editing Page Content
 description: Once your page is created you can edit the content to make the updates you require
 seo-description: Once your page is created you can edit the content to make the updates you require
-uuid: 1a96edd3-0dbc-454e-9568-b05162421358
+uuid: 3f2e0680-f162-4d7e-8063-62ed124c4ba0
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: b40ccdc2-7b9e-4065-ba2b-0af5e06cecf9
+discoiquuid: f6da1719-494d-4c06-a638-bf3db6f6b064
 index: y
 internal: n
 snippet: y
@@ -76,13 +76,13 @@ The toolbar offers access to numerous options. Depending on your current context
 
   Displays the current [mode](../../../sites/authoring/using/author-environment-tools.md#main-pars-title-20) and allows you to select another mode such as edit, layout, timewarp, or targeting.
 
-  ![](assets/chlimage_1-272.png)
+  ![](assets/chlimage_1-263.png)
 
 * **Preview**
 
   Enables [preview mode](../../../sites/authoring/using/editing-content.md#main-pars-title-196884421). This displays the page as it will appear when published.
 
-  ![](assets/chlimage_1-273.png)
+  ![](assets/chlimage_1-264.png)
 
 * **Annotate**
 
@@ -112,7 +112,7 @@ Completing and delegating workflow steps via the notification bar works as it do
 
 If the page is subject to multiple workflows, the number of workflows is displayed at the right end of the notification along with arrow buttons to allow you to scroll through the workflows.
 
-![](assets/chlimage_1-274.png)
+![](assets/chlimage_1-265.png)
 
 ## Component Placeholder {#component-placeholder}
 
@@ -337,7 +337,7 @@ The exact edit options will depend on the component. For some components [all ac
 
 * Components constructed from more than one basic component, such as the [Text & Image foundation component](../../../sites/authoring/using/default-components-foundation.md#main-pars-title-10), first ask you to confirm which set of edit options you want:
 
-  ![](assets/chlimage_1-275.png)
+  ![](assets/chlimage_1-266.png)
 
 ### Drag and Drop Assets into Component {#drag-and-drop-assets-into-component}
 
@@ -355,7 +355,7 @@ For specific component types you can drag and drop assets from the asset browser
 
 For all components the full screen mode can be accessed with (and exited from):
 
-![](assets/chlimage_1-276.png)
+![](assets/chlimage_1-267.png)
 
 For example, the **Text** component:
 
@@ -390,7 +390,7 @@ Instead of repeatedly switching from edit to [layout mode](../../../sites/author
 
    Click or tap the **Layout** action to adjust the layout of the component.
 
-   ![](assets/chlimage_1-277.png)
+   ![](assets/chlimage_1-268.png)
 
 1. Once the Layout action is selected:
 
@@ -444,7 +444,7 @@ You can cancel (then re-enable) the inheritance. Depending on the component, thi
 
   The configuration dialog. For example, as with the Inherited Paragraph System:
 
-  ![](assets/chlimage_1-278.png)
+  ![](assets/chlimage_1-269.png)
 
 ## Editing the Page Template {#editing-the-page-template}
 
@@ -498,7 +498,7 @@ When editing content you can preview the page using the preview [mode](../../../
 
 When authoring, the preview mode is available using the icon at the top right of the page editor:
 
-![](assets/chlimage_1-279.png)
+![](assets/chlimage_1-270.png)
 
 ### View as Published {#view-as-published}
 

@@ -3,25 +3,18 @@ title: E-mail Marketing
 seo-title: E-mail Marketing
 description: In AEM you can create newsletters from existing AEM content as well as add new content, specific to the newsletters
 seo-description: In AEM you can create newsletters from existing AEM content as well as add new content, specific to the newsletters
-uuid: 8fce81e6-b103-4167-aff7-93aaf19a910a
+uuid: 991fa170-caee-4424-8f7d-8e7f6e69c34c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 806b2869-f421-41e6-a217-a4fd85e7dd1b
+discoiquuid: 872c1c8f-7df9-45f6-9ce4-b586dc644b57
 index: y
 internal: n
 snippet: y
 ---
 
 # E-mail Marketing{#e-mail-marketing}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2018-02-02T12:30:10.609-0500
-<p>Not sure what is available in touch ui at this point. Will have to investigate further.</p>
--->
 
 >[!NOTE]
 >
@@ -165,11 +158,11 @@ To switch between clients, click the corresponding icon to view the newsletter i
 
 1. Click an e-mail client in the top bar to see what the newsletter would look like in that client.
 
-   ![](assets/chlimage_1-390.png)
+   ![](assets/chlimage_1-377.png)
 
 1. Repeat this step for any additional e-mail clients you want to see.
 
-   ![](assets/chlimage_1-391.png)
+   ![](assets/chlimage_1-378.png)
 
 ## Customizing Newsletter Settings {#customizing-newsletter-settings}
 
@@ -304,7 +297,7 @@ To subscribe to a newsletter (using the Geometrixx web site as an example):
 
 1. Click **Websites** and navigate to the Geometrixx **Toolbar** and open it.
 
-   ![](assets/chlimage_1-392.png)
+   ![](assets/chlimage_1-379.png)
 
 1. In the Geometrixx Newsletter **Sign Up** field, enter your e-mail address and click **Sign Up**. You are now subscribed to the newsletter.
 

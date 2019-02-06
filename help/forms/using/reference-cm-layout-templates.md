@@ -3,11 +3,11 @@ title: Reference letter templates
 seo-title: Reference letter templates
 description: AEM Forms provides Correspondence Management letter layout templates that you can use to create letters quickly. 
 seo-description: AEM Forms provides Correspondence Management letter layout templates that you can use to create letters quickly. 
-uuid: 0d95d5dd-54c8-4f63-9b18-a85c61344175
+uuid: b599cf42-48c9-4b3b-bc2a-9b19c518bd37
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 content-type: reference
 topic-tags: correspondence-management
-discoiquuid: aab68ff3-d59e-4a5f-8210-4c0b072f7ffb
+discoiquuid: ab355996-c844-4b20-a497-dd99be192f9d
 index: y
 internal: n
 snippet: y

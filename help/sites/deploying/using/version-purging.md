@@ -3,12 +3,12 @@ title: Version Purging
 seo-title: Version Purging
 description: This article describes the available options for version purging.
 seo-description: This article describes the available options for version purging.
-uuid: e966be18-695a-4f29-9032-efa82d9eec86
+uuid: 26f8b79b-9112-476d-899f-918133023a82
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: da91d4d5-28df-40f2-ae42-1ba74c3a61be
+discoiquuid: 6db2e974-39c5-4e42-a889-ed7d570de633
 index: y
 internal: n
 snippet: y

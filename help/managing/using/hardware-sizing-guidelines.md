@@ -3,12 +3,12 @@ title: Hardware Sizing Guidelines
 seo-title: Hardware Sizing Guidelines
 description: These sizing guidelines offer an approximation of the hardware resources required to deploy an AEM project.
 seo-description: These sizing guidelines offer an approximation of the hardware resources required to deploy an AEM project.
-uuid: 9f7e89f5-daa0-439d-afd6-41673299174c
+uuid: bff245bc-b1d1-4a55-a5ba-2e3584e30cf2
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
-discoiquuid: 3d5fe90f-2617-4fbb-943a-a2dce0d0ec1c
+discoiquuid: 710c1c7d-b04e-46c9-a938-50a828c5c3d3
 index: y
 internal: n
 snippet: y
@@ -104,13 +104,6 @@ Consider a setup of redundant arrays of independent disks (RAID, e.g. RAID10) fo
 AEM runs well in virtualized environments, but there can be factors such as CPU or I/O that cannot be directly equated to physical hardware. A recommendation is to choose a higher I/O speed (in general) as this is a critical factor in most cases. Benchmarking your environment is necessary to get a precise understanding of what resources will be required.
 
 #### Parallelization of AEM Instances {#parallelization-of-aem-instances}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-09T07:31:49.364-0500
-<p>From the perspective of fail-safeness it is necessary...environments;</p>
--->
 
 **Fail Safeness **
 

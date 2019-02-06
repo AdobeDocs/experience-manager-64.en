@@ -3,12 +3,12 @@ title: Troubleshooting Device Control Center
 seo-title: Monitoring Screens
 description: Follow this page to monitor and troubleshoot performance for your Screens player activity and device using the the Device dashboard.
 seo-description: Follow this page to monitor and troubleshoot performance for your Screens player activity and device using the the Device dashboard.
-uuid: bcd263e3-5e68-430d-b6df-d5ada7055bc9
+uuid: dbef1d68-b920-470e-a94c-7bb49f32172d
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: troubleshoot
-discoiquuid: f4772d50-af75-41e8-aae6-7d44659a86d8
+discoiquuid: 3bf4d381-4a09-4896-ba63-c2114a71b9e0
 index: y
 internal: n
 snippet: y

@@ -3,11 +3,11 @@ title: Adaptive Form Templates
 seo-title: Adaptive Form Templates
 description: Create adaptive form templates by defining the basic structure and initial form content using the Template Editor.
 seo-description: Create adaptive form templates by defining the basic structure and initial form content using the Template Editor.
-uuid: 220ca0a8-b0de-4943-9ed9-5f4b4922bd67
+uuid: 1579824b-688a-45fd-b057-095db70cbc15
 contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 4cb4d2ac-1554-4699-842e-78c8c9a0d79a
+discoiquuid: c571ffd0-4325-4ed6-95b5-00e4f1251c66
 index: y
 internal: n
 snippet: y
@@ -28,91 +28,6 @@ For example, you want all form authors to have certain text boxes, navigation bu
 You can access template editor from the Tools menu by navigating to **Adobe Experience Manager &gt; Tools &gt; Templates**. Here, the templates are organized in folders enabled for editable templates. AEM provides a global folder to organize templates. However, it is not enabled by default. You can request your Administrator to enable the global folder or create a new folder for templates. For more information on how to create folders, see [Template Folders](../../sites/developing/using/page-templates-editable.md).
 
 Once you tap to open a folder, you will find a Create button that allows creating a new template for adaptive forms.
-
-<!--
-Comment Type: draft
-
-<h3>Creating a template folder</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>In addition to the available folders, you can create a separate template folder. Creating a template folder requires admin rights.</p>
-<p>To create a template folder:</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>In CRXDE, locate <span class="code">/conf</span>. Create a template folder under <span class="code">/conf</span>.</p> <p>Use the following structure:</p>
-<codeblock gutter="true" class="syntax js">
-/conf!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;<your-folder-name>&nbsp;[sling:Folder]!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;settings&nbsp;[sling:Folder]!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;wcm&nbsp;[cq:Page]!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;templates&nbsp;[cq:Page]!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;policies&nbsp;[cq:Page]!!discoiqbr!!
-</codeblock></li>
-<li><p>Define the following properties on the root node:</p> <p><span class="code">&lt;<em>your-folder-name</em>&gt; [sling:Folder]</span></p>
-<ul>
-<li>Name: <span class="code">jcr:title</span>
-<ul>
-<li>Type: <span class="code">String</span></li>
-<li>Value: The title (for the folder) you want to appear in the Templates console.</li>
-</ul> </li>
-</ul> <p>Assign groups, and define the required access rights (ACLs) for your authors to let them create templates in the new folder.</p> <p>See <a href="../../sites/administering/using/user-group-ac-admin.md" target="_blank">Access Right Management</a> for full details. The <span class="code">template-authors</span> group is the default group that needs to be assigned.</p>
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<th valign="bottom" width="210"><p> </p> <p><strong>Path</strong></p> </th>
-<th valign="bottom" width="77"><p> </p> <p><strong>Role / Group</strong></p> </th>
-<th valign="bottom" width="141"><p><strong>Permissions - Author Environment</strong></p> </th>
-<th valign="bottom" width="194"><p> </p> <p><strong>Description</strong></p> </th>
-</tr>
-<tr>
-<td valign="bottom" width="210"><p> </p> <p><span class="code">/conf/<<em>your- folder</em>>/settings/wcm/templates</span></p> </td>
-<td valign="bottom" width="77"><p> </p> <p><span class="code">template- authors</span></p> </td>
-<td valign="bottom" width="141"><p><span class="code"> </span></p> <p><span class="code">read, write, replicate</span></p> </td>
-<td valign="bottom" width="194"><p>In a standard installation the template- authors group is empty.</p> </td>
-</tr>
-<tr>
-<td valign="bottom" width="210"><p><em><span class="code">/conf/<your- folder>/settings/wcm/templates</span></em></p> </td>
-<td valign="bottom" width="77"><p> </p> <p><span class="code">everyone</span></p> </td>
-<td valign="bottom" width="141"><p><span class="code"> </span></p> <p><span class="code">read</span></p> </td>
-<td valign="bottom" width="194"><p> </p> </td>
-</tr>
-<tr>
-<td valign="bottom" width="210"><p><em><span class="code">/conf/<your- folder>/settings/wcm/policies</span></em></p> </td>
-<td valign="bottom" width="77"><p><span class="code">template- authors</span></p> </td>
-<td valign="bottom" width="141"><p><span class="code"> </span></p> <p><span class="code">read, write, replicate</span></p> </td>
-<td valign="bottom" width="194"><p> </p> </td>
-</tr>
-<tr>
-<td valign="bottom" width="210"><p><span class="code">/conf/<<em>your- folder</em>>/settings/wcm/policies</span></p> </td>
-<td valign="bottom" width="77"><p> </p> <p><span class="code">everyone</span></p> </td>
-<td valign="bottom" width="141"><p><span class="code"> </span></p> <p><span class="code">read</span></p> </td>
-<td valign="bottom" width="194"><p> </p> </td>
-</tr>
-</tbody>
-</table>
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<th valign="bottom" width="249"><p><strong>Path</strong></p> </th>
-<th valign="bottom" width="109"><p><strong>Role / Group</strong></p> </th>
-<th valign="bottom" width="265"><p><strong>Permissions - Publish Environment</strong></p> </th>
-</tr>
-<tr>
-<td valign="bottom" width="249"><p><span class="code">/conf/<<em>your- folder</em>>/settings/wcm/templates</span></p> </td>
-<td valign="bottom" width="109"><p><span class="code"> </span></p> <p><span class="code">everyone</span></p> </td>
-<td valign="bottom" width="265"><p><span class="code"> </span></p> <p><span class="code">read</span></p> </td>
-</tr>
-<tr>
-<td valign="bottom" width="249"><p><span class="code">/conf/<<em>your- folder</em>>/settings/wcm/policies</span></p> </td>
-<td valign="bottom" width="109"><p><span class="code"> </span></p> <p><span class="code">everyone</span></p> </td>
-<td valign="bottom" width="265"><p><span class="code"> </span></p> <p><span class="code">read</span></p> </td>
-</tr>
-</tbody>
-</table> </li>
-</ol>
--->
 
 ### Creating a template {#create-template}
 

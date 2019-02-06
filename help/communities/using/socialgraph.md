@@ -3,12 +3,12 @@ title: Using Social Graph
 seo-title: Using Social Graph
 description: Adding a Following component to a page
 seo-description: Adding a Following component to a page
-uuid: de88d199-cdb6-4621-902e-a7b5c14a35a9
+uuid: a1baacdd-d6db-4bab-864f-c01a9fb8e5d0
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 35c7e62a-6851-4f1c-989b-683872a23543
+discoiquuid: 0bc2c039-ffb5-48c0-8750-7e99cc34b0e5
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/essentials-socialgraph.md#essentialsforclientside) are included, this is how the `Following` component will appear :
 
-![](assets/chlimage_1-459.png)
+![](assets/chlimage_1-446.png)
 
 ### Configuring Following {#configuring-following}
 

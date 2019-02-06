@@ -3,12 +3,12 @@ title: Changing the font on the interface
 seo-title: Changing the font on the interface
 description: How to change the fonts on the user interface selectively.
 seo-description: How to change the fonts on the user interface selectively.
-uuid: f7608fb7-f23d-47fd-a9b6-7b4c44945ecc
+uuid: bdc6710a-60df-4f7c-befc-5aeed25d4c62
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 65a3fdb4-e7d4-4ce2-9bae-5136146c97d9
+discoiquuid: ce3dc3f2-ee38-4a51-9241-b002d2e698ba
 index: y
 internal: n
 snippet: y

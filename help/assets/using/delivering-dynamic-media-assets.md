@@ -3,12 +3,12 @@ title: Delivering Dynamic Media Assets
 seo-title: Delivering Dynamic Media Assets
 description: Learn how to deliver dynamic media assets
 seo-description: Learn how to deliver dynamic media assets
-uuid: 7ed7bde4-edaf-47b4-b33a-42afd0b9479e
+uuid: f9c8f87c-21d3-4429-982d-2fb3290ba2db
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 1861f7ed-0c30-4572-9f17-403543afc4f1
+discoiquuid: 08b84a13-42e0-46fe-b61a-d2dd149e682b
 index: y
 internal: n
 snippet: y
@@ -27,25 +27,11 @@ With Dynamic Media you have several options:
     * Link URLs to your web application. Use linking when you want to deliver a video player as a pop-up or modal window.
     * If your site is responsive, you can [deliver optimized images.](../../assets/using/responsive-site.md)
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-25T15:33:33.147-0400
-Change "web site" to "website" RB: FIXED
--->
-
 >[!NOTE]
 >
 >Smart imaging works with your existing image presets and uses intelligence at the last millisecond of delivery to further reduce image file size based on browser or network connection speed. See [Smart Imaging](../../assets/using/imaging-faq.md) for more information.
 
 For more information, see the following topics:
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-10T13:09:56.421-0500
-There should be some mention as to which product the links apply. For example, the Invalidating your CDN cached content appears to be for Scene7 Classic (or S7Connector). It might work for DMS7, too, but I do not know. I'm not sure it applies to Dynamic Media Hybrid at all. RB: Not fixed. Who would know the answers to your questions?
--->
 
 * [Adding Dynamic Media Assets to Web Pages](../../assets/using/adding-dynamic-media-assets-to-pages.md)
 * [Embedding the Video or Image Viewer on a Web Page](../../assets/using/embed-code.md)
@@ -56,13 +42,6 @@ There should be some mention as to which product the links apply. For example, t
 * [HTTP2 Delivery of Content](../../assets/using/http2.md)
 * I [nvalidating your CDN cached content](../../assets/using/invalidate-cdn-cached-content.md)
 * [Using Rulesets to Transform URLs](../../assets/using/using-rulesets-to-transform-urls.md)
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-12-10T15:23:08.590-0500
-Need to get with Alex Thiers so get the steps for Digimarc finalized in the topic CQDOC-13684
--->
 
 ### HTTP/2 delivery of Dynamic Media assets {#http-delivery-of-dynamic-media-assets}
 

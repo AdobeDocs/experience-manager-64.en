@@ -3,10 +3,10 @@ title: Creating adaptive forms using JSON Schema
 seo-title: Creating adaptive forms using JSON Schema
 description: Adaptive forms can use JSON schema as form model, allowing you to leverage existing JSON schemas to create adaptive forms. 
 seo-description: Adaptive forms can use JSON schema as form model, allowing you to leverage existing JSON schemas to create adaptive forms. 
-uuid: 33e78e36-41dc-453f-9682-91270dc31a89
+uuid: 87c78e30-7343-4cbf-bc4e-27a08e0ef962
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: b459fcad-dbb9-40eb-aa53-3d2011828f8c
+discoiquuid: 9261e476-b401-4835-b5d0-178f0988097d
 index: y
 internal: n
 snippet: y

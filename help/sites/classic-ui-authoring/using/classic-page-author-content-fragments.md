@@ -4,30 +4,18 @@ seo-title: Page Authoring with Content Fragments
 description: Content fragments are created and managed as page-independent assets. They allow you to create channel-neutral content, together with variations.
 seo-description: Content fragments are created and managed as page-independent assets. They allow you to create channel-neutral content, together with variations.
 page-status-flag: de-activated
-uuid: d31992d7-a19e-4234-8ed3-5d9b1cea0767
+uuid: 3f2e8d17-68f6-4e09-b9f6-aa10433a9a56
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: e06037fd-7d95-4dab-90e0-aa46bea9ab92
+discoiquuid: 0765b28a-aa64-42e6-840c-417266d1a8b3
 index: y
 internal: n
 snippet: y
 ---
 
 # Page Authoring with Content Fragments{#page-authoring-with-content-fragments}
-
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:06:13.512-0500
-<p>see</p>
-<ul>
-<li><a href="https://wiki.corp.adobe.com/display/WEM/Content+Fragment+Management">https://wiki.corp.adobe.com/display/WEM/Content+Fragment+Management</a></li>
-<li><a href="https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=~chuesler&title=Gartner+Nov+11+Demo+Script">https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=~chuesler&title=Gartner+Nov+11+Demo+Script</a></li>
-<li><a href="https://wiki.corp.adobe.com/display/~gknob/Content+Fragment+Management">https://wiki.corp.adobe.com/display/~gknob/Content+Fragment+Management</a></li>
-</ul>
--->
 
 Adobe Experience Manager (AEM) content fragments are [created and managed as page-independent assets](../../../assets/using/content-fragments.md).
 

@@ -3,12 +3,12 @@ title: Contributing to AEM
 seo-title: Contributing to AEM
 description: AEM is developed following proven methodologies commonly practiced in large open source projects
 seo-description: AEM is developed following proven methodologies commonly practiced in large open source projects
-uuid: 7f44b4cd-3cb6-47a3-a51a-3433760ec7df
+uuid: 70bb5ad4-1666-4be9-a14b-adabb2aa565f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: adc8d3d0-1943-4c02-af18-b6b13ecf493b
+discoiquuid: e4b78f4b-95e8-4446-9bd8-cbb27027c377
 index: y
 internal: n
 snippet: y
@@ -23,13 +23,6 @@ AEM is developed following proven methodologies commonly practiced in large open
 If you are contributing to components of AEM, you should familiarize yourself with AEM as you would when contributing to an open source project, and communicate with the existing core team as you would when you would intend to contribute to such a project.
 
 ## Required Experience {#required-experience}
-
-<!--
-Comment Type: draft
-
-<p>AEM makes extensive use of industry standards, which means you will be able to leverage your existing knowledge of foundational technologies like HTTP, HTML, XML, AJAX , DOM, etc., to become productive quickly, rather than having to waste valuable time learning arcane proprietary technologies that are not usable elsewhere.</p>
-<p> </p>
--->
 
 The HyperText Transfer Protocol (HTTP) is central to everything we do. Therefore, before contributing to AEM, you should have a deep understanding of HTTP, ideally to the extent where you would be capable of writing your own Java implementation of a multithreaded HTTP server with thread-pooling. You should also have an understanding of HTTP/1.1 keep-alive behavior, and you should have an in-depth knowledge of server/client-side interactions with JavaScript, particularly the asynchronous style of interaction represented by AJAX.
 

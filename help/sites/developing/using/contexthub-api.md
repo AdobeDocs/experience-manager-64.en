@@ -3,12 +3,12 @@ title: ContextHub Javascript API Reference
 seo-title: ContextHub Javascript API Reference
 description: The ContextHub Javascript API is available to your scripts when the ContextHub component has been added to the page
 seo-description: The ContextHub Javascript API is available to your scripts when the ContextHub component has been added to the page
-uuid: 5eb81f29-78f1-4af2-912e-b9e16665bd83
+uuid: f23a5267-deb5-4838-a63e-4e0b739fb05f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 6811d6ed-3962-4bdb-9ef0-760fbb489427
+discoiquuid: f1d402d5-3923-4730-b588-ca6105ee218a
 index: y
 internal: n
 snippet: y
@@ -23,13 +23,6 @@ The ContextHub Javascript API is available to your scripts when the [ContextHub 
 Constant values that the ContextHub Javascript API defines.
 
 ### Event Constants {#event-constants}
-
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:19:37.036-0500
-<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">/libs/granite/contexthub/code/kernel/constants/ContextHub.constants.js</p>
--->
 
 The following table lists the names events that occur for ContextHub Stores. See also [ContextHub.Utils.Eventing](../../../sites/developing/using/contexthub-api.md#main-pars-title-574450215).
 
@@ -76,13 +69,6 @@ The following table lists the names of events that occur for the ContextHub UI.
 
 ## ContextHub Javascript API Reference {#contexthub-javascript-api-reference}
 
-<!--
-Comment Type: remark
-Last Modified By: (sbroders)
-Last Modified Date: 2018-01-18T11:19:37.216-0500
-<p>/libs/granite/contexthub/code/kernel/core/initialization/ContextHub.js</p>
--->
-
 The ContextHub object provides access to all stores.
 
 ### Functions (ContextHub) {#functions-contexthub}
@@ -128,13 +114,6 @@ var geoloc = ContextHub.getStore("geolocation");
 
 ## ContextHub.SegmentEngine.Segment {#contexthub-segmentengine-segment}
 
-<!--
-Comment Type: remark
-Last Modified By: (sbroders)
-Last Modified Date: 2018-01-18T11:19:37.590-0500
-<p>/libs/cq/contexthub/code/kernel/segment-engine/ContextHub.SegmentEngine.Segment.js</p>
--->
-
 Represents a ContextHub segment. Use the ContextHub.SegmentEngine.SegmentManager to obtain segments.
 
 ### Functions (ContextHub.ContextEngine.Segment) {#functions-contexthub-contextengine-segment}
@@ -149,13 +128,6 @@ Returns the repositoy path of the segment definition as a String value.
 
 ## ContextHub.SegmentEngine.SegmentManager {#contexthub-segmentengine-segmentmanager}
 
-<!--
-Comment Type: remark
-Last Modified By: (sbroders)
-Last Modified Date: 2018-01-18T11:19:37.806-0500
-<p>/libs/cq/contexthub/code/kernel/segment-engine/ContextHub.SegmentEngine.SegmentManager.js</p>
--->
-
 Provides access to ContextHub segments.
 
 ### Functions (ContextHub.SegmentEngine.SegmentManager) {#functions-contexthub-segmentengine-segmentmanager}
@@ -169,13 +141,6 @@ Returns the segments that are resolved in the current context. This function has
 An array of ContextHub.SegmentEngine.Segment objects.
 
 ## ContextHub.Store.Core {#contexthub-store-core}
-
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:19:37.975-0500
-<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">/libs/granite/contexthub/code/kernel/generic-stores/ContextHub.Store.Core.js</p>
--->
 
 The base class for ContextHub stores.
 
@@ -218,13 +183,6 @@ A `boolean` value:
 
 #### addReference(key, anotherKey) {#addreference-key-anotherkey}
 
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:19:38.276-0500
-<p>what is the use case for this?</p>
--->
-
 Creates a reference from one key to another key. A key cannot reference itself.
 
 **Parameters**
@@ -262,13 +220,6 @@ An Object that represents the value for the key.
 
 #### getKeys(includeInternals) {#getkeys-includeinternals}
 
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:19:38.534-0500
-<p>Is there a use case where customers need to know about internals? If not, remove the paramter and don't mention it.</p>
--->
-
 Retrieves the keys from the store. Optionally you can retrieve the keys that are used internally by the ContextHub framework.
 
 **Parameters**
@@ -304,14 +255,6 @@ Retrieves the data tree from the store. Optionally you can include the key/value
 An object that represents the data tree. The keys are the property names of the object.
 
 #### init(name, config) {#init-name-config}
-
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:19:38.757-0500
-<p>need to explain that extensions of this class can override the init.</p>
-<p>Explain about the config.initialValues that can be used in extensions if needed. (see the reset function)</p>
--->
 
 Initializes the store.
 
@@ -402,13 +345,6 @@ Initial values are provided in the initialValues property of the config object t
 
 #### resolveReference(key, retry) {#resolvereference-key-retry}
 
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:19:39.065-0500
-<p>I don't really undestand the iterations part. What is it doing?</p>
--->
-
 Retrieves a referenced key. Optionally, you can specify the number of iterations to use for resolving the best match.
 
 **Parameters**
@@ -450,13 +386,6 @@ A `boolean` value:
 * A value of `false` indicates that the data store is unchanged.
 
 ## ContextHub.Store.JSONPStore {#contexthub-store-jsonpstore}
-
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:19:39.215-0500
-<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">/libs/granite/contexthub/code/kernel/generic-stores/ContextHub.Store.JSONPStore.js</p>
--->
 
 A store that contains JSON data. The data is retrieved from an external JSONP service, or optionally from a service that returns JSON data. Specify the service details using the [ `init`](../../../sites/developing/using/contexthub-api.md#main-pars-title-30) function when you create an instance of this class.
 
@@ -618,13 +547,6 @@ ContextHub.UI.registerRenderer('contexthub.browserinfo', new SurferinfoRenderer(
 
 ## ContextHub.Utils.Cookie {#contexthub-utils-cookie}
 
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:19:39.922-0500
-<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">/libs/granite/contexthub/code/kernel/utils/ContextHub.Utils.cookie.js</p>
--->
-
 A utility class for interacting with cookies.
 
 ### Functions (ContextHub.Utils.Cookie) {#functions-contexthub-utils-cookie}
@@ -780,13 +702,6 @@ This function does not return a value.
 
 ## ContextHub.Utils.Eventing {#contexthub-utils-eventing}
 
-<!--
-Comment Type: remark
-Last Modified By: (sbroders)
-Last Modified Date: 2018-01-18T11:19:40.506-0500
-<p>/libs/granite/contexthub/code/kernel/utils/ContextHub.Utils.eventing.js</p>
--->
-
 Enables you to bind and unbind functions to ContextHub store events. Access ContextHub.Utils.Eventing objects for a store using the [eventing](../../../sites/developing/using/contexthub-api.md#main-pars-title-62) property of the store.
 
 ### Functions (ContextHub.Utils.Eventing) {#functions-contexthub-utils-eventing}
@@ -830,13 +745,6 @@ If `triggerForPastEvents` is `false`, this function returns no value.
 **Example**
 
 The following example binds a function to the data event of the geolocation store. The function populates an element on the page with the value for the latitude data item from the store.
-
-<!--
-Comment Type: remark
-Last Modified By: (sbroders)
-Last Modified Date: 2018-01-18T11:19:40.649-0500
-<p>needs review</p>
--->
 
 ```
 <div class="location">
@@ -892,13 +800,6 @@ Causes an object to inherit the properties and methods of another object.
 * **parent:** (Object) The object that defines the properties and methods that are inherited.
 
 ## ContextHub.Utils.JSON {#contexthub-utils-json}
-
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:19:40.877-0500
-<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">/libs/granite/contexthub/code/kernel/utils/ContextHub.Utils.json.js</p>
--->
 
 Provides functions for serializing objects into JSON format and deserializing JSON strings into objects.
 
@@ -1196,13 +1097,6 @@ myObject = ContextHub.Utils.JSON.tree.setItem(myObject, myKey, myValue);
 The myObject object has the following value:
 
 ## ContextHub.Utils.storeCandidates {#contexthub-utils-storecandidates}
-
-<!--
-Comment Type: remark
-Last Modified By: (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:19:41.826-0500
-<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">/libs/granite/contexthub/code/kernel/utils/ContextHub.Utils.storeCandidates.js</p>
--->
 
 Enables you to register store candidates and obtain registered store candidates.
 

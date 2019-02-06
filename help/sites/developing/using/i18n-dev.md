@@ -3,25 +3,18 @@ title: Internationalizing UI Strings
 seo-title: Internationalizing UI Strings 
 description: Java and Javascript APIs enable you to internationalize strings
 seo-description: Java and Javascript APIs enable you to internationalize strings
-uuid: c63d9431-4e4e-4dc8-a8b1-66b18451c8e0
+uuid: a5b42ceb-7e47-47b3-adfa-9148faf34139
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
-discoiquuid: ac5d1026-65ff-4115-b750-833bc62d0f22
+discoiquuid: 19726ef2-4ed3-4080-b835-d0c2807ac021
 index: y
 internal: n
 snippet: y
 ---
 
 # Internationalizing UI Strings {#internationalizing-ui-strings}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sbroders@adobe.com)
-Last Modified Date: 2017-11-30T05:24:59.963-0500
-<p>Content requires massaging when the xgettext-maven-plugin tool is released to the public. When the tool is used, the code actually creates the strings in addition to looking them up in the dictionary.</p>
--->
 
 Java and Javascript APIs enable you to internationalize strings in the following types of resources:
 
@@ -87,13 +80,6 @@ i18n.get("Enter a search keyword");
 ```
 
 #### Using Translation Hints {#using-translation-hints}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sbroders@adobe.com)
-Last Modified Date: 2017-11-30T05:25:00.133-0500
-<p>When the xgettext maven plugin is released, this section requires an explanation of why you'd use translation hints, because the get command will essentially create the hint. The similar text in the javascript and JCR sections must also be massaged.</p>
--->
 
 Specify the [translation hint](../../../sites/developing/using/i18n-translator.md#main-pars-title-5) of the internationalized string to distinguish between duplicate strings in the dictionary. Use the second, optional parameter of the `get` method to provide the translation hint. The translation hint must exactly match the Comment property of the item in the dictionary.
 
@@ -175,14 +161,6 @@ The following example JSP script retrieves the `jcr:title` property from the rep
 <h1><%=i18n.getVar(title) %></h1>
 ```
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>You must also configure xgettext-maven-plugin to extract the string to the XLIFF file.</p>
-</note>
--->
-
 #### Specifying Translation Hints for JCR Nodes {#specifying-translation-hints-for-jcr-nodes}
 
 Similar to [translation hints in the Java API](../../../sites/developing/using/i18n.md#main-pars-title-12), you can provide translation hints to distinguish duplicate strings in the dictionary. Provide the translation hint as a property of the node that contains the internationalized property. The name of the hint property is comprised of the name of the internationalized property name with the `_commentI18n` suffix:
@@ -199,7 +177,7 @@ Test whether you have internationalized all of the strings in your UI. To see wh
 
 The following image shows the stub translation for the AEM home page:
 
-![](assets/chlimage_1-1.jpeg)
+![](assets/chlimage_1.jpeg)
 
 To set the language for the user, configure the language property of the preferences node for the user account.
 
@@ -207,5 +185,5 @@ The preferences node of a user has a path like this:
 
 `/home/users/<letter>/<hash>/preferences`
 
-![](assets/chlimage_1-2.jpeg)
+![](assets/chlimage_1-1.jpeg)
 

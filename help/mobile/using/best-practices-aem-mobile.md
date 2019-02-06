@@ -3,12 +3,12 @@ title: Best Practices
 seo-title: Best Practices
 description: Follow this page to  learn best practices and guidelines that will help experienced AEM developers for sites, who want to build mobile app templates and components.
 seo-description: Follow this page to  learn best practices and guidelines that will help experienced AEM developers for sites, who want to build mobile app templates and components.
-uuid: 5f81316d-0e84-4e86-8f22-9f805b96e618
+uuid: 416352ce-28d9-46f4-a8a1-6c79bfdc6979
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
-discoiquuid: 6c81b2d3-3f32-417f-b6d6-764f1ba63d16
+discoiquuid: 061a73c2-b388-4172-b8ae-a81e56a4af25
 index: y
 internal: n
 snippet: y

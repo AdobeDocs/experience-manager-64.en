@@ -3,11 +3,11 @@ title: Using an adaptive form in HTML Workspace
 seo-title: Using an adaptive form in HTML Workspace
 description: Using an adaptive form in HTML Workspace
 seo-description: Using an adaptive form in HTML Workspace
-uuid: 9621304e-3fa7-4bb2-a624-56b99ed1542a
+uuid: 67c32d7d-bdc9-4791-8ab2-12b0cadf0c83
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 39633c7d-610a-4f36-a876-ab972dd62fcb
+discoiquuid: 22cf5e31-1db2-4d1f-9a41-45476e5b2aa3
 index: y
 internal: n
 snippet: y
@@ -18,15 +18,6 @@ snippet: y
 AEM Forms on JEE provides the capability of using an adaptive form in HTML Workspace.
 
 As one can select an XDP during Process design, the capability to browse from an existing adaptive form AEM repository has been added. The capability gives the Process designer the ability to configure an adaptive form in Starting Point as well as in Task.
-
-<!--
-Comment Type: remark
-Last Modified By: (sakarora)
-Last Modified Date: 2017-11-30T06:08:27.417-0500
-<p>Currently i have written AEM, please replace it with the name which is being used for documentation for this release.</p>
-<p> </p>
-<p>Also add introduction to Adaptive Form link.</p>
--->
 
 ## Process design experience {#process-design-experience}
 

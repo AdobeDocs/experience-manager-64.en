@@ -4,9 +4,9 @@ seo-title: Create wealth management prospectus using Interactive Communication
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 2096b23f-f579-4d9c-9c48-9362f59b0796
+uuid: 10a0b20a-3aa0-43cd-be4d-ba86fda83043
 contentOwner: gtalwar
-discoiquuid: cbe23b3a-9a56-4d3c-8bdf-d00a4b5b5f5c
+discoiquuid: c777911a-c26c-444e-bf29-88e14cda9bdf
 index: y
 internal: n
 snippet: y

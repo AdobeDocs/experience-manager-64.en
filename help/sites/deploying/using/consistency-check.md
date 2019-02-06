@@ -3,11 +3,11 @@ title: Consistency and Traversal Checks
 seo-title: Consistency and Traversal Checks
 description: Learn how to perform consistency and traversal checks.
 seo-description: Learn how to perform consistency and traversal checks.
-uuid: 0a59a3e5-725a-496b-b158-45a69d602d50
+uuid: b72913f6-bfe8-414d-a84a-d9ef9af97626
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 31b697f9-bb8d-4883-846a-af95c7f260ff
+discoiquuid: 4fa1fb44-ef17-4d43-9907-8ecbaa604e03
 index: y
 internal: n
 snippet: y
@@ -37,5 +37,5 @@ On a default installation, it is found here: ** [|Show Me|](http://localhost:450
 
 In the **Operations** section of the page you will find two methods: **`traversalCheck`** and **`consistencyCheck`**. To execute a check, click on the operation and enter the desired parameters.
 
-![](assets/chlimage_1-134.png)
+![](assets/chlimage_1-120.png)
 

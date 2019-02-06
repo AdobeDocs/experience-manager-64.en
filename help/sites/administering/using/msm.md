@@ -3,25 +3,18 @@ title: "Reusing Content: Multi Site Manager and Live Copy"
 seo-title: "Reusing Content: Multi Site Manager and Live Copy"
 description: Learn about reusing content with Live Copies and the Multi Site Manager.
 seo-description: Learn about reusing content with Live Copies and the Multi Site Manager.
-uuid: 1ceddcb1-6d2c-4361-a1b3-b91992ca2d2d
+uuid: b5c200f1-4eea-4cbe-8ac5-8afd0829f4ba
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 181c2594-3587-4b83-bc1f-dde3c52a6fc3
+discoiquuid: 18661b95-23b1-46db-b147-941a7f37fc4a
 index: y
 internal: n
 snippet: y
 ---
 
 # Reusing Content: Multi Site Manager and Live Copy{#reusing-content-multi-site-manager-and-live-copy}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:00:50.590-0500
-<p>are the comments (throughout the page) still correct for we.retail?</p>
--->
 
 Multi Site Manager (MSM) enables you to use the same site content in multiple locations. MSM uses its Live Copy functionality to achieve this:
 
@@ -316,7 +309,7 @@ The basic form of live copy has:
 
 * Changes can be [synchronized](../../../sites/administering/using/msm-livecopy.md#synchronizingyourlivecopy) according to requirements.
 
-![](assets/chlimage_1-441.png) 
+![](assets/chlimage_1-425.png) 
 
 #### Live Copy with non-Live-Copy pages {#live-copy-with-non-live-copy-pages}
 
@@ -325,16 +318,9 @@ When you create a live copy in AEM you can see and navigate through the live cop
 * Such resources have no live relationship to the source/blueprint pages and are not synchronized. 
 * Scenarios can occur that MSM handles as special cases. For example, when you (or a process) create a page with the same position and name in both the source/blueprint and live copy branches. For such situations see [MSM Rollout Conflicts](../../../sites/administering/using/msm-rollout-conflicts.md) for more information.
 
-![](assets/chlimage_1-442.png) 
+![](assets/chlimage_1-426.png) 
 
 #### Nested Live Copies {#nested-live-copies}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:00:51.160-0500
-<p>"rollout" has connotations.....as Rollout is only available when used with a blueprint configuration<br /> - a deep rollout or a deep sychronization (as in generic term) or....?<br /> - or ignore as this sort of situation wouldn't really happen with an adhoc livecopy :)</p>
--->
 
 When you (or a process) create a [new page within an existing live copy](#livecopywithnonlivecopypages) this new page can also be set up as a live copy of a different blueprint. This is known as a Nested Live Copy, here the behavior of the second (inner) live copy is affected by the first (outer) live copy in the following way:
 
@@ -342,7 +328,7 @@ When you (or a process) create a [new page within an existing live copy](#liveco
 * Any links between the sources will be rewritten within the live copies.  
   For example, links from the second to the first blueprint will be rewritten as links from the nested/second live copy to the first live copy.
 
-![](assets/chlimage_1-443.png)
+![](assets/chlimage_1-427.png)
 
 >[!NOTE]
 >
@@ -382,28 +368,15 @@ A rollout is the central MSM action that synchronizes live copies with their sou
 
   **The Rollout** command is available on a blueprint page that is referenced by a blueprint configuration.
 
-  ![](assets/chlimage_1-444.png)
+  ![](assets/chlimage_1-428.png)
 
 * When authoring a live copy page you can use the [Synchronize](../../../sites/administering/using/msm-livecopy.md#synchronizingalivecopy) command to pull changes from the source to the live copy.
 
   The **Synchronize** command is always available on the live copy page (regardless of whether the source/blueprint page is encompassed by a blueprint configuration).
 
-  ![](assets/chlimage_1-445.png)
+  ![](assets/chlimage_1-429.png)
 
 ### Rollout Configurations {#rollout-configurations}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:00:51.514-0500
-<p>mention here how the actual rollout configuration is selected? top-down?</p>
-<ul>
-<li>defined at the time of create site/live copy
-<ul>
-<li>take the default from the blueprint configuration</li>
-</ul> </li>
-</ul>
--->
 
 A rollout configuration defines when and how a live copy is synchronized with the source content. A rollout configuration consists of a trigger and one or more synchronization actions:
 

@@ -3,12 +3,12 @@ title: Client Context in Detail
 seo-title: Client Context in Detail
 description: The Client Context represents a dynamically assembled collection of user data
 seo-description: The Client Context represents a dynamically assembled collection of user data
-uuid: 53024e2c-c0b5-4782-b29f-9b5d3bd83737
+uuid: 7df2cc1d-d543-4941-a0e4-db6d376b2382
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 31fd8900-4e80-49fe-94f4-8e9e49543e9f
+discoiquuid: 7ae287cc-ab14-4c9d-805d-bfde4ceca64b
 index: y
 internal: n
 snippet: y
@@ -31,48 +31,6 @@ Client Context consists mainly of the following aspects:
 To create a standalone session store and add it to Client Context, or create a session store that is tied to a Context Store component. AEM installs several Context Store components that you can use right away. You can use these components as a basis for your components.
 
 For information about opening Client Context, configuring the information that it displays, and simulating the user experience, see [Client Context](../../../sites/administering/using/client-context.md).
-
-<!--
-Comment Type: draft
-
-<p>Several things make Adobe's implementation of the Client Context unique:</p>
-<ol>
-<li><p>Much of the volatile information (such as information about the user's viewing environment) is derived in real time, it is not persisted anywhere.</p> </li>
-<li><p>Marketers can experiment with different user-data values to see changes to a page in real time. This can be used for purposes of trying different campaign strategies. The edit icon (upper left corner of the panel) allows for manual editing (overriding) of user-data values.</p> </li>
-<li><p>The Client Context is <i>extensible</i>. You can add a new (custom) session-store object, the contents of which can be displayed in the panel.</p> </li>
-<li><p>Non-volatile information shown in the Client Context viewer is persisted on the <i>client side</i> (in browser storage or a cookie). This relieves the server of having to maintain (and then transport back and forth) large amounts of user data.</p> </li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Concepts</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Client Context is a general term for the box that appears overlaid on top of a web page. It allows you to see a set of collected or computed data. It is based on two main concepts:<br /> </p>
-<ul>
-<li>Session Stores: The user data. </li>
-<li>Context Store components: Components that render the data in the Client Context.</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<p>The basic content structure is:<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock gutter="true" class="syntax xml">
-/etc!!discoiqbr!!&nbsp;&nbsp;/clientcontext!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;/default!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|->&nbsp;default&nbsp;ClientContext&nbsp;structure!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/content!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|->&nbsp;contains&nbsp;the&nbsp;content&nbsp;of&nbsp;the&nbsp;default&nbsp;ClientContext!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/contextstores!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|->&nbsp;content/configs&nbsp;needed&nbsp;by&nbsp;the&nbsp;different&nbsp;stores&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;/legacy!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|->&nbsp;old&nbsp;style&nbsp;configs&nbsp;to&nbsp;support&nbsp;backward&nbsp;compatibility&nbsp;with&nbsp;5.4&nbsp;ClickstreamCloud!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;/shared!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|->&nbsp;shared&nbsp;content&nbsp;like&nbsp;the&nbsp;thumbnail&nbsp;servlet!!discoiqbr!!/libs!!discoiqbr!!&nbsp;&nbsp;/cq!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;/personalization!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/components!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/clientcontext!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|->&nbsp;ClientContext&nbsp;component&nbsp;(the&nbsp;one&nbsp;included&nbsp;into&nbsp;pages)!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/clientcontextdesigner!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|->&nbsp;ClientContext&nbsp;resource&nbsp;type&nbsp;for&nbsp;authoring&nbsp;!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/contextstores!!discoiqbr!!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|->&nbsp;"foundation"&nbsp;context&nbsp;store&nbsp;components
-</codeblock>
--->
 
 ### Session Stores {#session-stores}
 
@@ -176,13 +134,6 @@ Including the javascript in the personalization.stores.kernel client library cau
 >If you are creating a session store as part of a context store component, you can alternatively place the javascript in the init.js.jsp file of the component. In this case, the session store is created only if the component is added to Client Context.
 
 #### Types of Session Stores {#types-of-session-stores}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:18:24.235-0500
-<p>need to get more specific about the storage...i.e. sessionstorage, localstorage, window storage, cookie storage.</p>
--->
 
 Session stores are either created and available during a browser session, or are persisted in browser storage or cookies. The Client Context javascript API defines several classes that represent both types of data stores:
 
@@ -342,7 +293,7 @@ The `/libs/cq/personalization/components/contextstores/profiledata` context stor
 * level0, level1, and level2 are distributed vertically, and use a white font.
 * level3, and any additional levels, are distributed horizontally, and use a white font with a darker background.
 
-![](assets/chlimage_1-239.png) 
+![](assets/chlimage_1-232.png) 
 
 ### Rendering Session Store Data for genericstore Components {#rendering-session-store-data-for-genericstore-components}
 
@@ -366,13 +317,6 @@ The tag has the following format:
 ```
 
 #### Implementing the Session Store renderer Method {#implementing-the-session-store-renderer-method}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sbroders@adobe.com)
-Last Modified Date: 2018-01-18T11:18:25.819-0500
-<p>Information remains in the minds of the developers. This section needs more info!</p>
--->
 
 Your session store will then need a "renderer" method that will be called every time the component needs to be rendered. The renderer function is called with two parameters:
 
@@ -583,7 +527,7 @@ The context store component requires an edit dialog. The geoloc edit dialog will
 
 1. Click Save All.
 
-   ![](assets/chlimage_1-240.png)
+   ![](assets/chlimage_1-233.png)
 
 ### Create the Initialization Script {#create-the-initialization-script}
 
@@ -613,7 +557,7 @@ The init.js.jsp file is executed when the Client Context is loaded by the page. 
 
 Add the code to the JSP file of the geoloc component to render the store data in Client Context.
 
-![](assets/chlimage_1-241.png)
+![](assets/chlimage_1-234.png)
 
 1. In CRXDE Lite, open the `/apps/myapp/contextstores/geoloc/geoloc.jsp` file.
 1. Add the following HTML code below the stub code:
@@ -652,7 +596,7 @@ Add the Location Store component to Client Context so that it is initialized whe
 1. Click Ctrl-Alt-c (windows) or control-option-c (Mac) to open Client Context.
 1. Click the edit icon at the top of Client Context to open Client Context Designer.
 
-   ![](assets/chlimage_1-242.png)
+   ![](assets/chlimage_1-235.png)
 
 1. Drag the Location Store component to Client Context.
 

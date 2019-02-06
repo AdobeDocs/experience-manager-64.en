@@ -3,9 +3,9 @@ title: REDIRECT Implementing Android Player
 seo-title: REDIRECT Implementing Android Player
 description: null
 seo-description: null
-uuid: ebff96d9-54d0-4970-b20c-9be57d7f0471
+uuid: 6ab4f49e-4308-44a4-8f94-f1e86f57d6c0
 contentOwner: jsyal
-discoiquuid: 94c50957-c201-46e4-99cd-0c847109f9cb
+discoiquuid: c3e4be21-de90-4169-a799-386c0a3f4ed4
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/implementing-android-player
 index: y

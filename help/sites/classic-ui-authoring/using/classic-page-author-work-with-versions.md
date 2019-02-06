@@ -3,12 +3,12 @@ title: Working with Page Versions
 seo-title: Working with Page Versions
 description: Versioning creates a "snapshot" of a page at a specific point in time.
 seo-description: Versioning creates a "snapshot" of a page at a specific point in time.
-uuid: 3d86bc2b-7cef-4512-bb55-8df19997aa3a
+uuid: fd701f74-ee00-4d87-9d33-772b58ae5861
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: d7129ac4-20ab-4f4d-8d91-35bb66c32a9a
+discoiquuid: b683527e-02b6-4912-89aa-2be22acac5e1
 index: y
 internal: n
 snippet: y
@@ -94,28 +94,11 @@ To compare the current version of the page with a previous version:
     * Text that has been added is green and highlighted.
     * Images that have been added or deleted are green-framed.
 
-   ![](assets/chlimage_1-121.png)
+   ![](assets/chlimage_1-116.png)
 
 1. In the Sidekick, select the **Restore Version** sub tab and click the **&lt;&lt;Back** button to display the current version.
 
 ## Timewarp {#timewarp}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacypath-6-1)
-Last Modified Date: 2017-11-30T05:06:39.658-0500
-<p>Reminder for more functionality due with 5.6:</p>
-<ul>
-<li>I am currently working on "future publishing" (don't have the wiki link right now, just search for it).<br /> One of the goals is to be able to simulate how a page will look like in the future, based on the future version's estimated live date.<br /> You'll then be able to fake the date and the corresponding version will be displayed.<br /> The feature is scheduled for 5.6</li>
-</ul>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:06:39.672-0500
-<p>anything like this in touch?</p>
--->
 
 Timewarp is a feature designed to simulate the ***published*** state of a page at specific times in the past.
 
@@ -140,7 +123,7 @@ The calendar version is used if you have a specific day to be viewed:
 
 1. Open the **Versioning** tab and then click **Timewarp** (near the bottom of the sidekick). The following dialog will be shown:
 
-   ![](assets/chlimage_1-122.png)
+   ![](assets/chlimage_1-117.png)
 
 1. Using the date and time selectors specify the date/time you want and click **Go**.
 
@@ -164,7 +147,7 @@ The calendar version is used if you have a specific day to be viewed:
     
     * [Show Timeline](#usingthetimewarptimeline) to view the timeline.
 
-   ![](assets/chlimage_1-123.png)
+   ![](assets/chlimage_1-118.png)
 
 ### Using the Timewarp Timeline {#using-the-timewarp-timeline}
 
@@ -180,7 +163,7 @@ If you want to view the timeline of the document:
 
 1. Click on **Show Timeline** - the document's timeline will appear; for example:
 
-   ![](assets/chlimage_1-124.png)
+   ![](assets/chlimage_1-119.png)
 
 1. Select and move (hold and drag) the timeline to move through the document's timeline.
 
@@ -188,7 +171,7 @@ If you want to view the timeline of the document:
       When a page is activated, a new line starts. Every time the document is edited a new color appears.  
       In the example below, the red line indicates that the page was edited during the timeframe of the initial green version and the yellow line indicates that the page was edited sometime during the red version etc.
 
-   ![](assets/chlimage_1-125.png)
+   ![](assets/chlimage_1-120.png)
 
 1. Click:
 

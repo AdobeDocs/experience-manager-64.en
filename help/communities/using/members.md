@@ -3,12 +3,12 @@ title: Members & Groups Management Consoles
 seo-title: Members & Groups Management Consoles
 description: How to access Members and Groups Management consoles
 seo-description: How to access Members and Groups Management consoles
-uuid: b3d3ccaf-a092-49c4-b57c-65876176439e
+uuid: 936d1631-cd6e-4588-9645-cbba6a7b6dc7
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: e667a523-175f-4367-bbb0-112ab704e776
+discoiquuid: e3db016a-b81c-4fe6-b2a3-1b237550c53f
 index: y
 internal: n
 snippet: y
@@ -45,13 +45,13 @@ In the author environment, to reach the Members console for managing members reg
 >
 >It will not be possible to use the Members console if the [tunnel service](../../communities/using/deploy-communities.md#tunnelserviceonauthor) is not enabled.
 
-![](assets/chlimage_1-125.png)
+![](assets/chlimage_1-118.png)
 
 #### Search {#search}
 
 Select the side panel icon on the left side of the `Members` header to toggle open the search side panel.
 
-![](assets/chlimage_1-126.png) ![](assets/chlimage_1-127.png)
+![](assets/chlimage_1-119.png) ![](assets/chlimage_1-120.png)
 
 Select the search icon on the left side of the `Members` header to toggle the search side panel closed.
 
@@ -72,7 +72,7 @@ The column headers are
 
 Select `Create Member` in order to create a user in the publish environment.
 
-![](assets/chlimage_1-128.png)
+![](assets/chlimage_1-121.png)
 
 #### GENERAL - Member Details {#general-member-details}
 
@@ -141,7 +141,7 @@ The `BADGES` panel provides the ability to manually assign badges as well as rev
 
 See also [Scoring and Badges](../../communities/using/implementing-scoring.md).
 
-![](assets/chlimage_1-129.png)
+![](assets/chlimage_1-122.png)
 
 * **add badges**
 
@@ -171,7 +171,7 @@ To access the Groups console :
 
 Select `Add Group` in order to create a group in the publish environment.
 
-![](assets/chlimage_1-130.png)
+![](assets/chlimage_1-123.png)
 
 The required fields for creating a new publish-side member group are :
 

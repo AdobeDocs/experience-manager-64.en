@@ -4,10 +4,10 @@ seo-title: DO NOT PUBLISH - Project guide for developing adaptive forms
 description: Comprehensive project guide for preparing, developing, and managing adaptive forms project
 seo-description: Comprehensive project guide for preparing, developing, and managing adaptive forms project
 page-status-flag: de-activated
-uuid: 265723ea-9cab-40ed-8260-315393b7acaa
+uuid: 838c5dcf-7cb4-43e2-a0ee-a1aec742d7d4
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 56068d2f-c8c6-4367-bbdb-051e140c9da4
+discoiquuid: e93b453e-8c8c-406a-b606-16f2948c1a21
 index: y
 internal: n
 snippet: y

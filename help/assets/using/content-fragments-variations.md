@@ -3,12 +3,12 @@ title: Variations - Authoring Fragment Content
 seo-title: Variations - Authoring Fragment Content
 description: Variations allow you to author content for the fragment, then create variations of that content according to purpose (if required).
 seo-description: Variations allow you to author content for the fragment, then create variations of that content according to purpose (if required).
-uuid: 2d8ae46c-d35c-4db0-a991-862865940a35
+uuid: c1a5e4ee-c60a-48c0-9e06-60ad01dce304
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: bce026a3-c766-42c5-a9dc-9e27499cab1d
+discoiquuid: f617a880-c695-47b5-a4fc-64a5d25d223b
 index: y
 internal: n
 snippet: y
@@ -158,14 +158,6 @@ This allows you to format your text using markdown. You can define:
 
 You can also open the full-screen editor for further [actions](#actions).
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-08T01:05:40.700-0500
-<p>SG&gt;&gt;&gt; I would add a "Caution" here as well. At least things like block quotes or code blocks might not work as expected when the text is converted to HTML. It might still be there, but RTE does not actively support editing it, so in a worst case scenario, the author may mess up the text.</p>
-<p>AJH&gt;&gt;&gt; So do I tell them not to use these? Or can I have a definitive list....not "things like".</p>
--->
-
 >[!CAUTION]
 >
 >If you switch between **Rich Text** and **Markdown** you might experience unexpected effects with Block Quotes and Code Blocks, as these two formats can have differences in how they are handled.
@@ -187,25 +179,6 @@ Summarizing text is designed to help users reduce the length of their text to a 
 >[!NOTE]
 >
 >On a more technical level the system keeps the sentences which it rates as providing the *best ratio of information density and uniqueness* according to specific algorithms.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:28:59.324-0500
-<p>Should we mention use of "Apache OpenNLP"?</p>
-<ul>
-<li>https://opennlp.apache.org/</li>
-</ul>
-<p>What are the licensing requirements and have they been addressed on the legal site(s)?</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-50BC48A24CE15F640A04B84F@AdobeID)
-Last Modified Date: 2017-11-30T05:28:59.335-0500
-<p>Code is Apache Licensed.</p>
-<p>There was a discussion with legal about the language models.</p>
--->
 
 >[!CAUTION]
 >

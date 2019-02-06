@@ -3,33 +3,18 @@ title: Setting up your campaign
 seo-title: Setting up your campaign
 description: Setting up a new campaign requires creating a brand to hold your campaigns, creating a campaign to hold experiences, and finally defining the properties for your new campaign.
 seo-description: Setting up a new campaign requires creating a brand to hold your campaigns, creating a campaign to hold experiences, and finally defining the properties for your new campaign.
-uuid: 9bb34b5c-d8e5-4ec5-a260-d583dbb6912e
+uuid: 7183b28e-8211-4224-bb28-c303881c2771
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 56a9a665-12cb-40d2-9d7d-b96a985f50a0
+discoiquuid: ff6d5fa5-c6a7-4e2a-b188-46f34677a63a
 index: y
 internal: n
 snippet: y
 ---
 
 # Setting up your campaign{#setting-up-your-campaign}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2017-11-30T05:07:06.468-0500
-<p>This needs to be entirely revisited. No idea what's in classic or in touch ui. Leaving content as is for now.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:07:06.483-0500
-<p>All links broken</p>
-<p> </p>
--->
 
 Setting up a new campaign includes the following (generic) steps:
 
@@ -71,7 +56,7 @@ To create a new brand:
 
 1. Select **New...** to enter the **Title** and **Name** and template to be used for your new brand:
 
-   ![](assets/chlimage_1-47.png)
+   ![](assets/chlimage_1-42.png)
 
 1. Click **Create**. Your new brand will be shown in the MCM (with a default icon).
 
@@ -81,7 +66,7 @@ To create a new brand:
 
    You can enter a **Title**, **Description** and an image to be used as the icon.
 
-   ![](assets/chlimage_1-48.png)
+   ![](assets/chlimage_1-43.png)
 
 1. Click **OK** to save.
 
@@ -95,7 +80,7 @@ To create a new campaign:
 
 1. Click **New...** and specify the **Title**, **Name** and template to be used for your new campaign.
 
-   ![](assets/chlimage_1-49.png)
+   ![](assets/chlimage_1-44.png)
 
 1. Click **Create**. Your new campaign will be shown in the MCM.
 
@@ -114,7 +99,7 @@ Configure campaign properties that control the behavior:
 
    You can enter various properties, including a **Title**, **Description** and any **Cloud Services** you want.
 
-   ![](assets/chlimage_1-50.png)
+   ![](assets/chlimage_1-45.png)
 
 1. Click **OK** to save.
 
@@ -160,7 +145,7 @@ If you have existing experiences you can add a touchpoint directly from the Cale
 
 1. Click **Add Touchpoint...** to open the dialog. Specify the experience you want to add:
 
-   ![](assets/chlimage_1-51.png)
+   ![](assets/chlimage_1-46.png)
 
 1. Click **OK** to save.
 

@@ -3,12 +3,12 @@ title: Managing Video Assets
 seo-title: Managing Video Assets
 description: Learn how to upload, preview, annotate, and publish video assets.
 seo-description: Learn how to upload, preview, annotate, and publish video assets.
-uuid: caee0a4f-8dae-479f-81f9-94a35fcbb130
+uuid: 577bce94-777e-4a84-ae27-d98d09d5e130
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: d1677325-328d-4b17-bdc6-5d5aa12b1500
+discoiquuid: 96fbc1fc-f1d0-43cc-8db4-feb247451106
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ Adobe Experience Manager Assets generates previews for video assets with the ext
 1. To upload the asset, click or tap **Create** from the toolbar and then choose **Files**. Alternatively, drop it directly in the assets area. See [Uploading assets](../../assets/using/managing-assets-touch-ui.md#uploadingassets) for details around the upload operation.
 1. To preview a video in the Card view, click the **Play** button on the video asset.
 
-   ![](assets/chlimage_1-154.png)
+   ![](assets/chlimage_1-153.png)
 
    You can pause or play video in the Card view only. The Play/Pause button is not available in the list view.
 
@@ -40,7 +40,7 @@ Adobe Experience Manager Assets generates previews for video assets with the ext
 
    The video plays in the native video player of the browser. You can play, pause, control the volume, and zoom the video to full screen.
 
-   ![](assets/chlimage_1-155.png)
+   ![](assets/chlimage_1-154.png)
 
 ## Configuration to upload video assets that are larger than 2 GB {#configuration-to-upload-video-assets-that-are-larger-than-gb}
 
@@ -58,20 +58,9 @@ Perform the following steps to configure a higher file size limit (for example 3
    You may need to touch the **&gt;&gt;** icon to see the directory window.
 
 1. From the toolbar, tap the **Overlay Node…** button. Alternatively, select **Overlay Node...** from the context menu.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (rbrough@adobe.com)
-   Last Modified Date: 2017-11-30T05:30:03.345-0500
-   <p>Are each one of these (gui, content, assets, _jcr_content, body, etc.) as seen in the path below supposed to be created as a node? Or are some of them created as folders or components or something else?</p>
-   <p>/gui/content/assets/_jcr_content/body/assetscontent/header/items/items/fileupload</p>
-   <p> </p>
-   <p>Can you send a screenshot of what the CRXDE Lite page is supposed to look like (with the directory structure on the left side and the Properties tab showing for fileupload) when they've entered the full node path and the property. Then I can better understand what is going on and update the steps.</p>
-   -->
-
 1. In the **Overlay Node** dialog, tap **OK**.
 
-   ![](assets/chlimage_1-156.png)
+   ![](assets/chlimage_1-155.png)
 
 1. Refresh the browser. The overlay node */jcr_root/apps/dam/gui/content/assets/jcr:content/actions/selection/create/items/fileupload* is already selected in the directory window on the left.
 1. In the **Properties** tab, enter the appropriate value in bytes to increase the size limit to the desired size. For example, enter the following value to increase the size limit to 30GB:
@@ -104,15 +93,15 @@ See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md).
 
    While annotating, you can draw on the canvas and include a comment with the drawing. Comments are automatically saved in Adobe Experience Manager Assets.
 
-   ![](assets/chlimage_1-157.png)
+   ![](assets/chlimage_1-156.png)
 
    To exit the annotation wizard, click **Close**.
 
 1. To jump to a specific point in the video, specify the time in seconds in the **text** field and click **Jump**. For example, to skip the first 10 seconds of video, enter **20** in the **text** field.
 
-   ![](assets/chlimage_1-158.png)
+   ![](assets/chlimage_1-157.png)
 
 1. Cick an annotation to view it in the timeline. Click **Delete** to delete the annotation from the timeline.
 
-   ![](assets/chlimage_1-159.png)
+   ![](assets/chlimage_1-158.png)
 

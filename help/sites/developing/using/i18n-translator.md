@@ -3,12 +3,12 @@ title: Using Translator to Manage Dictionaries
 seo-title: Using Translator to Manage Dictionaries
 description: AEM provides a console for managing the various translations of texts used in component UI
 seo-description: AEM provides a console for managing the various translations of texts used in component UI
-uuid: 0ddac6eb-52ae-4e59-aa35-84622a849f1c
+uuid: 3e5ff96f-ec3a-4eaa-87c6-c8a666e5f679
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
-discoiquuid: 3178abe4-569c-4aa5-a85d-290cc9133290
+discoiquuid: cdb4a7e0-ae63-4073-bdea-619f51c7e58a
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ Note that the Translator tool and the dictionaries that you manage are for prese
 
 The translator lists the texts used in AEM with the various language translations alongside each other:
 
-![](assets/chlimage_1-222.png)
+![](assets/chlimage_1-215.png)
 
 You can search, filter and edit the English and translated texts. You can also export dictionaries to XLIFF format for translating, then import the translations back into the dictionaries.
 
@@ -44,13 +44,13 @@ It is also possible to add the i18n dictonaries to a translation project from th
 
 1. Click **Translate Dictionary**.
 
-   ![](assets/chlimage_1-223.png)
+   ![](assets/chlimage_1-216.png)
 
 1. Select Create or Add option depending on your need. A dialog opens.
 
-   ![](assets/chlimage_1-224.png)
+   ![](assets/chlimage_1-217.png)
 
-1. Fill the fields as required and click OK. ![](assets/chlimage_1-225.png)
+1. Fill the fields as required and click OK. ![](assets/chlimage_1-218.png)
 
 1. You can now click **OK **or see the Target Dictionary.
 
@@ -142,13 +142,13 @@ Use the following procedure to add a string.
 1. In the Dictionaries drop-down menu, select the dictionary to which you are adding a string. In the drop-down menu, Dictionaries are represented by their path in the respository. 
 1. Above the Strings and Translations table, click Add.
 
-   ![](assets/chlimage_1-226.png)
+   ![](assets/chlimage_1-219.png)
 
 1. In the String box of the Add String dialog box, type the English string. In the Comment box, type a translation hint for the translator if necessary.
 1. Click OK.
 1. Click Save.
 
-   ![](assets/chlimage_1-227.png)
+   ![](assets/chlimage_1-220.png)
 
 Use the following procedure to change a string in a dictionary.
 
@@ -156,23 +156,23 @@ Use the following procedure to change a string in a dictionary.
 1. Double-click the string to change.
 1. In the Edit String dialog box, select Modify String or Comment (Creates a Copy).
 
-   ![](assets/chlimage_1-228.png)
+   ![](assets/chlimage_1-221.png)
 
 1. Modify the string or the comment and click OK.
 1. Click Save.
 
-   ![](assets/chlimage_1-229.png)
+   ![](assets/chlimage_1-222.png)
 
 Use the following procedure to remove a string from a dictionary.
 
 1. In the Dictionaries drop-down menu, select the dictionary from which you are removing a string.
 1. Click Remove.
 
-   ![](assets/chlimage_1-230.png)
+   ![](assets/chlimage_1-223.png)
 
 1. Click Save.
 
-   ![](assets/chlimage_1-231.png)
+   ![](assets/chlimage_1-224.png)
 
 ### Searching for Strings {#searching-for-strings}
 
@@ -190,7 +190,7 @@ The search bar at the bottom of the Translator tool provides string selection op
 * **Has Comment**: Show items that have comments for translators.
 * **Missing Translations: **Show items where at least one language does not have a translation.
 
-![](assets/chlimage_1-232.png)
+![](assets/chlimage_1-225.png)
 
 1. On the search bar, select the filtering options.
 1. To filter using the options click Filter.
@@ -215,11 +215,11 @@ After you add the English string to a dictionary, you can add translations of th
 
     * Double click on the appropriate language for the required string to edit that single text:
 
-   ![](assets/chlimage_1-233.png)
+   ![](assets/chlimage_1-226.png)
 
     * Double click on the **String** or **Comment** fields for the required string to open the **Edit string** dialog, edit the translation(s) as required, then click **OK** to close the dialog:
 
-   ![](assets/chlimage_1-234.png)
+   ![](assets/chlimage_1-227.png)
 
 1. Click **Save** in the toolbar to commit your changes.
 

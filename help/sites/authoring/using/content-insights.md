@@ -3,12 +3,12 @@ title: Content Insight
 seo-title: Content Insight
 description: Content Insight provides information about page performance using web analytics and SEO recommendation
 seo-description: Content Insight provides information about page performance using web analytics and SEO recommendation
-uuid: 02705eee-bea2-447a-b125-4ef3707c3eec
+uuid: de1e5615-92a6-4991-909c-b9ce4e883718
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 262234c7-cd46-48c6-81b4-a541b3068bca
+discoiquuid: 3ca94410-d1f0-4cb7-8e60-4f3f79ac1528
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 Content Insight provides information about page performance using web analytics and SEO recommendations. Use Content Insight to make decisions about how to modify pages, or to learn how previous changes have changed performance. For every page that you author, you can open Content Insight to analyse the page.
 
-![](assets/chlimage_1-383.png)
+![](assets/chlimage_1-370.png)
 
 The layout of the Content Insight page changes to suit the screen dimensions and orientation of the device that you are using.
 
@@ -57,7 +57,7 @@ The Views report includes the following features for evaluating page traffic:
     * Total views.
     * Unique vistors.
 
-![](assets/chlimage_1-384.png)
+![](assets/chlimage_1-371.png)
 
 ### The Page Average Engaged Report {#the-page-average-engaged-report}
 
@@ -66,25 +66,25 @@ The Page Average Engaged report includes the following features for evaluating p
 * The average time that the page remains open for the entire reporting period.
 * A graph of the average length of a page view across the reporting period.
 
-![](assets/chlimage_1-385.png)
+![](assets/chlimage_1-372.png)
 
 ### The Sources Report {#the-sources-report}
 
 The Sources report indicates how users navigated to the page, for example from search engine results or using the known URL.
 
-![](assets/chlimage_1-386.png)
+![](assets/chlimage_1-373.png)
 
 ### The Bounces Report {#the-bounces-report}
 
 The Bounces report includes a graph that shows the number of bounces that have occurred for a page over the selected reporting period. 
 
-![](assets/chlimage_1-387.png)
+![](assets/chlimage_1-374.png)
 
 ### The Campaign Activity Report {#the-campaign-activity-report}
 
 For each campaign for which the page is active, a report appears named *Campaign Name* Activity. The report shows page impressions and conversions for each segment for which an offer is provided. 
 
-![](assets/chlimage_1-388.png)
+![](assets/chlimage_1-375.png)
 
 ### The SEO Recommendations Report {#the-seo-recommendations-report}
 
@@ -92,5 +92,5 @@ The SEO Recommendations report contains the results of the BrightEdge analysis f
 
 The report enables you to create tasks so that improvements are made to improve page findability. Recommendations indicate that tasks have been created for implementing the recommendation. See [Assigning Tasks for SEO Recommendations](../../../sites/authoring/using/ci-analyze.md#assigningtasksforseorecommendations).
 
-![](assets/chlimage_1-389.png)
+![](assets/chlimage_1-376.png)
 

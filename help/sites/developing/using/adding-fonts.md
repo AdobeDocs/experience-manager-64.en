@@ -3,12 +3,12 @@ title: Adding Fonts for Graphic-Rendering
 seo-title: Adding Fonts for Graphic-Rendering
 description: AEM allows you to generate graphics incorporating text dynamically taken from your content
 seo-description: AEM allows you to generate graphics incorporating text dynamically taken from your content
-uuid: 5637a674-755d-4853-8936-ab84c568602f
+uuid: dc49597d-a7e9-454d-b57a-9940a5d9faa2
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: ebcf483d-1276-4317-9b19-8a23dbd97421
+discoiquuid: a05be8cb-e784-42e4-bdd7-4e659ccd383f
 index: y
 internal: n
 snippet: y

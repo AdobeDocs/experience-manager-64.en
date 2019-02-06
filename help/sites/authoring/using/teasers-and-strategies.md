@@ -3,25 +3,18 @@ title: Teasers and Strategies
 seo-title: Teasers and Strategies
 description: Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests
 seo-description: Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests
-uuid: 1ca58c6d-3f39-4d54-802c-b17b1fd43e71
+uuid: d1dcc31f-a5dc-422a-a500-936cc85227be
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 5c11767a-3788-454a-b509-d9b99c5b05a5
+discoiquuid: 8c716d79-b1c0-4c6b-97a7-7bee8ef892d3
 index: y
 internal: n
 snippet: y
 ---
 
 # Teasers and Strategies{#teasers-and-strategies}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2018-02-02T12:33:24.404-0500
-<p>Delete this page? Teasers are no longer part of 6.3. Deprecated in 6.2</p>
--->
 
 Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests.
 
@@ -250,33 +243,15 @@ After creating your brand and campaign you can create and set up your teaser exp
 
 1. Click **New...**
 
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-02-02T12:33:25.064-0500
-   <p>Teaser Page or Experience?</p>
-   <p>What are the implications of using the one or the other?</p>
-   <p>What about all the other options available here - need more detailed docu albeit not in this procedure:</p>
-   <p>- Blank Canvas page<br /> - Experience<br /> - Teaser Page<br /> - Offer<br /> - Voucher<br /> - Promotion<br /> - Teaser Page<br /> - Geometrixx Newsletter<br /> - Voucher<br /> - Promotion</p>
-   <p>What can you nest within what and why?</p>
-   -->
-
    You can specify the **Title**, **Name** and type of experience to be created; in this case, **Teaser Page**.
 
-   ![](assets/chlimage_1-211.png)
+   ![](assets/chlimage_1-204.png)
 
 1. Click **Create**.  
 
 1. A new dialog will open immediately. Here you can use the various tabs to enter properties for the teaser.
 
-   ![](assets/chlimage_1-212.png) 
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-02-02T12:33:25.256-0500
-   <p>exactly how do identifiers work for the location?</p>
-   -->
+   ![](assets/chlimage_1-205.png)
 
     * **Title** 
       A title for the teaser.
@@ -311,7 +286,7 @@ To add content to your teaser:
 
 1. Use the sidekick to add components, then add your content to the teaser page:
 
-   ![](assets/chlimage_1-213.png)
+   ![](assets/chlimage_1-206.png)
 
    >[!CAUTION]
    >
@@ -333,7 +308,7 @@ You do this by strategically placing the teaser paragraph within your content:
 1. Navigate to the content page where you want to place the teaser paragraph that will lead to your campaign page.
 1. Add a **Teaser** component (available in the **Personalization** section of sidekick) in the required position. When first created it will show that the campaign path is not yet configured:
 
-   ![](assets/chlimage_1-214.png)
+   ![](assets/chlimage_1-207.png)
 
 1. Edit the teaser component to add the:
 
@@ -343,15 +318,15 @@ You do this by strategically placing the teaser paragraph within your content:
     * ** [Strategy](../../../sites/authoring/using/campaigns.md#strategies)** 
       Method used for selection when multiple segments resolve successfully.
 
-   ![](assets/chlimage_1-215.png)
+   ![](assets/chlimage_1-208.png)
 
 1. Click **OK** to save. Depending on the segments you have set on the teaser and the profile of the user you are currently logged in as, the appropriate content will be displayed:
 
-   ![](assets/chlimage_1-216.png)
+   ![](assets/chlimage_1-209.png)
 
 1. Mouse over the teaser paragraph to reveal the question mark icon (bottom right corner of the component). Click this to view the segments applied and whether they currently resolve.
 
-   ![](assets/chlimage_1-217.png)
+   ![](assets/chlimage_1-210.png)
 
 ### Teaser Overview {#teaser-overview}
 
@@ -359,17 +334,9 @@ As well as the campaign view in the MCM, the campaign page also gives informatio
 
 1. From the **Websites** console, open the campaign page; for example:
 
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-02-02T12:33:26.175-0500
-   <p>Open the campaign page or the experience page?</p>
-   <p>Either / or / both ?<br /> </p>
-   -->
-
    `` `http://localhost:4502/content/campaigns/geometrixx-outdoors/storefront/summer.html`
 
    This shows an overview of the teaser definitions and viewing statistics:
 
-   ![](assets/chlimage_1-218.png)
+   ![](assets/chlimage_1-211.png)
 

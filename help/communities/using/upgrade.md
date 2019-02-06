@@ -3,12 +3,12 @@ title: Upgrading to AEM 6.4 Communities
 seo-title: Upgrading to AEM 6.4 Communities
 description: How to upgrade from an earlier version to AEM 6.4 Communities
 seo-description: How to upgrade from an earlier version to AEM 6.4 Communities
-uuid: fdcac7a7-1cb5-42bc-9aec-e4c6fd99fb8e
+uuid: 2887bbfa-a693-4150-8eef-83aef7dd9c7d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 44e0a42f-6b70-4899-918a-c1b81e51f207
+discoiquuid: da60e4a3-7558-4396-8a5b-edeff6775ee0
 index: y
 internal: n
 snippet: y
@@ -64,7 +64,7 @@ For all AEM 6.3 author and publish instances
         
         * select **Save**
 
-![](assets/chlimage_1-132.png) 
+![](assets/chlimage_1-125.png) 
 
 ### On-premise Storage {#on-premise-storage}
 

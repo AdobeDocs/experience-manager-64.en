@@ -4,33 +4,18 @@ seo-title: Security Changes in CQ 5.3 and CRX 2.0
 description: Changes have been made to the security model between CRX 1.4.x and CRX 2.0 - and therefore between AEM 5.2 and AEM 5.3
 seo-description: Changes have been made to the security model between CRX 1.4.x and CRX 2.0 - and therefore between AEM 5.2 and AEM 5.3
 page-status-flag: de-activated
-uuid: 008f4729-ff9e-4251-a995-bc23f559f672
+uuid: 2a9d7964-e4e1-4396-b456-99a59ab154f3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 354a3519-9d66-4ccc-a954-3dd1de8a1711
+discoiquuid: 6b6aac5c-8552-45e5-b467-103e012783af
 index: y
 internal: n
 snippet: y
 ---
 
 # Security Changes in CQ 5.3 and CRX 2.0{#security-changes-in-cq-and-crx}
-
-<!--
-Comment Type: remark
-Last Modified By: Tyler Rushton (trushton)
-Last Modified Date: 2018-05-03T11:09:11.368-0400
-<p>I am unpublishing this page in the 6.4 Docset. It very old content and should be removed as part of the migration to gitHub.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:25:23.362-0500
-<p> http://bugzilla.day.com/bugzilla/show_bug.cgi?id=25931<br /> The entry that Angela made on 16.12.2009.</p>
-<p> </p>
--->
 
 Changes have been made to the security model between CRX 1.4.x and CRX 2.0 - and therefore between CQ 5.2 and CQ 5.3. The upgrade procedure compensates for most of these changes and so for most installations, no further action is necessary.
 

@@ -3,12 +3,12 @@ title: Integrating with Silverpop Engage
 seo-title: Integrating with Silverpop Engage
 description: Learn how to integrate AEM with Silverpop Engage
 seo-description: Learn how to integrate AEM with Silverpop Engage
-uuid: c05365b3-003a-4180-9741-d71575c3ca6a
+uuid: 402624ba-0ddc-40ed-aa00-c89e81380e33
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 17fcebc3-ca4f-43a5-9b46-ca4938477836
+discoiquuid: c8572365-a51c-413d-831d-f43ff171b343
 index: y
 internal: n
 snippet: y
@@ -88,7 +88,7 @@ To configure the API end points :
     
     1. **Name**: `value`, **Type**: `String`, **Value**: `https://api0.silverpop.com`
 
-   ![](assets/chlimage_1-335.png)
+   ![](assets/chlimage_1-321.png)
 
    Click on "Save All" button.
 

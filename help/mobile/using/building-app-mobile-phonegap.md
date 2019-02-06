@@ -3,12 +3,12 @@ title: Building Mobile Applications
 seo-title: Building Mobile Applications
 description: This page provides a complete step-by-step article on how to build a mobile application using code available from GitHub is available here.Build your application to install to a device or simulator for testing or for publishing to app stores. You can build applications locally using the PhoneGap Command Line Interface, or in the cloud using PhoneGap Build. 
 seo-description: This page provides a complete step-by-step article on how to build a mobile application using code available from GitHub is available here.Build your application to install to a device or simulator for testing or for publishing to app stores. You can build applications locally using the PhoneGap Command Line Interface, or in the cloud using PhoneGap Build. 
-uuid: 3eb71475-61bf-4520-8be4-bc3b29baca2b
+uuid: 1a4b70fe-baec-4257-9c99-3fae4e92160d
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: ae4c69ab-2840-40e6-9f39-22ffaf1be159
+discoiquuid: 569d8b42-c8bf-4983-95a8-208e146e49e8
 index: y
 internal: n
 snippet: y
@@ -23,26 +23,6 @@ snippet: y
 Build your application to install to a device or simulator for testing or for publishing to app stores. You can build applications locally using the PhoneGap Command Line Interface, or in the cloud using PhoneGap Build.
 
 A complete step-by-step article on how to build a mobile application using code available from GitHub is available [here](https://helpx.adobe.com/experience-manager/using/aem62_mobile.html).
-
-<!--
-Comment Type: draft
-
-<h3>The Build Cache</h3>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sbroders@adobe.com)
-Last Modified Date: 2017-12-12T03:21:06.700-0500
-<p>Move this to the section about updating the content for installed instances, when it exists.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>To build a PhoneGap application, AEM creates a ZIP file that contains all of the resources that the PhoneGap CLI or PhoneGap Build service requires. AEM caches the content of the ZIP archive, and updates the cache each time it creates the ZIP file.</p>
-<p>Each time you build an application, the archive includes only the resources and assets that are different than the contents of the cache. To include all the of resources and assets of the application in the build, clear the cache before you create the ZIP file. The following procedures for building applications describes how to clear the cache if desired.</p>
--->
 
 ## Moving the Application to the Publish Instance {#moving-the-application-to-the-publish-instance}
 

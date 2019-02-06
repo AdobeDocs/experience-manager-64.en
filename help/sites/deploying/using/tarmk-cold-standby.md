@@ -3,12 +3,12 @@ title: How to Run AEM with TarMK Cold Standby
 seo-title: How to Run AEM with TarMK Cold Standby
 description: Learn how to create, configure and maintain a TarMK Cold Standby setup.
 seo-description: Learn how to create, configure and maintain a TarMK Cold Standby setup.
-uuid: 75057218-262e-47d3-ba8d-8b17433a8e68
+uuid: cc3228a7-d6c1-4af0-9e95-27559c733909
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: c327d853-b42f-42d4-82ce-a0a50b21ce8d
+discoiquuid: daa70b05-1b0b-41e9-9b6c-0d162af3a228
 index: y
 internal: n
 snippet: y
@@ -43,25 +43,9 @@ The standby periodically requests the segment ID of the current head of the prim
 >
 >Standby instances are not receiving any type of requests, because they are running in sync only mode. The only section available on a standby instance is the Web Console, in order to facilitate bundle and services configuration.
 
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>There is a maximum limit to the binary size that can be synced between the primary and standby instances. The limit is <strong>2.14 GB</strong> and no binaries bigger than this value can be synced between the instances. A workaround to this limit would be to use a shared data store. For more details, see <a href="../../../sites/deploying/using/data-store-config.md" target="_blank">Data Store Configurations</a>.</p>
-<p> </p>
-</note>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-04-19T09:08:19.055-0400
-<p>Removed due to <a href="https://jira.corp.adobe.com/browse/CQDOC-10987">CQDOC-10987</a>.</p>
--->
-
 A typical TarMK Cold Standby deployment:
 
-![](assets/chlimage_1-93.png) 
+![](assets/chlimage_1-86.png) 
 
 ## Other characteristics {#other-characteristics}
 
@@ -230,21 +214,6 @@ The service can also be configured via the Web Console, by:
 
 ## First time synchronization {#first-time-synchronization}
 
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>There is a maximum limit to the binary size that can be synced between the primary and standby instances. The limit is <strong>2.14 GB</strong> and no binaries bigger than this value can be synced between the instances. A workaround to this limit would be to use a shared data store. For more details, see <a href="../../../sites/deploying/using/data-store-config.md" target="_blank">Data Store Configurations</a>.</p>
-</note>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-04-19T09:09:24.192-0400
-<p>Removed due to <a href="https://jira.corp.adobe.com/browse/CQDOC-10987">CQDOC-10987</a>.</p>
--->
-
 After the preparation is complete and the standby is started for the first time there will be heavy network traffic between the instances as the standby catches up to the primary. You can consult the logs to observe the status of the synchronization.
 
 In the standby *tarmk-coldstandby.log*, you will see entries such as these:
@@ -403,19 +372,7 @@ Furthermore information for up to 10 clients (standby instances) that are connec
 
 #####
 
-<!--
-Comment Type: draft
-
-<h3>Creating a Cold Standby Setup with Amazon S3 Support</h3>
--->
-
 ## Cold Standby Repository Maintenance {#cold-standby-repository-maintenance}
-
-<!--
-Comment Type: draft
-
-<h4>Compaction</h4>
--->
 
 >[!NOTE]
 >
@@ -435,21 +392,6 @@ Adobe recommends runing maintenance on a regular basis to prevent excessive repo
 1. Start the standby process on the standby instance using the same JMX bean as described in the first step.
 1. Watch the logs and wait for synchronization to complete. It is possible that substantial growth in the standby repository will be seen at this time.
 1. Run the `cleanup()` operation on the standby instance, using the same JMX bean as described in the first step.
-
-   <!--
-   Comment Type: draft
-
-   <note type="note">
-   <p>Restarting the standby instance before running <span class="code">cleanup()</span> might help with the efficiency of the operation.</p>
-   </note>
-   -->
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Silviu Raiman (raiman)
-   Last Modified Date: 2017-12-21T07:21:19.328-0500
-   <p>See CQDOC-10285.</p>
-   -->
 
 It may take longer than usual for the standby instance to complete synchronization with the primary as offline compaction effectively rewrites the repository history, thus making computation of the changes in the repositories take more time. It should also be noted that once this process completes, the size of the repository on the standby will be roughly the same size as the repository on the primary.
 

@@ -3,12 +3,12 @@ title: How to edit or add metadata
 seo-title: How to edit or add metadata
 description: Learn about asset metadata in AEM Assets an various ways by which you can edit asset metadata.
 seo-description: Learn about asset metadata in AEM Assets an various ways by which you can edit asset metadata.
-uuid: 521de9d1-e16d-44b0-87e5-d55442cb9b12
+uuid: d2d49b5a-541f-4030-b74f-7ec5454ff1f8
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: aaf9a0b3-2c9a-4ee9-8d18-2b5d7d77dbeb
+discoiquuid: 6ad005fd-b82b-44fe-9fa8-92c4f8b84296
 index: y
 internal: n
 snippet: y
@@ -30,11 +30,11 @@ To edit metadata:
     * From the asset thumbnail, select the View Properties quick action.
     * From the asset page, click/tap the View Properties icon from the toolbar.
 
-   ![](assets/chlimage_1-121.png)
+   ![](assets/chlimage_1-120.png)
 
    The asset page displays all of the asset's metadata. This metadata was automatically extracted when it was uploaded (ingested) into AEM Assets.
 
-   ![](assets/chlimage_1-122.png)
+   ![](assets/chlimage_1-121.png)
 
 1. Make edits to the metadata under the various tabs, as required, and when completed, click/tap **Save** from the toolbar to save your changes. Click/tap **Close** to return to the Assets UI.
 
@@ -48,54 +48,7 @@ XMP write-back is supported and enabled for the platforms and file formats descr
 
 ## Editing Metadata Schema {#editing-metadata-schema}
 
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:30:09.387-0500
-<p>The information in "Creating New Metadata Property for Assets" is incomplete and some of it is wrong. Please check the remarks below (copied from page "Customizing and Extending CQ DAM".) These notes have originally been added by myself - please ask me in case something is unclear.</p>
-<p>&gt; [...] by configuring the metadata dialog box.<br /> What is the metadata dialog box?</p>
-<p>&gt; To configure a new metadata property so that it is available for all assets:<br /> Wrong. The form items defined in /apps/dam/content/asseteditor/formitems are not available for all assets. It is the fallback where no MIME type specific form items are defined.</p>
-<p><br /> Missing: non-alphanumeric characters in a mime type result in a new collection (see below)<br /> e.g. text/vnd.latex-z &gt;&gt; text/vnd/latex/z<br /> (Maybe a more common sample than tex/vnd.latex-z should be found)</p>
-<p>&gt; Format-specific metadata reside at the path image/<em>format</em>/formitems.xml<br /> Wrong/unclear: They reside at the path <em>format</em>/formitems.xml where format consists of at least two items (e.g image/jpeg or text/vnd/latex/z - see note about non-alphanumeric characters above)</p>
-<p>Missing: The same mechanism as for the form items can also be used to define different Asset Editors for different MIME types, e.g. different thumbnail sizes, different tabs available. In most cases this feature probably will not be used but maybe this is the place to mention it. WDYT?</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (kautzman)
-Last Modified Date: 2017-11-30T05:30:09.397-0500
-<ul>
-<li>doubleclicking an asset in DAM Admin opens the Asset Editor</li>
-<li>there can be an editor for each mime type, resp. a collection of mime types (best match)<br />
-<ul>
-<li>non-alphanumeric characters in a mime type ends in a new collection:<br /> image/jpeg &gt;&gt; image/jpeg<br /> image/vnd.fpx &gt;&gt; image/vnd/fpx<br /> text/vnd.latex-z &gt;&gt; text/vnd/latex/z<br /> <br /> </li>
-</ul> </li>
-<li>the editors and/or the metadata forms are configurable in /apps<br /> </li>
-<li>a set of out of the box editors are located in /libs/dam/content/asseteditors. These can be overwritten in /apps<br /> <i>not yet, see <a href="http://bugs.day.com/bugzilla/show_bug.cgi?id=25765">#25765 - Asset Editor: Define sample editors for libs</a></i></li>
-<li>for config/overwrite see also <a href="http://bugs.day.com/bugzilla/show_bug.cgi?id=25688">#25688 - Asset Editor: Configurable form</a></li>
-</ul>
-<p> </p>
-<p>The editors for certain mime types can be overwritten in /apps:<br /> <br /> /apps/dam/asseteditors/<br /> asseteditor.xml &gt;&gt; Overwrite Default Asset Editor (fallback)<br /> image/<br /> asseteditor.xml &gt;&gt; Overwrite Image Asset Editor<br /> jpeg/<br /> asseteditor.xml &gt;&gt; Overwrite JPEG Asset Editor</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:30:09.407-0500
-<p>The very same chapter is available on page "Managing Digital Assets".</p>
-<p>See my remarks over there.</p>
-<p> </p>
-<p>AWB - Just moved remarks from Vinzenz and Peeter over here for ease of use. No new info (and now it says all the remarks are mine)</p>
--->
-
 For details on how to edit metadata schema, see [Editing metadata schema forms](../../assets/using/metadata-schemas.md#main-pars-title).
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:30:09.425-0500
-<p>Will add link to metadata documentation once complete.</p>
--->
 
 ## Registering a custom namespace within AEM {#registering-a-custom-namespace-within-aem}
 

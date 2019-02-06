@@ -3,12 +3,12 @@ title: Is your hybrid app ready for AEM Mobile?
 seo-title: Is your hybrid app ready for AEM Mobile?
 description: Follow this page to learn about hrybrid apps. An app in AEM is commonly divided into two parts. The 'shell' and 'content' and this page provides more insight on these topics.
 seo-description: Follow this page to learn about hrybrid apps. An app in AEM is commonly divided into two parts. The 'shell' and 'content' and this page provides more insight on these topics.
-uuid: caa032f7-2758-4c46-8ad8-2eaa3a563e49
+uuid: 1fa3bd85-0c52-4f60-b6a6-64d6f0edff71
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 1336c4aa-ea9c-43d1-8071-f03c76f12f09
+discoiquuid: 7194cc0b-19b0-420f-a133-6fcfe184df7e
 pagetitle: Is your hybrid app ready for AEM Mobile?
 index: y
 internal: n

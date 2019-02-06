@@ -4,9 +4,9 @@ seo-title: Apply rules to adaptive form fields
 description: Create rules to add interactivity, business logic, and smart validations to an adaptive form. 
 seo-description: Create rules to add interactivity, business logic, and smart validations to an adaptive form. 
 page-status-flag: de-activated
-uuid: 0af0466a-7a91-4ea9-af40-7fd13071815f
+uuid: e0966f50-2a6e-434b-b6be-7f5b5620f31d
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
-discoiquuid: 736e09f6-0657-4230-8008-9ad8bddbc74e
+discoiquuid: 8d766358-5acb-43f8-8632-eecf4a0b3650
 index: y
 internal: n
 snippet: y
@@ -148,17 +148,4 @@ The following procedure shows how to create a rule to displays an error message 
 1. Preview the adaptive form. Enter an incorrect Customer ID. An error message appears.
 
    ![](assets/display-validation-error.gif)
-
-<!--
-Comment Type: draft
-
-<h2>Next steps</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>[<strong><span class="uicontrol">This section will be hidden until the next tutorial is published</span></strong>]</p>
-<p> </p>
--->
 

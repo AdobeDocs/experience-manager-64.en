@@ -3,12 +3,12 @@ title: Page Diff
 seo-title: Page Diff
 description: The page diff feature allows for the convenient side-by-side comparison of two pages with their differences highlighted.
 seo-description: The page diff feature allows for the convenient side-by-side comparison of two pages with their differences highlighted.
-uuid: 4ad019b3-5745-4034-aa45-419ca640b998
+uuid: 7deee6d7-5f97-47d7-b178-f21f054d738e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 1f716d33-39dd-4740-b078-48a8bbdd8131
+discoiquuid: 9d6ab7a2-ec65-4ad5-8bf2-9558c55bd545
 index: y
 internal: n
 snippet: y
@@ -50,7 +50,7 @@ For example if comparing versions, the current version is displayed on the left 
 
 The source of both pages is clearly displayed in the header bar at the top of the browser window.
 
-![](assets/chlimage_1-236.png)
+![](assets/chlimage_1-227.png)
 
 The diff detects changes at the component and HTML level. Items that have been changed are highlighted with different colors.
 
@@ -76,15 +76,15 @@ Note the Changed and Moved colors are the same.
 
 In order to focus on particular content, you can click on the full screen icon for either "side" of the side-by-side diff to enlarge it to the full browser window.
 
-![](assets/chlimage_1-237.png)
+![](assets/chlimage_1-228.png)
 
 The selected side will fill the entire window, but the bar will remain at the top allowing you to switch between the two pages.
 
-![](assets/chlimage_1-238.png)
+![](assets/chlimage_1-229.png)
 
 You can also choose to close the full screen view by clicking the exit full screen icon.
 
-![](assets/chlimage_1-239.png)
+![](assets/chlimage_1-230.png)
 
 You can exit the side-by-side diff at any time by clicking the Close button in the header.
 

@@ -3,12 +3,12 @@ title: Setting Up Dynamic Media
 seo-title: Setting Up Dynamic Media
 description: To set up dynamic media, you need to configure dynamic media and manage image and viewer presets
 seo-description: To set up dynamic media, you need to configure dynamic media and manage image and viewer presets
-uuid: bb2b589b-88a9-454d-9c7e-a5a2ebf57cd3
+uuid: b13aa615-4bcf-499e-8294-8d81db85855c
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 0a93f021-b40f-4b33-9439-fe0c7655995f
+discoiquuid: fc5c9027-7e52-4044-b6e7-03a5347006d8
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media
 index: y
 internal: n
@@ -32,13 +32,6 @@ If you are administering dynamic media, the following topics are of interest:
 * [Managing Image Presets](../../assets/using/managing-image-presets.md)
 * [Managing Viewer Presets](../../assets/using/managing-viewer-presets.md)
 * [Troubleshooting Dynamic Media - Scene7 mode](../../assets/using/troubleshoot-dms7.md)
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-02-20T19:30:07.217-0500
-First and last bullet needs to be edited/updated.
--->
 
 See also the following topics:
 

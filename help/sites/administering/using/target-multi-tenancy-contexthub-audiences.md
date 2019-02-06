@@ -4,25 +4,18 @@ seo-title: Multi-tenancy for ContextHub Audiences
 description: Learn about multi-tenancy support for ContextHub Audiences.
 seo-description: Learn about multi-tenancy support for ContextHub Audiences.
 page-status-flag: de-activated
-uuid: d73ad5b7-7745-4986-9f20-216c352eac8c
+uuid: bf091e1c-2ca0-4b90-8a02-255848fecc7d
 audience: administering
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 3d060ce8-4c7f-4a42-89dd-a8033db8b672
+discoiquuid: 81bbfcbc-4747-4d68-a8cf-30609d8baf5c
 index: y
 internal: n
 snippet: y
 ---
 
 # Multi-tenancy for ContextHub Audiences{#multi-tenancy-for-contexthub-audiences}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-08-09T03:43:24.594-0400
-<p>is this Target specific?</p>
--->
 
 You can create multi-tenancy for ContextHub audiences and adds the following functionality:
 
@@ -47,14 +40,6 @@ For further information about how to use ContextHub audiences, see the following
 
 ## Creating tenant folders for ContextHub audiences {#creating-tenant-folders-for-contexthub-audiences}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-08-19T23:47:31.219-0400
-<p>is /etc still the correct location?</p>
-<p>and if not - what are the new locations (exactly)?<br /> </p>
--->
-
 You need to create tenant folders so that they can be selected by users. To create a tenant folder, you must be an administrator and you must make sure that the tenant folder fulfills the following conditions (based on the **/etc/segmentation/contexthub node**):
 
 * It is created somewhere below **/etc/segmentation/contexthub**
@@ -75,23 +60,9 @@ In addition, there are also changes in the Resolved Segments UI, which are descr
 
 ### Configuring filtering in the resolved segments UI {#configuring-filtering-in-the-resolved-segments-ui}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-08-09T03:18:32.940-0400
-<p>is /etc still the correct location?<br /> </p>
--->
-
 The Resolved Segments UI has been extended to be able to filter the displayed segments based on the accessible segments paths for the current user.
 
 To access the Resolved Segments UI, navigate through the Cloud Settings to the following location; for example: **http://localhost:4502/etc/cloudsettings/default/contexthub/persona.html**
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-08-09T03:14:40.501-0400
-<p>Before this feature pack is installed, the configuration already consisted of key/value pairs in JSON:</p>
--->
 
 ```
 {
@@ -144,47 +115,19 @@ You can set up multiple tenants by creating groups for those tenant users and ad
 
 In this example, there are three tenant groups: **tenants1**, **tenants2**, and **tenantsX**. You can manage groups and users by navigating to **Tools** &gt; **Security** &gt; **Users** or **Groups** respectively.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-08-09T03:54:18.624-0400
-<p>new screenshot needed?</p>
--->
-
 ![](assets/chlImage_1-4.png)
 
 Each tenant group in this example has one user: **tenant1**, **tenant2**, and **tenantX**.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-08-09T03:54:29.120-0400
-<p>new screenshot needed?</p>
--->
-
 ![](assets/chlImage_1-5.png)
 
 For example, if you select the group **tenants1**, you see that **tenant1** is a member of that group. The same is true of the other users: **tenant2** is a member of group **tenants2**.** tenantX **is a member of group **tenantsX**.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-08-09T03:55:59.776-0400
-<p>new screenshot needed<br /> </p>
--->
 
 ![](assets/chlImage_1-6.png)
 
 In addition, all groups are members of the group **content-authors**, which gives them write permissions, and **target-activity-authors**, which gives them the right to set up to target activities.
 
 The folder structure on your AEM instance in this example looks something like this:
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-08-09T03:18:51.096-0400
-<p>is /etc still the correct location?<br /> </p>
--->
 
 * **/etc/segmentation**
 
@@ -200,13 +143,6 @@ Last Modified Date: 2018-08-09T03:18:51.096-0400
 
     * **/adobe-target** -- this folder contains audiences for adobe target
     * **/brands** -- these folders contain audiences specific to brands, such as geometrixx or we.retail.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-08-09T03:19:03.170-0400
-<p>is /etc still the correct location?<br /> </p>
--->
 
 ![](assets/chlImage_1-7.png)
 
@@ -234,13 +170,6 @@ By default, all tenants have access to all tenant folders unless you deny them e
 
 In addition, tenants cannot read tenant folders if they are denied **rep:write** privileges to that specific folder:
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-08-09T03:57:37.782-0400
-<p>is /etc still the correct location?<br /> </p>
--->
-
 * When looking at the **tenantsX** group privileges, **tenants1** and **tenants2** are denied permission to the tenantsX folder. Only users in group **tenantsX** have access to this folder.
 
   ![](assets/chlImage_1-8.png)
@@ -263,27 +192,7 @@ Audiences are covered in general in detail in [Managing Audiences](../../../site
 
 Audiences can also be managed in structured folders:
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-08-09T04:21:21.449-0400
-<p>new screenshot needed?</p>
--->
-
-![](assets/chlImage_1-11.png) 
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-08-09T04:21:51.824-0400
-<p>http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html shows global and We.Retail.....and We.Retail shows:</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/TT-01.png" />
--->
+![](assets/chlImage_1-11.png)
 
 You can create audiences directly in contexthub or in a tenant folder. Which audiences and audience folders are available to a certain user depends on the privileges.
 
@@ -291,14 +200,6 @@ To create an audience in a tenant folder:
 
 1. Navigate to **Personalization** &gt; **Audiences**. 
 1. Tap or click the **ContextHub** folder to open it.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-08-09T04:23:35.987-0400
-   <p>no ContextHub folder....only global or We.Retail</p>
-   -->
-
 1. Tap or click **Create**. Enter a title and tap or click **Create**. See [Managing Audiences](../../../sites/authoring/using/managing-audiences.md) for additional information on creating audiences in AEM 6.2.
 
 ## Selecting audiences when targeting {#selecting-audiences-when-targeting}
@@ -316,22 +217,7 @@ When selecting audiences for activities in brands, you can select audiences from
 
 1. Navigate to **Personalization** &gt; **Activities** and select a brand. 
 1. Select an activity and tap or click **Edit**.
-1. Select **Add Experience Targeting**.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-08-09T04:31:54.783-0400
-   <p>don't see this -</p>
-   <p>http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities/createactivitywizard.html/content/campaigns/we-retail/master?activity=/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity</p>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/TT-02.png" />
-   -->
-
+1. Select **Add Experience Targeting**. 
 1. Select the audience from the drop-down menu of available audience folders. Only those audience folders that are available to that tenant and common folders are displayed in the drop-down menu.
 1. Select the audience and proceed with managing activities as described in [Managing Activities](../../../sites/authoring/using/activitylib.md).
 

@@ -3,12 +3,12 @@ title: Search Essentials
 seo-title: Search Essentials
 description: Search in Communities
 seo-description: Search in Communities
-uuid: 4b540566-5997-4c14-9b8e-aa8efcc4f7cf
+uuid: 9cd3b5fc-ecfd-41e0-9575-b3bf2b0d68b5
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 3739f2c9-d1a6-4b49-b884-5996fd618611
+discoiquuid: 9a9bec6c-c5ae-4e74-891e-b2f812e7e059
 index: y
 internal: n
 snippet: y
@@ -94,7 +94,7 @@ To view the existing Oak indices in [CRXDE Lite](../../sites/developing/using/de
 
 * /oak:index/socialLucene
 
-![](assets/chlimage_1-241.png) 
+![](assets/chlimage_1-234.png) 
 
 ## Indexed Search Properties {#indexed-search-properties}
 

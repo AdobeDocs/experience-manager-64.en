@@ -3,12 +3,12 @@ title: How to Setup MongoDB for Demo
 seo-title: How to Setup MongoDB for Demo
 description: How to setup MSRP for one author instance and one publish instance
 seo-description: How to setup MSRP for one author instance and one publish instance
-uuid: 1dde9c9c-a068-4b4a-8e2b-afb0883a0c69
+uuid: fbf91bdd-efe2-4026-9502-ff7c158f841a
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 9a02155c-04c4-49ba-b68c-f7050ba333d6
+discoiquuid: c78d1406-c33e-4110-b243-8c599293d7f1
 index: y
 internal: n
 snippet: y
@@ -152,17 +152,17 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 1. sign in to post a comment :
 1. enter text in the comment text entry box and click **Post**
 
-   ![](assets/chlimage_1-197.png)
+   ![](assets/chlimage_1-190.png)
 
 1. Simply view the comment on the [author instance](http://localhost:4502/content/community-components/en/comments.html) (likely still signed in as admin / admin).
 
-   ![](assets/chlimage_1-198.png)
+   ![](assets/chlimage_1-191.png)
 
    Note : while there are JCR nodes under the *asipath *on author, these are for the SCF framework. The actual UGC is not in JCR, it is in the MongoDB.
 
 1. view the UGC in mongodb (communities &gt; Collections &gt; content)
 
-   ![](assets/chlimage_1-199.png)
+   ![](assets/chlimage_1-192.png)
 
 1. view the UGC in Solr :
 
@@ -171,7 +171,7 @@ To test and verify the MongoDB common store, post a comment on the publish insta
     * select `Query`
     * select `Execute Query`
 
-   ![](assets/chlimage_1-200.png)
+   ![](assets/chlimage_1-193.png)
 
 ## Troubleshooting {#troubleshooting}
 
@@ -190,18 +190,3 @@ To test and verify the MongoDB common store, post a comment on the publish insta
         * if the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define MSRP to be the default provider
 
 3) Make sure AEM was restarted after MSRP selected.
-
-<!--
-Comment Type: draft
-
-<h3>Reset</h3>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock class="syntax shell">
-#&nbsp;drop&nbsp;Mongo&nbsp;DB!!discoiqbr!!mongo&nbsp;cq&nbsp;--eval&nbsp;"db.dropDatabase()"!!discoiqbr!!!!discoiqbr!!#&nbsp;clear&nbsp;Solr&nbsp;index!!discoiqbr!!curl&nbsp;http://localhost:8983/solr/update&nbsp;-H&nbsp;"Content-type:&nbsp;text/xml"&nbsp;--data-binary&nbsp;"<delete><query>*:*</query></delete>"!!discoiqbr!!curl&nbsp;http://localhost:8983/solr/update&nbsp;-H&nbsp;"Content-type:&nbsp;text/xml"&nbsp;--data-binary&nbsp;&nbsp;"<commit&nbsp;/>"!!discoiqbr!!!!discoiqbr!!#&nbsp;restart&nbsp;AEM
-</codeblock>
--->
-

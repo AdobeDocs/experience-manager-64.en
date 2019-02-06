@@ -3,25 +3,18 @@ title: Creating an Effective Newsletter Landing Page
 seo-title: Creating an Effective Newsletter Landing Page
 description: An effective newsletter landing page helps you get as many people as possible to sign up for your newsletter (or other email marketing campaign). You can use the information you gather from your newsletter sign ups to get leads.
 seo-description: An effective newsletter landing page helps you get as many people as possible to sign up for your newsletter (or other email marketing campaign). You can use the information you gather from your newsletter sign ups to get leads.
-uuid: f022d852-0704-43ef-97b0-8bdaf44ec145
+uuid: 835ec6a0-91c0-4683-a90c-058a23f07aa9
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: b126659f-aa30-4705-b1bf-04c6e5421632
+discoiquuid: ba377366-24f0-4674-8a2f-41ffa737e4f2
 index: y
 internal: n
 snippet: y
 ---
 
 # Creating an Effective Newsletter Landing Page{#creating-an-effective-newsletter-landing-page}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2017-11-30T05:06:53.354-0500
-<p>Update for we.retail.</p>
--->
 
 An effective newsletter landing page helps you get as many people as possible to sign up for your newsletter (or other email marketing campaign). You can use the information you gather from your newsletter sign ups to get leads.
 
@@ -87,7 +80,7 @@ To add teasers to make an effective newsletter landing page:
 
 1. Create a teaser paragraph for the Thank You page. Select **First** as the strategy and include text that indicates that the gift is on its way.
 
-   ![](assets/chlimage_1-162.png)
+   ![](assets/chlimage_1-154.png)
 
 1. Create a campaign with the two teasers -- tag one with business and one untagged.
 

@@ -3,12 +3,12 @@ title: Using Page Tracker and Embed code in web pages
 seo-title: Using Page Tracker and Embed code in web pages
 description: Lear how to include Page Tracker and embed JavaScript codes in your website code to enable Adobe Analytics to capture usage data around assets.
 seo-description: Lear how to include Page Tracker and embed JavaScript codes in your website code to enable Adobe Analytics to capture usage data around assets.
-uuid: c2ac0f73-e5d8-4fdf-8a11-4a14add6b8dd
+uuid: 0511184d-90bc-4dd0-a28c-eb1d50f51087
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 702e96f2-df22-4431-93c4-a66ff866ae52
+discoiquuid: edc6fdb0-2712-4ea5-ac65-4f52a59b0c45
 index: y
 internal: n
 snippet: y

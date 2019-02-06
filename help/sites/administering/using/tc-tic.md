@@ -3,12 +3,12 @@ title: Configuring the Translation Integration Framework
 seo-title: Configuring the Translation Integration Framework
 description: Learn how to configure the Translation Integration Framework.
 seo-description: Learn how to configure the Translation Integration Framework.
-uuid: e5747cc0-e341-478b-8323-cc0453eb17e1
+uuid: 9c651203-d920-4bba-be59-84e826ed018c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 26854aa6-d55b-4c30-b521-c430b0dcf73d
+discoiquuid: 99623c4e-d3c2-4301-9e3c-c3c6753100cb
 index: y
 internal: n
 snippet: y
@@ -25,13 +25,6 @@ The Translation Integration Framework integrates with third-party translation se
 For an overview of the content translation features in AEM, see [Translating Content for Multilingual Sites](../../../sites/administering/using/translation.md).  
 
 ## Connecting to a Translation Service Provider {#connecting-to-a-translation-service-provider}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sbroders)
-Last Modified Date: 2017-11-30T05:02:32.590-0500
-<p>Melissa Baerwald to provide links for connectors on Marketing Exchange -- will use these and not links to package share.</p>
--->
 
 Create a cloud configuration that connects AEM to your translation service provider. AEM includes the capability to connect to Microsoft Translator by default. For other translation providers, download the connector package from [Package Share](../../../sites/administering/using/package-manager.md#main-pars-title-3).  
 The following translation vendors provide an implementation of the new API for the Translation Projects. Links to learn more about the integration and how to download from Package Share:
@@ -81,7 +74,7 @@ After you configure a translation integration framework, you can [associate it w
 **Note:** For an overview of the content translation features in AEM, see [Translating Content for Multilingual Sites](../../../sites/administering/using/translation.md).
 
 A single configuration of the framework controls how to translate page content, community content, and assets.
-![](assets/chlimage_1-466.png) 
+![](assets/chlimage_1-446.png) 
 
 #### Sites Configuration Properties {#sites-configuration-properties}
 
@@ -196,13 +189,6 @@ Assets properties control how to configure assets. For more information about tr
 1. Configure the properties on the Sites, Communities, and Assets tab, and then click or tap OK.
 
 ## Configuring Pages for Translation {#configuring-pages-for-translation}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sbroders)
-Last Modified Date: 2017-11-30T05:02:32.985-0500
-<p>See https://jira.corp.adobe.com/browse/DOC-5593 for additional scenarios to document. </p>
--->
 
 To configure the translation of your source pages into other languages, associate the pages with the following cloud configurations:
 

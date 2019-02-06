@@ -3,12 +3,12 @@ title: SocialUtils Refactoring
 seo-title: SocialUtils Refactoring
 description: The package com.adobe.cq.social.ugcbase.SocialUtils was deprecated in AEM 6.1
 seo-description: The package com.adobe.cq.social.ugcbase.SocialUtils was deprecated in AEM 6.1
-uuid: 733f27fd-9ccc-4d86-8ea3-f0eaf17ce8c5
+uuid: cda81b30-e26d-475b-81f8-fbb966fc3109
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 257ecd0e-25f2-4f45-898f-fcd1ed9d3784
+discoiquuid: 8ba2a044-190a-4693-883a-f3125117bf29
 index: y
 internal: n
 snippet: y

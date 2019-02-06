@@ -3,12 +3,12 @@ title: SharePoint Connector
 seo-title: SharePoint Connector
 description:  Day JCR Connector for Microsoft SharePoint 2010 and Microsoft SharePoint 2013, version 4.0.
 seo-description: Learn about the Sharepoint Connector in AEM.
-uuid: 2189a15e-1e43-4258-82fe-e9246b3aef83
+uuid: aa36f6ef-9a3d-418f-bda0-fcc3e81e0c87
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 049fac21-347d-41cd-881c-9c023c1e5273
+discoiquuid: 4013f090-9336-4b5f-8524-fd4a9cb16145
 index: y
 internal: n
 snippet: y
@@ -119,7 +119,7 @@ To set the URL of the SharePoint server and advanced options, perform these step
 1. Set the SharePoint Server URL as the value of **Workspaces**.
 1. Tap/click **Save**.
 
-![](assets/chlimage_1-93.png)
+![](assets/chlimage_1-87.png)
 
 'Workspaces' and 'Default Workspace Name' parameters:
 
@@ -144,7 +144,7 @@ To whitelist bundles in AEM, perform the following steps:
 
 5. Click Save.
 
-![](assets/chlimage_1-94.png)
+![](assets/chlimage_1-88.png)
 
 >[!NOTE]
 >
@@ -290,10 +290,4 @@ The following steps provide guidelines around extending the standard authenticat
 1. Register the `SharepointConnectionFactory` implementation in the connector configuration. In the configuration window of the connector, click **Advanced options**. In the for **Sharepoint Connection Factory** field, specify the name of the implementation `com.day.crx.spi.sharepoint.auth.CustomConnectionFactory`.  
 
 1. Restart the connector.
-
-<!--
-Comment Type: draft
-
-<p><a href="../../../sites/administering/using/sharepoint-connector-licenses.md"><strong>Third-Party License Agreements</strong></a></p>
--->
 

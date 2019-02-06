@@ -3,11 +3,11 @@ title: Forms Repository Restructuring in AEM 6.4
 seo-title: Forms Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Forms.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Forms.
-uuid: f351540e-88f7-41d2-8dfd-0f3bba588bc0
+uuid: 0a2fece6-f5c8-476a-a7e3-51cb30c29316
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: 3854608c-e6c7-433a-ad9f-5a6bb0ec3629
+discoiquuid: 50476a6e-45d5-4db0-ab48-d53d4dc08efd
 index: y
 internal: n
 snippet: y

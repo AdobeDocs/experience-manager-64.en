@@ -3,12 +3,12 @@ title: Implementing Android Player
 seo-title: Implementation of Android Player
 description: Follow this page to learn implementation of Android Watchdog, a solution to recover the player from crashes. 
 seo-description: Follow this page to learn implementation of Android Watchdog, a solution to recover the player from crashes. 
-uuid: ec276149-3fc7-411e-9d20-a368a4a4c587
+uuid: e7ea6978-49d1-4461-bbd8-3023670c2cb8
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
-discoiquuid: eebf6561-3034-4430-a7a2-dda50db0e56d
+discoiquuid: 7bc1f4d6-e38a-4a1c-ae22-ee8542fdd4c5
 index: y
 internal: n
 snippet: y

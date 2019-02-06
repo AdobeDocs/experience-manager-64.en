@@ -3,33 +3,18 @@ title: Dashboards
 seo-title: Dashboards
 description: Learn how to create, configure and develop new AEM dashboards.
 seo-description: Learn how to create, configure and develop new AEM dashboards.
-uuid: 1e2bac83-0895-46c3-a3db-1ca932d19caa
+uuid: 903f68a7-c4df-4e7c-8598-2aed10ea3af7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 2500875b-5d12-4126-96ad-b9bf076d9ab7
+discoiquuid: 634c8038-edfa-4190-9685-de6ae256d429
 index: y
 internal: n
 snippet: y
 ---
 
 # Dashboards{#dashboards}
-
-<!--
-Comment Type: remark
-Last Modified By: (colligno@adobe.com)
-Last Modified Date: 2017-11-30T04:59:53.790-0500
-<p>docu issue : <a href="https://issues.adobe.com/browse/DOC-2241">https://issues.adobe.com/browse/DOC-2241</a></p>
-<p>RnD issues are linked to the docu one.<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2017-11-30T04:59:53.805-0500
-<p>All the cq jira's refer to this functionality as "reporting dashboards"....would be good if we could introduce that term (even though it's not specifically called that in the console - which would be good too). Would clarify the purpose of these as opposed the other dashboards throughout cq.</p>
--->
 
 When using AEM you are able of managing a lot of content of different types (e.g. pages, assets). AEM Dashboards provide an easy to use and customizable way to define pages that displays consolidated data.
 
@@ -44,52 +29,17 @@ When using AEM you are able of managing a lot of content of different types (e.g
 
 ## Administering Dashboards {#administering-dashboards}
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2017-11-30T04:59:53.882-0500
-<p>how about a small procedure on using/configuring/viewing a dashboard....eg navigating to (doesn't seem to be entirely standard) and adding components (eg from Dashboard section in sidekick)<br /> </p>
--->
-
 ### Creating A Dashboard {#creating-a-dashboard}
 
 To create a new Dashboard, proceed as follows:
 
-1. In the **Tools** section, click **Configuration Console**.
+1. In the **Tools** section, click **Configuration Console**.  
 
-   <!--
-   Comment Type: remark
-   Last Modified By: (aheimoz)
-   Last Modified Date: 2017-11-30T04:59:53.989-0500
-   <p>That seems to be access via the touch-ui, this should be clarified and details for classic ui given too.</p>
-   -->
+1. In the tree, Double-Click **Dashboard**.  
 
-1. In the tree, Double-Click **Dashboard**.
+1. Click **New Dashboard**.  
 
-   <!--
-   Comment Type: remark
-   Last Modified By: (aheimoz)
-   Last Modified Date: 2017-11-30T04:59:54.038-0500
-   <p>double-click (lowercase).<br /> </p>
-   -->
-
-1. Click **New Dashboard**.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: (aheimoz)
-   Last Modified Date: 2017-11-30T04:59:54.087-0500
-   <p>mention that a different page will open.</p>
-   -->
-
-1. Type the **Title** (e.g. My Dashboard) and the **Name**.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: (aheimoz)
-   Last Modified Date: 2017-11-30T04:59:54.136-0500
-   <p>mention that a template needs to be selected (just in case there is &gt;1 at some point).</p>
-   -->
+1. Type the **Title** (e.g. My Dashboard) and the **Name**.  
 
 1. Click **Create**.
 
@@ -100,40 +50,17 @@ You may want to have multiple dashboards to quickly see information about your c
 1. In the **Tools** section, click **Configuration Console**.  
 
 1. In the tree, Click **Dashboard**.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: (aheimoz)
-   Last Modified Date: 2017-11-30T04:59:54.309-0500
-   <p>surely this needs a double-click to open dashboards.html (single click will only update the right-hand pane)?<br /> </p>
-   -->
-
 1. Click on the dashboard you want to clone.  
 
 1. Click **Clone**.  
 
 1. Type the **Name** of your new dashboard.
 
-   <!--
-   Comment Type: remark
-   Last Modified By: (aheimoz)
-   Last Modified Date: 2017-11-30T04:59:54.423-0500
-   <p>would be good to mention how to see the new clone (though it'll have to be carefully worded as the functionality is not entirely intuitive)<br /> </p>
-   -->
-
 ### Removing A Dashboard {#removing-a-dashboard}
 
 1. In the **Tools** section, click **Configuration Console**.  
 
 1. In the tree, Click **Dashboard**.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: (aheimoz)
-   Last Modified Date: 2017-11-30T04:59:54.560-0500
-   <p>surely this needs a double-click to open dashboards.html (single click will only update the right-hand pane)?<br /> </p>
-   -->
-
 1. Click on the dashboard you want to delete.  
 
 1. Click **Remove**.  
@@ -141,13 +68,6 @@ You may want to have multiple dashboards to quickly see information about your c
 1. Click **Yes** to confirm.
 
 ## Dashboard Components {#dashboard-components}
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2017-11-30T04:59:54.684-0500
-<p>just out of interest....is there any drill-down functionality involved with any of the components?</p>
--->
 
 ### Overview {#overview}
 
@@ -194,7 +114,7 @@ Each component also defines specific settings.
 
 #### Overtime Report {#overtime-report}
 
-![](assets/chlimage_1-31.png)
+![](assets/chlimage_1-27.png)
 
 **Date Granularity** Time unit of the X axis (e.g. day, hour).
 
@@ -204,7 +124,7 @@ Each component also defines specific settings.
 
 #### Ranked List Report {#ranked-list-report}
 
-![](assets/chlimage_1-32.png)
+![](assets/chlimage_1-28.png)
 
 **Elements** The element that breaks down the metrics data in the graph.
 
@@ -214,7 +134,7 @@ Each component also defines specific settings.
 
 #### Ranked Report {#ranked-report}
 
-![](assets/chlimage_1-33.png)
+![](assets/chlimage_1-29.png)
 
 **Metrics** The event you want to display.
 
@@ -224,13 +144,13 @@ Each component also defines specific settings.
 
 This component displays a graph showing the more visited section of a website according to the following configuration.
 
-![](assets/chlimage_1-34.png)
+![](assets/chlimage_1-30.png)
 
 **No. of top items** Number of section displayed by in the report.
 
 #### Trended Report {#trended-report}
 
-![](assets/chlimage_1-35.png)
+![](assets/chlimage_1-31.png)
 
 **Date Granularity** Time unit of the X axis (e.g. day, hour).
 
@@ -260,7 +180,7 @@ Dashboard templates are created like other page templates, except that they are 
 
 Developing a Dashboard component consists of creating a regular AEM Component. This section describes an example of a component that displays the top 10 of contributors.
 
-![](assets/chlimage_1-36.png)
+![](assets/chlimage_1-32.png)
 
 The top author components is stored in the repository at `/apps/geometrixx-outdoors/components/reporting` and is composed of :
 
@@ -268,14 +188,7 @@ The top author components is stored in the repository at `/apps/geometrixx-outdo
 
 1. a client-side library containing one `js` file that fetches and orders the data, then fills the `html` placeholder.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2017-11-30T04:59:55.433-0500
-<p>The top authors component...</p>
--->
-
-![](assets/chlimage_1-37.png)
+![](assets/chlimage_1-33.png)
 
 The following Javascript file is defined in the `geout.reporting.topauthors` [Client Library](../../../sites/developing/using/clientlibs.md) as a child of the component itself.
 

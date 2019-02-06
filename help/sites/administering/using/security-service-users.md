@@ -3,12 +3,12 @@ title: Service Users in AEM
 seo-title: Service Users in AEM
 description: Learn about Service Users in AEM.
 seo-description: Learn about Service Users in AEM.
-uuid: fc7d9280-a3d5-443d-9b42-286d6d4240b5
+uuid: 2e4d1bb1-ef36-4a51-b492-dbd36df8261e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 0fcac757-0c58-42a3-b372-5f0f7aa8fb27
+discoiquuid: b9cae54a-0e65-49b9-ba16-0bf1ce80287e
 index: y
 internal: n
 snippet: y
@@ -89,13 +89,6 @@ If the above fails, Sling 7 offers a Service User Mapping service, which allows 
 * `service-id` is mapped to a resource resolver and/or JCR repository user ID for authentication
 * `service-name` is the symbolic name of the bundle providing the service
 
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-12-01T12:34:31.792-0500
-<p>Check the names to see if they're correct<br /> </p>
--->
-
 ## Other Recommendations {#other-recommendations}
 
 ### Replacing the admin-session with a service-user {#replacing-the-admin-session-with-a-service-user}
@@ -115,13 +108,6 @@ To replace the admin session with a service user, you should perform the followi
 
 1. Replace the `admin-session` in your code with the `loginService` or `getServiceResourceResolver` APIs.
 
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-12-01T12:34:31.906-0500
-<p>to review from here<br /> </p>
--->
-
 ## Creating a new service user {#creating-a-new-service-user}
 
 After you verified that no user in the list of AEM service users is applicable for your use case and the corresponding RTC issues have been approved, you can go ahead and add the new user to the default content.
@@ -136,11 +122,11 @@ You can create service users by:
 1. Logging in as admin by pressing the **Log In** link in the upper left corner of the screen.
 1. Next, create and name your system user. In order to create the user as a system one, set the intermediate path as `system` and add optional subfolders depending on your needs:
 
-   ![](assets/chlimage_1-114.png)
+   ![](assets/chlimage_1-108.png)
 
 1. Verify that your system user node looks as follows:
 
-   ![](assets/chlimage_1-115.png)
+   ![](assets/chlimage_1-109.png)
 
    >[!NOTE]
    >
@@ -156,13 +142,6 @@ When adding the corresponding .content.xml to the content of your bundle, make s
     rep:principalName="authentication-service"
     rep:authorizableId="authentication-service"/>
 ```
-
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-12-01T12:34:32.517-0500
-<p>To review the last bullet list. Also, a list of all default service users in AEM needs to be added to this page from https://wiki.corp.adobe.com/pages/viewpage.action?pageId=910668870</p>
--->
 
 ## Adding a configuration amendment to the ServiceUserMapper configuration {#adding-a-configuration-amendment-to-the-serviceusermapper-configuration}
 
@@ -256,59 +235,3 @@ In order to fix these issues, it is recommended that the same approaches mention
 ## Sling POST Processors and Deleted Pages {#sling-post-processors-and-deleted-pages}
 
 There are a couple of administrative sessions used in sling POST processor implementations. Usually, administrative sessions are used to access nodes that are pending deletion within the POST being processed. In consequence, they are no longer available via the request session. A node pending deletion may be accessed to disclose metada that otherwise should not be accessible.
-
-<!--
-Comment Type: draft
-
-<h2>Defining the Initial Set Of Users</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>After conclusion of the login administrative analysis, a set of OOTB default users for various purposes should be defined, many of which could be shared among the cases listed.<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-12-01T12:34:33.201-0500
-<p>OOTB service users are internal - not mentioning them in the docs.<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<h2>Administrative sessions in deprecated code</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>If an administrative session is used in code that has been deprecated for at least two versions, and there is no associated security vulnerability, and there are no usages of the API in vanilla AEM, it is possible to resolve the corresponding issue as "Won't fix".</p>
--->
-
-<!--
-Comment Type: draft
-
-<h2>Affected Modules</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>We have set the somewhat ambitious goal of getting rid of all administrative sessions in CQ and Granite for the 2015 AEM release. This document should help track the progress of this effort, and provide guidance on fixing all of the issues.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h2>Overall Stats</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>Lists the number of detected <i>loginAdmins</i>/_getAdministrativeResourceResolvers_ detected in source. Excludes "/test" folders. May contain false positives (javadoc).</p>
--->
-

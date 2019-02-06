@@ -3,12 +3,12 @@ title: Creating and Organizing Pages
 seo-title: Creating and Organizing Pages
 description: How to create and manage pages with AEM
 seo-description: How to create and manage pages with AEM
-uuid: 4b44ac5f-da31-4553-b1d2-cae472dacb6e
+uuid: 4f515244-4b98-4081-9321-2b9dffce05a1
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 0b2c1db5-8805-4807-8134-d54d659f0120
+discoiquuid: 65aba66e-b420-47a2-85ec-628f189140ab
 index: y
 internal: n
 snippet: y
@@ -202,7 +202,7 @@ Unless all pages have been created for you in advance, before you can start crea
     
     * **Cancel** to abort the process.
 
-   ![](assets/chlimage_1-257.png)
+   ![](assets/chlimage_1-248.png)
 
 1. From the final stage of the wizard you can either:
 
@@ -229,11 +229,11 @@ Unless all pages have been created for you in advance, before you can start crea
 
    The minimum information required to create a new page is the **Title**.
 
-   ![](assets/chlimage_1-258.png)
+   ![](assets/chlimage_1-249.png)
 
 1. Use **Create** to complete the process and create your new page. The confirmation dialog will ask whether you want to **Open** the page immediately or return to the console (**Done**):
 
-   ![](assets/chlimage_1-259.png)
+   ![](assets/chlimage_1-250.png)
 
    >[!NOTE]
    >
@@ -269,13 +269,6 @@ After creating a page, or navigating to an existing page (in the console), you c
 >Navigating to other pages from the page editor is only possible in Preview mode since links are not active in the Edit mode..
 
 ### Copying and Pasting a Page {#copying-and-pasting-a-page}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:51:00.367-0500
-<p>6.2 Review - touch - Is there anything to differentiate between copy-root-page-alone from copy-root-page-with-all-child-pages?</p>
--->
 
 You can copy a page and all of its subpages to a new location:
 
@@ -340,7 +333,7 @@ AEM offers you the functionality to update any internal links that refer to the 
     
     * **Cancel** to abort the process.
 
-   ![](assets/chlimage_1-260.png)
+   ![](assets/chlimage_1-251.png)
 
    The page name can remain the same if you are only moving the page.
 
@@ -357,22 +350,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 
     * Use **Back** to return to page name specification.
 
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-12-03T03:02:16.933-0500
-   <p>6.5</p>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <note type="note">
-   <p>By default the parent of the page you are moving/renaming will be selected as the destination.</p>
-   </note>
-   -->
-
-   ![](assets/chlimage_1-261.png)
+   ![](assets/chlimage_1-252.png)
 
    >[!NOTE]
    >
@@ -380,7 +358,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 
 1. If the page is linked to or referenced, then these references will be listed in the **Adjust/Republish** step. You can indicate which should be adjusted and republished as appropriate.
 
-   ![](assets/chlimage_1-262.png)
+   ![](assets/chlimage_1-253.png)
 
 1. Selecting **Move** will complete the process and move/rename your page as appropriate.
 
@@ -440,7 +418,7 @@ You can create folders to help organize your files and pages.
 1. To open the option list, select **Create** from the toolbar
 1. Select **Folder** to open the dialog. Here you can enter the **Name** and **Title**:
 
-   ![](assets/chlimage_1-263.png)
+   ![](assets/chlimage_1-254.png)
 
 1. Select **Create** to create the folder.
 

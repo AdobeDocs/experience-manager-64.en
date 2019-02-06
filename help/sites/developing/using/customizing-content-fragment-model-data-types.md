@@ -4,9 +4,9 @@ seo-title: Customizing Data Types for Content Fragment Models
 description: Data types used in Content Fragment Models can be customized.
 seo-description: Data types used in Content Fragment Models can be customized.
 page-status-flag: de-activated
-uuid: d5546d11-efb1-4569-8821-ee30a8013ae0
+uuid: 85b0c8e0-865f-40a4-9cf4-15d523dfd9d5
 contentOwner: aheimoz
-discoiquuid: a97c5b00-6e15-45ce-889c-3b1a8364bd73
+discoiquuid: 6412e609-605d-4a0c-bdde-814c12306030
 noindex: true
 index: y
 internal: n
@@ -14,13 +14,6 @@ snippet: y
 ---
 
 # DO NOT PUBLISH, BUT DO NOT DELETE Customizing Data Types for Content Fragment Models{#do-not-publish-but-do-not-delete-customizing-data-types-for-content-fragment-models}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-04-05T23:48:05.611-0400
-<p>Tags/Keywords have been removed</p>
--->
 
 [Content fragments](../../../assets/using/content-fragments.md) are based on [content fragment models](../../../assets/using/content-fragments-models.md). These models are built up from [elements](../../../assets/using/content-fragments.md#constituentpartsofacontentfragment) of different data types.
 
@@ -64,57 +57,6 @@ All data types are represented in a node structure as under:
 Each node under `/items` has properties that define how that data type should be represented inside the model editor.
 
 All of the following properties must be present for the data type to be present in the model editor:
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-02-20T00:37:40.303-0500
-<p>wiki page</p>
-<p>https://wiki.corp.adobe.com/display/WEM/Content+Fragment+Model+Editor+Data+Types+and+Customization+Options#ContentFragmentModelEditorDataTypesandCustomizationOptions-datatypeproperties</p>
-<p>said all properties must be present, but not all items have the fieldViewResourceProperty</p>
-<p>what is correct?</p>
-<p>eg</p>
-<p>/libs/settings/dam/cfm/models/formbuilderconfig/datatypes/items/text-multi - doesn't<br /> /libs/settings/dam/cfm/models/formbuilderconfig/datatypes/items/text-single - doesn't<br /> /libs/settings/dam/cfm/models/formbuilderconfig/datatypes/items/number - does</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-03-19T05:17:48.563-0400
-<p>"For more information on the difference between renderType and valueType <span class="uicontrol">check out here</span>."</p>
-<p>Where - no link on wiki?</p>
-<p>- might have found it on https://wiki.corp.adobe.com/display/~sgrimm/Data+type+concept under Feature Pack</p>
-<p>for public consumption?</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Stefan Grimm (sgrimm)
-Last Modified Date: 2018-03-14T05:49:48.887-0400
-<p>The part about the render type vs. value type can be used from the mentioned Wiki (other parts may not be accurate any more or may not have been implemented yet):</p>
-<p><em>Distinction between "value type" and "render type":</em></p>
-<ul>
-<li><em>value type is the type in the backend (HTTP API, Java API, Repository) → defined by BasicDataTypes.</em></li>
-<li><em>render type is the (still semantic) type for connecting the editing of the value type to a UI component</em></li>
-<li><em>data type is a combination of both (and what the JIRA finally defines)</em></li>
-</ul>
-<p>There is actually another aspect here, for example the Enumeration data type:</p>
-<ul>
-<li>The data type is Enumeration</li>
-<li>The value type would probably be String</li>
-<li>The render type is Enumeration (according to the table below)</li>
-<li>There's a "sub render type" that determines the component that is used for picking the value (dropdown,. radio button group, ...)</li>
-</ul>
-<p>How can we formalize/document this? I guess the "sub render type" is configured as field properties, so it should probably go there.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-03-19T06:29:49.821-0400
-<p>what sort of field properties are used to configure the sub-render-type?</p>
-<p>is this related to the Note after the list/table (about multi-fields)?</p>
--->
 
 * `fieldIcon`  
   [CoralUI icon](/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon#availableIcons) to represent the data type in the model editor UI. 
@@ -283,20 +225,6 @@ You can also [create your own `fieldProperties`](#creatingyourownfieldproperties
 
 ### Creating the Node Structure {#creating-the-node-structure}
 
-<!--
-Comment Type: remark
-Last Modified By: Stefan Grimm (sgrimm)
-Last Modified Date: 2018-03-14T05:53:00.993-0400
-<p>What about /conf/... ?</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-03-19T06:22:24.236-0400
-<p>all input welcome</p>
--->
-
 The node structure must be created under `/apps` in order to overlay the data types. If it does not exist already you must create:
 
 1. If it does not exist already you must create:
@@ -379,23 +307,6 @@ You can choose from the out-of-the-box [fieldProperties](#fieldproperties), or c
     
     1. This component should either render a field (if a user needs to introduce data) or a hidden input with the properties needed by your data type. For example, a multifield component requires a child node with the type of field it should duplicate, therefore there should be an input that can create (through sling POST mechanics) a child node of a specific type.
 
-1. 
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-03-19T05:38:34.890-0400
-   <p>fieldProperties on which node?</p>
-   -->
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-02-19T08:25:35.298-0500
-   <p>base name as in the name of the base node name?</p>
-   -->
-
-   The base name of this component should be added to `fieldProperties`.
-
+1. The base name of this component should be added to `fieldProperties`.
 1. Repeat for all the properties you need.
 

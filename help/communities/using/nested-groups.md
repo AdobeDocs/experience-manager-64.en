@@ -3,12 +3,12 @@ title: Authoring Nested Groups
 seo-title: Authoring Nested Groups
 description: Create nested groups
 seo-description: Create nested groups
-uuid: cbba61e0-2c67-411f-bc84-0013c03559db
+uuid: 1acb099a-0b91-403e-91ab-1afe91751257
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: f9d501ff-d10d-4a1c-a501-6943a73ed788
+discoiquuid: 8fb98b9a-edf9-4076-b87f-ec9472af2041
 index: y
 internal: n
 snippet: y
@@ -54,13 +54,6 @@ These consoles are very similar to the Communities Sites console.
     * Community Group Name: arts
     * Template: pull down to select `Reference Group`
     * `select Next`
-
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-02-20T06:25:21.831-0500
-Added "Additional Available Community Group Language(s)" and updated the following image for multi lingual groups. (6.3 and 6.4)
--->
 
 ![](assets/ParenttoNestedGroup.PNG)
 

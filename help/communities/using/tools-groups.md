@@ -3,12 +3,12 @@ title: Group Templates
 seo-title: Group Templates
 description: How to access the Group Templates console
 seo-description: How to access the Group Templates console
-uuid: d6d5ecc2-572e-4001-a23e-aef3f054138a
+uuid: 28a17dc4-180f-4340-a01b-4024e2bb80c7
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: aae7b275-8278-4d4e-a60e-399fe7968d3c
+discoiquuid: 413f1718-557f-4b88-bb65-74451dbf6ae2
 index: y
 internal: n
 snippet: y
@@ -46,7 +46,7 @@ This will bring up the Site Editor panel which contains 3 sub-panels :
 
 #### Basic Info {#basic-info}
 
-![](assets/chlimage_1-102.png)
+![](assets/chlimage_1-95.png)
 
 On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured :
 
@@ -61,7 +61,7 @@ On the Basic Info panel, a name, description and whether the template is enabled
 
 #### Thumbnail {#thumbnail}
 
-![](assets/chlimage_1-103.png)
+![](assets/chlimage_1-96.png)
 
 (Optional) Select the Upload Image icon in order to display a Thumbnail along with the Name and Description to creators of community sites.
 

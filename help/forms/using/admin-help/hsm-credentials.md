@@ -3,12 +3,12 @@ title: Managing HSM credentials
 seo-title: Managing HSM credentials
 description: Learn how to manage HSM credentials.
 seo-description: Learn how to manage HSM credentials.
-uuid: 3fa4b08c-03bf-47da-b42b-a35d836e89f3
+uuid: 8b6a052b-2749-4d4e-89ca-264147654401
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 09bd3a04-b6b3-4823-adad-9c19418eff88
+discoiquuid: 16eef5b6-1a7f-4953-a4a7-6d1efef88e39
 index: y
 internal: n
 snippet: y

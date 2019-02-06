@@ -3,12 +3,12 @@ title: Video
 seo-title: Video
 description: Learn about the centralized video asset management AEM Assets where you can upload videos for auto-encoding to Scene7 and access Scene7 videos directly from AEM Assets. Scene7 video integration extends the reach of optimized video to all screens.
 seo-description: Learn about the centralized video asset management AEM Assets where you can upload videos for auto-encoding to Scene7 and access Scene7 videos directly from AEM Assets. Scene7 video integration extends the reach of optimized video to all screens.
-uuid: db53d971-675e-4a08-a831-9c068819d985
+uuid: 9f881d39-108b-4c01-955d-2854e4004a2a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 0bfb9c91-8fe5-40dd-9408-29da6ed7bad5
+discoiquuid: 9b7aa05b-404a-43dd-9bde-5e17294439be
 index: y
 internal: n
 snippet: y
@@ -73,7 +73,7 @@ To configure universal presets:
 1. In **Cloud Services**, navigate to your **Scene7** configuration and click **Edit**.
 1. Select the **Video** tab.
 
-   ![](assets/chlimage_1-318.png)
+   ![](assets/chlimage_1-316.png)
 
    >[!NOTE]
    >
@@ -94,33 +94,7 @@ To configure universal presets:
 
 If you need to update the viewer and encoding presets for video in AEM because the presets have been updated in Scene7, navigate to the Scene7 configuration in the cloud configuration and click **Update the viewer and encoding presets**.
 
-![](assets/chlimage_1-319.png) 
-
-<!--
-Comment Type: draft
-
-<h3>Applying a Video Viewer to the Video Component</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>Video presets configured in Scene7 determine how your video is displayed on different viewers. You can have multiple video presets/profiles in Scene7, as needed.</p>
-<p>To apply a video preset to the video component:</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>On your web site, add a <strong>Scene7 video</strong> component from the sidekick.<br /> </p> </li>
-<li><p>Click <strong>Edit</strong> to open the component.<br /> </p>
-<draft-comment type="draft">
-<img imageRotate="0" src="assets/chlimage_1-320.png" />
-</draft-comment></li>
-<li><p>In the <strong>Video Preset</strong> drop-down menu, select the video preset you want to use. This video preset applies to the selected component. When you view video on various types of devices, the video presets you selected are used.<br /> </p> </li>
-</ol>
--->
+![](assets/chlimage_1-317.png) 
 
 ### Uploading your master video {#uploading-your-master-video}
 
@@ -143,7 +117,7 @@ The Scene7 video component only works for Scene7 videos. The foundation componen
 
 The following matrix explains when you should use which component:
 
-![](assets/chlimage_1-321.png)
+![](assets/chlimage_1-318.png)
 
 >[!NOTE]
 >
@@ -182,11 +156,11 @@ The various video encodings are created according to the S7 encoding presets sel
 1. In AEM, go to **Tools**, then select **Configuration Console**. In the Configuration Console navigate to **Tools** -&gt; **DAM** -&gt; **Video Profiles** in the navigation tree. 
 1. Create a new S7 Video Profile. In the **New...** menu, select **Create Page** and then select the Scene7 Video Profile template. Give the new video profile page a name and click **Create**.
 
-   ![](assets/chlimage_1-322.png)
+   ![](assets/chlimage_1-319.png)
 
 1. Edit the new video profile. Select the cloud config first. Then select the same encoding preset as selected in the cloud config.
 
-   ![](assets/chlimage_1-323.png) 
+   ![](assets/chlimage_1-320.png) 
 
    | Property |Description |
    |---|---|

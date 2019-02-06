@@ -3,12 +3,12 @@ title: Panoramic Images
 seo-title: Panoramic Images
 description: Learn how to work with panoramic images in Dynamic Media.
 seo-description: Learn how to work with panoramic images in Dynamic Media.
-uuid: 89745bbe-9e9c-4b91-a713-5287f312e68b
+uuid: 1bc4889e-18c3-4d5e-be9e-f68b84f5f38e
 contentOwner: rbrough
 topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: df4d99f2-9be3-4d1b-8e6b-081e6cf237cd
+discoiquuid: 030da227-7a89-462a-b935-2341b4230b32
 index: y
 internal: n
 snippet: y
@@ -38,26 +38,12 @@ To upload assets for use with the Panoramic Image viewer, see [Uploading Assets]
 
 ## Configuring Dynamic Media Classic (Scene7) {#configuring-dynamic-media-classic-scene}
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-03-13T15:58:24.675-0400
-These steps came from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=s7is&title=Panoramic+Viewer
--->
-
 For the Panoramic Image viewer to work properly within AEM, you must synchronize the Panoramic Image viewer presets with Dynamic Media Classic (Scene7) and Dynamic Media Classic (Scene7)-specific metadata so the viewer presets get updated in the JCR. To accomplish this, configure Dynamic Media Classic (Scene7) in the following manner:
 
 1. [Log into your instance of Dynamic Media Classic (Scene7)](http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account.  
 
 1. Near the upper-right corner of the page, click **Setup** &gt; **Application Setup** &gt; **Publish Setup** &gt; **Image Server**.
-1. On the Image Server Publish page, from the **Publish Context** drop-down menu near the top, select **Image Serving**.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-03-13T16:04:52.443-0400
-   For step 3, do they need to do all these steps for "Test Image Serving" as well I ask because "Test Image Serving" was crossed out in the steps on the wiki page (was step "e")
-   -->
+1. On the Image Server Publish page, from the **Publish Context** drop-down menu near the top, select **Image Serving**.  
 
 1. On the same Image Server Publish page, locate the heading **Request Attributes**.
 1. Under the Request Attributes heading, locate **Reply Image Size Limit**. Then, in the associated Width and Height fields, increase the maximum allowable image size for panoramic images.

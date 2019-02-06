@@ -3,12 +3,12 @@ title: Starting processes
 seo-title: Starting processes
 description: How to use LiveCycle AEM Forms workspace--select processes, add notes and attachments, save draft copies, and add to favorites.
 seo-description: How to use LiveCycle AEM Forms workspace--select processes, add notes and attachments, save draft copies, and add to favorites.
-uuid: e3a8d3bc-c8f3-4908-9b5c-46064e08cb57
+uuid: 62b6384d-4ff7-4019-968e-9af08e209f54
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: ca812181-af8e-4760-80ed-3af9cdab26da
+discoiquuid: 461b7389-0969-425f-ab4a-75668e01d3dd
 index: y
 internal: n
 snippet: y

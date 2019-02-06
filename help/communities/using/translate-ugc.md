@@ -3,12 +3,12 @@ title: Translating User Generated Content
 seo-title: Translating User Generated Content
 description: How the translation feature works
 seo-description: How the translation feature works
-uuid: 141ec702-a3eb-47a7-bb11-69a4161cbcaa
+uuid: 20a173c4-bdc0-44c6-af6e-9bc24a4ecf0a
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 822b26bc-19b6-4376-86a8-d4e2cf0e8fde
+discoiquuid: 15e022c3-5683-4e56-a0cf-de4ee5f65e7b
 index: y
 internal: n
 snippet: y
@@ -153,96 +153,3 @@ When pages are automatically translated into the user's preferred language, the 
 ### Community Site Setting {#community-site-setting}
 
 When a Community Site is created, the translation option can be enabled and configured. The translation setting is in effect for content anonymous site visitors may view, but is overridden by the user's profile setting.
-
-<!--
-Comment Type: draft
-
-<h3>System Setting</h3>
--->
-
-<!--
-Comment Type: draft
-
-<h4>AEM Communities Translation Configuration Manager</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>The behavior of the translation service in regards to UGC can be configured for the AEM instance from the <a href="http://localhost:4503/system/console/configMgr">Web Console</a> using <strong>AEM Communities Translation Configuration Manager</strong>.</p>
-<p>These global settings affect translation display options, language selection, caching options, and performance.</p>
-<p>For more information regarding using the Web Console, visit <a href="../../sites/deploying/using/configuring-osgi.md">Configuring OSGi</a>.</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-69.png" />
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-70.png" />
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li><strong>Enabled Languages</strong><br /> For the languages checked, UGC will be translated to and from these languages. These settings provide the default set of enabled languages for a <a href="../../communities/using/sites-console.md">Communities site</a>. The enabled languages may be overridden for the new site on the <a href="../../communities/using/sites-console.md#translation">TRANSLATION sub-panel</a> after <span class="code">Allow Machine Translation</span> is checked.</li>
-<li><strong>Select Display Options</strong>
-<ul>
-<li><strong>Show target translation side by side with source content</strong></li>
-<li><strong>Replace source content with the target translation</strong></li>
-</ul> </li>
-<li><strong>Attribution</strong><br /> If checked, show the Attribution string configured for the translation service connector.</li>
-<li><strong>Select Persistence Options</strong>
-<ul>
-<li><strong>Translate contributions on user request and persist afterwards</strong><br /> When selected, the translation service will be contacted when the <span class="code">Translate </span>button is clicked or tapped. The translation will be cached (saved in the repository) and the translation will be updated according to the <strong><span class="code">Refresh Interval</span></strong>. To re-display the translation only requires retrieval from the cache, not a connection to the translation service.</li>
-<li><strong>Don't persist translations</strong><br /> When selected, translations are not cached. To re-display the translation, the translation service must again be contacted.</li>
-<li><strong>Automatically translate new contributions and persist the new translations</strong><br /> When selected, the translation service will be automatically invoked and the translation will be cached (saved in the repository). When a site visitor clicks or taps the <span class="code">Translate </span>button on a post, the translation is read from the cache instead of contacting the translation service.</li>
-</ul> Default is translate on request and persist.</li>
-<li><strong>Set Machine Translation Refresh Interval</strong><br /> The integer entered specifies for how many months the translation is to be cached (stored in the repository). This option provides a mechanism of expiring translations to take advantage of any improvements made by the translation service. The expiration date is X months from the date when the translation was cached. Default is 0 (disabled, translation does not expire).</li>
-<li><strong>Set Machine Translation Session Save Interval</strong><br /> The number of seconds until a batch of translations are saved to the repository. A value of 0 disables batch writes. Default is 2 seconds.</li>
-<li><strong>Set Machine Translation Save Queue Batching Limit</strong><br /> The number of translations per <span class="code">Session Save Interval </span>. If the <span class="code">Session Save Interval</span> is 0, then this setting has no meaning. Default is 250 translations.</li>
-<li><strong>Smart Rendering</strong><br /> If checked, always show UGC in user's preferred language. This platform setting is similar to "Translate All" which is set for a website during Communities site creation. This platform setting may be overridden by a user profile setting. Default is unchecked.</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<h2>AEM Communities UGC Language Detector</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>The behavior of the language detector service in regards to UGC can be configured from the <a href="http://localhost:4503/system/console/configMgr">Web Console</a> using <strong>AEM Communities UGC Language Detector</strong>.</p>
-<p>When the language detector is properly configured, a forum visitor need not provide source language information to use the translation service. Instead, the source language of the post is automatically detected and results in a translation into the language setting of the page the site visitor is viewing.</p>
-<p>The language detector configuration should not typically need editing. However, if the translation feature is modified by a developer to extend to custom or other <a href="../../communities/using/scf.md#featuresandtheircomponents">SCF components</a> (other than Forum, Comments and Reviews), then this configuration would need to be edited to recognize the new resource types and properties.</p>
-<p>For more information regarding using the Web Console, visit <a href="../../sites/deploying/using/configuring-osgi.md">Configuring OSGi</a>.</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-71.png" />
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li><strong>event.topics.name</strong><br /> A configurable list of events that should trigger language detection. Default configuration is for new resource additions and changes to existing resources. Default is <span class="code">com/adobe/cq/social/*.</span></li>
-<li><strong>event.filter.name</strong><br /> Limit listening events to a specific portion in repository. Default is <span class="code">(path=/content/usergenerated/*)</span> which is all UGC.</li>
-<li><strong>Resource types and property to listen for</strong><br /> A space-separated set of resource types and properties to which the language detector should listen. Default is the inherited resource type common to SCF components comments, forum topic, forum post and reviews : <span class="code">social/commons/components/comments/comment</span> and the property containing the content, <span class="code">jcr:description</span>.</li>
-<li><strong>Resource types and property to translate by default</strong><br /> Identify the resource types and properties to include in translations. Default is the resource type common to SCF components comments, forum topic, forum post and reviews : <span class="code">social/commons/components/comments/comment</span> and the properties <span class="code">jcr:title </span>and <span class="code">jcr:description.</span></li>
-<li><strong>poolSize.name</strong><br /> Default is 5.</li>
-<li><strong>maxPoolSize.name</strong><br /> Default is 10.</li>
-<li><strong>queueSize.name</strong><br /> Default is 50.</li>
-<li><strong>keepAliveTime.name</strong><br /> Default is 1.</li>
-</ul>
--->
-

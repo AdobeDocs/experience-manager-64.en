@@ -3,12 +3,12 @@ title: Applying Workflows to Pages
 seo-title: Applying Workflows to Pages
 description: Workflows can be started from either the Websites console or, when editing a page, from Sidekick.
 seo-description: Workflows can be started from either the Websites console or, when editing a page, from Sidekick.
-uuid: 97a64669-bd2e-4d4b-a3ad-f79c232cdb3e
+uuid: 7d12087c-599d-4733-bd67-5a6b94327b01
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 655ed8b1-c9e8-43f8-94bb-efad56b8db69
+discoiquuid: 62faf402-0b2f-4361-8b52-84bd8b7d7095
 index: y
 internal: n
 snippet: y
@@ -28,28 +28,6 @@ When you apply the workflow, you specify the following information:
 >[!NOTE]
 >
 >AEM administrators can start workflows using [several other methods](../../../sites/administering/using/workflows-starting.md).
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:07:15.642-0500
-<ol>
-<li>is the following complete?</li>
-<li>are there any restrictions if a workflow is started from the Workflow/s Model tab/console? </li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>There are slight differences according to the UI:</p>
-<ul>
-<li>Touch-enabled UI<br /> You can assign multiple workflows to a specific payload at the same time.</li>
-<li>Classic UI<br /> You can only assign one workflow at a time to a specific payload. </li>
-</ul>
-</note>
--->
 
 ## Applying Workflows {#applying-workflows}
 

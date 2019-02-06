@@ -4,11 +4,11 @@ seo-title: Deploying Communities
 description: How to deploy AEM Communities
 seo-description: How to deploy AEM Communities
 page-status-flag: never-activated
-uuid: 28b923dc-b27a-45d1-91a9-139f8fefedcc
+uuid: d8378575-22c3-4ff0-8f4b-74655bc2c0df
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: a668f728-7973-4714-bc8c-96cc964e97bb
+discoiquuid: a0db4f3a-143b-431e-8b01-9cb9ef7685e0
 index: y
 internal: n
 snippet: y
@@ -138,42 +138,12 @@ Further information on installing bundles is found on the [Web Console](../../si
 
 ### SCORM Package {#scorm-package}
 
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-10-29T07:19:36.581-0400
-Updated the topic as per engineering suggestions.
--->
-
 Shareable Content Object Reference Model (SCORM) is a collection of standards and specifications for e-learning. SCORM also defines how content may be packaged into a transferable ZIP file.
 
 The AEM Communities SCORM engine is required for the [enablement](../../communities/using/overview.md#enablementcommunity) feature. Scorm packages supported on AEM Communities 6.5 version:
 
-<!--
-Comment Type: draft
-
-<ul>
-<li><strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/social/scorm/cq-social-scorm-pkg" target="_blank">cq-social-scorm-package, version 2.3.2</a> </strong>which<strong> </strong>includes the <strong><a href="https://rusticisoftware.com/blog/scorm-engine-2017-released/" target="_blank">SCORM 2017.1</a> </strong>engine.</li>
-</ul>
--->
-
 <details> 
- <summary>To install a SCORM package</summary> 
- <draft-comment type="draft"> 
-  <ol> 
-   <li><p>Install the <strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/social/scorm/cq-social-scorm-pkg" target="_blank">cq-social-scorm-package, version 2.3.2</a> </strong>from the Package Share<strong>.</strong></p> </li> 
-   <li><p>Download <strong>/libs/social/config/scorm/database_scormengine_data.sql</strong> from 
-     <g class="gr_ gr_3 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="3" id="3"> 
-      <g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="5" id="5">
-        cq 
-      </g> 
-     </g> instance and execute it in 
-     <g class="gr_ gr_4 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="4" id="4">
-       mysql 
-     </g> server to create an upgraded scormEngineDB schema.</p> </li> 
-   <li><p>Add <strong>/content/communities/scorm/RecordResults</strong> in Excluded Paths property in CSRF filter from <strong>http://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</strong> on publishers.</p> </li> 
-  </ol> 
- </draft-comment> 
+ <summary>To install a SCORM package</summary>  
 </details>
 
 #### SCORM Logging {#scorm-logging}
@@ -244,7 +214,7 @@ By default, the `AEM Communities Publisher Configuration` OSGi configuration is 
 
 Therefore, it is necessary to **edit the configuration on all secondary publish instances** to uncheck the **`Primary Publisher`** checkbox.
 
-![](assets/chlimage_1-423.png)
+![](assets/chlimage_1-410.png)
 
 For all other (secondary) publish instances in a publish farm :
 
@@ -288,11 +258,11 @@ The following images show the results of changing the port from 4503 to 6103 by 
 
 #### Default Agent (publish) {#default-agent-publish}
 
-![](assets/chlimage_1-424.png) 
+![](assets/chlimage_1-411.png) 
 
 #### Reverse Replication Agent (publish reverse) {#reverse-replication-agent-publish-reverse}
 
-![](assets/chlimage_1-425.png) 
+![](assets/chlimage_1-412.png) 
 
 ### Tunnel Service on Author {#tunnel-service-on-author}
 
@@ -316,7 +286,7 @@ To enable the tunnel service :
 * check the **enable **box
 * select **Save**
 
-![](assets/chlimage_1-426.png) 
+![](assets/chlimage_1-413.png) 
 
 ### Replicate the Crypto Key {#replicate-the-crypto-key}
 
@@ -376,7 +346,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 
 * [refresh the Granite Crypto bundle](#refreshthegranitecryptobundle)
 
-![](assets/chlimage_1-427.png) 
+![](assets/chlimage_1-414.png) 
 
 #### Refresh the Granite Crypto Bundle {#refresh-the-granite-crypto-bundle}
 
@@ -387,7 +357,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 * locate `Adobe Granite Crypto Support` bundle (com.adobe.granite.crypto)
 * select **Refresh**
 
-![](assets/chlimage_1-428.png)
+![](assets/chlimage_1-415.png)
 
 * after a moment, a **Success **dialog should appear :  
   `Operation completed successfully.`
@@ -423,13 +393,6 @@ If using a Dispatcher, see :
 * [Installing Dispatcher](/content/help/en/experience-manager/dispatcher/using/dispatcher-install)
 * [Configuring Dispatcher for Communities](../../communities/using/dispatcher.md)
 * [Known Issues](../../communities/using/troubleshooting.md#dispatcherrefetchfails)
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-10-23T11:35:00.488-0400
-<p>Changed the Dispatcher download link due to CQDOC-13423.</p>
--->
 
 ## Related Communities Documentation {#related-communities-documentation}
 

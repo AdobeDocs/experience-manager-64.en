@@ -3,9 +3,9 @@ title: index
 seo-title: index
 description: null
 seo-description: null
-uuid: f4f537aa-fcad-4e50-9af0-5254b166ad27
+uuid: 064d6605-b802-4a47-b014-bb4b46185c75
 contentOwner: carlino
-discoiquuid: 1cbe60c2-acff-43a4-ae59-4aa27b500b90
+discoiquuid: 26995b62-de98-4d9b-8eab-b11f61fc070a
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/reference-materials
 index: y

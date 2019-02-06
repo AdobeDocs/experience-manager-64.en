@@ -3,12 +3,12 @@ title: Developing AEM Components
 seo-title: Developing AEM Components
 description: AEM components are used to hold, format, and render the content made available on your webpages.
 seo-description: AEM components are used to hold, format, and render the content made available on your webpages.
-uuid: c89dfc08-1e94-49b1-942a-24094637b329
+uuid: 736c6542-5351-47e6-9690-7c0382dd3443
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 06d66af3-17f4-4833-948a-152f6accf0d7
+discoiquuid: 4e1fdb70-f063-48bd-8517-4b288de8f50f
 legacypath: /content/docs/en/aem/6-2/develop/components/components-touch-optimized
 index: y
 internal: n
@@ -52,14 +52,6 @@ Depending on the component you want to implement it might be possible to extend 
 When extending or customing an existing component or dialog, you can copy or replicate either the entire structure or the structure required for the dialog before making your changes.
 
 ### Extending an Existing Component {#extending-an-existing-component}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T11:19:11.200-0500
-<p>need more info - or link to an example (from RnD)?</p>
-<p>CM: The Foundation Carousel extends from the Foundation List, but I wouldn't mention it here since we're not properly leveraging the Sling Resource Merger in the Carousel dialog (we redefined everything instead of just the diff)</p>
--->
 
 Extending an existing component can be achieved with [Resource Type Hierarchy](../../../sites/developing/using/components-basics.md#componenthierarchyandinheritance) and the related inheritance mechanisms.
 
@@ -432,13 +424,6 @@ You can find the code of this page on GitHub
 
 ## Using the AEM Brackets Extension {#using-the-aem-brackets-extension}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T11:19:14.143-0500
-<p>still applicable?</p>
--->
-
 The [AEM Brackets Extension](../../../sites/developing/using/aem-brackets.md) provides a smooth workflow to edit AEM components and client libraries. It is based on the [Brackets](http://brackets.io/) code editor.
 
 The extension:
@@ -451,14 +436,6 @@ The extension:
 >Brackets is the recommended mechanism for creating components. It replaces the CRXDE Lite - Create Component functionality, which was designed for the classic UI.
 
 ## Migrating from a Classic Component {#migrating-from-a-classic-component}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T11:19:14.259-0500
-<p><a href="https://wiki.corp.adobe.com/display/~meyer/TouchUI+Migration+Guide">https://wiki.corp.adobe.com/display/~meyer/TouchUI+Migration+Guide</a></p>
-<p><a href="https://wiki.corp.adobe.com/pages/viewpage.action?pageId=1011600299">https://wiki.corp.adobe.com/pages/viewpage.action?pageId=1011600299</a></p>
--->
 
 When migrating a component that was designed for use with the classic UI to a component that can be used with the touch-enabled UI (either solely or jointly) the following issues should be considered:
 
@@ -513,6 +490,6 @@ For this reason, it is quite easy to make any existing documentation markdown yo
 
 All you need to do is place a `README.md` file in the component structure. This markdown will then be displayed in the [component console](../../../sites/authoring/using/default-components-console.md).
 
-![](assets/chlimage_1-243.png)
+![](assets/chlimage_1-236.png)
 
 The supported markdown is the same as that for [content fragments](../../../assets/using/content-fragments-markdown.md).

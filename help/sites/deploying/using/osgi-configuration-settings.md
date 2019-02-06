@@ -3,34 +3,18 @@ title: OSGi Configuration Settings
 seo-title: OSGi Configuration Settings
 description: This article details the OSGi configuration settings (listed according to bundle) that are relevant to project implementation. The list acts as a guideline and it is not exhaustive. 
 seo-description: This article details the OSGi configuration settings (listed according to bundle) that are relevant to project implementation. The list acts as a guideline and it is not exhaustive. 
-uuid: 5eac2519-e6b0-470d-a00a-32ca9728f887
+uuid: 1443e8df-d810-4c3e-812b-01e06a105a32
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 4f91cb8f-99af-40f8-a570-0c40b3fcb4c4
+discoiquuid: 5cdcdf30-46bc-46ef-a6c6-ba3ebd2a6f5c
 index: y
 internal: n
 snippet: y
 ---
 
 # OSGi Configuration Settings{#osgi-configuration-settings}
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:42:16.104-0500
-<p>There are broken links in this doc</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:42:16.116-0500
-<p>Lots of new Adobe CQ osgi configuration options in 5.6.1 (and probably 5.6). These are particular to all the new solutions:</p>
-<p>Media, Scene7, Soco, TagManager and damScene7</p>
-<p>We may need to include something at some point about these (or at least some of them).</p>
--->
 
 [OSGi](http://www.osgi.org/) is a fundamental element in the technology stack of AEM. It is used to control the composite bundles of AEM and their configuration.
 
@@ -56,36 +40,15 @@ The following OSGi configuration settings (listed according to bundle) are relev
 >
 >Further bundles may be required for specific areas of functionality within AEM. In these cases, configuration details can be found on the page related to the appropriate functionality.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:42:16.182-0500
-<p>This is no longer present - has it been removed or replaced (and if so to what)?<br /> </p>
--->
-
 **AEM Replication Event Listener** Configure:
 
 * The **Run Modes**, in which replication events will be distributed to listeners. For example, if defined as author, then this is the system that will "initiate" the replication.
 
 * The run mode **publish** needs to be added if the project code processes replication events (reverse replication) in a publish environment. For example, when the dispatcher is used to flush from the publish environment or when standard replication to other publish instances occurs.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:42:16.206-0500
-<p>This is no longer present - has it been removed or replaced (and if so to what)?<br /> </p>
--->
-
 **AEM Repository change listener** Configure:
 
 * The **Paths**, locations to listen for repository events ready for distribution.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:42:16.230-0500
-<p>This is no longer present - has it been removed or replaced (and if so to what)?<br /> </p>
--->
 
 **CRX Sling Client Repository** Configure access to the underlying content repository.
 
@@ -93,33 +56,7 @@ Last Modified Date: 2017-11-30T05:42:16.230-0500
 
 * Other changes should not be necessary and care must be taken as they can affect access to the repository.
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>This configuration should be made using the Felix Console as it is needed at startup - before the repository is available.<br /> </p>
-</note>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:42:16.265-0500
-<p>This is no longer present - has it been removed or replaced (and if so to what)?</p>
-<p>I suspect it's been deprecated, but just need to check...<br /> </p>
--->
-
 **Wiki Mail Service** Configure the email settings for emails sent by a wiki.
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:42:16.288-0500
-<p>73 Adobe CQ configs</p>
-<p>2 Mac configs</p>
-<p>1 Adobe Octopus config</p>
-<p> </p>
--->
 
 **Apache Felix OSGi Management Console** Configure:
 
@@ -153,13 +90,6 @@ For further information see [AEM Logging](../../../sites/deploying/using/configu
 * Changing these settings can help performance in scenarios with a high number of events; for example, heavy AEM DAM or Workflow usage.
 * Values specific to your scenario should be established using tests.
 * These settings can affect the performance of your instance, so do not change them without reason and due consideration.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-11-30T05:42:16.356-0500
-<p>Not present with this name in 6.1 - to be verified if this config is handled by Apache Sling Thread Pool Configuration<br /> </p>
--->
 
 **Apache Sling GET Servlet** Configure some aspects of rendering:
 
@@ -317,13 +247,6 @@ Various parameters can be set, including:
 * Define the **Font Path** to be searched for project specific fonts.  
   For example, `/apps/myapp/fonts`.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-11-30T05:42:16.576-0500
-<p>Not present in 6.1</p>
--->
-
 **Apache HTTP Components Proxy Configuration** Proxy configuration for all code using the Apache HTTP client, used when a HTTP is made; for example upon replication.
 
 When creating a new configuration, do not make changes to the factory configuration but instead create a new factory configuration for this component using the configuration manager available here: **http://localhost:4502/system/console/configMgr/**. The proxy configuration is available in **org.apache.http.proxyconfigurator.**
@@ -369,13 +292,6 @@ When using [closed user groups](../../../sites/administering/using/cug.md) you c
 * **HTTP Realm**
 * The **Default Login Page**
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-11-30T05:42:16.666-0500
-<p>This is present in 6.1. See DOC-5647.</p>
--->
-
 **Day CQ Link Checker Service** Check and if necessary configure:
 
 * **Scheduler Period** to define the interval at which external links are to be automatically checked.  
@@ -390,23 +306,9 @@ Last Modified Date: 2017-11-30T05:42:16.666-0500
 
 * The various parameters related to proxies for internet access and NTLM that are needed for external access when checking a link.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:42:16.697-0500
-<p>how exactly do the above two (link checker service and task) interact? eg both have a scheduler period.<br /> </p>
--->
-
 **Day CQ Mail Service** Configure hostname and access details for the mail server. Please refer to the Configuring the Mail Service section.
 
 **Day CQ MCM Newsletter** Configure the various settings used with the newsletter.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:42:16.729-0500
-<p>Check this paragraph after 5.6 GA (still need to refer version nr and classic UI?)<br /> </p>
--->
 
 **Day CQ Root Mapping** Configure:
 
@@ -488,13 +390,6 @@ Various configuration properties are available:
 
 * **Paths**, a list of locations where the system listens for page modifications before triggering a `jcr:Event`.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-11-30T05:42:16.830-0500
-<p>Both the Link Checker Configurator and WCM Page Processor are present in 6.1.<br /> </p>
--->
-
 **Adobe Page Impressions Tracker** For an author instance configure:
 
 * **sling.auth.requirements**: set the value of this property to `-/libs/wcm/stats/tracker`
@@ -556,13 +451,6 @@ The following properties only apply if HTTPS is enabled.
 
 See also [Enabling HTTP Over SSL](../../../sites/deploying/using/config-ssl.md) for details on the SSL-related options and a complete description on how to enable HTTPS for CQSE.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-11-30T05:42:16.936-0500
-<p>Not present in 6.1</p>
--->
-
 **CQ Rewriter HTML Parser Factory**
 
 Controls the HTML Parser for the CQ rewriter.
@@ -598,7 +486,7 @@ The overall flow is as follows:
 
 The flow between the user's browser, the CDN, and AEM can be visualized as follows.
 
-![](assets/chlimage_1-135.png)
+![](assets/chlimage_1-121.png)
 
 >[!NOTE]
 >

@@ -3,12 +3,12 @@ title: Configuring Email
 seo-title: Configuring Email
 description: Email configuration for Communities
 seo-description: Email configuration for Communities
-uuid: ac867270-35f7-4eac-9945-fd826b8fbd36
+uuid: 9e93a3a9-f062-42e9-8096-4f921aad7320
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 572980df-7bb6-42bc-9cfe-0fa9d283883c
+discoiquuid: 33cb83b1-0486-48b4-8cf4-4744993d6fb1
 pagetitle: Configuring Email
 index: y
 internal: n
@@ -45,7 +45,7 @@ This is based on the documentation for [Configuring Email Notification](../../si
 
 For example (filled in with values for illustrative purposes only) :
 
-![](assets/chlimage_1-104.png)
+![](assets/chlimage_1-97.png)
 
 * **SMTP server host name : ***(required)* The SMTP server to use.
 
@@ -81,7 +81,7 @@ To reach the Communities email configuration instances:
 
 * locate `AEM Communities Email Reply Configuration`
 
-![](assets/chlimage_1-105.png) 
+![](assets/chlimage_1-98.png) 
 
 ### Configuration for Notifications {#configuration-for-notifications}
 
@@ -95,7 +95,7 @@ This configuration should not be altered.
 
 * verify **Create post from reply email** is `unchecked`
 
-![](assets/chlimage_1-106.png) 
+![](assets/chlimage_1-99.png) 
 
 ### Configuration for Subscriptions {#configuration-for-subscriptions}
 
@@ -105,7 +105,7 @@ For Communities subscriptions, it is possible to enable or disable the ability f
 * select the edit icon
 * verify the **Name** is `subscriptions-email`
 
-![](assets/chlimage_1-107.png)
+![](assets/chlimage_1-100.png)
 
 * **Name **: *(required)* `subscriptions-email`. Do Not Edit.
 
@@ -141,7 +141,7 @@ In order for the email to be brought into the repository, it is necessary to con
 
 * select **Add**
 
-![](assets/chlimage_1-108.png)
+![](assets/chlimage_1-101.png)
 
 * **Type **: *(required)* Pull down to select `POP3 (over SSL).`
 
@@ -175,7 +175,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
     
     * **source**: replace source's protocol `pop3s://` with **`emailreply://`**
 
-![](assets/chlimage_1-109.png)
+![](assets/chlimage_1-102.png)
 
 The red triangles indicate the modified properties. Be sure to save the changes :
 

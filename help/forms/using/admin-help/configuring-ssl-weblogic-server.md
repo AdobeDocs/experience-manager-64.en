@@ -3,12 +3,12 @@ title: Configuring SSL for WebLogic Server
 seo-title: Configuring SSL for WebLogic Server
 description: Learn how to create an SSL credential for use on WebLogic server and how to configure SSL for WebLogic Server.
 seo-description: Learn how to create an SSL credential for use on WebLogic server and how to configure SSL for WebLogic Server.
-uuid: 9dd2977a-e611-4359-b183-69e526d52e29
+uuid: 8a243a06-96cb-4083-9801-747ca2f1d49f
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 728aaa91-3c5e-4f4c-aae3-3e78bee90311
+discoiquuid: e3324b87-5e2a-4391-ad0c-15d7504763f3
 index: y
 internal: n
 snippet: y

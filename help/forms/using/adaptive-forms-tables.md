@@ -3,10 +3,10 @@ title: Tables in adaptive forms
 seo-title: Tables in adaptive forms
 description: The Table component in AEM Forms lets you create tables in adaptive forms that are responsive to mobile layouts, and also allows using XDP table components. 
 seo-description: The Table component in AEM Forms lets you create tables in adaptive forms that are responsive to mobile layouts, and also allows using XDP table components. 
-uuid: 06b4c5e5-09d9-4d71-be50-f2c8c6d2c0b7
+uuid: 9d17cdc0-6075-462a-9bec-96ffcec35733
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 533cd56d-afab-48ac-aa96-bbea7ce0615a
+discoiquuid: d24d65e3-4b16-48af-b234-d18e793cbe99
 index: y
 internal: n
 snippet: y
@@ -81,46 +81,11 @@ You can define the style for a table by using the Style mode in the page toolbar
 1. In the sidebar select table and tap the edit button ![](assets/edit-button.png).   
    You can see the styling properties in the sidebar.
 
-![Styling properties of a table](assets/style-table.png) 
-
-<!--
-Comment Type: draft
-
-<p>In the Styling tab, you can specify the following properties for a table:</p>
-<p><strong>Width</strong>: Specifies the width of the table, in percentage, with respect to the total width available for the table in the parent container.</p>
-<p><strong>Height</strong>: Specifies the maximum height, in pixels, for the table.</p>
-<p><strong>CSS class</strong>: Specifies a CSS class to apply any custom style to a table.</p>
-<p><strong>Mobile layout</strong>: Specifies how a table should appear on a mobile device. The available options are Headers on Left and Collapsible Columns. For more information, see <a href="#-mobile-layouts-for">Mobile layouts for tables</a>.</p>
-<p><strong>Column width</strong>: Specifies proportionate width for each column in a table as a comma-separated list. For example, if you specify <strong>1,2,3,4</strong> as the column width for a four-column table, the total table width will be distributed as 1/10, 2/10, 3/10, and 4/10 among the first, second, third, and fourth columns, respectively.</p>
--->
+![Styling properties of a table](assets/style-table.png)
 
 >[!NOTE]
 >
 >You can change the color theme for header and body rows by changing the values of LESS variables. For more information, see [Themes in AEM Forms](../../forms/using/themes.md) [](../../forms/using/creating-custom-adaptive-form-themes.md).
-
-<!--
-Comment Type: draft
-
-<h2>Change background color for table rows</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>The color theme for the header and body rows are defined in the <span class="code">globalvariables.less</span> file. To change the color theme for the rows:</p>
-<ol>
-<li>In CRXDE Lite, navigate to the <span class="code">/etc/clientlibs/fd/af/guidetheme/common/less/</span> folder.</li>
-<li>Double-click to open the <span class="code">globalvariables.less</span> file.</li>
-<li>Look for the following less variables and updated their values as required:<br />
-<ul>
-<li><span class="code">@table-header-bg-color</span> - defines the color for the header row. The default value is #333.</li>
-<li><span class="code">@table-odd-row-bg-color</span> - defines the color for the odd body row. The default value is <span class="code">rgb(255, 255, 255)</span>.</li>
-<li><span class="code">@table-even-row-bg-color</span> - defines the color for the even body row, The default value is <span class="code">#eee</span>.</li>
-</ul> </li>
-<li>Save the file.</li>
-</ol>
-<p>The updated color theme will be applied to the tables in all adaptive forms.</p>
--->
 
 ## Add or delete a row dynamically {#add-or-delete-a-row-dynamically}
 

@@ -4,9 +4,9 @@ seo-title: AEM 6.4.2.0 Release Notes
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 59d78f4f-6bef-41ba-a1a8-3de94f694044
+uuid: b1b1a392-8780-47f7-b554-8818a53745a6
 contentOwner: rbrough
-discoiquuid: 512fca90-a9ed-4d0f-8aa6-bb2b04388562
+discoiquuid: 5255c701-eca6-41bf-9352-a604b6412483
 index: y
 internal: n
 snippet: y
@@ -22,13 +22,6 @@ snippet: y
 | Type |Service Pack 2 |
 | Date |September 27, 2018 |
 | Download URL |AEM 6.4.2.0 on Adobe Package Share |
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-08-22T11:46:33.410-0400
-Add link to "AEM 6.4.2.0 on Adobe Package Share"
--->
 
 ## What is included in AEM 6.4.2.0 {#what-is-included-in-aem}
 

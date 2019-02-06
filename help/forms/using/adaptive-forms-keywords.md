@@ -3,10 +3,10 @@ title: Adaptive forms keywords
 seo-title: Adaptive forms keywords
 description: You cannnot use these reserved words as identifiers in your adaptive forms.
 seo-description: You cannnot use these reserved words as identifiers in your adaptive forms.
-uuid: 509dc0b8-dc48-419e-a5c6-ea34694a4f5e
+uuid: 775a99f3-2289-41fc-b5e7-8a256b954eac
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: c917a254-52d8-49f9-9dcd-e77216384e22
+discoiquuid: 72c7561e-b40e-4a2f-b314-d315c93ea418
 index: y
 internal: n
 snippet: y

@@ -3,11 +3,11 @@ title: Rendering and Delivery
 seo-title: Rendering and Delivery
 description: null
 seo-description: null
-uuid: a847244d-e069-4604-9d23-c7445a6e94e9
+uuid: 728c2090-64d5-4e70-88b0-6487a4ec578e
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: cfc48c5c-b898-43f1-8c88-447d57593843
+discoiquuid: 763bf0f1-4f44-4100-a3c6-7964e9dee326
 index: y
 internal: n
 snippet: y

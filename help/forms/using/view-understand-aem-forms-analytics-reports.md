@@ -3,11 +3,11 @@ title: View and understand AEM Forms analytics reports
 seo-title: View and understand AEM Forms analytics reports
 description: AEM Forms integrates with Adobe Analytics and provides you summary and detailed analytics about your published adaptive forms.
 seo-description: AEM Forms integrates with Adobe Analytics and provides you summary and detailed analytics about your published adaptive forms.
-uuid: 3694f25d-3340-4f23-ab72-c4cdbca7229d
+uuid: 9943b782-6492-4b1e-9aa7-417d82b7bd7b
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
-discoiquuid: c46abe13-5219-4bc3-ae24-c5e6624afa81
+discoiquuid: 6e53d09f-58f3-4c0c-8002-76778af156a2
 index: y
 internal: n
 snippet: y

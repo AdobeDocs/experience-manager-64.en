@@ -3,12 +3,12 @@ title: Configuring Business Calendars
 seo-title: Configuring Business Calendars
 description: Business calendars define business and non-business days for your organization. Learn how to configure the business calendars.
 seo-description: Business calendars define business and non-business days for your organization. Learn how to configure the business calendars.
-uuid: e6c21281-15d8-4a8f-8bfe-aa7217e98ce9
+uuid: e6433000-3edd-4c19-a5db-4649cb3885b2
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a46ee4ef-828c-4fdd-8940-fcac468a8cd7
+discoiquuid: d7a198ec-5666-47e1-8514-307e8ae04c3c
 index: y
 internal: n
 snippet: y
@@ -65,14 +65,6 @@ If your organization contains different sets of users who have different non-bus
 >If you do not create a new business calendar, then the default calendar will be used.
 
 1. In administration console, click Services &gt; Forms workflow &gt; Business Calendars.
-
-   <!--
-   Comment Type: remark
-   Last Modified By:
-   Last Modified Date:
-   <p>Inline graphic in the following step (bus_cal_plus.gif)</p>
-   -->
-
 1. To add a new business calendar, click ![](assets/bus_cal_plus.png). The text *New Calendar* appears in the drop-down list. Select the text and type another name for your calendar.
 
    To edit an existing business calendar, select it from the drop-down list.
@@ -85,13 +77,6 @@ If your organization contains different sets of users who have different non-bus
    For example, consider a situation where a user is assigned a task at 2:00 am on a Tuesday, and the reminder for that task is set to two business days. Without business hours, the reminder would occur at 2:00 am on Thursday. If business hours are set to 8:00 am to 5:00 pm, the reminder would be pushed to 8:00 am on Thursday. Without business hours, if a reminder event was created at 6:00 pm on Tuesday, the reminder would occur after business hours on Thursday. With business hours set to 8:00 am to 5:00 pm, the reminder would occur at 8:00 am on Friday.
 
 1. In the calendar on the left, double-click any other non-business days, such as holidays. You cannot select days in the past. The non-business days that you select appear in a list on the right, with the date appearing twice on one line. Select the date on the left to type name or description for the non-business day.
-
-   <!--
-   Comment Type: remark
-   Last Modified By:
-   Last Modified Date:
-   <p>Inline graphic in the following step (bus_cal_trash.gif)</p>
-   -->
 
    To remove a non-business day from the list, click ![](assets/bus_cal_trash.png) beside the day.
 

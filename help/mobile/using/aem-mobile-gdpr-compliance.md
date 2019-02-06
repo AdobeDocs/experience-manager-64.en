@@ -3,9 +3,9 @@ title: AEM Mobile - GDPR Readiness
 seo-title: AEM Mobile - GDPR Readiness
 description: null
 seo-description: null
-uuid: 3e84494c-e2e4-4e97-bccc-b09783e4c642
+uuid: 32bf4a48-0386-4526-ac15-ede575b19f2c
 contentOwner: trushton
-discoiquuid: 7082e9b2-d0f6-42c4-a153-007fa8f58b89
+discoiquuid: 60264d2a-be45-4c7e-a4e0-684f59c7e94a
 index: y
 internal: n
 snippet: y
@@ -13,33 +13,11 @@ snippet: y
 
 # AEM Mobile - GDPR Readiness{#aem-mobile-gdpr-readiness}
 
-<!--
-Comment Type: remark
-Last Modified By: Guillaume Carlino (carlino)
-Last Modified Date: 2018-05-04T05:11:32.520-0400
-<p>All other pages in the mobile tree have the same note at the top but I did not add it on this page.<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Tyler Rushton (trushton)
-Last Modified Date: 2018-04-26T14:34:35.532-0400
-<p>Original Source file came from Darren Melanson:</p>
-<p>https://adobe-my.sharepoint.com/:w:/r/personal/dmelanso_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B647841C1-223A-469E-8FD8-195F75B75291%7D&file=GDPR.docx&action=default&mobileredirect=true</p>
--->
-
 ## AEM Mobile GDPR Support {#aem-mobile-gdpr-support}
 
 AEM Mobile is ready to assist customers with their GDPR compliance obligations. No personal data is stored in AEM Mobile. If you are provisioned, you can login to Adobe Experience Mobile with your Adobe ID.
 
 [https://aemmobile.adobe.com/signin/index.html](https://aemmobile.adobe.com/signin/index.html)
-
-<!--
-Comment Type: annotation
-Last Modified By: trushton
-Last Modified Date: 2018-05-24T13:22:25.652-0400
-change to; "AEM Mobile is ready to assist customers with their GDPR compliance obligations. No [personal data] is stored in AEM Mobile. If you are provisioned, you can login to Adobe Experience Mobile with your Adobe ID." Is it true that no personal data (includes IP address GUID, GAID, IDFA, UUID) is stored? Or did you mean "directly identifiable information" (name, address, email, etc) [DM] Correct - there is no personal data at all. Stating "personal data" as opposed to "private data" is much better as you point out. TR: I have updated the text accordingly.
--->
 
 ## Adobe Digital Publishing Suite {#adobe-digital-publishing-suite}
 
@@ -48,13 +26,6 @@ Adobe’s digital publishing product (which precedes AEM Mobile) supports Adobe�
 To ensure you are not confusing AEM Mobile with the older Digital Publishing Suite product, you can login to the Digital Publishing Suite product here:
 
 [https://digitalpublishing.acrobat.com/welcome.html](https://digitalpublishing.acrobat.com/welcome.html)
-
-<!--
-Comment Type: annotation
-Last Modified By: trushton
-Last Modified Date: 2018-05-24T13:23:48.032-0400
-change to "Adobe’s digital publishing product (which precedes AEM Mobile) supports Adobe’s GDPR readiness initiatives. Please see https://www.adobe.com/privacy/general-data-protection-regulation.html. The following will provide specifics on support for GDPR relevant functions in the Digital Publishing Suite product including how to work with Adobe to initiate GDPR requests. TR: I have updated the text accordingly.
--->
 
 #### Initiating a GDPR request {#initiating-a-gdpr-request}
 
@@ -97,27 +68,6 @@ None. There is data being tracked, but it is at the App level (not personal). Th
 **The end user provided their information but nothing was found. Why not? **
 
 As the Digital Publishing Suite product evolved, service implementations were changed and more data was obfuscated. If no data was found using the user's provided data, it means that the user's data cannot be tracked back to that person.
-
-<!--
-Comment Type: annotation
-Last Modified By: trushton
-Last Modified Date: 2018-05-24T13:25:36.417-0400
-change to "Adobe will delete information it has of App store purchases...." [DM] Agree - much better wording. TR: Updated.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: trushton
-Last Modified Date: 2018-05-24T13:25:47.473-0400
-change to "Adobe will delete information it has of the customer's..." [DM] Agreed Updated.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: trushton
-Last Modified Date: 2018-05-24T13:27:35.607-0400
-change to "What Personal Data is tracked with Analytics?" Is it true that no Personal Data (includes IP address GUID, GAID, IDFA, UUID) is stored or used? Or did you mean "directly identifiable information" (name, address, email, etc) [DM] Correct, there is no personal data tracked with Analytics. TR: Updated
--->
 
 ### Example {#example}
 

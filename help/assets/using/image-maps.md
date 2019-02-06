@@ -3,12 +3,12 @@ title: Adding Image Maps
 seo-title: Adding Image Maps
 description: Learn how to add hyperlinked image maps to image assets.
 seo-description: Learn how to add hyperlinked image maps to image assets.
-uuid: e55f5995-b560-404a-a612-f0dc781f57ba
+uuid: 48ba8808-8747-40f4-b498-9d37ffec0e85
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: f74d830e-5693-407a-8bc2-0cf801e9ba77
+discoiquuid: 34d67584-514f-48ba-87d2-afe07d8f24e7
 index: y
 internal: n
 snippet: y
@@ -29,31 +29,31 @@ Image Maps let you add one or more hyperlinked areas that function like other hy
     * In the Card or List view, select the asset and click the **Edit** icon on the toolbar.
     * Click the **Edit** icon from the asset page.
 
-   ![](assets/chlimage_1-432.png)
+   ![](assets/chlimage_1-424.png)
 
 1. To insert an Image map, click/tap the **Launch Map** icon from the toolbar.
 
-   ![](assets/chlimage_1-433.png)
+   ![](assets/chlimage_1-425.png)
 
 1. Select the shape of the image map. The hot-spot of the selected shape is placed on the image.
 
-   ![](assets/chlimage_1-434.png)
+   ![](assets/chlimage_1-426.png)
 
 1. Click/tap the hot-spot, and enter the URL and Alt text. From the Target list, specify where you want the image map displayed, for example the same tab, a new tab, or an iFrame. For example, enter http://www.adobe.com as the URL, Adobe website as the Alt text, and specify New Tab from the Target list for the image map to open in a new tab.
 
-   ![](assets/chlimage_1-435.png)
+   ![](assets/chlimage_1-427.png)
 
 1. Click/tap the **Confirm** icon, and then click/tap the Finish icon from the toolbar to save the changes.
 
-   ![](assets/chlimage_1-436.png)
+   ![](assets/chlimage_1-428.png)
 
    To delete the image map, click the hot-spot and click the **Delete** icon.
 
-   ![](assets/chlimage_1-437.png)
+   ![](assets/chlimage_1-429.png)
 
 1. To view the image map, navigate to the asset details page, and hover the cursor over the image.
 
-   ![](assets/chlimage_1-438.png)
+   ![](assets/chlimage_1-430.png)
 
    If the Dynamic Media option is enabled, navigate to the Asset editor and click the **Map** icon to view all the applied image maps.
 

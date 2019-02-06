@@ -3,27 +3,18 @@ title: Administering Assets
 seo-title: Administering Assets
 description: Learn about the activities typically performed by an AEM Assets administrator.
 seo-description: Learn about the activities typically performed by an AEM Assets administrator.
-uuid: aab24f58-79cf-4f31-a446-de7892165598
+uuid: c4dcfb66-ef89-45a0-b684-09d59ed0ecf0
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: edf61154-7543-48d6-8fc5-92082b4ff263
+discoiquuid: 5cb9705b-05a1-4497-a14c-ad06262ee36b
 index: y
 internal: n
 snippet: y
 ---
 
 # Administering Assets{#administering-assets}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2017-11-30T05:28:15.147-0500
-<p>Needs to be rebranded to Assets. And text below needs updating.</p>
-<p> </p>
-<p>Really needs an update! </p>
--->
 
 Assets is a digital asset management tool that is fully integrated with the AEM platform and enables your enterprise to share and distribute digital assets. Users across an organization can manage, store, and access images, videos, documents, audio clips, and rich media such as Flash files for use on the web, in print, and for digital distribution.
 
@@ -113,26 +104,6 @@ Assets have metadata; for example, author, expiry date, DRM Information (Digital
 * IPTC: including event, model, location, and so on.
 * WCM: including page properties, on- and offtimes, and so on.
 
-<!--
-Comment Type: draft
-
-<p>Metadata is covered in detail in <a href="../../assets/using/metadata.md">Metadata for Digital Asset Management</a>.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ltrielof)
-Last Modified Date: 2017-11-30T05:28:15.442-0500
-<p>I think we need a better guide to the supported metadata properties. I am thinking of going through all metadata properties that we support OOTB, writing a one-line description for each one and suggesting something along the lines: "If you need a description, use dc:description from the Dublin Core Namespace"</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:28:15.451-0500
-<p>Maybe those descriptions can go in the Metadata for Digital Asset Management document?</p>
--->
-
 **Tagging** Assets can be tagged and classified. See Using Tags and Administering Tags.
 
 **Renditions** A rendition is the binary representation of an asset. Assets always have a primary representation - that of the uploaded file. They can have any number of additional representations that are created, for example by customized workflow steps or when an asset is uploaded. Renditions may be of a different size, with a different resolution, with an added watermark, or some other changed characteristic.
@@ -157,12 +128,3 @@ Of course, you can apply workflows manually as well. See [AEM Assets Media Handl
 ## CQ DAM vs. CQ MediaLibrary {#cq-dam-vs-cq-medialibrary}
 
 See [CQ DAM and the CQ MediaLibrary](../../assets/using/medialibrary.md) for information on the differences.
-
-<!--
-Comment Type: remark
-Last Modified By: Geoffroy Schneck (gschneck)
-Last Modified Date: 2017-11-30T05:28:15.554-0500
-<p>On the FAQ Above, "How can I prevent my users from using DAM if I did not license DAM?", there is still mention of the CQ 5.3 remove-dam package .<br /> <br /> This one has not been updated for CQ 5.4 and 5.5, see Bug #35137 .<br /> <br /> I then think this FAQ should be updated as well..</p>
-<p></p>
--->
-

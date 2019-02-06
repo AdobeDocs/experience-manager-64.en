@@ -3,12 +3,12 @@ title: Create and Assign Enablement Resources
 seo-title: Create and Assign Enablement Resources
 description: Add enablement resources
 seo-description: Add enablement resources
-uuid: f0ea6d5b-d311-4119-956c-65394a0d34d8
+uuid: fe85ba2f-18b5-4c29-8c74-cb51f4644914
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 46979c11-30a9-4e46-ade9-5103e683ba2e
+discoiquuid: ded34fd6-0c72-4e5a-8439-f32f439529e5
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ To add an enablement resource to the new community site :
 * sign in as a system administrator
 * from global navigation, select **Communities, [Resources](../../communities/using/resources.md)**
 
-![](assets/chlimage_1-205.png) ![](assets/chlimage_1-206.png)
+![](assets/chlimage_1-198.png) ![](assets/chlimage_1-199.png)
 
 * select the community site to which enablement resources are being added
 
@@ -39,7 +39,7 @@ To add an enablement resource to the new community site :
 * from the menu, select **+ Create**
 * select **Resource**
 
-![](assets/chlimage_1-207.png) 
+![](assets/chlimage_1-200.png) 
 
 ### Basic Info {#basic-info}
 
@@ -55,7 +55,7 @@ Fill in the basic information for the Resource :
 * **Add Image** :  
   add an image to represent the Resource to the member in their Assignments view
 
-![](assets/chlimage_1-208.png)
+![](assets/chlimage_1-201.png)
 
 * select **Next**
 
@@ -65,11 +65,11 @@ While it appears as if multiple Resources might be selected, only one is allowed
 
 Select the `'+' icon`, in the upper right corner, to begin the process of choosing the Resource by identifying the source.
 
-![](assets/chlimage_1-209.png) ![](assets/chlimage_1-210.png)
+![](assets/chlimage_1-202.png) ![](assets/chlimage_1-203.png)
 
 Upload a Resource. If a video resource, either upload a custom image to display before the video starts playing, or allow a thumbnail to be generated from the video (may take a few minutes - it's not necessary to wait).
 
-![](assets/chlimage_1-211.png)
+![](assets/chlimage_1-204.png)
 
 * select **Next**
 
@@ -92,7 +92,7 @@ Upload a Resource. If a video resource, either upload a custom image to display 
 
 ****Note**** ****: if users or groups are not visible, check that they were added to the `Community Enable Members` group and *Saved *on the publish instance.
 
-![](assets/chlimage_1-212.png)
+![](assets/chlimage_1-205.png)
 
 * select **Next**
 
@@ -101,11 +101,11 @@ Upload a Resource. If a video resource, either upload a custom image to display 
 * **Add Assignees** 
   Leave unset as this enablement resource will be added to a learning path. If a learner is assigned to the individual enablement resource as well as a learningpPath containing the enablement resource, the learner will be assigned to the enablement resource twice.
 
-![](assets/chlimage_1-213.png)
+![](assets/chlimage_1-206.png)
 
 * select **Create**
 
-![](assets/chlimage_1-214.png)
+![](assets/chlimage_1-207.png)
 
 Successful creation of the Resource returns to the Resources console with the newly created Resource selected. From this console, it is possible to publish, add learners and change other settings.
 
@@ -119,13 +119,13 @@ Before Enrollees are able to see the assigned Resourse, it must be published :
 
 Activation is confirmed with a success message :
 
-![](assets/chlimage_1-215.png) 
+![](assets/chlimage_1-208.png) 
 
 ## Add a Second Enablement Resource {#add-a-second-enablement-resource}
 
 Repeat the steps above to create and publish a second related enablement resource from which a learning path will be created.
 
-![](assets/chlimage_1-216.png)
+![](assets/chlimage_1-209.png)
 
 **Publish **the second Resource.
 
@@ -133,7 +133,7 @@ Return to the Enablement Tutorial listing of it's Resources.
 
 *Hint : if both Resources are not visible, refresh the page.*
 
-![](assets/chlimage_1-217.png) 
+![](assets/chlimage_1-210.png) 
 
 ## Add a Learning Path {#add-a-learning-path}
 
@@ -142,7 +142,7 @@ A learning path is a logical grouping of enablement resources which form a cours
 * from the Resources console, select **+ Create**
 * select **Learning Path**
 
-![](assets/chlimage_1-218.png)
+![](assets/chlimage_1-211.png)
 
 Add the **Basic Info** :
 
@@ -151,7 +151,7 @@ Add the **Basic Info** :
 * **Show in Catalog**: leave unchecked
 * **upload an image **to represent the learning path in the Resources console
 
-![](assets/chlimage_1-219.png)
+![](assets/chlimage_1-212.png)
 
 * select **Next**
 
@@ -170,11 +170,11 @@ On the Add Resources panel
 
 * select **Submit.**
 
-![](assets/chlimage_1-220.png) ![](assets/chlimage_1-221.png)
+![](assets/chlimage_1-213.png) ![](assets/chlimage_1-214.png)
 
 * select **Next**
 
-![](assets/chlimage_1-222.png)
+![](assets/chlimage_1-215.png)
 
 * **Add Assignees** 
   Use the pulldown menu to select the `Community Ski Class` group, which should included members `Riley Taylor` and `Sidney Croft.`
@@ -184,7 +184,7 @@ On the Add Resources panel
 
 * select **Create**
 
-![](assets/chlimage_1-223.png)
+![](assets/chlimage_1-216.png)
 
 Successful creation of the learning path returns to the Resources console with the newly created learning path selected. From this console, it is possible to publish, add learners and change other settings.
 

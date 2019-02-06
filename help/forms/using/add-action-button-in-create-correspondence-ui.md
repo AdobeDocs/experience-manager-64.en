@@ -3,11 +3,11 @@ title: Add custom action/button in Create Correspondence UI
 seo-title: Add custom action/button in Create Correspondence UI
 description: Learn how to add custom action/button in Create Correspondence UI
 seo-description: Learn how to add custom action/button in Create Correspondence UI
-uuid: 2638a166-1e63-479a-8603-7d49913e21bb
+uuid: 3a810d04-7c38-4ed7-a0a5-c30650b46456
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 8dab1037-7704-40b2-9091-646c68b4a89f
+discoiquuid: 659c7922-faef-4ccf-9621-5ed59bb60db4
 index: y
 internal: n
 snippet: y

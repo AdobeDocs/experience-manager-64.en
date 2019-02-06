@@ -3,25 +3,18 @@ title: Developing Reports
 seo-title: Developing Reports
 description: AEM provides a selection of standard reports based on a reporting framework
 seo-description: AEM provides a selection of standard reports based on a reporting framework
-uuid: 23e082b1-a4e1-4947-9aca-9d41589f60d2
+uuid: 988ed0c8-19a4-4649-ad43-aaa62ee38ff5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 89d8ac92-1e63-4dad-8b9e-70daa2cc5e08
+discoiquuid: 9ebc9d16-a23b-432c-8c23-a25de3ff89bc
 index: y
 internal: n
 snippet: y
 ---
 
 # Developing Reports{#developing-reports}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (colligno@adobe.com)
-Last Modified Date: 2018-01-18T11:19:36.632-0500
-<p>must be split.</p>
--->
 
 CQ provides a selection of [standard reports](../../../sites/administering/using/reporting.md) most of which are based on a reporting framework.
 
@@ -88,7 +81,7 @@ The reporting framework works on the following principles:
 
 The reporting framework (illustrated by the structure of a standard report) uses the following building blocks, fed by the processing queue:
 
-![](assets/chlimage_1-269.png) 
+![](assets/chlimage_1-259.png) 
 
 ### Report Page {#report-page}
 
@@ -136,14 +129,6 @@ The query:
 
 The developer has to ensure that the query defined for a report returns a node set appropriate for that report. However, the node itself need not hold all the required information, this can also be derived from parent and/or child nodes. For example, the query used for the [User Report](../../../sites/administering/using/reporting.md#userreport) selects nodes based on the node type (in this case `rep:user`). However, most columns on this report do not take their data directly from these nodes, but from the child nodes `profile`.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-18T11:19:37.186-0500
-<p>CQ5.5+</p>
-<p>Queries from other sources might be supported in later CQ versions (ie &gt;=5.5).</p>
--->
-
 ### Processing Queue {#processing-queue}
 
 The [query](#thequeryanddataretrieval) returns a result set of data to be displayed as rows on the report. Each row in the result set is processed (server-side), in [several phases](#phasesoftheprocessingqueue), before being transferred to the client for display on the report.
@@ -163,7 +148,7 @@ This allows:
 
 The following workflow represents the processing queue:
 
-![](assets/chlimage_1-270.png) 
+![](assets/chlimage_1-260.png) 
 
 #### Phases of the Processing Queue {#phases-of-the-processing-queue}
 
@@ -435,21 +420,6 @@ Several preconfigured components are provided; these can be referenced in the di
 >[!NOTE]
 >
 >The referenced components must be included using the `.infinity.json` suffix (see example above).
-
-<!--
-Comment Type: remark
-Last Modified By: Stefan Grimm (sgrimm)
-Last Modified Date: 2018-01-18T11:19:38.397-0500
-<p style="margin-left: 40px;"><i>Several preconfigured components are provided; these can be referenced in the dialog, using the xtype property with a value of <strong>cqinclude</strong>:</i></p>
-<p>Maybe we could link "cqinclude" to somewhere in the documentation where it is explained (if available)?</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-18T11:19:38.418-0500
-<p>doesn't seem to be available at the moment......add if/when.<br /> </p>
--->
 
 ### Root Path {#root-path}
 
@@ -794,15 +764,6 @@ Currently the available data type formatters are:
       Datadelta is the time span between a date in the past until "now" (so it will have a different result if the report is viewed at a later point in time).  
       It converts the numeric value (interpreted as a time difference in days) into a relative date string. For example, 1 is formatted as 1 day ago.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-18T11:19:39.367-0500
-<p style="margin-left: 40px;">"Hmm, although "interpreted as a time difference in days" is correct, we should change that into milliseconds (for CQ 5.5) - see <a href="http://bugs.day.com/bugzilla/show_bug.cgi?id=34686">bug #34686</a>. I hope we'll remember to adjust the documentation once this has changed ;-)"</p>
-<p>Have added docu bug for 5.5:</p>
-<p><a href="http://bugzilla.day.com/bugzilla/show_bug.cgi?id=34727">http://bugzilla.day.com/bugzilla/show_bug.cgi?id=34727</a></p>
--->
-
 ``
 
 The following example defines `datedelta` formatting for `min` and `max` aggregates:
@@ -1010,17 +971,6 @@ To make a column generic:
 
   In the case of a new instance of the generic column on the **User Report** the properties defined with the dialog are persisted under:  
   `/etc/reports/userreport/jcr:content/report/columns/genericcol/settings/generic`
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-18T11:19:39.737-0500
-<p>CQ 5.5</p>
-<p>Additional properties that will be available as of CQ 5.5:</p>
-<ul>
-<li>definitions/groupable (determining if the column is groupable)</li>
-</ul>
--->
 
 ## Report Design {#report-design}
 
@@ -1356,15 +1306,6 @@ An instance of your new report can now be created:
    > P:groupable [Boolean] = true
    >```   >
    >
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-18T11:19:41.379-0500
-<p>where to define how many items shown in the table before pagination occurs?</p>
-<p>Hardcoded in 5.4.</p>
-<p>Stefan has registered a bug (http://bugzilla.day.com/bugzilla/show_bug.cgi?id=34687) for 5.5. </p>
--->
 
 ## Configuring the Report Framework Services {#configuring-the-report-framework-services}
 

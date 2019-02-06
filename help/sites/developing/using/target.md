@@ -3,12 +3,12 @@ title: Developing for Targeted Content
 seo-title: Developing for Targeted Content
 description: Topics about developing components for use with content targeting
 seo-description: Topics about developing components for use with content targeting
-uuid: f7e78c3a-cdff-4bf8-a1a2-5306b0f7ade0
+uuid: 9376531e-5229-41e9-94e3-89b8381e8770
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 997f690d-b5e7-432e-a87a-cf47a6c34d1f
+discoiquuid: 5fc78d0b-633d-4886-a740-7e3e0b7ff5ee
 index: y
 internal: n
 snippet: y
@@ -120,13 +120,6 @@ The Target functionality on the client side is managed by the `CQ_Analytics.Test
  </div>
 ```
 
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2018-01-31T17:15:26.429-0500
-<p>The following paragraphs were older (drafting out in case we need to revive them for some reason).</p>
--->
-
 The JSP adds the required analytics javascript objects and references to client-side javascript libraries. The testandtarget.js file contains the mbox.js functions. The HTML that the script generates is similar to the following example:
 
 ```xml
@@ -219,7 +212,7 @@ Your Target configuration includes a custom mbox.js file, [the required code in 
 
 Most components can be converted to targeted components using the Target command on the context menu.
 
-![](assets/chlimage_1-186.png)
+![](assets/chlimage_1-184.png)
 
 To remove the Target command from the context menu, add the following property to the cq:editConfig node of the component:
 
@@ -229,7 +222,7 @@ To remove the Target command from the context menu, add the following property t
 
 For example, to disable targeting for the title components of the Geometrixx Demo Site pages, add the property to the /apps/geometrixx/components/title/cq:editConfig node.
 
-![](assets/chlimage_1-187.png) 
+![](assets/chlimage_1-185.png) 
 
 ## Sending Order Confirmation Information to Adobe Target {#sending-order-confirmation-information-to-adobe-target}
 
@@ -258,7 +251,7 @@ The values of each parameter are different for each order. Therefore, you requir
 
 The Geometrixx Outdoors sample displays the following confirmation page when a visitor purchases products:
 
-![](assets/chlimage_1-188.png)
+![](assets/chlimage_1-186.png)
 
 The following code for the JSP script of a component accesses the properties of the shopping cart and then prints the code for creating the mbox.
 
@@ -357,50 +350,4 @@ The following are the available clientlib categories:
 * testandtarget.util
 * testandtarget.atjs
 * testandtarget.atjs-integration
-
-<!--
-Comment Type: draft
-
-<h4>Client Libraries for Content Targeting</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>The client library in the testandtarget category defines the javascript libraries that the Target component uses. The path of the client library folder is /etc/clientlibs/foundation/testandtarget/testandtarget. The testandtarget client library folder embeds the following client library folders to create the testandtarget.js library:</p>
-<ul>
-<li>testandtarget.util: (/etc/clientlibs/foundation/testandtarget/util) Defines the CQ_Analytics.TestTarget function. Calls CQ_Analytics.TestTarget.init().</li>
-<li>testandtarget.mbox: (/etc/clientlibs/foundation/testandtarget/mbox) Includes the default mbox.js library.</li>
-</ul>
-<p>The following code in the target.jsp script of the Target component includes the client libraries:</p>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock class="syntax xml">
-<ui:includeClientLib&nbsp;categories="testandtarget"&nbsp;/>
-</codeblock>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Disabling Targeting by Component</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>You can disable the Target menu option at the component level by setting <strong>cq:editConfig/cq:disableTargeting</strong> to true.</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>In CRXDE Lite, navigate to the component you want to disable targeting for. </p> </li>
-<li><p>In the component, in the <strong>cq:editConfig</strong> node, change the <strong>cq:disableTargeting</strong> value to <strong>true</strong>. Targeting is now disabled for that component. </p> </li>
-</ol>
--->
 

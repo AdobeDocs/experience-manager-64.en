@@ -3,12 +3,12 @@ title: We.Retail Reference Implementation
 seo-title: We.Retail Reference Implementation
 description: We.Retail is a technology preview of a reference implementation that illustrates the recommended way of setting up an online presence with AEM
 seo-description: We.Retail is a technology preview of a reference implementation that illustrates the recommended way of setting up an online presence with AEM
-uuid: c097d8c2-5726-4cea-b791-6991f827abe8
+uuid: 48950afc-4038-48d2-a414-8dd3be1845d7
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: b000901b-25db-4759-a2f5-3583dc81fa6a
+discoiquuid: 5650f3fd-081a-440c-9d91-6158e5918f5c
 index: y
 internal: n
 snippet: y

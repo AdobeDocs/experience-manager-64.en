@@ -3,11 +3,11 @@ title: Customizing error dialogs
 seo-title: Customizing error dialogs
 description: How-to customize the error dialogs of LiveCycle AEM Forms workspace to add different fault descriptions.
 seo-description: How-to customize the error dialogs of LiveCycle AEM Forms workspace to add different fault descriptions.
-uuid: f0bec3f0-bb8d-402f-b8f6-9d27cbca2202
+uuid: 5de00e53-5476-4a28-b142-af8a04ffb013
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: fa467106-9912-4fd9-bcfa-c2f70e8182f1
+discoiquuid: d6179382-b84d-416c-bab9-56662701e52c
 index: y
 internal: n
 snippet: y

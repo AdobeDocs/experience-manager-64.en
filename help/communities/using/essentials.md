@@ -3,12 +3,12 @@ title: Component, Function and Feature Essentials
 seo-title: Component, Function and Feature Essentials
 description: How community sites, templates, and groups function
 seo-description: How community sites, templates, and groups function
-uuid: a28444cd-8e87-450a-b114-cae61ab84973
+uuid: 99be6f80-9d0f-4e90-a6ec-b753e0c0424f
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: aac36d9b-fe75-441c-9398-398668ab3049
+discoiquuid: c91202bb-fe1d-410e-87ac-d9c35cc055e3
 index: y
 internal: n
 snippet: y
@@ -63,22 +63,6 @@ Following are links to essential information for Communities components, functio
 * [Storage Resource Provider](../../communities/using/srp-and-ugc.md) `(SRP)`
 
 * [Tagging](../../communities/using/tag.md)
-
-<!--
-Comment Type: draft
-
-<p>Need to add :</p>
-<ul>
-<li>Moderation Dashboard</li>
-<li>Members & Login<br />
-<ul>
-<li>User Details</li>
-<li>User Profile</li>
-<li>Connect</li>
-</ul> </li>
-<li>Pages</li>
-</ul>
--->
 
 ### Javadocs {#javadocs}
 

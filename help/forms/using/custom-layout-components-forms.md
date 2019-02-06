@@ -3,11 +3,11 @@ title: Creating custom layout components for adaptive forms
 seo-title: Creating custom layout components for adaptive forms
 description: Procedure to create custom layout components for adaptive forms.
 seo-description: Procedure to create custom layout components for adaptive forms.
-uuid: 6d3ebb70-4064-4679-870b-487512745924
+uuid: 1f4013c7-b322-4fce-a160-3b3339a22079
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 370be64e-382a-4664-b98d-58c0c9762337
+discoiquuid: ea535ffb-955a-453d-aa5c-a588cee1e5a1
 index: y
 internal: n
 snippet: y

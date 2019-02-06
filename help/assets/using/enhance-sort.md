@@ -3,12 +3,12 @@ title: Enhanced sorting of assets in AEM
 seo-title: Enhanced Sort
 description: Learn how AEM Assets deploys server-side sorting to sort folder assets or a search query at one go instead of sorting them in batches on the client side.
 seo-description: Learn how AEM Assets deploys server-side sorting to sort folder assets or a search query at one go instead of sorting them in batches on the client side.
-uuid: 20f505ae-8c4a-498c-bcd6-f387ed941923
+uuid: 3577971e-ac45-456e-97b4-606d1d35051c
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 4fe1bf53-00eb-4672-87fb-dfb91745a034
+discoiquuid: 18be8482-c630-4663-b6b2-01dcef1abd16
 index: y
 internal: n
 snippet: y
@@ -41,15 +41,15 @@ AEM Assets lets you sort folder assets based on the following fields:
 1. Navigate to a folder that contains a large a number of assets.
 1. Click/tap the Layout icon and toggle to the list view.
 
-   ![](assets/chlimage_1-354.png)
+   ![](assets/chlimage_1-347.png)
 
 1. Click/tap the Sort icon beside any column header in the list of assets.
 
-   ![](assets/chlimage_1-355.png)
+   ![](assets/chlimage_1-348.png)
 
    The list of assets is sorted based on the field values.
 
-   ![](assets/chlimage_1-356.png)
+   ![](assets/chlimage_1-349.png)
 
 >[!NOTE]
 >
@@ -68,12 +68,12 @@ You can sort search results based on the following fields:
 
 1. From the OmniSearch box, search for assets based on the desired criteria.
 
-   ![](assets/chlimage_1-357.png)
+   ![](assets/chlimage_1-350.png)
 
 1. Click/tap the Layout icon and toggle to the list view. If the search results are already displayed in the list view, skip this step.
 1. Click/tap the Sort icon beside any column header in the list of assets. The list of assets is sorted based on the field values.
 
-   ![](assets/chlimage_1-358.png)
+   ![](assets/chlimage_1-351.png)
 
 ## Sorting assets in timeline {#sorting-assets-in-timeline}
 
@@ -82,13 +82,13 @@ AEM Assets lets you chronologically sort timeline entries, such as annotations, 
 1. From the Assets UI, select an asset for which you want to display the timeline.
 1. Click/tap the GolbalNav icon and select **Timeline**.
 
-   ![](assets/chlimage_1-359.png)
+   ![](assets/chlimage_1-352.png)
 
 1. In the timeline, select an entry from the list. For example, select **Comments** to display the list of annotations associated with the asset. 
 
-   ![](assets/chlimage_1-360.png)
+   ![](assets/chlimage_1-353.png)
 
 1. Click/tap the **Sort** icon beside the **Date** label. Based on your selection, the annotations are listed in the chronological/reverse chronological order in which they were added to the asset.
 
-   ![](assets/chlimage_1-361.png)
+   ![](assets/chlimage_1-354.png)
 

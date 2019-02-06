@@ -3,12 +3,12 @@ title: Tracking results and providing feedback
 seo-title: Tracking results and providing feedback
 description: How and where you define the test cases, and the resulting test plan, is at your own discretion
 seo-description: How and where you define the test cases, and the resulting test plan, is at your own discretion
-uuid: 5037eda7-5f96-46bd-8dfc-e3c7fdf46c8a
+uuid: 1cbd4781-7830-4f4f-81c3-78986f53eead
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: 13669c28-994d-409b-b193-0373a61a0198
+discoiquuid: c10a8101-0aa8-400d-9384-f4676347fcde
 index: y
 internal: n
 snippet: y

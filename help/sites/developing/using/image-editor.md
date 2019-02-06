@@ -3,12 +3,12 @@ title: Image Editor
 seo-title: Image Editor
 description: The Image Editor is a core piece of AEM and can be leveraged by components to facilitate the manipulation of images by content authors.
 seo-description: The Image Editor is a core piece of AEM and can be leveraged by components to facilitate the manipulation of images by content authors.
-uuid: 68f2a593-e692-43f5-9984-576debfeb7f8
+uuid: 99fb6a12-c81d-4d19-88c7-ce5f0e36de22
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
-discoiquuid: c66c2409-8738-4998-aab4-0cbc20fe955c
+discoiquuid: 09f91dd8-2653-4a3b-8d6b-4f1e654eac0d
 index: y
 internal: n
 snippet: y
@@ -53,13 +53,6 @@ Scalable Vector Graphics (SVG) are supported by the Image Editor.
 In certain situations authoring actions must be restricted for certain MIME-types, due to lack of support in server-side processing. For example, editing SVG images may not be allowed.
 
 Plugins in the Image Editor can be selectively enabled by MIME type by setting a `supportedMimeTypes` property on the individual plugin's configuration node.
-
-<!--
-Comment Type: annotation
-Last Modified By: pid90611
-Last Modified Date: 2018-07-03T05:03:26.395-0400
-Going forward would document the various plugins and their options together, but for now this should be okay.
--->
 
 ### Example {#example}
 

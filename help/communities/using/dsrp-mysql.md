@@ -3,12 +3,12 @@ title: MySQL Configuration for DSRP
 seo-title: MySQL Configuration for DSRP
 description: How to connect to the MySQL server and establish the UGC database
 seo-description: How to connect to the MySQL server and establish the UGC database
-uuid: 8de67b11-fba2-4b73-80af-e1a6a89d8b02
+uuid: 51940801-9482-4174-a933-ac16421738e2
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: a5aef400-5ccc-4b4d-9e4f-57f9c599651e
+discoiquuid: 09e300b2-a71b-48cc-8523-d6235911ca19
 index: y
 internal: n
 snippet: y
@@ -73,7 +73,7 @@ MySQL Workbench should be downloaded and installed following the instructions fo
 
 When the MySQL Workbench is first launched, unless already in use for other purposes, it will not yet show any connections :
 
-![](assets/chlimage_1-110.png) 
+![](assets/chlimage_1-103.png) 
 
 ### New Connection Settings {#new-connection-settings}
 
@@ -97,13 +97,13 @@ When the MySQL Workbench is first launched, unless already in use for other purp
 
 #### New Communities Connection {#new-communities-connection}
 
-![](assets/chlimage_1-111.png) 
+![](assets/chlimage_1-104.png) 
 
 ## Database Setup {#database-setup}
 
 Open the Communities connection in order to install the database.
 
-![](assets/chlimage_1-112.png) 
+![](assets/chlimage_1-105.png) 
 
 ### Obtain the SQL Script {#obtain-the-sql-script}
 
@@ -116,7 +116,7 @@ The SQL script is obtained from the AEM repository :
 1. select the /libs/social/config/datastore/dsrp/schema folder
 1. download&#42; `init-schema.sql`
 
-![](assets/chlimage_1-113.png)
+![](assets/chlimage_1-106.png)
 
 &#42; One method for downloading the schema is to
 
@@ -138,7 +138,7 @@ In the MySQL Workbench
 * from the File pulldown menu
 * select the downloaded `init_schema.sql`
 
-![](assets/chlimage_1-114.png) 
+![](assets/chlimage_1-107.png) 
 
 #### Step 2 : execute SQL Script {#step-execute-sql-script}
 
@@ -146,13 +146,13 @@ In the Workbench window for the file opened in Step 1, select the `lightening (f
 
 In the following image, the `init_schema.sql` file is ready to be executed :
 
-![](assets/chlimage_1-115.png) 
+![](assets/chlimage_1-108.png) 
 
 #### Refresh {#refresh}
 
 Once the script is executed, it is necessary to refresh the `SCHEMAS`section of the `Navigator` in order to see the new database. Use the refresh icon to the right of 'SCHEMAS' :
 
-![](assets/chlimage_1-116.png) 
+![](assets/chlimage_1-109.png) 
 
 ## Configure JDBC Connection {#configure-jdbc-connection}
 
@@ -171,7 +171,7 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 * locate the `Day Commons JDBC Connections Pool`
 * select the '+' icon to create a new connection configuration
 
-![](assets/chlimage_1-117.png)
+![](assets/chlimage_1-110.png)
 
 * enter the following values :
 

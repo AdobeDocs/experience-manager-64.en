@@ -3,12 +3,12 @@ title: Solr Configuration for SRP
 seo-title: Solr Configuration for SRP
 description: An Apache Solr installation may be shared between the node store (Oak) and common store (SRP) by using different collections
 seo-description: An Apache Solr installation may be shared between the node store (Oak) and common store (SRP) by using different collections
-uuid: 3884e3f1-ed8c-49f7-a523-5f27a77b65a5
+uuid: f5f1f0e8-4f1c-4461-a6a4-8288a4af3e6c
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 2d535f54-2261-4d15-bdb2-34a39148eb55
+discoiquuid: be774552-a0d8-4fb7-8b69-c5996518174c
 index: y
 internal: n
 snippet: y
@@ -143,7 +143,7 @@ In all, the following 33 languages are supported in Advanced MLS.
 
 **Note **: AEM 6.1 refers to AEM 6.1 Communities FP3 and earlier.
 
-![](assets/chlimage_1-295.png) 
+![](assets/chlimage_1-282.png) 
 
 ### Installing Standard MLS {#installing-standard-mls}
 
@@ -152,26 +152,9 @@ For the SRP collection (either MSRP or DSRP), to support Standard Multilingual S
 * **schema.xml**
 * **solrconfig.xml**
 
-<!--
-Comment Type: draft
-
-<p>Normally, the standard MLS files are obtained from the AEM repository.</p>
-<p>Temporarily, the most current standard MLS files are available for download here :</p>
--->
-
 standard MLS files (schema.xml, solrconfig.xml) for Solr 4.10
 
 standard MLS files (schema.xml, solrconfig.xml) for Solr 5
-
-<!--
-Comment Type: draft
-
-<ol>
-<li>download the msrp-standard-solr package approprite for the version of the Solr server</li>
-<li>extract the contents of the zip file to the local server on which Solr is deployed</li>
-<li>follow the installation instructions for either standalone or SolrCloud mode</li>
-</ol>
--->
 
 The Standard MLS files are stored in the AEM repository.
 

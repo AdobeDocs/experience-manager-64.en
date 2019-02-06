@@ -3,11 +3,11 @@ title: Create new folders to categorize forms
 seo-title: Create new folders to categorize forms
 description: Use folders to organize your form templates, PDFs, resources, and adaptive forms.
 seo-description: Use folders to organize your form templates, PDFs, resources, and adaptive forms.
-uuid: 0e0b44cf-d266-41d3-b072-5235243fa1e0
+uuid: 2c3a23ac-dd24-4c65-aab4-ec4c40ca1200
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: 204e3944-763b-40f0-b22e-f51fde5bd01c
+discoiquuid: 300c2ef6-d90b-478b-814d-c4c250b5ea5e
 index: y
 internal: n
 snippet: y
@@ -15,33 +15,11 @@ snippet: y
 
 # Create new folders to categorize forms{#create-new-folders-to-categorize-forms}
 
-<!--
-Comment Type: remark
-Last Modified By: (svashish)
-Last Modified Date: 2017-11-30T06:07:06.869-0500
-<p><strong>General writing guidelines</strong></p>
-<ul>
-<li>Do not use the gerund form while writing article headings. For example, <em>"Create forms"</em> and not "Creating forms".</li>
-<li>Section headings (H2 headings) in the gerund form are generally OK.<br /> </li>
-<li>Use the second person to document features. Do not use the first person.</li>
-<li>Do not include inline links. They distract readers from the task at hand. Include the "Recommended reads" towards the end of the article as a <strong>See also</strong> section.<br /> </li>
-<li>Ensure that all dialog boxes have captions. This is required for accessibility purposes.</li>
-<li>"Click the icon" instead of "Click on the icon"...</li>
-</ul>
--->
-
 You can organize your assets better using folders. Since AEM Forms supports several types of assets—form templates, PDFs, documents, resources, and adaptive forms, with various metadata—you can use folders to categorize your forms based on the desired criteria.
 
 AEM Forms lets you change the title of a folder. The title is not the same as the name of the node under which the folder is stored in the repository. Rather, the title is maintained as metadata for the folder. If you change the title of a folder, the path of any asset present inside the folder is not affected.
 
 ## Create a folder {#create-a-folder}
-
-<!--
-Comment Type: remark
-Last Modified By: (svashish)
-Last Modified Date: 2017-11-30T06:07:06.916-0500
-<p>Please add the article explaining how to upload the ZIP file to the See Also section below.<br /> </p>
--->
 
 You can create a folder in AEM Forms in one of the following ways:
 

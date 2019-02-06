@@ -3,12 +3,12 @@ title: Editing Page Properties
 seo-title: Editing Page Properties
 description: Define the required properties for a page
 seo-description: Define the required properties for a page
-uuid: a4ca3385-726a-42ae-ab53-7bbc299f2a93
+uuid: 6ea63934-f94a-4f78-a514-4209b9da7c11
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 4ffdc7fb-aeb0-4a15-b4d4-8ba56197992d
+discoiquuid: 0f4b5216-46fd-4dde-9bbf-bee375323e2f
 index: y
 internal: n
 snippet: y
@@ -153,30 +153,6 @@ The properties are distributed across several tabs.
     * **Upload Image** 
       Upload an image to use as thumbnail.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-12-05T03:22:31.219-0500
-<p>6.5</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>Shows the page thumbnail image. You can:</p>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li><p><strong>Generate Preview</strong></p> <p>Generate a preview of the page to use as thumbnail.</p> </li>
-<li><p><strong>Upload Image</strong></p> <p>Upload an image to use as thumbnail.</p> </li>
-<li><p><strong>Select Image</strong></p> <p>Select an existing Asset to use as the thumbnail.</p> </li>
-<li><p><strong>Revert</strong></p> <p>This option becomes available after you have made a change to the thumbnail. If you do not want to keep your change, you can revert that change before saving.</p> </li>
-</ul>
--->
-
 ### Social Media {#social-media}
 
 * **Social Media sharing**
@@ -235,13 +211,6 @@ Comment Type: draft
   Define properties for a Live Copy page within [multi-site management](../../../sites/administering/using/msm.md). Controls the circumstances under which modifications will be propagated from the Blueprint.
 
 ### Site Structure {#site-structure}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T09:51:28.407-0500
-<p>need more info; need links</p>
--->
 
 * Provide links to pages that provide site-wide functionality, such as **Signup Page**, **Offline Page**, amongst others.
 

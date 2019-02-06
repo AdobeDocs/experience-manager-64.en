@@ -3,12 +3,12 @@ title: Interactive Images
 seo-title: Interactive Images
 description: Learn how to work with interactive images in dynamic media
 seo-description: Learn how to work with interactive images in dynamic media
-uuid: 439db5e9-3c12-4787-aea4-4cdbb847ddfa
+uuid: b7e62589-88ac-4c1f-9089-ebc1f74be9ef
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: cfb7e228-5fd8-4a20-aded-8255d453127c
+discoiquuid: 4a055218-b56f-416d-ad00-c54adabb9feb
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ You can easily make static images rich, engaging experiences for customers by dr
 
 The following is a shoppable banner with a Quickview pop-up. A user activates the Quickview by tapping the circle or "hotspot" on the model.
 
-![](assets/chlimage_1-324.png)
+![](assets/chlimage_1-321.png)
 
 See interactive images in action on the web page above by going to the following:
 
@@ -333,59 +333,6 @@ To preview interactive images:
 ## Publishing interactive image assets {#publishing-interactive-image-assets}
 
 See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md) for details on how to publish interactive image assets.
-
-<!--
-Comment Type: draft
-
-<h3>Editing interactive images</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>You can edit an existing interactive image by moving hotspots to new locations on the image, changing a hotspot's associated action, or deleting hotspots from the image.</p>
-<p>To edit Interactive Images:</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>In the Assets view, navigate to an existing interactive image.</p> </li>
-<li><p>Hover over the image, and then tap <strong>Edit</strong> (pencil icon).</p> </li>
-<li><p>On the toolbar, tap <strong>Hotspot</strong> (finger tap icon).</p> </li>
-<li><p>Do any of the following:</p>
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td><strong>Adding a hotspot</strong></td>
-<td>Near the upper-left corner of the page, tap <strong>Select</strong> (plus icon). On the image, tap a location where you want the hotspot to appear.If necessary, drag the hotspot to a new location.</td>
-</tr>
-<tr>
-<td><strong>Moving a hotspot</strong></td>
-<td>Drag a hotspot to a new location to change its position on the image. Any associated action with the hotspot is retained.</td>
-</tr>
-<tr>
-<td><strong>Deleting a hotspot</strong></td>
-<td>From the Selected Hotspot drop-down list, select the name of the hotspot you want to delete, and then tap <strong>Delete</strong> (garbage can icon).</td>
-</tr>
-<tr>
-<td><strong>Editing a hotspot name</strong></td>
-<td>From the Selected Hotspot drop-down list, select the name of the hotspot you want to rename. In the Name text field, type a new name.</td>
-</tr>
-<tr>
-<td><strong>Editing the action of a hotspot</strong></td>
-<td><p>From the Selected Hotspot drop-down list, select the name of the hotspot whose action you want to change. Do one of the following:</p>
-<ul>
-<li>Tap <strong>Quickview </strong>to change product association with the hotspot.</li>
-<li>Tap <strong>Hyperlink</strong> to update the linked webpage. </li>
-</ul> </td>
-</tr>
-</tbody>
-</table> </li>
-<li><p>Tap <strong>Save</strong>.</p> </li>
-</ol>
--->
 
 ## Integrating an interactive image with your website {#integrating-an-interactive-image-with-your-website}
 

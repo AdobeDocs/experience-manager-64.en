@@ -3,11 +3,11 @@ title: Form set in AEM Forms
 seo-title: Form set in AEM Forms
 description: This article introduces form set and explains how to create form sets by stitching together HTML5 forms. This article also explains how you can prefill xml data to a form set and how you can use form sets in process management.
 seo-description: This article introduces form set and explains how to create form sets by stitching together HTML5 forms. This article also explains how you can prefill xml data to a form set and how you can use form sets in process management.
-uuid: c8481edd-ebfc-4cf7-822b-fe1d151c8d2c
+uuid: 23cebc5c-a20b-4b3e-8475-81f10ced00e3
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 90e59186-7c66-4752-ae81-d31944062196
+discoiquuid: 2ead77c1-4799-4fa7-b3e1-20373d9d200e
 index: y
 internal: n
 snippet: y
@@ -349,40 +349,6 @@ In case there is a root element in the prefill XML, the name of that element is 
 AEM Forms app allows field workers to synchronize their mobile devices with an AEM Forms server and work on their tasks. The application works even when the device is offline by saving data locally on the device. Using annotation features, such as photographs, field workers can provide accurate information to integrate into the business processes.  
   
 For more information on AEM Forms app, see [AEM Forms app overview](/forms/using/mobile-workspace-overview).
-
-<!--
-Comment Type: draft
-
-<h2>Using the AEM Forms app</h2>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Initially, AEM Forms app gets the list of tasks/start points and the corresponding form URLs from Process Management.</p> <img alt="AEM Forms workspace app: list of tasks/start points" imageRotate="0" src="assets/CreateFormSet5.png" title="AEM Forms workspace app: list of tasks/start points" /></li>
-<li><p>If the task/startpoint is associated with a form set, we get a form set URL. We get the list of forms inside the form set from the AEM Forms Manager.</p> <p>All the resources required to render the form set in offline mode are cached locally on device. This includes form HTML, scripts, images, CSS, template HTML, and other resources. The cache is updated whenever a resource changes, such as the CRX database. Whenever properties of the CRX database change that the AEM Forms app depends on, the cache is updated. You can set up recurring timer for automatic updates. You can also set up the parts where changes trigger the cache sync.</p> </li>
-<li><p>You can set up sync and other settings.<br /> </p> <img alt="AEM Forms workspace app: settings" imageRotate="0" src="assets/Screenshot_2015-04-17-17-02-12.png" title="AEM Forms workspace app: settings" /></li>
-<li><p>The prefill json corresponding to the forms in the form set are fetched from AEM server using the task ID and form set URL and this json is also cached in the device database.<br /> </p> </li>
-<li><p>When a form set based startpoint/task is opened, the cached form is obtained from the database and is rendered using the WebView in a child browser.</p>
-<ol>
-<li>Previous and Back buttons in the child browser help navigate between the different forms in the form set. When you select next, form validation for current form is run and the app displays validation messages. You can choose to ignore the validation error and move to next form. But you cannot submit the form set until all the validation issues are resolved.</li>
-<li>Home button takes the user to the first form in the form set.</li>
-<li>The Done button on the child browser saves the state of the form set on the device and closes the child browser.<br /> </li>
-</ol> </li>
-<li><p>You have three options:</p>
-<ol>
-<li>Select Complete and submit the task to the server.</li>
-<li>Select Save and save the task as draft on the server. If later, you reopen the draft (even from different device), you are taken to the same form you were filling when you chose to save draft.</li>
-<li>Click back and abandon the changes made to the form. This is valid for Start Point but not for Task.<br /> </li>
-</ol>
-<div>
-If the device is in offline mode, the requests for submit and save are queued on the device in the database and actions are taken once the device comes back to online mode.
-<br />
-</div> </li>
-<li><p>AEM Forms app user would have to use regular Task Attachments feature to add attachment to form set. If there is attachment enabled using Form set HTML Render profile that attachment option is marked hidden in AEM Forms app and user has to use Task Attachment.</p> </li>
-</ol>
--->
 
 ## Known limitations - patterns not fully supported in Form set {#known-limitations-patterns-not-fully-supported-in-form-set}
 

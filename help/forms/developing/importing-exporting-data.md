@@ -3,12 +3,12 @@ title: Importing and Exporting Data
 seo-title: Importing and Exporting Data
 description: null
 seo-description: null
-uuid: ee360d7a-58d2-4a45-8fca-f0fa72718f3f
+uuid: 0637878b-dbb0-4dec-b967-6c977829fe8b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 7c5b3f0f-b98a-4f5a-9750-5235f8f76733
+discoiquuid: d0075329-40d0-47ae-a4c6-de6461962f8c
 index: y
 internal: n
 snippet: y

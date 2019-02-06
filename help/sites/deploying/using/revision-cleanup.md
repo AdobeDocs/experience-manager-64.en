@@ -3,12 +3,12 @@ title: Revision Cleanup
 seo-title: Revision Cleanup
 description: Learn how to use the Revision Cleanup functionality in AEM 6.3.
 seo-description: Learn how to use the Revision Cleanup functionality in AEM 6.3.
-uuid: 9384e543-c49a-44a2-9c19-5a3bc6f5082f
+uuid: 2e6755f5-42ea-4add-a4d2-128196e84002
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 42412086-5e58-4fde-90c7-11e2a500a81e
+discoiquuid: 32ac33ef-d5b4-456b-acea-37289faf1287
 index: y
 internal: n
 snippet: y
@@ -44,15 +44,15 @@ Online Revision Cleanup is configured by default to automatically run once a day
 
 1. In the main AEM window, go to **Tools - Operations - Dashboard - Maintenance** or point your browser to: http://serveraddress:serverport/libs/granite/operations/content/maintenance.html
 
-   ![](assets/chlimage_1-97.png)
+   ![](assets/chlimage_1-90.png)
 
 1. Hover over **Daily Maintenance Window** and click the **Settings** icon.
 
-   ![](assets/chlimage_1-98.png)
+   ![](assets/chlimage_1-91.png)
 
 1. Enter the desired values (recurrence, start time, end time) and click **Save**.
 
-   ![](assets/chlimage_1-99.png)
+   ![](assets/chlimage_1-92.png)
 
 Alternatively, if you want to run the revision cleanup task manually, you can:
 
@@ -61,7 +61,7 @@ Alternatively, if you want to run the revision cleanup task manually, you can:
 1. Hover over the **Revision Cleanup** icon.
 1. Click **Run**.
 
-   ![](assets/chlimage_1-100.png)
+   ![](assets/chlimage_1-93.png)
 
 ### Running Online Revision Cleanup After Offline Revision Cleanup {#running-online-revision-cleanup-after-offline-revision-cleanup}
 
@@ -580,50 +580,11 @@ The list includes several command line parameters, as described below:
 >
 >Using the `--force` parameter will upgrade the segment store to the latest version, which is incompatible with older Oak versions. Also, take into consideration that no downgrade is possible. As a general rule, you should use these parameters with caution and only if you are knowledgeble about how to use them.
 
-<!--
-Comment Type: draft
-
-<p><strong>-Dlogback.configurationFile</strong>. Use a configuration file for logging. You can use the below configuration file to enable the logging of the nodes that are being compacted:</p>
-<ul>
-<li><a href="logback.md">logback.xml</a></li>
-</ul>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-0436B4A35714BFF67F000101@AdobeID)
-Last Modified Date: 2018-03-13T10:08:44.599-0400
-<p> For 6.3 the logback xml no longer exists in the page referenced in the link. TBD- if we include the parameter for 6.3 </p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>Memory mapped file operations do not work correctly on some versions of Windows. Make sure that you use the tool without the -Dtar.memoryMapped parameter on Windows platforms, otherwise the revision cleanup will fail.</p>
-</note>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-03-13T10:08:44.803-0400
-<p>See the -mmap parameter.</p>
--->
-
 An example of the parameters in use:
 
 ```xml
 java -Dupdate.limit=10000 -Dcompaction-progress-log=150000 -Dlogback.configurationFile=logback.xml -Xmx8g -jar oak-run-*.jar checkpoints <repository>
 ```
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Use as much heap memory as possible for faster I/O operations. It is recommended you use at least eight gigabytes for most common deployments.</p>
-</note>
--->
 
 ### Additional Methods of Triggering Revision Cleanup {#additional-methods-of-triggering-revision-cleanup}
 
@@ -632,14 +593,6 @@ In addition to the methods presented above, you can also trigger the revision cl
 1. Open the JMX Console by going to [http://localhost:4502/system/console/jmx](http://localhost:4502/system/console/jmx)
 1. Click the **RevisionGarbageCollection** MBean.
 1. In the next window, click **startRevisionGC()** and then **Invoke** to start the Revision Garbage Collection job.
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Due to the mechanics of the garbage collection, the first run will actually add 256 MB of disk space. Subsequent runs will work as expected and start shrinking the repository size.</p>
-</note>
--->
 
 ### Offline Revision Cleanup Frequently Asked Questions {#offline-revision-cleanup-frequently-asked-questions}
 

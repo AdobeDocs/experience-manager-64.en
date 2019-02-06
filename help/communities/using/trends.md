@@ -3,12 +3,12 @@ title: Activity Trends
 seo-title: Activity Trends
 description: Adding a Community Activity List component to a page
 seo-description: Adding a Community Activity List component to a page
-uuid: e1f368cd-a17d-45ae-99ae-8eaa6096ba41
+uuid: 0decf843-c21b-4d41-9e1e-ec073c977a64
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 1e291afb-72a6-40a9-9a44-267b94810339
+discoiquuid: f88f16c1-e188-40f7-bc06-b5fa6e25fb44
 index: y
 internal: n
 snippet: y
@@ -44,17 +44,17 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When first placed on a page of a community site, this is how the component appears :
 
-![](assets/chlimage_1-233.png)
+![](assets/chlimage_1-226.png)
 
 ### Configuring Community Activity List  {#configuring-community-activity-list}
 
 Select the placed `Community Activity List` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-234.png)
+![](assets/chlimage_1-227.png)
 
 Under the **Comments **tab, specify if and how comments for uploaded files appear :
 
-![](assets/chlimage_1-235.png)
+![](assets/chlimage_1-228.png)
 
 * **Type** 
   Specify whether to to display data regarding community members or user generated content (UGC).  
@@ -113,19 +113,5 @@ Under the **Comments **tab, specify if and how comments for uploaded files appea
 
 **Trending Content** config : Type = Content, Activity type = Posts
 
-![](assets/chlimage_1-236.png)
-
-<!--
-Comment Type: draft
-
-<h3>Additional Information</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>More information may be found on the <a href="../../communities/using/essentials-file-library.md">??? Essentials</a> page for developers.</p>
-<p>For moderation of posted topics and comments, see <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p>
-<p>For tagging posted topics and comments, see <a href="../../communities/using/tag-ugc.md">Tagging User Generated Content</a>.</p>
--->
+![](assets/chlimage_1-229.png)
 

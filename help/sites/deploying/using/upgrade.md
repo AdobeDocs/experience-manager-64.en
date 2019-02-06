@@ -3,12 +3,12 @@ title: Upgrading to AEM 6.4
 seo-title: Upgrading to AEM 6.4
 description: Learn about the basics of upgrading an older AEM installation to AEM 6.4.
 seo-description: Learn about the basics of upgrading an older AEM installation to AEM 6.4.
-uuid: f8e2e25b-bc4e-4b60-9847-aece32bb6f74
+uuid: 31fb14d0-b188-4f48-b499-14fdefc8ceee
 contentOwner: sarchiz
 topic-tags: upgrading
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 39b9979c-85c7-4347-a34d-8cfd3d31f0ce
+discoiquuid: 374db44d-a53a-43f0-9c7c-85751a0160e0
 targetaudience: target-audience upgrader
 index: y
 internal: n
@@ -39,13 +39,6 @@ For easier reference to the AEM instances involved in these procedures, the foll
 >[!NOTE]
 >
 >As part of the efforts to improve the reliability of upgrades, AEM 6.4 has undergone a comprehensive repository restructuring. For more information on how to align with the new structure, see [Repository Restructuring in AEM 6.4](../../../sites/deploying/using/repository-restructuring.md)
-
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-07-26T12:05:12.941-0400
-<p>Added as part of the effort in https://jira.corp.adobe.com/browse/CQDOC-12872</p>
--->
 
 ## What Has Changed? {#what-has-changed}
 
@@ -81,13 +74,6 @@ For more details about what else has changed in recent AEM versions, see the com
 
 Upgrading AEM is a multi-step, sometimes multi-month process. The following outline has been provided as an overview of what is included in an upgrade project and the content that has been included in this documentation:
 
-<!--
-Comment Type: annotation
-Last Modified By: dgonzale
-Last Modified Date: 2018-04-10T16:22:32.710-0400
-Need to update chevrons for 2 cases: 1) Update content/code prior for support restructuring (breaking changes) 2) Update code/content in a lazy way after upgrade.
--->
-
 ![](assets/screen_shot_2018-03-30at80708am.png)
 
 ## Upgrade Flow with 6.4 Upgrade Improvements {#upgrade-overview-1}
@@ -97,13 +83,6 @@ The diagram below captures the overall recommended flow highlight the upgrade ap
 There was a big focus in 6.4 to keep all the new features backward compatible, but in cases where you still see some backward compatibility issues, the compatibility mode allows you to temporarily defer development to keep your custom code compliant with 6.4. This approach helps you avoid development effort immediately after the upgrade(see [Backward Compatibility in AEM 6.4](../../../sites/deploying/using/backward-compatibility.md)).
 
 Finally, in your 6.4 development cycle, features introduced under Sustainable Upgrades(see [Sustainable Upgrades](../../../sites/deploying/using/sustainable-upgrades.md)) help you follow best practices to make future upgrades even more efficient and seamless.
-
-<!--
-Comment Type: annotation
-Last Modified By: dgonzale
-Last Modified Date: 2018-04-10T16:34:29.486-0400
-Lazy Content Migration boxes should really include BOTH: - Should include "Lazy Content Migration" "Feature" - Should include Post-Upgrade Repository Restructuring Alignment" Lazy Content Migration boxes should really include BOTH: - Should include "Lazy Content Migration" "Feature" - Should include Post-Upgrade Repository Restructuring Alignment"
--->
 
 ![](assets/6_4_upgrade_overviewflowchart-newpage3.png)
 

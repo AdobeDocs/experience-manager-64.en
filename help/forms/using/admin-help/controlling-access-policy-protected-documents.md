@@ -3,12 +3,12 @@ title: Controlling access to policy-protected documents
 seo-title: Controlling access to policy-protected documents
 description: See how you can view, manage and control the access to your policy-protected documents.
 seo-description: See how you can view, manage and control the access to your policy-protected documents.
-uuid: 782e618d-f018-4793-9c14-7a703989c340
+uuid: 2578f5b5-a413-43dd-ba63-cac58bc103dc
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 151aaae0-a68a-49ff-aa37-90bde9aa3235
+discoiquuid: 7c6f296c-0988-486b-9d6f-3961ce88381c
 index: y
 internal: n
 snippet: y

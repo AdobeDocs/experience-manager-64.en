@@ -3,39 +3,18 @@ title: AEM Development - Guidelines and Best Practices
 seo-title: AEM Development - Guidelines and Best Practices
 description: Guidelines and best practices for developing on AEM
 seo-description: Guidelines and best practices for developing on AEM
-uuid: 5d2d7ead-ed1f-4fa3-b29b-44ea1cfc6604
+uuid: f8a674f9-b821-4559-9f38-4d3e15aa9f78
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 7ea988ea-3a05-47ca-ab6b-c97dfa9f9f58
+discoiquuid: 8a97e19f-2443-498f-9096-d673aa597d9c
 index: y
 internal: n
 snippet: y
 ---
 
 # AEM Development - Guidelines and Best Practices{#aem-development-guidelines-and-best-practices}
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>Needs information about flat node hierarchies, their affects on performance, and some approaches for proper structuring (for example <a href="/content/ddc/blog/2011/05/efficient_management">Efficient JCR node management with BTreeManager</a> )</li>
-<li>Tuning JCR queries and how to create efficient ones: <a href="http://wiki.apache.org/jackrabbit/Performance" title="Follow link">http://wiki.apache.org/jackrabbit/Performance</a></li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<h2>Repository Structure</h2>
--->
-
-<!--
-Comment Type: draft
-
-<h2>Repository Queries</h2>
--->
 
 ## Guidelines for Using Templates and Components {#guidelines-for-using-templates-and-components}
 

@@ -3,9 +3,9 @@ title: (Redirect)What is AEM Screens?
 seo-title: (Redirect)What is AEM Screens?
 description: null
 seo-description: null
-uuid: a6cf07fe-a08c-4588-9636-a8c1225225d0
+uuid: 52ac8308-52ff-4b5e-9550-a437f4eebebf
 contentOwner: jsyal
-discoiquuid: 5633534a-5196-4f12-9881-fe8794955db8
+discoiquuid: 0c6cddc0-43c3-46b4-a080-124b2f014764
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/aem-screens-introduction
 index: y

@@ -3,12 +3,12 @@ title: AEM Screens FAQs
 seo-title: AEM Screens FAQs
 description: Follow this page to get answers to FAQs related to an AEM Screens project.
 seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
-uuid: db5eba3d-08d6-48ee-9845-0749d6bdc86b
+uuid: 62eb2811-9ec1-4088-bdf9-4e45a91c7337
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: troubleshoot
-discoiquuid: 4b2f5eaf-b222-433c-b095-b1b3d197388b
+discoiquuid: f45a3c2f-1fab-4c3d-a836-3f86ef899cae
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Integrating AEM Assets with InDesign Server
 seo-title: Integrating AEM Assets with InDesign Server
 description: Learn how to integrate AEM Assets with InDesign Server.
 seo-description: Learn how to integrate AEM Assets with InDesign Server.
-uuid: 79a782ef-baa9-4914-a0c3-04f8efbffd64
+uuid: 289f3871-f872-460b-a5a2-cf15f3bfcade
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 82e7b21c-f28b-48f6-bebe-f252e5c9f32b
+discoiquuid: 4cc8aac9-3b59-4aa9-8b49-6cd6be62a762
 index: y
 internal: n
 snippet: y
@@ -122,13 +122,6 @@ After the setup, uploading InDesign files into AEM Assets (by any of the usual m
 
 #### Media Extraction {#media-extraction}
 
-<!--
-Comment Type: annotation
-Last Modified By: ashishc
-Last Modified Date: 2018-10-26T01:24:07.012-0400
-The images in these sections are not from a 6.4 server (which has the Touch UI workflow-step-configurator). I think they should be adapted, esp. since "Editing a Workflow" link in the section above points to a Touch UI workflow-authoring-and-editing surface Also, in the "Extent Scripts" bullet, we should say: You can specify different script combinations here. If you want your own scripts to be executed on the InDesign Server, save them under: /apps/settings/dam/indesign/scripts
--->
-
 This step controls the extraction of media from the `.indd` file.
 
 To customize, you can edit **Arguments** tab of the** Media Extraction** step.
@@ -160,7 +153,7 @@ This creates an AEM page from the extracted elements. An extraction handler is u
 
 To customize, you can edit the **Arguments** tab of the** Page Extraction** step.
 
-![](assets/chlimage_1-243.png)
+![](assets/chlimage_1-242.png)
 
 * **Page Extraction Handler** 
   From the drop down list, select the handler that you want to use. An extraction handler operates on a specific rendition, chosen by a related `RenditionPicker` (see the `ExtractionHandler` API).  
@@ -212,7 +205,7 @@ If the InDesign server and AEM run on different hosts or either or both these ap
 1. Locate the configuration **Day CQ Link Externalizer**, and click the **Edit** icon to open it.
 1. Specify the host name and context path for the Indesign server and click **Save**.
 
-   ![](assets/chlimage_1-244.png)
+   ![](assets/chlimage_1-243.png)
 
 ### Enabling Parallel Job Processing for InDesign Server(s) {#enabling-parallel-job-processing-for-indesign-server-s}
 

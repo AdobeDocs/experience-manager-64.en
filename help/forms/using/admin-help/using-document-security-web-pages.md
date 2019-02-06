@@ -3,12 +3,12 @@ title: Using the document security webpages
 seo-title: Using the document security webpages
 description: Learn how you can login, navigate and use the document security web pages.
 seo-description: Learn how you can login, navigate and use the document security web pages.
-uuid: 3cdf201e-a461-4d02-b238-7aadc3b129cf
+uuid: 771d457e-8adb-4e84-8e99-ef33fe9cce8d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: f40f556d-d47a-42ad-b49c-c602c1351141
+discoiquuid: ef32fbe5-815e-4232-9704-e26fd040c5e9
 index: y
 internal: n
 snippet: y
@@ -18,36 +18,15 @@ snippet: y
 
 Users and administrators use the document security web pages to create and manage policies, manage policy-protected documents, and monitor events that are associated with policy-protected documents. Administrators also use the web pages to create policy sets and designate policy set coordinators, configure document security default settings, manage invited user registration and accounts, and monitor and manage server, policy, user, and document-related events.
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Start RMAdminOnly</p>
--->
-
 >[!NOTE]
 >
 >You can also log in to document security through Acrobat and other client applications using your user login account. (See [Setting up access to document security from client applications](using-document-security-web-pages#setting_up_access_to_document_security_from_client_applications).)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>End RMAdminOnly</p>
--->
 
 To open the web pages, you require a browser and the URL and your login information for document security. The URL for users is different from the URL for administrators.
 
 Because document security references your organization’s existing directories for user information, your document security login information may be the same information that you use to log in to your network and other applications. See your system administrator or administrator for your account information.
 
 To log in as an administrator, you need to have the administrator role assigned to you. You can use the default super administrator account that is created during the installation process.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>End RMAdminOnly</p>
--->
 
 ## Log in to the web pages {#log-in-to-the-web-pages}
 
@@ -58,13 +37,6 @@ If you have access to more than one installation of document security, you need 
 The default URL for administrators is http://*[host]*:*[port]*/adminui.
 
 For administrators, a default super administrator account is created during installation. You can use this account to log in when document security is first installed.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>End RMAdminOnly</p>
--->
 
 >[!NOTE]
 >
@@ -88,13 +60,6 @@ Last Modified Date:
 When you log in to the user web pages, you will see links to the Policies, Documents, and Events user pages.
 
 When you log in to administration console and navigate to the document security main page, you may also see one or two additional links, one for the Configuration page and one for the Invited and Local Users page. The Invited and Local Users page is displayed only if invited user registration is enabled.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>End RMAdminOnly</p>
--->
 
 Use these links to access the various pages, where you create and manage policies and policy-protected documents.
 
@@ -130,13 +95,6 @@ These instructions are specific to Internet Explorer, but you can install the ce
 1. Click View Certificate, and then click Install Certificate and select the defaults for installation. The certificate needs to be installed in the Trusted Root Certification Authorities.
 1. Close your browser session.
 1. Open another browser window and type the same URL in the Address box. A Security Alert dialog should not appear. This test confirms that the certificate is properly installed.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Start RMAdminOnly</p>
--->
 
 ## Log out of the web pages {#log-out-of-the-web-pages}
 

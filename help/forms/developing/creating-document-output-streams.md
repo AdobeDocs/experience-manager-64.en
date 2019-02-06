@@ -3,12 +3,12 @@ title: Creating Document Output Streams
 seo-title: Creating Document Output Streams 
 description: null
 seo-description: null
-uuid: 50793015-6ef5-4997-8d91-810ee815d2dc
+uuid: 3be48401-261d-4713-aeff-816a6c78816a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 7e11c65b-2460-447b-a9e4-dc6b4b3258bd
+discoiquuid: 043abe30-9cec-4097-b529-37b5bc4fdc45
 index: y
 internal: n
 snippet: y
@@ -2215,13 +2215,6 @@ Create search rules by using the Output API (web service):
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
-
-<!--
-Comment Type: remark
-Last Modified By: Khushwant Singh (khsingh)
-Last Modified Date: 2017-11-21T06:57:41.789-0500
-Content Referenced from lc_ou_flatten_pdf_docs_fp.xml#WS624e3cba99b79e12e69a9941333732bac8-7d5b.2_ver6.1
--->
 
 ## Flattening PDF Documents {#flattening-pdf-documents}
 

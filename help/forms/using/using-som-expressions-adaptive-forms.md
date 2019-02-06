@@ -3,10 +3,10 @@ title: Using SOM expressions in adaptive forms
 seo-title: Using SOM expressions in adaptive forms
 description: Learn how to extract SOM expressions of a panel of an adaptive form.
 seo-description: Learn how to extract SOM expressions of a panel of an adaptive form.
-uuid: a6ad9451-7aec-415b-b464-e726e8fdc7e5
+uuid: 2f3e207a-a689-48e4-9506-b1b58534537e
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 99b04d28-0a3a-4a1b-956c-9edeb78e9690
+discoiquuid: dd03115b-3b44-4ad1-ade5-c920838a6053
 index: y
 internal: n
 snippet: y

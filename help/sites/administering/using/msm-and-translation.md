@@ -3,12 +3,12 @@ title: Website Administration
 seo-title: Website Administration
 description: Learn how to manage multilingual websites in AEM.
 seo-description: Learn how to manage multilingual websites in AEM.
-uuid: 3d125b72-b12b-485e-b0a3-7268b6a16bfe
+uuid: f9bb9d94-eca4-421d-a950-4cbdaa073908
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: a75cb20f-a3ea-4c3c-a742-c10d8a799785
+discoiquuid: 37c38fd8-e5ec-40f0-8fd7-bb6aca491ea1
 index: y
 internal: n
 snippet: y
@@ -42,7 +42,7 @@ You can efficiently create content for multinational and multilingual sites thro
 
 The following diagram illustrates how the main concepts intersect (but does not show all levels/elements involved):
 
-![](assets/chlimage_1-77.png)
+![](assets/chlimage_1-71.png)
 
 >[!NOTE]
 >

@@ -3,9 +3,9 @@ title: (Redirect)Kickstart Guide
 seo-title: (Redirect)Kickstart Guide
 description: null
 seo-description: null
-uuid: adf252c2-a7f9-4603-ba0e-309987af6ca0
+uuid: dac50ab5-092d-4ee6-af60-ad3bcdee126d
 contentOwner: jsyal
-discoiquuid: d9051154-a788-44a3-8d2f-d1fe84b14033
+discoiquuid: 8bddf3d1-d6d0-457c-927f-d2b53b9a3120
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/kickstart-for-aem-screens
 index: y

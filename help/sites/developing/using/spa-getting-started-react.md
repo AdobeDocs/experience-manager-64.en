@@ -3,12 +3,12 @@ title: Getting Started with SPAs in AEM - React
 seo-title: Getting Started with SPAs in AEM - React
 description: This article presents a sample SPA application, explains how it is put together, and allows you to get up-and-running with your own SPA quickly using the React framework.
 seo-description: This article presents a sample SPA application, explains how it is put together, and allows you to get up-and-running with your own SPA quickly using the React framework.
-uuid: 5bbf2e93-a7dd-48dc-9006-e07773824dfd
+uuid: 8893189d-3d11-4177-9af6-652dca544358
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 0cd2da16-de39-48ac-bda3-ffc901bd02a4
+discoiquuid: 737d552f-645a-4ae3-ab0f-ff7f6598ece8
 index: y
 internal: n
 snippet: y
@@ -66,13 +66,6 @@ Because this example is based on the React framework, there are two React-specif
 react
  react-dom
 ```
-
-<!--
-Comment Type: annotation
-Last Modified By: fauchere
-Last Modified Date: 2018-12-10T10:56:28.858-0500
-Doesn't bring enough value and hard to maintain
--->
 
 The `aem-clientlib-generator` is leveraged to make the creation of client libraries automatic as part of the build process.
 

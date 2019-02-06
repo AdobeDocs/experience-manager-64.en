@@ -3,12 +3,12 @@ title: Tag Libraries
 seo-title: Tag Libraries
 description: The Granite, CQ, and Sling tag libraries give you access to specific functions for use in the JSP script of your templates and components
 seo-description: The Granite, CQ, and Sling tag libraries give you access to specific functions for use in the JSP script of your templates and components
-uuid: 910685e1-1d91-43f2-9698-ef01939e0ed0
+uuid: be4a8834-a080-4e58-849c-0d218783b7b0
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 46c7f2ae-73e2-4cb8-af4e-87a4eb9479c2
+discoiquuid: e68e86ba-f682-458b-8e9c-5010585672fe
 index: y
 internal: n
 snippet: y
@@ -264,17 +264,6 @@ It has the following attributes:
 **categories** A list of comma-separated client lib categories. This will include all Javascript and CSS libraries for the given categories. The theme name is extracted from the request.
 
 Equivalent to: `com.day.cq.widget.HtmlLibraryManager#writeIncludes`
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (jkendall)
-Last Modified Date: 2017-12-05T06:02:46.019-0500
-<p>categories values appear to not be unique.</p>
-<p>there can be many clientlibs with the same value for categories.</p>
-<p>Is it the case that all are found and included for a cq:includClientLib?</p>
-<p>Or is only the first one found included?</p>
-<p>What is the list of places searched and the search order? Does it correlate to the results of running <a href="http://localhost:4502/libs/cq/ui/content/dumplibs.test.html">http://localhost:4502/libs/cq/ui/content/dumplibs.test.html</a>?<br /> </p>
--->
 
 **theme** A list of comma-separated client lib categories. This will include all theme related libraries (both CSS and JS) for the given categories. The theme name is extracted from the request.
 

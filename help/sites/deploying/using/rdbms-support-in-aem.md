@@ -3,12 +3,12 @@ title: RDBMS Support in AEM 6.4
 seo-title: RDBMS Support in AEM 6.4
 description: Learn about the relational database persistence support in AEM 6.4 and the available configuration options.
 seo-description: Learn about the relational database persistence support in AEM 6.4 and the available configuration options.
-uuid: 7b998b7c-f10d-4568-a6c7-d5d5939db9eb
+uuid: 945fa1bb-83bb-4d26-8e1e-baf5094d8e27
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 9b0ec30f-78db-4085-ac4b-0a614d9bd110
+discoiquuid: d8eaa004-de9b-4c4f-b580-fe1c6025ab74
 index: y
 internal: n
 snippet: y

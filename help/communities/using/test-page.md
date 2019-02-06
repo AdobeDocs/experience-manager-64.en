@@ -4,9 +4,9 @@ seo-title: Test page
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: d88c8894-9a30-4549-a390-838ce9d23f68
+uuid: 8d03dec9-c302-47fc-80b1-8f0fd1ec230e
 contentOwner: alvawb
-discoiquuid: 2ad85248-af5b-4c72-9849-fd305c42cb6c
+discoiquuid: cabd46b2-5abf-47df-8680-e37d990d3fbb
 index: y
 internal: n
 snippet: y

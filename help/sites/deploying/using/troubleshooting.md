@@ -3,12 +3,12 @@ title: Troubleshooting
 seo-title: Troubleshooting
 description: This article covers some of the installation issues you might encounter with AEM.
 seo-description: This article covers some of the installation issues you might encounter with AEM.
-uuid: 88ae9f14-412a-42bf-92b0-9583c12977c6
+uuid: 6209f3c0-f95a-4910-96c1-33d7f91805ff
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: be7ac6e4-66ac-44f6-868a-81876fb5d4aa
+discoiquuid: d5525e94-0d4e-4ba8-a568-3f669cdbafe5
 index: y
 internal: n
 snippet: y
@@ -24,11 +24,11 @@ Analyzing slow performance on Authoring instance can become quite complex. As fi
 
 The following decision tree provides guidenance to narrow down the bottleneck. 
 
-![](assets/chlimage_1-82.png) 
+![](assets/chlimage_1-75.png) 
 
 #### Basic Optimization {#basic-optimization}
 
-![](assets/chlimage_1-83.png) 
+![](assets/chlimage_1-76.png) 
 
 ### Configuring log files and audit logs {#configuring-log-files-and-audit-logs}
 

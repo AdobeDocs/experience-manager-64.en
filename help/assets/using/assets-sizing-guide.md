@@ -3,12 +3,12 @@ title: Assets Sizing Guide
 seo-title: Assets Sizing Guide
 description: Best practices to determine efficient metrics for estimating the infrastructure and resources required for deploying AEM Assets. 
 seo-description: Best practices to determine efficient metrics for estimating the infrastructure and resources required for deploying AEM Assets. 
-uuid: c20553d1-4406-4cb0-919c-8068cb9f550a
+uuid: 9cde51d9-fe2b-4dc9-92dd-0fb53a74e745
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 3a5423f1-ee65-4d7c-8159-0df8d8f60263
+discoiquuid: 72a0de8f-0c49-43bc-b59a-19f99716935e
 index: y
 internal: n
 snippet: y
@@ -101,98 +101,7 @@ Because the binaries are be stored in the datastore, each binary occupies some s
 
 For the repository, use SSDs or disks with an IOPS level greater than 3Kilobyte. To eliminate chances of IOPS introducing performance bottlenecks, monitor CPU IO Wait levels for early signs of issues.
 
-<!--
-Comment Type: draft
-
-<h2>CPU/Memory/Network/IO</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>The AEM Environment Sizing spreadsheet is a useful tool for sizing the AEM servers for an Assets deployment. You can modify network throughput, disk type, and disk read/write throughput as inputs to gauge the impact on end user experience. Additionally, based on the inputs, the tool recommends server requirements using T-shirt sizing. Each of the sizes maps to an Amazon instance size. You can use the recommended instance sizes directly in a Managed Services deployment. In addition, you can estimate hardware procurements based on them.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>How to Use</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>This spreadsheet accepts a series of inputs and generates some benchmarking numbers. Based on the values you provide, it recommends server size and predicts what the expected user experience would be on the system. The results are not only useful from a sizing perspective, but also from a cost/benefit calculation perspective. For example, to ascertain the impact of generating an additional set of renditions, you can modify the value to determine the impact on processing times and user experience. If you are planning to invest in SSDs, you can compare the performance of the system with and without them. The attached spreadsheet is only a tool for estimating environment sizing and user experience. No estimate is a replacement for true load and performance testing. Adobe recommends engaging in these activities to vet these estimates before a live implementation of AEM Assets. The Environment Sizing tool will include instructions for required input, forecast or output, and guidance. </p>
--->
-
 [Get File](assets/aem_environment_sizingtool.xlsx)
-
-<!--
-Comment Type: draft
-
-<h3>Required Input</h3>
--->
-
-<!--
-Comment Type: draft
-
-<div>
-The spreadsheet requires the following inputs:
-</div>
-<ul>
-<li>Total assets: The total number of assets to be housed in AEM.</li>
-<li>Original asset size in MB: The average size of an original asset to be loaded. This number can be provided by the Disk Sizing spreadsheet.</li>
-<li>Count of asset writes which trigger workflows and replication: At a minimum, AEM will fire a DAM Update Asset workflow when an asset is ingested. If watermarking of the original or XMP Writeback is enabled, an additional DAM Update Asset workflow will run when it completes.</li>
-<li>Count of asset writes which do not trigger workflows and replication: This will only occur if launchers have been configured in such a way to prevent DAM Update Asset from firing when the asset is modified.</li>
-<li>Count of asset reads as part of non-rendition generating workflows: This includes workflow steps that need to read the asset for processes such as XMP metadata extraction, full-text indexing, watermarking, etc.</li>
-<li>Average document pages per asset: This will be 1 unless subasset extraction is enabled, in which case it should be set to the average number of pages in each document.</li>
-<li>Renditions generated: Out of the box, AEM will generate 4. Any additional renditions to generate should be added here.</li>
-<li>Rendition average size in KB: By looking at the renditions generated during the disk sizing activity, you should be able to determine this number.</li>
-<li>Is Dynamic Media enabled: When using Dynamic Media, AEM will need to generate PTIFF files. If you are using Dynamic Media, set this to TRUE. Otherwise, set it to FALSE.</li>
-<li>Publish instances configured: If you will be replicating your assets, list the number of servers that they will be replicated to here. If you will be publishing to Brand Portal or other cloud-based distribution systems, each of these should be included.</li>
-<li>Minimum client oriented network chokepoint: Use the methodology present in <a href="../../assets/using/assets-network-considerations.md">AEM Asset considerations for user experience, instance sizing, workflow evaluation, and network topology</a> to determine the smallest network chokepoint between the user and the server.</li>
-<li>Maximum simultaneous users: At the peak load, how many users will be interacting with AEM at one time?</li>
-<li>Average total uploads per user: How many uploads will each user perform during this peak?</li>
-<li>Average total downloads per user: How many downloads will each user perform during this peak?</li>
-<li>Average simultaneous operations per user: &lt;&lt;TBD&gt;&gt; </li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Forecast</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>The spreadsheet will provide the following outputs, which will provide you with an idea of the server load that will be generated and the general duration of activities from a user standpoint.</p>
-<ul>
-<li>Total disk space required - the space required to support the loaded assets and their renditions</li>
-<li>Total time ingesting assets - how long it will take to upload all of these assets and process them</li>
-<li>Per user data transferred - how much data each user will transfer</li>
-<li>Per user single asset transfer time - how long it will take a user to upload a single asset</li>
-<li>Per user total asset transfer time - how long it will take a user to transfer all of their assets</li>
-<li>Server side asset processing time - how long it will take for a user's assets to be processed on the server after upload</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Guidance</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>The spreadsheet will provide the following guidance around environment sizing and user experience:</p>
-<ul>
-<li>Instance Size Suggested: recommended instance size, in CPU and Memory, for the use case provided</li>
-<li>User Experience fields: expected user experience based on the outputs, ranging from Delighted to Abandoned</li>
-</ul>
--->
 
 ## Network {#network}
 

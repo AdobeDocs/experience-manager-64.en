@@ -3,12 +3,12 @@ title: Workflow Step Reference
 seo-title: Workflow Step Reference
 description: null
 seo-description: null
-uuid: ccf4bc25-d561-4d21-a8c4-e3500c5eba4b
+uuid: 4941779e-8ffb-472b-b251-c6cb954e2d16
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 32c7ada8-59ef-4b61-8338-17c7a0061131
+discoiquuid: 86efb71d-fd82-43ea-b476-733f746b239e
 index: y
 internal: n
 snippet: y
@@ -370,7 +370,7 @@ You can store widget data in the workflow payload or in the work item metadata. 
 
    This example will, in the case of the touch-enabled UI, result in a dialog such as:
 
-   ![](assets/chlimage_1-195.png)
+   ![](assets/chlimage_1-188.png)
 
 ### Dynamic Participant Step {#dynamic-participant-step}
 
@@ -517,23 +517,7 @@ To configure the step, edit and use the following tabs:
 
     * **Form Path**: The path to the [form you create](#formparticipantstepcreatingtheform).
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>The <a href="/sites/developing/using/workflows-models#CollectingDataUsingFormsandWorkflows">Collecting data using forms and workflows</a> tutorial walks you through the creation of a workflow that uses the <strong>Form Participant Step</strong> and the related forms.</p>
-</note>
--->
-
 #### Form Participant Step - Creating the form {#form-participant-step-creating-the-form}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-04-22T02:22:22.635-0400
-<p>The foundation-component Forms components can still be used, but have to be enabled for the template.</p>
-<p>Issues with the core components and/or AEM Forms.<br /> </p>
--->
 
 Create a form for use with a **Form Participant Step** as normal. However, forms for a Form Participant Step must have the following configurations:
 
@@ -558,32 +542,6 @@ In the following example, the field data is used as the content of a **Text** co
 ``The first example can be used for any page that the `cq:Page` component renders. The second example can only be used when the payload page includes a **Text** component that has an ID of `text_3`.
 
 The form can be located anywhere in the repository, however workflow users must be authorized to read the form.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-03-01T08:19:11.175-0500
-<p>gauthier</p>
-<p>Following the Developing Forms link it is suggested that we use the core components instead of the Foundation components used here. We would have to figure out if we can use the core components to design a form for the Form Participant Step. The components between the two libraries are not the same and do not have the same property configurations.</p>
-<p>New Note prepared with links to Core Components - but still in draft mode</p>
-<p>Original Note (second) changed to draft mode</p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>For information about creating forms, see <a href="/content/help/en/experience-manager/core-components/user-guide.html?topic=/content/help/en/experience-manager/core-components/morehelp/authoring.ug.js">Authoring</a>, in the Core Components User Guide, for details about the various Forms-related components (these differ to <a href="/forms/user-guide">AEM Forms</a> functionality).</p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>For information about creating forms, see <a href="../../../sites/developing/using/developing-forms.md">Developing Forms</a>. For information about available form components, see the <a href="../../../sites/authoring/using/default-components-foundation.md#form">Forms section of Components for Page Authoring</a>.</p>
-</note>
--->
 
 ### Random Participant Chooser {#random-participant-chooser}
 

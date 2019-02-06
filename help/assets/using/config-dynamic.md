@@ -3,12 +3,12 @@ title: Configuring Dynamic Media - Hybrid mode
 seo-title: Configuring Dynamic Media - Hybrid mode
 description: Learn how to configure Dynamic Media - Hybrid mode.
 seo-description: Learn how to configure Dynamic Media - Hybrid mode.
-uuid: 9cd8450f-42fa-4d41-9c30-cd9af0067ad6
+uuid: 567eff34-1ed2-4408-8446-eb769df138c0
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 9d5d2829-a843-4f4b-9622-bcf465b3cd9d
+discoiquuid: 30952701-2a6d-4a8e-908a-94b93eef6281
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/config-dynamic
 index: y
 internal: n
@@ -19,48 +19,11 @@ snippet: y
 
 Dynamic Media-Hybrid needs to be enabled and configured for use. Depending on your use case, Dynamic Media has several [supported configurations](#supporteddynamicmediaconfigurations).
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-03-01T14:52:39.817-0500
-Rename this topic to Configuring DM-Hybrid RSB: DONE
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:31:08.842-0500
-I don't see this "(optional) section on the live docs page RB: Not fixed. You commented on something that is a part of the template.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:32:03.655-0500
-Should there be a section saying what they need before starting? For example, to setup Image Service URL, they need to have a tenant created on the Publishing Receiver server. Of course, this may be part of provisioning or on-boarding. RB: Not fixed. Part of provisioning.
--->
-
 >[!NOTE]
 >
 >If you intend to configure and run Dynamic Media in Scene7 run mode, see [Configuring Dynamic Media - Scene7 mode](../../assets/using/config-dms7.md).
 >
 >If you intend to configure and run Dynamic Media in hybrid run mode, follow the instructions on this page.
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Watch <a href="https://docs.adobe.com/ddc/en/gems/how-to-setup-and-configure-aem-dynamic-media.html">How to Setup and Configure AEM Dynamic Media video</a> (58:27).</p>
-<p>In this recorded video training session you learn how to implement Dynamic Media. Topics covered include the following:</p>
-<ul>
-<li>Dynamic Media use cases</li>
-<li>Technical architecture</li>
-<li>How to configure Dynamic Media in AEM 6.2</li>
-<li>Setup and best practices for Dynamic Media imaging</li>
-<li>Setup and best practices for Dynamic Media video</li>
-</ul>
-</note>
--->
 
 Learn more about working with [video](../../assets/using/video.md) in Dynamic Media.
 
@@ -85,11 +48,11 @@ If you are a customer of Dynamic Media, you are required to use hybrid delivery 
 
 #### Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
 
-![](assets/chlimage_1-527.png) 
+![](assets/chlimage_1-518.png) 
 
 #### Hybrid publishing architecture for images {#hybrid-publishing-architecture-for-images}
 
-![](assets/chlimage_1-528.png) 
+![](assets/chlimage_1-519.png) 
 
 ## Supported Dynamic Media Configurations {#supported-dynamic-media-configurations}
 
@@ -100,13 +63,6 @@ The configuration tasks that follow reference the following terms:
 | AEM author node |White check mark in a green circle |The author node that you deploy to On-Premise or through Managed Services. |
 | AEM publish node |White "X" in a red square. |The publish node that you deploy to On-Premise or through Managed Services. |
 | Image Service publish node |White check mark in a green circle. |The publish node that you run on Data Centers that are managed by Adobe. Refers to the image service URL. |
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:34:48.006-0500
-I'm not sure what this column represents. While initially it seems to make sense, I don't see such icons used on the page to indicate the items listed here RB: What is the recommendation being made?
--->
 
 You may choose to implement Dynamic Media only for imaging, only for video, or for both imaging and video. To determine the steps for configuring Dynamic Media for your specific scenario, please reference the following table. 
 
@@ -186,51 +142,9 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
  </tbody> 
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:40:34.243-0500
-This link took me to the top of the page RB: Fixed
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:41:28.408-0500
-I do not know if this has been tested. Should it be listed? RB: Yes
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:42:11.873-0500
-I do not know if this has been tested. Should it be listed? RB: Yes.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:43:09.694-0500
-I'm not sure why #7 "Use default asset filters for replication." is a step. if they're default asset filters then there's no need to change anything RB: Not fixing.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:43:33.026-0500
-I do not know if this has been tested. Should it be listed? RB: Yes.
--->
-
 ## Enabling Dynamic Media {#enabling-dynamic-media}
 
 [Dynamic media](http://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you need to enable dynamic media by using the **dynamicmedia** run mode as you would, for example, **publish** run mode. Before enabling, make sure to review the [technical requirements.](../../sites/deploying/using/technical-requirements.md#dynamicmediaaddonprerequisites)
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:45:32.200-0500
-place a comma between "as you would" and "for example" RB: Fixed.
--->
 
 >[!NOTE]
 >
@@ -244,36 +158,9 @@ To enable dynamic media, you must enable the dynamic media runmode either from t
 
 To enable dynamic media:
 
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-08T19:31:18.915-0400
-Adjust the method for starting the dynamicmedia run mode because renaming is no longer the preferred choice. There are issues using the rename method and nosamplecontent Also, double-clicking the JAR is no longer an option for DM (either hybrid or s7)
--->
-
 1. On the command line, when launching the quickstart, do the following:
 
     * Add **-r dynamicmedia** to the end of the command line when starting the jar file.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-15T18:01:16.441-0500
-   Java arguments: - remove MaxPermSize as Java 8 complains about it - increase Xmx from 2048m to 4096m - you need to include the queryLimt items; if they are left off, certain UI aspects may not function properly -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 If this setup publishes to s7delivery, then you also need to include the trustStore arguments: -Djavax.net.ssl.trustStore=
-   <absolutefilepath>
-   /customerTrustStoreFileName> -Djavax.net.ssl.trustStorePassword=
-   <passwordfortruststorefile>
-   RB: Fixed
-   </passwordfortruststorefile>
-   </absolutefilepath>
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-15T17:51:54.475-0500
-   remove "either of" RB: Fixed.
-   -->
 
    ```shell
    java -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar -r dynamicmedia
@@ -289,13 +176,6 @@ Adjust the method for starting the dynamicmedia run mode because renaming is no 
    ```
 
 1. Request `http://localhost:4502/is/image` and make sure Image Server is now running.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T13:05:42.556-0500
-   remove the live URL link using this link will only work once the AEM server is up and running RB: Fixed.
-   -->
 
    >[!NOTE]
    >
@@ -345,23 +225,9 @@ To disable dynamic media after you have enabled it, you remove the **-r dynamicm
 
 To disable Dynamic Media after it has been enabled:
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-17T13:13:08.385-0500
-remove the part about removing dynamicmedia form the file name RB: Fixed.
--->
-
 1. On the command line, when launching the quickstart, you can do either of the following:
 
     * Do not add **-r dynamicmedia** to the command line when starting the jar file.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T13:14:24.018-0500
-   remove the "the end of" RB: Fixed
-   -->
 
    ```shell
    java -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar
@@ -369,13 +235,6 @@ remove the part about removing dynamicmedia form the file name RB: Fixed.
    ```
 
 1. Request `http://localhost:4502/is/image`. You receive a message that Dynamic Media is disabled.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-08T19:54:48.549-0400
-   remove the URL link; leaving the text
-   -->
 
    >[!NOTE]
    >
@@ -385,13 +244,6 @@ remove the part about removing dynamicmedia form the file name RB: Fixed.
    >Also note that when Dynamic Media run mode is disabled after configuring the AEM server, all assets that were uploaded under that run mode are now invalid.
 
 ## (Optional) Migrating Dynamic Media presets and configurations from 6.3 to 6.4 Zero Downtime {#optional-migrating-dynamic-media-presets-and-configurations-from-to-zero-downtime}
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-03-19T15:18:17.784-0400
-RB: After this topic is reviewed by Tom, copy and paste into the "Configuring Dynamic Media-Scene7 mode" topic. RB: done
--->
 
 If you are upgrading AEM Dynamic Media from 6.3 to 6.4-which now includes the ability for zero downtime (also know as Opt-in) deployments-you are required to run the following curl command to migrate all your presets and configurations from `/etc` to `/conf` in CRXDE Lite.
 
@@ -404,13 +256,6 @@ To migrate your custom presets and configurations from `/etc` to `/conf`, run th
 For all upgrades, either with or without the compatibility package, you can copy the out-of-the-box viewer presets by running the following command:
 
 `curl -u admin:admin http://localhost:4502/libs/settings/dam/dm/presets/viewer.pushviewerpresets`
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-17T15:26:15.948-0500
-I'm not sure what the actual marketing name is. Is it Zero Downtime? I know we have also referred to it as Opt-In RB: Fixed
--->
 
 ```
 
@@ -445,15 +290,7 @@ You need to set up replication authentication on author in order to replicate im
 
 To set up authentication:
 
-1. Contact Customer Care for your KeyStore file and password if you do not already have this. This is part of provisioning and it will associate the keys to your account.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-09T12:14:33.007-0400
-   change "keystore" to "KeyStore"
-   -->
-
+1. Contact Customer Care for your KeyStore file and password if you do not already have this. This is part of provisioning and it will associate the keys to your account. 
 1. In AEM, tap the AEM logo to access the global navigation console, then tap **Tools **&gt; **Security** &gt; **Users**.
 1. On the User Management page, navigate to the **dynamic-media-replication **user, then tap to open.
 
@@ -461,36 +298,15 @@ To set up authentication:
 
 1. In the Edit User Settings For dynamic-media-replication page, tap the **Keystore** tab, then click **Create KeyStore**.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T17:43:30.494-0500
-   Got Keystore file and password from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=DM+Client+-+Installing+Locally
-   -->
-
    ![](assets/DM-replication-keystore.png)
 
 1. Enter a password and confirm the password in the **Set KeyStore Access Password** dialog box.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T17:47:51.913-0500
-   DO NOT DELETE THIS!! Got Keystore file and password from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=DM+Client+-+Installing+Locally
-   -->
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Rick Brough (rbrough)
-   Last Modified Date: 2019-01-17T17:48:18.163-0500
-   <p>DO NOT DELETE THIS!! Got Keystore file and password from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=DM+Client+-+Installing+Locally </p>
-   -->
 
    >[!NOTE]
    >
    >Remember the password that you enter. You will need to enter it again when you configure the Replication Agent later.
 
-   ![](assets/chlimage_1-529.png)
+   ![](assets/chlimage_1-520.png)
 
 1. On the **Edit User Settings For dynamic-media-replication** page, expand the **Add Private Key from KeyStore file **area and add the following (see the images that follow):
 
@@ -504,53 +320,11 @@ To set up authentication:
     
     * In the** Private Key Alias** field, enter the private key alias. For example, `*companyname*-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key alias.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T15:32:20.836-0500
-   remove space between "Key" and "Store" updated UI has "KeyStore" RB: Fixed.
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T15:32:01.502-0500
-   The example should separated in some fashion - new sentence or in parantheses RB: Fixed.
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T17:40:55.179-0500
-   This screen shot still works because the naming of the field labels is the same. However, the screen shot is old as the UI has changed a bit. RB: Fixed. Got Keystore file and password from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=DM+Client+-+Installing+Locally
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T17:47:25.889-0500
-   DO NOT DELETE THIS! Got Keystore file and password from https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=scene7qa&title=DM+Client+-+Installing+Locally
-   -->
-
    ![](assets/edit_settings_fordynamic-media-replication2.png)
 
 1. Tap **Save & Close** to save your changes to this user.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T15:34:34.045-0500
-   Change "Save" to "Save & Close" The new UI has a changed button name RB: Fixed.
-   -->
-
    Next, you need to [configure the replication agent.](#configuringthereplicationagent)
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T15:35:12.934-0500
-   I'm not sure why this link is here, since it's the next section RB: Not fixing.
-   -->
 
 ### Configuring the Replication Agent {#configuring-the-replication-agent}
 
@@ -567,32 +341,11 @@ To configure the replication agent:
 
     * **Key Store Alias** - This value is the same as the** New Alias** value set when generating the key in [Setting Up Authentication](#settingupauthentication); for example, `replication`. (See step 7 in [Setting Up Authentication](#settingupauthentication).)
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T15:38:33.901-0500
-   This link takes you to the top of the page instead of Setting Up Authentication. RB: Fixed.
-   -->
-
     * **Key Store Password** - This is the KeyStore password that was created when you clicked/tapped **Create KeyStore**. Adobe does not provide this password. See** **step 5 of [Setting up Authentication](#settingupauthentication).
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T16:00:51.838-0500
-   This screen shot is not for the replication agent and confuses me. RB: I'll assume you're saying to delete the screenshot.
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T15:50:46.863-0500
-   This screen shot is not part of the replication agent and is confusing RB: I'll assume you are saying to delete the screenshot. Fixed.
-   -->
 
    The following image shows the replication agent with sample data:
 
-   ![](assets/chlimage_1-530.png)
+   ![](assets/chlimage_1-521.png)
 
 1. Tap **OK**.
 
@@ -632,20 +385,6 @@ When setting up authentication, here are some issues you may run into with their
 
 This issue can be caused by a failure to set up the KeyStore for `dynamic-media-replication` user.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-17T16:42:59.224-0500
-consistency: KeyStore is used for non-UI parts of documentation so change to KeyStore there are instances earlier where I do not correct "KeyStore" because the UI within AEM incorrectly has "Key Store" RB: The UI is inconsistent.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-09T14:26:57.964-0400
-delete this "keyStore" as it does not make sense in this sentence
--->
-
 ```shell
 Replication test to s7delivery:https://s7bern.macromedia.com:8580/is-publish/
 17.06.2016 18:54:43 - Transferring content for ReplicationAction{type=TEST, path[0]='/content/dam', time=1466214883309, userId='admin', revision='null'}
@@ -667,20 +406,6 @@ Replication test to s7delivery:https://s7bern.macromedia.com:8580/is-publish/
 
 **Solution**: Check that the `KeyStore` is saved to **dynamic-media-replication** user and is provided with the correct password.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-17T16:53:53.732-0500
-"s7bern.macromedia.com" is an actual test server. please change all server name references to something generic (e.g. localhost) Also, change "RootId=akshay" to some generic tenant name RB: Fixed.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-17T16:58:11.109-0500
-consistency: KeyStore is used for non-UI parts of documentation so change to KeyStore RB: Fixed.
--->
-
 #### Problem: Could Not Decrypt Key - Could Not Decrypt Data {#problem-could-not-decrypt-key-could-not-decrypt-data}
 
 ```xml
@@ -697,13 +422,6 @@ Replication test to s7delivery:https://<localhost>:8580/is-publish/
 
 **Solution**: Check the password. The password saved in the replication agent is not the same password that was used to create keystore.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-17T16:59:45.123-0500
-same as above; change "s7bern.macromedia.com" to "localhost" RB: Fixed.
--->
-
 #### Problem: InvalidAlgorithmParameterException {#problem-invalidalgorithmparameterexception}
 
 This issue is caused by a configuration error in your AEM Author instance. The java process on the Author is not getting the correct `javax.net.ssl.trustStore`. You see this error in the replication log:
@@ -715,13 +433,6 @@ This issue is caused by a configuration error in your AEM Author instance. The j
 
 Or the error log:
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-17T17:00:57.570-0500
-same as above; change "s7bern.macromedia.com" to "localhost" RB: Fixed.
--->
-
 ```shell
 07.25.2019 12:00:59.893 *ERROR* [sling-threadpool-db2763bb-bc50-4bb5-bb64-10a09f432712-(apache-sling-job-thread-pool)-90-com_day_cq_replication_job_s7delivery(com/day/cq/replication/job/s7delivery)] com.day.cq.replication.Agent.s7delivery.queue Error during processing of replication.
  
@@ -730,13 +441,6 @@ java.io.IOException: Failed to execute request 'https://replicate-na.assetsadobe
 ```
 
 **Solution**: Make sure the java process on the AEM Author has the system property **-Djavax.net.ssl.trustStore=** set to a valid truststore.
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-17T17:12:39.316-0500
-change RootId to some generic name RB: Fixed.
--->
 
 #### Problem: KeyStore is either not set up or it is not initialized {#problem-keystore-is-either-not-set-up-or-it-is-not-initialized}
 
@@ -760,23 +464,7 @@ Replication test to s7delivery:https://replicate-na.assetsadobe.com/is-publish
 1. Navigate to the User Management page:  
    `localhost:4502/libs/granite/security/content/useradmin.html`
 1. On the User Management page, navigate to the **dynamic-media-replication **user, then tap to open.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T14:49:41.681-0500
-   Change to "Find user dynamic-media-replication and click/tap it RB: Fixed.
-   -->
-
 1. Click the **KeyStore** tab. If the **Create KeyStore** button appears, then you need to redo the steps under [Setting up Authentication](#settingupauthentication) earlier.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T14:49:27.911-0500
-   Change this step to: Click KeyStore tab. If you see the Create KeyStore button, then you need to redo Setting up Authentication above RB: Fixed.
-   -->
-
 1. If you had to redo the KeyStore setup, you may need to do [Configuring the Replication Agent](/assets/using/config-dynamic.html?cq_ck=1547765376731#ConfiguringtheReplicationAgent) again, as well.
 
    Reconfigure the s7delivery Replication Agent.  
@@ -784,32 +472,11 @@ Replication test to s7delivery:https://replicate-na.assetsadobe.com/is-publish
 
 1. Tap **Test Connection** to verify the configuration is valid.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T14:49:15.586-0500
-   If you had to redo the KeyStore setup, you may need to do Configuring the Replication Agent again, too RB: Fixed
-   -->
-
 #### Problem: Publish Agent is using SSL instead of OAuth {#problem-publish-agent-is-using-ssl-instead-of-oauth}
 
 This issue may be caused by a hot fix or a feature pack that did not install correctly or overwrote the settings.
 
 Replicate log example:
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-23T14:49:00.137-0500
-either remove "that did not install correctly" or append " or overwrote the settings" RB: Fixed
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-23T14:48:44.822-0500
-change RootId to some other generic name RB: Fixed
--->
 
 ```shell
 01.08.2016 18:42:59 - Transferring content for ReplicationAction{type=TEST, path[0]='/content/dam', time=1470073379634, userId='admin', revision='null'}
@@ -831,14 +498,7 @@ To fix this issue:
    `localhost:4502/crx/de/index.jsp`
 
 1. Navigate to the s7delivery Replication Agent node.  
-   `localhost:4502/crx/de/index.jsp#/etc/replication/agents.author/s7delivery/jcr:content`
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T17:54:10.076-0500
-   the colon (:) in "jcr:content" may need to be URL encoded : = %3A RB: Not a live link. If they copy and paste it might be an issue. But leaving as is for them to visually follow.
-   -->
+   `localhost:4502/crx/de/index.jsp#/etc/replication/agents.author/s7delivery/jcr:content`  
 
 1. Add this setting to the replication agent (Boolean with value set to **True**):
 
@@ -860,27 +520,11 @@ To test your configuration:
 1. Upload an image asset. (In Assets, tap or click **Create** &gt; **Files** and select the file.)
 1. Wait for the workflow to finish.
 1. Publish the image asset. (Select the asset and tap **Quick Publish**.)
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T16:42:14.287-0500
-   add "Quick " in front of "Publish" RB: Fixed.
-   -->
-
 1. Navigate to the renditions for that image by opening the image, and tapping or clicking **Renditions**.
 
-   ![](assets/chlimage_1-531.png)
+   ![](assets/chlimage_1-522.png)
 
 1. Select any dynamic rendition.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T15:37:20.876-0500
-   This is not possible for two reasons: 1. unless the customer has added Image Presets. There are no Dynamic Renditions that are installed by default 2. Dynamic Media Configuration (Pre 6.3) under Cloud Services has not yet been configured. The Image Service URL is required for this test RB: Fixed. Added necessary information to introduction of this Test topic.
-   -->
-
 1. Click **URL** to obtain the URL for this asset.
 1. Navigate to the selected URL and check whether the image behaves as expected.
 
@@ -901,32 +545,8 @@ To configure dynamic media cloud services:
 ##
 
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools **&gt; **Cloud Services** &gt; **Dynamic Media Configuration (Pre-6.3)**.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-17T17:57:03.371-0500
-   It's: Dynamic Media Configuration (Pre 6.3) RB: Fixed.
-   -->
-
 1. On the Dynamic Media Configuration Browser page, in the left pane, select **global**, then click **Create**.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T15:38:28.804-0500
-   change "a context folder" to "global" RB: Fixed.
-   -->
-
 1. In the **Create Dynamic Media Configuration** dialog box, in the Title field, type a title.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T15:44:09.647-0500
-   For the Title field, there's nothing to select unless you're making it active. The user has to enter in a valid title RB: Fixed
-   -->
-
 1. If you are configuring Dynamic Media for video,
 
     * In the **Registration** **ID** field, type your registration ID.
@@ -950,54 +570,16 @@ You can configure video reporting across multiple installations of AEM using Dyn
 
 1. ` ```Verify and debug the package installation.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-23T15:54:27.218-0500
-Dynamic Media Cloud Services is the old name. Dynamic Media Configuration (Pre 6.3) RB: Fixed.
--->
-
 ### Creating a Video Analytics Preset package after configuring the first Author node {#creating-a-video-analytics-preset-package-after-configuring-the-first-author-node}
 
 When you have finished this task, you will have a package file that contains the Video Analytics presets. These presets contain a report suite, the tracking server, the tracking namespace, and the Marketing Cloud Organization ID, if available.
 
 1. If you have not already done so, configure Dynamic Media Configuration (Pre 6.3).
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T15:55:30.573-0500
-   Change Dynamic Media Cloud Services to Dynamic Media Configuration (Pre 6.3) RB Fixed.
-   -->
-
 1. (Optional) View and copy the Report Suite ID (you must have access to the JCR). While having the Report Suite ID is not required, it makes validation easier.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T15:56:07.837-0500
-   I find this Step incomplete because it's assuming i know how to do something. It needs to give instructions on how to do this RB: Not fixed.
-   -->
-
 1. Create a package using Package Manager.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T15:56:41.340-0500
-   This step is incomplete because it assumes I know how to create a package using Package Manager RB: Not fixed.
-   -->
-
 1. Edit the package to include a filter.
 
    In AEM: `/conf/global/settings/dam/dm/presets/analytics/jcr:content/userdata`
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T15:58:06.395-0500
-   This is the documentation for 6.4. Remove "In AEM 6.4 and later:" RB: Fixed. Removed version number.
-   -->
 
 1. Build the package.
 1. Download or share the Video Analytics preset package so that it can be shared with subsequent new Author nodes.
@@ -1008,23 +590,9 @@ Be sure that you complete this task ***before*** you configure Dynamic Media Con
 
 Make sure that the Video Analytics preset package from the first Author node is accessible on the new Author node.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-23T15:59:03.586-0500
-Change Dynamic Media Cloud Services to Dynamic Media Configuration (Pre 6.3) RB: Fixed.
--->
-
 1. Upload the Video Analytics preset package that you created eariler to Package Manager.
 1. Install the Video Analytics preset package.
 1. Configure Dynamic Media Configuration (Pre 6.3).
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T16:00:05.734-0500
-   Change Dynamic Media Cloud Services to Dynamic Media Configuration (Pre 6.3) RB: Fixed.
-   -->
 
 ### Verifying and debugging the package installation {#verifying-and-debugging-the-package-installation}
 
@@ -1039,20 +607,6 @@ Change Dynamic Media Cloud Services to Dynamic Media Configuration (Pre 6.3) RB:
       That is http://localhost:4502/crx/de/index.jsp#/conf/global/settings/dam/dm/presets/analytics/jcr%3Acontent/userdata  
   
       If you do not have access to CRXDE Lite on the Author node, you can check the preset through the Publish server.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T16:01:05.086-0500
-   Remove "AEM 6.4 and later - " RB: Fixed.
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T16:04:53.048-0500
-   This sample URL goes outside of the box RB: Not fixed.
-   -->
 
     * **Check the Video Analytics preset through the Image Server  
       **You can validate the Video Analytics preset directly by making an Image Server req=userdata request.  
@@ -1070,13 +624,6 @@ Change Dynamic Media Cloud Services to Dynamic Media Configuration (Pre 6.3) RB:
        trackingNamespace=aemvideodal
        trackingServer=aemvideodal.d2.sc.omtrdc.net
       ```
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T16:05:36.353-0500
-   Validation on Publish servers appears incomplete because I do not know how to obtain that information from a publish server RB: Not fixed.
-   -->
 
     * **Check the Video Analytics preset through the Video Reporting tool in AEM  
       **Click **Tools** &gt; **Assets** &gt; **Video Reporting  
@@ -1097,25 +644,11 @@ Change Dynamic Media Cloud Services to Dynamic Media Configuration (Pre 6.3) RB:
 
    This error is also displayed if Video Reporting is run before you configure Dynamic Media Configuration (Pre 6.3) services.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T16:07:50.443-0500
-   This may have been true in the past, but this the error I see when Dynamic Media Configuration (Pre 6.3) is not done. "The Dynamic Media Cloud Service must be configured before using the Video Reports feature." RB: Fixed.
-   -->
-
 ### Troubleshooting the video reporting configuration {#troubleshooting-the-video-reporting-configuration}
 
 * During installation, sometimes connections to the Analytics API server times out. The installation retries the connection 20 times, but it still fails. When this situation occurs, the log file records multiple errors. Search for `SiteCatalystReportService`.
 * Not installing the Analytics Preset package first can cause the creation of a new report suite.
 * Upgrading from AEM 6.3 to AEM 6.4 or AEM 6.4.1, then configuring Dynamic Media Configuration (Pre 6.3), still creates a report suite. This issue is known and slated to be fixed for AEM 6.4.2.
-
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-09T18:29:49.290-0400
-Change Dynamic Media Cloud Services to Dynamic Media Configuration (Pre 6.3)
--->
 
 ### About the Video Analytics preset {#about-the-video-analytics-preset}
 
@@ -1130,20 +663,6 @@ The preset’s properties are the following:
 
 AEM 6.4 and newer versions save this preset at `/conf/global/settings/dam/dm/presets/analytics/jcr:content/userdata`
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-23T16:09:31.319-0500
-change "sometime" to "sometimes" RB: Fixed.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-23T16:12:16.209-0500
-This location needs to be adjusted to: /conf/global/settings/dam/dm/presets/analytics/jcr:content/userdata RB: Fixed.
--->
-
 ## Replicating Catalog Settings {#replicating-catalog-settings}
 
 You must publish your own default catalog settings as part of the setup process through the JCR. To replicate catalog settings:
@@ -1155,20 +674,6 @@ You must publish your own default catalog settings as part of the setup process 
 1. In AEM, navigate to the following location in CRXDE Lite (requires admin privileges):
 
    **`http://<*server*>:<*port*>/crx/de/index.jsp#/conf/global/settings/dam/dm/imageserver/`**
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-03-19T23:35:09.810-0400
-   rb: THIS PATH NEEDS TO BE VERIFIED!
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T16:17:00.832-0500
-   By default, this path does not exist. You first need to do this curl command in Terminal (I don't know how to do curl in Windows except by using CygWin): curl -u admin:admin localhost:4502/libs/settings/dam/dm/presets/viewer.pushviewerpresets RB: Fixed. Added new step 1.
-   -->
 
 1. Tap the **Replication** tab.
 1. Tap **Replicate**.
@@ -1195,30 +700,9 @@ Besides replicating the assets, the following non-assets are also replicated:
 
 The filters provide a way for you to *exclude* assets from being replicated to the AEM publish node.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-23T16:49:42.542-0500
-Paths accurate? If not, what are the new paths? OLD PATHS: 1 /etc/dam/imageserver/configuration/jcr:content/settings 2 /etc/dam/imageserver/macros WHAT IS THE NEW PATH? 3 /etc/dam/presets/viewer WHAT IS THE NEW PATH? NEW PATHS??? 1 /conf/global/settings/dam/dm/imageserver/jcr:content/settings PATH DOESN'T EXIST. CANNOT FIND IT 2 /conf/global/settings/dam/dm/presets/macros CORRECT 3 /conf/global/settings/dam/dm/presets/viewer CORRECT
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-23T16:47:23.608-0500
-The full path Dynamic Media Delivery Configuration path does not exist for my DM Hybrid server Please check that that crx/de location is correct RB: Which path are you referring to? All of them?
--->
-
 ### Using Default Asset Filters for Replication {#using-default-asset-filters-for-replication}
 
 If you are using Dynamic Media for (1) imaging in production **or** (2) imaging and video, then you can use the default filters that we provide as-is. The following filters are active by default:
-
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-09T19:17:16.697-0400
-I have not used filters really at all. I'm assuming the information here is correct
--->
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -1261,13 +745,6 @@ I have not used filters really at all. I'm assuming the information here is corr
  </tbody> 
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-09T19:21:42.568-0400
-Insert before "Hence": The video renditions are kept on a separate server. When publish occurs, they are published to a public facing server.
--->
-
 >[!NOTE]
 >
 >Filters apply to mime types and cannot be path specific.
@@ -1277,25 +754,9 @@ Insert before "Hence": The video renditions are kept on a separate server. When 
 If you are using Dynamic Media for video-only, follow these steps to set up asset filters for replication:
 
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt;** Deployment** &gt; **Replication **&gt; **Agents on author**.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-09T19:37:09.218-0400
-   As stated above, I have not tested filters before so this is unknown and mostly assumed correct
-   -->
-
 1. On the Agents on author page, tap **Default Agent (publish)**.
 1. Tap **Edit**.
 1. In the **Agent Settings** dialog box, in the **Settings** tab, check **Enabled** to turn on the agent.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T17:00:17.716-0500
-   Besides check marking Enable in the Default Agent (publish) replication agent dialog, other values need to be set. The instructions should mention that they need to be set and possibly a page what values to use. RB: What are the values for the various fields? They're already pre-populated with values.
-   -->
-
 1. Tap **OK**.
 1. In AEM, tap **Tools** &gt; **General** &gt; **CRXDE Lite**.
 1.
@@ -1320,14 +781,6 @@ If you are using Dynamic Media for imaging in non-production deployments, follow
 
 1. Tap **Edit**.
 1. In the **Agent Settings** dialog box, in the **Settings** tab, check **Enabled** to turn on the agent.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T17:05:31.228-0500
-   As stated above, there are probably other values that need to be adjusted to make sure this works RB: Not fixed. The dialog is already pre-populated with default values. Why and/or when do they need to be changed.
-   -->
-
 1. Tap **OK**.
 1. In AEM, tap **Tools** &gt; **General** &gt; **CRXDE Lite**.
 1.
@@ -1361,7 +814,7 @@ To optionally customize asset filters for replication:
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt; **General **&gt; **CRXDE Lite**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters` to review the filters.
 
-   ![](assets/chlimage_1-532.png)
+   ![](assets/chlimage_1-523.png)
 
 1. To define the Mime Type for the filter, you can locate the Mime Type as follows:
 
@@ -1369,7 +822,7 @@ To optionally customize asset filters for replication:
 
    The following graphic is an example of an asset's path to dc:format.
 
-   ![](assets/chlimage_1-533.png)
+   ![](assets/chlimage_1-524.png)
 
    Notice that the `dc:format` for the asset `Fiji Red.jpg` is `image/jpeg`.
 
@@ -1406,20 +859,13 @@ To optionally customize asset filters for replication:
 
    The following graphic is an example of an asset's renditions.
 
-   ![](assets/chlimage_1-534.png)
+   ![](assets/chlimage_1-525.png)
 
    Using the example above, if you only wanted to replicate the PTIFF (Pyramid TIFF), then you would enter `+cqdam,*` which includes all the renditions that start with `cqdam`. Inthe example, that rendition is `cqdam.pyramid.tiff`.
 
    If you only wanted to replicate the original, then you would enter `+original`.
 
 ## Configuring Dynamic Media Image Server settings {#configuring-dynamic-media-image-server-settings}
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-03-02T13:46:27.453-0500
-https://jira.corp.adobe.com/browse/CQDOC-12186
--->
 
 Configuring the Dynamic Media Image Server involves editing the Adobe CQ Scene7 ImageServer bundle and the Adobe CQ Scene7 PlatformServer bundle.
 
@@ -1430,13 +876,6 @@ Configuring the Dynamic Media Image Server involves editing the Adobe CQ Scene7 
 **Prerequisite**: *Before *you configure Dynamic Media Image Server, ensure that your VM of Windows includes an installation of the Microsoft Visual C++ Libraries. The libraries are necessary to run Dynamic Media Image Server. You can [download the Microsoft Visual C++ 2010 Redistributable Package (x64) here](http://www.microsoft.com/en-us/download/details.aspx?id=14632).
 
 To configure Dynamic Media Image Server settings:
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-23T17:09:50.469-0500
-Reword the prerequisite because it assumes that I'm installing Windows, when I may be installing on Linux or Mac RB: Not fixed. We are not documenting installation on various operating systems. Sticking to the most common denominator which is Windows.
--->
 
 1. In the upper-left corner of AEM, tap or click **Adobe Experience Manager** to access the global navigation console, then tap **Tools **&gt; **Operations **&gt; **Web Console**.
 1. On the Adobe Experience Manager Web Console Configuration page, click or tap **OSGi **&gt; **Configuration **to list all the bundles that are currently running within AEM.
@@ -1516,13 +955,6 @@ The location of the default manifest configuration is taken from the **Catalog r
 
 **/conf/global/settings/dam/dm/imageserver/**
 
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-10T13:30:18.039-0400
-There are two Default Manifest Settings sections. This one needs to be moved up and the one up above needs to be removed, except the table. I tried the steps in this one and it did not work. I tried using the wiki, but it appears that the information here is the same. Someone will need to fix the wiki. I do not know how to get this to work. Please note that the wiki states that all three items need to be type cq:Page. Both dam and dm default to being Folders. This is an ugly change to document.
--->
-
 ![](assets/configimageservercrxdelite.png)
 
 You can change the values of the properties, as described in the table below, by entering new values.
@@ -1590,13 +1022,6 @@ Table of Manifest settings and their default values:
  </tbody> 
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-09T20:42:48.942-0400
-The description of how to set values for ResMode is confusing. What is "Eunum."?
--->
-
 ## Configuring Dynamic Media Color Management {#configuring-dynamic-media-color-management}
 
 Dynamic media color management lets you color correct assets for previewing.
@@ -1623,30 +1048,9 @@ You must install feature pack 12445 to use the dynamic media color management ca
 
 To install feature pack 12445:
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-23T17:59:30.504-0500
-Since this is documentation for 6.4, shouldn't we just have the link for FP-12445 1.2? RB: Not fixed.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-10T12:09:37.201-0400
-Shouldn't we suggest they install version 1.2? Or is there going to be a version updated for 6.4, since the file name for 1.2 has 6.3.0 in it.
--->
-
 1. Navigate to [Package Share](https://www.adobeaemcloud.com/content/packageshare.html) and download either `cq-6.3.0-featurepack-12445`.
 
    See [How to Work with Packages](../../sites/administering/using/package-manager.md) for more information on using Package Share and Packages in AEM.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T18:01:12.002-0500
-   Maybe mention that, even though the FP is labeled for 6.3.0, it still applies to 6.4.0? RB: Not fixed.
-   -->
 
 1. Install the feature pack.
 
@@ -1658,21 +1062,7 @@ To configure the default color profiles:
 
 1. In **Tools** &gt; **General** &gt; **CRXDE Lite**, navigate to */conf/global/settings/dam/dm/imageserver/configuration/settings *which contains the default Adobe Color Profiles.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-03-07T17:45:15.633-0500
-   Path accurate? If not, what is the new path? /conf/global/settings/dam/dm/imageserver/jcr:content/settings
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T18:04:23.270-0500
-   I installed the package and the settings node does not exist. RB: So, where is it? What is the correct path? Help me out here!!
-   -->
-
-   ![](assets/chlimage_1-535.png)
+   ![](assets/chlimage_1-526.png)
 
 1. Add* *a color correction property by scrolling to the bottom of the **Properties** tab and manually entering the property name, type, and value, which are described in the following tables. After you enter the values, click **Add** and then **Save All** to save your values.
 
@@ -1680,7 +1070,7 @@ To configure the default color profiles:
 
    For example, in **Name**, add `iccprofilecmyk`, select **Type** `String`, and add `WebCoated` as a **Value**. Then click **Add** and then **Save All **to save your values.
 
-   ![](assets/chlimage_1-536.png)
+   ![](assets/chlimage_1-527.png)
 
    **Color Correction Properties Table**
 
@@ -1748,13 +1138,6 @@ To configure the default color profiles:
   </tr> 
  </tbody> 
 </table>
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-10T14:14:28.315-0400
-   Since the steps to add color profiles to image serving are not working, I cannot spot check that the properties listed are correct.
-   -->
 
    >[!NOTE]
    >
@@ -1934,13 +1317,6 @@ To configure the default color profiles:
  </tbody> 
 </table>
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-23T18:05:48.256-0500
-   append to "Name" " (also Value)" RB: Append to what? Note: I'm assuming the Names listed below are correct as I do not have a list to compare it against
-   -->
-
 1. Tap or click **Save All**.
 
 For example, you could set the **iccprofilergb** to *sRGB*, and **iccprofilecmyk*** *to *WebCoated. *
@@ -1958,13 +1334,6 @@ Doing so would do the following:
 After you complete all the tasks above, activated Dynamic Media assets are served from the Image or Video Service. In AEM, this ability shows up in a **Copy Image URL**, **Copy Viewer URL**, **Embed Viewer Code**, and in the WCM.
 
 See [Delivering Dynamic Media Assets](../../assets/using/delivering-dynamic-media-assets.md).
-
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-10T14:26:47.997-0400
-This is misleading. It is saying that you have to do everything above to get it to work. However, this page has much more information than is necessary to get delivery working.
--->
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -2004,20 +1373,6 @@ This is misleading. It is saying that you have to do everything above to get it 
   </tr> 
  </tbody> 
 </table>
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-23T18:09:31.067-0500
-the 'config=' part of the URL needs to be adjusted for the newer configuration (i.e. 0dt) here's what I saw for the server I was using: /conf/global/settings/dam/dm/presets/viewer/Zoom_dark RB: Fixed.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-23T18:11:11.929-0500
-Like the Viewer URL above, the 'config=' needs to be adjusted to the new location RB: Fixed.
--->
 
 ### WCM Dynamic Media and Interactive Media Components {#wcm-dynamic-media-and-interactive-media-components}
 

@@ -3,12 +3,12 @@ title: Export to CSV
 seo-title: Export to CSV
 description: Export information about your pages to a CSV file on your local system
 seo-description: Export information about your pages to a CSV file on your local system
-uuid: c070c60b-f18d-4a35-b432-f19c71323ea3
+uuid: 4449cdd6-b242-468b-9e83-0b4909b1acfc
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 93eb1999-ac97-4b1f-815c-3af710c28ab4
+discoiquuid: e6818ab8-28f2-4502-a64e-b944350517e5
 index: y
 internal: n
 snippet: y
@@ -50,7 +50,7 @@ The Create CSV Export wizard allows you to select:
 
 The resulting `export.csv` file can be opened in Excel or any other compatible application.
 
-![](assets/chlimage_1-44.png)
+![](assets/chlimage_1-43.png)
 
 The create** CSV Export** option is available when browsing the **Sites** console (in List view): it is an option of the **Create** drop down menu:
 

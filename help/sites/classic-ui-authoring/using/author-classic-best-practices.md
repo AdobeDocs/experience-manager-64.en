@@ -3,12 +3,12 @@ title: Best Practices
 seo-title: Best Practices
 description: Authoring best practices describe how to use AEM in the most efficient and most effective way possible. This growing list of topics includes a variety of areas in AEM.
 seo-description: Authoring best practices describe how to use AEM in the most efficient and most effective way possible. This growing list of topics includes a variety of areas in AEM.
-uuid: b19917a2-698f-4dc4-b098-fbc246e33c11
+uuid: ac030970-8a51-4957-8bb4-27e5ea106450
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: e508dde9-af2f-4921-bfb4-fc81e93a8347
+discoiquuid: f03d8521-2a8d-4bd5-be76-e94391697697
 index: y
 internal: n
 snippet: y

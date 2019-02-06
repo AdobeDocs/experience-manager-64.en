@@ -3,26 +3,18 @@ title: User Administration and Security
 seo-title: User Administration and Security
 description: Learn about User Administration and Security in AEM.
 seo-description: Learn about User Administration and Security in AEM.
-uuid: c07de4ee-d1ca-4bb1-a9a0-36cd1b1ead49
+uuid: 2502e6d1-9b77-46e3-ba9c-745582ff0489
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 94813f76-6cc1-4684-9a8f-7dc82fa1b5b9
+discoiquuid: cec8e531-1fbb-4c1e-a545-5b461a5bea93
 index: y
 internal: n
 snippet: y
 ---
 
 # User Administration and Security{#user-administration-and-security}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:01:53.117-0500
-<p>suspect there's not much that can be recycled, but just in case, the MAC user/group admin is/was documented under:</p>
-<p>http://ec2author.day.com:8080/content/docs/en/marketing-cloud/user-group-admin.html</p>
--->
 
 This chapter describes how to configure and maintain user authorization and also describes the theory behind how authentication and authorization work in AEM.
 
@@ -242,17 +234,6 @@ Access Control Lists are made up of the individual permissions and are used to d
 >
 >For backwards compatibility reasons, the tests for actions does not take the special treatment of nodes defining **jcr:content** into account.
 
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:01:53.410-0500
-<p>Could you elaborate on what the note about the jcr:content nodes means? I'm not quite sure I understand what this is saying.<br /> </p>
-<p>angela: see documentation comment on http://bugs.day.com/bugzilla/show_bug.cgi?id=30575<br /> </p>
-<p> </p>
-<p>Tim: This must be outdated, Angela?<br /> </p>
-<p><br /> i don't think so...<br /> </p>
--->
-
 | **Action ** |**Description ** |
 |---|---|
 | Allow (Check mark) |AEM WCM allows the user to perform the action on this page or on any child pages. |
@@ -292,7 +273,7 @@ When you hover over the asterisk or exclamation mark, a tooltip provides more de
  </tbody> 
 </table>
 
-![](assets/chlimage_1-422.png)
+![](assets/chlimage_1-406.png)
 
 >[!NOTE]
 >
@@ -314,15 +295,6 @@ This will simplify the maintenance, as the number of groups is much smaller than
 
 Before modifying either permission, be sure you understand how they work and inter-relate. See the CRX documentation to illustrate how AEM WCM [evaluates access rights](../../../sites/administering/using/user-group-ac-admin.md#howaccessrightsareevaluated) and examples on setting up access control lists.
 
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T05:01:53.544-0500
-<p>Does CRX 2.2 documentation need to be updated to reflect how CQ WCM evaluates access rights? Please follow link above to see if what is in the CRX docu is correct.<br /> </p>
-<p> </p>
-<p>angela: not. this didn't change.<br /> </p>
--->
-
 ### Permissions {#permissions}
 
 Permissions give users and groups access to AEM functionality on AEM pages.
@@ -334,16 +306,6 @@ You allow or deny permissions by selecting or clearing the appropriate check box
 ![](assets/cqsecuritypermissionstab.png) 
 
 ### Viewing Detailed Permission Information {#viewing-detailed-permission-information}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (tmaret)
-Last Modified Date: 2017-11-30T05:01:53.625-0500
-<p>The detauil view provides more information and lists the groups that have a permission set at the given path. The current authorizable can be included or excluded from those group right from this detail view.</p>
-<p>Adding or removing a user from a group can affect his permissions at the given path, if so, the changes will be reflected in the Upper part of the detail view (no need to close the detail view to see the effect).<br /> </p>
-<p> </p>
-<p>AWB - Info added and linked to.<br /> </p>
--->
 
 Along with the grid view, AEM provides a detailed view of permissions for a selected user/group at a given path. The detail view provides additional information.
 
@@ -376,14 +338,6 @@ Details are split into two parts:
   </tr> 
  </tbody> 
 </table>
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (tmaret)
-Last Modified Date: 2017-11-30T05:01:53.696-0500
-<p>Note that the tooltips are also available on the main Permission view.<br /> </p>
-<p>AWB - Moved info to Permission States so as to cover the main and detail permission views.<br /> </p>
--->
 
 ### Impersonating another User {#impersonating-another-user}
 
@@ -471,14 +425,6 @@ The left tree lists all the users and groups currently in the system. You can se
 ![](assets/cqsecuritycolumncontext.png)
 
 The tabs provide access to various configurations:
-
-<!--
-Comment Type: remark
-Last Modified By: unknown Administrator (admin)
-Last Modified Date: 2017-11-30T05:01:53.991-0500
-<p>this table contains many (if not all, havent checked in detail) invalid links like http://security.html#Impersonating%20Users</p>
-<p>my guess is that these links should be anchors instead. will start replacing them (sspycher) </p>
--->
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -662,7 +608,7 @@ To add members to a group at in a certain path:
 
 1. Navigate to the path you want to add permissions to and click **Details**. The lower part of the details window provides information about who has permissions for that page.
 
-   ![](assets/chlimage_1-423.png)
+   ![](assets/chlimage_1-407.png)
 
 1. Select the check box in the **Member** column for the members you want to have permissions to that path. Clear the check box for member you want to remove permissions for. A red triangle appears in the cell you made changes to.
 1. Click **OK** to save your changes.
@@ -709,7 +655,7 @@ To remove members from a group at a certain path:
 
 1. Navigate to the path you want to remove permissions to and click **Details**. The lower part of the details window provides information about who has permissions for that page.
 
-   ![](assets/chlimage_1-424.png)
+   ![](assets/chlimage_1-408.png)
 
 1. Select the check box in the **Member** column for the members you want to have permissions to that path. Clear the check box for member you want to remove permissions for. A red triangle appears in the cell you made changes to.
 1. Click **OK** to save your changes.
@@ -818,7 +764,7 @@ To impersonate an existing user:
 1. Click the **Impersonators** tab.
 1. Click the user you want to be able to impersonate the selected user. Drag the user (who will impersonate) from the list to the Impersonate pane. The name appears in the list.
 
-   ![](assets/chlimage_1-425.png)
+   ![](assets/chlimage_1-409.png)
 
 1. Click **Save**.
 

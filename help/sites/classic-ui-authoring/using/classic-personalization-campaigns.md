@@ -3,12 +3,12 @@ title: Campaign Management
 seo-title: Campaign Management
 description: Campaign management provides digital marketers the opportunity to deliver personalized content and so create dedicated experiences for visitors. It allows you to orchestrate your marketing campaigns across the web, email and mobile services and so engage your visitors.
 seo-description: Campaign management provides digital marketers the opportunity to deliver personalized content and so create dedicated experiences for visitors. It allows you to orchestrate your marketing campaigns across the web, email and mobile services and so engage your visitors.
-uuid: 22a2a429-9d03-4b5b-87ca-9bbf26bd1505
+uuid: 75c1aec6-aa23-426a-b0f9-57541aa0110f
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 2f1baedf-9d62-40e5-adcb-9389303b4490
+discoiquuid: 0c6d27e7-8947-46a9-96ca-1c54657e85e5
 index: y
 internal: n
 snippet: y

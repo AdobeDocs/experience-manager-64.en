@@ -3,9 +3,9 @@ title: REDIRECT Offline Channels
 seo-title: REDIRECT Offline Channels
 description: null
 seo-description: null
-uuid: 267ce0f1-d073-4fd1-a07b-10746a7a08c4
+uuid: 96a6e908-bea8-4af5-aa5c-124582f0fc4c
 contentOwner: jsyal
-discoiquuid: 00987015-9dff-4762-9fe5-9799aa1b846d
+discoiquuid: ec5fd087-94e3-4f9f-8ca8-c441bf10ba34
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/offline-channels
 index: y

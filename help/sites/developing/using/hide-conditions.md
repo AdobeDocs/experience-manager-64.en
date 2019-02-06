@@ -3,12 +3,12 @@ title: Using Hide Conditions
 seo-title: Using Hide Conditions
 description: Hide conditions can be used to determine if a component resource is rendered or not.
 seo-description: Hide conditions can be used to determine if a component resource is rendered or not.
-uuid: 37b0ec6b-fe30-4748-8ab7-082ace851cd3
+uuid: d7448170-a7fe-4645-bb23-99295d4feba3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 90a00309-4927-4b0b-8747-b7290a496e06
+discoiquuid: b3dd2575-8223-4d7d-8b9b-b28da256ce1d
 index: y
 internal: n
 snippet: y
@@ -62,16 +62,16 @@ If a template author chooses to disable the child pages option, a design propert
 
 1. By default, the page author can use the list core component to build a list using child pages by choosing the option **Child pages**.
 
-   ![](assets/chlimage_1-235.png)
+   ![](assets/chlimage_1-228.png)
 
 1. In the design dialog of the list core component, the template author can choose the option **Disable Children** to prevent the option to generate a list based on child pages from being shown to the page author.
 
-   ![](assets/chlimage_1-236.png)
+   ![](assets/chlimage_1-229.png)
 
 1. A policy node is created under `/conf/we-retail/settings/wcm/policies/weretail/components/content/lis`t with a property `disableChildren` set to `true`.
 1. The hide condition is defined as the value of a `granite:hid`e property on the dialog property node `/conf/we-retail/settings/wcm/policies/weretail/components/content/list`
 
-   ![](assets/chlimage_1-237.png)
+   ![](assets/chlimage_1-230.png)
 
 1. The value of `disableChildren` is pulled from the design configuration and the expression `${cdDesign.disableChildren}` evaluates to `false`, meaning the option will not be rendered as part of the component.
 
@@ -79,5 +79,5 @@ If a template author chooses to disable the child pages option, a design propert
 
 1. The option **Child pages** is no longer rendered for the page author when using the list component.
 
-   ![](assets/chlimage_1-238.png)
+   ![](assets/chlimage_1-231.png)
 

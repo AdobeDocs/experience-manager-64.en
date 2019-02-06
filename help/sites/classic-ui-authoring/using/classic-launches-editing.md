@@ -3,12 +3,12 @@ title: Editing Launches
 seo-title: Editing Launches
 description: When a launch has been created for a page (or set of pages) you can edit the content in the launch copy of the page(s).
 seo-description: When a launch has been created for a page (or set of pages) you can edit the content in the launch copy of the page(s).
-uuid: dd017a14-4af7-4d36-bb4f-b2fa8352718a
+uuid: 5f6fcfe4-72a4-46f7-aea0-85026b96de1b
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: a17faf4e-4cae-47a6-a76a-d963bb303f1d
+discoiquuid: 6b6dd2d6-2d65-4097-8b10-fc36e353d7b0
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n
@@ -17,17 +17,6 @@ snippet: y
 
 # Editing Launches{#editing-launches}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:06:04.835-0500
-<p>6.2</p>
-<ul>
-<li>edit launch content to add/remove pages</li>
-<li>any other functionality in the launch console (touch)?</li>
-</ul>
--->
-
 ## Editing Launch Pages {#editing-launch-pages}
 
 When a launch has been created for a page (or set of pages) you can edit the content in the launch copy of the page(s).
@@ -35,7 +24,7 @@ When a launch has been created for a page (or set of pages) you can edit the con
 1. Open the page for editing.
 1. In Sidekick, select the **Versioning** tab, then expand the **Launches** group. The title of the launch that is currently being edited uses a bold font.
 
-   ![](assets/chlimage_1-16.jpeg)
+   ![](assets/chlimage_1-13.jpeg)
 
 1. Select the launch that you want to work on and then click **Switch**.
 1. Start editing.
@@ -75,5 +64,5 @@ When you are editing a launch of a page, information about the launch appears at
 * The user who performed the last change.
 * The status of the **Production Ready** flag (orange=not set; green=set).
 
-![](assets/chlimage_1-211.png)
+![](assets/chlimage_1-202.png)
 

@@ -4,9 +4,9 @@ seo-title: Customizing Content Fragment Models
 description: Content Fragment Models can be customized and extended.
 seo-description: Content Fragment Models can be customized and extended.
 page-status-flag: de-activated
-uuid: 0627e0e1-52db-4651-8158-c8b83d375a3d
+uuid: 3d51a09c-e6ca-45c7-9825-a118767a2b75
 contentOwner: aheimoz
-discoiquuid: bc25428d-8ed8-4fae-9ce5-12570c19bf60
+discoiquuid: 7d0af162-1a20-4e46-bbe2-ef8261c97b50
 noindex: true
 index: y
 internal: n
@@ -14,13 +14,6 @@ snippet: y
 ---
 
 # DO NOT PUBLISH, BUT DO NOT DELETE Customizing Content Fragment Models{#do-not-publish-but-do-not-delete-customizing-content-fragment-models}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-04-05T23:47:46.673-0400
-<p>Tags/Keywords have been removed<br /> </p>
--->
 
 The Content Fragment Model editor is a wizard based on `Formbuilder`, inherited from:
 
@@ -51,14 +44,6 @@ A user can [create a content fragment model](../../../assets/using/content-fragm
 ## Structure of a Model {#structure-of-a-model}
 
 The wizard will create an entry with this structure:
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-03-19T04:50:01.884-0400
-<p>Image size is an issue with the CHL platform - see </p>
-<p>https://jira.corp.adobe.com/browse/MWPW-20327</p>
--->
 
 ![](assets/CF-54.png)
 
@@ -111,15 +96,6 @@ The **Content Fragment Model Editor** has two parts:
 >This is because the content of `/libs` is overwritten the next time you upgrade your instance (and may be overwritten when you apply either a hotfix or feature pack).
 
 The properties on the right side define a form that is submitted directly into JCR under `/conf`; see the path in the example [Structure of a Model](/sites/developing/using/customizing-content-fragment-models.html?cq_ck=1521442259410#StructureofaModel).
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-03-19T08:54:00.547-0400
-<p>wiki page:</p>
-<p style="margin-left: 40px;">The properties on the right side define a form that is submitted directly into JCR, to the path previously created in the <strong>/conf</strong> folder. When a data type is instantiated, HTML inputs are created for every property the component needs in order to be rendered in a Content Fragment, such as: property name, which acts as an identifier for components; rendered as - what should the component be rendered as; description - description of the component in the Content Fragment; etc.</p>
-<p>have used the actual property names; is this meaningful and are they correct?</p>
--->
 
 When a data type is instantiated, HTML inputs are created for every property the component needs to be rendered in a content fragment. For example, these include:
 

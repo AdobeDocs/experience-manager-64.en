@@ -3,12 +3,12 @@ title: Using Liking
 seo-title: Using Liking
 description: Adding and configuring the Liking component
 seo-description: Adding and configuring the Liking component
-uuid: 1caef60f-35cb-413e-99b4-c5036ad44e38
+uuid: 7aae0569-2d85-436b-820c-52188793a9bb
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 264c87b3-137b-4a50-b96f-9c8d01359398
+discoiquuid: 5ca83284-3975-41b1-bd44-b8a7173082d9
 index: y
 internal: n
 snippet: y
@@ -30,17 +30,17 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/essentials-liking.md#essentialsforclientside) are included, this is how the `Liking` component will appear.
 
-![](assets/chlimage_1-99.png)
+![](assets/chlimage_1-92.png)
 
 ### Configuring Liking {#configuring-liking}
 
 Select the placed `Liking` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-100.png)
+![](assets/chlimage_1-93.png)
 
 Under the **Texts & Labels **tab, specify the properties used to record likes.
 
-![](assets/chlimage_1-101.png)
+![](assets/chlimage_1-94.png)
 
 * **Positive Response Label** 
   (*Required*) The property name for a positive response.

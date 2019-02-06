@@ -4,30 +4,15 @@ seo-title: DO NOT PUBLISH - Changing the template applied to an adaptive form
 description: To change the appearance, design, or layout of an adaptive form, you can change the template applied to it without impacting the form contents.
 seo-description: To change the appearance, design, or layout of an adaptive form, you can change the template applied to it without impacting the form contents.
 page-status-flag: de-activated
-uuid: 04365a5b-a47a-49b4-9ece-820611b54477
+uuid: 4e91e62d-aea8-4b06-a4e9-5981a91726b8
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1d6776d1-8e52-442c-a2eb-92fe9cb7e62e
+discoiquuid: c16a75ac-713e-4ed2-a84e-44a84d2af2e6
 index: y
 internal: n
 snippet: y
 ---
 
 # DO NOT PUBLISH - Changing the template applied to an adaptive form{#do-not-publish-changing-the-template-applied-to-an-adaptive-form}
-
-<!--
-Comment Type: remark
-Last Modified By: (vishgupt)
-Last Modified Date: 2017-11-30T06:06:45.437-0500
-<p>This feature is removed from 6.2. Hence, pulling it down and removing references from other articles.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: (asgupta)
-Last Modified Date: 2017-11-30T06:06:45.451-0500
-<p>Link to the template creation article and other relevant customization articles, ones those are available.</p>
-<p>http://chl-author.corp.adobe.com/content/help/en/aem-forms/6/custom-adaptive-forms-templates.html<br /> </p>
--->
 
 Changing an adaptive form’s template updates the appearances, the layout, and the design of the form. A change in the template does not impact the form data or the information present in the form.
 

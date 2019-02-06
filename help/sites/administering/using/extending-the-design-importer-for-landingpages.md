@@ -3,12 +3,12 @@ title: Extending and Configuring the Design Importer for Landing Pages
 seo-title: Extending and Configuring the Design Importer for Landing Pages
 description: Learn how to configure the Design Importer for landing pages.
 seo-description: Learn how to configure the Design Importer for landing pages.
-uuid: 6b5bb1c0-c233-40b1-acc0-8d3f42c07f27
+uuid: 8085e92b-3d80-47ec-bc62-3740fbe5f17c
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 1b1cb333-8c9e-4628-97b2-140431577282
+discoiquuid: 132809c6-265f-4a89-b824-fdf53468982e
 index: y
 internal: n
 snippet: y
@@ -114,12 +114,6 @@ If any attribute like id or class is applied on the body tag for example `<body 
 #### Drag and Drop zip {#drag-and-drop-zip}
 
 Drag/Drop zip upload is not supported for Internet Explorer and Firefox versions 3.6 and earlier. To upload a design when using these browsers, click the drop file zone to open up a file upload dialog box and upload your design using that dialog.
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-336.png" />
--->
 
 The browsers that support "drag and drop" of the design zip are Chrome, Safari5.x, Firefox 4 and above.
 
@@ -559,13 +553,6 @@ In case of any warnings (e.g. HTML refers to images that do not exist within the
 * HTML refers to styles that do not exist within the package.
 
 ### Where are the files of the ZIP file being stored in AEM? {#where-are-the-files-of-the-zip-file-being-stored-in-aem}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2018-03-14T10:07:33.494-0400
-<p>What is the equivalent in we.retail?</p>
--->
 
 After the landing page has been imported, the files (images, css, js, etc.) within the design package are stored in the following location in AEM:
 

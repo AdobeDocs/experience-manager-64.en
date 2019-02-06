@@ -3,12 +3,12 @@ title: Components for Page Authoring
 seo-title: Components for Page Authoring
 description: The components are available when editing a page from the Components tab of the sidekick and the Insert New Component selector (when you double-click in the Drag components or assets here area).
 seo-description: The components are available when editing a page from the Components tab of the sidekick and the Insert New Component selector (when you double-click in the Drag components or assets here area).
-uuid: e5a2de6d-034a-4ee9-861f-3750c8335142
+uuid: 6ec02051-215c-4500-bf6b-e3ee56e718b2
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: fd01b273-30cc-406f-9c0e-7e7ff00955a6
+discoiquuid: 0308fab0-4357-4174-b288-98be9a7172aa
 index: y
 internal: n
 snippet: y
@@ -42,17 +42,9 @@ The General components are the basic components that you use to create content.
 
 ### Account Item {#account-item}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-07T05:35:12.517-0500
-<p>purpose?</p>
-<p>dialog == Account Component with Title / Description / Link<br /> </p>
--->
-
 You can define a link with title and description.
 
-![](assets/chlimage_1-35.png) 
+![](assets/chlimage_1-30.png) 
 
 ### Adaptive Image {#adaptive-image}
 
@@ -132,12 +124,6 @@ The dialog allows you to edit properties for your instance of the Adaptive Image
 #### Extending the Adaptive Image Component {#extending-the-adaptive-image-component}
 
 For information about customizing the Adaptive Image component, see [Understanding the Adaptive Image Component](../../../sites/developing/using/responsive.md#usingadaptiveimages).
-
-<!--
-Comment Type: draft
-
-<h3>AEM Form ******</h3>
--->
 
 ### Carousel {#carousel}
 
@@ -231,7 +217,7 @@ The Chart component lets you add a bar, line, or pie chart. AEM creates a chart 
 
 The following show an example of chart data followed by the resulting Bar chart:
 
-![](assets/chlimage_1-36.png) ![](assets/dc_chart_use.png)
+![](assets/chlimage_1-31.png) ![](assets/dc_chart_use.png)
 
 >[!NOTE]
 >
@@ -248,14 +234,6 @@ The following show an example of chart data followed by the resulting Bar chart:
 [Content fragments](../../../sites/classic-ui-authoring/using/classic-page-author-content-fragments.md) are created and managed as page-independent assets. You can then use these fragments, and their variations, when authoring your content pages.
 
 ### Design Importer {#design-importer}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-07T05:35:13.510-0500
-<p>use case? </p>
-<p>not sure of the status - have found jira issues for porting to touch.</p>
--->
 
 This allows you to upload a zip file holding a design package.
 
@@ -297,7 +275,7 @@ The external application integration component (**External**) enables you to emb
 
 The external application is integrated into the paragraph system of the AEM page; for example, when using a Target application of `http://en.wikipedia.org/wiki/Main_Page`:
 
-![](assets/chlimage_1-37.png)
+![](assets/chlimage_1-32.png)
 
 >[!NOTE]
 >
@@ -388,31 +366,7 @@ When an image is loaded, you can configure the following:
 
 The final image (with **Title** and **Description**) may be shown as:
 
-![](assets/chlimage_1-38.png) 
-
-<!--
-Comment Type: draft
-
-<h3>Image - HTL</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>For the author, this component is comparable to the <a href="#image">Image</a> component. A significant difference is the <strong>Accessibility</strong> tab and the parameters:</p>
-<ul>
-<li><strong>Alternative text</strong><br /> An alternative text for use when creating accessible content (see Alt Text for the <a href="#image">Image</a> component).<br /> </li>
-<li><strong>Image is decorative</strong><br /> Can be set when the image should be ignored by assistive technology.</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>This component has been implemented with <a href="/content/help/en/experience-manager/htl/user-guide">HTML Template Language (HTL)</a>.<br /> </p>
-</note>
--->
+![](assets/chlimage_1-33.png) 
 
 ### Layout Container {#layout-container}
 
@@ -476,42 +430,11 @@ The following example shows a **List** component the way it may display a list o
 
 ![](assets/dc_list_use.png) 
 
-<!--
-Comment Type: draft
-
-<h3>List - HTL</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>For the author, this component is comparable to the <a href="#list">List</a> component. A significant difference is the <strong>Accessibility</strong> tab and the parameters:</p>
-<ul>
-<li><strong>Description for "Previous"</strong><br /> To improve accessibility describe the context of "Previous"; e.g. which list it belongs to.<br /> </li>
-<li><strong>Description for "Next"</strong><br /> To improve accessibility describe the context of "Previous"; e.g. which list it belongs to.<br /> </li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>This component has been implemented with <a href="/content/help/en/experience-manager/htl/user-guide">HTML Template Language (HTL)</a>.<br /> </p>
-</note>
--->
-
 ### Login {#login}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-07T05:35:14.642-0500
-<p>when to use, how to link to actual authorization...<br /> </p>
--->
 
 These provides the Username and Password fields.
 
-![](assets/chlimage_1-39.png)
+![](assets/chlimage_1-34.png)
 
 You can configure:
 
@@ -539,21 +462,6 @@ You can configure:
 
 ### Order Status {#order-status}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-07T05:35:14.813-0500
-<p>commerce? </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-07T05:35:14.843-0500
-<p>use case?</p>
-<p>when to use, how to link to actual order...<br /> </p>
--->
-
 * **Title**
 
     * **Title** 
@@ -565,20 +473,7 @@ Last Modified Date: 2017-12-07T05:35:14.843-0500
     * **Type/Size** 
       Select from the selection provided.
 
-![](assets/chlimage_1-40.png) 
-
-<!--
-Comment Type: draft
-
-<h3>Portlet ******</h3>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-12-07T05:35:14.965-0500
-<p>Available in Component Console, not on pages and/pr design mode</p>
--->
+![](assets/chlimage_1-35.png) 
 
 ### Reference {#reference}
 
@@ -607,7 +502,7 @@ For example:
 
 Once configured the content will appear exactly as on the source page. The fact that it is a reference is only seen when you open the component for editing:
 
-![](assets/chlimage_1-41.png) 
+![](assets/chlimage_1-36.png) 
 
 ### Search {#search}
 
@@ -763,31 +658,11 @@ For more detailed information about the Text component and the functionality pro
 
 In addition to the dialog based Rich Text editing mode, AEM also provides [Inplace Editing](../../../sites/authoring/using/editing-content.md), which allows direct editing of the text as it is displayed in the layout of the page.
 
-<!--
-Comment Type: draft
-
-<h3>Text - HTL</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>For the author, this component is comparable to the <a href="#text">Text</a> component. </p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>This component has been implemented with <a href="/content/help/en/experience-manager/htl/user-guide">HTML Template Language (HTL)</a>.<br /> </p>
-</note>
--->
-
 ### Text & Image {#text-image}
 
 The Text & Image component adds a text block and an image. You can also add and edit text and images separately. See the [Text](#text) and [Image](#image) components for details.
 
-![](assets/chlimage_1-42.png) ![](assets/chlimage_1-43.png)
+![](assets/chlimage_1-37.png) ![](assets/chlimage_1-38.png)
 
 You can configure:
 
@@ -819,30 +694,6 @@ The following example shows a Text Image Component displaying the image left-ali
 
 ![](assets/dc_textimage_use.png) 
 
-<!--
-Comment Type: draft
-
-<h3>Text & Image - HTL</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>For the author, this component is comparable to the <a href="#textimage">Text & Image</a> component. A significant difference is the <strong>Accessibility</strong> tab and the parameters:</p>
-<ul>
-<li><strong>Alternative text</strong><br /> An alternative text for use when creating accessible content (see Alt Text for the <a href="#textimage">Image</a> component).<br /> </li>
-<li><strong>Image is decorative</strong><br /> Can be set when the image should be ignored by assistive technology.</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>This component has been implemented with <a href="/content/help/en/experience-manager/htl/user-guide">HTML Template Language (HTL)</a>.<br /> </p>
-</note>
--->
-
 ### Title {#title}
 
 The title component can either:
@@ -864,26 +715,6 @@ You can configure:
 The following example shows a **Title** component being displayed; the design is determined by the site-specific CSS.
 
 ![](assets/dc_title_use.png) 
-
-<!--
-Comment Type: draft
-
-<h3>Title - HTL</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>For the author, this component is comparable to the <a href="#title">Title</a> component. </p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>This component has been implemented with <a href="/content/help/en/experience-manager/htl/user-guide">HTML Template Language (HTL)</a>.<br /> </p>
-</note>
--->
 
 ### Video {#video}
 
@@ -916,55 +747,15 @@ Columns are a mechanism to control the layout of content in AEM. In a standard i
 
 The following example shows the 2 Columns and 3 Columns components in use. You can use the placeholders for new components:
 
-![](assets/chlimage_1-44.png) 
+![](assets/chlimage_1-39.png) 
 
 ### 2 Columns {#columns-1}
 
 A Column Control component that defaults to 2 equal columns.
 
-<!--
-Comment Type: draft
-
-<h3>2 Columns - HTL</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>For the author, this component is comparable to the <a href="#2columns">2 Columns</a> component. </p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>This component has been implemented with <a href="/content/help/en/experience-manager/htl/user-guide">HTML Template Language (HTL)</a>.<br /> </p>
-</note>
--->
-
 ### 3 Columns {#columns-2}
 
 A Column Control component that defaults to 3 equal columns.
-
-<!--
-Comment Type: draft
-
-<h3>3 Columns - HTL</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>For the author, this component is comparable to the <a href="#3columns">3 Columns</a> component. </p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>This component has been implemented with <a href="/content/help/en/experience-manager/htl/user-guide">HTML Template Language (HTL)</a>.<br /> </p>
-</note>
--->
 
 ### Column Control {#column-control}
 
@@ -974,26 +765,6 @@ The Column Control component lets users select how they want to split the conten
 
     * **Column Layout** 
       Select the number of columns you want rendered. Once created, each column has its own link for dragging components or assets when adding content.
-
-<!--
-Comment Type: draft
-
-<h3>Column Control - HTL</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>For the author, this component is comparable to the <a href="#columncontrol">Column Control</a> component. </p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>This component has been implemented with <a href="/content/help/en/experience-manager/htl/user-guide">HTML Template Language (HTL)</a>.<br /> </p>
-</note>
--->
 
 ## Form {#form}
 
@@ -1104,16 +875,6 @@ In between the start and end of a form, you can add form components that define 
 #### Start of Form {#start-of-form}
 
 This component is needed to define the start of a new form on a page. You can configure:
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-07T05:35:18.007-0500
-<p>need info about:</p>
-<ul>
-<li>action configuration -&gt; create content -&gt; view selector ?</li>
-</ul>
--->
 
 * **Form**
 
@@ -1332,7 +1093,7 @@ You can specify various parameters including a title, description and element na
 
 This allows you to provide the fields needed for entering credit card details. You can configure it to specify the types of card accepted and the information required (for example, security code).
 
-![](assets/chlimage_1-45.png) 
+![](assets/chlimage_1-40.png) 
 
 ### Dropdown List {#dropdown-list}
 
@@ -1463,21 +1224,7 @@ The standard text field can be configured to your required size and with with yo
 
 ### Workflow Submit Button(s) {#workflow-submit-button-s}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-07T05:35:20.105-0500
-<p>use case?<br /> </p>
--->
-
 This allows you to create a Submit button for use in a workflow.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-07T05:35:20.159-0500
-<p>always shows following, even when in a workflow</p>
--->
-
-![](assets/chlimage_1-46.png)
+![](assets/chlimage_1-41.png)
 

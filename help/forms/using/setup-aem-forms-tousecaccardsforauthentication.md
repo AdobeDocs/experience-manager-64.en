@@ -4,10 +4,10 @@ seo-title: [Do not publish] Use CAC cards with AEM Forms Document Security
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 38240233-5052-4faf-b46e-fe854492e0fd
+uuid: 0211692c-91e8-4da0-b3d0-d6fa5e1ee339
 contentOwner: khsingh
 geptopics: SG_AEMFORMS/categories/working_with_document_security
-discoiquuid: 425bbb69-3593-49ed-8ee9-3453056e31ae
+discoiquuid: d5fcd6e9-138e-4306-86d8-0fa561fd279a
 index: y
 internal: n
 snippet: y

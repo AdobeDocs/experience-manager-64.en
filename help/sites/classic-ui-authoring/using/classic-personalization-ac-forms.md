@@ -3,12 +3,12 @@ title: Creating Adobe Campaign Forms in AEM
 seo-title: Creating Adobe Campaign Forms in AEM
 description: AEM lets you create and use forms that interact with Adobe Campaign on your website. Specific fields can be inserted into your forms and mapped to the Adobe Campaign database.
 seo-description: AEM lets you create and use forms that interact with Adobe Campaign on your website. Specific fields can be inserted into your forms and mapped to the Adobe Campaign database.
-uuid: ea3eccf9-9177-4bf5-8bf1-1b61ea2f0e71
+uuid: 94ef205a-1a89-44dd-bb61-58b44ee0b6be
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: aa2e0d77-7158-4c22-ad11-bff48f6ac081
+discoiquuid: b823c527-e2c6-495a-aadd-99005ad3c80c
 index: y
 internal: n
 snippet: y
@@ -38,14 +38,6 @@ Although you create these forms independently, in a typical use case, you genera
 
 The form automatically updates based on the user. See [Editing Form Content](#editingformcontent) for more information.
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>If using Feature Pack 6576 (for touch-optimized UI editing), you must also <a href="https://github.com/Adobe-Marketing-Cloud/aem-adobecampaign-forms-sample">download</a> the sample Adobe Campaign form page template for AEM from github: <a href="https://github.com/Adobe-Marketing-Cloud/aem-adobecampaign-forms-sample">https://github.com/Adobe-Marketing-Cloud/aem-adobecampaign-forms-sample</a>. The content package contains a sample AEM template and page component to create an Adobe Campaign profile/subscription form page supporting both Classic and Touch UI authoring.</p>
-</note>
--->
-
 ## Making a Template Available {#making-a-template-available}
 
 Before being able to create forms that are specific to Adobe Campaign, you must make the different templates available in your AEM application.
@@ -72,7 +64,7 @@ First of all, check the connection between the author and publish instances and 
 
 1. Click **Create** to create the form.
 
-   ![](assets/chlimage_1-212.png)
+   ![](assets/chlimage_1-203.png)
 
    You can then [edit and configure your form's content](#editingformcontent).
 
@@ -106,7 +98,7 @@ This section only details specific links to Adobe Campaign. For more information
 
 1. Add your selected components by dragging them from the toolbox and dropping them into the form. For more information on the available Adobe Campaign specific components, see [Adobe Form Components](../../../sites/classic-ui-authoring/using/classic-personalization-ac-components.md).
 
-   ![](assets/chlimage_1-213.png)
+   ![](assets/chlimage_1-204.png)
 
 1. Configure the added fields by double clicking them. The **Adobe Campaign** tab lets you link the field to a field in the Adobe Campaign recipient table. You can also specify whether the field is part of the reconciliation key which allows recipients that are already present in the Adobe Campaign database to be recognized.
 

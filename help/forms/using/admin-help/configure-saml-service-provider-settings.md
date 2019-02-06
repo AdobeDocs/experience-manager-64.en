@@ -3,12 +3,12 @@ title: Configure SAML service provider settings
 seo-title: Configure SAML service provider settings
 description: You can configure SAML service provider settings to allow users to login and authenticate to AEM forms via a specified third-party identity provider (IDP).
 seo-description: You can configure SAML service provider settings to allow users to login and authenticate to AEM forms via a specified third-party identity provider (IDP).
-uuid: 1dead340-ef21-4626-9336-bf27befbd503
+uuid: 29c38862-ad1e-4e76-94e8-a42da2e84ecd
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 8c23ded9-47b7-4850-8e5d-2342c34c77b6
+discoiquuid: 95a2c385-97f5-45a0-bb47-ab4dab408db6
 index: y
 internal: n
 snippet: y

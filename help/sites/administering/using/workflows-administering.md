@@ -3,12 +3,12 @@ title: Administering Workflow Instances
 seo-title: Administering Workflow Instances
 description: Lear how to administer Workflow Instances.
 seo-description: Lear how to administer Workflow Instances.
-uuid: b8f46715-de64-4ae0-a2b0-7bef06b26bdc
+uuid: 0fdf518a-442f-4ca0-8120-4039c09196bd
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 2b07703e-790e-495d-89bc-db97f3a18ed3
+discoiquuid: 14bcf45b-861f-4d27-83b4-b910c45435cc
 index: y
 internal: n
 snippet: y

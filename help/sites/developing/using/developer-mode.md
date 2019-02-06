@@ -3,26 +3,18 @@ title: Developer Mode
 seo-title: Developer Mode
 description: Developer mode opens a side panel with several tabs that provide a developer with infomation about the current page
 seo-description: Developer mode opens a side panel with several tabs that provide a developer with infomation about the current page
-uuid: 4fb15be9-be22-42db-8343-f4345fe4d19d
+uuid: f13760b6-d6ec-4088-9c06-5548e49b6469
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: ebe60855-e1f1-4dce-bb59-687c9eb4cde8
+discoiquuid: 4d6318da-cff9-4f00-a297-b60b3a8b0ad2
 index: y
 internal: n
 snippet: y
 ---
 
 # Developer Mode{#developer-mode}
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:17.324-0500
-<p>might move</p>
-<p>link to<br /> http://author.day.com/content/docs/en/aem/6-2/develop/components/hobbes.html<br /> http://author.day.com/content/docs/en/aem/6-2/develop/components/components-develop.html</p>
--->
 
 When editing pages in AEM, several [modes](../../../sites/authoring/using/author-environment-tools.md#modestouchoptimizedui) are available, including Developer mode. This opens a side panel with several tabs that provide a developer with infomation about the current page. The three tabs are:
 
@@ -35,13 +27,6 @@ These help a developer to:
 * Discover: what pages are composed of.
 * Debug: what is happening where and when, which in turn helps to resolve issues.
 * Test: does the application behave as expected.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:17.407-0500
-<p>please confirm required permissions/privileges.</p>
--->
 
 >[!CAUTION]
 >
@@ -57,15 +42,6 @@ Last Modified Date: 2018-01-18T11:19:17.407-0500
 >    * Access to Developer Mode is given to users who have write access on `/apps`.
 >
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:17.490-0500
-<p>what exactly needs documenting for <a href="https://jira.corp.adobe.com/browse/DOC-5442">https://jira.corp.adobe.com/browse/DOC-5442</a> on this page?</p>
-<p>would the following with a link to the full documentation be sufficient (when it's written)?</p>
-<p> </p>
--->
-
 >[!CAUTION]
 >
 >Developer mode is only available on a standard author instance that is not using the nosamplecontent run-mode.
@@ -76,13 +52,6 @@ Last Modified Date: 2018-01-18T11:19:17.490-0500
 >* a publish instance
 >
 >It should be disabled again after use.
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:17.571-0500
-<p>is the Gems session still appropriate?</p>
--->
 
 >[!NOTE]
 >
@@ -96,7 +65,7 @@ Last Modified Date: 2018-01-18T11:19:17.571-0500
 
 Developer mode is implemented as a side panel to the page editor. To open the panel, select **Developer** from the mode selector in the toolbar of the page editor:
 
-![](assets/chlimage_1-247.png)
+![](assets/chlimage_1-240.png)
 
 The panel is divided into two tabs:
 
@@ -106,37 +75,7 @@ The panel is divided into two tabs:
 
 ### Components {#components}
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:17.774-0500
-<p>is there more - enough to justify its own page?</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:17.800-0500
-<p>what are the possible colours for the timings (eg orange, yellow, ???)? and their significance?</p>
-<p>is the following true? what about orange/yellow?</p>
-<p>"Timers:</p>
-<ul>
-<li>The component render times that are excessively slow should be displayed in red.</li>
-<li>Excessively slow means that it takes 3x longer than the average to render (always consider the time of the component itself, basically substracting the time sub-components took to render).</li>
-<li>Parent components of slow components should display some hint that they have a slow child.</li>
-<li>If the page takes more that 100ms to render, it's time should be displayed in big fat blinking shaking phosphorescent red.</li>
-</ul>
-<p>"</p>
--->
-
-![](assets/chlimage_1-248.png) 
-
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:17.860-0500
-<p>what the difference between links provided by View Details and the one provided via Edit Script (this component one appears in the both).....just quicker access?<br /> </p>
--->
+![](assets/chlimage_1-241.png)
 
 This shows a component tree that:
 
@@ -157,14 +96,14 @@ This can help to:
 
 Each component entry can show (for example):
 
-![](assets/chlimage_1-249.png)
+![](assets/chlimage_1-242.png)
 
 * **View Details**: a link to a list that shows:
 
     * all component scripts used to render the component.
     * the repository content path for this specific component.
 
-  ![](assets/chlimage_1-250.png)
+  ![](assets/chlimage_1-243.png)
 
 * **Edit Script**: a link that:
 
@@ -175,7 +114,7 @@ Each component entry can show (for example):
     * The hierarchy within the selected component.
     * Rendering times for the selected component in isolation, any individual components nested within it, and the combined total.
 
-  ![](assets/chlimage_1-251.png)
+  ![](assets/chlimage_1-244.png)
 
 >[!CAUTION]
 >
@@ -183,23 +122,16 @@ Each component entry can show (for example):
 
 ### Errors {#errors}
 
-![](assets/chlimage_1-252.png)
+![](assets/chlimage_1-245.png)
 
 Hopefully the **Errors** tab will always be empty (as above), but when problems occur the following details are shown for each component:
 
 * A warning if the component writes an entry to the error log, together with details of the error and direct links to the appropriate code within CRXDE Lite.  
 * A warning if the component opens an admin session.
 
-<!--
-Comment Type: remark
-Last Modified By: (aheimoz)
-Last Modified Date: 2018-01-18T11:19:18.390-0500
-<p>these are from the 6.0 Gems session - any better examples from 6.1 ? how to reproduce an error (example used in gems doesn't seem to work any more - better error handling? :)<br /> </p>
--->
-
 For example, in a situation where a undefined method is called, the resulting error will be shown in the **Errors** tab:
 
-![](assets/chlimage_1-253.png)
+![](assets/chlimage_1-246.png)
 
 The component entry in the tree of the Components tab will also be marked with an indicator when an error occurs.
 

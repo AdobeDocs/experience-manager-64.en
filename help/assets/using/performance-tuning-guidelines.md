@@ -3,12 +3,12 @@ title: Assets Performance Tuning Guide
 seo-title: Assets Performance Tuning Guide
 description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
 seo-description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
-uuid: 49ffdf89-677e-4144-9780-7f71ecf5bfc9
+uuid: a8336064-0755-4a25-bae0-e3fabb26f097
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 30b8ef12-4d1a-497d-bac0-80b253c15912
+discoiquuid: 40f75a06-12c6-4696-964c-c2b3feba7b32
 tagskeywords: performance tuning, AEM Assets, software optimization, hardware optimization
 index: y
 internal: n
@@ -326,41 +326,6 @@ If your users don't need to be able to search the contents of assets, for exampl
 ### Guess Total {#guess-total}
 
 When creating queries, especially for an Asset Share implementation, that generate large result sets, use the `guessTotal` parameter to avoid heavy memory utilization when you run them.
-
-<!--
-Comment Type: draft
-
-<h2>WebDAV</h2>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Using AEM Desktop</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>When using the Assets Desktop App, do not work on the files directly from the mounted file system. Each time a file is saved, it requires a full reupload to the server. Due to inefficiencies in WebDAV, it can result in the file being transferred back and forth several times. Furthermore, when working with multiple apps, temporary files are created on the local file system. While the Desktop App ignores most common temporary files, not all use cases can be anticipated. For this reason, Adobe recommends that you copy the files to a different location on your file system, work from there, and drop the files back into AEM when finished.</p>
-<p>For more information about troubleshooting the AEM Desktop App, see <a href="https://helpx.adobe.com/experience-manager/kb/troubleshooting-companion-app.html">https://helpx.adobe.com/experience-manager/kb/troubleshooting-companion-app.html</a>.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Windows</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>For Windows 7, some modifications in Internet Explorer settings can improve the performance of WebDAV. See the following articles for more information:</p>
-<ul>
-<li><a href="https://support.microsoft.com/en-us/kb/2445570">https://support.microsoft.com/en-us/kb/2445570</a></li>
-<li><a href="http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/">http://oddballupdate.com/2009/12/fix-slow-webdav-performance-in-windows-7/</a></li>
-</ul>
--->
 
 ## Known issues {#known-issues}
 

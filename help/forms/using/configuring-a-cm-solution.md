@@ -3,11 +3,11 @@ title: Configuring a Correspondence Management solution
 seo-title: Configuring a Correspondence Management solution
 description: null
 seo-description: null
-uuid: c7ccee9e-968a-4a69-b2e8-e7a1ad0a52c3
+uuid: 7d073cb0-3fe3-4b47-892e-d4efb1875a8c
 topic-tags: correspondence-management
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
-discoiquuid: 2e0c24ed-2a63-41b8-8a7a-0a606e8b908b
+discoiquuid: a9f66c8e-7c06-4b51-a717-77e41a12ef61
 index: y
 internal: n
 snippet: y

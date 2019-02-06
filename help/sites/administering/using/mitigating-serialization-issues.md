@@ -3,12 +3,12 @@ title: Mitigating serialization issues in AEM
 seo-title: Mitigating serialization issues in AEM
 description: Learn how to mitigate serialization issues in AEM.
 seo-description: Learn how to mitigate serialization issues in AEM.
-uuid: d3b747f9-2046-4318-970b-2262a2f82b78
+uuid: 3a486f92-70fc-442e-8692-dc0636361661
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: dad1ca39-58e5-4cb7-ad5f-dab9b7c2035f
+discoiquuid: 83fe0d23-e0d2-4674-b1f2-b0cccfd32610
 index: y
 internal: n
 snippet: y
@@ -42,13 +42,6 @@ Adobe officially supports Java 6, 7, and 8, however our understanding is that No
 
 1. Go to the Bundle Web Console at `http://server:port/system/console/bundles`
 1. Look for the serialization bundle and start it. This should dynamically autoload the NotSoSerial agent.
-
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-11-30T05:00:47.998-0500
-<p>To verify. The name of the bundle seems to have changed with 6.2 L18. Also, it doesn't look like it requires explicit installation.<br /> </p>
--->
 
 ## Installing the Agent on Application Servers {#installing-the-agent-on-application-servers}
 
@@ -147,24 +140,5 @@ In order to load the agent manually, follow the below instructions:
 
 ## Other Considerations {#other-considerations}
 
-If you are running on an IBM JVM, please review the documentation on support for the Java Attach API at [this location](https://www.ibm.com/support/knowledgecenter/SSSTCZ_2.0.0/com.ibm.rt.doc.20/user/attachapi.html).
-
-<!--
-Comment Type: draft
-
-<h2>Revision History</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>Adobe has slightly modified NotSoSerial to allow for dynamic configuration and to start with an enhanced blacklist. We have contributed this source to the notsoserial project at [0]<br /> <br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2017-11-30T05:00:48.702-0500
-<p>I don't think this should make it to public documentation. We might need to revise this if there will be a need for a revision history that lists the changes made on the Adobe version of the agent.<br /> </p>
--->
+If you are running on an IBM JVM, please review the documentation on support for the Java Attach API at [this location](https://www.ibm.com/support/knowledgecenter/SSSTCZ_2.0.0/com.ibm.rt.doc.20/user/attachapi.html).  
 

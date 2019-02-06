@@ -3,12 +3,12 @@ title: Multi-zone Layout
 seo-title: Multi-zone Layout
 description: Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more.
 seo-description: Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more.
-uuid: 1be4aef2-1210-489c-8700-5d58558a9e9f
+uuid: bc4097c7-98a8-452c-bf49-afdc51f030b6
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 09cafcae-5ed7-4780-81bf-7c4181f9dd22
+discoiquuid: bcd3ee4a-ab7c-4433-936f-ef3c19ca2c9d
 noindex: true
 index: y
 internal: n

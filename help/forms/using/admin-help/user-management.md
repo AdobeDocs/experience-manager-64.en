@@ -3,12 +3,12 @@ title: User Management
 seo-title: User Management
 description: User Management allows you to enable SSO between AEM forms modules and Netegrity SiteMinder-protected applications by using SAML. This document provides more information about User Management.
 seo-description: User Management allows you to enable SSO between AEM forms modules and Netegrity SiteMinder-protected applications by using SAML. This document provides more information about User Management.
-uuid: c3f44641-b862-4701-97e9-4526af194909
+uuid: 59915b63-2db1-4520-9688-abc0be1a3ddd
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: e6cbb7dc-b620-485b-9d69-05bae2334cef
+discoiquuid: 656683b4-079d-4e30-af20-ae199353a328
 index: y
 internal: n
 snippet: y
@@ -47,13 +47,6 @@ After you install and configure your AEM forms environment with Document Securit
 1. Click Add Domain(s) and add existing domains as required.
 
 ## Administrator user restrictions {#administrator-user-restrictions}
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Bug 1320481:</p>
--->
 
 Users with certain types of administrator privileges cannot access the Workspace end-user web pages for security reasons. Because these web pages can exist outside a firewall, permitting administration-level tasks could pose a security risk. Only users who have the Workspace Administrator or Workspace User privileges can access the end-user web pages.
 

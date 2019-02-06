@@ -3,12 +3,12 @@ title: Badges Console
 seo-title: Badges Console
 description: The Communities Badges console lets you add custom badges that can be displayed for members when earned (awarded) or when they take on a specific role in the community (assigned)
 seo-description: The Communities Badges console lets you add custom badges that can be displayed for members when earned (awarded) or when they take on a specific role in the community (assigned)
-uuid: 0685d990-779d-463c-bc79-712cf0eec8e4
+uuid: bad8d045-1b74-4f1a-87b1-484d2d4abbbd
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: b7750e13-e6d8-4e6c-9e7f-6b57cf2ed473
+discoiquuid: 12d4849f-8bee-4509-8501-57fa88e8892c
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ In the author environment, to reach the Badges console
 
 This console displays the badges currently available and from which new badges can be added.
 
-![](assets/chlimage_1-248.png)
+![](assets/chlimage_1-241.png)
 
 ## Create Badge {#create-badge}
 
@@ -46,7 +46,7 @@ A badge is created by uploading a suitably small image (72dpi with a height rang
 
 If the publish environment is a farm of publishers, it is necessary to configure [user sync](../../communities/using/sync.md).
 
-![](assets/chlimage_1-249.png)
+![](assets/chlimage_1-242.png)
 
 * **Upload Image** 
   (*required*) A badge image with a recommended size of 32 x 32 pixels at 72dpi in either the JPEG or PNG format.

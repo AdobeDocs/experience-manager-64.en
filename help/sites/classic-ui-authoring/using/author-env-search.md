@@ -3,12 +3,12 @@ title: Search
 seo-title: Search
 description: The author environment of AEM provides various mechanisms for searching for content, dependent on the the resource type.
 seo-description: The author environment of AEM provides various mechanisms for searching for content, dependent on the the resource type.
-uuid: 2a1985e8-049f-47d5-accc-61eed3cfdbcd
+uuid: 7b7905a0-c0ce-4bcb-af96-de2c23cc41d2
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: fba929d7-d799-4f27-9fb5-1d051df1da1e
+discoiquuid: ebbbe052-c952-432b-9fa3-4faa2ac66510
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ The author environment of AEM provides various mechanisms for searching for cont
 
 To access the search panel, click on the **Search** tab at the top of the left-hand pane of the appropriate console.
 
-![](assets/chlimage_1-160.png)
+![](assets/chlimage_1-152.png)
 
 The search panel lets you search across all your website pages. It contains fields and widgets for the following:
 
@@ -53,7 +53,7 @@ Execute the search by clicking **Search** at the bottom of the pane. Click **Res
 
 At various locations a filter can be set (and cleared) to drill down and refine your view:
 
-![](assets/chlimage_1-161.png)
+![](assets/chlimage_1-153.png)
 
 ## Find and Replace {#find-and-replace}
 

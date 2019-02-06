@@ -4,9 +4,9 @@ seo-title: Insert an adaptive form to AEM Sites single page application
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 77c7b631-6d0b-4767-8c0c-8608e03a8834
+uuid: 01472707-caa8-42f2-900e-967e23764516
 contentOwner: khsingh
-discoiquuid: 94285dd5-50d3-451f-8b16-fc3ed37d7038
+discoiquuid: c81edd5d-0dbd-4d54-b102-633c2f2e5bdb
 index: y
 internal: n
 snippet: y

@@ -3,25 +3,18 @@ title: Identity Management
 seo-title: Identity Management
 description: Learn about identity management in AEM.
 seo-description: Learn about identity management in AEM.
-uuid: 53f0ae83-c6d1-471f-ad1a-dd31049a79cd
+uuid: 7d577210-bab4-4ad6-b041-74e4a1a453f6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: e3d871c7-7e44-49a1-b49f-aec1f5dfc25c
+discoiquuid: 44b19ec9-70a4-4439-a489-49af18cf0015
 index: y
 internal: n
 snippet: y
 ---
 
 # Identity Management{#identity-management}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:36.840-0500
-<p>See <a href="http://bugzilla.day.com/bugzilla/show_bug.cgi?id=31331">#31331 - Clean up and re-design profile and account management</a> <br /> </p>
--->
 
 Individual visitors to your website can only be identified when you provide the ability for them to log in. There are various reasons why you may want to provide a login capability:
 
@@ -61,91 +54,19 @@ A [form](../../../sites/authoring/using/default-components.md#formcomponent) can
 For example, users can request a new profile, using the Geometrixx page  
 `http://localhost:4502/content/geometrixx-outdoors/en/user/register.html`
 
-![](assets/registerform.png) 
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:36.969-0500
-<p>foundation/components/account/actions/accountrequest</p>
--->
+![](assets/registerform.png)
 
 Upon submitting the request, the profile page opens where the user can provide personal details.
 
-![](assets/profilepage.png) 
-
-<!--
-Comment Type: draft
-
-<p>Submitting the request will take the user to a <strong>Thank You</strong> page, after which they will receive an email.<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-462.png" />
--->
-
-<!--
-Comment Type: draft
-
-<p>The email contains a link to the page for confirming the request by registering details for the new profile; for example, using the Geometrixx page<br /> <span class="code">http://localhost:4502/content/geometrixx/en/toolbar/account/register.html</span><br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-463.png" />
--->
-
-<!--
-Comment Type: draft
-
-<p>Completion of the registration will be confirmed:<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-464.png" />
--->
+![](assets/profilepage.png)
 
 The new account is also visible in the [Users console](../../../sites/administering/using/security.md).
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:37.158-0500
-<p>foundation/components/account/actions/update</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:37.171-0500
-<p>need information about sending an email when the registration is complete.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:37.185-0500
-<p>check purpose of hidden field on</p>
-<p> http://localhost:4502/cf#/content/geometrixx/en/toolbar/account/register.html<br /> </p>
--->
 
 ## Login {#login}
 
 The login component can be used to collect the login information, then activate the login process.
 
 This provides the visitor with the standard fields of **Username** and **Password**, with a **Login** button to activate the login process when the credentials are entered.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:37.246-0500
-<p>need information about the actual mechanics.....or links to the info.<br /> </p>
--->
 
 For example, users can either log in, or create a new account, using the **Sign In** option on the Geometrixx toolbar, which uses the page:
 
@@ -221,13 +142,6 @@ You can add fields to the profile definition. For example to add a "Favorite Col
 
 ## Profile States {#profile-states}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:38.152-0500
-<p>http://bugs.day.com/bugzilla/show_bug.cgi?id=30345</p>
--->
-
 There are a number of use cases that require knowing whether a user (or rather their profile) is in a *specific state* or not.
 
 This involves defining an appropriate property in the user profile in a way that:
@@ -266,25 +180,11 @@ A workflow is needed to implement the actions related to the states. For example
 
 ## Profiles and User Accounts {#profiles-and-user-accounts}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacyref-6-1)
-Last Modified Date: 2017-11-30T05:00:38.275-0500
-<p>Remark jhoh@adobe.com</p>
-<p><br _rte_temp_br="brEOB" /> This section needs to be changed for CQ 5.5 and also for 5.6:</p>
-<ul>
-<li>the problem only applies for users defined in /home/users/geometrixx</li>
-<li>because there the mentioned rep:policy with wildcard setting is set.</li>
-<li>Other users not below /home/users/geometrixx are not affected.</li>
-</ul>
-<p>Therefor the easiest way to get rid of this problem is to remove /home/users/geometrixx, which is a good thing anyway for any production environment!<br /> </p>
--->
-
 Profiles are stored in the Content Repository as part of the the [user account](/sites/administering/using/security-landing#UsersandGroupsinAEM).
 
 The profile can be found under `/home/users/geometrixx`:
 
-![](assets/chlimage_1-465.png)
+![](assets/chlimage_1-445.png)
 
 On a standard installation (author or publish) everyone has read access to the entire profile information of all users. everyone is a "*Built-in group automatically containing all existing users and groups. The list of members cannot be edited*".
 
@@ -301,15 +201,7 @@ If such access is not appropriate for your installation you can change these def
 
 This can be done using the ** [Access Control](../../../sites/administering/using/user-group-ac-admin.md#accessrightmanagement)** tab:
 
-![](assets/aclmanager.png) 
-
-<!--
-Comment Type: draft
-
-<p>variant 2)<br /> in CRX: create a single access control entry on the first common ancestor node granting permissions to the group you wish to have access to all the profile nodes and in addition edit the restriction to limit the effect of that additional read permission to the profile node and all child items.</p>
-<p> </p>
-<p>Minimal instructions how to use the wildcard acl (and any other access control list containing restrictions):<br /> <br /> - ac editing on jcr repository level is only possible in CRX repository management (neither in CQ nor in CRXDE)<br /> <br /> - open access control editor and select a node (or in case of principalbased ac also a principal) on which you wish to edit the permissions.<br /> <br /> - edit the access control content:<br /> &gt; select an access control policy to be applied at the selected node<br /> &gt; or edit an existing policy at that node<br /> <br /> - if the access control policy is an access control list you will be allowed to add/remove/reorder entries.<br /> <br /> - if the ACL is the jackrabbit extension of the jcr interface it may allow to additionally specify restrictions for every single access control entry that limit the effect in an implementation specific way.<br /> <br /> - the possible restrictions are listed in the right column with it's name and an form field suitable for the required restriction type.<br /> <br /> - in case of the resource-based AC configured by default this is a single, optional restriction named "rep:glob", which requires a string value.<br /> <br /> - the rep:glob string value is a path or path-fragment that may contain wildcard character(s) in order to limit the effect of the ACE to a subset of items in the subtree of the selected node.<br /> <br /> - for examples please see javadoc of org.apache.jackrabbit.core.security.authorization.GlobPattern<br /> <br /> - the related jackrabbit API calls are<br /> JackrabbitAccessControlList#getRestrictionNames()<br /> JackrabbitAccessControlList#getRestrictionType(String)<br /> JackrabbitAccessControlList#addEntry(<br /> Principal, Privilege[], boolean, Map&lt;String, Value&gt;)<br /> <br /> JackrabbitAccessControlEntry#getRestrictionNames()<br /> JackrabbitAccessControlEntry#getRestriction(String)</p>
--->
+![](assets/aclmanager.png)  
 
 ## Profile Components {#profile-components}
 

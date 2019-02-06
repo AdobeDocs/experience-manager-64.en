@@ -3,12 +3,12 @@ title: Community Components Guide
 seo-title: Community Components Guide
 description: An interactive development tool to get started with the social component framework (SCF)
 seo-description: An interactive development tool to get started with the social component framework (SCF)
-uuid: 815c3ce0-349d-422d-9074-37beb3d2a9f2
+uuid: db3e1058-3ffc-4986-a536-9c43ca179ed5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: a46603c7-6134-48ad-a541-6c034cea0713
+discoiquuid: 2ed9ad7c-8e11-4ea7-998a-592f380f0bfe
 index: y
 internal: n
 snippet: y
@@ -63,13 +63,13 @@ The guide provides a listing of SCF components available for preview and prototy
 
 Components Guide as viewed on an author instance in Edit mode :
 
-![](assets/chlimage_1-416.png) 
+![](assets/chlimage_1-403.png) 
 
 ## Component Pages {#component-pages}
 
 Select a component from the list along the left side of the page. 
 
-![](assets/chlimage_1-417.png)
+![](assets/chlimage_1-404.png)
 
 The main body of the guide displays :
 
@@ -93,11 +93,11 @@ When using the guide on an author instance, it is possible to experience configu
 
 For the Community Components guide, some component dialog settings are overlayed with the [Includable](../../communities/using/scf.md#addorincludeacommunitiescomponent) toggle state. To toggle between using the existing resource or a dynamically included resource, in edit mode select both the component and includable text and double-click to open the edit dialog :
 
-![](assets/chlimage_1-418.png)
+![](assets/chlimage_1-405.png)
 
 Under the **Templates **tab :
 
-![](assets/chlimage_1-419.png)
+![](assets/chlimage_1-406.png)
 
 * **Include the child component with sling:include** 
   
@@ -163,7 +163,7 @@ Using the comments component as an example, on either the author or publish inst
 
 1. notice there are now 3 tabs for Templates, CSS, and Data.
 
-![](assets/chlimage_1-420.png) ![](assets/chlimage_1-421.png) 
+![](assets/chlimage_1-407.png) ![](assets/chlimage_1-408.png) 
 
 ### Templates Tab {#templates-tab}
 

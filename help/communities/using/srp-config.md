@@ -3,12 +3,12 @@ title: Storage Configuration
 seo-title: Storage Configuration
 description: How to access the Storage Configuration Console
 seo-description: How to access the Storage Configuration Console
-uuid: 1f899947-e7d8-4d76-9dda-8017898ca5ac
+uuid: e9952c08-dde7-498e-bdff-8a6ec196ce0e
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 9733928b-f001-4323-88a9-00bd581aad97
+discoiquuid: 5e215e5a-9c2b-489c-bbd4-215da11e532f
 index: y
 internal: n
 snippet: y
@@ -27,7 +27,7 @@ For a discussion of storage options and deployment topologies, visit
 
 ## Storage Configuration Console {#storage-configuration-console}
 
-![](assets/chlimage_1-194.png)
+![](assets/chlimage_1-187.png)
 
 In the author environment, to reach the storage configuration console
 

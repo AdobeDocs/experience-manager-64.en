@@ -3,12 +3,12 @@ title: Messaging Feature
 seo-title: Messaging Feature
 description: Configuring Messaging components
 seo-description: Configuring Messaging components
-uuid: 42630b80-62d4-4543-84e1-33184c587b5a
+uuid: 7ba961bb-02b3-42de-9078-c96cdaede412
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: e6b884a5-e77e-45f9-9b2a-ed59de7f2036
+discoiquuid: 8ed42e19-4e7e-4805-9d5c-17faf8d7478c
 index: y
 internal: n
 snippet: y
@@ -55,15 +55,15 @@ In order to access the configuraiton dialog, it is necessary to cancel inheritan
 
 Once the configuration is complete, it is necessary to restore inheritance by selecting the `broken link` icon.
 
-![](assets/chlimage_1-408.png)
+![](assets/chlimage_1-395.png)
 
 Once inheritance is canceled, it will be possible to select the `configure` icon to open the configuration dialog.
 
-![](assets/chlimage_1-409.png)
+![](assets/chlimage_1-396.png)
 
 #### Basic tab {#basic-tab}
 
-![](assets/chlimage_1-410.png)
+![](assets/chlimage_1-397.png)
 
 * **Service selector** 
   (*Required*) Set this to the value of the property**`serviceSelector.name`** from the [AEM Communities Messaging Operations Service](../../communities/using/messaging.md#messagingoperationsservice).
@@ -85,7 +85,7 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
 
 #### Display tab {#display-tab}
 
-![](assets/chlimage_1-411.png)
+![](assets/chlimage_1-398.png)
 
 * **Mark Read Button** 
   If checked, displays a `Read`button allowing a message to be marked as read.
@@ -120,15 +120,15 @@ In order to access the configuraiton dialog, it is necessary to cancel inheritan
 
 Once the configuration is complete, it is necessary to restore inheritance by selecting the `broken link` icon.
 
-![](assets/chlimage_1-412.png)
+![](assets/chlimage_1-399.png)
 
 Once inheritance is canceled, it will be possible to select the `configure` icon to open the configuration dialog.
 
-![](assets/chlimage_1-413.png)
+![](assets/chlimage_1-400.png)
 
 #### Basic tab {#basic-tab-1}
 
-![](assets/chlimage_1-414.png)
+![](assets/chlimage_1-401.png)
 
 * **Redirect URL** 
   Enter the URL of the page shown after the message is sent. For example, `../messaging.html`.
@@ -147,7 +147,7 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
 
 #### Display tab {#display-tab-1}
 
-![](assets/chlimage_1-415.png)
+![](assets/chlimage_1-402.png)
 
 * **Show Subject Field** 
   If checked, show the `Subject` field and enable adding a subject to the message. Default is not checked.

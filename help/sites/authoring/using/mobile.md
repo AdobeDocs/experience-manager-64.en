@@ -3,12 +3,12 @@ title: Authoring a Page for Mobile Devices
 seo-title: Authoring a Page for Mobile Devices
 description: When authoring for mobile, you can switch between several emulators to see what the end-user sees
 seo-description: When authoring for mobile, you can switch between several emulators to see what the end-user sees
-uuid: 1fcd7328-553c-4fce-8c4a-00498ffe4818
+uuid: 797346c4-a4f4-44c9-b89e-66d287d02976
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 168ec21d-b4e0-4c16-bb4e-bfb255148d07
+discoiquuid: d3b3aea9-25f1-46c8-bba4-0e6b08bc1ae6
 index: y
 internal: n
 snippet: y

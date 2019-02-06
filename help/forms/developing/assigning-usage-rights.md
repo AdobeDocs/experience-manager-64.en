@@ -3,12 +3,12 @@ title: Assigning Usage Rights
 seo-title: Assigning Usage Rights
 description: null
 seo-description: null
-uuid: 915d08f7-504e-4dc3-a7b7-a8c33cf238ce
+uuid: a07c221c-f243-413e-89f7-7bd979c23f33
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 5b639883-03ee-41e7-a044-77cc0dc1b699
+discoiquuid: 0e109a73-4ddc-4818-8051-d8243cd63e28
 index: y
 internal: n
 snippet: y

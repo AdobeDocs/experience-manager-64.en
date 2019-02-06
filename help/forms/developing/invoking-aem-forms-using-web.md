@@ -3,12 +3,12 @@ title: Invoking AEM Forms using Web Services
 seo-title: Invoking AEM Forms using Web Services
 description: null
 seo-description: null
-uuid: f024c03c-6b37-4efc-919b-94ae80dd2e38
+uuid: c0433afb-5c7c-4966-8ba9-2639a278bcb3
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
-discoiquuid: 92072e72-6dc7-4773-b126-99f082997668
+discoiquuid: f51a367d-620e-4395-b6b3-6332a8526121
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Managing Users
 seo-title: Managing Users
 description: null
 seo-description: null
-uuid: 4f46aea0-e60e-4b50-9543-03fd00bb2afa
+uuid: 0ad65370-9194-4782-a724-645fbbfcab89
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 5127b268-27cc-4aea-88a7-3979af8d3c92
+discoiquuid: 99329676-4fe7-40a9-96bb-b31d5cdda262
 index: y
 internal: n
 snippet: y
@@ -100,13 +100,6 @@ In the configuration XML that User Management exports, the root node that has th
 When using Active Directory, it is important to understand that an `objectSID` value is not a unique attribute across multiple domains. This value stores the security identifier of an object. In a multiple domain environment (for example, a tree of domains) the `objectSID` value can be different.
 
 An `objectSID` value would change if an object is moved from one Active Directory domain to another domain. Some objects have the same `objectSID` value anywhere in the domain. For example, groups like BUILTIN\Administrators, BUILTIN\Power Users and so on would have the same `objectSID` value regardless of the domains. These `objectSID` values are well known.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_mu_add_users_au.xml#WS624e3cba99b79e12e69a9941333732bac8-7fea.2_ver6.1
--->
 
 ## Adding Users {#adding-users}
 
@@ -274,13 +267,6 @@ Add users by using the Directory Manager Service API (web service):
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_mu_delete_users_du.xml#WS624e3cba99b79e12e69a9941333732bac8-7fe9.2_ver6.1
--->
-
 ## Deleting Users {#deleting-users}
 
 You can use the Directory Manager Service API (Java and web service) to programmatically delete users from AEM Forms. After you delete a user, the user can no longer be used to perform a service operation that requires a user. For example, you cannot assign a task to a deleted user. (See [Assigning Tasks](/programming-with-aem-forms/processes-tasks#assigning_tasks).)
@@ -399,13 +385,6 @@ Delete users by using the Directory Manager Service API (web service):
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_mu_create_groups_cg.xml#WS624e3cba99b79e12e69a9941333732bac8-7fdc.2_ver6.1
--->
-
 ## Creating Groups {#creating-groups}
 
 You can use the Directory Manager Service API (Java and web service) to programmatically create AEM Forms groups. After you create a group, you can use that group to perform a service operation that requires a group. For example, you can assign a user to the new group. (See [Managing Users and Groups](users#managing_users_and_groups).)
@@ -508,13 +487,6 @@ Create a group by using the Directory Manager Service API (Java):
 [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
 
 [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_mu_manage_users_groups_mu.xml#WS624e3cba99b79e12e69a9941333732bac8-7bd4.2_ver6.1
--->
 
 ## Managing Users and Groups {#managing-users-and-groups}
 
@@ -633,13 +605,6 @@ To programmatically manage users, groups, and domains using the Directory Manage
 [Quick Start (MTOM): Managing users and groups using the web service API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7251.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_mu_manage_roles_permissions_mr.xml#WS624e3cba99b79e12e69a9941333732bac8-7bd3.2_ver6.1
--->
 
 ## Managing Roles and Permissions {#managing-roles-and-permissions}
 
@@ -761,13 +726,6 @@ Manage roles and permissions by using the Authorization Manager Service API (web
 [Quick Start (MTOM): Managing roles and permissions using the web service API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbd.2)
 
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_mu_authenticate_users_au.xml#WS624e3cba99b79e12e69a9941333732bac8-7fe8.2_ver6.1
--->
 
 ## Authenticating Users {#authenticating-users}
 
@@ -904,13 +862,6 @@ Authenticate a user using the Authentication Manager Service API (web service):
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_mu_programmatically_synch_users_ps.xml#WS624e3cba99b79e12e69a9941333732bac8-7bb6.2_ver6.1
--->
 
 ## Programmatically Synchronizing Users {#programmatically-synchronizing-users}
 

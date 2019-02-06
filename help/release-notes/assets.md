@@ -3,12 +3,12 @@ title: AEM Assets Release Notes
 seo-title: AEM Assets
 description: Release notes specific to Adobe Experience Manager 6.4 Assets.
 seo-description: Release notes specific to Adobe Experience Manager 6.4 Assets.
-uuid: bc3a1e37-4733-4c4d-b393-d541695efaef
+uuid: e3a60760-e4f3-41d9-9746-31682e66ab2f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 6c788cec-198a-4d1d-a4f1-a60548a826ed
+discoiquuid: 97fb51d8-a986-4efc-8338-9d57bb6db6d5
 index: y
 internal: n
 snippet: y
@@ -128,13 +128,6 @@ AEM 6.4 includes a set of features that support various tiered storage preferenc
 * The ability for users to lower their storage cost by selecting a different AWS or Azure.
 
 For an overview of supported platforms, please refer to the [Technical Requirements Documentation](../sites/deploying/using/technical-requirements.md).
-
-<!--
-Comment Type: annotation
-Last Modified By: arora
-Last Modified Date: 2018-04-04T06:10:16.512-0400
-Can we please check whether Azure & Google cloud are supported?
--->
 
 ## Closed User Group {#closed-user-group}
 

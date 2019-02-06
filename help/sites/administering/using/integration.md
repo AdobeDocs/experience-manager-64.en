@@ -3,12 +3,12 @@ title: Solutions Integration
 seo-title: Solutions Integration
 description: Learn more about Solutions Integration in AEM.
 seo-description: Learn more about Solutions Integration in AEM.
-uuid: 9681c9e5-ccc6-4f67-ab80-e0b13bcf2a5b
+uuid: a8b7adae-9db0-4d7e-b499-dd2e819695dc
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 9543b9cc-a61c-4f11-9172-4d2b2794f40e
+discoiquuid: 69391503-f9f0-45d3-9e55-fe706a7518d6
 index: y
 internal: n
 snippet: y
@@ -24,14 +24,6 @@ snippet: y
 * [Configuring AEM Assets integration with Marketing Cloud and Creative Cloud](../../../sites/administering/using/configure-assets-cc-integration.md)
 * [Adobe Experience Manager Desktop App](/assets/using/aem-desktop-app)
 * [SharePoint Connector](../../../sites/administering/using/sharepoint-connector.md)
-
-<!--
-Comment Type: draft
-
-<ul>
-<li><a href="../../../sites/administering/using/creative-cloud.md">Integrating with Adobe Creative Cloud</a></li>
-</ul>
--->
 
 The following information is available about integrating AEM with other Adobe or third-party services:
 

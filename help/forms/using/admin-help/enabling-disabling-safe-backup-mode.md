@@ -3,12 +3,12 @@ title: Enabling and disabling safe backup mode
 seo-title: Enabling and disabling safe backup mode
 description: On the Backup Settings page, you can operate AEM forms in safe backup mode so that you can reliably back up your database and Global Document Storage (GDS) (GDS) directory. Learn how to enable and disable safe backup mode.
 seo-description: On the Backup Settings page, you can operate AEM forms in safe backup mode so that you can reliably back up your database and Global Document Storage (GDS) (GDS) directory. Learn how to enable and disable safe backup mode.
-uuid: 67401284-0a6c-44d3-83ea-153d45810064
+uuid: 23d76ce0-c22c-421c-8878-ea922ecb3f45
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: b709bc86-8e15-4dbb-88ec-9ee4ba7d260c
+discoiquuid: 87a555e5-7c04-41ab-9417-c1a4cd7d19c9
 index: y
 internal: n
 snippet: y

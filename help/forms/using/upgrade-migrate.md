@@ -4,12 +4,12 @@ seo-title: [DO NOT PUBLISH] Upgrade or migrate to AEM 6.3 Forms
 description: You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. You can also perform a multi-hop upgrade from a LiveCycle version to AEM 6.3 Forms. 
 seo-description: You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. You can also perform a multi-hop upgrade from a LiveCycle version to AEM 6.3 Forms. 
 page-status-flag: never-activated
-uuid: 3785334c-f533-4b7f-afb6-0d9b383e2a6f
+uuid: 3e7c6230-c4b8-4945-a0c9-b95d8f629f8a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: 540fd906-07a8-416f-9b59-7d13a5199277
+discoiquuid: c97ce9fe-ae9f-4999-9e17-fc2fb0a823dc
 index: y
 internal: n
 snippet: y
@@ -67,74 +67,6 @@ You can perform a direct upgrade from AEM 6.1 Forms on OSGi and AEM 6.2 Forms on
 If you are performing an intermediate upgrade to AEM 6.2 Forms on OSGi, visit the following documentation page for corresponding upgrade instructions:
 
 * [Upgrade to AEM 6.2 Forms](/content/help/en/aem-forms/6-2/upgrade)
-
-<!--
-Comment Type: draft
-
-<h2>Choose an upgrade path</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>You can upgrade from existing LiveCycle or AEM Forms to AEM 6.3 Forms. The following sections displays all the possible upgrade paths, choose a suitable upgrade path to upgrade your environment to AEM 6.3 Forms.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Upgrade path for LiveCycle and AEM Forms on JEE </h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>You can perform a direct upgrade from AEM 6.1 Forms on JEE and AEM 6.2 Forms on JEE to AEM 6.3 Forms on JEE. You can also perform a multi-hop upgrade from LiveCycle ES2, LiveCycle ES3, LiveCycle ES4, and AEM 6.1 Forms on JEE to AEM 6.3 Forms on JEE. The following diagram displays all the possible upgrade paths:</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/upgrade-path-2nd-1.png" />
--->
-
-<!--
-Comment Type: draft
-
-<p>If you are performing an intermediate upgrade to one or more versions of LiveCycle or AEM Forms, visit the following documentation pages for corresponding upgrade instructions: </p>
-<ul>
-<li><a href="/content/help/en/livecycle/topics/installing-upgrading-clustering" target="_blank">Upgrade to LiveCycle ES4 SP1</a></li>
-<li><a href="/content/help/en/aem-forms/6-1/upgrade" target="_blank">Upgrade to AEM 6.1 Forms</a></li>
-<li><a href="/content/help/en/aem-forms/6-2/upgrade" target="_blank">Upgrade to AEM 6.2 Forms</a></li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Upgrade path for AEM Forms on OSGi</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>You can perform a direct upgrade from AEM 6.1 Forms on OSGi and AEM 6.2 Forms on OSGi to AEM 6.3 Forms on OSGi. You can also perform a multi-hop upgrade from AEM 6.1 Forms on OSGi to AEM 6.3 Forms on OSGi. The following diagram displays all the possible upgrade paths:</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/upgrade-path-OSGi-1.png" />
--->
-
-<!--
-Comment Type: draft
-
-<p>If you are performing an intermediate upgrade to AEM 6.2 Forms on OSGi, visit the following documentation page for corresponding upgrade instructions: </p>
-<ul>
-<li><a href="/content/help/en/aem-forms/6-2/upgrade" target="_blank">Upgrade to AEM 6.2 Forms</a></li>
-</ul>
--->
 
 Direct upgrade from AEM 6.0 Forms to AEM 6.3 Forms is not available. Perform an intermediate [upgrade to AEM 6.2 Forms](/content/help/en/aem-forms/6-2/upgrade) and then upgrade from AEM 6.2 Forms to AEM 6.3 Forms.
 

@@ -3,38 +3,18 @@ title: Configuring Search Forms
 seo-title: Configuring Search Forms
 description: Learn how to configure Search Forms.
 seo-description: Learn how to configure Search Forms.
-uuid: f3f23da5-b0a6-466a-b0f0-35bcb29e8667
+uuid: f14a50f2-51bf-4d86-a30d-d43a09367ac8
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 2136d61b-1cf4-4861-b858-c8d79674849f
+discoiquuid: 292b9b1d-df39-4577-80de-d0f5c29802d5
 index: y
 internal: n
 snippet: y
 ---
 
 # Configuring Search Forms{#configuring-search-forms}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:01:49.546-0500
-<p>Need cross-reference link to docu on developing new predicates.</p>
-<p>See </p>
-<ul>
-<li><a href="https://jira.corp.adobe.com/browse/DOC-5064">https://jira.corp.adobe.com/browse/DOC-5064</a></li>
-<li><a href="https://jira.corp.adobe.com/browse/DOC-5008">DOC-5008</a></li>
-<li><a href="https://wiki.day.com/content/wiki/Users/sandru/sandru_DAM.html">https://wiki.day.com/content/wiki/Users/sandru/sandru_DAM.html</a></li>
-</ul>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:01:49.562-0500
-<p>previous DAM docu at <a href="http://author.day.com/content/docs/en/aem/6-2/administer/content/assets/custom-search-facets.html">http://author.day.com/content/docs/en/aem/6-2/administer/content/assets/custom-search-facets.html</a> (same but different apparently)</p>
--->
 
 Use **Search Forms** to customize the selection of search predicates used in the search panels available in various AEM consoles and/or panels of the author environment. Customizing these panels makes the search functionality versatile according your specific needs.
 
@@ -50,7 +30,7 @@ You can [configure the search forms](#configuringyoursearchforms) used within va
 
 When you first access this console you can see that all the configurations have a padlock symbol. This indicates that the appropriate configuration is the default (out-of-the-box) configuration - and cannot be deleted. Once you have customized the configuration the lock will disappear - unless you [delete your customized configuration](#deletingaconfiguration), in which case the default (and the padlock indicator) will be reinstated.
 
-![](assets/chlimage_1-448.png) 
+![](assets/chlimage_1-432.png) 
 
 ## Configurations {#configurations}
 
@@ -426,7 +406,7 @@ You can add or edit fields and define/update their settings:
 1. [Open the customized configuration](#creatingopeningacustomizedconfiguration) for updating.
 1. If you want to add a new field, open the **Select Predicate** tab and drag the required predicate to the required location. For example, the **Date Range Predicate**:
 
-   ![](assets/chlimage_1-449.png)
+   ![](assets/chlimage_1-433.png)
 
 1. Depending on whether:
 
@@ -438,7 +418,7 @@ You can add or edit fields and define/update their settings:
 
    For example, the settings for the **Date Range Predicate**:
 
-   ![](assets/chlimage_1-450.png)
+   ![](assets/chlimage_1-434.png)
 
 1. Make your changes as required and confirm with **Done**.
 
@@ -446,19 +426,11 @@ You can add or edit fields and define/update their settings:
 
 1. Select the Preview icon:
 
-   ![](assets/chlimage_1-451.png)
+   ![](assets/chlimage_1-435.png)
 
 1. This will display the search forms as they will be shown (fully expanded) in the Search column of the appropriate console.
 
-   <!--
-   Comment Type: remark
-   Last Modified By: Alexandru Sarchiz (sarchiz)
-   Last Modified Date: 2017-11-30T05:01:50.386-0500
-   <p>Removing Search column link, since we're deeming 6.0 legacy after the helpx migration.</p>
-   <p>It linked to this location: https://docs.adobe.com/content/docs/en/aem/6-0/author/author-environment/search-find-replace.html (doesn't exist in 6.3 branch).</p>
-   -->
-
-   ![](assets/chlimage_1-452.png)
+   ![](assets/chlimage_1-436.png)
 
 1. **Close** the preview to return and finish the configuration.
 
@@ -467,7 +439,7 @@ You can add or edit fields and define/update their settings:
 1. [Open the customized configuration](#creatingopeningacustomizedconfiguration) for updating.
 1. Select the predicate field (on the right), open the **Settings** tab and then select the **Delete** icon (bottom left).
 
-   ![](assets/chlimage_1-453.png)
+   ![](assets/chlimage_1-437.png)
 
 1. A dialog will request confirmation of the delete action.  
 
@@ -485,7 +457,7 @@ Deleting a customized configuration is done from the console:
 
 1. Select the required configuration (for example, **Page Editor (Paragraphs search)**) and then the **Delete** icon in the toolbar:
 
-   ![](assets/chlimage_1-454.png)
+   ![](assets/chlimage_1-438.png)
 
 1. The customized configuration will be deleted and the default reinstated (this is indicated by the reappearance of the padlock symbol in the console).
 
@@ -504,7 +476,7 @@ The following example (to search according to the template used to create a page
     * `jcr:title` - the field label to be shown in the search rail
     * `value` - the property value to be searched on
 
-   ![](assets/chlimage_1-455.png)
+   ![](assets/chlimage_1-439.png)
 
    >[!NOTE]
    >
@@ -544,12 +516,12 @@ The following example (to search according to the template used to create a page
       Select the path to where your options are held. For example:  
       `/apps/cq/gui/content/common/options/predicates/templatetype`
 
-   ![](assets/chlimage_1-456.png)
+   ![](assets/chlimage_1-440.png)
 
 1. Select **Done** to save your configuration.
 1. Navigate to the appropriate console (in this example, **Sites**) and open the **Search** rail. The newly defined search forms, together with the various options will be visible. Select the required option to see the search results:
 
-   ![](assets/chlimage_1-457.png)
+   ![](assets/chlimage_1-441.png)
 
 ## User Permissions {#user-permissions}
 

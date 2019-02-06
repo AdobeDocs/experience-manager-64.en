@@ -3,12 +3,12 @@ title: Working with PDF Utilities
 seo-title: Working with PDF Utilities
 description: null
 seo-description: null
-uuid: a159753c-c4f9-42b3-9f14-af1a504830a6
+uuid: fadaa272-42a1-4872-a201-1a8b89376353
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 196174f3-a378-4495-9119-1753d3378135
+discoiquuid: bbcedf0e-c862-49dc-8790-574c832d9b3e
 index: y
 internal: n
 snippet: y

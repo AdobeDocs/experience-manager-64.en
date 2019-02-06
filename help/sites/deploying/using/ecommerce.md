@@ -3,12 +3,12 @@ title: eCommerce Overview
 seo-title: eCommerce Overview
 description: AEM generic eCommerce is available as part of the standard installation and provides you with the full functionality of the eCommerce framework.  
 seo-description: AEM generic eCommerce is available as part of the standard installation and provides you with the full functionality of the eCommerce framework.  
-uuid: f2fe0f94-478d-43e3-9e6b-2dd0700a93c8
+uuid: 4731e532-787e-4b47-8916-e9586682ce8e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: a03e4bc7-6750-4a99-ab81-521b8881e65a
+discoiquuid: e2757a4c-73cc-4e74-bd54-5b6ec8985073
 index: y
 internal: n
 snippet: y

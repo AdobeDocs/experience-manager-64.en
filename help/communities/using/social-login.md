@@ -3,12 +3,12 @@ title: Social Login with Facebook and Twitter
 seo-title: Social Login with Facebook and Twitter
 description: Social login lets site visitors to sign in with their Facebook or Twitter account.
 seo-description: Social login lets site visitors to sign in with their Facebook or Twitter account.
-uuid: 9adead5e-0142-40d0-9798-7e5d0b3e1298
+uuid: 35a6f8e3-e8a5-44c3-bb07-808e12f92331
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: d7363afe-c959-4fa3-a67f-c6302ca1d811
+discoiquuid: 557347bb-d8dd-4543-bf90-7c1827d77c37
 index: y
 internal: n
 snippet: y
@@ -363,13 +363,13 @@ To enable the authentication handler on publish, simply open the OSGi config and
 
 * select **Save**
 
-![](assets/chlimage_1-501.png)
+![](assets/chlimage_1-488.png)
 
 >[!CAUTION]
 >
 >Be careful to not confuse the authentication handler with a Facebook or Twitter instance of *Adobe Granite OAuth Application and Provider*.
 
-![](assets/chlimage_1-502.png) 
+![](assets/chlimage_1-489.png) 
 
 ### Adobe Granite OAuth Application and Provider {#adobe-granite-oauth-application-and-provider}
 
@@ -386,7 +386,7 @@ To locate the created instance for a Facebook or Twitter app:
 
     * Locate the instance where ***Client ID*** matches the ***App ID***
 
-   ![](assets/chlimage_1-503.png)
+   ![](assets/chlimage_1-490.png)
 
    Except the following properties, leave the other properties of the config  unaltered :
 
@@ -460,24 +460,10 @@ On an author instance, signed in with administrative privileges:
 
 **&#42;** For the **name** oauthid-*123*, replace *123* with the Facebook ***App ID*** or Twitter ***Consumer (API) Key*** that is the value of the **Client ID** in the [Adobe Granite OAuth Application and Provider](../../communities/using/social-login.md#adobegraniteoauthapplicationandprovider)configuration.
 
-![](assets/chlimage_1-504.png)
+![](assets/chlimage_1-491.png)
 
 For additional information and tools, refer to [Oak Queries and Indexing](../../sites/deploying/using/queries-and-indexing.md).
 
 ## Dispatcher Configuration {#dispatcher-configuration}
 
 See [Configuring Dispatcher for Communities](../../communities/using/dispatcher.md).
-
-<!--
-Comment Type: draft
-
-<h2>Custom OAuth Provider</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>It is possible to create a social login for other social applications.</p>
-<p>Available on GitHub is an example of a basic implementation of an OAuth provider for LinkedIn (<a href="https://github.com/Adobe-Marketing-Cloud/aem-communities-oauth-sample" target="_blank">AEM Communities Sample OAuth Provider</a>). To integrate this OAuth provider into your site, a new cloud configuration is needed along with modification of the login script to include a new social login button.</p>
--->
-

@@ -3,12 +3,12 @@ title: Generate Document of Record for adaptive forms
 seo-title: Generate Document of Record for adaptive forms
 description: Explains how you can generate a template for a document of record (DoR) for adaptive forms.
 seo-description: Explains how you can generate a template for a document of record (DoR) for adaptive forms.
-uuid: ca75bb78-8b69-46f7-8adb-320d866c321a
+uuid: b9d3ed4a-35b1-40d0-9491-9efae1eeabfc
 content-type: reference
 topic-tags: adaptive_forms
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0703517c-4196-4a84-ab81-e474f28f9bf8
+discoiquuid: 8aed6b94-cbc2-4786-ab3b-318357e621fa
 noindex: true
 index: y
 internal: n

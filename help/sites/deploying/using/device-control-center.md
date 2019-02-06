@@ -3,11 +3,11 @@ title: Device Control Center
 seo-title: Device Control Center
 description: null
 seo-description: null
-uuid: 84d5ac90-c729-41ad-80e6-bb0225aef981
+uuid: 374197e1-691e-44f6-b68c-408c14db6022
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 5d0604f1-94df-4e8e-b98e-e94e708e8786
+discoiquuid: 14ad0bb6-0130-4dd4-a36a-20df594ae12d
 index: y
 internal: n
 snippet: y
@@ -23,11 +23,11 @@ The Screens Projects console is available by selecting the Adobe Experience Mana
 
 Alternatively, you can ﻿go directly to: [http://localhost:4502/screens.html/content/screens](http://localhost:4502/screens.html/content/screens)
 
-![](assets/chlimage_1-29.png)
+![](assets/chlimage_1-23.png)
 
 The Screens project is the top node of your project. Different projects could be differents brands, deployments, customers, and so on.
 
-![](assets/chlimage_1-30.png)
+![](assets/chlimage_1-24.png)
 
 To create a new Screens project:
 
@@ -35,11 +35,11 @@ To create a new Screens project:
 
 1. Select the required template and tap/click **Next**.
 
-   ![](assets/chlimage_1-31.png)
+   ![](assets/chlimage_1-25.png)
 
 1. Enter the properties as required and tap/click **Create**.
 
-   ![](assets/chlimage_1-32.png)
+   ![](assets/chlimage_1-26.png)
 
    >[!NOTE]
    >
@@ -54,13 +54,13 @@ In a project, there are four kind of folders:
 * Channels
 * Devices
 
-![](assets/chlimage_1-33.png)
+![](assets/chlimage_1-27.png)
 
 ## Applications {#applications}
 
 The applications console allows you to preview the applications built for AEM Screens that will run on your display.
 
-![](assets/chlimage_1-34.png)
+![](assets/chlimage_1-28.png)
 
 For example, you can navigate to [http://localhost:4502/screens.html/content/screens/geometrixx/apps]( http://localhost:4502/screens.html/content/screens/geometrixx/apps) and select the **Preview **icon of the **Geometrixx Virtual Showroom Experience**.
 
@@ -70,11 +70,11 @@ The preview of the application should open in a new tab.
 
 The locations host the configuration of the displays according to where the various screens are.
 
-![](assets/chlimage_1-35.png)
+![](assets/chlimage_1-29.png)
 
 For an example of a configuration, navigate to [http://localhost:4502/screens/dashboard/display.html/content/screens/geometrixx/locations/demo/flagship/dual](http://localhost:4502/screens/dashboard/display.html/content/screens/geometrixx/locations/demo/flagship/dual).
 
-![](assets/chlimage_1-36.png)
+![](assets/chlimage_1-30.png)
 
 In the **Devices/Screens** section you see:
 
@@ -84,7 +84,7 @@ In the **Devices/Screens** section you see:
 
 **Assigned Channels** shows how the content is getting assigned to Displays. If you click the **pencil** icon of one channel, you'll see:
 
-![](assets/chlimage_1-37.png)
+![](assets/chlimage_1-31.png)
 
 You can configure:
 
@@ -112,19 +112,19 @@ To create a new location:
 1. Navigate to your Locations folder, for example [http://localhost:4502/screens.html/content/screens/sample/locations](http://localhost:4502/screens.html/content/screens/sample/locations).
 1. Select the locations folder and tap/click **Create** next to the plus icon in the action bar. A wizard will open.
 
-   ![](assets/chlimage_1-38.png)
+   ![](assets/chlimage_1-32.png)
 
 1. Select the required template and tap/click **Next**.
 
-   ![](assets/chlimage_1-39.png)
+   ![](assets/chlimage_1-33.png)
 
 1. Enter the properties as required and tap/click **Create**.
 
-   ![](assets/chlimage_1-40.png)
+   ![](assets/chlimage_1-34.png)
 
 The location is created and added to your locations folder.
 
-![](assets/chlimage_1-41.png)
+![](assets/chlimage_1-35.png)
 
 ### Creating a New Display {#creating-a-new-display}
 
@@ -133,19 +133,19 @@ To create a new display:
 1. Navigate to the appropriate location, for example [http://localhost:4502/screens.html/content/screens/sample/locations/sample-location](http://localhost:4502/screens.html/content/screens/sample/locations/sample-location).
 1. Select your location folder and tap/click **Create** next to the plus icon in the action bar. A wizard will open.
 
-   ![](assets/chlimage_1-42.png)
+   ![](assets/chlimage_1-36.png)
 
 1. Select the required template and tap/click **Next**.
 
-   ![](assets/chlimage_1-43.png)
+   ![](assets/chlimage_1-37.png)
 
 1. Enter the properties as required and tap/click **Create**.
 
-   ![](assets/chlimage_1-44.png)
+   ![](assets/chlimage_1-38.png)
 
 The display is created and added to the location you chose.
 
-![](assets/chlimage_1-45.png)
+![](assets/chlimage_1-39.png)
 
 ### Creating a New Device Config {#creating-a-new-device-config}
 
@@ -154,23 +154,23 @@ To create a new device config:
 1. Navigate to the appropriate display, for example [http://localhost:4502/screens.html/content/screens/sample/locations/sample-location/sample-display](http://localhost:4502/screens.html/content/screens/sample/locations/sample-location/sample-display).
 1. Select your display folder and tap/click **View Dashboard** in the action bar.
 
-   ![](assets/chlimage_1-46.png)
+   ![](assets/chlimage_1-40.png)
 
 1. Tap/click the **+** button on the top right of the **Devices / Screens** panel.
 
-   ![](assets/chlimage_1-47.png)
+   ![](assets/chlimage_1-41.png)
 
 1. Select the required template and tap/click **Next**.
 
-   ![](assets/chlimage_1-48.png)
+   ![](assets/chlimage_1-42.png)
 
 1. Enter the properties as required and tap/click **Create**.
 
-   ![](assets/chlimage_1-49.png)
+   ![](assets/chlimage_1-43.png)
 
 The device config is created and added to the current display.
 
-![](assets/chlimage_1-50.png)
+![](assets/chlimage_1-44.png)
 
 ### Channel assignment {#channel-assignment}
 
@@ -179,19 +179,19 @@ To assign a channel to a display:
 1. Navigate to the required display, for example [http://localhost:4502/screens.html/content/screens/sample/locations/sample-location/sample-display](http://localhost:4502/screens.html/content/screens/sample/locations/sample-location/sample-display).
 1. Select the display folder and tap/click **View Dashboard **in the action bar.
 
-   ![](assets/chlimage_1-51.png)
+   ![](assets/chlimage_1-45.png)
 
 1. Tap/click the link button at the top right of the Assigned Channels panel.
 
-   ![](assets/chlimage_1-52.png)
+   ![](assets/chlimage_1-46.png)
 
 1. Enter the properties as required and tap/click **Save** button.
 
-   ![](assets/chlimage_1-53.png)
+   ![](assets/chlimage_1-47.png)
 
 The link to the channel should be created and added to the panel.
 
-![](assets/chlimage_1-54.png)
+![](assets/chlimage_1-48.png)
 
 ## Channels {#channels}
 
@@ -199,7 +199,7 @@ The channels will display a sequence of content.
 
 The channels could display just some images, but they could also display an application.
 
-![](assets/chlimage_1-55.png)
+![](assets/chlimage_1-49.png)
 
 From the Channels console, you can preview your channel on your browser.
 
@@ -212,25 +212,25 @@ To create a new channel:
 1. Navigate to your Channels folder, for example [http://localhost:4502/screens.html/content/screens/sample/channels](http://localhost:4502/screens.html/content/screens/sample/channels).
 1. Select the channels folder and tap/click **Create** next to the plus icon in the action bar. A wizard will open.
 
-   ![](assets/chlimage_1-56.png)
+   ![](assets/chlimage_1-50.png)
 
 1. Select the required template and tap/click **Next**.
 
-   ![](assets/chlimage_1-57.png)
+   ![](assets/chlimage_1-51.png)
 
 1. Enter the properties as required and click **Create**.
 
-   ![](assets/chlimage_1-58.png)
+   ![](assets/chlimage_1-52.png)
 
 The channel is created and added to your channels folder.
 
-![](assets/chlimage_1-59.png)
+![](assets/chlimage_1-53.png)
 
 ## Devices {#devices}
 
 The devices console allows you to access the device manager to assign your device to a display.
 
-![](assets/chlimage_1-60.png)
+![](assets/chlimage_1-54.png)
 
 >[!NOTE]
 >
@@ -243,25 +243,25 @@ To assign your device to a display:
 1. Navigate to the Devices folder of your project, for example [http://localhost:4502/screens.html/content/screens/sample/devices](http://localhost:4502/screens.html/content/screens/sample/devices).
 1. Select your **Devices** folder and tap/click **Device Manager** in the action bar.
 
-   ![](assets/chlimage_1-61.png)
+   ![](assets/chlimage_1-55.png)
 
 1. Select an unassigned device from the list, and tap/click the **Assign Device** button in the action bar.
 
-   ![](assets/chlimage_1-62.png)
+   ![](assets/chlimage_1-56.png)
 
 1. Select the display you want to assign the device to from the list, and tap/click the **Assign** button
 
-   ![](assets/chlimage_1-63.png)
+   ![](assets/chlimage_1-57.png)
 
 1. Tap/click the **Finish** button to complete the assignment process.
 
-   ![](assets/chlimage_1-64.png)
+   ![](assets/chlimage_1-58.png)
 
 The display dashboard opens and you should see the device you just added.
 
-![](assets/chlimage_1-65.png)
+![](assets/chlimage_1-59.png)
 
 On your device, the player should automatically show the default channel for the display, for example an image if it is a sequence channel.
 
-![](assets/chlimage_1-66.png)
+![](assets/chlimage_1-60.png)
 

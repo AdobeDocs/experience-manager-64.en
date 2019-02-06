@@ -3,12 +3,12 @@ title: Operations Dashboard
 seo-title: Operations Dashboard
 description: Learn how to use the Operations Dashboard.
 seo-description: Learn how to use the Operations Dashboard.
-uuid: bdc613e9-1969-46bd-960c-c8f84ac3f320
+uuid: 192e1f61-d1aa-4526-a44b-03dd854ff5e5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 2b1ff0af-aa3b-4d56-9cf1-74575f0e93e6
+discoiquuid: 3b39cbe9-26f1-4ce0-85cf-1bf5b356299d
 index: y
 internal: n
 snippet: y
@@ -48,11 +48,11 @@ The Health Reports interface can be accessed through the **Tools** - **Operation
 
 `http://<serveraddress>:port/libs/granite/operations/content/healthreports/healthreportlist.html`
 
-![](assets/chlimage_1-136.png)
+![](assets/chlimage_1-130.png)
 
 The card system exposes three possible states: **OK**, **WARN **and **CRITICAL**. The states are a result of rules and thresholds, which can be configured by hovering the mouse over the card and then clicking the gear icon in the action bar:
 
-![](assets/chlimage_1-137.png) 
+![](assets/chlimage_1-131.png) 
 
 ### Health Check Types {#health-check-types}
 
@@ -339,95 +339,6 @@ A Composite Health Check's role is to aggregate a number of individual Health Ch
  </tbody> 
 </table>
 
-<!--
-Comment Type: draft
-
-<h3>The Production Ready Package</h3>
--->
-
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>The Production Ready package is only for publish mode.</p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Production Ready package can be installed in order to automatically perform most of the configuration steps in the <a href="../../../sites/administering/using/security-checklist.md">Security Checklist</a> and make the instance ready for production.</p>
-<p>The Production Ready Health Check checks if the above mentioned package is installed. If it is not, it will display a WARN message advising to install the package.</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-138.png" />
--->
-
-<!--
-Comment Type: draft
-
-<p>The Production Ready package covers these configuration areas:</p>
-<p><strong>Logging</strong></p>
-<ul>
-<li>All loggers are set to the ERROR level with a default daily rolling policy.</li>
-</ul>
-<p><strong>Security</strong></p>
-<ul>
-<li>Uninstalls example content and users</li>
-<li>Configures replication and transport users. The default user used for the replication is <i>replication-default</i> with an empty password</li>
-<li>Prevents Denial of Service (DoS) attacks by setting the JSON Max Results to 100<br /> </li>
-<li>Disables the CQ WCM Debug Filter </li>
-<li>Automatically adjusts settings for the OSGi services that might leak internal information if not configured correctly on publish instances. For more info, see <a href="../../../sites/administering/using/security-checklist.md#main-pars-title-1-ezsczi-refd">this section</a> of the Security Checklist.</li>
-</ul>
-<p><strong>Repository Garbage Collect Scheduler</strong></p>
-<ul>
-<li>The Scheduler is configured to run weekly with the "Delete" flag set to true.</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>Please note that there is no way for the Garbage Collection Scheduler to determine if the Data Store is shared. For such situations, it is recommended that the settings be configured manually by an administrator in order to avoid accidental data loss.<br /> </p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<p>You can install the Production Ready package by:<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Going to Package Admin by going to <strong>Tools</strong> - <strong>Operations</strong> - <strong>Packaging</strong> - <strong>Packages</strong> from the AEM Welcome screen, or accessing the Package Admin directly at <span class="code">http://serveraddress:4502/crx/packmgr/index.jsp</span><br /> </p> </li>
-<li><p>Finding the package called <strong>productionready-config-pkg-1.0.0.zip</strong></p> </li>
-<li><p>Clicking the <strong>Install</strong> button.</p> </li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<h2>The Monitoring Dashboard</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>AEM 6.3 introduces a new way of monitoring system in the form of the monitoring dashboard. The aim is to provide a quickly accessible representation of system resources and other key performance indicators in visual form.</p>
-<p>You can find the monitoring dashboard by going to <strong>Tools - Operations - Monitoring</strong> from the home screen, or by directly accessing the link below:</p>
-<p><i>http://serveraddress:serverport/libs/granite/operations/content/monitoring/page.html</i></p>
-<p>By default, the dashboard has three preconfigured charts: <strong>Disk Usage Statistics</strong>, <strong>Repository Statistics</strong> and <strong>Memory Usage Statistics</strong>.</p>
-<p>Each chart exposes several statistics, grouped by area.</p>
--->
-
 ## Monitoring with Nagios {#monitoring-with-nagios}
 
 The Health Check Dashboard can integrate with Nagios via the Granite JMX Mbeans. The below example illustrates how to add a check that shows used memory on the server running AEM.
@@ -450,7 +361,7 @@ The Health Check Dashboard can integrate with Nagios via the Granite JMX Mbeans.
     
     1. Add the host definition:
 
-   ![](assets/chlimage_1-139.png)
+   ![](assets/chlimage_1-132.png)
 
    Below is an example of a host configuration file, in case you are using Nagios Core:
 
@@ -498,7 +409,7 @@ The Health Check Dashboard can integrate with Nagios via the Granite JMX Mbeans.
 
 1. Check your Nagios dashboard for the newly created service:
 
-   ![](assets/chlimage_1-140.png)
+   ![](assets/chlimage_1-133.png)
 
 ## Diagnosis tools {#diagnosis-tools}
 
@@ -512,7 +423,7 @@ Amongst its most important features are:
 
 You can reach the Diagnosis Tools screen by going to **Tools - Operations - Diagnosis** from the AEM Welcome screen. You can also access the screen by directly accessing the following URL: `http://serveraddress:port/libs/granite/operations/content/diagnosis.html`
 
-![](assets/chlimage_1-141.png) 
+![](assets/chlimage_1-134.png) 
 
 ### Log Messages {#log-messages}
 
@@ -529,7 +440,7 @@ Examples:
 
 * If you plan on capturing all the messages coming from a certain package (for example com.adobe.granite) - the logger name should be set to: "com.adobe.granite", and the logger level to: **DEBUG** (this will capture all the **ERROR**, **WARN**, **INFO** and **DEBUG** messages), as shown in the image below.
 
-![](assets/chlimage_1-142.png)
+![](assets/chlimage_1-135.png)
 
 >[!NOTE]
 >
@@ -563,7 +474,7 @@ The Request Performance page allows the analysis of the slowest page requests pr
 1. Requests accessing resources under `/etc/design`
 1. Requests having the `".html"` extension
 
-![](assets/chlimage_1-143.png)
+![](assets/chlimage_1-136.png)
 
 The page displays:
 
@@ -592,7 +503,7 @@ The page displays:
 * The statement of the query 
 * The duration in milliseconds
 
-![](assets/chlimage_1-144.png) 
+![](assets/chlimage_1-137.png) 
 
 ### Explain Query {#explain-query}
 
@@ -611,7 +522,7 @@ The Explain Query is a tool that explains how Oak is executing a query. It can b
 
 Once you are in the Explain Query UI, all you need to do in order to use it is enter the query and press the **Explain** button:
 
-![](assets/chlimage_1-145.png)
+![](assets/chlimage_1-138.png)
 
 The first entry in the Query Explanation section is the actual explanation. The explanation will show the type of index that was used to execute the query.
 
@@ -619,7 +530,7 @@ The second entry is the execution plan.
 
 Ticking the **Include execution time** box before running the query will also show the amount of time the query was executed in, allowing for more information that can be used for optimizing the indexes for your application or deployment.
 
-![](assets/chlimage_1-146.png) 
+![](assets/chlimage_1-139.png) 
 
 ### The Index Manager {#the-index-manager}
 
@@ -629,7 +540,7 @@ It can be accessed by going to **Tools - Operations - Diagnosis **from the Welco
 
 It can also be accessed directly at this URL: `http://serveraddress:port/libs/granite/operations/content/diagnosis/tool.html/_granite_oakindexmanager`
 
-![](assets/chlimage_1-147.png)
+![](assets/chlimage_1-140.png)
 
 The UI can be used to filter indexes in the table by typing in the filter criteria in the search box in the upper left corner of the screen.
 
@@ -675,7 +586,7 @@ The default timing for the daily maintenance window is 2 to 5 AM. The tasks conf
 
 You can also configure the timings by pressing the gear icon on any of the two maintenance cards:
 
-![](assets/chlimage_1-148.png)
+![](assets/chlimage_1-141.png)
 
 >[!NOTE]
 >
@@ -684,97 +595,6 @@ You can also configure the timings by pressing the gear icon on any of the two m
 ### Revision Clean Up {#revision-clean-up}
 
 For more information on performing Revision Clean Up for AEM 6.4, [see this dedicated article](../../../sites/deploying/using/revision-cleanup.md).
-
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>Online Revision Cleanup is present in AEM 6.2 under <strong>restricted</strong> support. For more information on the conditions and terms of using the feature, please contact <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe Customer Care</a>. </p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<p>Offline Revision Cleanup is the recommended and supported way of performing revision cleanup. For more details, see <a href="../../../sites/deploying/using/storage-elements-in-aem-6.md#performingofflinerevisioncleanup" target="_blank">Performing Offline Revision Cleanup</a>.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-0436B4A35714BFF67F000101@AdobeID)
-Last Modified Date: 2017-11-30T05:01:09.929-0500
-<p>As discussed with Peter Klassen we will hide all information about running Online Revision Cleanup in 6.2 and we will only keep the warning.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>As data is never overwritten in a tar file, the disk usage increases even when only updating existing data. To make up for the growing size of the repository, AEM employs a garbage collection mechanism called <strong>Revision Cleanup</strong>. The mechanism will reclaim disk space by removing obsolete data from the repository.</p>
-<p>By default, revision cleanup is automatically run each night between 2 am and 5 am. </p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The automatic compaction can also be triggered manually in the Operations Dashboard via a maintenance job called Revision Cleanup.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>In order for the Revision Clean Up to be efficient, you first need to run Online Compaction. You can do this by following the below procedure:</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Go to the JMX console by pointing your browser to <span class="code">http://server:port/system/console/jmx</span></p> </li>
-<li><p>Search for <strong>CompactionStrategy</strong> and click the MBean that shows up in the search.</p> </li>
-<li><p>Next, verify that the value for <strong>PausedCompaction</strong> is set to <span class="code">false</span>. This confirms that online revision cleanup is set to run:</p> <img imageRotate="0" src="assets/chlimage_1-149.png" /><p>Online revision cleanup is now scheduled to run as part of the tasks performed in the Daily Maintenance Window. For more info, see <a href="#main-pars-title-15">Automated Maintenance Tasks</a>.</p> </li>
-<li><p>Next, verify if Online revision cleanup is running properly. You can do this by first going to the Operations Dashboard and checking what is the time interval configured for the <strong>Daily Maintenance Window. </strong>By default, it is scheduled to run between 2 and 5 AM.</p> </li>
-<li><p>Now, inspect the <strong>error.log</strong> file for events logged during the time of the daily maintenance window to see if revision cleanup ran correctly. <br /> </p>
-<note type="note">
-<p>Before checking the logs, note that online revision cleanup will not complete if the calculated disk space gain is less than 10 percent of the entire repository size.</p>
-</note><p>This is an example of the log entries that will be generated if the online revision cleanup was not run because the gain is less than 10 percent:</p>
-<codeblock gutter="true" class="syntax xml">
-16.03.2015&nbsp;02:00:13.736&nbsp;*INFO*&nbsp;[TarMK&nbsp;compaction&nbsp;thread&nbsp;[/author/crx-quickstart/repository/segmentstore],&nbsp;active&nbsp;since&nbsp;Mon&nbsp;Mar&nbsp;16&nbsp;02:00:13&nbsp;EDT&nbsp;2015,&nbsp;previous&nbsp;max&nbsp;duration&nbsp;58249ms]&nbsp;org.apache.jackrabbit.oak.plugins.segment.file.FileStore&nbsp;TarMK&nbsp;compaction&nbsp;started&nbsp;16.03.2015&nbsp;02:00:30.001&nbsp;*INFO*&nbsp;[pool-9-thread-2]&nbsp;com.adobe.granite.taskmanagement.impl.jcr.TaskArchiveService&nbsp;archiving&nbsp;tasks&nbsp;at:&nbsp;'Mon&nbsp;Mar&nbsp;16&nbsp;02:00:30&nbsp;EDT&nbsp;2015'!!discoiqbr!!16.03.2015&nbsp;02:01:06.325&nbsp;*INFO*&nbsp;[TarMK&nbsp;compaction&nbsp;thread&nbsp;[/author/crx-quickstart/repository/segmentstore],&nbsp;active&nbsp;since&nbsp;Mon&nbsp;Mar&nbsp;16&nbsp;02:00:13&nbsp;EDT&nbsp;2015,&nbsp;previous&nbsp;max&nbsp;duration&nbsp;58249ms]&nbsp;org.apache.jackrabbit.oak.plugins.segment.file.FileStore&nbsp;Estimated&nbsp;compaction&nbsp;in&nbsp;52.59&nbsp;s,&nbsp;gain&nbsp;is&nbsp;9%&nbsp;(1028524544/1137660928)&nbsp;or&nbsp;(1.0GB/1.1&nbsp;GB),&nbsp;so&nbsp;skipping&nbsp;compaction&nbsp;for&nbsp;now
-</codeblock><p>This an example of the log entries that will be generated if the online revision cleanup is going to be run because the gain is higher than 10 percent:</p>
-<codeblock gutter="true" class="syntax xml">
-19.03.2015&nbsp;02:00:10.230&nbsp;*INFO*&nbsp;[TarMK&nbsp;compaction&nbsp;thread&nbsp;[/author/crx-quickstart/repository/segmentstore],&nbsp;active&nbsp;since&nbsp;Thu&nbsp;Mar&nbsp;19&nbsp;02:00:10&nbsp;EDT&nbsp;2015,&nbsp;previous&nbsp;max&nbsp;duration&nbsp;1369831ms]&nbsp;org.apache.jackrabbit.oak.plugins.segment.file.FileStore&nbsp;TarMK&nbsp;compaction&nbsp;started!!discoiqbr!!19.03.2015&nbsp;02:00:30.441&nbsp;*INFO*&nbsp;[pool-9-thread-2]&nbsp;com.adobe.granite.taskmanagement.impl.jcr.TaskArchiveService&nbsp;archiving&nbsp;tasks&nbsp;at:&nbsp;'Thu&nbsp;Mar&nbsp;19&nbsp;02:00:30&nbsp;EDT&nbsp;2015'!!discoiqbr!!19.03.2015&nbsp;02:01:01.699&nbsp;*INFO*&nbsp;[TarMK&nbsp;compaction&nbsp;thread&nbsp;[/author/crx-quickstart/repository/segmentstore],&nbsp;active&nbsp;since&nbsp;Thu&nbsp;Mar&nbsp;19&nbsp;02:00:10&nbsp;EDT&nbsp;2015,&nbsp;previous&nbsp;max&nbsp;duration&nbsp;1369831ms]&nbsp;org.apache.jackrabbit.oak.plugins.segment.file.FileStore&nbsp;Estimated&nbsp;compaction&nbsp;in&nbsp;51.47&nbsp;s,&nbsp;gain&nbsp;is&nbsp;69%&nbsp;(1018859520/3343598080)&nbsp;or&nbsp;(1.0&nbsp;GB/3.3&nbsp;GB),&nbsp;so&nbsp;running&nbsp;compaction
-</codeblock><p>Lastly, these are the log entry generated when online revision cleanup has successfully completed:</p>
-<codeblock gutter="true" class="syntax xml">
-19.03.2015&nbsp;02:22:52.638&nbsp;*INFO*&nbsp;[TarMK&nbsp;compaction&nbsp;thread&nbsp;[/author/crx-quickstart/repository/segmentstore],&nbsp;active&nbsp;since&nbsp;Thu&nbsp;Mar&nbsp;19&nbsp;02:00:10&nbsp;EDT&nbsp;2015,&nbsp;previous&nbsp;max&nbsp;duration&nbsp;1369831ms]&nbsp;org.apache.jackrabbit.oak.plugins.segment.file.FileStore&nbsp;TarMK&nbsp;compaction&nbsp;completed&nbsp;in&nbsp;1310939ms
-</codeblock></li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<p>To start revision cleanup manually, you need to go under the <strong>Daily Maintenance Window</strong> page, hover over the <strong>Revision Cleanup</strong> window and press the <strong>Play</strong> button:<br /> </p>
-<p> </p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-150.png" />
--->
-
-<!--
-Comment Type: draft
-
-<p>The icon will turn orange to indicate that the Revision Clean Up job is running. You can stop it at any time by hovering the mouse over the icon and pressing the <strong>Stop</strong> button:</p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>The revision cleanup can also be triggered via the JMX Console or run from an external tool. For more info, please see <a href="../../../sites/deploying/using/storage-elements-in-aem-6.md#main-pars-title-7" target="_blank">this page</a>.</p>
-</note>
--->
 
 ### Lucene Binaries Cleanup {#lucene-binaries-cleanup}
 
@@ -875,14 +695,6 @@ For situations where a maintenance task should not be run on all installations (
 
 Below is an example of a custom maintenance task that deletes files from a configurable temporary directory which have been modified in the last 24 hours:
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>For more information on building AEM services, see the <a href="https://docs.adobe.com/content/docs/en/cq/aem-how-tos/development.html">AEM How-tos</a> section.</p>
-</note>
--->
-
 src/main/java/com/adobe/granite/samples/maintenance/impl/DeleteTempFilesTask.java
 
 <table border="0" cellpadding="0" cellspacing="0"> 
@@ -897,109 +709,9 @@ src/main/java/com/adobe/granite/samples/maintenance/impl/DeleteTempFilesTask.jav
 
 Once the service is deployed, it will be exposed to the Operations Dashboard UI and can be added to one of the available maintenance schedules:
 
-![](assets/chlimage_1-151.png)
+![](assets/chlimage_1-142.png)
 
 This will add a corresponding resource at /apps/granite/operations/config/maintenance/[schedule]/[taskname]. If the task is run mode dependent, the property granite.operations.conditions.runmode needs to be set on that node with the values of the runmodes which need to be active for this maintenance task.
-
-<!--
-Comment Type: draft
-
-<h2>Maintenance Tasks Shipped with AEM</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>AEM 6 ships with a default set of automated maintenance tasks. Below is a table describing the maintenance tasks and their availability for each of the storage elements present in AEM 6.</p>
--->
-
-<!--
-Comment Type: draft
-
-<table border="1" cellpadding="1" cellspacing="0" height="461" width="623">
-<tbody>
-<tr>
-<td>Maintenance Task</td>
-<td>Name</td>
-<td>CRX2</td>
-<td>Tar MK<br /> </td>
-<td>Mongo MK</td>
-<td>Maintenance Window</td>
-<td>Remarks</td>
-</tr>
-<tr>
-<td>Version Purge</td>
-<td>com.day.cq.wcm.core.impl.VersionPurgeTask</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Configurable.</td>
-<td>Not enabled by default. It can be added manually by pressing the "+" button in the "Weekly Maintenance Window" section of the Operations Dashboard.<br /> </td>
-</tr>
-<tr>
-<td>Workflow Purge</td>
-<td>WorkflowPurgeTask</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Weekly</td>
-<td>A purge configuration must first be created in order for the task to run successfully.<br /> </td>
-</tr>
-<tr>
-<td>DataStore Garbage Collection<br /> </td>
-<td>DataStoreGarbageCollectionTask</td>
-<td>Yes</td>
-<td>No</td>
-<td>Yes</td>
-<td>Weekly</td>
-<td> </td>
-</tr>
-<tr>
-<td>Tar Compaction/Optimization</td>
-<td>TarOptimizeTask</td>
-<td>Yes</td>
-<td>No</td>
-<td>No</td>
-<td>Daily</td>
-<td> </td>
-</tr>
-<tr>
-<td>Revision Clean Up<br /> </td>
-<td>RevisionCleanupTask</td>
-<td>No</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Daily</td>
-<td> </td>
-</tr>
-<tr>
-<td>Tar Index Merge<br /> </td>
-<td>TarIndexMergeTask</td>
-<td>Yes</td>
-<td>No</td>
-<td>No</td>
-<td>Daily</td>
-<td> </td>
-</tr>
-<tr>
-<td>AuditLog Mainenance Task</td>
-<td>com.day.cq.audit.impl.AuditLogMaintenanceTask</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Yes</td>
-<td>Weekly</td>
-<td> </td>
-</tr>
-</tbody>
-</table>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-03-21T11:22:32.000-0400
-<p>The table needs to be either updated for 6.4 or removed.</p>
--->
 
 ## System Overview {#system-overview}
 

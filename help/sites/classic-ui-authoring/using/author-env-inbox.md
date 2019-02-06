@@ -3,12 +3,12 @@ title: Your Inbox
 seo-title: Your Inbox
 description: You can receive notifications from various areas of AEM such as notification about work items or tasks that represent actions that you need to perform on page content.
 seo-description: You can receive notifications from various areas of AEM such as notification about work items or tasks that represent actions that you need to perform on page content.
-uuid: a7a3df61-ee17-4aa9-9cf7-3e6f4870bc24
+uuid: 082664bf-3b60-4398-9ee0-ea809d29268b
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 9d61f404-0c6b-4813-a8d1-5015590b3da7
+discoiquuid: c028814a-3116-42ac-9079-5044619538eb
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ To view your notifications:
     * [Subscribing to Notifications](#subscribingtonotifications)
     * [Processing your Notifications](#processingyournotifications)
 
-   ![](assets/chlimage_1-11.jpeg)
+   ![](assets/chlimage_1-8.jpeg)
 
 ## Subscribing to Notifications {#subscribing-to-notifications}
 
@@ -107,5 +107,5 @@ If you have chosen to receive notifications in your AEM inbox, your inbox will f
 
 * Delete it by clicking **Delete**.
 
-![](assets/chlimage_1-12.jpeg)
+![](assets/chlimage_1-9.jpeg)
 

@@ -3,12 +3,12 @@ title: Custom Standalone Install
 seo-title: Custom Standalone Install
 description: Learn about the options available when installing a standalone AEM instance. 
 seo-description: Learn about the options available when installing a standalone AEM instance. 
-uuid: 19ebc6e5-2bec-4e9d-adbe-ac8ce3f2b903
+uuid: cabde49e-0198-493d-917b-24645adc8ef6
 contentOwner: Tyler Rushton
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 9243574f-46e6-4d9f-8167-bf016cbfdbcf
+discoiquuid: 3cec6d69-02fc-49af-b4e5-f4822a83591d
 index: y
 internal: n
 snippet: y
@@ -68,104 +68,6 @@ This is especially interesting for several use cases:
 >
 >See also [How to install CRX packages automatically on server startup](/content/help/en/experience-manager/kb/HowToInstallPackagesUsingRepositoryInstall) for examples.
 
-<!--
-Comment Type: draft
-
-<h3>Relocating or Preconfiguring the Repository</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>The default location of the folder holding the files of the CRX repository within AEM is:</p>
-<p style="margin-left: 40px;"><span class="code">crx-quickstart/repository/</span> </p>
-<p>With the default configuration file being:</p>
-<p style="margin-left: 40px;"><span class="code">crx-quickstart/repository/repository.xml</span><br /> </p>
-<p>Sometimes you may want to relocate, or preconfigure, the repository; for example, when installing without a cluster or when using a different Persistence Manager.</p>
-<p>Relocation <i>must</i> be configured <i>before</i> installation:<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Create the new directory (<span class="code">&lt;<i>new-location</i>&gt;</span>) for the repository files.</p> <p>For example:</p> <p> <span class="code">&lt;<i>cq-installation-dir</i>&gt;/repositoryRelocated/</span><br /> </p> </li>
-<li><p>Navigate to the <span class="code">&lt;aem<i>-installation-dir</i>&gt;</span> directory (holding the installation jar file <span class="code">cq-quickstart&lt;<i>version</i>&gt;.jar</span> and <span class="code">license.properties</span>).</p> </li>
-<li><p>Create a new file (in <span class="code">&lt;<em>cq-installation-dir</em>&gt;</span>):</p>
-<ul>
-<li><span class="code"><a href="/content/docs/en/aem/6-3/deploy/deploying-crx/repository_setup#bootstrap.properties">bootstrap.properties</a></span></li>
-</ul> <p>With the following entries:</p> <p><strong><span class="monospaced">repository.home=&lt;<i>new-location</i>&gt;</span></strong> This is used to relocate the repository. Files required for the repository will be created here upon installation. For example, repository.home=repositoryRelocated</p><p><strong><span class="monospaced">repository.config=&lt;<i>new-location</i>&gt;/repository.xml</span></strong> This specifies the location of repository.xml. This version can be edited with your customizations. The location does not have to be the same as above, but is often. For example, repository.config=repositoryRelocated/repository.xml</p><p>For example:<br /> </p>
-<codeblock gutter="true" class="syntax xml">
-repository.home=repositoryRelocated!!discoiqbr!!repository.config=repositoryRelocated/repository.xml
-</codeblock>
-<note type="note">
-<p>If you want to use the default repository.xml as a starting point for your custom configuration, either take it from a default installation or extract it from the unpacked distribution:</p>
-<p><code class="code"># mkdir tmp
-<discoiqbr /> </code># cd tmp<br /> # jar xf ../app/cq-quickstart-6.3.0-standalone.jar resources/install/15/com.day.crx.sling.server-2.4.23.jar<br /> # jar xf resources/install/15/com.day.crx.sling.server-2.4.23.jar crx-core-2.4.23.jar<br /> # jar xf crx-core-2.4.23.jar com/day/crx/core/repository.xml</p>
-<p>You can now copy com/day/crx/core/repository.xml to the place you wish and remove the tmp directory afterwards.</p>
-</note></li>
-<li><p>Start the installation procedure; files needed for the repository will be saved in the new location; for this example they will be under:</p> <p style="margin-left: 40px;"><span class="code">&lt;aem<i>-installation-dir</i>&gt;/repositoryRelocated/</span><br /> </p> </li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<p>If you just want to preconfigure the repository (without relocating it) you only have to:</p>
-<ul>
-<li>extract <span class="code">repository.xml</span> to the required location<br /> </li>
-<li>update <span class="code">repository.xml</span> as required<br /> </li>
-<li>create <span class="code">bootstrap.properties</span> and define <span class="code">repository.config</span></li>
-</ul>
-<p>Again, before starting the actual installation.<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Removing the Geometrixx Sites</h3>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ppiegaze@adobe.com)
-Last Modified Date: 2017-11-30T05:41:51.129-0500
-<p>This section needs to link to docu about using the Package Manager. But this docu has not yet been moved over to 6-0...setting to draft until it has been moved.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>AEM comes with a set of sample Geometrixx websites. You can remove this sample content through the <strong>Package Manager</strong>.</p>
-<p>The individual geometrixx-related packages are:</p>
-<ul>
-<li><span class="code">cq-geometrixx-outdoors-ugc-pkg-<i>&lt;version&gt;</i>.zip</span></li>
-<li><span class="code">cq-geometrixx-pkg-<i>&lt;version&gt;</i>.zip</span></li>
-<li><span class="code">cq-content-mac-<i>&lt;version&gt;</i>.zip</span></li>
-<li><span class="code">cq-geometrixx-login-pkg-<i>&lt;version&gt;</i>.zip</span></li>
-<li><span class="code">cq-geometrixx-users-pkg-<i>&lt;version&gt;</i>.zip</span></li>
-<li><span class="code">cq-geometrixx-workflow-pkg-<i>&lt;version&gt;</i>.zip</span></li>
-<li><span class="code">cq-geometrixx-outdoors-pkg-<i>&lt;version&gt;</i>.zip</span></li>
-<li><span class="code">cq-geometrixx-commons-pkg-<i>&lt;version&gt;</i>.zip</span></li>
-<li><span class="code">cq-geometrixx-media-pkg-<i>&lt;version&gt;</i>.zip</span></li>
-</ul>
-<p>To remove an individual package, simple click <strong>Uninstall</strong> on that package.</p>
-<p>There is also a super-package:</p>
-<ul>
-<li><span class="code">cq-geometrixx-all-pkg-5.6.12.zip</span></li>
-</ul>
-<p>This package includes all the above individual packages. To remove all the geometrixx-related content at once, click <strong>Uninstall</strong> on this package. The super-package will go into the uninstalled state, and all the individual packages will disappear from the package manager view.</p>
-<p>You have now an "empty" AEM instance without any demonstration sites.<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>When upgrading, geometrixx sites are automatically re-installed. You may need to remove geometrixx web sites after upgrading if you do not want these samples.</p>
-</note>
--->
-
 ## Installing and Starting Adobe Experience Manager as a Windows Service {#installing-and-starting-adobe-experience-manager-as-a-windows-service}
 
 >[!NOTE]
@@ -198,15 +100,15 @@ To install and start AEM as a Windows service:
 
     * In the Services control panel, click cq5 and click Start.
 
-   ![](assets/chlimage_1-78.png)
+   ![](assets/chlimage_1-71.png)
 
     * In the command line, type net start cq5.
 
-   ![](assets/chlimage_1-79.png)
+   ![](assets/chlimage_1-72.png)
 
 1. Windows indicates that the service is running. AEM starts and the prunsrv executable appears in Task Manager. In your web browser, navigate to AEM, for example, `http://localhost:4502` to start using AEM.
 
-   ![](assets/chlimage_1-80.png)
+   ![](assets/chlimage_1-73.png)
 
 >[!NOTE]
 >
@@ -323,25 +225,6 @@ Log files
 
 ```
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ppiegaze@adobe.com)
-Last Modified Date: 2017-11-30T05:41:51.559-0500
-<p>This section needs to link to docu about using the Package Manager. But this docu has not yet been moved over to 6-0...setting to draft until it has been moved.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Uploading Packages</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>If you need to install further (often customized) packages for your installation see <a></a>Uploading Packages in the CRX documentation for detailed instructions.</p>
--->
-
 ## Installing AEM in the Amazon EC2 environment {#installing-aem-in-the-amazon-ec-environment}
 
 When installing AEM on an Amazon Elastic Compute Cloud (EC2) instance, if you install both author and publish on the EC2 instance, the Author instance is installed correctly by following the procedure on [Installing Instances of AEM Manager](#installinginstancesofaemmanager); however, the Publish instance becomes Author.
@@ -440,7 +323,7 @@ For example:
 or for the Bundles page  
 `http://localhost:4502/system/console/bundles`
 
-![](assets/chlimage_1-81.png)
+![](assets/chlimage_1-74.png)
 
 See [OSGi Configuration with the Web Console](../../../sites/deploying/using/configuring-osgi.md#osgiconfigurationwiththewebconsole) for further details.
 

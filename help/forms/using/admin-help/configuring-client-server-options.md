@@ -3,12 +3,12 @@ title: Configuring client and server options
 seo-title: Configuring client and server options
 description: Learn how you can configure the various client and server options, such as server configuration settings, document security roles, and event auditing.
 seo-description: Learn how you can configure the various client and server options, such as server configuration settings, document security roles, and event auditing.
-uuid: 9a1acaf1-b99a-4fde-8a14-73ffbff113d1
+uuid: 7dc388c9-389c-489b-86f2-62559ffbfa0e
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1fa2965f-172b-44eb-a4c1-c9103df123e8
+discoiquuid: c919ee82-621e-4b9e-8d0e-6c9ccc92283e
 index: y
 internal: n
 snippet: y
@@ -70,13 +70,6 @@ Height: Minimum = 450; maximum = 800
 
 ### Assigning document security roles to administrators {#assigning-document-security-roles-to-administrators}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Bugs 1506490, 1506489:</p>
--->
-
 Your AEM forms environment contains one or more administrator users who have the appropriate privileges for creating users and groups. If your organization is using document security, at least one administrator must also be assigned the privilege to manage invited and local users.
 
 The administrators must also have the administration console User role in order to access administration console. (See [Creating and configuring roles](../../../forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).)
@@ -98,13 +91,6 @@ The visible user and group list is visible to the policy set coordinator and is 
 1. Click Add Domain(s) and add existing domains as required.
 
 ## Add the extended authentication provider {#add-the-extended-authentication-provider}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Moved this topic from UM to here. The child topic for this may not be required. </p>
--->
 
 AEM forms provides a sample configuration that you can customize for your environment. Perform the following steps:
 
@@ -187,13 +173,6 @@ To maintain confidentiality of offline documents, you can manually roll over pri
 >[!NOTE]
 >
 >Avoid frequently using manual rollover because it causes all principal keys to roll over, not just one, and may temporarily prevent users from viewing new documents offline.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>The following paragraph is related to bug 2432580:</p>
--->
 
 The principal keys must be rolled over twice before previously existing keys on client computers are invalidated. Client computers that have invalidated principal keys must re-synchronize with the document security service to acquire the new principal keys.
 
@@ -766,25 +745,6 @@ You can make the following changes using the configuration file:
 1. In administration console, click Services &gt; document security 11 &gt; Configuration &gt; Manual Configuration.
 1. Click Browse to go to the configuration file and then click Import. You cannot type the path directly in the File Name box.
 1. Click OK.
-
-<!--
-Comment Type: draft
-
-<h3 id="display_catia_permissions_when_creating_and_editing_policies">Display CATIA permissions when creating and editing policies</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p></p>
--->
-
-<!--
-Comment Type: draft
-
-<p>By default, when you create or edit a policy, the Permissions and Options tabs are displayed in the Users and Groups area, allowing you to set document permissions for PDF and PTC Pro/E files.</p>
-<p>If users need to create policies for Dassault CATIA files, you can add tab that enables you to set document permissions for CATIA files.</p>
--->
 
 1. 
 1. 

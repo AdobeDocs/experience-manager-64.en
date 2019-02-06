@@ -3,12 +3,12 @@ title: Assessing the Upgrade Complexity with the Pattern Detector
 seo-title: Assessing the Upgrade Complexity with the Pattern Detector
 description: Learn how to use the Pattern Detector to assess the complexity of your upgrade.
 seo-description: Learn how to use the Pattern Detector to assess the complexity of your upgrade.
-uuid: 7aa138b1-971b-46ec-9479-7b69a166329a
+uuid: 592743db-0a4d-4da5-ac5d-797ff6cb8336
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
-discoiquuid: 5da55562-df71-4ca8-a6fb-ab39b7d44c2e
+discoiquuid: 04e8622e-4feb-466f-9f78-9c9a1f98f353
 index: y
 internal: n
 snippet: y
@@ -104,14 +104,6 @@ Which results in the following output:
 ## Handling the JSON Interface {#handling-the-json-interface}
 
 Similarly, JSON can be processed using the [jq tool](https://stedolan.github.io/jq/) as soon as it is published.
-
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-04-02T03:52:41.470-0400
-<p>We should describe here what jq comes from: https://stedolan.github.io/jq/ and what is the purpose of this tool.</p>
-<p>AS: I think a link to to github would suffice.</p>
--->
 
 ```shell
 curl -Nsu 'admin:admin' http://localhost:4502/system/console/status-pattern-detector.json | tee patterns-report.json | jq --unbuffered -C 'select(.suspicion == true)'

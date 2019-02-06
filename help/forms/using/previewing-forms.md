@@ -3,32 +3,16 @@ title: Previewing a form
 seo-title: Previewing a form
 description: You can preview your forms before publishing or activating to ensure it meets the expectations. Preview options may vary across the supported form types.
 seo-description: You can preview your forms before publishing or activating to ensure it meets the expectations. Preview options may vary across the supported form types.
-uuid: f65e499f-e402-4810-9389-fe888597dab2
+uuid: 9cbb3049-930e-4aeb-b859-7fcd8e7a10e3
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 40800cd1-fe01-429b-b3e3-468c8fe632f9
+discoiquuid: bf56e5fb-9a91-422d-96e7-fd01341420d3
 index: y
 internal: n
 snippet: y
 ---
 
 # Previewing a form{#previewing-a-form}
-
-<!--
-Comment Type: remark
-Last Modified By: (asgupta)
-Last Modified Date: 2017-11-30T06:08:07.066-0500
-<p>Link to the following articles if and when these are created. For now these are not part of the content plan.<br /> </p>
-<ol>
-<li>Creating Custom Data for adaptive form</li>
-<li>Creating Custom Data for XFA/Mobile Forms</li>
-<li>Previewing your AFs for different devices</li>
-</ol>
-<p>Link to these articles when they are published live:<br /> </p>
-<ol>
-<li>Prepopulating and customizing adaptive forms: /content/help/en/aem-forms/6/prepopulate-customize-adaptive-forms.html</li>
-</ol>
--->
 
 ## Overview {#overview}
 

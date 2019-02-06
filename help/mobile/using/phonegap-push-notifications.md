@@ -3,12 +3,12 @@ title: Push Notifications
 seo-title: Push Notifications
 description: Follow this page to learn about how to use push notifications in an AEM Mobile app.
 seo-description: Follow this page to learn about how to use push notifications in an AEM Mobile app.
-uuid: cb477647-ceb7-468f-9449-808040776430
+uuid: a0fedcd9-4725-48a0-8373-406d08d054f9
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 70a35a9d-098d-4043-93c1-dccb118546f4
+discoiquuid: 904b3649-4ece-4046-a666-f56ca714eab8
 index: y
 internal: n
 snippet: y

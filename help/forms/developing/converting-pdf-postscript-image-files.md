@@ -3,12 +3,12 @@ title: Converting PDF to Postscript andImage Files
 seo-title: Converting PDF to Postscript andImage Files
 description: null
 seo-description: null
-uuid: c45b1188-d9a8-4196-8264-dbd7d66b416f
+uuid: eea6c278-148c-4370-be1c-7377fad8caec
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 5fea6bd6-953a-42b3-a007-144d12062c94
+discoiquuid: 7d42591c-10c8-4d64-b966-9d1e8104b527
 index: y
 internal: n
 snippet: y

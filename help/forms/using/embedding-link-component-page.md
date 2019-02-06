@@ -3,11 +3,11 @@ title: Embedding link component in a page
 seo-title: Embedding link component in a page
 description: You can use the link component to link an adaptive document or an adaptive form from any page.  
 seo-description: You can use the link component to link an adaptive document or an adaptive form from any page.  
-uuid: cc0a9cf8-6580-4b5f-8845-8beb72ddefad
+uuid: 12113d04-88c9-41ba-a6ff-10ed2f6317a4
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: b5e966db-b2ae-4613-8bc5-383c597e6e31
+discoiquuid: 557a53d7-8930-4b83-8705-dc520645cd4e
 index: y
 internal: n
 snippet: y

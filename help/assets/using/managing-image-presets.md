@@ -3,12 +3,12 @@ title: Managing Image Presets
 seo-title: Managing Image Presets
 description: Understand image presets and learn how to create, modify, and manage image presets
 seo-description: Understand image presets and learn how to create, modify, and manage image presets
-uuid: b8e5c5ab-c087-4fce-9523-a15931f1eab1
+uuid: 5911c30d-60b4-4e49-b463-a42571343875
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: c3525aec-ac43-4029-83f6-256ff403a0e2
+discoiquuid: ba0dc732-cc1c-4ab3-94c7-8331cf6c03c2
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/image-presets
 index: y
 internal: n
@@ -24,20 +24,6 @@ Administrators can create presets for exporting assets. Users can choose a prese
 You can also create image presets that are responsive. If you apply a responsive image preset to your assets, they change depending on the device or screensize they are viewed on. You can configure image presets to use CMYK in the color space in addition to RGB or Gray.
 
 This section describes how to create, modify, and generally manage image presets. You can apply an image preset to an image anytime you preview it. See [Applying Image Presets](../../assets/using/image-presets.md).
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T15:18:01.819-0500
-"properties there are generated dynamically." "there" should be "that" RB: Fixed.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-07T20:19:01.390-0400
-General note: I checked that links worked but not the content of the links itself
--->
 
 >[!NOTE]
 >
@@ -57,7 +43,7 @@ Administrators can create Image Presets. To create an image preset, you can star
 
 You manage your image presets in AEM by tapping or clicking the AEM logo to access the global navigation console and then tapping or clicking the Tools icon and navigating to **Assets **&gt;** Image Presets**.
 
-![](assets/chlimage_1-515.png)
+![](assets/chlimage_1-506.png)
 
 >[!NOTE]
 >
@@ -77,13 +63,6 @@ You manage your image presets in AEM by tapping or clicking the AEM logo to acce
 
 If you intend to support the ingestion of AI, EPS, and PDF files so that you can generate dynamic renditions of these file formats, you may want to review the following information before you create image presets.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T15:25:47.724-0500
-This whole section on AI, ESP, and PDFs should probably be its own page and only referenced on this page to go to that page. It is only necessary, if the customer plans to use those files. I have not tested this before so I do not know how accurate this section is. For the most part, I skipped over it, since I don't know what to expect. RB: Not fixed.
--->
-
 Adobe Illustrator's file format is a variant of PDF. The main differences, in the context of AEM Assets, is the following:
 
 * Adobe Illustrator documents consist of a single page with multiple layers. Each layer is extracted as a PNG sub-asset under the main Illustrator asset.
@@ -100,13 +79,6 @@ To use Dynamic Media to preview and generate dynamic renditions for AI, EPS or P
 1. In the `DAM Update Asset` workflow, the `Rasterize PDF/AI Image Preview Rendition` process component rasterizes the first page of the original asset--using the configured resolution--into a `cqdam.preview.png` rendition.
 
 1. The `cqdam.preview.png` rendition is then optimized into a PTIFF by the `Dynamic Media Process Image Assets` process component within the workflow.
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T15:30:52.404-0500
-When I tried the AI and PDF files, they did not result in what is noted here, it is because I did not see any subassets or page options UI. To me, it looks like the file is flattened and not ripped apart into individual images. RB: Not fixed. It's not clear to me if this annotation is describing a bug or it really is supposed to work that way so not fixing.
--->
 
 >[!NOTE]
 >
@@ -157,13 +129,6 @@ Tap on Adobe Experience Manager in the upper left, navigate to **Tools **> **Wor
  </tbody> 
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T15:32:30.321-0500
-This is Classic CQ UI RB: Not fixing.
--->
-
 Using the default process arguments, the first page of a PDF/AI document is rasterized at 72 ppi and the generated preview image is sized at 2048 x 2048 pixels. For a typical deployment, you may want to increase the resolution to a minimum of 150 ppi or more. For example, a US letter size document at 300 ppi requires a maximum width and height of 2550 x 3300 pixels, respectively.  
   
 Max Width and Max Height limit the resolution at which to rasterize. For example, if the maximums are unchanged, and Resolution is set to 300 ppi, a US Letter document is rasterized at 186 ppi. That is, the document is 1581 x 2046 pixels.  
@@ -179,13 +144,6 @@ For InDesign files, sub assets are extracted only if the Adobe InDesign server i
 See [Integrating AEM Assets with InDesign Server](../../assets/using/indesign.md).  
   
 The Media Extraction process component in the `DAM Update Asset` workflow runs several preconfigured Extend Scripts to process InDesign files.
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T15:37:25.638-0500
-Like the section regarding AI, EPS, and PDFs, this should be on a separate page and only referenced in case the user needs to do anything. Also, from what I was told by a developer, INDD is not supported natively; it requires connecting to an external server. Like above, I don't know what is expected if a user tries uploading an INDD to either DMS7 or DM Hybrid. RB: It will be left here to keep the information from becoming too fragmented. A user can easily skip it if they want. I suspect this is used very little if at all. There have never been any support tickets come through about it.
--->
 
 ![The ExtendScript paths in the arguments of Media Extraction process](assets/media_extraction_arguments.png)
 
@@ -224,13 +182,6 @@ With the **Dynamic Media Process Image Assets** step, thumbnails are generated b
 
 Thumbnail sizing is defined in the following format: **width:height:center**, for example *80:80:false*. The width and height determine the size in pixels of the thumbnail; the center value is either false or true and if set to true, it indicates that the thumbnail image has exactly the size given in the configuration. If the resized image is smaller, it will be centered within the thumbnail.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T16:40:58.122-0500
-This has nothing to do with Image Presets RB: Leaving here as it doesn't fit anywhere else in the DM doc set.
--->
-
 >[!NOTE]
 >
 >* Thumbnail size for EPS files are configured in the **EPS thumbnails **step, in the **Arguments** tab under Thumbnails.
@@ -241,14 +192,6 @@ This has nothing to do with Image Presets RB: Leaving here as it doesn't fit any
 To configure thumbnail size:
 
 1. Click or tap **Tools **&gt; **Workflow** &gt; **Models** &gt; **DAM Update Asset** &gt; **Edit**.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-07T17:32:38.608-0400
-   I tried these steps using the newer UI and thiumbnail were not generated at all Screen shot below is for Classic CQ UI
-   -->
-
 1. Tap or click the **Dynamic Media Process Image Assets** step and tap or click the **Thumbnails** tab. Change the thumbnail size, as needed, and tap or click **OK**.
 
    ![](assets/step_properties_thumbnailarguments.png)
@@ -267,13 +210,6 @@ Image presets you create are available as dynamic renditions when you preview as
 
 To increase or decrease the number of image presets displayed:
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T15:42:14.731-0500
-I'm not sure how relevant this is. There was a change due to a customer complaint. I'm not sure the Renditions page is limited to 15 Image Presets anymore RB: Not fixed. What wsa the customer complaint?
--->
-
 1. Navigate to CRXDE Lite ([http://localhost:4502/crx/de](http://localhost:4502/crx/de)).
 1. Navigate to the image preset listing node at **/libs/dam/gui/coral/content/commons/sidepanels/imagepresetsdetail/imgagepresetslist**
 
@@ -282,7 +218,7 @@ I'm not sure how relevant this is. There was a change due to a customer complain
 1. In the **limit** property, change the **Value**, which is set to 15 by default, to the desired number.
 1. Navigate to the image preset datasource at **/libs/dam/gui/coral/content/commons/sidepanels/imagepresetsdetail/imgagepresetslist/datasource**
 
-   ![](assets/chlimage_1-516.png)
+   ![](assets/chlimage_1-507.png)
 
 1. In the limit property, change the number to the desired number, for example `{empty requestPathInfo.selectors[1] ? "20" : requestPathInfo.selectors[1]}`
 1. Tap or click **Save All**.
@@ -306,7 +242,7 @@ To create an image preset:
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon and navigate to **Assets **&gt; **Image Presets**.
 1. Click **Create**. The **Edit Image Preset** window opens.
 
-   ![](assets/chlimage_1-517.png)
+   ![](assets/chlimage_1-508.png)
 
    >[!NOTE]
    >
@@ -314,14 +250,7 @@ To create an image preset:
 
 1. Enter values into the **Basic** and **Advanced** tabs as appropriate, including a name. The options are outlined in [Image Preset Options](#imagepresetoptions). Presets appear in the left pane and can be used on-the-fly with other assets.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-15T16:55:36.152-0500
-   This link goes to the top of the page instead of the Image Preset option section below RB: Fixed.
-   -->
-
-   ![](assets/chlimage_1-518.png)
+   ![](assets/chlimage_1-509.png)
 
 1. Click **Save**.
 
@@ -331,7 +260,7 @@ To create a responsive image preset, perform the steps in [Creating Image Preset
 
 Leaving them blank tells AEM that this image preset is responsive. You can adjust the other values as appropriate. 
 
-![](assets/chlimage_1-519.png)
+![](assets/chlimage_1-510.png)
 
 >[!NOTE]
 >
@@ -350,13 +279,6 @@ When you create or edit image presets, you have the options described in this se
 * **Enable Simple Sharpening** - Do not select **Enable Simple** **Sharpening** (this sharpening filter offers less control than Unsharp Masking settings).
 
 * **Sharpening: Resampling Mode** - Select **Bi-Cubic**.
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:10:35.148-0500
-Maybe move this section header and the first paragraph after the "Image Preset Best Practices" Also, remove from the paragraph, "In addition, Adobe recommends some best practice options to start." since the best practices come before this section RB: Fixed.
--->
 
 #### Basic tab options {#basic-tab-options}
 
@@ -495,20 +417,6 @@ Maybe move this section header and the first paragraph after the "Image Preset B
  </tbody> 
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:11:13.815-0500
-This table needs to be shrunken horizontally so the user does not have to use a scroll bar to read the Desciprion RB: Not fixing.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:13:40.483-0500
-maybe mention that Amount and Radius accept real numbers and Threshold accepts integers? RB: Fixed.
--->
-
 ### Defining Image Preset Options with Image Modifiers {#defining-image-preset-options-with-image-modifiers}
 
 In addition to the options available in the Basic and Advanced tabs, you can define image modifiers to give you more options when defining image presets. Image Rendering relies on the Scene7 image rendering API and are defined in detail in the [HTTP Protocol Reference](http://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/c_http_protocol_reference.html).
@@ -525,7 +433,7 @@ The following are some basic examples of what you can do with image modifiers.
   &op_invert=1
   ```
 
-  ![](assets/chlimage_1-520.png)
+  ![](assets/chlimage_1-511.png)
 
 * [op_blur](http://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_blur.html) - Applies a blur filter to the image.
 
@@ -533,7 +441,7 @@ The following are some basic examples of what you can do with image modifiers.
   &op_blur=25
   ```
 
-  ![](assets/chlimage_1-521.png)
+  ![](assets/chlimage_1-512.png)
 
 * Combined commands - op_blur and op-invert
 
@@ -541,7 +449,7 @@ The following are some basic examples of what you can do with image modifiers.
   &op_invert=1&op_blur=25
   ```
 
-  ![](assets/chlimage_1-522.png)
+  ![](assets/chlimage_1-513.png)
 
 * [op_brightness](http://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_brightness.html) - Decreases or increases the brightness.
 
@@ -549,7 +457,7 @@ The following are some basic examples of what you can do with image modifiers.
   &op_brightness=75
   ```
 
-  ![](assets/chlimage_1-523.png)
+  ![](assets/chlimage_1-514.png)
 
 * [opac](http://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/r_opac.html) - Adjusts image opacity. Lets you decrease the foreground opacity.
 
@@ -557,7 +465,7 @@ The following are some basic examples of what you can do with image modifiers.
   opac=50
   ```
 
-  ![](assets/chlimage_1-524.png)
+  ![](assets/chlimage_1-515.png)
 
 ### Modifying Image Presets {#modifying-image-presets}
 
@@ -565,7 +473,7 @@ To edit image presets:
 
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon and navigate to **Assets **&gt; **Image Presets**.
 
-   ![](assets/chlimage_1-525.png)
+   ![](assets/chlimage_1-516.png)
 
 1. Select a preset and then click **Edit**. The **Edit Image Preset** window opens.
 1. Make changes and click **Save** to save your changes or **Cancel** to cancel your changes.
@@ -578,18 +486,11 @@ If you are running Dynamic Media - Hybrid mode, you must manually publish image 
 
 To manually publish image presets in Dynamic Media - Hybrid mode:
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-15T17:19:16.333-0500
-May want to mention this is for Dynamic Media Hybrid and that DMS7 automatically publishes image presets RB: Fixed.
--->
-
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon and navigate to **Assets **&gt; **Image Presets**.
 1. Select the image preset or multiple image presets from the list of image presets and click or tap **Publish**.
 1. After the image preset is published, the status changes from unpublished to published.
 
-   ![](assets/chlimage_1-526.png)
+   ![](assets/chlimage_1-517.png)
 
 ### Deleting Image Presets {#deleting-image-presets}
 
@@ -597,11 +498,4 @@ To delete image presets:
 
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon and navigate to **Assets **&gt; **Image Presets**.
 1. Select a preset, and then click **Delete**. Dynamic Media confirms that you want to delete it. Click **Delete** to delete or click **Cancel** to abort.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-15T17:20:24.847-0500
-   Change "OK" to "Delete" The button's label is Delete RB: Fixed.
-   -->
 

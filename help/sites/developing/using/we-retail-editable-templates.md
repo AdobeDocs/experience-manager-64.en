@@ -3,12 +3,12 @@ title: Trying out Editable Templates in We.Retail
 seo-title: Trying out Editable Templates in We.Retail
 description: null
 seo-description: null
-uuid: 742bd7e0-a49f-4870-8346-f58dc6067362
+uuid: 59cb1779-7add-4e4b-af47-9494c5953407
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: f1acb962-29a4-404f-b009-c074363daaae
+discoiquuid: 8d56c723-b915-48b2-b6ef-d9d7a0d9079d
 index: y
 internal: n
 snippet: y
@@ -32,13 +32,13 @@ All pages in We.Retail are based on editable templates, allowing non-developers 
 
    The structure mode of the page allows you to modify the structure of the template. This includes for example the components that are allowed in the layout container.
 
-   ![](assets/chlimage_1-151.png)
+   ![](assets/chlimage_1-149.png)
 
 1. Configure the policies for the Layout Container to define which components are allowed in the container.
 
    Policies are the equivalent of design configurations.
 
-   ![](assets/chlimage_1-152.png)
+   ![](assets/chlimage_1-150.png)
 
 1. In the design dialog of the layout container, you can
 
@@ -46,7 +46,7 @@ All pages in We.Retail are based on editable templates, allowing non-developers 
     * Select which components are allowed in the container
     * Define the default components to be placed when an asset is dragged to the container
 
-   ![](assets/chlimage_1-153.png)
+   ![](assets/chlimage_1-151.png)
 
 1. Back in the template editor, you can edit the policy of the text component within the layout container.
 
@@ -62,7 +62,7 @@ All pages in We.Retail are based on editable templates, allowing non-developers 
 
    Many components based on the core components allow the configuration of options at the component level through the editable templates, removing the need for customization by developers.
 
-   ![](assets/chlimage_1-154.png)
+   ![](assets/chlimage_1-152.png)
 
 1. Back in the template editor, you can use the mode selector to change to **Initial Content** mode to define what content is required on the page.
 

@@ -3,12 +3,12 @@ title: REST APIs
 seo-title: REST API
 description: AEM Screens provides a simple RESTful API that follows the Siren specification. Follow this page to learn how to navigate the content structure and send commands to devices in the environment.
 seo-description: AEM Screens provides a simple RESTful API that follows the Siren specification. Follow this page to learn how to navigate the content structure and send commands to devices in the environment.
-uuid: 428421c9-4048-430a-b7ae-a338e59a65fd
+uuid: 56017e14-1c83-4750-bb57-e8ae9f2b5641
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: developing
-discoiquuid: e247c485-5ee6-4a7b-b4d7-71671ef09201
+discoiquuid: 05e43aeb-c781-492c-b00c-be3fd5192032
 index: y
 internal: n
 snippet: y

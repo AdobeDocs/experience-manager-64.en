@@ -3,12 +3,12 @@ title: Managing Subscriptions
 seo-title: Managing Subscriptions
 description: Users can be asked to subscribe to Email Service Provider's mailing lists with the help of the Form component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
 seo-description: Users can be asked to subscribe to Email Service Provider's mailing lists with the help of the Form component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
-uuid: 65be3b4b-3da9-414f-a3d7-986763cfcdef
+uuid: a6ac731f-eafd-4c87-9201-4c7e7ca25b49
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: b168de0c-6517-4de8-899d-2e8bcb87fbeb
+discoiquuid: 7b04aa86-9700-41bb-aab8-1b90f79d3e4b
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ To configure an AEM page:
 
 1. Select **Cloud Services** then **Add Service**. Select a configuration from the list of available configurations. 
 
-   ![](assets/chlimage_1-188.png)
+   ![](assets/chlimage_1-180.png)
 
 1. Click **OK**.
 
@@ -49,7 +49,7 @@ To create a sign-up form and configure it for subscriptions to Email Service Pro
 1. At the bottom of the dialog box, open the **Action Configuration** drop-down, which allows you to select one or more subscription lists.
 1. In the **Select** **list**, select the list you want users to subscribe to. You can add multiple lists by using the plus button (**Add Item**).
 
-   ![](assets/chlimage_1-13.jpeg)
+   ![](assets/chlimage_1-10.jpeg)
 
    >[!NOTE]
    >
@@ -84,7 +84,7 @@ To unsubscribe users from lists:
 1. While configuring the component, select the action **E-mail Service**: **Unsubscribe user from list.**
 1. From the drop-down menu, select the appropriate list from which the user will be removed when unsubscribing.
 
-   ![](assets/chlimage_1-14.jpeg)
+   ![](assets/chlimage_1-11.jpeg)
 
 1. Export the keys from author to publish.
 
@@ -114,5 +114,5 @@ To configure an auto-responder email for a subscriber:
    >
    >To make the sign-up form subscription function correctly, [encryption keys from author need to be exported and imported on the publish instance](#exportingkeysfromauthorandimportingonpublish).
 
-   ![](assets/chlimage_1-15.jpeg)
+   ![](assets/chlimage_1-12.jpeg)
 

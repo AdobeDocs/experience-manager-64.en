@@ -3,12 +3,12 @@ title: Promoting Launches
 seo-title: Promoting Launches
 description: You need to promote launch pages to move the content back into the source (production) before publishing. 
 seo-description: You need to promote launch pages to move the content back into the source (production) before publishing. 
-uuid: ff3649e9-2945-4458-8ff6-1d2d58a33c80
+uuid: c0d7852c-9784-44ef-8ef2-e31bdb502f9d
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 692a798a-0638-4e07-80da-300534b156cc
+discoiquuid: 57720528-58e6-4ae5-8fc5-cc9235534308
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n
@@ -17,69 +17,11 @@ snippet: y
 
 # Promoting Launches{#promoting-launches}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-11-27T00:22:21.197-0500
-<p>6.5</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-11-27T00:22:37.342-0500
-<p>6.5 changes included</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T04:52:41.248-0500
-<p>6.2 </p>
-<ul>
-<li>smart launches; only promote pages that have changed<br /> </li>
-</ul>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2019-01-14T08:08:52.173-0500
-<p>6.5</p>
-<ul>
-<li>delete launch after promote</li>
-<li>see<br />
-<ul>
-<li>[Launches] Issues with Timeline after deleting a Launch after promotion</li>
-<li>URL: <a href="https://jira.corp.adobe.com/browse/CQ-4257973">https://jira.corp.adobe.com/browse/CQ-4257973</a></li>
-</ul> </li>
-</ul>
--->
-
 You need to promote launch pages to move the content back into the source (production) before publishing. When a launch page is promoted, the corresponding page of the source pages is replaced with the content of the promoted page. The following options are available when promoting a launch page:
 
 * Whether to promote only the current page or the entire launch.
 * Whether to promote the child pages of the current page.
 * Whether to promote the full launch or only pages that have changed.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2019-01-14T08:09:00.352-0500
-<p>6.5</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>You need to promote launch pages to move the content back into the source (production) before publishing. When a launch page is promoted, the corresponding page of the source pages is replaced with the content of the promoted page. The following options are available when promoting a launch page:</p>
-<ul>
-<li>Whether to promote only the current page or the entire launch.</li>
-<li>Whether to promote the child pages of the current page.</li>
-<li>Whether to promote the full launch or only pages that have changed.</li>
-<li>Whether to delete the launch after being promoted.</li>
-</ul>
--->
 
 >[!NOTE]
 >
@@ -129,53 +71,7 @@ You can promote launches from either the **Sites** console or the **Launches** c
 
    For example, when selecting to only promote modified pages:
 
-   ![](assets/chlimage_1-219.png) 
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2019-01-14T08:01:58.223-0500
-   <p>6.5</p>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <p>In the first step you can specify:</p>
-   <ul>
-   <li><strong>Target</strong><br />
-   <ul>
-   <li><strong>Delete launch after promotion</strong></li>
-   </ul> </li>
-   <li><strong>Scope</strong>
-   <ul>
-   <li><strong>Promote full launch</strong></li>
-   <li><strong>Promote modified pages</strong></li>
-   <li><strong>Promote current page</strong></li>
-   <li><strong>Promote current page and sub pages</strong></li>
-   </ul> </li>
-   </ul>
-   <p>For example, when selecting to only promote modified pages:<br /> </p>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/Launches-PD-06.png" />
-   -->
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-11-26T01:44:22.397-0500
-   <p>6.5</p>
-   <ul>
-   <li>delete launch after promotion
-   <ul>
-   <li>any special/considerations for nested launches?</li>
-   </ul> </li>
-   </ul>
-   -->
+   ![](assets/chlimage_1-212.png)
 
    >[!NOTE]
    >
@@ -184,7 +80,7 @@ You can promote launches from either the **Sites** console or the **Launches** c
 1. Select **Next** to proceed.
 1. You can review the pages to be promoted, these will depend on the range of pages you have chosen:
 
-   ![](assets/chlimage_1-220.png)
+   ![](assets/chlimage_1-213.png)
 
 1. Select **Promote**.
 
@@ -192,7 +88,7 @@ You can promote launches from either the **Sites** console or the **Launches** c
 
 When you are editing a launch page, the **Promote Launch** action is also available from **Page Information**. This will open the wizard to collect the information needed.
 
-![](assets/chlimage_1-221.png)
+![](assets/chlimage_1-214.png)
 
 >[!NOTE]
 >
@@ -202,7 +98,7 @@ When you are editing a launch page, the **Promote Launch** action is also availa
 
 After creating a nested launch you can promote it back to any of the sources, including the root source (production).
 
-![](assets/chlimage_1-222.png)
+![](assets/chlimage_1-215.png)
 
 1. As with [Creating a Nested Launch](#creatinganestedlaunchlaunchwithinalaunch), navigate to and select the required launch in either the **Launches** console or the **References** rail.
 1. Select **Promote launch** to open the wizard.  
@@ -220,60 +116,12 @@ After creating a nested launch you can promote it back to any of the sources, in
         * **Promote current page**
         * **Promote current page and sub pages**
 
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2019-01-14T08:09:19.142-0500
-   <p>6.5</p>
-   -->
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-11-26T01:45:03.981-0500
-   <p>see also <a href="https://jira.corp.adobe.com/browse/CQ-4257988">https://jira.corp.adobe.com/browse/CQ-4257988</a></p>
-   -->
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-11-26T01:45:19.527-0500
-   <p>confirm what d-l-a-p will do for a nested launch?</p>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <p>Enter the required details:</p>
-   <ul>
-   <li><strong>Target</strong>
-   <ul>
-   <li><strong>Promotion target</strong><br /> You can promote to any of the sources.</li>
-   <li><strong>Delete launch after promotion</strong><br /> After promotion the selected launch, and any launches nested within it, will be deleted.<strong><br /> </strong></li>
-   </ul> </li>
-   <li><strong>Scope</strong><br /> Here you can select whether to promote the entire launch, or only pages that have actually been edited. If the latter, you can then select to include/exclude sub-pages. The default configuration is to only promote page changes for the current page:
-   <ul>
-   <li><strong>Promote full launch</strong></li>
-   <li><strong>Promote modified pages</strong></li>
-   <li><strong>Promote current page</strong></li>
-   <li><strong>Promote current page and sub pages</strong></li>
-   </ul> </li>
-   </ul>
-   -->
-
-   ![](assets/chlimage_1-223.png)
+   ![](assets/chlimage_1-216.png)
 
 1. Select **Next**.
 1. Review the promotion details before selecting **Promote**:
 
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-   Last Modified Date: 2017-11-30T04:52:42.152-0500
-   <p>seems to show -1 when it's all pages - isn't that a bit confusing for the users?</p>
-   -->
-
-   ![](assets/chlimage_1-224.png)
+   ![](assets/chlimage_1-217.png)
 
    >[!NOTE]
    >
@@ -281,7 +129,7 @@ After creating a nested launch you can promote it back to any of the sources, in
 
 1. Your changes will be promoted and reflected in the **Launches** console:
 
-   ![](assets/chlimage_1-225.png)
+   ![](assets/chlimage_1-218.png)
 
 ## Processing Promoted Pages Using AEM Workflow {#processing-promoted-pages-using-aem-workflow}
 
@@ -295,11 +143,5 @@ To start a workflow automatically when pages are promoted, [configure a workflow
 
 For example, you can automatically generate page activation requests when authors promote Launches pages. Configure a workflow launcher to start the Request Activation workflow when the package node is modified. 
 
-![](assets/chlimage_1-226.png) 
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-227.png" />
--->
+![](assets/chlimage_1-219.png)
 

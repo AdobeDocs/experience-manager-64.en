@@ -3,34 +3,18 @@ title: Projects
 seo-title: Projects
 description: Projects let you group resources into one entity whose common, shared environment makes it easy to manage your projects
 seo-description: Projects let you group resources into one entity whose common, shared environment makes it easy to manage your projects
-uuid: f7f56742-0887-4e69-8f0c-5dd331ffe08e
+uuid: 3ac868c6-c66e-4486-a1d8-e7838cb4755f
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: b23e1596-6316-4123-bbb9-6fc82590df5d
+discoiquuid: 5961ee48-450f-4bf1-9a66-4b623230e098
 index: y
 internal: n
 snippet: y
 ---
 
 # Projects{#projects}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-02-02T12:33:15.120-0500
-<p>yes - and more - see:</p>
-<p>https://issues.adobe.com/browse/DOC-3419 (Document project configuration in crxde lite)</p>
-<p>also the touch page will need significant updates, seems to be a lot of new functionality in 6.0</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2018-02-02T12:33:15.142-0500
-<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=cqbpm&title=AEM+6.0+BPM+Demo+Scripts</p>
--->
 
 Projects let you group resources into one entity. A common, shared environment makes it easy to manage your projects. The types of resources you can associate with a project are referred to in AEM as Tiles. Tiles may include project and team information, assets, workflows, and other types of information, as described in detail in [Project Tiles.](#projecttiles)
 
@@ -55,20 +39,9 @@ See the following additional topics:
 
 ## Projects Console {#projects-console}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-162E3E7B471F3A4A992015C3@AdobeID)
-Last Modified Date: 2018-02-02T12:33:15.277-0500
-<p>Add a reference to the a new , </p>
-<p> </p>
-<p>"we have introduced a new calendar view, please see the sub-page <strong>View Options for Projects Console "</strong></p>
-<p> </p>
-<p>on the sub-page : include screenshots for List view and Card View ( maybe a brief description) , and include screenshots and detailed description for the Calendar view.</p>
--->
-
 The projects console is where you access and manage your projects within AEM.
 
-![](assets/chlimage_1-159.png)
+![](assets/chlimage_1-158.png)
 
 * Select **Timeline** and then a project to view its timeline.
 * Click/tap **Select** to enter selection mode.
@@ -97,17 +70,17 @@ You can have the following tiles associated with your project. Each is described
 
 In the **Assets** tile, you can gather all assets that you use for a particular project.
 
-![](assets/chlimage_1-160.png)
+![](assets/chlimage_1-159.png)
 
 You upload assets directly in the tile. In addition you can create Image Sets, Spin Sets, or Mixed Media Sets if you have the Dynamic Media add-on.
 
-![](assets/chlimage_1-161.png) 
+![](assets/chlimage_1-160.png) 
 
 ### Asset Collections {#asset-collections}
 
 Similar to assets, you can add [asset collections](../../../assets/using/managing-collections-touch-ui.md) directly to your project. You define collections in Assets.
 
-![](assets/chlimage_1-162.png)
+![](assets/chlimage_1-161.png)
 
 Add a collection by clicking **Add Collection** and selecting the appropriate collection from the list.
 
@@ -115,11 +88,11 @@ Add a collection by clicking **Add Collection** and selecting the appropriate co
 
 The **Experiences** tile lets you add a Mobile app, web site, or publication to the project.
 
-![](assets/chlimage_1-163.png)
+![](assets/chlimage_1-162.png)
 
 The icons indicate which kind of experience is represented: web site, mobile application or a publication. Add experiences by clicking the + sign or clicking **Add Experience** and selecting the type of experience.
 
-![](assets/chlimage_1-164.png)
+![](assets/chlimage_1-163.png)
 
 Select the path for the thumbnails and if applicable, change the thumbnail for the experience. Experiences are grouped together in the **Experiences** tile.
 
@@ -127,55 +100,47 @@ Select the path for the thumbnails and if applicable, change the thumbnail for t
 
 The Links tile lets you associate external links with your project.
 
-![](assets/chlimage_1-165.png)
+![](assets/chlimage_1-164.png)
 
 You can name the link with an easy-to-recognize name as well as change the thumbnail.
 
-![](assets/chlimage_1-166.png) 
+![](assets/chlimage_1-165.png) 
 
 ### Project Info {#project-info}
 
 The Project Information tile provides general information on the project including a description, project status (inactive or active), a due date, and members. In addition, you can add a project thumbnail, which is displayed on the main Projects page.
 
-![](assets/chlimage_1-167.png)
+![](assets/chlimage_1-166.png)
 
 Team members can be assigned and deleted from this tile (or have their roles changed) as well as the Team tile.
 
-![](assets/chlimage_1-168.png) 
+![](assets/chlimage_1-167.png) 
 
 ### Translation Job {#translation-job}
 
 The Translation Job tile is where you start a translation and also where you see the status of your translations. To set up your translation, see [Creating Translation Projects](../../../assets/using/translation-projects.md).
 
-![](assets/chlimage_1-169.png)
+![](assets/chlimage_1-168.png)
 
 Click the ellipsis at the bottom of the **Translation Job** card to view the assets in the translation workflow. The translation job list also displays entries for asset metadata and tags. These entries indicate that the metadata and tags for the assets are also translated.
 
-![](assets/chlimage_1-170.png) 
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2018-02-02T12:33:16.571-0500
-<p>Fixed for 6.2. In 6.1, Translation Summary tile was not called Translation Summary and called by name of project, which is why I didn't document it. This was a bug and has been fixed. </p>
-<p>This should be drafted for 6.2. </p>
--->
+![](assets/chlimage_1-169.png)  
 
 ### Team {#team}
 
 In this tile, you can specify the members of the project team. When editing, you can enter the name of the team member and assign the user role.
 
-![](assets/chlimage_1-171.png)
+![](assets/chlimage_1-170.png)
 
 You can add and delete team members from the team. In addition, you can edit the [user role](#userroles) assigned to the team member. 
 
-![](assets/chlimage_1-172.png) 
+![](assets/chlimage_1-171.png) 
 
 ### Landing Pages {#landing-pages}
 
 The **Landing** Pages tile lets you request a new landing page.
 
-![](assets/chlimage_1-173.png)
+![](assets/chlimage_1-172.png)
 
 This workflow is described in [Create a Landing Page workflow](../../../sites/authoring/using/projects-with-workflows.md#requestlandingpageworkflow).
 
@@ -183,7 +148,7 @@ This workflow is described in [Create a Landing Page workflow](../../../sites/au
 
 The **Emails** tile helps you manage requests for email. It starts the Request for Email workflow.
 
-![](assets/chlimage_1-174.png)
+![](assets/chlimage_1-173.png)
 
 More information is described in the [Request Email workflow.](../../../sites/authoring/using/projects-with-workflows.md#requestemailworkflow)
 
@@ -191,7 +156,7 @@ More information is described in the [Request Email workflow.](../../../sites/au
 
 You can assign your project to follow certain workflows. If any workflows are running, their status displays in the **Workflows** tile in Projects.
 
-![](assets/chlimage_1-175.png)
+![](assets/chlimage_1-174.png)
 
 You can assign your project to follow certain workflows. Depending on which project you choose you have different workflows available.
 
@@ -201,13 +166,13 @@ These are described in [Working with Project Workflows.](../../../sites/authorin
 
 The Launches tile shows any launches that have been requested with a [Request Launch workflow.](../../../sites/authoring/using/projects-with-workflows.md)
 
-![](assets/chlimage_1-176.png) 
+![](assets/chlimage_1-175.png) 
 
 ### Tasks {#tasks}
 
 Tasks let you monitor the status of any project-related tasks, including workflows. Tasks are covered in detail at [Working with Tasks](../../../sites/authoring/using/task-content.md).
 
-![](assets/chlimage_1-177.png) 
+![](assets/chlimage_1-176.png) 
 
 ## Project Templates {#project-templates}
 
@@ -219,13 +184,6 @@ AEM ships with three different templates out of the box:
 * [A translation project](../../../sites/administering/using/translation.md) - A reference sample for managing translation related activities. It includes three basic roles (Owners, Editors, and Observers). It includes two workflows that are accessed in the Workflows user interface.
 
 Based on the template you select, you have different options available to you particularly around user roles and workflows.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-162E3E7B471F3A4A992015C3@AdobeID)
-Last Modified Date: 2018-02-02T12:33:17.153-0500
-<p>Insert a one line reference and a link to the Project Masters sub-page</p>
--->
 
 ## User Roles in a Project {#user-roles-in-a-project}
 

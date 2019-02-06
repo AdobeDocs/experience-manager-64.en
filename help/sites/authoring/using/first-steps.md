@@ -3,12 +3,12 @@ title: First Steps for Authors
 seo-title: First Steps for Authors
 description: An overview of the main tasks that you will be using when starting to author content with AEM
 seo-description: An overview of the main tasks that you will be using when starting to author content with AEM
-uuid: c0269b26-f2bf-4fcc-82f0-ebdf4e42b82a
+uuid: c6190e14-8dda-4458-9120-9f176d7974cf
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 474ee67d-a7ca-4ec6-b462-a79290043e2d
+discoiquuid: 2eb1c700-0a80-4518-b278-2ba13132874c
 index: y
 internal: n
 snippet: y

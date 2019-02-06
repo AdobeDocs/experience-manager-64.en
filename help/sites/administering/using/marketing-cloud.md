@@ -3,25 +3,18 @@ title: Integrating with the Adobe Marketing Cloud
 seo-title: Integrating with the Adobe Marketing Cloud
 description: Learn how to integrate AEM with Adobe Marketing Cloud.
 seo-description: Learn how to integrate AEM with Adobe Marketing Cloud.
-uuid: b202f16d-e3a1-4bce-ab1a-ad842211ac3a
+uuid: 55778b0d-e567-4d03-a99a-cbff59f99171
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 6c89a841-e1a7-4599-9542-4544348cf717
+discoiquuid: f99630de-319d-4d13-9547-5dda38cccc57
 index: y
 internal: n
 snippet: y
 ---
 
 # Integrating with the Adobe Marketing Cloud{#integrating-with-the-adobe-marketing-cloud}
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2018-02-20T07:58:45.963-0500
-<p>Information from this page should be on a Features or overview page. Do not delete content for now.</p>
--->
 
 The [Adobe Marketing Cloud](http://www.adobe.com/solutions/digital-marketing.html), includes powerful web analytics and website optimization products that deliver actionable, real-time data and insights to drive successful online initiatives. It offers an integrated and open platform for online business optimization. The Cloud consists of integrated applications to collect and unleash the power of customer insight to optimize customer acquisition, conversion and retention efforts as well as the creation and distribution of content.
 
@@ -69,7 +62,7 @@ You can also use the [Opt-in wizard](../../../sites/administering/using/opt-in.m
 
 AEM provides a simple opt-in procedure to integrate with Adobe Analytics and Adobe Target. When you log in as an administrator and visit the Projects console you are presented with an opt-in wizard.
 
-![](assets/chlimage_1-119.png)
+![](assets/chlimage_1-113.png)
 
 Opt into the integration with Analytics and/or Target to enable the use of their page tracking and analysis capabilities, and personalization capabilities. When you opt in you need to provide your user account information and specify the pages that are tracked.
 

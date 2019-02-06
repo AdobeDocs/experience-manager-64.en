@@ -3,25 +3,18 @@ title: Configuring Segmentation
 seo-title: Configuring Segmentation
 description: Learn how to configure segmentation for AEM Campaign.
 seo-description: Learn how to configure segmentation for AEM Campaign.
-uuid: a7673446-5917-41ae-a9fc-ae6b7a8df6d1
+uuid: 6d2e67fe-e1ad-4936-8ae6-45c3881281b7
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: d4e35aee-5d31-488e-b6d2-e54163cad88d
+discoiquuid: 7858fcce-872c-46ca-83a3-44571601f0c6
 index: y
 internal: n
 snippet: y
 ---
 
 # Configuring Segmentation{#configuring-segmentation}
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2018-03-12T05:08:10.142-0400
-<p>Segmentation concepts are split. In new organization, maybe this makes sense (although I think it needs a reorg) - currently under campaigns and administering.</p>
--->
 
 >[!NOTE]
 >
@@ -124,22 +117,6 @@ When the entire statement evaluates to true then this segment has resolved. In t
 >
 >Therefore when creating a segment with such properties is it normally necessary to rely on **browserFamily** for instance instead of **browserFamily_i18n**.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (fix-path)
-Last Modified Date: 2018-03-12T05:08:11.648-0400
-<p> ah - need details of all parameters possible for each trait definition; to be supplied by RnD</p>
-<p>lt - please create sub-pages for each trait and a placeholder for the segments, we will fill in accordingly</p>
-<p>See <a href="/content/docs/en/cq/attic/2014/segmentation_reference">Segmentation Reference</a> (for the moment at least).</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2018-03-12T05:08:11.734-0400
-<p>ah - check screenshots.</p>
--->
-
 ### Creating a New Segment {#creating-a-new-segment}
 
 To define your new segment:
@@ -207,15 +184,7 @@ Such tests can also be performed on content pages and in combination with **Teas
 
 Mouseover on a teaser paragraph will show the segments applied, whether they currently resolve and therefore, why the current teaser instance has been selected:
 
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2018-03-12T05:08:15.890-0400
-<p>could not reproduce the below screenshot with CQ 5.5 load23a.</p>
-<p>See bug#40716.<br /> </p>
--->
-
-![](assets/chlimage_1-337.png) 
+![](assets/chlimage_1-322.png) 
 
 #### Using Your Segment {#using-your-segment}
 

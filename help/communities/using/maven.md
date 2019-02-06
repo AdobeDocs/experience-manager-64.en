@@ -3,12 +3,12 @@ title: Using Maven for Communities
 seo-title: Using Maven for Communities
 description: AEM Communities API jar and AEM Uber API jar
 seo-description: AEM Communities API jar and AEM Uber API jar
-uuid: 22e26fa3-8320-4611-9038-8578980ef269
+uuid: 9bace8df-d5a9-4c58-992f-c50e67368ed9
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 112bc7c4-b0e6-4f69-a3df-ac776c79aace
+discoiquuid: e7e51535-76d1-4591-aed4-b6a3e2899c20
 index: y
 internal: n
 snippet: y
@@ -78,33 +78,4 @@ The Communities API jar must be specified before the Uber API jar.
     <classifier>apis</classifier>
 </dependency>
 ```
-
-<!--
-Comment Type: draft
-
-<h2>Javadocs</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>The <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/package-summary">online javadocs</a> reflect the APIs available in the AEM 6.3 release (Communities version 1.11.170).</p>
-<p>When a <a href="../../communities/using/deploy-communities.md#latestfeaturepack">feature pack</a>* is released, its javadoc jar is made available to be loaded into an IDE or downloaded to a local disk, exploded, and referenced using a browser.</p>
-<p>For example, the AEM 6.3 javadoc jar is located within this Adobe public repository folder :</p>
-<ul>
-<li><a href="https://repo.adobe.com/nexus/content/groups/public/com/adobe/cq/social/cq-socialcommunities-api/1.11.170/">https://repo.adobe.com/nexus/content/groups/public/com/adobe/cq/social/cq-socialcommunities-api/1.11.170/</a>
-<ul>
-<li>cq-socialcommunities-api-1.11.170-javadoc.jar</li>
-<li>cq-socialcommunities-api-1.11.170-javadoc.jar.md5</li>
-<li>cq-socialcommunities-api-1.11.170-javadoc.jar.sha1</li>
-<li>cq-socialcommunities-api-1.11.170.jar</li>
-<li>cq-socialcommunities-api-1.11.170.jar.md5</li>
-<li>cq-socialcommunities-api-1.11.170.jar.sha1</li>
-<li>cq-socialcommunities-api-1.11.170.pom</li>
-<li>cq-socialcommunities-api-1.11.170.pom.md5</li>
-<li>cq-socialcommunities-api-1.11.170.pom.sha1</li>
-</ul> </li>
-</ul>
-<p>* feature packs for AEM 6.3 Communities are versions labeled 1.12.xxx</p>
--->
 

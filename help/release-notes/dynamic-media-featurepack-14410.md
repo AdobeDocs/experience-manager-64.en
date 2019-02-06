@@ -4,12 +4,12 @@ seo-title: Dynamic Media Feature Pack 18912 Release Notes
 description: Release notes specific to the Dynamic Media Feature Pack 18912.
 seo-description: Release notes specific to the Dynamic Media Feature Pack 18912.
 page-status-flag: de-activated
-uuid: 0eed11de-fe51-42a5-b4c0-f3a59b7f77cd
+uuid: 04493d81-2fcb-47de-98ef-9b9a4531d4bd
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 306606d9-3351-48bd-8323-000571c79a3c
+discoiquuid: 25f54417-4568-4106-9847-dd3203830928
 index: y
 internal: n
 snippet: y

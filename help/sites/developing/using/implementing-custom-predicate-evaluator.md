@@ -3,12 +3,12 @@ title: Implementing a Custom Predicate Evaluator for the Query Builder
 seo-title: Implementing a Custom Predicate Evaluator for the Query Builder
 description: The Query Builder offers an easy way of querying the content repository
 seo-description: The Query Builder offers an easy way of querying the content repository
-uuid: 279326c1-532e-4c0e-9ba7-4ca8f52a07a6
+uuid: a846b6bf-305e-4977-abfc-9d2651123124
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: afb168a6-69db-43f4-8b82-a9ac27366636
+discoiquuid: fbc82979-4836-48c1-8411-260af44eda13
 index: y
 internal: n
 snippet: y
@@ -17,13 +17,6 @@ snippet: y
 # Implementing a Custom Predicate Evaluator for the Query Builder{#implementing-a-custom-predicate-evaluator-for-the-query-builder}
 
 This section describes how to extend the [Query Builder](../../../sites/developing/using/querybuilder-api.md) by implementing a custom predicate evaluator.
-
-<!--
-Comment Type: remark
-Last Modified By: (colligno@adobe.com)
-Last Modified Date: 2017-11-30T05:25:04.926-0500
-<p>Documentation tracked under : <a href="https://issues.adobe.com/browse/DOC-2391">https://issues.adobe.com/browse/DOC-2391</a></p>
--->
 
 ### Overview {#overview}
 

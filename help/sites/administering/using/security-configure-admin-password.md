@@ -3,12 +3,12 @@ title: Configure the Admin Password on Installation
 seo-title: Configure the Admin Password on Installation
 description: Learn how to change the Admin Password on AEM Installation.
 seo-description: Learn how to change the Admin Password on AEM Installation.
-uuid: 1414f7b1-cc16-4d2e-8287-011baf186749
+uuid: 29f302fb-194c-4982-807c-36a3e6f0a6f0
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: f9092d56-87ad-4917-9c1e-d4e3de4978ac
+discoiquuid: 50935af4-eb94-47b4-a27a-0f5270f8d2eb
 index: y
 internal: n
 snippet: y
@@ -40,7 +40,7 @@ java -jar aem6.3.jar
 
 Upon running the instance from the command line, you will be presented with the option to change the admin password during the installation process:
 
-![](assets/chlimage_1-128.png)
+![](assets/chlimage_1-122.png)
 
 >[!NOTE]
 >
@@ -65,10 +65,4 @@ admin.password = 12345678
 >[!NOTE]
 >
 >If you simply use the `-nointeractive` parameter without the `-Dadmin.password.file` system property, AEM will use the default admin password without asking you to change it, essentially replicating behaviour from earlier versions. This non interactive mode can be used for automated installations using the command line in an installation script.
-
-<!--
-Comment Type: draft
-
-<h2>How Does It Work?</h2>
--->
 

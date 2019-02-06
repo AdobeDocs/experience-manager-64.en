@@ -3,12 +3,12 @@ title: Creating and using themes
 seo-title: Creating and using themes
 description: You can use themes to stylize and provide a visual identity to an adaptive form or interactive communication. You can share a theme across any number of adaptive forms or interactive communications.
 seo-description: You can use themes to stylize and provide a visual identity to an adaptive form or interactive communication. You can share a theme across any number of adaptive forms or interactive communications.
-uuid: d933630c-78fa-4523-9747-dab5b0bdce6f
+uuid: 098415fd-1a98-4918-ba0b-9a4961cb1aef
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 topic-tags: interactive-communications
 content-strategy: max-2018
-discoiquuid: 3ada8ccb-b5c5-4f7f-9607-f02ba3e36685
+discoiquuid: f4ba6b7b-88d9-4276-b5ee-7cc12f842707
 index: y
 internal: n
 snippet: y
@@ -26,12 +26,6 @@ You can:
 * Edit and copy an existing theme 
 * Download and upload an existing theme to AEM Forms server
 * Manage dependencies for a theme
-
-<!--
-Comment Type: draft
-
-<p>AEM Forms ship with form templates that are associated with themes. These themes are available to customers out-of-the-box. Themes available to customers are: Survey Theme, Simple Enrolment Theme, Advanced Enrolment Theme, and Canvas Theme corresponding to the <a href="../../forms/using/template-editor.md">form templates</a>. You can use them to style components in your forms, and customize the appearance of your form. You cannot edit the out-of-the-box themes. For more information on how to get more themes, see <a href="../../forms/using/reference-themes.md">Reference Themes</a>. </p>
--->
 
 ## Creating, downloading, or uploading a theme {#creating-downloading-or-uploading-a-theme}
 
@@ -266,46 +260,11 @@ Styling custom layouts from the Theme Editor involves:
 * Defining the CSS properties that can be applied on these components
 * Define the styling for these components interactively from the user interface
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sashanka)
-Last Modified Date: 2017-11-30T06:14:43.696-0500
-<p style="text-align: center;">MARKED AS DRAFT. </p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Styling for custom appearances</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>With AEM, some out-of-the-box appearances are available to you for various field types. You can style them using the Theme Editor. The styling involves defining separate CSS rules or properties for various components of the appearances using Theme Editor interactively. Apart from the out-of-the-box appearances, you can also create custom appearances, and style them using the Theme Editor. The styling for custom appearances is similar to styling the custom layouts, and involves:</p>
-<ul>
-<li>Defining the components that can be styled for a custom appearance, and CSS selectors for uniquely identifying these components</li>
-<li>Defining the CSS properties that can be applied on these components</li>
-<li>Define the styling for these components interactively from the user interface</li>
-</ul>
--->
-
 ### Different styles for different screen sizes <br> {#different-styles-for-different-screen-sizes-br}
 
 Desktop and mobile layouts can have slightly or entirely different styles. For mobile devices, tablet and phone share similar layouts except for component sizes.
 
 Use Theme Editor breakpoints to define alternate styling for different screen sizes. You can select a base device or resolution on which you start building the theme, and the styling variations for other resolutions are automatically generated. You can explicitly modify the styling for all the resolutions.
-
-<!--
-Comment Type: draft
-
-<p>Various CSS generation approaches are defined based on the selection of the default breakpoint selected during theme creation. The approaches include:</p>
-<ol>
-<li><em>Desktop-first (default)</em>: The approach takes all the styling from a higher resolution to a lower resolution breakpoint, unless overridden in the lower breakpoint.</li>
-<li><em>Mobile-first</em>: The approach takes all the styling from a lower resolution to an upper resolution breakpoint, unless overridden in the higher breakpoint.</li>
-<li><em>Tablet as base resolution</em>: This approach is a combination of the first two approaches. It acts as top down for breakpoints below the selected breakpoint, and bottom up for breakpoints above the selected breakpoint.</li>
-</ol>
--->
 
 >[!NOTE]
 >

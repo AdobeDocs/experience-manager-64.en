@@ -3,12 +3,12 @@ title: Spin Sets
 seo-title: Spin Sets
 description: Learn how to work with spin sets in dynamic media
 seo-description: Learn how to work with spin sets in dynamic media
-uuid: b72889fa-ce85-4ef4-a17f-e7c87d836d58
+uuid: 64f15cee-6d23-4e7a-95e6-e859f45851c5
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: b44001cf-f932-4062-9573-322ff285dbc4
+discoiquuid: cfd2c8ce-d9df-4a1d-a02d-dfe71e4fb7ca
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ A Spin Set simulates a 360-degree viewing experience. Dynamic Media offers singl
 
 Spin Sets are designated by a banner with the word **SPINSET**. In addition, if the Spin Set is published, then the publish date, indicated by the **World** icon is on the banner along with the last modification date, indicated by the **Pencil** icon displays. 
 
-![](assets/chlimage_1-336.png)
+![](assets/chlimage_1-333.png)
 
 >[!NOTE]
 >
@@ -45,14 +45,6 @@ To get you up and running quickly with Spin Sets, follow these steps:
    >[!NOTE]
    >
    >You can also create spin sets automatically through [batch set presets](../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets). **Important:** Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-   Last Modified Date: 2018-03-15T14:27:06.882-0400
-   <p>cross reference rick's docs on batch set presets</p>
-   <p>[awb] - Done</p>
-   -->
 
 1. Set up [Spin Set Viewer presets](../../assets/using/managing-viewer-presets.md), as needed.
 
@@ -111,14 +103,6 @@ This section describes how to create Spin Sets in AEM.
 >See "Creating batch set presets to auto-generate Image Sets and Spin Sets" in [Configuring Dynamic Media - Scene7 mode](../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets).
 >
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2018-03-15T14:27:07.176-0400
-<p>cross reference Rick's docs on batch set preset</p>
-<p>[awb] - Done</p>
--->
-
 >[!NOTE]
 >
 >The order in which images appear in a spin set matter. Be sure to order them so that the spin is a smooth 360 degree view.
@@ -127,11 +111,11 @@ Last Modified Date: 2018-03-15T14:27:07.176-0400
 
 1. In Assets, navigate to where you want to create a spin set, click **Create**, and select** Spin Set**. You can also create the set from inside a folder that contains your assets. The Spin Set Editor displays.
 
-   ![](assets/chlimage_1-337.png)
+   ![](assets/chlimage_1-334.png)
 
 1. In the Spin Set Editor, in the **Title** field, enter a name for the Spin Set. The name appears in the banner across the Spin Set. Optionally, enter a description.
 
-   ![](assets/chlimage_1-338.png)
+   ![](assets/chlimage_1-335.png)
 
    >[!NOTE]
    >
@@ -149,7 +133,7 @@ Last Modified Date: 2018-03-15T14:27:07.176-0400
 
    See [Working with Selectors](../../assets/using/working-with-selectors.md).
 
-   ![](assets/chlimage_1-339.png)
+   ![](assets/chlimage_1-336.png)
 
 1. When you add assets to your set, they are automatically added in alphanumeric order. You can manually re-order or sort assets after you add them.
 
@@ -177,25 +161,17 @@ You can create spin sets either in the user interface or automatically using [ba
 
 1. When opening the properties of an individual asset. Properties indicate what sets the selected asset is a member of (under **Member of Sets**). Click the name of the set to see the entire set.
 
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-   Last Modified Date: 2018-03-15T14:27:07.786-0400
-   <p>screenshot is wrong please use different one I provided in email</p>
-   <p>[awb] - Done</p>
-   -->
-
-   ![](assets/chlimage_1-340.png)
+   ![](assets/chlimage_1-337.png)
 
 1. From a member image of any set. Select the **Sets** menu to display the sets that the asset is a member of. 
 
-   ![](assets/chlimage_1-341.png)
+   ![](assets/chlimage_1-338.png)
 
 1. From search, you can Select **Filters**, then expand **Dynamic Media** and select **Sets**.
 
    The search returns matching sets that were manually created in the UI or automatically created through batch set presets. For automated sets, the search query is conducted using "Starts with" search criteria which is different from AEM search which is based on using "Contains" search criteria. Setting the filter to **Sets** is the the only way to search automated sets.
 
-   ![](assets/chlimage_1-342.png)
+   ![](assets/chlimage_1-339.png)
 
 ## Editing Spin Sets {#editing-spin-sets}
 

@@ -3,12 +3,12 @@ title: Administering generic eCommerce
 seo-title: Administering generic eCommerce
 description: The AEM generic solution provides methods of managing the commerce information held within the repository.
 seo-description: The AEM generic solution provides methods of managing the commerce information held within the repository.
-uuid: 6543d6b3-87ac-48a1-9c87-f8b90a654546
+uuid: 6498441a-cc5b-43ec-8647-21a87e236c63
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 3f0e5626-e1a8-444c-b2a9-bd5d8bc57299
+discoiquuid: 65fe3c49-6a04-494b-a63d-2db70c9c36fe
 index: y
 internal: n
 snippet: y
@@ -66,7 +66,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 1. Using the **Products** console navigate to the required location.
 1. Use the **Import Products** icon to open the wizard.
 
-   ![](assets/chlimage_1-380.png)
+   ![](assets/chlimage_1-365.png)
 
 1. Specify:
 
@@ -130,22 +130,6 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 
 #### Creating Product Information - Touch-optimized UI {#creating-product-information-touch-optimized-ui}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:14.909-0500
-<p>trying to create a product from http://localhost:4502/products.html/etc/commerce/products gave "No scaffold definition found for /etc/commerce/products"</p>
-<p>what needs to be set up in advance? cross-reference</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:14.924-0500
-<p>JEY&gt;&gt;&gt;</p>
-<p>A product needs to have a scaffold defined (which specifies what the various fields are in the product, and how they are edited).<br /> <br /> A given store might have different types of products (TVs, computers, stereos) which have different fields. It would define a scaffold for each product type. The scaffold is associated with products by path (or the products can point to a scaffold). (This is the same as for page scaffolding.)<br /> <br /> Geometrixx-Outdoors has a single product type (and therefore a single scaffold). The Geometrixx-Outdoors product type is active on /etc/commerce/products/geometrixx, so you can create a new product anywhere under that without any additional setup.</p>
--->
-
 1. Using the **Products** console (via **Commerce**) navigate to the required location.
 1. Use the **Create** icon to select either (depending on the structure and location):
 
@@ -153,7 +137,7 @@ Last Modified Date: 2017-11-30T05:00:14.924-0500
     * **Create Product Variation  
       **
 
-   ![](assets/chlimage_1-381.png)
+   ![](assets/chlimage_1-366.png)
 
 1. The wizard will open. Use the **Basic** and **Product Tabs** to enter the [product attributes](../../../sites/administering/using/concepts.md#productattributes) for the new product or product variant.
 
@@ -189,7 +173,7 @@ Last Modified Date: 2017-11-30T05:00:14.924-0500
 
    Select the **View Product Data** icon:
 
-   ![](assets/chlimage_1-382.png)
+   ![](assets/chlimage_1-367.png)
 
 1. The [product attributes](../../../sites/administering/using/concepts.md#productattributes) will be shown. Use **Edit** and **Done** to make any changes.
 
@@ -200,11 +184,11 @@ Last Modified Date: 2017-11-30T05:00:14.924-0500
 1. Using the **Products** console (via **Commerce**) navigate to your product information.
 1. Open the secondary rail for References with the icon:
 
-   ![](assets/chlimage_1-383.png)
+   ![](assets/chlimage_1-368.png)
 
 1. Select your required product - the secondary rail will update to show the reference types available:
 
-   ![](assets/chlimage_1-384.png)
+   ![](assets/chlimage_1-369.png)
 
 1. Click/tap on the reference type (e.g. Product Pages) to expand the list.
 1. Select a specific reference to show the options:
@@ -212,18 +196,18 @@ Last Modified Date: 2017-11-30T05:00:14.924-0500
     * Navigate to Product Page
     * Edit Product Page
 
-   ![](assets/chlimage_1-385.png)
+   ![](assets/chlimage_1-370.png)
 
 ### Search for Products {#search-for-products}
 
 1. Navigate to the **Products** console, via **Commerce**.
 1. Open the secondary rail for Search with the icon:
 
-   ![](assets/chlimage_1-386.png)
+   ![](assets/chlimage_1-371.png)
 
 1. Several facets are available for you to search for products. You can use only one or several facets for a search. The products found will appear:
 
-   ![](assets/chlimage_1-387.png)
+   ![](assets/chlimage_1-372.png)
 
 1. Clicking/tapping a product opens it. You can also publish it or view the product data.
 
@@ -261,7 +245,7 @@ You can add multiple assets in the product component, then specify the asset tha
 1. Tap/click Edit icon.
 1. Scroll to **Add**.
 
-   ![](assets/chlimage_1-388.png)
+   ![](assets/chlimage_1-373.png)
 
 1. Tap/click **Add**. A new asset placeholder appears.
 1. Tapping/clicking **Change **opens a dialog which allows you to choose an asset.
@@ -348,7 +332,7 @@ The mechanism to select the image to be displayed is as follows:
 
    Select the **Publish** or **Unpublish** icon as required:
 
-   ![](assets/chlimage_1-389.png) ![](assets/chlimage_1-390.png)
+   ![](assets/chlimage_1-374.png) ![](assets/chlimage_1-375.png)
 
    The product information will be published or unpublished as appropriate.
 
@@ -378,7 +362,7 @@ For the `PRODUCT_*` events, the path points to the base product in `/etc/commerc
 
 You can look at them in the Web Console in OSGI events ( `/system/console/events`), for example:
 
-![](assets/chlimage_1-391.png)
+![](assets/chlimage_1-376.png)
 
 >[!NOTE]
 >
@@ -400,15 +384,15 @@ Clicking the hotspot opens a dialog which let you choose the size and quantity o
 
 1. Click the fullscreen icon.
 
-   ![](assets/chlimage_1-392.png)
+   ![](assets/chlimage_1-377.png)
 
 1. Click the Launch Map icon.
 
-   ![](assets/chlimage_1-393.png)
+   ![](assets/chlimage_1-378.png)
 
 1. Click one of the shape icons.
 
-   ![](assets/chlimage_1-394.png)
+   ![](assets/chlimage_1-379.png)
 
 1. Modify and move the shape as required.
 1. Click the shape.
@@ -418,17 +402,17 @@ Clicking the hotspot opens a dialog which let you choose the size and quantity o
    >
    >Alternatively, you can type directly the product path which has to be at the product level, not the variant level.
 
-   ![](assets/chlimage_1-395.png)
+   ![](assets/chlimage_1-380.png)
 
 1. Click the confirm icon twice then click exit fullscreen.
 1. Click somewhere on the page next to the component. The page should refresh and you should see the following symbol on your image:
 
-   ![](assets/chlimage_1-396.png)
+   ![](assets/chlimage_1-381.png)
 
 1. Switch to [preview](../../../sites/authoring/using/editing-content.md#previewingpagestouchoptimizedui) mode.
 1. Click the + hotspot. A dialog opens where you can choose the size and quantity of the product you entered in **Path**. 
 
-   ![](assets/chlimage_1-397.png)
+   ![](assets/chlimage_1-382.png)
 
 1. Enter a size and a quantity.
 1. Click the Add to cart button. The dialog closes.
@@ -440,15 +424,15 @@ You can configure how the dialog looks like when you click the hotspot:
 
 1. Click the component and click the configure icon.
 
-   ![](assets/chlimage_1-398.png)
+   ![](assets/chlimage_1-383.png)
 
 1. Scroll down. There is a **ADD TO CART** tab.
 
-   ![](assets/chlimage_1-399.png)
+   ![](assets/chlimage_1-384.png)
 
 1. Click **ADD TO CART**. There are 3 configuration options that you can use.
 
-   ![](assets/chlimage_1-400.png)
+   ![](assets/chlimage_1-385.png)
 
 1. Click the Done icon.
 
@@ -468,22 +452,22 @@ To generate a Catalog:
 1. Navigate to the location where you want to create the new page.
 1. To open the option list, use the **Create** icon:
 
-   ![](assets/chlimage_1-401.png)
+   ![](assets/chlimage_1-386.png)
 
 1. From the list select **Create Catalog**, the Create Catalog wizard will open.
 
-   ![](assets/chlimage_1-402.png)
+   ![](assets/chlimage_1-387.png)
 
 1. Navigate to the required Catalog Blueprint.
 1. Tap/click **Select** button and tap/click the required Catalog Blueprint.
 1. Tap/click **Next**.
 
-   ![](assets/chlimage_1-403.png)
+   ![](assets/chlimage_1-388.png)
 
 1. Type a **Title** and a **Name**.
 1. Tap/click the **Create** button. The catalog is created and a dialog opens.
 
-   ![](assets/chlimage_1-404.png)
+   ![](assets/chlimage_1-389.png)
 
 1. Tapping/clicking **Done** button brings you back to the Sites console where you'll be able to see you catalog.
 
@@ -534,7 +518,7 @@ To rollout a catalog:
 
    Select the **Rollout Changes** icon:
 
-   ![](assets/chlimage_1-405.png)
+   ![](assets/chlimage_1-390.png)
 
 1. In the wizard, set the rollout as needed and then tap/click **Rollout Changes**.
 1. A dialog opens. Tap/click **Done **when the process is finished.
@@ -559,11 +543,11 @@ To rollout a catalog:
 1. Navigate to the location where you want to import the catalog blueprint.
 1. Tap/click the **Import Blueprints** icon.
 
-   ![](assets/chlimage_1-406.png)
+   ![](assets/chlimage_1-391.png)
 
 1. In the wizard, select the Source as required and tap/click **Next**.
 
-   ![](assets/chlimage_1-407.png)
+   ![](assets/chlimage_1-392.png)
 
 1. Tap/click **Done** once the import is finished.
 
@@ -609,16 +593,6 @@ To rollout a catalog:
 
 1. You can now activate your promotion, so that shoppers will see it on the publish instance.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:20.826-0500
-<p>TO-DO</p>
-<p>Might want a section here about controlling on/off times of Promotions (via their Campaigns).</p>
-<p>And perhaps some info on how Experiences/Segmentation control the application of a Promotion (in case they haven't read the Campaigns documentation).<br /> </p>
-<p>And perhaps a section on modifying Promotions.</p>
--->
-
 ## Vouchers {#vouchers}
 
 ### Creating a Voucher {#creating-a-voucher}
@@ -660,28 +634,6 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
 
 ## Orders {#orders}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:21.268-0500
-<p>cross-reference order information seen in the cart by the customer and order history</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:21.283-0500
-<p>implications of creating orders (eg in a production env)?</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:21.297-0500
-<p>https://issues.adobe.com/browse/DOC-3891 - create order wizard</p>
-<p>Note that the fields given in the wizard are dependent on there being a touch-optimized scaffolding defined for the location. (In the case above, this can be found at /etc/scaffolding/geometrixx-outdoors/order/jcr:content/cq:dialog.)</p>
--->
-
 >[!NOTE]
 >
 >It should be remembered that out-of-the-box AEM does not have actions required for standard functionality related to orders, such as returning merchandise, updating order status, doing fulfilment, generating packing slips. It is primarily intended as a technology preview. 
@@ -704,7 +656,7 @@ Last Modified Date: 2017-11-30T05:00:21.297-0500
 1. Using the **Orders** console navigate to the required location.
 1. Use the **Create** icon to select **Create Order**.
 
-   ![](assets/chlimage_1-408.png)
+   ![](assets/chlimage_1-393.png)
 
 1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs**** to enter the [information about the new order](../../../sites/administering/using/concepts.md#orderinformation).  
 
@@ -722,33 +674,7 @@ Last Modified Date: 2017-11-30T05:00:21.297-0500
 
    Select the **View Order Data** icon:
 
-   ![](assets/chlimage_1-409.png)
+   ![](assets/chlimage_1-394.png)
 
 1. The [order information](../../../sites/administering/using/concepts.md#orderinformation) will be shown. Use **Edit** and **Done** to make any changes.
-
-<!--
-Comment Type: draft
-
-<h3>Publishing/Unpublishing Order Information</h3>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:21.728-0500
-<p>no publish/unpublish icons - one way connection (reverse replication) - implications?<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:00:21.743-0500
-<p>JEY&gt;&gt;&gt; The orders console exposes the vendor order information, which is never published.<br /> <br /> The customer order information lives in their home directories (and is accessed by Account &gt; Order History). That information is published along with the rest of their home directory.</p>
--->
-
-<!--
-Comment Type: draft
-
-<h4>Publishing/Unpublishing Order Information - Touch-optimized UI</h4>
--->
 

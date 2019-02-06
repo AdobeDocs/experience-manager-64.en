@@ -3,12 +3,12 @@ title: Templates
 seo-title: Templates
 description: Templates are used when creating a page which will be used as the base for the new page
 seo-description: Templates are used when creating a page which will be used as the base for the new page
-uuid: 5b64d8c4-6ced-4774-bd28-e2d04566b846
+uuid: a5a0d647-3361-4c08-9f79-e51dd3e670c7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: ffa2d7b6-4569-49f1-ae49-c54a7dee60bb
+discoiquuid: debcece3-1ea5-46a2-a8d1-d440be9462f8
 legacypath: /content/docs/en/aem/6-1/develop/the-basics/templates
 index: y
 internal: n
@@ -123,7 +123,7 @@ The evaluation works as follows:
 
 The following diagram depicts the template evaluation process:
 
-![](assets/chlimage_1-194.png) 
+![](assets/chlimage_1-187.png) 
 
 #### Limiting templates used in child pages {#limiting-templates-used-in-child-pages}
 

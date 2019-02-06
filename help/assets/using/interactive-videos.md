@@ -3,12 +3,12 @@ title: Interactive Videos
 seo-title: Interactive Videos
 description: Learn how to work with interactive video in dynamic media
 seo-description: Learn how to work with interactive video in dynamic media
-uuid: 6c37aa79-4b2b-4935-94fd-a7cf0f9411a8
+uuid: 2efdb205-84b6-40be-89a8-94ae91ed66b7
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: a5df68bb-51e6-47cf-8354-cadb25ff6eea
+discoiquuid: bf63c494-5c4d-43bc-9256-7b0c460c12e3
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ During playback, as products are used in the video, the identical product appear
 
 Click the thumbnail to pause the video and open the product's quickview. For example, click the KitchenAid thumbnail image to experience a 360-degree spin view of the mixer, or zoom in to see mixer details.
 
-![](assets/chlimage_1-79.png)
+![](assets/chlimage_1-78.png)
 
 >[!NOTE]
 >
@@ -225,72 +225,13 @@ Based on such analysis, you conclude that you can use the following two variable
 
 You are now ready to upload a video and its associated thumbnail assets.
 
-<!--
-Comment Type: draft
-
-<h2>Naming a video and its associated swatch assets</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>When you create your interactive video, you add image assets--or swatches--to segments in the video timeline. To find the assets that you want to use with the video, you can search for them in AEM using traditional search methods such as browsing or typing a single filename.</p>
-<p>However, a better method is to do the following:</p>
-<ul>
-<li>First decide which swatch assets you will use exclusively with your video <i>before</i> you upload them into AEM.</li>
-<li>Append the video name to the name of each associated image asset.<br /> While you can choose to append swatch assets with some other common keyword name, using the video name is optimal.<br /> </li>
-<li>Upload the video and swatch assets into AEM.</li>
-</ul>
-<p>By following this method, when you create your interactive video, you instantly pre-populate swatch asset search results with only those swatchs that pertain directly to your video. This functionality ensures that you are using the correct swatches with the video. It also speeds the overall workflow of creating your interactive video because there is no need to search for images, one at a time.</p>
-<p>Therefore, to take advantage of pre-populated asset search results at the time you create your interactive video, it is recommended, as a best practice, that you name your swatch assets using the following convention (example only):</p>
--->
-
-<!--
-Comment Type: draft
-
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td colspan="2" rowspan="2">
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td>Name of video.</td>
-<td><i>backtoschool</i>.mp4<br /> </td>
-</tr>
-<tr>
-<td>Name of video appended to each swatch asset name that you are using with the video.</td>
-<td><p><i>backtoschool</i>_blouse_b368.jpg</p> <p><i>backtoschool</i>_skirt_k623.jpg</p> <p><i>backtoschool</i>_shoes.jpg</p> <p><i>backtoschool</i>_socks.jpg</p> <p><i>backtoschool</i>_jacket_j107.jpg</p> <p><i>backtoschool</i>_hat.jpg</p> <p><i>backtoschool</i>_scarf.jpg</p> <p> </p> </td>
-</tr>
-</tbody>
-</table> </td>
-</tr>
-<tr></tr>
-</tbody>
-</table>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>The naming of a video and its associated swatch assets is best done <i>before</i> you upload them into AEM Assets.</p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<p>When you are finished with file naming, you are ready to upload the video and its associated swatch assets.</p>
--->
-
 ## (Optional) Creating an Interactive Video viewer preset {#optional-creating-an-interactive-video-viewer-preset}
 
 You can skip this task and continue to the next if you intend to use either of the default, out-of-the-box Interactive Video viewer preset types `Shoppable_Video_dark` or `Shoppable_Video_light`.
 
 When a thumbnail is clicked in the authoring environment a preview of the Quickview dialog box appears.
 
-![](assets/chlimage_1-80.png)
+![](assets/chlimage_1-79.png)
 
 You can optionally create your own custom Interactive Video viewer preset. You can determine, among other things, the styling of the video player, the interactive thumbnails, and the thumbnail grid view that appears at the end of the video.
 
@@ -299,92 +240,6 @@ An Interactive Video viewer preset properly renders the video and all timeline s
 After you save the viewer preset, its state is automatically set to **On **in the Viewer Presets page. This state means that it is visible in the Dynamic Media component and whenever you preview a video with it. Be sure you also manually publish your new viewer preset.
 
 See [Creating a New Viewer Preset](../../assets/using/managing-viewer-presets.md#creatinganewviewerpreset) to create your own Interactive Video viewer preset.
-
-<!--
-Comment Type: draft
-
-<p>To optionally create an Interactive Video viewer preset:</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>In the left rail, tap <strong>Tools</strong> &gt; <strong>Assets</strong> &gt; <strong>Viewer Presets</strong>.</p> </li>
-<li><p>On the Viewer Presets list page, near the upper-right corner, tap <strong>Create</strong>.</p> </li>
-<li><p>In the New Viewer Preset dialog box, type a name to describe the interactive video viewer preset.<br /> This is the title that will appear in the Viewer Preset list page after you save.</p> </li>
-<li><p>In the Rich Media Type pull-down menu, select <strong>Interactive Video</strong>.</p> </li>
-<li><p>Tap <strong>Create</strong>.</p> </li>
-<li><p>Near the upper-right corner of the Edit Viewer Preset page, tap the <strong>Behavior </strong>tab. Then, in the <strong>Selected Component</strong> pull-down menu, tap <strong>InteractiveVideo</strong>.</p> </li>
-<li><p>(Optional) Enable <strong>Call to Action Recap</strong> if you want all thumbnails shown in the video displayed in an interactive grid view when the video finishes playing.</p> </li>
-<li><p>From the <strong>Behavior</strong> tab, in the <strong>Selected Component</strong> pull-down menu,<strong> </strong>select a component whose parameter values you want to edit.</p> <p>If you selected <span class="code">InteractiveSwatches</span> or <span class="code">CallToAction</span> you can apply Image Serving commands to the parameters.</p> <p>See <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/image_serving_api_ref.html">Image Serving API Reference</a>.</p> </li>
-<li><p>For each parameter under the selected component, set the values you want.</p> <p>To read a detailed description of each parameter in the selected component, hover the pointer over the parameter name. When the Information icon appears to the right of the name, hover the pointer over the icon.</p> <p> </p>
-<note type="note">
-<p><strong>If you are using a mobile device, such as an iPad...</strong></p>
-<p>After you type a value in the text field, tap elsewhere in the user interface to submit the change and close the virtual keyboard. If you tap <strong>Enter</strong>, no action occurs.</p>
-</note></li>
-<li><p>To the left of the <strong>Behavior </strong>tab, tap the <strong>Appearance</strong> tab.</p>
-<draft-comment type="draft">
-<p>The following doc was deleted from this step:</p>
-<p> </p>
-<p>, then in the <strong>Add CSS file</strong> field, do one of the following:</p>
-<ul>
-<li>Enter a path to a CSS file you want to use. For example, myfolder/css/genericSpinMoble.css.<br /> </li>
-<li>Tap the Add icon (+) to navigate to the CSS file you want to use.</li>
-</ul>
-<p>You can also add CSS to customize the visual design or visual elements of the viewer. You can export the CSS file to make your changes by tapping the <strong>Download</strong> icon and saving the associated compressed zip file.</p>
-</draft-comment><p>In the <strong>Selected Component</strong> pull-down menu, select a component whose CSS properties you want to customize by using the visual editor.</p> <p>The visual editor lets you see what effect a certain property has on a style. Just set or adjust any property on the right side of the Edit Viewer Preset page to instantly see what effect it has on the video sample.</p> <p>Above the video sample, tap <strong>Desktop</strong>, <strong>Tablet</strong>, or <strong>Phone</strong> to see how the sample video and resulting CSS styling appears on a particular device. </p> <p>You can customize CSS styling for the following components:<br /> </p>
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td><strong>Appearance component</strong></td>
-<td><strong>Description</strong></td>
-</tr>
-<tr>
-<td><span class="code">PlayPauseButton</span></td>
-<td><a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_playpausebutton.html">https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_playpausebutton.html</a></td>
-</tr>
-<tr>
-<td><span class="code">VideoScrubber</span></td>
-<td><a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_videoscrubber.html">https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_videoscrubber.html</a></td>
-</tr>
-<tr>
-<td><span class="code">MutableVolume</span></td>
-<td><a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_mutablevolume.html">https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_mutablevolume.html</a></td>
-</tr>
-<tr>
-<td><span class="code">FullScreenButton</span></td>
-<td><a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_fullscreenbutton.html">https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_fullscreenbutton.html</a></td>
-</tr>
-<tr>
-<td><span class="code">SocialShare</span></td>
-<td><a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_socialshare.html">https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_socialshare.html</a></td>
-</tr>
-<tr>
-<td><span class="code">LinkShare</span></td>
-<td><a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_linkshare.html">https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_linkshare.html</a></td>
-</tr>
-<tr>
-<td><span class="code">TwitterShare</span></td>
-<td><a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_twittershare.html">https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_twittershare.html</a></td>
-</tr>
-<tr>
-<td><span class="code">FacebookShare</span></td>
-<td><a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_facebookshare.html">https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_facebookshare.html</a></td>
-</tr>
-<tr>
-<td><span class="code">InteractiveSwatches</span></td>
-<td><a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_intswatches.html">https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_customize_intswatches.html</a></td>
-</tr>
-</tbody>
-</table>
-<note type="note">
-<p>If you prefer to edit the CSS directly, tap <strong>Show/Hide CSS</strong> below the Selected Components pull-down menu (you may need to scroll up to see it).</p>
-<p>Like the visual editor, when you make a change to a property directly in the CSS, you can instantly see what effect it has on the video sample. And, that same property is automatically updated at the same time in the visual editor. As such, you can use the CSS editor, or the visual editor, or use both interchangeably.</p>
-</note></li>
-<li><p>Near the upper-right corner of the page, tap <strong>Save</strong>.</p> <p>Be sure you publish this new viewer preset if you intend to use it on your website.</p> <p>See Publishing or Unpublishing Viewer Presets That You Have Added.</p> <p>Now upload a video and its associated thumbnail assets.</p> </li>
-</ol>
--->
 
 ## Uploading a video and its associated thumbnail assets {#uploading-a-video-and-its-associated-thumbnail-assets}
 
@@ -402,13 +257,6 @@ To upload a video and its associated thumbnail assets:
    Now add interactivity to your video.
 
 ## Adding interactivity to your video {#adding-interactivity-to-your-video}
-
-<!--
-Comment Type: remark
-Last Modified By: Rick Brough (rbrough)
-Last Modified Date: 2018-02-22T14:33:33.652-0500
-<p>I added this feedback using the <strong>Remark </strong>component from the General tab of the Sidekick.<br /> </p>
--->
 
 You add timeline segments to a video using the in-place visual editor on the Create Interactive Video page.
 
@@ -447,7 +295,7 @@ To add interactivty to your video:
 
 1. (Optional) Drag the bar on the **Timeline Scale Slider** left to zoom in or right to zoom out, thereby controlling how much detail you see of the segments that you have added.
 
-   ![](assets/chlimage_1-81.png)
+   ![](assets/chlimage_1-80.png)
 
    Depending on the length of your video, the Segment Duration defaults to the following values:
 
@@ -484,15 +332,15 @@ To add interactivty to your video:
 
    To illustrate, the following three screenshots are using the same video. Notice that the width of each segment changes depending on the Timeline Scale setting.
 
-   ![](assets/chlimage_1-82.png)
+   ![](assets/chlimage_1-81.png)
 
    Screenshot A above shows you the default view of a 29 second product video. The Timeline Scale is set at the default of 5 seconds.
 
-   ![](assets/chlimage_1-83.png)
+   ![](assets/chlimage_1-82.png)
 
    In Screenshot B above, the Timeline Scale slider was dragged from the default of 5 seconds to 3 seconds. Notice that the individual Timeline Scale time stamps are now all set at 3 second intervals.
 
-   ![](assets/chlimage_1-84.png)
+   ![](assets/chlimage_1-83.png)
 
    In Screenshot C above, the Timeline Scale setting was moved to 8 seconds. Notice how the segments that contain product thumbnails have shrunk. Zooming out in this manner is useful if you have a long video and you want to be able to see an overview of more segments that would normally fit in the width of the page.
 
@@ -508,7 +356,7 @@ To add interactivty to your video:
         * Tap the trailing blue oval to seek the video directly to the end of that segment.
         * Tap the entire segment to return video playback to the start of that segment
 
-   ![](assets/chlimage_1-85.png)
+   ![](assets/chlimage_1-84.png)
 
     * To delete a segment  
   
@@ -539,7 +387,7 @@ To add interactivty to your video:
  </tbody> 
 </table>
 
-   ![Asset picker](assets/chlimage_1-86.png)
+   ![Asset picker](assets/chlimage_1-85.png)
 
 1. Select a single thumbnail image within one of the timeline segments, then tap the **Actions** tab.
 1. Do any of the following:
@@ -607,7 +455,7 @@ To add interactivty to your video:
 
    Tap** Merge Segment** on the toolbar. 
 
-   ![](assets/chlimage_1-87.png)
+   ![](assets/chlimage_1-86.png)
 
     * **Split Segment** - You can divide a single segment into two equally timed segments. If there are product thumbnails already assigned to the segment, the thumbnails are combined into the left segment.
 
@@ -615,7 +463,7 @@ To add interactivty to your video:
 
    Selecting two or more segments disables the Split Segment feature.
 
-   ![](assets/chlimage_1-88.png)
+   ![](assets/chlimage_1-87.png)
 
 1. Near the upper-right corner of the Create Interactive Video page, the name of the currently selected viewer preset used with the video is displayed. Tap the name to select a different viewer preset.
 

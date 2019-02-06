@@ -3,11 +3,11 @@ title: Logging in to AEM Forms app
 seo-title: Logging in to AEM Forms app
 description: Steps to log into the AEM Forms app.
 seo-description: Steps to log into the AEM Forms app.
-uuid: 2bb8876d-86bf-4536-9417-73b9e0a43c9f
+uuid: fb920ce4-77ec-4095-a682-b1f68433e5d6
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 7756b39b-198f-4549-ad65-702d002b017b
+discoiquuid: 79a3a36a-42c9-4950-977d-b6047b83b6ce
 index: y
 internal: n
 snippet: y
@@ -19,23 +19,7 @@ When you start your AEM Forms app, you first need to provide your login credenti
 
 ### To start the app {#to-start-the-app}
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Art Spec: If not leaving art spec, delete only the first of the 2 &lt;draft-comment&gt; elements under &lt;adobefig&gt;.</p>
--->
-
 1. Tap the AEM Forms app icon on your mobile device.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: (barraud)
-   Last Modified Date: 2017-11-30T06:10:04.368-0500
-   <p>SP1 UPDATE</p>
-   <p>Screen shot updated</p>
-   -->
-
 1. To log in to the app, enter a user name, password, and AEM Forms server URL.
 
    >[!NOTE]
@@ -48,14 +32,6 @@ Last Modified Date:
    >    * You can the select a AEM Forms server URL to log in to via the app.
    >    
    >
-
-   <!--
-   Comment Type: remark
-   Last Modified By: (barraud)
-   Last Modified Date: 2017-11-30T06:10:04.431-0500
-   <p>SP1 UPDATE</p>
-   <p>Added above note on caching server URL</p>
-   -->
 
 When you log in to the app, you are directed to the [**Home** screen](../../forms/using/home-screen.md).
 

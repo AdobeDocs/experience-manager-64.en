@@ -3,12 +3,12 @@ title: The External Link Checker
 seo-title: The External Link Checker
 description: Learn about the External Link Checker in AEM.
 seo-description: Learn about the External Link Checker in AEM.
-uuid: 0039b999-53f2-4a15-b4fa-21ed9965c566
+uuid: 95ec0919-f44b-4fa7-838a-98583b7d9082
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: d757eb38-2a9b-4b5b-a585-92daaa4e367b
+discoiquuid: a153ed6e-a426-424a-b06d-70e3a9ee37be
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ To use the external link checker:
 1. Double-click on **External Link Checker** (either the right or left pane). A list of all external links is generated.
 1. Validate a specific link by selecting it in the list, then clicking **Check**:
 
-   ![](assets/chlimage_1-121.png)
+   ![](assets/chlimage_1-115.png)
 
    Information such as:
 
@@ -44,5 +44,5 @@ To use the external link checker:
 
 1. On the individual content pages invalid links will be shown as broken:
 
-   ![](assets/chlimage_1-122.png)
+   ![](assets/chlimage_1-116.png)
 

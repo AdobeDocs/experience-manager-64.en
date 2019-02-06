@@ -3,12 +3,12 @@ title: Using Comments
 seo-title: Using Comments
 description: Comments feature lets signed-in site visitors share their opinions and knowledge
 seo-description: Comments feature lets signed-in site visitors share their opinions and knowledge
-uuid: 13b05384-e3a4-4d69-a195-f2502db5e2df
+uuid: 208fa7a3-b91b-4f3c-bc99-65bd52744192
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 2fa169b1-f444-4f03-8eb2-27607d822b2e
+discoiquuid: f0913644-3ae7-44e0-89fd-5ef14b9f619e
 index: y
 internal: n
 snippet: y
@@ -41,7 +41,7 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/essentials-comments.md#essentialsforclientside) are included, this is how the `Comments`component will appear.
 
-![](assets/chlimage_1-440.png)
+![](assets/chlimage_1-427.png)
 
 >[!NOTE]
 >
@@ -136,7 +136,7 @@ Once the custom resource types is known, enter [Design Mode](../../sites/authori
 
 Under the **Resource Types **tab, specify the custom resourceType for new instances of the `Comments or Voting`components :
 
-![](assets/chlimage_1-441.png)
+![](assets/chlimage_1-428.png)
 
 * **Comment Resource Type** 
   Navigate to the resourceType of an extended `comment`component (single comment) in /apps. For example, `/apps/social/commons/components/hbs/comments/comment`  

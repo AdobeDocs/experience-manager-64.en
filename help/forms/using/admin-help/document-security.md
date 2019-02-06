@@ -3,12 +3,12 @@ title: About document security
 seo-title: About document security 
 description: Learn how you can create, store, and apply predefined confidentiality settings, and distribute your information safely using document security.
 seo-description: Learn how you can create, store, and apply predefined confidentiality settings, and distribute your information safely using document security.
-uuid: ffab50b0-3d05-4ba0-8345-ed7ec0f687f8
+uuid: bab89d88-9a09-44b5-b9a9-ada807be4d76
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: db4521cd-0ba5-4c96-bc66-3b582b259ac9
+discoiquuid: dab7be93-5a7d-4d3b-bc34-09e45f6ec08c
 index: y
 internal: n
 snippet: y
@@ -217,11 +217,3 @@ Policy sets are created and deleted in the document security administration web 
 Policy sets are generally made available to a limited number of users by specifying which users or groups within a domain can use the policies from the policy set to protect documents.
 
 When document security is installed, a default policy set is created called *Global Policy Set*. The administrator who installed the software manages this policy set.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>End RMAdminOnly</p>
--->
-

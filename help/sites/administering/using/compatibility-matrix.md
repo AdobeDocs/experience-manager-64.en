@@ -4,9 +4,9 @@ seo-title: Compatibility Matrix for AEM Screens Player
 description: This page lists the AEM Screens Players with their respective AEM Screens version.
 seo-description: This page lists the AEM Screens Players with their respective AEM Screens version.
 page-status-flag: never-activated
-uuid: 75ffab74-7810-431b-9fab-b043950d3227
+uuid: 58174b88-d293-4663-a6dc-f52aa42a5933
 contentOwner: jsyal
-discoiquuid: 128d8b9c-0f3d-4c49-942f-a261958d7661
+discoiquuid: 5eaf5b7d-8b4a-4655-b03a-a0afc164825e
 index: y
 internal: n
 snippet: y
@@ -74,27 +74,6 @@ aem-screens-player-ios-3.3.0.ipa.zip
  </tbody>
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: jsyal
-Last Modified Date: 2018-05-14T10:23:05.555-0400
-Once we decide, on macromedia (whether to keep these links public or not), I'll remove from here. -Jyotika
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: dantipa
-Last Modified Date: 2018-05-23T05:26:01.209-0400
-Could we link the versions directly to download? So the visitor does not need to go on the macromedia page.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: dantipa
-Last Modified Date: 2018-05-23T05:27:48.783-0400
-I am not sure anymore, but will the iOS app stay in the AppStore (please check with Jim) after we had issues releasing due to Apple's comments
--->
-
 ### Download Link {#download-link-1}
 
 Click download link for Windows10 Player:
@@ -110,27 +89,6 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 | **AEM 6.3+SP1+Screens FP1(1.0.64_B002)** |**3.2.68 -** (Available on Macromedia Site) & Google Play Store |
 | ****AEM 6.3+SP1+Screens FP2(1.0.298)**** |**3.3.0 ** |
 | **AEM 6.4** |**3.3.0 ** |
-
-<!--
-Comment Type: annotation
-Last Modified By: jsyal
-Last Modified Date: 2018-05-14T10:23:05.555-0400
-Once we decide, on macromedia (whether to keep these links public or not), I'll remove from here. -Jyotika
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: dantipa
-Last Modified Date: 2018-05-23T05:26:01.209-0400
-Could we link the versions directly to download? So the visitor does not need to go on the macromedia page.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: dantipa
-Last Modified Date: 2018-05-23T05:27:48.783-0400
-I am not sure anymore, but will the iOS app stay in the AppStore (please check with Jim) after we had issues releasing due to Apple's comments
--->
 
 ### Download Link {#download-link-2}
 
@@ -172,18 +130,4 @@ aem-screens-player-android-3.3.0.apk.zip
   </tr>
  </tbody>
 </table>
-
-<!--
-Comment Type: annotation
-Last Modified By: jsyal
-Last Modified Date: 2018-05-14T10:23:05.555-0400
-Once we decide, on macromedia (whether to keep these links public or not), I'll remove from here. -Jyotika
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: dantipa
-Last Modified Date: 2018-05-23T05:27:48.783-0400
-I am not sure anymore, but will the iOS app stay in the AppStore (please check with Jim) after we had issues releasing due to Apple's comments
--->
 

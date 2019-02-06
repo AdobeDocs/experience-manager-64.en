@@ -3,12 +3,12 @@ title: Scaffolding
 seo-title: Scaffolding
 description: With scaffolding you can create a scaffold with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure
 seo-description: With scaffolding you can create a scaffold with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure
-uuid: f2903ce9-ca66-4a65-bf97-9e5fde52289c
+uuid: 38c04b4d-8877-4aed-9c4b-c35a55169dfd
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 830f0500-1b3b-4f27-a187-2e9ade40026b
+discoiquuid: 78eff7e2-c061-45d1-8d8f-0a3c90d312ff
 index: y
 internal: n
 snippet: y

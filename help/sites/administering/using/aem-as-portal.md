@@ -3,12 +3,12 @@ title: AEM Portals and Portlets
 seo-title: AEM Portals and Portlets
 description: Learn about Portals and Portles in AEM.
 seo-description: Learn about Portals and Portles in AEM.
-uuid: 3b421aed-cf2f-4646-a270-f371579f14ac
+uuid: cc566d42-6998-4184-a4d9-d87bde239043
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: c36aa8f3-f24f-47d6-811a-08b48a27f0b1
+discoiquuid: 22ebf283-f012-492c-9ce1-5962c0053ad0
 index: y
 internal: n
 snippet: y
@@ -44,54 +44,6 @@ To configure AEM content to appear in a portal, see [Installing, Configuring, an
 >[!CAUTION]
 >
 >The AEM Portal Director is deprecated as of AEM 6.4. See [Deprecated and Removed Features](https://helpx.adobe.com/experience-manager/6-4/release-notes/deprecated-removed-features.html).
-
-<!--
-Comment Type: draft
-
-<p>The AEM Portal Director provides a content portlet that lets you display content from the publish instance, preview content from the author instance, and provides a link within the content to open the corresponding page in a new browser window. The portlet is located at <span class="code">/crx-quickstart/opt/portal</span> after the quickstart is extracted.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The content portlet is based on the JSR 286 (portlet API 2.0) and can run in any compliant portal.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The AEM portlet has the following features:</p>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li><p><em>Displaying content in a portlet.</em> The portlet displays content, which can be either an entire page or part of a page, from CQ WCM. The template that is used in combination with the provided selectors, defines how you see the content. In particular, the portlet can show content from just one page or provide a whole substructure of a site and show the corresponding navigation. The portlet supports different display modes such as the normal view and the maximized view.</p> </li>
-<li><p><em>Configuring the portlet.</em> You configure the portlet to point directly to the publish CQ5 instance by using a URL that either points directly to the content or to the portlet content map within CQ WCM. If it points to the portlet content map, then the configured URL contains a key for the content and the configuration maps the key to the actual content to be displayed, which allows CQ5 to adjust references, for example if someone moves pages within CQ WCM. .The portlet itself does not know if it points directly to the content or if a configuration map is used. For editing, the base URL to the CQ WCM author instance is configured as well.<br /> </p> </li>
-<li><p><em>Layout.</em> The portlet respects portal design/themes. The design (CSS files) are added by the portlet to the portal page, which you can configure. As this is an optional portlet API 2.0 feature, for portlet containers not supporting this feature, you manually add the CSS files to the portal server.</p> </li>
-<li><p><em>Security. </em>User and group information are shared with the portal. CQ WCM respects user information for personalization and access control. The user information from the portal (current user) is forwarded to CQ WCM. The user is already logged into the portal, so the portal is the driving authentication mechanism. CQ WCM (and therefore CRX) receives enough information to handle this properly. SSO scenarios are supported through existing and/or custom authenticators. As the portlet can connect to different CQ WCM instances (especially publish and author for display and editing), potentially different user information needs to be properly handled. Because this handling can be very specific to a given environment, a mechanism is provided that allows for plugging diverse authenticators. In addition to this proper user handling, it is also possible to configure the portlet to just use one technical user.<br /> </p> </li>
-<li><p><em>Multi-Language. </em>Content from CQ WCM respects the portal language. The portlet standard specification requires that available languages for a portlet are configured per portlet. The portal forwards the preferred language of the user to the CQ portlet which, in turn, forwards this to the CQ WCM server. The mechanism to provide the correct language uses structural information about the site, that is, the request is mapped to language specific URLs inside the portlet. This mechanism is pluggable to allow for customization.</p> </li>
-<li><p><em>Links.</em> All links in the portlet must be rewritten properly.</p> </li>
-<li><p><em>Caching.</em> The portlet can be configured to point to the dispatcher instead of directly pointing to the CQ server. In this scenario, the dispatcher cache is used. The portlet also has its own cache. The implementation of the cache can be replaced by a custom implementation if needed.<br /> </p> </li>
-<li><p><em>Editing Content. </em>The CQ portlet provides links to configure the portlet and edit its content. The CQ WCM part of the configuration determines how to handle the content that is shown in the portlet. You edit in the CQ WCM authoring environment. If necessary, you can also access the Websites tab through an additional link in the tree instead of directly editing a page. It might still be necessary to go to the Websites tab instead of directly editing a page. The editing functionality is only available if the current user has the credentials to edit a page. By default, the CQ5 author instance is queried to detect if the user is an author.</p> </li>
-<li><p><em>Non Functional.</em> Wherever possible, portlet integration is based on standards (in particular JSR 286), so it is generic for all portal environments that support this standard. Setups with one portal and multiple CQ WCM instances as well as multiple portal instances and one CQ WCM instance are supported.</p> </li>
-</ul>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T04:59:05.214-0500
-<p>The install and configuration has changed in 5.5.</p>
-<ul>
-<li>the CQ as a Portal Portlet needs to be installed as package from /opt/portlet and CQ needs to be deployed as WAR file</li>
-<li>the CQ in a Portal Server - for this the customer needs a WAR file that is optionally available - customer needs to contact support for this. The files are cq-portlet-filecache-5.4.0.jar and cqportlet.war (internally they are at <a href="http://nexus.bsl.eur.adobe.com/content/repositories/releases/com/day/cq/portlet/cq-portlet-webapp/">http://nexus.bsl.eur.adobe.com/content/repositories/releases/com/day/cq/portlet/cq-portlet-webapp/</a></li>
-</ul>
-<p> </p>
-<p>More info:</p>
-<p>CQ as portal does require to deploy CQ as a web application<br /> (war) inside a<br /> servlet engine - portlets are not supported when using<br /> Quickstart!<br /> Once deployed inside a servlet engine, there is a shared<br /> library at<br /> /libs/portal/director/cq-portlet-director-sharedlibs-5.4.0.<br /> This one needs to<br /> be copied into the shared libs directory of the servlet<br /> engine, e.g.<br /> it's /lib for Apache Tomcat 6.x. The servlet engine needs to<br /> be restarted after<br /> that.<br /> From that point on, everything is as before - portlets get<br /> deployed through the<br /> servlet engine and need a rewritten web.xml as we already<br /> describe on our docs</p>
--->
 
 ## Administering the AEM Content Portlet {#administering-the-aem-content-portlet}
 
@@ -210,19 +162,6 @@ It is possible to use a different system property to detect the environment. Spe
 
 The portlet, in its default configuration, caches the responses it receives from AEM WCM in a user-specific cache. The caches need to be invalidated when changes occur in the content of the publish instance. For this purpose, in AEM WCM a replication agent must be configured on the author instance. The cache can also be flushed manually. This section describes both of those procedures.
 
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2017-11-30T04:59:05.409-0500
-<p>Which statement is correct? The CQ content portlet does not cache any content or the portlet caches the responses it receives from CQ WCM in a user-specific cache? <br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<p>By default, the AEM content portlet does not cache any content. It relies on the infrastructure of AEM and the portal server in this respect.</p>
--->
-
 The portlet can be configured with its own cache, so that the content in the portlet displays without requiring access to AEM. The portal is available as content in /libs/portal/director. To access the content, start a AEM instance and download, using CRXDE Lite or Webdav, the file from that location.
 
 You can either deploy this bundle at runtime or add it to the portlet web application at `WEB-INF/lib/resources/bundles` before the deployment.
@@ -313,36 +252,15 @@ To access the portlet's authentication configuration:
 
 1. Access the Web console at the following URL:
 
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (guillaume)
-   Last Modified Date: 2017-11-30T04:59:06.520-0500
-   <p>http://:/// ??</p>
-   <p>old doc gives http://localhost:8080/cqportlet/cqbridge/system/console.</p>
-   -->
-
    `http://localhost:8080/cqportlet/cqbridge/system/console`
 
    For example, in its default configuration:
 
    `http://wps-host:10040/wps/PA_CQ5_Portlet/cqbridge/system/console`
 
-1. Log in to the Web console. The default credentials are `admin/admin`.
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-13.png" />
-   -->
-
+1. Log in to the Web console. The default credentials are `admin/admin`. 
 1. In the console, select **Configuration**.
 1. In the **Configuration** menu, select a particular service to configure. Services are provided by the portlet in the OSGi framework.
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-14.png" />
-   -->
 
    | Service Name |Description  |
    |---|---|
@@ -430,7 +348,7 @@ To enable SSO authentication in a AEM portlet:
 1. In the Configuration menu, select Day Portal Director Authenticator from the list of available configurations.
 1. In Mode, select SSO. Leave the other parameters with their default values.
 
-   ![](assets/chlimage_1-15.png)
+   ![](assets/chlimage_1-12.png)
 
 1. Click Save to enable SSO for the portlet.
 
@@ -805,7 +723,7 @@ Use the Portal component to add a portlet window to your web page. Use the compo
 
 1. Click **OK**. The portlet displays on your AEM page.
 
-   ![](assets/chlimage_1-16.png)
+   ![](assets/chlimage_1-13.png)
 
 ## Installing, Configuring, and Using AEM in a Portlet {#installing-configuring-and-using-aem-in-a-portlet}
 
@@ -859,14 +777,7 @@ To configure the portlet:
     * **Author Is Used As Publish**: Is the author instance used as a publish  
       instance (for development)?
 
-   ![](assets/chlimage_1-17.png) 
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Jean-Christophe Kautzmann (jkautzma)
-   Last Modified Date: 2017-11-30T04:59:09.596-0500
-   <p>could not change this screenshot: I didn't find the cqportlet.war at the location described in this page -&gt; bug#41142<br /> </p>
-   -->
+   ![](assets/chlimage_1-14.png)
 
 1. Click **Save**. You can now add the portlet to portal pages and use the portal.
 

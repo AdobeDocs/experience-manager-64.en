@@ -3,12 +3,12 @@ title: Managing Content Fragments
 seo-title: Managing Content Fragments
 description: Content Fragments are stored as Assets, so are primarily managed from the Assets console.
 seo-description: Content Fragments are stored as Assets, so are primarily managed from the Assets console.
-uuid: dce77811-a17f-47d2-8942-3c1b468204f8
+uuid: 1cd3b263-12e6-427f-9f8d-8ec35998255b
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: 3bac6f2e-10fa-43df-98a2-0660e6b4fa88
+discoiquuid: 058f147e-fc02-4d9f-b28a-332e1fba1976
 index: y
 internal: n
 snippet: y
@@ -317,14 +317,6 @@ Content Fragments must be published for use in the publish enviroment. They can 
 >[!CAUTION]
 >
 >After a fragment has been published and/or referenced, AEM will display a warning when an author opens the fragment for editing again. This is to warn that changes to the fragment will affect the referenced pages as well.
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Content fragments cannot be published to the Brand Portal interface. Therefore, if you select content fragment(s) on AEM Author, then <strong>Publish to Brand Portal</strong> action is not available.</p>
-</note>
--->
 
 ## Deleting a Fragment {#deleting-a-fragment}
 

@@ -3,12 +3,12 @@ title: Query Builder API
 seo-title: Query Builder API
 description: The functionality of the Asset Share Query Builder is exposed through a Java API and a REST API.
 seo-description: The functionality of the Asset Share Query Builder is exposed through a Java API and a REST API.
-uuid: 997820d3-ee85-4669-a333-599f0e4fd1fa
+uuid: 259ea934-6876-4e1c-ba55-899c297a6932
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 36e5b2b8-6c0b-4930-b6ac-af30ca00e411
+discoiquuid: 8df1a59b-b7b2-4569-9d1c-1aa0ea60c194
 pagetitle: Query Builder API
 tagskeywords: querybuilder
 index: y
@@ -189,13 +189,6 @@ orderby.sort=desc
 
 [http://localhost:4502/bin/querybuilder.json?type=cq:Page&tagid=marketing:interest/product&tagid.property=jcr:content/cq:tags](http://localhost:4502/bin/querybuilder.json?type=cq:Page&tagid=marketing:interest/product&tagid.property=jcr:content/cq:tags)
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (guillaume)
-Last Modified Date: 2018-01-17T05:29:20.580-0500
-<p>Blogs are referenced by tags, but tags don't display in properties dialog<br /> </p>
--->
-
 ```xml
 type=cq:Page
 tagid=marketing:interest/product
@@ -286,14 +279,6 @@ For multi-value properties, you can also require that multiple values match ( `"
 
 [ `http://localhost:4502/bin/querybuilder.json?property=jcr%3atitle&property.and=true&property.1_value=test&property.2_value=foo&property.3_value=bar`](http://localhost:4502/bin/querybuilder.json?property=jcr%3atitle&property.and=true&property.1_value=test&property.2_value=foo&property.3_value=bar)
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (guillaume)
-Last Modified Date: 2018-01-17T05:29:21.027-0500
-<p>I couldn't find an example which delivers hits.</p>
-<p>The link will also have to be changed.<br /> </p>
--->
-
 ```xml
 property=jcr:title
 property.and=true
@@ -382,40 +367,12 @@ p.hits=full
 
 [ `http://localhost:4502/bin/querybuilder.json?p.hits=full&p.nodedepth=5&property=jcr%3atitle&property.value=Triangle`](http://localhost:4502/bin/querybuilder.json?p.hits=full&p.nodedepth=5&property=jcr%3atitle&property.value=Triangle)
 
-<!--
-Comment Type: draft
-
-<p>Another thing you can do is include child nodes in the <code>QueryBuilder</code> response. In order to do this you need to specify <code>p.nodedepth=n</code>, where <strong>n</strong> is the number of levels you want the query to return. Note that, in order for a child node to be returned, it must be specified by the properties selector (i.e. either use <code>p.hits=full</code> or <code>p.hits=selective</code> and specify the name of the child node in <code>p.properties</code>). Examples:</p>
-<p><a href="http://localhost:4502/bin/querybuilder.json?p.hits=full&p.nodedepth=100&property=jcr%3atitle&property.1_value=Triangle"><span class="code">http://localhost:4502/bin/querybuilder.json?p.hits=full&p.nodedepth=5&property=jcr%3atitle&property.value=Triangle </span></a></p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (guillaume)
-Last Modified Date: 2018-01-17T05:29:21.256-0500
-<p>Is it meaningfull to use p.hits=selective and p.nodedepth at the same time ?<br /> </p>
--->
-
 ```xml
 property=jcr:title
 property.value=Triangle
 p.hits=full
 p.nodedepth=5
 ```
-
-<!--
-Comment Type: draft
-
-<p><a href="http://localhost:4502/bin/querybuilder.json?p.hits=selective&p.nodedepth=5&p.properties=sling%3aresourceType%20jcr%3apath&property=jcr%3atitle&property.value=Triangle"><span class="code">http://localhost:4502/bin/querybuilder.json?p.hits=selective&p.nodedepth=5&p.properties=sling%3resourceType%20jcr%3apath&property=jcr%3atitle&property.value=Triangle </span></a></p>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock gutter="true" class="syntax xml">
-property=jcr:title!!discoiqbr!!property.value=Triangle!!discoiqbr!!p.hits=selective!!discoiqbr!!p.properties=sling:resourceType&nbsp;jcr:path!!discoiqbr!!p.nodedepth=5!!discoiqbr!!
-</codeblock>
--->
 
 ## More Predicates {#morepredicates}
 
@@ -517,12 +474,6 @@ For example, a `Query` stored to the path `/mypath/getfiles` can be loaded by th
 Query loadedQuery = builder.loadQuery("/mypath/getfiles", session);
 ```
 
-<!--
-Comment Type: draft
-
-<h2>Debugging Slow Queries</h2>
--->
-
 ## Testing and Debugging {#testing-and-debugging}
 
 For playing around and debugging querybuilder queries, you can use the QueryBuilder debugger console at
@@ -575,7 +526,7 @@ Explain **all** queries during the development cycle against the target index se
 
 * Use the AEM QueryBuilder debugger to generate an explainable XPath query:
 
-![](assets/chlimage_1-76.png)
+![](assets/chlimage_1-75.png)
 
 1. Provide the Query Buidler query in the Query Builder debugger
 1. Execute the Search

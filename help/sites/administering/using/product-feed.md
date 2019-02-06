@@ -3,12 +3,12 @@ title: Product Feed
 seo-title: Product Feed
 description: Learn about the AEM Product Feed.
 seo-description: Learn about the AEM Product Feed.
-uuid: 5b1530a5-cfe1-4a56-8aa6-914b0e1a4277
+uuid: 958d2472-3567-4818-a6f7-1a7b6a7808a2
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: cf9caa31-261b-4104-84ae-e6461e44c22a
+discoiquuid: 51567e98-6879-45c3-8cd2-fc898897d74b
 index: y
 internal: n
 snippet: y
@@ -69,7 +69,7 @@ A scheduler is configured as a child configuration of your specific Search&Promo
 1. Enter a **Title** that is recognizable to page authors, and a unique **Name**.
 1. Click **Create**. A dialog opens.
 
-   ![](assets/chlimage_1-120.png)
+   ![](assets/chlimage_1-114.png)
 
 1. Enter the **Remote Control Password**. It is the password you configured in your Search&Pronote account.
 

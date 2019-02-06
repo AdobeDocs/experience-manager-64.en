@@ -3,10 +3,10 @@ title: Create an Interactive Communication
 seo-title: Create an Interactive Communication
 description: Create an Interactive Communication using the Interactive Communication editor. Use drag-and-drop functionality to build the Interactive Communication, and preview both print and web outputs on different device types. 
 seo-description: Create an Interactive Communication using the Interactive Communication editor. Use drag-and-drop functionality to build the Interactive Communication, and preview both print and web outputs on different device types. 
-uuid: a8ba0ad3-b8e7-4cec-a6e6-d2808e01776a
+uuid: c8335fe3-5e78-456c-90d7-e3c4a8140e8a
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: c12b4810-bb9a-4260-9c08-f56bc8326ed7
+discoiquuid: 6b38e0c2-6980-4b24-bd37-e94a35d80df4
 index: y
 internal: n
 snippet: y
@@ -28,13 +28,6 @@ The following are the prerequisites for creating an Interactive Communication:
 * Ensure that you have the [Document fragments](../../forms/using/document-fragments.md).
 * Ensure that you have [Templates for print and web channel](../../forms/using/web-channel-print-channel.md).
 * Ensure that you have the required [theme](../../forms/using/themes.md) for the web channel.
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-05T13:27:51.194-0500
-IS this required: Obtain JDBC database driver (JAR file) from database provider. Examples in the tutorial are based on MySQL database and use Oracle's MySQL JDBC database driver.
--->
 
 ## Create Interactive Communication {#createic}
 
@@ -142,13 +135,6 @@ For more information on the Interactive Communication authoring interface, see [
 
 1. With the print channel selected, in the **[!UICONTROL Assets]** tab apply the filter to display images. Drag-and-drop the required images to the Interactive Communication, such as for company logo.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-03-17T04:51:05.461-0400
-   Document Fragments Layout Fragments
-   -->
-
    Further, manage the following in the Interactive Communication:
 
     * [Adding and configuring charts](/forms/using/chart-component)
@@ -162,16 +148,6 @@ For more information on the Interactive Communication authoring interface, see [
     * [Attachments and library access](../../forms/using/create-interactive-communication.md#attachmentslibrary)
     * [XDP/Layout field properties](../../forms/using/create-interactive-communication.md#xdplayoutfieldproperties)
     * [Add rules to components](../../forms/using/create-interactive-communication.md#rules)
-
-   <!--
-   Comment Type: draft
-
-   <ul>
-   <li> </li>
-   <li>Locking order of document fragments in the interactive communication instance? </li>
-   <li>publishing?</li>
-   </ul>
-   -->
 
 1. Switch to **[!UICONTROL Web Channel]**. The web channel appears in the Interactive Communication editor. When you switch from the Print channel to the Web channel for the first time, the automatic synchornization takes place. For more information, see [Synchronizing web channel from the print channel](../../forms/using/create-interactive-communication.md#synchronize).
 
@@ -212,12 +188,6 @@ You can use the **Preview option **to evaluate appearance of the Interactive Com
 Further, you can [Prepare and send Interactive Communication using the Agent UI](../../forms/using/prepare-send-interactive-communication.md).
 
 ## Configuring properties in Interactive Communication  {#configuring-properties-in-interactive-communication}
-
-<!--
-Comment Type: draft
-
-<h3>Document fragment properties</h3>
--->
 
 ### Attachments and library access {#attachmentslibrary}
 
@@ -270,13 +240,6 @@ In the Print channel, you can configure the attachments and library access to al
     * **[!UICONTROL Required]**: Select to make the field mandatory for the Agent. This setting is not applicable if Binding Type is Text Fragment. 
     * **[!UICONTROL Allow multiple lines]**: Select this field to allow multiple lines of text as entry in the field. This setting is not applicable if Binding Type is Text Fragment.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-03-16T08:09:45.483-0400
-   this content will work for variable properties doc fragment properites layout fragment properties (probably)
-   -->
-
 1. Tap ![](assets/Done_Icon.png).
 
 ## Apply rules to Interactive Communication components {#rules}
@@ -295,14 +258,7 @@ For more information, see:
 You can add dynamic tables in Interactive Communication using layout fragments. The following steps use an example of a credit card statement to illustrate the use of a layout fragment for creating a dynamic table in an Interactive Communication.
 
 1. Ensure that the required layout fragment for creating the table is available in AEM. For more details, see Example with sample files: [Using Static and Dynamic tables in document fragments](../../forms/using/cm-layout-fragments.md) and [Creating tables using layout fragments](../../forms/using/cm-layout-fragments.md#creatingtablesusinglayoutfragments). 
-1. In the print channel of your Interactive Communication, drag and drop a layout fragment (with a multi-column table) in a Target Area from the Asset browser.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-03-17T08:22:08.978-0400
-   LF article needs to have this example with FDM elements (instead of DD)
-   -->
+1. In the print channel of your Interactive Communication, drag and drop a layout fragment (with a multi-column table) in a Target Area from the Asset browser. 
 
    ![](assets/LF_DragDrop.png)
 
@@ -371,13 +327,6 @@ In the web channel, the components are embedded in the target areas.
 Hover over the relevant target area in the web channel and select ![](assets/CancelInheritance.png) (Cancel Inheritance) and then in the Cancel Inheritance dialog, tap **[!UICONTROL Yes]**.
 
 The inheritence of the components within the target area gets cancelled and now you can edit them as required.
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-16T08:56:35.349-0400
-Subform -> target area Document fragment -> Document fragment Layout fragment fields -> text component Layout fragment - > Table XDP fields with binding none and data model object -> text component XDP fields with binding text fragment -> Document fragment Image -> Image Chart -> Chart
--->
 
 ### Re-enable Inheritance {#re-enable-inheritance}
 

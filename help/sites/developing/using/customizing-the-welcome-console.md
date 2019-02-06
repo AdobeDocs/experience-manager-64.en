@@ -3,12 +3,12 @@ title: Customizing the Welcome Console (Classic UI)
 seo-title: Customizing the Welcome Console (Classic UI)
 description: The Welcome console provides a list of links to the various consoles and functionality within AEM
 seo-description: The Welcome console provides a list of links to the various consoles and functionality within AEM
-uuid: 7c6f58b7-bf61-4335-ab54-561cc6682642
+uuid: 55e93446-9d92-4056-99fc-3bdf4be5971d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 2d6e5e3f-f4ef-4b77-b8ea-14e2dfac1c2c
+discoiquuid: c14e206c-a622-4fba-8030-51c2bd11f7c5
 index: y
 internal: n
 snippet: y
@@ -30,18 +30,6 @@ It is possible to configure the links that are visible. This can be defined for 
 
 * [Main Consoles](#linksinmainconsoleleftpane) - Links in the main console (left pane)
 * [Resources, Documentation and Reference, Features](#linksinsidebarrightpane) - Links in the sidebar (right pane)
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-18T11:19:19.766-0500
-<p>please check: </p>
-<p>have removed the following for the moment. </p>
-<p style="margin-left: 40px;">"With this configuration it is not only the links that are impacted, access to the functionality being linked to is also restricted for those users. For example, if you disable the link to the Tools console for a specific group, then access to the Tools icon available at the top of the other consoles (Websites, Users, etc ) will also be impacted. Direct access to the console via the URL will also be restricted, again for that group."</p>
-<p>It only seems to apply to the consoles. Have just tested it with Packages and the functionality is still available via the Tools console.</p>
-<p>Surely we need to document how to disable the underlying functionality? Or at least make them aware of the issues? </p>
-<p>Need to check how to completely disable the various items in the sidebar.</p>
--->
 
 ### Links in Main Console (Left Pane) {#links-in-main-console-left-pane}
 

@@ -3,11 +3,11 @@ title: Customizing Draft and Submission data services
 seo-title: Customizing Draft and Submission data services
 description: AEM Forms, by default, stores draft and submitted adaptive forms in a default node on the Publish instance. However, you can configure the draft and submission data services of AEM Forms to customize the storage of draft and submitted adaptive forms.
 seo-description: AEM Forms, by default, stores draft and submitted adaptive forms in a default node on the Publish instance. However, you can configure the draft and submission data services of AEM Forms to customize the storage of draft and submitted adaptive forms.
-uuid: 23ca1838-dd19-4a34-a463-051ee32918e8
+uuid: d89b8610-05c0-4588-9fe1-bdb8711b8d58
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 9ad22ae6-edf5-435c-b973-a85811ef46bf
+discoiquuid: d1069944-0e7e-49de-b31a-916bcb61c291
 index: y
 internal: n
 snippet: y

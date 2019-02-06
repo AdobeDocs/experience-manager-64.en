@@ -3,12 +3,12 @@ title: Blog Essentials
 seo-title: Blog Essentials
 description: Blog overview
 seo-description: Blog overview
-uuid: b410cfb5-8676-4ced-861d-b6382095162f
+uuid: 64ac4d97-2c8d-473c-95bd-cc82a1248e40
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: af93d197-38d2-4647-98cb-da4b9c414348
+discoiquuid: ee1945d8-0c09-447f-aa0a-6cc1a2e72907
 index: y
 internal: n
 snippet: y
@@ -117,5 +117,5 @@ As of AEM 6.2, the modifications previously required to be made manually are inc
 
 Rich media is embeded in a blog article by selecting the `Embed Media from External Sites` icon :
 
-![](assets/chlimage_1-483.png)
+![](assets/chlimage_1-470.png)
 

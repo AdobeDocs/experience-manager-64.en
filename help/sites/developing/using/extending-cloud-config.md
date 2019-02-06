@@ -3,12 +3,12 @@ title: Cloud Service Configurations
 seo-title: Cloud Service Configurations
 description: You can extend the existing instances to create your own configurations
 seo-description: You can extend the existing instances to create your own configurations
-uuid: 95e6827e-cdf5-4083-95f0-3cc4f2cf8d3c
+uuid: a4c21f6c-cb48-4801-8ef0-019179de4081
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: f5083165-b925-48e4-a3bf-c9d94869b396
+discoiquuid: 91ff9570-6290-46af-bc7a-d971e95584e8
 index: y
 internal: n
 snippet: y
@@ -94,13 +94,6 @@ sling:resourceType = cq/analytics/components/generictrackerpage
 Your component should extend the base component:
 
 `cq/cloudserviceconfigs/templates/configpage`
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (colligno@adobe.com)
-Last Modified Date: 2017-11-30T05:24:39.545-0500
-<p>Why are we talking about analytics?<br /> </p>
--->
 
 ```xml
 /libs/cq/analytics/components/sitecatalystpage

@@ -3,12 +3,12 @@ title: Page Authoring with Content Fragments
 seo-title: Page Authoring with Content Fragments
 description: AEM Content Fragments allow you to design, create, curate, and use page-independent content
 seo-description: AEM Content Fragments allow you to design, create, curate, and use page-independent content
-uuid: 89662887-7a7e-4f9d-a509-b27977b38c10
+uuid: a9a0d543-f455-4a9a-bd02-05a41ac62e31
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 918b339d-eed6-44f0-9be4-0abde2a90be2
+discoiquuid: 14ce45dd-c565-4c16-b621-4c3c58475f15
 index: y
 internal: n
 snippet: y
@@ -108,13 +108,6 @@ In the appropriate configuration dialog you can select the available parameters,
 
 * **Display Mode**:
 
-  <!--
-  Comment Type: remark
-  Last Modified By: Alison Heimoz (aheimoz)
-  Last Modified Date: 2018-03-15T03:30:46.634-0400
-  <p>more detail needed or is this self-explanatory?</p>
-  -->
-
     * **Single Text Element** 
     
     * **Multiple Element**
@@ -142,13 +135,6 @@ In the appropriate configuration dialog you can select the available parameters,
         * **Handle headings as their own paragraphs**
 
 * **Handle headings as their own paragraphs**
-
-  <!--
-  Comment Type: remark
-  Last Modified By: Alison Heimoz (aheimoz)
-  Last Modified Date: 2018-03-15T03:34:30.348-0400
-  <p>more detail needed or is this self-explanatory?</p>
-  -->
 
 ### Quick Connection to Fragment Editor {#quick-connection-to-fragment-editor}
 

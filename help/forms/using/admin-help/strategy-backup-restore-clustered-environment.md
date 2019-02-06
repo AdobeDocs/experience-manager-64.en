@@ -3,12 +3,12 @@ title: Strategy for backup and restore in a clustered environment
 seo-title: Strategy for backup and restore in a clustered environment
 description: If your AEM forms implementation stores additional custom data in a different database, you must implement a strategy to back up this data ensuring that it remains in sync with the AEM forms data.
 seo-description: If your AEM forms implementation stores additional custom data in a different database, you must implement a strategy to back up this data ensuring that it remains in sync with the AEM forms data.
-uuid: d6f0f482-9cc9-4e14-a497-b16505b0f9d4
+uuid: 6c30f5bf-47bd-4484-9061-0f20b38aa839
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: fca003f7-063e-4b99-8163-0d7d454cb550
+discoiquuid: 30367074-cbef-4730-94ae-47534cadaca3
 index: y
 internal: n
 snippet: y

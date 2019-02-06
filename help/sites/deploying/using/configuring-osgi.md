@@ -3,12 +3,12 @@ title: Configuring OSGi
 seo-title: Configuring OSGi
 description: OSGi is a fundamental element in the technology stack of Adobe Experience Manager (AEM). It is used to control the composite bundles of AEM and their configuration. This article details how you can manage the configuration settings for such bundles.
 seo-description: OSGi is a fundamental element in the technology stack of Adobe Experience Manager (AEM). It is used to control the composite bundles of AEM and their configuration. This article details how you can manage the configuration settings for such bundles.
-uuid: e7a87a5e-382a-47d4-b055-0d50453ea672
+uuid: 3f99e146-ae2c-400e-aee3-d572709f1af4
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 0d94e1ae-f056-4ea2-81af-660ec416685a
+discoiquuid: fe1c1b0b-9ad4-48b6-b402-a2b98dacdc28
 index: y
 internal: n
 snippet: y
@@ -27,21 +27,6 @@ You can manage the configuration settings for such bundles by either:
 * using the [Adobe CQ Web console](#osgiconfigurationwiththewebconsole)
 * using [configuration files](#osgiconfigurationwithconfigurationfiles)
 * configuring [content-nodes ( `sling:OsgiConfig`) in the repository](#osgiconfigurationintherepository)
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Using the <a href="#updatingaconfigurationwiththewebconsole">Adobe CQ Web console</a> is the recommended method for making changes.</p>
-</note>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-08-08T08:42:55.737-0400
-<p>Removed because of <a href="https://jira.corp.adobe.com/browse/CQDOC-12667">CQDOC-12667</a>.</p>
--->
 
 Either method can be used though there are subtle differences, primarily in relation to [Run Modes](../../../sites/deploying/using/configure-runmodes.md):
 
@@ -110,7 +95,7 @@ To update a configuration with the web console:
 
 1. A dialog will open. Here you can edit as required; for example, set the **Log Level** to `INFO`:
 
-   ![](assets/chlimage_1-157.png)
+   ![](assets/chlimage_1-143.png)
 
    >[!NOTE]
    >
@@ -195,7 +180,7 @@ To add a new configuration to the repository you need to know the following:
    Reference the **Configurations** field in the Web console. The name is shown in brackets after the bundle name (or in the **Configuration Information** towards the bottom of the page).  
    For example, create a node `com.day.cq.wcm.core.impl.VersionManagerImpl.` to configure **AEM WCM Version Manager**. 
 
-   ![](assets/chlimage_1-158.png)
+   ![](assets/chlimage_1-144.png)
 
 1. Whether a specific [run mode](../../../sites/deploying/using/configure-runmodes.md) is required. Create the folder:
 
@@ -209,7 +194,7 @@ To add a new configuration to the repository you need to know the following:
    Reference the individual parameter field in the Web console. The name is shown in brackets for each parameter.  
    For example, create a property `versionmanager.createVersionOnActivation` to configure **Create Version on Activation**.
 
-   ![](assets/chlimage_1-159.png)
+   ![](assets/chlimage_1-145.png)
 
 1. Does a configuration already exist in `/libs`? To list all configurations in your instance, use the **Query** tool in CRXDE Lite to submit the following SQL query:  
    `select * from sling:OsgiConfig`  
@@ -273,14 +258,6 @@ To actually add the new configuration to the repository:
 
 ### Resolution Order at Startup {#resolution-order-at-startup}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:41:44.198-0500
-<p>Original was:</p>
-<p>Repository nodes under /apps/*/config....either with typesling:OsgiConfig or property files (CHECK).</p>
--->
-
 The following order of precedence is used:
 
 1. Repository nodes under `/apps/*/config...`.either with type `sling:OsgiConfig` or property files.  
@@ -336,14 +313,6 @@ The following list shows a small selection of the configurations available (in a
 >[!NOTE]
 >
 >As these configurations reside in `/libs` they must not be edited directly, but copied to your application area ( `/apps`) before customization.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:41:44.299-0500
-<p>bpeter@adobe.com (01-Dec-2014)</p>
-<p>IIUC, this will *not* show configurations in *.config files</p>
--->
 
 To list all configuration nodes in your instance, use the **Query** functionality in CRXDE Lite to submit the following SQL query:
 

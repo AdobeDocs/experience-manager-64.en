@@ -3,12 +3,12 @@ title: App definitions
 seo-title: App definitions
 description: Follow this page to learn about app definitions, that are a way to identify what spaces and other configurations are appropriate for the app. App definitions allows the user to add space, without having to recompile the app. 
 seo-description: Follow this page to learn about app definitions, that are a way to identify what spaces and other configurations are appropriate for the app. App definitions allows the user to add space, without having to recompile the app. 
-uuid: 8065003b-3d9a-48c7-81b3-c32724941bc8
+uuid: 20af5c7b-ece6-4467-9716-723f7a475def
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
-discoiquuid: 84866165-85cd-48b7-a5b0-5b4214484aa2
+discoiquuid: cf9fbf11-d34a-42c5-b49e-0a70fb3a7c72
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ App definitions are a way to identify what spaces and other configurations are a
 
 1. Choose **Mobile** from the AEM Navigation Console.
 
-   ![](assets/chlimage_1-186.png)
+   ![](assets/chlimage_1-185.png)
 
 1. Choose **Apps** from **Mobile **and click **Create.**
 

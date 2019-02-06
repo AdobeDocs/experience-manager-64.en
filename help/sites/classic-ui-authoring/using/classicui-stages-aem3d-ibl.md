@@ -3,12 +3,12 @@ title: About working with IBL stages
 seo-title: About working with IBL stages
 description: AEM 3D supports image-based lighting (IBL) for both interactive viewing and rendering with the built-in Adobe Rapid Refine renderer and third-party renderers. You can create IBL stages with common authoring tools such as Autodesk Maya or Autodesk 3ds Max.
 seo-description: AEM 3D supports image-based lighting (IBL) for both interactive viewing and rendering with the built-in Adobe Rapid Refine renderer and third-party renderers. You can create IBL stages with common authoring tools such as Autodesk Maya or Autodesk 3ds Max.
-uuid: f968da6e-c563-4a00-b97c-57630c967740
+uuid: 11ae70f1-cf83-4a1c-90a5-28eaa8c058c9
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: fc7e4d79-1a53-40b3-aecc-074bf0db655e
+discoiquuid: 39f6c54b-5017-4de0-afd3-5d6d5255f0ad
 index: y
 internal: n
 snippet: y

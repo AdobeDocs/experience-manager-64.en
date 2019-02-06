@@ -3,12 +3,12 @@ title: Creating adaptive forms using XML Schema
 seo-title: Creating adaptive forms using XML Schema
 description: Adaptive forms can use XML schema as form model, allowing you to leverage existing XSD templates to create adaptive forms. You can drag-and-drop schema elements from XSD onto your adaptive form.
 seo-description: Adaptive forms can use XML schema as form model, allowing you to leverage existing XSD templates to create adaptive forms. You can drag-and-drop schema elements from XSD onto your adaptive form.
-uuid: fd985f34-0c14-4149-a687-7d9b73cc5b26
+uuid: 32bd3c2f-f490-48a8-90a2-ddac5474425d
 content-type: reference
 topic-tags: adaptive_forms
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 3a392687-51bb-4fbc-a156-4268773ad03b
+discoiquuid: 75ea0a9c-b03e-473d-a0b1-a29d1c8dd437
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Enabling Asset Insights through DTM
 seo-title: Enabling Asset Insights through DTM
 description: Learn how to use Adobe Dynamic Tag Management (DTM )to enable Asset Insights.
 seo-description: Learn how to use Adobe Dynamic Tag Management (DTM )to enable Asset Insights.
-uuid: 983de115-91a2-46f8-b3a9-c84cd8f6287c
+uuid: 9d66e084-651e-4324-9d00-5e63cc83d33a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 65cd7588-e70e-4a0e-ba46-b046954ee049
+discoiquuid: 73470a97-5924-4fe8-b23f-cea255bd22a4
 index: y
 internal: n
 snippet: y
@@ -34,15 +34,15 @@ Perform these steps to enable Asset Insights through DTM:
     
     * Update the fields as appropriate, and tap/click **Create Property*** *(see [documentation](https://helpx.adobe.com/experience-manager/using/dtm.html)).
 
-   ![](assets/chlimage_1-146.png)
+   ![](assets/chlimage_1-145.png)
 
 1. In the **Rules** tab, select **Page Load Rules** from the navigation pane and tap/click **Create New Rule***.*
 
-   ![](assets/chlimage_1-147.png)
+   ![](assets/chlimage_1-146.png)
 
 1. Expand **Javascript /Third Party Tags**. Then tap/click **Add New Script** in the **Sequential HTML** tab to open the Script dialog.
 
-   ![](assets/chlimage_1-148.png)
+   ![](assets/chlimage_1-147.png)
 
 1. Tap/click the AEM logo, and go to **Tools** &gt; **Assets**.
 1. Tap/click **Insights Page Tracker**, copy the tracker code, and then paste it in the Script dialog you opened in step 6. Save the changes.
@@ -61,17 +61,17 @@ Perform these steps to enable Asset Insights through DTM:
 
 1. Either create or open an existing Adobe Analytics Tool. While creating the tool, you can set **Configuration Method** to **Automatic***.*
 
-   ![](assets/chlimage_1-149.png)
+   ![](assets/chlimage_1-148.png)
 
    Select Staging/Production report suites, as appropriate.
 
 1. Expand **Library Management**, and ensure that **Load Library at** is set to **Page Top**.
 
-   ![](assets/chlimage_1-150.png)
+   ![](assets/chlimage_1-149.png)
 
 1. Expand **Customize Page Code**, and click or tap **Open Editor***.*
 
-   ![](assets/chlimage_1-151.png)
+   ![](assets/chlimage_1-150.png)
 
 1. Paste the following code in the window:
 

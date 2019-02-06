@@ -3,11 +3,11 @@ title: Importing and exporting assets to AEM Forms
 seo-title: Importing and exporting assets to AEM Forms
 description: You can import and export adaptive forms and templates from and in to AEM instances. This helps in migrating forms or moving them across systems.
 seo-description: You can import and export adaptive forms and templates from and in to AEM instances. This helps in migrating forms or moving them across systems.
-uuid: 26708c18-eae2-4976-b168-ce34e43658c3
+uuid: f802443d-cf1f-412d-8069-5781981c691a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: 259b4c1a-30e8-403c-9a16-829346017bea
+discoiquuid: 90ade62b-964e-4601-86fa-e6ac96ac0507
 index: y
 internal: n
 snippet: y
@@ -29,20 +29,6 @@ AEM Forms user interface allows you to export assets from an AEM instance by dow
 Export and import via AEM Forms user interface is supported for all assets except for Adaptive Form templates and Adaptive Form content policies. Therefore, on exporting an adaptive form from AEM Forms UI, the related adaptive form template and content policies are not automatically exported like other related assets.
 
 For these asset types, you must use AEM Package Manager to create a CRX package on the source AEM server and install the package on the destination server. For information about creating and installing packages, see [Working with packages](../../sites/administering/using/package-manager.md).
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Export and import of all assets is recommended via AEM Forms user interface except for:</p>
-<ul>
-<li>Adaptive Form templates</li>
-<li>Adaptive Form content policies. </li>
-</ul>
-<p><strong>Export and import of adaptive form templates and content policies asset types is not supported via AEM Forms user interface.</strong> Therefore, on exporting an adaptive form from AEM Forms UI, the related adaptive form template and content policies are not automatically exported like other related assets.</p>
-<p>For these asset types, you must use AEM Package Manager to create a CRX package on the source AEM server and install the package on the destination server. For information about creating and installing packages, see <a href="../../sites/administering/using/package-manager.md" target="_blank">Working with packages</a>.</p>
-</note>
--->
 
 ### Download Forms &amp; Documents assets {#download-forms-amp-documents-assets}
 
@@ -172,15 +158,6 @@ You can import assets that are exported into a .cmp file. A .cmp file can have o
 >While importing old Correspondence Management assets for migration, log in using an Admin account. For more information on Migrating old Correspondence Management assets, see [Migrate Correspondence Management assets to AEM 6.1 forms](/forms/using/cm-migration-utility).
 
 1. On the data dictionary, letters, or document fragments page, tap **Create &gt; File Upload** and select the .cmp file.
-
-   <!--
-   Comment Type: draft
-
-   <note>
-   <p>For importing assets, log in with an Admin account or an account that is part of forms-users.</p>
-   </note>
-   -->
-
 1. Correspondence Management displays the Import Assets dialog with the list of assets that are imported. Tap **Import**.
 
    After importing the assets, the following properties of the assets are updated while the other properties remain the same:

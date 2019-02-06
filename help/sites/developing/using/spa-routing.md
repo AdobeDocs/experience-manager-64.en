@@ -3,12 +3,12 @@ title: SPA Model Routing
 seo-title: SPA Model Routing
 description: For single page applications in AEM, the app is responsible for the routing. This document describes the routing mechanism, the contract, and options available.
 seo-description: For single page applications in AEM, the app is responsible for the routing. This document describes the routing mechanism, the contract, and options available.
-uuid: 43899928-3c7e-4bc4-b2cf-3a8fa4211d42
+uuid: c0ca117f-fafe-497a-85d0-09873b116751
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 4e958663-2f4e-4a60-8ddc-4f27498021ad
+discoiquuid: 68a705eb-cf1c-4de2-b5ab-eb865b54522d
 index: y
 internal: n
 snippet: y

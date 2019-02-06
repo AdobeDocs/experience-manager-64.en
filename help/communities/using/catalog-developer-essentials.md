@@ -3,12 +3,12 @@ title: Catalog Essentials
 seo-title: Catalog Essentials
 description: Catalog overview
 seo-description: Catalog overview
-uuid: 2b30db16-6ce3-44d5-91a5-022a0fb4a0f8
+uuid: 4d073ad7-d53c-4f88-a18c-25e30bbca9d9
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: edf955b0-70ac-4176-8294-01922c741eea
+discoiquuid: 85cb9d66-2f62-4f62-b897-97ba7f3f151e
 index: y
 internal: n
 snippet: y
@@ -101,13 +101,13 @@ Using the example of the [Enablement Tutorial](../../communities/using/getting-s
 
 * re-publish the community site
 
-![](assets/chlimage_1-195.png) 
+![](assets/chlimage_1-188.png) 
 
 #### Pre-filter TagIDs {#pre-filter-tagids}
 
 The pre-filter [TagIDs](../../sites/developing/using/framework.md#tagid) must exactly match the tags applied to the enablement resources. These are visible in the `resources` folder for the site as the values of the property `se_resource-tags`.
 
-![](assets/chlimage_1-196.png) 
+![](assets/chlimage_1-189.png) 
 
 ### Reference APIs {#reference-apis}
 

@@ -3,12 +3,12 @@ title: Considerations when running AdministrationConsole
 seo-title: Considerations when running AdministrationConsole
 description: This document lists a few points to consider when running Administration Console.
 seo-description: This document lists a few points to consider when running Administration Console.
-uuid: e3eb8e14-8284-47be-8608-0cd5c01d8e76
+uuid: 482cc976-e0df-4f32-b9fa-c0283559776d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: c8618963-004e-4914-b139-fb6fa0099303
+discoiquuid: 8183370d-dba2-4c42-b217-49b54bf4db0d
 index: y
 internal: n
 snippet: y

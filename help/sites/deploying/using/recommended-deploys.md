@@ -3,12 +3,12 @@ title: Recommended Deployments
 seo-title: Recommended Deployments
 description: This article describes the recommended topologies for AEM.
 seo-description: This article describes the recommended topologies for AEM.
-uuid: 967c8e7b-eae7-4943-ad9b-6987b5788844
+uuid: 2993b5e5-0ed2-448f-82f4-044b4e487e47
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 09bba00e-c3fd-4d9c-8f0f-7e4e76c9cd1b
+discoiquuid: 510e94d3-1655-49c4-b6cf-59fab46ad990
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ In this scenario, a single TarMK instance runs on a single server.
 
 **This is the default deployment for author instances.**
 
-![](assets/chlimage_1-16.png)
+![](assets/chlimage_1-15.png)
 
 The advantages:
 
@@ -51,7 +51,7 @@ One TarMK instance acts as the primary instance. The repository from the primary
 
 The cold standby mechanism can also be used as a backup because the complete repository is constantly replicated to the failover server. The failover server is running in cold standby mode, which means that only the HttpReceiver of the instance is running.
 
-![](assets/chlimage_1-17.png)
+![](assets/chlimage_1-16.png)
 
 The advantages:
 
@@ -84,7 +84,7 @@ For AEM Communities, user generated content (UGC) is never replicated. For suppo
 
 **This is the default deployment for publish environments.**
 
-![](assets/chlimage_1-18.png)
+![](assets/chlimage_1-17.png)
 
 The advantages:
 
@@ -96,7 +96,7 @@ The advantages:
 
 This approach implies multiple Oak instances accessing a MongoDB replica set within a single data center, in effect creating an active-active cluster for the AEM author environment. Replica sets in MongoDB are used to provide high availability and redundancy in the event of a hardware or network failure.
 
-![](assets/chlimage_1-19.png)
+![](assets/chlimage_1-18.png)
 
 The advantages:
 
@@ -110,12 +110,6 @@ The disadvantages:
 ### Oak Cluster with MongoMK Failover Across Multiple Datacenters {#oak-cluster-with-mongomk-failover-across-multiple-datacenters}
 
 This approach implies multiple Oak instances accessing a MongoDB replica set across multiple data centers, in effect creating an active-active cluster for the AEM author environment. With multiple data centers, MongoDB replication provides the same high availability and redundancy but now includes the ability to handle a data center outage.
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-20.png" />
--->
 
 ![](assets/oakclustermongofailover2datacenters.png)
 
@@ -131,111 +125,6 @@ The advantages:
 >[!NOTE]
 >
 >For additional information on the MongoDB architectural concepts described in this section, see [MongoDB Replication](http://docs.mongodb.org/manual/replication/).
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>In case the arbiter needs to be hosted on platforms like Amazon Web Services, it is recommended that it is configured to only take part in the voting process, and not contain any additional data.</p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Distributed Oak Cluster with MongoDB Replication</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>Oak instances that are placed in multiple data centers access the primary MongoDB replica for writing, both primary and secondary MongoDB replica for reading.</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-21.png" />
--->
-
-<!--
-Comment Type: draft
-
-<p>The advantages:</p>
-<ul>
-<li>Scalability for read and write access</li>
-<li>Failover with limited capacity</li>
-<li>Infrastructure is fully used</li>
-<li>If one datacenter fails, read access is still possible from the other datacenter without any switch being performed.</li>
-<li>The secondary can become primary if the original primary is down, thus allowing write access in case of a data center outage.</li>
-</ul>
-<p>The disadvantages:</p>
-<ul>
-<li>Complex to operate</li>
-<li>Writes from the second datacenter perform worse than writes from the first</li>
-</ul>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sarchiz@adobe.com)
-Last Modified Date: 2017-11-30T05:42:26.341-0500
-<p>jedelson:</p>
-<p>"Distributed Oak Cluster with MongoDB Replication<br /> According to @chetanm, reading from secondaries is not supported in Oak 1.0, so why are we documenting it? It may make it into SP1, but that hasn't been announced yet."</p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Oak Cluster with Sharded MongoDB</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>Multiple Oak instances access a sharded MongoDB deployment. MongoDB provides a built-in capability for scaling horizontally called Sharding. This is typically used for data sets that scale beyond the capacity of a single replica set. Sharded deployments of MongoDB are built to leverage the same high availability and redundancy characteristics provided by a replica set while also supporting linear scaling of reads and writes.</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-22.png" />
--->
-
-<!--
-Comment Type: draft
-
-<p>The advantages:</p>
-<ul>
-<li>Ability to scale AEM instances</li>
-<li>Horizontal scalability of data layer</li>
-<li>Supports geographically distributed AEM deployments</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>The ability to read from MongoDB secondaries will only be available with AEM 6.0 SP1. In order to have this functionality, make sure you update your AEM instance accordingly.<br /> </p>
-</note>
--->
-
-<!--
-Comment Type: draft
-
-<h4>CRX 2 Legacy Clustering</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>In case there are requirements that do not allow you to switch to the new Oak based repository architecture, CRX 2 clustering will still be supported in AEM 6.0. In order to enable it, you need to:</p>
-<ol>
-<li><a href="https://docs.adobe.com/content/docs/en/aem/6-0/deploy/upgrade.html">Upgrade to AEM 6</a> without converting the repository to Oak.</li>
-<li><a href="https://docs.adobe.com/content/docs/en/aem/6-0/deploy/configuring/cluster.html">Configure clustering</a> if necessary.</li>
-</ol>
--->
 
 ## Microkernels: which one to use {#microkernels-which-one-to-use}
 
@@ -310,52 +199,11 @@ Below are a set of decisional matrices that can assist you in choosing the best 
 
 #### Choosing the deployment type for author instances {#choosing-the-deployment-type-for-author-instances}
 
-![](assets/chlimage_1-23.png) 
+![](assets/chlimage_1-19.png) 
 
 #### Choosing the deployment type for publish instances {#choosing-the-deployment-type-for-publish-instances}
 
-![](assets/chlimage_1-24.png) 
-
-<!--
-Comment Type: draft
-
-<h4>TarMK with Cloud Storage</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>Based on the Tar micro kernel for persistence management, it uses a separate cloud storage for all the user generated content.</p>
-<p><strong>This deployment is recommended for sites with high volumes of user generated content (millions of posts per year).</strong></p>
-<p>More information is available regarding the Adobe Social Common Store <a href="../../../communities/using/working-with-srp.md">here</a>.</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-25.png" />
--->
-
-<!--
-Comment Type: draft
-
-<h4>MongoMK with Active/Active Cluster</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>Based on the Mongo micro kernel, all the user generated content is centrally stored inside a Mongo instance.</p>
-<p><strong>This deployment is recommended for sites that have a high business impact and normal user generated content volumes. This generally includes enterprise community platforms and B2B websites.</strong></p>
-<p><strong>Also note that this deployment is currently designed for Communities. Using it for other purposes needs upfront analysis.</strong></p>
-<p>More information is available regarding the Mongo Common Store <a href="../../../communities/using/working-with-srp.md">here</a>.</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-26.png" />
--->
+![](assets/chlimage_1-20.png)
 
 >[!NOTE]
 >

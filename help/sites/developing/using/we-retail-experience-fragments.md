@@ -3,12 +3,12 @@ title: Trying out Experience Fragments in We.Retail
 seo-title: Trying out Experience Fragments in We.Retail
 description: Trying out Experience Fragments in We.Retail
 seo-description: Trying out Experience Fragments in We.Retail
-uuid: fbeaa4f0-af17-450c-9fa2-d611edb9763e
+uuid: 9d345ef9-67c5-4ced-89b8-0f8c0c14b67c
 contentOwner: aheimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: b6a1ad27-2933-4fb9-b106-b348d232d3b3
+discoiquuid: 9bd2c859-3b17-4667-8f19-dfeb3d88e6e4
 index: y
 internal: n
 snippet: y
@@ -42,13 +42,6 @@ Select **Experience Fragments** from the Global Navigation. Here you configure, 
 You can use your [Experience Fragments](../../../sites/authoring/using/experience-fragments.md#usingyizrexperiencefragments) (as with any other component) on [any page](../../../sites/authoring/using/editing-content.md) under **Sites** in the Global Navigation.
 
 ### Further Information {#further-information}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-11-19T02:07:24.632-0500
-<p>Add more links as and when they become available.....<br /> </p>
--->
 
 For more details see:
 

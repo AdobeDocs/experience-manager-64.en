@@ -3,12 +3,12 @@ title: How to Audit User Management Operations in AEM
 seo-title: How to Audit User Management Operations in AEM
 description: Learn how to audit User Management Operations in AEM.
 seo-description: Learn how to audit User Management Operations in AEM.
-uuid: 57e8694f-fa8e-4c88-8615-f2adcd2ebcc1
+uuid: 87c2afd0-d608-4a8b-8167-527f4d6b46ae
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 70081371-822f-4d72-9e51-7b2f3abdd787
+discoiquuid: ac9813d3-5545-41e1-9554-69a3aff59ed8
 index: y
 internal: n
 snippet: y

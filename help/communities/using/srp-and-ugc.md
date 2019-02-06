@@ -3,12 +3,12 @@ title: SRP and UGC Essentials
 seo-title: SRP and UGC Essentials
 description: Storage resource provider and user-generated content overview
 seo-description: Storage resource provider and user-generated content overview
-uuid: 382d6271-089e-4801-8c97-89ed0f69948b
+uuid: 7e97163e-6f77-4714-863b-23b6cf80814e
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 3e867fa1-dd2d-4f9e-ad73-ff50e51c290c
+discoiquuid: 771ac694-04e7-48cf-bf09-b7932a612b68
 index: y
 internal: n
 snippet: y
@@ -123,20 +123,6 @@ The UGC is created in neither of those locations, and should only be accessed us
 * UGC node for JSRP = /content/usergenerated/asi/jcr*/content/community-components/en/comments/jcr:content/content/includable/comments*/srzd-let_it_be_
 
 *Be aware*, for JSRP, the UGC node will *only *be present on the AEM instance (either author or publish) on which it was entered. If entered on a publish instance, moderation will not be possible from the moderation console on author.
-
-<!--
-Comment Type: draft
-
-<h2>SRP Tools</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>The customer can use an opensource tool to clean their report suites. The tool is here:</p>
-<p><a href="https://github.com/Adobe-Marketing-Cloud/aem-communities-srp-tools">https://github.com/Adobe-Marketing-Cloud/aem-communities-srp-tools</a></p>
-<p>The customer can self-manage their report suites. We don’t yet have a UI to manage UGC, but the source to the command line tool is available in that repo if the customer would like to fork and enhance it</p>
--->
 
 ## Related Information {#related-information}
 

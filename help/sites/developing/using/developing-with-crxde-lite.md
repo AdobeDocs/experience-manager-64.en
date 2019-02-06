@@ -3,12 +3,12 @@ title: Developing with CRXDE Lite
 seo-title: Developing with CRXDE Lite
 description: CRXDE Lite is embedded into AEM and enables you to perform standard development tasks in the browser
 seo-description: CRXDE Lite is embedded into AEM and enables you to perform standard development tasks in the browser
-uuid: 9bedf9a4-7591-4d57-8e69-1aaba063f677
+uuid: 2405c77f-5ffc-41a6-acdf-9daf572c5efd
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 96e4d20b-6760-4db3-9d31-57cecece73ca
+discoiquuid: 7d747015-7688-4af9-9a69-0e1f608b0b4c
 index: y
 internal: n
 snippet: y
@@ -45,7 +45,7 @@ To get started with CRXDE Lite, proceed as follows:
 
 The CRXDE Lite User Interface looks as follows in your browser:
 
-![](assets/chlimage_1-259.png)
+![](assets/chlimage_1-249.png)
 
 You can now use CRXDE Lite to develop your application.
 
@@ -180,7 +180,7 @@ The following nodes are created:
 
 The structure looks as follows in CRXDE Lite with a project called **myproject** and a java package suffix called **mycompany**:
 
-![](assets/chlimage_1-260.png) ![](assets/chlimage_1-261.png) 
+![](assets/chlimage_1-250.png) ![](assets/chlimage_1-251.png) 
 
 ### Creating a Folder {#creating-a-folder}
 

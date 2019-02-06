@@ -4,11 +4,11 @@ seo-title: We.Finance Auto Insurance Renewal reference site walkthrough
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 85dfda3f-9a93-496f-9644-8541b16ac164
+uuid: 268c481e-f3ba-4661-b29d-3810d3b917d7
 contentOwner: dekalra
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
-discoiquuid: 93a72ff4-2fa1-4f9a-9a7a-108f483d5e3d
+discoiquuid: 1496817c-1960-467f-bd4a-9eb5c79ee840
 index: y
 internal: n
 snippet: y

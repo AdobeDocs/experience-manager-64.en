@@ -3,10 +3,10 @@ title: Create an adaptive form using a set of adaptive forms
 seo-title: Create an adaptive form using a set of adaptive forms
 description: With AEM Forms, bring adaptive forms together to author a single large adaptive form, and understand its features. 
 seo-description: With AEM Forms, bring adaptive forms together to author a single large adaptive form, and understand its features. 
-uuid: 6ddb4b87-1219-4c7f-b7d9-89e7fbea0fc1
+uuid: 4f43d9ea-ffc3-4f76-ae1f-07d831d158cb
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 7bd62fb1-61cf-4d10-be45-da0f80e13ed0
+discoiquuid: 317b0e33-7900-4327-8b6d-b0613970c201
 index: y
 internal: n
 snippet: y
@@ -144,30 +144,4 @@ Perform the following steps to add an adaptive form as a child form using asset 
 
 1. Drag-drop the adaptive form you want to add as a child form. 
    [ ![Drag-drop the adaptive form in your site](assets/Drag-Drop.png)](assets/drag-drop.png)The adaptive form you drop is added as a child form.
-
-<!--
-Comment Type: draft
-
-<h2>Adding an adaptive form as a child form using AEM Form component</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>Perform the following steps to add an adaptive form as a child form using AEM Form component.</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Open the parent form in Edit mode. </p> </li>
-<li><p>From the side panel, drag-drop the AEM Form component on the parent form where you want to add the child form.</p> <p>If your parent form has panels, you can drop the component above or below a panel only. </p>
-<note type="note">
-<p>If the AEM Form component is not available in the component browser of the side panel, enable it in design mode. For more information, see <a href="../../sites/authoring/using/default-components-designmode.md">Configuring Components in Design Mode</a>. Enable the AEM Form component under the General section Edit dialog. Switch to Edit mode after you enable the component in Design mode.</p>
-</note></li>
-<li><p>Tap the AEM Form component, and then tap <img src="assets/settings_icon.png" /> in the overlay. You see the properties of the component in the side panel.</p> <p>Your options are:</p> <p><strong>AEM Form Path</strong> Browse and select the adaptive form you want to add as a child form.</p><p><strong>Post Submit Action</strong> Specify the action to trigger on form submission. You can choose to show a thank you message or a thank you page.</p><p><strong>Page Refresh on Submit</strong> Enable to refresh the page containing the embedded adaptive form to show the thank you page. Otherwise, the thank you page replaces the adaptive form in the AEM Form container, without refreshing the page. This option is available only when you choose to show a thank you page.</p><p><strong>Thank You Page</strong> Browse and select the page to display on form submission. This option is available only when you choose to show a thank you page.</p><p><strong>Thank You Message</strong> Write a message using the rich text editor to show on form submission. This option is available only when you choose to show a thank you message.</p><p><strong>Adaptive Form Theme</strong> Browse and select a theme that defines styling for components of your adaptive form. Styling includes appearance properties such as font style, background color, dimensions, and alignment.</p></li>
-<li><p>Tap <strong>Done</strong> <img height="21" src="assets/check-button.png" />. The selected adaptive form is added as a child form.</p> </li>
-</ol>
--->
 

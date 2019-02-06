@@ -3,12 +3,12 @@ title: Configuring Dispatcher for Communities
 seo-title: Configuring Dispatcher for Communities
 description: Configure the dispatcher for AEM Communities
 seo-description: Configure the dispatcher for AEM Communities
-uuid: b050a99f-aff6-425c-99f5-270a5d6b5733
+uuid: fa22897b-7ab8-43bd-bf6c-9c74998765b8
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: f97dbc66-56ee-499d-926d-7e239b25e674
+discoiquuid: 74a0200b-641b-4d1c-bdbb-c2255aea7392
 index: y
 internal: n
 snippet: y
@@ -46,13 +46,6 @@ When configured to support dispatcher caching, a TTL-based "max age" expiration 
     * Version 3.3.2 or later
     * `ACS AEM Commons - Dispatcher Cache Control Header - Max Age` OSGi config
 
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2018-10-23T10:19:27.854-0400
-<p>Changed the Dispatcher download link due to CQDOC-13423.</p>
--->
-
 ### Configuration {#configuration}
 
 The OSGi configuration **ACS AEM Commons - Dispatcher Cache Control Header - Max Age** sets the expiraton of cached pages that appear under a specified path.
@@ -64,7 +57,7 @@ The OSGi configuration **ACS AEM Commons - Dispatcher Cache Control Header - Max
 * locate `ACS AEM Commons - Dispatcher Cache Control Header - Max Age`
 * select the '+' icon to create a new connection configuration
 
-![](assets/chlimage_1-351.png)
+![](assets/chlimage_1-338.png)
 
 * **Filter Patterns** 
   *(required) * One or more paths to community pages. For example, `/content/sites/engage/(.*)`.

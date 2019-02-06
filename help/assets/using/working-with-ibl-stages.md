@@ -3,12 +3,12 @@ title: About working with IBL stages
 seo-title: About working with IBL stages
 description: AEM 3D supports image-based lighting (IBL) for both interactive viewing and rendering with the built-in Adobe Rapid Refine™ renderer and third-party renderers.
 seo-description: AEM 3D supports image-based lighting (IBL) for both interactive viewing and rendering with the built-in Adobe Rapid Refine™ renderer and third-party renderers.
-uuid: b2220e71-b107-40d5-984e-7f39e254ea0c
+uuid: 533bf077-4780-40e5-b9c0-5dbe3b189d9f
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 51621343-6a74-4e98-b7d0-f6cf6aa6d813
+discoiquuid: e19272e3-7f40-4d67-a3dc-c307e325d68b
 index: y
 internal: n
 snippet: y
@@ -42,13 +42,6 @@ While a single HDR image is often sufficient for IBL stages, AEM 3D provides add
 ## Adjusting the IBL stage appearance {#adjusting-the-ibl-stage-appearance}
 
 You can fine-tune the appearance of the IBL stage with the following stage properties:
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-07-17T13:52:12.474-0400
-On Herbert's wiki page this section is called "Fine-Tuning IBL Stages" See https://wiki.corp.adobe.com/pages/viewpage.action?pageId=1111258704
--->
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -85,13 +78,6 @@ On Herbert's wiki page this section is called "Fine-Tuning IBL Stages" See https
 IBL stages use spherical background images that are 20 meters diameter by default. Such stages work well for objects up to 10 meters. However, if you are showing larger objects, you can increase the spherical background diameter of an IBL stage.
 
 To increase the spherical background diameter of an IBL stage:
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-07-17T13:58:30.813-0400
-On Herbert's wiki page, this section was originally called "Using IBL Stages with Large Objects". See https://wiki.corp.adobe.com/pages/viewpage.action?pageId=1111258704
--->
 
 1. In CRXDE Lite, navigate to the stage whose spherical background diameter you want to increase. For example,
 

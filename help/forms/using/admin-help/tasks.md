@@ -3,12 +3,12 @@ title: Working with tasks
 seo-title: Working with tasks
 description: Use the Task Search page to search for tasks by user name or task ID. Learn more about working with tasks.
 seo-description: Use the Task Search page to search for tasks by user name or task ID. Learn more about working with tasks.
-uuid: 61e7cef2-e28a-4910-aec6-7be387a8ee37
+uuid: 9e0e8f53-6dae-42a0-9018-8c1eeee4c268
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: c1b9f036-1ec8-4998-8e60-ed035074d245
+discoiquuid: 1a3c3118-a973-4353-a7ab-1175e7b4065a
 index: y
 internal: n
 snippet: y
@@ -17,13 +17,6 @@ snippet: y
 # Working with tasks{#working-with-tasks}
 
 Use the Task Search page to search for tasks by user name or task ID. The search results are displayed on the Task List page, where you can access a task’s history. You can also reassign a task is one user has too many tasks or if a user has received a task assignment in error.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Bug 1566428:</p>
--->
 
 >[!NOTE]
 >

@@ -3,12 +3,12 @@ title: Configure the Rich Text Editor plug-ins
 seo-title: Configure the Rich Text Editor plug-ins
 description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
 seo-description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
-uuid: 70211510-2c0b-472f-b032-c0fd24394e51
+uuid: 2d0251a3-d058-4b82-837e-255f53fb7c58
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 5f60eecb-6d4f-4b21-8463-871c9f75fe34
+discoiquuid: e776c7b6-ec1d-448a-b88e-fa79523ef502
 noindex: true
 index: y
 internal: n
@@ -513,7 +513,7 @@ You can configure the RTE to make your own selection of characters available; ei
 
    In CRXDE, once the property is saved, the represented character is displayed. See below the example of half. Repeat the above steps to make more special characters available to authors.
 
-   ![In CRXDE, add a single character to be made available in the RTE toolbar](assets/chlimage_1-413.png)
+   ![In CRXDE, add a single character to be made available in the RTE toolbar](assets/chlimage_1-398.png)
 
 ### Define a range of characters {#definerangechar}
 
@@ -538,7 +538,7 @@ You can configure the RTE to make your own selection of characters available; ei
 
    For example, define a range from 9998 - 10000 provides you with the following characters.
 
-   ![In CRXDE, define a range of characters to be made available in RTE](assets/chlimage_1-414.png) ![Special characters available in RTE are displayed to authors in a pop-up window](assets/rtepencil.png)
+   ![In CRXDE, define a range of characters to be made available in RTE](assets/chlimage_1-399.png) ![Special characters available in RTE are displayed to authors in a pop-up window](assets/rtepencil.png)
 
 ## Configure table styles {#tablestyles}
 

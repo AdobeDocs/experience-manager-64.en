@@ -3,11 +3,11 @@ title: Custom special characters in Correspondence Management
 seo-title: Custom special characters in Correspondence Management
 description: Learn how to add custom special characters in Correspondence Management.
 seo-description: Learn how to add custom special characters in Correspondence Management.
-uuid: 65ab8924-377b-432c-9b91-7f9dd1c06e78
+uuid: e241c718-77eb-43df-b763-ffb466d821ab
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: f6a0090d-a4f4-496d-83a1-9d620df60063
+discoiquuid: 05accf8b-d409-4e5b-a8ca-561e7d373030
 index: y
 internal: n
 snippet: y

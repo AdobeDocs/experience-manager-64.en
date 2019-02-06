@@ -3,10 +3,10 @@ title: Conditions in Interactive Communications
 seo-title: Conditions in Interactive Communications
 description: Creating and editing condition fragments to be used in Interactive Communications - condition is one of the four types of document fragments used to build Interactive Communications. The other three are texts, lists, and layout fragments.  
 seo-description: Creating and editing conditions to be used in Interactive Communications
-uuid: fa1e6c16-1678-4d09-9214-dfe356dddd36
+uuid: 7ec51be0-859a-4bfa-938c-6ebe02e63025
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0a72b082-4f1a-46d0-9bcf-08c72d679ce4
+discoiquuid: 4dbeff5c-28ff-49fe-864f-b5494300f782
 index: y
 internal: n
 snippet: y
@@ -15,18 +15,6 @@ snippet: y
 # Conditions in Interactive Communications{#conditions-in-interactive-communications}
 
 Creating and editing condition fragments to be used in Interactive Communications - condition is one of the four types of document fragments used to build Interactive Communications. The other three are texts, lists, and layout fragments.
-
-<!--
-Comment Type: draft
-
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td>This article is about using conditions in Interactive Communications. To use conditions in letters using the compatibility package, see the article conditions in letters. </td>
-</tr>
-</tbody>
-</table>
--->
 
 ## Overview {#overview}
 
@@ -59,13 +47,6 @@ The assets in the conditions that are rendered based on the applied rules and th
     * **[!UICONTROL Form Data Model]**: Optionally, select the Form Data Model radio button to create the condition based on a form data model. When you select Form Data Model radio button, **[!UICONTROL Form Data Model*]** field appears. Browse and select a form data model. While creating condition for an Interactive Communication, ensure that you use the same data model that you intend to use in the Interactive Communication. For more information on form data model, see [Data Integration](../../forms/using/data-integration.md). 
     
     * **[!UICONTROL Tags]**: Optionally, to create custom tag enter value in text field and tap Enter. When you save this condition, the newly added tags get created.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-07T04:19:53.579-0500
-   Title - layout fragment? can a layout fragment have name similar to a text?
-   -->
 
 1. Tap **[!UICONTROL Next]**.
 
@@ -101,25 +82,11 @@ The assets in the conditions that are rendered based on the applied rules and th
 
    **[E] Reorder.** Tap and hold this icon to drag-and-drop assets to reorder them within a condition.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-09T04:43:11.917-0500
-   vertically
-   -->
-
    You can select the following options to specify how the condition behaves at runtime:
 
     * **Multiple Results Evaluation Disabled\Multiple Results Evaluation Enabled**: When this option is enabled (appears as "Multiple Results Evaluation Enabled"), all the rules are evaluated and the result is the sum of all the true rules. If this option is disabled (appears as "Multiple Results Evaluation Disabled") then only the first rule that is found to be true is evaluated and becomes the output of the condition.  
     
     * **Page Break**: Select this option ( ![](assets/Break.png)) to add a page break between the assets of the conditions. When this option is not selected ( ![](assets/NoBreak.png)), if a condition is overflowing to the next page in the print output, the whole condition is shifted to the next page instead of breaking in the page between the assets in the condition.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-08T08:25:36.932-0500
-   is this relevant to the print channel only? Does this add break between all modules?
-   -->
 
 1. Tap **[!UICONTROL Create Rule]** to add rules to display or hide the assets, as required. To use variables in the rules, see [creating variables](#variables). For more information, see [Adding rules to condition](#ruleeditor).
 
@@ -187,13 +154,6 @@ Using rule editor in a condition, you can create rules to display or hide assets
     * You can also create multiple conditions in a rule.
 
 1. Tap **[!UICONTROL Done]**.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-07T08:11:24.956-0500
-   on hover, the rule appears - applies to repeat also Rule cannot be applied to collection element multiple conditions within a rule multiple rules on a piece of content - nested
-   -->
 
    The rule gets applied to the asset.
 

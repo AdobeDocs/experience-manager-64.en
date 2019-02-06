@@ -3,12 +3,12 @@ title: Publishing Pages
 seo-title: Publishing Pages
 description: null
 seo-description: null
-uuid: 6275c0cf-5ed5-43ec-b9e5-0936925e4637
+uuid: 4372bd62-74f3-448f-afec-c126112b5792
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: a8309149-242e-49a6-ac23-ac1ae6b86ec4
+discoiquuid: fbebeb86-e579-47f0-a509-236456f2edde
 index: y
 internal: n
 snippet: y
@@ -69,7 +69,7 @@ If you are editing a page, it can be published directly from the editor.
         
         * Use **Cancel** to abort the action.
 
-   ![](assets/chlimage_1-36.png)
+   ![](assets/chlimage_1-35.png)
 
 1. Selecting **Publish** will replicate the page to the publish environment. In the page editor an information banner will be shown confirming the publish action.
 
@@ -102,7 +102,7 @@ To publish a page with Quick Publish:
 
 1. In the Quick Publish dialogue, confirm the publication by clicking on **Publish** or cancel by clicking on **Cancel**. Remember that any unpublished references will automatically be published as well.
 
-   ![](assets/chlimage_1-37.png)
+   ![](assets/chlimage_1-36.png)
 
 1. When the page is published an alert is shown confirming the publication.
 
@@ -129,7 +129,7 @@ To publish or unpublish a page using Manage Publication:
 
    If you want to cancel a publish/unpublish later, go to the [Workflow Console](../../../sites/administering/using/workflows.md) to terminate the corresponding workflow.
 
-   ![](assets/chlimage_1-38.png)
+   ![](assets/chlimage_1-37.png)
 
    Click **Next** to continue.
 
@@ -159,7 +159,7 @@ To publish or unpublish a page using Manage Publication:
 
    Click **Add** to add the children pages to the list of pages to be published or unpublished based on the selection options. Click **Cancel** to cancel the selection and return to the wizard.
 
-   ![](assets/chlimage_1-39.png)
+   ![](assets/chlimage_1-38.png)
 
    Returning to the wizard you see the pages added based on your choice of options in the Include Children dialogue.
 
@@ -197,7 +197,7 @@ To publish or unpublish a page using Manage Publication:
 
    Click **Publish** or **Publish Later **to complete the publication.
 
-   ![](assets/chlimage_1-40.png)
+   ![](assets/chlimage_1-39.png)
 
 ## Unpublishing Pages {#unpublishing-pages}
 
@@ -219,7 +219,7 @@ Just as you [use the Manage Publication option to publish](../../../sites/author
 1. Select the page or pages in the sites console and click on the **Manage Publication** button.
 1. The **Manage Publication** wizard starts. In the first step, **Options**, select to **Unpublish** instead of the default option of **Publish**.
 
-   ![](assets/chlimage_1-41.png)
+   ![](assets/chlimage_1-40.png)
 
    Just as publishing later starts a workflow to publish this version of the page at the specified time, deactivating later starts a workflow to unpublish the selected page or pages at a specific time.
 
@@ -237,7 +237,7 @@ You can use the [Manage Publication](../../../sites/authoring/using/publishing-p
 1. The **Manage Publication** wizard starts. Choose to publish or unpublish and when it should occur and select **Next** to continue.
 1. In the **Scope** step, select the root page and select **Include Children**.
 
-   ![](assets/chlimage_1-42.png)
+   ![](assets/chlimage_1-41.png)
 
 1. In the **Include Children** dialogue, uncheck the options:
 
@@ -246,7 +246,7 @@ You can use the [Manage Publication](../../../sites/authoring/using/publishing-p
 
    These options are selected by default, so you must remember to unselect them. Click **Add** to confirm and add the content to the publication/unpublication.
 
-   ![](assets/chlimage_1-43.png)
+   ![](assets/chlimage_1-42.png)
 
 1. The **Manage Publication** wizard lists the content of the tree for review. You can further customize the selection by adding additional pages or removing those selected.
 

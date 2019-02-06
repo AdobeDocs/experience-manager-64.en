@@ -3,11 +3,11 @@ title: Configuring storage services for drafts and submissions
 seo-title: Configuring storage services for drafts and submissions
 description: Learn how to configure storage for drafts and submissions
 seo-description: Learn how to configure storage for drafts and submissions
-uuid: d5d4d9ab-7971-4a3c-ba2a-af23a73b612d
+uuid: 347b996a-9f14-4543-8e47-3cecb1102cd8
 topic-tags: publish
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 5dfe991a-dc73-487e-9189-4330dde02b35
+discoiquuid: 42e0e85c-6c30-46b4-b1ac-6720431970ba
 index: y
 internal: n
 snippet: y

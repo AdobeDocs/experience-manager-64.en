@@ -4,8 +4,8 @@ seo-title: Known patterns and styles
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 6f3f0320-322c-48af-8996-617c4b11ad97
-discoiquuid: 80f17bbc-578c-4a19-a84b-6cb981cca09d
+uuid: cbdd21cf-2999-4308-af0f-d02760da20b7
+discoiquuid: 0f99cd2b-c02c-495c-a1d5-1f989c7ed903
 index: y
 internal: n
 snippet: y
@@ -154,12 +154,6 @@ The service would start identifying and assigning correct fields or panels to th
  <summary>Tables with placeholder values are not converted to adaptive form tables</summary>
 </details>
 
-<!--
-Comment Type: draft
-
-<h2>Text</h2>
--->
-
 <details>
  <summary>Very small fonts with densely packaged content are not recognized</summary>
  <img imageRotate="0" src="assets/dense-forms-2.png" />
@@ -180,104 +174,4 @@ Comment Type: draft
 <details>
  <summary>Item Title</summary>
 </details>
-
-<!--
-Comment Type: draft
-
-<h4>Scanned PDF Forms, PDF Forms with the dynamic layout, dotted outline, and filled or colored fields are not supported.</h4>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>Scanned PDF Forms, PDF Forms with the dynamic layout, dotted outline, and filled or colored fields are not supported.<br /> </li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>Forms with very small fonts or content with very less width in between lines are not converted properly. Add spacing between the lines and increase the size of forms before starting the conversion.</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>Forms with very small fonts or content with very less width in between lines are not converted properly. Add spacing between the lines and increase the size of forms before starting the conversion.</li>
-<li>Images and text inside the images are not identified. Manually add images to converted forms.<br /> </li>
-<li>Complex tables like borderless tables, nested tables, table with colored rows, and tables with placeholder values are not converted to adaptive form tables. Only simple table, with empty fields, proper headers, and clear boundaries and borders are supported. You can use <a href="https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/wip/review-correct-ui-edited.html#main-pars_header_1182718738">adaptive form editor</a> to add or modify complex tables, after the conversion.</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<h2>Field-level patterns and styles</h2>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Lists</h3>
--->
-
-<!--
-Comment Type: draft
-
-<table border="1" cellpadding="1" cellspacing="0" width="100%">
-<tbody>
-<tr>
-<td valign="top" width="204"><p>Pattern</p> </td>
-<td>Resolution</td>
-<td>Example</td>
-</tr>
-<tr>
-<td>Closely spaced list items are merged.</td>
-<td>Ensure there is proper spacing in the list items.</td>
-<td><img src="assets/Closely-spaced-list-items.png" /></td>
-</tr>
-<tr>
-<td>Lists with fields are not supported</td>
-<td>Use Review and Correct editor to identify such fields</td>
-<td><img src="assets/list-with-fields.png" /> </td>
-</tr>
-<tr>
-<td> </td>
-<td> </td>
-<td> </td>
-</tr>
-</tbody>
-</table>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Tables</h3>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Choice groups</h3>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>Lists with form fields, nested lists, and nested choice groups are not supported.</li>
-<li>Form fields with captions at bottom or right are not supported.</li>
-<li>Form fiields without bordes are not supported.</li>
-<li>Hidden form fields are not supported.</li>
-<li>Button in PDF forms are not converted to adaptive form buttons.<br /> </li>
-<li>Tables with clear explicit boundaries and borders are supported.</li>
-<li>Fields with far away captions are not supported.<br /> </li>
-<li>Choice groups with only box or circle shaped selectors are supported. </li>
-</ul>
--->
 

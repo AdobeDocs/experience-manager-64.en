@@ -3,12 +3,12 @@ title: Configuring Cookie Usage
 seo-title: Configuring Cookie Usage
 description: AEM provides a service that enables you to configure and control how cookies are used with your web pages
 seo-description: AEM provides a service that enables you to configure and control how cookies are used with your web pages
-uuid: aba9bc17-8164-461d-ae71-7469d6500b07
+uuid: b5d029be-46c4-40ad-b2d3-9a838190bf96
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 2629b8b9-5034-4a22-9440-cc4287dddc44
+discoiquuid: a2f02fb3-051b-4727-9ba7-5535bcbe2b6c
 index: y
 internal: n
 snippet: y

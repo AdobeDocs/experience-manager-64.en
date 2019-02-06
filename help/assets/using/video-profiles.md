@@ -3,25 +3,18 @@ title: Video Profiles
 seo-title: Video Profiles
 description: Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. 
 seo-description: Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. 
-uuid: 537fa806-4f42-49f5-b89c-ef74a2d2865d
+uuid: a4bf56ba-a568-4d61-8d7b-2eec20102fae
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: bfed2c20-4379-4ce4-8f3a-32a5deb36645
+discoiquuid: 51d315b5-3f31-417d-8d70-fcbe35458a57
 index: y
 internal: n
 snippet: y
 ---
 
 # Video Profiles{#video-profiles}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2017-11-30T05:30:56.526-0500
-<p>Page inheritance canceled. In 6.3, ? = information icon, and Folder Settings = Properties, and there is no Processing Profile column in list view. No processing profile mentioned at all.</p>
--->
 
 Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. When you encode your master videos using the Adaptive Video Encoding profile, during playback the video player automatically adjusts the quality of the video stream based on the Internet connection speed of your customers. This is known as adaptive streaming.
 
@@ -34,13 +27,6 @@ The following are other factors that determine the quality of your videos:
 
 See also [Best Practices for Video Encoding](../../assets/using/video.md#bestpracticesforencodingvideos).
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T13:54:01.475-0400
-Maybe it should be mentioned somewhere that the out of the box video profile has been adjusted in 6.4 to work better with the newer viewers Customers may need to reprocess videos RB: Didn't mentioned. The paragraph already mentions that the profile is always optimized (regardless of version). Tying the profile to a specific AEM version and then having to tell users that they need to reprocess their videos is too messy.
--->
-
 >[!NOTE]
 >
 >To generate a video's metadata and associated video image thumbnails, the video itself needs to go through the encoding process in Dynamic Media. In AEM, the **Dynamic Media Encode Video** workflow encodes video if you have enabled dynamic media and set up video cloud services. This workflow captures workflow process history and failure information. See [Monitoring video encoding and YouTube publishing progress](../../assets/using/video.md#monitoringvideoencodingandyoutubepublishingprogress). If you have enabled dynamic media and set up video cloud services, the **Dynamic Media Encode Video** workflow automatically takes effect when you upload a video. (If you are not using dynamic media, the **DAM Update Asset** workflow takes effect.)
@@ -50,13 +36,6 @@ Maybe it should be mentioned somewhere that the out of the box video profile has
 When you are done creating the video profile, you apply it to a folder or mutliple folders. See [Applying a video profile to folders.](#applyingavideoprofiletofolders)
 
 To define advanced processing parameters for other asset types, see [Configuring Asset Processing](../../assets/using/config-dms7.md#configuringassetprocessing).
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T13:56:43.252-0400
-RB: Fixed. This link goes to the top of the page. It needs to be adjusted
--->
 
 ## Adaptive Video Encoding Presets {#adaptive-video-encoding-presets}
 
@@ -107,13 +86,6 @@ The following table identifies best practice encoding profiles for adaptive vide
  </tbody> 
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T15:58:08.087-0400
-RB: FIXED. This table is based on the old out of the bot video profile. It should be updated for the newer out of the box video profile.
--->
-
 ## Creating a video encoding profile for adaptive streaming {#creating-a-video-encoding-profile-for-adaptive-streaming}
 
 Dynamic Media already comes with a predefined Adaptive Video Encoding profile-a group of video upload settings for MP4 H.264-that is optimized for the best viewing experience. You can use this profile when you upload your videos.
@@ -143,55 +115,6 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 When you are done creating the video profile, you apply it to a folder or multiple folders.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T13:59:06.061-0400
-RB: FIXED. should this be a single dash, en dash, or em dash?
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T13:59:20.759-0400
-RB: FIXED. should this be a single dash, en dash, or em dash?
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T13:59:34.890-0400
-RB: FIXED. should this be a single dash, en dash, or em dash?
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T13:59:46.436-0400
-RB: FIXED. should this be a single dash, en dash, or em dash?
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T14:00:16.980-0400
-RB: FIXED. remove "is"
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T14:05:54.970-0400
-RB: FIXED. The video profile/preset editor should enforce the adaptive video encoding settings parity as long as the Encode for adaptive streaming is enabled.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T15:35:04.875-0400
-RB: FIXED. this link goes to the top of the page
--->
-
 **To create a video encoding profile for adaptive streaming**:
 
 1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Video Profiles.**
@@ -211,13 +134,6 @@ RB: FIXED. this link goes to the top of the page
     
     * To help you visualize the size of the video, tap the Information icon (i) to the right of **Height** to open the Size Calculator page. Use **Size Calculator** to set the video dimensions (represented by the blue box) you want. Tap **X** in the upper-right corner when you are done.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-10-16T15:08:06.702-0400
-   RB: FIXED. The Size Calculator is more about visualizing the size of the video
-   -->
-
 1. (Optional) Tap the **Advanced** tab and ensure the **Use Default Values** check box is selected (recommended). Alternatively, modify advanced video and audio settings.
 1. In the upper-right corner of the page, tap **Save** to save the preset.
 1. Do one of the following:
@@ -225,25 +141,11 @@ RB: FIXED. this link goes to the top of the page
     * Repeat steps 5-10 to create additional encoding presets. (Adaptive video streaming requires more than one video preset.)  
     * In the upper-right corner of the page, tap **Save** again to save the profile.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-10-16T15:19:13.597-0400
-   RB: FIXED. Maybe note that adaptive streaming needs more than one video preset
-   -->
-
 ## Monitoring the Progress of an encoding job {#monitoring-the-progress-of-an-encoding-job}
 
 A processing indicator (or progress bar) is displayed so you can visually monitor the progress of a video encoding job.
 
 You can also view the `error.log` file to monitor the progress of an encoding job, to see if encoding is finished, or to see any job errors. The `error.log` is found in the `logs` folder where your instance of AEM is installed.
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T16:31:22.239-0400
-RB: FIXED. Since AEM 6.3, a processing indicator (or progress bar) has been added. You can see a percentage display of how much encoding of a video has done. Of course, examining the error.log still works, but most people do not have access to that file.
--->
 
 ## Creating a video encoding profile for progressive streaming {#creating-a-video-encoding-profile-for-progressive-streaming}
 
@@ -261,13 +163,6 @@ See also [Best Practices for Video Encoding](../../assets/using/video.md#bestpra
 To define advanced processing parameters for other asset types, see [Configuring Asset Processing](../../assets/using/config-dms7.md#configuringassetprocessing).
 
 When you are done creating the video profile, you apply it to a folder or multiple folders.
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T16:46:40.033-0400
-RB: FIXED. DMS7 only allows MP4 DM Hybrid allows MP4 or WebM
--->
 
 **To create a video encoding profile for progressive streaming:**
 
@@ -297,26 +192,12 @@ RB: FIXED. DMS7 only allows MP4 DM Hybrid allows MP4 or WebM
 
 You can edit an existing video encoding profile to take advantage of advanced video encoding parameters that are not found in the user interface when you create or edit a Video Profile in AEM. You custom add one or more advanced parameters--such as minBitrate and maxBitrate--to your existing profile.
 
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-17T14:11:24.626-0400
-I am not familiar with adding custom parameters
--->
-
 **To use custom-added video encoding parameters**:
 
 1. Tap or click the AEM logo, then navigate to **Tools **&gt; **General** &gt; **CRXDE Lite**.
 1. From the CRXDE Lite page, in the Explorer panel on the left, navigate to the following:
 
    `/conf/global/settings/dam/dm/presets/video/*name_of_video_encoding_profile_to_edit*`
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-10-16T16:52:06.015-0400
-   RB: FIXED. This location should be updated for 6.4 zero downtime /conf/global/settings/dam/dm/presets/video/name_of_video_encoding_profile_to_edit
-   -->
 
 1. In the panel on the lower-right side of the page, from the Properties tab, specify the **Name**, **Type**, and **Value** of the parameter you want to use.
 
@@ -363,7 +244,7 @@ I am not familiar with adding custom parameters
  </tbody> 
 </table>
 
-   ![](assets/chlimage_1-537.png)
+   ![](assets/chlimage_1-528.png)
 
 1. Near the lower-right corner of the page, click or tap **Add**.
 1. Do one of the following:
@@ -385,27 +266,12 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 **To edit a video encoding profile**:
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-10-16T16:57:30.652-0400
-RB: FIXED. While it is possible to edit the default video profile via CRX/DE, it is no longer possible to do so via the UI
--->
-
 1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Video Profiles.**
 1. On the Video Profiles page, check one video profile name.
 1. On the toolbar, tap **Edit**.
 1. On the Video Encoding Profile page, edit the name and description, as desired.
 1. As a best practice, ensure that the **Encode for adaptive streaming** check box is selected.   
    Tap the information icon for a description of adaptive streaming. (If you are editing a progressive video profile, do not select this check box.)
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2019-01-15T16:27:37.128-0500
-   While this is true for an adaptive video set, if the user is editing a progressive video profile, s/he would not want to enable this check box RB: Fixed
-   -->
-
 1. Under the Video Encoding Presets heading, add, edit, or delete video encoding presets that make up the profile.
 
    Tap the information icon next to each option on the **Basic** and **Advanced** tabs for additional descriptions or recommended settings based on the selected video format codec.
@@ -416,27 +282,11 @@ RB: FIXED. While it is possible to edit the default video profile via CRX/DE, it
 
 1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Video Profiles.**
 1. On the Video Profiles page, check one video profile name.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-17T14:27:43.138-0400
-   A dialog pops up where you rename the copy
-   -->
-
 1. On the toolbar, tap **Copy**.
 1. On the Video Encoding Profile page, enter a new name for the profile.
 1. As a best practice, ensure that the **Encode for adaptive streaming** check box is selected. Tap the information icon for a description of adaptive streaming. (If you are copying a progressive video profile, do not select the check box.)  
   
    In Dynamic Media - Hybrid mode, if a WebM video preset is part of the video profile, then **Encode for adaptive streaming** is not possible because all presets must be MP4.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-17T14:29:59.260-0400
-   If the user is copying a progressive video profile, s/he may not want to enable this check box. Also, on DM Hybrid, if a WebM video preset is part of the profile, then Encode for adaptive streaming is not possible, since all presets have to be MP4
-   -->
-
 1. Under the Video Encoding Presets heading, add, edit, or delete video encoding presets that make up the profile.
 
    Tap the information icon next to each option on the Basic and Advanced tabs for recommended settings and descriptions.
@@ -458,16 +308,9 @@ If you assigned a different video profile to a folder, the new profile overrides
 
 Folders that have a profile assigned to it are indicated in the user interface by the name of the profile appearing in the card name.
 
-![](assets/chlimage_1-538.png)
+![](assets/chlimage_1-529.png)
 
 You can apply video profiles to specific folders or globally to all assets.
-
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-17T14:33:58.977-0400
-For the most part, the screen shot is accurate, but it is a bit dated
--->
 
 ### Applying video profiles to specific folders {#applying-video-profiles-to-specific-folders}
 
@@ -481,42 +324,13 @@ Folders that have a profile already assigned to it are indicated by the display 
 1. Select the video profile that you want to apply to a folder or multiple folders.
 1. Tap/click **Apply Profile to Folder(s) **and select the folder or multiple folders you want use to receive the newly uploaded assets and tap** Apply**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-17T14:47:38.583-0400
-   Change "Done" to "Apply"
-   -->
-
 #### Applying Video Profiles to Folders from Properties {#applying-video-profiles-to-folders-from-properties}
 
 1. Tap or click the AEM logo and navigate to **Assets **and then to the folder that you want to apply a video profile to.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-17T14:53:17.570-0400
-   Change "Folder Settings" to "Properties"
-   -->
-
 1. On the folder, tap or click the check mark to select it and then tap or click **Properties**.
 1. Select the **Video Profiles** tab and select the profile from the drop-down menu and click **Save & Close**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-17T14:54:23.311-0400
-   Newer UI is "Save & Close"
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-17T14:56:15.139-0400
-   You won't be able to see this while in Properties
-   -->
-
-   ![](assets/chlimage_1-539.png)
+   ![](assets/chlimage_1-530.png)
 
 ### Applying a video profile globally {#applying-a-video-profile-globally}
 
@@ -524,17 +338,9 @@ In addition to applying a profile to a folder, you can also apply one globally s
 
 To apply a video profile globally,
 
-* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content. **Add the property** videoProfile:/etc/dam/video/dynamicmedia/&lt;name of video encoding profile&gt; **and tap or click **Save All**.
+* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content. **Add the property** videoProfile:/etc/dam/video/dynamicmedia/&lt;name of video encoding profile&gt; **and tap or click **Save All**. 
 
-  <!--
-  Comment Type: annotation
-  Last Modified By: wyamashi
-  Last Modified Date: 2018-08-17T15:01:06.726-0400
-  This bullet point should be broken down into individual steps to be more clear The location of video profiles has moved with zero downtime: /conf/global/settings/dam/dm/presets/video/
-  <name encoding="" of="" profile="" video="" />
-  -->
-
-  ![](assets/chlimage_1-540.png)
+  ![](assets/chlimage_1-531.png)
 
 ## Removing a Video Profile from Folders {#removing-a-video-profile-from-folders}
 
@@ -550,30 +356,9 @@ You can remove a video profile from a folder from within the **Tools** menu or i
 
    You can confirm that the video profile is no longer applied to a folder because the name no longer appears below the folder name.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-17T15:06:04.303-0400
-   Change "Done" to "Remove"
-   -->
-
 #### Removing Video Profiles from Folders via Properties {#removing-video-profiles-from-folders-via-properties}
 
 1. Tap or click the AEM logo and navigate to **Assets **and then to the folder that you want to remove a video profile from.
 1. On the folder, tap or click the check mark to select it and then tap or click **Properties**.
 1. Select the **Video Profiles** tab and select **None** from the drop-down menu and click **Save & Close**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-17T15:07:39.656-0400
-   Now it's "Save & Close"
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: wyamashi
-   Last Modified Date: 2018-08-17T15:07:59.514-0400
-   You won't be able to see this while in Properties
-   -->
 

@@ -3,12 +3,12 @@ title: Grant rule editor access to select user groups
 seo-title: Grant rule editor access to select user groups
 description: Grant restricted access to rule editor to select user groups.
 seo-description: Grant restricted access to rule editor to select user groups.
-uuid: 78b1b7a2-b357-48a1-899c-41fe7f05fd7a
+uuid: d02d2a4a-63cc-4915-a225-32bbbb5e2ffb
 content-type: reference
 topic-tags: adaptive_forms
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 9de0c2aa-3f79-4e2d-9125-e659afca373e
+discoiquuid: c7626607-12ed-45f4-8c48-e715cd8c5748
 index: y
 internal: n
 snippet: y
@@ -46,56 +46,7 @@ AEM Forms allows you to limit rule editor access to users based on their role or
 
    Now, when a user that is not a part of the a specified user group (here RuleEditorsUserGroup) taps a field, the Edit Rule icon ( ![](assets/edit-rules1.png)) is not available for her in the components toolbar:
 
-   <!--
-   Comment Type: draft
-
-   <note>
-   <p>AEM Forms has two default user groups for two different aspects of adaptive forms:</p>
-   <ul>
-   <li><strong>forms-users</strong> have access to forms authoring</li>
-   <li><strong>template-authors</strong> have access to forms template authoring</li>
-   </ul>
-   <p>When you limit rule editor access by specifying a custom user group, such as RuleEditorsUsers, ensure that the users in both the default user groups that need to work with the respective Rule Editor UIs are added to the RuleEditorsUserGroup group.</p>
-   <p>Alternatively, to limit rule editor access only for forms-user and to allow all template-authors to access rule editor, add the following two values to User Groups With Rule Editor Access:</p>
-   <ul>
-   <li>RuleEditorUsersGroup: Gives access to a select subset of forms-users group</li>
-   <li>template-authors: Gives access to all the users in the template-authors group</li>
-   </ul>
-   </note>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <p>By default, all the user groups have access to rule editor. To grant access to rule editor to all the user groups on your server, ensure that the User Groups With Rule Editor field is empty.</p>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <table border="1" cellpadding="1" cellspacing="0" width="100%">
-   <tbody>
-   <tr>
-   <td><strong>Value in the field User Groups With Rule Editor Access</strong></td>
-   <td><strong>Grants access to Rule Editor in Adaptive Forms UI</strong></td>
-   <td><strong>Grants access to Rule Editor in Forms Templates UI</strong></td>
-   </tr>
-   <tr>
-   <td>no value</td>
-   <td> </td>
-   <td> </td>
-   </tr>
-   </tbody>
-   </table>
-   -->
-
-   ![](assets/ComponentsToolbarWithRE.png) ![](assets/ComponentsToolbarWithoutRE.png) 
-
-   <!--
-   Comment Type: draft
-
-   <img captionBottom="When an unauthorized user tries to access components toolbar in the classic UI, access is denied" imageRotate="0" src="assets/ClassicUIWithoutRE.png" />
-   -->
+   ![](assets/ComponentsToolbarWithRE.png) ![](assets/ComponentsToolbarWithoutRE.png)
 
    For instructions on adding users to groups, see [User Administration and Security](../../sites/administering/using/security.md).
 

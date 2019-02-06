@@ -3,12 +3,12 @@ title: Deprecated and Removed Features
 seo-title: Deprecated and Removed Features
 description: Release notes specific to deprecated and removed features in Adobe Experience Manager 6.4.
 seo-description: Release notes specific to deprecated and removed features in Adobe Experience Manager 6.4.
-uuid: 719903b4-d594-48c6-b8b0-44d63fabee36
+uuid: f2425747-e631-4a71-85bd-a5cdbf7c5870
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 2353f5f9-dc61-4638-8e17-17ca18bf9858
+discoiquuid: 5868d178-bd23-4db6-9542-3c7395064662
 index: y
 internal: n
 snippet: y
@@ -182,13 +182,6 @@ This section lists features and capabilities that have been removed from AEM 6.4
   </tr>
  </tbody>
 </table>
-
-<!--
-Comment Type: annotation
-Last Modified By: kmani
-Last Modified Date: 2018-04-23T07:14:44.585-0400
--Recaptcha- should be reCAPTCHA Use custom captcha integration (like reCAPTCHA by Google) for verification.
--->
 
 ## Pre-announcement for Next Release {#pre-announcement-for-next-release}
 

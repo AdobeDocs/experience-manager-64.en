@@ -3,11 +3,11 @@ title: Configure AEM Assets integration with Brand Portal
 seo-title: Configure AEM Assets integration with Brand Portal
 description: Learn how to integrate AEM Assets with Brand Portal for publishing assets and collections to Brand Portal. 
 seo-description: Learn how to integrate AEM Assets with Brand Portal for publishing assets and collections to Brand Portal. 
-uuid: cc1f5418-44db-4d3f-9b47-27407dd43cef
+uuid: 9b1a47ad-8753-4f45-b730-628e2b482875
 topic-tags: brand-portal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 316e8c9e-3bb1-43d2-9ee3-f7647555dfd5
+discoiquuid: ded5870a-c2c5-4d60-b5eb-e93487f59cb6
 index: y
 internal: n
 snippet: y
@@ -59,7 +59,7 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
 1. From the **Navigation** page of your local AEM Assets instance, tap/click the **Tools** icon on the left.
 
-   ![](assets/chlimage_1-206.png)
+   ![](assets/chlimage_1-205.png)
 
 1. Navigate to **Cloud Services &gt; Legacy Cloud Services**.
 
@@ -106,7 +106,7 @@ Use this configuration to publish assets from AEM Assets to Brand Portal. At the
 
 1. From the **Navigation** page of your local AEM Assets instance, click the **Tools** icon on the left.
 
-   ![](assets/chlimage_1-207.png)
+   ![](assets/chlimage_1-206.png)
 
 1. Navigate to **Deployment** &gt; **Replication**.
 

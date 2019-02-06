@@ -3,11 +3,11 @@ title: Screen readers for HTML5 forms
 seo-title: Screen readers for HTML5 forms
 description: Lists the screen readers supported with HTML5 forms.
 seo-description: Lists the screen readers supported with HTML5 forms.
-uuid: 30a08a3e-aaf8-4b08-ac5a-900ef1aa66e8
+uuid: a63f23f4-8dd4-4518-a656-2ff5fd5ca992
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 6927ccec-edb0-45ac-9a92-b69e9a569ceb
+discoiquuid: a162eaea-b9dc-4976-ae24-31090b4d1ffe
 index: y
 internal: n
 snippet: y

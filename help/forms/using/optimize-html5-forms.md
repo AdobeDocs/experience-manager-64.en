@@ -3,11 +3,11 @@ title: Optimizing HTML5 forms
 seo-title: Optimizing HTML5 forms
 description: You can optimize the output size of the HTML5 forms.
 seo-description: You can optimize the output size of the HTML5 forms.
-uuid: 6d005026-354c-487f-b87e-281034458f78
+uuid: e08771b8-8fc6-4174-86cd-6b822068c8e5
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 63b24315-1555-425a-8f5a-2a42fd5731b9
+discoiquuid: 714e97f8-0410-4507-a513-33ce67d07df2
 index: y
 internal: n
 snippet: y

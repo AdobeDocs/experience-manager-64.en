@@ -3,12 +3,12 @@ title: Resolving file dependencies
 seo-title: Resolving file dependencies
 description: How to resolve 3D file dependencies such as texture map files when auto-resolving fails.
 seo-description: How to resolve 3D file dependencies such as texture map files when auto-resolving fails.
-uuid: 83094cac-5b0e-44fb-b8d5-968f693b6c51
+uuid: c6411bc9-9e4e-44d2-a78c-73acf932b493
 contentOwner: User
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: ec2c661f-25c2-4513-853e-05d42be7b987
+discoiquuid: 1da34a10-ad63-42a4-bfc1-a5ab3f7ac378
 index: y
 internal: n
 snippet: y
@@ -18,13 +18,13 @@ snippet: y
 
 Primary 3D model file dependencies, such as texture map files, are automatically resolved where possible. This functionality is accomplished by having AEM search nearby Asset folders for files with the same names that are found in the 3D file. If one or more dependencies are unresolvable during the Creating preview processing stage, the asset's card displays the following red banner message in the Card View:
 
-![](assets/chlimage_1-77.png)
+![](assets/chlimage_1-76.png)
 
 To resolve file dependencies:
 
 1. In the Card View, hover the pointer over the **Unresolved Dependencies** banner message on the card, then tap the exclamation point icon.
 
-   ![](assets/chlimage_1-78.png)
+   ![](assets/chlimage_1-77.png)
 
 1. On the metadata properties page, tap the **Dependencies **tab.
 

@@ -3,12 +3,12 @@ title: Creating Custom Form Mappings
 seo-title: Creating Custom Form Mappings
 description: When you create a custom table in Adobe Campaign, you may want to build a form in AEM that maps to that custom table
 seo-description: When you create a custom table in Adobe Campaign, you may want to build a form in AEM that maps to that custom table
-uuid: 75994ecd-9162-420b-a9ed-4d66a6dfd279
+uuid: 4fa98d28-bdd5-4740-8a92-a68d53e9bf5f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: dd3b54cb-f519-4d1e-bae6-70b9c86c42f5
+discoiquuid: b59d49bf-a6ee-43f9-a096-b96b040781ff
 index: y
 internal: n
 snippet: y
@@ -28,14 +28,6 @@ You need to have the following installed:
 * Adobe Campaign Classic
 
 See [Integrating AEM with Adobe Campaign Classic](../../../sites/administering/using/campaignonpremise.md) for more information.
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>Featurepack 6576 available on Package Share</li>
-</ul>
--->
 
 ## Creating Custom Form Mappings {#creating-custom-form-mappings}
 
@@ -67,7 +59,7 @@ After you create the event table, run the **Update database structure wizard** t
 
 In Adobe Campaign, tap/click **Add** to create a new extension of the **Seed addresses (nms)** table.
 
-![](assets/chlimage_1-211.png)
+![](assets/chlimage_1-204.png)
 
 Now, use the fields from the **event*** *table to extend the **seed** table:
 
@@ -90,7 +82,7 @@ In **Administration/Campaign Managemen**t, go to **Target Mappings** and add a n
 >
 >Make sure you use a meaningful name for **Internal name**.
 
-![](assets/chlimage_1-212.png) 
+![](assets/chlimage_1-205.png) 
 
 ### Creating a Custom Delivery Template {#creating-a-custom-delivery-template}
 
@@ -98,7 +90,7 @@ In this step, you are adding a delivery template that uses the created **Target 
 
 In **Resources/Templates**, navigate to the Delivery Template and duplicate the existing AEM delivery. When you click **To**, select the create event **Target mapping**.
 
-![](assets/chlimage_1-213.png) 
+![](assets/chlimage_1-206.png) 
 
 ### Building the Form in AEM {#building-the-form-in-aem}
 
@@ -106,7 +98,7 @@ In AEM, make sure you have configured a Cloud Service in **Page Properties**.
 
 Then, in the **Adobe Campaign** tab, select the delivery that was created in [Creating a Custom Delivery Template](#creatingacustomdeliverytemplate).
 
-![](assets/chlimage_1-214.png)
+![](assets/chlimage_1-207.png)
 
 When configuring the fields, make sure you specify unique element-names for the form-fields.
 
@@ -114,17 +106,17 @@ After the fields are configured, you need to manually change the mapping.
 
 In CRXDE-lite, go the **jcr:content** (of the page) node and change the **acMapping** value to the internal name of the **Target mapping**.
 
-![](assets/chlimage_1-215.png)
+![](assets/chlimage_1-208.png)
 
 In the configuration of the form, make sure you check the checkbox to create if non existing
 
-![](assets/chlimage_1-216.png) 
+![](assets/chlimage_1-209.png) 
 
 ### Submitting the Form {#submitting-the-form}
 
 You can now submit the form and validate on the Adobe Campaign side whether the values are saved.
 
-![](assets/chlimage_1-217.png) 
+![](assets/chlimage_1-210.png) 
 
 ## Troubleshooting {#troubleshooting}
 

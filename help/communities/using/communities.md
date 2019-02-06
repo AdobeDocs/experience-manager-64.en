@@ -3,12 +3,12 @@ title: Developing Communities
 seo-title: Developing Communities
 description: Create and customize community features such as forums, user groups, and more
 seo-description: Create and customize community features such as forums, user groups, and more
-uuid: 04512bb3-d985-4d93-92c9-5e09147bf74f
+uuid: 6dfad9f3-7042-4fd4-9529-fd987843c40b
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 5f6923f0-181d-4af7-a42f-d66b97a53ac0
+discoiquuid: ec3b5679-5bff-42d0-975c-846b0759ca75
 index: y
 internal: n
 snippet: y

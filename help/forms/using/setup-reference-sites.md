@@ -3,11 +3,11 @@ title: Set up and configure AEM Forms reference sites
 seo-title: Set up and configure AEM Forms reference sites
 description: AEM Forms reference sites showcase how you can use AEM Forms to implement end-to-end workflow in an organization.
 seo-description: AEM Forms reference sites showcase how you can use AEM Forms to implement end-to-end workflow in an organization.
-uuid: b1846bea-8b92-4a55-8c9f-da0299afdce0
+uuid: 7fbdb004-6e3e-4ccc-9ff3-58f162ceea96
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: 09cccbda-ece7-4e2d-8979-1702b6872049
+discoiquuid: 2da7529c-195d-43a0-92bd-441f54e9b55e
 index: y
 internal: n
 snippet: y
@@ -218,102 +218,6 @@ Install the following reference sites packages using package share.
 * [AEM-FORMS-6.4-GOV-REF-SITE](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-GOV-REF-SITE )
 
 To learn more about how to use packages and package share, see [How to Work With Packages](../../sites/administering/using/package-manager.md).
-
-<!--
-Comment Type: draft
-
-<h3>Reference sites packages contents</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>The following resources and artifacts are included in the reference sites packages.</p>
-<p><strong>For We.Finance:</strong></p>
-<table border="1" cellpadding="0" cellspacing="0" width="586">
-<tbody>
-<tr>
-<td valign="top" width="236"><p><strong>Content</strong></p> </td>
-<td valign="top" width="350"><p><strong>Description</strong></p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>/apps/we-finance</p> </td>
-<td valign="top" width="350"><p>Contains custom components, layout, and templates used in the reference site.</p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>/content/we-finance</p> </td>
-<td valign="top" width="350"><p>Contains We.Finance web pages.</p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>/content/dam/we-finance</p> </td>
-<td valign="top" width="350"><p>Contains all the resources and assets, such as icons, images, and banners, used in the reference site.</p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>/etc/designs/we-finance</p> </td>
-<td valign="top" width="350"><p>Contains all the client libraries, including CSS and JavaScript, for the reference site.</p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>/home/users/we/grios</p> <p><strong> </strong></p> </td>
-<td valign="top" width="350"><p>Contains a demo user, Gloria Rios.</p> <p> </p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>/home/users/we/jjacobs</p> <p><strong> </strong></p> </td>
-<td valign="top" width="350"><p>Contains a demo user, John Jacobs.</p> <p> </p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>/home/users/we/srose@we.info</p> <p><strong> </strong></p> </td>
-<td valign="top" width="350"><p>Contains a demo user, Sarah Rose.</p> <p> </p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>cq-we-finance-adaptiveform-pkg.zip</p> </td>
-<td valign="top" width="350"><p>A package containing the credit card and mortgage application used in the reference site. The credit card application is an adaptive form that you can use as a template and extend to create another adaptive form. Similarly, a mortgage application is an adaptive form that you can use to create another form. </p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>cq-we-finance-layout-pkg.zip</p> </td>
-<td valign="top" width="350"><p>A package containing a custom form view layout of the credit card application form on mobile devices. You can apply this layout on any other adaptive form.</p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>cq-we-finance-content-pkg.zip</p> </td>
-<td valign="top" width="350"><p>A package containing email templates and a welcome kit. The welcome kit is an Interactive Communication, which you can use as a template to create your own Interactive Communication.</p> </td>
-</tr>
-</tbody>
-</table>
--->
-
-<!--
-Comment Type: draft
-
-<p><strong>For We.Gov:</strong></p>
--->
-
-<!--
-Comment Type: draft
-
-<table border="1" cellpadding="0" cellspacing="0" width="586">
-<tbody>
-<tr>
-<td valign="top" width="236"><p><strong>Content</strong></p> </td>
-<td valign="top" width="350"><p><strong>Description</strong></p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>/apps/we-gov</p> </td>
-<td valign="top" width="350"><p>Contains custom components, layout, and templates used in the reference site.</p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>/content/we-gov</p> </td>
-<td valign="top" width="350"><p>Contains We.Gov web pages.</p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>/content/dam/we-gov</p> </td>
-<td valign="top" width="350"><p>Contains all the resources and assets, such as icons, images, and banners, used in the reference site.</p> </td>
-</tr>
-<tr>
-<td valign="top" width="236"><p>/etc/designs/we-gov</p> </td>
-<td valign="top" width="350"><p>Contains all the client libraries, including CSS and JavaScript, for the reference site.</p> </td>
-</tr>
-</tbody>
-</table>
--->
 
 After you have installed the packages and started the author and publish instances, visit the following URLs in your browser:
 

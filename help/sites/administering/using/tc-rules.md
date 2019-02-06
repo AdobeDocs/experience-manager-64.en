@@ -3,12 +3,12 @@ title: Identifying Content to Translate
 seo-title: Identifying Content to Translate
 description: Learn how to identify content that needs translating.
 seo-description: Learn how to identify content that needs translating.
-uuid: 094c0f4a-1f94-4eb2-93b4-f6af1ea4fd74
+uuid: 184d3054-507f-4125-881b-cd86bcf32c04
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 87bbe9ce-1666-4e33-9101-a33b5513ebb2
+discoiquuid: afcc2ad1-ffa8-4fe8-a664-6d1fc0408ea0
 index: y
 internal: n
 snippet: y

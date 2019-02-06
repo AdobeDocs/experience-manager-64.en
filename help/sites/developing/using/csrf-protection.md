@@ -3,12 +3,12 @@ title: The CSRF Protection Framework
 seo-title: The CSRF Protection Framework
 description: The framework makes use of tokens to guarantee that the client request is legitimate
 seo-description: The framework makes use of tokens to guarantee that the client request is legitimate
-uuid: fa5ed332-7d07-4316-b4ae-f5db1d148692
+uuid: c1f7f8c3-131f-456f-9e2f-aa5365552f4a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 0036b4de-320f-4bb4-a402-2db1b5bf0292
+discoiquuid: 8e87c047-1e40-4068-9d5b-8642ac0c9eea
 index: y
 internal: n
 snippet: y
@@ -34,38 +34,9 @@ Any component that relies on the `granite.jquery` dependency will benefit from t
 
 In order to make use of the tokens, you need to replicate the `/etc/keys/hmac` binary to all of the instances in your deployment. A convenient way to copy the HMAC key to all the instances is to create a package containing the key and install it via the Package Manager on all the instances.
 
-<!--
-Comment Type: draft
-
-<p>If <a href="../../../sites/administering/using/saml-2-0-authenticationhandler.md">SAML</a> is configured, be sure to exclude the <span class="code">saml </span>node from the package.</p>
-<p>Specify the package filter as </p>
-<ul>
-<li><strong>Root path</strong> : <span class="code">/etc/key</span></li>
-<li><strong>Rules</strong> : <span class="code">exclude | /etc/key/saml</span></li>
-</ul>
--->
-
 >[!NOTE]
 >
 >Make sure you also make the necessary [Dispatcher configuration changes](/content/help/en/experience-manager/dispatcher/user-guide) in order to use the CSRF Protection Framework.
-
-<!--
-Comment Type: draft
-
-<h4>Whitelisting User Agents</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>You also have the option to whitelist user agents for cases like automation where it might be impractical to embed the CSRF Filter.</p>
-<p>All the whitelisted user agents will be considered safe by the CSRF Protection Framework. You can enable whitelisting by following the below procedure:</p>
-<ol>
-<li>Go to the Web Console at http://&lt;serveraddress:port&gt;/system/console/configMgr</li>
-<li>Look for and click the <strong>Adobe Granite CSRF Filter</strong> service.</li>
-<li>Add the user agent to the <strong>Safe User Agents</strong> list and click Save.</li>
-</ol>
--->
 
 >[!NOTE]
 >

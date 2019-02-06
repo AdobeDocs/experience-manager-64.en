@@ -3,12 +3,12 @@ title: WebDAV Access
 seo-title: WebDAV Access
 description: Learn about WebDAV access in AEM.
 seo-description: Learn about WebDAV access in AEM.
-uuid: 250a0984-df0f-4389-8fd5-5f8988af01e2
+uuid: d584d206-fa45-46aa-95ea-1caa57ebcf86
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: 3df5c437-7e51-4e9c-b5d4-af811cdbb4ad
+discoiquuid: ada57546-8ec9-4680-845c-2f09afa05a0c
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ AEM offers WebDAV support that lets you display and edit repository content. Con
 http://localhost:4502
 ```
 
-![](assets/chlimage_1-123.png)
+![](assets/chlimage_1-117.png)
 
 This URL, when connected from the operating system level, provides WebDAV access to the default workspace ( `crx.default`). While being simpler for the user, it does not give them the additional flexibility of specifying workspace names, which can be accomplished using additional [WebDAV URLs](../../../sites/administering/using/webdav-access.md#main-pars-title-812278149).
 
@@ -147,7 +147,7 @@ To connect to AEM via WebDAV in a Windows environment:
 
 1. Open **Windows Explorer** or **File Explorer** and click on **Computer** or **This PC**.
 
-   ![](assets/chlimage_1-124.png)
+   ![](assets/chlimage_1-118.png)
 
 1. Click **Map network drive** to start the wizard.
 1. Enter the mapping details:
@@ -159,7 +159,7 @@ To connect to AEM via WebDAV in a Windows environment:
 
    Click Finish
 
-   ![](assets/chlimage_1-125.png)
+   ![](assets/chlimage_1-119.png)
 
    >[!NOTE]
    >
@@ -167,11 +167,11 @@ To connect to AEM via WebDAV in a Windows environment:
 
 1. Enter username `admin` and password `admin`. Adobe recommends that you use the pre-configured admin account for testing.
 
-   ![](assets/chlimage_1-126.png)
+   ![](assets/chlimage_1-120.png)
 
 1. The wizard closes and the newly-mapped drive is opened in a Windows Explorer or File Explorer window.
 
-   ![](assets/chlimage_1-127.png)
+   ![](assets/chlimage_1-121.png)
 
 Windows has now mapped AEM as a drive via WebDAV and you can use it as any other drive.
 

@@ -3,12 +3,12 @@ title: Enable logging for HTML5 forms
 seo-title: Enable logging for HTML5 forms
 description: The logger utility enables logging for a form and helps you debug form-related issues.
 seo-description: The logger utility enables logging for a form and helps you debug form-related issues.
-uuid: 2183e447-f659-4828-9684-7ed9119e50a5
+uuid: 99c421d5-e426-409f-9c86-6f31d88631a5
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 35afd5e2-84b8-4138-8648-f15d8cff5d44
+discoiquuid: 1f8c7715-b205-46ba-aa49-1732e3fdc919
 index: y
 internal: n
 snippet: y

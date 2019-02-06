@@ -3,12 +3,12 @@ title: Channel Level Activation - Single Event Playback
 seo-title: Channel Level Activation - Single Event Playback
 description: Follow this guide to understand channel level activation using single event playback.
 seo-description: Follow this guide to understand channel level activation using single event playback.
-uuid: f5c87cde-3334-4349-a6e0-c9821ec239e5
+uuid: a1fd9446-6377-4e2b-85ea-cc50d73e526b
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 content-type: reference
-discoiquuid: d2ce9c70-72cc-4546-96ac-b7e6be6c9f2f
+discoiquuid: 9a6ff4eb-0125-4e44-977e-e236f1532986
 noindex: true
 index: y
 internal: n

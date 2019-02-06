@@ -3,12 +3,12 @@ title: Converting Between File Formatsand PDF
 seo-title: Converting Between File Formatsand PDF
 description: null
 seo-description: null
-uuid: 7dbc42b0-de3f-4bef-a5b2-8344b0b16054
+uuid: f1f64aa9-d2b7-43f8-b81f-07997fdf5077
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 92d1641d-f4d6-4907-b1db-1b5ec3b20051
+discoiquuid: e337b9da-a65b-46d6-ac69-4129466bffb2
 index: y
 internal: n
 snippet: y
@@ -692,13 +692,6 @@ If the Generate PDF service finds a match for the dialog box, it dismisses it by
 If the Generate PDF service encounters a dialog box that is not described in any of the previously-listed files, the Generate PDF service incorporates the dialog box’s caption into the log file entry. The currently executing job eventually times out. You can then use the information in the log file to compose new instructions in the additional dialog XML file for the native application.
 
 ### Adding or modifying support for a native file format {#adding-or-modifying-support-for-a-native-file-format}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Consider removing this section because it’s “metatalk”</p>
--->
 
 This section describes the tasks you must perform to support other native file formats or to modify support for an already supported native file format.
 

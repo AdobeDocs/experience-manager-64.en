@@ -3,10 +3,10 @@ title: Use form data model
 seo-title: Use form data model
 description: Learn how to use form data model to create and work with adaptive forms and interactive communications.
 seo-description: Learn how to use form data model to create and work with adaptive forms and interactive communications.
-uuid: cc4ac517-2ddb-468f-96c0-e8c3326e7376
+uuid: 4e8135e5-61c0-4105-b7a7-28c408490d3f
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
-discoiquuid: 3e63a7e7-1f39-4c6e-94e6-1014d0857ea2
+discoiquuid: 518a95a7-6f60-4bd5-aa37-417b99698df0
 index: y
 internal: n
 snippet: y

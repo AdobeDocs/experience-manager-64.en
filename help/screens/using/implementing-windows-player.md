@@ -3,12 +3,12 @@ title: Implementing Windows 10 Player
 seo-title: Implementing Windows 10 Player
 description: Follow this page to learn about configuring AEM Screens Windows 10 player. 
 seo-description: Follow this page to learn about configuring AEM Screens Windows 10 player. 
-uuid: 64a8804c-5c8b-47ba-8364-a8c7ea3a67ae
+uuid: 446e1ec9-abc4-4631-9943-9a10d774e310
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
 content-type: reference
-discoiquuid: fa0ffb5d-27b1-47eb-8e9f-b9841e05e08f
+discoiquuid: c6c1ebb2-7761-4227-a57f-10428e52452c
 index: y
 internal: n
 snippet: y
@@ -17,13 +17,6 @@ snippet: y
 # Implementing Windows 10 Player{#implementing-windows-player}
 
 This section describes about configuring AEM Screens Windows 10 player. It provides information of the configuration file and the options available and recommendations as to which settings to use for development and testing.
-
-<!--
-Comment Type: annotation
-Last Modified By: jsyal
-Last Modified Date: 2018-11-12T18:19:46.950-0500
-windows 10?
--->
 
 ## Installing Windows Player {#installing-windows-player}
 

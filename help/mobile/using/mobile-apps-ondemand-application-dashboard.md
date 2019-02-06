@@ -3,12 +3,12 @@ title: AEM Mobile Application Dashboard
 seo-title: AEM Mobile Application Dashboard
 description: You can manage your application and mobile app content from AEM Mobile Application Dashboard or the Control Center. Follow this page to learn more.
 seo-description: You can manage your application and mobile app content from AEM Mobile Application Dashboard or the Control Center. Follow this page to learn more.
-uuid: 63224c27-7a9c-455b-8cab-bd484fafa252
+uuid: 95a6103a-0ae2-4533-9f64-7a6c046177b0
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: 387c2632-ad51-43b7-8f12-c1922f9fa94e
+discoiquuid: 8311e554-910c-4923-9cda-fd26b074da8f
 index: y
 internal: n
 snippet: y

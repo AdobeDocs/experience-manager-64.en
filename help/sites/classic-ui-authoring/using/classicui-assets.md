@@ -3,12 +3,12 @@ title: Working with Assets
 seo-title: Working with Assets
 description: The Author Environment and Tools section provides information about using Content Finder to find and use assets when editing pages. AEM Assets provides other methods for working with assets.
 seo-description: The Author Environment and Tools section provides information about using Content Finder to find and use assets when editing pages. AEM Assets provides other methods for working with assets.
-uuid: 95e9327c-5066-40a0-a343-4435650f5439
+uuid: 078913a6-0225-4ed3-a1f7-2b1cfcef2ab2
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: c85bcbc0-a1a0-4234-8232-48b623a4c128
+discoiquuid: 6eb1200a-ff6a-4648-adac-adafd9ab6bb8
 index: y
 internal: n
 snippet: y

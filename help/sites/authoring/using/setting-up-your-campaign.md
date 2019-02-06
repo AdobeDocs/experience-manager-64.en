@@ -3,33 +3,18 @@ title: Setting up your campaign
 seo-title: Setting up your campaign
 description: Set up a new campaign
 seo-description: Set up a new campaign
-uuid: c13ff885-7ce2-46aa-8892-aebd573b4f5d
+uuid: 3d3ba8c2-6208-4a00-88f1-b2143d41c4b8
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 8b41c571-ddf2-431a-8c90-25de08d26e7d
+discoiquuid: b187dd28-401a-417d-a182-14a62f0837b7
 index: y
 internal: n
 snippet: y
 ---
 
 # Setting up your campaign{#setting-up-your-campaign}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2018-02-02T12:33:18.444-0500
-<p>This needs to be entirely revisited. No idea what's in classic or in touch ui. Leaving content as is for now.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alva Ware-Bevacqui (alvawb)
-Last Modified Date: 2018-02-02T12:33:18.466-0500
-<p>All links broken</p>
-<p> </p>
--->
 
 Setting up a new campaign includes the following (generic) steps:
 
@@ -71,7 +56,7 @@ To create a new brand:
 
 1. Select **New...** to enter the **Title** and **Name** and template to be used for your new brand:
 
-   ![](assets/chlimage_1-231.png)
+   ![](assets/chlimage_1-222.png)
 
 1. Click **Create**. Your new brand will be shown in the MCM (with a default icon).
 
@@ -81,7 +66,7 @@ To create a new brand:
 
    You can enter a **Title**, **Description** and an image to be used as the icon.
 
-   ![](assets/chlimage_1-232.png)
+   ![](assets/chlimage_1-223.png)
 
 1. Click **OK** to save.
 
@@ -95,7 +80,7 @@ To create a new campaign:
 
 1. Click **New...** and specify the **Title**, **Name** and template to be used for your new campaign.
 
-   ![](assets/chlimage_1-233.png)
+   ![](assets/chlimage_1-224.png)
 
 1. Click **Create**. Your new campaign will be shown in the MCM.
 
@@ -114,7 +99,7 @@ Configure campaign properties that control the behavior:
 
    You can enter various properties, including a **Title**, **Description** and any **Cloud Services** you want.
 
-   ![](assets/chlimage_1-234.png)
+   ![](assets/chlimage_1-225.png)
 
 1. Click **OK** to save.
 
@@ -160,7 +145,7 @@ If you have existing experiences you can add a touchpoint directly from the Cale
 
 1. Click **Add Touchpoint...** to open the dialog. Specify the experience you want to add:
 
-   ![](assets/chlimage_1-235.png)
+   ![](assets/chlimage_1-226.png)
 
 1. Click **OK** to save.
 

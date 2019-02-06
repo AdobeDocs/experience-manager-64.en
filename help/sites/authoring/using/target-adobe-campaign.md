@@ -3,12 +3,12 @@ title: Targeting your Adobe Campaign
 seo-title: Targeting your Adobe Campaign
 description: You can create targeted experiences for Adobe Campaign after setting up segmentation
 seo-description: You can create targeted experiences for Adobe Campaign after setting up segmentation
-uuid: 25ad09e2-17d4-4c69-b570-e57a26ae45e2
+uuid: 881038fc-6b37-4fbf-88b4-bc98b8feb150
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: a23f93a4-15b9-4f0b-9da8-6325ddd821af
+discoiquuid: 85037bd7-b7dd-42e0-a75b-9ccc258112df
 index: y
 internal: n
 snippet: y
@@ -69,13 +69,6 @@ To create experiences for segments:
 
 After you have created segments, a brand, a campaign, and an experience, you can create a newsletter with targeted content. After creating the experience, you link experiences to your segments.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2018-02-02T12:33:19.559-0500
-<p>In 6.2, I was unable to get this to work using the procedure below after following steps above. The activity doesn't seem to want to load. Took out screenshots for now as the steps "should" work.</p>
--->
-
 >[!NOTE]
 >
 >[Email samples are only available in Geometrixx](../../../sites/developing/using/we-retail.md#weretail). Please download sample Geometrixx content from Package Share.
@@ -84,7 +77,7 @@ To create a newsletter with targeted content:
 
 1. Create a newsletter with targeted content: Below Email Campaigns in Geometrixx Outdoors, click or tap **Create** &gt; **Page**, and select one of the Adobe Campaign Mail templates.
 
-   ![](assets/chlimage_1-181.png)
+   ![](assets/chlimage_1-177.png)
 
 1. In the newsletter, add a Text and Personalization component. 
 1. Add text into the Text and Personalization component, such as "This is the default."
@@ -98,7 +91,7 @@ To create a newsletter with targeted content:
 
 1. Click **Default** and then the Text and Personalization component you added and you see the Bullseye with an arrow in it. Click the icon to target this component.
 
-   ![](assets/chlimage_1-182.png)
+   ![](assets/chlimage_1-178.png)
 
 1. Navigate to another segment (Male), and click **Add offer **and click the plus icon +. Then edit the offer. 
 1. Navigate to another segment (Female) and click **Add offer** and the plus icon +. Then edit this offer.
@@ -106,25 +99,11 @@ To create a newsletter with targeted content:
 
    AEM automatically generates the correct targeting code for Adobe Campaign when the content is used in a delivery inside Adobe Campaign
 
-   <!--
-   Comment Type: draft
-
-   <note type="note">
-   <p>You can use ?wcmmode=disabled appended to your URL to view what is sent to AC. </p>
-   </note>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-183.png" />
-   -->
-
 1. In Adobe Campaign, create your delivery - select **Email delivery with AEM content** and select the local AEM account, as appropriate and confirm your changes.
 
    In the HTML view, the different experiences of targeted components are enclosed in Adobe Campaign targeting code.
 
-   ![](assets/chlimage_1-184.png)
+   ![](assets/chlimage_1-179.png)
 
    >[!NOTE]
    >

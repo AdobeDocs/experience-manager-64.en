@@ -3,12 +3,12 @@ title: Working with the 3D Sites component
 seo-title: Working with the 3D Sites component
 description: AEM 3D includes an AEM Sites component that can be used to implement interactive viewing of 3D models on web pages.
 seo-description: AEM 3D includes an AEM Sites component that can be used to implement interactive viewing of 3D models on web pages.
-uuid: 11734ac6-30ce-46cd-808f-c3be2f352f21
+uuid: 61fc76b4-ebcb-4c88-81af-376cde4cb14e
 contentOwner: Rick Brough
 topic-tags: 3D
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: bcba6560-6077-4b29-bbef-482d6fc22ee2
+discoiquuid: 34b5cc74-678f-4f7d-a17c-aa2f6bd852e7
 index: y
 internal: n
 snippet: y

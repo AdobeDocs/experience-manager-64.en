@@ -3,12 +3,12 @@ title: AEM Mobile On-Demand
 seo-title: AEM Mobile On-Demand
 description: Starting a new AEM Mobile app experience requires a cohesion of roles before it is ready for content editing. Follow this page to get started with AEM mobile On-Demand services.
 seo-description: Starting a new AEM Mobile app experience requires a cohesion of roles before it is ready for content editing. Follow this page to get started with AEM mobile On-Demand services.
-uuid: 761a9daf-c817-4eed-bb1d-d3c8903608d2
+uuid: 24401e03-104b-480d-9156-f85388ddebd3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: introduction
 content-type: reference
-discoiquuid: c9b1fe18-6607-45a9-8658-6b8eac461ec5
+discoiquuid: 7c03d95c-83f1-477b-9e05-fd0dfa4c7ed2
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ AEM Preflight app can be considered a testing environment to preview the app and
 >
 >To learn in-depth about Preflight app, see [Using the AEM Preflight app](https://helpx.adobe.com/digital-publishing-solution/help/preflight-app.html) in AEM Mobile On-Demand Services Help.
 
-![](assets/chlimage_1-187.png)
+![](assets/chlimage_1-186.png)
 
 >[!NOTE]
 >

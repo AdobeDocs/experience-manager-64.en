@@ -3,12 +3,12 @@ title: Creating Launches
 seo-title: Creating Launches
 description: You can create a launch to enable the updating of a new version of existing web pages for future activation. 
 seo-description: You can create a launch to enable the updating of a new version of existing web pages for future activation. 
-uuid: c1210781-67da-45cf-a0a5-e7c0690902bb
+uuid: 8edadcba-3414-4b8b-8ec6-c5f0961c6b76
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 2bf39747-ab71-4d91-a3d8-c0b691bb1cca
+discoiquuid: a56f1ea9-ed97-4cb0-bb18-05e2720207d9
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n
@@ -16,20 +16,6 @@ snippet: y
 ---
 
 # Creating Launches{#creating-launches}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-30T05:09:39.337-0500
-<p>6.2</p>
-<ul>
-<li>create from multiple roots</li>
-<li>clone a launch from the console
-<ul>
-<li>os there any connection between the clone and the original launch?<br /> </li>
-</ul> </li>
-</ul>
--->
 
 Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page:
 
@@ -75,7 +61,7 @@ You can create a launch from either the Sites or Launches console:
 
    Repeat as required.
 
-   ![](assets/chlimage_1-240.png)
+   ![](assets/chlimage_1-231.png)
 
    >[!NOTE]
    >
@@ -93,7 +79,7 @@ You can create a launch from either the Sites or Launches console:
 
    Proceed with **Next**.
 
-   ![](assets/chlimage_1-241.png)
+   ![](assets/chlimage_1-232.png)
 
 1. In the **Properties** step of the wizard you can specify:
 
@@ -107,7 +93,7 @@ You can create a launch from either the Sites or Launches console:
     
     * **Launch Date**: The date and time when the launch copy is to be activated (dependent on the **Production Ready** flag; see [Launches - the Order of Events](../../../sites/authoring/using/launches.md#main-pars-title-6)).
 
-   ![](assets/chlimage_1-242.png)
+   ![](assets/chlimage_1-233.png)
 
 1. Use **Create** to complete the process and create your new launch. The confirmation dialog will ask whether you want to open the launch immediately.
 
@@ -126,14 +112,14 @@ When [creating a launch](../../../sites/authoring/using/launches-creating.md#mai
 >
 >This option is only available when creating a launch from the **Sites** console. It is not available when creating a launch from the **Launches** console.
 
-![](assets/chlimage_1-243.png)
+![](assets/chlimage_1-234.png)
 
 Selecting this will:
 
 * update the other options available,  
 * include a new step where you can select the required template.
 
-![](assets/chlimage_1-244.png)
+![](assets/chlimage_1-235.png)
 
 >[!CAUTION]
 >
@@ -156,25 +142,18 @@ Creating a nested launch from the **Launches** console is basically the same as 
 1. In the **Launches** console select **Create**.
 1. Select **Add Pages**, then navigate to the launches branch by specifying `/content/launches` in the filter. Select the required launch and confirm with **Select**:
 
-   ![](assets/chlimage_1-245.png)
+   ![](assets/chlimage_1-236.png)
 
 1. Proceed with **Next** and complete the **Properties** as with any other launch.
 
-   ![](assets/chlimage_1-246.png)
+   ![](assets/chlimage_1-237.png)
 
 #### Creating a Nested Launch - Sites Console {#creating-a-nested-launch-sites-console}
 
 To create a nested launch from the **Sites** console - based on an existing launch:
 
 1. Access the [Launch from References (Sites console)](../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole) to show the available actions.
-1. Select **Create launch** to open the wizard (as the source has already been selected it will skip the **Select Source** step).
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-   Last Modified Date: 2018-01-30T05:09:42.556-0500
-   <p>Skips the Select Source step - though you can go Back to it....document that?<br /> </p>
-   -->
+1. Select **Create launch** to open the wizard (as the source has already been selected it will skip the **Select Source** step).  
 
 1. Enter the **Launch Title** and any other required details (as with a normal launch).  
 

@@ -3,11 +3,11 @@ title: Using charts in Interactive Communications
 seo-title: Chart component in Interactive Communications
 description: Using charts in an Interactive Communication, you can condense large amounts of information into an easy to analyze and understand visual format  
 seo-description: AEM Forms provides a chart component that you can use to create charts in your Interactive Communication. This document explains basic and agent configurations of the chart component.
-uuid: acd07f40-0798-4911-b77a-c5b19425307e
+uuid: 9041517d-2693-4d8a-9ac8-6bc6872ea3a7
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications
-discoiquuid: 86fee3fd-706c-4cb5-b672-13ec00c5fd2c
+discoiquuid: 5c101515-11fa-4ddf-94db-3ddedc69f113
 index: y
 internal: n
 snippet: y
@@ -15,15 +15,7 @@ snippet: y
 
 # Using charts in Interactive Communications{#using-charts-in-interactive-communications}
 
-Using charts in an Interactive Communication, you can condense large amounts of information into an easy to analyze and understand visual format
-
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>Adaptive documents are supported for production use under a "gated" program. If you intend to use Adaptive Documents in a production environment, contact AEM Forms team at <a href="mailto:DL-forms_documents@adobe.com">DL-forms_documents@adobe.com</a>.</p>
-</note>
--->
+Using charts in an Interactive Communication, you can condense large amounts of information into an easy to analyze and understand visual format  
 
 A chart or a graph is a visual representation of data. It condenses large amounts of information into easy-to-understand visual format, enabling the recipients of the Interactive Communication to better visualize, interpret, and analyze complex data.
 
@@ -66,13 +58,6 @@ Complete the following steps to add a chart to an Interactive Communication:
         * **[!UICONTROL Data Model Object *]**: Browse and select data model objects for the X and Y axis of the chart from the form data model specified while creating the Interactive Communication. Choose two collection/array type properties of the same parent data model object that are meaningful in relation to each other to plot on the X and Y axis of a chart.   
         
         * **[!UICONTROL Function]**: To use statistical functions to compute the values on the axis, select function for X / Y axis. For more information about functions, see [Use functions in chart](#usefunction) and [Example 2: Application of sum and mean functions in a line chart](#applicationsumfrequency).
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-03-07T04:41:31.026-0500
-   setting properties in web and print channel for chart? What is the significance of the name?
-   -->
 
    >[!NOTE]
    >

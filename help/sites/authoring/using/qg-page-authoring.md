@@ -3,12 +3,12 @@ title: Quick Guide to Authoring Pages
 seo-title: Quick Guide to Authoring Pages
 description: A quick, high-level guide to the key actions of authoring page content
 seo-description: A quick, high-level guide to the key actions of authoring page content
-uuid: e97e610e-fb83-419c-9587-93dce09d24ff
+uuid: 43186ae0-c5f8-4524-b331-c20aa380ebe2
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 164171e0-6a3b-4d49-bde2-ef5469624ef7
+discoiquuid: b4c6c678-96bb-469a-9228-c71796e3c6ee
 index: y
 internal: n
 snippet: y
@@ -77,7 +77,7 @@ Before giving the overview of specifics, here is a small collection of general t
 
 1. Navigate up the tree using [the breadcrumb in the header](../../../sites/authoring/using/basic-handling.md#theheaderwithbreadcrumbs), which allows you to return to the selected location:
 
-   ![](assets/chlimage_1-118.png)
+   ![](assets/chlimage_1-117.png)
 
 ### Creating a New Page {#creating-a-new-page}
 
@@ -89,13 +89,6 @@ Before giving the overview of specifics, here is a small collection of general t
 1. This opens the wizard that will guide you through collecting the information needed when [creating your new page](../../../sites/authoring/using/managing-pages.md#main-pars-title-0). Follow the on screen instructions.
 
 ### Selecting Your Page for Further Action {#selecting-your-page-for-further-action}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T04:50:30.474-0500
-<p>definitive list of all actions accessible via toolbar?</p>
--->
 
 You can select a page so that you can take action on it. Selecting a page will automatically update the toolbar so that the actions relevant to that resource are shown.
 

@@ -3,12 +3,12 @@ title: Creating and Managing Offers
 seo-title: Creating and Managing Offers
 description: Use the Offers console to create offers that you can use in activity experiences. Creating offers in the Offers console saves time when several experiences require the same offer.
 seo-description: Use the Offers console to create offers that you can use in activity experiences. Creating offers in the Offers console saves time when several experiences require the same offer.
-uuid: 731720e7-dddc-4252-8adc-306e32f37796
+uuid: b80313d3-881f-4d5b-bf52-292945bbeb4e
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 03f1b17b-992e-4feb-a9d9-73cf3232f4eb
+discoiquuid: a5f0e40f-a34a-4ea9-a40e-8c44dbe47177
 index: y
 internal: n
 snippet: y

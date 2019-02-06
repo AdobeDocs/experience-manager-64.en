@@ -3,26 +3,18 @@ title: Developing with hybris
 seo-title: Developing with hybris
 description: The hybris integration framework includes an integration layer with an API
 seo-description: The hybris integration framework includes an integration layer with an API
-uuid: cb85a71a-109a-482d-8ec8-21ee73612fef
+uuid: 9db92209-aeab-4763-8aef-860a8237385f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: 4fa195e3-264a-4a8a-807c-d3315cbcae2a
+discoiquuid: eb127440-664a-4b66-a042-64304fc88061
 index: y
 internal: n
 snippet: y
 ---
 
 # Developing with hybris{#developing-with-hybris}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-30T08:36:08.980-0500
-<p>this section seems a bit dis-jointed.</p>
-<p>maybe an overview of what is absolutely necessary - and in the correct order; vs optional extras<br /> </p>
--->
 
 >[!NOTE]
 >
@@ -33,20 +25,11 @@ The integration framework includes an integration layer with an API. This allows
 * plug in an eCommerce system and pull product data into AEM
 * build AEM components for commerce capabilities independent of the specific eCommerce engine
 
-![](assets/chlimage_1-16.png)
+![](assets/chlimage_1-15.png)
 
 >[!NOTE]
 >
 >[API documentation](../../../sites/developing/using/ecommerce.md#apidocumentation) is also available.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (buergi@adobe.com)
-Last Modified Date: 2018-01-30T08:36:09.187-0500
-<p>suspect this sub-list is out-of-date - need input</p>
-<p> </p>
-<p>All components are independent from the implementation.</p>
--->
 
 A number of out-of-the-box AEM components are provided to use the integration layer. Currently these are:
 
@@ -57,14 +40,6 @@ A number of out-of-the-box AEM components are provided to use the integration la
 For search an integration hook is provided that allows you to use the AEM search, the search of the eCommerce system, a third party search (like Search&Promote) or a combination thereof.
 
 ### eCommerce Engine Selection {#ecommerce-engine-selection}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-30T08:36:09.305-0500
-<p>have updated this section - please review</p>
-<p>is geometrixx the best example, or would geometrixx-outdoors be better?</p>
--->
 
 The eCommerce framework can be used with any eCommerce solution, the engine being used needs to be identifiable by AEM:
 
@@ -120,24 +95,6 @@ See the following examples below:
 >Using CRXDE Lite you can see how this is handled in the product component for the hybris implementation:
 >
 >`/apps/geometrixx-outdoors/components/hybris/product/product.jsp`
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-30T08:36:09.638-0500
-<p><a href="https://issues.adobe.com/browse/DOC-3858">https://issues.adobe.com/browse/DOC-3858</a></p>
-<p>We now support hybris 5 as-well.</p>
-<p> </p>
-<p><a href="https://wiki.day.com/content/wiki/Users/vsaar/CQHybrisIntegration/Update%20Embedded%20Server.html">https://wiki.day.com/content/wiki/Users/vsaar/CQHybrisIntegration/Update%20Embedded%20Server.html</a></p>
-<p>There was a series of changes in the Hybris connector to support Hybris 5 while maintaining backwards compatibility with Hybris 4. The new default settings in the code are tuned for Hybris 5.<br /> The hybris-distribution.zip has been removed from the git repository and it is downloaded by maven from nexus.<br /> For using the code with Hybris 4 the following is needed:</p>
-<ul>
-<li>when invoking maven add the command line argument -P hybris4 to the command. It downloads the pre-configured Hybris 4 distribution and embeds it in the cq-commerce-hybris-server bundle</li>
-<li>in the OSGi configuration manager disable Hybris 5 support for the Default Response Parser service<br /> make sure that Hybris Basic Authentication Handler service has a lower service ranking than Hybris OAuth Handler service</li>
-</ul>
-<p>&gt;&gt;&gt; "The hybris-distribution.zip has been removed from the git repository and it is downloaded by maven from nexus".<br /> Is the above comment for public documentation?</p>
-<p>&gt;&gt;&gt; Please review below.</p>
-<p> </p>
--->
 
 ### Developing for hybris 4 {#developing-for-hybris}
 
@@ -197,18 +154,7 @@ Product data that is maintained in hybris needs to be available in AEM. The foll
 * On hybris it is possible to specify feed contents in a declarative way.
 * Mapping the feed structure to the AEM content model happens in the feed adapter on the AEM side.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-01-30T08:36:10.180-0500
-<p>how to trigger the importer? </p>
-<ul>
-<li>console - currently being developed<br /> </li>
-</ul>
-<p>online vs staged in this context?<br /> </p>
--->
-
-![](assets/chlimage_1-17.png)
+![](assets/chlimage_1-16.png)
 
 * The importer (b) is used for the initial setup of the page tree structure in AEM for catalogs.
 * Catalog changes in hybris are indicated to AEM via a feed, these then propagate to AEM (b)
@@ -488,7 +434,7 @@ public class AxisFilter implements VariantFilter {
 
 * The following illustrates an example of cart information in the ClientContext cart:
 
-![](assets/chlimage_1-18.png) 
+![](assets/chlimage_1-17.png) 
 
 #### Architecture of Checkout {#architecture-of-checkout}
 
@@ -578,7 +524,7 @@ The eCommerce project contains a default search component, located in:
 
 `/libs/commerce/components/search`
 
-![](assets/chlimage_1-19.png)
+![](assets/chlimage_1-18.png)
 
 This makes use of the search API to query the selected commerce engine (see [eCommerce Engine Selection](#ecommerceengineselection)):
 

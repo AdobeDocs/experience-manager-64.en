@@ -3,12 +3,12 @@ title: Protecting Documents with Policies
 seo-title: Protecting Documents with Policies
 description: null
 seo-description: null
-uuid: 38e6427f-07ca-4381-970c-45a3124f8cd7
+uuid: bd6cb116-2bb9-476a-92dc-12a221f9ed9b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: ca7f83b6-321e-41e7-98d1-37310ee3f07a
+discoiquuid: ed5b05d0-8815-456f-9c04-c9bc4307f9c0
 index: y
 internal: n
 snippet: y
@@ -49,13 +49,6 @@ You can accomplish these tasks using the Document Security service:
 >[!NOTE]
 >
 >For more information about the Document Security service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63). For examples of working with policies, see the “Document Security Service API Quick Starts” in [API Quick Starts (Code Examples)](/programming-with-aem-forms/#java_api_soap_quick_start_code_examples).
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_create_policies_cp.xml#WS624e3cba99b79e12e69a9941333732bac8-7cc1.2_ver6.1
--->
 
 ## Creating Policies {#creating-policies}
 
@@ -328,13 +321,6 @@ For code examples using the Document Security service, see the following Quick S
 * “Quick Start (MTOM): Creating a policy using the web service API”
 * “Quick Start (SwaRef): Creating a policy using the web service API”
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_modify_policies_mp.xml#WS624e3cba99b79e12e69a9941333732bac8-7cbe.2_ver6.1
--->
-
 ## Modifying Policies {#modifying-policies}
 
 You can modify an existing policy using the Document Security Java API or web service API. To make changes to an existing policy, you retrieve it, modify it, and then update the policy on the server. For example, assume that you retrieve an existing policy and extend its validity period. Before the change takes effect, you must update the policy.
@@ -464,13 +450,6 @@ For code examples using the Document Security service, see the following Quick S
 * “Quick Start (MTOM): Modifying a policy using the web service API”
 * “Quick Start (SwaRef): Modifying a policy using the web service API”
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_delete_policies_dp.xml#WS624e3cba99b79e12e69a9941333732bac8-7cbd.2_ver6.1
--->
-
 ## Deleting Policies {#deleting-policies}
 
 You can delete an existing policy using the Document Security Java API or web service API. After a policy is deleted, it can no longer be used to protect documents. However, existing policy-protected documents that are using the policy are still protected. You can delete a policy when a newer one becomes available.
@@ -565,13 +544,6 @@ For code examples using the Document Security service, see the following Quick S
 
 * “Quick Start (MTOM): Deleting a policy using the web service API”
 * “Quick Start (SwaRef): Deleting a policy using the web service API”
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_apply_policies_ap.xml#WS624e3cba99b79e12e69a9941333732bac8-7cbc.2_ver6.1
--->
 
 ## Applying Policies to PDF Documents {#applying-policies-to-pdf-documents}
 
@@ -740,13 +712,6 @@ For code examples using the Document Security service, see the following Quick S
 * “Quick Start (MTOM): Applying a policy to a PDF document using the web service API”
 * “Quick Start (SwaRef): Applying a policy to a PDF document using the web service API ”
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_remove_policies_rp.xml#WS624e3cba99b79e12e69a9941333732bac8-7cbb.2_ver6.1
--->
-
 ## Removing Policies from PDF Documents {#removing-policies-from-pdf-documents}
 
 You can remove a policy from a policy-protected document in order to remove security from the document. That is, if you no longer want the document to be protected by a policy. If you want to update a policy-protected document with a newer policy, then instead of removing the policy and adding the updated policy, it is more efficient to switch the policy.
@@ -883,13 +848,6 @@ For code examples using the Document Security service, see the following Quick S
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_revoke_access_ra.xml#WS624e3cba99b79e12e69a9941333732bac8-7cba.2_ver6.1
--->
 
 ## Revoking Access to Documents {#revoking-access-to-documents}
 
@@ -1035,13 +993,6 @@ For code examples using the Document Security service, see the following Quick S
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_reinstate_access_ra.xml#WS624e3cba99b79e12e69a9941333732bac8-7cb9.2_ver6.1
--->
-
 ## Reinstating Access to Revoked Documents {#reinstating-access-to-revoked-documents}
 
 You can reinstate access to a revoked PDF document, resulting in all copies of the revoked document being accessible to users. When a user opens a reinstated document that was revoked, the user is able to view the document.
@@ -1167,13 +1118,6 @@ For code examples using the Document Security service, see the following Quick S
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_inspect_policy_protected_documents_ip.xml#WS624e3cba99b79e12e69a9941333732bac8-7ff0.2_ver6.1
--->
 
 ## Inspecting Policy Protected PDF Documents {#inspecting-policy-protected-pdf-documents}
 
@@ -1311,13 +1255,6 @@ For code examples using the Document Security service, see the following Quick S
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_create_watermarks_cw.xml#WS624e3cba99b79e12e69a9941333732bac8-7cb8.2_ver6.1
--->
 
 ## Creating Watermarks {#creating-watermarks}
 
@@ -1538,13 +1475,6 @@ For code examples using the Document Security service, see the following Quick S
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_modify_watermarks_mw.xml#WS624e3cba99b79e12e69a9941333732bac8-7cb7.2_ver6.1
--->
-
 ## Modifying Watermarks {#modifying-watermarks}
 
 You can modify an existing watermark using the Document Security Java API or web service API. To make changes to an existing watermark, you retrieve it, modify its attributes, and then update it on the server. For example, assume that you retrieve an watermark and modify its opacity attribute. Before the change takes effect, you must update the watermark.
@@ -1685,13 +1615,6 @@ Modify a watermark by using the Document Security API (web service):
 For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/programming-with-aem-forms/#java_api_soap_quick_start_code_examples)*:
 
 * “Quick Start (MTOM): Modifying a watermark using the web service API”
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_search_events_se.xml#WS624e3cba99b79e12e69a9941333732bac8-7cb6.2_ver6.1
--->
 
 ## Searching for Events {#searching-for-events}
 
@@ -2024,13 +1947,6 @@ For code examples using the Rights Management service, see the following Quick S
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
 
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_apply_policies_word_ap.xml#WS624e3cba99b79e12e69a9941333732bac8-7fef.2_ver6.1
--->
-
 ## Applying Policies to Word Documents {#applying-policies-to-word-documents}
 
 In addition to PDF documents, the Rights Mangement service supports additional document formats such as a Microsoft Word document (DOC file) and other Micosoft office file formats. For example, you can apply a policy to a Word document in order to secure it. By applying a policy to a Word document, you restrict access to the document. You cannot apply a policy to a document if the document is already secured with a policy.
@@ -2187,13 +2103,6 @@ Apply a policy to a Word document by using the Document Security API (web servic
 For code examples using the Document Security service, see the following Quick Start in * [API Quick Starts (Code Examples)](/programming-with-aem-forms/#java_api_soap_quick_start_code_examples)*:
 
 * “Quick Start (MTOM): Applying a policy to a Word document using the web service API ”
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_po_remove_policies_word_rp.xml#WS624e3cba99b79e12e69a9941333732bac8-7fee.2_ver6.1
--->
 
 ## Removing Policies from Word Documents {#removing-policies-from-word-documents}
 

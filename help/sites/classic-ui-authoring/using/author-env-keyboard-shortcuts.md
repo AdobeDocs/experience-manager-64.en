@@ -3,12 +3,12 @@ title: Keyboard Shortcuts for Consoles
 seo-title: Keyboard Shortcuts for Consoles
 description: Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to page editing.
 seo-description: Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to page editing.
-uuid: 4aab2ad5-d6f4-48b1-897a-fa2c2d3bfa03
+uuid: a802e938-592a-49db-b7ea-887afe5196fe
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 800fdcbb-e2b0-4588-af2b-fe47d2bc1c48
+discoiquuid: d8ddb48e-3a4e-4e6c-bda2-311e5c8fd036
 index: y
 internal: n
 snippet: y

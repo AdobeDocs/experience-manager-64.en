@@ -3,12 +3,12 @@ title: AEM Developer Tools for Eclipse
 seo-title: AEM Developer Tools for Eclipse
 description: null
 seo-description: null
-uuid: c288c67b-b2d9-48a8-abd5-15ac4c7db3e9
+uuid: 92335e4a-8ef4-43b0-9583-f2cf57b70b5b
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 3be6d4d4-14af-491b-9ded-b40e8f9feb6c
+discoiquuid: 8164e48d-e9df-4a39-9cf0-37c887c85166
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ snippet: y
 
 # AEM Developer Tools for Eclipse{#aem-developer-tools-for-eclipse}
 
- ![](assets/chlimage_1-79.png) 
+ ![](assets/chlimage_1-78.png) 
 
 ### Overview {#overview}
 
@@ -75,7 +75,7 @@ Once you have fulfilled the [requirements](#requirements) above, you can install
 
 The AEM Development Tools for Eclipse ships with a Perspective that offers you full control over your AEM projects and instances.
 
-![](assets/chlimage_1-3.jpeg) 
+![](assets/chlimage_1-2.jpeg) 
 
 ### Sample Multi-Module Project {#sample-multi-module-project}
 
@@ -85,7 +85,7 @@ Follow these steps to create the sample project:
 
 1. In the **File** &gt; **New** &gt; **Project** menu, browse to the **AEM** section and select **AEM Sample Multi-Module Project**.
 
-   ![](assets/chlimage_1-80.png)
+   ![](assets/chlimage_1-79.png)
 
 1. Click **Next**.
 
@@ -93,15 +93,15 @@ Follow these steps to create the sample project:
    >
    >This step might take a while since m2eclipse needs to scan the archetype catalogs.
 
-   ![](assets/chlimage_1-81.png)
+   ![](assets/chlimage_1-80.png)
 
 1. Choose **com.adobe.granite.archetypes : sample-project-archetype : (highest number)** from the menu, then click **Next**.
 
-   ![](assets/chlimage_1-82.png)
+   ![](assets/chlimage_1-81.png)
 
 1. Fill in a **Name**, **Group id** and an **Artifact id** for the sample project. You can also opt to set some advanced properties.
 
-   ![](assets/chlimage_1-83.png)
+   ![](assets/chlimage_1-82.png)
 
 1. You should then configure an AEM server to which Eclipse will connect.
 
@@ -111,7 +111,7 @@ Follow these steps to create the sample project:
        -nofork -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=10123
    ```
 
-   ![](assets/chlimage_1-84.png)
+   ![](assets/chlimage_1-83.png)
 
 1. Click **Finish**. The project structure is created.
 

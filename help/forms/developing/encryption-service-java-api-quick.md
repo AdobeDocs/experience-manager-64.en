@@ -3,12 +3,12 @@ title: Encryption Service Java API QuickStart(SOAP)
 seo-title: Encryption Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: a29a6eba-26e5-4d2a-9682-8ed22ea85084
+uuid: 6a70fb79-ca3f-4bf1-9091-576746f8208d
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: e4f3fe65-3883-4fae-9ffc-a24b4bafafac
+discoiquuid: 57e8e383-c143-40f8-b4af-f5f68188c98a
 index: y
 internal: n
 snippet: y

@@ -4,22 +4,15 @@ seo-title: Getting Started with AEM Assets
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: c9fdfb0a-e3f4-4b8e-a073-99b546870a17
+uuid: 554a34e4-7239-4270-9398-45818f918dd4
 contentOwner: alvawb
-discoiquuid: d8465f69-1d19-4353-91f3-30f6b3b0d32d
+discoiquuid: 692bb244-0f7a-4f55-be66-bd8df69a3ba7
 index: y
 internal: n
 snippet: y
 ---
 
 # Getting Started with AEM Assets{#getting-started-with-aem-assets}
-
-<!--
-Comment Type: remark
-Last Modified By: Rick Brough (rbrough)
-Last Modified Date: 2018-02-07T17:56:23.482-0500
-<p>This topic needs hyperlinks added to the bullet lists that mention other Help topics by name only. Areas that need the hyperlinks are where the yellow remarks are located.</p>
--->
 
 This Getting Started document walks you through the basic functionality of Adobe Experience Manager (AEM) Assets. Follow this tutorial to get a good handle on the various functionality of AEM Assets, including the following:
 
@@ -29,14 +22,6 @@ This Getting Started document walks you through the basic functionality of Adobe
 * Searching for assets
 
 In addition, links to documentation for more details on more advanced functionality is provided after each tutorial.
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>If you are using Dynamic Media, you may want to walk through the dynamic media getting started topic and if you are an administrator, the administering walkthrough has basic information.</p>
-</note>
--->
 
 ## Navigation Basics {#navigation-basics}
 
@@ -169,13 +154,6 @@ In this tutorial, you learn how to manage your assets by creating folders and up
 
    ![](assets/screen_shot_2018-01-24at145029.png)
 
-<!--
-Comment Type: remark
-Last Modified By: Rick Brough (rbrough)
-Last Modified Date: 2018-02-07T17:52:18.029-0500
-<p>Add hyperlinks to the bullet list below.</p>
--->
-
 In this tutorial, you learned how to navigate in AEM Assets as well as how to upload and download assets and create folders.
 
 For more information, see the following topics:
@@ -217,13 +195,6 @@ In this tutorial, you learn how to work with individual assets, including using 
 
    ![](assets/screen_shot_2018-01-29at164526.png)
 
-<!--
-Comment Type: remark
-Last Modified By: Rick Brough (rbrough)
-Last Modified Date: 2018-02-07T17:53:15.259-0500
-<p>Add hyperlinks to the bullet list below.</p>
--->
-
 In this tutorial, you learned how to work with assets, viewers, renditions, zoom in and out of assets, and view and edit metadata properties, and view the timeline.
 
 For more information, see the following:
@@ -255,13 +226,6 @@ In this tutorial, you learn how to search for assets.
    ![](assets/screen_shot_2018-01-31at165613.png)
 
    Notice that checking images adds it to the search toolbar as **File Type:Images**. You can remove that filter by either clicking **x** or removing the checkmark next to the word Images.
-
-<!--
-Comment Type: remark
-Last Modified By: Rick Brough (rbrough)
-Last Modified Date: 2018-02-07T17:53:56.173-0500
-<p>Add hyperlinks to the bullet list below.</p>
--->
 
 In this tutorial you learned how to search for an asset. For more information, see the following:
 

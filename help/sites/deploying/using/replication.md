@@ -3,12 +3,12 @@ title: Replication
 seo-title: Replication
 description: Learn how to configure and monitor replication agents in AEM.
 seo-description: Learn how to configure and monitor replication agents in AEM.
-uuid: 518d660a-63d2-40cf-aae3-733744a76498
+uuid: 5a652289-43a3-4313-aa09-006aa4186f51
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: 3b67ec34-d664-465e-a502-561f5aba9a3b
+discoiquuid: d9e3f1a2-e3bb-46af-a47a-df0595e428d0
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ Replication, to a publish instance or dispatcher, takes place in several steps:
 
 * multiple author and publish environments can be configured.
 
-![](assets/chlimage_1-161.png) 
+![](assets/chlimage_1-147.png) 
 
 ### Replicating from Publish to Author {#replicating-from-publish-to-author}
 
@@ -96,65 +96,6 @@ This replication is actioned from the author environment by the:
   This agent replicates content to the default publish instance.  
   Details of this (configuration and logs) can be accessed from the Tools console of the author environment; or:  
   `http://localhost:4502/etc/replication/agents.author/publish.html`.
-
-<!--
-Comment Type: draft
-
-<h4>Reverse Replication (Publish to Author)</h4>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-D9FB647253FD17BE0A4C98A6@AdobeID)
-Last Modified Date: 2017-11-30T05:42:28.769-0500
-<p>This example would need to be replaced with something other than UGC from a Communities component.</p>
-<p>Is there an example for Forms?</p>
-<p>See <a href="https://jira.corp.adobe.com/browse/DOC-6468">DOC-6468</a> For Communities features, UGC is no longer replicated.</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li><p>Navigate to the Geometrixx Outdoors Community Hiking page on the publish environment:<br /> <span class="code">http://localhost:4503/content/geometrixx-outdoors/en/community/hiking.html</span></p> </li>
-<li><p>At the top of the page, click Sign In Or Register. Enter the credentials for the default admin account and click Sign In.</p> </li>
-<li><p>Below the Best GPS for Hiking topic, click No Comments Yet.</p> <img imageRotate="0" src="assets/chlimage_1-162.png" /></li>
-<li><p>Enter a comment and click Post Comment.</p> <p>Your comment appears below the Comments heading.</p> </li>
-<li><p>Open the Hiking community page on the author environment:<br /> <span class="code"><a href="http://localhost:4502/content/geometrixx-outdoors/en/community/hiking.html">http://localhost:4502/content/geometrixx-outdoors/en/community/hiking.html</a>.</span><br /> Click the Comment button to see the comment that you entered on the publish page.</p> </li>
-<li><p>Open CRXDE Lite for the author environment:<br /> <span class="code"><a href="http://localhost:4502/crx/de">http://localhost:4502/crx/de</a></span></p> </li>
-<li><p>Navigate to the user generated content:<br /> <span class="code">/content/usergenerated/content/geometrixx-outdoors/en/community/hiking/journal/2012/12/best_gps_for_hiking/jcr:content/comments/1Bucket</span><br /> </p> </li>
-<li><p>Here you can see that your comment has been replicated from the publish to the author environment.</p> </li>
-</ol>
--->
-
-<!--
-Comment Type: draft
-
-<p>This replication is actioned from the publish environment by the:<br /> </p>
-<ul>
-<li><strong>Reverse Replication (outbox)</strong><br /> This agent stores reverse replicated content in the outbox (<span class="code">repo://var/replication/outbox</span>), which acts as a queue.<br /> Details of this (configuration and logs) can be accessed from the Tools console of the author environment; or:<br /> <code class="code">http://localhost:4502/etc/replication/agents.publish/outbox.html
-<discoiqbr /> </code></li>
-</ul>
-<p>This agent transfers content to the author environment, by communicating with the:<br /> </p>
-<ul>
-<li><strong>Reverse Replication Agent (publish_reverse)</strong><br /> This agent polls the default publish instance to retrieve reverse replicated content from the outbox.<br /> Details of this (configuration and logs) can be accessed from the Tools console of the author environment; or:<br /> <span class="code">http://localhost:4502/etc/replication/agents.author/publish_reverse.html</span></li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Reverse replication does not happen when a node is created. This is a known issue. Work around this issue by using the workflow launcher with the following configuration:</p>
-<ul>
-<li>Event Type: Node Created<br /> </li>
-<li>Node Type: cq:Page<br /> </li>
-<li>Globbing: &lt;branch where pages are created&gt;(/.*)<br /> </li>
-<li>Workflow: Reverse Replication<br /> </li>
-<li>Run Modes: publish</li>
-</ul>
-</note>
--->
 
 #### Replication Agents - Out of the Box {#replication-agents-out-of-the-box}
 
@@ -421,7 +362,7 @@ From the Tools tab in the author environment you can configure replication agent
 1. Click the appropriate agent name (which is a link) to show detailed information on that agent.
 1. Click **Edit** to open the configuration dialog:
 
-   ![](assets/chlimage_1-163.png)
+   ![](assets/chlimage_1-148.png)
 
 1. The values provided should be sufficient for a default installation. If you make changes then click **OK** to save them (see [Replication Agents - Configuration Parameters](#replicationagentsconfigurationparameters) for more details of the individual parameters).
 
@@ -452,7 +393,7 @@ To do this you need:
 
 If you want to use reverse replication then ensure that this agent is activated.
 
-![](assets/chlimage_1-164.png)
+![](assets/chlimage_1-149.png)
 
 **A reverse replication agent in the publish environment (an outbox)** This is the passive element as it acts as an "outbox". User input is placed here, from where it is collected by the agent in the author environment.
 
@@ -569,7 +510,7 @@ If you navigate to `/etc/replication` you can see the following three nodes:
 
 The two `agents` hold configuration information about the appropriate environment, and are only active when that environment is running. For example, `agents.publish` will only be used in the publish environment. The following screenshot shows the publish agent in the author environment, as included with AEM WCM:
 
-![](assets/chlimage_1-165.png) 
+![](assets/chlimage_1-150.png) 
 
 ## Monitoring your Replication Agents {#monitoring-your-replication-agents}
 

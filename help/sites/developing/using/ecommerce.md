@@ -3,12 +3,12 @@ title: eCommerce
 seo-title: eCommerce
 description: The integration framework includes an integration layer with an API
 seo-description: The integration framework includes an integration layer with an API
-uuid: 42fc6efe-d204-401b-9e2f-5c88550d88b0
+uuid: 5a7cc9d1-b20d-46ca-aedc-d4f3bd2dc733
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: 7fa9b0fb-bbd2-493d-90cd-7edb2538af73
+discoiquuid: 605868d5-65d7-4e95-bbf6-0be86a5e9872
 index: y
 internal: n
 snippet: y

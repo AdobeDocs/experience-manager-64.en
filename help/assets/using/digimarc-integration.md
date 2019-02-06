@@ -4,12 +4,12 @@ seo-title: Integrating digital non-visible watermarking (Digimarc) with Dynamic 
 description: Learn how to integrate Digimarc digital watermarking to weave a unique, imperceptible, and traceable identifier into image assets.
 seo-description: Learn how to integrate Digimarc digital watermarking to weave a unique, imperceptible, and traceable identifier into image assets.
 page-status-flag: never-activated
-uuid: 1cad1161-9808-4fb6-9319-227ecbb7257e
+uuid: 4ab6055f-a94c-44ba-95da-17e3e9c39b23
 contentOwner: rbrough
 topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: dee10059-9a63-4a13-968b-1892d69ba3b1
+discoiquuid: c5c2ceab-efa9-4409-9861-ad6519fa8baf
 index: y
 internal: n
 snippet: y
@@ -24,20 +24,6 @@ To integrate Digimarc Barcode with image assets in Dynamic Media, you need your 
 You can set the level for Digimarc durability. If you plan to alter images dynamically (through image adjustments or by displaying images at dramatically different sizes), set the durability to 4 (the strongest setting). This setting ensures that watermarks are recognized. The Digimarc ID is also enabled on the Dynamic Media Image Server. Any images that were created and saved from operations like Export are marked with the corresponding Digimarc identification.
 
 **To integrate Digimarc with Dynamic Media:**
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-11-02T12:47:10.717-0400
-Is this integration supported in Dynamic Media - Hybrid mode AND Dynamic Media - Scene7 mode??
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-12-10T15:25:31.713-0500
-Need to get with Alex Thiers to get the steps for Digimarc finalized in the topic Hyperlinked to here from the bullet list in "Delivering Dynamic Media Assets" topic CQDOC-13684
--->
 
 1. Create a support ticket and request that Digimarc be configured for your Dynamic Media. At the time the ticket is create you will need to include the following information that is provided by Digimarc:
 

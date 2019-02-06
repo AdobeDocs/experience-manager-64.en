@@ -3,12 +3,12 @@ title: Customizing Views of Page Properties
 seo-title: Customizing Views of Page Properties
 description: Every page has a set of properties that you can edit as required
 seo-description: Every page has a set of properties that you can edit as required
-uuid: b253d10f-00d8-4793-a87d-6e69c4228032
+uuid: 98472f1b-99fb-4248-8938-3e0efc0ec2ca
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: e67ff19a-7dcc-4839-bde3-401284c9d4c2
+discoiquuid: 456c379b-25c2-4fcd-8c1d-9df7f5ee0d90
 index: y
 internal: n
 snippet: y
@@ -126,15 +126,4 @@ CODE ON GITHUB
 You can find the code of this page on GitHub
 
 * [Open aem-authoring-extension-page-dialog project on GitHub](https://github.com/Adobe-Marketing-Cloud/aem-authoring-extension-page-dialog)
-
-<!--
-Comment Type: draft
-
-<p>CODE ON GITHUB</p>
-<p>You can find the code of this page on GitHub</p>
-<ul>
-<li><a href="https://github.com/Adobe-Marketing-Cloud/aem-authoring-extension-page-dialog">Open aem-authoring-extension-page-dialog project on GitHub</a></li>
-<li>Download the project as <a href="https://github.com/Adobe-Marketing-Cloud/aem-authoring-extension-page-dialog/archive/master.zip">a ZIP file</a></li>
-</ul>
--->
 

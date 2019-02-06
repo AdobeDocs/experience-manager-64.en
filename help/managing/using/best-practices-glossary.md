@@ -3,25 +3,18 @@ title: Glossary
 seo-title: Glossary
 description: This glossary lists (alphabetically) details of all Deliverable documents from the Project Checklist.
 seo-description: This glossary lists (alphabetically) details of all Deliverable documents from the Project Checklist.
-uuid: 1d384153-b714-4110-8a18-c2fb9e7acd21
+uuid: 071bd4f2-be86-45a0-93b9-9db49b332c7a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
-discoiquuid: c7e3b21b-ada4-42ae-becd-80fb99b96c30
+discoiquuid: f8fe13de-3aef-477f-a713-95e329a0e724
 index: y
 internal: n
 snippet: y
 ---
 
 # Glossary{#glossary}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:45.190-0500
-<p>does the spreadsheet glossary only cover deliverables?</p>
--->
 
 This glossary lists (alpabetically) details of all Deliverable documents from the [Project Checklist](../../managing/using/best-practices-checklist.md).
 
@@ -30,13 +23,6 @@ This glossary lists (alpabetically) details of all Deliverable documents from th
 Acceptance from business stakeholders confirms that they, as key stakeholders, are aligned with the solution and have given their approval as to how the business requirements meet the business case.
 
 ### Acceptance Tests {#acceptance-tests}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:45.246-0500
-<p>user acceptance tests?</p>
--->
 
 Acceptance testing is performed when an application is ready for production. The tests are performed by a group representing the various types of end-user, using real-life scenarios.
 
@@ -53,17 +39,6 @@ Although you might not be able to define all details at the very start of the pr
 
 ### Access to Test System Coordinated {#access-to-test-system-coordinated}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:45.291-0500
-<p>Glossary:</p>
-<p>"All roles that require access are granted the required level of access to all systems."</p>
-<p>why coordinated?</p>
-<p>1 test system or all test systems?</p>
-<p>only test systems?</p>
--->
-
 Ensure that the required levels of system access have been granted to all roles.
 
 ### Adobe Security Checklist {#adobe-security-checklist}
@@ -71,13 +46,6 @@ Ensure that the required levels of system access have been granted to all roles.
 The [Adobe Security Checklist](../../sites/administering/using/security-checklist.md) is the official checklist provided to ensure that AEM is secure at installation. It contains the security measures and verification steps you need to perform to ensure the integrity of your instance. [](../../sites/administering/using/security-checklist.md)
 
 ### Adobe Support Portal Project Set Up {#adobe-support-portal-project-set-up}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:45.347-0500
-<p>needs more detail</p>
--->
 
 The Adobe Support Portal enables implementation partners and customers to set up the AEM implementation as a project in the Support Portal.
 
@@ -92,15 +60,6 @@ Training for administrative staff of the solution. See the [Adobe Training Servi
 Training for staff who will be producing (authoring) content for the solution. See the [Adobe Training Services](https://training.adobe.com/training/courses.html#solution=adobeExperienceManager) for more information.
 
 ### AEM Certification Exam {#aem-certification-exam}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:45.425-0500
-<p>why are there two entries concerning the exam? ie certification exam and certified ?</p>
-<p>Glossary: </p>
-<p>"Cerification exams for developers, architects, engineers and business practicioners."</p>
--->
 
 Ensure that the appropriate persona are registered to take the relevant [certification exams](https://training.adobe.com/certification/exams.html#p=1&solution=adobeExperienceManager).
 
@@ -118,24 +77,9 @@ Key Performance Indicators (KPIs) help an organization to define and measure pro
 
 ### Align Business and Performance KPIs {#align-business-and-performance-kpis}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:45.537-0500
-<p>Glossary:</p>
-<p>"Business and Performance KPIs alignment helps the organization to pull everyone and every process within the organization together in order to spend the least amount of time and effort to achieve business goals and fullfil its purpose."</p>
--->
-
 Alignment of your business and performance Key Performance Indicators (KPIs) helps pull together all the involved people and processes from within the organization. This in turn helps reduce the amount of time and effort required to achieve business goals and fulfill the proposed purpose.
 
 ### Alignment of Content Architecture with KPIs {#alignment-of-content-architecture-with-kpis}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:45.571-0500
-<p><strong>NOT IN GLOSSARY</strong></p>
--->
 
 Ensure that the proposed content architecture is aligned with the relevant Key Performance Indicators (KPIs).
 
@@ -230,16 +174,6 @@ The entire project team and all stakeholders must confirm that they are aware of
 
 ### Backup and Restore Concept {#backup-and-restore-concept}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:45.892-0500
-<p>Glossary:</p>
-<p>"The Back up and Restore Concept outlines the technical functionality that will be implemented in the solution and is required by the Company back up and restore policy."</p>
-<p>the "Company" - the customer?</p>
-<p>surely the company (customer?) policy predates this...so is "based on" not "required by"?</p>
--->
-
 The Backup and Restore Concept outlines the technical functionality that will be implemented in the solution. It is required by the Company back up and restore policy.
 
 ### Backup and Restore Tested {#backup-and-restore-tested}
@@ -253,14 +187,6 @@ A business case document presents the arguments related to taking the action, ta
 A business case document should be a clear definition of all options, concluding with a compelling argument for implementation of the proposed solution.
 
 ### Business Analyst Understands Scope of Project and Expectations {#business-analyst-understands-scope-of-project-and-expectations}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:45.970-0500
-<p><strong><i>IS NOT IN THE GLOSSARY</i></strong></p>
-<p>why this and "<a href="#understands-scope-of-project-and-expectations">Understands Scope of Project and Expectations</a>"</p>
--->
 
 The Business Analyst should confirm that they fully understand:
 
@@ -282,13 +208,6 @@ When examining the business solution the BRD should answer the question:
 “What does the business want to do?”
 
 ### Business Sign Off on any Required Adjustments to the Solution or Architecture Identified and Aligned Against ROI and KPI Expectations {#business-sign-off-on-any-required-adjustments-to-the-solution-or-architecture-identified-and-aligned-against-roi-and-kpi-expectations}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:46.048-0500
-<p>penetration tests don't happen until much later...so how can they be assessed here?</p>
--->
 
 The processes of risk assessment and penetration testing may produce issues and outcomes that need to be addressed in the architecture or development of the solution.
 
@@ -342,15 +261,6 @@ The outline of the templates and components that will be used in the new applica
 
 ### Components and Templates Relationship Specification {#components-and-templates-relationship-specification}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:46.302-0500
-<p>Glossary:</p>
-<p>"Details of the Components and templates relationship concept."</p>
-<p>sounds more like the concept than the specification...</p>
--->
-
 Details of the components and templates relationship concept.
 
 ### Components Specification {#components-specification}
@@ -358,16 +268,6 @@ Details of the components and templates relationship concept.
 Specification details for each of the components to be implemented.
 
 ### Concept for Mock-ups of External Interfaces {#concept-for-mock-ups-of-external-interfaces}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:46.357-0500
-<p>Spreadsheet:</p>
-<p>"Mocking Concept of External Interfaces"</p>
-<p><a href="https://en.oxforddictionaries.com/definition/us/mocking">https://en.oxforddictionaries.com/definition/us/mocking</a></p>
-<p><a href="http://dict.leo.org/ende/index_en.html#/search=mocking&searchLoc=0&resultOrder=basic&multiwordShowSingle=on&pos=0">http://dict.leo.org/ende/index_en.html#/search=mocking&searchLoc=0&resultOrder=basic&multiwordShowSingle=on&pos=0</a></p>
--->
 
 The concept of how to develop against and test any external interfaces that may not be open/available to the development or test environments.
 
@@ -386,14 +286,6 @@ Documentation of the proposed architecture of the content. The details should in
 The legacy system content is reviewed and the selected content is validated for migration to the new solution.
 
 ### Contract Draft {#contract-draft}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:46.436-0500
-<p>more information?</p>
-<p>parties involved?</p>
--->
 
 An initial draft of the legal contract.
 
@@ -430,13 +322,6 @@ The schedule that is defined by the customer for releases to the production envi
 
 ### Customer Reporting Policies and Requirements {#customer-reporting-policies-and-requirements}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:46.625-0500
-<p>should be and (not or) - customer could provide both</p>
--->
-
 Any policies and/or requirements that the customer has in regard to reporting. These can include:
 
 * how often specific reports should be delivered
@@ -464,13 +349,6 @@ Any guidelines the customer has relating to the format, delivery and sign-off of
 Reports from the customer to the Quality Lead during the User Acceptance Test (UAT) period.
 
 ### Customizations and Hotfixes that Affect Upgrades Documented {#customizations-and-hotfixes-that-affect-upgrades-documented}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:46.747-0500
-<p>why only hotfixes in the title when the description includes SPs, CFPs, upgrades.....</p>
--->
 
 Any customizations and/or applied hotfixes applied must be documented as they can affect future upgrades:
 
@@ -508,16 +386,6 @@ Define the required frequency of deployments across environments.
 
 ### Development Methodology {#development-methodology}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:46.875-0500
-<p>Glossary:</p>
-<p>"Software development methodology is a splitting of software development work into distinct phases (or stages) containing activities with the intent of better planning and management. It is often considered a subset of the systems development life cycle. The methodology may include the pre-definition of specific deliverables and artifacts that are created and completed by a project team to develop or maintain an application."</p>
-<p>this seems to be a direct quote from wikipedia....you'll need to show citation</p>
-<p>(has been rephrased below)</p>
--->
-
 A software development methodology involves breaking the entire process of software development work into distinct phases (or stages), each with distinct activities. The aim is to improve planning and management.
 
 When defining the methodology you should pre-define specific deliverables and artifacts that are created and completed by the project team to develop or maintain your application.
@@ -531,14 +399,6 @@ Define which developer and/or role is executing IT (performance or other) and/or
 Ensure that the development environment is configured with the integrated tooling required for the automation of deployments.
 
 ### Development Team Understands Scope of Project and Expectations {#development-team-understands-scope-of-project-and-expectations}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:46.954-0500
-<p><strong><i>IS NOT IN THE GLOSSARY</i></strong></p>
-<p>why this and "<a href="#understands-scope-of-project-and-expectations">Understands Scope of Project and Expectations</a>"</p>
--->
 
 The Development Team should confirm that they fully understand:
 
@@ -588,13 +448,6 @@ Definition of all escalation processes. There will be separate processes for eac
 
 ### Establish Regular Quality Review Sessions {#establish-regular-quality-review-sessions}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:47.197-0500
-<p><strong>NOT IN GLOSSARY</strong></p>
--->
-
 Establish regular quality review meetings with the appropriate team members.
 
 ### Existing Permissions Structure {#existing-permissions-structure}
@@ -625,16 +478,6 @@ Details of the Experience Design Requirements.
 
 ### External System and User Dependencies/System Context {#external-system-and-user-dependencies-system-context}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:47.363-0500
-<p>title could be improved - needs clarification eg:</p>
-<ul>
-<li>External Systems, User Dependencies and System Context</li>
-</ul>
--->
-
 A diagram (or set of diagrams) outlining the full ecosystem of the solution. This should include elements such as the external integrations, interfaces, dependencies and networks.
 
 ### Fallback System and Procedure {#fallback-system-and-procedure}
@@ -657,13 +500,6 @@ Sign off, from the business stakeholders, that the fallback system and related p
 Results of a feasibility study for both AEM and the high level solution design. These should be measured against the KPIs to ensure that these can be met.
 
 ### Finalized Contract {#finalized-contract}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:47.494-0500
-<p>need more info - parties involved? key info to be defined in the contract (eg deadlines, responsibilies, deliverables?)</p>
--->
 
 A finalized and signed contract is needed before proceeding with the project. This is based on the [Contract Draft](#contractdraft).
 
@@ -693,18 +529,6 @@ Initial estimates of:
 * any additional requirements, based on the high level solution design
 
 ### Hardware will be Available to Fulfill Requirements {#hardware-will-be-available-to-fulfill-requirements}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:47.624-0500
-<p>Glossary:</p>
-<p>"Hardware will be available to fullfil requirements"</p>
-<p>"All environments will have the minimum required hardware in place for development."</p>
-<p><a href="https://www.merriam-webster.com/dictionary/suggestions/fullfil">https://www.merriam-webster.com/dictionary/suggestions/fullfil</a></p>
-<p><a href="https://www.merriam-webster.com/dictionary/fulfill">https://www.merriam-webster.com/dictionary/fulfill</a></p>
-<p>All environments or only development?</p>
--->
 
 Confirmation that all environments will have the minimum required hardware in place.
 
@@ -783,13 +607,6 @@ Implementation of software application security.
 
 ### Implementation - System Architecture Security Concept {#implementation-system-architecture-security-concept}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:48.039-0500
-<p>description should be more specific</p>
--->
-
 Implementation of the system security.
 
 ### Implementation - URL Handling {#implementation-url-handling}
@@ -829,32 +646,9 @@ This should be automated and run frequently to ensure system stability.
 
 ### Issue Tracking Process {#issue-tracking-process}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:48.209-0500
-<p><strong>NOT IN GLOSSARY</strong></p>
-<p>Duplicate</p>
--->
-
 Clear processes record all issues encountered and track ongoing activities with the aim of ensuring that all issues are addressed.
 
 ### Issue Tracking System and Processes {#issue-tracking-system-and-processes}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:48.243-0500
-<p>duplicate</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:48.255-0500
-<p>Glossary:</p>
-<p>"A shared system of record that all project stakeholders have access to in order to facilitate transparency of the project status and that any issues are addressed. Examples are JIRA and HP Quality Center."</p>
--->
 
 A tracking system, together with the required processes, to record all issues encountered and track ongoing activities with the aim of ensuring that all issues are addressed.
 
@@ -863,14 +657,6 @@ All project stakeholders should have access in order to facilitate transparency 
 Examples includes Atlassian JIRA and HP Quality Center.
 
 ### Issue Tracking System Process is Set Up and Integrated {#issue-tracking-system-process-is-set-up-and-integrated}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:48.289-0500
-<p>duplicate</p>
-<p>thought we were to treat the users of the spreadsheet as intelligent - you wouldn't do "Issue Tracking System and Processes" without setting it up....</p>
--->
 
 The selected tooling is fully integrated and access granted to all required roles.
 
@@ -904,14 +690,6 @@ An analysis, together with the resulting recommendations, defining what needs to
 * information logged for each activity
 
 ### Maintenance Tasks (AEM Specific) Tested and Enabled {#maintenance-tasks-aem-specific-tested-and-enabled}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:48.410-0500
-<p>"Maintenance Tasks Specific to AEM Tested and Enabled"</p>
-<p>why only "specific to AEM"...surely any tasks related to the project should be tested and enabled? eg disk space monitoring/maintenance, system clean, etc, etc</p>
--->
 
 Test and enable AEM maintenance tasks such as:
 
@@ -979,13 +757,6 @@ Monitor the solution's usage of the network bandwidth:
 
 ### Monitoring - Requests {#monitoring-requests}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:48.598-0500
-<p>title could be a bit more specific....what sort of requests? HTTP? </p>
--->
-
 Monitor the requests made to the solution.
 
 ### Monitoring - Security Points {#monitoring-security-points}
@@ -1002,13 +773,6 @@ Monitor the overall system; for example:
 * alerts
 
 ### Monitoring - Threshold and Intervention {#monitoring-threshold-and-intervention}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:48.676-0500
-<p>threshold of what?</p>
--->
 
 Monitoring of the solution's defined threshold together with the implementation of intervention steps to reduce load.
 
@@ -1031,15 +795,6 @@ Examples include (amongst others):
 * integration points
 
 ### Monitoring Policy Communicated to System Engineer {#monitoring-policy-communicated-to-system-engineer}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:48.754-0500
-<p>Glossary:</p>
-<p>"The system engineers and operations staff must know and understand any customer monitoring policies."</p>
-<p>why only customer policies?</p>
--->
 
 Ensure that the system engineers and operations staff know and understand any monitoring policies.
 
@@ -1129,13 +884,6 @@ It is usual to run a baseline test on a standard installation of AEM. This is th
 
 ### Production Environment Ready {#production-environment-ready}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:49.174-0500
-<p>Glossary:<br /> "<strong><i>Test</i></strong> environment is ready with automated deployments in place."</p>
--->
-
 Confirm that the production environment is ready, with automated deployments in place.
 
 ### Production Sign Off from Business Stakeholders {#production-sign-off-from-business-stakeholders}
@@ -1198,24 +946,9 @@ AEM maintains multiple versions of assets and content. Purge rules are designed 
 
 ### Quality Report Format and Cadence {#quality-report-format-and-cadence}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:49.428-0500
-<p><strong>NOT IN GLOSSARY</strong></p>
--->
-
 Define the required content and format of the quality report, together with how frequently it must be delivered.
 
 ### Release Coordinated {#release-coordinated}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:49.462-0500
-<p>coordinates?</p>
-<p>more details required</p>
--->
 
 The project manager coordinates all roles required for the release to production.
 
@@ -1244,38 +977,15 @@ You should highlight specific contract terms that are relevant to the implementa
 
 ### Reporting Cadence {#reporting-cadence}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:49.573-0500
-<p>which reports?</p>
-<p>other specific reports have their own entry</p>
--->
-
 Together with the customer, define the frequency of reports delivered to them.
 
 ### Repository Optimization {#repository-optimization}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:49.607-0500
-<p>make title more specific? </p>
-<p>only tar related?</p>
--->
 
 Data is never overwritten in a tar file, the disk usage increases even when only updating existing data.
 
 To counteract the ever increasing size of the repository, an optimization strategy is put in place to remove obsolete data.
 
 ### Request for Setting Up Project Section in Adobe Support Portal {#request-for-setting-up-project-section-in-adobe-support-portal}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:49.641-0500
-<p>NOT IN GLOSSARY</p>
--->
 
 The official request to set up your project in the Adobe Support Portal.
 
@@ -1288,13 +998,6 @@ This set of documentation covers the functional and non-functional requirements,
 Ensure that all the roles required for go live are staffed and available.
 
 ### Risk Assessment {#risk-assessment}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:49.719-0500
-<p>very general/generic (potentially confusing) title considering the entire milestone is called Risk Assessment</p>
--->
 
 The Risk Assesment is executed by the customer's IT and/or Security department(s).
 
@@ -1364,13 +1067,6 @@ A high level outline covering the security setup of the:
 
 ### Security Issues Listed and Assessed {#security-issues-listed-and-assessed}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:49.973-0500
-<p>all effort estimates - or just related ones?</p>
--->
-
 All security issues of the solution listed and assessed; including effort estimates.
 
 ### Security Sign Off from Business Stakeholders {#security-sign-off-from-business-stakeholders}
@@ -1417,45 +1113,13 @@ It can also serve as a contractual milestone.
 
 ### Special Functionality Concept {#special-functionality-concept}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.211-0500
-<p>needs more detail:</p>
-<ul>
-<li>what is consider special?</li>
-<li>what is considered normal?</li>
-<li>from whose point of view (customer or Adobe)?</li>
-</ul>
--->
-
 The initial concept for any special functionality that is considered outside the normal scope of development on the AEM platform.
 
 ### Special Functionality Specification {#special-functionality-specification}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.245-0500
-<p>needs more detail:</p>
-<ul>
-<li>what is consider special?</li>
-<li>what is considered normal?</li>
-<li>from whose point of view (customer or Adobe)?</li>
-</ul>
--->
-
 Details of any special functionality that is considered outside the normal scope of development on the AEM platform.
 
 ### Specification Guidelines {#specification-guidelines}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.280-0500
-<p>Glossary:</p>
-<p>"Any guidelines from the customer on how specification should be done apart from the project guidelines."</p>
--->
 
 Any guidelines from the customer on how the specification should be done.
 
@@ -1465,47 +1129,13 @@ A clear process for the customer sign off of specifications should be put in pla
 
 ### Staff Selected for AEM Administrator Training {#staff-selected-for-aem-administrator-training}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.336-0500
-<p>Glossary:</p>
-<p>"Internal staff that will need the first round of training to administer the solution."</p>
-<p>why only the first round?</p>
--->
-
 Internal staff that will need training to administer the solution.
 
 ### Staff Selected for Author and End User Training {#staff-selected-for-author-and-end-user-training}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.370-0500
-<p>Glossary:</p>
-<p>"Internal staff that will need the first round of training on the solution."</p>
-<p>why only the first round?</p>
-<p>why end user training - surely the end users are usually external?</p>
-<p>and if they're internal, then surely that deserves a separate item?</p>
--->
-
 Internal staff that will need training to author on the solution.
 
 ### Stakeholders {#stakeholders}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.403-0500
-<p>Stakeholders are people - not a document or action</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.415-0500
-<p>need to specify the difference between business and customer stakeholders - the two terms are used throughout the glossary and seem very similar</p>
--->
 
 Stakeholders are the key persons and/or roles that have a significant interest in the project. Some will be contributing towards the project budget.
 
@@ -1513,28 +1143,12 @@ The stakeholders can be internal and/or external.
 
 ### Stakeholders are Aware of Success Definitions and Criteria {#stakeholders-are-aware-of-success-definitions-and-criteria}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.449-0500
-<p>why this and <a href="#aware-of-success-definitions-and-criteria">Aware of Success Definitions and Criteria</a> </p>
-<p>especially as that one explicitly mentions stakeholders...</p>
--->
-
 Confirmation that all stakeholders outside the actual implementation team are aware of the:
 
 * definitions of success
 * criteria for success
 
 ### Stakeholders Understand Project and Expectations {#stakeholders-understand-project-and-expectations}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.483-0500
-<p>why this and:</p>
-<p>- <a href="#understands-scope-of-project-and-expectation">Understands Scope of Project and Expectation</a>s</p>
--->
 
 Confirmation that all stakeholders outside the actual implementation team are in alignment with the overall project and expectations, both internal to the project team and to the customer.
 
@@ -1556,25 +1170,9 @@ These are used to ensure that the criteria for success are met:
 
 ### Support in Validation of Reported Issues {#support-in-validation-of-reported-issues}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.561-0500
-<p>Glossary:</p>
-<p>"Part of the Quality Leads responsibilities are to ensure that there are resources available to support any user or UAT reported issues and validate them against the test environment."</p>
-<p>how can they support the issue?</p>
--->
-
 Part of the Quality Lead's responsibilities are to ensure that there are resources available to support any user when testing. For example, to help the user when testing, when reporting issues and to help validate the issues against the test environment.
 
 ### Support Processes and Access to Adobe Support Portal {#support-processes-and-access-to-adobe-support-portal}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.595-0500
-<p>what about the support processes?</p>
--->
 
 Access to the Adobe Support Portal is crucial for submitting tickets about any product based issues that may arise during implementation.
 
@@ -1607,25 +1205,9 @@ Any risk factors found in the risk assesment (or other reviews) are identified a
 
 ### Team is Aware of Success Definitions and Criteria {#team-is-aware-of-success-definitions-and-criteria}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.717-0500
-<p>why this and <a href="#aware-of-success-definitions-and-criteria">Aware of Success Definitions and Criteria</a></p>
-<p>especially as that one explicitly mentions the team...</p>
--->
-
 Confirmation that the entire team is aware of the success definitions and criteria.
 
 ### Team is Aware of the Communication Plan {#team-is-aware-of-the-communication-plan}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:50.751-0500
-<p>why this and <a href="#aware-of-communication-plan">Aware of Communication Plan</a></p>
-<p>especially as that one explicitly mentions the team...</p>
--->
 
 Confirmation that all members of the team are aware of who should be communicating with the customer, together with details of how and when.
 
@@ -1694,13 +1276,6 @@ Selection of the automation suite and tooling. These will be used to automate te
 
 ### Test Tooling Suite Selected {#test-tooling-suite-selected}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:51.006-0500
-<p><strong>NOT IN GLOSSARY</strong></p>
--->
-
 Automation suite and tooling selected for use case automation and other test execution tasks.
 
 ### Testing Concept {#testing-concept}
@@ -1748,14 +1323,6 @@ Defines:
 
 ### Threshold Definition {#threshold-definition}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:51.260-0500
-<p>title could be more precise</p>
-<p>principal? - or production?</p>
--->
-
 Defines the key values for monitoring points in the system.
 
 For example:
@@ -1781,17 +1348,6 @@ If there is a support level included in the agreement, support and operations ef
 Materials to be used in training sessions. The materials should be created specifically for the solution and designed to be used in conjunction with the User Guides.
 
 ### Understands Scope of Project and Expectations {#understands-scope-of-project-and-expectations}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:51.360-0500
-<p>is this a generic title, to be used for multiple persona (occurs in other phases too) - in which case why is there:</p>
-<ul>
-<li>"<a href="#business-analyst-understands-scope-of-project-and-expectations">Business Analyst Understands Scope of Project and Expectations</a>"</li>
-<li>"<a href="#development-team-understands-scope-of-project-and-expectations">Development Team Understands Scope of Project and Expectations</a>"</li>
-</ul>
--->
 
 The appropriate persona should confirm that they fully understand:
 
@@ -1824,15 +1380,6 @@ A use case is the list of actions or event steps needed to achieve a goal. Typic
 Test scenarios are based on the technical and business use cases. They are used to test that the solution behavior is as expected.
 
 ### User Guides {#user-guides}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:51.460-0500
-<p>Glossary:</p>
-<p>"User Guides are materials produced for the end users of the solution. They are created for administrators, power users, authors and end users."</p>
-<p>what exactly is meant by "end users" and "power users"?</p>
--->
 
 User Guides provide information and assistance for the users of the solution:
 

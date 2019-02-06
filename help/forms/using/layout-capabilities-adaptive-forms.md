@@ -3,28 +3,16 @@ title: Layout capabilities of adaptive forms
 seo-title: Layout capabilities of adaptive forms
 description: Layout and appearances of adaptive forms on various devices are governed by the layout settings. Understand the various layouts and how to apply them.
 seo-description: Layout and appearances of adaptive forms on various devices are governed by the layout settings. Understand the various layouts and how to apply them.
-uuid: ef265f43-058e-486b-95e5-bf02ca8c7f3d
+uuid: 5512099f-c748-4c0b-a192-fe2f088b4e96
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 35591978-390a-4333-9dbd-843c77c406a5
+discoiquuid: 0a9a7d8b-9338-4115-8a3b-f0040430a767
 index: y
 internal: n
 snippet: y
 ---
 
 # Layout capabilities of adaptive forms{#layout-capabilities-of-adaptive-forms}
-
-<!--
-Comment Type: remark
-Last Modified By: (asgupta)
-Last Modified Date: 2017-11-30T06:07:53.968-0500
-<p>Create links to these articles, when they are available:</p>
-<ul>
-<li>Creating custom toolbar layout: /content/help/en/aem-forms/6/creating-custom-toolbar-layout.html</li>
-<li>Creating custom layout components for adaptive forms: /content/help/en/aem-forms/6/custom-layout-components-forms.html</li>
-<li>Creating custom adaptive forms templates: /content/help/en/aem-forms/6/custom-adaptive-forms-templates.html</li>
-</ul>
--->
 
 Adobe Experience Manager (AEM) lets you create easy-to-use adaptive forms that offer dynamic experiences to end users. The form layout controls how items or components are displayed in an adaptive form.
 

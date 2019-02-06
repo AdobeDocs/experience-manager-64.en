@@ -3,12 +3,12 @@ title: Asset Reports
 seo-title: Asset Reports
 description: This article describes various reports around assets in AEM Assets and how to generate reports.
 seo-description: Know about the various types of asset reports you can generate in AEM Assets. Learn how to generate and customize each report.
-uuid: 43b7c41b-b0a7-4d0d-b1e3-4ca0f06ce247
+uuid: 186054da-6e8e-42aa-a79d-253705cfa299
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: ff2e9091-2a6c-4e00-a8ee-7b889dfb754d
+discoiquuid: 706cbbeb-edb0-47f1-b0d7-55aceac27145
 index: y
 internal: n
 snippet: y

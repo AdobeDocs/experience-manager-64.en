@@ -3,11 +3,11 @@ title: Working in the offline mode
 seo-title: Working in the offline mode
 description: Take your mobile device offline outside your AEM Forms network range or in a completely offline mode and work on the AEM Forms app
 seo-description: Take your mobile device offline outside your AEM Forms network range or in a completely offline mode and work on the AEM Forms app
-uuid: 1c13b88f-8585-4769-a079-12c831b7719d
+uuid: 618f2fff-76d5-430c-8007-360382a68fff
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 482009be-f60e-4979-b12f-8c97ffa6ee14
+discoiquuid: 4da58814-4787-4878-b276-a3aed7fa7391
 index: y
 internal: n
 snippet: y

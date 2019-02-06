@@ -3,12 +3,12 @@ title: Backup and recovery strategy for AEM forms
 seo-title: Backup and recovery strategy for AEM forms
 description: Learn how to implement a strategy to back up data and ensuring that it remains in sync with the AEM forms data.
 seo-description: Learn how to implement a strategy to back up data and ensuring that it remains in sync with the AEM forms data.
-uuid: 732a4bea-431e-4867-abac-dd8e634984fb
+uuid: 0a869a2a-166f-4121-b5bd-7ffe320ed961
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 37faf8f1-3e3a-4ed5-99dd-bd6eccd828bd
+discoiquuid: 79eb9148-8156-4403-a1cf-b367e3eb75ae
 index: y
 internal: n
 snippet: y
@@ -55,13 +55,6 @@ To prevent data loss, the AEM forms specific data must be backed up in a way tha
 >When the GDS is stored on the file system and not in the database, perform the database backup before the GDS backup.
 
 ## Special considerations for backup and recovery {#special-considerations-for-backup-and-recovery}
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Bug 2297721: Added these sections for cases involving hardware failure of DB, App servers.</p>
--->
 
 Use the following guidelines if you must recover AEM forms into a different environment because of the following changes:
 

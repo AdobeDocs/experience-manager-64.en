@@ -3,12 +3,12 @@ title: Trying out Core Components in We.Retail
 seo-title: Trying out Core Components in We.Retail
 description: null
 seo-description: null
-uuid: 269b4272-bb48-46f4-8bf2-2fb682b9fce6
+uuid: ca2de023-9478-423a-af93-2e3f06750aff
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 3fca65c3-03f7-49fb-acb5-f8269ff4ffc6
+discoiquuid: a683451d-eb85-40a2-bfd5-33520502b285
 index: y
 internal: n
 snippet: y
@@ -31,56 +31,56 @@ The core components are modern, flexible components featuring easy extensibility
 
    Choose `.core-wcm`.
 
-   ![](assets/chlimage_1-175.png)
+   ![](assets/chlimage_1-173.png)
 
 1. Note that all core components are named **v1**, reflecting that this is the first version of this core component. Regular versions will be released going forward, which will be version-compatible with AEM and allowing easy upgrading so you can take advantage of the latest features.
 1. Click **Text (v1)**.
 
    See that the **Resource Type** of the component is `/apps/core/wcm/components/text/v1/text`. Core components are found under `/apps/core/wcm/components` and are versioned per component.
 
-   ![](assets/chlimage_1-176.png)
+   ![](assets/chlimage_1-174.png)
 
 1. Click on the **Documentation** tab to see the developer documentation for the component.
 
-   ![](assets/chlimage_1-177.png)
+   ![](assets/chlimage_1-175.png)
 
 1. Return to the Component Console. Filter for the group **We.Retail** and select the **Text** component.
 1. See that the **Resource Type** points to a component as expected under `/apps/weretail` but the **Resource Super Type** points back to the core component `/apps/core/wcm/components/text/v1/text`.
 
-   ![](assets/chlimage_1-178.png)
+   ![](assets/chlimage_1-176.png)
 
 1. Click the **Live Usage** tab to see on which pages this component is currently being used. Click the first **Thank You** page to edit the page.
 
-   ![](assets/chlimage_1-179.png)
+   ![](assets/chlimage_1-177.png)
 
 1. On the Thank You page, select the text component and in the edit menu of the component click the Cancel Inheritance icon.
 
    [We.Retail has a globalized site structure](../../../sites/developing/using/we-retail-globalized-site-structure.md) where content is pushed from language masters to [live copies through a mechanism called inheritance](../../../sites/administering/using/msm.md). For this reason, inheritance must be cancelled in order to allow a user to manually edit text.
 
-   ![](assets/chlimage_1-180.png)
+   ![](assets/chlimage_1-178.png)
 
 1. Confirm the cancellation by clicking **Yes**.
 
-   ![](assets/chlimage_1-181.png)
+   ![](assets/chlimage_1-179.png)
 
 1. Once the inheritance is cancelled and you select the text components, many more options are available. Click on** Edit**.
 
-   ![](assets/chlimage_1-182.png)
+   ![](assets/chlimage_1-180.png)
 
 1. You can now see what edit options are available to the text component.
 
-   ![](assets/chlimage_1-183.png)
+   ![](assets/chlimage_1-181.png)
 
 1. From the **Page Information** menu select **Edit Template**.
 1. In the Template Editor of the page, click on the **Policy** icon of the Text component in the **Layout Container** of the page.
 
-   ![](assets/chlimage_1-184.png)
+   ![](assets/chlimage_1-182.png)
 
 1. The core components allow a template author to configure which Properties are available to the page authors. These include features such as allowed paste sources, formatting options, available paragraph styles, etc.
 
    Such design dialogs are available for many core components and work hand-in-hand with the template editor. Once enabled, they are available to the author through the component editors.
 
-   ![](assets/chlimage_1-185.png)
+   ![](assets/chlimage_1-183.png)
 
 ## Further Information {#further-information}
 

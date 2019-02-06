@@ -3,12 +3,12 @@ title: Moderating Community Content
 seo-title: Moderating Community Content
 description: Moderation concepts and actions
 seo-description: Moderation concepts and actions
-uuid: ef7e55f1-e762-482e-ab00-27236901187e
+uuid: 3576cfec-1583-412e-9707-bd8c6c3e12df
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 3db3a70f-9261-4d24-8b81-5172edc4a78c
+discoiquuid: 1bc895f6-ae0a-48a2-b8db-2b6e62b42833
 index: y
 internal: n
 snippet: y
@@ -147,7 +147,7 @@ By selecting the Cut action, the content is copied to a clipboard. Multiple post
 
 At the other location, when content is present in the clipboard, a Paste button is visible next to New Post with a number identifying the number of posts that will be pasted. The Paste button includes an option to clear the clipboard instead of pasting.
 
-![](assets/chlimage_1-224.png) ![](assets/chlimage_1-225.png)
+![](assets/chlimage_1-217.png) ![](assets/chlimage_1-218.png)
 
 ### Deny {#deny}
 

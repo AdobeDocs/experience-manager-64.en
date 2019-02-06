@@ -3,12 +3,12 @@ title: Configuring your account environment
 seo-title: Configuring your account environment
 description: AEM provides you with the capability to configure your account and certain aspects of the author environment.
 seo-description: AEM provides you with the capability to configure your account and certain aspects of the author environment.
-uuid: 85fc57b4-c02c-40f5-8a31-5beba5574f65
+uuid: afdf10a8-715e-431d-8598-61428efadb71
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 851c067a-21e3-4797-b301-26fd86895362
+discoiquuid: 0e2fcdb4-b167-48fe-bdb7-0c6cb70a49ff
 index: y
 internal: n
 snippet: y
@@ -50,7 +50,7 @@ The user icon gives you access to various to the following options:
 * [User Preferences](#userpreferences) 
 * [Notification Inbox](../../../sites/classic-ui-authoring/using/author-env-inbox.md)
 
-![](assets/chlimage_1-195.png)
+![](assets/chlimage_1-186.png)
 
 ### User Preferences {#user-preferences}
 
@@ -60,5 +60,5 @@ Each user can set certain properties for themselves. This is available from **Pr
 
 The dialog offers the following options:
 
-![](assets/chlimage_1-196.png)
+![](assets/chlimage_1-187.png)
 

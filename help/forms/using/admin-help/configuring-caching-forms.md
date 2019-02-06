@@ -3,12 +3,12 @@ title: Configuring caching for Forms
 seo-title: Configuring caching for Forms
 description: Learn how to configure cache settings and how to cluster considerations for caches.
 seo-description: Learn how to configure cache settings and how to cluster considerations for caches.
-uuid: 0d02e763-0570-449d-83b1-8f9d52227a72
+uuid: 593f5b32-ec7e-44b1-a806-93990db6c14d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: db1feb6f-091b-4abf-93c2-c3cef75ded60
+discoiquuid: dbf8ef05-bb7b-464e-820d-98c0cbd5b26d
 index: y
 internal: n
 snippet: y

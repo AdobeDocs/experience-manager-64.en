@@ -4,10 +4,10 @@ seo-title: [DO NOT PUBLISH] Themes in AEM Forms
 description: Learn how to customize themes of your adaptive forms using AEM Forms theme editor. 
 seo-description: Learn how to customize themes of your adaptive forms using AEM Forms theme editor. 
 page-status-flag: never-activated
-uuid: 6aade13e-32cf-4e0c-944d-958e44d573af
+uuid: 4a85fcb6-f573-4d0b-b67f-29b331fbfe06
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: e5e7cdd9-8e32-457d-b68a-658418f17d8e
+discoiquuid: 79a54020-6f31-4c49-8a3f-0c10c13852f6
 index: y
 internal: n
 snippet: y
@@ -269,46 +269,11 @@ Styling custom layouts from the Theme Editor involves:
 * Defining the CSS properties that can be applied on these components
 * Define the styling for these components interactively from the user interface
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (sashanka)
-Last Modified Date: 2017-11-30T06:14:43.696-0500
-<p style="text-align: center;">MARKED AS DRAFT. </p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Styling for custom appearances</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>With AEM, some out-of-the-box appearances are available to you for various field types. You can style them using the Theme Editor. The styling involves defining separate CSS rules or properties for various components of the appearances using Theme Editor interactively. Apart from the out-of-the-box appearances, you can also create custom appearances, and style them using the Theme Editor. The styling for custom appearances is similar to styling the custom layouts, and involves:</p>
-<ul>
-<li>Defining the components that can be styled for a custom appearance, and CSS selectors for uniquely identifying these components</li>
-<li>Defining the CSS properties that can be applied on these components</li>
-<li>Define the styling for these components interactively from the user interface</li>
-</ul>
--->
-
 ### Different styles for different screen sizes <br> {#different-styles-for-different-screen-sizes-br}
 
 Desktop and mobile layouts can have slightly or entirely different styles. For mobile devices, tablet and phone share similar layouts except for component sizes.
 
 Use Theme Editor breakpoints to define alternate styling for different screen sizes. You can select a base device or resolution on which you start building the theme, and the styling variations for other resolutions are automatically generated. You can explicitly modify the styling for all the resolutions.
-
-<!--
-Comment Type: draft
-
-<p>Various CSS generation approaches are defined based on the selection of the default breakpoint selected during theme creation. The approaches include:</p>
-<ol>
-<li><em>Desktop-first (default)</em>: The approach takes all the styling from a higher resolution to a lower resolution breakpoint, unless overridden in the lower breakpoint.</li>
-<li><em>Mobile-first</em>: The approach takes all the styling from a lower resolution to an upper resolution breakpoint, unless overridden in the higher breakpoint.</li>
-<li><em>Tablet as base resolution</em>: This approach is a combination of the first two approaches. It acts as top down for breakpoints below the selected breakpoint, and bottom up for breakpoints above the selected breakpoint.</li>
-</ol>
--->
 
 >[!NOTE]
 >

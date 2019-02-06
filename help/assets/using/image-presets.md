@@ -3,12 +3,12 @@ title: Applying Image Presets
 seo-title: Applying Image Presets
 description: Learn how to apply image presets in dynamic media
 seo-description: Learn how to apply image presets in dynamic media
-uuid: bff19a31-0099-4640-be51-1638602c4bcb
+uuid: eacb3756-481d-4bb8-bf15-84aa250962b8
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 4e0d12b1-d9f2-4dd5-abf5-d6d0526a2d01
+discoiquuid: b1c30700-8764-4673-8e20-c1742c3cade1
 index: y
 internal: n
 snippet: y
@@ -42,19 +42,12 @@ You can apply an image preset to an image anytime you preview it. To apply an im
    >    
    >
 
-   ![](assets/chlimage_1-161.png)
+   ![](assets/chlimage_1-160.png)
 
 1. Do any of the following:
 
     * Select a dynamic rendition to preview the image preset.
     * Click **URL**, **Embed**, or **RESS** to display the pop-up.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-12-10T16:30:35.303-0500
-   This is hard to read. Maybe instead say something like: Click on a dynamic rendition to preview the image preset. Click on the URL, Embed, or RESS buttons to display the pop-up. RB: Fixed.
-   -->
 
    >[!NOTE]
    >

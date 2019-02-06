@@ -3,12 +3,12 @@ title: Author a New Community Site
 seo-title: Author a New Community Site
 description: How to author a new AEM Communities site
 seo-description: How to author a new AEM Communities site
-uuid: 5b4ce7cb-5c26-4b98-9132-fca95be86758
+uuid: 4d00a572-df3e-4c97-91f3-3cc418791b3b
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 5a2d8be5-73b8-44ca-a322-2b8cc7ae891d
+discoiquuid: 801c2a00-ab98-4ecf-a1fd-03271056ffa6
 index: y
 internal: n
 snippet: y
@@ -58,20 +58,6 @@ On the [Site Template step](../../communities/using/sites-console.md#step2013asi
 
 * **Template**: pull down to choose `Reference Site`
 
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-02-21T02:46:51.827-0500
-Added a sentence for "Community Site Base Language" explaining the same (6.3 and 6.4).
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: sigoel
-Last Modified Date: 2018-03-21T05:18:08.804-0400
-Can you add the list of all possible or most popular languages here? - important from a multi-language offering perspective
--->
-
 Select **Next**
 
 ### Step 2 : Design {#step-design}
@@ -88,7 +74,7 @@ Select the desired style to apply to the template. When selected, the theme will
 
 (optional) Upload a banner image to display across the site pages. The banner is pinned to the left edge of the browser, between the community site header and menu (navigation links). The banner height is cropped to 120 pixels. There is no resizing of the banner to fit the width of the browser and 120 pixel height.
 
-![](assets/chlimage_1-365.png) ![](assets/chlimage_1-366.png)
+![](assets/chlimage_1-352.png) ![](assets/chlimage_1-353.png)
 
 Select **Next**.
 
@@ -123,7 +109,7 @@ Finding namespaces is easy using type-ahead search. For example,
 * type 'tut'
 * select `Tutorial`
 
-![](assets/chlimage_1-367.png) 
+![](assets/chlimage_1-354.png) 
 
 #### ROLES {#roles}
 
@@ -140,27 +126,13 @@ For example,
 >
 >[Tunnel service](/content/help/en/experience-manager/6-3/communities/using/deploy-communities#TunnelServiceonAuthor) allows selection of members and groups existing only in the  publish  environment.
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p><a href="/content/help/en/experience-manager/6-3/communities/using/deploy-communities#TunnelServiceonAuthor">Tunnel service</a> allows selection of members and groups existing only in the
-<g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" data-gr-id="5" id="5">
-publish
-</g> environment. When Tunnel service is on, members and groups created in the
-<g class="gr_ gr_4 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" data-gr-id="4" id="4">
-author
-</g> environment are also available for selection in the Roles section.</p>
-</note>
--->
-
 ![](assets/Community_Roles-1.png) 
 
 #### MODERATION {#moderation}
 
 Accept the default global settings for [moderating](../../communities/using/sites-console.md#moderation) user generated content (UGC).
 
-![](assets/chlimage_1-368.png) 
+![](assets/chlimage_1-355.png) 
 
 #### ANALYTICS {#analytics}
 
@@ -168,7 +140,7 @@ If Adobe Analytics is licensed and an Analytics cloud service and framework have
 
 See [Analytics Configuration for Communities Features](../../communities/using/analytics.md).
 
-![](assets/chlimage_1-369.png) 
+![](assets/chlimage_1-356.png) 
 
 #### TRANSLATION {#translation}
 
@@ -181,7 +153,7 @@ The [Translation settings](../../communities/using/sites-console.md#translation)
 * select **Translate entire page**
 * leave default persistence option
 
-![](assets/chlimage_1-370.png) 
+![](assets/chlimage_1-357.png) 
 
 #### ENABLEMENT {#enablement}
 
@@ -195,7 +167,7 @@ Select **Next**.
 
 Select **Create.**
 
-![](assets/chlimage_1-371.png)
+![](assets/chlimage_1-358.png)
 
 When the process completes, the folder for the new site is displayed in the Communities - Sites console.
 
@@ -210,13 +182,6 @@ After selecting the community site's folder to open it, hover over the site icon
 ![](assets/SiteActionIcons-1.png)
 
 On selecting the fourth ellipses icon (More Actions), Export Site and Delete Site options show up.
-
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-02-20T04:25:49.454-0500
-Added this content and the following image, to show "Delete Site" option. (6.4)
--->
 
 ![](assets/SiteActionsNew-1.png)
 
@@ -237,20 +202,6 @@ From left to right they are :
 
 * **Delete Site  
   **select the delete icon to delete the community site from within Communities &gt; Sites console. This action removes all the items associated with the site, such as UGC, user groups, assets and database records.
-
-<!--
-Comment Type: annotation
-Last Modified By: mgulati
-Last Modified Date: 2018-02-21T02:51:37.430-0500
-Added the bullet and supporting explanation for Delete Site. (6.4) And updated the following image too to show Delete Site icon. (6.4)
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: sigoel
-Last Modified Date: 2018-03-21T05:27:08.150-0400
-Need not mention localhost, if you are, add a caveat - if your publish server is running on your local machine
--->
 
 ![](assets/SiteActions.png)
 
@@ -277,11 +228,11 @@ Need not mention localhost, if you are, add a caveat - if your publish server is
 
 After ensuring the publish server is running, select the world icon to publish the community site.
 
-![](assets/chlimage_1-372.png)
+![](assets/chlimage_1-359.png)
 
 When the community site has been successfully published, a message briefly appears :
 
-![](assets/chlimage_1-373.png) 
+![](assets/chlimage_1-360.png) 
 
 ### Notice New Community User Groups {#notice-new-community-user-groups}
 
@@ -302,11 +253,11 @@ Notice that [Aaron McDonald](../../communities/using/tutorials.md#demousers) is 
 * Community Engage Moderators
 * Community Engage Members (indirectly as a member of Moderators group)
 
-![](assets/chlimage_1-374.png) 
+![](assets/chlimage_1-361.png) 
 
 #### http://localhost:4503/content/sites/engage/en.html {#http-localhost-content-sites-engage-en-html}
 
-![](assets/chlimage_1-375.png) 
+![](assets/chlimage_1-362.png) 
 
 ## Configure for Authentication Error {#configure-for-authentication-error}
 
@@ -363,13 +314,13 @@ To get started
 >
 >To disable, simply prepend the `sling:match` property value with an 'x' - `xlocalhost.4503/$` - and **Save All**.
 
-![](assets/chlimage_1-376.png) 
+![](assets/chlimage_1-363.png) 
 
 #### Troubleshooting : Error Saving Map {#troubleshooting-error-saving-map}
 
 If unable to save changes, be sure the node name is `localhost.4503`, with a 'dot' separator, and not `localhost:4503` with a 'colon' separator, as `localhost`is not a valid namespace prefix.
 
-![](assets/chlimage_1-377.png) 
+![](assets/chlimage_1-364.png) 
 
 #### Troubleshooting : Fail to Redirect {#troubleshooting-fail-to-redirect}
 

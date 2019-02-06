@@ -3,10 +3,10 @@ title: Synchronizing Adaptive Forms with XFA Form Templates
 seo-title: Synchronizing Adaptive Forms with XFA Form Templates
 description: Synchronizing Adaptive forms with XFA/XDP files.
 seo-description: Synchronizing Adaptive forms with XFA/XDP files.
-uuid: 19d3afe0-030f-4625-81e3-407e905f2d9d
+uuid: 75135c54-da1f-43ab-a3e6-7258a0a4e7d8
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 11276380-8a50-478e-a019-d3673d432968
+discoiquuid: fb3d7147-d5d6-4daa-a36d-ec8bacd8e1d9
 index: y
 internal: n
 snippet: y
@@ -21,13 +21,6 @@ You can create an adaptive form based on an XFA form template ( `*.XDP` file). T
 You can reuse fields from the XDP file in your adaptive form. These fields are referred to as binded fields. The properties of the binded fields (such as scripts, labels, and display format) are copied from the XDP file. You can also choose to override the value of some of these properties.
 
 AEM Forms provides a way to help you keep the fields of the adaptive forms synchronized with any changes that are later made to the corresponding fields in the XDP file. This article explains how you can enable this synchronization.
-
-<!--
-Comment Type: remark
-Last Modified By: (ahpant)
-Last Modified Date: 2017-11-30T06:08:26.385-0500
-<p>The article to be cross-referenced is not available yet. After the linnk is available, the following text should be added: To see the list of properties that are carried over from the XDP file, and the properties that you can override, see [link].<br /> </p>
--->
 
 ![You can drag fields from an XFA form to an adaptive form](assets/drag-drop-xfa.gif.gif) 
 

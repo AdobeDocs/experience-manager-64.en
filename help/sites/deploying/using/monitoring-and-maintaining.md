@@ -3,12 +3,12 @@ title: Monitoring and Maintaining Your AEM instance
 seo-title: Monitoring and Maintaining Your AEM instance
 description: Learn how to monitor AEM.
 seo-description: Learn how to monitor AEM.
-uuid: e7a24e30-8226-497d-8b92-5fcd94a69326
+uuid: e9942737-0669-4d51-bab1-4596c1531dd4
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 1dc604f2-1bb9-469f-875f-a5d87b2254ab
+discoiquuid: 6dec09c5-e776-4026-9e9b-7c2ca08357d0
 index: y
 internal: n
 snippet: y
@@ -31,30 +31,6 @@ A key factor here is that to recognize potential issues you need to know how you
 | [AEM performance is being monitored](../../../sites/deploying/using/monitoring-and-maintaining.md#monitoringperformance). |Including [Request Counters](../../../sites/deploying/using/monitoring-and-maintaining.md#requestcounters) to monitor traffic levels. |If a significant, or long term loss, of performance is seen, detailed investigation should be made. |
 | You are monitoring your [Replication Agents](../../../sites/deploying/using/monitoring-and-maintaining.md#monitoringyourreplicationagents). `` |  |  |
 | Regularly purge workflow instances. |Repository size and workflow performance. |See [Regular Purging of Workflow Instances](../../../sites/administering/using/workflows-administering.md#regularpurgingofworkflowinstances). |
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:42:06.817-0500
-<p>Can we mention Thierry's tool (am assuming not until told otherwise):</p>
-<ul>
-<li>Thierry maintains a tool to monitor CQ5 instances at <a href="http://wiki.day.com/content/wiki/Users/tyge/monitoringApp4CQ5.html" title="Monitoring Application for CQ5.x">Monitoring Application for CQ5.x</a></li>
-</ul>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:42:06.826-0500
-<p>For 5.4 mention new features in Apache Felix Console:</p>
-<ul>
-<li>The Apache Felix Web Console provides insight into the running <a href="http://wiki.day.com/content/wiki/Dev/RnD/OSGi.html">OSGi</a> framework underlying the <a href="http://wiki.day.com/content/wiki/Dev/CommuniqueJcr/CQ5.html">CQ5</a> application. Variaous plugins exist or are being developped to extend the functionality:
-<ul>
-<li>Memory Usage plugin, to show memory use and generate Heap Dumps</li>
-<li>YourKit Profiler plugin (unpublished yet) to interact with YourKit profiler runtime agent</li>
-</ul> </li>
-</ul>
--->
 
 ## Backups {#backups}
 
@@ -93,14 +69,6 @@ To do this, you need to [back up your entire repository](#backingupyourrepositor
 
 1. Stop AEM.
 1. Back up the entire `<cq-installation-dir>` from your file system.
-
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p>If you are operating a cluster, then the "shared" folder may be in a different location and will also need to be backed up. See <a href="/content/help/en/DO NOT MIGRATE">How to Set Up a Cluster in AEM</a> for information about configuring a cluster.</p>
-</note>
--->
 
 >[!CAUTION]
 >
@@ -193,13 +161,6 @@ In the next example:
 ![](assets/global_version_screenshot.png) 
 
 ## Working with Audit Records and Log Files {#working-with-audit-records-and-log-files}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacypath-6-1)
-Last Modified Date: 2017-11-30T05:42:07.489-0500
-<p>the page presents a nice overview of logs for different product modules. It would be nice to have also locations of where the specific logs can be configured (e.g., crx logs in .../WEB-INF/log4j.xml, etc)</p>
--->
 
 Auditing records and log files relating to Adobe Experience Manager (AEM) can be found at various locations. The following is provided to give you an overview of what you can find where.
 
@@ -549,13 +510,6 @@ To monitor a replication agent:
    >`/jcr:root/var/replication/outbox//*[@cq:repActionType='TEST']`
 
 Again you can develop a solution to detect all replication agents (located under `/etc/replication/author` or `/etc/replication/publish`), then check the status of the agent ( `enabled`, `disabled`) and the underlying queue ( `active`, `idle`, `blocked`).
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:42:08.469-0500
-<p>development example?<br /> </p>
--->
 
 ## Monitoring Performance {#monitoring-performance}
 
@@ -917,14 +871,6 @@ The information gathered can be used to indicate:
 * a redundant instance
 * any restarts (counter reset to 0)
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacypath-6-1)
-Last Modified Date: 2017-11-30T05:42:08.907-0500
-<p>need more details about setting up the RequestFilter...</p>
-<p>development example?</p>
--->
-
 ### HTML Comments {#html-comments}
 
 It is recommended that every project includes `html comments` for server performance. Many good public examples can be found; select a page, open the page source for viewing and scroll to the bottom, code such as the following can be seen:
@@ -938,14 +884,6 @@ It is recommended that every project includes `html comments` for server perform
 
 ```
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacypath-6-1)
-Last Modified Date: 2017-11-30T05:42:08.946-0500
-<p>would information about providing the actual performance info be useful?</p>
-<p>check timing.jsp and/or sling RequestProgressTracker<br /> </p>
--->
-
 ### Monitoring Performance using JConsole {#monitoring-performance-using-jconsole}
 
 The tool command `jconsole` is available with the JDK.
@@ -956,7 +894,7 @@ The tool command `jconsole` is available with the JDK.
 
 1. From within the `Local` application, double-click `com.day.crx.quickstart.Main`; the Overview will be shown as default:
 
-   ![](assets/chlimage_1-94.png)
+   ![](assets/chlimage_1-87.png)
 
    After this you can select other options.
 
@@ -977,11 +915,11 @@ Since JDK 1.6, the tool command `jvisualvm` is available. After you have install
 
 1. From within the `Local` application, double-click `com.day.crx.quickstart.Main`; the Overview will be shown as default:
 
-   ![](assets/chlimage_1-95.png)
+   ![](assets/chlimage_1-88.png)
 
    After this you can select other options, including Monitor:
 
-   ![](assets/chlimage_1-96.png)
+   ![](assets/chlimage_1-89.png)
 
 You can use this tool to generate thread dumps and memory head dumps. This information is often requested by the technical support team.
 
@@ -1002,38 +940,6 @@ The following information can be useful:
 * [How many components are currently used?](#howmanycomponentsarecurrentlyused)
 * [How many requests per hour do you have on the author system at peak time?](#howmanyrequestsperhourdoyouhaveontheauthorsystematpeaktime)
 * [How many requests per hour do you have on the publish system at peak time?](#howmanyrequestsperhourdoyouhaveonthepublishsystematpeaktime)
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacypath-6-1)
-Last Modified Date: 2017-11-30T05:42:09.338-0500
-<p>I deleted the questions, which weren't links, because they have no answers, and seem obvious.<br /> I saved them as draft.</p>
-<p>Change that, if the questions were actually relevant and didn't need answers.<br /> https://issues.adobe.com/browse/DOC-3262</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>Knowing as much as possible about your installation can help you track down what might have caused a change in performance, and whether these changes are justified. These metrics need to be collected at regular intervals so you can easily see significant changes.<br /> </p>
-<p>The following information can be useful:</p>
-<ul>
-<li><a href="#howmanyauthorsareworkingwiththesystem">How many authors are working with the system?</a></li>
-<li>How many authoring servers do you use?</li>
-<li>What hardware do you use for the author server(s)?</li>
-<li><a href="#whatistheaveragenumberofpageactivationsperday">What is the average number of page activations per day?</a></li>
-<li><a href="#howmanypagesdoyoucurrentlymaintainonthissystem">How many pages do you currently maintain on this system?</a></li>
-<li><a href="#ifyouusemsmwhatistheaveragenumberofrolloutspermonth">If you use MSM, what is the average number of rollouts per month?</a></li>
-<li><a href="#whatistheaveragenumberoflivecopiespermonth">What is the average number of Live Copies per month?</a></li>
-<li><a href="#ifyouusecqdamhowmanyassetsdoyoucurrentlymaintainincqdam">If you use CQ DAM, how many assets do you currently maintain in CQ DAM?</a></li>
-<li><a href="#whatistheaveragesizeoftheassets">What is the average size of the assets?</a></li>
-<li>How many publish servers do you use?</li>
-<li>What hardware do you use for the publish server(s)?</li>
-<li><a href="#howmanytemplatesarecurrentlyused">How many templates are currently used?</a></li>
-<li><a href="#howmanycomponentsarecurrentlyused">How many components are currently used?</a></li>
-<li><a href="#howmanyrequestsperhourdoyouhaveontheauthorsystematpeaktime">How many requests per hour do you have on the author system at peak time?</a></li>
-<li><a href="#howmanyrequestsperhourdoyouhaveonthepublishsystematpeaktime">How many requests per hour do you have on the publish system at peak time?</a></li>
-</ul>
--->
 
 #### How many authors are working with the system? {#how-many-authors-are-working-with-the-system}
 

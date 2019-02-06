@@ -3,12 +3,12 @@ title: Search Feature
 seo-title: Search Feature
 description: Adding and configuring Search to a Communities site
 seo-description: Adding and configuring Search to a Communities site
-uuid: 9a9a057f-3e5e-41e9-be54-a560cbc48802
+uuid: 3d3bd057-2d8a-4b77-9882-53a0a45d6244
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 0d2b0089-e2da-490a-a5d8-7a652029309e
+discoiquuid: 6f22eced-28bf-4c9d-91ba-a1efa635faf9
 index: y
 internal: n
 snippet: y
@@ -40,17 +40,17 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the required client-side library, `cq.social.hbs.search`, is included, this is how the `Search` component will appear.
 
-![](assets/chlimage_1-385.png)
+![](assets/chlimage_1-372.png)
 
 ### Configure the Added Search {#configure-the-added-search}
 
 Select the placed `Search` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-386.png)
+![](assets/chlimage_1-373.png)
 
 Under the **Search Settings **tab, specify how what paths are are search when a query is entered by a visitor.
 
-![](assets/chlimage_1-387.png)
+![](assets/chlimage_1-374.png)
 
 * **Search Paths** 
   By adding search paths using the Add Item button, the content search is limited. As an example, to limit the search to a specific forum, select a forum component placed within a page :
@@ -76,17 +76,17 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the required client-side library, `cq.social.hbs.search`, is included, this is how the `Search Result` component will appear :
 
-![](assets/chlimage_1-388.png)
+![](assets/chlimage_1-375.png)
 
 ### Configure the Added Search Result {#configure-the-added-search-result}
 
 Select the placed `Search Results` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-389.png)
+![](assets/chlimage_1-376.png)
 
 Under the **Search Result Settings **tab, it is possible to specify what paths are included in the search when a query is entered by a visitor.
 
-![](assets/chlimage_1-390.png)
+![](assets/chlimage_1-377.png)
 
 * **Search Results Per Page** 
   Define the number of topics/posts shown per page. Default is 10.

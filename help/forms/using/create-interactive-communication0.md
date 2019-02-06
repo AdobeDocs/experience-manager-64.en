@@ -3,10 +3,10 @@ title: "Tutorial: Create Interactive Communication "
 seo-title: Create an Interactive Communication for Print and Web
 description: Create an Interactive Communication using all building blocks
 seo-description: Create an Interactive Communication using all building blocks
-uuid: 37667bc8-62f3-468a-8160-093992a57f9b
+uuid: c9d81473-e6cd-4dcc-9cc8-17a68fafec51
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: f42f4cdf-52e5-44d9-9b68-b52123f42ec6
+discoiquuid: 73cb2c8d-3214-4d6e-b91a-c112f57cbbf9
 index: y
 internal: n
 snippet: y

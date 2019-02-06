@@ -3,10 +3,10 @@ title: Styling constructs for adaptive forms
 seo-title: Styling constructs for adaptive forms
 description: Use LESS framework to customize appearance of adaptive forms.
 seo-description: Use LESS framework to customize appearance of adaptive forms.
-uuid: a753d9e5-5687-4d08-856e-0f2747bda91b
+uuid: 9767464a-4c0f-4ae9-8424-7acb77ba5e17
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 04eea060-88f9-4b23-8e92-286e0e53ef1b
+discoiquuid: e34ea769-a4fd-4b5f-882c-2eb140d736d5
 index: y
 internal: n
 snippet: y

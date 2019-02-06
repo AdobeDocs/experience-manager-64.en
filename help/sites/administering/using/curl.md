@@ -3,12 +3,12 @@ title: Using cURL with AEM
 seo-title: Using cURL with AEM
 description: Learn how to use cURL with AEM.
 seo-description: Learn how to use cURL with AEM.
-uuid: b520763c-9e91-49ad-8967-aeaca1f8e82a
+uuid: 0115fa11-22d9-4f1d-b034-0e661411e28c
 contentOwner: Silviu Raiman
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 8c2d6bce-f3fd-4ff6-9e23-38010451be09
+discoiquuid: e25a74a8-d034-47ad-90c2-04330999bfab
 index: y
 internal: n
 snippet: y
@@ -48,24 +48,24 @@ The following steps describe how to do this using the creation of a new page wit
 
 1. Prepare the action you wish to invoke within AEM. In this case, we have proceded to the end of the **Create Page** wizard, but have not yet clicked **Create**.
 
-   ![](assets/chlimage_1-72.png)
+   ![](assets/chlimage_1-66.png)
 
 1. Start the developer tools and select the **Network** tab. Click the **Preserve log** option before clearing the console.
 
-   ![](assets/chlimage_1-73.png)
+   ![](assets/chlimage_1-67.png)
 
 1. Click **Create** in the **Create Page** wizard to actually create the workflow.
 1. Right-click on the resulting POST action and select **Copy** -&gt; **Copy as cURL**.
 
-   ![](assets/chlimage_1-74.png)
+   ![](assets/chlimage_1-68.png)
 
 1. Copy the cURL command to a text editor and remove all headers from the command, which start with `-H` (highligted in blue in the image below) and add the proper authentication parameter such as `-u admin:admin`.
 
-   ![](assets/chlimage_1-75.png)
+   ![](assets/chlimage_1-69.png)
 
 1. Execute the cURL command via the command line and view the response.
 
-   ![](assets/chlimage_1-76.png)
+   ![](assets/chlimage_1-70.png)
 
 ## Common Operational AEM cURL Commands {#common-operational-aem-curl-commands}
 

@@ -3,12 +3,12 @@ title: Planning Your Upgrade
 seo-title: Planning Your Upgrade
 description: This article helps establish clear goals, phases and deliverables when planning the AEM upgrade.
 seo-description: This article helps establish clear goals, phases and deliverables when planning the AEM upgrade.
-uuid: d50a9b3e-0b22-469b-9429-0e8879fd0c7a
+uuid: 51fb0c27-93f4-409d-8356-20e8f8615504
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
-discoiquuid: 39e7dc8c-4d12-42c4-aaef-6a6967f176a7
+discoiquuid: 3f46a2c7-3d8d-4918-8026-555d8b46dffb
 index: y
 internal: n
 snippet: y

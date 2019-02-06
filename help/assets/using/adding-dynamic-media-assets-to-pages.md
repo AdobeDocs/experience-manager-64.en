@@ -3,12 +3,12 @@ title: Adding Dynamic Media Assets to Pages
 seo-title: Adding Dynamic Media Assets to Pages
 description: How to add Dynamic Media components to a page in AEM
 seo-description: How to add Dynamic Media components to a page in AEM
-uuid: 00cbdb0b-6682-4448-b468-623f2211030e
+uuid: aff7650d-759e-45dd-b4f1-614e24cf6ee3
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 9e3f2802-409a-4a91-900f-bcf499a0f649
+discoiquuid: 03c941e3-ea7e-412c-94fe-443216222ff8
 index: y
 internal: n
 snippet: y
@@ -31,7 +31,7 @@ Adding the Dynamic Media or Interactive Media component to a page is the same as
 1. In AEM, open the page where you want to add the Dynamic Media or Interactive Media component.
 1. In the left pane, click the **Components icon **and filter for Dynamic Media.** **If no Dynamic Media component is available, you need to enable the Dynamic Media components. See [Editing Page Templates](../../sites/authoring/using/templates.md#editingtemplatestemplateauthors) for more information. 
 
-   ![](assets/chlimage_1-362.png)
+   ![](assets/chlimage_1-355.png)
 
 1. Drag the **Dynamic Media** or **Interactive Media** component onto the page in the desired location.
 1. Click** **the blue box around the component and click the** Configuration** (wrench)** **icon**.**
@@ -43,7 +43,7 @@ You can localize Dynamic Media components in one of two ways:
 
 * Within a web page in Sites, open **Properties** and select the **Advanced** tab. Select the desired language for localization.
 
-  ![](assets/chlimage_1-363.png)
+  ![](assets/chlimage_1-356.png)
 
 * From the site selector, select the desired page or page group. Tap or click **Properties** and select the **Advanced** tab. Select the desired language for localization.
 
@@ -59,7 +59,7 @@ Dynamic Media and Interactive Media are available under the **Dynamic Media** ta
 >
 >These components are not available by default and need to be made available via the template editor before using. [After they are made available i](../../sites/authoring/using/templates.md#editingtemplatestemplateauthors)n the template editor, you can add the components to your page as you would any other AEM component.
 
-![](assets/chlimage_1-364.png)
+![](assets/chlimage_1-357.png)
 
 ### Dynamic Media component {#dynamic-media-component}
 
@@ -123,7 +123,7 @@ This option is not available if you are viewing image sets, spin sets, or mixed 
 
 Use the Dynamic Media component to add dynamic video to your web pages. When you edit the component you can choose to use a predefined video viewer preset for playing the video on the page.
 
-![](assets/chlimage_1-365.png)
+![](assets/chlimage_1-358.png)
 
 You can edit the following Dynamic Media Settings by clicking **Edit** in the component.
 
@@ -184,7 +184,7 @@ Interactive Media component is for those assets that have interactivity on them 
 
 The Interactive Media component is smart - depending on whether you add an image or a video, you have various options. In addition, the viewer is responsive - the size of the screen changes automatically based on screen size. All viewers are HTML5 viewers.
 
-![](assets/chlimage_1-366.png)
+![](assets/chlimage_1-359.png)
 
 You can edit the following **General** settings by clicking **Edit** in the component.
 

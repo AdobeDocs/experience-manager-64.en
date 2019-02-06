@@ -3,12 +3,12 @@ title: Configuring RTE for Producing Accessible Sites
 seo-title: Configuring RTE for Producing Accessible Sites
 description: Learn how to configure the AEM Rich Text Editor to produce accessible sites.
 seo-description: Learn how to configure the AEM Rich Text Editor to produce accessible sites.
-uuid: f28b4d2c-81fb-40d0-8938-7c7583df1123
+uuid: f48f7075-fe1b-479c-a752-9edc3ff1e0a4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 0d0107ef-79d8-4e76-8c3e-a93208792c42
+discoiquuid: 26ab3432-7ea6-412a-9dd7-97a5dd4635b3
 index: y
 internal: n
 snippet: y
@@ -39,18 +39,11 @@ The **Text** component in AEM is available for both the touch-optimized and the 
 
 * The **Text** component in the touch-optimized UI:
 
-  ![Text component (RTE) in full-screen-mode in the touch-optimized UI.](assets/chlimage_1-241.png)
+  ![Text component (RTE) in full-screen-mode in the touch-optimized UI.](assets/chlimage_1-232.png)
 
 * The **Text** component in the classic UI:
 
-  ![Edit dialog (RTE) of the text component in the classic UI.](assets/chlimage_1-242.png)
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:01:35.419-0500
-<p>Status as of 6.0 - review with 6.1</p>
--->
+  ![Edit dialog (RTE) of the text component in the classic UI.](assets/chlimage_1-233.png)
 
 >[!NOTE]
 >
@@ -71,7 +64,7 @@ Full instructions on configuring the RTE are available on the [Configuring the R
 
 By configuring a plugin within the appropriate `rtePlugins` sub-branch in CRXDE Lite (see the following image), you can activate either all or specific features for that plugin. 
 
-![CRXDE Lite showing an example rtePlugin.](assets/chlimage_1-243.png) 
+![CRXDE Lite showing an example rtePlugin.](assets/chlimage_1-234.png) 
 
 ### Example - Specifying Paragraph Formats Available in RTE Selection Field {#example-specifying-paragraph-formats-available-in-rte-selection-field}
 
@@ -84,49 +77,13 @@ New semantic block formats may be made available for selection by:
 
     * Using the paragraph ([pilcrow](http://en.wikipedia.org/wiki/Pilcrow)) icon in the touch-optimized UI:
 
-   ![Paragraph (pilcrow) icon.](assets/chlimage_1-244.png)
+   ![Paragraph (pilcrow) icon.](assets/chlimage_1-235.png)
 
     * Using the **Format** field (drop-down selector) in the classic UI.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:01:35.766-0500
-<p>check validity of statements made below</p>
-<ul>
-<li>Content authors cannot use the RTE to format font size or colors or other related attributes
-<ul>
-<li>styles?</li>
-<li>cannot or should not<br /> </li>
-</ul> </li>
-</ul>
--->
 
 With structural elements available in the RTE via the paragraph format options, AEM provides a good basis for the development of accessible content. Content authors cannot use the RTE to format font size or colors or other related attributes, preventing the creation of inline formatting. Instead they must select the appropriate structural elements, such as headings and use global styles chosen from the Styles option. This ensures clean markup, greater options for users who browse with their own style sheets and correctly structured content.
 
 ## Use of the Source Edit Feature {#use-of-the-source-edit-feature}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:01:35.812-0500
-<p>Point 1</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:01:35.827-0500
-<p>not available in touch ui 6.0 - when likely to be introduced?</p>
-<ul>
-<li>no idea if/when planned - people always abuse it - causes more problems (support) than it solves</li>
-<li>but if customers complain too much then might get implemented</li>
-<li>cleanest method would be to support all requirements (but if no-one complains then it won't get implemented)</li>
-<li>Amrit Verma is responsible for RTE</li>
-<li>Amit Gupta's team</li>
-</ul>
-<p>So - should this page put so much emphasis on the functionality? or use a Caution?<br /> </p>
--->
 
 In some cases, content authors will find it necessary to examine and adjust the HTML source code created using the RTE. For example, a piece of content created within the RTE may require additional markup to ensure compliance with WCAG 2.0. This can be done with the [source edit](../../../sites/administering/using/rich-text-editor.md#pluginsandtheirfeatures) option of the RTE. You can specify the [ `sourceedit` feature on the `misctools` plugin](../../../sites/administering/using/rich-text-editor.md#pluginsandtheirfeatures).
 
@@ -141,34 +98,6 @@ To further extend the accessibility features of AEM, it is possible to extend th
 The following procedure illustrates how to extend the **Table** component with a **Caption** element that provides information about a data table to assistive technology users:
 
 ### Example - Adding the Caption to the Table Properties Dialog {#example-adding-the-caption-to-the-table-properties-dialog}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:01:35.918-0500
-<p>Point 2</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:01:35.934-0500
-<p>does this still work for 6.0?</p>
-<ul>
-<li>example should still work for classic</li>
-<li>never was best practice/recommended</li>
-<li>only classic - tables not supported in touch</li>
-<li>tables in touch - planned - maybe 6.1 - if/when done will be tables within RTE<br /> <br /> </li>
-</ul>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:01:35.949-0500
-<p>if not best practice then what is?</p>
-<p>alternative for touch?</p>
--->
 
 In the constructor of the `TablePropertiesDialog`, add an additional text input field that is used for editing the caption. Note that `itemId` must be set to `caption` (i.e. the DOM attribute’s name) to automatically handle its content.
 
@@ -221,13 +150,6 @@ In **Table** you must explicitly set or remove the attribute to/from the DOM ele
    `/apps/cq/ui/widgets/source/widgets/form/rte/commands/Table.js`.
 
 1. Add the following code at the end of the the `transferConfigToTable` method:
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2017-11-30T05:01:36.348-0500
-   <p>at the end of or after?</p>
-   -->
 
    ```
    /**

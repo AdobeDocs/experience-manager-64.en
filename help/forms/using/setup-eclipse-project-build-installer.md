@@ -3,11 +3,11 @@ title: Build the AEM Forms Android app
 seo-title: Build the AEM Forms Android app
 description: Steps to set up the Android Studio project and build the .apk file for the AEM Forms app for Android
 seo-description: Steps to set up the Android Studio project and build the .apk file for the AEM Forms app for Android
-uuid: 13364e2c-a6ee-4a58-809b-01f3a3a59752
+uuid: ce2ecde3-6bb4-4504-8d35-1953c9d24881
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: ea131ef5-603a-47b0-9a59-ead39265e2eb
+discoiquuid: e7efdb65-ff36-4b05-9966-b365a114f235
 index: y
 internal: n
 snippet: y

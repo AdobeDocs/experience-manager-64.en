@@ -3,12 +3,12 @@ title: Analytics Configuration for Communities Features
 seo-title: Analytics Configuration for Communities Features
 description: Configure analytics for Communities
 seo-description: Configure analytics for Communities
-uuid: 238e2c1e-6a34-4d85-a72b-f1840abe7e5a
+uuid: 9af8553f-b348-4d4e-bdd6-6a8dfef00503
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 0b5faea4-86c8-4c31-b66d-c66b5c54956c
+discoiquuid: 6d298e61-c03d-410e-a620-ca6c9657919c
 index: y
 internal: n
 snippet: y
@@ -139,7 +139,7 @@ To enable Video Heartbeat reporting after [configuring the Analytics report suit
 
 The `Marketing Cloud Org Id` may be entered at the time of [community site creation](../../communities/using/sites-console.md#enablement) or later by [modifying](../../communities/using/sites-console.md#modifyingsiteproperties) the community site properties. [](#aemanalyticscloudserviceconfiguration)
 
-![](assets/chlimage_1-271.png)
+![](assets/chlimage_1-263.png)
 
 When Video Heartbeat Analytics is enabled, the Javascript (JS) code for the video player instantiates the video heartbeat library code (also in JS) which handles all the logic for sending video status updates to the Analytics video tracking servers every 10 seconds (not configurable) and eventually sending a cumulative report of the video session to the main Analytics servers.
 
@@ -153,7 +153,7 @@ To create a new Analytics Integration, which integrates Adobe Analytics with the
 * scroll down to **Adobe Analytics**
 * select either **Configure Now** or **Show Configurations**
 
-![](assets/chlimage_1-272.png) 
+![](assets/chlimage_1-264.png) 
 
 ### Create Configuration Dialog {#create-configuration-dialog}
 
@@ -161,7 +161,7 @@ To create a new Analytics Integration, which integrates Adobe Analytics with the
 
 On the Create Configuration dialog, the values to be entered identify the configuration.
 
-![](assets/chlimage_1-273.png)
+![](assets/chlimage_1-265.png)
 
 * **Title** 
   (required) A display title for the configuration.  
@@ -182,7 +182,7 @@ On the Create Configuration dialog, the values to be entered identify the config
 
 The initial creation of a new Analytics configuration results in the display of the configuration and a new dialog for entry of the Analytics Settings. This dialog requires the [prerequisite account information](#prerequisites) obtained from the account representative.
 
-![](assets/chlimage_1-274.png)
+![](assets/chlimage_1-266.png)
 
 * **Company** 
   the company that is associated with the Adobe Analytics account
@@ -220,7 +220,7 @@ To save the settings :
 
 * select **OK**
 
-![](assets/chlimage_1-275.png) 
+![](assets/chlimage_1-267.png) 
 
 ### Create Framework {#create-framework}
 
@@ -228,7 +228,7 @@ After successful configuration of the basic connection to Adobe Analytics, it is
 
 * select `[+]` icon next to **Available Frameworks** to create a new framework
 
-![](assets/chlimage_1-276.png)
+![](assets/chlimage_1-268.png)
 
 * **Title** 
   (required) A display title for the framework  
@@ -249,7 +249,7 @@ Creating the Analytics Framework opens the framework for configuration.
 
 The purpose of the framework is to map AEM variables to Analytics variables (evars and events). The Analytics variables available for mapping are [defined in the report suite](#adobeanalyticsreportsuiteforvideoreporting).
 
-![](assets/chlimage_1-277.png) 
+![](assets/chlimage_1-269.png) 
 
 ### Select Report Suite {#select-report-suite}
 
@@ -262,7 +262,7 @@ The Sidekick is not needed and may be minimized so that it does not obstruct acc
 
 #### Report Suites dialog before and after selecting 'Add Item' {#report-suites-dialog-before-and-after-selecting-add-item}
 
-![](assets/chlimage_1-278.png)
+![](assets/chlimage_1-270.png)
 
 1. Select **Add Item +** 
    two drop down boxes appear
@@ -280,7 +280,7 @@ The Sidekick is not needed and may be minimized so that it does not obstruct acc
 1. choose a `Run Mode`  
    choose **publish**
 
-![](assets/chlimage_1-279.png)
+![](assets/chlimage_1-271.png)
 
 The Analytic cloud service and framework are now complete. The Mappings will be defined once a community site has been created with this Analytics service enabled.
 
@@ -351,7 +351,7 @@ If new custom components are created that are instrumented for Analytics, they s
 
 ### Component Configuration {#component-configuration}
 
-![](assets/chlimage_1-280.png)
+![](assets/chlimage_1-272.png)
 
 Note : the `journal` components are used to implement the blog feature.
 
@@ -363,7 +363,7 @@ If using an existing report suite that mapped any of the variables within evar1 
 
 Following is an example of default mappings after following the [getting started tutorial](../../communities/using/getting-started-enablement.md) :
 
-![](assets/chlimage_1-281.png) 
+![](assets/chlimage_1-273.png) 
 
 #### Map of eVars sent with each event {#map-of-evars-sent-with-each-event}
 
@@ -520,15 +520,15 @@ If Communities evars and events overwrite mappings that pre-existed in the repor
 
 #### Example Step 1 : Dragging Analytics evar14 into mapping table {#example-step-dragging-analytics-evar-into-mapping-table}
 
-![](assets/chlimage_1-282.png) 
+![](assets/chlimage_1-274.png) 
 
 #### Example Step 2 : Selecting 'x' to remove replaced evar11 {#example-step-selecting-x-to-remove-replaced-evar}
 
-![](assets/chlimage_1-283.png) 
+![](assets/chlimage_1-275.png) 
 
 #### Example Step 3 : AEM var eventdata.siteId remapped to Analytics evar14 {#example-step-aem-var-eventdata-siteid-remapped-to-analytics-evar}
 
-![](assets/chlimage_1-284.png) 
+![](assets/chlimage_1-276.png) 
 
 ## Publishing the Community Site {#publishing-the-community-site}
 
@@ -599,7 +599,7 @@ When the data may be categorized as "big data", more frequent polling may put a 
 
 The default polling **Import interval** is set to 12 hours.
 
-![](assets/chlimage_1-285.png) 
+![](assets/chlimage_1-277.png) 
 
 ### Component Report Customization {#component-report-customization}
 
@@ -632,7 +632,7 @@ The forum topic is presently the only example of this customization :
     * modifying the **`interval`**property will override the Report Importer interval
     * the value is in seconds, and is set to 4 hours (14400 seconds)
 
-![](assets/chlimage_1-286.png) 
+![](assets/chlimage_1-278.png) 
 
 ## Manage user data in Analytics {#manage-user-data-in-analytics}
 

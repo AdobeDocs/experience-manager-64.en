@@ -3,25 +3,18 @@ title: Monitoring AEM forms deployments
 seo-title: Monitoring AEM forms deployments
 description: You can monitor AEM forms deployments from both a system level and an internal level. Learn more about monitoring AEM forms deployments from this document.
 seo-description: You can monitor AEM forms deployments from both a system level and an internal level. Learn more about monitoring AEM forms deployments from this document.
-uuid: ac91fc70-18a0-4b89-b936-f73e7f632b76
+uuid: 777ae881-c263-4e6a-8043-3f439861805c
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 18a7b33c-c4b0-4d17-9872-ff195e1d0686
+discoiquuid: a9aae58e-1dbd-4bbe-bd55-65f12bc1c815
 index: y
 internal: n
 snippet: y
 ---
 
 # Monitoring AEM forms deployments{#monitoring-aem-forms-deployments}
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Bug 1559833:</p>
--->
 
 You can monitor AEM forms deployments from both a system level and an internal level. You can use specialist management tools such as HP OpenView, IBM Tivoli, and CA UniCenter and a third-party JMX monitor called *JConsole* to specifically monitor Java activity. Implementation of a monitoring strategy improves availability, reliability, and performance of your AEM forms deployments.
 

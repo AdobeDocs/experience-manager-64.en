@@ -3,11 +3,11 @@ title: Working with Startpoints
 seo-title: Working with Startpoints
 description: Steps to work with a AEM Forms process from your Mobile device defined in Workbench.
 seo-description: Steps to work with a AEM Forms process from your Mobile device defined in Workbench.
-uuid: 97385181-934b-4c7c-93ce-1fcb3d1b5c7c
+uuid: f02e1f62-f5d1-4269-896c-046fb87cf015
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 21f5efda-0baf-4346-a153-72303635ae08
+discoiquuid: d2a8e18a-4f98-41db-a517-7938c59f364f
 index: y
 internal: n
 snippet: y
@@ -35,12 +35,6 @@ To initiate a process from the AEM Forms app, you need to have a startpoint of t
    The form associated with the startpoint opens.
 
 1. Enter the details in the **[!UICONTROL Startpoint]**form.
-
-   <!--
-   Comment Type: draft
-
-   <p>You can <a href="/forms/using/save-as-draft1" target="_blank">save a draft</a> of the updates to this Startpoint and complete this at a later time.</p>
-   -->
 
    You can add annotations to this task using the [attachment](../../forms/using/add-attachments.md) button.
 

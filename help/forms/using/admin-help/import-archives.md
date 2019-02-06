@@ -3,12 +3,12 @@ title: Import and manage archives
 seo-title: Import and manage archives
 description: Learn how to import and manage archives.
 seo-description: Learn how to import and manage archives.
-uuid: fc22b361-88c8-4801-827c-02b94fcc5954
+uuid: 40d34b82-9dff-4916-b1c6-80cb00f5b102
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/importing_and_managing_applications_and_archives
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1913af34-58de-45d9-81cc-2594c0d88132
+discoiquuid: 21da5593-5597-4834-b2ff-0ce0edd8b96e
 index: y
 internal: n
 snippet: y
@@ -35,13 +35,6 @@ Use the archives tab to import and manage LCAs that were created in workbench.
    >If you click Skip Configuration, you can configure the archive later.
 
 1. If you click Configure, the Configure Endpoints page appears, where you can make any changes that you require:
-
-   <!--
-   Comment Type: remark
-   Last Modified By:
-   Last Modified Date:
-   <p>TI filename: lcaTextInset.fm</p>
-   -->
 
     * To rename an endpoint or edit its description, click it. 
     * To add a Task Manager endpoint, click Add TaskManager. For details about the Task Manager settings, see [Configuring Task Manager endpoints](../../../forms/using/admin-help/configuring-task-manager-endpoints.md#configuring-task-manager-endpoints). 
@@ -109,13 +102,6 @@ Use the archives tab to import and manage LCAs that were created in workbench.
 1. In administration console, click Services &gt; Applications and Services &gt; Application Management and click thearchives tab.
 1. Click Configure next to the archive file to configure.
 1. The Configure Endpoints page appears, where you can make any changes that you require:
-
-   <!--
-   Comment Type: remark
-   Last Modified By:
-   Last Modified Date:
-   <p>TI filename: lcaTextInset.fm</p>
-   -->
 
     * To rename an endpoint or edit its description, click it. 
     * To add a Task Manager endpoint, click Add TaskManager. For details about the Task Manager settings, see [Configuring Task Manager endpoints](../../../forms/using/admin-help/configuring-task-manager-endpoints.md#configuring-task-manager-endpoints). 

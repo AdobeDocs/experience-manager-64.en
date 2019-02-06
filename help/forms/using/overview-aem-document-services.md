@@ -3,11 +3,11 @@ title: Overview of AEM Document Services
 seo-title: Overview of AEM Document Services
 description: AEM Document Services are a set of OSGi Services for creating, assembling, and securing PDF Documents.
 seo-description: AEM Document Services are a set of OSGi Services for creating, assembling, and securing PDF Documents.
-uuid: 42c20d7d-1174-4fc7-96a1-6b13e81df6e9
+uuid: 4957eb6a-2944-4969-9bdb-0928f93d392a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
-discoiquuid: 117f3cfc-100c-43f5-ac22-7ef5ea3da88b
+discoiquuid: 81b58e2e-7e2b-4e60-9c6c-b7e224f0f445
 index: y
 internal: n
 snippet: y
@@ -16,38 +16,6 @@ snippet: y
 # Overview of AEM Document Services{#overview-of-aem-document-services}
 
 AEM Document Services are a set of OSGi Services for creating, assembling, and securing PDF Documents. Document Services contain following services:
-
-<!--
-Comment Type: draft
-
-<h2>Forms Service</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Forms service enables you to create interactive data capture client applications that validate, process, transform, and deliver forms typically created in Designer. Form authors develop a single form design that the Forms service renders as PDF, HTML, or as Guides (deprecated) in various browser environments that support Adobe Flash Player.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Forms service renders interactive PDF forms. An interactive form contains one or more fields for collecting information interactively from a user. An interactive form design produces a form that can be filled online or (in the case of PDF forms) offline. Users can open the form in Acrobat, Adobe Reader, or an HTML browser and enter information into the form’s fields. An interactive form can include buttons or commands for common tasks, such as saving data to a file or printing. It can also include drop-down lists, calculations, and validations.</p>
-<p>When an end user requests a form, a client application such as a Java servlet sends the request to the Forms service. The Forms service returns the form in an appropriate format to the end user. When the Forms service receives a request for a form, it uses a set of transformations to merge data with a form design. It then delivers the form in a format that best matches the presentation and form-filling capabilities of the target browser. For example, if the end user requests a PDF form, the Forms service renders an interactive PDF form.</p>
-<p>The Forms service performs the following functions:</p>
-<ul>
-<li><p>Provides server-side execution of the intelligence that is in the form design. The Forms service executes the validations and calculations included in the form design and returns the resultant data to the browser.</p> </li>
-<li><p>Detects whether form design scripts should run on the client or the server. For clients that support client-side scripting such as Internet Explorer 5.0 and later, an appropriate scripting model is loaded into the device so that the scripts can run directly on the client computer. </p> </li>
-<li><p>Dynamically generates PDF, SWF, or HTML content based the user's preference for a specific form design with or without data. An HTML form can deliver multipage forms page by page. However, a PDF form delivers all the pages at once. In Designer, the form author can script the current page number in the form design. The Forms service can merge one page of data that is submitted at a time or merge only the single page into the form design.</p> </li>
-<li><p>Supports subforms created in Designer. The Forms service adds extra fields and boilerplate as a result of merging the form design with data or as a result of scripting. With HTML, the added subforms can grow to unlimited page lengths. With PDF, the added subforms paginate at the page lengths that are specified in the form design.</p> </li>
-<li><p>Renders forms based on fragments. Fragments allow you to share form and script objects that are external to form designs. You can design parts of a form once and reuse them when designing collections of related forms. When creating a form for the collection, you simply insert a reference to the fragment. When a form author updates a fragment, all forms that contain a reference to the fragment reflect the changes (when the form is rerendered).</p> </li>
-<li><p>Validates data entry by performing calculations, accessing databases, or enforcing business rules on field-level data.</p> </li>
-<li><p>Renders forms with file attachments. Also, the Forms service can process form submissions that contain file attachments.</p> </li>
-<li><p>Displays validation errors in different ways (split frame left, top, right, bottom; no frame left, top, right, bottom; or no UI). The errors are displayed without maintaining any state on the server. The validation errors are also made available in the XML-based validation error document.</p> </li>
-<li><p>Maintains the state of any pass-through data that the application passed in. <em>Pass-through data</em> is data that does not have corresponding fields in the form design being processed. The pass-through data is passed back to the calling application after the target device submits the data.</p> </li>
-<li><p>Enables a non-technical user to amend a form design by using Designer to meet ongoing business requirements. In contrast, a web application that displays HTML pages requires a user to modify HTML or XML source code to change the web page.</p> </li>
-</ul>
--->
 
 ## Output Service {#output-service}
 
@@ -118,12 +86,6 @@ You can use a simple input map to specify the locations of source and resultant 
 * File  
 * FTP
 * HTTP/HTTPS
-
-<!--
-Comment Type: draft
-
-<p>For more information, see <a href="../../forms/using/assembler-service.md" target="_blank">Using Assembler service</a>.</p>
--->
 
 ## Doc Assurance Service {#doc-assurance-service}
 

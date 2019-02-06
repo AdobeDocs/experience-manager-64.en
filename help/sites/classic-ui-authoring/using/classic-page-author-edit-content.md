@@ -3,25 +3,18 @@ title: Editing Page Content
 seo-title: Editing Page Content
 description: Content is added using components that can be dragged onto the page. These can then be edited in place, moved, or deleted.
 seo-description: Content is added using components that can be dragged onto the page. These can then be edited in place, moved, or deleted.
-uuid: 0dfa9e75-3515-433e-96b4-3de6975ac2e3
+uuid: 2321001e-7224-44fe-a22f-153abb272c3f
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: fa6abd7e-8b0f-49ae-b113-f45df0feb59f
+discoiquuid: 9437533e-eb03-4955-bbe5-229d542295ee
 index: y
 internal: n
 snippet: y
 ---
 
 # Editing Page Content{#editing-page-content}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:06:16.009-0500
-<p>GA - restructuring as INFRA-4265 (component for touch/classic procedures) not addressed yet - will need to be re-reviewed as and when</p>
--->
 
 Once your page is created (either new or as part of a launch or live copy) you can edit the content to make the updates you require.
 
@@ -49,7 +42,7 @@ Several tabs and icons are available, including:
 * Client Context
 * Websites
 
-![](assets/chlimage_1-113.png)
+![](assets/chlimage_1-108.png)
 
 These provide access to a wide selection of functionality; including:
 
@@ -95,13 +88,6 @@ To insert a new component:
 You can also add a new component to the page by dragging an asset from the [Content Finder](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#main-pars-title-0). This will automatically create a new component of the appropriate type containing the asset.
 
 This is valid for the following asset types (some will be dependent on page/paragraph system):
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-FA2C7B5F4FE93A5C0A490D4D@AdobeID)
-Last Modified Date: 2017-11-30T05:06:16.326-0500
-<p>6.2 - any further additions?</p>
--->
 
 | Asset Type |Resultant Component Type |
 |---|---|
@@ -201,17 +187,17 @@ You can cancel (then re-enable) the inheritance. Depending on the component, thi
 
     * The padlock icon is shown when the component is selected; for example:
 
-   ![](assets/chlimage_1-114.png)
+   ![](assets/chlimage_1-109.png)
 
     * The padlock is also shown in the dialog of components; for example:
 
-   ![](assets/chlimage_1-115.png)
+   ![](assets/chlimage_1-110.png)
 
 1. **An Inherited Paragraph System**
 
    The configuration dialog. For example, as with the Inherited Paragraph System within Geometrixx:
 
-   ![](assets/chlimage_1-116.png)
+   ![](assets/chlimage_1-111.png)
 
 ## Adding Annotations {#adding-annotations}
 
@@ -221,19 +207,19 @@ You can cancel (then re-enable) the inheritance. Depending on the component, thi
 
 There are two icons in the bottom border of the sidekick that are important to previewing pages:
 
-![](assets/chlimage_1-117.png)
+![](assets/chlimage_1-112.png)
 
 * The pencil icon shows you that you are currently in edit mode where you can add, modify, move or delete content.
 
-  ![](assets/chlimage_1-118.png)
+  ![](assets/chlimage_1-113.png)
 
 * The magnifying glass icon allows you to select preview mode where the page is displayed as it will be seen in the publish environment (a page refresh is sometimes also needed):
 
-  ![](assets/chlimage_1-119.png)
+  ![](assets/chlimage_1-114.png)
 
   In preview mode the sidekick will be reduced, click the down arrow icon to return to edit mode:
 
-  ![](assets/chlimage_1-120.png)
+  ![](assets/chlimage_1-115.png)
 
 ## Find & Replace {#find-replace}
 

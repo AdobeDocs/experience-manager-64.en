@@ -3,12 +3,12 @@ title: Publishing Pages
 seo-title: Publishing Pages
 description: Once you have created and reviewed your content on the author environment, the goal is to make it available on your public website.
 seo-description: Once you have created and reviewed your content on the author environment, the goal is to make it available on your public website.
-uuid: 0f09ea01-8c57-4c17-90fa-55b767fb035a
+uuid: 71c647b2-6f6b-4a39-8662-b78fd3fdac48
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 35f1737c-0eea-4b70-ac41-7cc37d435bdf
+discoiquuid: 6fb3ca6e-6501-40e0-9a6f-1ec696e3a46e
 index: y
 internal: n
 snippet: y
@@ -21,14 +21,6 @@ Once you have created and reviewed your content on the author environment, the g
 This is referred to as publishing a page. When you want to remove a page from the publish environment is referred to as unpublishing. When publishing and unpublishing the page remains available on the author environment for further changes until you delete it.
 
 You can also publish/unpublish a page immediately or at a predefined date/time in the future.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-06T04:45:19.855-0500
-<p>following note also on /content/docs/en/cq/6-0/author/page-authoring.html</p>
-<p>update one....update both</p>
--->
 
 >[!NOTE]
 >
@@ -82,7 +74,7 @@ You can activate pages in the Websites console. After you have opened a page and
 
 1. If necessary, AEM requests that you activate or reactivate any assets that are linked to the page. You can select or clear the check boxes to activate those assets.
 
-   ![](assets/chlimage_1-152.png)
+   ![](assets/chlimage_1-146.png)
 
 1. AEM WCM activates the selected content. The published page or pages appears in the [Websites console](../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#main-pars-title-6) (marked green) with information about who activated the content as well as date and time of activation.
 
@@ -143,13 +135,6 @@ To schedule your deactivation for a later time:
 If you want to cancel this deactivation, go to the [Workflow Console](../../../sites/administering/using/workflows-administering.md#main-pars-title-3-yjqslz-refd) to terminate the corresponding workflow.
 
 ## Scheduled Activation/Deactivation (On/Off Time) {#scheduled-activation-deactivation-on-off-time}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-12-06T04:45:22.216-0500
-<p>6.2 Review - need more info to highlight difference between this and publish later</p>
--->
 
 You can schedule times for a page to be published/unpublished using the **On Time** and **Off Time** that can be defined in the [Page Properties](../../../sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md).
 

@@ -3,12 +3,12 @@ title: Performance Optimization
 seo-title: Performance Optimization
 description: Learn how to configure certain aspects of AEM to optimize performance.
 seo-description: Learn how to configure certain aspects of AEM to optimize performance.
-uuid: 01a957d8-a434-416d-9213-3af935c67f46
+uuid: 06edfd20-2754-4548-8dd8-eda0b09c550d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: 721c2f3b-0210-4bf7-8dd9-17e0057c5d61
+discoiquuid: 72cb4726-7d0c-459b-befc-cbd2ee5a1f72
 index: y
 internal: n
 snippet: y
@@ -142,13 +142,13 @@ To improve performance you can consider the following:
 
 * How many assets are going to be uploaded per day? A good estimate can be based on:
 
-![](assets/chlimage_1-84.png)
+![](assets/chlimage_1-77.png)
 
 * The timeframe in which edits will be made (typically the length of the working day, more for international operations).
 * The average size of images uploaded (and the size of renditions generated per image) in megabytes.
 * Determine the average data rate:
 
-![](assets/chlimage_1-85.png)
+![](assets/chlimage_1-78.png)
 
 * 80% of all edits will be made in 20% of the time, so in peak time you will have 4 times the average data rate. This is your performance goal.
 
@@ -164,7 +164,7 @@ A basic starting point is a good knowledge of your system when it is operating a
 
 The following diagram illustrates the path that a request for CQ content can take - and therefore the number of different elements which can impact the performance.
 
-![](assets/chlimage_1-86.png)
+![](assets/chlimage_1-79.png)
 
 Performance is also a balance between Volume and Capacity:
 
@@ -174,7 +174,7 @@ Performance is also a balance between Volume and Capacity:
 
 This can be illustrated in various locations throughout the web-chain.
 
-![](assets/chlimage_1-87.png)
+![](assets/chlimage_1-80.png)
 
 There are several functional areas which are often responsible for impacting the performance:
 
@@ -204,13 +204,6 @@ Certain aspects of CQ (and/or the underlying CRX) can be configured to optimize 
 >[!NOTE]
 >
 >For additional information please see the [KB article](/content/help/en/experience-manager/kb/performance-tuning-tips).
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:41:46.145-0500
-<p>"Disable Cluster Mode" - to be left as a KB-article only (see Greg).<br /> </p>
--->
 
 ### Search Indexing {#search-indexing}
 
@@ -329,20 +322,6 @@ You will need a reproduction of your planned production Publish environment, tog
 To get a clear overview you can create a map of the entire application (you may well have this from tests on the Author environment).
 
 A diagram representation of the internal elements of the application, can give an overview of the testing requirements; with color-coding it can also act as a basis for reporting.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacypath-6-1)
-Last Modified Date: 2017-11-30T05:41:46.553-0500
-<p>Missing verification map</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>The example below illustrates the level of detail appropriate:</p>
-<p>Verification Map</p>
--->
 
 ### Scope Definition {#scope-definition}
 
@@ -746,13 +725,13 @@ Impact of load on backup performance can be estimated by the difference between 
 
 The main result of these benchmarks is to show how backup times vary as a function of the backup type and overall quantity of data. The following chart shows the backup time obtained using the default backup configuration, as a function of the number of total number of pages.
 
-![](assets/chlimage_1-88.png)
+![](assets/chlimage_1-81.png)
 
 Backup times on an idle instance are fairly consistent, averaging 0.608 MB/s regardless of full or incremental backups (see chart below). The backup time is simply a function of the amount of data that is being backed up. The time to complete a full backup clearly increases with the total number of pages. The time to complete an incremental backup also climbs with the total number of pages, but at a much lower rate. The time taken to complete the incremental backup is much shorter owing to the relatively small amount of data being backed up.
 
 The size of the backup produced is the main determinant of the time taken to complete a backup. The following chart shows time taken as a function of final backup size.
 
-![](assets/chlimage_1-89.png)
+![](assets/chlimage_1-82.png)
 
 This chart illustrates that both incremental and full backups follow a simple size versus time pattern that we can measure as throughput. Backup times on an idle instance are fairly consistent, averaging 0.61 MB/sec regardless of full or incremental backups on the benchmark environment.
 
@@ -764,7 +743,7 @@ The backup delay parameter is provided to limit the extent to which backups may 
 * The impact may be slight -- as little as 5% -- or could be very significant -- causing as much as 75% drop in throughput, and this likely depends on the application more than anything.
 * Backup is not a heavy load on the CPU, and so CPU-intensive production workloads would be less affected by backup than I/O intensive ones.
 
-![](assets/chlimage_1-90.png)
+![](assets/chlimage_1-83.png)
 
 For comparison the throughput obtained using a filesystem backup (using 'tar') to backup the same repository files. The performance of the tar is comparable, but slightly higher than the backup with delay set to zero. Setting even a small delay greatly reduces the backup throughput and the default delay of 10ms results in vastly reduced throughput. In situations where backups may be scheduled when overall application usage is very low or the application can be completely idle, it is probably desirable to reduce the delay below the default value in order to permit the backup to proceed more quickly.
 

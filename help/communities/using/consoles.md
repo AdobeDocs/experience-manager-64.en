@@ -3,12 +3,12 @@ title: Communities Consoles
 seo-title: Communities Consoles
 description: Community Consoles explained
 seo-description: Community Consoles explained
-uuid: 7301b0e8-8895-485d-8cea-7ec6283d4e9f
+uuid: a947cf8f-37ce-4f6c-8ab5-c6b2147422b3
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: e226ce2f-60da-417c-a05f-c3e4a7b3fa8a
+discoiquuid: 976d4ceb-cf3f-44ee-9aaa-f39aa7abf66e
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ In the author environment, after signing in with administrator privileges, the `
 
 ### Global navigation panel {#global-navigation-panel}
 
-![](assets/chlimage_1-97.png)
+![](assets/chlimage_1-90.png)
 
 Select the `Adobe Experience Manager` icon in the upper left corner to open the global navigation panel and access to two icons :
 
@@ -47,7 +47,7 @@ Select the `Adobe Experience Manager` icon in the upper left corner to open the 
 
 To access the various Communities consoles, from global navigation select **navigation, Communities**.
 
-![](assets/chlimage_1-98.png)
+![](assets/chlimage_1-91.png)
 
 * [Sites](../../communities/using/sites-console.md)  
   The Sites console is accessible in the author environment for the purpose of creating and managing community sites and its [groups](../../communities/using/groups.md).

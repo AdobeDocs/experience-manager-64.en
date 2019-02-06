@@ -3,12 +3,12 @@ title: AEM with MongoDB
 seo-title: AEM with MongoDB
 description: Learn about the tasks and considerations needed for a successful AEM with MongoDB deployment. 
 seo-description: Learn about the tasks and considerations needed for a successful AEM with MongoDB deployment. 
-uuid: ccee0911-68a4-407c-b7d8-9f7e6f1dc673
+uuid: 23866cb2-58ce-4c78-8752-c7cb84cac7f7
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: ce9c71de-f3a4-440c-965e-1e9293a0facf
+discoiquuid: 8c75ead5-2c1f-4b28-b1a8-b771c5a3603d
 index: y
 internal: n
 snippet: y
@@ -39,16 +39,9 @@ If the criteria are not met, then a TarMK active/standby deployment is recommend
 
 ### Minimal MongoDB Deployment for AEM {#minimal-mongodb-deployment-for-aem}
 
-Below is a minimal deployment for AEM on MongoDB. For simplicity, SSL termination and HTTP Proxy components have been generalised. It consists of a single MongoBD replica set, with one primary and two secondaries.
+Below is a minimal deployment for AEM on MongoDB. For simplicity, SSL termination and HTTP Proxy components have been generalised. It consists of a single MongoBD replica set, with one primary and two secondaries. 
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-25T09:22:18.972-0500
-<p>removed mentions of sharding, since it's not officially supported</p>
--->
-
-![](assets/chlimage_1-101.png)
+![](assets/chlimage_1-94.png)
 
 A minimal deployment requires 3 `mongod` instances configured as a replica set. One instance will be elected primary with the other instances being secondaries, with the election managed by `mongod`. Attached to each instance is a local disk. In order for the cluster to support the load, a minimum throughoput of 12MB/s with more than 3000 I/O Operations per Second (IOPS) is recommended.
 
@@ -93,20 +86,6 @@ While the same limitations apply to the WiredTiger storage engine in MongoDB 3.0
 >
 >Adobe recommends using the WiredTiger storage engine for AEM 6.1 deployments that are using MongoDB 3.0.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-25T09:22:19.277-0500
-<p>Can we mention that WiredTiger is the recommended storage engine to use with AEM?<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-92EE5E09512E99F90A490D4D@AdobeID)
-Last Modified Date: 2018-01-25T09:22:19.304-0500
-<p>Wired Tiger was signed off by QE in June/July 2015. Now it is the recommended engine for MongoDB 3.0. See the supported configuration page where it is mentioned.</p>
--->
-
 ### Data Store {#data-store}
 
 Due to the MongoDB working set limitations it is strongly recommended that the data store is maintained independent from the MongoDB. In most environments a `FileDataStore` using a NAS available to all AEM instances should be used. For situations where the Amazon Web Services are used, there is also an `S3 DataStore`. If for any reason the data store is maintained within MongoDB, the size of the datastore should be added to the total database size and the working set calculations adjusted appropriately. This may mean provisioning significantly more RAM to maintain performance without page faults.
@@ -120,13 +99,6 @@ This typically involves an R&D engineer working on the Apache Oak Core and a Mon
 Without monitoring at all levels detailed knowledge of the code base will be required to diagnose issues. With monitoring in place and suitable guidance on the major statistics, implementation teams will be able to react appropriately to anomalies.
 
 Whilst it is possible to use command line tools to get a quick snapshot of the operation of a cluster, doing that in real time over many hosts is almost impossible. Command line tools rarely give historical information beyond a few minutes and never allow cross correlation between different types of metrics. A brief period of slow background `mongod` sync requires significant manual effort to correlate against I/O Wait or excessive write levels to a shared storage resource from an apparently unconnected virtual machine.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-25T09:22:19.418-0500
-<p>to revise later.</p>
--->
 
 ### MongoDB Cloud Manager {#mongodb-cloud-manager}
 
@@ -155,33 +127,6 @@ Ganglia is a good example of such a system and it provides a picture on the rang
 ### Log Aggregation {#log-aggregation}
 
 With a cluster of multiple servers, central log aggregation is a requirement for a production system. Software like Splunk supports log aggregation and allow teams to analyse the patters of behaviour of the application without having to manually collect the logs.
-
-<!--
-Comment Type: draft
-
-<h3>Metric Aggregation</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>While MongoDB, operating system level monitoring and log aggregation report symptoms of an application, none report on its internal workings. In order to react proactively to the behaviour of an application, visibility into the critical stats of that application is required. With this information, you can monitor the rate of activity and compare critical metrics against historical behaviour.</p>
-<p>For this to happen metrics must be recorded using methods that can run in production all the time. It is generally accepted that approaches that provide a snapshot of current rates or counters generate the least overhead and hence enable the largest number of monitors. Methods that attempt to generate too much derivative data tend to interfere or fail under load. To aggregate stats those instantaneous measurements are sent to systems like Splunk, Kibana or Greylog2 which allow deeper often time series analysis.<br /> </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-92EE5E09512E99F90A490D4D@AdobeID)
-Last Modified Date: 2018-01-25T09:22:19.681-0500
-<p>For public consumption, consider revising this paragraph as there is limited support for timeseries metrics within Oak at this time. Might be better to remove the paragraph.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-25T09:22:19.708-0500
-<p>Hiding paragraph for now.</p>
--->
 
 ## Checklists {#checklists}
 
@@ -248,20 +193,6 @@ The Data Store is used to store files of a size larger than a threshold. Below t
 
 Here is a typical Data Store configuration for a minimal AEM deployment with MongoDB:
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-25T09:22:19.983-0500
-<p>Should we even mention MongoBlobStore as a possibility at all?</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-92EE5E09512E99F90A490D4D@AdobeID)
-Last Modified Date: 2018-01-25T09:22:20.012-0500
-<p>Its worth explaining the reason to use a FileDataStore as the MongoBlobStore is the default in AEM6.1 to make it work OOTB, as without shared file system FileDataStore wont work.</p>
--->
-
 ```xml
 # org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.cfg
 # The minimum size of an object that should be stored in this data store.
@@ -305,22 +236,9 @@ It is recommended that a persistent cache configuration is enabled for MongoDB d
 
 ### Operating System Support {#operating-system-support}
 
-<!--
-Comment Type: remark
-Last Modified By: Tyler Rushton (trushton)
-Last Modified Date: 2018-01-25T09:22:20.230-0500
-<p>This section, including the WiredTiger content was provide by the Mongo team (external company). See https://jira.corp.adobe.com/browse/CQDOC-11648 for more details on what they provided to Adobe.</p>
--->
-
 MongoDB 2.6 uses a memory mapped storage engine that is sensitive to some aspects of the operating system level management between RAM and Disk. Query and read Performance of the MongoDB instance relies on avoiding or eliminating slow I/O operations often referred to as page faults. These are page faults that apply to the `mongod` process in particular. They should not be confused with operating system level page faults.
 
 For fast operation the MongoDB database should only ever access data that is already in RAM. The data that it needs to access is made up of indexes and data. This collection of indexes and data is called the working set. Where the working set is larger than the available RAM MongoDB has to page that data in from disk incurring an I/O cost, evicting other data already in memory. If the eviction causes data to be reloaded from disk page faults will dominate and performance will degrade. Where the working set is dynamic and variable, more page faults will be incurred to support operations.
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-102.png" />
--->
 
 MongoDB runs on a number of operating systems including a wide variety of Linux flavors, Windows, and Mac OS. See [https://docs.mongodb.com/manual/installation/#supported-platforms](https://docs.mongodb.com/manual/installation/#supported-platforms) for additional details. Depending on your operating system choice, MongoDB has different operating system level recommendations. There are documented at [https://docs.mongodb.com/manual/administration/production-checklist-operations/#operating-system-configuration](https://docs.mongodb.com/manual/administration/production-checklist-operations/#operating-system-configuration) and summarized here for convenience.
 
@@ -486,65 +404,6 @@ The MongoDB process will behave differently under different allocation policies:
 
 Some of the policies may result in less than all the available RAM being given to the `mongod` process. Unlike MySQL, MongoDB actively avoids operating system level paging, and consequently the `mongod` process may get less memory that appears available.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-D9FB647253FD17BE0A4C98A6@AdobeID)
-Last Modified Date: 2018-01-25T09:22:20.872-0500
-<p>The wording on some of the allocation policies seems 'off' to me. e.g., -membind says 'allocate only on the nodes listed' then follows with 'Mongod will NOT allocate...'</p>
-<p>Also --localalloc has 'but use all nodes to thread runs on.' Not sure how to interpret that.</p>
-<p>Just my $0.02.</p>
-<p>- Janice</p>
--->
-
-<!--
-Comment Type: draft
-
-<h3>Analyzing NUMA Allocation</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>You can see how memory for a NUMA process is being allocated by running the following command:<br /> </p>
--->
-
-<!--
-Comment Type: draft
-
-<codeblock gutter="true" class="syntax shell">
-cat&nbsp;/proc/<PID&nbsp;of&nbsp;the&nbsp;mongod&nbsp;process>/numa_maps
-</codeblock>
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Note that running the above command will pause the <span class="code">mongod</span> process.</p>
-</note>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-25T09:22:20.991-0500
-<p>Not including the numa analysis tool, since it's risky to document tools we don't have control over.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-92EE5E09512E99F90A490D4D@AdobeID)
-Last Modified Date: 2018-01-25T09:22:21.017-0500
-<p>Consider removing the sectoin as without a tool to analyse the map, its quite hard to derive any usefull meaning from the output.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-25T09:22:21.044-0500
-<p>Hiding paragraph for now. Will discuss this with the docu team, and will add the info on how to interpret the tool output if it's ok.<br /> </p>
--->
-
 #### Swapping {#swapping}
 
 Due to the memory intensive nature of databases, operating system level swapping must be disabled. The MongoDB process will avoid swapping by design.
@@ -704,13 +563,6 @@ echo "{nThreads:32,fileSizeMB:1000,w:true}" | mongoperf
 
 The desired output should be 12 megabytes per second and reaching around 3000 IOPS, with little variation between the number of threads.
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-25T09:22:22.277-0500
-<p>Is it safe to include the desired outputs in the public documentation?<br /> </p>
--->
-
 ## Steps for Virtualised Environments {#steps-for-virtualised-environments}
 
 ### VMWare {#vmware}
@@ -727,32 +579,6 @@ If you are using WMWare ESX to manage and deploy your virtualized environments, 
 ### Amazon Web Services {#amazon-web-services}
 
 For documentation on how to set up MongoDB with Amazon Web Services, check the [Configure AWS Integration](https://docs.cloud.mongodb.com/tutorial/configure-aws-settings/) article on the MongoDB website.
-
-<!--
-Comment Type: draft
-
-<h3>Microsoft Azure</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>For deployment on the Microsoft Azure platform, make sure you perform the steps outlined in the relevant <a href="http://docs.mongodb.org/ecosystem/platforms/windows-azure/">documentation</a>.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-92EE5E09512E99F90A490D4D@AdobeID)
-Last Modified Date: 2018-01-25T09:22:22.473-0500
-<p>Although Azure is a supported platform for MongoDB, I dont think its a supported playform for AEM6.1. Product management will be able to confirm. Consider removing the para from public documentation.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-25T09:22:22.499-0500
-<p>Will revise after clarifying with product management.</p>
--->
 
 ## Securing MongoDB Before Deployment {#securing-mongodb-before-deployment}
 
@@ -777,13 +603,6 @@ Running AEM without a dispatcher will require SSL termination and load balancing
 Check the [Dispatcher documentation](/content/help/en/experience-manager/dispatcher/using/dispatcher) for more information on how to configure it.
 
 ### Additional Configuration {#additional-configuration}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-92EE5E09512E99F90A490D4D@AdobeID)
-Last Modified Date: 2018-01-25T09:22:22.691-0500
-<p>Most of the configuration in this section is not specific to AEM on MongoDB, consider if its the right place for it.</p>
--->
 
 #### Sticky Connections {#sticky-connections}
 
@@ -845,50 +664,13 @@ CSP allows for fine tuning of policies. However, in a complex application CSP he
 >
 >For more information on how this work, see the [OWASP Page on Content Security Policy](https://www.owasp.org/index.php/Content_Security_Policy).
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-25T09:22:22.995-0500
-<p>Not including the configuration for marketing.adobe.com for obvious reasons. Maybe we can use a more generic example.</p>
--->
-
 ### Sizing {#sizing}
 
 For more information on sizing, see the [Hardware Sizing Guidelines](../../../managing/using/hardware-sizing-guidelines.md).
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-D9FB647253FD17BE0A4C98A6@AdobeID)
-Last Modified Date: 2018-01-25T09:22:23.063-0500
-<p>Specific MongoDB sizing will be referenced from [0] once there's enough validated information on it.</p>
-<p>[0]: http://ec2author.day.com:8080/content/docs/en/aem/6-2/manage/hardware-sizing-guidelines.html</p>
--->
-
 ### MongoDB Performance Optimization {#mongodb-performance-optimization}
 
 For generic information on MongoDB performance, see [Analyzing MongoDB Performance](http://docs.mongodb.org/manual/administration/analyzing-mongodb-performance/).
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-25T09:22:23.132-0500
-<p>Adding only the mongo perf tuning link for now, since the AEM performance optimization docu is not yet updated for 6.x</p>
-<p>To review later what parts of [1] that can be used in the documentation.</p>
-<p>[1]: https://wiki.corp.adobe.com/display/~boston/AEM+on+Mongo+Performance+tools</p>
--->
-
-<!--
-Comment Type: draft
-
-<h2>Full MongoDB Deployment</h2>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-AAC0465A528DC04F0A490D44@AdobeID)
-Last Modified Date: 2018-01-25T09:22:23.182-0500
-<p>Not including this right now, we don't officially support sharding. See https://docs.adobe.com/docs/en/aem/6-2/deploy/technical-requirements.html#Storage%20&%20Persistence</p>
--->
 
 ## Known Limitations {#known-limitations}
 

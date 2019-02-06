@@ -3,12 +3,12 @@ title: Rating Essentials
 seo-title: Rating Essentials
 description: Rating component overview
 seo-description: Rating component overview
-uuid: ac222eee-cc64-4b11-b1a0-5753d9efcb16
+uuid: 64d8d229-51f0-439a-b430-236b6294222d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: b7087384-40a2-48c8-aa4b-31ace053e214
+discoiquuid: 0acff000-879e-4d82-9554-0063aa6fe440
 index: y
 internal: n
 snippet: y

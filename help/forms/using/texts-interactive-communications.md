@@ -3,10 +3,10 @@ title: Texts in Interactive Communications
 seo-title: Text in Interactive Communications
 description: Creating and editing text document fragments to be used in Interactive Communications - text is one of the four types of document fragments used to build Interactive Communications. The other three are conditions, lists, and layout fragments.  
 seo-description: Creating and editing text document fragments to be used in Interactive Communications
-uuid: 965d293f-bd16-4a47-a14a-3bf6e2cbdc86
+uuid: 3bdb18b7-280f-4b96-a300-0234caaff8dc
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: fac3de73-ee2a-4bf8-951d-cd0bbd25582d
+discoiquuid: 97abe9a3-ec74-4170-9ca3-34ffc77c8ce2
 index: y
 internal: n
 snippet: y
@@ -41,13 +41,6 @@ The text document fragment in Interactive Communication supports the following t
     
     * **[!UICONTROL Tags]**: Optionally, to create custom tag enter value in text field and press Enter. When you save this text, the newly added tags get created.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-07T04:19:53.579-0500
-   Title - layout fragment? can a layout fragment have name similar to a text?
-   -->
-
 1. Tap **[!UICONTROL Next]**.
 
    Create Text page appears. If you have chosen to create a form data model-based text, the form data model properties appear in the left pane. 
@@ -67,13 +60,6 @@ The text document fragment in Interactive Communication supports the following t
     * [Special characters](#special)
     * [Searching and replacing text](#search)
     * [Keyboard shortcuts](../../forms/using/keyboard-shortcuts.md)
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-07T14:48:24.100-0500
-   Explain page break here
-   -->
 
 1. Tap **[!UICONTROL Save]**.
 
@@ -116,13 +102,6 @@ You can use variables instead of form data model properties when:
 * You need to bind and retrieve text from a text document fragment. Only those text document fragments can be bound to variables should not have that have no variables within.
 
 While creating or editing a text document fragment, you can create and insert variables. The variables you create appear in the Data tab of the Agent UI. The agent specifies the values for the variables while [Prepare and send Interactive Communication using the Agent UI](../../forms/using/prepare-send-interactive-communication.md).
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-03-22T06:50:19.160-0400
-Annu: Variables are placeholders that can be bound while creating IC. They can be bound to an FDM element or text fragment or left for the agent to fill. Added
--->
 
 ### Create variables {#create-variables}
 
@@ -201,13 +180,6 @@ Using rule editor in a text, you can create rules to display or hide strings of 
 
 1. Tap **[!UICONTROL Done]**.
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2018-02-07T08:11:24.956-0500
-   on hover, the rule appears - applies to repeat also Rule cannot be applied to collection element multiple conditions within a rule multiple rules on a piece of content - nested
-   -->
-
    The rule gets applied. The text or content to which the rule is applied is highlighted in green. When you hover over the left handle of the highlight, the applied rule appears.
 
    ![](assets/AppliedRuleText-1.png)
@@ -232,13 +204,6 @@ Optionally, you can also go to the Advanced tab to select the appropriate Hue, L
 ![](assets/TextBackgroundColor-2.png) 
 
 ### Paste formatted text {#paste}
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-18T09:14:58.046-0500
-small change in the above graphic
--->
 
 To reuse one of more paragraphs of text that exist in another application, such as from Microsoft® Word or HTML pages, copy and paste the text into the text editor. The formatting of the copied text is retained in the text editor.
 

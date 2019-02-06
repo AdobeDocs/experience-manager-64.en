@@ -3,12 +3,12 @@ title: Customizing Pages shown by the Error Handler
 seo-title: Customizing Pages shown by the Error Handler
 description: AEM comes with a standard error handler for handling HTTP errors
 seo-description: AEM comes with a standard error handler for handling HTTP errors
-uuid: 67b8697a-dc95-46b6-9f4b-aaacd8c1564a
+uuid: 2ab4c27e-3bdc-429b-bf9d-12b74e8b3969
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 963a052d-0e5e-419d-8636-d351c196c997
+discoiquuid: 1a672a76-58db-4eac-8453-22fe3f088f27
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 CQ comes with a standard error handler for handling HTTP errors; for example, by showing:
 
-![](assets/chlimage_1-77.png)
+![](assets/chlimage_1-76.png)
 
 System provided scripts exist (under `/libs/sling/servlet/errorhandler`) to respond to error codes, by default the following are available with a standard CQ instance:
 

@@ -3,12 +3,12 @@ title: Overview of Health Monitor
 seo-title: Overview of Health Monitor
 description: This document provides the overview of the Health monitor, and details about how you can access it.
 seo-description: This document provides the overview of the Health monitor, and details about how you can access it.
-uuid: 88506483-211c-48e3-9474-da286ce55299
+uuid: a84dbe65-cfce-4d55-839b-6b6546b38d7f
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/health_monitor
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1a9b9e86-7d47-41cc-bc20-824684232655
+discoiquuid: 01a1d49a-8623-4dbf-8c37-b83bf6d30ead
 index: y
 internal: n
 snippet: y

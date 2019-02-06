@@ -3,26 +3,18 @@ title: Basic Handling
 seo-title: Basic Handling
 description: An overview of basic handling when using the AEM author environment. It uses the Sites console as a basis.
 seo-description: An overview of basic handling when using the AEM author environment. It uses the Sites console as a basis.
-uuid: e675707c-77c2-47da-b364-a20f280fccdf
+uuid: 89a3a021-d7bc-4fc8-9afc-e66fcb6f1ae4
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: d49c2779-424e-4221-b2aa-6fb92ef2644c
+discoiquuid: d4ad51d5-a801-4d91-ab09-740d9146dbed
 index: y
 internal: n
 snippet: y
 ---
 
 # Basic Handling{#basic-handling}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:05:56.783-0500
-<p>split generic and sites-only features?</p>
-<p>is there any sites only, bulk editing seems to work for assets too....check whether projects/stats view is mentioned somewhere else (more meaningful)<br /> </p>
--->
 
 >[!NOTE]
 >
@@ -104,13 +96,13 @@ From here you can [manage your pages](../../../sites/authoring/using/managing-pa
 >
 >The basic handling is the same across all consoles. This section concentrates on the **Websites** console as it is the primary console used when authoring.
 
-![](assets/chlimage_1-12.png) 
+![](assets/chlimage_1-9.png) 
 
 ## Accessing Help {#accessing-help}
 
 On various consoles (e.g. Websites) there is also **Help** button is available, this will open either Package Share or the documentation site.
 
-![](assets/chlimage_1-13.png)
+![](assets/chlimage_1-10.png)
 
 When editing a page the [sidekick also has a button for accessing help](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#accessinghelp).
 
@@ -125,14 +117,6 @@ The **Websites** console lists your pages of content in a tree structure (left h
       For performance reasons this action is dependent on the number of children nodes. With a standard installation this method of expansion works when there are `30` or less child nodes.
 
 * A double click on the page name (left pane) will also expand the tree, though as the page is opened at the same time this effect is not so obvious.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:05:57.060-0500
-<p>6.2 - check link to ref docs</p>
-<p>a href="/content/docs/en/aem/6-2/ref/widgets-api/index.html?class=CQ.wcm.SiteAdmin"</p>
--->
 
 >[!NOTE]
 >
@@ -236,5 +220,5 @@ The colors next to pages in the **Published** and **Modified** columns indicate 
 
 The classic UI uses well-known mechanisms for navigating and initiating actions, including click and double-click. Depending on the current situation, a range of context menus (usually opened with the right-mouse-button) are also available:
 
-![](assets/chlimage_1-14.png)
+![](assets/chlimage_1-11.png)
 

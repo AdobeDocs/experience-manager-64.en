@@ -3,12 +3,12 @@ title: Overview of configuring SSL
 seo-title: Overview of configuring SSL
 description: Learn about how to enhance security of communication by configuring SSL.
 seo-description: Learn about how to enhance security of communication by configuring SSL.
-uuid: 763cc8e7-7376-41a3-a1d5-d39c6bc77b50
+uuid: 7ea749dd-acbf-4abd-8284-844389926687
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 72f57086-ceea-48d5-a666-3c5179b357cc
+discoiquuid: 8e87d9f8-70db-4aa7-89d9-75e25174e6a8
 index: y
 internal: n
 snippet: y

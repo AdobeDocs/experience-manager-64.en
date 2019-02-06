@@ -3,11 +3,11 @@ title: Integrate Adobe Sign with AEM Forms
 seo-title: Integrate Adobe Sign with AEM Forms
 description: Learn how to configure Adobe Sign for AEM Forms
 seo-description: Learn how to configure Adobe Sign for AEM Forms
-uuid: 6c35a0fc-9210-4173-b029-4b0b2b03c59f
+uuid: cd2b5a11-d4eb-4d7d-9f56-a05eb12d0244
 contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: eb2f58bd-d322-47db-868f-5a9aca1d1f82
+discoiquuid: dc6cbea0-b333-4a15-80a1-3ca8bf691817
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Tutorials
 seo-title: Tutorials
 description: Examples to help in learning and working with AEM Communities social component framework (SCF)
 seo-description: Examples to help in learning and working with AEM Communities social component framework (SCF)
-uuid: ac29138c-e1d1-42fb-90a5-a3d7c10b2517
+uuid: 1cfa0dd1-60fb-48d2-afb2-2172163ab568
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 642e1dc4-ec98-46ba-97d9-6143baac6746
+discoiquuid: 70fdde38-83f9-4521-867c-a53e7a82b9e9
 index: y
 internal: n
 snippet: y

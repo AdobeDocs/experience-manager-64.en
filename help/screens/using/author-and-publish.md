@@ -3,12 +3,12 @@ title: Supporting Author and Publish in AEM Screens
 seo-title: Supporting Author and Publish in AEM Screens
 description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more.
 seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more.
-uuid: f7c4b920-8314-43df-98c1-f7a368e59663
+uuid: d5237cf9-3ecd-4474-b88c-59ccdcf7ec42
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 59d61cba-b7de-4dd4-9b61-8044ac330ce6
+discoiquuid: 4f2ab5bc-5066-40b6-b2b9-6813d67259ed
 index: y
 internal: n
 snippet: y
@@ -45,13 +45,6 @@ AEM Screens architecture resembles a traditional AEM Sites architecture. Content
 *For example*, an AEM Screens content author issues a command on the authoring system for a particular device that is configured to interact with a publish farm or an AEM Screens content author that obtains information about devices that are configured to interact with publish farms.
 
 The following diagram illustrates the author and publish environments.
-
-<!--
-Comment Type: annotation
-Last Modified By: sanjeev
-Last Modified Date: 2018-05-10T10:23:00.277-0400
-looks good, its aligned to current functionality in the product. thanks jyotika.
--->
 
 ![](assets/screens-highlevel.png) 
 

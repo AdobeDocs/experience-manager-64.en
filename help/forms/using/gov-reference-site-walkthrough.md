@@ -3,11 +3,11 @@ title: We.Gov reference site walkthrough
 seo-title: We.Gov reference site walkthrough
 description: See the We.Gov reference site walkthrough to understand how AEM Forms helps governments manage individual information. 
 seo-description: See the We.Gov reference site walkthrough to understand how AEM Forms helps governments manage individual information. 
-uuid: 0f07ba3c-4004-4811-ac96-eeed104d9834
+uuid: d9728c08-592e-447b-a0a5-1df0bb7615fd
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: f36c2b4f-58a6-4104-862b-8b5be4de7fde
+discoiquuid: a63c41b3-4a4e-4ef1-b949-44c81957b9bc
 index: y
 internal: n
 snippet: y

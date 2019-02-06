@@ -3,12 +3,12 @@ title: Asset Templates
 seo-title: Asset Templates
 description: Learn about Asset templates in AEM Assets and how to use Asset templates to create marketing collateral.
 seo-description: Learn about Asset templates in AEM Assets and how to use Asset templates to create marketing collateral.
-uuid: 4a499691-57eb-48ec-aa2d-0854d29af27d
+uuid: d9532e7a-26eb-400b-a99a-0de8437264ce
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 89677703-8f68-4dea-a712-5b65ad08a0f0
+discoiquuid: 2754bdc2-f940-407b-bdf7-6103fdf8f543
 index: y
 internal: n
 snippet: y
@@ -54,35 +54,35 @@ Consider a scenario where you want to create digital printable collateral, such 
 
 1. Click or tap the AEM logo, and then click/tap **Assets** on the Navigation page.
 
-   ![](assets/chlimage_1-259.png)
+   ![](assets/chlimage_1-258.png)
 
 1. From the options, choose **Templates**.
 
-   ![](assets/chlimage_1-260.png)
+   ![](assets/chlimage_1-259.png)
 
 1. Click/tap **Create**, and then choose the collateral you want to create from the menu. For example, choose **Brochure**.
 
-   ![](assets/chlimage_1-261.png)
+   ![](assets/chlimage_1-260.png)
 
 1. Choose a template for your brochure, and click/tap **Next**.
 
-   ![](assets/chlimage_1-262.png)
+   ![](assets/chlimage_1-261.png)
 
 1. Specify a name and an optional description for the brochure.
 
-   ![](assets/chlimage_1-263.png)
+   ![](assets/chlimage_1-262.png)
 
 1. (Optional) Click/tap the **Tags** icon beside **Tags** field, and select one or more tags for the brochure. Click/tap **Confirm** to confirm your selection.
 
-   ![](assets/chlimage_1-264.png)
+   ![](assets/chlimage_1-263.png)
 
 1. Click **Create**. A dialog confirms that a new brochure is created. Click/tap **Open** to open the brochure in edit mode.
 
-   ![](assets/chlimage_1-265.png)
+   ![](assets/chlimage_1-264.png)
 
    Alternatively, close the dialog and navigate to the folder in the Templates page you started with to view the brochure you created. The type of the collateral appears on its thumbnail in card view. For example, in this case, Brochure is displayed on the thumbnail.
 
-   ![](assets/chlimage_1-266.png)
+   ![](assets/chlimage_1-265.png)
 
 ## Editing a Collateral {#editing-a-collateral}
 
@@ -95,7 +95,7 @@ You can edit a collateral immediately after you create it. Alternatively, you op
     * In the asset page for the collateral, click/tap the Edit icon from the toolbar.
     * Select the collateral, and click/tap the Edit icon from the toolbar.
 
-   ![](assets/chlimage_1-267.png)
+   ![](assets/chlimage_1-266.png)
 
    The asset finder and the text editor is displayed on the left of the page. The text editor is open by default.
 
@@ -103,11 +103,11 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 
    Using the asset finder, you can browse or search for images within AEM Assets and replace the editable images in the template with images of your choice.
 
-   ![](assets/chlimage_1-268.png)
+   ![](assets/chlimage_1-267.png)
 
    The editable are displayed on the right. For a field to be editable in AEM Assets, corresponding field in the template must be tagged in InDesign. In other words, they should be maked as editable in InDesign.
 
-   ![](assets/chlimage_1-269.png)
+   ![](assets/chlimage_1-268.png)
 
    >[!NOTE]
    >
@@ -115,33 +115,33 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 
 1. To modify the text in an editable field, click/tap the text field from the list of editable fields and edit the text in the field.
 
-   ![](assets/chlimage_1-270.png)
+   ![](assets/chlimage_1-269.png)
 
    You can edit the text properties, for example font style, color, size using the options provided.
 
 1. Click/tap the **Preview** icon to preview the text changes.
 
-   ![](assets/chlimage_1-271.png)
+   ![](assets/chlimage_1-270.png)
 
 1. To swap an image, click/tap the Asset Finder icon. 
 
-   ![](assets/chlimage_1-272.png)
+   ![](assets/chlimage_1-271.png)
 
 1. Select the image field from the list of editable fields and then drag a desired image from the asset picker to the editable field.
 
-   ![](assets/chlimage_1-273.png)
+   ![](assets/chlimage_1-272.png)
 
    You can also search for images using keywords, tags, and based on their publish status. You can browse through the AEM Assets repository and navigate to the location of the desired image.
 
-   ![](assets/chlimage_1-274.png)
+   ![](assets/chlimage_1-273.png)
 
 1. Click/tap the **Preview** icon to preview the image.
 
-   ![](assets/chlimage_1-275.png)
+   ![](assets/chlimage_1-274.png)
 
 1. To edit a specific page in a multipage collateral, use the page navigator at the bottom. 
 
-   ![](assets/chlimage_1-276.png)
+   ![](assets/chlimage_1-275.png)
 
 1. Click/tap the **Preview** icon on the toolbar to preview all the changes. Click/tap **Done** to save the editing changes to the collateral.
 
@@ -168,11 +168,11 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 1. To generate a PDF rendition for the brochure, select the Acrobat option in the dialog and then click **Continue**.
 1. The collateral is created in the folder you started with. To view the renditions, open the collateral and choose **Renditions** from the GlobalNav list.
 
-   ![](assets/chlimage_1-277.png)
+   ![](assets/chlimage_1-276.png)
 
 1. Click/tap the PDF rendition from the list of renditions to download the the PDF file. Open the PDF file to review the collateral. 
 
-   ![](assets/chlimage_1-278.png)
+   ![](assets/chlimage_1-277.png)
 
 ## Merge Collateral {#merge-collateral}
 
@@ -180,36 +180,36 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 1. From the options, choose **Templates**.
 1. Click/tap **Create** and the choose **Merge** from the menu.
 
-   ![](assets/chlimage_1-279.png)
+   ![](assets/chlimage_1-278.png)
 
 1. From the Template Merge page, click/tap the Merge icon. 
 
-   ![](assets/chlimage_1-280.png)
+   ![](assets/chlimage_1-279.png)
 
 1. Navigate to the location of the collateral you want to merge, click/tap the thumbnails of the collateral you want to merge to select them.
 
-   ![](assets/chlimage_1-281.png)
+   ![](assets/chlimage_1-280.png)
 
    You can even search for templates from the OmniSearch box.
 
-   ![](assets/chlimage_1-282.png)
+   ![](assets/chlimage_1-281.png)
 
    You can browse through the AEM Assets repository or collections, and navigate to the location of the desired templates and then select them to merge.
 
-   ![](assets/chlimage_1-283.png)
+   ![](assets/chlimage_1-282.png)
 
    You can apply various filters to search the desired templates. For example, you can search for templates based on file type or tags.
 
-   ![](assets/chlimage_1-284.png)
+   ![](assets/chlimage_1-283.png)
 
 1. Click/tap **Next** from the toolbar.
 1. In the **Preview & Reorder** screen, rearrange the templates if required and preview the selection of templates to merge. Then, click/tap **Next** from the toolbar.
 
-   ![](assets/chlimage_1-285.png)
+   ![](assets/chlimage_1-284.png)
 
 1. In the Configure Template screen, specify a name for the collateral. Optionally, specify any tags that you consider appropriate. If you want to export the output in PDF format, select the **Acrobat (.PDF)** option. By default, the collateral is exported in JPG and InDesign format. To change the display thumbnail for the multipage collateral, click/tap **Change Thumbnail**.
 
-   ![](assets/chlimage_1-286.png)
+   ![](assets/chlimage_1-285.png)
 
 1. Click/tap **Save** and then click/tap **OK** in the dialog to close the dialog. The multipage collateral is created in the folder you started with.
 

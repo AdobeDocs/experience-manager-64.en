@@ -3,11 +3,11 @@ title: PhoneGap
 seo-title: PhoneGap
 description:   
 seo-description: Follow this page to get started with authoring for Adobe PhoneGap Enterprise in AEM.  
-uuid: c79d2abc-d890-4d38-820f-b4974eaf5b96
+uuid: c5a79e92-ed9f-4237-8bd1-c25fadf6e038
 contentOwner: msm-service
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: 039e4d0a-284a-4d4b-9b57-f7638f793153
+discoiquuid: 3f1a9404-99ae-45ad-af85-2945ae641a44
 index: y
 internal: n
 snippet: y

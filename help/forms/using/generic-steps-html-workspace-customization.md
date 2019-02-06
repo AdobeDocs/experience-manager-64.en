@@ -3,12 +3,12 @@ title: Generic steps for AEM Forms workspace customization
 seo-title: Generic steps for AEM Forms workspace customization
 description: How to get started customizing AEM Forms workspace user interface.
 seo-description: How to get started customizing AEM Forms workspace user interface.
-uuid: f558cc55-0d35-4cec-aab8-3a7d6f96a449
+uuid: 43f55e3d-9bdc-461b-8800-73d02d2bc048
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: a9f3ae2d-b397-4029-9f07-f4da626058c3
+discoiquuid: 6b6c4318-741d-483e-bf4e-47f2a5b6a845
 index: y
 internal: n
 snippet: y

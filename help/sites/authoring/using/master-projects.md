@@ -4,12 +4,12 @@ seo-title: Master Projects
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 853a5f2b-247c-46dc-94ad-3f8716072f99
+uuid: 141e808a-697f-4ed0-b611-c20ee3d89e28
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: 1d7547c7-4c7e-4efe-b2ce-f053d340cabe
+discoiquuid: 4a74c968-f112-476d-9ded-68e53f15e08b
 index: y
 internal: n
 snippet: y

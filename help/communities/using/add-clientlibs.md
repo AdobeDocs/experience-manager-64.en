@@ -3,12 +3,12 @@ title: Add Clientlibs
 seo-title: Add Clientlibs
 description: Add a ClientLibraryFolder
 seo-description: Add a ClientLibraryFolder
-uuid: 599a68cd-2e50-4f43-a50e-17083081d3bc
+uuid: 26243e4c-329e-43e8-b45e-7401d0b04712
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: c7cb6097-97a3-469e-859b-0d2ccecdb8b1
+discoiquuid: d8249085-32ef-4818-ba5b-6e383cae77dc
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ The `categories`property value given to this client library is the identifier us
 
 1. click **OK**
 
-![](assets/chlimage_1-226.png)
+![](assets/chlimage_1-219.png)
 
 In the **Properties** tab for the new `clientlibs` node, enter the **`categories`**property:
 
@@ -55,7 +55,7 @@ Note : prefacing the categories value with 'apps.' is a convention to identify t
 
 1. click **Save All**
 
-![](assets/chlimage_1-227.png)
+![](assets/chlimage_1-220.png)
 
 The first line of the css.txt and js.txt identifies the base location from which the following lists of files are to be found.
 
@@ -101,11 +101,11 @@ In this case, we're including them all, and so would prefer the more basic SCF c
 
 * click **Save All**
 
-![](assets/chlimage_1-228.png)
+![](assets/chlimage_1-221.png)
 
 This is how `/etc/designs/an-scf-sandbox/clientlibs` should now appear in the repository :
 
-![](assets/chlimage_1-229.png) 
+![](assets/chlimage_1-222.png) 
 
 ### Include Clientlibs in PlayPage Template {#include-clientlibs-in-playpage-template}
 
@@ -113,11 +113,11 @@ Without including the `apps.an-scf-sandbox` ClientLibraryFolder category on the 
 
 For example, without including the clientlibs, the SCF comments component appears unstyled :
 
-![](assets/chlimage_1-230.png)
+![](assets/chlimage_1-223.png)
 
 Once apps.an-scf-sandbox clientlibs is included, the SCF comments component appears styled :
 
-![](assets/chlimage_1-231.png)
+![](assets/chlimage_1-224.png)
 
 The include statement belongs in the <head> section of the <html> script. The default **`foundation head.jsp`** includes a script that can be overlaid : **`headlibs.jsp`**.
 
@@ -149,7 +149,7 @@ Load your website in the browser and see if the background is not a shade of blu
 
 [http://localhost:4502/content/an-scf-sandbox/en/play.html](http://localhost:4502/content/an-scf-sandbox/en/play.html)
 
-![](assets/chlimage_1-232.png) 
+![](assets/chlimage_1-225.png) 
 
 ### Saving Your Work So Far {#saving-your-work-so-far}
 

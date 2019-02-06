@@ -3,12 +3,12 @@ title: Metadata Schemas
 seo-title: Metadata Schemas
 description: Metadata schema defines the layout of the properties page and the metadata properties displayed for assets. Learn how to create custom metadata schema, edit metadata schema, and how to apply metadata schema to assets.  
 seo-description: Metadata schema defines the layout of the properties page and the metadata properties displayed for assets. Learn how to create custom metadata schema, edit metadata schema, and how to apply metadata schema to assets.  
-uuid: 3bd15c92-b8e5-4dea-b1e8-bb62c4b606ca
+uuid: 8c27d26e-00a4-423f-bd1d-9483c630ab60
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 22d983e1-2ab7-48c9-935c-ebb1a837de06
+discoiquuid: fab8605f-71c5-4eb6-b5d0-1fd087c383ab
 index: y
 internal: n
 snippet: y
@@ -22,21 +22,21 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
 1. To view the properties page for an asset, click or tap the **View Properties** icon from Quick Actions on the asset tile in Card view.
 
-   ![](assets/chlimage_1-123.png)
+   ![](assets/chlimage_1-122.png)
 
    Alternatively, select the asset in the UI and then click or tap the** Properties** icon from the toolbar.
 
-   ![](assets/chlimage_1-124.png)
+   ![](assets/chlimage_1-123.png)
 
 1. Edit various metadata properties under the various tabs. However, you cannot modify the asset type in the properties page.
 
-   ![](assets/chlimage_1-125.png)
+   ![](assets/chlimage_1-124.png)
 
    To modify the MIME type for an asset, use a custom metadata schema form or modify an existing form. See [Editing Metadata Schema Forms](../../assets/using/metadata-schemas.md#main-pars-title) for more information. If you modify the metadata schema for a certain MIME type, the properties page layout for assets with the current MIME type and all asset subtypes are modified. For example, modifying a **jpeg** schema under *default/image* only modifies the metadata layout (asset properties) for assets with MIME type **IMAGE/JPEG**. However, if you edit the **default** schema, your changes modify the metadata layout for all types of assets.
 
 1. To view a list of forms/templates, click the AEM logo and then navigate to **Tools** &gt; **Assets** &gt; **Metadata Schemas**.
 
-   ![](assets/chlimage_1-126.png)
+   ![](assets/chlimage_1-125.png)
 
    AEM provides the following templates out of the box:
 
@@ -71,7 +71,7 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
 
 1. In the dialog, enter the title of the Schema form, and then click **Create** to complete the form creation process.
 
-   ![](assets/chlimage_1-127.png)
+   ![](assets/chlimage_1-126.png)
 
 ## Editing metadata schema forms {#editing-metadata-schema-forms}
 
@@ -86,11 +86,11 @@ You can add new tabs or form items to the metadata schema form. The tabs and for
 
 1. In the Schema Forms page, select the check box before a form and then click the **Edit icon **on the toolbar.
 
-   ![](assets/chlimage_1-128.png)
+   ![](assets/chlimage_1-127.png)
 
 1. In the **Metadata Schema Editor** page, customize the properties page of the asset by dragging one or more components from the list of component types in the **Build Form** tab to the **Basic** tab.
 
-   ![](assets/chlimage_1-129.png)
+   ![](assets/chlimage_1-128.png)
 
 1. To configure a component, select it and modify its properties in the** Settings **tab.
 
@@ -197,7 +197,7 @@ To ensure that the component is displayed properly in the metadata schema form, 
 
 **Delete icon** Click this icon to delete a component from the schema form.
 
-![](assets/chlimage_1-130.png)
+![](assets/chlimage_1-129.png)
 
 >[!NOTE]
 >
@@ -205,15 +205,15 @@ To ensure that the component is displayed properly in the metadata schema form, 
 
 If you select the **Required** option, you can search for assets missing mandatory metadata. From the **Filters** panel, expand the **Metadata Validation** predicate and select the **Invalid** option. The search results display assets missing mandatory metadata that you configured through the schema form.
 
-![](assets/chlimage_1-131.png)
+![](assets/chlimage_1-130.png)
 
 If you add the Contextual Metadata component to any tab of any schema form, the component appears as a list in the properties page of assets to which the particular  schema  is applied. The list includes all other tabs except the tab to which you applied the Contextual Metadata component. Currently, this feature provides basic functionality to control the display of metadata based on the context.
 
-![](assets/chlimage_1-132.png)
+![](assets/chlimage_1-131.png)
 
 To include any tab in the properties page in addition to the tab where the Contextual Metadata component is applied, select the tab from the list. The tab is added to the properties page.
 
-![](assets/chlimage_1-133.png) 
+![](assets/chlimage_1-132.png) 
 
 ##
 
@@ -225,13 +225,13 @@ Instead of specifying properties for the options in the **Settings** tab, you ca
 
 The schema editor lets you add or delete a tab. The **default **schema form includes the **Basic**, **Advanced** , **IPTC**, and **IPTC Extension** tabs, by default.
 
-![](assets/chlimage_1-134.png)
+![](assets/chlimage_1-133.png)
 
 Click **+** to add a new tab on a schema form. By default, the new tab has the name "Unnamed-1." You can modify the name from the **Settings **tab.
 
 Click **X** to delete a tab.
 
-![](assets/chlimage_1-135.png) 
+![](assets/chlimage_1-134.png) 
 
 ## Deleting metadata schema forms {#deleting-metadata-schema-forms}
 
@@ -239,7 +239,7 @@ AEM lets you delete custom schema forms only. It does not let you delete the def
 
 To delete a form, select a form and click the **Delete** icon.
 
-![](assets/chlimage_1-136.png)
+![](assets/chlimage_1-135.png)
 
 >[!NOTE]
 >
@@ -307,24 +307,24 @@ If the folder has a subfolder, the assets within the subfolder inherit the metad
 1. Click the AEM logo and then navigate to **Tools** &gt; **Assets** &gt; **Metadata Schemas**. The **Metadata Schema Forms** page is displayed.
 1. Select the check box before a form, for example the default metadata form, and click or tap the **Copy** icon and save it as a custom form. Specify a custom name for the form, for example `my_default`. Alternatively, you can create a custom form.
 
-   ![](assets/chlimage_1-137.png)
+   ![](assets/chlimage_1-136.png)
 
 1. In the **Metadata Schema Forms** page, select the `my_default` form, and then click the **Edit** icon.
 
-   ![](assets/chlimage_1-138.png)
+   ![](assets/chlimage_1-137.png)
 
 1. In the **Metadata Schema Editor** page, add a text field to the schema form. For example add a field with the label **Category**.
 
-   ![](assets/chlimage_1-139.png)
+   ![](assets/chlimage_1-138.png)
 
 1. Click **Save**. The modified form is listed in the **Metadata Schema Forms** page.
 1. Click/tap **Apply to Folder(s)** from the toolbar to apply the custom metadata to a folder.
 
-   ![](assets/chlimage_1-140.png)
+   ![](assets/chlimage_1-139.png)
 
 1. Select the folder on which to apply the modified schema and then click/tap **Apply**.
 
-   ![](assets/chlimage_1-141.png)
+   ![](assets/chlimage_1-140.png)
 
 1. If the folder has the other metadata schema applied, a message appears warning that you are about to overwrite the existing metadata schema. Click **Overwrite**.
 1. Click **OK** to close the success message.
@@ -337,17 +337,17 @@ You can define mandatory fields at a folder level, which is enforced on assets t
 1. Click the AEM logo and then navigate to **Tools** &gt; **Assets** &gt; **Metadata Schemas**. The **Metadata Schema Forms** page is displayed.
 1. Save the default metadata form as a custom form. For example, save it as `my_default`.
 
-   ![](assets/chlimage_1-142.png)
+   ![](assets/chlimage_1-141.png)
 
 1. Edit the custom form. Add a mandatory field. For example, add a **Category** field and make the field mandatory.
 
-   ![](assets/chlimage_1-143.png)
+   ![](assets/chlimage_1-142.png)
 
 1. Click **Save**. The modified form is listed in the **Metadata Schema Forms** page. Select the form and then click or tap **Apply to Folder(s)** from the toolbar to apply the custom metadata to a folder.
 
-   ![](assets/chlimage_1-144.png)
+   ![](assets/chlimage_1-143.png)
 
 1. Navigate to the folder and upload some assets with missing metadata for the mandatory field you added to the custom form. The Card view for the assets display a message for the missing metadata for the mandatory field.
 
-   ![](assets/chlimage_1-145.png)
+   ![](assets/chlimage_1-144.png)
 

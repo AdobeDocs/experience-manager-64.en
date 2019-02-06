@@ -3,12 +3,12 @@ title: Imaging Transcoding Library
 seo-title: Imaging Transcoding Library
 description: Learn how to configure and use Adobe's Imaging Transcoding Library, an image processing solution that can perform core image-handling functions, including encoding, transcoding, image resampling, and image resizing.
 seo-description: Learn how to configure and use Adobe's Imaging Transcoding Library, an image processing solution that can perform core image-handling functions, including encoding, transcoding, image resampling, and image resizing.
-uuid: 8268a381-7da4-4554-ad0c-e82eedc6ccb4
+uuid: b696b2b2-3f9e-4465-b278-380b107e3218
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 3d227d7c-d258-4434-9756-6217c90ca4ab
+discoiquuid: 9f354f7f-c784-43a7-8e62-0400aa26e6ac
 index: y
 internal: n
 snippet: y
@@ -132,13 +132,6 @@ The command line arguments for Imaging Transcoding Library can include the follo
  </tbody> 
 </table>
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-05-09T13:18:35.258-0400
-   Old link to the package was: https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/aem-assets-imaging-transcoding-library-pkg
-   -->
-
 1. Tap/click the AEM logo, and go to **Tools** &gt; **Workflow** &gt; **Models**.
 1. From the **Workflow Models** page, open the** DAM Update Asset** workflow model in edit mode.
 1. Open the **Process Thumbnails** workflow process step. In the **Thumbnails** tab, add the MIME types for which you want to skip the default thumbnail generation process in the **Skip Mime Types **list. For example, if you want to create thumbnails for a JPEG image using Imaging Transcoding Library, specify `skip:image/jpeg` in the Skip Mime Types field.
@@ -162,18 +155,11 @@ The command line arguments for Imaging Transcoding Library can include the follo
     1. `SWitchEngine -input ${file} -destMime PNG -resize 319 -output ${directory}cq5dam.thumbnail.319.319.png`
     1. `SWitchEngine -input ${file} -destMime JPEG -resize 1280 -preserveCMYK -output ${directory}cq5dam.thumbnail.1280.1280.jpg`
 
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-05-09T16:46:42.119-0400
-   Commands need to be updated to account for the "SWitchEngine Handler" component no longer being used. Get from engineering or tester.
-   -->
-
-   ![](assets/chlimage_1-152.png)
+   ![](assets/chlimage_1-151.png)
 
     * Generate thumbnails from an intermediate rendition using a single command. The intermediate rendition acts as source to generate static and web renditions. This method is faster than the earlier method. However, you cannot apply custom parameters to thumbnails using this method.
 
-   ![](assets/chlimage_1-153.png)
+   ![](assets/chlimage_1-152.png)
 
    To generate web renditions, configure parameters in the** Web-Enabled Image** tab as depicted in the following image.
 

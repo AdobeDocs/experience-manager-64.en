@@ -3,12 +3,12 @@ title: Set up environment for AEM Forms app
 seo-title: Set up environment for AEM Forms app
 description: Hardware, software, and licenses to build and deploy the AEM Forms app.
 seo-description: Hardware, software, and licenses to build and deploy the AEM Forms app.
-uuid: 9e4124fc-2da0-47e7-b14f-3f97128402d0
+uuid: 6264857b-656d-448a-b44e-72dd9a2d9fb2
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 8268c1e6-060b-44a9-ad12-188be99739e8
+discoiquuid: 37e523d7-4ff3-4c98-a4ff-22b84d0e0779
 index: y
 internal: n
 snippet: y

@@ -4,10 +4,10 @@ seo-title: Create Form Data Model Tutorial
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 3e76c000-093d-4299-8739-3db484da91c7
+uuid: d0f1284d-9d26-4cb6-8ba1-7866662f3cdb
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
-discoiquuid: 5508f9ea-62c8-43aa-842a-ee3c554cada9
+discoiquuid: f799d203-f941-4dc4-8641-e0ed8cf93b45
 index: y
 internal: n
 snippet: y
@@ -228,18 +228,4 @@ Do the following to run the test:
    Now, if you test the read model service again for the id 7107215, it will fetch and display the updated customer details as shown below.
 
    ![](assets/read-updated.png)
-
-<!--
-Comment Type: draft
-
-<h2>Next steps</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p>[<strong><span class="uicontrol">This section will be hidden until the next tutorial is published</span></strong>]</p>
-<p>You have a working form data model and an adaptive form that you created in the <a href="../../forms/using/create-adaptive-form.md" target="_blank">previous</a> tutorial of this series. You can now associate the form data model with the adaptive form and bind the form fields with data model object properties. You can use adaptive form rules to invoke form data model get service to prefill the form and configure the adaptive form submit action to update the data source with submitted form data.</p>
-<p>For more information on how to fulfill the prefill and submission use cases through integration of adaptive form with form data model, see &lt;<em>link-to-the-next-tutorial</em>&gt;. </p>
--->
 

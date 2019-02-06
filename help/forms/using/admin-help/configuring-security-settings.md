@@ -3,12 +3,12 @@ title: Configuring security settings
 seo-title: Configuring security settings
 description: Learn how to configure security settings.
 seo-description: Learn how to configure security settings.
-uuid: 1f39a0b6-00a1-4df8-9d52-c152df343dcb
+uuid: b9ecfb6f-addb-4f82-aab5-4ed948b47a42
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: c1d971b6-6ea6-49b6-92d6-d9f1f7e42836
+discoiquuid: dbdeca09-ce45-42ba-9a20-4df616fb8ab9
 index: y
 internal: n
 snippet: y

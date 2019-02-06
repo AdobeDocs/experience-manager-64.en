@@ -3,12 +3,12 @@ title: Camera Raw Support
 seo-title: Camera Raw Support
 description: Learn how to enable Camera Raw support in Adobe Experience Manager (AEM) Assets.
 seo-description: Learn how to enable Camera Raw support in Adobe Experience Manager (AEM) Assets.
-uuid: a38da109-8716-4f45-8dbc-252401b0d920
+uuid: 0aa18238-24c2-42a3-af8b-3f1e9bf607d9
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: dd5e722e-43b0-4502-862c-a5a7731a8001
+discoiquuid: a7462d10-f393-4dda-90d7-c319dba50234
 index: y
 internal: n
 snippet: y
@@ -60,13 +60,13 @@ To enable Camera Raw support in Adobe Experience Manager (AEM) Assets:
     * Thumbnails: `140:100:false, 48:48:false, 319:319:false`
     * Skip Mime Types: `skip:image/dng, skip:image/x-raw-(.*)`
 
-   ![](assets/chlimage_1-288.png)
+   ![](assets/chlimage_1-287.png)
 
 1. In the **[!UICONTROL Web Enabled Image]** tab, specify the following:
 
     * Skip List: `audio/mpeg, video/(.*), image/dng, image/x-raw-(.*)`
 
-   ![](assets/chlimage_1-289.png)
+   ![](assets/chlimage_1-288.png)
 
 1. From SideKick, add the **[!UICONTROL Camera Raw/DNG Handler]** step below the **[!UICONTROL Thumbnail creation]** step.
 1. In the **[!UICONTROL Camera Raw/DNG Handler]** step, provide the following configuration in the **[!UICONTROL Arguments]** tab:
@@ -80,7 +80,7 @@ To enable Camera Raw support in Adobe Experience Manager (AEM) Assets:
     * `DAM_Raw_Converter ${directory}/${filename} ${directory} cq5dam.thumbnail.140.100.jpeg 140 100`
     * `DAM_Raw_Converter ${directory}/${filename} ${directory} cq5dam.thumbnail.48.48.jpeg 48 48`
 
-   ![](assets/chlimage_1-290.png)
+   ![](assets/chlimage_1-289.png)
 
 1. Click **[!UICONTROL Save]**.
 
@@ -92,11 +92,11 @@ To enable Camera Raw support in Adobe Experience Manager (AEM) Assets:
 
    After you install the Camera RAW package and configure the required workflow, **[!UICONTROL Image Adjust]**** **option appears in the list of panes.
 
-   ![](assets/chlimage_1-291.png)
+   ![](assets/chlimage_1-290.png)
 
    Click **[!UICONTROL Image Adjust]** from the list and use the options in the **[!UICONTROL Image Adjust]** pane to make lightweight edits to your image.
 
-   ![](assets/chlimage_1-292.png)
+   ![](assets/chlimage_1-291.png)
 
 After saving the edits to a Camera Raw image, a new rendition `AdjustedPreview.jpg` is generated for the image. For other image types except Camera Raw, the changes are reflected in all the renditions.
 

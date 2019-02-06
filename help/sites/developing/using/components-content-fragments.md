@@ -3,12 +3,12 @@ title: Components for Content Fragments
 seo-title: Components for Content Fragments
 description: AEM content fragments are created and managed as page-independent assets
 seo-description: AEM content fragments are created and managed as page-independent assets
-uuid: 093d3f45-c6e9-412d-8f30-12f0f20a633b
+uuid: 8cdbc8c5-6cca-4fff-95a7-cf1fb6df5618
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 7fe14f83-47aa-4f06-9f7d-28e137052635
+discoiquuid: c6eb1578-b55a-4bbe-9557-ecc881cfd80e
 pagetitle: Components for Content Fragments
 index: y
 internal: n
@@ -20,13 +20,6 @@ snippet: y
 >[!CAUTION]
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../../release-notes/sp-release-notes.md).
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-03-14T08:36:44.838-0400
-<p>check which pages link to this page and whether those links are still meaningful (don't want to add cautions everywhere)</p>
--->
 
 ## Components for Fragment Authoring {#components-for-fragment-authoring}
 

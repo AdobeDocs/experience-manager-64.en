@@ -3,12 +3,12 @@ title: AEM Assets Home Page Experience
 seo-title: AEM Assets Home Page Experience
 description: Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 seo-description: Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
-uuid: 91164867-0e40-4dcf-b38c-e423af80be86
+uuid: dc9d3584-f2b1-43c2-bfc7-74cafca5ea63
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: a817ae5c-1104-40ef-b55e-ca61edc1f775
+discoiquuid: 99e224ba-c86f-4d75-8c4b-21dd40452fa3
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ The Assets Home page is disabled by default. To enable it, perform the following
 1. Open the **Day CQ DAM Event** **Recorder** service.
 1. Select the **Enable this service** to enable activity recording.
 
-   ![](assets/chlimage_1-204.png)
+   ![](assets/chlimage_1-203.png)
 
 1. From the **Event Types** list, select the events to be recorded and save the changes.
 
@@ -37,7 +37,7 @@ The Assets Home page is disabled by default. To enable it, perform the following
 1. Open the **DAM Asset Home Page Feature Flag** service from Configuration Manager *http://&lt;AEM Server&gt;:&lt;Port&gt;/system/console/configMgr*.
 1. Select the **isEnabled.name** option to enable the Assets Home page feature. Save the changes.
 
-   ![](assets/chlimage_1-205.png)
+   ![](assets/chlimage_1-204.png)
 
 1. Open the **User Preferences** dialog, and select **Enable Assets Home Page**. Save the changes.
 

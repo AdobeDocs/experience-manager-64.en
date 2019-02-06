@@ -3,11 +3,11 @@ title: Getting Started with Process Reporting
 seo-title: Getting Started with Process Reporting
 description: The steps you need to follow to get started with AEM Forms on JEE Process Reporting
 seo-description: The steps you need to follow to get started with AEM Forms on JEE Process Reporting
-uuid: dd06e861-dbf9-42b0-bb42-d0d9101f654d
+uuid: 045b1e0d-2384-42ef-aaf1-3f543ccf7c72
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
-discoiquuid: d14ec918-74ae-4615-8f50-3b885b6f3812
+discoiquuid: c7a7c9ec-8551-425b-b90b-33026f79a3d8
 index: y
 internal: n
 snippet: y
@@ -186,17 +186,6 @@ Enable Process Reporting only when all the configurations related to Process Rep
 Alternatively, use this option to disable process data publishing when it is no longer required.
 
 `Default`: `Off`
-
-<!--
-Comment Type: draft
-
-<p><strong>Batch Interval (sec)</strong></p>
-<p>During each scheduling cycle, the ProcessDataPublisher service splits the processing into batches of time ranges of process data by update time.</p>
-<p>This helps in controlling the size of data the publisher processes end to end during each run (batch) within a cycle.</p>
-<p>For example, if the publisher runs every day, then instead of processing the entire data for one day in a single run, by default, it splits the processing into 24 batches of one hour each.</p>
-<p><span class="under">Default</span>: <span class="code">3600</span></p>
-<p><span class="under">Unit</span>: <span class="code">Seconds</span></p>
--->
 
 **Batch Interval (sec)**
 

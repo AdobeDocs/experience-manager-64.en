@@ -3,12 +3,12 @@ title: Working with Targeted Content in Multisites
 seo-title: Working with Targeted Content in Multisites
 description: If you need to manage targeted content, such as activities, experiences, and offers between your sites, you can take advantage of AEM's built-in multisite support for targeted content.
 seo-description: If you need to manage targeted content, such as activities, experiences, and offers between your sites, you can take advantage of AEM's built-in multisite support for targeted content.
-uuid: 2974d785-d95b-4bd0-8a3b-285f8e6cfe5e
+uuid: df082458-5635-460b-aa05-e72b54677e1e
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: fe310c14-8eff-4bfe-9261-a27cc90baf93
+discoiquuid: 5a313bec-c022-4499-b022-031060e86439
 index: y
 internal: n
 snippet: y

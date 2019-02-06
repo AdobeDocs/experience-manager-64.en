@@ -3,27 +3,17 @@ title: Adding custom action on form lister items
 seo-title: Adding custom action on form lister items
 description: Form developers can add more actions to the listing of forms on the forms portal page. By default, the form listing allows you to access the form, fill it, and submit it.
 seo-description: Form developers can add more actions to the listing of forms on the forms portal page. By default, the form listing allows you to access the form, fill it, and submit it.
-uuid: ec624f95-ea08-4be8-ad6c-54bec51a9b96
+uuid: 6370d42a-dd82-4a8c-a952-1682c70d5111
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 1d7457da-863b-499b-8728-33c303cd1e01
+discoiquuid: f163fa98-ad20-4dae-9997-2afbd28b9b59
 index: y
 internal: n
 snippet: y
 ---
 
 # Adding custom action on form lister items{#adding-custom-action-on-form-lister-items}
-
-<!--
-Comment Type: remark
-Last Modified By: Ashish Gupta . (asgupta)
-Last Modified Date: 2017-11-30T06:06:29.561-0500
-<p>Add the following related articles when they are available:</p>
-<ul>
-<li>Customizing templates for forms portal components: /content/help/en/aem-forms/6/customizing-templates-forms-portal-components.html<br /> </li>
-</ul>
--->
 
 In AEM Forms, you can create a portal page listing the available forms. By default, you can search and list forms on a portal page. You can open forms for filling and submit your information. Only rendering actions are provided out of the box for forms listed on a portal page. To know more about the available actions on a portal page, see [Creating a forms portal page](../../forms/using/creating-form-portal-page.md).
 

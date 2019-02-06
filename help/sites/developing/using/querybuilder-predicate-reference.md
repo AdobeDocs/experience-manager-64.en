@@ -3,12 +3,12 @@ title: Query Builder Predicate Reference
 seo-title: Query Builder Predicate Reference
 description: Complete predicate reference for the Query Builder API.
 seo-description: Complete predicate reference for the Query Builder API.
-uuid: 1f07d6ac-5317-4fd8-be0b-578fc17bd335
+uuid: 55431f3b-2cbb-4c96-98a1-6bb7f029f520
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: 2a711bdb-4338-4546-ac6f-c8376bf374dc
+discoiquuid: 300ab629-f802-456b-89f6-8321ba7e8804
 index: y
 internal: n
 snippet: y
@@ -62,25 +62,6 @@ Supports facet extraction. Will provide buckets for each `true` or `false` value
 
 * **value** 
   value to check property for, " `true`" or " `false`"
-
-<!--
-Comment Type: draft
-
-<h3 id="checkoutbycurrentuser">checkoutbycurrentuser</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>Predicate to search for checked out assets by the current user.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2018-03-16T05:53:19.530-0400
-<p>this predicate is only available from 6.4 onwards.</p>
--->
 
 ### contentfragment {#contentfragment}
 

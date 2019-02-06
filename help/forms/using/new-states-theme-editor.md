@@ -4,10 +4,10 @@ seo-title: DO NOT PUBLISH - New states in Theme Editor
 description: Learn how to add new states for styling a custom component in theme editor. 
 seo-description: Learn how to add new states for styling a custom component in theme editor. 
 page-status-flag: de-activated
-uuid: 5ef2ef1d-f9b0-47d1-be6f-13d78560e994
+uuid: 97d993eb-e0d6-42b9-89a8-cc9ab77597c4
 contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 4b0111cc-cebd-4048-9cef-6f0132397ee1
+discoiquuid: 38f4b7fd-72bc-4301-ad8d-456edaa306af
 index: y
 internal: n
 snippet: y

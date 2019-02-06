@@ -3,12 +3,12 @@ title: Repository Restructuring in AEM 6.4
 seo-title: Repository Restructuring in AEM 6.4
 description: Learn about the basics and reasoning behind the repository restructuring in AEM 6.4
 seo-description: Learn about the basics and reasoning behind the repository restructuring in AEM 6.4
-uuid: 5644f116-cd11-4d68-bfa8-89be9b312ba0
+uuid: ca7f4ff0-a90b-473f-8566-fe2221ad7783
 contentOwner: chaikels
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: 2a829789-a314-434a-9324-f32f14b82c4f
+discoiquuid: 7c0cb355-684f-4af6-84cb-47d1202f904f
 index: y
 internal: n
 snippet: y
@@ -33,13 +33,6 @@ When upgrading to AEM 6.4, a large subset of the content under /etc will be dupl
 
 * With 6.4 Upgrade - a handful of the /etc restructuring changes are not backwards compatible and thus modifications should be planned and implemented as part of the AEM 6.4 upgrade.
 * Prior to 6.5 Upgrade - the vast majority of the /etc restructuring changes can be deferred until some time in the future post-upgrade. As previosuly mentioned, AEM 6.4 code will continue to reference the old locations until the modifications are implemented as part of a customer release. While there is no forced timeline for which the changes should be made, it is recommended that they are made before the 6.5 upgrade since future features may rely on the new locations being referenced. Also, documentation for a given feature will by convention reference the new locations and it could thus be confusing if the old locations are still being used.
-
-<!--
-Comment Type: annotation
-Last Modified By: dgonzale
-Last Modified Date: 2018-05-24T14:16:39.210-0400
-Not sure if in this or the next section, it might be worth calling out that not all changes will be required for all customers; but only if the customer is using this functionality (even within a section). Each row must be evaluated if it will affect the customer AEM installation/deployment.
--->
 
 ### Restructuring Guidance {#restructuring-guidance}
 

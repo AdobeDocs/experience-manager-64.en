@@ -4,10 +4,10 @@ seo-title: Implementing Interactive Communication
 description: Implementing Interactive Communication - from conception of interactive communication to submitting it for post processing
 seo-description: Implementing Interactive Communication
 page-status-flag: never-activated
-uuid: da894bed-88cd-430c-a506-fe6758a0ed60
+uuid: 8a385ac7-afb7-47e5-a81e-dc80a1051952
 contentOwner: gtalwar
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 99d06041-7a64-49a2-8d49-d3673d57d244
+discoiquuid: 4344af20-9038-4139-a7f0-cebcc86df41f
 index: y
 internal: n
 snippet: y
@@ -38,13 +38,6 @@ Implementing Interactive Communication - from conception of interactive communic
 #### Adding adaptive form components to an interactive communication template {#adding-adaptive-form-components-to-an-interactive-communication-template}
 
 ### Document fragments {#document-fragments}
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-14T12:13:32.560-0500
-theme mandatory with web template - either the web template has a theme or while creating the IC you specify a theme
--->
 
 #### Adding form data model elements in document fragments {#adding-form-data-model-elements-in-document-fragments}
 
@@ -94,13 +87,6 @@ Examples:
 
 ### Create interactive communication {#create-interactive-communication-1}
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-14T06:29:50.479-0500
-post process aem forms workflow
--->
-
 ### Add content to web and print channel of interactive communication {#add-content-to-web-and-print-channel-of-interactive-communication}
 
 #### Adding document fragments to interactive communication {#adding-document-fragments-to-interactive-communication}
@@ -113,13 +99,6 @@ post process aem forms workflow
 
 ### Preview web and print channels of interactive communication {#preview-web-and-print-channels-of-interactive-communication}
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-14T06:36:34.496-0500
-ad theme web template theme component theme (style layer) Edit > Style - then for a component you can edit the formatting properties
--->
-
 ## Create instance of interactive communication in Agent UI {#create-instance-of-interactive-communication-in-agent-ui}
 
 ### Make the required changes in the interactive communication instance {#make-the-required-changes-in-the-interactive-communication-instance}
@@ -130,26 +109,5 @@ ad theme web template theme component theme (style layer) Edit > Style - then fo
 
 ## Target Integration {#target-integration}
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-14T06:38:29.163-0500
-talk to paras or anish
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-14T06:39:43.677-0500
-talk to paras or anish for details
--->
-
 ## Sites Integration {#sites-integration}
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2018-02-14T06:41:20.281-0500
-check if there is existing documentation about this from AF
--->
 

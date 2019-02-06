@@ -3,29 +3,18 @@ title: Video renditions
 seo-title: Video renditions
 description: null
 seo-description: null
-uuid: a2693590-fff9-4302-83f5-9db675586215
+uuid: 57ba53f6-e891-491b-b97e-266745971a89
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 31230b79-5012-4627-9c9e-536d6ac22b10
+discoiquuid: 8f5f52a7-a3fd-4914-9204-ec391bf83c50
 index: y
 internal: n
 snippet: y
 ---
 
 # Video renditions{#video-renditions}
-
-<!--
-Comment Type: remark
-Last Modified By: (alvawb)
-Last Modified Date: 2017-11-30T05:30:59.326-0500
-<p>Move to dynamic media and merge with DM</p>
-<p>Static renditions is Assets. DM renditions is DM. </p>
-<p> </p>
-<p>Not sure if this topic makes sense - it doesn't seem to entirely fit in the Video Profiles topic either.</p>
-<p> </p>
--->
 
 Adobe Experience Manager (AEM) Assets generates video renditions for video assets of various formats including OGG, FLV, and so on.
 
@@ -39,11 +28,11 @@ AEM assets provide playback support for these renditions on the client side.
 
 To view the renditions of a particular video asset, open its asset page, and click/tap the GlobalNav icon. Then, choose **Renditions** from the list.
 
-![](assets/chlimage_1-491.png)
+![](assets/chlimage_1-482.png)
 
 The list of video renditions are displayed in the** Renditions** panel. 
 
-![](assets/chlimage_1-492.png)
+![](assets/chlimage_1-483.png)
 
 To configure the proxy server for DM-encoded renditions, [configure Dynamic Media Cloud services.](../../assets/using/config-dynamic.md)
 

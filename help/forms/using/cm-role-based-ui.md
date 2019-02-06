@@ -4,10 +4,10 @@ seo-title: [DO NOT PUBLISH] Role based user interface in Correspondence Manageme
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 9493b9e1-bad7-4a03-bff2-bb74d700cbad
+uuid: cbbbfd1a-5553-4fdf-b2d9-ea60f1deb1ad
 contentOwner: gtalwar
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
-discoiquuid: de35974e-115a-46d5-ba04-3b9db5108465
+discoiquuid: 90095b4d-ea21-494f-a51b-5e56c29f3739
 index: y
 internal: n
 snippet: y
@@ -23,27 +23,6 @@ Although CRX allows you to configure the access rights for both user and groups 
 
 For more information on groups, permissions, access control lists, and managing users and groups, see [User Administration and Security](../../sites/administering/using/security.md).
 
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-09-11T08:57:56.799-0400
-two use cases 1- cm - different modules 2- within CM multiple folders for similar type of assets
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-09-14T09:06:01.375-0400
-So, the UI filtering works for both user and group accounts?
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: gtalwar
-Last Modified Date: 2017-09-14T09:20:08.891-0400
-If customer wants to have different persona for different asset types within the same console, and wants to hide some actions for one asset type over another, that can not be achieved by following this user story. For eg. If customer wants to hide actions for Adaptive Document and display all actions for form set, this can not be achieved by this user story. The reason for the same is that since these different asset ty
--->
-
 ## Managing Permissions {#managing-permissions}
 
 1. Ensure that the user for which you want to manage the permissions is added to the relevant user group.
@@ -54,14 +33,7 @@ If customer wants to have different persona for different asset types within the
 
 1. Create the folders as suited for allowing the intended permissions.
 
-   For example, if an enterprise has home mortgage, credit card, and insurance divisions, they can create folders named `HomeMortgage`, `CreditCard,`and `Insurance` to keep the relevant assets and give access selectively to agents for assets relevant to their departments only.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: gtalwar
-   Last Modified Date: 2017-09-25T10:18:53.268-0400
-   more information needs to be added about creating the folders.
-   -->
+   For example, if an enterprise has home mortgage, credit card, and insurance divisions, they can create folders named `HomeMortgage`, `CreditCard,`and `Insurance` to keep the relevant assets and give access selectively to agents for assets relevant to their departments only. 
 
 1. To access AEM WCM security, do one of the following:
 

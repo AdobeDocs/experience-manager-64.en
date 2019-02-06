@@ -3,12 +3,12 @@ title: Command Line Start and Stop
 seo-title: Command Line Start and Stop
 description: Learn how to start and stop AEM from the command line.
 seo-description: Learn how to start and stop AEM from the command line.
-uuid: 9b71fc47-e869-411a-93fe-7205e9021847
+uuid: 9bc9881d-6fe6-4290-87d1-59c50ec4d0b7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 9030b3dc-c891-44d2-bb7c-9c17fe2f64ce
+discoiquuid: 83207a2f-9163-4c4c-b5d2-6d68a7e35aa6
 index: y
 internal: n
 snippet: y
@@ -94,7 +94,7 @@ To stop AEM, do one of the following:
 
 * If you started AEM by double-clicking the jar file, click the **On** button on the startup window (the button then changes to **Off**) to shut down the server.
 
-  ![](assets/chlimage_1-69.png)
+  ![](assets/chlimage_1-63.png)
 
 ## Stopping Adobe Experience Manager from the Command Line {#stopping-adobe-experience-manager-from-the-command-line}
 

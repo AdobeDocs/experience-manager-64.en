@@ -3,12 +3,12 @@ title: Working with AEM Forms Repository
 seo-title: Working with AEM Forms Repository
 description: null
 seo-description: null
-uuid: 598555b1-9154-4bfa-883a-5ac64559bcf9
+uuid: 58ab3ad9-adfb-44e4-9b77-bc7d557c9674
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 0fe00053-15d5-471d-8115-c7ab73a63a5d
+discoiquuid: 3ea79313-b771-4408-9b76-159edd7f0c7f
 index: y
 internal: n
 snippet: y
@@ -359,13 +359,6 @@ Write a resource by using the Repository service API (web service):
 [Quick Start (Base64): Writing a resource using the web service API](#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cdc.2)
 
 [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding)
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-Content Referenced from lc_rp_list_resources_lr.xml#WS624e3cba99b79e12e69a9941333732bac8-7ce9.2_ver6.1
--->
 
 ## Listing Resources {#listing-resources}
 

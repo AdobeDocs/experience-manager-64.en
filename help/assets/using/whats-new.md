@@ -4,9 +4,9 @@ seo-title: DO NOT PUBLISH | New features summary | AEM Assets
 description: Summary of new features and enhancements in AEM 6.4 Assets
 seo-description: Summary of new features and enhancements in AEM 6.4 Assets
 page-status-flag: de-activated
-uuid: e465f1ae-851b-4abe-b0a6-99f8e190be70
+uuid: f0f09c5d-4e52-45ae-83c9-0bfc422aab0e
 contentOwner: cmajumda
-discoiquuid: 19395eba-83f7-4985-a5be-de1d1660eb0f
+discoiquuid: e5e8eb7c-f6c7-4acf-ad6f-0be1f34d2875
 index: y
 internal: n
 snippet: y

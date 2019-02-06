@@ -3,12 +3,12 @@ title: Catalog Producer
 seo-title: Catalog Producer
 description: Learn how to use Catalog Producer in AEM Assets to generate product catalogs using your digital assets.
 seo-description: Learn how to use Catalog Producer in AEM Assets to generate product catalogs using your digital assets.
-uuid: 488113b7-6734-4781-b684-3e10063458b1
+uuid: 8550f722-7b0c-4103-8cdd-276c223b3ad5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 9e829889-67b4-4d7a-ae7a-ba83f276cd81
+discoiquuid: e726d553-1e54-43d3-8882-ece0baff5c3f
 index: y
 internal: n
 snippet: y
@@ -19,13 +19,6 @@ snippet: y
 Learn how to use Catalog Producer in AEM Assets to generate product catalogs using your digital assets.
 
 With the Adobe Experience Manager (AEM) Assets Catalog Producer, you can create catalogs for your brand products using InDesign templates imported from an InDesign application. To import InDesign templates, first integrate AEM Assets with an InDesign server.
-
-<!--
-Comment Type: annotation
-Last Modified By: igurjar
-Last Modified Date: 2018-04-12T02:21:03.507-0400
-Not needed : "that hosts..."
--->
 
 ## Integrating with InDesign server {#integrating-with-indesign-server}
 
@@ -62,26 +55,11 @@ Catalog Producer uses product information management (PIM) data to map product p
 1. From the wizard, select an InDesign template for your page. Then, tap/click **Next**.
 1. Specify a name for the page and an optional description. Specify tags, if any.
 1. Tap/click the **Create** from the toolbar. Then, tap/click **Open** from the dialog. The properties for the product are displayed on the left pane. The predefined properties for the InDesign template appear on the right pane.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: igurjar
-   Last Modified Date: 2018-04-12T02:26:06.397-0400
-   At this step 2 options are shown : "open", "done" user should select open option to map the catalog page with a product. this step the most important. describe edit catalog page here. A catalog page without product mapping is useless.
-   -->
-
 1. From the left pane, drag the product properties to the InDesign template properties, and create a mapping between them.
 
    To view how the page appears in real time, tap/click the **Preview** tab on the right pane.
 
 1. To create more pages, repeat steps 6-9. To create similar pages for other products, select the page and tap/click the **Create similar pages** icon from the toolbar.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: igurjar
-   Last Modified Date: 2018-04-12T02:26:57.080-0400
-   Create similar pages would work with products with similar structure.
-   -->
 
    ![](assets/create_similar_pages.png)
 
@@ -99,11 +77,11 @@ Catalog Producer uses product information management (PIM) data to map product p
 
    If the metadata of the products that you reference in the catalog pages is changed, the changes are not automatically reflected in the catalog pages. A banner labeled **Stale** appears on the product images in the referencing catalog pages, indicating that the metadata for the referenced products is not up-to-date.
 
-   ![](assets/chlimage_1-129.png)
+   ![](assets/chlimage_1-123.png)
 
    To ensure that the product images reflect the latest metadata changes, select the page in the Catalog console and click/tap the **Update page** icon from the toolbar.
 
-   ![](assets/chlimage_1-130.png)
+   ![](assets/chlimage_1-124.png)
 
    >[!NOTE]
    >
@@ -115,7 +93,7 @@ Catalog Producer uses product information management (PIM) data to map product p
 1. Tap/click **Save**, and then tap/click **Done** to close the confirmation dialog.
 1. To generate a preview for the catalog you created, select it in the **Catalogs** console, and then click the **Preview** icon from the toolbar.
 
-   ![](assets/chlimage_1-131.png)
+   ![](assets/chlimage_1-125.png)
 
    Review the pages in your catalog in the preview. Tap/click **Close** to close the preview.
 

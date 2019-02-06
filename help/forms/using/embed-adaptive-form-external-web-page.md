@@ -3,10 +3,10 @@ title: Embed adaptive form in external web page
 seo-title: Embed adaptive form in external web page
 description: Learn how to embed an adaptive form in an external web page
 seo-description: Learn how to embed an adaptive form in an external HTML web page
-uuid: f84d32c1-533d-4033-9f12-03f75d8f2b70
+uuid: 06e03da5-0a16-4f8f-8abd-02dcab09e8f6
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: author
-discoiquuid: 01b0b9d7-d97a-49e1-bf01-83bb69b58aac
+discoiquuid: 838577ff-6f15-4b39-8470-7dde47364da4
 index: y
 internal: n
 snippet: y

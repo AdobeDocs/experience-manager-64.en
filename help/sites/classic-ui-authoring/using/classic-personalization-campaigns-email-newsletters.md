@@ -3,12 +3,12 @@ title: Publishing an Email to Email Service Providers
 seo-title: Publishing an Email to Email Service Providers
 description: You can publish newsletters to e-mail services such as ExactTarget and Silverpop Engage.
 seo-description: You can publish newsletters to e-mail services such as ExactTarget and Silverpop Engage.
-uuid: 75a0138d-7122-463e-a433-ff61f39cf09b
+uuid: 3ffabad7-3bc3-4b52-826a-58330dfa16db
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 47b82188-1925-4215-b5f1-7bf2616bd822
+discoiquuid: 71d14e53-3c6d-41cb-8fc6-01a5ecfc8796
 index: y
 internal: n
 snippet: y
@@ -41,23 +41,10 @@ To create a new email that is published to the configured e-mail service:
 1. Go to **Websites** and then **Campaigns**. Select a campaign. 
 1. Click **New** to open the **Create Page **window.
 1. Enter the title, name, and select the **Geometrixx Newsletter** template from the list of available templates.
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-5.jpeg" />
-   -->
-
 1. Click **Create**.
 1. Open the created email. 
 1. Switch to design mode to select the components you want to display in the sidekick. 
 1. Switch to edit mode and start adding content (text, images, [email tools](#addingexacttargetemailtoolstoyouremail), [personalization variables](#addingtextandpersonalizationtooltoyouremail), and so on) to your email.
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-6.jpeg" />
-   -->
 
 ### Adding ExactTarget Email Tools to your email {#adding-exacttarget-email-tools-to-your-email}
 
@@ -130,7 +117,7 @@ You can add personalized fields in an email by adding the **Text and Personaliza
 1. To enable personalization field from your email service, add the framework configuration while configuring the email service. See [configuring Silverpop Engage](../../../sites/administering/using/silverpop.md) and [configuring Exact Target](../../../sites/administering/using/exacttarget.md) for more information.
 1. nAdd the component **Text & Personalization** from the sidekick. This component is the part of newsletter group. Open this component in the edit mode.
 
-   ![](assets/chlimage_1-126.png)
+   ![](assets/chlimage_1-121.png)
 
 1. Add the required personalized field to the text by selecting the field from the drop-down menu and clicking **Insert**.
 1. Click **OK **to finish.
@@ -141,17 +128,10 @@ To apply your E-mail service configuration to a newsletter:
 
 1. Create an E-mail Service configuration. 
 1. Open your email/newsletter.
-1. Open the email/newsletter settings by either clicking **Settings** or by clicking **Page Properties in** the sidekick.
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-7.jpeg" />
-   -->
-
+1. Open the email/newsletter settings by either clicking **Settings** or by clicking **Page Properties in** the sidekick. 
 1. Click **Add Service** in **Cloud Services** tab. You see the list of services. Select your required configuration - either **ExactTarget** or **Silverpop** - from the list from the drop-down list.
 
-   ![](assets/chlimage_1-8.jpeg)
+   ![](assets/chlimage_1-5.jpeg)
 
 1. Click **OK**.
 
@@ -165,7 +145,7 @@ Emails/Newsletters can be published to your E-mail Service by following these st
 1. Fill in the **Newsletter Name** field. The email/newsletter is published to E-mail Service Provider with this name. In case a email name is not provided, then the email is published using the page name of the newsletter in AEM. 
 1. Click **Publish**. 
 
-   ![](assets/chlimage_1-9.jpeg)
+   ![](assets/chlimage_1-6.jpeg)
 
    If successful, AEM confirms you can view the email in ExactTarget or Silverpop Engage.
 

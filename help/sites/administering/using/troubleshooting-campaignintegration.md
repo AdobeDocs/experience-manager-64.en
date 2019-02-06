@@ -3,12 +3,12 @@ title: Troubleshooting your Adobe Campaign Integration
 seo-title: Troubleshooting your Adobe Campaign Integration
 description: Learn how to troubleshoot issues with the Adobe Campaign Integration.
 seo-description: Learn how to troubleshoot issues with the Adobe Campaign Integration.
-uuid: e1b02583-abed-4951-ac9a-5d3375dd0c3f
+uuid: 96a2ebb3-36c5-499e-9ae3-e2d52f1148d5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: a032be50-f874-49c3-9cda-28d398ec96a1
+discoiquuid: 2b9a9c6e-a3fc-47de-a36b-b6f394a3efee
 index: y
 internal: n
 snippet: y
@@ -56,7 +56,7 @@ To fix this issue, change the following in **$CAMPAIGN_HOME/conf/config-&lt;inst
 
 In Adobe Campaign, ensure that you have no trailing slash (/) after the port number. See [Configuring an external AEM account](#configuringanexternalaemaccount).
 
-![](assets/chlimage_1-186.png) 
+![](assets/chlimage_1-177.png) 
 
 ## If you get a warning about your setlocale {#if-you-get-a-warning-about-your-setlocale}
 
@@ -91,25 +91,11 @@ A switch from **localhost** to an IP-address solved this issue.
 
 ## If you get a 'Cannot parse XTK Date+Time 'undefined'' error {#if-you-get-a-cannot-parse-xtk-date-time-undefined-error}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2018-02-26T17:05:04.294-0500
-<p>Title was -- If you get a "Cannot parse XTK Date+Time 'undefined'" error -- which caused AEM to not be able to use this for the miniTOC and mess up the next link. I've removed the double quotation marks so that it works properly.</p>
--->
-
 After clicking Synchronize, you get an error that a script on the pages has occured: Cannot parse XTK Date+Time 'undefined': not a valid XTK value.
 
 This happens if there is still outdated Adobe Campaign information on the AEM instance. Solve this issue by removing all campaign integration configurations that are on AEM and rebuilding them. Then, create a new template.
 
 ## If a connection to SSL displays an error when setting up the cloud service {#if-a-connection-to-ssl-displays-an-error-when-setting-up-the-cloud-service}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-77F410094CD97C4F0A746C1B@AdobeID)
-Last Modified Date: 2018-02-26T17:05:04.341-0500
-<p>Internal fix will not be documented: Hack/Workaround, when starting AEM you start it with the Java option -Djsse.enableSNIExtension=false. This is not a valid solution for production systems.</p>
--->
 
 In the error.log of AEM, if you see the following:
 

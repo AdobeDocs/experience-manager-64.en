@@ -3,13 +3,13 @@ title: "Microsoft SQL Server database: Fine-tuning the configuration"
 seo-title: "Microsoft SQL Server database: Fine-tuning the configuration"
 description: Learn how you can fine tune the configuration of your Microsoft SQL Server database.
 seo-description: Learn how you can fine tune the configuration of your Microsoft SQL Server database.
-uuid: 46bdc2f4-ff99-49da-8596-0877d0f83bcb
+uuid: f00ca57e-20ae-44ff-9161-5a7315e386cf
 contentOwner: admin
 content-type: reference
 products: SG_AEMFORMS
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: bee37e94-4e26-4fc4-a5f7-fa7ca10681f4
+discoiquuid: ed0e90ae-80b6-47fb-b1f4-aa8946b81d54
 index: y
 internal: n
 snippet: y

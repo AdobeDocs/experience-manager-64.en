@@ -3,12 +3,12 @@ title: Using Ratings
 seo-title: Using Ratings
 description: Adding a Rating component to a page
 seo-description: Adding a Rating component to a page
-uuid: 22aa6648-f579-4ca4-9b31-b5b744e6a161
+uuid: 2f8f17d5-240b-4701-b045-001ee8430754
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: d33e1186-a8dc-49e5-b185-e5e4d3c74056
+discoiquuid: efc745e2-fddf-4616-8e49-160024051477
 index: y
 internal: n
 snippet: y
@@ -30,17 +30,17 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/rating-basics.md#essentialsforclientside) are included, this is how the `Rating` component will appear.
 
-![](assets/chlimage_1-505.png)
+![](assets/chlimage_1-492.png)
 
 ### Configuring Rating {#configuring-rating}
 
 Select the placed `Rating` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-506.png)
+![](assets/chlimage_1-493.png)
 
 Under the **Texts & Labels** tab you specify the internal identifier for the Rating.
 
-![](assets/chlimage_1-507.png)
+![](assets/chlimage_1-494.png)
 
 * **Tally Name** 
   (*Required*) A simple name for the `Rating`which uniquely identifies this instance. Must be a valid node name for the repository.

@@ -3,12 +3,12 @@ title: Creating and configuring groups
 seo-title: Creating and configuring groups
 description: Learn how to create groups manually or dynamically, edit a group, view details about a group, or delete a group.
 seo-description: Learn how to create groups manually or dynamically, edit a group, view details about a group, or delete a group.
-uuid: 0d09e424-ceb9-400c-9670-b4323f5d980b
+uuid: 198f59d6-9558-430c-99e2-babfb52499b9
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 3d20b5a4-41d3-41f4-80d6-fbbc8eac47e5
+discoiquuid: 175c2474-63d9-46c8-9fb7-be4ded279d47
 index: y
 internal: n
 snippet: y
@@ -19,13 +19,6 @@ snippet: y
 Creating groups of users lets you assign roles to the group instead of to individual users.
 
 Two different types of groups are available. You can manually create a group and add users and other groups to it. You can also create dynamic groups that automatically include all users who meet a specified set of rules.
-
-<!--
-Comment Type: remark
-Last Modified By:
-Last Modified Date:
-<p>Bugs 2295870, 2380230:</p>
--->
 
 Users may experience a slower response time if they belong to many groups (for example, 500 or more) or if the groups are nested deeply (for example, 30 levels). If you are experiencing this problem, you can configure AEM forms to pre-fetch information from certain domains. (See [Configure AEM forms to prefetch domain information](../../../forms/using/admin-help/configure-aem-forms-prefetch-domain.md#configure-aem-forms-to-prefetch-domain-information).)
 
@@ -97,13 +90,6 @@ A dynamic group contains only users. It cannot contain other groups. However, a 
    >The Email, Description, and Canonical Name attributes are case-sensitive when using the Equals operator. They are not case-sensitive with the Starts With, Ends With, or Contains operators.
 
    **Email: **User’s email domain, such as `@adobe.com`.
-
-   <!--
-   Comment Type: remark
-   Last Modified By:
-   Last Modified Date:
-   <p>Bugs 2260541, 2405185:</p>
-   -->
 
    **Description: **User’s description, such as "Computer Scientist"
 

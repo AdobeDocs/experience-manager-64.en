@@ -3,13 +3,13 @@ title: Calculating Form Data
 seo-title: Calculating Form Data
 description: null
 seo-description: null
-uuid: 3834e80c-8033-4ccf-8202-2d088e461f2e
+uuid: 689174bd-131b-4d0c-acff-1207a7945f34
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: b722a47e-6914-40e5-b731-c17073786c47
+discoiquuid: 5912cf0b-8df9-42b6-a9be-b7b6739d9d8f
 index: y
 internal: n
 snippet: y

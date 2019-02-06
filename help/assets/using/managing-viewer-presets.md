@@ -3,12 +3,12 @@ title: Managing Viewer Presets
 seo-title: Managing Viewer Presets
 description: How to create and manage viewer presets
 seo-description: How to create and manage viewer presets
-uuid: f4f7cc74-3258-4a04-a0f1-7ca9652b0cb4
+uuid: c9237f95-a43e-4b0f-ad66-ce1a5cda79de
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 95d14a55-2b73-4d85-b88c-95eb6c96889f
+discoiquuid: 248abc51-1953-413f-b1cf-f10824a5885b
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/viewer-presets
 index: y
 internal: n
@@ -25,20 +25,6 @@ Path: `<scene7_domain>/s7sdk/<library_version>/docs/jsdocs/index.html`.
 For example, 3.5 SDK: [http://s7d1.scene7.com/s7sdk/3.5/docs/jsdoc/index.html](http://s7d1.scene7.com/s7sdk/3.5/docs/jsdoc/index.html)
 
 See also the [Adobe Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-09-25T18:04:38.778-0400
-Adobe Developer Connection link gives a message: The Code Gallery feature of Developer Connection has been removed. Adobe-supported items in the code gallery are available in other locations and should be accessed directly on the support pages for those products. RB: 9/26/2018 Fixed
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-09-25T17:05:49.571-0400
-Link gets 404 RB: 9/26/2018 Fixed.
--->
 
 This section describes how to create, edit, and manage viewer presets. You can apply a viewer preset to an asset anytime you preview it. See [Applying Viewer Presets](../../assets/using/viewer-presets.md).
 
@@ -67,13 +53,6 @@ You can add, edit, delete, publish, unpublish, and preview viewer presets in AEM
 Different web pages have different needs. For example, sometimes you want a web page that provides a link that opens the HTML5 Viewer in a separate browser window. In other cases, it may be necessary to embed the HTML5 Viewer directly on the hosting page. In the latter case, the web page may have a static layout. Or, it may be "responsive" and display differently on different devices or for different browser window sizes. To accommodate these needs, all the pre-defined, out-of-the-box HTML5 Viewers that come with Dynamic Media support both static web pages and responsive designed web pages.
 
 See [Responsive Image library](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html) in the *Scene7 Image Serving API Help* for more information on how to embed responsive viewers onto your web pages.
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-08-31T15:21:40.894-0400
-This link is not working RB: Fixed. 8/31/2018
--->
 
 >[!NOTE]
 >
@@ -156,41 +135,6 @@ Administrators can add and customize the following rich media types when creatin
  </tbody> 
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-03-12T13:05:31.908-0400
-Please review Vertical Zoom
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-03-12T13:05:47.907-0400
-Please review Panoramic
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-10T15:03:14.691-0500
-Mixed Media can also include Image Sets RB: Fixed.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-10T15:06:12.784-0500
-There should be a note stating the Panoramic Viewers are only in DMS7 and not DM Hybrid. RB: Fixed.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: wyamashi
-Last Modified Date: 2018-08-13T16:47:53.271-0400
-The Video viewer presets can play video either using adaptive streaming or progressive playback
--->
-
 ### List of out-of-the-box Viewer Presets {#list-of-out-of-the-box-viewer-presets}
 
 The following table identifies all pre-defined, out-of-box Viewer Presets that come with Dynamic Media.
@@ -200,13 +144,6 @@ See also [Viewers Reference Library Examples](https://marketing.adobe.com/resour
 For information about supported web browser and operating system versions for Viewers, you can review the Viewers Release Notes.
 
 See "Viewers release notes" in the table of contents of the [Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-09-25T16:59:49.536-0400
-I don't see release notes for this link RB: 9/26/2018 Fixed.
--->
 
 >[!NOTE]
 >
@@ -351,20 +288,6 @@ I don't see release notes for this link RB: 9/26/2018 Fixed.
  </tbody> 
 </table>
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-09-25T17:03:15.570-0400
-This should be: html5_spinviewer_dark.css RB: 9/26/2018 Fixed.
--->
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-09-25T17:03:37.853-0400
-This should be: html5_spinviewer_light.css RB: 9/26/2018 Fixed.
--->
-
 ### Supported mobile viewers gestures matrix {#supported-mobile-viewers-gestures-matrix}
 
 The following table identifies the mobile viewer gestures that are supported on iOS, Android 2.x, and Android 3.x devices.
@@ -428,22 +351,15 @@ AEM shows a wide variety viewer presets when viewing an assets from **Detail Vie
 
 **To increase the number of viewer presets displayed**:
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-10T15:11:49.922-0500
-The 15 limit may be an older limitation RB: Fixed.
--->
-
 1. Navigate to CRXDE Lite ([http://localhost:4502/crx/de](http://localhost:4502/crx/de)).
 1. Navigate to the viewer preset listing node at **/libs/dam/gui/coral/content/commons/sidepanels/viewerpresets/viewerpresetslist**
 
-   ![](assets/chlimage_1-174.png)
+   ![](assets/chlimage_1-173.png)
 
 1. In the **limit** property, change the **Value**, which is set to 15 by default, to the desired number.
 1. Navigate to the viewer preset datasource at **/libs/dam/gui/coral/content/commons/sidepanels/viewerpresets/viewerpresetslist/datasource**
 
-   ![](assets/chlimage_1-175.png)
+   ![](assets/chlimage_1-174.png)
 
 1. In the limit property, change the number to the desired number, for example `{empty requestPathInfo.selectors[1] ? "20" : requestPathInfo.selectors[1]}`
 1. Tap or click **Save All**.
@@ -459,13 +375,6 @@ Some viewer presets have exclusive settings that can affect the use and overall 
 See [Special considerations for creating an Interactive Viewer preset](#specialconsiderationsforcreatinganinteractiveviewerpreset).
 
 See [Special considerations for creating a Carousel Banner Viewer preset](#specialconsiderationsforcreatingacarouselbannerviewerpreset).
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-09-25T16:56:05.659-0400
-This link goes to the top of the page RB: 9/26/2018 Fixed.
--->
 
 To create a new viewer preset:
 
@@ -496,20 +405,6 @@ To create a new viewer preset:
       When you import a CSS file, the visual editor checks to see if the CSS uses the correct viewer markers. For example, if you are creating a Zoom viewer, all the CSS rules you import must be defined using its viewer class name `.s7mixedmediaviewer` defined on a parent viewer element.  
   
       You can import arbitrary, handmade CSS as long as it properly defines the CSS markers for a given viewer. (CSS markers are described in any "Customzing *&lt;viewer name&gt;* Viewer" Help topic in the [Viewers Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/). For example, if you want to read about CSS markers for the Zoom Viewer, see [Customizing Zoom Viewer](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_zoom_viewer_customizingviewer.html).) It is possible, however, that the visual editor may not understand some CSS values. In such cases, the visual editor attempts to override the errors so that the CSS can still work.
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-09-25T16:54:21.543-0400
-   This link gets a 404 RB: 9/26/2018: Fixed.
-   -->
-
-   <!--
-   Comment Type: annotation
-   Last Modified By: rbrough
-   Last Modified Date: 2018-09-25T16:54:39.105-0400
-   This link gets a 404 RB: 9/26/2018 Fixed.
-   -->
 
    >[!NOTE]
    >
@@ -608,23 +503,6 @@ When creating Carousel Banner viewer presets, changing the style of hotspots can
 
 The Viewer Presets that are available in the user interface depends on which ones are active in Author mode. By default, a viewer preset is "On" after you create it. If you toggle the preset off, you will not see it in Author mode. If the preset is published. it will always be published regardless of whether it is toggled on or off. You may want to deactivate viewer presets if the list becomes too unwieldy or you do not want a viewer preset made available to use.
 
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-10T15:18:50.664-0500
-The State toggle only affects the Author node. If it is toggled off, that means you won't see it in Author, but if it's published, it's always published until you unpublish RB: Fixed.
--->
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>Turning a viewer preset On or Off means that it is visible in the Dynamic Media component, the Interactive Media component, and whenever you view an asset. However, to use the viewer preset and generate a URL or embed code for an asset, you must publish the viewer preset as well.<br /> </p>
-<p>All out-of-the-box viewer presets in Dynamic Media come already activated (on) and published. See <a href="#publishingviewerpresets">Publishing Viewer Presets</a> for more information.</p>
-<p>Any <em>new</em> viewer presets that you create and add must be both activated <em>and </em>published.<br /> See <a href="#activatingordeactivatingviewerpresets">Activating or Deactivating Viewer Presets</a> and <a href="#publishingviewerpresets">Publishing Viewer Presets</a>.</p>
-</note>
--->
-
 To activate or deactivate viewer presets:
 
 1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools **(hammer icon) &gt; **Assets** &gt; **Viewer Presets**.
@@ -641,13 +519,6 @@ However, to deliver* *an asset with a viewer preset, the viewer preset must be p
 See [Activating or Deactivating Viewer Presets](#activatingordeactivatingviewerpresets).
 
 See also [Previewing Assets](../../assets/using/previewing-assets.md).
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2019-01-10T15:20:57.339-0500
-OOTB Viewer Presets are no longer auto-published for DMS7 Upon Activation nor are they for DM Hybrid. RB: The existing paragraph already states this.
--->
 
 To publish viewer presets:
 
@@ -682,13 +553,6 @@ To edit Viewer Presets:
 You can delete Viewer Presets that you have created and added to Dynamic Media.
 
 To delete custom Viewer Presets:
-
-<!--
-Comment Type: annotation
-Last Modified By: rbrough
-Last Modified Date: 2018-08-31T15:21:55.450-0400
-insert in between "delete" and "Viewer": " a custom" RB: Fixed. 8/31/2018.
--->
 
 1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **Tools **(hammer icon) &gt; **Assets** &gt; **Viewer Presets**.
 1. On the Viewer Presets page, check a Preset Title, and then tap the **Trash** icon.

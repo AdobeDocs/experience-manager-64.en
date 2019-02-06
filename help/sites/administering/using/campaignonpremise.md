@@ -3,12 +3,12 @@ title: Integrating with Adobe Campaign Classic
 seo-title: Integrating with Adobe Campaign Classic
 description: Learn how to integrate AEM with Adobe Campaign Classic
 seo-description: Learn how to integrate AEM with Adobe Campaign Classic
-uuid: 6993905b-beca-4617-91e3-58d616aa2835
+uuid: 6875c762-9136-48e7-bb34-13e94fae444a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 3cad662e-6b9e-454c-a281-1c6d4ba931d2
+discoiquuid: 8621f77b-0532-4d5e-be94-83437e7a2ed8
 index: y
 internal: n
 snippet: y
@@ -109,13 +109,6 @@ Make sure you have the following elements beforehand:
 * [An Adobe Campaign Classic instance](https://helpx.adobe.com/support/campaign/classic.html) - including a client and a server
 * Internet Explorer 11
 
-<!--
-Comment Type: remark
-Last Modified By: Alexandru Sarchiz (sarchiz)
-Last Modified Date: 2017-11-30T04:59:24.030-0500
-<p>The Campaign link should remain unchanged for now, as there's no helpx alternative. We'll have another look after the Campaign docs are migrated over.</p>
--->
-
 >[!NOTE]
 >
 >If you are running a version earlier than Adobe Campaign Classic build 8640, see the [upgrade documentation](https://docs.campaign.adobe.com/doc/AC6.1/en/PRO_Updating_Adobe_Campaign_Upgrading.html) for more information. Note that both client and database have to be upgraded to the same build.
@@ -134,11 +127,11 @@ You must install the **AEM Integration** package in Adobe Campaign. To do this:
 
 1. Select *Tools* &gt; *Advanced* &gt; *Import package...*.
 
-   ![](assets/chlimage_1-169.png)
+   ![](assets/chlimage_1-160.png)
 
 1. Click **Install a standard package**, then select the **AEM Integration** package.
 
-   ![](assets/chlimage_1-170.png)
+   ![](assets/chlimage_1-161.png)
 
 1.
 
@@ -156,7 +149,7 @@ You must install the **AEM Integration** package in Adobe Campaign. To do this:
    >
    >We strongly recommend creating a security zone dedicated to AEM to avoid any security problems. For more on this, refer to the [Installation guide](https://docs.campaign.adobe.com/doc/AC6.1/en/INS_Additional_configurations__Server_side_configurations.html).
 
-   ![](assets/chlimage_1-171.png)
+   ![](assets/chlimage_1-162.png)
 
 ### Configuring an AEM external account {#configuring-an-aem-external-account}
 
@@ -184,7 +177,7 @@ To configure an external AEM account:
    >
    >Make sure that the server address does **not** end in a trailing slash. For example, enter `http://yourserver:4502` instead of `http://yourserver:4502/`
 
-   ![](assets/chlimage_1-172.png) ![](assets/chlimage_1-173.png)
+   ![](assets/chlimage_1-163.png) ![](assets/chlimage_1-164.png)
 
 1. Make sure that the **Enabled** checkbox is selected.
 
@@ -193,14 +186,6 @@ To configure an external AEM account:
 The **AEMResourceTypeFilter **option is used to filter types of AEM resources that can be used in Adobe Campaign. This allows Adobe Campaign to retrieve AEM contents that are specifically designed to be used in Adobe Campaign only.
 
 This option should come pre-configured; however, if you change this option, it may lead to a non-functioning integration.
-
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>If you use default AEM resource types when creating content, you do not need to change the default value of the <strong>AEMResourceTypeFilter</strong> option in Adobe Campaign.</p>
-</note>
--->
 
 To verify the **AEMResourceTypeFilter **option is configured:
 
@@ -213,7 +198,7 @@ To verify the **AEMResourceTypeFilter **option is configured:
 
    **mcm/campaign/components/newsletter**
 
-   ![](assets/chlimage_1-174.png)
+   ![](assets/chlimage_1-165.png)
 
 ## Configuring Adobe Experience Manager {#configuring-adobe-experience-manager}
 
@@ -239,7 +224,7 @@ To configure replication between AEM instances:
 
 1. From the authoring instance, select **AEM logo**&gt; **Tools **icon &gt; **Deployment** &gt; **Replication** &gt; **Agents on author**, then click **Default Agent**.
 
-   ![](assets/chlimage_1-175.png)
+   ![](assets/chlimage_1-166.png)
 
    >[!NOTE]
    >
@@ -251,7 +236,7 @@ To configure replication between AEM instances:
 
 1. Configure the URI by replacing **localhost** with the IP address or the address of the AEM publishing instance.
 
-   ![](assets/chlimage_1-176.png)
+   ![](assets/chlimage_1-167.png)
 
 ### Connecting AEM to Adobe Campaign {#connecting-aem-to-adobe-campaign}
 
@@ -263,7 +248,7 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 
 1. Select **AEM logo**&gt; **Tools **icon** **&gt; **Deployment** &gt; **Cloud Services**, then **Configure now** in the Adobe Campaign section.
 
-   ![](assets/chlimage_1-177.png)
+   ![](assets/chlimage_1-168.png)
 
 1. Create a new configuration by entering a **Title** and click **Create**, or choose the existing configuration that you want to link with your Adobe Campaign instance.
 1. Edit the configuration so that it matches the parameters of your Adobe Campaign instance.
@@ -275,13 +260,13 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 
 1. Select **Connect to Adobe Campaign **and click **OK**.
 
-   ![](assets/chlimage_1-178.png)
+   ![](assets/chlimage_1-169.png)
 
    >[!NOTE]
    >
    >After you [create your email and publish it](../../../sites/authoring/using/campaign.md), you need to re-publish the configuration onto your publish instance.
 
-   ![](assets/chlimage_1-179.png)
+   ![](assets/chlimage_1-170.png)
 
 >[!NOTE]
 >
@@ -292,17 +277,6 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 >
 >In addition, see [Troubleshooting your AEM/Adobe Campaign integration](../../../sites/administering/using/troubleshooting-campaignintegration.md).
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<ul>
-<li>If you are using a Campaign-hosted instance (by Adobe), you cannot connect over SSL. Please disable SNI-checking.</li>
-</ul>
-<p>For internal use only.</p>
-</note>
--->
-
 ### Configuring the externalizer {#configuring-the-externalizer}
 
 You need to [configure the externalizer](../../../sites/developing/using/externalizer.md) in AEM on your author instance. The Externalizer is an OSGi service that lets you transform a resource path into an external and absolute URL. This service provides a central place to configure those external URLs and build them.
@@ -311,7 +285,7 @@ See [Configure the externalizer](../../../sites/developing/using/externalizer.md
 
 If it points to `localhost:4503` or another server that Adobe Campaign cannot reach, your images will not appear on the Adobe Campaign console.
 
-![](assets/chlimage_1-180.png) 
+![](assets/chlimage_1-171.png) 
 
 ## Advanced Configurations {#advanced-configurations}
 
@@ -341,11 +315,11 @@ To add a new personalization field to those that are already available, you have
 
 1. Select **New**.
 
-   ![](assets/chlimage_1-181.png)
+   ![](assets/chlimage_1-172.png)
 
 1. In the pop-up window, select **Extend the data in the table using an extension schema** and click **Next**.
 
-   ![](assets/chlimage_1-182.png)
+   ![](assets/chlimage_1-173.png)
 
 1. Enter the different parameters of the extended schema:
 
@@ -391,7 +365,7 @@ The **nms:seedMember** schema extension named **cus:seedMember** contains:
 
 The **Registration Number** field is now part of the available personalization fields:
 
-![](assets/chlimage_1-183.png) 
+![](assets/chlimage_1-174.png) 
 
 #### Hiding a personalization field {#hiding-a-personalization-field}
 
@@ -431,7 +405,7 @@ To deactivate a personalization block among those available:
 
 1. Clear the **Visible in the customization menus** checkbox and save your changes. The block no longer appears in the list of personalization blocks available in Adobe Campaign.
 
-   ![](assets/chlimage_1-184.png)
+   ![](assets/chlimage_1-175.png)
 
 ### Managing target extension data {#managing-target-extension-data}
 
@@ -441,5 +415,5 @@ You can also insert target extension data for personalization. Target extension 
 >
 >The data in the target is only available if the AEM content is synchronized with an Adobe Campaign delivery. See [Synchronizing content created in AEM with a delivery from Adobe Campaign](../../../sites/authoring/using/campaign.md#synchronizingcontentcreatedinaemwithadeliveryfromadobecampaignclassic).
 
-![](assets/chlimage_1-185.png)
+![](assets/chlimage_1-176.png)
 

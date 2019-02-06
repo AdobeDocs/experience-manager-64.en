@@ -3,10 +3,10 @@ title: API to invoke form data model service from adaptive forms
 seo-title: API to invoke form data model service from adaptive forms
 description: Explains the invokeWebServices API that you can use to invoke web services written in WSDL from within an adaptive form field. 
 seo-description: Explains the invokeWebServices API that you can use to invoke web services written in WSDL from within an adaptive form field. 
-uuid: 9e6a0ea6-aebe-418c-a09b-f648735b4644
+uuid: e5f95d2c-f0bf-4a90-af2e-cd17128220a9
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 8fb6deee-8947-4ed1-8670-db147c26e283
+discoiquuid: 6c339853-4236-4814-b181-89cd3a50a99d
 index: y
 internal: n
 snippet: y

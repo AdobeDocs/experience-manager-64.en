@@ -3,13 +3,13 @@ title: Testing Your UI
 seo-title: Testing Your UI
 description: AEM provides a framework for automating tests for your AEM UI
 seo-description: AEM provides a framework for automating tests for your AEM UI
-uuid: e747b2d0-c233-428c-aab9-5141ba858099
+uuid: 6dcfd131-c9b0-473b-b5a4-f1b280c47fbf
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
 topic-tags: testing
-discoiquuid: 8274f82f-0dec-4b99-89b7-157275a07281
+discoiquuid: f4f7d388-c24d-45b1-9872-4ddc4ec29d13
 index: y
 internal: n
 snippet: y
@@ -42,11 +42,11 @@ Open the Testing Console to see the registered Test Suites. The Tests panel cont
 
 Navigate to the Tools console via **Global Navigation -&gt; Tools &gt; Operations -&gt; Testing**.
 
-![](assets/chlimage_1-32.png)
+![](assets/chlimage_1-31.png)
 
 When opening the console, the Test Suites are listed to the left along with an option to run all of them sequentially. The space to the right shown with a checkered background, is a placeholder for showing page content as the tests run.
 
-![](assets/chlimage_1-33.png) 
+![](assets/chlimage_1-32.png) 
 
 ### Running a Single Test Suite {#running-a-single-test-suite}
 
@@ -54,43 +54,43 @@ Tests Suites can be run individually. When you run a Test Suite, the page change
 
 A checkmark icon indicates a passed test:
 
-![](assets/chlimage_1-34.png)
+![](assets/chlimage_1-33.png)
 
 An "X" icon indicates a failed test:
 
-![](assets/chlimage_1-35.png)
+![](assets/chlimage_1-34.png)
 
 To run a Test Suite:
 
 1. In the Tests panel, click or tap the name of the Test Case that you want to run to expand the deatils of the Actions.
 
-   ![](assets/chlimage_1-36.png)
+   ![](assets/chlimage_1-35.png)
 
 1. Click or tap the **Run test** button.
 
-   ![](assets/chlimage_1-37.png)
+   ![](assets/chlimage_1-36.png)
 
 1. The placeholder is replaced with page content as the test executes.
 
-   ![](assets/chlimage_1-38.png)
+   ![](assets/chlimage_1-37.png)
 
 1. Review the results of the Test Case by tapping or clicking the description to open the **Result** panel. Tapping or clicking the name of your Test Case in the **Result** panel shows all details.
 
-   ![](assets/chlimage_1-39.png)
+   ![](assets/chlimage_1-38.png)
 
 ### Running Multiple Tests {#running-multiple-tests}
 
 Test Suites execute sequentially in the order that they appear in the console. You can drill down into a test to see the detailed results.
 
-![](assets/chlimage_1-40.png)
+![](assets/chlimage_1-39.png)
 
 1. On the Tests panel, tap or click either the **Run all tests** button or the **Run tests** button below the title of the Test Suite that you want to run.
 
-   ![](assets/chlimage_1-41.png)
+   ![](assets/chlimage_1-40.png)
 
 1. To view the results of each Test Case, tap or click the title of the Test Case. Tapping or clicking the name of your test in the **Result** panel shows all details.
 
-   ![](assets/chlimage_1-42.png)
+   ![](assets/chlimage_1-41.png)
 
 ## Creating and Using a Simple Test Suite {#creating-and-using-a-simple-test-suite}
 

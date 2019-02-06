@@ -3,12 +3,12 @@ title: Developing SPAs for AEM
 seo-title: Developing SPAs for AEM
 description: This article presents important questions to consider when engaging a front-end developer to develop a SPA for AEM as well as gives an overview of the architecture of AEM with respect to SPAs to keep in mind when deploying a developed SPA on AEM.
 seo-description: This article presents important questions to consider when engaging a front-end developer to develop a SPA for AEM as well as gives an overview of the architecture of AEM with respect to SPAs to keep in mind when deploying a developed SPA on AEM.
-uuid: 4251a2e3-d0aa-4c4e-9d4f-8c4eb2ddd960
+uuid: e0ac23a2-8dd8-4965-9ee6-e98b295e4e3f
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 2cf470b8-3ec3-468b-9db5-4f3dcffef867
+discoiquuid: 3a08e388-244b-4a65-8d6c-c3a983098aed
 index: y
 internal: n
 snippet: y
@@ -194,13 +194,6 @@ The general architecture of AEM including development, authoring, and publishing
     * The NPM clientlib generator creates a client library from the SPA project.
     * That library will be taken by Maven and deployed by the Maven Build plugin along with the component to the AEM Author.
 
-  <!--
-  Comment Type: annotation
-  Last Modified By: fauchere
-  Last Modified Date: 2018-06-14T08:00:39.721-0400
-  The NPM clientlib generator is framework agnostic and pack a given build folder into a clientlib directory at a given location in a JCR content structure
-  -->
-
 * **AEM Author**
 
   Content is created on the AEM author, including authoring SPAs.
@@ -213,23 +206,9 @@ The general architecture of AEM including development, authoring, and publishing
     1. When the SPA application is executed, the JSON is requested, allowing the app to build the DOM of the page including the `cq-data` attributes.
     1. This `cq-data` attributes allows the editor to load additional page information so that it knows what edit configurations are available for the components.
 
-  <!--
-  Comment Type: annotation
-  Last Modified By: fauchere
-  Last Modified Date: 2018-06-14T08:11:51.515-0400
-  I don't know if this document should be framework agnostic or reference a particular framework. If we want it to be specific then we may have to consider multiplying the variations - one for each framework we are supporting
-  -->
-
 * **AEM Publish**
 
   This is where the authored content and compiled libraries including SPA application artifacts, clientlibs, and components are published for public consumption.
-
-  <!--
-  Comment Type: annotation
-  Last Modified By: fauchere
-  Last Modified Date: 2018-06-14T08:18:29.753-0400
-  As long as the SPA project is built outside of AEM it means that the developer must built with different flavours - one for dev while developing the App and one for the Author and Publish instances
-  -->
 
 * **Dispatcher / CDN**
 

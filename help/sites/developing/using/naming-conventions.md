@@ -3,25 +3,18 @@ title: Naming Conventions
 seo-title: Naming Conventions
 description: Nodes in the repository are subject to naming conventions of the Java Content Repository
 seo-description: Nodes in the repository are subject to naming conventions of the Java Content Repository
-uuid: f461b72f-76c1-465a-8ecb-dc5f3cf67c5f
+uuid: 6a3a4cbf-b0a3-412a-8dbd-2cf8fa2c2aa1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: e6ea9ace-8410-417c-b71c-9ac6a912c6ec
+discoiquuid: dbe34a52-8808-4e10-91f0-03732dd61b24
 index: y
 internal: n
 snippet: y
 ---
 
 # Naming Conventions{#naming-conventions}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:25:10.680-0500
-<p>do we need info for assets - and if so is this the appropriate location (and if not, where is)?</p>
--->
 
 Nodes in the repository are subject to naming conventions of the [Java Content Repository](../../../sites/developing/using/the-basics.md#javacontentrepository). However AEM imposes further conventions for the name of page nodes.
 
@@ -57,14 +50,6 @@ These naming conventions are implemented at various levels:
 
 ### Standard UI {#standard-ui}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:25:10.808-0500
-<p>Rofe&gt;&gt;&gt; I would really _not_ mention the ampersand here, because the UI will run havoc if it is being used. Imho allowing this character (of all other special characters) is a bug that needs to be fixed rather than documented.</p>
-<p>"The touch-optimized UI allows the use of ampersand ( & ) in a node name. However pages with ampersand in the name cannot be edited (in neither touch-optimized nor classic)."</p>
--->
-
 The standard, touch-enabled UI:
 
 * Validates the name according to the restrictions imposed by PageManager when either:
@@ -73,21 +58,6 @@ The standard, touch-enabled UI:
     * an explicit node name is provided
 
 ### Classic UI {#classic-ui}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:25:10.849-0500
-<p>just to check what is meant by "dash/minus":</p>
-<ul>
-<li>all dashes and hyphen characters</li>
-<li>dash and the hyphen-minus char</li>
-<li>or just the hyphen-minus char (instead of dash-minus)</li>
-<li>http://www.fileformat.info/info/unicode/char/2d/index.htm</li>
-<li>http://www.fileformat.info/info/unicode/char/search.htm?q=dash&preview=entity</li>
-<li>http://www.fileformat.info/info/unicode/char/search.htm?q=minus&preview=entity</li>
-</ul>
--->
 
 The classic UI imposes tighter restrictions:
 
@@ -103,18 +73,4 @@ The classic UI imposes tighter restrictions:
     * '0' to '9'
     * _ (underscore)
     * - (dash/minus)
-
-<!--
-Comment Type: draft
-
-<h3>Naming Conventions for Assets</h3>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-11-30T05:25:10.891-0500
-<p>apparently the rules are much more open for assets - need confirmation of what - or a link</p>
-<p>Rofe&gt;&gt;&gt; Asset names allow all sorts of special characters, except characters forbidden by JCR name standard</p>
--->
 

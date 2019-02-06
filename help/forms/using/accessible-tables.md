@@ -3,11 +3,11 @@ title: Create accessible complex tables in HTML5 forms
 seo-title: Create accessible complex tables in HTML5 forms
 description: Learn how to create accessible tables in HTML5 forms. 
 seo-description: Learn how to create accessible tables in HTML5 forms. 
-uuid: 95150a4c-cd8e-4c4f-8177-474f717a12d7
+uuid: 242b3f9a-c38f-4991-a4d1-253bb96afbbf
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 59c8cb1f-f344-4a75-821d-4c99886a9d4c
+discoiquuid: b4147c58-4038-413c-b0fa-10ae8f6b3b55
 index: y
 internal: n
 snippet: y

@@ -3,11 +3,11 @@ title: Customizing form event tracking
 seo-title: Customizing form event tracking
 description: If a user spends more than 60 seconds on a field, a fieldvisit event is triggered and the details of the field are sent to Adobe SiteCatalyst.
 seo-description: If a user spends more than 60 seconds on a field, a fieldvisit event is triggered and the details of the field are sent to Adobe SiteCatalyst.
-uuid: e66e0486-9bda-448d-b25c-140382d85ba2
+uuid: eadc1f7e-b815-494b-8ef8-ede03b630f54
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 07667ecb-3d68-4069-81f8-11d5d1d90e53
+discoiquuid: f8489874-f182-4f43-9e6e-9a983ca4a9bb
 index: y
 internal: n
 snippet: y
@@ -65,13 +65,6 @@ On the default AEM form setup, if a user spends more than 60 seconds on a field,
 ## Customizing the tracking events {#customizing-the-tracking-events}
 
 You can modify the `trackEvent`function available in `/libs/afanalytics/js/custom.js` file to customize the event tracking. Whenever an event that is being tracked occurs in an adaptive form, the `trackEvent`function is called. The `trackEvent` function accepts two parameters: `eventName`and `variableValueMap`.
-
-<!--
-Comment Type: annotation
-Last Modified By: vishgupt
-Last Modified Date: 2018-03-21T08:06:46.698-0400
-Changed the location of trackEvent function as requested in https://jira.corp.adobe.com/browse/CQDOC-12021
--->
 
 You can evaluate value of *eventName *and *variableValueMap* arguments to change the tracking behavior of events. For example, you can choose to send the information to analytics server after a certain number of error events occur. You can also choose to perform any of the following customizations:
 

@@ -3,11 +3,11 @@ title: Developing a Custom Component for AEM Screens
 seo-title: Developing a Custom Component for AEM Screens
 description: The following tutorial walks through the steps to create a custom component for AEM Screens. AEM Screens reuses many existing design patterns and technologies of other AEM products. The tutorial highlights differences and special considerations when developing for AEM Screens.
 seo-description: An introductory tutorial to build a simple "Hello World" component for AEM Screens. AEM Screens reuses many existing design patterns and technologies of other AEM products. The following tutorial intends to highlight the specific differences and considerations when developing for AEM Screens.
-uuid: 26718356-cc4c-4533-b28a-ff82bd58bc78
+uuid: e6319a66-6bc4-45ce-9617-dd62d3614ffb
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: developing
-discoiquuid: 42456d03-990e-4cc0-bba6-13e7ab192cf9
+discoiquuid: f2a91af3-a1a2-4b37-8fdb-fe28d6c629f6
 targetaudience: target-audience new
 index: y
 internal: n

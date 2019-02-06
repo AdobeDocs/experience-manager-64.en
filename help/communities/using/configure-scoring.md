@@ -3,12 +3,12 @@ title: Scoring and Badges Essentials
 seo-title: Scoring and Badges Essentials
 description: Scoring and Badges feature overview
 seo-description: Scoring and Badges feature overview
-uuid: 25fb3ab9-0d96-47c5-bf1a-db53902a8e6a
+uuid: 664a0e59-ef39-4605-9307-f3dc25e46f3a
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 93b797c5-acc4-411c-a755-30dd59e75f10
+discoiquuid: 419bcf91-30c9-4a70-8fc7-ab45c569ccf7
 index: y
 internal: n
 snippet: y
@@ -97,7 +97,7 @@ To quickly setup a slinglog file :
 
     1. select **Save**
 
-![](assets/chlimage_1-255.png)
+![](assets/chlimage_1-247.png)
 
 To see log entries
 
@@ -113,7 +113,7 @@ To see log entries
     
     * for example, `.../crx-quickstart/logs/scoring-debug.log`
 
-![](assets/chlimage_1-256.png) 
+![](assets/chlimage_1-248.png) 
 
 ## UGC for Scoring and Badging {#ugc-for-scoring-and-badging}
 
@@ -219,7 +219,7 @@ curl -i -X POST -H "Accept:application/json" -u admin:admin -F ":operation=socia
 
 As a user has earned two bronze badges and has been awarded a moderator badge, this is how the user appears with their forum entry :
 
-![](assets/chlimage_1-257.png)
+![](assets/chlimage_1-249.png)
 
 >[!NOTE]
 >
@@ -253,7 +253,7 @@ For the Community Components guide site, the user and their score is in a path c
 
 The score is stored in the property `scoreValue_tl` which may directonly contain a value or indirectly refer to an atomicCounter.
 
-![](assets/chlimage_1-258.png) 
+![](assets/chlimage_1-250.png) 
 
 ### Access Badging UGC {#access-badging-ugc}
 
@@ -269,11 +269,11 @@ Followed by the path to the user's profile, ending in a badges folder, such as
 
 #### awarded badge {#awarded-badge}
 
-![](assets/chlimage_1-259.png) 
+![](assets/chlimage_1-251.png) 
 
 #### assigned badge {#assigned-badge}
 
-![](assets/chlimage_1-260.png) 
+![](assets/chlimage_1-252.png) 
 
 ## Additional Information {#additional-information}
 

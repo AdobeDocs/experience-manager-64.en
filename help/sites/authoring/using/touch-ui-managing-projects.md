@@ -3,12 +3,12 @@ title: Managing Projects
 seo-title: Managing Projects
 description: Projects lets you organize your project by grouping resources into one entity which can be acessed and managed in the the Projects console
 seo-description: Projects lets you organize your project by grouping resources into one entity which can be acessed and managed in the the Projects console
-uuid: 75f1defc-65e8-45b1-aa95-0dab545a8dbf
+uuid: da7e0ee2-ae86-4c94-af5e-c6ea3ed97a13
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: 81fd4d79-6bd6-4534-b97e-e92d33d6e4a3
+discoiquuid: 8f17054c-1b98-48af-8fbf-7fe7a72afec8
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ Projects lets you organize your project by grouping resources into one entity.
 
 In the **Projects** console, you access and take action on your projects:
 
-![](assets/chlimage_1-288.png)
+![](assets/chlimage_1-279.png)
 
 In Projects, you can create a project, associate resources with your project, and also delete a project or Resource links. You may want to open a tile to view its content as well as add items to a tile. This topic describes those procedures.
 
@@ -50,11 +50,11 @@ The procedure of creating a project is the same from project to project. The dif
 1. In **Projects**, tap/click **Create** to open the **Create Project** wizard:
 1. Select a template. Out of the box, Simple Project, Media Project, [Translation Project](/sites/authoring/using/language-copy), and [Product Photo Shoot Product](/sites/authoring/using/managing-product-information) are available and click **Next**. 
 
-   ![](assets/chlimage_1-289.png)
+   ![](assets/chlimage_1-280.png)
 
 1. Define the **Title** and **Description** and add a **Thumbnail** image if required. You also add or delete users and what group they belong to. In addition, click **Advanced** to add a name used in the URL.
 
-   ![](assets/chlimage_1-290.png)
+   ![](assets/chlimage_1-281.png)
 
 1. Tap/click **Create**. The confirmation asks whether you want to open your new project or to return to the console.
 
@@ -67,20 +67,7 @@ To associate resources with your project:
 1. Open your project from the **Projects** console.
 1. Tap/click **Add Tile** and select the tile that you want to link to your project. You can select multiple types of tiles.
 
-   <!--
-   Comment Type: remark
-   Last Modified By: Alva Ware-Bevacqui (alvawb)
-   Last Modified Date: 2018-02-02T12:33:24.953-0500
-   <p>How do you determine what tiles are associated with which Projects out of the box. Seems very customizable.</p>
-   -->
-
-   ![](assets/chlimage_1-291.png) 
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-292.png" />
-   -->
+   ![](assets/chlimage_1-282.png)
 
    >[!NOTE]
    >
@@ -114,11 +101,11 @@ To add items to a Tile:
 
 1. In **Projects**, navigate to the project and click the Add + icon on the tile you want to add an item to.
 
-   ![](assets/chlimage_1-293.png)
+   ![](assets/chlimage_1-283.png)
 
 1. Add an item to the tile as you would when creating a new tile. Project tiles are described [here](../../../sites/authoring/using/projects.md#projecttiles). In this example, another workflow was added.
 
-   ![](assets/chlimage_1-294.png)
+   ![](assets/chlimage_1-284.png)
 
 ### Opening a Tile {#opening-a-tile}
 
@@ -128,33 +115,33 @@ To open a tile so that you can view or modify items:
 
 1. In the Projects console, tap/click the ellipses (...)
 
-   ![](assets/chlimage_1-295.png)
+   ![](assets/chlimage_1-285.png)
 
 1. AEM lists the items in that tile. You can enter selection mode to modify or delete the items.
 
-   ![](assets/chlimage_1-296.png)
+   ![](assets/chlimage_1-286.png)
 
 ### Viewing Project Statistics {#viewing-project-statistics}
 
 To view project statistics, in the **Projects** console, click **Show Statistics View**. The level of completion for each project displays. Click **Show Statistics View** again to go to the **Projects** console.
 
-![](assets/chlimage_1-297.png) 
+![](assets/chlimage_1-287.png) 
 
 ### Viewing a Project Timeline {#viewing-a-project-timeline}
 
 The project timeline provides information on when assets in the project were last used. To view the project timeline, click/tap **Timeline**, then enter selection mode and select the project. Assets are displayed in the left pane. Click/tap **Timeline** to return to the **Projects** console.
 
-![](assets/chlimage_1-298.png) 
+![](assets/chlimage_1-288.png) 
 
 ### Viewing Active/Inactive Projects {#viewing-active-inactive-projects}
 
 To toggle between your active and inactive projects, in the **Projects** console, click **Toggle Active Projects**. If the icon has a checkmark next to it, it is displaying the active projects.
 
-![](assets/chlimage_1-299.png)
+![](assets/chlimage_1-289.png)
 
 If the icon has an x next to, it is displaying the inactive projects.
 
-![](assets/chlimage_1-300.png) 
+![](assets/chlimage_1-290.png) 
 
 ### Making Projects Inactive or Active {#making-projects-inactive-or-active}
 
@@ -171,7 +158,7 @@ To make a project inactive (or active):
 1. Tap/click **Edit**.
 1. Change the selector from **Active** to **Inactive** (or vice versa).
 
-   ![](assets/chlimage_1-301.png)
+   ![](assets/chlimage_1-291.png)
 
 1. Tap/click **Done** to save your changes.
 

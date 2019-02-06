@@ -3,12 +3,12 @@ title: Publishing and unpublishing forms and documents
 seo-title: Publishing and unpublishing forms and documents
 description: You can schedule publishing and unpublishing of forms. Published forms are replicated on the publish instance.
 seo-description: You can schedule publishing and unpublishing of forms. Published forms are replicated on the publish instance.
-uuid: 244204a3-2c55-4e98-9895-3d5852092fe8
+uuid: 9af8180c-25e6-4bb8-a930-a6189158cc6f
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 content-strategy: max-2018
-discoiquuid: a0bcccb4-2a1b-4db8-aa28-9714d7e5e433
+discoiquuid: d51b63a4-bf8a-4fd1-8a97-f919c694f5f7
 index: y
 internal: n
 snippet: y
@@ -35,12 +35,6 @@ AEM Forms support the following types of assets:
 * Resource (Images, Schemas, and Stylesheets)
 
 Initially, all the assets are available only in the Author instance. An administrator or form author can publish all the assets except resources.
-
-<!--
-Comment Type: draft
-
-<p>XFA forms and Adaptive forms can use other XFA forms and resources.</p>
--->
 
 When you select a form and publish it, its related assets and resources are also published. However, dependent assets are not published. In this context, related assets and resources are assets that a published asset uses or refers to. Dependent assets are assets that refer to a published asset.
 

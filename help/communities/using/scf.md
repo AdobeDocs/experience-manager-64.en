@@ -3,12 +3,12 @@ title: Social Component Framework
 seo-title: Social Component Framework
 description: The social component framework (SCF) simplifies the process of configuring, customizing, and extending Communities components
 seo-description: The social component framework (SCF) simplifies the process of configuring, customizing, and extending Communities components
-uuid: 64decc14-4798-4314-a5bc-81eeacd160f4
+uuid: e94d9672-a2c0-40a6-a79f-d17abec2e9b3
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 107d6d44-086f-4e09-871e-7c21aa59ed44
+discoiquuid: 9db35f57-2592-4385-b123-7b94073e9f04
 index: y
 internal: n
 snippet: y
@@ -72,13 +72,6 @@ To customize or extend the components, you write only the overlays and extension
     * create a new [Sling Post Operation](../../communities/using/server-customize.md#postoperationclass)
     * use existing [OperationServices](../../communities/using/server-customize.md#operationserviceclass) as needed
     * add Javascript code to invoke your operation from the client side as needed
-
-<!--
-Comment Type: remark
-Last Modified By: (jkendall)
-Last Modified Date: 2017-11-30T05:39:41.764-0500
-<p>Per Bertrand (in regards to Component Guide) "We need to promote the use of the AEM-wide tools for development purpose, such as Adobe Brackets for CSS and Handlebar files, and Eclipse with the AEM plugin for the server-side code. "</p>
--->
 
 ## Server-Side Framework {#server-side-framework}
 
@@ -198,16 +191,6 @@ The [Community Components Guide](../../communities/using/components-guide.md) al
 >[!NOTE]
 >
 >To add a component to a page dynamically, instead of adding or including it in a template, see [Component Sideloading](../../communities/using/sideloading.md).
-
-<!--
-Comment Type: remark
-Last Modified By: (alvawb)
-Last Modified Date: 2017-11-30T05:39:42.067-0500
-<p>"HTL" is changing its name...</p>
-<p> </p>
-<p><strong>When using HTL </strong>templating language, a JS script, the non-existing resource is included using the data-sly-resource block statement :</p>
-<p>&lt;div class="comments" data-sly-resource="${ 'comments' <br /> @resourceType='social/common/components/hbs/comments'}"<br /> data-sly-unwrap&gt;<br /> &lt;/div&gt;</p>
--->
 
 ### Handlebars Helpers {#handlebars-helpers}
 

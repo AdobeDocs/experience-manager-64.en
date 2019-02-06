@@ -4,9 +4,9 @@ seo-title: "Tutorial: Test your Interactive Communication"
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 1cdae1b9-472c-4637-8251-c4f61d105fa7
+uuid: 7e1f9f7b-7915-41ee-bd12-245e7c3a8b4b
 contentOwner: anujkapo
-discoiquuid: 1edf907d-aa62-42bb-82f6-8c15cfc9326d
+discoiquuid: 7cf2823a-699c-457a-883d-4f2355ec4e60
 index: y
 internal: n
 snippet: y

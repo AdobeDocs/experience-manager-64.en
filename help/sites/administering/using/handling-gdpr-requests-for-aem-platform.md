@@ -3,9 +3,9 @@ title: Handling GDPR Requests for the AEM Foundation
 seo-title: Handling GDPR Requests for the AEM Foundation
 description: null
 seo-description: null
-uuid: 6de92a06-dca8-4980-b9d6-3330910b7a26
+uuid: 676277f7-a5e8-493d-b771-a02d62e01629
 contentOwner: sarchiz
-discoiquuid: 29cc4fe5-b519-4166-8007-524d0de57b1c
+discoiquuid: e1084a3c-815f-4f81-ab61-e6baf41395ed
 index: y
 internal: n
 snippet: y
@@ -16,13 +16,6 @@ snippet: y
 ## AEM Foundation GDPR support {#aem-foundation-gdpr-support}
 
 At the AEM Foundation level, the Personal Data that is stored  is  the User Profile. Therefore, the information in this article primarily addresses how to access and delete user profiles, to address the GDPR Access and Delete requests respectively.
-
-<!--
-Comment Type: annotation
-Last Modified By: wmitchel
-Last Modified Date: 2018-05-14T10:37:37.136-0400
-change "Personally Identifiable Information (PII in short) data" to "Personal Data".
--->
 
 ## Accessing a User Profile {#accessing-a-user-profile}
 
@@ -70,13 +63,6 @@ curl -u user:password  'http://localhost:4502/home/users/we-retail/DSCP-athB1NYL
 ```shell
 curl -u user:password  'http://localhost:4502/home/users/we-retail/DSCP-athB1NYLBXvdTuN/profiles.-1.json'
 ```
-
-<!--
-Comment Type: remark
-Last Modified By: Arun Taneja (taneja)
-Last Modified Date: 2018-03-16T03:56:55.484-0400
-<p>Should probably clarify in these sections, what user:password refers to...I will try to get some info on this.</p>
--->
 
 ## Disabling a User and Deleting the Associated Profiles {#disabling-a-user-and-deleting-the-associated-profiles}
 

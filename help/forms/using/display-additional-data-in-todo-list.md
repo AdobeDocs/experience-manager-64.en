@@ -3,11 +3,11 @@ title: Displaying additional data in ToDo list
 seo-title: Displaying additional data in ToDo list
 description: How-to customize the display of the To-do list of LiveCycle AEM Forms workspace to show more information besides the default.
 seo-description: How-to customize the display of the To-do list of LiveCycle AEM Forms workspace to show more information besides the default.
-uuid: f5af13c3-8c8a-4542-a83b-49fec76b0174
+uuid: 4b926478-8c10-44b6-a57c-e3d88a2d1858
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: c5c6056f-18e9-4ead-b52b-adc0adf07d5d
+discoiquuid: d39f5a00-c058-4a9b-9e6c-d2be1a5082e1
 index: y
 internal: n
 snippet: y

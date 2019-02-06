@@ -3,12 +3,12 @@ title: Create An SCF Sandbox
 seo-title: Create An SCF Sandbox
 description: This tutorial is primarily for developers, new to AEM, who are interested in using SCF components.  It walks through the creation of An SCF Sandbox site
 seo-description: This tutorial is primarily for developers, new to AEM, who are interested in using SCF components.  It walks through the creation of An SCF Sandbox site
-uuid: d1a5cceb-4c24-4060-a461-8b73bcfb9b9c
+uuid: 76061ec7-52f9-4004-9dac-a8a173e8b496
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: b29bc2ba-801f-4df2-b2f6-ddb1cf40b658
+discoiquuid: 1fbb95f4-9e0e-4227-9e13-8cfb0feb24a4
 index: y
 internal: n
 snippet: y
@@ -60,11 +60,11 @@ After signing in with administrative privileges, there are various ways to acces
 
 1. From global navigation, select **navigation**, **Tools**, **CRXDE Lite**.
 
-   ![](assets/chlimage_1-362.png)
+   ![](assets/chlimage_1-349.png)
 
 1. From the** ** [classic UI wecome page](http://localhost:4502/welcome.html), scroll down and click **CRXDE Lite** in the right panel.
 
-   ![](assets/chlimage_1-363.png)
+   ![](assets/chlimage_1-350.png)
 
 1. Browse directly to `CRXDE Lite` : `<server>:<port>/crx/de`
 
@@ -81,7 +81,7 @@ If not logged in, you will be unable to navigate the JCR repository or perform a
 
 ***When in doubt, re-login!***
 
-![](assets/chlimage_1-364.png) 
+![](assets/chlimage_1-351.png) 
 
 |   |** [Setup Website Structure ⇒](../../communities/using/setup-website.md)** |
 |---|---|

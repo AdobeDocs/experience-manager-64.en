@@ -3,11 +3,11 @@ title: Pre-defined reports in Process Reporting
 seo-title: Pre-defined reports in Process Reporting
 description: Query for AEM Forms on JEE process data to create reports on long running processes, Process duration, and Workflow volume
 seo-description: Query for AEM Forms on JEE process data to create reports on long running processes, Process duration, and Workflow volume
-uuid: 09ab54d8-a794-430c-93ad-115ea8e2484d
+uuid: 74246a0a-ff13-482c-9c34-b63e1a545271
 content-type: reference
 topic-tags: process-reporting
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 208c87a9-5840-4eb0-b790-a5a37f2c3836
+discoiquuid: 9e81f00b-1335-44bd-bdb5-5e7707fe1d5c
 index: y
 internal: n
 snippet: y
@@ -24,12 +24,6 @@ AEM Forms Process Reporting ships with the following *out-of-the-box* reports:
 * ** [Process Duration Chart](../../../forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#main-pars-header-2)**: A report of a specified AEM Forms process by duration  
 
 * ** [Workflow Volume](../../../forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#main-pars-header-4)**: A report of the running and completed instances of specified process by date
-
-<!--
-Comment Type: draft
-
-<p>These pre-defined reports allow you to query for specific data. However, the reports provide you the option to specify certain input parameters to filter the result set of the report.</p>
--->
 
 ## Long Running Processes {#long-running-processes}
 

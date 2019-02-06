@@ -3,12 +3,12 @@ title: About the uploading and processing of 3D assets in AEM
 seo-title: About the uploading and processing of 3D assets in AEM
 description: Adobe recommends that you upload all referenced files before–or at the same time–you upload the primary 3D model file. When uploading is complete, your 3D files are converted and additional processing is applied to prepare the asset for viewing and rendering.
 seo-description: Adobe recommends that you upload all referenced files before–or at the same time–you upload the primary 3D model file. When uploading is complete, your 3D files are converted and additional processing is applied to prepare the asset for viewing and rendering.
-uuid: 217a2c42-56c2-4412-9df4-21edf64e805d
+uuid: a4c399da-8ac8-4628-951d-4d65aa1495c6
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: f966539c-44d8-4f02-944d-45c6881a71d5
+discoiquuid: 5c99be6e-bdb9-42e4-97d1-4454686a4239
 index: y
 internal: n
 snippet: y

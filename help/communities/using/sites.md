@@ -3,12 +3,12 @@ title: Site Templates
 seo-title: Site Templates
 description: How to access the Site Templates console
 seo-description: How to access the Site Templates console
-uuid: 6910de0a-1909-4498-9959-80f6d7b83ff4
+uuid: e35251b5-dd61-4259-b37a-c97d5774347a
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 761ff41f-fc2f-471c-bac3-477d27679f2a
+discoiquuid: 2f759148-3dcb-4717-970d-61c088b4f0cc
 index: y
 internal: n
 snippet: y

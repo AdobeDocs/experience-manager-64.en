@@ -3,11 +3,11 @@ title: SPA Blueprint
 seo-title: SPA Blueprint
 description: This document describes the general, framework-independent contract that any SPA framework should fulfill in order to implement editable SPA components within AEM.
 seo-description: This document describes the general, framework-independent contract that any SPA framework should fulfill in order to implement editable SPA components within AEM.
-uuid: 72ca16d8-4430-48d5-b227-945b33c6e9c5
+uuid: bbf29ffa-2223-45a1-96f5-fabdb6db3cae
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 3cc65b2a-e330-4ef3-8949-b18f5bf1ad61
+discoiquuid: f3890c40-4053-4057-b2ad-f96aefd92622
 index: y
 internal: n
 snippet: y

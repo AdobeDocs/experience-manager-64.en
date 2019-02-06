@@ -3,9 +3,9 @@ title: Managing Smart Tags
 seo-title: Managing Smart Tags
 description: null
 seo-description: null
-uuid: f899a171-e5cf-4afa-88bc-84fad004117c
+uuid: fb57952e-cee1-4cc0-8dde-11275110381f
 contentOwner: cmajumda
-discoiquuid: 5ed37999-4608-4f21-96d5-9d7a161084cb
+discoiquuid: cbea1b15-ddd8-43a2-9d1c-beef2a23402a
 index: y
 internal: n
 snippet: y

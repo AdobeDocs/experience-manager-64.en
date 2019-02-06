@@ -3,12 +3,12 @@ title: Viewing 3D assets
 seo-title: Viewing 3D assets
 description: Learn about the interactive 3D viewer available from the asset details page in AEM and how to use it to view 3D assets.
 seo-description: Learn about the interactive 3D viewer available from the asset details page in AEM and how to use it to view 3D assets.
-uuid: 27cc69f9-1c33-4890-b7e9-7a4fd8b1798d
+uuid: 14ae7c5f-e8c8-4025-a006-d31870167e0e
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 395302fe-78ef-47a5-94bb-138dc22a2104
+discoiquuid: 8f34740f-af23-4c3e-91a0-533f7aeb8301
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ This document describes both how to view 3D assets in asset details and how to v
 
 The interactive 3D viewer is available from the asset details page in AEM. The viewer includes, among other things, a collection of interactive camera controls that let you orbit, zoom, and pan the 3D asset.
 
-![](assets/chlimage_1-92.png)
+![](assets/chlimage_1-91.png)
 
 Besides using the default stages in AEM 3D, you can also use stages that you have created in a third-party application and uploaded into AEM.
 
@@ -97,14 +97,14 @@ To view 3D assets:
 
     * Near the upper-right corner of the asset details page, tap the Stage Selector icon. Select a stage name with the background and lighting that you want to apply to the 3D asset.
 
-   ![](assets/chlimage_1-93.png)
+   ![](assets/chlimage_1-92.png)
 
    Stages provide the environment-background, ground plane, and lighting-in which the 3D model is viewed.  
    See [About the use of stages in AEM 3D](../../assets/using/about-the-use-of-stages-in-aem-3d.md).
 
     * Near the upper-right corner of the asset details page, tap the Camera Selector icon, then select a camera view that you want to apply to the 3D asset.
 
-   ![](assets/chlimage_1-94.png)
+   ![](assets/chlimage_1-93.png)
 
    Stages often provide pre-defined cameras. You can re-select the current camera to restore it to its pre-defined settings.  
    See [About the use of stages in AEM 3D](../../assets/using/about-the-use-of-stages-in-aem-3d.md).

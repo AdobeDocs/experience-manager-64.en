@@ -3,12 +3,12 @@ title: Private folder sharing
 seo-title: Private folder sharing
 description: Learn how to create a private folder in the Adobe Experience Manager (AEM) Assets and share it with other users and the assign various privileges to them.
 seo-description: Learn how to create a private folder in the Adobe Experience Manager (AEM) Assets and share it with other users and the assign various privileges to them.
-uuid: 3a68369b-b6d3-40b6-abfc-2d2fee17d038
+uuid: 391742d9-a0ca-4d32-bb1a-2fa6144da003
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 01805d3b-9ed2-485d-8e8e-84996f7d2944
+discoiquuid: 29d06fc8-c730-4f96-abc6-37a051a5795b
 index: y
 internal: n
 snippet: y
@@ -20,19 +20,19 @@ You can create a private folder in the Adobe Experience Manager (AEM) Assets use
 
 1. In the Assets console, tap/click **Create** from the toolbar and then choose **Folder** from the menu.
 
-   ![](assets/chlimage_1-376.png)
+   ![](assets/chlimage_1-369.png)
 
 1. In the **Add Folder** dialog, enter a title and name (optional) for the folder, and select **Private**.
 
-   ![](assets/chlimage_1-377.png)
+   ![](assets/chlimage_1-370.png)
 
 1. Tap/click **Create**. A private folder is created in the UI.
 
-   ![](assets/chlimage_1-378.png)
+   ![](assets/chlimage_1-371.png)
 
 1. To share the folder with other users and the assign privileges to them, select the folder, and click/tap the **Properties** icon from the toolbar.
 
-   ![](assets/chlimage_1-379.png)
+   ![](assets/chlimage_1-372.png)
 
    >[!NOTE]
    >
@@ -40,7 +40,7 @@ You can create a private folder in the Adobe Experience Manager (AEM) Assets use
 
 1. In the Folder Prperties page, select a user from the **Add User** list, assign a role to the user on your private folder, and click **Add**.
 
-   ![](assets/chlimage_1-380.png)
+   ![](assets/chlimage_1-373.png)
 
    >[!NOTE]
    >
@@ -50,11 +50,11 @@ You can create a private folder in the Adobe Experience Manager (AEM) Assets use
 1. Click **Ok** to close the confirmation message.
 1. The user with whom you share the folder receives a sharing notification. Log in to AEM Assets with the credentials of the user to view the notification.
 
-   ![](assets/chlimage_1-381.png)
+   ![](assets/chlimage_1-374.png)
 
 1. Tap/click the Notification icon to open the list of notifications.
 
-   ![](assets/chlimage_1-382.png)
+   ![](assets/chlimage_1-375.png)
 
 1. Click/tap the entry for the private folder shared by the administrator to open the folder.
 

@@ -3,12 +3,12 @@ title: Adding Dynamic Media Assets to Pages
 seo-title: Adding Dynamic Media Assets to Pages
 description: To add the dynamic media functionality to assets you use on your websites, you can add the Dynamic Media or Interactive Media component directly on the page.
 seo-description: To add the dynamic media functionality to assets you use on your websites, you can add the Dynamic Media or Interactive Media component directly on the page.
-uuid: 8cda1cc2-b1bf-4443-ad4f-85753b86f266
+uuid: eb3ce898-a3ca-4cff-b071-686de070b7a4
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 50a226a9-0ceb-48aa-892f-a29ffd0e3a34
+discoiquuid: 028872e7-35c1-43cc-90e5-5932273e6d5e
 index: y
 internal: n
 snippet: y
@@ -48,7 +48,7 @@ To add a Dynamic Media component/viewer to a page:
 
 Dynamic Media and Interactive Media are available in the sidekick under **Dynamic Media**. You use the **Interactive Media** component for any interactive assets such as interactive video, interactive images, or carousel sets. For all other dynamic media components, use the **Dynamic Media** component.
 
-![](assets/chlimage_1-81.png)
+![](assets/chlimage_1-76.png)
 
 >[!NOTE]
 >
@@ -72,11 +72,11 @@ The Dynamic Media component lets you add dynamic images, including image sets, s
 
 You can also configure the viewer preset, image preset, or image format directly in the component. To make an image responsive you can either set the breakpoints or apply a responsive image preset.
 
-![](assets/chlimage_1-82.png)
+![](assets/chlimage_1-77.png)
 
 You can edit the following Dynamic Media Settings by clicking **Edit** in the component and then **Dynamic Media Settings**.
 
-![](assets/chlimage_1-83.png)
+![](assets/chlimage_1-78.png)
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ This option is not available if you are viewing image sets, spin sets, or mixed 
 
 Use the Dynamic Media component to add dynamic video to your web pages. When you edit the component you can choose to use a predefined video viewer preset for playing the video on the page.
 
-![](assets/chlimage_1-84.png)
+![](assets/chlimage_1-79.png)
 
 You can edit the following Dynamic Media Settings by clicking **Edit** in the component.
 
@@ -144,7 +144,7 @@ Interactive Media component is for those assets that have interactivity on them 
 
 The Interactive Media component is smart - depending on whether you add an image or a video, you have various options. In addition, the viewer is responsive - the size of the screen changes automatically based on screen size. All viewers are HTML5 viewers.
 
-![](assets/chlimage_1-85.png)
+![](assets/chlimage_1-80.png)
 
 You can edit the following **General** settings by clicking **Edit** in the component.
 

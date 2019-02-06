@@ -3,12 +3,12 @@ title: Tracking processes
 seo-title: Tracking processes
 description: How to track your processes by searching for them and viewing their details.
 seo-description: How to track your processes by searching for them and viewing their details.
-uuid: 54706229-2551-40fd-8c4e-dbf994c6ee47
+uuid: 83213cb8-111b-4d64-940f-1b09f1b5e0e1
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: ca787f15-5637-47b1-898f-1337d9510f21
+discoiquuid: 6b1daf67-4555-45bc-b3c6-bf1d855b37c7
 index: y
 internal: n
 snippet: y

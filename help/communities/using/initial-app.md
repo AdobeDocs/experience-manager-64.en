@@ -3,12 +3,12 @@ title: Initial Sandbox Application
 seo-title: Initial Sandbox Application
 description: Create template, component, and script
 seo-description: Create template, component, and script
-uuid: 8122376c-cf7f-44a2-ac42-dcee195e1bff
+uuid: 6413968b-513b-4bea-9e69-8d348fc3cc45
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: cefc011e-6060-476d-90b8-c180c806a4cf
+discoiquuid: bac5a2d7-009f-4ddb-945f-7b90c4371628
 index: y
 internal: n
 snippet: y
@@ -50,7 +50,7 @@ In this exercise, all pages are based on one simple template.
 
    In this case, all pages created using the `playpage`template are rendered by the `an-scf-sandbox/components/playpage` component. By convention, the path to the component is relative, allowing Sling to search for the resource first in the `/apps` folder and, if not found, in the `/libs` folder.
 
-   ![](assets/chlimage_1-77.png)
+   ![](assets/chlimage_1-74.png)
 
 1. If using copy/paste, ensure the Resource Type value has no leading or trailing spaces.
 
@@ -67,7 +67,7 @@ In this exercise, all pages are based on one simple template.
    After the root page is created from the template, access to the template could be restricted to this website by modifying the property to include the root path in the regular expression, i.e..  
    **/content/an-scf-sandbox(/.&#42;)?**
 
-   ![](assets/chlimage_1-78.png)
+   ![](assets/chlimage_1-75.png)
 
 1. Click **Next**.
 
@@ -81,7 +81,7 @@ In this exercise, all pages are based on one simple template.
 
    Click **Save All** to save the new template to the repository.
 
-   ![](assets/chlimage_1-79.png)
+   ![](assets/chlimage_1-76.png)
 
 ### Create the Template's Rendering Component {#create-the-template-s-rendering-component}
 
@@ -101,7 +101,7 @@ Create the *component* that defines the content and renders any pages created ba
     
     * Group :
 
-   ![](assets/chlimage_1-80.png)
+   ![](assets/chlimage_1-77.png)
 
 1.
 
@@ -116,7 +116,7 @@ Create the *component* that defines the content and renders any pages created ba
    >
    >**The correspondence between the path to the playpage component and the sling:resourceType property of the playpage template is crucial to the correct functioning of the website.**
 
-   ![](assets/chlimage_1-81.png)
+   ![](assets/chlimage_1-78.png)
 
 | ** [⇐ Setup Website Structure](../../communities/using/setup-website.md)** |** [Initial Sandbox Content ⇒](../../communities/using/initial-content.md)** |
 |---|---|

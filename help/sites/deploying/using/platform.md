@@ -3,12 +3,12 @@ title: Introduction to the AEM Platform
 seo-title: Introduction to the AEM Platform
 description: This article provides a general overview of the AEM platform and its most important components.
 seo-description: This article provides a general overview of the AEM platform and its most important components.
-uuid: a28a3ca7-ae7a-44cc-acc3-7cdecb96c840
+uuid: e3f0b09f-3c69-4b88-a25d-58be3bb0b6d3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 6ab0d672-178d-4d90-8c9d-68d4d51d2881
+discoiquuid: e86ce222-a623-421f-80ee-cb50d7b4bfaa
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/introduction-to-oak
 index: y
 internal: n
@@ -34,7 +34,7 @@ Oak implements the [JSR-283](http://www.day.com/day/en/products/jcr/jsr-283.html
 
 ## Architecture Concept {#architecture-concept}
 
-![](assets/chlimage_1-91.png)
+![](assets/chlimage_1-84.png)
 
 #### Storage {#storage}
 
@@ -115,7 +115,7 @@ Data about active and inactive cluster nodes is kept in the database in order to
 
 A typical AEM cluster setup with MongoDB storage:
 
-![](assets/chlimage_1-92.png)
+![](assets/chlimage_1-85.png)
 
 ## What is different from Jackrabbit 2? {#what-is-different-from-jackrabbit}
 

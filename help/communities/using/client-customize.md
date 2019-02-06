@@ -3,12 +3,12 @@ title: Client-side Customization
 seo-title: Client-side Customization
 description: Customizing behavior or appearance client-side in AEM Communities
 seo-description: Customizing behavior or appearance client-side in AEM Communities
-uuid: cf5bf2c4-c756-465f-bd1c-224d3a05568b
+uuid: f70f3796-e067-4ec5-8685-d47eb040a311
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: e5c89534-b0b0-4110-bb58-3eb623edb5e4
+discoiquuid: 59e9922b-b97a-4b09-a782-e83b5c926934
 index: y
 internal: n
 snippet: y
@@ -214,12 +214,6 @@ Every site is different in how they manage client libraries. Various factors inc
 * Overall Speed : Maybe the desire is for the site to be responsive, but it is acceptable for the first page to be a little slow to load. If many of the pages use the same Javascript, then the various Javascripts can be embeded into one clientlib and referenced from the first page to load. The Javascript in this single download remains cached, minimizing the amount of data to download for subsequent pages.
 * Short Time to First Page : Maybe the desire is for the first page to load quickly. In this case, the Javascript is in multiple small files to be referenced only where needed.
 * A balance between first page load and subsequent downloads.
-
-<!--
-Comment Type: draft
-
-<h2>Best Practices</h2>
--->
 
 | ** [⇐ Feature Essentials](../../communities/using/essentials.md)** |** [Server-side Customization ⇒](../../communities/using/server-customize.md)** |
 |---|---|

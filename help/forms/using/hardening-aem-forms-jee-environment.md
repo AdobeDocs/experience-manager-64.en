@@ -3,11 +3,11 @@ title: Hardening Your AEM Forms on JEE Environment
 seo-title: Hardening Your AEM Forms on JEE Environment
 description: Learn a variety of security-hardening settings to enhance the security of AEM Forms on JEE running in a corporate intranet.
 seo-description: Learn a variety of security-hardening settings to enhance the security of AEM Forms on JEE running in a corporate intranet.
-uuid: 75fa263a-612e-4bb2-8c8b-141bdd9ffdbf
+uuid: 7b438f3f-249f-440d-9d74-cf63fd96fccd
 content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
-discoiquuid: 73c0cf39-b38d-49d8-9b61-84495ffc3862
+discoiquuid: 9f7bcb29-b806-4c15-903c-5a083ece32c3
 index: y
 internal: n
 snippet: y

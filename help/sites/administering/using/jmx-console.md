@@ -3,12 +3,12 @@ title: Monitoring Server Resources Using the JMX Console
 seo-title: Monitoring Server Resources Using the JMX Console
 description: Learn how to monitor server resources using the JMX console.
 seo-description: Learn how to monitor server resources using the JMX console.
-uuid: 3fe925a4-a01b-4aa0-8677-b053327a52d7
+uuid: cf4b29a8-4709-41d1-ac3f-1a580946f3c1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: cd735043-4332-4440-a36e-e32e0fa82114
+discoiquuid: a900f05e-cf86-4c9e-ae18-409cdf29b685
 index: y
 internal: n
 snippet: y
@@ -507,13 +507,6 @@ Read-only.
 **ClusterMasterId** The identifier of the master node of this repository cluster. Read-only.
 
 **ClusterNodeId** The identifier of this node of the repository cluster. Read-only.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (colligno@adobe.com)
-Last Modified Date: 2017-11-30T05:00:43.498-0500
-<p>Need to find the ClusterNodeRevision description</p>
--->
 
 ### Operations {#operations-1}
 

@@ -3,12 +3,12 @@ title: Configuring Link Tracking for Adobe Analytics
 seo-title: Configuring Link Tracking for Adobe Analytics
 description: Learn about configuring link tracking for SiteCatalyst.
 seo-description: Learn about configuring link tracking for SiteCatalyst.
-uuid: 72e9ca7e-0dc3-43eb-abec-ea0501239fcd
+uuid: 7f457f39-aab7-4e94-a4ed-e0c964fa603d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: b277e8fb-1d4e-4ab6-8d1f-4ba9f45049c1
+discoiquuid: 2f7c7fdd-6aa9-463f-930f-1d893562e416
 index: y
 internal: n
 snippet: y
@@ -44,14 +44,6 @@ Downloads of the following file types are tracked by default:
 * doc
 * pdf
 * xls
-
-<!--
-Comment Type: remark
-Last Modified By: Roland Schaer (rschaer)
-Last Modified Date: 2018-05-31T05:35:38.205-0400
-<p>what's the current name for analytics.sitecatalyst.js ?</p>
-<p>rschaer: name still applies</p>
--->
 
 So for example, with download trackng enabled for PDF files, whenever users click links to PDF files, the download of the PDF is tracked.
 
@@ -138,24 +130,6 @@ s.linkTrackVars= 'prop4';
 ```
 
 ## Example Link Tracking Configuration {#example-link-tracking-configuration}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-02-21T09:14:50.606-0500
-<p>examples need reworking for we.retail </p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Roland Schaer (rschaer)
-Last Modified Date: 2018-05-31T05:37:32.099-0400
-<p>Adobe DigitalPulse Debugger used to point to:</p>
-<p><a href="http://blogs.adobe.com/digitalmarketing/analytics/meet-the-new-digitalpulse-debugger/">http://blogs.adobe.com/digitalmarketing/analytics/meet-the-new-digitalpulse-debugger/</a></p>
-<p>This is from 2010. Should we be using something more up-to-date?</p>
-<p>Like the Adobe Debugger see https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html ?</p>
-<p>rschaer: Yes. Please use https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html</p>
--->
 
 Perform the following procedures to explore the link tracking behavior of the Adobe Analytics integration. The procedures show results from [Adobe Marketing Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html).
 
@@ -251,13 +225,7 @@ This example illustrates how the mapping works in the context of tracking and th
 
 The call made will look like this when viewed with the Adobe Marketing Cloud Debugger:
 
-![](assets/AA-LeaveQuerySearch-Blank.png) 
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/linkexternal1.png" />
--->
+![](assets/AA-LeaveQuerySearch-Blank.png)
 
 >[!NOTE]
 >
@@ -271,46 +239,11 @@ Comment Type: draft
 
 The call details that appear in Adobe Marketing Cloud Debugger are similar to the following example:
 
-![](assets/AA-LeaveQuerySearch-Active.png) 
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/linkexternal2.png" />
--->
+![](assets/AA-LeaveQuerySearch-Active.png)
 
 >[!NOTE]
 >
 >This time the URL does contain the Query string: `?p=this`
-
-<!--
-Comment Type: draft
-
-<h3>Perform a search</h3>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-06-28T10:00:11.117-0400
-<p>Don't have a Search component in We.Retail and the page Search doesn't respond in Preview, nor trigger anything in the debugger.</p>
--->
-
-<!--
-Comment Type: draft
-
-<ol>
-<li>On the page that is associated with the framework, add the <strong>Search</strong> component.<br /> </li>
-<li>Preview the page and perform a search using the <span class="kbd">aaaaaaaaaaa</span> keyword, which returns<strong> </strong>no results.</li>
-</ol>
-<p>The call details that appear in DigitalPulse Debugger are similar to the following example:</p>
--->
-
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/linkexternal3.png" />
--->
 
 ## Ad-Hoc Link Tracking {#ad-hoc-link-tracking}
 
@@ -324,24 +257,7 @@ To enable ad-hoc link tracking you need to:
 * [Configure the Adobe Analytics framework to enable ad-hoc link tracking](#enablingadhoclinktracking).
 * [Configure Link Tracking for a Text component](#configuringlinktrackingforatextcomponent).
 
-<!--
-Comment Type: remark
-Last Modified By: Roland Schaer (rschaer)
-Last Modified Date: 2018-05-31T05:43:38.104-0400
-<p>is ad-hoc link tracking only for Text components?</p>
-<p>what about Text-based components (eg Table, Text&Image, etc)?</p>
-<p>rschaer: the link tracking is injected in the Rich-Text-Editor so as far the component uses RTE it should work</p>
--->
-
 ### Enabling Ad-hoc Link Tracking {#enabling-ad-hoc-link-tracking}
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-02-21T09:14:51.192-0500
-<p>to associate a page with the framework:</p>
-<p>- https://chl-author.corp.adobe.com/content/help/en/experience-manager/6-4/sites/administering/using/adobeanalytics-connect.html#AssociatingaPagewithaAdobeAnalyticsFramework</p>
--->
 
 Configure your Adobe Analytics framework to enable ad-hoc link tracking.
 
@@ -352,14 +268,6 @@ Configure your Adobe Analytics framework to enable ad-hoc link tracking.
    >[!NOTE]
    >
    >Not all user types have access to this checkbox. Contact your site administrator if you need access.
-
-<!--
-Comment Type: remark
-Last Modified By: Roland Schaer (rschaer)
-Last Modified Date: 2018-05-31T05:41:13.244-0400
-<p>is this Note, and the rule extension, still valid?</p>
-<p>rschaer: Yes</p>
--->
 
 >[!NOTE]
 >
@@ -393,13 +301,6 @@ Last Modified Date: 2018-05-31T05:41:13.244-0400
 
 ### Configuring Link Tracking for a Text Component {#configuring-link-tracking-for-a-text-component}
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-05-10T05:08:32.307-0400
-<p>Need input - not all options available</p>
--->
-
 Before you can configure ad-hoc link tracking for **Text** components themselves, the following configurations must have already been implemented:
 
 * The [Adobe Analytics framework is configured to enable ad-hoc link tracking](#enablingadhoclinktracking).
@@ -421,30 +322,6 @@ Use the following procedure to configure link tracking for a **Text** component:
    >
    >
    >It will only be enabled when you have selected a valid Link in the RTE.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Roland Schaer (rschaer)
-   Last Modified Date: 2018-05-31T06:57:18.120-0400
-   <p>screenshot</p>
-   <p>can't find an equivalent in touch or classic (geometrixx/6.3) - was this a special implementation of the Text component?</p>
-   <p>can't test the procedure without it</p>
-   <p> </p>
-   <p>rschaer: In Touch UI the custom link tracking is visible as a separate action besides the Link/Unlink action (Analytics Icon). It will only be enabled if the user has selected a valid Link in the RTE. Note: Link Tracking seems only to be available if Report Suite in Framework is using run mode "all" or "author".</p>
-   -->
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2018-06-28T05:04:54.906-0400
-   <p>is set to "all"....</p>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <img imageRotate="0" src="assets/chlimage_1-1.png" />
-   -->
 
    ![](assets/AA-17.png)
 

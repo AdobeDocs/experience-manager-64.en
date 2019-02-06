@@ -3,12 +3,12 @@ title: Related Community Articles
 seo-title: Related Community Articles
 description: Find a list of community generated articles about Marketing Cloud integrations with AEM.
 seo-description: Find a list of community generated articles about Marketing Cloud integrations with AEM.
-uuid: 68611e08-5a7d-4a0b-9559-c2f5aad30042
+uuid: 18236237-0c16-4f33-9c77-1fd1e03b60f3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 4824bc52-251b-4b25-83f5-5238b96c40ce
+discoiquuid: 8b3088a8-7070-4c63-a5ab-87d642c34719
 index: y
 internal: n
 snippet: y

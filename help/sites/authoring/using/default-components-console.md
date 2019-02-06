@@ -3,12 +3,12 @@ title: Components Console
 seo-title: Components Console
 description: null
 seo-description: null
-uuid: 37a9b9ca-b47f-437b-82ae-653411cc7187
+uuid: 347b6829-1fb3-4b78-ab90-14f78a02e9f9
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 8cf186e9-ff73-405c-b9d2-941aa16d7b10
+discoiquuid: 59110e1b-5834-4a96-8e5c-77f0822a191c
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ The Components console allows you to browse through all components defined for y
 
 It can be accessed from **Tools -&gt;** **General -&gt;** **Components**. In the console, card and list view are available. Because there is no tree structure for components, column view is not available.
 
-![](assets/chlimage_1-373.png)
+![](assets/chlimage_1-360.png)
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ It can be accessed from **Tools -&gt;** **General -&gt;** **Components**. In the
 
 With the **Content Only** icon (top left) you can open the **Search** panel to search and/or filter the components:
 
-![](assets/chlimage_1-374.png) 
+![](assets/chlimage_1-361.png) 
 
 ### Component Details {#component-details}
 
@@ -57,11 +57,11 @@ To view details about a specific component tap/click on the required resource. T
 
 * **Policies**
 
-  ![](assets/chlimage_1-375.png)
+  ![](assets/chlimage_1-362.png)
 
 * **Live Usage**
 
-  ![](assets/chlimage_1-376.png)
+  ![](assets/chlimage_1-363.png)
 
   >[!CAUTION]
   >
@@ -71,5 +71,5 @@ To view details about a specific component tap/click on the required resource. T
 
   If the developer has provided [documentation for the component](../../../sites/developing/using/developing-components.md#main-pars-title-121f), it will appear on the **Documentation** tab. If there is no documentation available, the **Documentation** tab will not be shown.
 
-  ![](assets/chlimage_1-377.png)
+  ![](assets/chlimage_1-364.png)
 

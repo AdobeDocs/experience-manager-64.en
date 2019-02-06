@@ -3,12 +3,12 @@ title: Configuring certificate-based authentication
 seo-title: Configuring certificate-based authentication
 description: Import a Certificate Authority (CA) certificate into the Trust Store and create a certificate mapping for certificate-based authentication.
 seo-description: Import a Certificate Authority (CA) certificate into the Trust Store and create a certificate mapping for certificate-based authentication.
-uuid: b3ad154f-2c69-4db1-b13e-1e43af78aa5b
+uuid: aba4e5fc-3579-4c54-b203-826cdf1c7d1d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 4ee7b2b4-fe8c-4361-89ad-f40353527872
+discoiquuid: 7a66cc14-a147-4692-a860-4ed5516d2d9e
 index: y
 internal: n
 snippet: y
@@ -34,13 +34,6 @@ When you test a certificate, User Management uploads the certificate checks to e
 * The Issuer you specified can verify the certificate. 
 * The certificate contains the attribute required for mapping. 
 * The mapping you specified maps the certificate to only one user in the AEM forms database. Both current and obsolete (deleted) users are checked to determine whether they match the mapping criteria. Therefore, the certificate test fails if more than one user, including obsolete users, has the attribute value being considered.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown
-Last Modified Date:
-<p>Bug 2287292:</p>
--->
 
 >[!NOTE]
 >

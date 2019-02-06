@@ -3,12 +3,12 @@ title: How to Work With Packages
 seo-title: How to Work With Packages
 description: Learn the basics of working with packages in AEM.
 seo-description: Learn the basics of working with packages in AEM.
-uuid: 0e281bc9-2b75-458b-b2e4-654a82ee1772
+uuid: 26b37ac4-836d-4b5f-809a-2960cf6c3716
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: b5da752b-eb76-4fa2-926d-b512f12571db
+discoiquuid: ad9da233-c411-4910-8ae9-5bea322b239e
 index: y
 internal: n
 snippet: y
@@ -82,14 +82,7 @@ The **Package Settings** dialog is available via the **Edit** button when [creat
 | Description |A brief description of the package. HTML markup can be used for formatting. |
 | Thumbnail |The icon that appears with the package listing. Click Browse to select a local file. |
 
-![](assets/chlImage_1-12.png) 
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-14T10:21:24.003-0500
-<p>Advanced Settings - is any automatic behaviours or must this all be filled out by hand?</p>
--->
+![](assets/chlImage_1-12.png)  
 
 <table> 
  <tbody> 
@@ -144,14 +137,6 @@ Last Modified Date: 2017-12-14T10:21:24.003-0500
  </tbody> 
 </table>
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-14T10:21:24.051-0500
-<p>to clarify access control handling - on upload or installation?</p>
-<p>how does merge operate - when there are conflicts what action is taken?<br /> </p>
--->
-
 ![](assets/packagesdependencies.png) 
 
 | **Field** |**Description** |**Format/Example** |
@@ -172,7 +157,7 @@ Filters can include zero or more rules. When no rules are defined, the package c
 
 You can define one or more filter definitions for a package. Use more than one filter to include content from multiple root paths.
 
-![](assets/chlimage_1-415.png)
+![](assets/chlimage_1-400.png)
 
 The following table describes these rules and provides examples:
 
@@ -222,19 +207,13 @@ As a package can contain an icon, the following conventions are used for officia
 
 Official Hotfix package:
 
-![](assets/chlimage_1-416.png)
+![](assets/chlimage_1-401.png)
 
 Official AEM Installation or Extension package:
 
-<!--
-Comment Type: draft
-
-<img imageRotate="0" src="assets/chlimage_1-417.png" />
--->
-
 Official Feature packs:
 
-![](assets/chlimage_1-418.png) 
+![](assets/chlimage_1-402.png) 
 
 ## Package Manager {#package-manager}
 
@@ -251,28 +230,6 @@ To grant users the right to create, modify, upload, and install packages, you mu
 * the node that contains the package contents
 
 See [Setting permissions](../../../sites/administering/using/security.md#settingpagepermissions) for instructions on changing permissions.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-14T10:21:24.770-0500
-<ul>
-<li>what exactly is meant by "the node that contains whatever is inside the package." ie which node? source or target? if source then why only the node, why not the entire tree? if target then is that not inherent in /etc/packages?<br /> </li>
-<li>what permissions are required on this?</li>
-<li>what about permissions on the entire content to be packaged/extracted?</li>
-</ul>
--->
-
-<!--
-Comment Type: draft
-
-<p>To grant users the right to create, modify, upload, and install packages, you need to give them the appropriate permissions at the following locations:</p>
-<ul>
-<li><strong>/etc/packages</strong> (full rights except delete)</li>
-</ul>
-<p>Users must have rights to the package (<strong>/etc/packages</strong>) as well as the node that contains whatever is inside the package.</p>
-<p>See <a href="../../../sites/administering/using/security.md#settingpagepermissions">Setting permissions</a> for instructions on changing permissions.</p>
--->
 
 ### Creating a New Package {#creating-a-new-package}
 
@@ -304,14 +261,6 @@ To create a new package definition:
       A textual field for you to indicate a version. This will be appended to the package name to form the name of the zip file.
 
    Click **OK** to create the package.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-   Last Modified Date: 2017-12-14T10:21:25.363-0500
-   <p>Created to replace out-of-date-branding with the term AEM is an old Remark:</p>
-   <p>Remark by unknown unknown (aheimoz) on Tue, 22 Nov 2011, 19:58:19 EST<br /> Is the Version field purely text? Must it represent an AEM version? Is there any automatic behaviour (docu stated that "AEM automatically adds the Version after you build the package.")?</p>
-   -->
 
 1. AEM lists the new package in the appropriate group folder.
 
@@ -667,15 +616,6 @@ After you upload a package, you need to install the content. To have the package
 
    The word **Installed** appears next to the package after it has been installed.
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-14T10:21:29.020-0500
-<p>what are the issues with installing very (?) large packages? where (approx) is the size limit?</p>
-<p>see various emails in the tech list:</p>
-<p>is there any error in the log?<br /> i think the main problem is, that the package importer first stores it in the repository, before extracting it. i think that first part already fails.<br /> you would add it as initial installation package, then it does not get stored in the content, and the contents are installed when you startup cq5.</p>
--->
-
 ### File System Based Upload and Installation {#file-system-based-upload-and-installation}
 
 There is an alternative way to upload and install packages to your instance. In your file system, you have a `crx-quicksart` folder alongside with your jar and `license.properties` file. You need to create a folder named `install` under `crx-quickstart`. You will then have something like this: `<aem_home>/crx-quickstart/install`
@@ -697,14 +637,6 @@ AEM lets you uninstall packages. This action reverts the contents of the reposit
 >Upon installation, a snapshot package is created containing the content that will be overwritten.
 >
 >This package will be re-installed when you uninstall the package.
-
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2017-12-14T10:21:29.194-0500
-<p>Confirm <i>exactly</i> what uninstall does to repository content.<br /> </p>
-<p>Can a package be uninstalled if the content installed has been updated since?<br /> </p>
--->
 
 1. In the Package Manager navigate to the package you want to uninstall.
 1. Click the package icon of the package you want to uninstall.
@@ -827,14 +759,6 @@ The validity of your application will be checked before:
 
 #### Network Considerations {#network-considerations}
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacyref-6-1)
-Last Modified Date: 2017-12-14T10:21:31.703-0500
-<p>Watson bug 2898686</p>
-<p>Presumably will need reviewing in the future in the hope that we can remove this warning about IPv6.</p>
--->
-
 **IPv6**
 
 You may experience problems when trying to access Package Share from a pure IPv6 environment.
@@ -849,21 +773,6 @@ Package Share is currently unavailable if your company runs an http proxy that r
 
 Package Share is only available when your AEM server has access to the Internet without authentication being required. To configure the proxy for all services that use the http client (including package share) use the [OSGi configuration of the Day Commons HTTP Client 3.1 bundle](../../../sites/deploying/using/osgi-configuration-settings.md#daycommonshttpclient31).
 
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacyref-6-1)
-Last Modified Date: 2017-12-14T10:21:31.784-0500
-<p>JSedding 20.07.2010</p>
-<p>please add a section on how to configure a proxy. this note only mentions that proxy with authentication doesn't work, but there is no mention of how to configure a proxy for packageshare.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacyref-6-1)
-Last Modified Date: 2017-12-14T10:21:31.814-0500
-<p>Need information - or is the additional information (second paragraph) in the above note sufficient?<br /> </p>
--->
-
 ### Inside Package Share {#inside-package-share}
 
 In Package Share packages are arranged in tree subtrees:
@@ -872,27 +781,7 @@ In Package Share packages are arranged in tree subtrees:
 * Shared packages that have been provided by others companies and have been made public by Adobe.  
 * Your company packages that are private.
 
-![](assets/chlimage_1-419.png) 
-
-<!--
-Comment Type: draft
-
-<h4>Package Status</h4>
--->
-
-<!--
-Comment Type: draft
-
-<p>In Package Share, each package has a status indicator to let you know whether you have already downloaded or installed the package. The indicator appears to the right of the package name as in the following example:</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-12-14T10:21:31.992-0500
-<p>Remark by unknown unknown (remove-legacyref-6-1) on Tue, 12 May 2015, 10:26:12 EDT<br /> <br /> </p>
-<p>No status indicator screenshot until the C Q integration. </p>
--->
+![](assets/chlimage_1-403.png) 
 
 ### Searching and Filtering Packages {#searching-and-filtering-packages}
 
@@ -914,22 +803,7 @@ To download packages from Package Share and install them on your local instance,
    >
    >Before starting to download packages from Package Share, make sure you have the [required access](#accesstopackageshare).
 
-1. Navigate to the package you want to download and click **Download**.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (colligno@adobe.com)
-   Last Modified Date: 2017-12-14T10:21:32.481-0500
-   <p>Once the package has been downloaded, the word Downloaded appears next to the package.</p>
-   -->
-
-   <!--
-   Comment Type: draft
-
-   <note type="note">
-   <p>If the package has already been downloaded to your instance, the <strong>Downloaded</strong> indicator appears next to the package instead of the <strong>Download</strong> button.</p>
-   </note>
-   -->
+1. Navigate to the package you want to download and click **Download**.  
 
 1. Go back or navigate to the **Package Manager** on your AEM instance. Then navigate to the package you just downloaded.
 
@@ -987,14 +861,7 @@ To upload packages your the company-internal Package Share:
 
    When you are logged in, AEM will display details about the package to be uploaded:
 
-   ![](assets/chlimage_1-420.png) 
-
-   <!--
-   Comment Type: remark
-   Last Modified By: Alison Heimoz (aheimoz)
-   Last Modified Date: 2017-12-14T10:21:33.509-0500
-   <p>Can't get an updated screenshot of this - would be good.<br /> </p>
-   -->
+   ![](assets/chlimage_1-404.png)
 
 1. Click **Share** to upload the package to your company's internal Package Share.
 
@@ -1002,26 +869,11 @@ To upload packages your the company-internal Package Share:
 
 1. After the upload has completed, you can navigate to your company's internal folder to see the package you just shared.
 
-<!--
-Comment Type: draft
-
-<note type="note">
-<p>After your packages are uploaded, you can choose whether to apply to have them shared semi-private See <a href="#makingpackagespublic">Making packages semi-private</a>.</p>
-</note>
--->
-
 >[!NOTE]
 >
 >To modify a package available on Package Share, you need to download it, re-build it, and then upload it again to Package Share.
 
 ### Deleting A Package {#deleting-a-package}
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (remove-legacyref-6-1)
-Last Modified Date: 2017-12-14T10:21:33.743-0500
-<p>need to check if users are allowed to delete packages uploaded by someone else of theirs company. </p>
--->
 
 You can only delete packages that you have uploaded by proceed as follows:
 
@@ -1029,7 +881,7 @@ You can only delete packages that you have uploaded by proceed as follows:
 1. Click on the package. 
 1. Click the delete button.
 
-   ![](assets/chlimage_1-421.png)
+   ![](assets/chlimage_1-405.png)
 
 1. Click **Delete** to confirm you want to delete the package.
 

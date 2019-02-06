@@ -3,12 +3,12 @@ title: SEO and URL Management Best Practices
 seo-title: SEO and URL Management Best Practices
 description: Learn about SEO best practices and recommendations for achieving these on an AEM implementation.
 seo-description: Learn about SEO best practices and recommendations for achieving these on an AEM implementation.
-uuid: 99a15edc-e9c9-4cfd-8521-9dbfe77ad157
+uuid: 33e9ca21-d4d9-45c6-8f89-a601e945c81f
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
-discoiquuid: 19c12925-6b7a-438c-b0fd-75da633d97ea
+discoiquuid: 4769fdae-a4a1-400b-84b8-8ebe291842c1
 index: y
 internal: n
 snippet: y
@@ -185,21 +185,6 @@ This section reviews the options available in AEM for managing these URLs and pr
 
 #### Vanity URLs {#vanity-urls}
 
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:58.933-0500
-<p>ims-author-77F410094CD97C4F0A746C1B@AdobeID (12-Nov-2015)</p>
-<p>PM had issues with this, so it's been drafted out.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>AEM exposes a feature that allows authors to define vanity URLs on a page-by-page basis. The best practice for using this feature is simple: don’t. There are few major issues with using this feature to maintain vanity URLs on a sitewide basis. The first is that by managing vanity URLs at the page level, there is no central location through which they can all be maintained. This makes long-term maintenance of the site very difficult. The second is that when these pages are cached at their vanity URL location, subsequent dispatcher flush requests will not reach this location and thus stale content will be served.</p>
-<p>There is, however, an exception to every rule. Sometimes an author may want a page to be accessible from a second location for promotional purposes. As long as this is done only occasionally, it isacceptable. To add a vanity URL for a page, navigate to it in the <strong>Sites</strong> console and edit the page properties. At the bottom of the <strong>Basic</strong> tab, you see a section where vanity URLs can be added. Keep in mind that having the page accessible via more than one URL will fragment the SEO value of the page, so a canonical URL tag should be added to the page to avoid this issue.</p>
--->
-
 If an author wants a page to be accessible from a second location for promotional purposes, AEM's vanity URLs, defined on a page-by-page basis, might be useful. To add a vanity URL for a page, navigate to it in the **Sites** console and edit the page properties. At the bottom of the **Basic** tab, you see a section where vanity URLs can be added. Keep in mind that having the page accessible via more than one URL will fragment the SEO value of the page, so a canonical URL tag should be added to the page to avoid this issue.
 
 #### Localized page names {#localized-page-names}
@@ -246,13 +231,6 @@ In a standard AEM installation:
 Mapping definitions can be added in this location to map inbound requests, rewrite URLs on pages in AEM, or both.
 
 To create a new mapping, create a new `sling:Mapping`** **node in this location under `/http` or `/https`. Based on the `sling:match` and `sling:internalRedirect` properties that are set on this node, AEM will redirect all traffic for the matched URL to the value specified in the `internalRedirect` property.
-
-<!--
-Comment Type: remark
-Last Modified By: (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2017-11-30T05:46:59.011-0500
-<p>issues with dispatcher cache validation?</p>
--->
 
 While this is the approach that is documented in the official AEM and Sling documentation, the regular expression support provided by this implementation is limited in scope when compared to the options that are available to us by using the `SlingResourceResolver` directly. Additionally, implementing mappings in this way can lead to issues with dispatcher cache invalidation.
 

@@ -3,12 +3,12 @@ title: Authoring Targeted Content Using Targeting Mode
 seo-title: Authoring Targeted Content Using Targeting Mode
 description:  Targeting mode and the Target component provide tools for creating content for experiences
 seo-description:  Targeting mode and the Target component provide tools for creating content for experiences
-uuid: c9567ed9-a908-424c-a8ec-7f5645f98b31
+uuid: 056b8919-cccf-439e-9eef-d7075e9ee4e4
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: f70207d3-a5b9-4069-9b1b-b6d90b903cb5
+discoiquuid: f6ece460-7869-4153-a944-ae4fefa9bb5f
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ Author targeted content using Targeting mode of AEM. Targeting mode and the Targ
 
 You can use either AEM or Adobe Target as the targeting engine (you must have a valid Adobe Target account to use Adobe Target). If you are using Adobe Target, you must configure the integration first. See [instructions for integrating with Adobe Target](../../../sites/administering/using/target.md).
 
-![](assets/chlimage_1-71.png)
+![](assets/chlimage_1-70.png)
 
 The activities and experiences that you see in Target mode reflect the [Activites console](../../../sites/authoring/using/activitylib.md):
 
@@ -57,11 +57,11 @@ To switch to Target mode:
 1. Open the page for which you want to author targeted content.
 1. On the toolbar at the top of the page, click or tap the mode drop-down menu to reveal the available mode types.
 
-   ![](assets/chlimage_1-72.png)
+   ![](assets/chlimage_1-71.png)
 
 1. Click or tap **Targeting**. Targeting options display at the top of the page.
 
-   ![](assets/chlimage_1-73.png)
+   ![](assets/chlimage_1-72.png)
 
 ## Adding an Activity Using Targeting Mode {#adding-an-activity-using-targeting-mode}
 
@@ -124,7 +124,7 @@ To add an activity:
 1. In the **Activity** drop-down menu, select the activity for which you are authoring targeted content.
 1. To reveal the controls that guide you through the targeting process, click or tap **Start Targeting**.
 
-   ![](assets/chlimage_1-74.png)
+   ![](assets/chlimage_1-73.png)
 
    >[!NOTE]
    >
@@ -144,15 +144,15 @@ After you [start the targeting process](../../../sites/authoring/using/content-t
 
 Experiences are displayed in the Audiences pane. In the following example, experiences include **Default**, **Female**, **Female over 30**, and **Female under 30**. This example shows the Default offer of a targeted **Image** component. 
 
-![](assets/chlimage_1-75.png)
+![](assets/chlimage_1-74.png)
 
 When a different experience is selected, the Image component shows the offer for that experience.
 
-![](assets/chlimage_1-76.png)
+![](assets/chlimage_1-75.png)
 
 When an experience is selected and the targeted component does not include an offer for that experience, the component displays **Add Offer** superimposed upon the semi-transparent default offer. When no offer has been created for an experience, the **Default** offer is displayed for the segment that is mapped to the experience.
 
-![](assets/chlimage_1-77.png)
+![](assets/chlimage_1-76.png)
 
 The Default experience is also displayed when the visitor properties do not match any segments that are mapped to the experiences. See [Adding Experiences using Targeting Mode](#addingandremovingexperiencesusingtargetingmode).
 
@@ -160,11 +160,11 @@ The Default experience is also displayed when the visitor properties do not matc
 
 Offers that are [authored on the page](../../../sites/authoring/using/content-targeting-touch.md#main-pars-title-14) and used for a single experience are called custom offers. The following image is superimposed on the content of a custom offer:
 
-![](assets/chlimage_1-78.png)
+![](assets/chlimage_1-77.png)
 
 Offers that are [added from an offer library](../../../sites/authoring/using/content-targeting-touch.md#main-pars-title-3) are superimposed with the following image:
 
-![](assets/chlimage_1-79.png)
+![](assets/chlimage_1-78.png)
 
 You can save custom offers to an offer library if you decide that you want to reuse it. You can also convert a library offer to a custom offer if you want to modify the content for an experience. After editing, you can once again save the offer back to the library.
 
@@ -185,7 +185,7 @@ To delete an experience:
 
 1. Click or tap the arrow** **next to the experience name.
 
-   ![](assets/chlimage_1-80.png)
+   ![](assets/chlimage_1-79.png)
 
 1. Click **Delete**.
 
@@ -241,11 +241,11 @@ Perform the following procedure after [starting the targeting process](../../../
 
 1. Click or tap the component to target. The toolbar for the component appears, similar to the following example.
 
-   ![](assets/chlimage_1-81.png)
+   ![](assets/chlimage_1-80.png)
 
 1. Click or tap the Target icon.
 
-   ![](assets/chlimage_1-82.png)
+   ![](assets/chlimage_1-81.png)
 
    The component content is the offer for the Default experience. When a component is targeted, its default node will be replicated for each experience. This is needed for editing the correct content node during experience specific authoring. For these non-default experiences, either [add a custom offer](../../../sites/authoring/using/content-targeting-touch.md#main-pars-title-14) or [add a library offer](../../../sites/authoring/using/content-targeting-touch.md#main-pars-title-3).
 
@@ -263,15 +263,15 @@ Because the Target component is a container, it appears as a drop area for other
 
 In Target mode, the Target component has a blue border, and the drop-target message indicates the targeted nature.
 
-![](assets/chlimage_1-83.png)
+![](assets/chlimage_1-82.png)
 
 In Edit mode, the Target component has a bullseye icon.
 
-![](assets/chlimage_1-84.png)
+![](assets/chlimage_1-83.png)
 
 When you drag components into the Target component, they are targeted components.
 
-![](assets/chlimage_1-85.png)
+![](assets/chlimage_1-84.png)
 
 When you add a component to the Target component, it provides content for a specific experience. To specify the experience, you select the experience before you add the components.
 
@@ -307,7 +307,7 @@ If you decide that the offer can be used for other experiences, you can create a
 1. Select the experience to which you are adding the offer.
 1. To reveal the component menu, click or tap the targeted component to which you are adding the offer.
 
-   ![](assets/chlimage_1-86.png)
+   ![](assets/chlimage_1-85.png)
 
 1. Click or tap the + icon.
 
@@ -315,7 +315,7 @@ If you decide that the offer can be used for other experiences, you can create a
 
 1. Click or tap the offer to reveal the offer menu, then click or tap the edit icon.
 
-   ![](assets/chlimage_1-87.png)
+   ![](assets/chlimage_1-86.png)
 
 1. Edit the content of the component.
 
@@ -328,33 +328,33 @@ You cannot add library offers to the Default experience.
 1. Select the experience to which you are adding the offer.
 1. To reveal the component menu, click or tap the targeted component to which you are adding the offer.
 
-   ![](assets/chlimage_1-88.png)
+   ![](assets/chlimage_1-87.png)
 
 1. Click or tap the folder icon.
 
-   ![](assets/chlimage_1-89.png)
+   ![](assets/chlimage_1-88.png)
 
 1. Select the offer from the library and then click or tap the checkmark icon.
 
-   ![](assets/chlimage_1-90.png)
+   ![](assets/chlimage_1-89.png)
 
    The offer picker lets you browse or filter for offers. When browsing or filtering, you may also want to sort the offers and change how you view them. The number in the upper right-hand indicates how many offers are available in the current library.
 
     * Click or tap **Browse** to navigate to another folder. The navigation pane opens and you click the arrow to drill down into folders. Click or tap **Browse** again to close the navigation pane.
 
-   ![](assets/chlimage_1-91.png)
+   ![](assets/chlimage_1-90.png)
 
     * Click or tap **Filter** to filter the offers against keywords or tags. You enter keywords and you select tags from the drop-down menu. Click or tap **Filter** again to close the filtering pane.
 
-   ![](assets/chlimage_1-92.png)
+   ![](assets/chlimage_1-91.png)
 
     * Change how you sort the offers by clicking or tapping the arrow next to **Newest to Oldest**. Offers can be sorted newest to oldest or oldest to newest.
 
-   ![](assets/chlimage_1-93.png)
+   ![](assets/chlimage_1-92.png)
 
    Click or tap the icon next to **View as** to view offers as tiles or as a list.
 
-   ![](assets/chlimage_1-94.png)
+   ![](assets/chlimage_1-93.png)
 
 #### Adding a Custom Offer to a Library {#adding-a-custom-offer-to-a-library}
 
@@ -365,7 +365,7 @@ For information about using the Offers console to create a reusable offer, see [
 1. Select the experience to reveal the custom offer.
 1. Click or tap the custom offer to reveal the offer menu, then click or tap the **Save Offer To Offer Library** icon.
 
-   ![](assets/chlimage_1-95.png)
+   ![](assets/chlimage_1-94.png)
 
 1. Type a name for the offer, and select the library to which you are adding the offer, then click or tap the checkmark icon.
 
@@ -376,7 +376,7 @@ Convert a library offer to a custom offer to change the offer for current experi
 1. Select the experience to reveal the library offer.
 1. Click or tap the library offer to reveal the offer menu, then click or tap the Convert to Inline Offer icon.
 
-   ![](assets/chlimage_1-96.png)
+   ![](assets/chlimage_1-95.png)
 
 #### Editing a Library Offer {#editing-a-library-offer}
 
@@ -396,7 +396,7 @@ The Target step of [the targeting process](../../../sites/authoring/using/conten
 
 Audiences appear on the left side of the mapping diagram, and experiences appear on the right side.
 
-![](assets/chlimage_1-97.png)
+![](assets/chlimage_1-96.png)
 
 Define an audience using a segment. The cloud configuration for the page detemines determines the segments that are availble to you. When the page is not associated with an Adobe Target cloud configuration, AEM segments are available for defining audiences. When the page is associated with an Adobe Target cloud configuration, you use Target segments.
 
@@ -404,7 +404,7 @@ For information targeting engines, see [Targeting Engine](../../../sites/authori
 
 An audience must not be used by more than one experience. A warning symbol appears next to an experience when it is mapped to an audience that is mapped to another experience.
 
-![](assets/chlimage_1-98.png) 
+![](assets/chlimage_1-97.png) 
 
 ### Associating experiences with audiences (AEM or Adobe Target) {#associating-experiences-with-audiences-aem-or-adobe-target}
 
@@ -420,7 +420,7 @@ If you have an A/B test activity, audiences are on your left, the percentage tha
 
 You can change the percentages as long as they add up to 100 percent. An audience can be used by multiple experiences in A/B testing.
 
-![](assets/chlimage_1-99.png) 
+![](assets/chlimage_1-98.png) 
 
 ### Associating Audiences and Traffic Percentages with A/B Testing {#associating-audiences-and-traffic-percentages-with-a-b-testing}
 
@@ -440,15 +440,15 @@ The goal metrics are only measured for the published campaign.
 
 If using AEM as the targeting engine:
 
-![](assets/chlimage_1-100.png)
+![](assets/chlimage_1-99.png)
 
 If using Adobe Target as the targeting engine:
 
-![](assets/chlimage_1-101.png)
+![](assets/chlimage_1-100.png)
 
 If using Adobe Target as the targeting engine and you have A4T Analytics configured for the account, you have an additional **Reporting Source** drop-down menu:
 
-![](assets/chlimage_1-102.png)
+![](assets/chlimage_1-101.png)
 
 The following success metrics are available (used for publish only):
 
@@ -560,7 +560,7 @@ To configure goals and settings if using Adobe Target:
 
    If you select **Adobe Analytics**, select the company and report suite. If you select **Adobe Target**, no action is required.
 
-   ![](assets/chlimage_1-103.png)
+   ![](assets/chlimage_1-102.png)
 
 1. In the **Goal Metric** area, under **My Primary Goal** select the success metric you want to track - Conversion, Revenue, Engagement - and enter how that metric gets measured (or what action the audience takes to indicate a goal has been reached). See definition of the goal metrics in the previous table and see [Adobe Target documentation](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html) on success metrics.
 
@@ -574,7 +574,7 @@ To configure goals and settings if using Adobe Target:
    >
    >You must have at least one goal defined.
 
-   ![](assets/chlimage_1-104.png)
+   ![](assets/chlimage_1-103.png)
 
    >[!NOTE]
    >
@@ -582,7 +582,7 @@ To configure goals and settings if using Adobe Target:
 
 1. Click **Add a New Metric** to configure additional success metrics.
 
-   ![](assets/chlimage_1-105.png)
+   ![](assets/chlimage_1-104.png)
 
    >[!NOTE]
    >
@@ -619,11 +619,11 @@ To simulate the visitor's experience, use the following tools:
 1. To switch to Preview mode, on the toolbar click or tap **Preview**.
 1. On the tool bar, click or tap the Context Hub icon.
 
-   ![](assets/chlimage_1-106.png)
+   ![](assets/chlimage_1-105.png)
 
 1. Use Context Hub to change context properties. For example, click or tap the Persona property to select a different user.
 
-   ![](assets/chlimage_1-107.png)
+   ![](assets/chlimage_1-106.png)
 
    The page changes to show the content that is targeted for the current context.
 
@@ -635,19 +635,19 @@ You can customize the Target component by accessing the component's options in o
 
 1. After you have targeted the component, in the Target component, click or tap the component and then the settings icon (cog).
 
-   ![](assets/chlimage_1-108.png)
+   ![](assets/chlimage_1-107.png)
 
    AEM displays the Target component options window.
 
-   ![](assets/chlimage_1-109.png)
+   ![](assets/chlimage_1-108.png)
 
 1. Alternatively to access these settings in full screen mode, in the Target component options window, click or tap the full screen icon.
 
-   ![](assets/chlimage_1-110.png)
+   ![](assets/chlimage_1-109.png)
 
    AEM displays the full-screen Target component options window.
 
-   ![](assets/chlimage_1-111.png)
+   ![](assets/chlimage_1-110.png)
 
 1. Configure the Target component settings as described in the following tables.
 
@@ -670,7 +670,7 @@ You can customize the Target component by accessing the component's options in o
 
    If you select Adobe Target as the engine:
 
-   ![](assets/chlimage_1-112.png) 
+   ![](assets/chlimage_1-111.png) 
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -707,7 +707,7 @@ You can customize the Target component by accessing the component's options in o
 
    If you select Client Context (client side) as the engine:
 
-   ![](assets/chlimage_1-113.png) 
+   ![](assets/chlimage_1-112.png) 
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 

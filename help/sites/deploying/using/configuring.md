@@ -3,12 +3,12 @@ title: Basic Configuration Concepts
 seo-title: Basic Configuration Concepts
 description: Learn how to configure AEM.
 seo-description: Learn how to configure AEM.
-uuid: 440c65cf-3fab-4631-9867-1286e9adb94b
+uuid: adb3a783-5bed-415c-a528-726a7403b830
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 7ac9b898-1ffe-4366-8247-40203d50e616
+discoiquuid: 6cc52775-7e3e-4e57-bd3e-78fd4d52f767
 index: y
 internal: n
 snippet: y
@@ -176,28 +176,6 @@ See [Dispatcher](/content/help/en/experience-manager/dispatcher/using/dispatcher
 
 With the release of the AEM Doc Services and AEM Doc Security, we now have the capability to invoke the LiveCycle doc services to render an XFA form, convert a document to PDF and policy protect a document. Please read [AEM LiveCycle Connector](/content/help/en/livecycle/help/aem/aem-livecycle-connector) for more details.
 
-<!--
-Comment Type: draft
-
-<h3>Configuring an AEM Cluster</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>A cluster is formed of two, or more, live servers linked together to ensure that, if one node fails, the other nodes are active and accessible for your applications with no system interruption. This allows you to recover and re-start failed nodes easily. New nodes can also be added to an existing cluster, allowing for simple extensibility.</p>
-<p>As all clustering setup is performed in the CRX repository, see the CRX clustering documentation for detailed information. </p>
-<p>The CRX clustering documentation describes different clustering scenarios and how to set up clustering with a file journal using the GUI, manually with a file journal, and with a database journal.</p>
-<p>A simple overview of configuration in AEM is also given under creating a cluster in AEM.</p>
--->
-
-<!--
-Comment Type: draft
-
-<p>When optimizing a CQ installation you may wish to quickly add an additional cluster node without starting from scratch with an empty instance. This can be especially useful when you have existing system already holding substantial content.</p>
-<p>In such a case, the most efficient way of adding a node is to clone the master node, creating one or more new slave nodes. This technique is discussed under Manual Slave Cloning.</p>
--->
-
 ### Job Offloading and Topology Administration {#job-offloading-and-topology-administration}
 
 [Offloading](../../../sites/deploying/using/offloading.md) distributes processing tasks amoung Experience Manager instances in a topology. With offloading, you can use specific Experience Manager instances for performing specific types of processing. Specialized processing enables you to maximize the usage of available server resources.
@@ -303,26 +281,6 @@ CQ sends email notifications to users who:
 
 See [Configuring Email Notification](../../../sites/administering/using/notification.md) for further details.
 
-<!--
-Comment Type: draft
-
-<h3>Configuring Automatic Emails for Account Activities</h3>
--->
-
-<!--
-Comment Type: draft
-
-<p>The Account Manager lets you configure the emails that users automatically receive when they create an account or reset a password and to confirm a password that has been reset.</p>
-<p>See <a href="/content/docs/en/aem/6-3/administer/security/configure-account-services">Configuring Automatic Emails for Account Activities</a> for further details.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Silviu Raiman (raiman)
-Last Modified Date: 2017-11-30T05:41:42.432-0500
-<p>This section needs to be reviewed for accuracy. Setting it in draft mode.</p>
--->
-
 ### Enabling Page Impressions {#enabling-page-impressions}
 
 Page impressions are displayed in the **Impressions** column of the classic UI siteadmin console. To enable the capture of page impressions you need to configure:
@@ -338,35 +296,4 @@ Page impressions are displayed in the **Impressions** column of the classic UI s
 >[!CAUTION]
 >
 >The configuration of Adobe Page Impressions Tracker on the author environment will allow anonymous requests to the tracking service.
-
-<!--
-Comment Type: draft
-
-<h2>Architectural Best Practices</h2>
--->
-
-<!--
-Comment Type: draft
-
-<p><strong>Possibly this belongs on its own page...how to distinguish architectural best practices from "configuration"</strong></p>
--->
-
-<!--
-Comment Type: draft
-
-<ul>
-<li>To keep partners up to date on architectural best practices it would make sense to add a page for this. It should cover information on:</li>
-</ul>
-<ul>
-<li>The proper way to share a datastore (e.g. do not share over NFS, see <a href="https://issues.adobe.com/browse/CRX-4424" title="SHA-1 collision can cause missing datastore files">CRX-4424</a>).</li>
-<li>Best ways to set up a CRX cluster (use master cloning) and max recommended cluster size (e.g. 4 is max before it gets sluggish / unstable)</li>
-<li>Link to documentation on sizing for number of publish instances for optimal performance.</li>
-<li>Recommendations on when to use reverse replication vs normal replication.</li>
-<li>Recommendation of why it is important to set up dispatcher flushing on publish, not author. How to properly configure replication on a publish instance. How to set up dispatcher flush pre-fetch feature (see <a href="https://issues.adobe.com/browse/DISP-237" title="Simultaneous request for a single result in multiple requests to the publish instance">DISP-237</a>)</li>
-<li>Information regarding ACLs, setting EntryCollector cache size and how to structure them to reduce total number of permission checks. This could just point to a link if this documentation already exists.</li>
-<li>Performance tuning <a href="http://helpx.adobe.com/cq/kb/performancetuningtips.html" title="Follow link">http://helpx.adobe.com/cq/kb/performancetuningtips.html</a> . Especially including how to properly size various caches in CQ and CRX.</li>
-<li>Proper installation procedures, how to properly size heap and permgen space for CQ apps.</li>
-<li>Recommendation of using official Hotspot JDK instead of OpenJDK.</li>
-</ul>
--->
 

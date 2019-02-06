@@ -3,11 +3,11 @@ title: Manage form metadata
 seo-title: Manage form metadata
 description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
 seo-description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
-uuid: 5e35f570-dcc4-4718-9bae-dc443df3efdf
+uuid: 647cb1c4-72b9-447a-9844-70f604f964c4
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: b6b8fb42-ba03-432a-a8af-0565c31e05ff
+discoiquuid: 6fca093c-5647-46e7-9837-4b43b1325970
 index: y
 internal: n
 snippet: y
@@ -177,13 +177,6 @@ Assets have existing property values, which can be viewed in read-only mode. Thi
 
 1. Open the properties page using one of the following ways:
 
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (svashish)
-   Last Modified Date: 2017-11-30T06:08:01.661-0500
-   <p>Icon is missing inline below and in several other places in this document. Please place it.<br /> </p>
-   -->
-
     1. Click the View Properties ![](assets/E_ReviewMode_Properties_N.png){width="16"} icon from Quick Actions.
 
        >[!NOTE]
@@ -204,13 +197,6 @@ Assets have existing property values, which can be viewed in read-only mode. Thi
 
     * Left panel contains thumbnail of the form
     * Right panel contains metadata properties in the read-only mode, distributed across various tabs.
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (svashish)
-Last Modified Date: 2017-11-30T06:08:01.880-0500
-<p>Missing icons above. Please put them in before you push this page live.</p>
--->
 
 ## Add/update form metadata values&nbsp; {#add-update-form-metadata-values-nbsp}
 
@@ -271,14 +257,7 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
 1. Any asset type clicked opens a list containing the `extendedmetadata`** **option. Edit this schema.  
 
-1. Select the checkbox beside `extendedmetadata`** **and then click the edit ![](assets/aem6forms_edit.png){width="16"} icon that appears in the toolbar.
-
-   <!--
-   Comment Type: remark
-   Last Modified By: unknown unknown (svashish)
-   Last Modified Date: 2017-11-30T06:08:02.476-0500
-   <p>Icons missing</p>
-   -->
+1. Select the checkbox beside `extendedmetadata`** **and then click the edit ![](assets/aem6forms_edit.png){width="16"} icon that appears in the toolbar.  
 
 1. AEM Forms opens the metadata schema editor/form builder of the selected asset type (in this case adaptive form).
 
@@ -318,13 +297,6 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
     1. Fill other settings based on requirement. For example: select the Required option if you want to make the field mandatory.  
 
     1. To delete a field you added, select the field and then click the delete ![](assets/delete.png){width="16"} icon.
-
-       <!--    
-       Comment Type: remark    
-       Last Modified By: unknown unknown (svashish)    
-       Last Modified Date: 2017-11-30T06:08:03.146-0500    
-       <p>The icon is missing. Please put it in.</p>    
-       -->
 
 1. If necessary, follow steps 1-3 to add another property.
 1. Click **Done **after making all the changes.

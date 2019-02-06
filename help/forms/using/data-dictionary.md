@@ -3,10 +3,10 @@ title: Data Dictionary
 seo-title: Data Dictionary
 description: Data dictionary in Correspondence Management lets you integrate back-end data to letters as inputs for use in customer correspondence.
 seo-description: Data dictionary in Correspondence Management lets you integrate back-end data to letters as inputs for use in customer correspondence.
-uuid: 629a6ca0-ade4-487a-aff9-3111ac9e56cd
+uuid: f2fdee83-aa4d-4344-97e1-13976e8e173a
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: ad6a20ef-424d-40b5-8d43-8b8976278b6e
+discoiquuid: 00e8b618-2251-46a2-81d4-38ae1c69e18f
 index: y
 internal: n
 snippet: y
@@ -51,14 +51,6 @@ You use the Data Dictionary Editor to create a data dictionary or you can upload
 
     * **Title:** (Optional) Enter the title for the data dictionary. Title needs not be unique and can have special characters and non-english characters. Letters and other document fragments are referred with their title (when available), such as in thumbnails and asset properties. Data dictionaries are referenced with their names and not titles.
     * **Name:** The unique name for the data dictionary. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field and the special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens. Although the value in the Title field is automatically copied to the Name, you can edit the value.
-
-   <!--
-   Comment Type: draft
-
-   <note>
-   <p>Do not use underscore (_) in a data dictionary name. Using underscore in data dictionary name may result in data binding related errors when you create a letter that refers to the data dictionary. For more information, see <a href="../../forms/using/cm-troubleshooting.md#main-pars-accordion-container" target="_blank">Correspondence Management troubleshooting</a>.</p>
-   </note>
-   -->
 
     * **Description**: (Optional) Description of the data dictionary.
     * **Tags: **(Optional) To create custom tag, enter value in text field and press Enter. You can see your tag below text field of tags. When you save this text, the newly added tags also get created.

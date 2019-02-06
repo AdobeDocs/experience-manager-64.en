@@ -3,12 +3,12 @@ title: Invoking Human-Centric Long-Lived Processes
 seo-title: Invoking Human-Centric Long-Lived Processes
 description: null
 seo-description: null
-uuid: ef23b34a-b451-4a1d-9bd9-99218c0cf63d
+uuid: a43e84bf-e08b-4fda-b2b6-5ee7e2a5186d
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
-discoiquuid: def20e17-c19e-4687-bb13-759046b7f01a
+discoiquuid: d5488148-0869-4391-a04a-6b4685736b67
 index: y
 internal: n
 snippet: y

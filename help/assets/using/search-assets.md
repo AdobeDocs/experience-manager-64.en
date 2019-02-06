@@ -3,11 +3,11 @@ title: Search assets in AEM
 seo-title: Search assets in AEM
 description: Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.
 seo-description: Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.
-uuid: 0e0ec56e-4c13-46ae-9904-e04b8385f39d
+uuid: cf08aafa-42f8-4b00-a620-5e2991d54653
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
-discoiquuid: c571ac10-a44b-4071-a3c2-b4d97d05f3b5
+discoiquuid: 58270c91-6d5a-4f99-8bfe-11de9fbb44d6
 index: y
 internal: n
 snippet: y

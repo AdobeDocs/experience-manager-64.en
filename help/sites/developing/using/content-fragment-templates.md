@@ -3,12 +3,12 @@ title: Content Fragment Templates
 seo-title: Content Fragment Templates
 description: Templates are selected when creating a content fragmen and provide the new fragment with the basic structure, element, and variation
 seo-description: Templates are selected when creating a content fragmen and provide the new fragment with the basic structure, element, and variation
-uuid: dcb33fa1-f974-492c-bea4-2c743cc06d05
+uuid: 5c2e5ad4-ec33-496e-a8ae-b3a58baf7f0d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: e2353e08-d719-4138-9d94-63047fb18244
+discoiquuid: 1b001ccd-660e-4da0-854b-b1fc43c64516
 index: y
 internal: n
 snippet: y
@@ -20,42 +20,11 @@ snippet: y
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../../release-notes/sp-release-notes.md).
 
-<!--
-Comment Type: remark
-Last Modified By: Alison Heimoz (aheimoz)
-Last Modified Date: 2018-03-15T04:01:20.988-0400
-<p>Might be deprecated in 6.4 - might need to be deleted.</p>
-<p>Seems not until 6.5....but models are the way to go.</p>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: Stefan Grimm (sgrimm)
-Last Modified Date: 2018-03-14T04:50:02.382-0400
-<p>Keep it - and add a disclaimer that it is strongly recommended to use models for new implementations. (Like you already did.)</p>
--->
-
 >[!CAUTION]
 >
 >[Content fragment models](../../../assets/using/content-fragments-models.md) are now recommended for creating all your fragments. 
 >
 >Content fragment models are used for all examples in We.Retail.
-
-<!--
-Comment Type: draft
-
-<note type="caution">
-<p><a href="../../../assets/using/content-fragments-models.md">Content fragment models</a> are now recommended for creating all your fragments. The data types used within these models can also be customized.</p>
-<p>Content fragment models are used for all examples in We.Retail.</p>
-</note>
--->
-
-<!--
-Comment Type: remark
-Last Modified By: unknown unknown (ims-author-57F1056A4CD116590A746C15@AdobeID)
-Last Modified Date: 2018-01-18T11:18:39.025-0500
-<p>need a link to the confmgr documentation</p>
--->
 
 Templates are selected when creating a content fragment. They provide the new fragment with the basic structure, element(s) and variation. The templates used for content fragments are subject to the Granite Configuration Manager.
 
