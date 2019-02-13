@@ -1,0 +1,160 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/workflows-administering.html" name="publishExternalURL" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations;/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations" name="moreHelpPaths" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-31T16:21:24.781-0400" name="firstPublishExternalDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-16T08:42:41.203-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Administering Workflow Instances" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:operations;content_type:reference" name="cq:tags" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-16T08:42:41.203-0400" name="publishExternalDate" /> 
+  <meta content="91f4beaa-6429-405c-be2d-335c09ab6388" name="jcr:predecessors" /> 
+  <meta content="2018-04-26T10:11:16.700-0400" name="locHandOffDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/operations/workflows/administering" name="qaNotes" /> 
+  <meta content="Administering Workflow Instances" name="navTitle" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Lear how to administer Workflow Instances." name="seoDescription" /> 
+  <meta content="cfc8d25d-3813-468e-8fb2-c9d35efb2965" name="jcr:uuid" /> 
+  <meta content="2018-04-26T10:11:16.700-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-16T08:42:41.203-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-03-09T08:02:17.788-0500" name="jcr:created" /> 
+  <meta content="Administering Workflow Instances" name="seoTitle" /> 
+  <meta content="2018-10-27T23:45:50.789-0400" name="cq:lastReplicated" /> 
+ </head> 
+ <body> 
+  <p>The workflow console provides several tools for administering workflow instances to ensure that they are executing as expected.</p> 
+  <note> 
+   <p>The <a href="../../../sites/administering/using/jmx-console.md#workflowmaintenance">JMX console</a> provides additional workflow maintenance operations.</p> 
+  </note> 
+  <p>A range of consoles are available for administering your workflows. Use the <a href="../../../sites/authoring/using/basic-handling.md#globalnavigation">global navigation</a> to open the <strong>Tools</strong> pane, then select <strong>Workflow</strong>:</p> 
+  <ul> 
+   <li><strong>Models</strong>: Manage workflow definitions</li> 
+   <li><strong>Instances</strong>: View and manage running workflow instances</li> 
+   <li><strong>Launchers</strong>: Manage how workflows are to be launched</li> 
+   <li><strong>Archive</strong>: View history of workflows that completed successfully</li> 
+   <li><strong>Failures</strong>: View history of workflows that completed with errors</li> 
+  </ul> 
+  <h3>Monitoring the Status of Workflow Instances</h3> 
+  <ol> 
+   <li><p>Using Navigation select <strong>Tools</strong>, then <strong>Workflow</strong>. </p> </li> 
+   <li><p>Select <strong>Instances</strong> to display the list of workflow instances currently in progress.</p> <img imageRotate="0" src="assets/wf-96.png" /></li> 
+   <li><p>Select a specific item, then <strong>Open History</strong> to see more details:</p> <img imageRotate="0" src="assets/wf-97.png" /></li> 
+  </ol> 
+  <h3>Suspending, Resuming, and Terminating a Workflow Instance</h3> 
+  <ol> 
+   <li><p>Using Navigation select <strong>Tools</strong>, then <strong>Workflow</strong>. </p> </li> 
+   <li><p>Select <strong>Instances</strong> to display the list of workflow instances currently in progress.</p> <img imageRotate="0" src="assets/wf-96-1.png" /></li> 
+   <li><p>Select a specific item, then use <strong>Terminate</strong>, <strong>Suspend</strong>, or <strong>Resume</strong>, as appropriate; confirmation, and/or further details are required:</p> <img imageRotate="0" src="assets/wf-97-1.png" /></li> 
+  </ol> 
+  <h3>Viewing Archived Workflows</h3> 
+  <ol> 
+   <li><p>Using Navigation select <strong>Tools</strong>, then <strong>Workflow</strong>. </p> </li> 
+   <li><p>Select <strong>Archive</strong> to display the list of workflow instances that completed successfully.</p> <img imageRotate="0" src="assets/wf-98.png" /> 
+    <note> 
+     <p>The abort status is considered as a successful termination as it occurs as a result of user action; for example:</p> 
+     <ul> 
+      <li>use of the <strong>Terminate</strong> action</li> 
+      <li>when a page, that is subject to a workflow, is (force) deleted, then the workflow will be terminated</li> 
+     </ul> 
+    </note></li> 
+   <li><p>Select a specific item, then <strong>Open History</strong> to see more details:</p> <img imageRotate="0" src="assets/wf-99.png" /></li> 
+  </ol> 
+  <h3>Fixing Workflow Instance Failures</h3> 
+  <p>When a workflow fails, AEM provides the <strong>Failures</strong> console to allow you to investigate and take appropriate action once the original cause has been handled:</p> 
+  <ul> 
+   <li><strong>Failure Details</strong><br /> Opens a window to show the <strong>Failure Message</strong>, <strong>Step</strong> and <strong>Failure Stack</strong>.</li> 
+   <li><strong>Open History</strong><br /> Shows details of the workflow history.</li> 
+   <li><strong>Retry Step<br /> </strong>Executes the Script Step component instance again. Use the Retry Step command after you have fixed the cause of the original errror. For example, retry the step after you fix a bug in the script that the Process Step executes.</li> 
+   <li><strong>Terminate<br /> </strong>Terminate the workflow if the error has caused an irreconsilable situation for the workflow. For example, the workflow can rely on environmental conditions such as information in the respository that are no longer valid for the workflow intance.</li> 
+   <li><strong>Terminate and Retry<br /> </strong>Similar to <strong>Terminate</strong> except that a new workflow instance is started using the original payload, title, and description.</li> 
+  </ul> 
+  <p>To investigate failures, then resume or terminate the workflow afterwards, use the following steps:</p> 
+  <ol> 
+   <li><p>Using Navigation select <strong>Tools</strong>, then <strong>Workflow</strong>. </p> </li> 
+   <li><p>Select <strong>Failures</strong> to display the list of workflow instances that did not complete successfully.</p> </li> 
+   <li><p>Select a specific item, then the appropriate action:</p> <img imageRotate="0" src="assets/wf-47.png" /></li> 
+  </ol> 
+  <h3>Regular Purging of Workflow Instances</h3> 
+  <p>Minimizing the number of workflow instances increases the performance of the workflow engine, so you can regularly purge completed or running workflow instances from the repository. </p> 
+  <p>Configure <strong>Adobe Granite Workflow Purge Configuration</strong> to purge workflow instances according their age and status. You can also purge workflow instances of all models or of a specific model.</p> 
+  <p>You can also create multiple configurations of the service to purge workflow instances that satisfy different criteria. For example, create a configuration that purges the instances of a particular workflow model when they are running for much longer than the expected time. Create another configuration that purges all completed workflows after a certain number of days to minimize the size of the repository.</p> 
+  <p>To configure the service, you can use the <a href="../../../sites/deploying/using/configuring-osgi.md#main-pars-title-104">Web Console</a> or <a href="../../../sites/deploying/using/configuring-osgi.md#main-pars-par11">add an OSGi configuration to the repository</a>. The following table desribes the properties that you need for either method. </p> 
+  <note> 
+   <p>For adding the configuration to the repository, the service PID is:</p> 
+   <p> <span class="code">com.adobe.granite.workflow.purge.Scheduler</span></p> 
+   <p>Because the service is a factory service, the name of the <span class="code">sling:OsgiConfig</span> node requires an identifier suffix, for example:</p> 
+   <p> <span class="code">com.adobe.granite.workflow.purge.Scheduler-myidentifier</span></p> 
+  </note> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Property Name (Web Console)</th> 
+     <th>OSGi Property Name</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>Job Name</td> 
+     <td>scheduledpurge.name</td> 
+     <td>A descriptive name for the scheduled purge.</td> 
+    </tr> 
+    <tr> 
+     <td>Workflow Status</td> 
+     <td>scheduledpurge.workflowStatus</td> 
+     <td><p>The status of the workflow instances to purge. The following values are valid:</p> 
+      <ul> 
+       <li>COMPLETED: Completed workflow instances are purged.</li> 
+       <li>RUNNING: Running workflow instances are purged.</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>Models To Purge</td> 
+     <td>scheduledpurge.modelIds</td> 
+     <td><p>The ID of the workflow models to purge. The ID is the path to the model node, for example:<br /> /conf/global/settings/workflow/models/dam/update_asset/jcr:content/model<br /> Specify no value to purge instances of all workflow models.</p> <p>To specify multiple models, click the + button in the Web Console. </p> </td> 
+    </tr> 
+    <tr> 
+     <td>Workflow Age</td> 
+     <td>scheduledpurge.daysold</td> 
+     <td>The age of the workflow instances to purge, in days.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Setting the Maximum Size of the Inbox</h3> 
+  <p>You can set the maximum size of the inbox by configuring the <strong>Adobe Granite Workflow Service</strong>, using the <a href="../../../sites/deploying/using/configuring-osgi.md#main-pars-title-104">Web Console</a> or <a href="../../../sites/deploying/using/configuring-osgi.md#main-pars-par11">add an OSGi configuration to the repository</a>. The following table describes the property that you configure for either method. </p> 
+  <note> 
+   <p>For adding the configuration to the repository, the service PID is:</p> 
+   <p> <span class="code">com.adobe.granite.workflow.core.WorkflowSessionFactory</span>.</p> 
+  </note> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Property Name (Web Console)</th> 
+     <th>OSGi Property Name</th> 
+    </tr> 
+    <tr> 
+     <td>Max Inbox Query Size</td> 
+     <td>granite.workflow.inboxQuerySize</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body> 
+</html>

@@ -1,0 +1,226 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2016-05-31T06:42:36.995-0400" name="acrolinxDate" /> 
+  <meta content="2018-04-03T08:52:03.629-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-03T08:52:03.544-0400" name="topicBrowsingSortDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="76cf57e9-61a2-41b9-92bf-d49dc2a660b9" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:publish;topic_tags:developer-reference" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/report-submitted-data-forms.html" name="publishExternalURL" /> 
+  <meta content="2016-04-20T09:25:24.868-0400" name="firstPublishExternalDate" /> 
+  <meta content="2015-11-20T08:12:07.296-0500" name="lastPublishQADate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-04-26T04:35:04.521-0400" name="cq:lastModified" /> 
+  <meta content="640" name="acrolinxWords" /> 
+  <meta content="7cd5960e-823d-4a27-b569-777e16d3de2f" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="APIs to work with submitted forms on forms portal" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/report_submitted_data_forms_admin_5e12de0b318c6865_2057_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-26T04:35:04.520-0400" name="locHandOffDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-03T08:52:03.544-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:05:30.570-0500" name="jcr:created" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="46" name="acrolinxSentences" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="AEM Forms provides APIs that you can use to query and take actions on submitted forms data in forms portal. " name="seoDescription" /> 
+  <meta content="2018-04-03T08:52:03.544-0400" name="publishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>AEM Forms provides APIs that you can use to query forms data submitted through forms portal. In addition, you can post comments or update properties of submitted forms using the APIs explained in this document. </p> 
+  <note> 
+   <p>Users who will invoke the APIs must be added to the reviewers group as described in <a href="../../forms/using/adding-reviewers-form.md" target="_blank">Associating submission reviewers to a form</a>. </p> 
+  </note> 
+  <h2>GET /content/forms/portal/submission.review.json?func=getFormsForSubmissionReview &lt;br&gt;</h2> 
+  <p>Returns a list of all eligible forms.</p> 
+  <h3>URL parameters</h3> 
+  <p>This API doesn't require additional parameters.</p> 
+  <h3>Response</h3> 
+  <p>The response object contains a JSON array that includes forms names and their repository path. The structure of the response is as follows:</p> 
+  <p><code class="code">[
+    <discoiqbr /> {formName: "&amp;lt;form name&amp;gt;", 
+    <discoiqbr /> formPath: "&amp;lt;path to the form&amp;gt;" }, 
+    <discoiqbr /> {.....}, 
+    <discoiqbr /> ......] </code><br /> </p> 
+  <h3>Example</h3> 
+  <p><strong>Request URL</strong></p> 
+  <codeblock gutter="true" lineWrap="true" class="syntax plain">
+    http://[host]:[port]/content/forms/portal/submission.review.json?func=getFormsForSubmissionReview 
+  </codeblock> 
+  <p><strong>Response</strong></p> 
+  <codeblock lineWrap="true" class="syntax java">
+    [{"formPath":"/content/dam/formsanddocuments/forms-review/form2","formName":"form2"},{"formPath":"/content/dam/formsanddocuments/forms-review/form1","formName":"form1"}] 
+  </codeblock> 
+  <h2>GET /content/forms/portal/submission.review.json?func=getAllSubmissions</h2> 
+  <p>Returns details of all submitted forms. However, you can use URL parameters to limit the results.</p> 
+  <h3>URL parameters</h3> 
+  <p>Specify the following parameters in the request URL:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Parameter</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td><span class="code">formPath</span></td> 
+     <td>Specifies the CRX repository path where the form resides. If you do not specify the form path, it returns an empty response.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">offset</span><br /> (optional)</td> 
+     <td>Specifies the starting point in the index of the results set. The default value is <strong>0</strong>.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">limit</span><br /> (optional)</td> 
+     <td>Limits the number of results. The default value is <strong>30</strong>.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">orderby</span> <br /> (optional)</td> 
+     <td>Specifies the property for sorting results. The default value is <strong>jcr:lastModified</strong>, which sorts results based on the last modified time.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">sort</span> <br /> (optional)</td> 
+     <td>Specifies the order for sorting results. The default value is <strong>desc</strong>, which sorts results in descending order. You can specify <span class="code">asc</span> to sort results in ascending order.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">cutPoints</span> <br /> (optional)</td> 
+     <td>Specifies a comma-separated list of form properties to be included in results. The default properties are:<br /> <span class="code">formName</span>, <span class="code">formPath</span>, <span class="code">submitID</span>, <span class="code">formType</span>, <span class="code">jcr:lastModified</span>, <span class="code">owner</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">search</span> <br /> (optional)</td> 
+     <td>Searches the specified value in form properties and returns forms with matching values. The default value is <strong>""</strong>.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Response</h3> 
+  <p>The response object contains a JSON array that includes details of the specified forms. The structure of the response is as follows:</p> 
+  <p><code class="code">{ 
+    <discoiqbr /> total: "&amp;lt;total number of submissions&amp;gt;",
+    <discoiqbr /> items: [{ formName: "&amp;lt;name of the form&amp;gt;", formPath: "&amp;lt;path to the form&amp;gt;", owner: "&amp;lt;owner of the form&amp;gt;"}, 
+    <discoiqbr /> ....]} </code><br /> </p> 
+  <h3>Example</h3> 
+  <p><strong>Request URL</strong></p> 
+  <codeblock lineWrap="true" class="syntax plain">
+    http://[host]:[port]/content/forms/portal/submission.review.json?func=getAllSubmissions&amp;formPath=/content/dam/formsanddocuments/forms-review/form2 
+  </codeblock> 
+  <p><strong>Response</strong></p> 
+  <codeblock lineWrap="true" class="syntax java">
+    {"total":1,"items":[{"formName":"form2","formPath":"/content/dam/formsanddocuments/forms-review/form2","submitID":"1403037413508500","formType":"af","jcr:lastModified":"2015-11-05T17:52:32.243+05:30","owner":"admin"}]} 
+  </codeblock> 
+  <h2>POST /content/forms/portal/submission.review.json?func=addComment &lt;br&gt;</h2> 
+  <p>Adds a comment to the specified submission instance.</p> 
+  <h3>URL parameters</h3> 
+  <p>Specify the following parameters in the request URL:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Parameter</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td><span class="code">submitID</span></td> 
+     <td>Specifies the metadata ID associated with a submission instance.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">Comment</span></td> 
+     <td>Specifies the text for comment to add to the specified submission instance.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Response</h3> 
+  <p>Returns a comment ID on successful posting of a comment.</p> 
+  <h3>Example</h3> 
+  <p><strong>Request URL</strong></p> 
+  <codeblock class="syntax plain">
+    http://[host:[port]/content/forms/portal/submission.review.json?func=addComment&amp;submitID=1403037413508500&amp;comment=API+test+comment 
+  </codeblock> 
+  <p><strong>Response</strong></p> 
+  <codeblock lineWrap="true" class="syntax java">
+    1403873422601300 
+  </codeblock> 
+  <h2>GET /content/forms/portal/submission.review.json?func=getComments &amp;nbsp;</h2> 
+  <p>Returns all comments posted on the specified submission instance.</p> 
+  <h3>URL parameters</h3> 
+  <p>Specify the following parameter in the request URL:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Parameter</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td><span class="code">submitID</span></td> 
+     <td>Specifies the metadata ID of a submission instance.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Response</h3> 
+  <p>The response object contains a JSON array that includes all comments associated with the specified submission ID. The structure of the response is as follows:</p> 
+  <p><code class="code">[{
+    <discoiqbr /> owner: "&amp;lt;name of the commenter&amp;gt;", 
+    <discoiqbr /> comment: "&amp;lt;comment text&amp;gt;", 
+    <discoiqbr /> time: "&amp;lt;time when the comment was posted&amp;gt;"},
+    <discoiqbr /> { }......]</code><br /> </p> 
+  <h3>Example</h3> 
+  <p><strong>Request URL</strong></p> 
+  <codeblock lineWrap="true" class="syntax plain">
+    http://[host]:[port]/content/forms/portal/submission.review.json?func=getComments&amp;submitID=1403037413508500 
+  </codeblock> 
+  <p><strong>Response</strong></p> 
+  <codeblock gutter="true" lineWrap="true" class="syntax java">
+    [{"owner":"fr1","comment":"API&amp;nbsp;test&amp;nbsp;comment","time":1446726988250}] 
+  </codeblock> 
+  <h2>POST /content/forms/portal/submission.review.json?func=updateSubmission &lt;br&gt;</h2> 
+  <p>Updates the value of the specified property of the specified submitted form instance.</p> 
+  <h3>URL parameters</h3> 
+  <p>Specify the following parameters in the request URL:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Parameter</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td><span class="code">submitID</span></td> 
+     <td>Specifies the metadata ID associated with a submission instance.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">property</span></td> 
+     <td>Specifies the form property to be updated.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">value</span></td> 
+     <td>Specifies the value of the form property to be updated.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Response</h3> 
+  <p>Returns a JSON object with information about the update posted.</p> 
+  <h3>Example</h3> 
+  <p><strong>Request URL</strong></p> 
+  <codeblock lineWrap="true" class="syntax plain">
+    http://[host]:[port]/content/forms/portal/submission.review.json?func=updateSubmission&amp;submitID=1403037413508500&amp;value=sample_value&amp;property=some_new_prop!!discoiqbr!! 
+  </codeblock> 
+  <p><strong>Response</strong></p> 
+  <codeblock lineWrap="true" class="syntax java">
+    {"formName":"form2","owner":"admin","jcr:lastModified":1446727516593,"path":"/content/forms/fp/admin/submit/metadata/1403037413508500.html","submitID":"1403037413508500","status":"submitted"} 
+  </codeblock> 
+ </body> 
+</html>

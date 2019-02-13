@@ -1,0 +1,97 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2015-06-12T04:25:30.866-0400" name="lastPublishQADate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="37" name="acrolinxSentences" /> 
+  <meta content="2017-12-01T19:03:33.142-0500" name="jcr:created" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="Create new folders to categorize forms" name="jcr:title" /> 
+  <meta content="520" name="acrolinxWords" /> 
+  <meta content="2018-04-03T08:23:47.678-0400" name="cq:lastReplicated" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-manager" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T08:23:46.117-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-26T04:39:39.213-0400" name="locHandOffDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/creating-new-folders-categorize-forms.html" name="publishExternalURL" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2016-04-20T09:44:37.669-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="Use folders to organize your form templates, PDFs, resources, and adaptive forms." name="seoDescription" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="79244e39-aaac-4a8e-883a-9538342f164a" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-26T04:39:39.213-0400" name="cq:lastModified" /> 
+  <meta content="2016-05-31T06:36:26.739-0400" name="acrolinxDate" /> 
+  <meta content="2018-04-03T08:23:46.117-0400" name="lastPublishExternalDate" /> 
+  <meta content="Creating new folders to categorize forms" name="navTitle" /> 
+  <meta content="4f0de8d4-4532-4821-afcf-eee65f0179ae" name="jcr:predecessors" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T08:23:46.117-0400" name="topicBrowsingSortDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/creating_new_folders_categorize_forms_admin_5e12de0b318c6865_1991_report.xml" name="acrolinxReportURL" /> 
+ </head> 
+ <body> 
+  <draft-comment lastModifiedBy="svashish" lastModifiedDate="2017-11-30T06:07:06.869-0500" type="remark"> 
+   <p><strong>General writing guidelines</strong></p> 
+   <ul> 
+    <li>Do not use the gerund form while writing article headings. For example, <em>"Create forms"</em> and not "Creating forms".</li> 
+    <li>Section headings (H2 headings) in the gerund form are generally OK.<br /> </li> 
+    <li>Use the second person to document features. Do not use the first person.</li> 
+    <li>Do not include inline links. They distract readers from the task at hand. Include the "Recommended reads" towards the end of the article as a <strong>See also</strong> section.<br /> </li> 
+    <li>Ensure that all dialog boxes have captions. This is required for accessibility purposes.</li> 
+    <li>"Click the icon" instead of "Click on the icon"...</li> 
+   </ul> 
+  </draft-comment> 
+  <p>You can organize your assets better using folders. Since AEM Forms supports several types of assets—form templates, PDFs, documents, resources, and adaptive forms, with various metadata—you can use folders to categorize your forms based on the desired criteria.</p> 
+  <p>AEM Forms lets you change the title of a folder. The title is not the same as the name of the node under which the folder is stored in the repository. Rather, the title is maintained as metadata for the folder. If you change the title of a folder, the path of any asset present inside the folder is not affected.</p> 
+  <h2>Create a folder</h2> 
+  <draft-comment lastModifiedBy="svashish" lastModifiedDate="2017-11-30T06:07:06.916-0500" type="remark"> 
+   <p>Please add the article explaining how to upload the ZIP file to the See Also section below.<br /> </p> 
+  </draft-comment> 
+  <p>You can create a folder in AEM Forms in one of the following ways:</p> 
+  <ul> 
+   <li>Upload a ZIP file containing assets in the desired folder structure (See, <a href="../../forms/using/get-xdp-pdf-documents-aem.md" target="_blank">Getting XDP and PDF documents in AEM Forms</a>)<br /> </li> 
+   <li>Create a new empty folder</li> 
+  </ul> 
+  <ol> 
+   <li><p>Log in to the AEM Forms user interface at <span class="code">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/aem/forms.html</span>.<br /> <span class="code"></span></p> </li> 
+   <li><p>Navigate to the location under which you want to create a folder.<br /> </p> </li> 
+   <li><p>Click the <img height="16" src="assets/aem6forms_add.png" width="16" /> icon in the toolbar and then select <span class="uicontrol">Create Folder</span>.<br /> </p> </li> 
+   <li><p>Enter the following details:</p> 
+    <ul> 
+     <li><strong>Title:</strong> Display name for the folder </li> 
+     <li><strong>Name:</strong> <em>(Mandatory)</em> The node name under which you want to store the folder in the repository</li> 
+    </ul> 
+    <note> 
+     <p>By default, the value of name field is automatically populated from the title. The name can only contain alphanumeric characters, or the hyphen (-) and underscore (_) special characters. Any other special characters entered in the title are automatically replaced with a hyphen and you are prompted to confirm the new name. You can choose to continue with suggested name or edit it further.</p> 
+    </note></li> 
+   <li><p>Click <span class="uicontrol">Submit</span><strong>.</strong></p> <p>A new folder with the title you defined is displayed at the current location in the asset listing. </p> <p>If a folder exists with the name specified, the submission fails with an error. You can view the error message by hovering over the error <img height="16" src="assets/aem6forms_error_alert.png" width="16" /> icon that appears beside the name field.</p> </li> 
+  </ol> 
+  <h3>Edit the folder title &lt;br&gt;</h3> 
+  <ol> 
+   <li><p>Select the folder whose title you want to edit.</p> </li> 
+   <li><p>Click the edit <img height="16" src="assets/aem6forms_edit.png" width="16" /> icon in the toolbar.<br /> </p> </li> 
+   <li><p>Enter the new title. The text field is prepopulated with the current value of folder title. You can change it to a new value.<br /> </p> </li> 
+   <li><p>Click <span class="uicontrol">Submit</span><strong>.</strong></p> </li> 
+  </ol> 
+  <related-links> 
+   <a href="../../forms/using/manage-form-metadata.md">Manage form metadata</a> 
+   <a href="../../forms/using/get-xdp-pdf-documents-aem.md">Getting XDP and PDF documents in AEM Forms</a> 
+  </related-links> 
+ </body> 
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-10-29T13:02:33.185-0400" name="lastPublishExternalDate" />
+  <meta content="2018-10-29T13:02:33.195-0400" name="cq:lastModified" />
+  <meta content="true" name="noIndex" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2018-10-29T13:02:33.185-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-10-29T13:02:33.185-0400" name="firstPublishExternalDate" />
+  <meta content="video" name="pageLayout" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="2018-01-04T19:01:12.591-0500" name="jcr:created" />
+  <meta content="59c11a1b-3444-42f8-a666-4b00dc932853" name="jcr:predecessors" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="906e6aba-9b1a-49fe-b328-ec97dc38fb15" name="jcr:uuid" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/using/aem-screens-introduction" name="redirectTarget" />
+  <meta content="2018-10-29T13:02:33.185-0400" name="publishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="2018-10-29T13:02:33.236-0400" name="cq:lastReplicated" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/aem-screens-introduction.html" name="publishExternalURL" />
+  <meta content="(Redirect)What is AEM Screens?" name="jcr:title" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="jsyal" name="contentOwner" />
+ </head>
+ <body></body>
+</html>

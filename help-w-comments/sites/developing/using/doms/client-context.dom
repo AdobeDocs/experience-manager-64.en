@@ -1,0 +1,434 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Client Context in Detail" name="jcr:title" /> 
+  <meta content="2018-01-19T19:05:22.609-0500" name="jcr:created" /> 
+  <meta content="The Client Context represents a dynamically assembled collection of user data" name="seoDescription" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-01-18T11:18:19.453-0500" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-01-18T11:18:19.453-0500" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/client-context.html" name="publishExternalURL" /> 
+  <meta content="2018-01-18T11:18:19.453-0500" name="topicBrowsingSortDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/developing/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="2018-10-27T23:47:14.252-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-05-08T12:40:42.150-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="56d27b7a-a023-4bd4-a92e-2b2e31837794" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" /> 
+  <meta content="Client Context in Detail" name="seoTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-31T16:17:15.304-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2725ca90-f996-4577-92c7-7ac42701fc98" name="jcr:uuid" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="Client Context in Detail" name="navTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="trushton" name="cq:lastModifiedBy" /> 
+  <meta content="2018-05-08T12:40:42.149-0400" name="locHandOffDate" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/personalization/client-context" name="qaNotes" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Client Context has been superseded by ContextHub in the touch UI. Please see the <a href="../../../sites/developing/using/contexthub.md">related documentation</a> for details.</p> 
+  </note> 
+  <p>The Client Context represents a dynamically assembled collection of user data. You can use the data to determine the content to show on a web page in a given situation (content targeting). The data is also available for web site analytics, and to any javascript on the page.</p> 
+  <p>Client Context consists mainly of the following aspects:</p> 
+  <ul> 
+   <li>The session store, that contains the user data.</li> 
+   <li>The UI that displays the user data and provides tools for simulating the user experience.</li> 
+   <li>A <a href="../../../sites/developing/using/ccjsapi.md">javascript API</a> for interacting with session stores.</li> 
+  </ul> 
+  <p>To create a standalone session store and add it to Client Context, or create a session store that is tied to a Context Store component. AEM installs several Context Store components that you can use right away. You can use these components as a basis for your components.</p> 
+  <p>For information about opening Client Context, configuring the information that it displays, and simulating the user experience, see <a href="../../../sites/administering/using/client-context.md">Client Context</a>.</p> 
+  <draft-comment type="draft"> 
+   <p>Several things make Adobe's implementation of the Client Context unique:</p> 
+   <ol> 
+    <li><p>Much of the volatile information (such as information about the user's viewing environment) is derived in real time, it is not persisted anywhere.</p> </li> 
+    <li><p>Marketers can experiment with different user-data values to see changes to a page in real time. This can be used for purposes of trying different campaign strategies. The edit icon (upper left corner of the panel) allows for manual editing (overriding) of user-data values.</p> </li> 
+    <li><p>The Client Context is <i>extensible</i>. You can add a new (custom) session-store object, the contents of which can be displayed in the panel.</p> </li> 
+    <li><p>Non-volatile information shown in the Client Context viewer is persisted on the <i>client side</i> (in browser storage or a cookie). This relieves the server of having to maintain (and then transport back and forth) large amounts of user data.</p> </li> 
+   </ol> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <h3>Concepts</h3> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>The Client Context is a general term for the box that appears overlaid on top of a web page. It allows you to see a set of collected or computed data. It is based on two main concepts:<br /> </p> 
+   <ul> 
+    <li>Session Stores: The user data. </li> 
+    <li>Context Store components: Components that render the data in the Client Context.</li> 
+   </ul> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>The basic content structure is:<br /> </p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <codeblock gutter="true" class="syntax xml">
+     /etc!!discoiqbr!!&amp;nbsp;&amp;nbsp;/clientcontext!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/default!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&gt;&amp;nbsp;default&amp;nbsp;ClientContext&amp;nbsp;structure!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/content!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&gt;&amp;nbsp;contains&amp;nbsp;the&amp;nbsp;content&amp;nbsp;of&amp;nbsp;the&amp;nbsp;default&amp;nbsp;ClientContext!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/contextstores!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&gt;&amp;nbsp;content/configs&amp;nbsp;needed&amp;nbsp;by&amp;nbsp;the&amp;nbsp;different&amp;nbsp;stores&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/legacy!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&gt;&amp;nbsp;old&amp;nbsp;style&amp;nbsp;configs&amp;nbsp;to&amp;nbsp;support&amp;nbsp;backward&amp;nbsp;compatibility&amp;nbsp;with&amp;nbsp;5.4&amp;nbsp;ClickstreamCloud!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/shared!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&gt;&amp;nbsp;shared&amp;nbsp;content&amp;nbsp;like&amp;nbsp;the&amp;nbsp;thumbnail&amp;nbsp;servlet!!discoiqbr!!/libs!!discoiqbr!!&amp;nbsp;&amp;nbsp;/cq!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/personalization!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/components!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/clientcontext!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&gt;&amp;nbsp;ClientContext&amp;nbsp;component&amp;nbsp;(the&amp;nbsp;one&amp;nbsp;included&amp;nbsp;into&amp;nbsp;pages)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/clientcontextdesigner!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&gt;&amp;nbsp;ClientContext&amp;nbsp;resource&amp;nbsp;type&amp;nbsp;for&amp;nbsp;authoring&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/contextstores!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&gt;&amp;nbsp;"foundation"&amp;nbsp;context&amp;nbsp;store&amp;nbsp;components 
+   </codeblock> 
+  </draft-comment> 
+  <h3>Session Stores</h3> 
+  <p>The Client Context includes various session stores that contain user data. Store data comes from the following sources:</p> 
+  <ul> 
+   <li>The client web browser.<br /> </li> 
+   <li>The server (see <a href="../../../sites/administering/using/client-context.md#main-pars-variable-8">JSONP Store</a> for storing information from 3rd-party sources)<br /> </li> 
+  </ul> 
+  <p>The Client Context framework provides a <a href="../../../sites/developing/using/ccjsapi.md">javascript API</a> that you can use to interact with session stores to read and write user data, and listen and react to store events. You can also create session stores for user data that you use for content targeting or other purposes.</p> 
+  <p>Session store data remains on the client. The Client Context does not write data back to the server. To send data to the server, use a form or develop custom javascript.<br /> </p> 
+  <p>Each session store is a collection of property-value pairs. The session store represents a collection of data (of any kind), the conceptual meaning of which can be decided by the designer and/or developer. The following example javascript code defines an object that represents the profile data that session store might contain:<br /> </p> 
+  <codeblock gutter="true" class="syntax js">
+    {!!discoiqbr!!&amp;nbsp;&amp;nbsp;age:&amp;nbsp;20,!!discoiqbr!!&amp;nbsp;&amp;nbsp;authorizableId:&amp;nbsp;"aparker@geometrixx.info",!!discoiqbr!!&amp;nbsp;&amp;nbsp;birthday:&amp;nbsp;"27&amp;nbsp;Feb&amp;nbsp;1992",!!discoiqbr!!&amp;nbsp;&amp;nbsp;email:&amp;nbsp;"aparker@geometrixx.info",!!discoiqbr!!&amp;nbsp;&amp;nbsp;formattedName:&amp;nbsp;"Alison&amp;nbsp;Parker",!!discoiqbr!!&amp;nbsp;&amp;nbsp;gender:&amp;nbsp;"female",!!discoiqbr!!&amp;nbsp;&amp;nbsp;path:&amp;nbsp;"/home/users/geometrixx/aparker@geometrixx.info/profile"!!discoiqbr!!} 
+  </codeblock> 
+  <p>A session store can be persisted across browser sessions, or can last only for the browser session in which it is created.</p> 
+  <note> 
+   <p>Store persistence uses either browser storage or cookies (the <span class="code">SessionPersistence</span> cookie). Browser storage is more common.</p> 
+   <p>When the browser is closed and reopened, a session store can be loaded with the values from a persisted store. Clearing the browser cache is then needed to remove the old values.<br /> </p> 
+  </note> 
+  <h3>Context Store Components</h3> 
+  <p>A context store component is a CQ component that can be added to Client Context. Typically, context store components display data from a session store with which they are associated. However, the information that context store components display is not limited to session store data.</p> 
+  <p>Context store components can include the following items:</p> 
+  <ul> 
+   <li>JSP scripts that define the appearance in Client Context.</li> 
+   <li>Properties for listing the component in Sidekick.</li> 
+   <li>Edit dialogs for configuring component instances.</li> 
+   <li>Javascript that initializes the session store.</li> 
+  </ul> 
+  <p>For a description of the installed Context Store Components that you can add to Context Store, see <a href="../../../sites/administering/using/client-context.md#main-pars-title">Available Client Context Components</a>.</p> 
+  <note> 
+   <p>Page Data is no longer in the client context as a default component. If needed, you can add this by editing the client context, adding the <strong>Generic Store Properties</strong> component, then configuring this to define the <strong>Store</strong> as <span class="code">pagedata</span>.<br /> </p> 
+  </note> 
+  <h3>Targeted Content Delivery</h3> 
+  <p>Profile information is also used for delivering <a href="../../../sites/authoring/using/content-targeting-touch.md">targeted content</a>.<br /> </p> 
+  <img imageRotate="0" src="assets/clientcontext_targetedcontentdelivery.png" /> 
+  <img imageRotate="0" src="assets/clientcontext_targetedcontentdeliverydetail.png" /> 
+  <h2>Adding Client Context To A Page</h2> 
+  <p>Include the Client Context component to the body section of your web pages to enable Client Context. The path of the Client Context component node is <span class="code">/libs/cq/personalization/components/clientcontext</span>. To include the component, add the following code to the JSP file of your page component, located just below the <span class="code">body</span> element of your page:</p> 
+  <codeblock class="syntax java">
+    &lt;cq:include&amp;nbsp;path="clientcontext"&amp;nbsp;resourceType="cq/personalization/components/clientcontext"/&gt; 
+  </codeblock> 
+  <p>The clientcontext component causes the page to load the client libraries that implement Client Context.</p> 
+  <ul> 
+   <li>The Client Context javascript API.</li> 
+   <li>The Client Context framework that supports session stores, event management, etc.</li> 
+   <li>Segments that are defined.</li> 
+   <li>The init.js scripts that are generated for each context store component that has been added to Client Context.</li> 
+   <li>(Author instance only) The Client Context UI. </li> 
+  </ul> 
+  <p>The Client Context UI is available only on the author instance.</p> 
+  <h2>Extending Client Context</h2> 
+  <p>To extend Client Context, create a session store and optionally display the store data:</p> 
+  <ul> 
+   <li>Create a session store for the user data that you need for content targeting and web analytics.</li> 
+   <li>Create a context store component to enable administrators to configure the associated session store, and to display store data in Client Context for testing purposes. </li> 
+  </ul> 
+  <note> 
+   <p>If you have (or create) a <span class="code">JSONP</span> service that can provide the data, you can simply use the <span class="code">JSONP</span> context store component and map it to the JSONP service. This will handle the session store.</p> 
+  </note> 
+  <h3>Creating a Session Store</h3> 
+  <p>Create a session store for the data that you need to add to and retrieve from Client Context. Generally, you use the following procedure to create a session store:</p> 
+  <ol> 
+   <li>Create a client library folder that has a <span class="code">categories</span> property value of <span class="code">personalization.stores.kernel</span>. Client Context automatically loads the client libraries of this category.</li> 
+   <li>Configure the client library folder so that it has a dependency on the <span class="code">personalization.core.kernel</span> client library folder. The <span class="code">personalization.core.kernel</span> client library provides the Client Context javascript API.</li> 
+   <li>Add the javascript that creates and initializes the session store.</li> 
+  </ol> 
+  <p>Including the javascript in the personalization.stores.kernel client library causes the store to be created when the Client Context framework is loaded.</p> 
+  <note> 
+   <p>If you are creating a session store as part of a context store component, you can alternatively place the javascript in the init.js.jsp file of the component. In this case, the session store is created only if the component is added to Client Context.</p> 
+  </note> 
+  <h4>Types of Session Stores</h4> 
+  <draft-comment color="yellow" lastModifiedBy="sbroders@adobe.com" lastModifiedDate="2018-01-18T11:18:24.235-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>need to get more specific about the storage...i.e. sessionstorage, localstorage, window storage, cookie storage.</p> 
+  </draft-comment> 
+  <p>Session stores are either created and available during a browser session, or are persisted in browser storage or cookies. The Client Context javascript API defines several classes that represent both types of data stores:</p> 
+  <ul> 
+   <li><span class="code"><a href="../../../sites/developing/using/ccjsapi.md#cqanalyticssessionstore">CQ_Analytics.SessionStore</a></span>: These objects reside only in the page DOM. The data is created and persisted during the lifetime of the page.</li> 
+   <li><span class="code"><a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-1">CQ_Analytics.PerstistedSessionStore</a></span>: These objects reside in the page DOM and are persisted either in browser storage or cookies. The data is available across pages and across user sessions.</li> 
+  </ul> 
+  <p>The API also provides extensions of these classes that are specialized for storing JSON data or JSONP data: </p> 
+  <ul> 
+   <li>Session-only objects: <a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-30">CQ_Analytics.JSONStore</a> and <a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-54">CQ_Analytics.JSONPStore</a>.</li> 
+   <li>Persisted objects: <a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-3">CQ_Analytics.PersistedJSONStore</a> and <a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-20">CQ_Analytics.PersistedJSONPStore</a>.</li> 
+  </ul> 
+  <h4>Creating the Session Store Object</h4> 
+  <p>The javascript of your client library folder creates and initializes the session store. The session store must then be registered using Context Store Manager. The following example creates and registers a <a href="../../../sites/developing/using/ccjsapi.md#cqanalyticssessionstore">CQ_Analytics.SessionStore</a> object.</p> 
+  <codeblock class="syntax js">
+    //Create&amp;nbsp;the&amp;nbsp;session&amp;nbsp;store!!discoiqbr!!if&amp;nbsp;(!CQ_Analytics.MyStore)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.MyStore&amp;nbsp;=&amp;nbsp;new&amp;nbsp;CQ_Analytics.SessionStore();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.MyStore.STOREKEY&amp;nbsp;=&amp;nbsp;"MYSTORE";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.MyStore.STORENAME&amp;nbsp;=&amp;nbsp;"mystore";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.MyStore.data={};!!discoiqbr!!}!!discoiqbr!!//register&amp;nbsp;the&amp;nbsp;session&amp;nbsp;store!!discoiqbr!!if&amp;nbsp;(CQ_Analytics.ClientContextMgr){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.ClientContextMgr.register(CQ_Analytics.MyStore)!!discoiqbr!!} 
+  </codeblock> 
+  <p>For storing JSON data, the following example creates and registers a <a href="../../../sites/developing/using/ccjsapi.md#cqanalyticssessionstore">CQ_Analytics.JSONStore</a> object.</p> 
+  <codeblock class="syntax js">
+    if&amp;nbsp;(!CQ_Analytics.myJSONStore)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.myJSONStore&amp;nbsp;=&amp;nbsp;CQ_Analytics.JSONStore.registerNewInstance("myjsonstore",{});!!discoiqbr!!} 
+  </codeblock> 
+  <h3>Creating a Context Store Component</h3> 
+  <p>Create a context store component to render session store data in Client Context. Once created, you can drag your context store component onto Client Context to render data from a session store. Context store components consist of the following items:</p> 
+  <ul> 
+   <li>JSP script for rendering the data.</li> 
+   <li>An edit dialog.</li> 
+   <li>A JSP script for initializing the session store.</li> 
+   <li>(Optional) A client library folder that creates the session store. There is no need to include the client library folder if the component uses an existing session store.</li> 
+  </ul> 
+  <h4>Extending the Provided Context Store Components</h4> 
+  <p>AEM provides the genericstore and the genericstoreproperties context store components that you can extend. The structure of your store data determines the component that you extend:</p> 
+  <ul> 
+   <li>Property-value pairs: Extend the <span class="code">GenericStoreProperties</span> component. This component automatically renders stores of property-value pairs. Several interaction points are supplied: 
+    <ul> 
+     <li><span class="code">prolog.jsp</span> and <span class="code">epilog.jsp</span>: component interaction that allows you to add server side logic before or after the component rendering.</li> 
+    </ul> </li> 
+   <li>Complex data: Extend the <span class="code">GenericStore</span> component. Your session store will then need a "renderer" method that will be called every time the component needs to be rendered. The renderer function is called with two parameters: 
+    <ul> 
+     <li><span class="code">@param {String} store</span><br /> The store to render</li> 
+     <li><span class="code">@param {String} divId</span><br /> Id of the div into which the store has to be rendered.</li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>All Client Context components are extensions of either the Generic Store or Generic Store Properties components. Several examples are installed in the <span class="code">/libs/cq/personalization/components/contextstores</span> folder.</p> 
+  </note> 
+  <h4>Configuring the Appearance in Sidekick</h4> 
+  <p>When editing Client Context, context store components appear in Sidekick. As with all components, the <span class="code">componentGroup</span> and <span class="code">jcr:title</span> properties of the client context component determine the group and name of the component.</p> 
+  <p>All components that have a <span class="code">componentGroup</span> property value of <span class="code">Client Context</span> appear in Sidekick by default. If you use a different value for the <span class="code">componentGroup</span> property, you must manually add the component to Sidekick using Design mode. </p> 
+  <h4>Context Store Component Instances</h4> 
+  <p>When you add a context store component to Client Context, a node that represents the component instance is created below <span class="code">/etc/clientcontext/default/content/jcr:content/stores</span>. This node contains the property values that are configured using the edit dialog of the component.</p> 
+  <p>When Client Context is initialized, these nodes are processed.</p> 
+  <h4>Initializing the Associated Session Store</h4> 
+  <p>Add an init.js.jsp file to your component to generate javascript code that initializes the session store that your context store component uses. For example, use the intialization script to retrieve configuration properties for the component and use them to populate the session store.</p> 
+  <p>The javascript that is generated is added to the page when Client Context is initialized on page load on both the author and publish instances. This JSP is executed before the context store component instance is loaded and rendered. </p> 
+  <p>The code must set the mime type of the file to <span class="code">text/javascript</span>, or it is not executed.</p> 
+  <note> 
+   <p>The init.js.jsp script is executed on the author and publish instance, but only if the context store component is added to Client Context.</p> 
+  </note> 
+  <p>The following procedure creates the init.js.jsp script file and adds the code that sets the correct mime type. The code that performs the store initialization would follow.</p> 
+  <ol> 
+   <li><p>Right-click the context store component node and click Create &amp;gt; Create File.</p> </li> 
+   <li><p>In the Name field, type<span class="code"> init.js.jsp</span> and then click OK.</p> </li> 
+   <li><p>At the top of the page, add the following code and then click Save All.</p> 
+    <codeblock class="syntax java">
+      &lt;%@page&amp;nbsp;contentType="text/javascript"&amp;nbsp;%&gt; 
+    </codeblock></li> 
+  </ol> 
+  <h3>Rendering Session Store Data for genericstoreproperties Components</h3> 
+  <p>Display session store data in Client Context using a consistent format.</p> 
+  <h4>Displaying Property Data</h4> 
+  <p>The personalization taglib provides the <span class="code">personalization:storePropertyTag</span> tag that displays the value of a property from a session store. To use the tag, include the following line of code in your JSP file:</p> 
+  <codeblock class="syntax xml">
+    &lt;%@taglib&amp;nbsp;prefix="personalization"&amp;nbsp;uri="http://www.day.com/taglibs/cq/personalization/1.0"&amp;nbsp;%&gt; 
+  </codeblock> 
+  <p>The tag has the following format:</p> 
+  <codeblock class="syntax xml">
+    &lt;personalization:storePropertyTag&amp;nbsp;propertyName="property_name"&amp;nbsp;store="session_store_name"/&gt; 
+  </codeblock> 
+  <p>The <span class="code">propertyName</span> attribute is the name of the store property to display. The <span class="code">store</span> attribute is the name of the registered store. The following example tag displays the value of the <span class="code">authorizableId</span> property of the <span class="code">profile</span> store:</p> 
+  <codeblock class="syntax xml">
+    &lt;personalization:storePropertyTag&amp;nbsp;propertyName="authorizableId"&amp;nbsp;store="profile"/&gt; 
+  </codeblock> 
+  <h4>HTML Structure</h4> 
+  <p>The personalization.ui client library folder (/etc/clientlibs/foundation/personalization/ui/themes/default) provides the CSS styles that Client Context uses to format the HTML code. The following code illustrates the suggested structure to use for displaying store data:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;div&amp;nbsp;class="cq-cc-store"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-thumbnail"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-store-property"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;personalization:storePropertyTag&amp;nbsp;for&amp;nbsp;the&amp;nbsp;store&amp;nbsp;thumbnail&amp;nbsp;image&amp;nbsp;goes&amp;nbsp;here&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-content"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-store-property&amp;nbsp;cq-cc-store-property-level0"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;personalization:storePropertyTag&amp;nbsp;for&amp;nbsp;a&amp;nbsp;store&amp;nbsp;property&amp;nbsp;goes&amp;nbsp;here&amp;nbsp;--&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-store-property&amp;nbsp;cq-cc-store-property-level1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;personalization:storePropertyTag&amp;nbsp;for&amp;nbsp;a&amp;nbsp;store&amp;nbsp;property&amp;nbsp;goes&amp;nbsp;here&amp;nbsp;--&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-store-property&amp;nbsp;cq-cc-store-property-level2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;personalization:storePropertyTag&amp;nbsp;for&amp;nbsp;a&amp;nbsp;store&amp;nbsp;property&amp;nbsp;goes&amp;nbsp;here&amp;nbsp;--&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-store-property&amp;nbsp;cq-cc-store-property-level3"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;personalization:storePropertyTag&amp;nbsp;for&amp;nbsp;a&amp;nbsp;store&amp;nbsp;property&amp;nbsp;goes&amp;nbsp;here&amp;nbsp;--&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-clear"&gt;&lt;/div&gt;!!discoiqbr!!&lt;/div&gt; 
+  </codeblock> 
+  <p>The <span class="code">/libs/cq/personalization/components/contextstores/profiledata</span> context store component uses this structure to display data from the profile session store. The <span class="code">cq-cc-thumbnail</span> class places the thumbnail image. The <span class="code">cq-cc-store-property-level<i>x</i></span> classes format the alphanumeric data:</p> 
+  <ul> 
+   <li>level0, level1, and level2 are distributed vertically, and use a white font.</li> 
+   <li>level3, and any additional levels, are distributed horizontally, and use a white font with a darker background. </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-240.png" /> 
+  <h3>Rendering Session Store Data for genericstore Components</h3> 
+  <p>To render store data using a genericstore component, you need to:</p> 
+  <ul> 
+   <li>Add the personalization:storeRendererTag tag to the component JSP script to identify the name of the session store.</li> 
+   <li>Implement a renderer method on the session store class.</li> 
+  </ul> 
+  <h4>Identifying the genericstore Session Store</h4> 
+  <p>The personalization taglib provides the <span class="code">personalization:storePropertyTag</span> tag that displays the value of a property from a session store. To use the tag, include the following line of code in your JSP file:</p> 
+  <codeblock class="syntax xml">
+    &lt;%@taglib&amp;nbsp;prefix="personalization"&amp;nbsp;uri="http://www.day.com/taglibs/cq/personalization/1.0"&amp;nbsp;%&gt; 
+  </codeblock> 
+  <p>The tag has the following format:</p> 
+  <codeblock class="syntax java">
+    &lt;personalization:storeRendererTag&amp;nbsp;store="store_name"/&gt; 
+  </codeblock> 
+  <h4>Implementing the Session Store renderer Method</h4> 
+  <draft-comment color="yellow" lastModifiedBy="sbroders@adobe.com" lastModifiedDate="2018-01-18T11:18:25.819-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>Information remains in the minds of the developers. This section needs more info!</p> 
+  </draft-comment> 
+  <p>Your session store will then need a "renderer" method that will be called every time the component needs to be rendered. The renderer function is called with two parameters:</p> 
+  <ul> 
+   <li>@param {String} store<br /> The store to render</li> 
+   <li>@param {String} divId<br /> Id of the div into which the store has to be rendered.</li> 
+  </ul> 
+  <h2>Interacting with Session Stores</h2> 
+  <p>Use javascript to interact with session stores.</p> 
+  <h3>Accessing Session Stores</h3> 
+  <p>Obtain a session store object to read or write data to the store. <a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-44">CQ_Analytics.ClientContextMgr</a> provides access to stores based on the store name. Once obtained, use the methods of the <a href="../../../sites/developing/using/ccjsapi.md#main-pars-title">CQ_Analytics.SessionStore</a> or <a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-1">CQ_Analytics.PersistedSessionStore</a> to interact with store data.</p> 
+  <p>The following example obtains the <span class="code">profile</span> store and then retrieves the <span class="code">formattedName</span> property from the store.</p> 
+  <codeblock class="syntax js">
+    function&amp;nbsp;getName(){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;profilestore&amp;nbsp;=&amp;nbsp;CQ_Analytics.ClientContextMgr.getRegisteredStore("profile");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;if(profilestore){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;profilestore.getProperty("formattedName",&amp;nbsp;false);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;null;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}&amp;nbsp; 
+  </codeblock> 
+  <h3>Creating a Listener to react to a Session Store Update</h3> 
+  <p>Session stores fire events, so it is possible to add listeners and trigger events based on these events.</p> 
+  <p>The session stores are built on the <span class="code">Observable</span> pattern. They extend <a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-62"><span class="code">CQ_Analytics.Observable</span></a> that provides the <span class="code"><a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-67">addListener</a></span> method.</p> 
+  <p>The following example adds a listener to the <span class="code">update</span> event of the <span class="code">profile</span> session store.</p> 
+  <codeblock gutter="true" class="syntax js">
+    var&amp;nbsp;profileStore&amp;nbsp;=&amp;nbsp;ClientContextMgr.getRegisteredStore("profile");!!discoiqbr!!if(&amp;nbsp;profileStore&amp;nbsp;)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;//callback&amp;nbsp;execution&amp;nbsp;context!!discoiqbr!!&amp;nbsp;&amp;nbsp;var&amp;nbsp;executionContext&amp;nbsp;=&amp;nbsp;this;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;//add&amp;nbsp;"update"&amp;nbsp;event&amp;nbsp;listener&amp;nbsp;to&amp;nbsp;store!!discoiqbr!!&amp;nbsp;&amp;nbsp;profileStore.addListener("update",function(store,&amp;nbsp;property)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//do&amp;nbsp;something&amp;nbsp;on&amp;nbsp;store&amp;nbsp;update!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;},executionContext);!!discoiqbr!!} 
+  </codeblock> 
+  <h3>Checking that a Session Store is defined and initialized</h3> 
+  <p>Session stores are not available until they are loaded and initialized with data. The following factors can affect the timing of session store availability:</p> 
+  <ul> 
+   <li>Page loading</li> 
+   <li>JavaScript loading</li> 
+   <li>JavaScript execution time</li> 
+   <li>Response times for XHR requests</li> 
+   <li>Dynamic changes to the session store</li> 
+  </ul> 
+  <p>Use the <a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-69">CQ_Analytics.ClientContextUtils</a> object's <a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-64">onStoreRegistered</a> and <a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-63">onStoreInitialized</a> methods to access session stores only when they are available. These methods enable you to register event listeners that react to session registration and initialization events.</p> 
+  <note> 
+   <p>If you depend on another store, you need to cater for the case of when the store is never registered.</p> 
+  </note> 
+  <p>The following example uses the <span class="code">onStoreRegistered</span> event of the <span class="code">profile</span> session store. When the store is registered, a listener is added to the <span class="code">update</span> event of the session store. When the store is updated, the content of the <span class="code">&amp;lt;div class="welcome"&amp;gt;</span> element on the page is updated with the name from the <span class="code">profile</span> store.</p> 
+  <codeblock class="syntax js">
+    //listen&amp;nbsp;for&amp;nbsp;the&amp;nbsp;store&amp;nbsp;registration!!discoiqbr!!CQ_Analytics.ClientContextUtils.onStoreRegistered("profile",&amp;nbsp;listen);!!discoiqbr!!!!discoiqbr!!//listen&amp;nbsp;for&amp;nbsp;the&amp;nbsp;store's&amp;nbsp;update&amp;nbsp;event!!discoiqbr!!function&amp;nbsp;listen(){!!discoiqbr!!&amp;nbsp;var&amp;nbsp;profilestore&amp;nbsp;=&amp;nbsp;CQ_Analytics.ClientContextMgr.getRegisteredStore("profile");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;profilestore.addListener("update",insertName);!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!//insert&amp;nbsp;the&amp;nbsp;welcome&amp;nbsp;message!!discoiqbr!!function&amp;nbsp;insertName(){!!discoiqbr!!&amp;nbsp;$("div.welcome").text("Welcome&amp;nbsp;"+getName());!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!//obtain&amp;nbsp;the&amp;nbsp;name&amp;nbsp;from&amp;nbsp;the&amp;nbsp;profile&amp;nbsp;store!!discoiqbr!!function&amp;nbsp;getName(){!!discoiqbr!!&amp;nbsp;var&amp;nbsp;profilestore&amp;nbsp;=&amp;nbsp;CQ_Analytics.ClientContextMgr.getRegisteredStore("profile");!!discoiqbr!!&amp;nbsp;if(profilestore){!!discoiqbr!!&amp;nbsp;&amp;nbsp;return&amp;nbsp;profilestore.getProperty("formattedName",&amp;nbsp;false);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;null;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <h3>Excluding a Property from the sessionpersistence Cookie</h3> 
+  <p>To prevent a property of a <span class="code">PersistedSessionStore</span> from being persisted (i.e. exclude it from the <span class="code">sessionpersistence</span> cookie), add the property to the non-persisted property list of the persisted session store.</p> 
+  <p>See <span class="code"><a href="../../../sites/developing/using/ccjsapi.md#main-pars-title-2">CQ_Analytics.PersistedSessionStore.setNonPersisted(propertyName)</a></span></p> 
+  <codeblock gutter="true" class="syntax js">
+    CQ_Analytics.ClientContextUtils.onStoreRegistered("surferinfo",&amp;nbsp;function(store)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;//this&amp;nbsp;will&amp;nbsp;exclude&amp;nbsp;the&amp;nbsp;browser,&amp;nbsp;OS&amp;nbsp;and&amp;nbsp;resolution&amp;nbsp;properties&amp;nbsp;of&amp;nbsp;the&amp;nbsp;surferinfo&amp;nbsp;session&amp;nbsp;store&amp;nbsp;from&amp;nbsp;the&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;store.setNonPersisted("browser");!!discoiqbr!!&amp;nbsp;&amp;nbsp;store.setNonPersisted("OS");!!discoiqbr!!&amp;nbsp;&amp;nbsp;store.setNonPersisted("resolution");!!discoiqbr!!}); 
+  </codeblock> 
+  <h2>Configuring the Device Slider</h2> 
+  <h4>Conditions</h4> 
+  <p>The current page must have a corresponding mobile page; this is determined only if page has a LiveCopy configured with a mobile rollout configuration (<span class="code">rolloutconfig.path.toLowerCase</span> contains <span class="code">mobile</span>).</p> 
+  <h4>Configuration</h4> 
+  <p>When switching from the desktop page to its mobile equivalent:</p> 
+  <ul> 
+   <li>The DOM of the mobile page is loaded.</li> 
+   <li>The main <span class="code">div</span> (required) that contains the content, is extracted and injected into the current desktop page.<br /> </li> 
+   <li>The CSS and body classes that need to be loaded need to be manually configured.</li> 
+  </ul> 
+  <p>For example:<br /> </p> 
+  <codeblock gutter="true" class="syntax js">
+    window.CQMobileSlider["geometrixx-outdoors"]&amp;nbsp;=&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;//CSS&amp;nbsp;used&amp;nbsp;by&amp;nbsp;desktop&amp;nbsp;that&amp;nbsp;need&amp;nbsp;to&amp;nbsp;be&amp;nbsp;removed&amp;nbsp;when&amp;nbsp;mobile!!discoiqbr!!&amp;nbsp;&amp;nbsp;DESKTOP_CSS:&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"/etc/designs/${app}/clientlibs_desktop_v1.css"!!discoiqbr!!&amp;nbsp;&amp;nbsp;],!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;//CSS&amp;nbsp;used&amp;nbsp;by&amp;nbsp;mobile&amp;nbsp;that&amp;nbsp;need&amp;nbsp;to&amp;nbsp;be&amp;nbsp;removed&amp;nbsp;when&amp;nbsp;desktop!!discoiqbr!!&amp;nbsp;&amp;nbsp;MOBILE_CSS:&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"/etc/designs/${app}/clientlibs_mobile_v1.css"!!discoiqbr!!&amp;nbsp;&amp;nbsp;],!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;//id&amp;nbsp;of&amp;nbsp;the&amp;nbsp;content&amp;nbsp;that&amp;nbsp;needs&amp;nbsp;to&amp;nbsp;be&amp;nbsp;removed&amp;nbsp;when&amp;nbsp;mobile!!discoiqbr!!&amp;nbsp;&amp;nbsp;DESKTOP_MAIN_ID:&amp;nbsp;"main",!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;//id&amp;nbsp;of&amp;nbsp;the&amp;nbsp;content&amp;nbsp;that&amp;nbsp;needs&amp;nbsp;to&amp;nbsp;be&amp;nbsp;removed&amp;nbsp;when&amp;nbsp;desktop!!discoiqbr!!&amp;nbsp;&amp;nbsp;MOBILE_MAIN_ID:&amp;nbsp;"main",!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;//body&amp;nbsp;classes&amp;nbsp;used&amp;nbsp;by&amp;nbsp;desktop&amp;nbsp;that&amp;nbsp;need&amp;nbsp;to&amp;nbsp;be&amp;nbsp;removed&amp;nbsp;when&amp;nbsp;mobile!!discoiqbr!!&amp;nbsp;&amp;nbsp;DESKTOP_BODY_CLASS:&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"page"!!discoiqbr!!&amp;nbsp;&amp;nbsp;],!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;//body&amp;nbsp;classes&amp;nbsp;used&amp;nbsp;by&amp;nbsp;mobile&amp;nbsp;that&amp;nbsp;need&amp;nbsp;to&amp;nbsp;be&amp;nbsp;removed&amp;nbsp;when&amp;nbsp;desktop!!discoiqbr!!&amp;nbsp;&amp;nbsp;MOBILE_BODY_CLASS:&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"page-mobile"!!discoiqbr!!&amp;nbsp;&amp;nbsp;]!!discoiqbr!!}; 
+  </codeblock> 
+  <h2>Example: Creating a Custom Context Store Component</h2> 
+  <p>In this example, you create a context store component that retrieves data from an external service and stores it in the session store:</p> 
+  <ul> 
+   <li>Extends the genericstoreproperties component.</li> 
+   <li>Initializes a store using a CQ_Analytics.JSONPStore javascript object.</li> 
+   <li>Calls a JSONP service to retrieve data and add it to the store.</li> 
+   <li>Renders the data in Client Context.</li> 
+  </ul> 
+  <h3>Add the geoloc Component</h3> 
+  <p>Create a CQ application and add the geoloc component.</p> 
+  <ol> 
+   <li><p>Open CRXDE Lite in your web browser (<a href="http://localhost:4502/crx/de">http://localhost:4502/crx/de</a>).</p> </li> 
+   <li><p>Right-click the <span class="code">/apps</span> folder and click Create &amp;gt; Create Folder. Specify a name of <span class="code">myapp</span> and then click OK.</p> </li> 
+   <li><p>Similarly, below <span class="code">myapp</span>, create a folder named <span class="code">contextstores</span>.<span class="code"></span></p> </li> 
+   <li><p>Right-click the <span class="code">/apps/myapp/contextstores</span> folder and click Create &amp;gt; Create Component. Specify the following property values and click Next:</p> 
+    <ul> 
+     <li>Label: geoloc</li> 
+     <li>Title: Location Store</li> 
+     <li>Super Type: cq/personalization/components/contextstores/genericstoreproperties</li> 
+     <li>Group: Client Context</li> 
+    </ul> </li> 
+   <li><p>In the Create Component dialog, click Next on each page until the OK button is enabled, and then click OK.</p> </li> 
+   <li><p>Click Save All.</p> </li> 
+  </ol> 
+  <h3>Create the geoloc Edit Dialog</h3> 
+  <p>The context store component requires an edit dialog. The geoloc edit dialog will contain a static message that indicates that there are no properties to configure.</p> 
+  <ol> 
+   <li><p>Right-click the <span class="code">/libs/cq/personalization/components/contextstores/genericstoreproperties/dialog</span> node and click Copy.</p> </li> 
+   <li><p>Right-click the <span class="code">/apps/myapp/contextstores/geoloc</span> node and click paste.</p> </li> 
+   <li><p>Delete all of the child nodes below the /apps/myapp/contextstores/geoloc/dialog/items/items/tab1/items node:</p> 
+    <ul> 
+     <li>store</li> 
+     <li>properties</li> 
+     <li>thumbnail</li> 
+    </ul> </li> 
+   <li><p>Right-click the <span class="code">/apps/myapp/contextstores/geoloc/dialog/items/items/tab1/items</span> node and click Create &amp;gt; Create Node. Specify the following property values and click OK:</p> 
+    <ul> 
+     <li>Name: static</li> 
+     <li>Type: cq:Widget</li> 
+    </ul> </li> 
+   <li><p>Add the following properties to the node:</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Name</th> 
+       <th>Type</th> 
+       <th>Value</th> 
+      </tr> 
+      <tr> 
+       <td>cls</td> 
+       <td>String</td> 
+       <td>x-form-fieldset-description</td> 
+      </tr> 
+      <tr> 
+       <td>text</td> 
+       <td>String</td> 
+       <td>The geoloc component requires no configuration.</td> 
+      </tr> 
+      <tr> 
+       <td>xtype</td> 
+       <td>String</td> 
+       <td>static</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li><p>Click Save All.</p> <img imageRotate="0" src="assets/chlimage_1-241.png" /></li> 
+  </ol> 
+  <h3>Create the Initialization Script</h3> 
+  <p>Add an init.js.jsp file to the geoloc component and use it to create the session store, retrieve the location data, and add it to the store.</p> 
+  <p>The init.js.jsp file is executed when the Client Context is loaded by the page. By this time, the Client Context javascript API is loaded and available to your script.</p> 
+  <ol> 
+   <li><p>Right-click the /apps/myapp/contextstores/geoloc node and click Create &amp;gt; Create File. Specify a Name of init.js.jsp and click OK.</p> </li> 
+   <li><p>Add the following code to the top of the page and then click Save All.</p> 
+    <codeblock gutter="true" class="syntax java">
+      &lt;%@page&amp;nbsp;contentType="text/javascript;charset=utf-8"&amp;nbsp;%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!log.info("*****&amp;nbsp;initializing&amp;nbsp;geolocstore&amp;nbsp;****");!!discoiqbr!!String&amp;nbsp;store&amp;nbsp;=&amp;nbsp;"locstore";!!discoiqbr!!String&amp;nbsp;jsonpurl&amp;nbsp;=&amp;nbsp;"http://api.wipmania.com/jsonp?callback=${callback}";!!discoiqbr!!!!discoiqbr!!%&gt;!!discoiqbr!!var&amp;nbsp;locstore&amp;nbsp;=&amp;nbsp;CQ_Analytics.StoreRegistry.getStore("&lt;%=&amp;nbsp;store&amp;nbsp;%&gt;");!!discoiqbr!!if(!locstore){!!discoiqbr!!&amp;nbsp;locstore&amp;nbsp;=&amp;nbsp;CQ_Analytics.JSONPStore.registerNewInstance("&lt;%=&amp;nbsp;store&amp;nbsp;%&gt;",&amp;nbsp;"&lt;%=&amp;nbsp;jsonpurl&amp;nbsp;%&gt;",{});!!discoiqbr!!}!!discoiqbr!!&lt;%&amp;nbsp;log.info("&amp;nbsp;*****&amp;nbsp;done&amp;nbsp;initializing&amp;nbsp;geoloc&amp;nbsp;************");&amp;nbsp;%&gt; 
+    </codeblock></li> 
+  </ol> 
+  <h3>Render the geoloc Session Store Data</h3> 
+  <p>Add the code to the JSP file of the geoloc component to render the store data in Client Context.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-242.png" /> 
+  <ol> 
+   <li><p>In CRXDE Lite, open the <span class="code">/apps/myapp/contextstores/geoloc/geoloc.jsp</span> file.</p> </li> 
+   <li><p>Add the following HTML code below the stub code:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%@taglib&amp;nbsp;prefix="personalization"&amp;nbsp;uri="http://www.day.com/taglibs/cq/personalization/1.0"&amp;nbsp;%&gt;!!discoiqbr!!&lt;div&amp;nbsp;class="cq-cc-store"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-content"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-store-property&amp;nbsp;cq-cc-store-property-level0"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Continent:&amp;nbsp;&lt;personalization:storePropertyTag&amp;nbsp;propertyName="address/continent"&amp;nbsp;store="locstore"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-store-property&amp;nbsp;cq-cc-store-property-level1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Country:&amp;nbsp;&lt;personalization:storePropertyTag&amp;nbsp;propertyName="address/country"&amp;nbsp;store="locstore"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-store-property&amp;nbsp;cq-cc-store-property-level2"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;City:&amp;nbsp;&lt;personalization:storePropertyTag&amp;nbsp;propertyName="address/city"&amp;nbsp;store="locstore"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-store-property&amp;nbsp;cq-cc-store-property-level3"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Latitude:&amp;nbsp;&lt;personalization:storePropertyTag&amp;nbsp;propertyName="latitude"&amp;nbsp;store="locstore"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-store-property&amp;nbsp;cq-cc-store-property-level4"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Longitude:&amp;nbsp;&lt;personalization:storePropertyTag&amp;nbsp;propertyName="longitude"&amp;nbsp;store="locstore"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cq-cc-clear"&gt;&lt;/div&gt;!!discoiqbr!!&lt;/div&gt; 
+    </codeblock></li> 
+   <li><p>Click Save All.</p> </li> 
+  </ol> 
+  <h3>Add the Component to Client Context</h3> 
+  <p>Add the Location Store component to Client Context so that it is initialized when the page loads.</p> 
+  <ol> 
+   <li><p>Open the Geometrixx Outdoors home page on the author instance (<a href="http://localhost:4502/content/geometrixx-outdoors/en.html">http://localhost:4502/content/geometrixx-outdoors/en.html</a>).</p> </li> 
+   <li><p>Click Ctrl-Alt-c (windows) or control-option-c (Mac) to open Client Context.</p> </li> 
+   <li><p>Click the edit icon at the top of Client Context to open Client Context Designer.</p> <img imageRotate="0" src="assets/chlimage_1-243.png" /></li> 
+   <li><p>Drag the Location Store component to Client Context.</p> </li> 
+  </ol> 
+  <h3>See the Location Information in Client Context</h3> 
+  <p>Open the Geometrixx Outdoors home page in edit mode and then open Client Context to see the data from the Location Store component.</p> 
+  <ol> 
+   <li><p>Open the English page of the Geometrixx Outdoors site. (<a href="http://localhost:4502/content/geometrixx-outdoors/en.html">http://localhost:4502/content/geometrixx-outdoors/en.html</a>)</p> </li> 
+   <li><p>To open Client Context, press Ctrl-Alt-c (windows) or control-option-c (Mac).</p> </li> 
+  </ol> 
+  <h2>Creating a Customized Client Context</h2> 
+  <p>To create a second client context you need to duplicate the branch:</p> 
+  <p><span class="code"> /etc/clientcontext/default</span></p> 
+  <ul> 
+   <li>The subfolder:<br /> <span class="code"> /content</span><br /> will contain the content of the customized client context.</li> 
+   <li>The folder:<br /> <span class="code">/contextstores</span><br /> allows you to define different configurations for the context stores.</li> 
+  </ul> 
+  <p>To use your customized client context, edit the property<br /> <span class="code">path</span><br /> in the design style of the client context component, as included in the page template. For example, as the standard location of:<br /> <span class="code"> /libs/cq/personalization/components/clientcontext/design_dialog/items/path</span> </p> 
+ </body> 
+</html>

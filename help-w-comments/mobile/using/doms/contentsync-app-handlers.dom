@@ -1,0 +1,179 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-05-04T05:12:41.062-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-05-04T05:12:40.837-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/developing-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/developing-adobe-phonegap-enterprise" name="moreHelpPaths" /> 
+  <meta content="Out of the Box App Handlers" name="jcr:title" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Out of the Box App Handlers" name="seoTitle" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:developing-adobe-phonegap-enterprise" name="cq:tags" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-apps/developing-in-phonegap/contentsync/out-of-the-box-app-handlers" name="qaNotes" /> 
+  <meta content="2018-05-11T10:01:25.969-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="ab57af42-55f2-426c-8009-04a9703ae492" name="jcr:uuid" /> 
+  <meta content="2017-12-13T19:01:27.760-0500" name="jcr:created" /> 
+  <meta content="Follow this page to learn about the out-of-the-box handlers for Adobe PhoneGap Enterprise with AEM." name="seoDescription" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2018-05-04T05:12:40.837-0400" name="publishExternalDate" /> 
+  <meta content="2018-05-11T10:01:25.969-0400" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="2017-10-31T16:26:31.666-0400" name="firstPublishExternalDate" /> 
+  <meta content="c24efea9-bd3c-46e3-b06d-60b658b29f9a" name="jcr:predecessors" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/contentsync-app-handlers.html" name="publishExternalURL" /> 
+  <meta content="2018-05-04T05:12:40.837-0400" name="lastPublishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>See the following guidelines for developing Content Sync Handlers:</p> 
+  <ul> 
+   <li>Handlers must implement <i>com.day.cq.contentsync.handler.ContentUpdateHandler</i> (either directly or extending a class that does)</li> 
+   <li>Handlers can extend <i>com.adobe.cq.mobile.platform.impl.contentsync.handler.AbstractSlingResourceUpdateHandler</i></li> 
+   <li>Handler must only report true if they updated the ContentSync cache. Falsely reporting true will allow AEM create an update.</li> 
+   <li>Handler should only update the cache if the content actually changed. Do not write to the cache if a white is not necessary and avoid an unnecessary update creation.</li> 
+  </ul> 
+  <h3>Out of the Box Handlers</h3> 
+  <p>The following lists out-of-the-box app handlers:</p> 
+  <p><strong>mobileapppages</strong> Renders app pages.</p> 
+  <ul> 
+   <li><strong><i>type - String</i></strong> - mobileapppages</li> 
+   <li><strong><i>path - String</i></strong> - path to a page</li> 
+   <li><strong><i>extension - String</i></strong> - Extension that should be used in the request. For pages this is almost always <i>html</i>, but others are still possible.</li> 
+   <li><strong><i>selector - String</i></strong> - Optional selectors separated by dot. Common examples are <i>touch</i> for rendering mobile versions of a page.</li> 
+   <li><strong><i>deep - Boolean</i></strong> - Optional boolean property determining if child pages should be included, as well. The default value is <i>true.</i></li> 
+   <li><strong><i>includeImages - Boolean</i> - </strong>Optional boolean property determining if images should be included. The default value is <i>true</i>. 
+    <ul> 
+     <li>By default, only image components with a resource type of foundation/components/image are considered for inclusion.<br /> </li> 
+    </ul> </li> 
+   <li><strong><i>includeVideos - Boolean</i></strong> - Optional boolean property determine if videos should be include. The default value is <i>true</i>.</li> 
+   <li><strong><i>includeModifiedPagesOnly - Boolean</i> -</strong> If false or omitted render all pages and check updates in rendering. If true, base diffs on changes to a pages lastModified.</li> 
+   <li><strong><i>+</i> <i>rewrite (node)</i></strong><br /> <strong> <i>- relativeParentPath - String</i> </strong>- the path to write all other paths relative to.</li> 
+  </ul> 
+  <note> 
+   <p>The resource type of the image and video components that are affected by this handler is set by configuring the properties of the <i>com.adobe.cq.mobile.platform.impl.contentsync.handler</i>.<i>MobilePagesUpdateHandler OSGi service</i>.</p> 
+  </note> 
+  <p><strong>mobilepageassets</strong> Collects app page assets.</p> 
+  <p><strong>mobilecontentlisting</strong> Lists the content of the ContentSync zip. This is used by the client side js on device to do the initial file copy required for AEM apps.</p> 
+  <p>This handler should be added to any AEM Apps ContentSync Config.</p> 
+  <ul> 
+   <li><strong><i>type - String - mobilecontentlisting</i></strong></li> 
+   <li><strong><i>path</i></strong> - String - keep empty, must be present to be seen as a valid handler but path is inferred to be the current ContentSync cache. This value is ignored. </li> 
+   <li><strong><i>targetRootDirectory</i> -</strong> String - the prefix to add to paths as a target root for content update for this handler.</li> 
+   <li><strong><i>order - Long</i> -</strong> Order for ContentSync to excute this handler. This number should be set higher than all other handlers such as 100. It should be run after traditional content handlers.</li> 
+  </ul> 
+  <codeblock class="syntax xml">
+    {!!discoiqbr!!&amp;nbsp;&amp;nbsp;"files":&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"config.xml",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"res/screens/ios/screen-ipad-portrait-2x.png",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"res/screens/ios/screen-ipad-landscape.png",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"res/screens/ios/screen-iphone-portrait-2x.png",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"res/screens/ios/screen-iphone-landscape.png",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"res/screens/ios/screen-iphone-portrait.png",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"apps/weretail-app/components/splash-page/clientlibs.css",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"pge-content-packages.json"!!discoiqbr!!&amp;nbsp;&amp;nbsp;],!!discoiqbr!!&amp;nbsp;&amp;nbsp;"count":&amp;nbsp;382,!!discoiqbr!!&amp;nbsp;&amp;nbsp;"lastModified":&amp;nbsp;1422902754733!!discoiqbr!!} 
+  </codeblock> 
+  <p><strong>mobilecontentpackageslisting</strong> Lists the AEM content package in a given app as well as the serverURL to make update requests to. This is used the client side js on device to request content updates</p> 
+  <p>The handler should be used on AEM App Shell ContentSync Config (node with pge-type=app-instance)</p> 
+  <ul> 
+   <li><strong><i>type - String - mobilecontentpackageslisting</i></strong></li> 
+   <li><i><strong>path</strong> - <strong>String</strong></i> - Path to an app shell (node with pge-type=app-instance).</li> 
+   <li><strong><i>targetRootDirectory - String</i><strong> -</strong> </strong>the prefix to add to paths as a target root for content update for this handler.</li> 
+   <li><strong><i>order - Long</i> -</strong> Order for ContentSync to execute this handler. This number should be set higher than all other handlers such as 100. It should be run after traditional content handlers.</li> 
+  </ul> 
+  <note> 
+   <p>The following code block is not an exact implementation and should be used as a reference example:</p> 
+  </note> 
+  <codeblock class="syntax xml">
+    {!!discoiqbr!!&amp;nbsp;&amp;nbsp;"content":&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"en",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"title":&amp;nbsp;"We&amp;nbsp;Retail&amp;nbsp;Mobile&amp;nbsp;App&amp;nbsp;-&amp;nbsp;English",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"CONTENT",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"path":&amp;nbsp;"/content/phonegap/weretail-outdoors/en",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"updatePath":&amp;nbsp;"/content/phonegap/weretail/en/jcr:content/pge-app/app-config"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"shell",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"title":&amp;nbsp;"We&amp;nbsp;Retail&amp;nbsp;Mobile&amp;nbsp;App",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"INSTANCE",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"path":&amp;nbsp;"/content/phonegap/weretail-outdoors/shell",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"updatePath":&amp;nbsp;"/content/phonegap/weretail/shell/jcr:content/pge-app/app-config"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;],!!discoiqbr!!&amp;nbsp;&amp;nbsp;"serverURL":&amp;nbsp;"http://localhost:4503/"!!discoiqbr!!} 
+  </codeblock> 
+  <p><strong>widgetconfig</strong> Includes an updated config.xml that merges any edits made via the Command Center with a provided config.xml. If this handler is not included any app details that are changed via the Administration interface will not be included in the cache.</p> 
+  <p>This handler should be used on a AEM App Shell ContentSync config (node with pge-type=[app-instance]).</p> 
+  <ul> 
+   <li><strong><i>type - String</i> - </strong>widgetconfig</li> 
+   <li><i><strong>path</strong> - <strong>String</strong></i> - Path to any app shell child node (node with pge-type=[app-instance]).</li> 
+   <li><strong><i>targetRootDirectory - String</i><strong> -</strong> </strong>the prefix to add to paths as a target root for content update for this handler.</li> 
+   <li><strong><i>targetIconDirectory - String</i><strong> - </strong></strong>the directory to place the icons for the app</li> 
+  </ul> 
+  <p><strong>mobileADBMobileConfigJSON</strong> Include the ADBMobileConfig.JSON file if the AMS cloudservice was configured.</p> 
+  <p>This is used at compile time to configure the AMS plugin for analytic support.</p> 
+  <p>The handler should be used on AEM App Shell ContentSync Config (node with pge-type=app-instance)</p> 
+  <ul> 
+   <li><strong><i>type - String </i>- </strong>mobileADBMobileConfigJSON</li> 
+   <li><i><strong>path</strong> - <strong>String</strong></i> - Path to an app shell (node with pge-type=app-instance or a RT that extends /libs/mobileapps/core/components/instance)</li> 
+   <li><strong><i>targetRootDirectory - String</i><strong> -</strong> </strong>the prefix to add to paths as a target root for content update for this handler</li> 
+  </ul> 
+  <p><strong>notificationsconfig</strong> Extracts notifications configurations required on device. The properties are extracted from the respective push service cloud  service configuration associated with the app.</p> 
+  <p>Non-AEM properties in the cloud service's jcr:content node are extracted and added to the <strong>pge-notifications-config.json</strong> JSON  file for inclusion in the app content's www root.</p> 
+  <p>AEM properties are those that are name-spaced with "cq", "sling" or "jcr". Other properties  may be excluded using the "excludeProperties" property on the content-sync config node.</p> 
+  <ul> 
+   <li><strong><i>type - String</i> - </strong>notificationsconfig</li> 
+   <li><strong><i>excludeProperties - String[]</i></strong> - properties  to be excluded </li> 
+  </ul> 
+  <p><strong>contentsyncconfigcontent</strong> Collects content from an existing ContentSync config.</p> 
+  <ul> 
+   <li><strong><i>type - String</i> - </strong>contentsyncconfigcontent</li> 
+   <li><i><strong>path</strong> - <strong>String</strong> </i>- Path to one of: 
+    <ul> 
+     <li>another ContentSync config</li> 
+     <li>to a Content Package (will be use its phonegap-exportTemplate property to find its ContentSync config)</li> 
+     <li>to a Mobile Resource (app-content's will be found under that resource and, if those content packages have a pge-includeInBuild property which is true, the phonegap-exportTemplate will be used to find its ContentSync config) </li> 
+    </ul> </li> 
+   <li><strong><i>autoCreateFirstUpdateBeforeImport - Boolean</i></strong> - if true, create an initial <strong>update</strong> in the target config before importing if once does not exist already</li> 
+   <li><strong><i>autoFillBeforeImport - Boolean</i></strong> - if true, update/fill the target config before importing</li> 
+   <li><strong><i>configSuffix - String</i> - </strong>a string to append to the path indicated on the "phonegap-exportTemplate" property of app-content. This can be used to distinguish different export templates. For example, this property can be set to <strong>"-dev"</strong> to indicate that <i>"/../../../appconfig-dev"</i> should be used (as opposed to <i>"/../../../appconfig"</i>).</li> 
+  </ul> 
+  <p><strong>app-assets</strong> Includes all assets associated with an app instance. This handler will include any assets found under the specified path along with any assets referenced by an app instance's appAssetPath property.</p> 
+  <ul> 
+   <li><strong><i>type - String</i></strong> - app-assets<br /> </li> 
+   <li><i><strong>path</strong> - <strong>String</strong></i> - path to a location under an app instance where app assets are stored</li> 
+  </ul> 
+  <p><strong>mobileappoffers</strong> A new content sync handler has been introduced for the Personalization use case to render targeted content. The 'mobileappoffers' handler knows how to render the associated target offers that have been created by the content author. The mobileappoffers handler extends the abstract pages update handler therefore many of the properties are similar. The details of the mobileappoffers handler has the following properties.</p> 
+  <p>The mobileappsoffers handler exends the mobileappspages handler and adds the following properties:</p> 
+  <ul> 
+   <li><strong><i>locationRoot - String</i></strong> - specify the location of the mobile application</li> 
+   <li><strong><i>includePageTypes - String</i></strong> - defaults to support cq/personalization/components/teaserpage and cq/personalization/components/offerproxy</li> 
+   <li><strong><i>selector - String</i></strong> - should be set to tandt </li> 
+   <li><strong><i>path - String</i> </strong>- the path to the campaign's brand</li> 
+  </ul> 
+  <p><strong>mobileappconfig</strong> The mobileappconfig content sync handler provide a way to inject JSON data into the MobileAppsConfig.json. To register a provider class developers will add their MobileAppsInfoProvider class with the list of providers. The handler will iterate over the list of MobileAppsInfoProviders and allow the provider to inject data into the resulting json file. The list of properties which this handler supports are:</p> 
+  <ul> 
+   <li><i><strong>path</strong> - <strong>String</strong></i> - the path to an app instance node with pge-type=app-instance or a RT that extends /libs/mobileapps/core/components/instance</li> 
+   <li><strong><i>providers - String []</i></strong> - the list of fully qualified MobileAppsInfoProviders</li> 
+   <li><strong><i>targetRootDirectory - String</i></strong> - the directory where to write the MobileAppsConfig.json file to.</li> 
+   <li><strong>fileName - String</strong> - optional name of the file to write the JSON to, defaults to MobileAppsConfig.json</li> 
+  </ul> 
+  <p>It is possible to have multiple mobileappconfig handlers configured each with a unique set of providers writing to different JSON files.</p> 
+  <h3>Testing Content Sync Handlers</h3> 
+  <p><strong>Steps for Checking Integrity</strong> Clear cache</p> 
+  <ul> 
+   <li> </li> 
+   <li><p>Run your handler (cache updated)</p> </li> 
+   <li><p>Run your handler again (cache should not be updated)</p> </li> 
+  </ul> 
+  <p><strong>Steps for Debugging</strong></p> 
+  <ul> 
+   <li>Run your config</li> 
+   <li>Export your config or review on device</li> 
+   <li>If rendering fails check for missing <i>styles/assets/libs</i> or check for bad paths to <i>styles/assets/libs</i></li> 
+  </ul> 
+  <p><strong>Logging</strong> Enable ContentSync Debug logging via OSGI logger configurations on package `com.day.cq.contentsync` This will allow you to track what handlers ran and whether they updated the cache and reported updating the cache.</p> 
+  <h3>Additional Resources</h3> 
+  <p>To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/phonegap.md">Authoring for Adobe PhoneGap Enterprise with AEM</a></li> 
+   <li><a href="../../mobile/using/administer-phonegap.md">Administering Content for Adobe PhoneGap Enterprise with AEM</a></li> 
+  </ul> 
+  <note> 
+   <p>To get started with AEM Mobile app development, click <a href="../../mobile/using/getting-started-aem-mobile.md">here</a>.</p> 
+  </note> 
+ </body> 
+</html>

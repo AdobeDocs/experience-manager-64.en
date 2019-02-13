@@ -1,0 +1,106 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" />
+  <meta content="2018-10-27T23:43:34.343-0400" name="cq:lastReplicated" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="3c7d4111-cb4e-496d-9d4b-cedd277d321a" name="jcr:uuid" />
+  <meta content="Tagging of enablement resources allows for filtering of resources and learning paths as members browse catalogs" name="seoDescription" />
+  <meta content="2018-05-17T05:54:58.411-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-04-03T08:03:27.780-0400" name="lastPublishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-05-17T05:54:58.412-0400" name="cq:lastModified" />
+  <meta content="Janice Kendall" name="contentOwner" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Tagging Enablement Resources" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Tagging Enablement Resources" name="seoTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-04-03T08:03:27.780-0400" name="topicBrowsingSortDate" />
+  <meta content="Tagging Enablement Resources" name="navTitle" />
+  <meta content="2018-04-03T08:03:27.780-0400" name="publishExternalDate" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-10-31T16:33:16.066-0400" name="firstPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/content/docs/en/aem/6-3/administer/communities/tag-resources" name="qaNotes" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/tag-resources.html" name="publishExternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2017-12-01T19:01:32.909-0500" name="jcr:created" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="fa1baf91-1b35-4b8b-b0f5-6d107e17a5df" name="jcr:predecessors" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <h2>Overview</h2>
+  <p>Tagging of enablement resources allows for filtering of resources and learning paths as members browse <a href="../../communities/using/functions.md#catalogfunction">catalogs</a>.</p> 
+  <p>Essentially : </p> 
+  <ul> 
+   <li><a href="../../sites/administering/using/tags.md#creatinganamespace">create a tag namespace</a> for each catalog
+    <ul> 
+     <li><a href="../../sites/administering/using/tags.md#settingtagpermissions">set tag permissions</a>
+      <ul> 
+       <li>for community members only (closed community)
+        <ul> 
+         <li>allow read access for the <a href="../../communities/using/users.md#publishgrouproles">community site's member group</a></li> 
+        </ul> </li> 
+       <li>for any site visitor, whether signed-in or anonymous (open community)
+        <ul> 
+         <li>allow read access for the <span class="code">Everyone </span>group</li> 
+        </ul> </li> 
+      </ul> </li> 
+     <li><a href="../../sites/administering/using/tags.md#publishingtags">publish the tags</a></li> 
+    </ul> </li> 
+   <li><a href="../../communities/using/sites-console.md#tagging">define the scope of tags for a community site</a>
+    <ul> 
+     <li><a href="../../communities/using/functions.md#catalogfunction">configure catalogs that exist in the site's structure</a>
+      <ul> 
+       <li>can add tags to the catalog instance to control the list of tags presented in the UI filters</li> 
+       <li>can add <a href="../../communities/using/catalog-developer-essentials.md#prefilters">pre-filters</a>, to restrict a catalog's included resources</li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><a href="../../communities/using/sites-console.md#publishingthesite">publish the community site</a></li> 
+   <li><a href="../../communities/using/resources.md#createaresource">apply tags to enablement resources</a> so they may be categorically filtered</li> 
+   <li><a href="../../communities/using/resources.md#publish">publish the enablement resources</a></li> 
+  </ul> 
+  <h2>Community Site Tags</h2>
+  <p>When creating or editing a community site, the <a href="../../communities/using/sites-console.md#tagging">Tagging setting</a> sets the scope of tags available for features of the site by selecting a subset of existing tag namespaces.</p> 
+  <p>While tags may be created and added to the community site at any time, it is recommended to design a taxonomy beforehand, similar to designing a database. See <a href="../../sites/authoring/using/tags.md">Using Tags</a>. </p> 
+  <p>When later adding tags to an existing community site, it is necessary to save the edit before being able to add the new tag to a catalog function in the site's structure.</p> 
+  <p>For a community site, after the site is published and the tags are published, it is necessary to enable read access to members of the community. See <a href="../../sites/administering/using/tags.md#settingtagpermissions">Setting Tag Permissions</a>.</p> 
+  <p>The following is how it appears in CRXDE when an administrator applies read permissions to <span class="code">/etc/tags/ski-catalog</span> for the group <span class="code">Community Enable Members</span>.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-433.png" />
+  <h2>Catalog Tag Namespaces</h2>
+  <p>The catalog feature uses tags to define itself. When configuring the catalog function in a community site, the set of tag namespaces to choose from are defined by the scope of tag nmespaces set for the community site.</p> 
+  <p>The Catalog function includes a tag setting which defines the tags listed in the filter UI for the catalog. The setting "All Namespaces" refers to the scope of tag namespaces selected for the community site.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-434.png" />
+  <h2>Applying Tags to Enablement Resources</h2>
+  <p>Enablement resources and learning paths will appear in all catalog when <span class="code">Show in Catalog</span> is checked. Adding tags to resources and learning paths will allow for pre-filtering into specific catalogs as well as filtering in the catalog UI.</p> 
+  <p>Restricting enablement resources and learning paths to specific catalogs is accomplished by creating <a href="../../communities/using/catalog-developer-essentials.md#prefilters">pre-filters</a>.</p> 
+  <p>The catalog UI allows for visitors to apply a tag filter to the list of resources and learning paths that appear in that catalog.</p> 
+  <p>The administrator applying the tags to enablement resources must be aware of the tag namespaces associated with the catalogs, as well as the taxonomy in order to select a sub-tag for more refined categorization.</p> 
+  <p>For example, if a <span class="code">ski-catalog</span> namespace were created and set on a catalog named <span class="code">Ski Catalog</span>, it might have two child tags : <span class="code">lesson-1</span> and <span class="code">lesson-2</span>.</p> 
+  <p>Thus, any enablement resource tagged with one of :</p> 
+  <ul> 
+   <li>ski-catalog:</li> 
+   <li>ski-catalog:lesson-1</li> 
+   <li>ski-catalog:lesson-2</li> 
+  </ul> 
+  <p>will appear in <span class="code">Ski Catalog</span> after the enablement resource has been published.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-435.png" />
+  <h2>Viewing Catalog on Publish</h2>
+  <p>Once everything has been setup from the author environment and published, the experience of using the catalog to find enablement resources can be experienced in the publish environment.</p> 
+  <p>If no tag namespaces appear in the drop-down, ensure the permissions have been set properly in the publish environment.</p> 
+  <p>If tag namespaces were added and are missing, ensure the tags and the site were re-published.</p> 
+  <p>If no enablement resources appear after selecting a tag when viewing the catalog, ensure there is a tag from the catalog's namespace(s) applied to the enablement resource.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-436.png" />
+ </body>
+</html>

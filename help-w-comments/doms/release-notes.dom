@@ -1,0 +1,341 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Adobe Experience Manager 6.4 notes outlining the release information, what's new, how to install and detailed change lists. " name="seoDescription" />
+  <meta content="2018-10-22T15:23:06.426-0400" name="cq:lastModified" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/release-notes.html" name="publishExternalURL" />
+  <meta content="4346d376-0742-47a7-9d78-6eb1177fea72" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-10-27T23:44:11.541-0400" name="cq:lastReplicated" />
+  <meta content="General Release Notes for Adobe Experience Manager 6.4" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Release Notes" name="seoTitle" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/release_notes_krs_workflow_3f37e6b7b8c61945_47_report.xml" name="acrolinxReportURL" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/content/help/en/experience-manager/6-4/morehelp/release-notes;/content/help/en/experience-manager/6-4/morehelp/release-notes" name="moreHelpPaths" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="chuesler@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="f114460b-8f56-4441-808c-3e54b175eb7e" name="jcr:predecessors" />
+  <meta content="2506" name="acrolinxWords" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="2018-10-22T15:23:06.419-0400" name="lastPublishExternalDate" />
+  <meta content="185" name="acrolinxSentences" />
+  <meta content="Release Notes" name="navTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-07-31T06:14:33.784-0400" name="acrolinxDate" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="2017-10-31T16:38:00.490-0400" name="firstPublishExternalDate" />
+  <meta content="chuesler" name="cq:lastModifiedBy" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="2018-01-19T19:03:43.153-0500" name="jcr:created" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4;topic_tags:release-notes;content_type:reference" name="cq:tags" />
+  <meta content="2010-01-28T18:00:00.000-0500" name="onTime" />
+  <meta content="2018-04-19T16:44:14.620-0400" name="locHandOffDate" />
+  <meta content="2018-10-22T15:23:06.419-0400" name="publishExternalDate" />
+  <meta content="2018-10-22T15:23:06.419-0400" name="topicBrowsingSortDate" />
+ </head>
+ <body>
+  <h2>Release Information</h2>
+  <table border="1" cellpadding="1" cellspacing="0" width="781"> 
+   <tbody>
+    <tr>
+     <th>Product</th> 
+     <td>Adobe Experience Manager<br /> </td> 
+    </tr>
+    <tr>
+     <th>Version</th> 
+     <td>6.4</td> 
+    </tr>
+    <tr>
+     <th>Type</th> 
+     <td>Major Release</td> 
+    </tr>
+    <tr>
+     <th>General availability date</th> 
+     <td>April 4, 2018<br /> </td> 
+    </tr>
+    <tr>
+     <th>Recommended Updates</th> 
+     <td>See <a href="/content/help/en/experience-manager/aem-releases-updates">AEM Releases and Updates</a></td> 
+    </tr>
+    <tr>
+     <th>Feature Packs</th> 
+     <td>For a list of available Feature Packs visit <a href="release-notes/feature-packs-release-notes.md">AEM 6.4 Feature Packs</a></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h3>Trivia</h3>
+  <p>The release cycle for this version of Adobe Experience Manager started April 27, 2017, went through 22 iterations of quality assurance and bug fixing, and ended on March 22nd, 2018. The total number of customer related issues including enhancements and new features fixed in this release is 704.<br /> </p> 
+  <p>Adobe Experience Manager 6.4 is generally available since April 4, 2018.</p> 
+  <note>
+   <p>Adobe recommends to install the latest service pack as all the new feature packs are only delivered via <a href="https://helpx.adobe.com/experience-manager/maintenance-releases-roadmap.html">Service Packs</a>.</p> 
+  </note>
+  <h2>What's new</h2>
+  <p>Adobe Experience Manager 6.4 is an upgrade release to the Adobe Experience Manager 6.3 code base. It provides new and enhanced functionality, key customer fixes, high priority customer enhancements and general bug fixes oriented toward product stabilization. It also includes the majority of all Adobe Experience Manager 6.3 feature packs, hot fix, and service pack releases.</p> 
+  <p>The list below provides an overview - while the subsequent pages list the full details.<br /> </p> 
+  <h3>Experience Manager Foundation</h3>
+  <p>Full list of changes in <a href="release-notes/wcm-platform.md">AEM Foundation</a>.</p> 
+  <p>The platform of Adobe Experience Manager 6.4 build on top of updated versions of the OSGi-based framework (Apache Sling and Apache Felix) and the Java Content Repository: Apache Jackrabbit Oak 1.8.2.</p> 
+  <p>The Quickstart uses Eclipse Jetty 9.3.22 as servlet engine.</p> 
+  <h4>User Interface</h4>
+  <div>
+   Various enhancements have been made to the UI to make it more productive and easier to use.
+  </div> 
+  <ul> 
+   <li><a href="sites/authoring/using/basic-handling.md#main-pars-header">New Content Tree rail</a> to quickly navigate a hierarchy. In combination with the list view, this restores the Classic UI interaction model.</li> 
+   <li>Improved scrolling experience in card and list view of large folders. </li> 
+   <li><a href="sites/authoring/using/search.md">Improved interaction with the search results</a> - the back button restores the prior search result.</li> 
+   <li><a href="sites/authoring/using/keyboard-shortcuts.md">Additional keyboard shortcuts</a>, for most common actions, such as to open a particular rail, to edit, move and delete item, or to open properties.</li> 
+   <li><a href="sites/authoring/using/user-properties.md">Ability to disable keyboard shortcuts</a> (enable/disable in Preferences). </li> 
+   <li><a href="sites/authoring/using/user-properties.md">Stop showing time stamps across all UI</a> relative after 7 days (set default in Preferences).</li> 
+  </ul> 
+  <p>See the <a href="/sites/authoring/user-guide">Authoring documentation</a> for more information on these features.<br /> </p> 
+  <note>
+   <p>Adobe does not plan to make further enhancements to the Classic UI. AEM 6.4 has the Classic UI included, and customers upgrading from earlier releases can keep using it as is. Note that Classic UI remains fully supported while being deprecated. <a href="sites/deploying/using/ui-recommendations.md">Read more</a>.</p> 
+  </note>
+  <h4>Content Repository</h4>
+  <ul> 
+   <li>Faster and more efficient compaction by Online Revision Cleanup. Internal tests show that the new tail compaction is up to 10 times faster and can reclaim more disk space with less IOPS compared to AEM 6.3. This results in less performance impact while the Online Revision Cleanup is running. For more information, please see <a href="sites/deploying/using/revision-cleanup.md#fullandtailcompactionmodes">the documentation page</a>.<br /> </li> 
+   <li>Continuous Revision Cleanup for MongoMK replaces scheduled cleanup maintenance</li> 
+   <li>Improved efficiency for Revision Cleanup on Document Nodestores</li> 
+  </ul> 
+  <h4>Search &amp; Indexing</h4>
+  <ul> 
+   <li>Enhanced support for Indexing Operations via oak-run (CLI):
+    <ul> 
+     <li>Index consistency check</li> 
+     <li>Indexing statistics</li> 
+     <li>Index configuration Im/Export</li> 
+     <li>Reindexing</li> 
+    </ul> </li> 
+   <li>Reduced Lucene related repository growth for an overall improved system performance</li> 
+  </ul> 
+  <p>For more information, please visit <a href="sites/deploying/using/indexing-via-the-oak-run-jar.md">this documentation page</a>.<br /> </p> 
+  <h4>Monitoring</h4>
+  <ul> 
+   <li>A new <a href="sites/administering/using/operations-dashboard.md#systemoverview" target="_blank">System Overview</a> provides a snapshot view on all performance-related system status &amp; activities </li> 
+   <li>A new set of <a href="sites/administering/using/operations-dashboard.md#healthchecks" target="_blank">Health Checks</a> around Indexing, Queries and Maintenance</li> 
+  </ul> 
+  <h4>Projects and Workflows</h4>
+  <ul> 
+   <li>All-new <a href="sites/developing/using/workflows-models.md">Workflow Editor to create and edit workflow models</a>.<br /> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/screen_shot_2018-04-04at71143am.png" title="Touch UI Based Workflow Editor" />
+  <h4>Upgrade from earlier version</h4>
+  <ul> 
+   <li><a href="sites/deploying/using/backward-compatibility.md" target="_blank">Backward Compatibility</a>: Backward compatible features in 6.4, helps your custom code remain compatible in most cases and reduces upgrade effort.</li> 
+   <li><a href="sites/deploying/using/pattern-detector.md" target="_blank">Upgrade Complexity Assessment</a>: New Pattern Detector tool to assess the complexity of your upgrades, before you upgrade.</li> 
+   <li><a href="sites/deploying/using/repository-restructuring-in-aem64.md" target="_blank">Repository Restructuring</a>: significant restructuring (primarily /etc) to facilitate easier upgrades and promote implementation best practices</li> 
+   <li>For more general information regarding Upgrades, please see the <a href="sites/deploying/using/upgrade.md">this page</a> for more details.</li> 
+  </ul> 
+  <h3>Experience Manager Sites</h3>
+  <p>Full list of changes in <a href="release-notes/sites.md">AEM Sites and Add-ons</a>.</p> 
+  <h4>Fluid Experiences</h4>
+  <p>The introduction of Fluid Experiences at the start of 2017, backed by Content Fragments, Experience Fragments and Content Services were the start to evolve to a multi-channel-first content management. AEM 6.4 extends each of the areas significantly:</p> 
+  <p><strong><a href="assets/using/content-fragments.md">Content Fragments</a></strong></p> 
+  <p>New in 6.4 are a visual <a href="assets/using/content-fragments-models.md">content model</a> editor and a new <a href="/content/help/en/experience-manager/core-components/using/content-fragment-component">configurable component</a> to provide flexible HTML output and JSON to include in Content Services.</p> 
+  <p><strong>Experience Fragments</strong></p> 
+  <p>Creating variations in a fragment with the same content but different layout is now more efficient, thanks to the Building Blocks capability. On top of sending Experience Fragments to Facebook and Pinterest, now it's possible to send them to Adobe Target as offer.</p> 
+  <p><strong>Content Services</strong></p> 
+  <p>Various enhancements to Sling Model Exporter and the Core Components are included to provide a robust JSON output to embed content in mobile apps and experiences build with single-page apps.</p> 
+  <h4>Gettings Sites Built Quicker</h4>
+  <p>AEM 6.4 completes the transformation to the next generation component model. The Core Components concept introduced in AEM 6.3, and now joined by the Style System, provides an efficient way to build new and extend existing sites. </p> 
+  <p>Recommended tutorial to learn on how to best leverage the new component model: <a href="/content/help/en/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop">Getting Started with AEM Sites - WKND Tutorial</a></p> 
+  <h4>Screens Add-on</h4>
+  <p>Delivering a consistant message across all marketing channels including Digital Signage and kiosk networks is what AEM Screens stands for. AEM 6.4 adds support to run the Signage Player on Microsoft Windows and Google Chrome OS hardware. Further, enhancements to remote device management and schedules (groups of channels) are available.</p> 
+  <p>For more information on the Screens updates, see <a href="/screens/user-guide">AEM Screens User Guide</a>.</p> 
+  <h3>Experience Manager Communities</h3>
+  <p>AEM 6.4 adds many new features and enhancements to Communities. 
+   <g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="5" id="5">
+    Full
+   </g> list of changes is available in <a href="release-notes/communities-release-notes.md" target="_blank">AEM Communities</a>. Highlights for this release are:</p> 
+  <h4>Enhancements to Moderation</h4>
+  <p><strong>Automatic spam detection</strong></p> 
+  <p>New spam detection engine has been provided to filter out unwanted user generated content on community sites and groups. Once enabled from system/console/configMgr, it marks a piece of user generated content as spam based on a pre-defined set of spam words. To know more about spam detection engine, refer <a href="communities/using/moderate-ugc.md#spamdetection" target="_blank">automoderating community user generating content</a>.</p> 
+  <img imageRotate="0" src="assets/spamdetection.png" />
+  <p><strong>New filters for QnA</strong></p> 
+  <p>New filters, named Answered and Not Answered, have been added to bulk moderation console to filter QnA questions. To know how the Answered and Unanswered status filters work, refer <a href="communities/using/moderation.md#main-pars-note-521961797" target="_blank">bulk moderating user generated content</a>.</p> 
+  <p><strong>Bookmark moderation filters</strong></p> 
+  <p>Ability to bookmark the pre-defined moderation filters on moderation console has been provided. These filters are appended toward the end of the URL string, therefore can be shared, reused and revisited later. Know how to bookmark filters in <a href="communities/using/moderation.md#main-pars-note-429176623" target="_blank">bulk moderation console</a>. </p> 
+  <h4>Delete UGC and user profiles</h4>
+  <p>AEM 6.4 Communities exposes <a href="communities/using/user-ugc-management-service.md" target="_blank">out-of-the-box APIs</a> and sample <a href="https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-ugc-management-servlet" target="_blank">servlet</a> to enable end users have control over their data. These APIs also enable data processing and data controlling organizations to serve EU GDPR compliance requests.</p> 
+  <h4>Enhancements to Site and Group Management</h4>
+  <p><strong>Create multi-locale groups in single step</strong></p> 
+  <p>Capability to create multi-lingual groups in single operation has been provided. To create such groups, users can navigate to Group Collection of the desired communities site from the Sites console. Create a group, and specify the desired languages in Community Group Template page. To know more about this functionality, refer <a href="https://helpx.adobe.com/experience-manager/6-4/communities/using/groups.html#main-pars_title_262161330" target="_blank">community groups console</a>.</p> 
+  <img imageRotate="0" src="assets/multilingualgroup.png" />
+  <p><strong>Delete community sites and groups in a click<a href="https://helpx.adobe.com/experience-manager/6-4/communities/using/groups.html#main-pars_header_591c" target="_blank"></a></strong></p> 
+  <p>Delete icon is now available on respective sites and groups, while navigating from global navigation. Using this icon deletes all the items and content associated with the site or group, and removes all the user associations. To know more about this functionality, refer <a href="communities/using/create-site.md#main-pars-text-fe17" target="_blank">managing community sites</a> and <a href="communities/using/groups.md#main-pars-text-5e8c" target="_blank">managing community groups</a>.</p> 
+  <h4>Enhancements to Enablement</h4>
+  <p>Assignment and Catalog functions are now available within groups. This enables learning content to be created, managed and published for a specific set of targeted community members. To know more about enabling community groups, refer <a href="communities/using/resource.md" target="_blank">managing enablement resources</a>. <a href="communities/using/resource.md" target="_blank"></a></p> 
+  <img imageRotate="0" src="assets/assignmentcatalog.png" />
+  <h3>Experience Manager Assets</h3>
+  <p>AEM 6.4 brings in several new features and enhancements to Assets including new, improved CreativeCloud integration, key Artificial Intelligence innovations, improved metadata management, reporting enhancements, and overall user experience improvements. The full list of changes available in <a href="release-notes/assets.md">AEM Assets</a>. The highlights of the release are:</p> 
+  <p><strong>Adobe Asset Link</strong></p> 
+  <p>Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise that connects Photoshop CC, Illustrator CC, and InDesign CC to AEM — without creatives having to leave their tools of choice.</p> 
+  <p>To learn more about this capability, prerequisites, and how to access it, see <a href="https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html">Adobe Asset Link</a>.</p> 
+  <img imageRotate="0" src="assets/adobe_asset_link.png" title="Adobe Asset Link in Photoshop CC" />
+  <p><strong>AEM Desktop App</strong></p> 
+  <p>AEM Desktop App has been updated to Version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM Desktop App is provided in a dedicated <a href="/content/help/en/experience-manager/desktop-app/release-notes">AEM Desktop App release notes</a> document.</p> 
+  <p>Improvements introduced since the AEM 6.3 release include the ability to upload hierarchical folders in the background, a new UI to monitor asset background operations, enhanced caching, networking and login, as well as overall stability improvements. The documentation also includes a <a href="/assets/using/aem-desktop-app-best-practices" target="_blank">best practices guide</a>.</p> 
+  <p><strong>Adobe Sensei Services </strong></p> 
+  <p>New capabilities include Enhanced Smart Tags, with the ability to learn customer business taxonomy, automatically tag digital assets with customer-specific tags and Smart Translation Search, which improves discoverability in multiple languages by translating search terms on the fly. To learn more about this feature, see <a href="assets/using/enhanced-smart-tags.md">Enhanced Smart Tags</a>.</p> 
+  <img imageRotate="0" src="assets/enhanced_smart_tags2.png" />
+  <p><strong>Metadata</strong></p> 
+  <p>Various enhancements include the ability to import and export metadata simultaneously for large numbers of assets and advanced metadata constructs, such as <a href="assets/using/cascading-metadata.md">Cascading Metadata</a>.</p> 
+  <p><strong>Reports</strong></p> 
+  <p>Asset reporting underwent a big overhaul in AEM 6.4 with new reporting framework, user experience, and more OOTB reports for customer usecases. To learn how to generate various reports, see <a href="assets/using/asset-reports.md">Asset Reports</a>.</p> 
+  <p><strong>User Experience</strong></p> 
+  <p>Multiple enhancements to improve browsing, searching and admin experience for Assets users such as scrolling experience, search back button, improved search filters and many more. The full list available in <a href="release-notes/assets.md">AEM Assets</a>.</p> 
+  <p><strong>Brand Portal</strong></p> 
+  <p>Various enhancements in areas of metadata, reporting, digital rights, login experience, and publish performance for asset distribution. To know about the new enhancements and features, see <a href="/content/help/en/experience-manager/brand-portal/using/whats-new">What's new in AEM Assets Brand Portal</a>.</p> 
+  <h4>Dynamic Media Add-on</h4>
+  <p>AEM 6.4 includes many new features and enhancements to Dynamic Media. The full list is available in <a href="release-notes/assets.md">AEM Assets</a>. Key highlights include the following:</p> 
+  <p><strong>Smart Crop</strong></p> 
+  <p>Smart Crop, powered by Adobe Sensei, automatically provides non-destructive cropping of images, preserving the point of interest for responsive design. You can preview cropped image suggestions and manually adjust them, if necessary. This feature also enables automated swatch generation for product imagery.</p> 
+  <p>See <a href="assets/using/image-profiles.md">Image Profiles</a> documentation to learn more about using Smart Crop.</p> 
+  <p>See <a href="assets/using/adding-dynamic-media-assets-to-pages.md">Adding Dynamic Media Assets to Pages</a> to learn more about working with Smart Crop in the Dynamic Media component.</p> 
+  <p><strong>Smart Imaging</strong></p> 
+  <p>Smart imaging leverages each user's unique viewing characteristics to automatically serve images optimized for their experience, resulting in better pefromance and engagement.</p> 
+  <p>See <a href="assets/using/imaging-faq.md" target="_blank">Smart Imaging</a> documentation to learn more.</p> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/smart_crop.png" />
+  <p><strong>Emerging Media &amp; Viewer Enhancements</strong></p> 
+  <p>New viewers, including Panoramic and VR, let you provide more immersive experiences.</p> 
+  <p>See <a href="assets/using/panoramic-images.md" target="_blank">Panoramic Images</a> documentation to learn more.</p> 
+  <p><strong>3D Assets</strong></p> 
+  <p>New integration with <a href="https://www.adobe.com/products/dimension.html">Adobe Dimension CC</a>, a Creative Cloud application for authoring 3D experiences.</p> 
+  <p>See <a href="assets/using/3d-assets.md" target="_blank">Working with 3D assets</a> documentation to learn more.</p> 
+  <img imageRotate="0" src="assets/3d.png" />
+  <h3>Experience Manager Forms</h3>
+  <p>AEM 6.4 Forms brings in several new features and enhancements. The highlights include:</p> 
+  <ul> 
+   <li>Multi-channel Interactive Communications</li> 
+   <li>Prefill Interactive Communications from business applications</li> 
+   <li>Workflow modernization and mobile worker support</li> 
+   <li>Lazy loading fragments</li> 
+   <li>Single-hop upgrade from LiveCycle to Experience Manager Forms 6.4</li> 
+  </ul> 
+  <p>More details on <a href="release-notes/forms.md">AEM Forms</a> release notes page. Also, see the <a href="forms/using/whats-new.md" target="_blank">Summary of new features and enhancements in AEM 6.4 Forms</a> for information about new and improved features and documentation resources.</p> 
+  <h3>Experience Manager Livefyre</h3>
+  <p>You can integrate Livefyre with your AEM 6.4 instance. Information on how to integrate Livefyre with AEM is located here:</p> 
+  <ul> 
+   <li><a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html">Integrating Livefyre</a></li> 
+  </ul> 
+  <h3>Leverage Customer Focused Development</h3>
+  <p>Adobe is using a customer focused development model that allows customers to contribute to all stages of the development process, during specification, development and testing. Our thanks goes to all contributing customers and partners in this process.</p> 
+  <p>Adobe has the procedures and processes in place to enable collection, prioritization, and tracking of customer focused bug resolution and enhancement request development. The <a href="http://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe Marketing Cloud Support Portal</a> is integrated with the Adobe Enhancement &amp; Defect Tracking System. Customer questions are identified and resolved with Customer Care where possible. When escalated to R&amp;D, all customer information is captured, and used for prioritization and reporting purposes. Priority is given in development to paid support and warrantee issues and paid customer enhancements.</p> 
+  <p>This process of prioritization has yielded more than 500 customer focused changes fixed in AEM 6.4.</p> 
+  <h2>List of files that are part of the Release</h2>
+  <div>
+   <strong>Foundation</strong>
+  </div> 
+  <ul> 
+   <li>Standalone Quickstart: cq-quickstart-6.4.0.jar</li> 
+   <li>Application Server Quickstart: cq-quickstart-6.4.0.war</li> 
+   <li>Dispatcher 4.3.1 or newer for various web servers and platforms (<a href="/content/help/en/experience-manager/dispatcher/release-notes">download link</a>)</li> 
+   <li>Plug-in for Eclipse IDE (<a href="sites/developing/using/aem-eclipse.md">read more and download</a>)<br /> </li> 
+   <li>Extension for Brackets Code Editor (<a href="sites/developing/using/aem-brackets.md">read more and download</a>)</li> 
+   <li>Maven/Gradle dependencies (<a href="https://repo.adobe.com/nexus/content/repositories/releases/com/adobe/aem/uber-jar/6.1.0/">download link</a>)</li> 
+  </ul> 
+  <p><strong>Sites</strong></p> 
+  <ul> 
+   <li>Core Components (<a href="https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components">GitHub project</a>)</li> 
+   <li>We.Retail Reference implementation (<a href="sites/developing/using/we-retail.md">read more</a>)</li> 
+   <li>Project Blueprint Archetype (<a href="https://github.com/Adobe-Marketing-Cloud/aem-project-archetype">GitHub project</a>)</li> 
+   <li>AEM Screens Players for various target platforms (<a href="http://download.macromedia.com/screens/">download</a>)</li> 
+   <li>Smart Content Language Models. English is pre-installed - more languages can be downloaded
+    <ul> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/smartcontent-model-de">German</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/smartcontent-model-es">Spanish</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/smartcontent-model-it">Italian</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/smartcontent-model-fr">French</a></li> 
+    </ul> </li> 
+   <li><a href="sites/developing/using/dialog-conversion.md">Dialog Conversion Tool</a> to migrate Classic UI components to Coral 3</li> 
+  </ul> 
+  <p><strong>Assets</strong></p> 
+  <ul> 
+   <li>Adobe Experience Manager Desktop App (<a href="/assets/using/aem-desktop-app">read more</a> and <a href="https://helpx.adobe.com/experience-manager/kb/download-companion-app.html">download</a>)</li> 
+   <li>Package to add enhanced PDF Rasterizer (<a href="assets/using/aem-pdf-rasterizer.md">read more</a> and <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/assets/aem-assets-pdf-rasterizer-pkg">download</a>)</li> 
+   <li>Package to add extended RAW image support (<a href="assets/using/camera-raw.md">read more</a>)</li> 
+  </ul> 
+  <p><strong>Forms</strong></p> 
+  <ul> 
+   <li>Packages for AEM Forms capabilities:<br /> 
+    <ul> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-AIX">adobe-aemfd-aix-pkg</a><br /> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-LX">adobe-aemfd-linux-pkg</a><br /> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-SOL">adobe-aemfd-solaris-pkg</a><br /> </li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-WIN">adobe-aemfd-win-pkg</a></li> 
+     <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-OSX">adobe-aemfd-osx-pkg</a></li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Languages</h2>
+  <p>The user interface is available in following languages:</p> 
+  <ul> 
+   <li>English</li> 
+   <li>German</li> 
+   <li>French</li> 
+   <li>Spanish</li> 
+   <li>Italian</li> 
+   <li>Brazilian Portuguese</li> 
+   <li>Japanese</li> 
+   <li>Simplified Chinese</li> 
+   <li>Traditional Chinese (limited support)</li> 
+   <li>Korean</li> 
+  </ul> 
+  <p>Experience Manager 6.4 has been certified for GB18030-2005 CITS to use the Chinese Encoding Standard.</p> 
+  <h2>Install &amp; Update</h2>
+  <p>See <a href="sites/deploying/using/custom-standalone-install.md">installation instructions</a> for setup requirements.<br /> </p> 
+  <p>Please see <a href="sites/deploying/using/upgrade.md">upgrade documentation</a> for detailed instructions.<br /> </p> 
+  <h2>Supported Platforms</h2>
+  <p>Please find the complete matrix of supported platforms incl. Support-Level on <a href="sites/deploying/using/technical-requirements.md">AEM 6.4 Technical Requirements</a></p> 
+  <div style="position: absolute; left: -10000px; width: 9000px; top: 0px;">
+   Oak MicroKernel for 
+  </div> 
+  <div style="position: absolute; left: -10000px; width: 9000px; top: 0px;">
+   Oak MicroKernel for 
+  </div> 
+  <note>
+   <p>Oracle has moved to a "Long Term Support" (LTS) model for Oracle Java SE products. Java 9 and 10 are non-LTS releases by Oracle (see <a href="http://www.oracle.com/technetwork/java/eol-135779.html">Oracle Java SE support roadmap</a>). Adobe will only provide support for LTS releases of Java to run AEM in production. Therefore Java 8 is the recommended version to use with AEM 6.4.</p> 
+  </note>
+  <h2>Deprecated and Removed Features</h2>
+  <p>Adobe constantly evaluates capabilities in the product and over time plans to replace capabilities with more powerful versions, or decides to re-implemented selected parts to be better prepared for future expectations or extensions.</p> 
+  <p>For Adobe Experience Manager 6.4, <a href="release-notes/deprecated-removed-features.md">read the list of deprecated and removed capabilities</a>. The page also contains pre-announcement of changes in 2019 and important notice for customers that update from prior releases.</p> 
+  <h2>Detailed Changes Lists</h2>
+  <p><a href="release-notes/sites.md">AEM Sites</a></p> 
+  <p><a href="release-notes/assets.md">AEM Assets</a></p> 
+  <p><a href="release-notes/communities-release-notes.md">AEM Communities</a></p> 
+  <p><a href="release-notes/forms.md">AEM Forms</a></p> 
+  <p><a href="release-notes/wcm-platform.md">AEM Foundation</a></p> 
+  <h2>Known Issues</h2>
+  <p><a href="release-notes/known-issues.md">List of known issues</a></p> 
+  <draft-comment type="draft">
+   <h2>Links</h2>
+  </draft-comment>
+  <draft-comment type="draft">
+   <ul> 
+    <li><a href="http://www.adobe.com/solutions/web-experience-management.html">Adobe Experience Manager Product Page on adobe.com</a></li> 
+    <li><a href="https://docs.adobe.com/content/docs/en/aem/6-3.html" style="font-size: 1em; line-height: 1.25em;">AEM Documentation</a></li> 
+    <li><a href="/sites/developing/using/reference-materials/diff-previous/changes">API Differences between AEM 6.3 and AEM 6.4</a></li> 
+   </ul> 
+  </draft-comment>
+  <h3>Product Download and Support (Restricted Sites)</h3>
+  <p>These sites are only available to customers. If you are a customer and need access, please contact your Adobe account manager.</p> 
+  <ul> 
+   <li><a href="http://daycare.day.com"></a><a href="http://licensing.adobe.com/">Product Download at licensing.adobe.com</a></li> 
+   <li><a href="http://daycare.day.com">Customer Support at daycare.day.com</a></li> 
+  </ul> 
+ </body>
+</html>

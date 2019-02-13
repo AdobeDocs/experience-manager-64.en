@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Multisite management for targeted content is not available in classic UI. See How Multisite Management for Targeted Content is Structured in the standard authoring documentation for details." name="seoDescription" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-04-19T10:27:20.914-0400" name="locHandOffDate" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="936034d1-ef08-4a5c-a2cd-3ae197e1debe" name="jcr:predecessors" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="How Multisite Management for Targeted Content is Structured" name="seoTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-04-03T06:47:00.888-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-12-01T19:01:57.862-0500" name="jcr:created" />
+  <meta content="2018-04-19T10:27:20.915-0400" name="cq:lastModified" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-personalization-technical-multisite.html" name="publishExternalURL" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization" name="moreHelpPaths" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/personalization/technical-multisite-targeted" name="qaNotes" />
+  <meta content="2018-04-03T06:47:00.888-0400" name="publishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="2018-10-27T23:46:39.909-0400" name="cq:lastReplicated" />
+  <meta content="f859a99e-0e9a-40d9-a486-4c39460e51a9" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-04-03T06:47:00.888-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="How Multisite Management for Targeted Content is Structured" name="jcr:title" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="2017-10-31T16:18:30.065-0400" name="firstPublishExternalDate" />
+ </head>
+ <body>
+  <note>
+   <p>Multisite management for targeted content is not available in classic UI. See <a href="../../../sites/authoring/using/technical-multisite-targeted.md">How Multisite Management for Targeted Content is Structured</a> in the standard authoring documentation for details.</p> 
+  </note>
+ </body>
+</html>

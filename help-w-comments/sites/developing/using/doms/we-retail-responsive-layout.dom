@@ -1,0 +1,60 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-31T16:15:59.486-0400" name="publishExternalDate" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="dist5" name="distType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-10-27T23:47:48.493-0400" name="cq:lastReplicated" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="light" name="gnavTheme" />
+  <meta content="User" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="no" name="groupSectionNavItems" />
+  <meta content="Trying out Responsive Layout in We.Retail" name="jcr:title" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:best-practices" name="cq:tags" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail-responsive-layout.html" name="publishExternalURL" />
+  <meta content="426x240" name="modalSize" />
+  <meta content="inherit" name="hideMerchandisingBar" />
+  <meta content="2017-12-01T19:02:58.744-0500" name="jcr:created" />
+  <meta content="2017-10-31T16:15:59.486-0400" name="firstPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="539668c8-817b-42b1-a883-2c9d8313541b" name="jcr:uuid" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="2017-10-31T16:15:59.486-0400" name="topicBrowsingSortDate" />
+  <meta content="inherit" name="hidePromoComponent" />
+  <meta content="2017-10-31T16:15:59.486-0400" name="lastPublishExternalDate" />
+  <meta content="2018-05-08T12:46:35.747-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/content/docs/en/aem/6-3/develop/best-practices/we-retail/responsive-layout" name="qaNotes" />
+  <meta content="2018-05-08T12:46:35.745-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="9e1998df-cda2-4b2a-afcc-0fcbbc1200e3" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices;/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices" name="moreHelpPaths" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Trying out Responsive Layout in We.Retail" name="seoTitle" />
+ </head>
+ <body>
+  <p>All We.Retail pages use the Layout Container component to implement responsive design. The layout container provides a paragraph system that allows you to position components within a responsive grid. This grid can rearrange the layout according to the device/window size and format. The component is used in conjunction with the <strong>Layout</strong> mode in the page editor, which allows you to create and edit your responsive layout dependent on device.</p> 
+  <h2>Trying it out</h2>
+  <ol>
+   <li><p>Edit the Arctic Surfing page in the Experiences section of the language master branch.</p> <p>http://localhost:4502/editor.html/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten.html</p> </li>
+   <li><p>Switch to <strong>Preview</strong> to see the page as it would be rendered to a visitor of the website. Scroll down to the content of the article <i>Aloha spirits in Norther Norway</i>.</p> <img imageRotate="0" src="assets/chlimage_1-196.png" /></li>
+   <li><p>Resize your browser window and watch as the layout adapts dynamically to the resizing.</p> <img imageRotate="0" src="assets/chlimage_1-197.png" /></li>
+   <li><p>Switch to Layout mode. The emulator toolbar is automatically shown, allowing you to plan your layout per targeted device.</p> <p>Selecting a component displays floating and hiding options in the edit menu along with resizing handles for the component.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-198.png" /></li>
+   <li><p>Grabbing and dragging the resize handle of the component automatically shows the layout grid to assit you with the resizing.</p> <img imageRotate="0" src="assets/chlimage_1-199.png" /></li>
+  </ol>
+  <h2>Further Information</h2>
+  <p>For further information, refer to the authoring document <a href="../../../sites/authoring/using/responsive-layout.md">Responsive Layout</a> or the administrator document <a href="../../../sites/administering/using/configuring-responsive-layout.md">Configuring Layout Container and Layout Mode</a> for complete technical details.</p> 
+ </body>
+</html>

@@ -1,0 +1,169 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2016-05-31T06:52:44.901-0400" name="acrolinxDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/backing-aem-forms-data.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/aem_forms_backup_and_recovery;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="4d98e609-f4a8-4312-9307-ace8e376fe16" name="jcr:uuid" /> 
+  <meta content="Backing up the AEM forms data" name="jcr:title" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="2017-10-31T16:32:39.618-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-26T04:25:38.292-0400" name="locHandOffDate" /> 
+  <meta content="2016-04-20T09:59:04.997-0400" name="firstPublishExternalDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/backing_aem_forms_data_admin_5e12de0b318c6865_2256_report.xml" name="acrolinxReportURL" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-31T16:32:39.618-0400" name="publishExternalDate" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7c77.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7c78.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1b40940a12905ce0596-7ffd.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1b40940a12905ce0596-7ffb.2" name="cq:gepId" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2017-12-01T19:05:05.687-0500" name="jcr:created" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="84" name="acrolinxSentences" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="This document describes the steps that are required to complete a hot, or online, backup of the AEM forms database, the GDS, and Content Storage Root directories." name="seoDescription" /> 
+  <meta content="1573" name="acrolinxWords" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2018-04-26T04:25:38.293-0400" name="cq:lastModified" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="Backing up the AEM forms data" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/aem_forms_backup_and_recovery;/content/help/en/experience-manager/6-4/forms/morehelp/aem_forms_backup_and_recovery" name="moreHelpPaths" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T09:09:24.042-0400" name="cq:lastReplicated" /> 
+  <meta content="9e561ad9-9bbf-43cc-b064-d89b551a73c1" name="jcr:predecessors" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2016-02-05T03:27:11.162-0500" name="lr_lastModified" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <p>This section describes the steps that are required to complete a hot, or online, backup of the AEM forms database, the GDS, and Content Storage Root directories. </p> 
+  <p>After AEM forms is installed and deployed to production areas, the database administrator should perform an initial full, or cold, backup of the database. The database must be shut down for this backup. Then, differential or incremental (or hot) backups of the database should be done regularly.</p> 
+  <p>To ensure a successful backup and recovery, a system image backup must be available at all times. Then, if a loss occurs, you can recover your entire environment to a consistent state.</p> 
+  <p>Backing up the database at the same time as the GDS, AEM repository, and Content Storage Root directory backups helps keep these systems synchronized if recovery is ever required.</p> 
+  <p>The backup procedure described in this section requires you to enter safe backup mode before you back up the AEM forms database, AEM repository, GDS, and Content Storage Root directories. When backup is complete, you must exit safe backup mode. Safe backup mode is used to mark long-lived and persistent documents that reside in the GDS. This mode ensures that the automated file cleanup mechanism (the file collector) does not delete expired files until the safe backup mode is released. It is necessary to keep a GDS backup in synchronization with a database backup.</p> 
+  <p>How often the GDS location must be backed up depends on how AEM forms is used and the backup windows available. The backup window can be affected by long-lived processes because they can run for several days. If you are continually changing, adding, and removing files in this directory, you should back up the GDS location more often. </p> 
+  <p>If the database is running in a logging mode, as described in the previous section, the database logs also must be backed up frequently so that they can be used to restore the database in case of media failure.</p> 
+  <note> 
+   <p>Files that are not referenced may persist in the GDS directory after the recovery process. This is a known limitation at this time.</p> 
+  </note> 
+  <h2 id="back_up_the_database_gds_aem_repository_and_content_storage_root_directories">Back up the database, GDS, AEM repository, and Content Storage Root directories</h2> 
+  <p></p> 
+  <p>You must put AEM forms in either the safe backup (snapshot) mode or the rolling backup (continuous coverage) mode. Before you set AEM forms to enter either of the backup modes, ensure the following:</p> 
+  <ul> 
+   <li><p>Verify the system version and record the patches or updates that were applied since the last complete system image backup was performed.</p></li> 
+   <li><p>If you are using either rolling or snapshot mode backups, ensure that your database is configured with the correct log settings to allow for hot backups of the database. (See <a href="../../../forms/using/admin-help/files-back-recover.md#aem-forms-database">AEM forms database</a>.)</p></li> 
+  </ul> 
+  <p>In addition to these, observe the following guidelines for the backup/restore process.</p> 
+  <ul> 
+   <li><p>Back up the GDS directory by using an available operating system or a third-party backup utility. (See <a href="../../../forms/using/admin-help/files-back-recover.md#gds-location">GDS location</a>.)</p> </li> 
+   <li><p>(Optional) Back up the Content Storage Root directory by using an available operating system or a third-party backup and utility. (See <a href="../../../forms/using/admin-help/files-back-recover.md#content-storage-root-location-stand-alone-environment">Content Storage Root location (stand-alone environment)</a> or <a href="../../../forms/using/admin-help/files-back-recover.md#content-storage-root-location-clustered-environment">Content Storage Root location (clustered environment)</a>.)</p> </li> 
+   <li><p> 
+     <g class="gr_ gr_23 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del" data-gr-id="23">
+       Back up 
+     </g> 
+     <g class="gr_ gr_24 gr-alert gr_gramm gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="24">
+       author 
+     </g> and publish instances ( 
+     <g class="gr_ gr_25 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="25">
+       crx 
+     </g>-repository backup).</p> <p>To back up the Correspondence Management Solution environment, perform the steps on the author and publish instances as described in <a href="../../../sites/administering/using/backup-and-restore.md" target="_blank">Backup and Restore</a>.</p> <p>Consider the following points when backing up the author and publish instances:</p> 
+    <ul> 
+     <li><p>Ensure that backup for 
+       <g class="gr_ gr_28 gr-alert gr_gramm gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="28">
+         author 
+       </g> and publish instances are synchronized to start at the same time.Although you can continue to use author and publish instances while the backup is being performed, it is recommended not to publish any asset during the 
+       <g class="gr_ gr_32 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="32">
+         backupto 
+       </g> avoid any uncaptured changes. Wait for the backup of both author and publish instances to end before publishing new assets.</p> </li> 
+     <li><p>The complete backup of Author node includes backup of Forms Manager and AEM Forms Workspace data.</p> </li> 
+     <li><p>Workbench developers can continue to work on their processes locally. They should not deploy any new processes during the backup phase.</p> </li> 
+     <li><p>The decision about the length of each backup session (for rolling backup mode) should be based on the total time taken to back up all the data in AEM forms (DB,GDS, AEM repository, and any other additional custom data).</p> </li> 
+    </ul> </li> 
+  </ul> 
+  <p>You should back up the AEM forms database, including any transaction logs. (See <a href="../../../forms/using/admin-help/files-back-recover.md#aem-forms-database">AEM forms database</a>.) For more information, see the appropriate knowledge base article for your database:</p> 
+  <ul> 
+   <li></li> 
+   <li></li> 
+   <li></li> 
+   <li></li> 
+  </ul> 
+  <p>These articles provide guidance to basic database features for the backup and recovery of data. They are not intended as all-inclusive technical Guides of a specific vendor's database backup and recovery feature. They outline commands that are required to create a reliable database backup strategy for your AEM forms application data.</p> 
+  <note> 
+   <p>The database backup must be complete before you begin backing up the GDS. If the database backup is not complete, your data will be out of sync. </p> 
+  </note> 
+  <h3 id="entering_the_backup_modes">Entering the backup modes</h3> 
+  <p></p> 
+  <p>You can use either administration console, the LCBackupMode command, or the API available with the AEM forms installation to enter and leave backup modes. Note that for rolling backup (continuous coverage), the administration console option is not available; you should use either the command line option or the API. For information about using the API to enter and leave backup modes, see AEM forms API Reference on <a href="/forms/using/topics" target="_blank">Help and Tutorials</a> page.</p> 
+  <note> 
+   <p>If you configured SSL on the forms server, then you cannot place the forms server in back up mode using LCBackupMode.CMD script.</p> 
+  </note> 
+  <p><strong>Using the administration console to enter safe backup mode</strong></p> 
+  <ol> 
+   <li><p>Log in to administration console.</p></li> 
+   <li><p>Click Settings &amp;gt; Core System Settings &amp;gt; Backup Utilities.</p></li> 
+   <li><p>Select Operate In Safe Backup Mode and click OK.</p><p>This method puts AEM forms into backup mode indefinitely (no time out), and it enters snapshot mode rather than rolling backup mode.</p></li> 
+  </ol> 
+  <p><strong>Using the command line option to enter safe backup mode</strong></p> 
+  <p>You can use the command line interface <span class="code">LCBackupMode</span> scripts to put AEM forms in safe backup mode.</p> 
+  <ol> 
+   <li><p>Set ADOBE_LIVECYCLE and start the application server.</p></li> 
+   <li><p>Go to the <span class="code"><i>[aem-forms root]</i>/sdk/misc/Foundation/BackupRestoreCommandline</span> folder. </p></li> 
+   <li><p>Depending on your operating system, edit the <span class="code">LCBackupMode.cmd</span> or <span class="code">LCBackupMode.sh</span> script to provide default values that are appropriate for your system.</p></li> 
+   <li><p>At the command prompt, run the following command on a single line: </p> 
+    <ul> 
+     <li><p>(Windows) <span class="code">LCBackupMode.cmd enter [-Host=</span><i>hostname</i><span class="code">] [-port=</span><i>portnumber</i><span class="code">] [-user=</span><i>username</i><span class="code">] [-password=</span><i>password</i><span class="code">] [-label=</span><i>labelname</i><span class="code">] [-timeout=</span><i>seconds</i><span class="code">] </span></p></li> 
+     <li><p>(Linux, UNIX) <span class="code">LCBackupMode.sh enter [-host=</span><i>hostname</i><span class="code">] [-port=</span><i>portnumber</i><span class="code">] [-user=</span><i>username</i><span class="code">] [-password=</span><i>password</i><span class="code">] [-label=</span><i>labelname</i><span class="code">]</span></p></li> 
+    </ul><p>In the previous commands, the placeholders are defined as follows:</p><p><span class="code">Host</span> is the name of the host where AEM forms is running.</p><p><span class="code">port</span> is the WebServices port of the application server on which AEM forms is running.</p><p><span class="code">user</span> is the user name of the AEM forms administrator.</p><p><span class="code">password</span> is the password of the AEM forms administrator.</p><p><span class="code">label</span> is the text label, which can be any string, for this backup.</p><p><span class="code">timeout</span> is the number of seconds after which the backup mode is automatically left. It can be 0 to 10,080. If it is 0, which is the default, the backup mode never times out.</p><p>For more information about the command line interface to the backup mode, see the Readme file in the BackupRestoreCommandline directory.</p></li> 
+  </ol> 
+  <h3 id="leaving_backup_modes">Leaving backup modes</h3> 
+  <p></p> 
+  <p>You can use either the administration console or the command line option to leave backup modes.</p> 
+  <p><strong>Leave safe backup mode (snapshot mode)</strong></p> 
+  <p>To use Administration Console to take AEM forms out of safe backup mode (snapshot mode), perform the following tasks. </p> 
+  <ol> 
+   <li><p>Log in to Administration Console.</p></li> 
+   <li><p>Click Settings &amp;gt; Core System Settings &amp;gt; Backup Utilities. </p></li> 
+   <li><p>Deselect Operate In Safe Backup Mode and click OK.</p></li> 
+  </ol> 
+  <p><strong>Leave all backup modes</strong></p> 
+  <p>You can use the command line interface to take AEM forms out of safe backup mode (snapshot mode) or to end the current backup mode session (rolling mode). Note that you cannot use the administration console to leave rolling backup mode. While in rolling backup mode, the Backup Utilities controls on the Administration Console are disabled. You must use either API call or use the LCBackupMode command.</p> 
+  <ol> 
+   <li><p>Go to the <span class="code"><i>[aem-forms root]</i>/sdk/misc/Foundation/BackupRestoreCommandline</span> folder. </p></li> 
+   <li><p>Depending on your operating system, edit the <span class="code">LCBackupMode.cmd</span> or <span class="code">LCBackupMode.sh</span> script to provide default values that are appropriate for your system.</p> 
+    <note> 
+     <p>You must set the JAVA_HOME directory as described in the appropriate chapter for your application server in <a href="http://www.adobe.com/go/learn_aemforms_prepareInstallsingle_63">Preparing to Install AEM forms</a><em>.</em></p> 
+    </note></li> 
+   <li><p>Run the following command on a single line:</p> 
+    <ul> 
+     <li><p>(Windows)<span class="code"> LCBackupMode.cmd leaveContinuousCoverage [-Host=</span><i>hostname</i><span class="code">] [-port=</span><i>portnumber</i><span class="code">] [-user=</span><i>username</i><span class="code">] [-password=</span><i>password</i><span class="code">]</span></p></li> 
+     <li><p>(Linux, UNIX)<span class="code"> LCBackupMode.sh leaveContinuousCoverage [-Host=</span><i>hostname</i><span class="code">] [-port=</span><i>portnumber</i><span class="code">] [-user=</span><i>username</i><span class="code">] [-password=</span><i>password</i><span class="code">]</span></p><p>In the previous commands, the placeholders are defined as follows:</p><p><span class="code">Host</span> is the name of the host where AEM forms is running.</p><p><span class="code">port</span> is the port on which AEM forms is running on the application server.</p><p><span class="code">user</span> is the user name of the AEM forms administrator.</p><p><span class="code">password</span> is the password of the AEM forms administrator.</p><p><span class="code">leaveContinuousCoverage</span> Use this option to disable rolling backup mode completely. </p></li> 
+    </ul> 
+    <note> 
+     <p>For the time that backup mode is off, continuous coverage cannot be reestablished. Any changes during that time are not protected.</p> 
+    </note> 
+    <draft-comment type="remark"> 
+     <p>Bug 2297786: Added the leaveContinuousCoverage option</p> 
+    </draft-comment> 
+    <note> 
+     <p>If you enabled document storage in database, the snapshot backup mode and rolling backup modes are not applicable. </p> 
+    </note><p>For more information about the command line interface to the backup mode, see the readme file in the BackupRestoreCommandline directory.</p></li> 
+  </ol> 
+ </body> 
+</html>

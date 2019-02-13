@@ -1,0 +1,265 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-server-settings.html" name="publishExternalURL" /> 
+  <meta content="2018-04-26T04:24:21.790-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="80e1ad64-0825-4393-8a50-eaa2cee34481" name="jcr:predecessors" /> 
+  <meta content="Configuring Server Settings" name="jcr:title" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="Configuring Server Settings" name="navTitle" /> 
+  <meta content="2016-04-20T10:02:29.442-0400" name="firstPublishExternalDate" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d45.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d00.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7ff7.2,AEMForms/6.1/AdminHelp/WSa0b1fbebd32c111d6c40425313c631d2fcf-8000,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d3b.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7ff2.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7ff1.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7ff0.2,AEMForms/6.1/AdminHelp/WS196e8398323ca8ae1e6d2b7b1314d4633ce-8000.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d3a.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fec.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7feb.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d2a.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fe9.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fe8.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fe7.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fe6.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fe5.2,AEMForms/6.1/AdminHelp/WS8e6112d72b18142d6d5081f913302d34198-8000.2" name="cq:gepId" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2016-02-05T03:27:18.693-0500" name="lr_lastModified" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_forms_workflow;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2017-12-01T19:06:55.507-0500" name="jcr:created" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="174" name="acrolinxSentences" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-31T16:32:22.365-0400" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_server_settings_admin_5e12de0b318c6865_2297_report.xml" name="acrolinxReportURL" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-26T04:24:21.790-0400" name="cq:lastModified" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2017-10-31T16:32:22.365-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2657" name="acrolinxWords" /> 
+  <meta content="b6ccc7ec-944e-4147-b99d-8dcddadb3c70" name="jcr:uuid" /> 
+  <meta content="The Server Settings page provides access to email, task notification and administrator notification settings." name="seoDescription" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-03T09:09:52.361-0400" name="cq:lastReplicated" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_forms_workflow;/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_forms_workflow" name="moreHelpPaths" /> 
+  <meta content="2016-05-31T06:57:36.656-0400" name="acrolinxDate" /> 
+ </head> 
+ <body> 
+  <p>The Server Settings page provides access to various settings for forms workflow:</p> 
+  <ul> 
+   <li><p><strong>Email settings</strong> that enable outgoing email messages, along with the email server settings used for those messages. (See <a href="configuring-server-settings#configuring_email_settings">Configuring email settings</a>.)</p></li> 
+   <li><p><strong>Task notification settings </strong>that enable, disable, or modify the messages sent in email notifications to end users and groups regarding their tasks. (See <a href="configuring-server-settings#configuring_notifications_for_users_and_groups">Configuring notifications for users and groups</a>.)</p></li> 
+   <li><p><strong>Administrator notification settings </strong>that enable, disable, or modify the messages sent in email notifications for administrative tasks. (See <a href="configuring-server-settings#configuring_notifications_for_administrators">Configuring notifications for administrators</a>.)</p></li> 
+  </ul> 
+  <h2 id="configuring_email_settings">Configuring email settings</h2> 
+  <p></p> 
+  <p>You can specify an email account for the forms server, through which it sends email messages to AEM forms users and administrators. These email messages are used to notify and remind users of tasks that they must complete, notify the user of tasks that have reached a deadline, and notify the administrator of any process errors that occur.</p> 
+  <p>To enable the sending of email messages between AEM forms and users, configure the outgoing email settings on the Email Settings page. Outgoing email must use an SMTP server. </p> 
+  <p>To enable AEM forms to receive and handle incoming email messages from users, create an email endpoint for the Complete Task service. (See <a href="../../../forms/using/admin-help/configuring-email-endpoints.md#create-an-email-endpoint-for-the-complete-task-service">Create an Email endpoint for the Complete Task service</a>).</p> 
+  <p>If your processes are designed and implemented without requiring email, you do not have to configure any of the options on the Email Settings page. </p> 
+  <h3 id="configure_outgoing_email_settings">Configure outgoing email settings</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; forms workflow &amp;gt; Server Settings &amp;gt; Email Settings.</p></li> 
+   <li><p>Select Enable Outgoing Messages.</p></li> 
+   <li><p>In the SMTP Server box, type the email server name or IP address. All notification email messages from forms workflow are sent from this email server.</p></li> 
+   <li><p>In the User Name and Password boxes, type the login name and password to be used when the SMTP server requires authentication. Leave them blank if anonymous login is allowed.</p></li> 
+   <li><p>In the Email Address box, type the email address to use as the return address for email messages that forms workflow sends. </p> 
+    <note> 
+     <p>If you are using Microsoft Exchange Server and the Email Address is an invalid email address, Microsoft Exchange server fails to send an email to Distribution Lists. To resolve the issue, select the <strong>Enable External Communication</strong> option seperately for every Distribution List on Microsoft Exchange server.<br /> </p> 
+    </note></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <note> 
+   <p>If you enter incorrect information, you can click Cancel to go back to the previously displayed page.</p> 
+  </note> 
+  <h3 id="configuring_email_templates_to_use_html_workspace">Configuring email templates to use AEM Forms Workspace</h3> 
+  <p></p> 
+  <draft-comment type="remark"> 
+   <p>AG, 01/22/2013: Adding this topic as a fix for bug 3474761.</p> 
+  </draft-comment> 
+  <note> 
+   <p>The Flex Worksapce is deprecated for AEM forms release. </p> 
+  </note> 
+  <p>By default, the emails sent out by AEM forms contain links to (Deprecated for AEM forms on JEE) Flex Workspace. You can configure AEM forms to send out emails with links to AEM Forms Workspace. To know more about the benefits of AEM Forms Workspace over (Deprecated for AEM forms on JEE) Flex Workspace, see <a href="../../../forms/using/features-html-workspace-available-flex.md" target="_blank">this</a> article.</p> 
+  <ol> 
+   <li><p>In administration console, click Home &amp;gt; Services &amp;gt; forms workflow &amp;gt; Server Settings &amp;gt; Task Notifications.</p></li> 
+   <li><p>Open task assignment template.</p></li> 
+   <li><p>Set the template in the task notifications to the following: <span class="code">http://@@notification-host@@:8080/lc/libs/ws/index.html?taskId=@@taskid@@</span></p> 
+    <codeblock gutter="true" class="syntax as3">
+      http://@@notification-host@@:8080/lc/libs/ws/index.html?taskId=@@taskid@@ 
+    </codeblock></li> 
+  </ol> 
+  <h2 id="configuring_notifications_for_users_and_groups">Configuring notifications for users and groups</h2> 
+  <p></p> 
+  <p>On the Task Notification page, you can configure templates that forms workflow will use to generate the email notifications that are sent to users and groups. You can customize and format the notifications using forms workflow variables.</p> 
+  <p>You configure the following types of notifications for users and groups:</p> 
+  <ul> 
+   <li><p>reminders </p></li> 
+   <li><p>task assignments</p></li> 
+   <li><p>deadlines</p></li> 
+  </ul> 
+  <p>To generate email notifications for a group, specify an email address for the group in User Management. (See <a href="/forms/using/admin-help/topics/setting-up-and-organizing-users" target="_blank">Setting up and organizing users</a>.) When forms workflow sends an email notification to a group, each member within the group who has an email address specified receives the email notification. When a member of the group receives an email notification and wants to claim the task, the member must click the claim link in the email notification, which opens the task details page in Workspace. From there, the member can either claim or claim and open the work item.</p> 
+  <note> 
+   <p>The Flex Worksapce is deprecated for AEM forms release.</p> 
+  </note> 
+  <h3 id="configure_reminders_for_users_or_groups">Configure reminders for users or groups</h3> 
+  <p></p> 
+  <p>You can send reminder notifications to the assigned user or group when a deadline to complete a task is approaching. The rules for determining exactly when a reminder notification is sent are determined by the process developer.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Forms workflow &amp;gt; Server Settings &amp;gt; Task Notifications.</p></li> 
+   <li><p>Under Notification Type, click Reminder (for users) or Group - Reminder (for groups).</p></li> 
+   <li><p>Select Enable Reminder or Enable Group - Reminder.</p></li> 
+   <li><p>(User notifications only) To include an attachment of the form and its data with the reminder email message, select Include Form Data.</p></li> 
+   <li><p>In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see <a href="configuring-server-settings#customizing_the_content_of_notifications">Customizing the content of notifications</a>.</p></li> 
+   <li><p>In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see <a href="configuring-server-settings#customizing_the_content_of_notifications">Customizing the content of notifications</a>.</p></li> 
+   <li><p>In the Message Format list, select the format that the email message is sent in, either HTML or Text. The default format is HTML.</p></li> 
+   <li><p>In the Email Encoding list, select the encoding format to use for the email message. The default is UTF-8, which most users outside of Japan will use. Users in Japan may select ISO2022-JP.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <h3 id="configure_task_assignment_notifications_for_users_or_groups">Configure task assignment notifications for users or groups</h3> 
+  <p></p> 
+  <p>You can send task assignment notifications to a user or group when they are assigned a task. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Forms workflow &amp;gt; Server Settings &amp;gt; Task Notifications.</p></li> 
+   <li><p>Under Notification Type, click Task Assignment for users or Group - Task Assignment for groups.</p></li> 
+   <li><p>Select Enable Task Assignment for users or Enable Group - Task Assignment for groups.</p></li> 
+   <li><p>(User notifications only) To include an attachment of the form and its data with the task assignment email message, select Include Form Data.</p></li> 
+   <li><p>In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see <a href="configuring-server-settings#customizing_the_content_of_notifications">Customizing the content of notifications</a>.</p></li> 
+   <li><p>In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see <a href="configuring-server-settings#customizing_the_content_of_notifications">Customizing the content of notifications</a>.</p></li> 
+   <li><p>In the Message Format list, select the format that the email message is sent in, either HTML or Text. The default format is HTML.</p></li> 
+   <li><p>In the Email Encoding list, select the encoding format to use for the email message. The default is UTF-8, which most users outside of Japan will use. Users in Japan may select ISO2022-JP.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <h3 id="configure_deadline_notifications_for_users_or_groups">Configure deadline notifications for users or groups</h3> 
+  <p></p> 
+  <p>You can send deadline notifications to users and groups when the deadline to act upon an assigned task has passed. A deadline notification is usually informational because the user can no longer act upon the assigned task.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Forms workflow &amp;gt; Server Settings &amp;gt; Task Notifications.</p></li> 
+   <li><p>Under Notification Type, click Deadline (for users) or Group - Deadline (for groups).</p></li> 
+   <li><p>Select Enable Deadline or Enable Group - Deadline.</p></li> 
+   <li><p>In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see <a href="configuring-server-settings#customizing_the_content_of_notifications">Customizing the content of notifications</a>.</p></li> 
+   <li><p>In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see <a href="configuring-server-settings#customizing_the_content_of_notifications">Customizing the content of notifications</a>.</p></li> 
+   <li><p>In the Message Format list, select the format that the email message is sent in, either HTML or Text. The default format is HTML.</p></li> 
+   <li><p>In the Email Encoding list, select the encoding format to use for the email message. The default is UTF-8, which most users outside of Japan will use. Users in Japan may select ISO2022-JP.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <h3 id="hide_the_do_not_delete_tag_for_all_emails">Hide the DO NOT DELETE tag for all emails</h3> 
+  <p></p> 
+  <p>You can configure email to hide to the DO NOT DELETE tracking tag in all emails send in a human-centric process. For details, see <a href="http://blogs.adobe.com/LiveCycleHelp/2013/09/how-to-hide-the-do-not-delete-tag-with-css.html">How to hide the 'DO-NOT-DELETE' tag with CSS</a></p> 
+  <h2 id="configuring_notifications_for_administrators">Configuring notifications for administrators</h2> 
+  <p></p> 
+  <p>You can configure templates that forms workflow will use to generate the email notifications that are sent to administrators. </p> 
+  <p>You configure the following types of notifications for administrators:</p> 
+  <ul> 
+   <li><p>stalled branch</p></li> 
+   <li><p>stalled operation</p></li> 
+  </ul> 
+  <h3 id="configure_stalled_branch_notifications">Configure stalled branch notifications</h3> 
+  <p></p> 
+  <p>If a branch stalls (stops proceeding either deliberately or because of an error), you can have an email notification sent to an administrator or another user, who can then investigate the problem.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Forms workflow &amp;gt; Server Settings &amp;gt; Administrator Notifications.</p></li> 
+   <li><p>Under Notification Type, click Stalled Branch.</p></li> 
+   <li><p>Select Enable Stalled Branch.</p></li> 
+   <li><p>In the Email Address box, type the addresses of the users to notify when a branch stalls. Use the format user@domain.com and separate each address with a comma. Typically, this email address is for an administrator.</p></li> 
+   <li><p>In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see <a href="configuring-server-settings#customizing_the_content_of_notifications">Customizing the content of notifications</a>.</p></li> 
+   <li><p>In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see <a href="configuring-server-settings#customizing_the_content_of_notifications">Customizing the content of notifications</a>.</p></li> 
+   <li><p>In the Message Format list, select the format that the email message is sent in, either HTML or Text. The default format is HTML.</p></li> 
+   <li><p>In the Email Encoding list, select the encoding format to use for the email message. The default is UTF-8, which most users outside Japan use. Users in Japan may select ISO2022-JP.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <h3 id="configure_stalled_operation_notifications">Configure stalled operation notifications</h3> 
+  <p></p> 
+  <p>If an operation stalls (stops proceeding either deliberately or because of an error), you can have an email notification sent to an administrator or another user, who can investigate the problem.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Forms workflow &amp;gt; Server Settings &amp;gt; Administrator Notifications.</p></li> 
+   <li><p>Under Notification Type, click Stalled Operation.</p></li> 
+   <li><p>Select Enable Stalled Operation.</p></li> 
+   <li><p>In the Email Addresses box, type the addresses of the users to notify when an operation stalls. Use the format user@domain.com and separate each address with a comma. Typically, this email address is for an administrator.</p></li> 
+   <li><p>In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see <a href="configuring-server-settings#customizing_the_content_of_notifications">Customizing the content of notifications</a></p></li> 
+   <li><p>In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see <a href="configuring-server-settings#customizing_the_content_of_notifications">Customizing the content of notifications</a>.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <h2 id="customizing_the_content_of_notifications">Customizing the content of notifications</h2> 
+  <p></p> 
+  <p>The Task Notifications and Administrator Notifications pages provide several features that enable you to customize notification messages:</p> 
+  <ul> 
+   <li><p>rich text editor</p></li> 
+   <li><p>variable picker</p></li> 
+   <li><p>URL generation</p></li> 
+  </ul> 
+  <h3 id="rich_text_editor">Rich text editor</h3> 
+  <p></p> 
+  <p>The Notification Template area is a rich text editor that enables you to generate HTML for the email notification messages. It provides font and paragraph formatting options, which are found below the Notification Template box. The options include font type, size, style, and color, as well as paragraph alignment and bullets.</p> 
+  <h3 id="url_generation">URL generation</h3> 
+  <p></p> 
+  <p>For Task Notifications only, Forms workflow includes two predefined URL configurations that you can drag from the Url Generation list into the Notification Template box and then customize:</p> 
+  <ul> 
+   <li><p>OpenTask is available for the Reminder and Task Assignment notification types. This URL provides a link to the task in Workspace, allowing the user to access the task quickly from the email notification. When you drag the OpenTask URL to the Notification Template box, the URL is in the following format:</p></li> 
+   <li><p>ClaimTask is available for the Group - Reminder and Group - Task Assignment notification types. This URL provides a link to the task details page in Workspace, where the user can either claim or claim and open the work item. When you drag the ClaimTask URL to the Notification Template box, the URL is in the following format:</p></li> 
+  </ul> 
+  <note> 
+   <p>The Flex Worksapce is deprecated for AEM forms release. </p> 
+  </note> 
+  <p>If your solution is deployed in a clustered environment, replace <span class="code">@@notification-host@@</span> with the cluster address. </p> 
+  <p><span class="code">&amp;lt;</span><i>PORT</i><span class="code">&amp;gt;</span> is the port number of the HTTP listener for the application server. The default HTTP listener port for the supported application servers are as follows:</p> 
+  <p><strong>JBoss:</strong> 8080</p> 
+  <p><strong>Oracle WebLogic Server:</strong> 7001</p> 
+  <p><strong>IBM WebSphere:</strong> 9080</p> 
+  <p>To make these URLs function correctly, replace <span class="code">&lt;</span><i>PORT</i><span class="code">&gt;</span> with the port number that is appropriate for your environment.</p> 
+  <p><i><strong>Note</strong>: If you are using a custom web application other than Forms to provide users with access to the tasks, you must instead use a URL format that is appropriate for your custom application.</i></p> 
+  <h3 id="variable_picker">Variable picker</h3> 
+  <p></p> 
+  <p>The Variable Picker list provides useful variables that you can drag-and-drop into the Subject or Notification Template boxes. When you drop a variable in the Subject or Notification Template boxes, it changes to the actual forms workflow variable name with two @ symbols on either side of it, for example, <span class="code">@@taskid@@</span>. </p> 
+  <p>For reminders, task assignments, and deadlines for users and groups, you can use the following variables in the Subject and Notification Template boxes:</p> 
+  <p><strong>@@description@@</strong> The contents of the Description property, as defined in the user step (start point, Assign Task operation, or Assign Multiple Tasks operation) of the process in Workbench.</p> 
+  <p><strong>@@instructions@@</strong> The contents of the Task Instructions property, as defined in the user step of the process in Workbench.</p> 
+  <p><strong>@@notification-host@@</strong> The host name of the AEM forms application server .</p> 
+  <p><strong>@@process-name@@</strong> The name of the process.</p> 
+  <p><strong>@@operation-name@@</strong> The name of the step.</p> 
+  <p><strong>@@taskid@@</strong> The unique identifier for the current task.</p> 
+  <p><strong>@@actions@@</strong> Produces a numbered list of valid routes (for example, Approve, Reject) that the recipient can click.</p> 
+  <p>In addition, for group reminders, group task assignments and group deadlines, you can also use:</p> 
+  <p><strong>@@group-name@@</strong> The name of the group that is assigned the work item.</p> 
+  <p><i><strong>Note</strong>: If a variable has no value, nothing is returned.</i></p> 
+  <p>For stalled branches, you can use the following variables in the Subject and Notification Template boxes:</p> 
+  <p><strong>@@branch-id@@</strong> The branch identifier.</p> 
+  <p><strong>@@process-id@@</strong> The process instance identifier.</p> 
+  <p><strong>@@notification-host@@</strong> The host name of the AEM forms application server .</p> 
+  <p>For stalled operations, you can use the following variables in the Subject and Notification Template boxes:</p> 
+  <p><strong>@@action-id@@</strong> The operation identifier.</p> 
+  <p><strong>@@branch-id@@</strong> The branch identifier.</p> 
+  <p><strong>@@process-id@@</strong> The process instance identifier.</p> 
+  <p><strong>@@notification-host@@</strong> The host name of the AEM forms application server .</p> 
+  <h3 id="using_a_variable_in_the_subject_box">Using a variable in the Subject box</h3> 
+  <p></p> 
+  <p>If you type the following text in the Subject box for Task Assignment notifications:</p> 
+  <p><span class="code">Please complete task @@taskid@@</span></p> 
+  <p>The user receives an email message with the following subject if they are assigned task 376:</p> 
+  <p><span class="code">Please complete task 376</span></p> 
+  <h3 id="using_variables_in_the_notification_template_box">Using variables in the Notification Template box</h3> 
+  <p></p> 
+  <p>If you type the following text in the Notification Template box for Stalled Branch notifications:</p> 
+  <p><span class="code">Branch @@branch-id@@ has stalled! You have received this notification from @@notification-host@@.</span></p> 
+  <p>The administrator receives an email message that contains the following content if the branch number is 4868 and the server name is <span class="code">ServerXYZ</span>:</p> 
+  <p><span class="code">Branch 4868 has stalled! You have received this notification from ServerXYZ.</span></p> 
+  <h2 id="configuring_business_activity_monitoring_connections">Configuring Business Activity Monitoring connections</h2> 
+  <p></p> 
+  <p>Business Activity Monitoring, an optional module, provides a set of operational dashboards that provide real-time visibility into your operations and key performance indicators.</p> 
+  <p>On the BAM Configuration Settings page, you set the connections to the server that runs BAM so that process-related events can be tracked and transmitted to that server.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Forms workflow &amp;gt; Server Settings &amp;gt; BAM Configuration Settings.</p></li> 
+   <li><p>In the BAM Host box, type the name of the server that runs BAM. The default is localhost.</p></li> 
+   <li><p>In the BAM Port box, type the port to be used to connect to the server that runs BAM. The default BAM port for JBoss is 8080, WebLogic is 7001, and WebSphere is 9080.</p></li> 
+   <li><p>In the Server Host box, type the name or IP address of the host forms server. The default value is localhost.</p></li> 
+   <li><p>In the Server Port box, type the port number used by the forms server.</p></li> 
+   <li><p>In the User Name and Password boxes, type the appropriate user ID and password to access the BAM Server. The default user name is CognosNowAdmin and the default password is manager.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+ </body> 
+</html>

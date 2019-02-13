@@ -1,0 +1,89 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:22:43.535-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T09:10:46.785-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-12-01T19:03:32.677-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2016-09-19T09:13:00.000-0400" name="sortDate" /> 
+  <meta content="2018-04-26T04:22:43.536-0400" name="cq:lastModified" /> 
+  <meta content="1e5a5638-2883-49bb-bcf9-1ce514468afc" name="jcr:uuid" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:31:59.200-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2016-09-19T09:13:55.001-0400" name="lr_lastModified" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="Learn how to set up a PDFG Network Printer ( Windows only )" name="seoDescription" /> 
+  <meta content="2017-10-31T16:31:59.200-0400" name="lastPublishExternalDate" /> 
+  <meta content="Setting up a PDFG Network Printer (Windows&amp;#xA;only)" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_pdf_generator;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/setting-pdfg-network-printer-windows.html" name="publishExternalURL" /> 
+  <meta content="Setting up a PDFG Network Printer (Windows only)" name="jcr:title" /> 
+  <meta content="2016-09-20T07:54:14.039-0400" name="firstPublishExternalDate" /> 
+  <meta content="0645605d-79ab-4b62-ac5b-dc06a863b42f" name="jcr:predecessors" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2016-09-19T09:13:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e81.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7df7.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e0d.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e0b.2" name="cq:gepId" /> 
+ </head> 
+ <body> 
+  <p>PDFG Network Printer allows users to generate a PDF document from any application that supports printing. After a user installs the PDFG Network Printer, a new printer named <i>PDF generator </i>appears in the Printers section of the Windows Control Panel. If a printer with the same name already exists, the user is prompted to provide another name.</p> 
+  <p>Printing to this printer from any application sends the document (in PostScript format) to PDF Generator, which converts the PostScript file to PDF. Depending on how you configured PDF Generator, it sends the PDF document to the user as an attachment to an email message, forwards the PDF document to a specified AEM forms service or process, or performs both actions. </p> 
+  <p>The following steps are required to set up a PDFG Network Printer:</p> 
+  <ol> 
+   <li><p>Configure email settings. (See <a href="setting-pdfg-network-printer-windows#configure_email_settings_for_pdfg_network_printer">Configure email settings for PDFG Network Printer</a>.)</p></li> 
+   <li><p>In administration console, configure the PDFG Network Printer settings. (See <a href="setting-pdfg-network-printer-windows#configure_the_pdfg_network_printer_settings">Configure the PDFG Network Printer settings</a>.) </p></li> 
+   <li><p>Ensure that your users are configured with a valid email address in the AEM forms database and assign the PDFGUserPermission to each user. (See <a href="/forms/using/admin-help/#setting_up_and_organizing_users">Setting up and organizing users</a>.)</p></li> 
+   <li><p>Ensure that 32-bit JRE6 is installed on your users’ computers. </p></li> 
+   <li><p>Install the printer on your users’ computers. (See <a href="setting-pdfg-network-printer-windows#install_pdfg_network_printer_on_a_user_s_computer">Install PDFG Network Printer on a user’s computer</a>.) </p></li> 
+  </ol> 
+  <h2 id="configure_email_settings_for_pdfg_network_printer">Configure email settings for PDFG Network Printer</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Service Management.</p></li> 
+   <li><p>On the Service Management page, click provider.email_sendmail_service, specify the SMTP settings, and click Save.</p></li> 
+  </ol> 
+  <h2 id="configure_the_pdfg_network_printer_settings">Configure the PDFG Network Printer settings</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; PDFG Network Printer</p></li> 
+   <li><p>In the Adobe PDF Settings and the Security Settings lists, select the options to apply to the generated PDF. For details on these settings, see <a href="../../../forms/using/admin-help/configuring-pdf-settings.md#configuring-adobe-pdf-settings">Configuring Adobe PDF settings</a> and <a href="../../../forms/using/admin-help/configuring-security-settings.md#configuring-security-settings">Configuring security settings</a>. </p></li> 
+   <li><p>To send the converted PDFs back to users, select the Email The Converted PDF File Back To The User option and specify the following information:</p> 
+    <ul> 
+     <li><p>The email address to use to send PDFs to the users</p></li> 
+     <li><p>The subject of the email message</p></li> 
+     <li><p>The header, body, and footer of the email message. In the email message, &amp;lt;receiverName&amp;gt; is replaced with the full name of the user who printed the document.</p></li> 
+    </ul></li> 
+   <li><p>To send the converted PDFs to a AEM forms service or process, select the Forward The Converted PDF To The Specified AEM forms Service Or Process option and specify the following information:</p> 
+    <ul> 
+     <li><p>The name of the service to invoke </p></li> 
+     <li><p>The name of the operation of the service to invoke</p></li> 
+     <li><p>The name of the input parameter, as specified in the component.xml file of the service or process. The PDF document will be used as a value for that input parameter. </p></li> 
+    </ul></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <p>If you want to revert to the original default email text, click Restore E-Mail Contents.</p> 
+  <h2 id="install_pdfg_network_printer_on_a_user_s_computer">Install PDFG Network Printer on a user’s computer</h2> 
+  <p></p> 
+  <p>Users who have either the PDFG Administrator or PDFG User role can install a PDFG Network Printer. You must have a 32-bit JDK installed on the computer.</p> 
+  <ol> 
+   <li><p>(PDFG Administrators) In administration console, click Services &amp;gt; PDF Generator &amp;gt; PDFG Network Printer. </p><p>(PDFG Users) Go to <span class="code">http(s)://[host]:[port]/pdfgui</span> and click the link under PDFG Network Printer Installation. </p></li> 
+   <li><p>Under PDFG Network Printer Installation, click the link. When prompted for user account information, specify the user name and password that you used in step 1 to log in. A message appears, stating that the printer has been successfully installed. </p></li> 
+   <li><p>Click OK. </p></li> 
+  </ol> 
+ </body> 
+</html>

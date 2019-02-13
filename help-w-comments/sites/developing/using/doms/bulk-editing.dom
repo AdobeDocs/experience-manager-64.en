@@ -1,0 +1,162 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="2017-10-31T16:17:19.270-0400" name="firstPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/bulk-editing.html" name="publishExternalURL" /> 
+  <meta content="2018-05-08T12:40:26.489-0400" name="cq:lastModified" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="Configuring your Page for Bulk Editing of Page Properties" name="navTitle" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-01-19T19:05:43.791-0500" name="jcr:created" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="b46cb9eb-ca40-43f5-b42e-a8c95b56010a" name="jcr:uuid" /> 
+  <meta content="2018-10-27T23:47:12.924-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-01-18T11:18:09.425-0500" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:extending-aem;content_type:reference" name="cq:tags" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Bulk editing of page properties allows you to edit the properties of multiple pages at once" name="seoDescription" /> 
+  <meta content="2018-05-08T12:40:26.487-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Configuring your Page for Bulk Editing of Page Properties" name="seoTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/extending/customizing-page-properties/bulk-editing" name="qaNotes" /> 
+  <meta content="2018-01-18T11:18:09.425-0500" name="lastPublishExternalDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="d5a7a6f0-415d-4984-b2b3-8978a730573a" name="jcr:predecessors" /> 
+  <meta content="2018-01-18T11:18:09.425-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Configuring your Page for Bulk Editing of Page Properties" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+ </head> 
+ <body> 
+  <p><a href="../../../sites/authoring/using/editing-page-properties.md#fromthesitesconsolemultiplepages">Bulk editing of page properties</a> allows you to edit the properties of multiple pages at once.</p> 
+  <p>Due to the possibility of different values, page properties are not enabled for bulk editing as default. They must be explicitily whitelisted (enabled). When defining the page properties to be available for bulk editing you need to consider certain implications, such as:</p> 
+  <ul> 
+   <li>Certain fields are usually unique; for example a page title. You must decide whether it is meaningful to enable such fields for bulk editing, when one value will be applied.<br /> </li> 
+   <li>Certain fields might have multiple values - this needs meaningful representation when rendering.<br /> For example, a check-box indicating "Ready for Publication". This might have several values before bulk-editing (e.g. ready, in-review, in-progress). </li> 
+  </ul> 
+  <note> 
+   <p>Bulk editing of page properties is:</p> 
+   <ul> 
+    <li>Not available in the classic UI.</li> 
+    <li>Not available for pages within a live copy.</li> 
+    <li>Only available for pages with the same resource type. </li> 
+   </ul> 
+  </note> 
+  <note> 
+   <p>Bulk editing is also available for Assets. It is very similar, but differs in a few points. See <a href="../../../assets/using/managing-multiple-assets.md">Editing Properties of Multiple Assets</a> for full information. You can customize the fields in the Bulk Metadata editor for Assets using the <a href="../../../assets/using/metadata-schemas.md">Schema editor</a>.</p> 
+  </note> 
+  <h3>Enabling a Field</h3> 
+  <note> 
+   <p>Certain fields might have multiple values - this needs meaningful representation when rendering. For this reason you should only enable the following field types: </p> 
+   <ul> 
+    <li><span class="code">/libs/granite/ui/components/foundation/form/textfield</span></li> 
+    <li><span class="code">/libs/granite/ui/components/foundation/form/textarea</span></li> 
+    <li><span class="code">/libs/granite/ui/components/foundation/form/tagspicker</span></li> 
+    <li><span class="code">/libs/granite/ui/components/foundation/form/datepicker</span></li> 
+    <li><span class="code">/libs/granite/ui/components/foundation/form/pathbrowser</span></li> 
+    <li><span class="code">/libs/granite/ui/components/foundation/form/checkbox</span></li> 
+   </ul> 
+  </note> 
+  <p>Fields are enabled on the page component (<i>not</i> on the template):</p> 
+  <ol> 
+   <li><p>Using CRXDE Lite (or an equivalent method) open your page component.</p> <p>For example: <span class="code">/apps/core/wcm/components/page/v1/page</span><br /> </p> 
+    <note> 
+     <p>This example assumes that the Core Components have been installed on the instance, which is the case if the instance is running with We.Retail sample content. See the <a href="/content/help/en/experience-manager/core-components/user-guide">Core Components documentation</a> for more information.</p> 
+    </note></li> 
+   <li><p>Navigate to the required field within the <span class="code">cq:dialog</span> definition.</p> </li> 
+   <li><p>Define the following property on the field node:</p> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">allowBulkEdit</span><br /> </li> 
+     <li><strong>Type</strong>: <span class="code">Boolean</span><br /> </li> 
+     <li><strong>Value</strong>: <span class="code">true</span></li> 
+    </ul> <p>For example, for the standard page <a href="../../../sites/authoring/using/default-components-foundation.md">foundation component</a>:</p>  <p>The property would be defined on:</p>  
+    <note> 
+     <p>You <i><strong>must</strong></i> not change anything in the <span class="code">/libs</span> path.</p> 
+     <p>This is because the content of <span class="code">/libs</span> is overwritten the next time you upgrade your instance (and may well be overwritten when you apply either a hotfix or feature pack).</p> 
+     <p>The recommended method for configuration and other changes is:</p> 
+     <ol> 
+      <li>Recreate the required item (i.e. as it exists in <span class="code">/libs</span>) under <span class="code">/apps</span><br /> </li> 
+      <li>Make any changes within <span class="code">/apps</span></li> 
+     </ol> 
+    </note></li> 
+   <li><p>Select <strong>Save All</strong> to persist your updates.<br /> </p> </li> 
+  </ol> 
+  <draft-comment type="draft"> 
+   <h3>Defining an Indicator for Mixed Values</h3> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:18:11.556-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>CM:<br /> After some consideration, I'd keep this page straightforward and probably remove this section as it could be confusing (and is incomplete: providing an indicator for mixed values is not sufficient; there's also some more work that needs to be done so that the fields works nice with the bulk editing, see my previous comment on that page). So I'd only keep the part that explain how to add a field to bulk editing using the allowBulkEdit flag. Adding a *custom* field to bulk editing is more advanced; and we anyway don't have documentation explaining how to develop *custom* fields at the moment..<br /> <br /> tldr; Remove the "defining an indicator for mixed values" section; wait until we have some documentation that explains how to create custom fields and a nice github example for it.<br /> <br /> AH: But if we remove that section is it safe to leave the enabling a field section? How do we warn them not to enable a field that hasn't been correctly configured?</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>When there is a common property that has, or can have, different values across selected pages, then this must be represented in some way for editing.</p> 
+   <p>Out-of-the-box, text fields with multiple values are represented with the text:</p> 
+   <p style="margin-left: 40px;"><strong>&amp;lt;Mixed Entries&amp;gt;</strong></p> 
+   <p>For example:<br /> </p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <img imageRotate="0" src="assets/chlimage_1-273.png" /> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>When you add fields to bulk editing then you must consider the representations required for the possible variations in content and, where necessary, provide your own representation.<br /> </p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <note type="note"> 
+    <p>If you do not provide a representation, then the field will appear blank when editing, even though the individual pages do have values.</p> 
+   </note> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>To provide a representation when rendering you need to change your <span class="code">jsp</span>/<span class="code">sightly</span> script to:</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <ul> 
+    <li><p>Detect whether the field has mixed values.</p> 
+     <ul> 
+      <li>Make use of the Granite Field API to detect whether the field is mixed or not. Depending on the result you need to render the value or an appropriate indicator.</li> 
+     </ul> <p>For example:<br /> </p> 
+     <codeblock gutter="true" class="syntax js">
+       &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(isMixed)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;attrs.addClass("foundation-field-mixed");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;attrs.add("placeholder",&amp;nbsp;i18n.get("&lt;Mixed&amp;nbsp;Entries&gt;"));!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;attrs.add("value",&amp;nbsp;vm.get("value",&amp;nbsp;String.class));!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!! 
+     </codeblock> 
+     <note type="caution"> 
+      <p>Consideration should be given before providing fields with mixed values as they must be used with care (to avoid inadvertent data loss).<br /> </p> 
+     </note> 
+     <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:18:11.984-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+      <p>6.1 - do we need links to:</p> 
+      <p>http://docs.adobe.com/docs/en/aem/6-0/develop/ref/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/form/field/index.html ?</p> 
+      <p>CM&amp;gt;&amp;gt;&amp;gt; This links refers to the field UI component, we should actually refer the Field Java API (unfortunately, I didn't find it in the doc). The relevant method is Field#isMixed(Config cfg, Value value)</p> 
+     </draft-comment> 
+     <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:18:12.019-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+      <p>Christian Meyer - 2015/04/27</p> 
+      <p>See https://jira.corp.adobe.com/browse/DOC-5452 for more complicated cases:<br /> <br /> Mixed fields shouldn't be "blindly" submitted (could lead to data loss)<br /> =&amp;gt; foundation-field-mixed class + field.adaptTo(foundation-field-mixed).setMixed() API to properly set the class on the field<br /> =&amp;gt; to prevent their submission, the field should provide an implementation for the field.adaptTo(foundation-field).setDisabled() API<br /> <br /> But this would be maybe too advanced/complicated to explain with words here. We should maybe provide a some code on Github like we did for the Extension points of the Page Authoring</p> 
+      <p>++++++++++++++++++++</p> 
+      <p>Have added a caution and....</p> 
+      <p>Agree that code samples would be preferable - see:<br /> </p> 
+      <ul> 
+       <li><a href="https://jira.corp.adobe.com/browse/DOC-5459">https://jira.corp.adobe.com/browse/DOC-5459</a></li> 
+      </ul> 
+     </draft-comment><p>As an example, you can refer to:</p>  
+     <note type="caution"> 
+      <p>You <i><strong>must</strong></i> not change anything in the <span class="code">/libs</span> path.</p> 
+      <p>This is because the content of <span class="code">/libs</span> is overwritten the next time you upgrade your instance (and may well be overwritten when you apply either a hotfix or feature pack).</p> 
+      <p>The recommended method for configuration and other changes is:</p> 
+      <ol> 
+       <li>Recreate the required item (i.e. as it exists in <span class="code">/libs</span>) under <span class="code">/apps</span><br /> </li> 
+       <li>Make any changes within <span class="code">/apps</span></li> 
+      </ol> 
+     </note></li> 
+   </ul> 
+  </draft-comment> 
+ </body> 
+</html>

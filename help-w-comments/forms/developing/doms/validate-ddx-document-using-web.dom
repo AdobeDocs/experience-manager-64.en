@@ -1,0 +1,104 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="de314fce-60c1-4a19-b8c6-d31cabf52764" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Validate a DDX document using the&amp;#xA;web service API Validate a DDX document using the&amp;#xA;web service API" name="navTitle" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2017-10-03T06:52:32.018-0400" name="lastPublishExternalDate" />
+  <meta content="2018-04-03T08:33:06.379-0400" name="cq:lastReplicated" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Validate a DDX document using theweb service API" name="jcr:title" />
+  <meta content="2017-11-21T06:59:52.943-0500" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-08-09T03:29:46.108-0400" name="lr_lastModified" />
+  <meta content="video" name="pageLayout" />
+  <meta content="5d1094e6-cc2b-4885-af57-4358f078d031" name="jcr:predecessors" />
+  <meta content="2017-10-03T06:52:32.018-0400" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="2017-08-09T03:29:00.000-0400" name="sortDate" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/validating_ddx_documents;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="2017-10-03T06:52:32.018-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/validate-ddx-document-using-web.html" name="publishExternalURL" />
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7377.2" name="cq:gepId" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="light" name="heroGradient" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2017-11-22T19:05:43.677-0500" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-08-09T03:29:00.000-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="left" name="sideColumn" />
+ </head>
+ <body>
+  <p>Validate a DDX document by using the Assembler Service API (web service):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Create a Microsoft .NET project that uses MTOM. Ensure that you use the following WSDL definition: <span class="code">http://localhost:8080/soap/services/AssemblerService?WSDL&amp;lc_version=9.0.1</span>. </p>
+    <note>
+     <p>Replace localhost with the IP address of the forms server.</p>
+    </note></li>
+   <li><p>Create a PDF Assembler client. </p>
+    <ul>
+     <li><p>Create an <span class="code">AssemblerServiceClient</span> object by using its default constructor. </p></li>
+     <li><p>Create an <span class="code">AssemblerServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/AssemblerService?blob=mtom</span>). You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference.</p></li>
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">AssemblerServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li>
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li>
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p>
+      <ul>
+       <li><p>Assign the AEM forms user name to the field <span class="code">AssemblerServiceClient.ClientCredentials.UserName.UserName</span>.</p></li>
+       <li><p>Assign the corresponding password value to the field <span class="code">AssemblerServiceClient.ClientCredentials.UserName.Password</span>.</p></li>
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>. </p></li>
+       <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li>
+      </ul></li>
+    </ul></li>
+   <li><p>Reference an existing DDX document. </p>
+    <ul>
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. The <span class="code">BLOB</span> object is used to store the DDX document.</p></li>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the DDX document and the mode to open the file in.</p></li>
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li>
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method and passing the byte array, the starting position, and the stream length to read.</p></li>
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning its <span class="code">MTOM</span> property with the contents of the byte array.</p></li>
+    </ul></li>
+   <li><p>Set run-time options to validate the DDX document. </p>
+    <ul>
+     <li><p>Create an <span class="code">AssemblerOptionSpec</span> object that stores run-time options by using its constructor.</p></li>
+     <li><p>Set the run-time option that instructs the Assembler service to validate the DDX document by assigning the value true to the <span class="code">AssemblerOptionSpec</span> object’s <span class="code">validateOnly</span> data member. </p></li>
+     <li><p>Set the amount of information that the Assembler service writes to the log file by assigning a string value to the <span class="code">AssemblerOptionSpec</span> object’s <span class="code">logLevel</span> data member. method When validating a DDX document, you want more information written to the log file that will assist in the validation process. As a result, you can specify the value <span class="code">FINE</span> or <span class="code">FINER</span>. For information about the run-time options that you can set, see the <span class="code">AssemblerOptionSpec</span> class reference in <a href="http://www.adobe.com/go/learn_aemforms_javadocs_63_en">AEM Forms API Reference</a>. </p></li>
+    </ul></li>
+   <li><p>Perform the validation. </p><p>Invoke the <span class="code">AssemblerServiceClient</span> object’s <span class="code">invokeDDX</span> method and pass the following values:</p>
+    <ul>
+     <li><p>A <span class="code">BLOB</span> object that represents the DDX document.</p></li>
+     <li><p>The value <span class="code">null</span> for the <span class="code">Map</span> object that usually stores PDF documents. </p></li>
+     <li><p>An <span class="code">AssemblerOptionSpec</span> object that specifies run-time options.</p></li>
+    </ul><p>The <span class="code">invokeDDX</span> method returns an <span class="code">AssemblerResult</span> object that contains information that specifies whether the DDX document is valid.</p></li>
+   <li><p>Save the validation results in a log file. </p>
+    <ul>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the log file and the mode to open the file in. Ensure that the file name extension is .xml.</p></li>
+     <li><p>Create a <span class="code">BLOB</span> object that stores log information by getting the value of the <span class="code">AssemblerResult</span> object’s <span class="code">jobLog</span> data member. </p></li>
+     <li><p>Create a byte array that stores the content of the <span class="code">BLOB</span> object. Populate the byte array by getting the value of the <span class="code">BLOB</span> object’s <span class="code">MTOM</span> field.</p></li>
+     <li><p>Create a <span class="code">System.IO.BinaryWriter</span> object by invoking its constructor and passing the <span class="code">System.IO.FileStream</span> object.</p></li>
+     <li><p>Write the contents of the byte array to a PDF file by invoking the <span class="code">System.IO.BinaryWriter</span> object’s <span class="code">Write</span> method and passing the byte array.</p></li>
+    </ul>
+    <note>
+     <p>If the DDX document is invalid, an <span class="code">OperationException</span> is thrown. Within the catch statement, you can get the value of the <span class="code">OperationException</span> object's <span class="code">jobLog</span> member.</p>
+    </note></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="/programming-with-aem-forms/validating-ddx-documents-validating-ddx#validating_ddx_documents">Validating DDX Documents</a></p>
+  <p><a href="#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f79.2">Quick Start (MTOM): Validating DDX documents using the web service API</a></p>
+  <p><a href="#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2">Invoking AEM Forms using MTOM</a></p>
+ </body>
+</html>

@@ -1,0 +1,92 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="2013-03-22T13:14:46.325-0400" name="firstPublishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/forms-workspace;/content/help/en/experience-manager/6-4/forms/using/morehelp/forms-workspace" name="moreHelpPaths" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-04-03T08:10:32.612-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/backbone-interaction.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-04-03T08:10:32.219-0400" name="topicBrowsingSortDate" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="67c9480e-343c-4aae-ab49-da6cf668895b" name="jcr:predecessors" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="2015-12-04T06:06:04.695-0500" name="lastPublishQADate" />
+  <meta content="2018-04-03T08:10:32.219-0400" name="publishExternalDate" />
+  <meta content="asgupta" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Backbone interaction" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2013-03-08T16:30:23.218-0500" name="jcr:created" />
+  <meta content="466" name="acrolinxWords" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" />
+  <meta content="2018-04-26T04:21:22.113-0400" name="cq:lastModified" />
+  <meta content="2015-12-04T06:06:04.695-0500" name="publishQADate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2013-03-08T16:56:45.409-0500" name="firstPublishQADate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/backbone_interaction_admin_5e12de0b318c6865_2119_report.xml" name="acrolinxReportURL" />
+  <meta content="2018-04-03T08:10:32.219-0400" name="lastPublishExternalDate" />
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/backbone-interaction.html" name="publishQAURL" />
+  <meta content="32" name="acrolinxSentences" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Conceptual information about use of Backbone JavaScript models in AEM Forms workspace." name="seoDescription" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2016-05-31T06:47:55.362-0400" name="acrolinxDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="Backbone interaction" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:lockable;mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" />
+  <meta content="2018-04-26T04:21:22.113-0400" name="locHandOffDate" />
+  <meta content="363d3cba-024f-4657-b396-6e38149a8f4a" name="jcr:uuid" />
+ </head>
+ <body>
+  <p>Backbone is a library that helps in creating and following MVC architecture in web applications. The basic idea of Backbone is to organize your interface into logical views, backed by models, each of which can be updated independently when the model changes, without having to redraw the page. For more information about Backbone, see <a href="http://backbonejs.org/">http://backbonejs.org</a>.</p> 
+  <p>Some key concepts are as follows:</p> 
+  <p><strong>Backbone model</strong> Contains data, and most of the logic related to this data.</p>
+  <p><strong>Backbone view</strong> Used to represent the state of the corresponding model. A backbone view actually behaves like a controller, listening to user interface events like user clicks, or to model events (like data changed), and modifies the user interface as appropriate.</p>
+  <p><strong>HTML template</strong> A wrapper template which has placeholders populated by the model.</p>
+  <p><strong>AEM Forms workspace</strong> Contains several individual components. Each component:</p>
+  <ul> 
+   <li>Represents a single logical user interface element.</li> 
+   <li>Can be a collection of similar components.</li> 
+   <li>Made up of Backbone model, Backbone view, and HTML template.</li> 
+   <li>Contains reference to a service.</li> 
+   <li>Contains reference to required utilities.<br /> </li> 
+  </ul>
+  <p>When a component is initialized, following objects are created:</p> 
+  <ul> 
+   <li>A new instance of Backbone model for the component is created. Service is injected in the model.</li> 
+   <li>A new instance of Backbone view is created.</li> 
+   <li>Instance of corresponding model, HTML template, and Utilities are injected in the view.</li> 
+  </ul> 
+  <p>In Backbone view, there is an event map which maps the various events that can arise due to user interface interactions with a corresponding handler. This mapping is initiated once a component is initialized.</p> 
+  <p>When a view is initialized, the view calls its corresponding model to fetch data from server. Once all data required by a view is available, the view renders the data in the format specified by the HTML template. Multiple views may share same model for communication.</p> 
+  <img imageRotate="0" src="assets/aem_forms_workflow.png" />
+  <p>An example:</p> 
+  <ol> 
+   <li>User clicks a task template in the task list.</li> 
+   <li>Task view listens to the click, and calls render function on the task model.</li> 
+   <li>Task model subsequently calls the service which is a common point for all communication with AEM Forms server.</li> 
+   <li>Service class calls AEM Forms REST endpoint for render method via ajax.</li> 
+   <li>The success callback for this Ajax invocation is defined in the task model.</li> 
+   <li>Task model raises a backbone event as a notification that render call is complete.</li> 
+   <li>Another view, task details view listens to this event from task model.</li> 
+   <li>Task details view then changes the task details template to display the rendered task (form, details, attachments, notes, and so on) to the user.<br /> </li> 
+  </ol> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links>
+   <a href="../../forms/using/backbone-interaction.md" target="_blank">Backbone interaction</a>
+   <a href="../../forms/using/description-reusable-components.md" target="_blank">Description of the reusable components</a>
+   <a href="../../forms/using/folder-structure.md" target="_blank">Understanding the folder structure</a>
+   <a href="../../forms/using/document-details-renderer.md" target="_blank">Document details for renderer</a>
+   <a href="../../forms/using/integrating-html-ws-components-web.md" target="_blank">Integrating AEM Forms workspace components in web applications</a>
+   <a href="../../forms/using/new-render-submit-service.md" target="_blank">New Render and Submit service</a>
+  </related-links>
+ </body>
+</html>

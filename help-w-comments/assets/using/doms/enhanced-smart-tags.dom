@@ -1,0 +1,166 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-04T07:31:04.717-0400" name="jcr:created" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/authoring;/content/help/en/experience-manager/6-4/assets/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="2018-09-18T07:14:47.853-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-24T11:58:14.237-0400" name="locHandOffDate" /> 
+  <meta content="2018-09-18T07:14:47.845-0400" name="topicBrowsingSortDate" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="2018-09-18T07:14:47.845-0400" name="publishExternalDate" /> 
+  <meta content="108" name="acrolinxSentences" /> 
+  <meta content="2018-04-03T09:37:31.467-0400" name="firstPublishExternalDate" /> 
+  <meta content="1490" name="acrolinxWords" /> 
+  <meta content="cmajumda" name="contentOwner" /> 
+  <meta content="2019-01-12T17:38:06.913-0500" name="acrolinxDate" /> 
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:authoring" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-09-18T07:14:47.845-0400" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="asgupta" name="cq:lastModifiedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Enhanced Smart Tags" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="asgupta" name="cq:lastReplicatedBy" /> 
+  <meta content="c6002b72-a949-4944-b4ef-b81bcdb8e53a" name="jcr:predecessors" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="6eddb0d9-c7e5-468f-a179-81fdd9bee00e" name="jcr:uuid" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/enhanced_smart_tags_krs_workflow_f3c2f2ccebf6138e_233_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-09-18T07:14:47.913-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/enhanced-smart-tags.html" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <h2>Overview of Enhanced Smart Tags</h2> 
+  <p>Organizations that deal with digital assets increasingly use taxonomy-controlled vocabulary in asset metadata. Essentially, it includes a list of keywords that employees, partners, and customers commonly use to refer to and search for digital assets of a particular class. Tagging assets with taxonomy-controlled vocabulary ensures that they can be easily identified and retrieved by tag-based searches. </p> 
+  <p>Compared to natural language vocabularies, tagging digital assets based on business taxonomy helps align them with a company's business and ensures that the most relevant assets appear in searches.</p> 
+  <p>For example, a car manufacturer can tag car images with model names so only relevant images appear when images of various models are searched to design a promotion campaign.</p> 
+  <p>For the Smart Content Service to apply the right tags, you must train it to recognize your taxonomy. To train the service, first curate a set of assets and tags that best describe these assets. Apply these tags on the assets and run a training workflow to help the service learn.</p> 
+  <p>Once a tag is trained and ready, the service can now apply these tags on assets through a tagging workflow. </p> 
+  <p>In the background, the Smart Content Service uses Adobe Sensei's AI framework to train its image recognition algorithm on your tag structure and business taxonomy. This content intelligence is then used to apply relevant tags on a different set of assets.</p> 
+  <p>Smart Content Service is a cloud service that is hosted on Adobe I/O. To use it in Adobe Experience Manager (AEM), the system administrator must integrate your AEM instance with Adobe IO.</p> 
+  <p>In summary, here are the main steps to use the Smart Content Service:</p> 
+  <ul> 
+   <li>Onboarding</li> 
+   <li>Reviewing assets and tags (taxonomy definition)</li> 
+   <li>Training the Smart Content Service</li> 
+   <li>Automatic tagging</li> 
+  </ul> 
+  <draft-comment lastModifiedBy="satyam" lastModifiedDate="2018-03-13T01:28:24.890-0400" type="annotation">
+    [Satya Deep] - Typo | Custom | Custom Tags 
+  </draft-comment> 
+  <draft-comment lastModifiedBy="satyam" lastModifiedDate="2018-03-22T01:52:38.052-0400" type="annotation">
+    [Satya Deep] - "add you as a user." This doesn't make sense. Probably it can be removed. 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/flowchart.gif" /> 
+  <h2>Prerequisites</h2> 
+  <h2>Onboarding</h2> 
+  <p>The Smart Content Service is available for purchase as an add-on to AEM 6.4. After you purchase, an email is sent to the administrator of your organization with a link to Adobe IO.</p> 
+  <p>The administrator can follow the link to integrate the Smart Content Service with AEM. To integrate the service with AEM Assets, see <a href="../../assets/using/config-smart-tagging.md">Configure Smart Tags</a>.</p> 
+  <p>The onboarding process is complete when the administrator configures the service and adds users in AEM.</p> 
+  <note> 
+   <p>The Smart Content Service is supported on AEM 6.4 only. If you are running a previous version of AEM and require automatic tagging service for your assets, see <a href="/content/help/en/experience-manager/6-3/assets/using/touch-ui-smart-tags">Smart Tags</a>.</p> 
+  </note> 
+  <h2>Reviewing assets and tags</h2> 
+  <p>After you are onboarded, the first thing you want to do is identify a set of tags that best describe these images in the context of your business. </p> 
+  <p>Next, review images to identify a set of images that best represent your product for a particular business requirement. Ensure that the assets in your curated set conform to <a href="../../assets/using/smart-tags-training-guidelines.md">Smart Content Service training guidelines</a>.</p> 
+  <p>Add the assets to a folder and apply the tags to each asset from the properties page. Then, run the training workflow on this folder. The curated set of assets enables the Smart Content Service to effectively train more assets using your taxonomy definitions.</p> 
+  <note> 
+   <ol> 
+    <li>Training is an irrevocable process. Adobe recommends that you review the tags in the curated set of assets well before training the Smart Content Service on the tags.</li> 
+    <li>Please do read <a href="../../assets/using/smart-tags-training-guidelines.md">Smart Content Service training guidelines</a> before starting training for any tag.</li> 
+    <li>When you train the Smart Content Service for the first time, Adobe recommends that you train it on at least two distinct tags.</li> 
+   </ol> 
+  </note> 
+  <h2>Training the Smart Content Service</h2> 
+  <p>For the Smart Content Service to recognize your business taxonomy, run it on a set of assets that already include tags that are relevant to your business. After training, the service can apply the same taxonomy on a similar set of assets.</p> 
+  <p>You can train the service multiple times to improve its ability to apply relevant tags. After each training cycle, run a tagging workflow and check whether your assets are tagged appropriately.</p> 
+  <p>You can train the Smart Content Service periodically or on requirement basis.</p> 
+  <draft-comment lastModifiedBy="dee" lastModifiedDate="2018-03-14T04:24:21.407-0400" type="annotation">
+    [dee] 1. we should mention somewhere about defining tags taxonomy. 2. should we mention algorithm here ? 3. add note for first time training should be at least on two set of assets i.e. two different tags for successful running training to complete. 
+  </draft-comment> 
+  <note> 
+   <p>The training workflow runs on folders only.</p> 
+  </note> 
+  <h3>Periodic training</h3> 
+  <p>You can enable the Smart Content Service to train periodically on the assets and associated tags within a folder. Open the properties page of your asset folder, select <strong>Enable Smart Tags</strong> under the <strong>Details</strong> tab, and save the changes.</p> 
+  <img imageRotate="0" src="assets/enable_smart_tags.png" /> 
+  <p>Once this option is selected for a folder, AEM runs a training workflow automatically to train the Smart Content Service on the folder assets and their tags. By default, the training workflow runs on a weekly basis at 12:30 AM on Saturdays.</p> 
+  <h3>On-demand training</h3> 
+  <p>You can train the Smart Content Service whenever required from the Workflow console.</p> 
+  <ol> 
+   <li><p>Tap/click the AEM logo, and go to <strong>Tools</strong> &amp;gt; <strong>Workflow</strong> &amp;gt; <strong>Models</strong>.</p> </li> 
+   <li><p>From the <strong>Workflow Models</strong> page, select the <strong>Smart Tags Training</strong> workflow and then tap/click <strong>Start Workflow</strong> from the toolbar.</p> </li> 
+   <li><p>In the <strong>Run Workflow</strong> dialog, browse to the payload folder that includes the tagged assets for training the service.</p> </li> 
+   <li><p>Specify a title for the workflow and a add a comment. Then, tap/click <strong>Run</strong>. The assets and tags are submitted for training.</p> <img imageRotate="0" src="assets/workflow_dialog.png" /></li> 
+  </ol> 
+  <note> 
+   <p>Once the assets in a folder are processed for training, only the modified assets are processed in subsequent training cycles.</p> 
+  </note> 
+  <h3>Viewing training reports</h3> 
+  <p>To check whether the Smart Content Service is trained on your tags in the training set of assets, review the training workflow report from the Reports console.</p> 
+  <draft-comment lastModifiedBy="sneh" lastModifiedDate="2018-03-14T04:23:16.683-0400" type="annotation">
+    Do we want to do away with the word algorithm or is it ok? 
+  </draft-comment> 
+  <ol> 
+   <li><p>Tap/click the AEM logo, and go to <strong>Tools</strong> &amp;gt; <strong>Assets</strong> &amp;gt; <strong>Reports</strong>.</p> </li> 
+   <li><p>In the <strong>Asset Reports</strong> page, tap/click <strong>Create</strong>.</p> </li> 
+   <li><p>Select the <strong>Smart Tags Training</strong> report, and then tap/click <strong>Next</strong> from the toolbar.</p> </li> 
+   <li><p>Specify a title and description for the report. Under <strong>Schedule Report</strong>, leave the <strong>Now</strong> option selected. If you want to schedule the report for later, select <strong>Later</strong> and specify a date and time. Then, tap/click <strong>Create</strong> from the toolbar.</p> </li> 
+   <li><p>In the <strong>Asset Reports</strong> page, select the report you generated. To view the report, tap/click the <strong>View</strong> icon from the toolbar.</p> </li> 
+   <li><p>Review the details of the report. </p> <p>The report displays the training status for the tags you trained. The green color in the <strong>Training Status</strong> column indicates that the Smart Content Service is trained for the tag. Yellow color indicates that the service is not completely trained for a particular tag. In this case, add more images with the particular tag and run the training workflow to train the service completely on the tag.</p> <p>If you do not see your tags in this report, run the training workflow again for these tags.</p> </li> 
+   <li><p>To download the report, select it from the list, and tap/click the <strong>Download</strong> icon from the toolbar. The report downloads as an Excel file.</p> </li> 
+  </ol> 
+  <h2>Tagging assets automatically</h2> 
+  <p>After you have trained the Smart Content Service, you can trigger the tagging workflow to automatically apply appropriate tags on a different set of similar assets.</p> 
+  <p>You can run the tagging workflow periodically or whenever required.</p> 
+  <note> 
+   <p>The tagging workflow runs on both assets and folders.</p> 
+  </note> 
+  <h3>Periodic tagging</h3> 
+  <p>You can enable the Smart Content Service to periodically tag assets within a folder. Open the properties page of your asset folder, select <strong>Enable Smart Tags</strong> under the <strong>Details</strong> tab, and save the changes.</p> 
+  <p>Once this option is selected for a folder, the Smart Content Service automatically tags the assets within the folder. By default, the the tagging workflow runs every day at 12:00 AM.</p> 
+  <draft-comment lastModifiedBy="asgupta" lastModifiedDate="2018-07-05T10:35:28.739-0400" type="annotation">
+    Which time zone? Distributed server. 
+  </draft-comment> 
+  <h3>On-demand tagging</h3> 
+  <p>You can trigger the tagging workflow from the following to instantly tag your assets:</p> 
+  <ul> 
+   <li>Workflow console</li> 
+   <li>Timeline</li> 
+  </ul> 
+  <note> 
+   <p>If you run the tagging workflow from the timeline, you can apply tags on a maximum of 15 assets at a time.</p> 
+  </note> 
+  <h4>Tagging assets from the Workflow console</h4> 
+  <ol> 
+   <li><p>Tap/click the AEM logo, and go to <strong>Tools</strong> &amp;gt; <strong>Workflow</strong> &amp;gt; <strong>Models</strong>.</p> </li> 
+   <li><p>From the <strong>Workflow Models</strong> page, select the <strong>DAM Smart Tags Assets</strong> workflow and then tap/click <strong>Start Workflow</strong> from the toolbar.</p> <img imageRotate="0" src="assets/dam_smart_tag_workflow.png" /></li> 
+   <li><p>In the <strong>Run Workflow</strong> dialog, browse to the payload folder containing assets on which you want to apply your tags automatically.</p> </li> 
+   <li><p>Specify a title for the workflow and an optional comment. Then, tap/click <strong>Run</strong>.</p> <img imageRotate="0" src="assets/tagging_dialog.png" /><p>Navigate to the asset folder and review the tags to verify whether the Smart Content Service tagged your assets properly. For details, see <a href="../../assets/using/managing-smart-tags.md">Managing Smart Tags</a>. </p> </li> 
+  </ol> 
+  <h4>Tagging assets from the timeline</h4> 
+  <ol> 
+   <li><p>From the Assets user interface, select the folder containing assets or specific assets to which you want to apply smart tags.</p> </li> 
+   <li><p>Tap/click the GlobalNav icon and open the timeline.</p> </li> 
+   <li><p>Tap/click the arrow at the bottom, and then tap/click <strong>Start Workflow</strong>.</p> <img imageRotate="0" src="assets/start_workflow.png" /></li> 
+   <li><p>Select the <strong>DAM Smart Tag Assets</strong> workflow, and specify a title for the workflow.</p> </li> 
+   <li><p>Tap/click <strong>Start</strong>. The workflow applies your tags on assets. Navigate to the asset folder and review the tags to verify whether the Smart Content Service tagged your assets properly. For details, see <a href="../../assets/using/managing-smart-tags.md">Managing Smart Tags</a>. </p> </li> 
+  </ol> 
+  <note> 
+   <p>In the subsequent tagging cycles, only the modified assets are tagged again with newly-trained tags.</p> 
+   <p>However, even unaltered assets are tagged if the gap between the last and current tagging cycles for the tagging workflow exceeds 24 hours.</p> 
+   <p>For periodic tagging workflows, unaltered assets are tagged when the gap exceeds 6 months.</p> 
+  </note> 
+ </body> 
+</html>

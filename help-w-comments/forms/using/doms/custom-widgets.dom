@@ -1,0 +1,147 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="You can plug in custom widgets to a Mobile Forms. You can extend existing jQuery Widgets or develop your own custom widgets." name="seoDescription" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="LiveCycle/10.5/MobileForms/WSf49552907c5bbe1e1b90eeb013cd21cee5b-7fff" name="cq:gepId" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/html5_forms;/content/help/en/experience-manager/6-4/forms/morehelp/html5_forms" name="moreHelpPaths" /> 
+  <meta content="Create custom appearances in HTML5 forms" name="jcr:title" /> 
+  <meta content="2015-11-03T03:22:30.810-0500" name="publishQADate" /> 
+  <meta content="660" name="acrolinxWords" /> 
+  <meta content="robhagat" name="lr_creator" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2013-03-22T13:10:27.633-0400" name="firstPublishExternalDate" /> 
+  <meta content="Available widgets" name="navTitle" /> 
+  <meta content="2018-04-26T04:39:26.474-0400" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="robhagat" name="lr_lastModifiedBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/custom_widgets_admin_5e12de0b318c6865_2095_report.xml" name="acrolinxReportURL" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/custom-widgets.html" name="publishExternalURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html5-forms/custom-widgets.html" name="publishQAURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="42" name="acrolinxSentences" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2015-11-03T03:22:30.810-0500" name="lastPublishQADate" /> 
+  <meta content="2018-04-26T04:39:26.474-0400" name="locHandOffDate" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="sortDate" /> 
+  <meta content="2018-04-03T08:26:29.248-0400" name="lastPublishExternalDate" /> 
+  <meta content="2016-05-31T06:46:49.045-0400" name="acrolinxDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="autotagsRejected" /> 
+  <meta content="" name="autotags" /> 
+  <meta content="2017-12-01T19:02:12.196-0500" name="jcr:created" /> 
+  <meta content="robhagat" name="contentOwner" /> 
+  <meta content="2018-04-03T08:26:29.248-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-03T08:26:30.016-0400" name="cq:lastReplicated" /> 
+  <meta content="02c5e727-4306-4dec-9277-335b77623e4e" name="jcr:uuid" /> 
+  <meta content="2013-02-20T08:58:39.917-0500" name="firstPublishQADate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:hTML5_forms" name="cq:tags" /> 
+  <meta content="ab00e63a-fc4a-4090-aed8-0ed07c61bb51" name="jcr:predecessors" /> 
+  <meta content="deepakk" name="cq%3AlastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2013-03-15T12:30:51.923-0400" name="cq%3AlastModified" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>You can plug in custom widgets to a Mobile Forms. You can extend existing jQuery Widgets or develop your own custom widgets using appearances framework. XFA engine uses various widgets, see <a href="../../forms/using/introduction-widgets.md" target="_blank">Appearance framework for adaptive and HTML5 forms</a> for detailed information.</p> 
+  <img alt="An example of default and custom widget" captionBottom="An example of default and custom widget" imageRotate="0" src="assets/custom-widgets.jpg" title="An example of default and custom widget" /> 
+  <h2>Integrating custom widgets with HTML5 forms</h2> 
+  <h3>Create a profile&amp;nbsp;</h3> 
+  <p>You can create a profile or choose an existing profile to add a custom widget. For more information on creating profiles, see <a href="../../forms/using/custom-profile.md" target="_blank">Creating custom Profile</a>.</p> 
+  <h3>Create a widget</h3> 
+  <p>HTML5 forms provide an implementation of the widget framework that can be extended to create new widgets. The implementation is a jQuery widget <em>abstractWidget</em> that can be extended to write a new widget. The new widget can be made functional only by extending/overriding the below mentioned functions.<br /> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Function/Class</td> 
+     <td>Description</td> 
+    </tr> 
+    <tr> 
+     <td>render</td> 
+     <td>The render function returns the jQuery object for the default HTML element of the widget. The default HTML element should be of focusable type. For example, &lt;a&gt;, &lt;input&gt;, and &lt;li&gt;. The returned element is used as $userControl. If the $userControl specifies the above constraint, then functions of the AbstractWidget class work as expected, otherwise some of the common APIs (focus, click) require changes. </td> 
+    </tr> 
+    <tr> 
+     <td>getEventMap</td> 
+     <td>Returns a map to convert HTML events to XFA events. <br /> {<br /> blur: XFA_EXIT_EVENT,<br /> }<br /> This example shows that the blur is an HTML event and XFA_EXIT_EVENT is corresponding XFA event. </td> 
+    </tr> 
+    <tr> 
+     <td>getOptionsMap</td> 
+     <td>Returns a map which provides detail what action to perform on change of an option. The keys are the options that are provided to the widget and values are the functions that are called whenever a change in that option is detected. The widget provides handlers for all the common options (except value and displayValue)</td> 
+    </tr> 
+    <tr> 
+     <td>getCommitValue</td> 
+     <td>The Widget framework loads the function whenever the value of the widget is saved in the XFAModel (for example on exit event of a textField). The implementation should return the value that is saved in the widget. The handler is provided with the new value for the option.</td> 
+    </tr> 
+    <tr> 
+     <td>showValue</td> 
+     <td>By default, in XFA on enter event, the rawValue of the field is displayed. This function is called to show the rawValue to the user. </td> 
+    </tr> 
+    <tr> 
+     <td>showDisplayValue</td> 
+     <td>By default, in XFA on exit event, the formattedValue of the field is displayed. This function is called to show the formattedValue to the user. </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>To create your own widget, in the profile created above, include references of the JavaScript file which contains overridden functions and newly added functions. For example, the <em>sliderNumericFieldWidget</em> is a widget for numeric Fields. To use the widget in your profile in the header section, include the following line:</p> 
+  <codeblock gutter="true" class="syntax js">
+    window.formBridge.registerConfig("widgetConfig"&amp;nbsp;,&amp;nbsp;widgetConfigObject); 
+  </codeblock> 
+  <h3>Register custom widget with XFA Scripting Engine&amp;nbsp;</h3> 
+  <p>When the custom widget code is ready, register the widget with the scripting engine by using <span class="code">registerConfig </span>API for <a href="../../forms/using/form-bridge-apis.md" target="_blank">Form Bridge</a>. It takes widgetConfigObject as input.</p> 
+  <codeblock gutter="true" class="syntax js">
+    !!discoiqbr!!window.formBridge.registerConfig("widgetConfig",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;".&lt;field-identifier&gt;":"&lt;name-of-the-widget&gt;"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;); 
+  </codeblock> 
+  <h4>widgetConfigObject</h4> 
+  <p>The widget configuration is provided as a JSON object (a collection of key value pairs) where the key identifies the fields and value represents the widget to use with those fields. A sample configuration looks like:</p> 
+  <p><em>{</em></p> 
+  <p><em>“identifier1” : “customwidgetname”,<br /> “identifier2” : “customwidgetname2”,<br /> ..<br /> }</em></p> 
+  <p>where “identifier” is a jQuery CSS selector that represents a particular field, a set of fields of a particular type, or all fields. The following lists the value of the identifier in different cases:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Type of identifier</th> 
+     <th>Identifier </th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>Particular field with name fieldname</td> 
+     <td>Identifier:"div.fieldname"</td> 
+     <td>All fields with the name ‘fieldname’ are rendered using the widget.</td> 
+    </tr> 
+    <tr> 
+     <td>All fields of type ‘type’(where type is NumericField, DateField, and so on.):</td> 
+     <td>Identifier: "div.type"</td> 
+     <td>For Timefield and DateTimeField, the type is textfield as these fields are not supported.</td> 
+    </tr> 
+    <tr> 
+     <td>All fields</td> 
+     <td>Identifier: "div.field"</td> 
+     <td> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links> 
+   <a href="../../forms/using/introduction-widgets.md">Appearance framework for adaptive and HTML5 forms</a> 
+   <a href="../../forms/using/custom-profile.md">Creating custom profiles for HTML5 forms</a> 
+   <a href="../../forms/using/custom-widgets.md">Custom Widgets for HTML5 forms</a> 
+   <a href="../../forms/using/form-bridge-apis.md">Form Bridge for HTML5 forms</a> 
+   <a href="../../forms/using/integrate-form-bridge-forms-portal.md">Integrating form bridge with forms portal</a> 
+   <a href="../../forms/using/css-styles.md">Changing default styles of HTML5 forms</a> 
+  </related-links> 
+ </body> 
+</html>

@@ -1,0 +1,62 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="gtalwar" name="contentOwner" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="noIndex" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-04-26T04:37:37.310-0400" name="locHandOffDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Installing and configuring Designer" name="jcr:title" />
+  <meta content="2016-12-22T04:59:21.884-0500" name="acrolinxDate" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/designer;/content/help/en/experience-manager/6-4/forms/using/morehelp/jee;/content/help/en/experience-manager/6-4/forms/using/morehelp/designer;/content/help/en/experience-manager/6-4/forms/using/morehelp/jee" name="moreHelpPaths" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2018-04-03T08:42:20.133-0400" name="publishExternalDate" />
+  <meta content="2018-04-26T04:37:37.311-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T08:42:21.204-0400" name="cq:lastReplicated" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/installing_configuring_designer_krs_workflow_c77e08fb6f309c49_38_report.xml" name="acrolinxReportURL" />
+  <meta content="122" name="acrolinxWords" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Designer is available as a stand-alone installer and is also bundled with Workbench. Learn how to install stand-alone Designer.  " name="seoDescription" />
+  <meta content="2018-04-03T08:42:20.133-0400" name="lastPublishExternalDate" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="2016-12-23T01:39:46.906-0500" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="green" name="acrolinxPageStatus" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/installing-configuring-designer.html" name="publishExternalURL" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:designer;geptopics:SG_AEMFORMS/categories/jee" name="cq:tags" />
+  <meta content="c18a22f6-2922-4607-877e-12cc992a4e60" name="jcr:predecessors" />
+  <meta content="2017-12-01T19:03:58.053-0500" name="jcr:created" />
+  <meta content="" name="privateBeta" />
+  <meta content="2018-04-03T08:42:20.133-0400" name="topicBrowsingSortDate" />
+  <meta content="58310ea4-8ddd-487a-a11f-8d314dc2b6cb" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="13" name="acrolinxSentences" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>Designer is available as a stand-alone installer and is also bundled with WorkBench. If you are using a stand-alone installer for Designer, follow these steps:</p> 
+  <ol>
+   <li><p>Contact Adobe Support to download the Designer installer.</p> 
+    <note>
+     <p>If you have a previous version of Designer installed, uninstall the previous version before proceeding. </p> 
+    </note></li>
+   <li><p>Launch the Designer installer by double-clicking setup.exe.</p> </li>
+   <li><p>Proceed and provide your details and the serial number on the Personalization screen.</p> </li>
+   <li><p>If you accept the license agreement, click Next to proceed.</p> </li>
+   <li><p>(Optional) change the default installation path, if you want to install Designer at a location of your choice. Click Next.</p> </li>
+   <li><p>Click Back to change any preferences. To install Designer, click Install.</p> </li>
+   <li><p>Click Finish when the installation completes.</p> </li>
+  </ol>
+ </body>
+</html>

@@ -1,0 +1,95 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/device-registration.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS;content_type:reference;topic_tags:administering" name="cq:tags" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="089a0b43-346b-40d6-9d3d-d3d0a41f9857" name="jcr:predecessors" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="e66298a4-4df4-4eae-b0d2-69d40dd36951" name="jcr:uuid" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-01-07T16:37:49.662-0500" name="cq:lastModified" /> 
+  <meta content="2019-01-07T16:37:49.655-0500" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-01-07T16:37:49.655-0500" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-01-07T16:37:49.655-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2018-11-26T17:26:58.686-0500" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2019-01-07T16:37:49.692-0500" name="cq:lastReplicated" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Device Registration" name="jcr:title" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="This page describes the device registration process in an AEM Screens project." name="seoDescription" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/administering;/content/help/en/experience-manager/6-4/screens/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="2019-01-15T15:39:11.260-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>The following page describes the device registration process in an AEM Screens project.</p> 
+  <h2>Registering a Device</h2> 
+  <p>The device registration process is done on 2 separate machines:</p> 
+  <ul> 
+   <li>The actual device to be registered, for example your Signage Display</li> 
+   <li>The AEM server that is used to register your device</li> 
+  </ul> 
+  <note> 
+   <p>Once you download the latest Windows Player (<em>.exe</em>), from <a href="https://download.macromedia.com/screens/"><strong>AEM 6.4 Player Downloads</strong></a> page, follow the steps on the player to complete the ad-hoc installation:</p> 
+   <ol> 
+    <li>Long-press on the top left corner to open the admin panel.</li> 
+    <li>Navigate to <strong>Configuration</strong> from the left action menu and enter the location address of the AEM instance in <strong>Server</strong> and click <strong>Save</strong>.</li> 
+    <li>Click on the <strong>Registration</strong> link from the left action menu and the steps below to complete the device registation process.</li> 
+   </ol> 
+  </note> 
+  <img imageRotate="0" src="assets/screen_shot_2018-11-26at12118pm.png" /> 
+  <ol> 
+   <li><p>On your device, start the AEM Screens Player. The registration UI is shown.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at104230am.png" /></li> 
+   <li><p>In AEM, navigate to the <strong>Devices</strong> folder of your project.</p> 
+    <note> 
+     <p>To get more information on creating a new project for Screens in the AEM dashboard, see <a href="../../screens/using/creating-a-screens-project.md">Create and Manage Screens Project</a>.</p> 
+    </note></li> 
+   <li><p>Tap/click the <strong>Device Manager</strong> button in the action bar.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at104702am.png" /></li> 
+   <li><p>Tap/click the <strong>Device Registration</strong> button on the top right.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at104815am.png" /></li> 
+   <li><p>Select the required device (same as step 1) and tap/click <strong>Register Device</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at105112am.png" /></li> 
+   <li><p>In AEM, wait for the device to send its registration code.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at105150am.png" /></li> 
+   <li><p>In your device, check the <strong>Registration Code</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at105227am.png" /></li> 
+   <li><p>If the <strong>Registration Code</strong> is the same on both machines, tap/click <strong>Validate</strong> button in AEM, as shown in the step (6).</p> </li> 
+   <li><p>Set the desired name for the device, and click<strong> Register</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at105357am.png" /></li> 
+   <li><p>Tap/click<strong> Finish</strong> to complete the registration process.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at105456am.png" /> 
+    <note> 
+     <p>The <strong>Register New</strong> allows you to register a new device.</p> 
+     <p>The <strong>Assign Display</strong> lets you directly add the device to a display.</p> 
+    </note><p>If you click <strong>Finish</strong>, you will need to assign the device to a display.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at105740am.png" /> 
+    <note> 
+     <p>To learn more about creating and managing a display for your Screens project, please refer to <a href="../../screens/using/managing-displays.md">Creating and Managing Displays</a>.</p> 
+    </note></li> 
+  </ol> 
+  <h3>Assigning Device to a Display</h3> 
+  <p>If you have not assigned the device to a display, follow the steps below to assign your device to a display in your AEM Screens project:</p> 
+  <ol> 
+   <li><p>Select the device and click <strong>Assign Device</strong> from the action bar.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at111026am.png" /></li> 
+   <li><p>Select the path of the display in <strong>Display/Device Config Path</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at111252am.png" /></li> 
+   <li><p>Click <strong>Assign</strong> when you select the path.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at111722am.png" /></li> 
+   <li><p>Click <strong>Finish</strong> once the device is assigned successfully, as shown in the figure below.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at112041am.png" /><p>Additionally, you can view the display dashboard on clicking <strong>Finish</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-26at112154am.png" /></li> 
+  </ol> 
+  <h2>Limitations on Device Registration </h2> 
+  <p>System wide user password restrictions might cause failure in the device registration. The device registration uses a random generated password to create the device user.</p> 
+  <p>If the password is restricted by the <em>AuthorizableActionProvider</em> configuration, creating the device user might fail.</p> 
+  <note> 
+   <p>The current generated random password is composed of 36 ASCII characters, ranging from 33 - 122 (includes almost all special characters).</p> 
+  </note> 
+  <codeblock gutter="true" class="syntax java">
+    25.09.2016&amp;nbsp;16:54:03.140&amp;nbsp;*ERROR*&amp;nbsp;[59.100.121.82&amp;nbsp;[1474844043109]&amp;nbsp;POST&amp;nbsp;/content/screens/svc/registration&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.cq.screens.device.registration.impl.RegistrationServlet&amp;nbsp;Error&amp;nbsp;during&amp;nbsp;device&amp;nbsp;registration!!discoiqbr!!javax.jcr.nodetype.ConstraintViolationException:&amp;nbsp;Password&amp;nbsp;violates&amp;nbsp;password&amp;nbsp;constraint&amp;nbsp;(^(?=.*\d).{7,9}$).!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;org.apache.jackrabbit.oak.spi.security.user.action.PasswordValidationAction.validatePassword(PasswordValidationAction.java:105)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;org.apache.jackrabbit.oak.spi.security.user.action.PasswordValidationAction.onPasswordChange(PasswordValidationAction.java:76)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;at&amp;nbsp;org.apache.jackrabbit.oak.security.user.UserManagerImpl.onPasswordChange(UserManagerImpl.java:308) 
+  </codeblock> 
+  <h4>Additional Resources</h4> 
+  <p>To learn about AEM Screens Player, see <a href="../../sites/authoring/using/working-with-screens-player.md">AEM Screens Player</a>.</p> 
+ </body> 
+</html>

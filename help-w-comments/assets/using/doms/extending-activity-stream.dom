@@ -1,0 +1,86 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:extending-assets;content_type:reference" name="cq:tags" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2017-10-31T16:34:53.826-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-31T16:34:53.826-0400" name="lastPublishExternalDate" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/extending-activity-stream.html" name="publishExternalURL" />
+  <meta content="b8763f8b-4a85-418a-b8b5-64e26095d1fe" name="jcr:predecessors" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="2018-04-24T11:58:11.130-0400" name="locHandOffDate" />
+  <meta content="Integrating Assets with Activity Stream" name="jcr:title" />
+  <meta content="2017-10-31T16:34:53.826-0400" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="colligno@adobe.com" name="jcr:createdBy" />
+  <meta content="266" name="acrolinxWords" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="Describes the recording capabilities of AEM and how to configure AEM to record specific events." name="seoDescription" />
+  <meta content="2018-04-24T11:58:11.130-0400" name="cq:lastModified" />
+  <meta content="2012-09-05T05:18:32.461-0400" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Integrating Assets with Activity Stream" name="navTitle" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="/content/docs/en/aem/6-3/develop/extending/assets/activity-stream" name="qaNotes" />
+  <meta content="2018-04-03T08:08:21.605-0400" name="cq:lastReplicated" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="9927a58c-969f-44d0-ab6c-d0bb63c0002c" name="jcr:uuid" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/extending_activity_stream_krs_workflow_f3c2f2ccebf6138e_132_report.xml" name="acrolinxReportURL" />
+  <meta content="2019-01-12T17:28:45.640-0500" name="acrolinxDate" />
+  <meta content="Integrating Assets with Activity Stream" name="seoTitle" />
+  <meta content="24" name="acrolinxSentences" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/extending-assets;/content/help/en/experience-manager/6-4/assets/morehelp/extending-assets" name="moreHelpPaths" />
+  <meta content="mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-10-31T16:34:53.826-0400" name="firstPublishExternalDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <p>Adobe Experience Manager (AEM) Assets users perform many actions like creating, uploading and deleting Assets. These actions can be recorded so you are able to provide an history of what has been done by a user. This section describes the recording capabilities of AEM and how to configure AEM in order to record specific events.<br /> </p> 
+  <h3>Performance Considerations and Default Behavior</h3>
+  <p>This integration could be CPU and disk space consuming for example when doing bulk import. For these reasons the AEM Assets integration with the Activity Stream is disabled by default.<br /> </p> 
+  <h3>Supported Action Events</h3>
+  <p>The following events can be configured to be recorded:<br /> </p> 
+  <ul> 
+   <li>License accepted (ACCEPTED)</li> 
+   <li>Asset created (ASSET_CREATED)</li> 
+   <li>Asset moved (ASSET_MOVED)</li> 
+   <li>Asset removed (ASSET_REMOVED)</li> 
+   <li>License rejected (REJECTED)</li> 
+   <li>Asset downloaded (DOWNLOADED)</li> 
+   <li>Asset versioned (VERSIONED)</li> 
+   <li>Asset version restored (RESTORED)</li> 
+   <li>Asset Metadata updated (METADATA_UPDATED)</li> 
+   <li>Asset published to external system (PUBLISHED_EXTERNAL)</li> 
+   <li>Asset's original updated (ORIGINAL_UPDATED)</li> 
+   <li>Asset Rendition updated (RENDITION_UPDATED)</li> 
+   <li>Asset Rendition removed (RENDITION_REMOVED)</li> 
+   <li>Sub-asset updated (SUBASSET_UPDATED)</li> 
+   <li>Sub-asset removed (SUBASSET_REMOVED)</li> 
+  </ul> 
+  <h3>Configuring AEM Assets Events Recording</h3>
+  <p>The <a href="../../sites/deploying/using/configuring-osgi.md">Web console</a> provides access to the AEM Assets Event Recorder tuning. To configure the AEM Assets Event Recorder, proceed as follows:<br /> </p> 
+  <ol>
+   <li><p>Navigate to the <strong>Web console</strong><br /> </p> </li>
+   <li><p>Click <strong>Configuration</strong>.<br /> </p> </li>
+   <li><p>Double click <strong>Day CQ DAM Event Recorder</strong>.<br /> </p> </li>
+   <li><p>Check <strong>Enables this service</strong>.<br /> </p> </li>
+   <li><p>Check which <strong>Event Types</strong> you want to be recorded in the user activity stream.<br /> </p> </li>
+   <li><p>Click <strong>Save</strong>.<br /> </p> </li>
+  </ol>
+  <h3>Reading recorded events</h3>
+  <p>The recorded events are stored as activities. You can read them programmatically by using the <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/ActivityManager">ActivityManager API</a>.<br /> </p> 
+ </body>
+</html>

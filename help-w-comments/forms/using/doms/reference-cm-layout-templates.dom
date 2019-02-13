@@ -1,0 +1,87 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/reference-cm-layout-templates.html" name="publishExternalURL" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-01-07T06:42:38.395-0500" name="locHandOffDate" />
+  <meta content="2019-01-03T06:09:43.325-0500" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="video" name="pageLayout" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="anujkapo" name="cq:lastModifiedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-01-07T06:42:38.396-0500" name="cq:lastModified" />
+  <meta content="left" name="sideColumn" />
+  <meta content="light" name="heroGradient" />
+  <meta content="514d7566-2755-4957-b966-62c149656185" name="jcr:predecessors" />
+  <meta content="anujkapo" name="cq:lastReplicatedBy" />
+  <meta content="2019-01-03T06:09:43.325-0500" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Reference letter templates" name="jcr:title" />
+  <meta content="2019-01-03T06:09:43.325-0500" name="lastPublishExternalDate" />
+  <meta content="2018-03-29T07:29:25.289-0400" name="jcr:created" />
+  <meta content="2019-01-03T06:09:43.360-0500" name="cq:lastReplicated" />
+  <meta content="2019-01-03T06:09:43.325-0500" name="topicBrowsingSortDate" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.3/FORMS;content_type:reference;topic_tags:correspondence-management" name="cq:tags" />
+  <meta content="54ecfa2d-b51e-417c-9d79-fdebd3b97db5" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-3/forms/morehelp/correspondence-management" name="moreHelpPaths" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="AEM Forms provides Correspondence Management letter layout templates that you can use to create letters quickly. " name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+ </head>
+ <body>
+  <p>In Correspondence Management, a letter template contains typical form fields, layout features such as a header and footer, and empty "target areas" for the placement of content. </p> 
+  <p>Correspondence Management provides letter templates in the AEM Forms package <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/fd/AEM-FORMS-6.3-REFERENCE-LAYOUT-TEMPLATES">AEM-FORMS-REFERENCE-LAYOUT-TEMPLATES</a>. For installing a package, see <a href="../../sites/administering/using/package-manager.md">How to Work With Packages</a>. You can customize the templates in Designer according to your branding and business needs. The package includes the following templates:</p> 
+  <ul> 
+   <li>Classic</li> 
+   <li>Classic Simple</li> 
+   <li>Balanced Left</li> 
+   <li>Balanced Right</li> 
+   <li>Visual Left</li> 
+   <li>Visual Top</li> 
+   <li>Visual Top - Classic</li> 
+  </ul> 
+  <p>After you install the package, the layout templates (XDPs) are listed in templates-folder at the following location:</p> 
+  <p><span class="kbd">http://[server]:[port]/[context-root]/aem/forms.html/content/dam/formsanddocuments/templates-folder</span></p> 
+  <p>Following are the common fields in all the templates in this package:</p> 
+  <ul> 
+   <li>Date</li> 
+   <li>Salutation</li> 
+   <li>Closing Text</li> 
+   <li>Signature Text</li> 
+  </ul> 
+  <img alt="All CM letter templates listed" captionBottom="After installing the AEM-FORMS-6.3-REFERENCE-LAYOUT-TEMPLATES package, the templates are listed in templates-folder" imageRotate="0" src="assets/templatescorrespondence.png" title="All CM letter templates listed" />
+  <h2>Classic</h2>
+  <p>With a logo on top, Classic template is suitable for a plain professional letter. </p> 
+  <img captionBottom="PDF preview of a letter created using the Classic template" imageRotate="0" src="assets/classic.png" />
+  <h2>Classic Simple</h2>
+  <p>Includes fields to capture phone number and email address. A Classic Simple template is similar to the Classic template except that it does not have fields where you could enter the address of the recipient. </p> 
+  <img alt="Contact information fragment" captionBottom="PDF preview of a letter created using the Classic Simple template" imageRotate="0" src="assets/classicsimple.png" title="Contact information fragment" />
+  <h2>Balanced Left</h2>
+  <p>The Balanced Left template includes logo on the left of the letter.</p> 
+  <img captionBottom="PDF preview of a letter created using the Balanced Left template" imageRotate="0" src="assets/balancedleft.png" />
+  <h2>Balanced Right</h2>
+  <p>Balanced Right template has the company logo on the left and provides space for entering recipients address on the letter itself. Balanced Right template also includes a footer that reflows when your letter has multiple pages.</p> 
+  <img captionBottom="PDF preview of a letter created using the Balanced Right template" imageRotate="0" src="assets/balancedright.png" />
+  <h2>Visual Left</h2>
+  <p>The Visual Left template has a side head on the left of the page with the company logo placed over the side head. Visual Left template has a subject field but no footer.</p> 
+  <img captionBottom="PDF preview of a letter created using the Visual Left template" imageRotate="0" src="assets/visualleft.png" />
+  <h2>Visual Top</h2>
+  <p>Visual Top template has visual margin on the top. The Visual Top template has a field for entering recipient's address on the page itself. The Visual Top template has the subject field and a footer that reflows for letters that extend to multiple pages.</p> 
+  <img captionBottom="PDF preview of a letter created using the Visual Top template" imageRotate="0" src="assets/visualtop.png" />
+  <h2>Visual Top - Classic</h2>
+  <p>The Visual Top - Classic template has a header on top of the page with the company logo. The Visual Top - Classic template has a field to enter a subject but no footer.</p> 
+  <img captionBottom="PDF preview of a letter created using the Visual Top - Classic template" imageRotate="0" src="assets/visualtopclassic.png" />
+ </body>
+</html>

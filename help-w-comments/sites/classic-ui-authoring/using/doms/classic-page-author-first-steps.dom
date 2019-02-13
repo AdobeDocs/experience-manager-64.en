@@ -1,0 +1,91 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-04-03T06:44:45.372-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-04-03T06:44:45.372-0400" name="lastPublishExternalDate" />
+  <meta content="63b1ca64-0c2f-4be7-8538-114c806a7dfc" name="jcr:predecessors" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-10-27T23:46:23.564-0400" name="cq:lastReplicated" />
+  <meta content="First Steps for Authors" name="navTitle" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="2018-04-19T10:24:22.995-0400" name="locHandOffDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-10-31T16:19:03.188-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="56360cd6-8a73-4e59-b3f4-bcde93082e22" name="jcr:uuid" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-page-author-first-steps.html" name="publishExternalURL" />
+  <meta content="2018-04-19T10:24:22.996-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T06:44:45.372-0400" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="This section gives you an overview of the main tasks that you will be using when starting to author content with Adobe Experience Manager (AEM)." name="seoDescription" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring" name="moreHelpPaths" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="First Steps for Authors" name="seoTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference;topic_tags:page-authoring" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/page-authoring/first-steps" name="qaNotes" />
+  <meta content="2018-01-12T19:01:04.215-0500" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="First Steps for Authors" name="jcr:title" />
+ </head>
+ <body>
+  <p>This section gives you an overview of the main tasks that you will be using when <a href="../../../sites/authoring/using/author.md#conceptofauthoringandpublishing">starting to author content</a> with Adobe Experience Manager (AEM).</p> 
+  <p>It covers:</p> 
+  <ul> 
+   <li><a href="#gettingstarted">Getting Started</a><br /> Detailing the basic sequence of events you need for creating and publishing your first page.<br /> </li> 
+   <li><a href="#furtheractions">Further Actions</a><br /> Following on with the many other actions you can use when authoring.</li> 
+  </ul> 
+  <h2>Getting Started</h2>
+  <p>These detail the basic sequence of events you need for creating and publishing your first page.</p> 
+  <h3>Navigating to the Page Location</h3>
+  <p>The content in your website is held in a tree-structure. To create or edit a page you need to navigate to the location with the <a href="../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#main-pars-title-7">Websites Console</a>.</p> 
+  <h3>Creating a New Page</h3>
+  <p>Before editing, you need to <a href="../../../sites/classic-ui-authoring/using/classic-page-author-manage-pages.md#main-pars-title-qlklrx-refd">create a new page</a>.</p> 
+  <h3>Opening a Page</h3>
+  <p>For many actions, such as editing, you need to <a href="../../../sites/classic-ui-authoring/using/classic-page-author-manage-pages.md#main-pars-title-5-nywjma-refd">open a page</a>.</p> 
+  <h3>Editing a Page</h3>
+  <p>Whether your instance already has existing pages or you have just created a new page yourself you can <a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md">edit a page</a> by:</p> 
+  <ul> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#main-pars-title-5-gdvngq-refd">Inserting a Component (Paragraph)</a></li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#main-pars-title-7-adkyem-refd">Editing a Component</a></li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#main-pars-title-8-umkkve-refd">Moving a Component</a></li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#main-pars-title-9-hpunvg-refd">Deleting a Component</a></li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#main-pars-title-29">Cut/Copy/Paste a Component</a></li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#main-pars-title-10-bslhyy-refd">Undoing and Redoing Page Edits</a></li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#main-pars-title-10">Using Preview Mode</a> (to see how it will look when published)</li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#main-pars-title-5">Locking a Page</a></li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md#main-pars-title-11">Unlocking a Page</a></li> 
+  </ul> 
+  <h3>Publishing a Page</h3>
+  <p>Once you have finished editing your page you will want to <a href="../../../sites/classic-ui-authoring/using/classic-page-author-publish-pages.md#main-pars-title-10">publish (or activate) your page</a> so that it is available to visitors to your website.</p> 
+  <h2>Further Actions</h2>
+  <p>In addition to the basic steps there are many other actions available when authoring.<br /> </p> 
+  <h3>Copying a Page</h3>
+  <p>It is sometimes easier to <a href="../../../sites/classic-ui-authoring/using/classic-page-author-manage-pages.md#main-pars-title-4-jzkzny-refd">copy a page</a> and re-use the content rather than creating everything from scratch again.</p> 
+  <h3>Moving or Renaming a Page</h3>
+  <p><a href="../../../sites/classic-ui-authoring/using/classic-page-author-manage-pages.md#main-pars-title-1-lgcpte-refd">Moving and renaming pages</a> is basically done with the same action.</p> 
+  <h3>Unpublishing a Page</h3>
+  <p>To make previously published (or activated) content unavailable on your public website, you <a href="../../../sites/classic-ui-authoring/using/classic-page-author-publish-pages.md#main-pars-title-6">unpublish (or deactivate) the page</a>.</p> 
+  <h3>Deleting a Page</h3>
+  <p>If a page is no longer needed you might want to <a href="../../../sites/classic-ui-authoring/using/classic-page-author-manage-pages.md#main-pars-title-2-yjepps-refd">delete the page</a>.</p> 
+  <h3>Setting the Page Properties</h3>
+  <p>Every <a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md">page has properties</a> that you can define to determine aspects of its operation.</p> 
+  <h3>Creating a Version of a Page</h3>
+  <p>You can <a href="../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#creatinganewversion">create a version of a page</a> and then <a href="../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#restoringapageversionfromsidekick">revert back to a version</a> if necessary.</p> 
+  <h2>More Information</h2>
+  <p>Access to more information about authoring can be found under <a href="../../../sites/classic-ui-authoring/using/classic-page-author.md">Page Authoring</a> and <a href="../../../sites/classic-ui-authoring/using/author-env.md">Working with the Author Environment</a>.</p> 
+ </body>
+</html>

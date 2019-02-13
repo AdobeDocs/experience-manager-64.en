@@ -1,0 +1,84 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Organize Digital Assets" name="navTitle" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/organize-assets.html" name="publishExternalURL" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/organize_assets_krs_workflow_f3c2f2ccebf6138e_210_report.xml" name="acrolinxReportURL" />
+  <meta content="46d28412-46fc-4274-92e1-fe639422ed8a" name="jcr:predecessors" />
+  <meta content="47" name="acrolinxSentences" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="493" name="acrolinxWords" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="97e0d42c-699e-4ab2-a6bb-1bcf1b8ac365" name="jcr:uuid" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2019-01-12T17:36:49.171-0500" name="acrolinxDate" />
+  <meta content="/content/docs/en/aem/6-3/author/assets/managing-assets-touch-ui/organize-assets" name="qaNotes" />
+  <meta content="2018-04-24T11:56:39.841-0400" name="locHandOffDate" />
+  <meta content="2018-07-31T08:23:25.646-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-12-01T19:05:27.872-0500" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="asgupta" name="cq:lastModifiedBy" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-07-31T08:23:25.646-0400" name="publishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:managing-assets;content_type:reference" name="cq:tags" />
+  <meta content="Organize Digital Assets" name="seoTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-06-13T18:10:38.534-0400" name="firstPublishExternalDate" />
+  <meta content="2018-07-31T08:23:25.676-0400" name="cq:lastModified" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/managing-assets;/content/help/en/experience-manager/6-4/assets/morehelp/managing-assets" name="moreHelpPaths" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="2018-10-27T23:43:06.243-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Organize Digital Assets" name="jcr:title" />
+  <meta content="2018-07-31T08:23:25.646-0400" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <draft-comment color="yellow" lastModifiedBy="alvawb" lastModifiedDate="2017-11-30T05:31:05.777-0500" prevFirstName="Alva" prevLastName="Ware-Bevacqui" type="remark">
+   <p>Move to authoring and rebrand. Screenshots need updates</p> 
+  </draft-comment>
+  <p>All digital assets, metadata and content of Microsoft Office and PDF documents are extracted and made searchable. Search allows sophisticated filtering on assets and fully respects the proper permissions. Metadata is covered in detail in Metadata in Digital Asset Management.</p> 
+  <p>AEM Assets supports multiple ways of organizing content. You can organize them in a hierarchical manner using folders or you can organize them in an unordered, adhoc manner, using for example tags. Users can edit tags in the DAM Asset Editor where sub-assets, renditions, and metadata are displayed.</p> 
+  <h2>Create folders</h2>
+  <p>When organizing a collection of assets, for example, all <em>Nature</em> images, you can create folders to keep them together. You can use folders to categorize and organize your assets. AEM Assets does not require you to organize assets in folders to work better.</p> 
+  <note>
+   <p>Sharing an Assets folder of the type <span class="code">sling:OrderedFolder</span>, is not supported. If you want to share a folder, do not select Ordered when creating a folder.<br /> </p> 
+  </note>
+  <ol>
+   <li><p>Navigate to the place in your digital assets folder where you want to create a new folder.</p> </li>
+   <li><p>In the menu, click <span class="uicontrol">Create</span>. Select <span class="uicontrol">New Folder</span>.</p> </li>
+   <li><p>In the <span class="uicontrol">Title</span> field, provide a folder name. By default, DAM uses the title that you provided as the folder name. Once the folder is created, you can override the default and specify another folder name.</p> </li>
+   <li><p>Click <span class="uicontrol">Create</span>. Your folder is displayed in the digital assets folder.</p> </li>
+  </ol>
+  <img alt="When you create a new asset folder, it is instantly displayed in the folder list." imageRotate="0" src="assets/create-asset-folder.png" title="When you create a new asset folder, it is instantly displayed in the folder list." />
+  <h2>Add CUG properties to folders</h2>
+  <p>You can limit who can access certain folders in Assets by making the folder part of a closed user group (CUG). To make a folder part of a CUG:<br /> </p> 
+  <ol>
+   <li><p>In Assets, right-click the folder you want to add closed user group properties for and select <strong>Properties</strong>.<br /> </p> </li>
+   <li><p>Click the <strong>CUG</strong> tab.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-250.png" /></li>
+   <li><p>Select the <strong>Enabled</strong> check box to make the folder and its assets available only to a closed user group.<br /> </p> </li>
+   <li><p>Browse to the login page, if there is one, to add that information. Add admitted groups by clicking <strong>Add item</strong>. If necessary, add the realm. Click <strong>OK</strong> to save your changes.<br /> </p> </li>
+  </ol>
+  <h2>Use tags to organize assets</h2>
+  <p>You can use folders or tags or both to organize assets. Adding tags to assets makes them more easy to retrieve during a search. See <a href="../../sites/authoring/using/tags.md">Tagging</a> for more information on tagging.</p> 
+  <p>To add tags to an asset:</p> 
+  <ol>
+   <li><p>In the Digital Asset Manager, double-click the asset to open it.</p> </li>
+   <li><p>In the <strong>Tags</strong> area, click the drop-down button to reveal the available tags. Select tags as appropriate to add a tag. To delete a tag, hover the mouse over the tag and click the <strong>x</strong> to delete it.</p> </li>
+   <li><p>Click <strong>Save</strong> to save any tags you added.</p> </li>
+  </ol>
+  <img alt="Apply tags to assets to organize and categorize them" imageRotate="0" src="assets/add-tags-to-assets.png" title="Apply tags to assets to organize and categorize them" />
+ </body>
+</html>

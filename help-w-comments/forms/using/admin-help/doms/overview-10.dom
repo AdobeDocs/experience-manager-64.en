@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Overview" name="navTitle" />
+  <meta content="2018-04-03T09:10:19.691-0400" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2016-02-05T03:27:27.424-0500" name="lr_lastModified" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="2018-04-26T04:23:09.079-0400" name="locHandOffDate" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="b5b30fb1-8baf-4ca1-abec-928524bc3c76" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_workspace;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="Overview of Workspace" name="jcr:title" />
+  <meta content="109" name="acrolinxWords" />
+  <meta content="2018-04-26T04:23:09.079-0400" name="cq:lastModified" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/overview_10_admin_5e12de0b318c6865_2343_report.xml" name="acrolinxReportURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-10-31T16:32:04.254-0400" name="lastPublishExternalDate" />
+  <meta content="2016-05-31T07:02:15.311-0400" name="acrolinxDate" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="The workspace lets users start, participate in, and track business processes. Let us learn more about the workspace." name="seoDescription" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="AEMForms/6.1/AdminHelp/WS6264216d8c2528f85bced9c01523526df04-8000" name="cq:gepId" />
+  <meta content="video" name="pageLayout" />
+  <meta content="2017-12-01T19:04:05.521-0500" name="jcr:created" />
+  <meta content="2016-04-20T10:07:33.146-0400" name="firstPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="left" name="sideColumn" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-10-31T16:32:04.254-0400" name="publishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/overview-10.html" name="publishExternalURL" />
+  <meta content="light" name="heroGradient" />
+  <meta content="5" name="acrolinxSentences" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="d5ebdf1f-9a6e-435d-9250-5ebeec45ea25" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>Workspace lets users start, participate in, and track business processes.</p>
+  <p>On the Workspace pages in administration console, you can perform the following tasks:</p>
+  <ul>
+   <li><p>Set the message to be displayed on the Welcome page of the Workspace user interface</p></li>
+   <li><p>Configure search templates to be used in Workspace to search for processes and tasks</p></li>
+   <li><p>Import and export search templates and global settings</p></li>
+  </ul>
+  <note>
+   <p>The Flex Worksapce is deprecated for AEM forms release.</p>
+  </note>
+  <note>
+   <p>You must use the navigation methods within administration console. Do not use the Back, Forward, or Refresh buttons in the web browser. Using these buttons can cause data capture and data display problems.</p>
+  </note>
+ </body>
+</html>

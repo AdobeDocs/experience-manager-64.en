@@ -1,0 +1,140 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Keyboard Shortcuts when Editing Pages" name="navTitle" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-04-19T10:33:52.010-0400" name="locHandOffDate" />
+  <meta content="52a9a824-867d-431e-800d-9948c3f6cb91" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="Keyboard Shortcuts when Editing Pages" name="seoTitle" />
+  <meta content="f8c35879-c4e6-4c29-a3f3-b75c78f118ab" name="jcr:uuid" />
+  <meta content="Various keyboard shortcuts are available throughout AEM, including some for page editing" name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="2018-10-28T00:27:35.862-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/page-authoring-keyboard-shortcuts.html" name="publishExternalURL" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="2018-10-28T00:27:35.862-0400" name="publishExternalDate" />
+  <meta content="2017-10-31T16:20:00.021-0400" name="firstPublishExternalDate" />
+  <meta content="/content/docs/en/aem/6-3/author/page-authoring/keyboard-shortcuts" name="qaNotes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-10-28T00:27:35.862-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-10-28T00:27:35.872-0400" name="cq:lastModified" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring" name="moreHelpPaths" />
+  <meta content="2018-10-28T00:27:35.919-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Keyboard Shortcuts when Editing Pages" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-12-01T19:02:57.736-0500" name="jcr:created" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" />
+ </head>
+ <body>
+  <p>Various keyboard shortcuts are available throughout AEM. Some apply when editing pages, others to the <a href="../../../sites/authoring/using/keyboard-shortcuts.md">use of consoles</a>.</p> 
+  <note>
+   <p>The <a href="../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md#main-pars-header">modifier keys</a> required for AEM keyboard shortcuts vary depending on operating system.<br /> </p> 
+  </note>
+  <h2>Editing Keyboard Shortcuts</h2>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <th>Location</th> 
+     <th>Shortcut</th> 
+     <th>Description</th> 
+    </tr>
+    <tr>
+     <td>Any Edit Window Mode<br /> </td> 
+     <td><span class="code">Ctrl-Shift-m</span></td> 
+     <td>Toggle between <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-20"><strong>Preview</strong> and the currently selected mode</a> (e.g. <strong>Edit</strong>, <strong>Layout</strong>, etc).*</td> 
+    </tr>
+    <tr>
+     <td><strong>Edit</strong> mode</td> 
+     <td><span class="code">Ctrl-z</span></td> 
+     <td><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-19">Undo last change</a>.</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="code">Ctrl-y</span></td> 
+     <td><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-19">Redo last change</a>.</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-Click</span></strong></td> 
+     <td>Select multiple paragraphs.</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-C</span></strong></td> 
+     <td>Copy selected paragraph(s).</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-X</span></strong></td> 
+     <td>Cut selected paragraph(s).<strong><br /> Note:</strong> The cut paragraph will not disappear until it has been pasted to the new location.</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-V</span></strong><br /> </td> 
+     <td>Paste paragraph(s) from clipboard.<br /> </td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-Backspace</span></strong></td> 
+     <td>Delete selected paragraph(s).</td> 
+    </tr>
+    <tr>
+     <td><strong>Edit</strong> mode - Rich Text Editor<br /> </td> 
+     <td><strong><span class="code">Ctrl-B</span></strong><br /> </td> 
+     <td>Bold</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-I</span></strong><br /> </td> 
+     <td>Italic<br /> </td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-U</span></strong><br /> </td> 
+     <td>Underline</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <note>
+   <p>* Once the user starts to interact with the page in Preview Mode, the <span class="code">Ctrl-Shift-m</span> shortcut is no longer available. The user must click on the top editor bar or go back to the Edit mode for the shortcut to once again become available.<br /> </p> 
+  </note>
+  <p>Various keyboard shortcuts are also available for desktop users when using the <a href="../../../sites/authoring/using/keyboard-shortcuts.md">consoles</a>.</p> 
+  <note>
+   <p>Editor keyboard shortcuts are always active regardless if the <a href="../../../sites/authoring/using/keyboard-shortcuts.md#main-pars-header">console shortcuts have been deactivated</a>.<br /> </p> 
+  </note>
+  <h2>OS-Specific Modifier Keys</h2>
+  <p>The modfier keys used for the keyboard shortcuts vary depending on the operating system used by the client.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Windows and Linux</strong><br /> </td> 
+     <td><strong>macOS</strong></td> 
+    </tr>
+    <tr>
+     <td>Ctrl</td> 
+     <td>Command<br /> </td> 
+    </tr>
+    <tr>
+     <td>Alt</td> 
+     <td>Option</td> 
+    </tr>
+   </tbody>
+  </table> 
+ </body>
+</html>

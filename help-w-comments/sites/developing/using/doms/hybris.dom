@@ -1,0 +1,446 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/ecommerce/hybris" name="qaNotes" /> 
+  <meta content="The hybris integration framework includes an integration layer with an API" name="seoDescription" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="bc13ee17-f4de-4e06-a10e-7528d9edbcc4" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Developing with hybris" name="navTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-05-08T12:44:00.455-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-01-30T08:36:08.162-0500" name="publishExternalDate" /> 
+  <meta content="2018-04-03T09:00:57.759-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-05-08T12:44:00.456-0400" name="cq:lastModified" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform;/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform" name="moreHelpPaths" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-01-31T08:04:29.475-0500" name="jcr:created" /> 
+  <meta content="Developing with hybris" name="seoTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-31T16:16:34.977-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/hybris.html" name="publishExternalURL" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="2018-01-30T08:36:08.162-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Developing with hybris" name="jcr:title" /> 
+  <meta content="8c083cf8-f130-47ad-a851-29052ad49973" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:platform" name="cq:tags" /> 
+  <meta content="2018-01-30T08:36:08.162-0500" name="lastPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-30T08:36:08.980-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>this section seems a bit dis-jointed.</p> 
+   <p>maybe an overview of what is absolutely necessary - and in the correct order; vs optional extras<br /> </p> 
+  </draft-comment> 
+  <note> 
+   <p>The eCommerce framework can be used with any eCommerce solution. Certain specifics and examples dealt with here will refer to the <a href="http://www.hybris.com/">hybris</a> solution.<br /> </p> 
+  </note> 
+  <p>The integration framework includes an integration layer with an API. This allows you to:</p> 
+  <ul> 
+   <li>plug in an eCommerce system and pull product data into AEM</li> 
+   <li>build AEM components for commerce capabilities independent of the specific eCommerce engine</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-16.png" /> 
+  <note> 
+   <p><a href="../../../sites/developing/using/ecommerce.md#apidocumentation">API documentation</a> is also available.<br /> </p> 
+  </note> 
+  <draft-comment color="green" lastModifiedBy="buergi@adobe.com" lastModifiedDate="2018-01-30T08:36:09.187-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>suspect this sub-list is out-of-date - need input</p> 
+   <p> </p> 
+   <p>All components are independent from the implementation.</p> 
+  </draft-comment> 
+  <p>A number of out-of-the-box AEM components are provided to use the integration layer. Currently these are:</p> 
+  <ul> 
+   <li>a product display component</li> 
+   <li>a shopping cart</li> 
+   <li>check-out</li> 
+  </ul> 
+  <p>For search an integration hook is provided that allows you to use the AEM search, the search of the eCommerce system, a third party search (like Search&amp;Promote) or a combination thereof.</p> 
+  <h3>eCommerce Engine Selection</h3> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-30T08:36:09.305-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>have updated this section - please review</p> 
+   <p>is geometrixx the best example, or would geometrixx-outdoors be better?</p> 
+  </draft-comment> 
+  <p>The eCommerce framework can be used with any eCommerce solution, the engine being used needs to be identifiable by AEM:<br /> </p> 
+  <ul> 
+   <li>eCommerce Engines are OSGi services supporting the <span class="code">CommerceService</span> interface 
+    <ul> 
+     <li>Engines can be distinguished by a <span class="code">commerceProvider</span> service property</li> 
+    </ul> </li> 
+   <li>AEM supports <span class="code">Resource.adaptTo()</span> for <span class="code">CommerceService</span> and <span class="code">Product</span> 
+    <ul> 
+     <li>The <span class="code">adaptTo</span> implementation looks for a <span class="code">cq:commerceProvider</span> property in the resource's hierarchy: 
+      <ul> 
+       <li>If found, the value is used to filter the commerce service lookup.</li> 
+       <li>If not found, the highest-ranked commerce service is used.</li> 
+      </ul> </li> 
+     <li>A <span class="code">cq:Commerce</span> mixin is used so the <span class="code">cq:commerceProvider</span> can be added to strongly-typed resources.</li> 
+    </ul> </li> 
+   <li>The <span class="code">cq:commerceProvider</span> property is also used to reference the appropriate commerce factory definition. 
+    <ul> 
+     <li>For example, a <span class="code">cq:commerceProvider</span> property with the value <span class="code">hybris</span> will correlate to the OSGi configuration for <strong>Day CQ Commerce Factory for Hybris</strong> (com.adobe.cq.commerce.hybris.impl.HybrisServiceFactory) - where the parameter <span class="code">commerceProvider</span> also has the value <span class="code">hybris</span>.<br /> </li> 
+     <li>Here further properties, such as <a href="#configuringthecatalogversion"><strong>Catalog version</strong> can be configured</a> (when appropriate and available).<br /> </li> 
+    </ul> </li> 
+  </ul> 
+  <p>See the following examples below:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td width="250"><span class="code">cq:commerceProvider = geometrixx</span></td> 
+     <td>in a standard AEM installation a specific implementation is required; for example, the geometrixx example, which includes minimal extensions to the generic API</td> 
+    </tr> 
+    <tr> 
+     <td width="250"><span class="code">cq:commerceProvider = hybris</span></td> 
+     <td>hybris implementation</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Example</h4> 
+  <codeblock gutter="true" class="syntax shell">
+    /content/store&amp;nbsp;!!discoiqbr!!+&amp;nbsp;cq:commerceProvider&amp;nbsp;=&amp;nbsp;hybris&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;+&amp;nbsp;mens&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;polo-shirt-1&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;polo-shirt-2&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;employee&amp;nbsp;!!discoiqbr!!+&amp;nbsp;cq:commerceProvider&amp;nbsp;=&amp;nbsp;jcr&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;+&amp;nbsp;adobe-logo-shirt&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;product&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;price&amp;nbsp;=&amp;nbsp;12.50&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;+&amp;nbsp;adobe-logo-shirt_S&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;size&amp;nbsp;=&amp;nbsp;S&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;+&amp;nbsp;adobe-logo-shirt_XL&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;size&amp;nbsp;=&amp;nbsp;XL&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;price&amp;nbsp;=&amp;nbsp;14.50 
+  </codeblock> 
+  <note> 
+   <p>Using CRXDE Lite you can see how this is handled in the product component for the hybris implementation:</p> 
+   <p><span class="code"> /apps/geometrixx-outdoors/components/hybris/product/product.jsp</span><br /> </p> 
+  </note> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-30T08:36:09.638-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p><a href="https://issues.adobe.com/browse/DOC-3858">https://issues.adobe.com/browse/DOC-3858</a></p> 
+   <p>We now support hybris 5 as-well.</p> 
+   <p> </p> 
+   <p><a href="https://wiki.day.com/content/wiki/Users/vsaar/CQHybrisIntegration/Update%20Embedded%20Server.html">https://wiki.day.com/content/wiki/Users/vsaar/CQHybrisIntegration/Update%20Embedded%20Server.html</a></p> 
+   <p>There was a series of changes in the Hybris connector to support Hybris 5 while maintaining backwards compatibility with Hybris 4. The new default settings in the code are tuned for Hybris 5.<br /> The hybris-distribution.zip has been removed from the git repository and it is downloaded by maven from nexus.<br /> For using the code with Hybris 4 the following is needed:</p> 
+   <ul> 
+    <li>when invoking maven add the command line argument -P hybris4 to the command. It downloads the pre-configured Hybris 4 distribution and embeds it in the cq-commerce-hybris-server bundle</li> 
+    <li>in the OSGi configuration manager disable Hybris 5 support for the Default Response Parser service<br /> make sure that Hybris Basic Authentication Handler service has a lower service ranking than Hybris OAuth Handler service</li> 
+   </ul> 
+   <p>&amp;gt;&amp;gt;&amp;gt; "The hybris-distribution.zip has been removed from the git repository and it is downloaded by maven from nexus".<br /> Is the above comment for public documentation?</p> 
+   <p>&amp;gt;&amp;gt;&amp;gt; Please review below.</p> 
+   <p> </p> 
+  </draft-comment> 
+  <h3>Developing for hybris 4</h3> 
+  <p>The hybris extension of the eCommerce Integration Framework has been updated to support Hybris 5, while maintaining backward compatibility with Hybris 4.</p> 
+  <p>The default settings in the code are tuned for Hybris 5.</p> 
+  <p>To develop for Hybris 4 the following is required:</p> 
+  <ul> 
+   <li>When invoking maven add the following command line argument to the command<br /> <span class="code"> -P hybris4</span><br /> It downloads the pre-configured Hybris 4 distribution and embeds it in the bundle:<br /> <code class="code"> cq-commerce-hybris-server
+     <discoiqbr /> </code></li> 
+   <li>In the OSGi configuration manager: 
+    <ul> 
+     <li>Disable Hybris 5 support for the Default Response Parser service.<br /> </li> 
+     <li>Ensure that Hybris Basic Authentication Handler service has a lower service ranking than Hybris OAuth Handler service.</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Session Handling</h3> 
+  <p>hybris uses a user session to store information such as the customer's shopping cart. The session id is returned from hybris in a <span class="code">JSESSIONID</span> cookie that needs to be sent on subsequent requests to hybris. To avoid storing the session id in the repository it is encoded in another cookie that is stored in the shopper's browser. The following steps are performed:</p> 
+  <ul> 
+   <li>On the first request no cookie is set on the shopper's request; so a request is sent to the hybris instance to create a session.</li> 
+   <li>The session cookies are extracted from the response, encoded in a new cookie (for example, <span class="code">hybris-session-rest</span>) and set on the response to the shopper. The encoding in a new cookie is required, because the original cookie is only valid for a certain path and would otherwise not be sent back from the browser in subsequent requests. The path information must also be added to the cookie's value.</li> 
+   <li>On subsequent requests, the cookies are decoded from the <span class="code">hybris-session-&amp;lt;<i>xxx</i>&amp;gt;</span> cookies and set on the HTTP client that is used to request data from hybris.</li> 
+  </ul> 
+  <note> 
+   <p>A new, anonymous session is created when the original session is no longer valid.</p> 
+  </note> 
+  <h4>CommerceSession</h4> 
+  <ul> 
+   <li>This session "owns" the <strong>s</strong><strong>hopping </strong><strong>c</strong><strong>art</strong> 
+    <ul> 
+     <li>performs add/remove/etc</li> 
+     <li>performs the various calculations on the cart;<br /> <span class="code">commerceSession.getProductPrice(Product product)</span></li> 
+    </ul> </li> 
+   <li>Owns the <i>storage location</i> for the <strong>order</strong> data<br /> <span class="code">CommerceSession.getUserContext()</span></li> 
+   <li>Also owns the <strong>payment</strong> processing connection</li> 
+   <li>Also owns the <strong>fulfillment</strong> connection</li> 
+  </ul> 
+  <h3>Product Synchronization and Publishing</h3> 
+  <p>Product data that is maintained in hybris needs to be available in AEM. The following mechanism has been implemented:</p> 
+  <ul> 
+   <li>An initial load of IDs is provided by hybris as a feed. There can be updates to this feed.</li> 
+   <li>hybris will supply update information via a feed (which AEM polls).</li> 
+   <li>When AEM is using product data it will send requests back to hybris for the current data (conditional get request using last modified date).</li> 
+   <li>On hybris it is possible to specify feed contents in a declarative way.</li> 
+   <li>Mapping the feed structure to the AEM content model happens in the feed adapter on the AEM side.</li> 
+  </ul> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-30T08:36:10.180-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>how to trigger the importer? </p> 
+   <ul> 
+    <li>console - currently being developed<br /> </li> 
+   </ul> 
+   <p>online vs staged in this context?<br /> </p> 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/chlimage_1-17.png" /> 
+  <ul> 
+   <li>The importer (b) is used for the initial setup of the page tree structure in AEM for catalogs.</li> 
+   <li>Catalog changes in hybris are indicated to AEM via a feed, these then propagate to AEM (b) 
+    <ul> 
+     <li>Product added/deleted/changed with respect to catalog version.</li> 
+     <li>Product approved.</li> 
+    </ul> </li> 
+   <li>The hybris extension provides a polling importer ("hybris" scheme"), which can be configured to import changes into AEM at a specified interval (for example, every 24 hours where the interval is specified in seconds): 
+    <ul> 
+     <li><code class="code">http://localhost:4502/content/geometrixx-outdoors/en_US/jcr:content.json
+       <discoiqbr /> {
+       <discoiqbr /> * "jcr:mixinTypes": ["cq:PollConfig"],
+       <discoiqbr /> * "enabled": true,
+       <discoiqbr /> * "source": "hybris:outdoors",
+       <discoiqbr /> * "jcr:primaryType": "cq:PageContent",
+       <discoiqbr /> * "interval": 86400
+       <discoiqbr /> }</code><br /> </li> 
+    </ul> </li> 
+   <li>The catalog configuration in AEM recognizes <strong>Staged</strong> and <strong>Online</strong> catalog versions.<br /> </li> 
+   <li>Syncing products between catalog versions will require a (de-)activation of the corresponding AEM page (a, c) 
+    <ul> 
+     <li>Adding a product to an <strong>Online</strong> catalog version requires activation of the product's page.</li> 
+     <li>Removing a product requires deactivation.</li> 
+    </ul> </li> 
+   <li>Activating a page in AEM (c) requires a check (b) and is only possible if 
+    <ul> 
+     <li>The product is in an <strong>Online</strong> catalog version for product pages.<br /> </li> 
+     <li>The referenced products are available in an <strong>Online</strong> catalog version for other pages (e.g. campaign pages).</li> 
+    </ul> </li> 
+   <li>Activated product pages need to access the product data's <strong>Online</strong> version (d).<br /> </li> 
+   <li>The AEM publish instance requires access to hybris for the retrieval of product and personalized data (d).</li> 
+  </ul> 
+  <h3>Architecture</h3> 
+  <h4>Architecture of Product and Variants</h4> 
+  <p>A single product can have multiple variations; for instance, it might vary by color and/or size. A product must define which properties drive variation; we term these <i>variant axes</i>.</p> 
+  <p>However, not all properties are variant axes. Variations can also affect other properties; for example, the price might be dependant on size. These properties cannot be selected by the shopper and therefore are not considered variant axes.</p> 
+  <p>Each product and/or variant is represented by a resource, and therefore maps 1:1 to a repository node. It is a corollary that a specific product and/or variant can be uniquely identified by its path.</p> 
+  <p>The product/variant resource does not always hold the actual product dataIt might be a representation of data actually held on another system (such as hybris). For example, product descriptions, pricing, etc, are not stored in AEM, but retrieved in real-time from the eCommerce engine.<br /> </p> 
+  <p>Any product resource can be represented by a <span class="code">Product API</span>. Most calls in the product API are variation specific (although variations might inherit shared values from an ancestor), but there are also calls which list the set of variations (<span class="code">getVariantAxes()</span>, <span class="code">getVariants()</span>, etc.).</p> 
+  <note> 
+   <p>In effect a variant axes is determined by whatever <span class="code">Product.getVariantAxes()</span> returns:</p> 
+   <ul> 
+    <li>hybris defines it for the hybris implementation</li> 
+   </ul> 
+   <p>While products (in general) can have many variant axes, the out-of-the-box product component only handles two:</p> 
+   <ol> 
+    <li><span class="code">size</span><br /> </li> 
+    <li>plus one more<br /> This additional variant is selected via the <span class="code">variationAxis</span> property of the product reference (usually <span class="code">color</span> for Geometrixx Outdoors).</li> 
+   </ol> 
+  </note> 
+  <h4>Product References and Product Data</h4> 
+  <p>In general:</p> 
+  <ul> 
+   <li>product data is located under <span class="code">/etc</span><br /> </li> 
+   <li>and product references under <span class="code">/content</span>.</li> 
+  </ul> 
+  <p>There must be a 1:1 map between product variations and product data nodes. </p> 
+  <p>Product references must also have a node for each variation presented - but there is no requirement to present all variations. For instance, if a product has S, M, L variations, the product data might be:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    etc!!discoiqbr!!&amp;nbsp;&amp;nbsp;commerce!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;products!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shirt!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shirt-s!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shirt-m!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shirt-l 
+  </codeblock> 
+  <p>While a "Big and Tall" catalog might have only:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    content!!discoiqbr!!&amp;nbsp;&amp;nbsp;big-and-tall!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shirt!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shirt-l 
+  </codeblock> 
+  <p>Finally, there is no requirement to use product data. You can place all product data under the references in the catalog; but then you cannot really have multiple catalogs without duplicating all the product data.</p> 
+  <p><strong>API</strong><br /> </p> 
+  <h4>com.adobe.cq.commerce.api.Product interface</h4> 
+  <codeblock gutter="true" class="syntax java">
+    public&amp;nbsp;interface&amp;nbsp;Product&amp;nbsp;extends&amp;nbsp;Adaptable&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getPath();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;path&amp;nbsp;to&amp;nbsp;specific&amp;nbsp;variation!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getPagePath();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;path&amp;nbsp;to&amp;nbsp;presentation&amp;nbsp;page&amp;nbsp;for&amp;nbsp;all&amp;nbsp;variations!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getSKU();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;unique&amp;nbsp;ID&amp;nbsp;of&amp;nbsp;specific&amp;nbsp;variation!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getTitle();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;shortcut&amp;nbsp;to&amp;nbsp;getProperty(TITLE)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getDescription();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;shortcut&amp;nbsp;to&amp;nbsp;getProperty(DESCRIPTION)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getImageUrl();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;shortcut&amp;nbsp;to&amp;nbsp;getProperty(IMAGE_URL)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getThumbnailUrl();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;shortcut&amp;nbsp;to&amp;nbsp;getProperty(THUMBNAIL_URL)!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;&lt;T&gt;&amp;nbsp;T&amp;nbsp;getProperty(String&amp;nbsp;name,&amp;nbsp;Class&lt;T&gt;&amp;nbsp;type);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;Iterator&lt;String&gt;&amp;nbsp;getVariantAxes();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;axisIsVariant(String&amp;nbsp;axis);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;Iterator&lt;Product&gt;&amp;nbsp;getVariants(VariantFilter&amp;nbsp;filter)&amp;nbsp;throws&amp;nbsp;CommerceException;!!discoiqbr!!} 
+  </codeblock> 
+  <h4>com.adobe.cq.commerce.api.VariantFilter </h4> 
+  <codeblock gutter="true" class="syntax java">
+    /**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Interface&amp;nbsp;for&amp;nbsp;filtering&amp;nbsp;variants&amp;nbsp;and&amp;nbsp;AxisFilter&amp;nbsp;provided&amp;nbsp;as&amp;nbsp;common&amp;nbsp;implementation!!discoiqbr!!&amp;nbsp;*!!discoiqbr!!&amp;nbsp;*&amp;nbsp;The&amp;nbsp;&lt;code&gt;VariantFilter&lt;/code&gt;&amp;nbsp;is&amp;nbsp;used&amp;nbsp;to&amp;nbsp;filter&amp;nbsp;variants,!!discoiqbr!!&amp;nbsp;*&amp;nbsp;e.g.&amp;nbsp;when&amp;nbsp;using&amp;nbsp;{@link&amp;nbsp;Product#getVariants(VariantFilter&amp;nbsp;filter)}.!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;interface&amp;nbsp;VariantFilter&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;includes(Product&amp;nbsp;product);!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!/**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;VariantFilter}&amp;nbsp;for&amp;nbsp;filtering&amp;nbsp;variants&amp;nbsp;by&amp;nbsp;the&amp;nbsp;given!!discoiqbr!!&amp;nbsp;*&amp;nbsp;axis&amp;nbsp;and&amp;nbsp;value.&amp;nbsp;The&amp;nbsp;following&amp;nbsp;example&amp;nbsp;returns&amp;nbsp;a&amp;nbsp;list&amp;nbsp;of!!discoiqbr!!&amp;nbsp;*&amp;nbsp;variant&amp;nbsp;products&amp;nbsp;that&amp;nbsp;have&amp;nbsp;a&amp;nbsp;value&amp;nbsp;of&amp;nbsp;&lt;i&gt;blue&lt;/i&gt;&amp;nbsp;on&amp;nbsp;the!!discoiqbr!!&amp;nbsp;*&amp;nbsp;&lt;i&gt;color&lt;/i&gt;&amp;nbsp;axis.!!discoiqbr!!&amp;nbsp;*&amp;nbsp;!!discoiqbr!!&amp;nbsp;*&amp;nbsp;&lt;p&gt;!!discoiqbr!!&amp;nbsp;*&amp;nbsp;&lt;code&gt;product.getVariants(new&amp;nbsp;AxisFilter("color",&amp;nbsp;"blue"));&lt;/code&gt;!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;AxisFilter&amp;nbsp;implements&amp;nbsp;VariantFilter&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;String&amp;nbsp;axis;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;String&amp;nbsp;value;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;AxisFilter(String&amp;nbsp;axis,&amp;nbsp;String&amp;nbsp;value)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.axis&amp;nbsp;=&amp;nbsp;axis;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.value&amp;nbsp;=&amp;nbsp;value;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;{@inheritDoc}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;includes(Product&amp;nbsp;product)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ValueMap&amp;nbsp;values&amp;nbsp;=&amp;nbsp;product.adaptTo(ValueMap.class);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(values&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;v&amp;nbsp;=&amp;nbsp;values.get(axis,&amp;nbsp;String.class);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;v&amp;nbsp;!=&amp;nbsp;null&amp;nbsp;&amp;&amp;&amp;nbsp;v&amp;nbsp;==&amp;nbsp;value;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;false;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <ul> 
+   <li><strong>General Storage Mechanism</strong> 
+    <ul> 
+     <li>Product nodes are nt:unstructured.</li> 
+     <li>A product node can be either: 
+      <ul> 
+       <li>A reference, with the product data stored elsewhere: 
+        <ul> 
+         <li>Product references contain a <span class="code">productData</span> property, which points to the product data (typically under <span class="code">/etc/commerce/products</span>).</li> 
+         <li>The product data is hierarchical; product attributes are inherited from a product data node's ancestors.</li> 
+         <li>Product references can also contain local properties, which override those specified in their product data.</li> 
+        </ul> </li> 
+       <li>A product itself: 
+        <ul> 
+         <li>Without a <span class="code">productData</span> property.</li> 
+         <li>A product node which holds all properties locally (and does not contain a productData property) inherits product attributes directly from its own ancestors.</li> 
+        </ul> </li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><strong>AEM-generic Product Structure</strong> 
+    <ul> 
+     <li>Each variant must have its own leaf node.</li> 
+     <li>The product interface represents both products and variants, but the related repository node is specific about which it is.</li> 
+     <li>The product node describes the product attributes and variant axes.</li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Example</h4> 
+  <codeblock gutter="true" class="syntax shell">
+    +&amp;nbsp;banyan_shirt!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;product!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:productAttributes&amp;nbsp;=&amp;nbsp;[jcr:title,&amp;nbsp;jcr:description,&amp;nbsp;size,&amp;nbsp;price,&amp;nbsp;color]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:productVariantAxes&amp;nbsp;=&amp;nbsp;[color,&amp;nbsp;size]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:title&amp;nbsp;=&amp;nbsp;Banyan&amp;nbsp;Shirt!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:description&amp;nbsp;=&amp;nbsp;Flowery,&amp;nbsp;all-cotton&amp;nbsp;shirt.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;price&amp;nbsp;=&amp;nbsp;14.00!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_s!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;size&amp;nbsp;=&amp;nbsp;S!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_s_red!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;color&amp;nbsp;=&amp;nbsp;red!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_s_blue!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;color&amp;nbsp;=&amp;nbsp;blue!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_m!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;size&amp;nbsp;=&amp;nbsp;M!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_m_red!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;color&amp;nbsp;=&amp;nbsp;red!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_m_blue!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;color&amp;nbsp;=&amp;nbsp;blue!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_l!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;size&amp;nbsp;=&amp;nbsp;L!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_l_red!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;color&amp;nbsp;=&amp;nbsp;red!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_l_blue!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;color&amp;nbsp;=&amp;nbsp;blue!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_xl!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;size&amp;nbsp;=&amp;nbsp;XL!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;price&amp;nbsp;=&amp;nbsp;18.00 
+  </codeblock> 
+  <h4>Architecture of the Shopping Cart</h4> 
+  <p><strong>Components</strong></p> 
+  <ul> 
+   <li>The shopping cart is owned by the <span class="code">CommerceSession:</span> 
+    <ul> 
+     <li>The <span class="code">CommerceSession</span> performs add/remove/etc.</li> 
+     <li>The <span class="code">CommerceSession</span> also performs the various calculations on the cart.<span class="code"></span></li> 
+    </ul> </li> 
+   <li>While not directly cart-related, the <span class="code">CommerceSession</span> must also provide catalog pricing information (since it owns pricing) 
+    <ul> 
+     <li>Pricing might have several modifiers: 
+      <ul> 
+       <li>Quantity discounts.</li> 
+       <li>Different currencies.</li> 
+       <li>VAT-liable and VAT-free.</li> 
+      </ul> </li> 
+     <li>The modifiers are completely open-ended with the following interface: 
+      <ul> 
+       <li><span class="code">int CommerceSession.getQuantityBreakpoints(Product product)</span></li> 
+       <li><span class="code">String CommerceSession.getProductPrice(Product product)</span></li> 
+      </ul> </li> 
+    </ul> <span class="code"></span></li> 
+  </ul> 
+  <p><strong>Storage</strong></p> 
+  <ul> 
+   <li>Storage 
+    <ul> 
+     <li>In the hybris case, the hybris server owns the cart.</li> 
+     <li>In the AEM-generic case carts of are stored in the <a href="../../../sites/administering/using/client-context.md">ClientContext</a>.</li> 
+    </ul> </li> 
+  </ul> 
+  <p><strong>Personalization</strong></p> 
+  <ul> 
+   <li>Personalization should always be driven through the <a href="../../../sites/administering/using/client-context.md">ClientContext</a>.</li> 
+   <li>A ClientContext <span class="code">/version/</span> of the cart is created in all cases: 
+    <ul> 
+     <li>Products should be added by using the <span class="code">CommerceSession.addCartEntry()</span> method.</li> 
+    </ul> </li> 
+   <li>The following illustrates an example of cart information in the ClientContext cart:</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-18.png" /> 
+  <h4>Architecture of Checkout</h4> 
+  <p><strong>Cart and Order Data</strong></p> 
+  <p>The <span class="code">CommerceSession</span> owns the three elements:</p> 
+  <ol> 
+   <li>Cart contents</li> 
+   <li>Pricing</li> 
+   <li>The order details</li> 
+  </ol> 
+  <ol> 
+   <li> <p>The cart contents schema is fixed by the API:</p> 
+    <codeblock gutter="true" class="syntax java">
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;addCartEntry(Product&amp;nbsp;product,&amp;nbsp;int&amp;nbsp;quantity);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;modifyCartEntry(int&amp;nbsp;entryNumber,&amp;nbsp;int&amp;nbsp;quantity);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;deleteCartEntry(int&amp;nbsp;entryNumber); 
+    </codeblock></li> 
+   <li> <p>The pricing schema is also fixed by the API:<br /> </p> 
+    <codeblock gutter="true" class="syntax java">
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getCartPreTaxPrice();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getCartTax();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getCartTotalPrice();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getOrderShipping();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getOrderTotalTax();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getOrderTotalPrice(); 
+    </codeblock></li> 
+   <li> <p>However, order details are <i>not</i> fixed by the API:<br /> </p> 
+    <codeblock gutter="true" class="syntax java">
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;updateOrderDetails(Map&lt;String,&amp;nbsp;String&gt;&amp;nbsp;orderDetails);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;Map&lt;String,&amp;nbsp;String&gt;&amp;nbsp;getOrderDetails();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;submitOrder(); 
+    </codeblock></li> 
+  </ol> 
+  <p><strong>Shipping Calculations</strong></p> 
+  <ul> 
+   <li>Order forms often need to present multiple shipping options (and prices).</li> 
+   <li>The prices might be based on items and details of the order, such as weight and/or delivery address.</li> 
+   <li>The <span class="code">CommerceSession</span> has access to all the dependencies, so it can be treated in a similar manner as product pricing: 
+    <ul> 
+     <li>The <span class="code">CommerceSession</span> owns shipping pricing.</li> 
+     <li>Can retrieve/update delivery details by using <span class="code">updateOrder(Map&amp;lt;String, Object&amp;gt; delta)</span></li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>You could implement a shipping selector; for example:</p> 
+   <p><span class="code">yourProject/commerce/components/shippingpicker</span>:</p> 
+   <ul> 
+    <li>Essentially this could be a copy of <span class="code">foundation/components/form/radio</span>, but with callbacks to the <span class="code">CommerceSession</span> for: 
+     <ul> 
+      <li>Checking if the method is available</li> 
+      <li>Adding pricing information</li> 
+      <li>To enable shoppers to update the order page in AEM (including the superset of shipping methods and the text describing them), while still having the control to expose the relevant <span class="code">CommerceSession</span> information.</li> 
+     </ul> </li> 
+   </ul> 
+  </note> 
+  <p><strong>Payment Processing</strong></p> 
+  <ul> 
+   <li>The <span class="code">CommerceSession</span> also owns the payment processing connection.</li> 
+   <li>Implementors need to add specific calls (to their chosen payment processing service) to the <span class="code">CommerceSession</span> implementation.</li> 
+  </ul> 
+  <p><strong>Order Fulfillment</strong></p> 
+  <ul> 
+   <li>The <span class="code">CommerceSession</span> also owns the fulfillment connection.</li> 
+   <li>Implementors will need to add specific calls (to their chosen payment processing service) to the <span class="code">CommerceSession</span> implementation.<br /> </li> 
+  </ul> 
+  <h3>Search Definition</h3> 
+  <p>Following the standard service API model, the eCommerce project provides a set of search-related APIs that can be implemented by individual commerce engines.</p> 
+  <note> 
+   <p>Currently, only the hybris engine implements the search API out-of-the-box.</p> 
+   <p>However, the search API is generic and can be implemented by each CommerceService individually.</p> 
+  </note> 
+  <p>The eCommerce project contains a default search component, located in:</p> 
+  <p><span class="code"> /libs/commerce/components/search</span></p> 
+  <img imageRotate="0" src="assets/chlimage_1-19.png" /> 
+  <p>This makes use of the search API to query the selected commerce engine (see <a href="#ecommerceengineselection">eCommerce Engine Selection</a>):</p> 
+  <h4>Search API</h4> 
+  <p>There are several generic / helper classes provided by the core project:</p> 
+  <ol> 
+   <li><span class="code">CommerceQuery</span><br /> Is used to describe a search query (contains information about the query text, current page, page size, sort and selected facets). All eCommerce services that implement the search API will receive instances of this class in order to perform their search. A <span class="code">CommerceQuery</span> can be instantiated from a request object (<span class="code">HttpServletRequest</span>).</li> 
+   <li><span class="code">FacetParamHelper</span><br /> Is a utility class that provides one static method - <span class="code">toParams</span> - that is used for generating <span class="code">GET</span> parameter strings from a list of facets and one toggled value. This is useful on the UI side, where you need to display a hyperlink for each value of each facet, such that when the user clicks on the hyperlink the respective value is toggled (i.e. if it was selected it is removed from the query, otherwise added). This takes care of all the logic of handling multiple/single-valued facets, overriding values, etc.</li> 
+  </ol> 
+  <p>The entry point for the search API is the <span class="code">CommerceService#search</span> method which returns a <span class="code">CommerceResult</span> object. See the <a href="../../../sites/developing/using/ecommerce.md#apidocumentation">API Documentation</a> for more information on this topic.</p> 
+  <h3>User Integration</h3> 
+  <p>Integration is provided between AEM and various eCommerce systems. This requires a strategy for synchronizing shoppers between the various systems so that AEM-specific code only has to know about AEM and vice-versa:</p> 
+  <ul> 
+   <li>Authentication<br /> AEM is presumed to be the <i>only</i> web front-end and therefore performs <i>all</i> authentication.</li> 
+   <li>Slave Accounts<br /> AEM creates a slave account in hybris for each shopper. The username of the slave account is the same as the AEM username. A cryptographically-random password is auto-generated and stored (encrypted) in AEM.<br /> </li> 
+  </ul> 
+  <h4>Pre-existing Users</h4> 
+  <p>A AEM front-end can be positioned in front of an existing hybris implementation. Also a hybris engine can be added to an existing AEM installation. To do this, the systems must be able to gracefully handle existing users in either system:</p> 
+  <ul> 
+   <li>AEM -&amp;gt; hybris 
+    <ul> 
+     <li>When logging in to hybris, if the AEM user does not already exist:<br /> 
+      <ul> 
+       <li>create a new hybris user with a cryptographically random password</li> 
+       <li>store the hybris username in the user directory of the AEM user<br /> </li> 
+      </ul> </li> 
+     <li>See: <span class="code">com.adobe.cq.commerce.hybris.impl.HybrisSessionImpl#login()</span></li> 
+    </ul> </li> 
+   <li>hybris -&amp;gt; AEM 
+    <ul> 
+     <li>When logging in to AEM, if the system recognizes the user:<br /> 
+      <ul> 
+       <li>attempt to log in to hybris with supplied username/pwd</li> 
+       <li>if successful, create the new user in AEM with the same password (AEM-specific salt will result in AEM-specific hash)</li> 
+      </ul> </li> 
+     <li>The above algorithm is implemented in a Sling <span class="code">AuthenticationInfoPostProcessor</span> 
+      <ul> 
+       <li>See: <span class="code">com.adobe.cq.commerce.hybris.impl.user.LazyUserImporter.java</span></li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Customizing the Import Process</h3> 
+  <p>To build upon existing functionality your custom import handler:</p> 
+  <ul> 
+   <li> has to implement the <span class="code">ImportHandler</span> interface <br /> </li> 
+   <li>can extend the <span class="code">DefaultImportHandler</span> <br /> </li> 
+  </ul> 
+  <codeblock gutter="true" class="syntax java">
+    /**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Services&amp;nbsp;implementing&amp;nbsp;the&amp;nbsp;&lt;code&gt;ImportHandler&lt;/code&gt;&amp;nbsp;interface&amp;nbsp;are!!discoiqbr!!&amp;nbsp;*&amp;nbsp;called&amp;nbsp;by&amp;nbsp;the&amp;nbsp;{@link&amp;nbsp;HybrisImporter}&amp;nbsp;to&amp;nbsp;create&amp;nbsp;actual&amp;nbsp;commerce&amp;nbsp;entities!!discoiqbr!!&amp;nbsp;*&amp;nbsp;such&amp;nbsp;as&amp;nbsp;products.!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;interface&amp;nbsp;ImportHandler&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;Not&amp;nbsp;used.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;createTaxonomie(ImporterContext&amp;nbsp;ctx);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;Creates&amp;nbsp;a&amp;nbsp;catalog&amp;nbsp;with&amp;nbsp;the&amp;nbsp;given&amp;nbsp;name.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;ctx&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;importer&amp;nbsp;context!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;name&amp;nbsp;&amp;nbsp;The&amp;nbsp;catalog's&amp;nbsp;name!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@return&amp;nbsp;Path&amp;nbsp;of&amp;nbsp;created&amp;nbsp;catalog!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;createCatalog(ImporterContext&amp;nbsp;ctx,&amp;nbsp;String&amp;nbsp;name)&amp;nbsp;throws&amp;nbsp;Exception;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;Creates&amp;nbsp;a&amp;nbsp;product&amp;nbsp;from&amp;nbsp;the&amp;nbsp;given&amp;nbsp;values.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;ctx&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;importer&amp;nbsp;context!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;values&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;product's&amp;nbsp;properties!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;parentCategoryPath&amp;nbsp;The&amp;nbsp;containing&amp;nbsp;category's&amp;nbsp;path!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@return&amp;nbsp;Path&amp;nbsp;of&amp;nbsp;created&amp;nbsp;product!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;createProduct(ImporterContext&amp;nbsp;ctx,&amp;nbsp;ValueMap&amp;nbsp;values,&amp;nbsp;String&amp;nbsp;parentCategoryPath)&amp;nbsp;throws&amp;nbsp;Exception;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;Creates&amp;nbsp;a&amp;nbsp;variant&amp;nbsp;product&amp;nbsp;from&amp;nbsp;the&amp;nbsp;given&amp;nbsp;values.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;ctx&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;importer&amp;nbsp;context!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;values&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;product's&amp;nbsp;properties!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;baseProductPath&amp;nbsp;The&amp;nbsp;base&amp;nbsp;product's&amp;nbsp;path!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@return&amp;nbsp;Path&amp;nbsp;of&amp;nbsp;created&amp;nbsp;product!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;createVariantProduct(ImporterContext&amp;nbsp;ctx,&amp;nbsp;ValueMap&amp;nbsp;values,&amp;nbsp;String&amp;nbsp;baseProductPath)&amp;nbsp;throws&amp;nbsp;Exception;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;Creates&amp;nbsp;an&amp;nbsp;asset&amp;nbsp;for&amp;nbsp;a&amp;nbsp;product.&amp;nbsp;This&amp;nbsp;is&amp;nbsp;usually&amp;nbsp;a&amp;nbsp;product!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;image.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;ctx&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;importer&amp;nbsp;context!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;values&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;product's&amp;nbsp;properties!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;baseProductPath&amp;nbsp;The&amp;nbsp;product's&amp;nbsp;path!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@return&amp;nbsp;Path&amp;nbsp;of&amp;nbsp;created&amp;nbsp;asset!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;createAsset(ImporterContext&amp;nbsp;ctx,&amp;nbsp;ValueMap&amp;nbsp;values,&amp;nbsp;String&amp;nbsp;productPath)&amp;nbsp;throws&amp;nbsp;Exception;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;Creates&amp;nbsp;a&amp;nbsp;category&amp;nbsp;from&amp;nbsp;the&amp;nbsp;given&amp;nbsp;values.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;ctx&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;importer&amp;nbsp;context!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;values&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The&amp;nbsp;category's&amp;nbsp;properties!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;parentPath&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Path&amp;nbsp;of&amp;nbsp;parent&amp;nbsp;category&amp;nbsp;or&amp;nbsp;base&amp;nbsp;path&amp;nbsp;of&amp;nbsp;import&amp;nbsp;in&amp;nbsp;case&amp;nbsp;of&amp;nbsp;root&amp;nbsp;category!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@return&amp;nbsp;Path&amp;nbsp;of&amp;nbsp;created&amp;nbsp;category!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;createCategory(ImporterContext&amp;nbsp;ctx,&amp;nbsp;ValueMap&amp;nbsp;values,&amp;nbsp;String&amp;nbsp;parentCategoryPath)&amp;nbsp;throws&amp;nbsp;Exception;!!discoiqbr!!} 
+  </codeblock> 
+  <p>For your custom handler to be recognized by the importer, it must specify the <span class="code">service.ranking </span>property with a value higher than 0; for example:<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    @Component!!discoiqbr!!@Service!!discoiqbr!!@Property(name&amp;nbsp;=&amp;nbsp;"service.ranking",&amp;nbsp;value&amp;nbsp;=&amp;nbsp;100)!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;MyImportHandler&amp;nbsp;extends&amp;nbsp;DefaultImportHandler&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!} 
+  </codeblock> 
+ </body> 
+</html>

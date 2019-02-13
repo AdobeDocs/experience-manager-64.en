@@ -1,0 +1,211 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7df2.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7df0.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-908c05612905cdf653-7fee.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7dee.2,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f14-1430eb013d5ee30a84-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f14-349cbff913d730897bc-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f14-26b4ca2e13d5eec1b2e-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f14468f4fbf13d5f3be23c-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f14-26b4ca2e13d5eec1b2e-7fff,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-908c05612905cdf653-7ff6.2,AEMForms/6.1/AdminHelp/WSb49dd2d0b4ddb1332b86718414e4490e2b2-8000,AEMForms/6.1/AdminHelp/WSf93d4b0c169ffec63b05e2151507fa4b0c8-8000" name="cq:gepId" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-03T09:09:52.361-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-31T16:32:21.201-0400" name="publishExternalDate" /> 
+  <meta content="Configuring SSL for WebSphere Application Server" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Configuring SSL for WebSphere Application&amp;#xA;Server" name="navTitle" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2016-02-05T03:27:19.453-0500" name="lr_lastModified" /> 
+  <meta content="29a89f9a-68ef-4474-b8c8-0e9c68dc617f" name="jcr:uuid" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_ssl;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2018-04-26T04:24:15.353-0400" name="cq:lastModified" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="105" name="acrolinxSentences" /> 
+  <meta content="954a4ce7-99ee-4234-a54e-f2259677d50a" name="jcr:predecessors" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_ssl_websphere_application_server_admin_5e12de0b318c6865_2301_report.xml" name="acrolinxReportURL" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2016-04-20T10:02:37.151-0400" name="firstPublishExternalDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="2017-12-01T19:07:05.512-0500" name="jcr:created" /> 
+  <meta content="Learn how to configure SSL for WebSphere Application Server." name="seoDescription" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-ssl-websphere-application-server.html" name="publishExternalURL" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="1230" name="acrolinxWords" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2016-05-31T06:57:55.924-0400" name="acrolinxDate" /> 
+  <meta content="2017-10-31T16:32:21.201-0400" name="lastPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-04-26T04:24:15.352-0400" name="locHandOffDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>This section includes the following steps to configure SSL with your IBM WebSphere Application Server.</p> 
+  <h2 id="creating_a_local_user_account_on_websphere">Creating a local user account on WebSphere</h2> 
+  <p></p> 
+  <p>For enabling SSL, WebSphere needs access to a user account in the local OS user registry that has permission to administer the system:</p> 
+  <ul> 
+   <li><p>(Windows) Create a new Windows user who is part of the Administrators group and has the privilege to act as part of the operating system. (See <a href="configuring-ssl-websphere-application-server#create_a_windows_user_for_websphere">Create a Windows user for WebSphere</a>.) </p></li> 
+   <li><p>(Linux, UNIX) The user can be a root user or another user who has root privileges. When you enable SSL on WebSphere, use the server identification and password of this user.</p></li> 
+  </ul> 
+  <h3 id="create_a_linux_or_unix_user_for_websphere">Create a Linux or UNIX user for WebSphere</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>Log in as the root user.</p></li> 
+   <li><p>Create a user by entering the following command in a command prompt:</p> 
+    <ul> 
+     <li><p>(Linux and Sun Solaris) <span class="code">useradd</span></p></li> 
+     <li><p>(IBM AIX) <span class="code">mkuser</span></p></li> 
+    </ul></li> 
+   <li><p>Set the password of the new user by entering <span class="code">passwd</span> in the command prompt.</p></li> 
+   <li><p>(Linux and Solaris) Create a shadow password file by entering <span class="code">pwconv</span> (with no parameters) in the command prompt.</p> 
+    <note> 
+     <p>(Linux and Solaris) For WebSphere Application Server Local OS security registry to work, a shadow password file must exist. The shadow password file is usually named <strong>/etc/shadow</strong><i> and is based on the /etc/passwd file. If the shadow password file does not exist, an error occurs after enabling global security and configuring the user registry as Local OS.</i></p> 
+    </note></li> 
+   <li><p>Open the group file from the /etc directory in a text editor.</p></li> 
+   <li><p>Add the user who you created in step 2 to the <span class="code">root</span> group.</p></li> 
+   <li><p>Save and close the file.</p></li> 
+   <li><p>(UNIX with SSL enabled) Start and stop WebSphere as the root user.</p></li> 
+  </ol> 
+  <h3 id="create_a_windows_user_for_websphere">Create a Windows user for WebSphere</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>Log in to Windows by using an administrator user account.</p></li> 
+   <li><p>Select <strong>Start &amp;gt; Control Panel &amp;gt; Administrative Tools &amp;gt; Computer Management &amp;gt; Local Users and Groups</strong>.</p></li> 
+   <li><p>Right-click Users and select <strong>New User</strong>.</p></li> 
+   <li><p>Type a user name and password in the appropriate boxes, and type any other information you require in the remaining boxes.</p></li> 
+   <li><p>Deselect <strong>User Must Change Password At Next Login</strong>, click <strong>Create</strong>, and then click <strong>Close</strong>.</p></li> 
+   <li><p>Click <strong>Users</strong>, right-click the user you just created and select <strong>Properties</strong>.</p></li> 
+   <li><p>Click the <strong>Member Of</strong> tab and then click <strong>Add</strong>.</p></li> 
+   <li><p>In the Enter The Object Names To Select box, type <span class="code">Administrators</span>, click Check Names to ensure that the group name is correct.</p></li> 
+   <li><p>Click <strong>OK</strong> and then click <strong>OK</strong> again.</p></li> 
+   <li><p>Select <strong>Start &amp;gt; Control Panel &amp;gt; Administrative Tools &amp;gt; Local Security Policy &amp;gt; Local Policies</strong>.</p></li> 
+   <li><p>Click User Rights Assignment, and then right-click Act as Part of the Operating System and select Properties.</p></li> 
+   <li><p>Click <strong>Add User or Group</strong>.</p></li> 
+   <li><p>In the Enter The Object Names To Select box, type the name of the user you created in step 4, click <strong>Check Names</strong> to ensure that the name is correct, and then click <strong>OK</strong>.</p></li> 
+   <li><p>Click <strong>OK</strong> to close the Act As Part Of The Operating System Properties dialog box.</p></li> 
+  </ol> 
+  <h3 id="configure_websphere_to_use_the_newly_created_user_as_administrator">Configure WebSphere to use the newly created user as Administrator</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>Ensure that WebSphere is running.</p></li> 
+   <li><p>In WebSphere Administrative Console, select <strong>Security &amp;gt; Global Security</strong>.</p></li> 
+   <li><p>Under Administrative security, select <strong>Administrative user roles</strong>.</p></li> 
+   <li><p>Click Add and do the following:</p> 
+    <ol> 
+     <li><p>Type <strong>*</strong> in the search box and click search.</p></li> 
+     <li><p>Click <strong>Administrator</strong> under roles.</p></li> 
+     <li><p>Add the newly created user to Mapped to role and map it to Administrator.</p></li> 
+    </ol></li> 
+   <li><p>Click <strong>OK</strong> and save your changes.</p></li> 
+   <li><p>Restart the WebSphere profile.</p></li> 
+  </ol> 
+  <h2 id="enable_administrative_security">Enable administrative security</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In WebSphere Administrative Console, select <strong>Security &amp;gt; Global Security</strong>.</p></li> 
+   <li><p>Click <strong>Security Configuration Wizard</strong>. </p></li> 
+   <li><p>Ensure <strong>Enable Application Security</strong> checkbox is enabled. Click <strong>Next</strong>.</p></li> 
+   <li><p>Select <strong>Federated Repositories</strong> and click <strong>Next</strong>.</p></li> 
+   <li><p>Specify the credentials you want to set and click <strong>Next</strong>.</p></li> 
+   <li><p>Click <strong>Finish</strong>.</p></li> 
+   <li><p>Restart the WebSphere profile. </p><p>WebSphere will start using the default keystore and truststore.</p></li> 
+  </ol> 
+  <h2 id="enable_ssl_custom_key_and_truststore">Enable SSL (custom key and truststore)</h2> 
+  <p></p> 
+  <p>Truststores and keystores can be created using ikeyman utility or admin console. To make ikeyman work properly, enure that the WebSphere installation path does not contain parentheses.</p> 
+  <ol> 
+   <li><p>In WebSphere Administrative Console, select <strong>Security &amp;gt; SSL certificate and key management</strong>.</p></li> 
+   <li><p>Click <strong>Keystores and certificates</strong> under Related items.</p></li> 
+   <li><p>In the <strong>Key store usages</strong> dropdown, ensure that <strong>SSL Keystores</strong> is selected. Click <strong>New</strong>.</p></li> 
+   <li><p>Type a logical name and description.</p></li> 
+   <li><p>Specify the path where you want your keystore to be created. If you have already created a keystore through ikeyman, specify the path to the keystore file.</p></li> 
+   <li><p>Specify and confirm the password.</p></li> 
+   <li><p>Choose the keystore type and click <strong>Apply</strong>.</p></li> 
+   <li><p>Save the master configuration.</p></li> 
+   <li><p>Click <strong>Personal Certificate</strong>.</p></li> 
+   <li><p>If you had added already created a keystore using ikeyman, your certificate will appear. Otherwise, you need to add a new self-signed certificate by performing the following steps:</p> 
+    <ol> 
+     <li><p>Select <strong>Create &amp;gt; Self-signed Certificate</strong>.</p></li> 
+     <li><p>Specify appropriate values on the certificate form. Ensure that you keep Alias and common name as fully-qualified domain name of the machine.</p></li> 
+     <li><p>Click <strong>Apply</strong>.</p></li> 
+    </ol></li> 
+   <li><p>Repeat steps 2 through 10 for creating a truststore.</p></li> 
+  </ol> 
+  <h2 id="apply_custom_keystore_and_truststore_to_the_server">Apply custom keystore and truststore to the server</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In WebSphere Administrative Console, select <strong>Security &amp;gt; SSL certificate and key management</strong>.</p></li> 
+   <li><p>Click <strong>Manage endpoint security configuration</strong>. The local topology map opens.</p></li> 
+   <li><p>Under Inbound, select direct child of nodes.</p></li> 
+   <li><p>Under Related items, select <strong>SSL configurations</strong>.</p></li> 
+   <li><p>Select <strong>NodeDeafultSSLSetting</strong>.</p></li> 
+   <li><p>From the truststore name and keystore name drop-down lists, select the custom truststore and keystore that you created.</p></li> 
+   <li><p>Click <strong>Apply</strong>.</p></li> 
+   <li><p>Save the master configuration.</p></li> 
+   <li><p>Restart the WebSphere profile.</p><p>Your profile now runs on custom SSL settings and your certificate.</p></li> 
+  </ol> 
+  <h2 id="enabling_support_for_aem_forms_natives">Enabling support for AEM forms natives</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In WebSphere Administrative Console, select <strong>Security &amp;gt; Global Security</strong>.</p></li> 
+   <li><p>In the Authentication section, expand <strong>RMI/IIOP security</strong> and click <strong>CSIv2 inbound communications</strong>.</p></li> 
+   <li><p>Ensure that <strong>SSL-supported</strong> is selected in the Transport drop down list.</p></li> 
+   <li><p>Restart the WebSphere profile.</p></li> 
+  </ol> 
+  <h2 id="configuring_websphere_to_convert_urls_that_begins_with_https">Configuring WebSphere to convert URLs that begins with https</h2> 
+  <p></p> 
+  <p>To convert a URL that begins with https, add a Signer certificate for that URL to the WebSphere server.</p> 
+  <p><strong>Create a Signer certificate for a https enabled site</strong></p> 
+  <ol> 
+   <li><p>Ensure that WebSphere is running.</p></li> 
+   <li><p>In WebSphere Administrative Console, navigate to Signer certificates and then click Security &amp;gt; SSL Certificate and Key Management &amp;gt; Key Stores and Certificates &amp;gt; NodeDefaultTrustStore &amp;gt; Signer Certificates.</p></li> 
+   <li><p>Click Retrieve From Port and perform these tasks: </p> 
+    <ul> 
+     <li><p>In the Host box, type the URL. For example, type <span class="code">www.paypal.com</span>.</p></li> 
+     <li><p>In the Port box, type <span class="code">443</span>. This port is the default SSL port.</p></li> 
+     <li><p>In the Alias box, type an alias. </p></li> 
+    </ul></li> 
+   <li><p>Click Retrieve Signer Information and then verify that the information is retrieved.</p></li> 
+   <li><p>Click Apply and then click Save.</p></li> 
+  </ol> 
+  <p>HTML-to-PDF conversion from the site whose certificate is added will now work from the Generate PDF service. </p> 
+  <note> 
+   <p>For an application to connect to SSL sites from inside WebSphere, a Signer certificate is required. It is used by Java Secure Socket Extensions (JSSE) to validate certificates that the remote side of the connection sent during an SSL handshake.</p> 
+  </note> 
+  <h2 id="configuring_dynamic_ports">Configuring dynamic ports</h2> 
+  <p></p> 
+  <p>IBM WebSphere does not allow multiple calls to ORB.init() when Global Security is enabled. You can read about the permanent restriction at http://www-01.ibm.com/support/docview.wss?uid=swg1PK58704. </p> 
+  <p>Perform the following steps to set the port to be dynamic and resolve the issue:</p> 
+  <ol> 
+   <li><p>In WebSphere Administrative Console, select <strong>Servers</strong> &amp;gt; <strong>Server Types</strong> &amp;gt; <strong>WebSphere application server</strong>.</p></li> 
+   <li><p>In the Preferences section, select your server.</p></li> 
+   <li><p>In the <strong>Configuration</strong> tab, under <strong>Communications</strong> section, expand <strong>Ports</strong>, and click <strong>Details</strong>.</p></li> 
+   <li><p>Click the following port names, change the <strong>port number</strong> to 0, and click <strong>OK</strong>.</p> 
+    <ul> 
+     <li></li> 
+     <li></li> 
+     <li></li> 
+     <li></li> 
+    </ul></li> 
+  </ol> 
+  <h2 id="configure_the_sling_properties_file">Configure the sling.properties file</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>Open [aem-forms_root]\crx-repository\launchpad\sling.properties file for editing.</p></li> 
+   <li><p>Locate the <span class="code">sling.bootdelegation.ibm</span> property and add <span class="code">com.ibm.websphere.ssl.* </span>to its value field. The updated field look like the following: </p> 
+    <codeblock gutter="true" class="syntax as3">
+      sling.bootdelegation.ibm=com.ibm.xml.*,&amp;nbsp;com.ibm.websphere.ssl.* 
+    </codeblock></li> 
+   <li><p>Save the file and restart the server.</p></li> 
+  </ol> 
+ </body> 
+</html>

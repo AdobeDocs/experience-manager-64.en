@@ -1,0 +1,127 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="76ce31be-a165-443e-8d17-49bc2d062a02" name="jcr:predecessors" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-10-28T01:32:35.240-0400" name="cq:lastReplicated" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-19T10:32:28.949-0400" name="locHandOffDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-10-28T01:32:35.197-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-10-28T01:32:35.197-0400" name="publishExternalDate" /> 
+  <meta content="bd3d78d3-3dba-40f9-94b3-5fd992485aff" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/launches-editing.html" name="publishExternalURL" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Editing Launches" name="seoTitle" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="/content/docs/en/aem/6-0/author/site-page-features/launches" name="legacyPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Alison Heimoz" name="contentOwner" /> 
+  <meta content="2018-10-28T01:32:35.205-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-31T16:20:26.260-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:site-features" name="cq:tags" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="After creating a launch for your page (or set of pages) you can edit the content in the launch copy of the page(s). " name="seoDescription" /> 
+  <meta content="Editing Launches" name="navTitle" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="2017-12-01T19:01:57.464-0500" name="jcr:created" /> 
+  <meta content="2018-10-28T01:32:35.197-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="/content/docs/en/aem/6-3/author/site-page-features/launches/editing-launches" name="qaNotes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Editing Launches" name="jcr:title" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+ </head> 
+ <body> 
+  <h2>Editing Launch Pages</h2> 
+  <p>When a launch has been created for a page (or set of pages) you can edit the content in the launch copy of the page(s). </p> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T04:52:42.811-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>no way to open a launch page for editing from the Launches console?</p> 
+   <p>MS&amp;gt;&amp;gt;&amp;gt; no, the launches console is for managing launches, less so editing launch content</p> 
+  </draft-comment> 
+  <ol> 
+   <li><p>Access the <a href="../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole">Launch from References (Sites console)</a> to show the available actions.</p> </li> 
+   <li><p>Select <strong>Go to the page</strong> to open the page for editing.</p> 
+    <draft-comment color="yellow" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T04:52:42.954-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+     <p>this only takes you to the root page.....in touch how to:</p> 
+     <ul> 
+      <li>navigate to subpages (edit url or continually flip to preview?) - slightly easier in classic</li> 
+      <li>create a new child page somewhere (possible in classic)</li> 
+     </ul> 
+     <p>for 6.4 see </p> 
+     <ul> 
+      <li>https://jira.corp.adobe.com/browse/CQ-84464</li> 
+      <li>https://jira.corp.adobe.com/browse/CQ-55740</li> 
+     </ul> 
+    </draft-comment></li> 
+  </ol> 
+  <h3>Editing Launch Pages Subject to a Live Copy</h3> 
+  <p>If your launch is based upon a <a href="../../../sites/administering/using/msm.md">live copy</a> then you will:</p> 
+  <ul> 
+   <li>see lock symbols (small padlocks) when you edit a component (content and/or properties).</li> 
+   <li>see the <strong>Live Copy</strong> tab in <strong>Page Properties</strong></li> 
+  </ul> 
+  <p>A livecopy is used to synchronize content <i>from</i> the source branch <i>to</i> your launch branch (to keep your launch up-to-date with changes made in the source).</p> 
+  <p>You can make changes in the same way as you can edit a standard live copy; for example:</p> 
+  <ul> 
+   <li>Clicking on a closed padlock will break this synchronization and allow you to make new updates to the content in your launch. Once unlocked (open padlock) your changes will not be overwritten by any changes made at the same location within the source branch.</li> 
+   <li><strong>Suspend</strong> (and <strong>Resume</strong>) inheritance for a specific page.</li> 
+  </ul> 
+  <p>See <a href="../../../sites/administering/using/msm-livecopy.md#changinglivecopycontent">Changing Live Copy Content</a> for further information.</p> 
+  <h2>Comparing a Launch Page to its Source Page</h2> 
+  <p>To track the changes you have made, you can view the launch in <strong>References</strong> and compare the launch page with its source page:</p> 
+  <ol> 
+   <li><p>In the <strong>Sites</strong> console, <a href="../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresources">navigate to the source page of your launch and select it</a>.</p> </li> 
+   <li><p>Open the <strong><a href="../../../sites/authoring/using/basic-handling.md#references">References</a></strong> panel and select <strong>Launches</strong>.</p> </li> 
+   <li><p>Select your specific launch then <strong>Compare to Source</strong>:</p> <img imageRotate="0" src="assets/chlimage_1-135.png" /></li> 
+   <li><p>The two pages (launch and source) will be opened side-by-side.</p> <p>For full information about using this feature see <a href="../../../sites/authoring/using/page-diff.md">Page Diff</a>.</p> </li> 
+  </ol> 
+  <h2>Changing the Source Pages Used</h2> 
+  <p>At any time you can either add or remove pages to/from the range of source pages for a launch:<br /> </p> 
+  <ol> 
+   <li><p>Access and select the launch from either:</p> 
+    <ul> 
+     <li>the <a href="../../../sites/authoring/using/launches.md#thelaunchesconsole">Launches console</a>: 
+      <ul> 
+       <li>Select <strong>Edit</strong>.</li> 
+      </ul> </li> 
+     <li><a href="../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole">References (Sites console)</a> to show the available actions: 
+      <ul> 
+       <li>Select <strong>Edit Launch</strong>.<br /> </li> 
+      </ul> </li> 
+    </ul> <p>The source pages will be shown.</p> </li> 
+   <li><p>Make your required changes, then confirm with <strong>Save</strong>.</p> 
+    <note> 
+     <p>To add pages to a launch they must be below a common language root; i.e. within a single site.</p> 
+    </note></li> 
+  </ol> 
+  <h2>Editing a Launch Configuration</h2> 
+  <p>At any time you can edit the properties for a launch:<br /> </p> 
+  <ol> 
+   <li><p>Access and select the launch from either:</p> 
+    <ul> 
+     <li>the <a href="../../../sites/authoring/using/launches.md#thelaunchesconsole">Launches console</a>: 
+      <ul> 
+       <li>Select <strong>Properties</strong>.</li> 
+      </ul> </li> 
+     <li><a href="../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole">References (Sites console)</a> to show the available actions: 
+      <ul> 
+       <li>Select <strong>Edit Properties</strong>.<br /> </li> 
+      </ul> </li> 
+    </ul> <p>The details will be shown.</p> </li> 
+   <li><p>Make your required changes, then confirm with <strong>Save</strong>.</p> <p>See <a href="../../../sites/authoring/using/launches.md#main-pars-title-6">Launches - the Order of Events</a> for information about the purpose and interaction of the <strong>Launch Date</strong> and <strong>Production Ready</strong> fields.</p> </li> 
+  </ol> 
+  <h2>Discovering the Launch Status of a Page</h2> 
+  <p>The status is shown when you select a specific launch from the references tab (see <a href="../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole">Launches in References (Sites Console)</a>).</p> 
+  <img imageRotate="0" src="assets/chlimage_1-136.png" /> 
+ </body> 
+</html>

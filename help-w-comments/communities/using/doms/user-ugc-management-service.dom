@@ -1,0 +1,84 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="msm-service" name="jcr:createdBy" /> 
+  <meta content="mgulati" name="contentOwner" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="User and UGC Management Service in AEM Communities" name="navTitle" /> 
+  <meta content="User and UGC Management Service in AEM Communities" name="jcr:title" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering" name="cq:tags" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="ce98f4f9-7db9-4866-a3d9-135b06163a08" name="jcr:predecessors" /> 
+  <meta content="7e4df3d3-8bb5-4097-82d0-75ef2f136aa2" name="jcr:uuid" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-05-25T02:35:20.716-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-05-25T02:35:20.642-0400" name="cq:lastModified" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-05-25T02:35:20.626-0400" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/user-ugc-management-service.html" name="publishExternalURL" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-05-25T02:35:20.626-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="User and UGC Management Service in AEM Communities" name="seoTitle" /> 
+  <meta content="2018-03-30T07:28:39.021-0400" name="jcr:created" /> 
+  <meta content="Use APIs to bulk delete and bulk export user generated content, and disable user account. " name="seoDescription" /> 
+  <meta content="2018-05-25T02:35:20.626-0400" name="lastPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T10:45:44.165-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-05-24T07:20:32.413-0400" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <p>AEM Communities exposes APIs out-of-the-box to manage user profiles and bulk manage user generated content (UGC). Once enabled, the <strong>UserUgcManagement</strong> service allows the privileged users (community administrators and moderators) to disable user profiles, and bulk delete or bulk export UGC for specific users. These APIs also enable controllers and processors of customer data to comply with the European Union's General Data Protection Regulations (GDPR) and other GDPR inspired privacy mandates.</p> 
+  <p>For further information see the <a href="https://www.adobe.com/privacy/general-data-protection-regulation.html">GDPR page at the Adobe Privacy Center</a>. </p> 
+  <note> 
+   <p>If you configured <a href="../../communities/using/analytics.md" target="_blank">Adobe Analytics in AEM Communities</a> site, the captured user data is sent to Adobe Analytics server. Adobe Analytics provides APIs that allow you to access, export, and delete user data and comply with GDPR. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/analytics/gdpr/gdpr_submit_access_delete.html" target="_blank">Submit Access and Delete Requests</a>.</p> 
+  </note> 
+  <p>To put these APIs to use, you need to enable the <strong>/services/social/ugcmanagement</strong> endpoint by activating the UserUgcManagement service. To activate this service, install the <a href="https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-ugc-management-servlet">sample servlet</a> available on <a href="https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-ugc-management-servlet">GitHub.com</a>. Then, hit the endpoint on publish instance of your communities site with appropriate parameters using an http request, similar to</p> 
+  <p><strong>http://localhost:port/services/social/ugcmanagement?user=&amp;lt;authorizable ID&amp;gt;&amp;operation=&amp;lt;getUgc&amp;gt;</strong>. However, you can also build a UI (user interface) to manage user profiles and user generated content in system.</p> 
+  <p>These APIs enable perform the following functions.</p> 
+  <h2>Retrieve the UGC of a user</h2> 
+  <p><strong>getUserUgc(ResourceResolver resourceResolver, String user, OutputStream outputStream) </strong>helps export all the UGC of a user from the system.</p> 
+  <ul> 
+   <li><strong>user</strong>: authorizable ID of a user.</li> 
+   <li><strong>outputStream</strong>: result is returned as output stream, which is a zip file including the user generated content (as json file) and attachments (which include images or videos uploaded by the user).</li> 
+  </ul> 
+  <p>For example, to export the UGC of a user named Weston McCall, who uses weston.mccall@dodgit.com as authorizable ID to log in to communities site, you can send an http GET request similar to the following:</p> 
+  <p><span class="code">http://localhost:port/services/social/ugcmanagement?user=weston.mccall@dodgit.com&amp;operation=getUgc</span></p> 
+  <h2>Delete the UGC of a user</h2> 
+  <p><strong>deleteUserUgc(ResourceResolver resourceResolver, String user) </strong>helps delete all the UGC for a user from the system.</p> 
+  <ul> 
+   <li><strong>user</strong>: authorizable ID of the user.</li> 
+  </ul> 
+  <p>For example, to delete the UGC of a user having authorizable ID weston.mccall@dodgit.com through http-POST request, use the following parameters:</p> 
+  <ul> 
+   <li>user= weston.mccall@dodgit.com</li> 
+   <li>operation= deleteUgc</li> 
+  </ul> 
+  <h2>Disable a User Account</h2> 
+  <p><strong>deleteUserAccount(ResourceResolver resourceResolver, String user) </strong>helps disable a user account.</p> 
+  <ul> 
+   <li><strong>user</strong>: authorizable ID of the user.</li> 
+  </ul> 
+  <note> 
+   <p>Disabling a user deletes all the user generated content that the user has on the server.</p> 
+  </note> 
+  <p>For example, to delete the profile of a user having authorizable ID weston.mccall@dodgit.com through http-POST request, use the following parameters:</p> 
+  <ul> 
+   <li>user= weston.mccall@dodgit.com</li> 
+   <li>operation= deleteUser</li> 
+  </ul> 
+  <note> 
+   <p>deleteUserAccount() API only disables a user profile in the system and removes the UGC. However, to delete a user profile from the system, navigate to <strong>CRXDE Lite</strong>: <a href="http://localhost:4502/crx/de">http://&amp;lt;server&amp;gt;/crx/de</a>, locate the user node and delete it.</p> 
+  </note> 
+ </body> 
+</html>

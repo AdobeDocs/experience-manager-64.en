@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T09:09:52.361-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2016-05-31T06:58:00.649-0400" name="acrolinxDate" /> 
+  <meta content="2017-10-31T16:32:20.547-0400" name="lastPublishExternalDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="26" name="acrolinxSentences" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="Configuring validation messages" name="navTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="Configuring validation messages" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="2018-04-26T04:24:12.836-0400" name="locHandOffDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-validation-messages.html" name="publishExternalURL" /> 
+  <meta content="25320d4a-8922-4e33-82f0-28baaeb1eb5a" name="jcr:predecessors" /> 
+  <meta content="2017-12-01T19:05:06.174-0500" name="jcr:created" /> 
+  <meta content="2016-04-20T10:02:43.175-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d8c.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-2f3f7e7512905cdfcac-7ff0.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-2f3f7e7512905cdfcac-7ffb.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-2f3f7e7512905cdfcac-7fef.2" name="cq:gepId" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2018-04-26T04:24:12.837-0400" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2016-02-05T03:27:19.849-0500" name="lr_lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="a7e1b7d0-e150-4d35-ae2d-e19168ed0545" name="jcr:uuid" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2017-10-31T16:32:20.547-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="334" name="acrolinxWords" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Learn how to specify how validation messages are displayed and their location relative to the form returned in the web browser." name="seoDescription" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_validation_messages_admin_5e12de0b318c6865_2304_report.xml" name="acrolinxReportURL" /> 
+ </head> 
+ <body> 
+  <p>For forms that are rendered as HTML, form validation errors that occur are displayed for the user. You can customize how validation messages are displayed. Depending on where the validation messages are displayed, you can also control the location of the message in the form and the size of the frame border. </p> 
+  <h2 id="specify_how_validation_messages_are_displayed">Specify how validation messages are displayed</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; forms.</p></li> 
+   <li><p>Under Validation Output, in the Reporting list, select one of the following options:</p><p><strong>Message box:</strong> To display validation messages in a separate dialog box.</p><p><strong>Frame:</strong> To display validation messages within a frame of the same window. </p><p><strong>No Frame:</strong> To display validation messages in the same window. This value is the default.</p><p><strong>Via API (with data):</strong> To return the validation messages through the API (with data). The validation messages are not displayed on the screen.</p><p><strong>Via API (with form):</strong> To return the validation messages through the API (with the form). The validation messages are not displayed on the screen.</p><p><strong>None:</strong> To not display validation messages.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <h2 id="specify_the_location_of_validation_messages_relative_to_the_form_returned_in_the_web_browser">Specify the location of validation messages relative to the form returned in the web browser</h2> 
+  <p></p> 
+  <p>When Reporting is set to Frame or No Frame, you can specify the location of validation messages.</p> 
+  <ol> 
+   <li><p>Under Validation Output, in the Position list, select one of the following options:</p><p><strong>Left:</strong> To display validation messages on the left side of the web browser.</p><p><strong>Right:</strong> To display validation messages on the right side of the web browser.</p><p><strong>Top</strong>: To display validation messages at the top of the web browser. This value is the default.</p><p><strong>Bottom</strong>: To display validation messages at the bottom of the web browser.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <h2 id="specify_the_frame_border_size">Specify the frame border size</h2> 
+  <p></p> 
+  <p>When Reporting is set to Frame, you can specify the frame border size.</p> 
+  <ol> 
+   <li><p>Under Validation Output, in the Border Size box, type the size of the frame border, in pixels. </p><p>The border size must be equal to or greater than 0. The default value is 1.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+ </body> 
+</html>

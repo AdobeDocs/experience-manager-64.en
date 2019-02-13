@@ -1,0 +1,89 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/administering/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="2017-10-31T16:24:45.409-0400" name="firstPublishExternalDate" /> 
+  <meta content="Learn how to manage multilingual websites in AEM." name="seoDescription" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:site-features;content_type:reference" name="cq:tags" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/msm-and-translation.html" name="publishExternalURL" /> 
+  <meta content="2018-04-26T10:12:36.419-0400" name="locHandOffDate" /> 
+  <meta content="2017-12-01T19:01:35.777-0500" name="jcr:created" /> 
+  <meta content="0f20aeea-ac80-4523-9584-6897e45b7b91" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Website Administration" name="navTitle" /> 
+  <meta content="2018-04-03T07:04:45.852-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-03T07:04:45.852-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="50a97c60-398a-40a6-a2ac-4a7842455fb8" name="jcr:predecessors" /> 
+  <meta content="2018-04-26T10:12:36.420-0400" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-03T07:04:46.376-0400" name="cq:lastReplicated" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="Website Administration" name="jcr:title" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/sites" name="qaNotes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Website Administration" name="seoTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T07:04:45.852-0400" name="lastPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>The following administration tools are available for managing websites and pages:</p> 
+  <ul> 
+   <li>Multi Site Manager (MSM) enables you to use the same site content in multiple locations, while allowing for variations: 
+    <ul> 
+     <li><a href="../../../sites/administering/using/msm.md">Reusing Content: Multi Site Manager and Live Copy</a></li> 
+    </ul> </li> 
+   <li>Translation allows you to automate the translation of page content, assets, and user-generated content to create and maintain multilingual websites: 
+    <ul> 
+     <li><a href="../../../sites/administering/using/translation.md">Translating Content for Multilingual Sites</a></li> 
+    </ul> </li> 
+   <li>These two features can be combined to cater for websites that are both <a href="#multinationalandmultilingualsites">Multinational and Multilingual</a>.</li> 
+  </ul> 
+  <h2>Multinational and Multilingual Sites</h2> 
+  <p>You can efficiently create content for multinational and multilingual sites through the combined use of the Multi Site Manager and the translation workflow. Create a master site in one language, for a specific country, then use that content as a basis for the other sites, using translation where required:</p> 
+  <ul> 
+   <li><a href="../../../sites/administering/using/translation.md">Translate</a> the master site into different languages. <br /> </li> 
+   <li>Use <a href="../../../sites/administering/using/msm.md">Multi Site Manager</a> to: 
+    <ul> 
+     <li>Re-use content from the master site, and the translations, to create sites for other countries and cultures.</li> 
+     <li>Make sure to limit the use of Multi Site Manager to content within one language, e.g. English master -&amp;gt; English language branches in country sites, French master -&amp;gt; French language branches in country sites. </li> 
+     <li>Where required, detach elements of the live copies to add localization details.</li> 
+    </ul> </li> 
+  </ul> 
+  <p>The following diagram illustrates how the main concepts intersect (but does not show all levels/elements involved):</p> 
+  <img imageRotate="0" src="assets/chlimage_1-78.png" /> 
+  <note> 
+   <p>In this, and comparable, scenarios MSM does not manage the different language versions as such.</p> 
+   <ul> 
+    <li><a href="../../../sites/administering/using/msm.md">MSM</a> manages the deployment of translated content from a blueprint (e.g. a global master) to the live copies (e.g. the local sites), within the boundaries of a language.</li> 
+    <li>The <a href="../../../sites/administering/using/translation.md">translation</a> integration capabilities of AEM, in conjunction with third-party translation management services, manages the languages and translating content into these different languages.</li> 
+   </ul> 
+   <p>For more advanced use-cases, MSM may be used across language masters as well.</p> 
+  </note> 
+  <note> 
+   <p>For all use-cases it is recommended to read the following best practices:</p> 
+   <ul> 
+    <li><a href="../../../sites/administering/using/msm-best-practices.md">Best Practices for MSM</a>; particularly: 
+     <ul> 
+      <li><a href="../../../sites/administering/using/msm-best-practices.md#createsite">Create Site</a></li> 
+      <li><a href="../../../sites/administering/using/msm-best-practices.md#msmandmultilingualwebsites">MSM and Multilingual Websites</a></li> 
+     </ul> </li> 
+    <li><a href="../../../sites/administering/using/tc-bp.md">Best Practices for Translation</a></li> 
+   </ul> 
+  </note> 
+ </body> 
+</html>

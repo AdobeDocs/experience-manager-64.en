@@ -1,0 +1,88 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-12-01T19:01:40.606-0500" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Working with Startpoints" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Steps to work with a AEM Forms process from your Mobile device defined in Workbench." name="seoDescription" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="281" name="acrolinxWords" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="2018-04-03T08:55:50.725-0400" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="" name="autotags" />
+  <meta content="2016-05-31T06:50:20.147-0400" name="acrolinxDate" />
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/mobile-workspace/working-with-startpoints.html" name="publishQAURL" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="" name="autotagsRejected" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="later" name="locPublishOption" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-26T04:30:00.258-0400" name="cq:lastModified" />
+  <meta content="2015-09-16T05:53:15.525-0400" name="lastPublishQADate" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-app" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Working with Startpoints" name="navTitle" />
+  <meta content="LiveCycle/10.5/MobileWorkspace/WS2d2a17056e2191987296923513caebf6bb0-8000,LiveCycle/10.5/MobileWorkspace/WS2d2a17056e2191987296923513caebf6bb0-7fff,LiveCycle/10.5/MobileWorkspace/WS2d2a17056e2191984d6ef0c313caed40224-8000,LiveCycle/10.5/MobileWorkspace/WS2d2a17056e2191983d4aed7413caedc0d41-8000,LiveCycle/10.5/MobileWorkspace/WS2d2a17056e219198-144bd04413caf337469-8000,LiveCycle/10.5/MobileWorkspace/WS2d2a17056e219198-2b2cab9913caf8e3784-8000,LiveCycle/10.5/MobileWorkspace/WS2d2a17056e219198-2b2cab9913caf8e3784-7fff" name="cq:gepId" />
+  <meta content="a53ccd82-5958-4c08-9252-b29ea2395c85" name="jcr:uuid" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/working_with_startpoints_admin_5e12de0b318c6865_2162_report.xml" name="acrolinxReportURL" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/working-with-startpoints.html" name="publishExternalURL" />
+  <meta content="video" name="pageLayout" />
+  <meta content="21" name="acrolinxSentences" />
+  <meta content="2018-04-26T04:30:00.257-0400" name="locHandOffDate" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2018-04-03T08:55:50.725-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-04-03T08:55:50.725-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2015-05-19T06:22:44.144-0400" name="firstPublishQADate" />
+  <meta content="robhagat" name="lr_creator" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" />
+  <meta content="2015-09-16T05:53:15.525-0400" name="publishQADate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="robhagat" name="lr_lastModifiedBy" />
+  <meta content="2018-04-03T08:55:50.932-0400" name="cq:lastReplicated" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2015-05-28T12:43:49.975-0400" name="firstPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="a004f64c-a789-482f-b8e6-922cdb9e41ba" name="jcr:predecessors" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="09/06/13" name="locPublishDate" />
+ </head>
+ <body>
+  <p>A startpoint invokes a process created in Workbench. It is associated with a form which invokes the process when the form is submitted. See <a href="../../forms/using/finance-reference-site-walkthrough.md" target="_blank">Geometrixx Finance Reference Site walkthrough</a> to understand processes. </p> 
+  <note>
+   <p>The terms startpoints, start process, and form are used interchangably when referrring to this concept.</p> 
+  </note>
+  <p>To initiate a process from the AEM Forms app, you need to have a startpoint of type <strong>Workspace </strong>in your process. Also, you need to select the <span class="uicontrol">Visibile in Mobile Workspace</span> option for the startpoint.</p> 
+  <img imageRotate="0" src="assets/mws_startpoint_select_option.png" />
+  <p><strong>To start a process defined in Workbench</strong></p> 
+  <ol>
+   <li><p>To view the Startpoints available in the AEM Forms app, go to <a href="../../forms/using/home-screen.md" target="_blank">Home screen</a>.</p> </li>
+   <li><p>On the <span class="uicontrol">Home </span>screen, by default, the <span class="uicontrol">All Forms </span>list is displayed.</p> <p>The startpoint is associated with a form. Tap the startpoint associated form in the list to open it.</p> <p>The form associated with the startpoint opens.</p> </li>
+   <li><p>Enter the details in the <span class="uicontrol">Startpoint </span>form.</p> 
+    <draft-comment type="draft">
+     <p>You can <a href="/forms/using/save-as-draft1" target="_blank">save a draft</a> of the updates to this Startpoint and complete this at a later time.</p> 
+    </draft-comment><p>You can add annotations to this task using the <a href="../../forms/using/add-attachments.md" target="_blank">attachment</a> button.</p> </li>
+   <li><p>After you fill the form, tap the <strong>Submit</strong> button. </p> </li>
+  </ol>
+  <p>If the app is offline, the form and its data is saved in the Outbox folder.</p> 
+  <p>If the app is online, the task is synchronized with the AEM Forms server and assigned to the user specified in the process.</p> 
+  <p>To work with the task in your task list, see <a href="../../forms/using/open-task.md" target="_blank">Opening a task</a>.</p> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links>
+   <a href="../../forms/using/open-task.md">Opening a task</a>
+   <a href="../../forms/using/working-with-form.md">Working with a Form</a>
+   <a href="../../forms/using/add-attachments.md">Adding attachments</a>
+   <a href="../../forms/using/save-as-draft.md">Saving a task (Save as Draft)</a>
+  </related-links>
+ </body>
+</html>

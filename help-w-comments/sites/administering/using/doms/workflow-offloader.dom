@@ -1,0 +1,81 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/workflow-offloader.html" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Chiradeep Majumdar" name="contentOwner" /> 
+  <meta content="Assets Workflow Offloader" name="seoTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="fc8e8209-4db1-4e38-9667-e700f6e112d9" name="jcr:uuid" /> 
+  <meta content="Assets workflow offloader" name="navTitle" /> 
+  <meta content="2018-04-26T10:11:17.311-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-26T10:11:17.311-0400" name="locHandOffDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T07:11:18.881-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-03T07:11:19.326-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-31T16:21:27.208-0400" name="firstPublishExternalDate" /> 
+  <meta content="00ff8d49-129a-4c31-8d73-4aeb4c416977" name="jcr:predecessors" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:content;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-12-01T19:06:43.333-0500" name="jcr:created" /> 
+  <meta content="2018-04-03T07:11:18.881-0400" name="lastPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/content;/content/help/en/experience-manager/6-4/sites/administering/morehelp/content" name="moreHelpPaths" /> 
+  <meta content="Learn about the Assets Workflow Offloader." name="seoDescription" /> 
+  <meta content="2018-04-03T07:11:18.881-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/workflow-offloader" name="qaNotes" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Assets Workflow Offloader" name="jcr:title" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <p>Assets workflow offloader lets you enable multiple instances of Adobe Experience Manager (AEM) Assets to reduce the processing load on the primary (leader) instance. The processing load is distributed among the leader instance and the various offloader (worker) instances that you add to it. Distributing the processing load of assets increases the efficiency and speed with which AEM Assets processes assets. In addition, it helps allocate dedicated resources to process assets of a particular MIME type. For example, you can allocate a specific node in your topology to process InDesign assets only.</p> 
+  <h2>Configure offloader topology</h2> 
+  <p>Use Configuration Manager to add the URL for the leader instance and the host names of offloader instances for connection requests on the leader instance.</p> 
+  <ol> 
+   <li><p>Tap/click the AEM logo, and choose <strong>Tools</strong> &amp;gt; <strong>Operations</strong> &amp;gt; <strong>Web Console</strong> to open Configuration Manager.</p> </li> 
+   <li><p>From the Web Console, select <strong>Sling </strong>&amp;gt; <strong>Topology Management</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-51.png" /></li> 
+   <li><p>In the Topology Management page, tap/click the <strong>Configure Discovery.Oak Service</strong> link.</p> <img imageRotate="0" src="assets/chlimage_1-52.png" /></li> 
+   <li><p>In the Discovery Service Configuration page, specify the connector URL for the leader instance in the <strong>Topology Connector URLs</strong> field.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-53.png" /></li> 
+   <li><p>In the <strong>Topology Connector Whitelist</strong> field, specify IP address or host names of offloader instances that are allowed to connect with the leader instance. Tap/click <strong>Save</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-54.png" /></li> 
+   <li><p>To see the offloader instances connected to the leader instance, go to <strong>Tools</strong> &amp;gt; <strong>Deployment</strong> &amp;gt; <strong>Topology</strong> and tap/click the Cluster view.</p> </li> 
+  </ol> 
+  <h2>Disable offloading</h2> 
+  <ol> 
+   <li><p>Tap/click the AEM logo, and choose <strong>Tools</strong> &amp;gt; <strong>Deployment</strong> &amp;gt; <strong>Offloading</strong>. The <strong>Offloading Browser</strong> page displays topics and the server instances that can consume the topics.</p> <img imageRotate="0" src="assets/chlimage_1-55.png" /></li> 
+   <li><p>Disable the <i>com/adobe/granite/workflow/offloading</i> topic on the leader instances with which users interact to upload or change AEM assets.</p> <img imageRotate="0" src="assets/chlimage_1-56.png" /></li> 
+  </ol> 
+  <h2>Configure workflow launchers on the leader instance</h2> 
+  <p>Configure workflow launchers to use the <strong>DAM Update Asset Offloading</strong> workflow on the leader instance instead of the <strong>Dam Update Asset</strong> workflow.</p> 
+  <ol> 
+   <li><p>Tap/click the AEM logo, and choose, <strong>Tools</strong> &amp;gt; <strong>Workflow</strong> &amp;gt; <strong>Launchers</strong> to open the <strong>Workflow Launchers</strong> console.</p> <img imageRotate="0" src="assets/chlimage_1-57.png" /></li> 
+   <li><p>Locate the two Launcher configurations with event type <strong>Node Created</strong> and <strong>Node Modified</strong> respectively, which run the <strong>DAM Update Asset</strong> workflow.</p> </li> 
+   <li><p>For each configuration, select the checkbox before it and tap/click the <strong>View Properties</strong> icon from the toolbar to display the <strong>Launcher Properties</strong> dialog.</p> <img imageRotate="0" src="assets/chlimage_1-58.png" /></li> 
+   <li><p>From the <strong>Workflow</strong> list, choose <strong>DAM Update Asset Offloading</strong> and tap/click <strong>Save</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-59.png" /></li> 
+   <li><p>Tap/click the AEM logo, and choose, <strong>Tools</strong> &amp;gt; <strong>Workflow</strong> &amp;gt; <strong>Models</strong> to open the <strong>Workflow Models</strong> page.</p> </li> 
+   <li><p>Select the <strong>DAM Update Asset Offloading</strong> workflow, and tap/click <strong>Edit</strong> from the toolbar to display its details.</p> <img imageRotate="0" src="assets/chlimage_1-60.png" /></li> 
+   <li><p>Display the context menu for the <strong>DAM Workflow Offloading</strong> step, and choose <strong>Edit</strong>. Verify the entry in the <strong>Job Topic</strong> field of the <strong>Generic Arguments</strong> tab of the configuration dialog.</p> <img imageRotate="0" src="assets/chlimage_1-61.png" /></li> 
+  </ol> 
+  <h2>Disable the workflow launchers on the offloader instances</h2> 
+  <p>Disable the workflow launchers that run the <strong>DAM Update Asset</strong> workflow on the leader instance.</p> 
+  <ol> 
+   <li><p>Tap/click the AEM logo, and choose, <strong>Tools</strong> &amp;gt; <strong>Workflow</strong> &amp;gt; <strong>Launchers</strong> to open the <strong>Workflow Launchers</strong> console.</p> <img imageRotate="0" src="assets/chlimage_1-62.png" /></li> 
+   <li><p>Locate the two Launcher configurations with event type <strong>Node Created</strong> and <strong>Node Modified</strong> respectively, which run the <strong>DAM Update Asset</strong> workflow.</p> </li> 
+   <li><p>For each configuration, select the checkbox before it and tap/click the <strong>View Properties</strong> icon from the toolbar to display the <strong>Launcher Properties</strong> dialog.</p> <img imageRotate="0" src="assets/chlimage_1-63.png" /></li> 
+   <li><p>In the <strong>Activate </strong>section, drag the slider to disable the workflow launcher and tap/click <strong>Save</strong> to disable it.</p> <img imageRotate="0" src="assets/chlimage_1-64.png" /></li> 
+   <li><p>Upload any asset of type image at the leader instance. Verify the thumbnails generated and ported back for the asset by the offloaded instance.</p> </li> 
+  </ol> 
+ </body> 
+</html>

@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="asgupta" name="contentOwner" />
+  <meta content="2018-08-17T10:50:56.675-0400" name="cq:lastModified" />
+  <meta content="asgupta" name="cq:lastModifiedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="FAQs to troubleshoot Rich Text Editor" name="jcr:title" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="preview" />
+  <meta content="2019-01-15T15:36:31.483-0500" name="jcr:created" />
+ </head>
+ <body></body>
+</html>

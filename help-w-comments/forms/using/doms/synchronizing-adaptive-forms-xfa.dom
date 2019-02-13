@@ -1,0 +1,133 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="Synchronizing Adaptive forms with XFA/XDP files." name="seoDescription" /> 
+  <meta content="Synchronizing Adaptive forms with XFA" name="navTitle" /> 
+  <meta content="2018-04-03T08:53:31.755-0400" name="publishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/synchronizing_adaptive_forms_xfa_admin_5e12de0b318c6865_2070_report.xml" name="acrolinxReportURL" /> 
+  <meta content="a16ac8ce-264e-4bde-a08e-3ef733896cd6" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-12-01T19:04:39.748-0500" name="jcr:created" /> 
+  <meta content="2018-04-26T04:33:02.812-0400" name="locHandOffDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T08:53:31.755-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-26T04:33:02.813-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="1390" name="acrolinxWords" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:develop" name="cq:tags" /> 
+  <meta content="2018-04-03T08:53:31.968-0400" name="cq:lastReplicated" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-03T08:53:31.755-0400" name="lastPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/synchronizing-adaptive-forms-xfa.html" name="publishExternalURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2016-04-20T09:30:59.918-0400" name="firstPublishExternalDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="81" name="acrolinxSentences" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="c0531867-202d-4de3-abea-208fccc67aff" name="jcr:predecessors" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2016-05-31T06:43:55.996-0400" name="acrolinxDate" /> 
+  <meta content="2015-06-12T04:27:45.602-0400" name="lastPublishQADate" /> 
+  <meta content="Synchronizing Adaptive Forms with XFA Form Templates" name="jcr:title" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <h2 id="introduction">Introduction</h2> 
+  <p>You can create an adaptive form based on an XFA form template (<span class="code">*.XDP</span> file). This reuse allows you to preserve your investment in existing XFA forms. For information on how to use an XFA form template for creating an adaptive form, <a href="../../forms/using/creating-adaptive-form.md#main-pars-header-0" target="_blank">Create an Adaptive Form based on a template</a>. </p> 
+  <p>You can reuse fields from the XDP file in your adaptive form. These fields are referred to as binded fields. The properties of the binded fields (such as scripts, labels, and display format) are copied from the XDP file. You can also choose to override the value of some of these properties.<br /> </p> 
+  <p>AEM Forms provides a way to help you keep the fields of the adaptive forms synchronized with any changes that are later made to the corresponding fields in the XDP file. This article explains how you can enable this synchronization.</p> 
+  <draft-comment lastModifiedBy="ahpant" lastModifiedDate="2017-11-30T06:08:26.385-0500" type="remark"> 
+   <p>The article to be cross-referenced is not available yet. After the linnk is available, the following text should be added: To see the list of properties that are carried over from the XDP file, and the properties that you can override, see [link].<br /> </p> 
+  </draft-comment> 
+  <img alt="You can drag fields from an XFA form to an adaptive form" captionBottom="In the AEM Forms authoring environment, you can drag fields from an XFA form (left) to an adaptive form (right)" imageRotate="0" src="assets/drag-drop-xfa.gif.gif" /> 
+  <h2>Prerequisites</h2> 
+  <p>To use the information in this article, a familiarity with the following areas is recommended:</p> 
+  <ul> 
+   <li><a href="../../forms/using/creating-adaptive-form.md">Creating an adaptive form</a><br /> </li> 
+   <li>XFA (XML Forms Architecture)<br /> </li> 
+  </ul> 
+  <p>To use the assets provides for the example in the article, download the sample package as explained in the next section, <a href="../../forms/using/synchronizing-adaptive-forms-xfa.md#main-pars-header-7">Sample package</a>. </p> 
+  <h2>Sample package</h2> 
+  <p>The article uses an example to demonstrate how to synchronize the adaptive form with an updated XFA form template. The assets used in the example are available in a package, which can be downloaded from the <a href="../../forms/using/synchronizing-adaptive-forms-xfa.md#main-pars-header-6">Downloads</a> section in this article.</p> 
+  <p>After uploading the package, you can view these assets in the AEM Forms UI.</p> 
+  <p>Install the package using the package manager: <span class="code">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/crx/packmgr/index.jsp</span></p> 
+  <p>The package contains the following assets:</p> 
+  <ol> 
+   <li><span class="code">sample-form.xdp</span>: The XFA form template used as an example<br /> </li> 
+   <li><span class="code">sample-xfa-af</span>: The adaptive form based on the sample-form.xdp file. This adaptive form, however, does not include any fields. In the next step, we will add content to this adaptive form.<br /> </li> 
+  </ol> 
+  <h3>Add content to adaptive form &lt;br&gt;</h3> 
+  <ol> 
+   <li>Navigate to http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/aem/forms.html. Enter your credentials if asked.</li> 
+   <li>Open the sample-af-xfa for editing in author mode.</li> 
+   <li>From the Content browser in the sidebar, choose Data Model Objects tab. Drag NumericField1 and TextField1 onto the Adaptive Form.</li> 
+   <li>Change the Title of the NumericField1 from <strong>Numeric Field</strong> to <strong>AF Numeric Field.</strong></li> 
+  </ol> 
+  <note> 
+   <p>In the preceding steps, we overwrote a property of a field in the XDP file. This property will, therefore, not be synchronized if the corresponding property in the XDP file is modifiled later. </p> 
+  </note> 
+  <h2>Detecting changes in XDP file</h2> 
+  <p>Whenever there is any change in an XDP file or a fragment, the AEM Forms UI flags all adaptive forms that are based on the XDP file or the fragment.</p> 
+  <p>After updating an XDP file, you need to upload it again in the AEM Forms UI for the changes to be flagged.</p> 
+  <p>As an example, let us update the <span class="code">sample-form.xdp</span> file using the following steps:</p> 
+  <ol> 
+   <li>Navigate to <span class="code">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/projects.html.</span> Enter your credentials if prompted.</li> 
+   <li>Click the Forms tab on the left.</li> 
+   <li>Download the <span class="code">sample-form.xdp</span> file on your local machine. The XDP file is downloaded as a <span class="code">.zip</span> file, which can be extracted using any file decompression utility.</li> 
+   <li>Open the <span class="code">sample-form.xdp</span> file and change the title of the field TextField1 from <strong>Text Field</strong> to <strong>My Text Field</strong>.</li> 
+   <li>Upload the <span class="code">sample-form.xdp</span> file back into the AEM Forms UI.</li> 
+  </ol> 
+  <p>If an XDP file gets updated, you see an icon in the editor, when you edit the adaptive forms based on the XDP file. This icon indicates that the adaptive form is out of sync with the XDP file. In the following image, see the icon next in the sidebar.</p> 
+  <img alt="Icon to display that the adaptive form is out of sync with the XDP file" imageRotate="0" src="assets/sync-af-xfa.png" title="Icon to display that the adaptive form is out of sync with the XDP file" /> 
+  <h2>Synchronizing adaptive forms with the latest XDP file</h2> 
+  <p>When an adaptive form that is out of sync with the XDP file is opened for authoring the next time, the following message is displayed:<strong> Schema/Form Template for the Adaptive Form has been updated. <span class="under">Click Here</span> to rebase it with the new version. </strong></p> 
+  <p>Clicking on the message synchronizes the fields in the adaptive form with the corresponding fields in the XDP file. </p> 
+  <p>For the example used in this article, open <span class="code">sample-xfa-af</span> in authoring mode. The message is displayed toward the bottom of the adaptive form.<br /> </p> 
+  <img alt="Message prompting you to synchronize the adaptive form with the XDP file" imageRotate="0" src="assets/sync-af-xfa-1.png" title="Message prompting you to synchronize the adaptive form with the XDP file" /> 
+  <h3>Updating the properties</h3> 
+  <p>All the properties that were copied from the XDP file to the adaptive form are updated except for the properties that were explicitly overridden in the adaptive form (from the Component Dialog) by the Author. The list of properties that have been updated is available in the server logs.</p> 
+  <p>To update the properties in the example adaptive form, click the link (labeled <span class="code">"Click Here"</span>) in the message. The title of TextField1 changes from <strong>Text Field</strong> to <strong>My Text Field</strong>.<br /> </p> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/update-property.png" /> 
+  <note> 
+   <p>The label AF Numeric Field did not get changed because you had overridden this property from the component properties dialog, as described in <a href="../../forms/using/synchronizing-adaptive-forms-xfa.md#main-pars-header-8">Add content to adaptive forms</a>. </p> 
+  </note> 
+  <h3>Adding new fields from XDP file to adaptive form &amp;nbsp;</h3> 
+  <p>Any fields that are added later to the original XDP file appear in the Form Hierarchy tab and you can drag those new fields to the adaptive form.</p> 
+  <p>You do not need to click the link in the error message to update the fields in the Form Hierarchy tab.<br /> </p> 
+  <h3>Deleted fields in XDP file</h3> 
+  <p>If a field that was earlier copied to an adaptive form is deleted from an XDP file, an error message is displayed in the authoring mode stating that the field doesn't exist in the XDP file. In such cases, manually delete the field from adaptive form or clear the <span class="code">bindRef</span> property in the component dialog.</p> 
+  <p>The following steps illustrate this use flow for the assets in the example used in this article:<br /> </p> 
+  <ol> 
+   <li>Update the <span class="code">sample-form.xdp</span> file and delete NumericField1.</li> 
+   <li>Upload the <span class="code">sample-form.xdp</span> file in the AEM Forms UI</li> 
+   <li>Open the <span class="code">sample-xfa-af</span> adaptive form for authoring. The following error message is displayed: Schema/Form Template for the Adaptive Form has been updated. <span class="under">Click Here</span> to rebase it with the new version.<br /> </li> 
+   <li>Click the link (labeled "<span class="code">Click Here</span>") in the message. An error message is displayed noting that the field doesn't exist anymore in the XDP file.</li> 
+  </ol> 
+  <img alt="Error you see when you delete an element in the XDP file" imageRotate="0" src="assets/no-element-xdp.png" title="Error you see when you delete an element in the XDP file" /> 
+  <p>The field that has been deleted is also marked with an icon to indicate an error in the field.</p> 
+  <img alt="Error icon in the field" imageRotate="0" src="assets/error-field.png" title="Error icon in the field" /> 
+  <note> 
+   <p>The fields in the adaptive form that have an incorrect binding (an invalid <span class="code">bindRef</span> value in the edit dialog) are also considered as deleted fields. If the author doesn't fix these errors and publish the adaptive form, the field is treated as a normal unbinded adaptive form field and is included in the unbinded section of the output XML file.</p> 
+  </note> 
+  <h2>Downloads</h2> 
+  <div> 
+   <p>Content-package for the example in this article</p> 
+   <p><a alt="sample-xfa-af-sync-1.0.zip" href="assets/sample-xfa-af-sync-1.0.zip">Get File</a></p> 
+  </div> 
+ </body> 
+</html>

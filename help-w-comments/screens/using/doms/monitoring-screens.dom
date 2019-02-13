@@ -1,0 +1,114 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Troubleshooting Device Control Center" name="jcr:title" /> 
+  <meta content="2018-11-02T13:39:49.564-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="primaryAudienceTag" /> 
+  <meta content="72a894bb-e036-4da4-bcd7-5a9f1d2a9cdf" name="jcr:uuid" /> 
+  <meta content="2018-04-26T10:12:39.559-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/administering-screens/monitoring-screens" name="qaNotes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Follow this page to monitor and troubleshoot performance for your Screens player activity and device using the the Device dashboard." name="seoDescription" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:troubleshoot" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="2019-01-15T15:39:03.794-0500" name="jcr:created" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-11-02T13:39:49.564-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-11-02T13:39:49.564-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-11-02T13:39:49.638-0400" name="cq:lastModified" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/troubleshoot;/content/help/en/experience-manager/6-4/screens/morehelp/troubleshoot" name="moreHelpPaths" /> 
+  <meta content="Monitoring Screens" name="seoTitle" /> 
+  <meta content="2017-10-31T16:24:46.736-0400" name="firstPublishExternalDate" /> 
+  <meta content="Jyotika Syal" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/monitoring-screens.html" name="publishExternalURL" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="8db302ed-c914-48fc-a0c5-38308947f35b" name="jcr:predecessors" /> 
+  <meta content="2018-11-02T13:39:51.039-0400" name="cq:lastReplicated" /> 
+ </head> 
+ <body> 
+  <p>You can monitor and troubleshoot performance for your Screens player activity and device using the the Device dashboard. This page provides information about how to monitor and troubleshoot perceived performance problems for Screens player and the assigned devices.</p> 
+  <h2>Monitor and Troubleshoot from Device Control Center</h2> 
+  <p>You can monitor the activity and hence troubleshoot your Screens player, using the the Device Dashboard.</p> 
+  <h3>Device Dashboard</h3> 
+  <p>Follow the steps below to navigate to the device dashboard:</p> 
+  <ol> 
+   <li><p>Navigate to the device dashboard from your project, for example, <strong><i>Test Project</i></strong> --&amp;gt; <strong><i>Devices</i></strong>.</p> <p>Select <strong>Devices</strong> and <strong>Device Manager</strong> from the action bar.</p> <img imageRotate="0" src="assets/chlimage_1-9.png" /></li> 
+   <li><p>Select the device you want to monitor.</p> <img imageRotate="0" src="assets/chlimage_1-10.png" /></li> 
+   <li><p>The page shows the device information, activity, and the device details that allows you to monitor the device activities and functions.</p> <img imageRotate="0" src="assets/chlimage_1-11.png" /></li> 
+  </ol> 
+  <h3>Monitor Device Activity</h3> 
+  <p>The <strong>Activity</strong> panel shows the last ping of your screens player with the timestamp. The last ping corresponds to the last time the device contacted the server.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-12.png" /> 
+  <p>Additionally, click <strong>Collect Logs</strong> from the top right hand corner of the <strong>Activity</strong> panel to view the logs for your player.</p> 
+  <h3>Update Device Details</h3> 
+  <p>Check the <strong>Device Details</strong> panel to view the device IP, Storage usage, firmware version and the player uptime for your device.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-13.png" /> 
+  <p>Additionally, click <strong>Clear cache</strong> and <strong>Update</strong> to clear the cache of your device and update the <a href="../../screens/using/screens-glossary.md">firmware</a> version respectively from this panel.</p> 
+  <p>Also, click the <strong>...</strong> from the top right corner of the <strong>Device Details</strong> panel to restart or refresh the status of your player.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-14.png" /> 
+  <h3>Update Device Information</h3> 
+  <p>Check the <strong>DEVICE INFORMATION</strong> panel to view the configuration update, device, platform, version, and the diplay associated with the device.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-15.png" /> 
+  <p>Additionally, click the (<strong>...</strong>) from the top right corner of the Device Information panel to view properties or update the device.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-16.png" /> 
+  <p>Click <strong>Properties</strong> to view the <strong>Device Properties</strong> dialog box. You can edit the device title or choose the option for configuration updates as <strong>Manual</strong> or <strong>Automatic</strong>.</p> 
+  <note> 
+   <p>To learn more about the events associated with device's automatic or manual updates, see the section <strong><i>Automatic versus Manual Updates from the Device Dashboard</i></strong> in <a href="../../screens/using/managing-channels.md">Managing Channels</a>. </p> 
+  </note> 
+  <img imageRotate="0" src="assets/chlimage_1-17.png" /> 
+  <h3>View Player Screenshot</h3> 
+  <p>You can view the player screenshot from the device from the <strong>PLAYER SCREENSHOT </strong>panel.</p> 
+  <p>Click (<strong>...</strong>) on the top right corner of the Player Screenshot panel and select <strong>Refresh Screenshot </strong>to view the snapshot of the running player.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-18.png" /> 
+  <h3>Manage Preferences</h3> 
+  <p>The <strong>PREFERENCES</strong> panel allows the user to change preferences for <strong>Admin UI</strong>, <strong>Channel Switcher</strong>, and <strong>Remote Debugging</strong> for the device.</p> 
+  <note> 
+   <p>To learn more on these option, See <a href="../../sites/authoring/using/working-with-screens-player.md">AEM Screens Player</a>.</p> 
+  </note> 
+  <img imageRotate="0" src="assets/chlimage_1-19.png" /> 
+  <p>Additionally, click <strong>View Preferences</strong> from the top right corner to update the server URL and the resolution.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-20.png" /> 
+  <h2>Troubleshoot OSGI Settings</h2> 
+  <p>You need to enable the empty referrer to allow the device to post data to the server. For example, if the empty referrer property is disabled, the device cannot post a screenshot back. </p> 
+  <p>Currently some of these features are only available if the <i>Apache Sling Referrer Filter Allow Empty</i> is enabled in the OSGI Config. The dashboard may display a warning that security settings may prevent some of these features from working.</p> 
+  <p>Follow the steps below to enable the Apache Sling Referrer Filter Allow Empty</p> 
+  <ol> 
+   <li>Navigate to <a href="http://localhost:4502/system/console/configMgr/org.apache.sling.security.impl.ReferrerFilter">Adobe Experience Manager Web Console Configuration</a>.</li> 
+   <li>Check the <strong>allow.empty </strong>option.</li> 
+   <li>Click <strong>Save</strong>.</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-21.png" /> 
+  <h3>Recommendations</h3> 
+  <p>The following section recommends monitoring the network links, server, and players to understand the health and react to issues.</p> 
+  <p>AEM provides built-in monitoring for:</p> 
+  <ul> 
+   <li><i>Heartbeat</i> every 5 seconds to indicates that the AEM Screens Player is in operation.</li> 
+   <li><i>Screenshot</i> from the Player that shows what is currently displayed on the Player.</li> 
+   <li>The <i>AEM Screens Player Firmware</i> version installed on the Player.</li> 
+   <li><i>Free storage space</i> on the Player.</li> 
+  </ul> 
+  <p>Recommendations for remote monitoring with 3rd party software:</p> 
+  <ul> 
+   <li>CPU usage on Players.</li> 
+   <li>Check if AEM Screens Player process is running.</li> 
+   <li>Remote restart/reboot of the Player.</li> 
+   <li>Real-time Notifications.</li> 
+  </ul> 
+  <p>It is recommended to deploy the Player hardware and OS in a way that allows remote login to diagnose issues and restart the Player.</p> 
+  <h4>Additional Resources</h4> 
+  <p>See <a href="../../screens/using/troubleshoot-videos.md">Video Playback Configuration and Troubleshooting</a> to debug and troubleshoot videos playing in your channel.</p> 
+ </body> 
+</html>

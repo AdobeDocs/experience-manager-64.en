@@ -1,0 +1,176 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-26T10:12:33.295-0400" name="cq:lastModified" /> 
+  <meta content="Live Copy Overview Console" name="jcr:title" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-26T10:12:33.294-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="4d89deb4-f6fe-4591-9e8e-158385307612" name="jcr:uuid" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/administering/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="d0be551a-e1d3-4b86-b93c-2d666a5a81da" name="jcr:predecessors" /> 
+  <meta content="2017-12-01T19:02:13.270-0500" name="jcr:created" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-10-31T16:24:38.847-0400" name="firstPublishExternalDate" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Live Copy Overview Console" name="seoTitle" /> 
+  <meta content="2018-04-09T06:08:20.109-0400" name="topicBrowsingSortDate" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="2018-04-09T06:08:20.109-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-10-27T23:45:26.961-0400" name="cq:lastReplicated" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Learn about the basics of the Live Copy Overview Console." name="seoDescription" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-04-09T06:08:20.109-0400" name="publishExternalDate" /> 
+  <meta content="Alison Heimoz" name="contentOwner" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/msm-livecopy-overview.html" name="publishExternalURL" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/sites/msm/msm-livecopy-overview" name="qaNotes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:site-features;content_type:reference" name="cq:tags" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:01:01.683-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p><a href="https://jira.corp.adobe.com/browse/KT-59">https://jira.corp.adobe.com/browse/KT-59</a></p> 
+   <p><a href="https://jira.corp.adobe.com/browse/CQ-84617">https://jira.corp.adobe.com/browse/CQ-84617</a></p> 
+   <p><a href="https://wiki.corp.adobe.com/display/WEM/KT+-+Sites+-+MSM+in+touch-enabled+UI%2C+parity+with+classic+UI">https://wiki.corp.adobe.com/display/WEM/KT+-+Sites+-+MSM+in+touch-enabled+UI%2C+parity+with+classic+UI</a></p> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:01:01.699-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>CQ-84617 issue:</p> 
+   <ul> 
+    <li>View/manage inheritances across a site 
+     <ul> 
+      <li>view blueprint tree and corresponding live copy structure, with inheritance statuses</li> 
+      <li>edit inheritances statuses</li> 
+      <li>view blueprint and live copy properties, <strong>in popup inspectors directly in sitemap view</strong></li> 
+     </ul> </li> 
+    <li>Perform rollout actions</li> 
+    <li>See attached images with Classic UI patterns for these actions</li> 
+   </ul> 
+  </draft-comment> 
+  <p>The <strong>Live Copy Overview</strong> enables you to:</p> 
+  <ul> 
+   <li>View/manage inheritance across a site: 
+    <ul> 
+     <li>View the blueprint tree and corresponding live copy structure, together with their inheritance status</li> 
+     <li>Change the inheritance status; for example, suspend, resume</li> 
+     <li>View blueprint and live copy properties</li> 
+    </ul> </li> 
+   <li>Perform rollout actions</li> 
+  </ul> 
+  <h2>Opening the Live Copy Overview</h2> 
+  <p>You can open the Live Copy Overview from the:</p> 
+  <ul> 
+   <li><a href="#openinglivecopyoverviewreferencesforablueprintpage">References side panel of a blueprint page (Sites console)</a></li> 
+   <li><a href="#openinglivecopyoverviewpropertiesofablueprintpage">Properties of a blueprint page</a></li> 
+  </ul> 
+  <h3>Opening Live Copy Overview - References for a Blueprint Page</h3> 
+  <p>The <strong>Live Copy Overview</strong> can be opened from the <strong>References</strong> side panel of the <strong>Sites</strong> console:</p> 
+  <ol> 
+   <li><p>In the <strong>Sites</strong> console, <a href="../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresources">navigate to your blueprint page and select it</a>.</p> </li> 
+   <li><p>Open the <strong><a href="../../../sites/authoring/using/basic-handling.md#references">References</a></strong> panel and select <strong>Live Copies</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-446.png" /> 
+    <note> 
+     <p>You can also open References first and then select the blueprint.</p> 
+    </note></li> 
+   <li><p>Select <strong>Live Copy Overview</strong> to show and use the overview of all live copies related to the selected blueprint.</p> </li> 
+   <li><p>Use <strong>Close</strong> to exit and return to the <strong>Sites</strong> console.</p> </li> 
+  </ol> 
+  <h3>Opening Live Copy Overview - Properties of a Blueprint Page</h3> 
+  <p>The <strong>Live Copy Overview</strong> can be opened when viewing properties of a blueprint page:</p> 
+  <ol> 
+   <li><p>Open <strong>Properties</strong> for the appropriate blueprint page.</p> </li> 
+   <li><p>Open the <strong>Blueprint</strong> tab - the <strong>Live Copy Overview</strong> option will be shown in the top toolbar:</p> <img imageRotate="0" src="assets/chlimage_1-447.png" /></li> 
+   <li><p>Select <strong>Live Copy Overview</strong> to show and use the overview of all live copies related to the current blueprint.</p> 
+    <note> 
+     <p>For further details see also the Knowledge Base article <a href="https://helpx.adobe.com/experience-manager/kb/livecopy-status-message---up-to-date-green-in-sync.html">Livecopy status message - Up-to-date/Green/In Sync</a>.</p> 
+    </note></li> 
+   <li><p>Use <strong>Close</strong> to exit and return to the <strong>Sites</strong> console.</p> </li> 
+  </ol> 
+  <h2>Using the Live Copy Overview</h2> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:01:02.245-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>needs more info - in general and about the specific tabs</p> 
+  </draft-comment> 
+  <p>The <strong>Live Copy Overview</strong> can also be used to peform actions on the live copy:</p> 
+  <ol> 
+   <li><p>Open the <strong>Live Copy Overview</strong>.</p> </li> 
+   <li><p>Select the required blueprint or live copy page - the toolbar will be updated to show the available actions. The <a href="../../../sites/administering/using/msm.md#termsused">actions</a> available depend on whether you select a <a href="#actionsforablueprintpage">blueprint</a> or <a href="#actionsforalivecopypage">live copy</a> page:</p> </li> 
+  </ol> 
+  <h3>Actions for a Blueprint Page</h3> 
+  <p>When you select a blueprint page, the following actions are available:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-448.png" /> 
+  <ul> 
+   <li>Edit 
+    <ul> 
+     <li>Open the blueprint page for editing.</li> 
+    </ul> </li> 
+   <li><a href="../../../sites/administering/using/msm.md#rolloutandsynchronize">Rollout</a> 
+    <ul> 
+     <li>Perform a rollout to push changes from the source to the livecopy.</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Actions for a Live Copy Page</h3> 
+  <p>When you select a live copy page, the following actions are available:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-449.png" /> 
+  <ul> 
+   <li>Edit 
+    <ul> 
+     <li>Open the live copy page for editing.</li> 
+    </ul> </li> 
+   <li><a href="#relationshipstatus">Relationship Status</a> 
+    <ul> 
+     <li>View information about the status and inheritance.</li> 
+    </ul> </li> 
+   <li><a href="../../../sites/administering/using/msm.md#rolloutandsynchronize">Synchronize</a> 
+    <ul> 
+     <li>Synchronize a live copy to pull changes from the source to the livecopy.</li> 
+    </ul> </li> 
+   <li><a href="../../../sites/administering/using/msm-livecopy.md#resettingalivecopypage">Reset</a> 
+    <ul> 
+     <li>Reset a live copy page to remove all inheritance cancellations and return the page to the same state as the source page.</li> 
+    </ul> </li> 
+   <li><a href="../../../sites/administering/using/msm.md#suspendingandcancellinginheritanceandsynchronization">Suspend</a> 
+    <ul> 
+     <li>Temporarily deactivates the live relationship between a live copy and its blueprint page.</li> 
+    </ul> </li> 
+   <li><a href="../../../sites/administering/using/msm-livecopy.md#resuminginheritanceforapage">Resume</a> 
+    <ul> 
+     <li>Resume allows you to reinstate a suspended relationship.</li> 
+    </ul> </li> 
+   <li><a href="../../../sites/administering/using/msm.md#detachingalivecopy">Detach</a> 
+    <ul> 
+     <li>Permanently removes the live relationship between a live copy and its blueprint page.</li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Relationship Status</h2> 
+  <p>The <strong>Relationship Status</strong> console has two tabs providing a range of functionality:</p> 
+  <ul> 
+   <li><a href="#relationshipstatusinformation">Relationship Status Information</a></li> 
+   <li><a href="#livecopyinformation">Live Copy Information</a></li> 
+  </ul> 
+  <h3>Relationship Status Information</h3> 
+  <p>This tab provides detailed information about the status of the relationship between the blueprint and live copy:</p> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:01:02.549-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>will need a new screenshot after the typos are corrected </p> 
+   <p><a href="https://jira.corp.adobe.com/browse/CQ-112553">https://jira.corp.adobe.com/browse/CQ-112553</a></p> 
+  </draft-comment> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:01:02.564-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>ims-author-08583C574D27377E0A746C1C@AdobeID (last week)</p> 
+   <p>Would maybe nice to have an list of posibile status?</p> 
+   <p>Yes, please confirm what variations are possible in this context.</p> 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/chlimage_1-450.png" /> 
+  <h3>Live Copy Information</h3> 
+  <p>This tab allows you to view and edit the live copy configuration:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-451.png" /> 
+ </body> 
+</html>

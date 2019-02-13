@@ -1,0 +1,100 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="How to upgrade from an earlier version to AEM 6.4 Communities" name="seoDescription" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2018-05-17T05:56:11.506-0400" name="cq:lastModified" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/deploying;/content/help/en/experience-manager/6-4/communities/morehelp/deploying" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="afe05706-0fee-43ea-80f4-bba9a3d498bd" name="jcr:uuid" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="2018-04-11T06:12:34.903-0400" name="publishExternalDate" /> 
+  <meta content="2018-05-17T05:56:11.506-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-11T06:12:34.984-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-11T06:12:34.903-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy/communities/upgrade" name="qaNotes" /> 
+  <meta content="2018-04-11T06:12:34.903-0400" name="lastPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="549aad90-e4b1-4290-beaf-3afc87400b78" name="jcr:predecessors" /> 
+  <meta content="Upgrading to AEM 6.4 Communities" name="seoTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;content_type:reference;topic_tags:deploying" name="cq:tags" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2017-12-01T19:01:51.693-0500" name="jcr:created" /> 
+  <meta content="Upgrading to AEM 6.4 Communities" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-31T16:33:08.640-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Upgrading to AEM 6.4 Communities" name="navTitle" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/upgrade.html" name="publishExternalURL" /> 
+ </head> 
+ <body> 
+  <p>Depending on each site's topology and features, the following actions may be necessary when upgrading to AEM Communities 6.4 or installing the latest feature pack.</p> 
+  <p>This section is specific to Communities and supplements the information provided in <a href="../../sites/deploying/using/upgrade.md" target="_blank">Upgrading to AEM 6.4</a> (platform).</p> 
+  <h2>Upgrading from AEM 6.1 or Later</h2> 
+  <h3>Reindex Solr</h3> 
+  <p>When installing a new Communities feature pack on a deployment configured with MSRP, it will be necessary to </p> 
+  <ol> 
+   <li>install the <a href="../../communities/using/deploy-communities.md#latestfeaturepack">latest feature pack</a></li> 
+   <li>install the <a href="../../communities/using/msrp.md#upgrading">latest Solr config files</a></li> 
+   <li>reindex MSRP<br /> see section <a href="../../communities/using/msrp.md#msrpreindextool">MSRP Reindex Tool</a></li> 
+  </ol> 
+  <h3>Enablement 2.0</h3> 
+  <p>As of AEM 6.3, the enablement features no longer store reporting information in MySQL. The MySQL dependency is only there for tracking SCORM content.</p> 
+  <p>Please contact <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">customer care</a> for assistance in migrating content from Enablement 1.0.</p> 
+  <h2>Upgrading from AEM 6.0</h2> 
+  <p>If pre-existing UGC needs to be retained, then the means to do so depends on whether the deployment stored UGC <a href="#onpremisestorage">on-premise</a> or in the <a href="#adobecloudstorage">Adobe cloud</a>.</p> 
+  <h3>Adobe Cloud Storage</h3> 
+  <p>If the upgraded site was configured to use Adobe cloud storage, then it may appear (incorrectly) as if all UGC has been lost as the SRP methods will be unable to locate the pre-existing UGC in the old location.</p> 
+  <p>Thus, there is the ability to instruct ASRP to use <span class="code">AEM 6.0 compatability-mode</span> to access UGC.</p> 
+  <p>For all AEM 6.3 author and publish instances</p> 
+  <ul> 
+   <li>sign in with administrator privileges</li> 
+   <li>configure <a href="../../communities/using/asrp.md">ASRP</a></li> 
+   <li>follow these steps to make pre-existing UGC visible : 
+    <ul> 
+     <li>browse to the web console 
+      <ul> 
+       <li>for example, <a href="http://localhost:4502/system/console/configMgr">http://&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</a></li> 
+      </ul> </li> 
+     <li>locate <strong>AEM Communities Utilities</strong> configuration</li> 
+     <li>select to expand config panel 
+      <ul> 
+       <li><em>uncheck </em><strong><span class="code">Cloud Storage</span></strong></li> 
+       <li>select <strong>Save</strong></li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-133.png" /> 
+  <h3>On-premise Storage</h3> 
+  <p>If the upgraded site did not use cloud storage, any pre-existing UGC must be converted to conform to the new structure introduced in AEM 6.1 Communities in support of the common store.</p> 
+  <p>For this purpose, an open source migration tool is available on GitHub :<br /> <a href="https://github.com/Adobe-Marketing-Cloud/communities-ugc-migration">AEM Communities UGC Migration Tool</a></p> 
+  <h3>Java APIs</h3> 
+  <p>When upgrading from AEM 6.0 social communities to AEM 6.3 Communities, be aware that many APIs have been reorganized into different packages. Most should be easily resolved when using an IDE for customization of Communities features.</p> 
+  <p>For details on the deprecated SocialUtils package, visit <a href="../../communities/using/socialutils.md">SocialUtils Refactoring</a>.</p> 
+  <p>See also <a href="../../communities/using/maven.md">Using Maven for Communities</a>.</p> 
+  <h3>No JSP Component Templates</h3> 
+  <p>The <a href="../../communities/using/scf.md">social component framework</a> (SCF) uses the <a href="http://www.handlebarsjs.com/">HandlebarsJS</a> (HBS) templating language in place of Java Server Pages (JSP) used prior to AEM 6.0.</p> 
+  <p>In AEM 6.0, the JSP components remained alongside the new HBS framework components in the same location, with the HBS components typically located in subfolders named "hbs".</p> 
+  <p>As of AEM 6.1, the JSP components were completely removed. For Communities, it is recommended to replace all use of JSP components with SCF components.</p> 
+  <h2>AEM Communities UGC Migration Tool</h2> 
+  <p>The <a href="https://github.com/Adobe-Marketing-Cloud/communities-ugc-migration">AEM Communities UGC Migration Tool</a> is an open source migration tool, available on GitHub, that can be customized to export UGC from earlier versions of AEM social communities and import into AEM Communities 6.1 or later.</p> 
+  <p>In additin to moving UGC from earlier versions, it is also possible to use the tool to move UGC from one <a href="../../communities/using/working-with-srp.md">SRP</a> to another, such as from MSRP to DSRP.</p> 
+  <h2>Upgrading from AEM 5.6.1 or Earlier</h2> 
+  <p>Conceptually, there are three generations of communities components :</p> 
+  <p><strong>Gen 1</strong> : roughly CQ 5.4 through AEM 5.6.0 - these are the <strong>collab</strong> components which stored UGC in the local repository using replication as a means of synchronizing UGC across platforms. Other differences involve the implementation using Java Server Pages (JSP) as well as the blog feature consisting of authoring only in the author environment.</p> 
+  <p><strong>Gen 2</strong> : from AEM 5.6.1 through AEM 6.1 - this is a mix of <strong>collab</strong> and <strong>social</strong> components. AEM 6.0 introduced the new <a href="../../communities/using/scf.md">social component framework</a> (SCF) and AEM 6.2 introduced a <a href="../../communities/using/working-with-srp.md">common UGC store</a> where UGC is accessed using a <a href="../../communities/using/srp.md">storage resource provider</a> (SRP).</p> 
+  <p><strong>Gen 3</strong> : from AEM 6.2 forward, there are only <strong>social</strong> components, implemented in SCF as Handlebars (HBS) components requiring a choice of SRP for UGC.</p> 
+ </body> 
+</html>

@@ -1,0 +1,234 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-19T10:30:33.984-0400" name="cq:lastModified" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/assets/scene7/video" name="qaNotes" /> 
+  <meta content="2018-04-03T06:50:03.079-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-03T06:50:03.079-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-31T16:18:17.742-0400" name="firstPublishExternalDate" /> 
+  <meta content="Assets provides for centralized video asset management where you can upload videos directly to Assets for auto-encoding to Scene7 and access Scene7 videos directly from Assets for page authoring." name="seoDescription" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-19T10:30:33.982-0400" name="locHandOffDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-01-17T19:02:47.684-0500" name="jcr:created" /> 
+  <meta content="b6ea8a58-dce3-4032-9878-4971cd89cb06" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="0aca7ae0-1fd5-4e07-9515-5edb8b6a025e" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/manage-assets-classic-s7-video.html" name="publishExternalURL" /> 
+  <meta content="Video" name="seoTitle" /> 
+  <meta content="2018-04-03T06:50:03.896-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:authoring;content_type:reference" name="cq:tags" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="Video" name="navTitle" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T06:50:03.079-0400" name="lastPublishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="Video" name="jcr:title" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/classic-ui-authoring/morehelp/authoring;/content/help/en/experience-manager/6-4/assets/classic-ui-authoring/morehelp/authoring" name="moreHelpPaths" /> 
+ </head> 
+ <body> 
+  <p>Assets provides for centralized video asset management where you can upload videos directly to Assets for auto-encoding to Scene7 and access Scene7 videos directly from Assets for page authoring.</p> 
+  <p>Scene7 video integration extends the reach of optimized video to all screens (auto device and bandwidth detection).</p> 
+  <ul> 
+   <li>The Scene7 video component automatically performs device and bandwidth detection to play the right format and right quality video across desktop, tablets and mobile.</li> 
+   <li>Assets - You can include adaptive video sets rather than only single video assets. An adaptive video set is a container for all video renditions required to playback video seamlessly across multiple screens. An Adaptive Video Set groups versions of the same video that are encoded at different bit rates and formats such as 400 kbps, 800 kbps, and 1000 kbps. You use an Adaptive Video Set, along with S7 video component, for adaptive video streaming across multiple screens including desktop, iOS, Android, Blackberry, and Windows mobile devices. See <a href="http://help.adobe.com/en_US/scene7/using/WS53492AE1-6029-45d8-BF80-F4B5CF33EB08.html">Scene7 documentation about adaptive video sets for more information</a>.</li> 
+  </ul> 
+  <h3>About FFMPEG and Scene7</h3> 
+  <p>The default video encoding process is based on using the FFMPEG-based integration with video profiles. Therefore, the out-of-the-box DAM Update Asset workflow contains the following two ffmpeg-based workflow steps:</p> 
+  <ul> 
+   <li>FFMPEG thumbnails</li> 
+   <li>FFMPEG encoding</li> 
+  </ul> 
+  <p>Be aware that enabling and configuring the Scene7 integration does not automatically remove or deactivate these two workflow steps from the out-of-the-box DAM Update Asset ingestion workflow. If you already make use of the FFMPEG-based video encoding in AEM, it is likely that you have FFMPEG installed on your authoring environments. In this case, a new video ingested using Assets would be encoded twice: once from the FFMPEG encoder and once from Scene7 integration.</p> 
+  <p>If you have the FFMPEG-based video encoding in AEM configured and FFMPEG installed, Adobe recommends that you remove the two FFMPEG workflows from your DAM Update Asset workflows.</p> 
+  <h3>Supported Formats</h3> 
+  <p>The following formats are supported for the Scene7 Video component:</p> 
+  <ul> 
+   <li>F4V H.264</li> 
+   <li>MP4 H.264</li> 
+  </ul> 
+  <h3>Deciding where to upload your video</h3> 
+  <p>Deciding where to upload your video assets depends on the following:</p> 
+  <ul> 
+   <li>Do you need a workflow for the video asset?</li> 
+   <li>Do you need version control for the video asset?</li> 
+  </ul> 
+  <p>If the answer is "yes" to either or both of these questions, then upload your video directly to Adobe DAM. If the answer is "no" to both questions, then upload your video directly to Scene7. The workflow for each scenario is described in the following section.</p> 
+  <h4>If you are uploading your video directly to Adobe Assets</h4> 
+  <p>If you need a workflow or versioning for your assets, you should upload to Adobe Assets first. The following is the recommended workflow:</p> 
+  <ol> 
+   <li>Upload the video asset to Adobe Assets and automatically encode and publish to Scene7.</li> 
+   <li>In AEM, access video assets in WCM in the <strong>Movies</strong> tab of the Content Finder.</li> 
+   <li>Author with Scene7 video or foundation video component.</li> 
+  </ol> 
+  <h4>If you are uploading your video to Scene7</h4> 
+  <p>If you do not need a workflow or versioning for your assets, you should upload your assets to Scene7. The following is the recommended workflow:</p> 
+  <ol> 
+   <li>In Scene7, <a href="http://help.adobe.com/en_US/scene7/using/WS70B173EC-4CAD-4b4c-BF9C-43A11F3A5950.html">set up a scheduled FTP uploading and encoding to Scene7 (system automated)</a>.</li> 
+   <li>In AEM, access video assets in WCM in the <strong>Scene7 </strong>tab of the Content Finder.</li> 
+   <li>Author with the Scene7 video component.</li> 
+  </ol> 
+  <h3>Configuring Integration with Scene7 Video</h3> 
+  <p>To configure universal presets:</p> 
+  <ol> 
+   <li><p>In <strong>Cloud Services</strong>, navigate to your <strong>Scene7</strong> configuration and click <strong>Edit</strong>.</p> </li> 
+   <li><p>Select the <strong>Video</strong> tab.<br /> </p> 
+    <note> 
+     <p>The <strong>Video</strong> tab does not appear if the page does not have a cloud configuration. See <a href="#enablingscene7forwcm">Enabling Scene7 for WCM</a>.</p> 
+    </note></li> 
+   <li><p>Select the adaptive video encoding profile, an out-of-the-box single video encoding profile, or a custom video encoding profile.</p> 
+    <note> 
+     <p>For more information about what the video presets mean, see the <a href="http://help.adobe.com/en_US/scene7/using/WSE86ACF2B-BD50-4c48-A1D7-9CD4405B62D0.html">Scene7 documentation</a>. </p> 
+     <p>Adobe recommends that you select either both adaptive video sets when configuring the universal presets or select the<strong> Adaptive Video Encoding</strong> option.</p> 
+    </note></li> 
+   <li><p>The selected encoding profiles are automatically applied to all videos uploaded to the CQ DAM target folder you set up for this Scene7 cloud configuration. You can set up multiple Scene7 cloud configurations with different target folders to apply different encoding profiles as needed.</p> </li> 
+  </ol> 
+  <h3>Updating viewer and encoding presets</h3> 
+  <p>If you need to update the viewer and encoding presets for video in AEM because the presets have been updated in Scene7, navigate to the Scene7 configuration in the cloud configuration and click <strong>Update the viewer and encoding presets</strong>.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-147.png" /> 
+  <draft-comment type="draft"> 
+   <h3>Applying a Video Viewer to the Video Component</h3> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>Video presets configured in Scene7 determine how your video is displayed on different viewers. You can have multiple video presets/profiles in Scene7, as needed.</p> 
+   <p>To apply a video preset to the video component:</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <ol> 
+    <li><p>On your web site, add a <strong>Scene7 video</strong> component from the sidekick.<br /> </p> </li> 
+    <li><p>Click <strong>Edit</strong> to open the component.<br /> </p> 
+     <draft-comment type="draft"> 
+      <img imageRotate="0" src="assets/chlimage_1-148.png" /> 
+     </draft-comment></li> 
+    <li><p>In the <strong>Video Preset</strong> drop-down menu, select the video preset you want to use. This video preset applies to the selected component. When you view video on various types of devices, the video presets you selected are used.<br /> </p> </li> 
+   </ol> 
+  </draft-comment> 
+  <h3>Uploading your master video</h3> 
+  <p>To upload your master video to Scene7 from Adobe DAM:</p> 
+  <ol> 
+   <li><p>Navigate to the CQ DAM target folder where you have set up your cloud configuration with Scene7 encoding profiles.</p> </li> 
+   <li><p>Click <strong>Upload</strong> to upload master video. Video uploading and encoding is complete after the DAM Update Asset workflow is complete and <strong>Publish to Scene7</strong> has a checkmark.</p> 
+    <note> 
+     <p>It may take some time for the video thumbnails to be generated.</p> 
+    </note><p>Dragging the DAM master video on to the video component accesses <strong>all</strong> of the Scene7 encoded proxy renditions for delivery.</p> </li> 
+  </ol> 
+  <h3>Foundation Video Component versus Scene7 Video Component</h3> 
+  <p>When using AEM, you have access to both the Video component available in Sites and the Scene7 video component. These components are not interchangeable.</p> 
+  <p>The Scene7 video component only works for Scene7 videos. The foundation component works with videos stored from AEM (using ffmpeg) and Scene7 videos.</p> 
+  <p>The following matrix explains when you should use which component:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-149.png" /> 
+  <note> 
+   <p>Out of the box, the S7 video component uses the universal video profile. You can however obtain the HTML5-based video player for use by AEM by doing one of the following: </p> 
+   <ul> 
+    <li>In Scene7, copy the embed code of the out-of-box HTML5 video player and put it in your AEM page.</li> 
+    <li>Use the Scene7 HTML5 viewer SDK to create a custom player and then create a custom AEM component.<br /> </li> 
+   </ul> 
+  </note> 
+  <h2>AEM Video Component</h2> 
+  <p>Even if using the Scene7 video component is recommended for viewing Scene7 videos, this section describes using Scene7 videos with the Foundation Video Component in AEM, for the sake of completeness.</p> 
+  <h3>AEM Video and Scene7 Video comparison</h3> 
+  <p>The following table provides a high level comparison of supported capabilties between the AEM Foundation Video component and the Scene7 Video component:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th> </th> 
+     <th style="text-align: center;" valign="middle">AEM Foundation Video</th> 
+     <th style="text-align: center;" valign="middle">Scene7 Video</th> 
+    </tr> 
+    <tr> 
+     <th>Approach</th> 
+     <td style="text-align: center;" valign="middle">HTML5 first approach. Flash is only used for non-HTML5 fallback.</td> 
+     <td style="text-align: center;" valign="middle">Flash on most desktops. HTML5 is used for mobile and tablets.</td> 
+    </tr> 
+    <tr> 
+     <th>Delivery</th> 
+     <td style="text-align: center;" valign="middle">Progressive</td> 
+     <td style="text-align: center;" valign="middle">Adaptive Streaming</td> 
+    </tr> 
+    <tr> 
+     <th>Tracking</th> 
+     <td style="text-align: center;" valign="middle">Yes</td> 
+     <td style="text-align: center;" valign="middle">Yes</td> 
+    </tr> 
+    <tr> 
+     <th>Extensibility</th> 
+     <td style="text-align: center;" valign="middle">Yes</td> 
+     <td style="text-align: center;" valign="middle">Yes (with Scene7 viewer SDK)</td> 
+    </tr> 
+    <tr> 
+     <th>Mobile Video</th> 
+     <td style="text-align: center;" valign="middle">Yes</td> 
+     <td style="text-align: center;" valign="middle">Yes</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Setting Up</h3> 
+  <h4>Creating Video Profiles</h4> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-77F410094CD97C4F0A746C1B@AdobeID" lastModifiedDate="2018-01-16T06:25:01.009-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>Doubt that this is up to date.</p> 
+  </draft-comment> 
+  <p>The various video encodings are created according to the S7 encoding presets selected in the S7 cloud config. In order for the foundation video component to make use of them, a video profile must be created for each S7 encoding preset selected. This allows the video component to select the DAM renditions accordingly. </p> 
+  <note> 
+   <p>New video profiles and changes to them must be activated to publish.</p> 
+  </note> 
+  <ol> 
+   <li><p>In AEM, go to <strong>Tools</strong>, then select <strong>Configuration Console</strong>. In the Configuration Console navigate to <strong>Tools</strong> -&amp;gt; <strong>Assets</strong> -&amp;gt; <strong>Video Profiles</strong> in the navigation tree. </p> </li> 
+   <li><p>Create a new S7 Video Profile. In the <strong>New...</strong> menu, select <strong>Create Page</strong> and then select the Scene7 Video Profile template. Give the new video profile page a name and click <strong>Create</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-150.png" /></li> 
+   <li><p>Edit the new video profile. Select the cloud config first. Then select the same encoding preset as selected in the cloud config.</p> <img imageRotate="0" src="assets/chlimage_1-151.png" /> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th style="text-align: left;" valign="middle" width="150">Property</th> 
+       <th style="text-align: left;" valign="middle">Description</th> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;" valign="middle" width="150">Scene7 Cloud Config</td> 
+       <td style="text-align: left;" valign="middle">The cloud config to use for the encoding presets.</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;" valign="middle" width="150">Scene7 Encoding Preset</td> 
+       <td style="text-align: left;" valign="middle">The encoding preset to map this video profile with.</td> 
+      </tr> 
+      <tr> 
+       <td style="text-align: left;" valign="middle" width="150">HTML5 video type</td> 
+       <td style="text-align: left;" valign="middle">This property allows to set the value of the type property of the HTML5 video source element. This information is not provided by the S7 encoding presets, but required for properly rendering the videos using HTML5 video element. A list for common formats is provided, but can be overwritten for other formats. </td> 
+      </tr> 
+     </tbody> 
+    </table> <p>Repeat this step for all encoding presets selected in the cloud config that you want to use in the video component.</p> </li> 
+  </ol> 
+  <h4>Configuring Design</h4> 
+  <p>The foundation video component must know about what video profiles to use in order to build the video sources list. You must open the video components design dialog and configure the components design for using the new video profiles.</p> 
+  <note> 
+   <p>If you use the foundation video component on a mobile page, you might need to repeat these steps on the design of the mobile page.</p> 
+  </note> 
+  <note> 
+   <p>Changes made to the design require activation of the design in order to take effect on publish.</p> 
+  </note> 
+  <ol> 
+   <li><p>Open the foundation video component's design dialog and change to the <strong>Profiles</strong> tab. Then delete the OOTB profiles and add the new S7 video profiles. The order of the profile list in the design dialog as well defines to order of the video sources element when rendering.</p> </li> 
+   <li><p>For browsers not supporting HTML5, the video component allows to configure a flash fallback. Open the video components design dialog and change to the <strong>Flash</strong> tab. Configure the flash player settings and assign a fallback profile for the flash player.</p> </li> 
+  </ol> 
+  <h4>Checklist</h4> 
+  <ol> 
+   <li>Create a S7 cloud config. Make sure the video encoding presets are set and the importer is running. </li> 
+   <li>Create a S7 video profile for each video encoding preset selected in the cloud config.</li> 
+   <li>The video profiles must be activated.</li> 
+   <li>Configure the design of the foundation video component on your page.</li> 
+   <li>Activate the design after you are done with your design changes.</li> 
+  </ol> 
+ </body> 
+</html>

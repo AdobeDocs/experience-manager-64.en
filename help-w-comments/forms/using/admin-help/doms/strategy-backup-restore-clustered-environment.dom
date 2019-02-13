@@ -1,0 +1,209 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="87" name="acrolinxSentences" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/strategy_backup_restore_clustered_environment_admin_5e12de0b318c6865_2378_report.xml" name="acrolinxReportURL" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2016-04-20T10:10:06.981-0400" name="firstPublishExternalDate" />
+  <meta content="2018-04-26T04:22:28.393-0400" name="cq:lastModified" />
+  <meta content="630222f1-ed79-4e8b-b3ad-157c0accebc0" name="jcr:predecessors" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/strategy-backup-restore-clustered-environment.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="2018-04-26T04:22:28.393-0400" name="locHandOffDate" />
+  <meta content="2018-01-18T11:24:50.207-0500" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/aem_forms_backup_and_recovery;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="2016-02-05T03:27:32.716-0500" name="lr_lastModified" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="2018-01-19T19:06:14.727-0500" name="jcr:created" />
+  <meta content="2018-01-18T11:24:50.207-0500" name="publishExternalDate" />
+  <meta content="Strategy for backup and restore in a clustered environment" name="jcr:title" />
+  <meta content="2018-04-03T09:10:40.865-0400" name="cq:lastReplicated" />
+  <meta content="Strategy for backup and restore in a clustered environment" name="navTitle" />
+  <meta content="f773d41b-82eb-4e9f-b498-34e307a517a5" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="1375" name="acrolinxWords" />
+  <meta content="AEMForms/6.1/AdminHelp/WS0b373c8e7f652f1435f48eae13df3d90724-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f14-29a89be313df42b1fb7-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f1435f48eae13df3d90724-7fff,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f145d7a8d1c13df405ee1c-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f142cd59eeb13df40dc7e8-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f1443c8867213df40e948c-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f14-29a89be313df42b1fb7-7fff,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f14-3ed76fe513dfd50d43f-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f14-2b3535b313df439586c-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f144b56525e13df448ed51-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f14-8eef7a213dfd7f00d6-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f14-8eef7a213dfd7f00d6-7fff" name="cq:gepId" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2016-05-31T07:03:26.397-0400" name="acrolinxDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="If your AEM forms implementation stores additional custom data in a different database, you must implement a strategy to back up this data ensuring that it remains in sync with the AEM forms data." name="seoDescription" />
+  <meta content="red" name="acrolinxPageStatus" />
+ </head>
+ <body>
+  <note>
+   <p>If your AEM forms implementation stores additional custom data in a different database, you must implement a strategy to back up this data ensuring that it remains in sync with the AEM forms data. Also, the application must be designed so that it is robust enough to handle a scenario where the additional databases get out of sync. It is highly recommended that any database operation that is performed is done in the context of a transaction to help maintain a consistent state.</p>
+  </note>
+  <p>You need to back up the following parts of the AEM forms system to recover from any error:</p>
+  <ul>
+   <li><p>Database used by AEM forms</p></li>
+   <li><p>GDS that has long lived data and other persistent documents</p></li>
+   <li><p>AEM database (crx-repository)</p></li>
+  </ul>
+  <note>
+   <p>You need to backup any other data that is being used by your AEM forms setup, such as customer fonts, connecters data, and so on.</p>
+  </note>
+  <h2 id="back_up_a_clustered_environment">Back up a clustered environment</h2>
+  <p></p>
+  <p>This topic discusses the following strategies to back up any AEM forms clustered environment:</p>
+  <ul>
+   <li><p>Offline backup with downtime</p></li>
+   <li><p>Offline backup with no downtime (backup of a slave node which is shutdown)</p></li>
+   <li><p>Online Backup with no downtime but delay in response</p></li>
+   <li><p>Back up the Bootstrap properties file</p></li>
+  </ul>
+  <h3 id="offline_backup_with_downtime">Offline backup with downtime</h3>
+  <p></p>
+  <ol>
+   <li><p>Shut down the entire cluster and related services. (see <a href="../../../forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services">Starting and stopping services</a>)</p></li>
+   <li><p>On any node, back up the database, GDS, and Connectors. (see <a href="../../../forms/using/admin-help/files-back-recover.md#files-to-back-up-and-recover">Files to back up and recover</a>)</p></li>
+   <li><p>Perform the following steps to back up AEM repository offline:</p>
+    <ol>
+     <li><p>For each cluster node, back up the file that contains the cluster node id. </p></li>
+     <li><p>Back up all files of any slave cluster node, including subdirectories.</p></li>
+     <li><p>Back up repository/system id of each cluster node separately. </p></li>
+    </ol><p>For detailed steps, see <a href="http://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html">Backup and Restore</a>.</p></li>
+   <li><p>Back up any other data, such as customer fonts.</p></li>
+   <li><p>Start the cluster again.</p></li>
+  </ol>
+  <h3 id="offline_backup_with_no_downtime">Offline backup with no downtime</h3>
+  <p></p>
+  <ol>
+   <li><p>Enter the rolling backup mode. (see <a href="../../../forms/using/admin-help/backing-aem-forms-data.md#entering-the-backup-modes">Entering the backup modes</a>)</p><p>Note that we need to leave the rolling backup mode after a recovery.</p></li>
+   <li><p>Shut down any of the slave nodes of the cluster with respect to AEM. (see <a href="../../../forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services">Starting and stopping services</a>)</p></li>
+   <li><p>On any node, back up the database, GDS, and Connectors. (see <a href="../../../forms/using/admin-help/files-back-recover.md#files-to-back-up-and-recover">Files to back up and recover</a>) </p></li>
+   <li><p>Perform the following steps to back up AEM repository offline:</p>
+    <ol>
+     <li><p>For each cluster node, back up the file that contains the cluster node id. </p></li>
+     <li><p>Back up all files of any slave cluster node, including subdirectories.</p></li>
+     <li><p>Back up repository/system.id of each cluster node separately. </p></li>
+    </ol><p>For detailed steps, see <a href="http://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html">Backup and Restore</a>.</p></li>
+   <li><p>Back up any other data, such as customer fonts.</p></li>
+   <li><p>Start the cluster again.</p></li>
+  </ol>
+  <h3 id="online_backup_with_no_downtime_but_delay_in_response">Online Backup with no downtime but delay in response</h3>
+  <p></p>
+  <ol>
+   <li><p>Enter the rolling backup mode. (see <a href="../../../forms/using/admin-help/backing-aem-forms-data.md#entering-the-backup-modes">Entering the backup modes</a>)</p><p>Note that you need to leave the rolling backup mode after a recovery.</p></li>
+   <li><p>Shut down any of the slave nodes of the cluster with respect to AEM. (see <a href="../../../forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services">Starting and stopping services</a>)</p></li>
+   <li><p>On any node, back up the database, GDS, and Connectors. (see <a href="../../../forms/using/admin-help/files-back-recover.md#files-to-back-up-and-recover">Files to back up and recover</a>) </p></li>
+   <li><p>Perform the following steps to back up AEM repository online:</p>
+    <ol>
+     <li><p>For each cluster node, back up the file that contains the cluster_node.id. </p></li>
+     <li><p>Back up repository/system.id of each cluster node separately. </p></li>
+     <li><p>On any slave node, take an online backup of the repository for detailed steps see Online backup.</p></li>
+    </ol></li>
+   <li><p>Back up any other data, such as customer fonts.</p></li>
+   <li><p>Start the cluster again.</p></li>
+  </ol>
+  <h3 id="back_up_the_bootstrap_properties_file">Back up the Bootstrap properties file</h3>
+  <p></p>
+  <p>When we create an AEM cluster, a properties file is created in the application server for all slave nodes. It is recommended to back up the Bootstrap properties file. You can find the file at the following location on your application server:</p>
+  <ul>
+   <li><p>JBoss: in the BIN directory</p></li>
+   <li><p>WebLogic: in the domain directory</p></li>
+   <li><p>WebSphere: in the profile directory</p></li>
+  </ul>
+  <p>You need to back up the file for disaster recovery scenario of AEM slave node and replace it at the specified location on the application server, if restored.</p>
+  <h2 id="recovery_in_a_clustered_environment">Recovery in a clustered environment</h2>
+  <p></p>
+  <p>In case of any failure of the entire cluster or a single node, you need to restore it using the backup. </p>
+  <p>For a single node recovery, you just need to shut down the single node and run the single node recovery procedure. </p>
+  <p>In case the entire cluster fails due to failures like database crash, you need to perform the following steps. Restoration depends on the method of backup used. </p>
+  <h3 id="restoring_a_single_node">Restoring a single node</h3>
+  <p></p>
+  <ol>
+   <li><p>Stop the corrupted node. </p>
+    <note>
+     <p>If the corrupted node is an AEM master node, shut down the entire cluster node.</p>
+    </note></li>
+   <li><p>Re-create the physical system from a system image.</p></li>
+   <li><p>Apply patches or updates to AEM forms that were applied since the image was made. This information was recorded during the backup procedure. AEM forms must be recovered to the same patch level as it was when the system was backed up.</p></li>
+   <li><p>(<i>Optional</i>) If all other nodes are working fine, it is possible that the AEM repository is alsocorrupted. In this case, you will see a repository unsync message in the error.log file of the AEM repository. </p><p>To restore the repository, perform the following steps.</p>
+    <note>
+     <p>If a zipped crx-repository backup was taken online, unzip it at any location and follow the offline restoration process.</p>
+    </note>
+    <ol>
+     <li><p>Delete the repository, shared, version, and workspaces directories in the clusterNode directory of the node.</p></li>
+     <li><p>Restore the backup of the cluster node (including subdirectories) to the node.</p></li>
+     <li><p>Delete the file clusterNode/revision.log on the node.</p></li>
+     <li><p>Delete the .lock on the node, if exists.</p></li>
+     <li><p>Delete the repository/system.id on the node, if exists.</p></li>
+     <li><p>Delete the files **/listener.properties on the node, if exist.</p></li>
+     <li><p>Restore repository/cluster_node.id for individual cluster nodes.</p></li>
+    </ol></li>
+  </ol>
+  <note>
+   <p>Consider the following points:</p>
+  </note>
+  <ul>
+   <li><p>If the failed node was an AEM master node, copy all the content from the slave repository folder (crx-repository\crx.0000 where 0000 can be any digits) to the crx-repository\ repository folder and delete the slave repository folder.</p></li>
+   <li><p>Before restarting any cluster node, ensure that you delete the repository /clustered.txt from the master node.</p></li>
+   <li><p>Ensure that the master node is started first and once it is completely up, start other nodes.</p></li>
+  </ul>
+  <h3 id="restoring_the_entire_cluster">Restoring the entire cluster</h3>
+  <p></p>
+  <ol>
+   <li><p>Stop all the cluster nodes.</p></li>
+   <li><p>Recreate the physical system from a system image.</p></li>
+   <li><p>Apply patches or updates to AEM formsAEM formsthat were applied since the image was made. This information was recorded in step 1 of the backup procedure. AEM forms must be recovered to the same patch level as it was when the system was backed up.</p></li>
+   <li><p>Restore the database, GDS, and Connectors.</p></li>
+   <li><p>Do the following to recover the AEM repository offline:</p>
+    <note>
+     <p>If a zipped crx-repository backup was taken online, unzip it at any location and follow the offline restoration process.</p>
+    </note>
+    <ol>
+     <li><p>On all cluster nodes, delete the repository, shared, version, and workspaces directories in the clusterNode directory.</p></li>
+     <li><p>Delete all files and directories in the shared directory.</p></li>
+     <li><p>Restore the backup of the cluster node (including subdirectories) to one cluster nodes.</p></li>
+     <li><p>Copy all files of the restored cluster node to all other cluster nodes. Once done, each cluster node contains the same data.</p></li>
+     <li><p>Delete the file clusterNode/revision.log on all cluster nodes.</p></li>
+     <li><p>Delete the .lock on all cluster nodes, if exists.</p></li>
+     <li><p>Delete the repository/system.id all cluster nodes, if exists.</p></li>
+     <li><p>Delete the files **/listener.properties on all cluster nodes, if exist.</p></li>
+     <li><p>Restore repository/cluster_node.id for individual cluster nodes.</p></li>
+    </ol></li>
+  </ol>
+  <note>
+   <p>Consider the following points:</p>
+  </note>
+  <ul>
+   <li><p>If the failed node was an AEM master node, copy all the content from the slave repository folder (it looks like crx-repository\crx.0000 where 0000 can be any digits) to the crx-repository\ repository folder.</p></li>
+   <li><p>Before restarting any cluster node, ensure that you delete the repository /clustered.txt from the master node.</p></li>
+   <li><p>Ensure that the master node is started first and once it is completely up, start other nodes.</p></li>
+  </ul>
+  <h2 id="back_up_and_restore_correspondence_management_solution_publish_node">Back up and restore Correspondence Management Solution publish node</h2>
+  <p></p>
+  <p>The publisher node does not have any master-slave relationship in a clustered environment. You can take backup of any Publisher node by following <a href="http://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html">Backup and Restore</a>.</p>
+  <h3 id="recover_a_single_publisher_node">Recover a single publisher node</h3>
+  <p></p>
+  <ol>
+   <li><p>Shutdown the node that needs to be recovered and do not do any publish activity until the node is up again.</p></li>
+   <li><p>Restore the Publish node using <a href="http://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html#Restoring the Backup">Restoring the Backup</a>.</p></li>
+  </ol>
+  <h3 id="recover_a_cluster">Recover a cluster</h3>
+  <p></p>
+  <ol>
+   <li><p>Shutdown the cluster.</p></li>
+   <li><p>Restore the Publish node using <a href="http://docs.adobe.com/docs/en/crx/current/administering/backup_and_restore.html#Restoring the Backup">Restoring the Backup</a>.</p></li>
+   <li><p>Start the master node followed by the slave node of the author cluster.</p></li>
+  </ol>
+ </body>
+</html>

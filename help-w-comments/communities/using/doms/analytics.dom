@@ -1,0 +1,505 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-05-24T05:31:06.049-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/communities/analytics" name="qaNotes" /> 
+  <meta content="2018-05-24T05:31:06.027-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-12-01T19:02:17.489-0500" name="jcr:created" /> 
+  <meta content="Analytics Configuration for Communities Features" name="navTitle" /> 
+  <meta content="2017-10-31T16:33:59.967-0400" name="firstPublishExternalDate" /> 
+  <meta content="Analytics Configuration for Communities Features" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-05-24T05:31:06.027-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="93754650-c15e-42e6-91ab-9b4a222577e8" name="jcr:uuid" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/analytics.html" name="publishExternalURL" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="vishgupt@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-05-24T07:20:29.662-0400" name="cq:lastModified" /> 
+  <meta content="vishgupt" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Janice Kendall" name="contentOwner" /> 
+  <meta content="Analytics Configuration for Communities Features" name="seoTitle" /> 
+  <meta content="2018-05-24T05:31:06.027-0400" name="publishExternalDate" /> 
+  <meta content="f3966bb3-eac7-4b6b-a10e-9dac74a301f9" name="jcr:predecessors" /> 
+  <meta content="2018-05-24T07:20:29.662-0400" name="locHandOffDate" /> 
+  <meta content="vishgupt" name="cq:lastModifiedBy" /> 
+  <meta content="Configure analytics for Communities" name="seoDescription" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>Adobe Analytics and Adobe Experience Manager (AEM) are both solutions of Adobe Marketing Cloud.</p> 
+  <p>Adobe Analytics may be configured for AEM Communities so that, as a member interacts with supported Communities features, events are sent to Adobe Analytics from which reports are generated.</p> 
+  <p>For example, when a member of an enablement community site views a video resource assigned to them, the resource player will send events to Analytics, including video heartbeat data. From the community site, administrators are able to see various reports regarding the playing of the video.</p> 
+  <p>Further, analytics is necessary for :</p> 
+  <ul> 
+   <li>in the publish environment : 
+    <ul> 
+     <li>reporting on community <a href="../../communities/using/trends.md">trends</a></li> 
+     <li>allow site visitors to sort by "most viewed", "most active", "most liked"</li> 
+     <li>view counts on UGC lists</li> 
+    </ul> </li> 
+   <li>in the author environment : 
+    <ul> 
+     <li>display of participation data in the <a href="../../communities/using/members.md">members management console</a> (views, posts, follows, likes)</li> 
+     <li>trend summary, video heartbeat and videio device for enablement resource <a href="../../communities/using/reports.md">reports</a></li> 
+    </ul> </li> 
+  </ul> 
+  <p>Supported Communities features include :</p> 
+  <ul> 
+   <li><a href="../../communities/using/resources.md">enablement resources</a></li> 
+   <li><a href="../../communities/using/forum.md">forum</a></li> 
+   <li><a href="../../communities/using/working-with-qna.md">QnA</a></li> 
+   <li><a href="../../communities/using/blog-feature.md">blog</a></li> 
+   <li><a href="../../communities/using/file-library.md">file library</a></li> 
+   <li><a href="../../communities/using/calendar.md">calendar</a></li> 
+  </ul> 
+  <p>This section of the documentation describes how to connect an Analytics report suite with Communities features. The basic steps are :</p> 
+  <ol> 
+   <li><a href="#replicatethecryptokey">Replicate the crypto key</a> to ensure encryption/decryption occurs correctly on all AEM instances</li> 
+   <li>Prepare an Adobe Analytics <a href="#adobeanalyticsreportsuiteforvideoreporting">report suite</a></li> 
+   <li>Create an AEM Analytics <a href="#aemanalyticscloudserviceconfiguration">cloud service</a> and <a href="#aemanalyticsframeworkconfiguration">framework</a></li> 
+   <li><a href="#enableanalyticsforacommunitysite">Enable Analytics</a> for a community site</li> 
+   <li><a href="#verifyanalyticstoaemvariablemapping"><strong>Verify</strong></a> Analytics to AEM variable mapping</li> 
+   <li>Identify <a href="#primarypublisher">primary publisher</a></li> 
+   <li><a href="#publishcommunitysiteandanalyticscloudservice">Publish</a> the community site</li> 
+   <li>Configure <a href="#obtainingreportsfromanalytics">import of report data</a> from Adobe Analytics to the community site</li> 
+  </ol> 
+  <h2>Prerequisites</h2> 
+  <p>To configure Analytics for Communities features, it is necessary to work with your account representative to setup an Adobe Analytics account and <a href="#adobeanalyticsreportsuiteforvideoreporting">report suite</a>. Once established, the following information should be available :</p> 
+  <ul> 
+   <li>Company Name<br /> the company that is associated with the Adobe Analytics account</li> 
+   <li>Username<br /> the login username for the user authorized to manage the Analytics account<br /> (should include Web Service Access privileges)</li> 
+   <li>Password<br /> the login password for the authorized user</li> 
+   <li>Analytics Data Center<br /> the URL of the Analytics data center for the account</li> 
+   <li>Report Suite<br /> the name of the Analytics report suite to use<br /> </li> 
+  </ul> 
+  <h2>Adobe Analytics Report Suite for Video Reporting</h2> 
+  <p>Using the Adobe Marketing Cloud's <a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html">Report Suite Manager</a>, Analytics report suites can be configured so that a community site may be enabled to provide reports for Communities features. </p> 
+  <p>By signing in to <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html">Adobe Marketing Cloud</a> with <a href="../../communities/using/analytics.md#prerequisites">Company Name and Username</a>, it is possible to configure a new or existing report suite to have :</p> 
+  <ul> 
+   <li><a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html">11 Conversion Variables</a> (evars) 
+    <ul> 
+     <li><strong><span class="code">evar1</span></strong> through <strong><span class="code">evar11</span></strong> enabled</li> 
+     <li>can repurpose (rename) existing evars or create new ones to use for Communities features</li> 
+    </ul> </li> 
+   <li><a href="https://marketing.adobe.com/resources/help/en_US/reference/success_event.html">7 Success Events</a> (events) 
+    <ul> 
+     <li><strong><span class="code">event1</span></strong> through <strong><span class="code">event7</span></strong> enabled</li> 
+     <li>type <strong><span class="code">Counter</span></strong> 
+      <ul> 
+       <li>not <strong><span class="code">Counter (no subrelations)</span></strong></li> 
+      </ul> </li> 
+     <li>can repurpose (rename) existing events or create new ones to use for Communities features</li> 
+    </ul> </li> 
+   <li><a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/video_analytics_config.html">Video Management</a> 
+    <ul> 
+     <li>Video Reporting console 
+      <ul> 
+       <li>enable <span class="code">Video Core</span></li> 
+       <li>select Save</li> 
+      </ul> </li> 
+     <li>Video Core measurement console 
+      <ul> 
+       <li>select <span class="code">Use Solution Variables</span></li> 
+       <li>select Save</li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <p>If using a <strong>new report suite</strong>, be aware that a new report suite may only have 4 evars and 6 event variables, while 11 evars and 7 event vars are required for Communities.</p> 
+  <p>If using an <strong>existing report suite</strong>, it may be necessary to <a href="#modifyinganalyticsvariablemapping">modify the variable mapping</a> prior to activating the Analytics framework for a community site. Contact your account representative for any concerns regarding the variables dedicated to Communities.</p> 
+  <note> 
+   <p><strong>If using an existing report suite that already uses variables within</strong></p> 
+   <ul> 
+    <li><strong><span class="code">evar1</span></strong> through <strong><span class="code">evar11</span></strong></li> 
+    <li><strong><span class="code">event1</span></strong> through <strong><span class="code">event7</span></strong></li> 
+   </ul> 
+   <p><strong>Then before the community site is published,</strong> it is important to restore the pre-existing mapping by moving the AEM variables that were automatically mapped to Analytics variables when Analytics was enabled for a community site.</p> 
+   <p>To restore the pre-existing mapping and move AEM variables to other Analytics variables, see the section on <a href="#modifyinganalyticsvariablemapping">Modifying Analytics Variable Mapping</a>.</p> 
+   <p>Failure to do so may result in unrecoverable data loss.</p> 
+  </note> 
+  <h3>Video Heartbeat Analytics</h3> 
+  <p>When Video Heartbeat Analytics is licensed, a <span class="code">Marketing Cloud Org Id</span> is assigned.</p> 
+  <p>To enable Video Heartbeat reporting after <a href="#adobeanalyticsreportsuiteforvideoreporting">configuring the Analytics report suite for video reporting</a> :</p> 
+  <ul> 
+   <li>create an <a href="#aemanalyticscloudserviceconfiguration">Analytics cloud service</a></li> 
+   <li>enable <a href="#enableanalyticsforacommunitysite">Analytics for a community site</a></li> 
+   <li>associate the <span class="code">Marketing Cloud Org Id</span> with the community site</li> 
+  </ul> 
+  <p>The <span class="code">Marketing Cloud Org Id</span> may be entered at the time of <a href="../../communities/using/sites-console.md#enablement">community site creation</a> or later by <a href="../../communities/using/sites-console.md#modifyingsiteproperties">modifying</a> the community site properties.<a href="#aemanalyticscloudserviceconfiguration"></a></p> 
+  <img imageRotate="0" src="assets/chlimage_1-272.png" /> 
+  <p>When Video Heartbeat Analytics is enabled, the Javascript (JS) code for the video player instantiates the video heartbeat library code (also in JS) which handles all the logic for sending video status updates to the Analytics video tracking servers every 10 seconds (not configurable) and eventually sending a cumulative report of the video session to the main Analytics servers. </p> 
+  <p>If not enabled, the video heartbeat code is never instantiated and only the video progress and resume position tracking is persisted to SRP for reporting.</p> 
+  <h2>AEM Analytics Cloud Service Configuration</h2> 
+  <p>To create a new Analytics Integration, which integrates Adobe Analytics with the AEM community site, using the standard UI on the author instance :</p> 
+  <ul> 
+   <li>from global navigation : <strong>Tools, Deployment, Cloud Services</strong></li> 
+   <li>scroll down to <strong>Adobe Analytics</strong></li> 
+   <li>select either <strong>Configure Now</strong> or <strong>Show Configurations</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-273.png" /> 
+  <h3>Create Configuration Dialog</h3> 
+  <ul> 
+   <li>select <strong>[+]</strong> icon next to <strong>Available Configurations</strong> to create a new configuration</li> 
+  </ul> 
+  <p>On the Create Configuration dialog, the values to be entered identify the configuration.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-274.png" /> 
+  <ul> 
+   <li><strong>Title</strong><br /> (required) A display title for the configuration.<br /> For example, enter <i>Enablement Community Analytics</i></li> 
+   <li><strong>Name</strong><br /> (optional) If not specified, the name will default to a valid node name derived from the title.<br /> For example, enter <i>communities</i></li> 
+   <li><i>Template</i><br /> Select <span class="code">Adobe Analytics Configuration</span></li> 
+   <li>Select <strong>Create </strong> 
+    <ul> 
+     <li>launches configuration page and opens <span class="code">Analytics Settings</span> dialog</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Analytics Settings Dialog</h3> 
+  <p>The initial creation of a new Analytics configuration results in the display of the configuration and a new dialog for entry of the Analytics Settings. This dialog requires the <a href="#prerequisites">prerequisite account information</a> obtained from the account representative.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-275.png" /> 
+  <ul> 
+   <li><strong>Company</strong><br /> the company that is associated with the Adobe Analytics account</li> 
+   <li><strong>Username</strong><br /> the login username for the user authorized to manage the Analytics account</li> 
+   <li><strong>Password</strong><br /> the login password for the authorized user</li> 
+   <li><strong>Data Center</strong><br /> select the Analytics data center hosting the report suite</li> 
+   <li><strong>Do not add tracking tag to page</strong><br /> leave as default (unchecked)</li> 
+   <li><strong>Use AppMeasurement</strong><br /> leave as default (unchecked)</li> 
+   <li><strong>Do not import page impressions nightly (author)</strong><br /> leave as default (unchecked)</li> 
+   <li><strong>Do not import page impressions nightly (publish)</strong><br /> leave as default (checked)</li> 
+  </ul> 
+  <p>To save the settings :</p> 
+  <ul> 
+   <li>select <strong>Connect to Analytics</strong> 
+    <ul> 
+     <li>if not successful, 
+      <ul> 
+       <li>verify entries do not contain leading spaces</li> 
+       <li>try a different data center</li> 
+       <li>contact your account representative</li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li>select <strong>OK</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-276.png" /> 
+  <h3>Create Framework</h3> 
+  <p>After successful configuration of the basic connection to Adobe Analytics, it is necessary to create or edit a framework for the community site. The purpose of the framework is to map Communities feature (AEM) variables to Analytics (report suite) variables. </p> 
+  <ul> 
+   <li>select <span class="code">[+]</span> icon next to <strong>Available Frameworks</strong> to create a new framework</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-277.png" /> 
+  <ul> 
+   <li><strong>Title</strong><br /> (required) A display title for the framework<br /> For example, enter <i>Enablement Community Framework</i></li> 
+   <li><strong>Name</strong><br /> (optional) If not specified, the name will default to a valid node name derived from the title.<br /> For example, enter <i>communities</i></li> 
+   <li><i>Template</i><br /> Select <span class="code">Adobe Analytics Framework</span></li> 
+   <li>Select <strong>Create</strong></li> 
+  </ul> 
+  <p>Creating the Analytics Framework opens the framework for configuration.</p> 
+  <h2>AEM Analytics Framework Configuration</h2> 
+  <p>The purpose of the framework is to map AEM variables to Analytics variables (evars and events). The Analytics variables available for mapping are <a href="#adobeanalyticsreportsuiteforvideoreporting">defined in the report suite</a>.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-278.png" /> 
+  <h3>Select Report Suite</h3> 
+  <p>Select the report suite that has been set up for video reporting. </p> 
+  <p>If a report suite has not yet been created or not properly set up, see the previous section :<br /> <a href="#adobeanalyticsreportsuiteforvideoreporting">Adobe Analytics Report Suite for Video Reporting</a></p> 
+  <p>The Sidekick is not needed and may be minimized so that it does not obstruct access to the Report Suites settings.</p> 
+  <h4>Report Suites dialog before and after selecting 'Add Item'</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-279.png" /> 
+  <ol> 
+   <li>Select <strong>Add Item +</strong><br /> two drop down boxes appear</li> 
+   <li>choose a <span class="code">Report suite</span><br /> the report suites associated with the Company account should be available for selection</li> 
+   <li>Select <strong>Yes </strong>in the dialog that opens :<br /> <code class="code">Load default server settings?
+     <discoiqbr /> Do you want to load the default server settings and overwrite current values in the Server section?</code></li> 
+   <li>choose a <span class="code">Run Mode</span><br /> choose <strong>publish</strong></li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-280.png" /> 
+  <p>The Analytic cloud service and framework are now complete. The Mappings will be defined once a community site has been created with this Analytics service enabled.</p> 
+  <h2>Enable Analytics for a Community Site</h2> 
+  <h3>Enable for New Community Site</h3> 
+  <p>To add the Analytics cloud service while <a href="../../communities/using/sites-console.md">creating a new community site</a> :</p> 
+  <ul> 
+   <li>in step 3</li> 
+   <li>under the <a href="../../communities/using/sites-console.md#analytics">ANALYTICS tab</a> : 
+    <ul> 
+     <li>check the <strong>Enable Analytics</strong> checkbox</li> 
+     <li>choose the framework from the drop-down box</li> 
+    </ul> </li> 
+   <li>Optionally, return to the Analytics framework configuration to adjust the variable mappings.</li> 
+  </ul> 
+  <h3>Enable for Existing Community Site</h3> 
+  <p>To add the Analytics cloud service to an <a href="../../communities/using/sites-console.md#modifyingsiteproperties">existing community site</a> :</p> 
+  <ul> 
+   <li>navigate to the <strong>Communities, Sites</strong> console</li> 
+   <li>select the community site's Edit Site icon</li> 
+   <li>select the SETTINGS</li> 
+   <li>in the Analytics section : 
+    <ul> 
+     <li>check the <strong>Enable Analytics</strong> checkbox</li> 
+     <li>choose the framework from the drop-down box</li> 
+    </ul> </li> 
+   <li>Optionally, return to the Analytics framework configuration to adjust the variable mappings.</li> 
+  </ul> 
+  <h3>Enable for Customized Sites</h3> 
+  <p>In order for Analytics tracking and import to work properly for a community site, a page element with the <span class="code">scf-js-site-title</span> class and href attributes must be present. Only one such element should exist on the page, such as it does in an unmodified <span class="code">sitepage.hbs</span> script for a community site. The value of <span class="code">siteUrl</span> is extracted and sent to Adobe Analytics as the <i>site path</i>.</p> 
+  <codeblock class="syntax xml">
+    #&amp;nbsp;present&amp;nbsp;in&amp;nbsp;default&amp;nbsp;sitepage.hbs!!discoiqbr!!#&amp;nbsp;only&amp;nbsp;one&amp;nbsp;scf-js-site-title&amp;nbsp;class&amp;nbsp;should&amp;nbsp;be&amp;nbsp;included!!discoiqbr!!#&amp;nbsp;this&amp;nbsp;example&amp;nbsp;sets&amp;nbsp;it&amp;nbsp;to&amp;nbsp;be&amp;nbsp;hidden&amp;nbsp;as&amp;nbsp;it&amp;nbsp;serves&amp;nbsp;no&amp;nbsp;visual&amp;nbsp;purpose!!discoiqbr!!&lt;div&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;class="navbar-brand&amp;nbsp;scf-js-site-title"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;href="{{siteUrl}}.html"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;style="visibility:&amp;nbsp;hidden;"!!discoiqbr!!&gt;!!discoiqbr!!&lt;/div&gt; 
+  </codeblock> 
+  <p>For a <strong>customized community site</strong> that overlays the <span class="code">sitepage.hbs</span> script, ensure the element is present. The <span class="code">siteUrl </span>variable will be set when rendered on the server before serving to the client.</p> 
+  <p>For a <strong>generic AEM site</strong> that includes Communities components, but is not created with the <a href="../../communities/using/sites-console.md">site creation wizard</a>, it is necessary to add the element. The value of the href should be the path to the site. For example, if the site path is <span class="code">/content/my/company/en</span>, then use :</p> 
+  <codeblock class="syntax xml">
+    &lt;div&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;class="navbar-brand&amp;nbsp;scf-js-site-title"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;href="/content/my/company/en.html"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;style="visibility:&amp;nbsp;hidden;"!!discoiqbr!!&gt;!!discoiqbr!!&lt;/div&gt; 
+  </codeblock> 
+  <h2>Analytics for Communities Features</h2> 
+  <p>Analytics is automatically used for several Communities features.</p> 
+  <p>The author environment's <a href="../../sites/deploying/using/configuring-osgi.md">OSGi configuration</a>, <span class="code">AEM Communities Analytics Component Configuration</span>, provides a listing of the components that have been instrumented for Analytics. The automatic mapping of variables is determined by the components listed.</p> 
+  <p>If new custom components are created that are instrumented for Analytics, they should be added to this list of configured components.</p> 
+  <h3>Component Configuration</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-281.png" /> 
+  <p>Note : the <span class="code">journal</span> components are used to implement the blog feature.</p> 
+  <h3>Mapped Analytics to AEM Variables</h3> 
+  <p>Once the community site is saved with Analytics enabled and the cloud config framework selected, the AEM variables will be automatically mapped to the Analytics evars and events beginning with evar1 and event1, respectively, and incrementing by 1. </p> 
+  <p>If using an existing report suite that mapped any of the variables within evar1 through evar11 and event1 through event7, it will be necessary to <a href="#modifyinganalyticsvariablemapping">remap the AEM variables</a> and restore the original mapping.</p> 
+  <p>Following is an example of default mappings after following the <a href="../../communities/using/getting-started-enablement.md">getting started tutorial</a> :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-282.png" /> 
+  <h4>Map of eVars sent with each event</h4> 
+  <table border="1" cellpadding="2" cellspacing="2" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong> </strong></td> 
+     <td style="text-align: center;"><strong>Enablement<br /> Resource<br /> Type</strong></td> 
+     <td style="text-align: center;"><strong>Site<br /> Title</strong></td> 
+     <td style="text-align: center;"><strong>Function<br /> Type</strong></td> 
+     <td style="text-align: center;"><strong>Group<br /> Title</strong></td> 
+     <td style="text-align: center;"><strong>Group<br /> Path</strong></td> 
+     <td style="text-align: center;"><strong>UGC<br /> Type</strong></td> 
+     <td style="text-align: center;"><strong>UGC<br /> Title</strong></td> 
+     <td style="text-align: center;"><strong>User<br /> (Member)</strong></td> 
+     <td style="text-align: center;"><strong>UGC<br /> Path</strong></td> 
+     <td style="text-align: center;"><strong>Site<br /> Path</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;"><strong> </strong></td> 
+     <td style="text-align: center;"><strong>eVar1</strong></td> 
+     <td style="text-align: center;"><strong>eVar2</strong></td> 
+     <td style="text-align: center;"><strong>eVar3</strong></td> 
+     <td style="text-align: center;"><strong>eVar4</strong></td> 
+     <td style="text-align: center;"><strong>eVar5</strong></td> 
+     <td style="text-align: center;"><strong>eVar6</strong></td> 
+     <td style="text-align: center;"><strong>eVar7</strong></td> 
+     <td style="text-align: center;"><strong>eVar8</strong></td> 
+     <td style="text-align: center;"><strong>eVar9</strong></td> 
+     <td style="text-align: center;"><strong>eVar10</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;"><strong>event1<br /> Resource Play</strong></td> 
+     <td style="text-align: center;"><i>(a)</i></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+     <td style="text-align: center;"><i>(i)</i></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;"><strong>event2<br /> SCFView</strong></td> 
+     <td style="text-align: center;"><i>(a)</i></td> 
+     <td style="text-align: center;"><i>(b)</i></td> 
+     <td style="text-align: center;"><i>(c)</i></td> 
+     <td style="text-align: center;"><i>(d)</i></td> 
+     <td style="text-align: center;"><i>(e)</i></td> 
+     <td style="text-align: center;"><i>(f)</i></td> 
+     <td style="text-align: center;"><i>(g)</i></td> 
+     <td style="text-align: center;"><i>(h)</i></td> 
+     <td style="text-align: center;"><i>(i)</i></td> 
+     <td style="text-align: center;"><i>(j)</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;"><strong>event3<br /> SCFCreate (Post)</strong></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+     <td style="text-align: center;"><i>(b)</i></td> 
+     <td style="text-align: center;"><i>(c)</i></td> 
+     <td style="text-align: center;"><i>(d)</i></td> 
+     <td style="text-align: center;"><i>(e)</i></td> 
+     <td style="text-align: center;"><i>(f)</i></td> 
+     <td style="text-align: center;"><i>(g)</i></td> 
+     <td style="text-align: center;"><i>(h)</i></td> 
+     <td style="text-align: center;"><i>(i)</i></td> 
+     <td style="text-align: center;"><i>(j)</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;"><strong>event4<br /> SCFFollow</strong></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+     <td style="text-align: center;"><i>(b)</i></td> 
+     <td style="text-align: center;"><i>(c)</i></td> 
+     <td style="text-align: center;"><i>(d)</i></td> 
+     <td style="text-align: center;"><i>(e)</i></td> 
+     <td style="text-align: center;"><i>(f)</i></td> 
+     <td style="text-align: center;"><i>(g)</i></td> 
+     <td style="text-align: center;"><i>(h)</i></td> 
+     <td style="text-align: center;"><i>(i)</i></td> 
+     <td style="text-align: center;"><i>(j)</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;"><strong>event5<br /> SCFVoteUp</strong></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+     <td style="text-align: center;"><i>(b)</i></td> 
+     <td style="text-align: center;"><i>(c)</i></td> 
+     <td style="text-align: center;"><i>(d)</i></td> 
+     <td style="text-align: center;"><i>(e)</i></td> 
+     <td style="text-align: center;"><i>(f)</i></td> 
+     <td style="text-align: center;"><i>(g)</i></td> 
+     <td style="text-align: center;"><i>(h)</i></td> 
+     <td style="text-align: center;"><i>(i)</i></td> 
+     <td style="text-align: center;"><i>(j)</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;"><strong>event6<br /> SCFVoteDown</strong></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+     <td style="text-align: center;"><i>(b)</i></td> 
+     <td style="text-align: center;"><i>(c)</i></td> 
+     <td style="text-align: center;"><i>(d)</i></td> 
+     <td style="text-align: center;"><i>(e)</i></td> 
+     <td style="text-align: center;"><i>(f)</i></td> 
+     <td style="text-align: center;"><i>(g)</i></td> 
+     <td style="text-align: center;"><i>(h)</i></td> 
+     <td style="text-align: center;"><i>(i)</i></td> 
+     <td style="text-align: center;"><i>(j)</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;"><strong>event7<br /> SCFRate</strong></td> 
+     <td style="text-align: center;"><i>-</i></td> 
+     <td style="text-align: center;"><i>(b)</i></td> 
+     <td style="text-align: center;"><i>(c)</i></td> 
+     <td style="text-align: center;"><i>(d)</i></td> 
+     <td style="text-align: center;"><i>(e)</i></td> 
+     <td style="text-align: center;"><i>(f)</i></td> 
+     <td style="text-align: center;"><i>(g)</i></td> 
+     <td style="text-align: center;"><i>(h)</i></td> 
+     <td style="text-align: center;"><i>(i)</i></td> 
+     <td style="text-align: center;"><i>(j)</i></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>Examples for eVar values :</strong></p> 
+  <ul> 
+   <li><i>(a) <a href="https://www.iana.org/assignments/media-types">MIME type</a></i> : video/mp4</li> 
+   <li><i>(b) <a href="../../communities/using/sites-console.md#step13asitetemplate">community site title</a></i> : Geometrixx Communities</li> 
+   <li><i>(c) <a href="../../communities/using/functions.md">community function name</a></i> : Forum</li> 
+   <li><i>(d) <a href="../../communities/using/creating-groups.md#creatinganewgroup">community group name</a></i> : Hiking</li> 
+   <li><i>(e) path to community group content</i> : /content/sites/communities/en/groups/hiking</li> 
+   <li><i>(f) <a href="../../communities/using/essentials.md">UGC component resourceType</a></i> : social/forum/components/hbs/topic</li> 
+   <li><i>(g) UGC component title</i> : Hiking Topics</li> 
+   <li><i>(h) login (authorizableId)</i> : aaron.mcdonald@mailinator.com</li> 
+   <li><i>(i) SRP path to UGC</i> : /content/usergenerated/asi/.../forum/jmtz-topic3<br /> or <i>path of component to follow</i> : /content/sites/communities/en/jcr:content/content/primary/forum</li> 
+   <li><i>(j) path to community site content</i> : /content/sites/community/en</li> 
+  </ul> 
+  <h3>Modifying Analytics Variable Mapping</h3> 
+  <p>The mapping of Analytics evars and events to AEM variables is visible from the framework configuration after Analytics is enabled for a community site.</p> 
+  <p>After Analytics has been enabled and before the community site is published, the mapping may be altered in the framework by dragging the desired Analytics evar or event from the left rail and dropping it into the relevant row in the mapping table.</p> 
+  <p>To avoid duplicate mappings, be sure to remove the replaced Analytics evar or event from the row by hovering over it and selecting the "X" which appears to the right of the Analytics variable element.</p> 
+  <p>If Communities evars and events overwrite mappings that pre-existed in the report suite, then to avoid data loss, assign the AEM variables for Communities features to other Analytics evars and/or events and restore the original mappings.</p> 
+  <note> 
+   <p>It is important to remap before the community site is <a href="#publishingthecommunitysite">published</a> with Analytics enabled, else there is risk of data loss.</p> 
+  </note> 
+  <h4>Example Step 1 : Dragging Analytics evar14 into mapping table</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-283.png" /> 
+  <h4>Example Step 2 : Selecting 'x' to remove replaced evar11</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-284.png" /> 
+  <h4>Example Step 3 : AEM var eventdata.siteId remapped to Analytics evar14</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-285.png" /> 
+  <h2>Publishing the Community Site</h2> 
+  <h3>Verify Analytics to AEM Variable Mapping</h3> 
+  <p>It is wise to verify the variable mapping prior to publishing the community site, which also publishes the Analytics cloud service and framework.</p> 
+  <p>See sections :</p> 
+  <ul> 
+   <li><a href="#mappedanalyticstoaemvariables">Mapped Analytics to AEM Variables</a></li> 
+   <li><a href="#modifyinganalyticsvariablemapping">Modifying Analytics Variable Mapping</a></li> 
+  </ul> 
+  <note> 
+   <p><strong>If using an existing report suite that already uses variables within</strong></p> 
+   <ul> 
+    <li><strong><span class="code">evar1</span></strong> through <strong><span class="code">evar11</span></strong></li> 
+    <li><strong><span class="code">event1</span></strong> through <strong><span class="code">event7</span></strong></li> 
+   </ul> 
+   <p><strong>Then before the community site is published,</strong> it is important to restore the pre-existing mapping and move the Communities AEM variables that were automatically mapped (when Analytics was enabled for the community site) to other Analytics variables. This re-mapping should be consistent across all Communities components.</p> 
+   <p>Failure to do so may result in unrecoverable data loss.</p> 
+  </note> 
+  <h3>Primary Publisher</h3> 
+  <p>When the deployment chosen is a <a href="../../communities/using/topologies.md#tarmkpublishfarm">publish farm</a>, then one AEM publish instance must be identified as the primary publisher for polling Adobe Analytics for report data to write to <a href="../../communities/using/working-with-srp.md">SRP</a>.</p> 
+  <p>By default, the <span class="code">AEM Communities Publisher Configuration</span> OSGi configuration identifies its publish instance as the primary publisher, such that all publish instances in a publish farm would self-identify as the primary. </p> 
+  <p>Therefore, it is necessary to edit the configuration on all secondary publish instances to uncheck the <strong>Primary Publisher</strong> checkbox.</p> 
+  <p>For specific instructions, see the primary publisher section of <a href="../../communities/using/deploy-communities.md#primarypublisher">Deploying Communities</a>.</p> 
+  <note> 
+   <p>It is important that the primary publisher be configured to prevent polling from multiple publish instances.</p> 
+  </note> 
+  <h3>Replicate the Crypto Key</h3> 
+  <p>The Adobe Analytics credentials are encrypted. To faciitate the replication or transmission of encrypted analytics credentials between author and publishers, all AEM instances must share the same master encryption key.</p> 
+  <p>To do so, follow the instructions at <a href="../../communities/using/deploy-communities.md#replicatethecryptokey">Replicate the Crypto Key</a>. </p> 
+  <h3>Publish Community Site and Analytics Cloud Service</h3> 
+  <p>Once the Analytics cloud service has been enabled for a community site and, if necessary, the <a href="#mappedanalyticstoaemvariables">mapping of Analytics to AEM variables has been adjusted</a>, it is necessary to replicate the configuration to the publish environment by <a href="../../communities/using/sites-console.md#publishingthesite">(re)publishing the community site</a>.</p> 
+  <h2>Obtaining Reports from Analytics</h2> 
+  <h3>Report Management</h3> 
+  <p>The author and primary publisher's <a href="../../sites/deploying/using/configuring-osgi.md">OSGi configuration</a>, <span class="code">AEM Communities Analytics Report Management</span>, is used to query Analytics.</p> 
+  <p>On author, the queries are for real time reports.</p> 
+  <p>On the primary publisher, the queries are used to provide information in preparation for the Report Importer's Analytic data import.</p> 
+  <p>The query interval defaults to 10 seconds.</p> 
+  <h3>Report Importer</h3> 
+  <p>Once an Analytics enabled community site has been published, the primary publisher's <a href="../../sites/deploying/using/configuring-osgi.md">OSGi configuration</a>, <span class="code">AEM Communities Analytics Report Importer</span>, may be configured to set the default polling interval for those configurations which are not individually configured in CRXDE.</p> 
+  <p>The polling interval controls the frequency of requests to Adobe Analytics for data to be pulled and saved into <a href="../../communities/using/working-with-srp.md">SRP</a>. </p> 
+  <p>When the data may be categorized as "big data", more frequent polling may put a large load on the community site.</p> 
+  <p>The default polling <strong>Import interval</strong> is set to 12 hours.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-286.png" /> 
+  <h3>Component Report Customization</h3> 
+  <p>Presently, to customize the metrics to track, nodes are created in the repository that define time periods for which to generate a report on that metric. </p> 
+  <p>The forum topic is presently the only example of this customization :</p> 
+  <ul> 
+   <li>on the primary publisher</li> 
+   <li>sign in with administrative privileges</li> 
+   <li>navigate to <a href="../../sites/developing/using/developing-with-crxde-lite.md">CRXDE Lite</a> 
+    <ul> 
+     <li>for example, <a href="http://localhost:4503/crx/de">http://localhost:4503/crx/de</a></li> 
+    </ul> </li> 
+   <li>under the jcr:content node of the language root 
+    <ul> 
+     <li>for example, <span class="code">/content/sites/engage/en/jcr:content</span></li> 
+    </ul> </li> 
+   <li>navigate to the component configured for Analytics reporting 
+    <ul> 
+     <li>for example, <span class="code">analytics/reportConfigs/social_forum_components_hbs_topic</span></li> 
+    </ul> </li> 
+   <li>notice the time periods created 
+    <ul> 
+     <li><span class="code">last30Days</span></li> 
+     <li><span class="code">last90Days</span></li> 
+     <li><span class="code">thisYear</span></li> 
+    </ul> </li> 
+   <li>notice the <span class="code">total </span>node 
+    <ul> 
+     <li>modifying the <strong><span class="code">interval </span></strong>property will override the Report Importer interval</li> 
+     <li>the value is in seconds, and is set to 4 hours (14400 seconds)</li> 
+    </ul> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-287.png" /> 
+  <h2>Manage user data in Analytics</h2> 
+  <p>Adobe Analytics provides APIs that allow you to access, export, and delete user data. For more information, see <a href="https://marketing.adobe.com/resources/help/en_US/analytics/gdpr/gdpr_submit_access_delete.html">Submit Access and Delete Requests</a>.</p> 
+  <h2>Resources</h2> 
+  <ul> 
+   <li>Adobe Marketing Cloud : <a href="https://marketing.adobe.com/resources/help/en_US/reference/">Analytics Help and Reference</a></li> 
+   <li>AEM : <a href="../../sites/administering/using/adobeanalytics.md">Integrating with Adobe Analytics</a></li> 
+   <li>AEM : <a href="../../sites/administering/using/external-providers.md">Analytics with External Providers</a></li> 
+  </ul> 
+ </body> 
+</html>

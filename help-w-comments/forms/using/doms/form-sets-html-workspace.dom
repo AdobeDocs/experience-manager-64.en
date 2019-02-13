@@ -1,0 +1,82 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Working with Formsets in AEM Forms workspace" name="jcr:title" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2016-05-31T06:28:50.825-0400" name="acrolinxDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="A formset is a collection of HTML5 forms grouped and presented as a single set of forms to end users. Learn how you can work with formsets in AEM Forms workspace." name="seoDescription" /> 
+  <meta content="2018-04-26T04:38:25.267-0400" name="locHandOffDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-26T04:38:25.267-0400" name="cq:lastModified" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="1570781f-6bce-4252-84a2-4fc7505c9f3b" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="vishgupt" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="298" name="acrolinxWords" /> 
+  <meta content="2018-04-03T08:38:15.765-0400" name="topicBrowsingSortDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/form_sets_html_workspace_admin_5e12de0b318c6865_1928_report.xml" name="acrolinxReportURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T08:38:15.765-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2015-09-29T10:29:52.587-0400" name="firstPublishQADate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2015-10-05T05:10:55.332-0400" name="publishQADate" /> 
+  <meta content="2017-12-01T19:05:31.243-0500" name="jcr:created" /> 
+  <meta content="2017-04-26T07:28:58.308-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T08:38:15.765-0400" name="publishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/forms-workspace;/content/help/en/experience-manager/6-4/forms/morehelp/forms-workspace" name="moreHelpPaths" /> 
+  <meta content="17" name="acrolinxSentences" /> 
+  <meta content="2015-10-05T05:10:55.332-0400" name="lastPublishQADate" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-2/form-sets-html-workspace.html" name="publishQAURL" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-03T08:38:16.636-0400" name="cq:lastReplicated" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="f45afca9-92f4-48ca-8122-551bd7a4e97f" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/form-sets-html-workspace.html" name="publishExternalURL" /> 
+ </head> 
+ <body> 
+  <p>A formset is a collection of HTML5 forms grouped and presented as a single set of forms to end users. When end users start filling a formset, they are seamlessly transitioned from one form to another. The set of forms can then be submitted in just one click. For more info on formsets and how to set them up, see <a href="../../forms/using/formset-in-aem-forms.md">Formset in AEM Forms</a>.</p> 
+  <p>AEM Forms workspace supports formsets. With formsets, multiple forms related to a service or process can be grouped to automate a business process and presented to the end users. In such a scenario, the users can fill the whole set as one and there is no need to file, submit, and track individual forms or processes. </p> 
+  <p> </p> 
+  <h2>Attaching a formset to startpoint in an AEM Forms workspace app &lt;br&gt;</h2> 
+  <ol> 
+   <li><p>Create the business process workflow in Workbench. For more information, see <a href="http://www.adobe.com/go/learn_aemforms_workbench_63" target="_blank">Workbench help</a>.</p> </li> 
+   <li><p>From the process properties of the startpoint, select <strong>Use A CRX Asset</strong> in Presentation &amp; Data.<br /> </p> <img imageRotate="0" src="assets/1-1.png" /></li> 
+   <li><p>Click <img height="18" src="assets/browse.png" width="18" /> (Browse) next to the CRX asset path. The Select Form Asset dialog appears.</p> <img imageRotate="0" src="assets/2.png" /></li> 
+   <li><p>Click the <strong>Formset</strong> tab, select the relevant formset from the list, and then click <strong>OK</strong>.<br /> </p> </li> 
+   <li><p>Deploy the application after updating other relevant process properties.<br /> </p> </li> 
+  </ol> 
+  <h2>Using formset in&amp;nbsp;AEM Forms workspace</h2> 
+  <p>Once a formset is attached to a startpoint, the startpoint can be invoked, as any other startpoint is invoked, from the AEM Forms workspace. </p> 
+  <p>The operations supported on formset through the AEM Forms workspace are:</p> 
+  <ul> 
+   <li>Save as draft </li> 
+   <li>Lock </li> 
+   <li>Abandon</li> 
+   <li>Submit </li> 
+   <li>Add Attachments </li> 
+   <li>Add Notes</li> 
+   <li>Move between forms in a formset using Back or Next buttons<br /> </li> 
+  </ul> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/3-1.png" /> 
+  <note> 
+   <p>For performance improvement during the movement from previous and next forms in a formset, all the workspace buttons (Back, Next, Save, Submit, and ... (More)) are disabled until the relevant form renders fully.</p> 
+  </note> 
+ </body> 
+</html>

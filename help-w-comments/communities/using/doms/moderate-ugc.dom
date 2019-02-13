@@ -1,0 +1,256 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-03T07:49:06.162-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-05-17T05:52:40.661-0400" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="2017-10-31T16:33:26.064-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/moderate-ugc.html" name="publishExternalURL" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="mgulati" name="cq:lastModifiedBy" />
+  <meta content="57ddf99f-1832-459d-b046-abd51ebfdcce" name="jcr:uuid" />
+  <meta content="Moderating Community Content" name="navTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="2012-11-15T16:29:54.141-0500" name="jcr:created" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="5ccf4c2d-5294-4001-a270-fc138c031bef" name="jcr:predecessors" />
+  <meta content="jneiman" name="jcr:createdBy" />
+  <meta content="2018-04-03T07:49:07.323-0400" name="cq:lastReplicated" />
+  <meta content="Janice Kendall" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Moderating Community Content" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-04-03T07:49:06.162-0400" name="publishExternalDate" />
+  <meta content="2018-05-17T05:52:40.660-0400" name="locHandOffDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Moderation concepts and actions" name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2018-04-03T07:49:06.162-0400" name="lastPublishExternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/content/docs/en/aem/6-3/administer/communities/moderate-ugc" name="qaNotes" />
+  <meta content="mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" />
+  <meta content="Moderating Community Content" name="seoTitle" />
+ </head>
+ <body>
+  <h2>Overview</h2>
+  <p>Community content, also known as user generated content (UGC), is created when a member (signed in site visitor) posts content from a published community site through interaction with one of the following community components :</p> 
+  <ul> 
+   <li><a href="../../communities/using/blog-feature.md">blog</a> : members post a blog article or comment</li> 
+   <li><a href="../../communities/using/calendar.md">calendar</a> : members post a calendar event or comment</li> 
+   <li><a href="../../communities/using/comments.md">comments</a> : members post a comment or reply to a comment<br /> </li> 
+   <li><a href="../../communities/using/forum.md">forum</a> : members post a new topic or reply to a topic</li> 
+   <li><a href="../../communities/using/ideation-feature.md">ideation</a> : members post an idea or comment</li> 
+   <li><a href="../../communities/using/working-with-qna.md">QnA</a> : members create a question or answer a question</li> 
+   <li><a href="../../communities/using/reviews.md">reviews</a> : members post a comment when rating an item</li> 
+  </ul> 
+  <p>Moderation of UGC is useful for recognizing positive contributions as well as limiting negative ones (such as spam and abusive language). UGC can be moderated from several environments :<a href="../../communities/using/working-with-srp.md"></a></p> 
+  <ul> 
+   <li><a href="../../communities/using/moderation.md">bulk moderation console</a><br /> The Moderation console is accessible by administrators and <a href="../../communities/using/users.md">community moderators</a> in the public environment as well as by administrators in the author environment. This is possible when community content is stored in a <a href="../../communities/using/working-with-srp.md">common store</a>.</li> 
+   <li><a href="../../communities/using/in-context.md">in-context moderation</a><br /> Moderation in the publish environment may be performed by administrators and community moderators directly on the page where the content was posted.</li> 
+  </ul> 
+  <h2>Moderation Actions</h2>
+  <p>The actions which can be performed on posted content (UGC) varies depending on the user identity and the environment. The table below uses the following terminology to describe the various roles according to user identity :</p> 
+  <ul> 
+   <li><span class="code">Admin</span><br /> a user who is a member of <a href="../../communities/using/users.md">community-administrators</a> group</li> 
+   <li><span class="code">Moderator</span><br /> a member of a <a href="../../communities/using/users.md#publishenvironmentusersandgroups">community moderators</a> group (has <a href="../../communities/using/in-context.md#moderatorpermissions">moderator permissions</a>)</li> 
+   <li><span class="code">Creator</span><br /> the user who posted the content</li> 
+   <li><span class="code">Member</span><br /> a signed-in user without special permissions</li> 
+   <li><span class="code">Visitor</span><br /> an anonymous user</li> 
+  </ul> 
+  <table border="2" cellpadding="4" cellspacing="1" width="80%"> 
+   <tbody>
+    <tr>
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"><strong>Admin</strong></td> 
+     <td style="text-align: center;"><strong>Moderator</strong></td> 
+     <td style="text-align: center;"><strong>Creator</strong></td> 
+     <td style="text-align: center;"><strong>Member</strong></td> 
+     <td style="text-align: center;"><strong>Visitor</strong></td> 
+     <td style="text-align: center;"><strong>Event<br /> Triggered</strong></td> 
+     <td style="text-align: center;" width="65%"><strong>Premoderated</strong></td> 
+    </tr>
+    <tr>
+     <td style="text-align: center;"><strong>Edit/<br /> Delete</strong></td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+    </tr>
+    <tr>
+     <td style="text-align: center;"><strong>Cut</strong></td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+    </tr>
+    <tr>
+     <td style="text-align: center;"><strong>Deny</strong></td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;"> </td> 
+    </tr>
+    <tr>
+     <td style="text-align: center;"><strong>Close/<br /> Reopen</strong></td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;">X<br /> </td> 
+    </tr>
+    <tr>
+     <td style="text-align: center;"><strong>Flag/<br /> Unflag</strong></td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: left;"> </td> 
+    </tr>
+    <tr>
+     <td style="text-align: center;"><strong>Allow</strong></td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;"> </td> 
+     <td style="text-align: center;">X</td> 
+     <td style="text-align: center;">X</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h3>Edit / Delete</h3>
+  <p>After a post has been made, it may be edited or deleted by the creator, an administrator or community moderator. </p> 
+  <p>When UGC is deleted, it is removed from the repository and may not be recovered.</p> 
+  <h3>Cut</h3>
+  <p>It is possible for an administrator or community moderator to move one or more forum topics or QnA questions from one location to another. This includes from one community site to another community site, provided the same member has moderation privileges on both sites.</p> 
+  <p>By selecting the Cut action, the content is copied to a clipboard. Multiple posts may be copied and moved as a group to the new location.</p> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/cutugc.png" />
+  <img imageRotate="0" src="assets/putbackugc.png" />
+  <p>At the other location, when content is present in the clipboard, a Paste button is visible next to New Post with a number identifying the number of posts that will be pasted. The Paste button includes an option to clear the clipboard instead of pasting.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-225.png" />
+  <img imageRotate="0" src="assets/chlimage_1-226.png" />
+  <h3>Deny</h3>
+  <p>A moderator may disallow UGC to remain visible on the published site. To administrators and community moderators, the post is still available and is annotated as spam.</p> 
+  <h3>Close / Reopen</h3>
+  <p>The Close action operates on the entire thread of conversation (a forum topic or the initial comment) and it includes all subsequent posts or replies.</p> 
+  <p>When closed, not only are no further replies possible, no moderation actions are allowed either.</p> 
+  <p>To perform any operations, the topic or comment must be Reopened.</p> 
+  <p>The Close/Reopen action may be taken by administrators or community moderators.<br /> </p> 
+  <h3>Flag / Unflag</h3>
+  <p>Flagging is a means for any signed-in member, except for the creator of the content, to indicate there is an issue with the content of a post. Once flagged, an unflag icon will appear allowing the same member to unflag the content.</p> 
+  <p>In-context moderation can be configured to allow members to select a reason when flagging a post. The list of selectable flag reasons is configurable including whether or not a custom reason can be entered. The flag reason is saved with the UGC but the reason does not trigger any particular action. Only the number of flags triggers a notification. Flagged content is annotated as such, so that moderators may act on it.</p> 
+  <p>The system keeps track of all the flags, who flagged, and the flag reason and sends an event when the threshhold has been reached. If the UGC is Allowed by a community moderator, these flags are archived. After allowing and archiving, if there are subsequent flaggings, they would be archived as if there had been no previous flaggings.</p> 
+  <h3>Allow</h3>
+  <p>The Allow action is an option for UGC that has been Flagged, Denied or has not been approved in a pre-moderated system. The Allow action will clear any flagged or denied/spam status present and archives any flagged data.</p> 
+  <h2>Common Moderation Concepts</h2>
+  <h3>Premoderation</h3>
+  <p>When UGC is premoderated, the post will not appear on the published site until approved by a moderation action. During creation of a <a href="../../communities/using/sites-console.md">community site</a>, checking the box <span class="code"><a href="../../communities/using/sites-console.md#moderation">Content is Premoderated</a></span> will enable premoderation for the entire site. Once components are placed on a page, components which support moderation can be configured for premoderation using a setting in their edit dialog :</p> 
+  <ul> 
+   <li><a href="../../communities/using/comments.md">comments</a> and <a href="../../communities/using/reviews.md">reviews</a><br /> on <strong>User Moderation</strong> tab, check <strong>Pre-Moderation</strong></li> 
+   <li><a href="../../communities/using/forum.md">forum</a>, <a href="../../communities/using/ideation-feature.md">ideation</a>, <a href="../../communities/using/working-with-qna.md">QnA</a>, and <a href="../../communities/using/calendar.md">calendar</a><br /> on <strong>Settings</strong> tab, check <strong>Moderated</strong></li> 
+  </ul> 
+  <h3>Spam Detection</h3>
+  <p>Spam detection is an auto-moderation functionality, which filters out 
+   <g class="gr_ gr_11 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="11" id="11">
+    undesireable
+   </g> pieces of submitted 
+   <g class="gr_ gr_12 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="12" id="12">
+    user generated
+   </g> content by marking them as spam. Once enabled, it identifies whether a 
+   <g class="gr_ gr_13 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="13" id="13">
+    user generated
+   </g> content is spam or not based on a pre-configured collection of spam words. The default spam words are provided at</p> 
+  <p><span class="code">/libs/settings/community/sites/moderation/spamdetector-conf/profiles/spam_words.txt</span>.</p> 
+  <p>However, to customize or extend the default spam words create a set of words in the /apps directory following the structure of the default spam words by means of <a href="../../communities/using/overlay-comments.md" target="_blank">overlay</a>.</p> 
+  <p>A 
+   <g class="gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="8" id="8">
+    user generated
+   </g> post (across all the content types, for 
+   <g class="gr_ gr_9 gr-alert gr_gramm gr_inline_cards gr_run_anim Punctuation only-ins replaceWithoutSep" data-gr-id="9" id="9">
+    example
+   </g> blogs, forums, and comments) containing spam word(s) is marked with the text “This post was classified as spam” above the post.</p> 
+  <p>Moderator can see such a post and mark the same to allow or deny from appearing on the site. Moderation actions on these posts can be performed either in-context or through bulk moderation UI.</p> 
+  <img imageRotate="0" src="assets/spamdetection.png" />
+  <p>To enable spam detection engine, follow these steps:</p> 
+  <ol> 
+   <li>Open <a href="http://localhost:4502/system/console/configMgr" target="_blank">Web Console</a>, by going to /system/console/
+    <g class="gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="8" id="8">
+     configMgr
+    </g>.</li> 
+   <li>Locate <strong>AEM Communities Auto Moderation</strong> configuration, and edit it.</li> 
+   <li>Add the "SpamProcess" entry.</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/spamprocess.png" />
+  <note>
+   <p>Spam detection is only implemented for English locale.</p> 
+  </note>
+  <h3>Sentiment</h3>
+  <p>Sentiment is calculated based on the number of positive and negative keywords (<a href="#configuringwatchwords">watchwords</a>) present in a post (UGC).</p> 
+  <p>The sentiment analysis uses a set of pre-configured rules and calculates the sentiment of the UGC. The default rules are located at <span class="code">/libs/cq/workflow/components/workflow/social/sentiments/rules.</span></p> 
+  <p>The value the rules generate are from 1 (all negative, no positive words) to 10 (all positive, no negative words). A sentiment value of 5 is a neutral sentiment and is the default.</p> 
+  <p>The rules defined in the /libs component are:</p> 
+  <ul> 
+   <li>Rule 1 : set value to 1 if there are no positive words and at least one negative word</li> 
+   <li>Rule 2 : set value to 10 if there are no negative words and at least one positive word</li> 
+   <li>Rule 3 : set value to 3 if there are more negative words than positive words</li> 
+   <li>Rule 4 : set value to 8 if there are more positive words than negative words</li> 
+  </ul> 
+  <p>To overwrite or add rules, create a set of rules in the /apps directory following the structure of the default rules. Edit the sentiment configuration to identify the location of the rules.</p> 
+  <p>Once analyzed, the sentiment is stored with the UGC.</p> 
+  <p>From the <a href="../../communities/using/moderation.md">bulk moderation console</a>, it is possible to filter and view UGC based on whether the sentiment is negative, neutral, or positive.</p> 
+  <h4>Watchwords</h4>
+  <p>AEM communities provides a <em>watchword analyzer </em>as a step in the process to evalute <a href="#sentiment">sentiment</a>. The contribution to the sentiment value provided by watchwords is due to a comparison of negative and positive watchwords used in the posted content, as well as forbidden words.</p> 
+  <h4>Configure Sentiment and Watchwords</h4>
+  <p>The list of positive and negative watchwords can be customized as can be the sentiment rules.</p> 
+  <p>The default list of watchwords may be entered as properties of a node in the respository, similar to the default or by overriding the default by configuring the OSGi service <span class="code">sentimentprocess.name </span>with the list of words.</p> 
+  <p>The <strong>sentimentprocess.name</strong> may also be modifed to reference the location of a custom set of sentiment rules.</p> 
+  <p>To configure sentiment and watchwords :</p> 
+  <ul> 
+   <li>on an author instance</li> 
+   <li>sign in as administrator</li> 
+   <li>open <a href="http://localhost:4502/system/console/configMgr">Web Console</a></li> 
+   <li>locate <span class="code">sentimentprocess.name</span></li> 
+   <li>select the configuration to open in edit mode</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/sentimentprocess.png" />
+  <ul> 
+   <li><strong>Positive Watchwords</strong><br /> A comma separated list of words contributing to a positive sentiment that override the defaults. Default is an empty list.</li> 
+   <li><strong>Negative Watchwords</strong><br /> A comma separated list of words contributing to a negative sentiment that override the defaults. Default is an empty list.</li> 
+   <li><strong>Explicit Path to Watchwords Node</strong><br /> The repository location of a node containing default <span class="code">positive</span> and <span class="code">negative</span> properties specifying default watchwords. Default is <span class="code">/libs/settings/community/watchwords/default</span>.</li> 
+   <li><strong>Sentiment Rules</strong><br /> The repository location of the rules for calculating sentiment based on positive and negative watchwords. Default is <span class="code">/libs/cq/workflow/components/workflow/social/sentiments/rules</span> (however, there is no longer any workflow involved).</li> 
+  </ul> 
+  <p>Following is an example of a custom entry for the default watchwords, when <span class="code">Explicit Path to Watchwords Node</span> is set to <span class="code">/libs/settings/community/watchwords/default</span>.</p> 
+  <img imageRotate="0" src="assets/crxde.png" />
+  <h3>Moderator Permissions</h3>
+  <p>The following permissions, when assigned to the same resource, are collectively referred to as <strong><span class="code">moderator permissions</span></strong> :</p> 
+  <ul> 
+   <li><span class="code">Read</span></li> 
+   <li><strong><span class="code">Modify</span></strong></li> 
+   <li><span class="code">Create</span></li> 
+   <li><span class="code">Delete</span></li> 
+   <li><span class="code">Replicate</span></li> 
+  </ul> 
+ </body>
+</html>

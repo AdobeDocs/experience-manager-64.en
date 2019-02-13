@@ -1,0 +1,186 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-01-18T11:19:13.853-0500" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-10-27T23:47:24.762-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-31T16:17:02.396-0400" name="firstPublishExternalDate" /> 
+  <meta content="5c6089b9-a420-40a6-9b40-b436385d86e2" name="jcr:uuid" /> 
+  <meta content="2018-01-18T11:19:13.853-0500" name="publishExternalDate" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Developer Mode" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:components;content_type:reference" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="Developer Mode" name="navTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/developer-mode.html" name="publishExternalURL" /> 
+  <meta content="2018-05-08T12:42:05.887-0400" name="locHandOffDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-01-19T19:04:49.295-0500" name="jcr:created" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Developer Mode" name="seoTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/components;/content/help/en/experience-manager/6-4/sites/developing/morehelp/components" name="moreHelpPaths" /> 
+  <meta content="2018-05-08T12:42:05.889-0400" name="cq:lastModified" /> 
+  <meta content="2018-01-18T11:19:13.853-0500" name="lastPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Developer mode opens a side panel with several tabs that provide a developer with infomation about the current page" name="seoDescription" /> 
+  <meta content="9cde7a90-518d-432f-841a-3de3b7a966d3" name="jcr:predecessors" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/components/developer-mode" name="qaNotes" /> 
+ </head> 
+ <body> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:17.324-0500" type="remark"> 
+   <p>might move</p> 
+   <p>link to<br /> http://author.day.com/content/docs/en/aem/6-2/develop/components/hobbes.html<br /> http://author.day.com/content/docs/en/aem/6-2/develop/components/components-develop.html</p> 
+  </draft-comment> 
+  <p>When editing pages in AEM, several <a href="../../../sites/authoring/using/author-environment-tools.md#modestouchoptimizedui">modes</a> are available, including Developer mode. This opens a side panel with several tabs that provide a developer with infomation about the current page. The three tabs are:</p> 
+  <ul> 
+   <li><strong><a href="#components">Components</a></strong> for viewing sructure and performance information.</li> 
+   <li><strong><a href="#tests">Tests</a></strong> for running tests and analyzing the results.</li> 
+   <li><strong><a href="#errors">Errors</a></strong> to see any problems occuring.</li> 
+  </ul> 
+  <p>These help a developer to:</p> 
+  <ul> 
+   <li>Discover: what pages are composed of.</li> 
+   <li>Debug: what is happening where and when, which in turn helps to resolve issues.</li> 
+   <li>Test: does the application behave as expected.</li> 
+  </ul> 
+  <draft-comment color="blue" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:17.407-0500" type="remark"> 
+   <p>please confirm required permissions/privileges.</p> 
+  </draft-comment> 
+  <note> 
+   <p>Developer mode:</p> 
+   <ul> 
+    <li>Is only available in the touch-enabled UI (when editing pages).</li> 
+    <li>Is not available on mobile devices or small windows on desktop (due to space restrictions).<br /> 
+     <ul> 
+      <li>This occurs when the width is less than 1024px.<br /> </li> 
+     </ul> </li> 
+    <li>Requires the appropriate permissions/privileges:<br /> 
+     <ul> 
+      <li>Access to Developer Mode is given to users who have write access on <span class="code">/apps</span>.</li> 
+     </ul> </li> 
+   </ul> 
+  </note> 
+  <draft-comment color="blue" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:17.490-0500" type="remark"> 
+   <p>what exactly needs documenting for <a href="https://jira.corp.adobe.com/browse/DOC-5442">https://jira.corp.adobe.com/browse/DOC-5442</a> on this page?</p> 
+   <p>would the following with a link to the full documentation be sufficient (when it's written)?</p> 
+   <p> </p> 
+  </draft-comment> 
+  <note> 
+   <p>Developer mode is only available on a standard author instance that is not using the nosamplecontent run-mode.</p> 
+   <p>If required it can be configured for use:</p> 
+   <ul> 
+    <li> on an author instance using nosamplecontent run-mode <br /> </li> 
+    <li>a publish instance</li> 
+   </ul> 
+   <p>It should be disabled again after use.<br /> </p> 
+  </note> 
+  <draft-comment color="blue" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:17.571-0500" type="remark"> 
+   <p>is the Gems session still appropriate?</p> 
+  </draft-comment> 
+  <note> 
+   <p>See the:</p> 
+   <ul> 
+    <li>Knowledge Base article, <a href="/content/help/en/experience-manager/kb/troubleshooting-aem-touchui-issues">Troubleshooting AEM TouchUI issues</a>, for further tips and tools.</li> 
+    <li>AEM Gems session about <a href="http://docs.adobe.com/content/ddc/en/gems/aem-6-0-developer-mode.html">AEM 6.0 Developer Mode</a>.</li> 
+   </ul> 
+  </note> 
+  <h3>Opening Developer Mode</h3> 
+  <p>Developer mode is implemented as a side panel to the page editor. To open the panel, select <strong>Developer</strong> from the mode selector in the toolbar of the page editor:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-248.png" /> 
+  <p>The panel is divided into two tabs:</p> 
+  <ul> 
+   <li><strong><a href="../../../sites/developing/using/developer-mode.md#main-pars-title">Components</a></strong> - This shows a component tree, similar to the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-96d3">content tree</a> for authors</li> 
+   <li><strong><a href="../../../sites/developing/using/developer-mode.md#main-pars-title-616897002">Errors</a></strong> - When problems occur, details are shown for each component.</li> 
+  </ul> 
+  <h3>Components</h3> 
+  <draft-comment color="blue" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:17.774-0500" type="remark"> 
+   <p>is there more - enough to justify its own page?</p> 
+  </draft-comment> 
+  <draft-comment color="blue" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:17.800-0500" type="remark"> 
+   <p>what are the possible colours for the timings (eg orange, yellow, ???)? and their significance?</p> 
+   <p>is the following true? what about orange/yellow?</p> 
+   <p>"Timers:</p> 
+   <ul> 
+    <li>The component render times that are excessively slow should be displayed in red.</li> 
+    <li>Excessively slow means that it takes 3x longer than the average to render (always consider the time of the component itself, basically substracting the time sub-components took to render).</li> 
+    <li>Parent components of slow components should display some hint that they have a slow child.</li> 
+    <li>If the page takes more that 100ms to render, it's time should be displayed in big fat blinking shaking phosphorescent red.</li> 
+   </ul> 
+   <p>"</p> 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/chlimage_1-249.png" /> 
+  <draft-comment color="blue" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:17.860-0500" type="remark"> 
+   <p>what the difference between links provided by View Details and the one provided via Edit Script (this component one appears in the both).....just quicker access?<br /> </p> 
+  </draft-comment> 
+  <p>This shows a component tree that:</p> 
+  <ul> 
+   <li>Outlines the chain of components and templates rendered on the page (SLY, JSP, etc.). The tree can be expanded to show context within the hierarchy.<br /> </li> 
+   <li>Shows the server-side computational time needed to render the component.</li> 
+   <li>Allows you to expand the tree and select specific components within the tree. Selection provides access to component details; such as: 
+    <ul> 
+     <li>Repository path</li> 
+     <li>Links to scripts (accessed in CRXDE Lite)</li> 
+    </ul> </li> 
+   <li>Selected components (in the content flow, indicated by a blue border) will be highlighted in the content tree (and vice versa).</li> 
+  </ul> 
+  <p>This can help to:</p> 
+  <ul> 
+   <li>Determine and compare the rendering time per component.</li> 
+   <li>See and understand the hierarchy.<br /> </li> 
+   <li>Understand, and then improve, the page loading time by finding slow components.</li> 
+  </ul> 
+  <p>Each component entry can show (for example):</p> 
+  <img imageRotate="0" src="assets/chlimage_1-250.png" /> 
+  <ul> 
+   <li><p><strong>View Details</strong>: a link to a list that shows:</p> 
+    <ul> 
+     <li>all component scripts used to render the component.</li> 
+     <li>the repository content path for this specific component.</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-251.png" /></li> 
+   <li><p><strong>Edit Script</strong>: a link that:</p> 
+    <ul> 
+     <li>opens the component script in CRXDE Lite.</li> 
+    </ul> </li> 
+   <li><p>Expanding a component entry (arrow head) can also show:</p> 
+    <ul> 
+     <li>The hierarchy within the selected component.</li> 
+     <li>Rendering times for the selected component in isolation, any individual components nested within it, and the combined total.</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-252.png" /></li> 
+  </ul> 
+  <note> 
+   <p>Some links point to scripts under <span class="code">/libs</span>. However, these are for reference only, you <strong>must not</strong> edit anything under <span class="code">/libs</span>, as any changes you do make may be lost. This is due to the fact that this branch is liable to changes whenever you upgrade or apply a hotfix/feature pack. Any changes you require should be made under <span class="code">/apps</span>, see <a href="../../../sites/developing/using/overlays.md">Overlays and Overrides</a>.<br /> </p> 
+  </note> 
+  <h3>Errors</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-253.png" /> 
+  <p>Hopefully the <strong>Errors</strong> tab will always be empty (as above), but when problems occur the following details are shown for each component:<br /> </p> 
+  <ul> 
+   <li>A warning if the component writes an entry to the error log, together with details of the error and direct links to the appropriate code within CRXDE Lite.<br /> </li> 
+   <li>A warning if the component opens an admin session.</li> 
+  </ul> 
+  <draft-comment color="blue" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:18.390-0500" type="remark"> 
+   <p>these are from the 6.0 Gems session - any better examples from 6.1 ? how to reproduce an error (example used in gems doesn't seem to work any more - better error handling? :)<br /> </p> 
+  </draft-comment> 
+  <p>For example, in a situation where a undefined method is called, the resulting error will be shown in the <strong>Errors</strong> tab:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-254.png" /> 
+  <p>The component entry in the tree of the Components tab will also be marked with an indicator when an error occurs.</p> 
+  <h3>Tests</h3> 
+  <note> 
+   <p>In AEM 6.2, the testing features of Developer mode was re-implemented as a standalone Tools application.</p> 
+   <p>For full details see <a href="../../../sites/developing/using/hobbes.md">Testing Your UI</a>.</p> 
+  </note> 
+ </body> 
+</html>

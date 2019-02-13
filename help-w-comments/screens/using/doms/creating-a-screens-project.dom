@@ -1,0 +1,93 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="31f32a63-d2d7-48f5-a693-913ad666bb0a" name="jcr:predecessors" /> 
+  <meta content="2018-11-02T13:40:35.537-0400" name="cq:lastModified" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="2018-11-02T13:40:35.470-0400" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/creating-a-screens-project.html" name="publishExternalURL" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Creating a Project" name="seoTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-11-02T13:40:35.470-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/docs/en/aem/6-3/author/authoring-screens/creating-a-screens-project" name="qaNotes" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="2019-01-15T15:39:04.227-0500" name="jcr:created" /> 
+  <meta content="2018-11-02T13:40:35.470-0400" name="publishExternalDate" /> 
+  <meta content="Creating and Managing Projects" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="96642c6b-c94f-4cbb-b0f7-115c75e36b8a" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Follow this page to learn about creating a new Screens project." name="seoDescription" /> 
+  <meta content="2018-11-02T13:40:37.536-0400" name="cq:lastReplicated" /> 
+  <meta content="Jyotika syal" name="contentOwner" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-31T16:20:52.957-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring" name="cq:tags" /> 
+  <meta content="2018-04-19T10:30:02.309-0400" name="locHandOffDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <p>The AEM Screens is available by selecting the Adobe Experience Manager link (top left) and then Screens.</p> 
+  <p>Alternatively, you can ﻿go directly to: <a href="http://localhost:4502/screens.html/content/screens">http://localhost:4502/screens.html/content/screens</a></p> 
+  <img imageRotate="0" src="assets/chlimage_1-47.png" /> 
+  <p>Different projects could be differents brands, deployments, customers, and so on.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-08-23at105748am.png" /> 
+  <note> 
+   <p><strong>Navigation Tip:</strong></p> 
+   <p>You can also use the cursor keys to navigate through different folders in AEM. Additionally, once you select a particular entity, hit spacebar to edit or view properties for that specific folder.</p> 
+  </note> 
+  <h2>Creating a New Screens Project</h2> 
+  <p>Follow the steps below to create a new Screens project:</p> 
+  <ol> 
+   <li>Select <strong>Screens</strong> from the AEM dashboard.</li> 
+   <li>Click <strong>Create </strong>--&amp;gt;<strong> Create Project </strong>and <strong>Create Screens Project</strong> wizard will open.</li> 
+   <li>Select the <strong>Screens</strong> template and click <strong>Next</strong>.</li> 
+   <li>Enter the properties (<strong>Title</strong> and <strong>Name</strong>) as required and click <strong>Create</strong>.</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/player1.gif" /> 
+  <note> 
+   <p>By default, the initial structure will contain the <strong>Schedules</strong>, <strong>Locations</strong>, <strong>Applications</strong>, <strong>Channels</strong>, and <strong>Devices</strong> master pages, but this can be manually adjusted if needed. You can remove the options, if the available ones are not relevant to your project.</p> 
+  </note> 
+  <p>The project is created and it brings you back to the Screens Project console. You can now select your project.</p> 
+  <p>In a project, there are four kind of folders, as shown in the figure below:</p> 
+  <ul> 
+   <li><strong>Schedules</strong></li> 
+   <li><strong>Locations</strong></li> 
+   <li><strong>Applications</strong></li> 
+   <li><strong>Channels</strong></li> 
+   <li><strong>Devices</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/screen_shot_2018-08-23at110114am.png" /> 
+  <h3>Viewing Properties</h3> 
+  <p>Once you create the Screens project, click <strong>Properties</strong> on the action bar to edit properties of an exiting AEM Screens project. </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-08-23at110211am.png" /> 
+  <p>The following options allow you to edit/change properties of your <em>DemoProject</em>.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-08-23at110409am.png" /> 
+  <h3>Creating a Custom Folder</h3> 
+  <p>You can also create your own custom folder under <strong>Schedules</strong>, <strong>Locations</strong>, <strong>Applications</strong>, <strong>Channels</strong>, and <strong>Devices</strong> master pages available in your project.</p> 
+  <p>To create a custom folder:</p> 
+  <ol> 
+   <li>Select your project and click on <strong>Create</strong> next to plus icon in the action bar. </li> 
+   <li>The <strong>Create</strong> wizard opens and select the appropriate option.</li> 
+   <li>Click <strong>Next</strong>.</li> 
+   <li>Enter the properties and click <strong>Create</strong>.</li> 
+  </ol> 
+  <p>The following steps show the creation of an applications folder to your <strong>Applications</strong> master page in <em>DemoProject</em>.</p> 
+  <img imageRotate="0" src="assets/player2-1.gif" /> 
+  <h3>The Next Steps</h3> 
+  <p>Once you have created your own project, see <a href="../../screens/using/managing-channels.md"><strong>Channel Management</strong></a> to create and manage content in your channel.</p> 
+  <p>Additionally, you can create your own schedule, application, location, or device.</p> 
+ </body> 
+</html>

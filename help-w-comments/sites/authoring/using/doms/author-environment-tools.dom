@@ -1,0 +1,256 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-11-02T07:31:03.145-0400" name="cq:lastReplicated" /> 
+  <meta content="/content/docs/en/aem/6-3/author/page-authoring/author-environment-tools" name="qaNotes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-31T16:21:05.289-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-10-28T00:09:15.607-0400" name="publishExternalDate" /> 
+  <meta content="Authoring - the Environment and Tools" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="The authoring environment of AEM provides various mechanisms for organizing and editing your content" name="seoDescription" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+  <meta content="2018-11-02T07:29:45.827-0400" name="cq:lastModified" /> 
+  <meta content="Authoring - the Environment and Tools" name="navTitle" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment-tools.html" name="publishExternalURL" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="5c6a5cbf-b893-48ab-9085-d500705afcfd" name="jcr:uuid" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-10-28T00:09:15.607-0400" name="topicBrowsingSortDate" /> 
+  <meta content="1b230475-a9fa-44a9-8846-08b46fae9c85" name="jcr:predecessors" /> 
+  <meta content="2018-10-28T00:09:15.607-0400" name="lastPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Authoring - the Environment and Tools" name="jcr:title" /> 
+  <meta content="2017-12-01T19:01:22.197-0500" name="jcr:created" /> 
+  <meta content="2018-04-19T10:28:29.201-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring" name="moreHelpPaths" /> 
+ </head> 
+ <body> 
+  <p>The authoring environment of AEM provides various mechanisms for organizing and editing your content. The tools provided are accessed from the various consoles and page editors.<br /> </p> 
+  <h2>Managing your Site</h2> 
+  <p>The <strong>Sites</strong> console allows you to navigate and manage your website, using the header bar, toolbar, action icons (applicable for the selected resource), breadcrumbs and when selected, secondary rails (for example, timeline and references).</p> 
+  <p>For example, card view:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-399.png" /> 
+  <h2>Editing Page Content</h2> 
+  <p>You can edit a page with the page editor. For example:</p> 
+  <p><span class="code"> http://localhost:4502/editor.html/content/we-retail/us/en/equipment.html</span></p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at141536.png" /> 
+  <note> 
+   <p>The first time you open a page for editing, a series of slides will provide you with a tour of the features.</p> 
+   <p>You can skip the tour if wanted and repeat it at any time by selecting from the <strong>Page Information</strong> menu.</p> 
+  </note> 
+  <h2>Accessing Help</h2> 
+  <p>When editing a page, <strong>Help</strong> can be accessed from:</p> 
+  <ul> 
+   <li>the <a href="../../../sites/authoring/using/editing-page-properties.md#main-pars-title-1005086348"><strong>Page Information</strong></a> selector; this will show the introductory slides (as shown the first time you access the editor).</li> 
+   <li>the <a href="../../../sites/authoring/using/editing-content.md#main-pars-title-32">configuration</a> dialog for specific components (using the ? icon in the dialog toolbar); this will show context sensitive help.</li> 
+  </ul> 
+  <p>Further <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-24">help-related resources are available from consoles</a>.</p> 
+  <h2>Components Browser</h2> 
+  <p>The components browser shows all components that are available for use on your current page. These can be dragged to the appropriate location, then edited to add your content.<br /> </p> 
+  <p>The components browser is a tab within the side panel (together with the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title">assets browser</a> and <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-96d3">content tree</a>). To open (or close) the side panel use the icon at the top left of the toolbar:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at141659.png" /> 
+  <p>When you open the side panel it will slide open from the left side (select the <strong>Components</strong> tab if necessary). When open you can browse through all the components available for your page.</p> 
+  <p>The actual appearance and handling is dependent on the device type you are using:</p> 
+  <note> 
+   <p>A mobile device is detected when the width is less than 1024px. This can also be the case for a small desktop window.</p> 
+  </note> 
+  <ul> 
+   <li> <p>The component browser completely covers the page being edited.</p> <p>To add a component to your page touch-and-hold the required component and move it towards the right - the component browser will close to show the page again - where you can position the component.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at141752.png" /></li> 
+   <li> <p>The component browser is opened at the left side of the window.</p> <p>To add a component to your page click on the required component and drag it to the required location.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at141808.png" /><p>Components are represented by</p> 
+    <ul> 
+     <li>Component name</li> 
+     <li>Component group (in grey)</li> 
+     <li>Icon or abbreviation 
+      <ul> 
+       <li>Standard components' icons are monochrome.</li> 
+       <li>Abbreviations are always the first two charaters of the component name.</li> 
+      </ul> </li> 
+    </ul> <p>From the top toolbar in the Components browser you can:</p> 
+    <ul> 
+     <li>Filter components by name.<br /> </li> 
+     <li>Limit the display to a specific group using the drop down selection.</li> 
+    </ul> <p>For a more detailed description of the component, you can click or tap the information icon next to the component in the Components browser (if available).</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at141929.png" /><p>For even more information about the components available to you see the <a href="../../../sites/authoring/using/default-components-console.md">Component Console</a>.</p> </li> 
+  </ul> 
+  <h2>Assets Browser</h2> 
+  <p>The assets browser shows all <a href="/assets/using/author-assets">assets</a> that are available for direct use on your current page.</p> 
+  <p>The assets browser is a tab within the side panel along with the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-17">components browse</a>r and <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-96d3">content tree</a>. To open or close the side panel use the icon at the top left of the toolbar:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at141659-1.png" /> 
+  <p>When you open the side panel it will slide open from the left side. Select the <strong>Assets</strong> tab if necessary.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at142035.png" /> 
+  <p>When the assets browser is open you can browse through all the assets available for your page. Infinite scrolling is used to expand the list when required.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-400.png" /> 
+  <p>To add an asset to your page, select and drag to the required location. This can be:</p> 
+  <ul> 
+   <li>An existing component of the appropriate type. 
+    <ul> 
+     <li>For example, you can drag an asset of type image onto an Image component.<br /> </li> 
+    </ul> </li> 
+   <li>A <a href="../../../sites/authoring/using/editing-content.md#main-pars-title-3">placeholder</a> in the paragraph system to create a new component of the appropriate type. 
+    <ul> 
+     <li>For example, you can drag an asset of type image onto the parargraph system to create an Image component.</li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>This is available for specific assets and component types. See <a href="../../../sites/authoring/using/editing-content.md#main-pars-title-18">Inserting a Component using the Assets Browser</a> for more details.</p> 
+  </note> 
+  <p>From the top toolbar of the assets browser you can filter the assets by:</p> 
+  <ul> 
+   <li>Name</li> 
+   <li>Path</li> 
+   <li>Asset type such as images, manuscripts, documents, videos, pages, paragraphs, and products<br /> </li> 
+   <li>Asset characteristics such as Orientation (Portrait, Landscape, Square) and Style (Color, Monochrome, Grayscale)<br /> 
+    <ul> 
+     <li>Available only for certain asset types</li> 
+    </ul> </li> 
+  </ul> 
+  <p>The actual appearance and handling is dependent on the device type you are using:</p> 
+  <note> 
+   <p>A mobile device is detected when the width is less than 1024px; i.e. also on a small desktop window.</p> 
+  </note> 
+  <ul> 
+   <li> <p>The assets browser completely covers the page being edited.</p> <p>To add an asset to your page touch-and-hold the required asset, then move it towards the right - the assets browser will close to show the page again, where you can add the asset to the required component.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at142223.png" /></li> 
+   <li> <p>The assets browser is opened at the left side of the window.</p> <p>To add an asset to your page click on the required asset and drag it to the required component or location.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at142337.png" /></li> 
+  </ul> 
+  <p>If you need to quickly make a change to an asset, you can start the <a href="../../../assets/using/managing-assets-touch-ui.md">asset editor</a> directly from the asset browser by clicking the edit icon shown next to the asset's name.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at142448.png" /> 
+  <h2>Content Tree</h2> 
+  <p>The <strong>Content Tree</strong> gives an overview of all of the components on the page in a hierarchy so you can see at a glance how the page is composed.</p> 
+  <p>The Content Tree is a tab within the side panel (together with the components and assets browser). To open (or close) the side panel use the icon at the top left of the toolbar:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at142042.png" /> 
+  <p>When you open the side panel it will slide open (from the left side). Select the <strong>Content Tree</strong> tab if necessary. When open you can see a tree view representation of your page or template, so that it's easier to understand how its content is structured hierarchically. Additionally on a complex page, it makes it easier to jump between components of the page.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at142526.png" /> 
+  <p>A page can easily be composed of many of the same type of components, so the component tree displays descriptive text (in grey) after the name of the component type (in black). The descriptive text comes from common properties of the component such as title or text.</p> 
+  <p>Component types will be shown in the user language, whereas the component description text comes from the page language.</p> 
+  <p>Clicking the chevron next to a component will collapse or expand that level.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at142559.png" /> 
+  <p>Clicking on the component will highlight the component in the page editor.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at142647.png" /> 
+  <p>If the component you click in the tree is editable a wrench icon will appear to the right of the name. Clicking on this icon will directly start the edit dialogue for the component.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at142725.png" /> 
+  <note> 
+   <p>The Content Tree is not available if you are editing a page on a mobile device (if the browser width is less than 1024px).</p> 
+  </note> 
+  <h2>Fragments - Associated Content Browser</h2> 
+  <p>If your page contains Content Fragments then you will also have access to the <a href="../../../sites/authoring/using/content-fragments.md#main-pars-title-2096066215">browser for Associated Content</a>.<br /> </p> 
+  <h2>References</h2> 
+  <p><strong>References</strong> shows connections to the selected page:</p> 
+  <ul> 
+   <li>Blueprints</li> 
+   <li>Launches</li> 
+   <li>Live copies</li> 
+   <li>Language copies</li> 
+   <li>Use of the reference component</li> 
+   <li>References to Product pages (from the Commerce - Products console)</li> 
+  </ul> 
+  <p>Open the required console, then navigate to the required resource and open <strong>References</strong> using:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at153653.png" /> 
+  <p><a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-14">Select your required resource</a> to show a list of references types relevant to that resource:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at153731.png" /> 
+  <p>Select the appropriate reference type for more information. In certain situations further actions are available when you select a specific reference, including:</p> 
+  <ul> 
+   <li>Instances of the Reference component (e.g. navigate to referencing/referenced page)<br /> </li> 
+   <li><a href="../../../sites/administering/using/generic.md#showingproductreferences">References to Product pages</a> (available from the Commerce-Products console)</li> 
+   <li><a href="../../../sites/authoring/using/launches.md">Launches</a></li> 
+   <li><a href="../../../sites/administering/using/msm.md">Live Copies</a> displays the paths of all live copies that are based on the selected resource.</li> 
+   <li><a href="../../../sites/administering/using/msm-best-practices.md">Blueprint</a></li> 
+   <li><a href="../../../sites/administering/using/tc-manage.md#creatingtranslationprojectsusingthereferencespanel">Languages Copies</a></li> 
+  </ul> 
+  <p>For example, you can fix a broken reference within a Reference component:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-401.png" /> 
+  <h2>Events - Timeline</h2> 
+  <p>For appropriate resources (e.g. pages from the <strong>Sites</strong> console, or assets from the <strong>Assets</strong> console) the <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-281465694">timeline can be used to show the recent activity on any selected items</a>.</p> 
+  <p>Open the required console, then navigate to the required resource and open <strong>Timeline</strong>, using:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at153952.png" /> 
+  <p><a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-14">Select your required resource</a>, then either <strong>Show All</strong> or <strong>Activities</strong> to list any recent actions on the selected resources:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at154130.png" /> 
+  <h2>Page Information</h2> 
+  <p>The Page Information (equalizer icon) opens a menu that also provides details about the last edit and the last publication. Depending on the characteristics of the page (and its site) more or fewer options might be available:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at154210.png" /> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/editing-page-properties.md">Open Properties</a></li> 
+   <li><a href="../../../sites/administering/using/msm.md#main-pars-title-2120087243">Rollout Page</a></li> 
+   <li><a href="../../../sites/authoring/using/workflows-applying.md#main-pars-title-4">Start Workflow</a></li> 
+   <li><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-13">Lock Page</a></li> 
+   <li><a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-10">Publish Page</a></li> 
+   <li><a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-5">Unpublish Page</a></li> 
+   <li><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-1534569976">View as Published</a></li> 
+   <li><a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-14">View in Admin</a></li> 
+   <li><a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-24">Help</a></li> 
+  </ul> 
+  <p>For example, when appropriate, <strong>Page Information</strong> also has the options:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/launches-promoting.md">Promote Launch</a> if the page is a launch.</li> 
+   <li><a href="../../../sites/authoring/using/templates.md">Edit Template</a> if the page is based on an <a href="../../../sites/authoring/using/templates.md#main-pars-title-1120829965">editable template</a></li> 
+   <li><a href="../../../sites/authoring/using/select-ui.md#main-pars-title-5">Open in Classic UI</a> if this options has been <a href="../../../sites/administering/using/enable-classic-ui-editor.md">enabled by an administrator</a></li> 
+  </ul> 
+  <p>In addition, <strong>Page Information</strong> can provide access to analytics and recommendations, when appropriate.</p> 
+  <h2>Page Modes</h2> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T04:51:11.776-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>live copy - need link to dedicated MSM docu<br /> </p> 
+  </draft-comment> 
+  <p>There are various modes when editing a page allowing for different actions:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/editing-content.md">Edit</a> - the mode to use when editing the page content.</li> 
+   <li><a href="../../../sites/authoring/using/responsive-layout.md">Layout</a> - allows you to create and edit your responsive layout dependent on device (if the page is based on a layout container)<br /> </li> 
+   <li><a href="../../../sites/authoring/using/scaffolding.md">Scaffolding</a> - help you to create a large set of pages that share the same structure but have differing content.</li> 
+   <li><a href="../../../sites/developing/using/developer-mode.md">Developer</a> - allows you to perform various actions (requires privileges). These include inspecting the technical details of a page and its components.<br /> </li> 
+   <li><a href="../../../sites/authoring/using/default-components-designmode.md">Design</a> - allows you to enable/disable components for use on a page and to configure the design of the component (if the page is based on a <a href="../../../sites/authoring/using/templates.md#main-pars-title-1120829965">static template</a>).</li> 
+   <li><a href="../../../sites/authoring/using/content-targeting-touch.md">Targeting</a> - increase content relevance through targeting and measuring across all channels.</li> 
+   <li><a href="../../../sites/authoring/using/pa-using.md#analyticsvisiblefromthepageeditor">Activity Map</a> - shows Analytics data for the page.<br /> </li> 
+   <li><a href="../../../sites/authoring/using/working-with-page-versions.md#main-pars-title-951f">Timewarp</a> - allows you to view a pages state at a particular point in time.</li> 
+   <li><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-4">Live Copy Status</a> - allows a quick overview of the live copy status and which components are/are not inherited.</li> 
+   <li><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-9">Preview</a> - used to view the page as it will be shown on the publish environment; or to navigate using links in the content.<br /> </li> 
+   <li><a href="../../../sites/authoring/using/annotations.md">Annotate</a> - used to add or view annotations on the page.</li> 
+  </ul> 
+  <p>You can access these using the icons in the top right corner. The actual icon will change to reflect the mode you are currently using:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-402.png" /> 
+  <note> 
+   <ul> 
+    <li>Depending on the characteristics of the page, some modes my not be available.</li> 
+    <li>Access to some modes require the appropriate permissions/privileges.</li> 
+    <li>Developer mode is not available on mobile devices due to space restrictions.</li> 
+    <li>There is a <a href="../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md">keyboard shortcut</a> (<span class="code">Ctrl-Shift-M</span>) to toggle between <strong>Preview</strong> and the currently selected mode (e.g. <strong>Edit</strong>, <strong>Layout</strong>, etc).</li> 
+   </ul> 
+  </note> 
+  <h2>Path Selection</h2> 
+  <p>Often when authoring it is necessary to select another resource such as when defining a link to another page or resource or selecting an image. To easily select a path, <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-7c8e">path fields</a> offer auto-complete and the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-b097">path browser</a> allows for more robust selection.</p> 
+  <h3>Path Fields</h3> 
+  <p>The example used here to illustrate is the image component. For more information about using and editing components see <a href="../../../sites/authoring/using/default-components.md">Components for Page Authoring</a>.</p> 
+  <p>Path fields have auto-complete and look-ahead funtionality now to make locating a resource easier. Simply start typing in the path field and the AEM will offer matching paths as you type.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at154403.png" /> 
+  <p>Clicking the <strong>Open Selection Dialog</strong> button in the path field opens the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-b097">path browser</a> dialog to allow for more detailed selection options.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at154427.png" /> 
+  <h3>Path Browser</h3> 
+  <p>The path browser is organized like the <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-1571169225">column view</a> of the sites console, allowing for more detailed selection of resources.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at154521.png" /> 
+  <p>Once a resource is selected, the <strong>Select</strong> button at the upper-right of the dialogue becomes active. Click or tap to confirm the selection or <strong>Cancel</strong> to abort.</p> 
+  <p>If the context allows for the selection of multiple resources, selecting a resource also activates the Select button, but also adds a count of the number of selected resources to the upper-right of the window. Click the X next to the number to deselect all.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-403.png" /> 
+  <p>The breadcrumbs can be used to quickly jump within the resource hierarchy.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-404.png" /> 
+  <p>At any time you can use the search field at the top of the dialogue.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-405.png" /> 
+  <p>Click the X in the search field to clear the search.</p> 
+  <p>To narrow your search, you can reveal the filter options and filter your results based on a certain path.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-406.png" /> 
+  <h2>Keyboard Shortcuts</h2> 
+  <p>Various <a href="../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md">keyboard shortcuts</a> are available.</p> 
+ </body> 
+</html>

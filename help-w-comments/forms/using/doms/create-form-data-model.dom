@@ -1,0 +1,181 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="a6a4a441-1d1b-4bb5-9a7c-a27d9da0bc74" name="jcr:predecessors" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="Create Form Data Model Tutorial" name="seoTitle" /> 
+  <meta content="2018-01-29T19:01:55.344-0500" name="jcr:created" /> 
+  <meta content="2018-04-26T04:40:06.999-0400" name="locHandOffDate" /> 
+  <meta content="khsingh" name="contentOwner" /> 
+  <meta content="Deactivate" name="cq:lastReplicationAction" /> 
+  <meta content="[DO NOT PUBLISH] Tutorial: Create form data model " name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-16T05:09:29.647-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-07-12T03:59:14.655-0400" name="unpublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-07-12T03:59:14.695-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.3/FORMS" name="cq:tags" /> 
+  <meta content="9156f64e-b40f-48d0-b298-4f39444bfd1a" name="jcr:uuid" /> 
+  <meta content="2017-12-19T06:57:41.195-0500" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-07-12T03:59:14.661-0400" name="cq:lastModified" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="publishExternalURL" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+ </head> 
+ <body> 
+  <p><img src="assets/04-create-form-data-model-main.png" /> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;">This tutorial is a step in the <a href="../../forms/using/create-your-first-adaptive-form.md" target="_blank">Create Your First Adaptive Form</a> series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>About the tutorial</h2> 
+  <p>AEM Forms data integration module allows you to create a form data model from disparate backend data sources such as AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. You can configure data model objects and services in a form data model and associate it with an adaptive form. Adaptive form fields are bound to data model object properties. The services enable you to prefill the adaptive form and write submitted form data back to the data model object. </p> 
+  <p>For more information about form data integration and form data model, see <a href="../../forms/using/data-integration.md">AEM Forms Data Integration</a>.</p> 
+  <p>This tutorial walks you through the steps to prepare, create, configure, and associate a form data model with an adaptive form. At the end of this tutorial, you will be able to:</p> 
+  <ul> 
+   <li><a href="#config-database">Configure MySQL database as data source</a></li> 
+   <li><a href="#create-fdm">Create form data model using MySQL database</a> </li> 
+   <li><a href="#config-fdm">Configure form data model</a></li> 
+   <li><a href="#test-fdm">Test form data model</a><br /> </li> 
+  </ul> 
+  <p>The form data model will look similar to the following:</p> 
+  <img imageRotate="0" src="assets/form-data-model_l.png" /> 
+  <p><strong>A.</strong> Configured data sources <strong>B.</strong> Data source schemas <strong>C.</strong> Available services <strong>D.</strong> Data model objects <strong>E.</strong> Configured services</p> 
+  <h2>Prerequisites</h2> 
+  <p>Before you begin, ensure that you have the following:</p> 
+  <ul> 
+   <li>MySQL database with sample data as stated in the Prerequisites section of <a href="../../forms/using/create-your-first-adaptive-form.md" target="_blank">Create your first adaptive form</a></li> 
+   <li>OSGi bundle for MySQL JDBC driver as explained in <a href="../../sites/developing/using/jdbc.md#bundlingthejdbcdatabasedriver" target="_blank">Bundling the JDBC Database Driver</a></li> 
+   <li>Adaptive form as explained in the first tutorial <a href="../../forms/using/create-adaptive-form.md" target="_blank">Create an adaptive form</a><br /> </li> 
+  </ul> 
+  <h2 id="config-database">Step 1: Configure MySQL database as data source</h2> 
+  <p>You can configure different types of data sources to create a form data model. For this tutorial, we will configure the MySQL database that you configured and populated with sample data. For information about other supported data sources and how to configure them, see <a href="../../forms/using/data-integration.md" target="_blank">AEM Forms Data Integration</a>.</p> 
+  <p>Do the following to configure your MySQL database:</p> 
+  <ol> 
+   <li><p>Install JDBC driver for MySQL database as an OSGi bundle: <br /> </p> 
+    <ol> 
+     <li><p>Log in to AEM Forms Author Instance as an administrator and go to AEM web console bundles. The default URL is <a href="http://localhost:4502/system/console/bundles" target="_blank">http://localhost:4502/system/console/bundles</a>.<br /> </p> </li> 
+     <li><p>Tap <strong>Install/Update</strong>. An <strong>Upload / Install Bundles</strong> dialog appears.<br /> </p> </li> 
+     <li><p>Tap<strong> Choose File </strong>to browse and select the MySQL JDBC driver OSGi bundle. Select <strong>Start Bundle</strong> and <strong>Refresh Packages</strong>,<strong> </strong>and tap <strong>Install or Update</strong>. Ensure that the Oracle Corporation's JDBC Driver for MySQL is active. The driver is installed.</p> </li> 
+    </ol></li> 
+   <li><p>Configure MySQL database as a data source: <br /> </p> 
+    <ol> 
+     <li><p>Go to AEM web console at <a href="http://localhost:4502/system/console/configMgr" target="_blank">http://localhost:4502/system/console/configMgr</a>.</p> </li> 
+     <li><p>Locate <strong>Apache Sling Connection Pooled DataSource </strong>configuration. Tap to open the configuration in edit mode.</p> </li> 
+     <li><p>In the configuration dialog, specify the following details:</p> 
+      <ul> 
+       <li><strong>Datasource name:</strong> You can specify any name. For example, specify <strong>WeRetailMySQL</strong>. </li> 
+       <li><strong>DataSource service property name</strong>: Specify name of the service property containing the DataSource name. It is specified while registering the data source instance as OSGi service. For example, <strong>datasource.name</strong>.</li> 
+       <li><strong>JDBC driver class</strong>: Specify Java class name of the JDBC driver. For MySQL database, specify <strong>com.mysql.jdbc.Driver</strong>. </li> 
+       <li><strong>JDBC connection URI</strong>: Specify connection URL of the database. For MySQL database running on port 3306 and schema weretail, the URL is: jdbc:mysql://[server]:3306/weretail?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf-8</li> 
+       <li><strong>Username: </strong>Username of the database. It is required to enable JDBC driver to establish a connection with the database.</li> 
+       <li><strong>Password: </strong>Password of the database. It is required to enable JDBC driver to establish a connection with the database.</li> 
+       <li><strong>Test on Borrow:</strong> Enable the <strong>Test on Borrow</strong> option. <br /> </li> 
+       <li><strong>Test on Return:</strong> Enable the <strong>Test on Return</strong> option. <br /> </li> 
+       <li><strong>Validation Query:</strong> Specify a SQL SELECT query to validate connections from the pool. The query must return at least one row. For example, <strong>select * from customerdetails</strong>.</li> 
+       <li><strong>Transaction Isolation</strong>: Set the value to <strong>READ_COMMITTED</strong>.</li> 
+      </ul> <p>Leave other properties with default <a href="http://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html" target="_blank">values</a> and tap <strong>Save</strong>.</p> </li> 
+    </ol><p>A configuration similar to the following is created.</p> <img imageRotate="0" src="assets/relational-database-data-source-configuration.png" /></li> 
+  </ol> 
+  <h2 id="create-fdm">Step 2: Create form data model</h2> 
+  <p>AEM Forms provides an intuitive user interface to <a href="../../forms/using/data-integration.md#main-pars-header-1524967585" target="_blank">create a form data mode</a>l from configured data sources. You can use multiple data sources in a form data model. For our use case, we will use the configured MySQL data source. </p> 
+  <p>Do the following to create form data model:</p> 
+  <ol> 
+   <li><p>In AEM author instance, navigate to <strong>Forms </strong>&amp;gt; <strong>Data Integration</strong>s.</p> </li> 
+   <li><p>Tap <strong>Create </strong>&amp;gt; <strong>Form Data Model</strong>.</p> </li> 
+   <li><p>In the Create Form Data Model dialog, specify a <strong>name </strong>for the form data model. For example, <strong>customer-shipping-billing-details</strong>. Tap <strong>Next</strong>.</p> </li> 
+   <li><p>The select datasource screen lists all configured data sources. Select <strong>WeRetailMySQL</strong> data source and tap <strong>Create</strong>.<br /> </p> <img imageRotate="0" src="assets/data-source-selection.png" /></li> 
+  </ol> 
+  <p>The <strong>customer-shipping-billing-details</strong> form data model is created.<br /> </p> 
+  <h2 id="config-fdm">Step 3: Configure form data model</h2> 
+  <p>Configuring form data model involves:</p> 
+  <ul> 
+   <li>adding data model object and services </li> 
+   <li>configuring read and write services for data model objects</li> 
+  </ul> 
+  <p>Do the following to configure the form data model:</p> 
+  <ol> 
+   <li><p>On AEM author instance, navigate to <strong>Forms &amp;gt; Data Integrations</strong>. The default URL is <a href="http://localhost:4502/aem/forms.html/content/dam/formsanddocuments-fdm" target="_blank">http://localhost:4502/aem/forms.html/content/dam/formsanddocuments-fdm</a>.</p> </li> 
+   <li><p>The <strong>customer-shipping-billing-details</strong> form data model you created earlier is listed here. Open it in edit mode. </p> <p>The selected data source <strong>WeRetailMySQL</strong> is configured in the form data model.</p> <img imageRotate="0" src="assets/default-fdm.png" /></li> 
+   <li><p>Expand the WeRailMySQL data source tree. Select the following data model objects and services from <strong>weretail</strong> <strong>&amp;gt; customerdetails</strong> schema to form data model:</p> 
+    <ul> 
+     <li><strong>Data model objects</strong>: 
+      <ul> 
+       <li>id</li> 
+       <li>name</li> 
+       <li>shippingAddress</li> 
+       <li>city</li> 
+       <li>state</li> 
+       <li>zipcode</li> 
+      </ul> </li> 
+     <li><strong>Services:</strong> 
+      <ul> 
+       <li>get</li> 
+       <li>update</li> 
+      </ul> </li> 
+    </ul> <p>Tap <strong>Add Selected</strong> to add selected data model objects and services to the form data model.</p> <img imageRotate="0" src="assets/weretail-schema.png" /> 
+    <note> 
+     <p>The default get, update, and insert services for JDBC datasources are provided out-of-the-box with form data model .</p> 
+    </note></li> 
+   <li><p>Configure read and write services for the data model object.</p> 
+    <ol> 
+     <li><p>Select the <strong>customerdetails</strong> data model object and tap <strong>Edit Properties</strong>.</p> </li> 
+     <li><p>Select <strong>get</strong> from the Read Service drop-down. The <strong>id</strong> argument, which is the primary key in the customerdetails data model object is added automatically. Tap <img src="assets/aem_6_3_edit.png" /> and configure the argument as follows.</p> <img imageRotate="0" src="assets/read-default.png" /></li> 
+     <li><p>Similarly, select <strong>update</strong> as the Write Service. The <strong>customerdetails</strong> object is added as an argument automatically. The argument is configured as follows.</p> <img imageRotate="0" src="assets/write-default.png" /><p>Add and configure the <strong>id</strong> argument as follows.</p> <img imageRotate="0" src="assets/id-arg.png" /></li> 
+     <li><p>Tap <strong>Done</strong> to save the data model object properties. Then, tap <strong>Save</strong> to save the form data model.</p> <p>The <strong>get</strong> and <strong>update</strong> services are added as default services for the data model object.</p> <img imageRotate="0" src="assets/data-model-object.png" /></li> 
+    </ol></li> 
+   <li><p>Go to the <strong>Services</strong> tab and configure <strong>get</strong> and <strong>update</strong> services.<br /> </p> 
+    <ol> 
+     <li><p>Select the <strong>get</strong> service and tap <strong>Edit Properties</strong>. The properties dialog opens. </p> </li> 
+     <li><p>Specify the following in the Edit Properties dialog:<br /> </p> 
+      <ul> 
+       <li><strong>Title</strong>: Specify title of the service. For example: Retrieve Shipping Address.</li> 
+       <li><strong>Description</strong>: Specify description containing detailed functioning of the service. For example:<br /> This service retrieves shipping address and other customer details from MySQL database</li> 
+       <li><strong>Output Model Object</strong>: Select schema containing customer data. For example:<br /> customerdetail schema</li> 
+       <li><strong>Return array</strong>: Disable the <strong>Return array</strong> option.</li> 
+       <li><strong>Arguments</strong>: Select argument named <strong>ID</strong>.</li> 
+      </ul> <p>Tap <strong>Done</strong>. Service to retrieve customer details from the MySQL database is configured.<br /> </p> <img imageRotate="0" src="assets/shiiping-address-retrieval.png" /></li> 
+     <li><p>Select the <strong>update</strong> service and tap <strong>Edit Properties</strong>. The properties dialog opens. <br /> </p> </li> 
+     <li><p>Specify the following in the Edit Properties dialog:<br /> </p> 
+      <ul> 
+       <li><strong>Title</strong>: Specify title of the service. For example, Update Shipping Address.</li> 
+       <li><strong>Description</strong>: Specify description containing detailed functioning of the service. For example:<br /> This service updates shipping address and related fields in MySQL database</li> 
+       <li><strong>Input Model Object</strong>: Select schema containing customer data. For example:<br /> customerdetail schema</li> 
+       <li><strong>Output type</strong>: Select <strong>BOOLEAN</strong>.<br /> </li> 
+       <li><strong>Arguments</strong>: Select argument named <strong>ID </strong>and <strong>customerdetails</strong>.</li> 
+      </ul> <p>Tap <strong>Done</strong>. The <strong>update</strong> service to update customer details in the MySQL database is configured.</p> <img imageRotate="0" src="assets/shiiping-address-update.png" /></li> 
+    </ol></li> 
+  </ol> 
+  <p>The data model object and services in the form data model are configured. You can now test the form data model.</p> 
+  <h2 id="test-fdm">Step 4: Test form data model</h2> 
+  <p>You can test the data model object and services to verify that the form data model is configured properly.</p> 
+  <p>Do the following to run the test:</p> 
+  <ol> 
+   <li><p>Go to the <strong>Model</strong> tab, select the <strong>customerdetails</strong> data model object, and tap <strong>Test Model Object</strong>.</p> </li> 
+   <li><p>In the <strong>Test Model / Service</strong> window, select <strong>Read model object</strong> from the <strong>Select Model / Service</strong> drop-down.</p> </li> 
+   <li><p>In the <strong>customerdetails</strong> section, specify a value for the <strong>id</strong> argument that exists in the configured MySQL database and tap <strong>Test</strong>. </p> <p>The customer details associated with the specified id are fetched and displayed in the <strong>Output</strong> section as shown below.</p> <img imageRotate="0" src="assets/test-read-model.png" /></li> 
+   <li><p>Similarly, you can test the Write model object and services.</p> <p>In the following example, the update service successfully updates the address details for the id 7102715 in the database.</p> <img imageRotate="0" src="assets/test-write-model.png" /><p>Now, if you test the read model service again for the id 7107215, it will fetch and display the updated customer details as shown below.</p> <img imageRotate="0" src="assets/read-updated.png" /></li> 
+  </ol> 
+  <draft-comment type="draft"> 
+   <h2>Next steps</h2> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>[<strong><span class="uicontrol">This section will be hidden until the next tutorial is published</span></strong>]</p> 
+   <p>You have a working form data model and an adaptive form that you created in the <a href="../../forms/using/create-adaptive-form.md" target="_blank">previous</a> tutorial of this series. You can now associate the form data model with the adaptive form and bind the form fields with data model object properties. You can use adaptive form rules to invoke form data model get service to prefill the form and configure the adaptive form submit action to update the data source with submitted form data.</p> 
+   <p>For more information on how to fulfill the prefill and submission use cases through integration of adaptive form with form data model, see &amp;lt;<em>link-to-the-next-tutorial</em>&amp;gt;. </p> 
+  </draft-comment> 
+ </body> 
+</html>

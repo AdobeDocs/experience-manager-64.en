@@ -1,0 +1,89 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="5388001d-ec68-485d-b9ff-1f2afc8a4d50" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-10-27T23:54:26.562-0400" name="cq:lastReplicated" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Export information about your pages to a CSV file on your local system" name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="2018-04-19T10:30:05.743-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/csv-export.html" name="publishExternalURL" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring" name="moreHelpPaths" />
+  <meta content="2017-12-01T19:05:04.483-0500" name="jcr:created" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="/content/docs/en/aem/6-3/author/page-authoring/csv-export" name="qaNotes" />
+  <meta content="2018-10-27T23:54:26.531-0400" name="topicBrowsingSortDate" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Export to CSV" name="seoTitle" />
+  <meta content="2018-10-27T23:54:26.531-0400" name="lastPublishExternalDate" />
+  <meta content="Export to CSV" name="navTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-10-27T23:54:26.537-0400" name="cq:lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="b20076e9-d940-4656-8083-d7f9fb2a8bf0" name="jcr:predecessors" />
+  <meta content="2018-10-27T23:54:26.531-0400" name="publishExternalDate" />
+  <meta content="Export to CSV" name="jcr:title" />
+  <meta content="2017-10-31T16:20:52.099-0400" name="firstPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" />
+ </head>
+ <body>
+  <p><strong>Create CSV Export</strong> enables you to export information about your pages to a CSV file on your local system.</p> 
+  <ul> 
+   <li>The file downloaded is called <span class="code">export.csv</span></li> 
+   <li>The contents are dependent on the properties you select.</li> 
+   <li>You can define the path together with the depth of the export.<br /> </li> 
+  </ul> 
+  <note>
+   <p>The download feature and default destination of your browser is used.</p> 
+  </note>
+  <p>The Create CSV Export wizard allows you to select:<br /> </p> 
+  <ul> 
+   <li>Properties to export
+    <ul> 
+     <li>Metadata
+      <ul> 
+       <li>Modified</li> 
+       <li>Published</li> 
+      </ul> </li> 
+     <li>Analytics
+      <ul> 
+       <li>Page Views</li> 
+       <li>Unique Visitors</li> 
+       <li>Time on Page</li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li>Depth
+    <ul> 
+     <li>Parent Path</li> 
+     <li>Direct children only</li> 
+     <li>Additional levels of children</li> 
+     <li>Levels</li> 
+    </ul> </li> 
+  </ul> 
+  <p>The resulting <span class="code">export.csv</span> file can be opened in Excel or any other compatible application.<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-60.png" />
+  <p>The create<strong> CSV Export</strong> option is available when browsing the <strong>Sites</strong> console (in List view): it is an option of the <strong>Create</strong> drop down menu:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-21at154719.png" />
+  <p>To create a CSV export:<br /> </p> 
+  <ol>
+   <li><p>Open the <strong>Sites</strong> console, navigate to the required location if required.</p> </li>
+   <li><p>From the toolbar, select <strong>Create</strong> then<strong> CSV Export</strong> to open the wizard:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at154758.png" /></li>
+   <li><p>Select the required properties to export.</p> </li>
+   <li><p>Select <strong>Create</strong>.</p> </li>
+  </ol>
+ </body>
+</html>

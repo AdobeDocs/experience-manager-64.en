@@ -1,0 +1,150 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-05-17T05:53:17.627-0400" name="locHandOffDate" />
+  <meta content="/content/docs/en/aem/6-3/author/communities/reviews" name="qaNotes" />
+  <meta content="Using Reviews and Reviews Summary (Display)" name="navTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:authoring;content_type:reference" name="cq:tags" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-04-03T07:54:06.979-0400" name="publishExternalDate" />
+  <meta content="Adding the Reviews and Reviews Summary components to a page" name="seoDescription" />
+  <meta content="2018-10-27T23:43:29.121-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Using Reviews and Reviews Summary (Display)" name="seoTitle" />
+  <meta content="Using Reviews and Reviews Summary (Display)" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="2018-05-17T05:53:17.628-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T07:54:06.979-0400" name="lastPublishExternalDate" />
+  <meta content="2018-04-03T07:54:06.979-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-31T16:33:21.182-0400" name="firstPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="94270923-b858-441b-a592-1c0f58df5df6" name="jcr:uuid" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-03-09T08:01:48.020-0500" name="jcr:created" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/authoring;/content/help/en/experience-manager/6-4/communities/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="8babf5ac-48a7-46ff-a1e3-f945cb4ea867" name="jcr:predecessors" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/reviews.html" name="publishExternalURL" />
+ </head>
+ <body>
+  <p>The <span class="code">Reviews </span>component is a composite of <a href="../../communities/using/comments.md"><span class="code">Comments</span></a> and <a href="../../communities/using/rating.md"><span class="code">Rating</span></a> components ready for use. </p> 
+  <p>The <span class="code">Reviews Summary (Display)</span> component provides a summary of an active or closed instance of a <span class="code">Reviews</span> component for display elsewhere on the site.</p> 
+  <note>
+   <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12.222222328186px;">Anonymous posting of a review is not supported. Site visitors must register (become a member) and sign in to participate. The signed in visitor may update their review at any time.</p> 
+  </note>
+  <h3>Adding a Review to a Page</h3>
+  <p>To add a <span class="code">Reviews</span> component to a page in author mode, use the component browser to locate</p> 
+  <ul> 
+   <li><span class="code">Communities / Reviews</span></li> 
+  </ul> 
+  <p>and drag it into place on a page, such as a position relative to the feature for users to review.</p> 
+  <p>For necessary information, visit <a href="../../communities/using/basics.md">Communities Components Basics</a>.</p> 
+  <p>When the <a href="../../communities/using/reviews-basics.md#essentialsforclientside">required client-side libraries</a> are included, this is how the <span class="code">Reviews </span>component will appear.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-353.png" />
+  <h3>Configuring Reviews</h3>
+  <p>Select the placed <span class="code">Reviews</span> component to access and select the <span class="code">Configure</span> icon which opens the edit dialog.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-354.png" />
+  <p>Under the <strong>Allowed Ratings </strong>tab, specify the complete list of ratings to be shown to members. The first rating should be an overall/general rating, as it is the rating which provides the average rating for the <span class="code">Review Summary (Display)</span> component. The next two ratings in the default configuration should be given a different title, other than "Subrating 1" or "Subrating 2".</p> 
+  <img imageRotate="0" src="assets/chlimage_1-355.png" />
+  <ul> 
+   <li><strong>Allowed Ratings</strong><br /> A list of ratings from which a member can choose.<br /> Use the up arrow, down arrow and delete buttons to modify the visible selections.<br /> Click <strong><u>Add Item </u></strong>to add another rating choice.</li> 
+  </ul> 
+  <p>Under the <strong>Required Ratings </strong>tab, re-enter items from the list of <strong>Allowed Ratings</strong> that are required to be rated. If an item is only specified on the Allowed Ratings tab, it may be left unmarked when submitted by the member. </p> 
+  <p>On the website, required ratings are marked with an asterisk. If an item is required and left unmarked, a message is displayed to the member and the submission is denied until all required ratings are marked.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-356.png" />
+  <ul> 
+   <li><strong>Required Ratings</strong><br /> A subset of allowed ratings, indicating which ratings are required.<br /> Use the up arrow, down arrow and delete buttons to modify the visible selections.<br /> Click <strong><u>Add Item </u></strong>to add another response choice.</li> 
+  </ul> 
+  <note>
+   <p>If an item is entered on the <strong>Required Ratings</strong> tab that is not specified on the <strong>Allowed Ratings</strong> tab, then it is not included in the items to rate. </p> 
+  </note>
+  <p>Under the <strong>Reviews </strong>tab, specify how reviews are handled.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-357.png" />
+  <ul> 
+   <li><strong>Allow Replies</strong><br /> If checked, allow replies to reviews. Default is unchecked.</li> 
+   <li><strong>Closed</strong><br /> If checked, the review is closed to new reviews and replies. Default is unchecked.</li> 
+   <li><strong>Allow File Uploads</strong><br /> If checked, allow file attachments to be uploaded for the review. Default is unchecked.</li> 
+   <li><strong>Max File Size</strong><br /> Relevant only if <strong>Allow File Uploads</strong> is checked. This field limits the size (in bytes) of an uploaded file. Default is 10 MB.</li> 
+   <li><strong>Max Message Length</strong><br /> Maximum number of characters that may be entered into the text box. Default is 4096 characters.</li> 
+   <li><strong>Allowed File Types</strong><br /> Relevant only if <strong>Allow File Uploads</strong> is checked. A comma separated list of file extensions with the "dot" separater. For example : .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed. Default is none specified such that<strong> </strong>all file types are allowed.</li> 
+   <li><strong>Rich Text Editor</strong><br /> If checked, posts may be entered with markup. Default is unchecked.</li> 
+   <li><strong>Allow Voting</strong><br /> If checked, include the Voting feature for a topic. Default is unchecked.</li> 
+  </ul> 
+  <p>Under the <strong>User Moderation </strong>tab, specify how the posted reviews are managed. For more information, see <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-358.png" />
+  <ul> 
+   <li><strong>Pre-Moderation</strong><br /> If checked, reviews must be approved before they will appear on a publish site. Default is unchecked.</li> 
+   <li><strong>Delete Reviews</strong><br /> If checked, the member who posted the review is provided the ability to delete it. Default is unchecked.</li> 
+   <li><strong>Deny Reviews</strong><br /> If checked, allow moderators to deny reviews. Default is unchecked.</li> 
+   <li><strong>Close / Reopen Reviews</strong><br /> If checked, allow moderators to close and reopen reviews. Default is unchecked.</li> 
+   <li><strong>Flag Reviews</strong><br /> If checked, allow members to flag reviews as inappropriate. Default is unchecked.</li> 
+   <li><strong>Flag Reason List</strong><br /> If checked, allow members to choose, from a drop-down list, their reason for flagging a review as inappropriate. Default is unchecked.</li> 
+   <li><strong>Custom Flag Reason</strong><br /> If checked, allow members to enter their own reason for flagging a review as inappropriate. Default is unchecked.</li> 
+   <li><strong>Moderation Threshold</strong><br /> Enter the number of times a review has to be flagged by members before moderators are notified. Default is one time (1).</li> 
+   <li><strong>Flagging Limit</strong><br /> Enter the number of times a review has to be flagged before it is hidden from public view. This number must be greater than or equal to the <strong>Moderation Threshold</strong>. Default is 5.</li> 
+  </ul> 
+  <h3>Adding a Review Summary (Display) to a Page</h3>
+  <p>To add a <span class="code">Reviews Summary (Display)</span> component to a page in author mode, locate the component</p> 
+  <ul> 
+   <li><span class="code">Communities / Reviews Summary (Display)</span></li> 
+  </ul> 
+  <p>and drag it into place on a page where a summary of an active or closed review is to be displayed.</p> 
+  <p>For necessary information, visit <a href="../../communities/using/basics.md">Communities Components Basics</a>.</p> 
+  <p>When the <a href="../../communities/using/reviews-basics.md#essentialsforclientside">required client-side libraries</a> are included, this is how the <span class="code">Reviews Summary (Display)</span>component will appear.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-359.png" />
+  <note>
+   <p>The "Average" reflects the votes for the first item listed on the Allowed Ratings tabs of the review being summarized.</p> 
+  </note>
+  <h3>Configuring Reviews Summary (Display)</h3>
+  <p>Select the placed <span class="code">Reviews Summary (Display)</span> component to access and select the <span class="code">Configure</span> icon which opens the edit dialog.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-360.png" />
+  <p>Under the <strong>Review Summary</strong> tab</p> 
+  <img imageRotate="0" src="assets/chlimage_1-361.png" />
+  <ul> 
+   <li><span class="code">Review Path</span><br /> enter or browse to the placed instance of the <span class="code">reviews </span>component to summarize, for example, if added to the Web Page of the <a href="../../communities/using/getting-started.md">Geometrixx Engage site,</a> the path would be :<br /> /content/sites/engage/en/page/jcr:content/content/primary/reviews</li> 
+   <li><span class="code">Include histogram</span><br /> If checked, include the display of a bar graph indicating how many of each star rating there are in the reviews being summarized. Default is unchecked.</li> 
+  </ul> 
+  <h3>Changing to a Custom Review Type</h3>
+  <p>The Reviews component uses the Comment System.</p> 
+  <p>By changing the Comment Resource Type, the comment system will no longer generate an instance of a comment using the default, but rather one that has been customized (extended) by developers.</p> 
+  <p>Once the custom resource types is known, enter <a href="../../sites/authoring/using/default-components-designmode.md">Design Mode</a> and double click on the placed <span class="code">Comments</span> component to open a dialog with an additional tab.</p> 
+  <p>Under the <strong>Resource Types </strong>tab, specify the custom resourceType for new instances of the <span class="code">Comments or Voting </span>components :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-362.png" />
+  <ul> 
+   <li><strong>Comment Resource Type</strong><br /> Navigate to the resourceType of an extended <span class="code">comment </span>component (single comment) in /apps. For example, <span class="code">/apps/social/commons/components/hbs/comments/comment</span><br /> This resource will identify the resourceType of the UGC created when a visitor posts a comment.</li> 
+   <li><strong>Voting Resource Type</strong><br /> Navigate to the resourceType of an extended <span class="code">voting </span>component in /apps. For example, <span class="code">/apps/social/components/hbs/voting</span><br /> This resource will identify the resource type of the UGC created when a visitor posts a vote.</li> 
+   <li><strong>Comment System Resource Type</strong><br /> Navigate to the resourceType of an extended <span class="code">comments </span>component (Comment System) in /apps. Leave blank unless the page template <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent">dynamically includes</a> the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the <a href="../../communities/using/handlebars-helpers.md#include">{{include}} helper</a></li> 
+  </ul> 
+  <h3>Site Visitor Experience</h3>
+  <h4>Moderators and Administrators</h4>
+  <p>When the signed in user has moderator or administrator privileges, they are able to perform the moderation tasks permitted by the configuration of the component, regardless of who authored the review.</p> 
+  <h4>Members</h4>
+  <p>When the site visitor is signed in, depending on the configuration, they may</p> 
+  <ul> 
+   <li>post a new review</li> 
+   <li>edit their own review</li> 
+   <li>delete their own review</li> 
+   <li>flag others' review comments</li> 
+  </ul> 
+  <p>Only one rating per member is allowed. The member may change their rating at any time.</p> 
+  <h4>Anonymous</h4>
+  <p>Site visitors who are not signed in may only read posted reviews, translate them if supported, but may not add a rating or a review, nor flag others' review comments.</p> 
+  <h3>Additional Information</h3>
+  <p>More information may be found on the <a href="../../communities/using/reviews-basics.md">Review Essentials</a> page for developers.</p> 
+  <p>For moderation of posted comments, see <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+  <p>For translation of posted comments, see <a href="../../communities/using/translate-ugc.md">Translating User Generated Content</a>.</p> 
+ </body>
+</html>

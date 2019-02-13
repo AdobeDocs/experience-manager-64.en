@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/tag-ugc.html" name="publishExternalURL" />
+  <meta content="Tagging User Generated Content" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="2017-10-31T16:33:15.879-0400" name="firstPublishExternalDate" />
+  <meta content="18d64a10-a169-4851-99a9-24f7322d2a5a" name="jcr:predecessors" />
+  <meta content="2018-04-03T08:03:30.198-0400" name="cq:lastReplicated" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-05-17T05:55:01.497-0400" name="locHandOffDate" />
+  <meta content="Janice Kendall" name="contentOwner" />
+  <meta content="2017-12-01T19:01:11.826-0500" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/content/docs/en/aem/6-3/administer/communities/tag-ugc" name="qaNotes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="Tagging User Generated Content" name="seoTitle" />
+  <meta content="Tagging of user generated content (UGC) is how community members can help other members search for content" name="seoDescription" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="2018-05-17T05:55:01.498-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" />
+  <meta content="2018-04-03T08:03:29.050-0400" name="topicBrowsingSortDate" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Tagging User Generated Content" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-04-03T08:03:29.050-0400" name="lastPublishExternalDate" />
+  <meta content="2018-04-03T08:03:29.050-0400" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="696231ff-f016-4cc4-9336-c4e1829ff0a1" name="jcr:uuid" />
+ </head>
+ <body>
+  <h2>Overview</h2>
+  <p>Tagging of user generated content (UGC) is the means by which community members can help other members search for content.</p> 
+  <p>Typically, tags are applied by authors and administrators in the author environment. Tagging UGC is unique in that UGC tags are applied by community members in the publish envronment.</p> 
+  <p>The tag namespaces and taxonomies are the same for both applications.</p> 
+  <h2>Communities Features</h2>
+  <p>The AEM Communities features which can be configured to allow tagging are</p> 
+  <ul> 
+   <li><a href="../../communities/using/blog-feature.md">Blog</a></li> 
+   <li><a href="../../communities/using/calendar.md">Calendar</a></li> 
+   <li><a href="../../communities/using/file-library.md">File Library</a></li> 
+   <li><a href="../../communities/using/forum.md#configuretheaddedforum">Forum</a></li> 
+   <li><a href="../../communities/using/working-with-qna.md">Questions and Answers</a></li> 
+  </ul> 
+  <h2>Administering Tags</h2>
+  <p>See <a href="../../sites/administering/using/tags.md#taggingconsole">Administering Tags</a> for creating and managing tag namespaces and taxonomies.</p> 
+  <p>See <a href="../../communities/using/tag.md">Tag Essentials</a> for developer information.</p> 
+  <p>See <a href="../../communities/using/tagcloud.md">Using Social Tag Cloud</a> for adding a Social Tag Cloud component to a page to facilitate searching for posted UGC using the tags applied.</p> 
+  <h3>Tag Permissions</h3>
+  <p>The default permissions are set to not allow tag namespaces to be read by everyone in the publish environment.</p> 
+  <p>Because tags are applied to UGC in the publish environment, read permission needs to be enabled for community members in order for them to be able to select tags to apply.</p> 
+  <p>See <a href="../../sites/administering/using/tags.md#settingtagpermissions">Setting Tag Permissions</a>.</p> 
+  <p>The following is how it appears in CRXDE when an administrator applies read permissions to <span class="code">/etc/tag/discussions</span> for the group <span class="code"><i>Community Engage Members</i></span>.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-77.png" />
+ </body>
+</html>

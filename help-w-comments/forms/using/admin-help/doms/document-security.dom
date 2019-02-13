@@ -1,0 +1,197 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/document_security_admin_5e12de0b318c6865_2315_report.xml" name="acrolinxReportURL" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2016-05-31T06:59:38.883-0400" name="acrolinxDate" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="6a845f71-6fe1-421d-aa9c-3296d2b0cf01" name="jcr:predecessors" />
+  <meta content="About document security " name="jcr:title" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2017-10-31T16:32:16.361-0400" name="publishExternalDate" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="Learn how you can create, store, and apply predefined confidentiality settings, and distribute your information safely using document security." name="seoDescription" />
+  <meta content="2018-04-26T04:23:49.089-0400" name="locHandOffDate" />
+  <meta content="2017-12-01T19:07:33.950-0500" name="jcr:created" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/document-security.html" name="publishExternalURL" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb6635a98c12905cdf75d-7ff5.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7db5.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7dad.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb6635a98c12905cdf75d-7ffe.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb6635a98c12905cdf75d-7fef.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb6635a98c12905cdf75d-7ffc.2" name="cq:gepId" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="2018-04-03T09:09:59.238-0400" name="cq:lastReplicated" />
+  <meta content="About document security" name="navTitle" />
+  <meta content="2016-04-20T10:05:12.310-0400" name="firstPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="121" name="acrolinxSentences" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="ffe3aca8-ab70-4388-b4f0-079d231d928e" name="jcr:uuid" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2016-02-05T03:27:22.630-0500" name="lr_lastModified" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_document_security;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-04-26T04:23:49.090-0400" name="cq:lastModified" />
+  <meta content="2017-10-31T16:32:16.361-0400" name="lastPublishExternalDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="video" name="pageLayout" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2513" name="acrolinxWords" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/working_with_document_security;/content/help/en/experience-manager/6-4/forms/morehelp/working_with_document_security" name="moreHelpPaths" />
+ </head>
+ <body>
+  <p>Document security ensures that only authorized users can use your documents. Using document security, you can safely distribute any information that you have saved in a supported format. Supported file formats include:</p>
+  <ul> 
+   <li><p>Adobe PDF files</p> </li> 
+   <li><p>Microsoft® Word, Excel, and PowerPoint files</p> </li> 
+  </ul> 
+  <p>For more information about how policies protect supported file types, see <a href="http://www.adobe.com/go/learn_aemforms_doc_security_63">Additional document security information</a>.</p> 
+  <p>Using document security, you can easily create, store, and apply predefined confidentiality settings to your documents. To prevent information from spreading beyond your reach, you can also monitor and control how recipients use your documents after you distribute them.</p> 
+  <p>You can protect documents by using policies. A <em>policy</em> is a collection of information that includes confidentiality settings and a list of authorized users. The confidentiality settings you specify in a policy determine how a recipient can use a document to which you apply the policy. For example, you can specify whether recipients can print or copy text, edit text, or add signatures and comments to protected documents.</p> 
+  <p>Document security users create policies through the end-user web pages. Administrators use the document security web pages to create policy sets that contain shared policies that are available to all authorized users.</p> 
+  <p>Although policies are stored in document security, you apply them to documents through your client application. How to apply policies to PDF documents is described in detail in <em>Acrobat Help</em>. Applying policies by using other applications, such as Microsoft Office, is documented in the <em>Acrobat Reader DC extensions Help</em> for the application.</p> 
+  <p>When you apply a policy to a document, the confidentiality settings specified in the policy protect the information that the document contains. The confidentiality settings also protect any files (text, audio, or video) within a PDF document. You can distribute the policy-protected document to recipients who are authorized by the policy.</p> 
+  <p><strong>Document access control and auditing</strong></p>
+  <p>Using a policy to protect a document gives you ongoing control over that document, even after you distribute it. You can monitor the document, make changes to the policy, prevent users from continuing to access the document, and switch the policy that is applied to the document.</p>
+  <p>Through document security, you can monitor policy-protected documents and track events, such as when an authorized or unauthorized user attempts to open the document. </p>
+  <p><strong>Components</strong></p>
+  <p>Document security consists of a server and user interface:</p>
+  <p><strong>Server:</strong> The central component through which document security performs transactions such as user authentication, real-time management of policies, and application of confidentiality. The server also provides a central repository for policies, audit records, and other related information. </p>
+  <p><strong>Web pages:</strong> The interface where you create policies, manage your policy-protected documents, and monitor events that are associated with policy-protected documents. Administrators can also configure global options such as user authentication, auditing, and messaging for invited users, and manage invited user accounts.</p>
+  <img alt="" src="assets/rm_psworkflow.png" />
+  <p>The steps in the illustration are as follows:</p>
+  <ol>
+   <li><p>The document owner creates policies using the web pages. Document owners can create personal policies that are accessible only to them. Administrators and policy set coordinators can create shared policies within policy sets that are accessible to authorized users. </p></li>
+   <li><p>The document owner applies the policy, and then saves and distributes the document. The document can be distributed by email, through a network folder, or on a website. </p></li>
+   <li><p>The recipient opens the document in the appropriate client application. The recipient can use the document according to its policy.</p></li>
+   <li><p>The document owner, policy set coordinator, or administrator can track documents and modify access to them using the web pages.</p></li>
+  </ol>
+  <h2 id="about_document_security_users">About document security users</h2>
+  <p></p>
+  <p>Various types of users work with document security to accomplish different tasks:</p>
+  <ul>
+   <li><p>The system administrator or other information systems (IS) person installs and configures document security. This person may also be responsible for configuring global settings for the server, web pages, and policies and documents. </p><p>These settings may include, for example, a base document security URL, auditing and privacy notifications, invited user registration notices, and default offline lease periods. </p></li>
+   <li><p>Document security administrators create policies and policy sets, and manage policy-protected documents for users as required. They also create invited user accounts, and monitor system, document, user, policy, policy set, and custom events. They may also be responsible for configuring the global server, and web page and policy settings in conjunction with a system administrator. </p><p>Administrators can assign users the following roles in the User Management area of administration console. Users who are assigned these roles perform their tasks in the document security user interface area of administration console. </p><p>Users with this role have access to all of the document security settings in administration console. These permissions are associated with the role:</p>
+    <ul>
+     <li><p>Manage configuration</p></li>
+     <li><p>Manage policy</p></li>
+     <li><p>Manage policy sets</p></li>
+     <li><p>Manage documents</p></li>
+     <li><p>Manage document publishers</p></li>
+     <li><p>Manage invited and local users</p></li>
+     <li><p>View events</p></li>
+     <li><p>Delegate</p></li>
+     <li><p>Invite external users</p></li>
+    </ul><p>Users with this role can configure the document security server, using the Configuration page in document security section of administration console. This permission is associated with the role, Manage Configuration.</p><p>Users with this role can use the document security section of administration console to edit other users’ polices and to create, edit, and delete policy sets. When a policy set administrator creates a policy set, they can assign a policy set coordinator to that policy set. These permissions are associated with the role:</p>
+    <ul>
+     <li><p>Manage policy</p></li>
+     <li><p>Manage policy sets</p></li>
+     <li><p>Manage documents</p></li>
+     <li><p>Manage document publishers</p></li>
+     <li><p>View events</p></li>
+     <li><p>Delegate</p></li>
+    </ul><p>Users with this role can perform tasks required to manage all invited and local users on the relevant document security web pages. These permissions are associated with the role:</p>
+    <ul>
+     <li><p>Manage invited and local users</p></li>
+     <li><p>Invite external users</p></li>
+     <li><p>Access end-user web pages</p></li>
+    </ul><p>Users with this role can invite users. These permissions are associated with the role:</p>
+    <ul>
+     <li><p>Invite external users</p></li>
+     <li><p>Access end-user web pages</p></li>
+    </ul><p>Users with this role can access document security end-user web pages. This role can also be assigned to administrators to allow administrators to create policies using the end-user pages. This permission is associated with the role Access end-user web pages.</p></li>
+   <li><p>Users within the organization who have valid document security accounts create their own policies, use policies to protect documents, track and manage their policy-protected documents, and monitor events that are related to their documents. </p></li>
+   <li><p>Policy set coordinators manage documents, view events, and manage other policy set coordinators (based on their permissions). Administrators designate users as policy set coordinators for particular policy sets.</p></li>
+   <li><p>Users who are external to your organization (for example, a business partner) can use policy-protected documents if they are in the document security document security directory, if the administrator creates an account for them, or if they register with document security through an automated email invitation process. Depending on how the administrator enables the access settings, the invited users may also have permission to apply policies to documents, to create, modify and delete their policies, and to invite other external users to use their policy-protected documents. </p></li>
+   <li><p>Developers use the AEM forms SDK to integrate custom applications with document security. </p></li>
+  </ul>
+  <p>Document security administrators can create custom roles by using the following permissions in User Management:</p>
+  <ul>
+   <li><p>Document security Manage Configuration </p></li>
+   <li><p>Document security Manage Invited and Local Users </p></li>
+   <li><p>Document security Manage Policy Sets </p></li>
+   <li><p>Document security Manage Policy Sets </p></li>
+   <li><p>Document security View Server Events </p></li>
+   <li><p>Document security Change Policy Owner </p></li>
+  </ul>
+  <h2 id="policies_and_policy_protected_documents">Policies and policy-protected documents</h2>
+  <p></p>
+  <p>A <i>policy</i> defines a set of confidentiality settings and users who can access a document to which the policy is applied. A policy also enables the permissions on a document to be changed dynamically. It gives the person who secures the document permission to change the confidentiality settings to revoke access to the document or to switch the policy. </p>
+  <p>Policy protection can be applied to a PDF document by using Adobe Acrobat® Pro and Acrobat Standard. Policy protection can be applied to other file types, such as Microsoft Word, Excel, and PowerPoint files, by using the client application with the appropriate Acrobat Reader DC extensions installed.</p>
+  <h3 id="how_policies_work">How policies work</h3>
+  <p></p>
+  <p>Policies contain information about the authorized users and the confidentiality settings to apply to documents. Users can be any one in your organization, as well as people who are external to your organization who have an account. If the administrator enables the user invitation feature, it is even possible to add new users to policies, therefore initiating a registration invitation email process.</p>
+  <p>The confidentiality settings in a policy determine how the recipients can use the document. For example, you can specify whether recipients can print or copy text, make changes, or add signatures and comments to protected documents. The same policy can also specify different confidentiality settings for specific users. </p>
+  <note>
+   <p>Confidentiality settings that are applied through a policy override any settings that may have been applied to a PDF document in Acrobat by using the password or certificate security options. (See Acrobat Help for more information.)</p>
+  </note>
+  <p>Users and administrators create policies through the document security web pages. Only one policy at a time can be applied to a document. You can apply a policy by using one of these methods: </p>
+  <ul>
+   <li><p>Open the document in Acrobat or another client application and select a policy to secure the document.</p></li>
+   <li><p>Send a document as an email attachment in Microsoft Outlook. In this case, you can select a policy from a list of policies or select an auto-generated policy that Acrobat creates with a default set of confidentiality settings to protect the document only for the email message recipients.</p></li>
+  </ul>
+  <p>A policy can be removed from a document by using the client application.</p>
+  <img alt="" src="assets/rm_psonline_policy.png" />
+  <p>The steps in the diagram are as follows:</p>
+  <ol>
+   <li><p>The document owner secures the document from a supported client application with a policy that allows online use. </p></li>
+   <li><p>Document security creates a document license and document keys, and encrypts the policy. The document license, encrypted policy, and document key are returned to the client application.</p></li>
+   <li><p>The document is encrypted with the document key, and the document key is discarded. The document now embeds the license and policy. These tasks are performed in the supported client application.</p></li>
+  </ol>
+  <p>When you apply a policy to a document, the information that the document contains, including any contained files (text, audio, or video) in PDF documents, is protected by the confidentiality settings that are specified in the policy. Document security generates a license and encryption information that is then embedded in the document. When you distribute the document, document security can authenticate the recipients who attempt to open the document and authorize access according to the privileges specified in the policy.</p>
+  <p>If offline usage is enabled, recipients can also use policy-protected documents offline (without an active Internet or network connection) for the time period specified in the policy.</p>
+  <h3 id="how_policy_protected_documents_work">How policy-protected documents work</h3>
+  <p></p>
+  <p>To open and use policy-protected documents, the policy must include your name as a recipient, and you must have a valid document security account. For PDF documents, you need Acrobat or Adobe Reader®. For other file types, you need the appropriate application for the file with the Acrobat Reader DC extensions installed.</p>
+  <p>When you attempt to open a policy-protected document, Acrobat, Adobe Reader, or the Acrobat Reader DC extensions connects to document security to authenticate you. Then, you can proceed to log on. If the document usage is being audited, a notification message appears. After document security determines which document permissions to grant, it manages the decryption of the document. You can then use the document according to the policy confidentiality settings. </p>
+  <img alt="" src="assets/rm_psopen_online.png" />
+  <p>The steps in the diagram are as follows:</p>
+  <ol>
+   <li><p>The document user opens the document in a supported client application and authenticates with the server. The document identifier is sent to the document security server.</p></li>
+   <li><p>Document security authenticates the users, checks the policy for authorization, and creates a voucher. The voucher (which contains the document key and permissions) is returned to the client application.</p></li>
+   <li><p>The document is decrypted with the document key, and the document key is discarded. The document can then be used according to the confidentiality settings of the policy. These tasks are performed in the supported client application.</p></li>
+  </ol>
+  <p>You can continue to use a document under these conditions:</p>
+  <ul>
+   <li><p>Indefinitely or for the validity period that is specified in the policy</p></li>
+   <li><p>Until the administrator or the person who applied the policy revokes access to the document or changes the policy</p></li>
+  </ul>
+  <p>You can also use policy-protected documents offline (without an Internet or network connection) if the policy permits offline access. You must first log in to document security to synchronize the document. You can then use the document for the duration of the offline lease period that is specified in the policy. </p>
+  <p>When the offline lease period ends, you must synchronize the document with document security again, either by going online and opening a policy-protected document or by using a command in the client application. (See <i>Acrobat Help</i> or the appropriate <i>Acrobat Reader DC extensions Help</i> for details.) </p>
+  <p>If you save a copy of a policy-protected document by using the Save or Save As menu command, the policy is automatically applied and enforced for the new document. Events such as attempts to open the new document are also audited and recorded for the original document.</p>
+  <h2 id="policy_sets">Policy sets</h2>
+  <p></p>
+  <p><i>Policy sets</i> are used to group a set of policies that have a common business purpose. These policy sets are then made available to a subset of users in the system.</p>
+  <p>Each policy set can have one or more associated policy set coordinators. The policy set coordinator is an administrator or a user who has additional permissions. The <i>policy set coordinator</i> is typically a specialist in the organization who can best author the policies in a particular policy set.</p>
+  <p>Policy set coordinators can perform these tasks: </p>
+  <ul>
+   <li><p>Create new policies</p></li>
+   <li><p>Edit and delete any policy in the policy set</p></li>
+   <li><p>Edit policy set settings</p></li>
+   <li><p>Add and remove policy set coordinators</p></li>
+   <li><p>View policy and document events for any policy or document within the policy set</p></li>
+   <li><p>Revoke access to documents</p></li>
+   <li><p>Switch policies for the document.</p></li>
+  </ul>
+  <p>Policy sets are created and deleted in the document security administration web pages by administrators and policy set coordinators who have permission to do so.</p>
+  <p></p>
+  <p>Policy sets are generally made available to a limited number of users by specifying which users or groups within a domain can use the policies from the policy set to protect documents.</p>
+  <p>When document security is installed, a default policy set is created called <i>Global Policy Set</i>. The administrator who installed the software manages this policy set.</p>
+  <draft-comment lastModifiedBy="" prevFirstName="unknown" prevLastName="unknown" type="remark">
+   <p>End RMAdminOnly</p>
+  </draft-comment>
+ </body>
+</html>

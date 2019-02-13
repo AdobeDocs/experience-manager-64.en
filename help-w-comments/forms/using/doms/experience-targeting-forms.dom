@@ -1,0 +1,90 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-07-05T06:02:57.843-0400" name="acrolinxDate" /> 
+  <meta content="849" name="acrolinxWords" /> 
+  <meta content="2018-07-05T06:42:27.069-0400" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/experience-targeting-forms.html" name="publishExternalURL" /> 
+  <meta content="khsingh" name="acrolinxLastCheckedBy" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/integrations;/content/help/en/experience-manager/6-4/forms/morehelp/integrations" name="moreHelpPaths" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-11-09T05:32:38.415-0500" name="locHandOffDate" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Use Target in AEM Forms to create customized experiences for targeted customers. " name="seoDescription" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2015-11-20T08:12:12.026-0500" name="lastPublishQADate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="72" name="acrolinxSentences" /> 
+  <meta content="2018-07-05T06:42:27.069-0400" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Create targeted experiences in AEM Forms" name="jcr:title" /> 
+  <meta content="2018-07-05T06:42:27.069-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-07-05T06:42:27.101-0400" name="cq:lastReplicated" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="4f4b6b6c-5bba-463a-8749-2f19e31d02da" name="jcr:predecessors" /> 
+  <meta content="2018-08-13T06:05:20.507-0400" name="cq:lastModified" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/experience_targeting_forms_krs_workflow_e3d4e63f2164900e_135_report.xml" name="acrolinxReportURL" /> 
+  <meta content="178b9d59-2ab4-4b37-a339-cc4e8d4bc2c4" name="jcr:uuid" /> 
+  <meta content="2018-03-05T08:01:25.563-0500" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:integrations" name="cq:tags" /> 
+  <meta content="2016-04-20T09:31:01.515-0400" name="firstPublishExternalDate" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+ </head> 
+ <body> 
+  <h2>Integrate Adobe Target with AEM Forms</h2> 
+  <p>Adobe Target integrated with AEM lets you create experiences customized for a target audience. With Adobe Target, you can create A/B tests, measure user response, and generate customized web content for targeted users. You can integrate Adobe Target with AEM Forms to target image components of adaptive forms and interactive communications.</p> 
+  <p>Configure Adobe Target in AEM to use it with adaptive forms and interactive communications, see <a href="../../sites/administering/using/target.md" target="_blank">Creating a Target Configuration in AEM</a> and <a href="../../sites/administering/using/target.md" target="_blank">Add a Framework</a>.</p> 
+  <note> 
+   <p>Targeting works when your adaptive form or interactive communication is rendered using a host name or IP address. It fails when your adaptive form or interactive communication is rendered using localhost. </p> 
+  </note> 
+  <h2>Creating a Target Activity</h2> 
+  <ol> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Tap <strong>Adobe Experience Manager &amp;gt; Personalization &amp;gt; Activities</strong>. </p>   </li> 
+   <li><p>In the Activities page, tap <strong>Create &amp;gt; Create Brand</strong>. <span class="kbd"></span> </p> </li> 
+   <li><p>You are asked to choose a template and enter properties.<br /> Select a template, tap <strong>Next.</strong> Enter the title of your brand in the Properties section, and tap <strong>Create.</strong><br /> Your brand is now listed in the Activities page. </p> </li> 
+   <li><p>Tap your brand in the Activities page. </p> </li> 
+   <li><p>In Master Area of your brand, tap <strong>Create &amp;gt;</strong> <strong>Create Activity</strong>.<br /> When you create an activity, you specify its details, target, and settings.</p> <p>The Details section includes name, targeting engine, and objective. When you select Adobe Target as the targeting engine, you get Target cloud configuration option enabled. Choose your Target cloud configuration, choose Activity type, provide the objective of the activity, and tap <strong>Next</strong>. Interactive Communication supports only Experience Targeting Activity type.<br /> </p> <p>The Target section lets you add audience experience and name it. Click <strong>Add Experience</strong> to enable the <strong>Select Audience</strong> and <strong>Name Experience</strong> options. Tap <strong>Select Audience </strong>to see a list of audiences and their source. Select an audience from the Audience Name list. Tap <strong>Add Experience</strong> to name the experience, and tap <strong>Next</strong>.</p> <p>The Goals &amp; Settings section lets you schedule and prioritize your activity. Set the start date, end date, and priority of the activity, goal metric, additional metric and tap <strong>Save</strong>.</p> <p>The activity is now listed in your brand page. </p> 
+    <note> 
+     <p>You may ignore the error "Your activity was saved but it wasn't synchronized to Target. Reason: The following experience has no offers", if encountered on saving the activity. </p> 
+    </note></li> 
+   <li><p>To enable target, edit the .jsp file to include client libraries that your adaptive forms template uses.</p> <p>For example, in the out-of-the-box implementation, click <strong>Tools </strong>&amp;gt; <strong>CRXDE Lite</strong>.</p> <p>In the CRXDE Lite address bar, type /libs/fd/af/components/page/base/head.jsp to edit the head.jsp file.</p> <p>This implementation uses simpleEnrollment template. In this implementation, modify the head.jsp file to include the following client libraries:</p>    </li> 
+   <li><p>To enable target framework for adaptive forms, navigate to your form or interactive communication, and open it in edit mode.</p> <p>To open a form or interactive communication in edit mode, tap <strong>Select, </strong>and then tap <strong>Open</strong>.</p> <p>Alternatively, four buttons appear when you move your pointer over the form or interactive communication icon without selecting it. You can tap the <strong>Edit</strong> button that appears, to open the form in edit mode. </p> </li> 
+   <li><p>In the page toolbar, tap <strong>Page Information</strong> <img src="assets/theme-options.png" /> &amp;gt; <strong>Open Properties</strong>. </p> </li> 
+   <li><p>In the General tab, choose a configuration for the <strong>Adobe Target</strong> field. Tap <strong>Save &amp; Close</strong>.<br /> </p> </li> 
+  </ol> 
+  <h2>Applying created activity to an adaptive form image or an interactive communication image</h2> 
+  <ol> 
+   <li><p>Open the adaptive form and interactive communication for editing. If you are opening an interactive communication, open the Web Channel. <br /> </p> </li> 
+   <li><p>In the authoring mode of your interactive communication or adaptive form, add an image to be targeted.</p> 
+    <note> 
+     <p>AEM Forms supports targeting only image components. Ensure that the panel hosting the image component does not contain any other component and the number of columns for the panel are set to 1.</p> 
+    </note></li> 
+   <li><p>Switch from <strong>Edit </strong>to <strong>Targeting </strong>mode. The option to switch modes is near the Top-Right corner. </p> </li> 
+   <li><p>Select a <strong>BRAND</strong>, select <strong>ACTIVITY</strong>, and tap <strong>Start Targeting</strong>. The <strong>Audiences </strong>menu appears on right side of the editor. </p> <img imageRotate="0" src="assets/targeting-menu.png" /></li> 
+   <li><p>Select an audience from the <strong>Audiences</strong> menu and tap the image to target. A menu appears. In the menu, tap <strong>Target</strong>. Tap the image and tap <strong>Configure</strong>. In the properties window, select the image to display for the selected audience. Repeat the step for all the audiences. The experience targeting is enabled for the image in the interactive communication or adaptive form.<br /> </p>  </li> 
+  </ol> 
+  <h2>Check if the created activity syncs with the Target server</h2> 
+  <p>An activity used for targeting syncs with the Target server. To check if your activity is in sync with the target server, check the status of your activity in your brand page.</p> 
+  <p>Ensure that the status of the activity is Synced. </p> 
+  <h2>Validate Target behavior</h2> 
+  <p>To validate Target behavior:</p> 
+  <ul> 
+   <li>Use targeting with <span class="code">wcmmode preview</span> in the author mode</li> 
+   <li>Use targeting with <span class="code">wcmmode preview</span> and <span class="code">wcmmode disabled</span> in the publish mode</li> 
+  </ul> 
+  <h2>Monitor targeting for the image component</h2> 
+  <p>To monitor targeting for image components on your form, publish your images, activities, and adaptive form. </p> 
+  <h2>Open Issues</h2> 
+  <p>Visibility expression, set focus fail for targeted images on adaptive forms.</p> 
+ </body> 
+</html>

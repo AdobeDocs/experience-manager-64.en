@@ -1,0 +1,115 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-03T08:02:30.788-0400" name="topicBrowsingSortDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="SRP and UGC Essentials" name="navTitle" /> 
+  <meta content="2018-05-17T05:52:27.223-0400" name="cq:lastModified" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/srp-and-ugc.html" name="publishExternalURL" /> 
+  <meta content="Storage resource provider and user-generated content overview" name="seoDescription" /> 
+  <meta content="2018-04-03T08:02:32.315-0400" name="cq:lastReplicated" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/developing;/content/help/en/experience-manager/6-4/communities/morehelp/developing" name="moreHelpPaths" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="72ca1d54-c9eb-43b7-b230-34845081dce8" name="jcr:uuid" /> 
+  <meta content="08d22ce2-07cc-408a-88ad-dbc12af46579" name="jcr:predecessors" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/srp" name="qaNotes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-03T08:02:30.788-0400" name="lastPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="SRP and UGC Essentials" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-03T08:02:30.788-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:33:17.167-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-12-01T19:01:59.062-0500" name="jcr:created" /> 
+  <meta content="SRP and UGC Essentials" name="jcr:title" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-05-17T05:52:27.222-0400" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <h2>Introduction</h2> 
+  <p>If unfamiliar with the storage resource provider (SRP) and its relationship to user-generated content (UGC), visit <a href="../../communities/using/working-with-srp.md">Community Content Storage</a> and <a href="../../communities/using/srp.md">Storage Resource Provider Overview</a>.</p> 
+  <p>This section of the documentation provides some essential information about SRP and UGC.</p> 
+  <h2>StorageResourceProvider API</h2> 
+  <p>The SocialResourceProvider API (SRP API) is an extension of various Sling Resource Provider APIs. It includes support for pagination and atomic increment (useful for tally and scoring). </p> 
+  <p>Queries are necessary for SCF components as there is the need to sort by date, helpfulness, number of votes, and so on. All SRP options have flexible query mechanisms which do not rely on bucketing.</p> 
+  <p>The SRP storage location incorporates the component path. The SRP API should always be used to access UGC as the root path depends on the SRP option selected, such as ASRP, MSRP, or JSRP.</p> 
+  <p>The SRP API is not an abstract class, it is an interface. A custom implementation should not be undertaken lightly, as the benefits of future improvements to internal implementations would be missed when upgrading to a new release.</p> 
+  <p>The means for using the SRP API are through provided utilities, such as those found in the SocialResourceUtilities package. </p> 
+  <p>When upgrading from AEM 6.0 or earlier, it will be necessary to migrate UGC for all SRPs, for which an Open Source tool is available. See <a href="../../communities/using/upgrade.md">Upgrading to AEM Communities 6.3</a>.</p> 
+  <note> 
+   <p>Historically, utilities for accessing UGC were found in the SocialUtils package, which no longer exists.</p> 
+   <p>For replacement utilities, see <a href="../../communities/using/socialutils.md">SocialUtils Refactoring</a>.</p> 
+  </note> 
+  <h2>Utility Method to Access UGC</h2> 
+  <p>To access UGC, use a method from the SocialResourceUtilities package that returns a path suitable for accessing UGC from SRP and replaces the deprecated method found in the SocialUtils package. </p> 
+  <p>Following is a minimal example of using the resourceToUGCStoragePath() method in a servlet :</p> 
+  <codeblock class="syntax java">
+    import&amp;nbsp;com.adobe.cq.social.srp.utilities.api.SocialResourceUtilities;!!discoiqbr!!!!discoiqbr!!@Reference!!discoiqbr!!private&amp;nbsp;SocialResourceUtilities&amp;nbsp;socialResourceUtilities;!!discoiqbr!!!!discoiqbr!!@Override!!discoiqbr!!protected&amp;nbsp;void&amp;nbsp;doGet(final&amp;nbsp;SlingHttpServletRequest&amp;nbsp;request,&amp;nbsp;final&amp;nbsp;SlingHttpServletResponse&amp;nbsp;response)&amp;nbsp;throws&amp;nbsp;ServletException,&amp;nbsp;IOException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;String&amp;nbsp;ugcPath&amp;nbsp;=&amp;nbsp;socialResourceUtilities.resourceToUGCStoragePath(request.getResource());!!discoiqbr!!&amp;nbsp;&amp;nbsp;//&amp;nbsp;rest&amp;nbsp;of&amp;nbsp;servlet!!discoiqbr!!} 
+  </codeblock> 
+  <p>For other SocialUtils replacements, see <a href="../../communities/using/socialutils.md">SocialUtils Refactoring</a>.</p> 
+  <p>For coding guidelines, visit <a href="../../communities/using/accessing-ugc-with-srp.md">Accessing UGC with SRP</a>.</p> 
+  <note> 
+   <p>The path resourceToUGCStoragePath() returns is <i>not </i>suitable for <a href="../../communities/using/srp.md#foraccesscontrolacls">ACL checking</a>.</p> 
+  </note> 
+  <h2>Utility Method to Access ACLs</h2> 
+  <p>Some SRP implementations, such as ASRP and MSRP, store community content in databases which provide no ACL verification. Shadow nodes provide a location in the local repository to which ACLs can be applied.</p> 
+  <p>Using the SRP API, all SRP options perform the same check of the shadow location prior to all CRUD operations.</p> 
+  <p>To check ACLs, use a method that returns a path suitable for checking the permissions applied to the resource's UGC. </p> 
+  <p>Following is a simple example of using the resourceToACLPath() method in a servlet :</p> 
+  <codeblock class="syntax java">
+    import&amp;nbsp;com.adobe.cq.social.srp.utilities.api.SocialResourceUtilities;!!discoiqbr!!!!discoiqbr!!@Reference!!discoiqbr!!private&amp;nbsp;SocialResourceUtilities&amp;nbsp;socialResourceUtilities;!!discoiqbr!!!!discoiqbr!!@Override!!discoiqbr!!protected&amp;nbsp;void&amp;nbsp;doGet(final&amp;nbsp;SlingHttpServletRequest&amp;nbsp;request,&amp;nbsp;final&amp;nbsp;SlingHttpServletResponse&amp;nbsp;response)&amp;nbsp;throws&amp;nbsp;ServletException,&amp;nbsp;IOException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;String&amp;nbsp;aclPath&amp;nbsp;=&amp;nbsp;socialResourceUtilities.resourceToACLPath(request.getResource());!!discoiqbr!!&amp;nbsp;&amp;nbsp;//&amp;nbsp;rest&amp;nbsp;of&amp;nbsp;servlet!!discoiqbr!!} 
+  </codeblock> 
+  <note> 
+   <p>The path returned by resourceToACLPath() is <i>not </i>suitable for <a href="#utilitymethodtoaccessacls">accessing the UGC</a> itself. </p> 
+  </note> 
+  <h2>UGC-Related Storage Locations</h2> 
+  <p>The following descriptions of storage location may be of help when developing with JSRP or perhaps MSRP. There is currently no UI to access UGC stored in ASRP, as there is for JSRP (<a href="../../sites/developing/using/developing-with-crxde-lite.md">CRXDE Lite</a>) and MSRP (MongoDB tools).</p> 
+  <p><strong>component location</strong></p> 
+  <p>When a member enters UGC in the publish environment, they are interacting with a component as part of an AEM site. </p> 
+  <p>An example of such a component is the <a href="http://localhost:4502/content/community-components/en/comments.html">comments component</a> that exists in the <a href="../../communities/using/components-guide.md">Community Components Guide</a> site. The path to the comment node in the local repository is :</p> 
+  <ul> 
+   <li>component path = <i>/content/community-components/en/comments/jcr:content/content/includable/comments</i></li> 
+  </ul> 
+  <p><strong>shadow node location</strong></p> 
+  <p>The creation of UGC also creates a <a href="../../communities/using/srp.md#aboutshadownodesinjcr">shadow node</a> to which the necessary ACLs are applied. The path to the corresponding shadow node in the local repository is the result of prepending the shadow node root path to the component path :</p> 
+  <ul> 
+   <li>root path = /content/usergenerated</li> 
+   <li>comment shadow node = /content/usergenerated<i>/content/community-components/en/comments/jcr:content/content/includable/comments</i></li> 
+  </ul> 
+  <p><strong>UGC location</strong></p> 
+  <p>The UGC is created in neither of those locations, and should only be accessed using an <a href="#utilitymethodtoaccessugc">utility method</a> which invokes the SRP API.</p> 
+  <ul> 
+   <li>root path = /content/usergenerated/asi/<i>&amp;lt;srp-choice&amp;gt;</i></li> 
+   <li>UGC node for JSRP = /content/usergenerated/asi/jcr<i>/content/community-components/en/comments/jcr:content/content/includable/comments</i>/srzd-let_it_be_</li> 
+  </ul> 
+  <p><i>Be aware</i>, for JSRP, the UGC node will <i>only </i>be present on the AEM instance (either author or publish) on which it was entered. If entered on a publish instance, moderation will not be possible from the moderation console on author.</p> 
+  <draft-comment type="draft"> 
+   <h2>SRP Tools</h2> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>The customer can use an opensource tool to clean their report suites. The tool is here:</p> 
+   <p><a href="https://github.com/Adobe-Marketing-Cloud/aem-communities-srp-tools">https://github.com/Adobe-Marketing-Cloud/aem-communities-srp-tools</a></p> 
+   <p>The customer can self-manage their report suites. We don’t yet have a UI to manage UGC, but the source to the command line tool is available in that repo if the customer would like to fork and enhance it</p> 
+  </draft-comment> 
+  <h2>Related Information</h2> 
+  <ul> 
+   <li><a href="../../communities/using/srp.md">Storage Resource Provider Overview</a> - introduction and repository usage overview</li> 
+   <li><a href="../../communities/using/accessing-ugc-with-srp.md">Accessing UGC with SRP</a> - coding guidelines</li> 
+   <li><a href="../../communities/using/socialutils.md">SocialUtils Refactoring</a> - mapping deprecated utility methods to current SRP utility methods</li> 
+  </ul> 
+ </body> 
+</html>

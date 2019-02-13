@@ -1,0 +1,71 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="vishgupt@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:33:04.444-0400" name="lastPublishExternalDate" /> 
+  <meta content="Introducing Java API(SOAP) Quick Start" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-8000.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-171c1d181336a34f42f-7ffe.2" name="cq:gepId" /> 
+  <meta content="4f97e166-7a96-4323-97d5-e3772daa0561" name="jcr:predecessors" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2017-11-01T04:29:30.955-0400" name="unpublishExternalDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-04-03T08:22:23.020-0400" name="cq:lastReplicated" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="bf33e558-1859-4043-83af-339c28c63242" name="jcr:uuid" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="sortDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/developing/morehelp/develop;/content/help/en/experience-manager/6-4/forms/developing/morehelp/development-tools;/content/help/en/experience-manager/6-4/forms/developing/morehelp/develop;/content/help/en/experience-manager/6-4/forms/developing/morehelp/development-tools" name="moreHelpPaths" /> 
+  <meta content="Introducing Java API QuickStart" name="jcr:title" /> 
+  <meta content="2017-11-21T06:58:12.671-0500" name="cq:lastModified" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:develop;topic_tags:development-tools" name="cq:tags" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-03T06:48:34.090-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-07-12T07:03:38.575-0400" name="lr_lastModified" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2017-11-22T19:02:47.176-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>Adobe AEM Forms API Quick Start can help you accelerate your efforts to develop programs that interact with AEM Forms services. <i>Quick Start</i>s are complete programs that you can copy and paste into your own projects and use as a starting point. You can run a Quick Start to see how it behaves and modify it for your own needs. </p> 
+  <p>AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.</p> 
+  <p>Java strongly-typed API Quick Start provides a listing of JAR files that are required to execute the Java application. Most Java Quick Starts are console application that run within <span class="code">main</span>. However, the Forms Java strongly-typed API Quick Start is implemented as Java servlet that run within a web application. </p> 
+  <p>The JAR file listing is located in a comment section located at the beginning of the Quick Start. For example, the following comment is located in an Output quick start and is a typical JAR file listing found in each Java Quick Start.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     /*&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;This&amp;nbsp;Java&amp;nbsp;Quick&amp;nbsp;Start&amp;nbsp;uses&amp;nbsp;the&amp;nbsp;SOAP&amp;nbsp;mode&amp;nbsp;and&amp;nbsp;contains&amp;nbsp;the&amp;nbsp;following&amp;nbsp;JAR&amp;nbsp;files&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;in&amp;nbsp;the&amp;nbsp;class&amp;nbsp;path:&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;1.&amp;nbsp;adobe-output-client.jar&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;2.&amp;nbsp;adobe--client.jar&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;3.&amp;nbsp;adobe-usermanager-client.jar&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;&amp;nbsp;These&amp;nbsp;JAR&amp;nbsp;files&amp;nbsp;are&amp;nbsp;located&amp;nbsp;in&amp;nbsp;the&amp;nbsp;following&amp;nbsp;path:&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;&lt;install&amp;nbsp;directory&gt;/Adobe/Adobe_Experience_Manager_forms/SDK/client-libs/common&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;The&amp;nbsp;adobe-utilities.jar&amp;nbsp;file&amp;nbsp;is&amp;nbsp;located&amp;nbsp;in&amp;nbsp;the&amp;nbsp;following&amp;nbsp;path:&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;&lt;install&amp;nbsp;directory&gt;/Adobe/Adobe_Experience_Manager_forms/SDK/client-libs/jboss&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;The&amp;nbsp;jboss-client.jar&amp;nbsp;file&amp;nbsp;is&amp;nbsp;located&amp;nbsp;in&amp;nbsp;the&amp;nbsp;following&amp;nbsp;path:&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;&lt;install&amp;nbsp;directory&gt;/Adobe/Adobe_Experience_Manager_forms/jboss/bin/client&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;If&amp;nbsp;you&amp;nbsp;want&amp;nbsp;to&amp;nbsp;invoke&amp;nbsp;a&amp;nbsp;remote&amp;nbsp;AEM&amp;nbsp;Forms&amp;nbsp;instance&amp;nbsp;and&amp;nbsp;there&amp;nbsp;is&amp;nbsp;a&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;firewall&amp;nbsp;between&amp;nbsp;the&amp;nbsp;client&amp;nbsp;application&amp;nbsp;and&amp;nbsp;AEM&amp;nbsp;Forms,&amp;nbsp;then&amp;nbsp;it&amp;nbsp;is&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;recommended&amp;nbsp;that&amp;nbsp;you&amp;nbsp;use&amp;nbsp;the&amp;nbsp;SOAP&amp;nbsp;mode.&amp;nbsp;When&amp;nbsp;using&amp;nbsp;the&amp;nbsp;SOAP&amp;nbsp;mode,&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;you&amp;nbsp;have&amp;nbsp;to&amp;nbsp;include&amp;nbsp;additional&amp;nbsp;JAR&amp;nbsp;files&amp;nbsp;located&amp;nbsp;in&amp;nbsp;the&amp;nbsp;following&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;path&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;&lt;install&amp;nbsp;directory&gt;/Adobe/Adobe_Experience_Manager_forms/SDK/client-libs/thirdparty&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;For&amp;nbsp;information&amp;nbsp;about&amp;nbsp;the&amp;nbsp;SOAP&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;mode&amp;nbsp;and&amp;nbsp;the&amp;nbsp;additional&amp;nbsp;JAR&amp;nbsp;files&amp;nbsp;that&amp;nbsp;need&amp;nbsp;to&amp;nbsp;be&amp;nbsp;included,&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;see&amp;nbsp;"Setting&amp;nbsp;connection&amp;nbsp;properties"&amp;nbsp;in&amp;nbsp;Programming&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;with&amp;nbsp;AEM&amp;nbsp;Forms&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;For&amp;nbsp;complete&amp;nbsp;details&amp;nbsp;about&amp;nbsp;the&amp;nbsp;location&amp;nbsp;of&amp;nbsp;the&amp;nbsp;AEM&amp;nbsp;Forms&amp;nbsp;JAR&amp;nbsp;files,&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;see&amp;nbsp;"Including&amp;nbsp;AEM&amp;nbsp;Forms&amp;nbsp;library&amp;nbsp;files"&amp;nbsp;in&amp;nbsp;Programming&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;with&amp;nbsp;AEM&amp;nbsp;Forms&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/ 
+  </codeblock> 
+  <h2 id="multiple_services_quick_start">Multiple Services Quick Start</h2> 
+  <p></p> 
+  <p>Most Quick Starts located in <i>Programming with AEM Forms </i>invoke a specific service in order to perform an operation. However, some Quick Starts invoke multiple AEM Forms services in order to perform a given workflow. The following list provides Java quick starts that invoke more than one AEM Forms service:</p> 
+  <p><a href="/programming-with-aem-forms/output-service-java-api-quick#quick_start_soap_mode_passing_a_document_located_in_the_repository_to_the_output_service_using_the_java_api">Quick Start (SOAP mode): Passing a document located in the AEM Forms Repository to the Output service using the Java API</a> (invokes the Repository and Output service)</p> 
+  <p><a href="/programming-with-aem-forms/output-service-java-api-quick#quick_start_soap_mode_creating_a_pdf_document_based_on_fragments_using_the_java_api">Quick Start (SOAP mode): Creating a PDF document based on fragments using the Java API</a> (invokes the Assembler and Output service)</p> 
+  <p><a href="/programming-with-aem-forms/forms-service-api-quick-starts#quick_start_soap_mode_creating_pdf_documents_with_submitted_xml_data_using_the_java_api">Quick Start (SOAP mode): Creating PDF Documents with submitted XML data using the Java API</a> (invokes the Forms, Output, and Document Management service)</p> 
+  <p><a href="/programming-with-aem-forms/forms-service-api-quick-starts#quick_start_soap_mode_passing_documents_to_the_forms_service_using_the_java_api">Quick Start (SOAP mode): Passing documents to the Forms Service using the Java API</a> (invokes the Forms and Document Management service)</p> 
+  <p><a href="#unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd0.2">Quick Start (SOAP mode): Digitally signing a XFA-based Form using the Java API</a> (invokes the Forms and Signature service)</p> 
+  <p><a href="/programming-with-aem-forms/user-manager-java-api-quick#quick_start_soap_mode_managing_roles_and_permissions_using_the_java_api">Quick Start (SOAP mode): Managing roles and permissions using the Java API</a> (invokes the DirectoryManager and the AuthorizationManager service ) </p> 
+  <p><a href="/programming-with-aem-forms/output-service-java-api-quick#quick_start_soap_mode_passing_documents_to_the_output_service_using_the_java_api">Quick Start (SOAP mode): Passing documents to the Output Service using the Java API</a> (invoke the Output and Document Management service)</p> 
+  <note> 
+   <p>Quick Start located in Programming with AEM Forms are based on AEM Forms being deployed on JBoss® Application Server and the Microsoft® Windows® operating system. However, if you are using another operating system, such as UNIX®, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a>.)</p> 
+  </note> 
+  <note> 
+   <p>Most web service Quick Starts are written in C# and uses the .NET framework. However, you can create client application logic that is able to invoke AEM Forms services in any development environment that supports SOAP standards. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_web_services">Invoking AEM Forms Using Web Services</a>.)</p> 
+  </note> 
+ </body> 
+</html>

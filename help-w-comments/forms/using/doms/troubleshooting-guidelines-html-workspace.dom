@@ -1,0 +1,219 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-12-01T19:06:42.640-0500" name="jcr:created" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="&amp;nbsp;" name="qaStatus" /> 
+  <meta content="" name="autotagsRejected" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/troubleshooting_guidelines_html_workspace_admin_5e12de0b318c6865_2153_report.xml" name="acrolinxReportURL" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-26T04:32:01.814-0400" name="cq:lastModified" /> 
+  <meta content="robhagat" name="lr_creator" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="" name="autotags" /> 
+  <meta content="2016-05-31T06:49:55.873-0400" name="acrolinxDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="48" name="acrolinxSentences" /> 
+  <meta content="robhagat" name="contentOwner" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2018-04-03T08:55:40.618-0400" name="lastPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="Troubleshooting guidelines for AEM Forms workspace" name="jcr:title" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T08:55:40.618-0400" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="sortDate" /> 
+  <meta content="robhagat" name="lr_lastModifiedBy" /> 
+  <meta content="2018-04-26T04:32:01.813-0400" name="locHandOffDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/troubleshooting-guidelines-html-workspace.html" name="publishExternalURL" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="2015-09-28T07:38:30.333-0400" name="publishQADate" /> 
+  <meta content="2015-09-28T07:38:30.333-0400" name="lastPublishQADate" /> 
+  <meta content="2013-03-22T13:19:08.612-0400" name="firstPublishExternalDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="3a15d54e-cfd0-48c2-a6e7-f8da6687f34c" name="jcr:uuid" /> 
+  <meta content="Troubleshooting guidelines AEM Forms&nbsp;Workspace" name="navTitle" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/troubleshooting-guidelines-html-workspace.html" name="publishQAURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Enable logs and use debugger in browser to troubleshoot AEM Forms workspace." name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2013-02-19T05:45:16.655-0500" name="firstPublishQADate" /> 
+  <meta content="741" name="acrolinxWords" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="LiveCycle/10.5/HTMLWorkspace/WSa0b1fbebd32c111d-3fe207d213c61923e47-7fff" name="cq:gepId" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="ea005e63-369d-4125-8461-de694f3558e8" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-03T08:55:40.731-0400" name="cq:lastReplicated" /> 
+ </head> 
+ <body> 
+  <p>This article discusses how to debug AEM Forms workspace by enabling logging and by using debugger in a browser. It also explains some common issues that you can encounter when using AEM Forms workspace and their workarounds.</p> 
+  <h2>Unable to install AEM Forms workspace package</h2> 
+  <p></p> 
+  <p></p> 
+  <p>Ater installing the patch, open the AEM Forms workspace. If you encounter the No Resource Found error, open the CRX Package Manager, and reinstalling the <span class="code">adobe-lc-workspace-pkg-&amp;lt;version&amp;gt;.zip</span> package.</p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p>While installling the package, if you encounter an error <span class="code">javax.jcr.nodetype.ConstraintViolationException: OakConstraint0025: Authorizable property rep:authorizableId may not be removed</span>, perform the following steps:</p> 
+  <p></p> 
+  <p></p> 
+  <ol> 
+   <li><p>Log in to CRX DE lite. The default url is <span class="code">http://[localhost]:[port]/lc/crx/de/index.jsp</span></p> </li> 
+   <li><p>Delete the following node: </p>  </li> 
+   <li><p>Go to the Package Manager. The default URL is <span class="code">http://[localhost]:[port]/lc/crx/packmgr/index.jsp.</span></p> </li> 
+   <li><p>Search and install the <span class="code">adobe-lc-workspace-pkg-[version].zip</span> package.</p> </li> 
+   <li><p>Restart the application server.</p> </li> 
+  </ol> 
+  <h2>AEM Forms workspace&amp;nbsp;logging</h2> 
+  <p>You can generate logs at various levels to enable optimal troubleshooting of errors. For example, in a complex application, logging at the component level helps in debugging and troubleshooting specific components.</p> 
+  <p>In AEM Forms workspace:</p> 
+  <ul> 
+   <li>To get the logging information about a specific component file, append <span class="code">/log/&amp;lt;ComponentFile&amp;gt;/&amp;lt;LogLevel&amp;gt;</span> in the URL, and press <span class="kbd">Enter</span>. All logging information for the component file at the specified log level is printed on the console.</li> 
+   <li>To get logging information of all component files, append <span class="code">/log/all/trace</span> in the URL, and press <span class="kbd">Enter</span>.</li> 
+   <li>Log format:<span class="code"> &amp;lt;Component file&amp;gt; &amp;lt;Date&amp;gt;:&amp;lt;Time&amp;gt;: &amp;lt;Log Level&amp;gt; : &amp;lt;Log Message&amp;gt;</span></li> 
+  </ul> 
+  <note> 
+   <p>By default log level of all components is set to INFO.</p> 
+  </note> 
+  <ul> 
+   <li>The log level set by user is maintained only for that browser session. When the user refreshes the page, the log level is set to its initial value for all components.</li> 
+  </ul> 
+  <h3>List of component files in&amp;nbsp;AEM Forms workspace</h3> 
+  <table border="1" cellpadding="3" cellspacing="0"> 
+   <tbody> 
+    <tr> 
+     <td valign="top" width="213"><p>allcategoryModel</p> </td> 
+     <td valign="top" width="213"><p>processinstanceModel</p> </td> 
+     <td valign="top" width="213"><p>tasklistModel</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>appnavigationModel</p> </td> 
+     <td valign="top" width="213"><p>processInstanceView</p> </td> 
+     <td valign="top" width="213"><p>tasklistView</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>appnavigationView</p> </td> 
+     <td valign="top" width="213"><p>processnamelistModel</p> </td> 
+     <td valign="top" width="213"><p>taskModel</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>categorylistModel</p> </td> 
+     <td valign="top" width="213"><p>processnamelistView</p> </td> 
+     <td valign="top" width="213"><p>taskView</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>categorylistView</p> </td> 
+     <td valign="top" width="213"><p>processnameModel</p> </td> 
+     <td valign="top" width="213"><p>teamqueuesView</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>categoryModel</p> </td> 
+     <td valign="top" width="213"><p>processnameView</p> </td> 
+     <td valign="top" width="213"><p>todoView</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>categoryView</p> </td> 
+     <td valign="top" width="213"><p>searchtemplatedetailsView</p> </td> 
+     <td valign="top" width="213"><p>trackingView</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>favoritecategoryModel</p> </td> 
+     <td valign="top" width="213"><p>sharequeueModel</p> </td> 
+     <td valign="top" width="213"><p>uisettingsModel</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>filterlistView</p> </td> 
+     <td valign="top" width="213"><p>sharequeueView</p> </td> 
+     <td valign="top" width="213"><p>uisettingsView</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>filterView</p> </td> 
+     <td valign="top" width="213"><p>startpointlistModel</p> </td> 
+     <td valign="top" width="213"><p>userinfoModel</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>outofofficeModel</p> </td> 
+     <td valign="top" width="213"><p>startpointlistView</p> </td> 
+     <td valign="top" width="213"><p>userinfoView</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>outofofficeView</p> </td> 
+     <td valign="top" width="213"><p>startpointModel</p> </td> 
+     <td valign="top" width="213"><p>usersearchModel</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>preferencesView</p> </td> 
+     <td valign="top" width="213"><p>startpointView</p> </td> 
+     <td valign="top" width="213"><p>usersearchView</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>processinstancehistoryView</p> </td> 
+     <td valign="top" width="213"><p>startProcessView</p> </td> 
+     <td valign="top" width="213"><p>wserrorModel</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>processinstancelistModel</p> </td> 
+     <td valign="top" width="213"><p>startprocessView</p> </td> 
+     <td valign="top" width="213"><p>wserrorView</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="213"><p>processinstancelistView</p> </td> 
+     <td valign="top" width="213"><p>taskdetailsView</p> </td> 
+     <td valign="top" width="213"><p>wsmessageView</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Log levels available in&amp;nbsp;AEM Forms workspace</h3> 
+  <ul> 
+   <li>FATAL</li> 
+   <li>ERROR</li> 
+   <li>WARN</li> 
+   <li>INFO</li> 
+   <li>DEBUG</li> 
+   <li>TRACE</li> 
+   <li>OFF<br /> </li> 
+  </ul> 
+  <h2>Debugging information for browsers</h2> 
+  <p>Scripts and styles can be debugged in different browsers.</p> 
+  <ul> 
+   <li><strong>Debugging in IE</strong>: To debug AEM Forms workspace in IE, see: <a href="http://msdn.microsoft.com/en-us/library/hh772704(v=vs.85).aspx">http://msdn.microsoft.com/en-us/library/hh772704(v=vs.85).aspx</a>.</li> 
+   <li><strong>Debugging in Chrome</strong>: To open debugger in Chrome, use the shortcut: Ctrl+Shift+I. For more information, see: <a href="http://developer.chrome.com/extensions/tut_debugging.html">http://developer.chrome.com/extensions/tut_debugging.html</a>.</li> 
+   <li><strong>Debugging in Firefox</strong>: Several Add-ons are available to debug scripts and styles in Firefox. For example, Firebug is one such debugging utility (<a href="http://getfirebug.com">http://getfirebug.com</a>).<br /> </li> 
+  </ul> 
+  <h2>FAQs</h2> 
+  <ol> 
+   <li><p>PDF form is not getting rendered or submitted in Google Chrome.</p> 
+    <ol> 
+     <li>Install the Adobe® Reader® plug-in.</li> 
+     <li>In Chrome, open chrome://plugins, to view available plug-ins. </li> 
+     <li>Disable the Chrome PDF Viewer plug-in, and enable the Adobe Reader plug-in.</li> 
+    </ol> </li> 
+   <li><p>SWF form or Guide is not rendering in Google Chrome.</p> 
+    <ol> 
+     <li>In Chrome, open chrome://plugins, to view available plug-ins.</li> 
+     <li>See details for Adobe Flash® Player plug-in.</li> 
+     <li>Disable PepperFlash under Adobe Flash Player plug-in.</li> 
+    </ol> </li> 
+   <li><p>I have customized AEM Forms workspace but I am unable to see the changes.</p> <p>Clear your browser's cache, and then access AEM Forms workspace.</p> </li> 
+   <li><p>What needs to be done by the user to enable the form to be rendered in HTML when opened in desktop?</p> <p>Select the HTML radio button for default profile in the assign task step while using Workbench.</p> </li> 
+   <li><p>Attachment does not show up when clicked.</p> <p>To view attachments, enable popups in your browser.</p> </li> 
+   <li><p>A user is logged in to a forms application. If the user tries to log in to workspace, it may not load, if the user does not have workspace permissions. </p> <p>Logout from the other forms application, and then log in to workspace.</p> </li> 
+   <li><p>HTML forms, using Process Properties in their design, when rendered in AEM Forms workspace, display Submit button inside the form.</p> <p>When designing forms, when you use Process Properties, it adds a Submit button inside the form. When rendered as a PDF in AEM Forms workspace, the Submit button is not visible to the end user. However, when rendering as an HTML form in AEM Forms workspace, the Submit button is visible to the end user. Clicking on this Submit button inside the form does not initiate any action. Clicking on the Submit button at the bottom of the AEM Forms workspace, outside the form, completes the task.</p> </li> 
+  </ol> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+ </body> 
+</html>

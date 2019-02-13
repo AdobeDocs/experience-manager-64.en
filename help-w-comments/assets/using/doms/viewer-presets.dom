@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="Applying Viewer Presets" name="seoTitle" />
+  <meta content="green" name="acrolinxPageStatus" />
+  <meta content="224" name="acrolinxWords" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="2018-03-14T09:01:04.206-0400" name="jcr:created" />
+  <meta content="a19f31b1-2d87-4b7e-9e8e-e32bc7408bb9" name="jcr:predecessors" />
+  <meta content="Applying Viewer Presets" name="jcr:title" />
+  <meta content="2018-12-10T16:33:48.059-0500" name="topicBrowsingSortDate" />
+  <meta content="Rick Brough" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-12-10T16:33:48.082-0500" name="cq:lastModified" />
+  <meta content="2019-01-12T17:36:18.947-0500" name="acrolinxDate" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="rbrough" name="cq:lastModifiedBy" />
+  <meta content="2018-12-10T16:33:48.059-0500" name="lastPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/viewer-presets.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="9b82cd12-2fdb-4930-97c1-d480a2905b5f" name="jcr:uuid" />
+  <meta content="2018-12-10T16:33:48.059-0500" name="publishExternalDate" />
+  <meta content="21" name="acrolinxSentences" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:dynamic-media;content_type:reference" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Applying Viewer Presets" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-04-24T11:55:23.778-0400" name="locHandOffDate" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/viewer_presets_krs_workflow_f3c2f2ccebf6138e_201_report.xml" name="acrolinxReportURL" />
+  <meta content="2018-12-10T16:33:48.153-0500" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="Learn how to apply viewer presets in dynamic media" name="seoDescription" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-10-31T16:34:04.657-0400" name="firstPublishExternalDate" />
+  <meta content="/content/docs/en/aem/6-3/author/assets/dynamic-media/managing-assets/previewing-assets/viewer-presets" name="qaNotes" />
+  <meta content="rbrough" name="cq:lastReplicatedBy" />
+ </head>
+ <body>
+  <p>A Viewer Preset is a collection of settings that determine how users view rich-media assets on their computer screens and mobile devices. You can apply any viewer presets created by your administrator to an asset.</p> 
+  <p>If you are an administrator and need to manage, create, sort, and delete viewer presets, see <a href="../../assets/using/managing-viewer-presets.md">Managing Viewer Presets</a>.</p> 
+  <note>
+   <p>See also <a href="../../assets/using/managing-viewer-presets.md#publishingviewerpresets">Publishing Viewer Presets</a>.</p> 
+   <p>You may not need to publish viewer presets depending on what publish mode you are using.</p> 
+   <p>Any problems with viewer presets, see <a href="../../assets/using/troubleshoot-dms7.md#viewers" target="_blank">Troubleshooting Dynamic Media - Scene7</a>.</p> 
+  </note>
+  <h3>Applying a viewer preset to an asset</h3>
+  <p>To apply any applicable viewer preset to an asset:</p> 
+  <ol>
+   <li><p>Open the asset and in the left rail, and click or tap <strong>Viewers</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-105.png" />
+    <note>
+     <ul> 
+      <li>The <strong>URL</strong> and <strong>Embed</strong> buttons appear after you select a viewer preset.</li> 
+      <li>The system shows numerous viewer presets when you select Viewers in an asset's Detail view. You can increase the number of presets seen. See <a href="../../assets/using/managing-viewer-presets.md">Increasing the number of viewer presets that display</a>.</li> 
+     </ul> 
+    </note></li>
+   <li><p>Select a viewer<strong> </strong>from the left pane to apply it to the asset as seen in the right pane. You can also <a href="../../assets/using/linking-urls-to-yourwebapplication.md">copy the URL to share</a> with others users.</p> 
+    <draft-comment lastModifiedBy="rbrough" lastModifiedDate="2018-12-10T16:15:29.698-0500" type="annotation">
+     This second sentence does not quite make sense. When choosing a Viewer Preset, a separate popup window does not display. the Viewer should load to the right of the left rail. RB: Fixed. 
+    </draft-comment></li>
+  </ol>
+  <h3>Obtaining Viewer Preset URLs</h3>
+  <p>To get the URLs for Viewer Presets, see <a href="../../assets/using/linking-urls-to-yourwebapplication.md">Linking URLs to your Web application</a>.</p> 
+ </body>
+</html>

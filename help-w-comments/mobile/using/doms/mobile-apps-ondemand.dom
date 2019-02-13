@@ -1,0 +1,77 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="fd88d7cf-a188-48e4-8edd-8ddc695780f1" name="jcr:uuid" />
+  <meta content="2018-05-11T10:01:49.684-0400" name="cq:lastModified" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-05-04T05:12:48.502-0400" name="lastPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/mobile-apps-ondemand.html" name="publishExternalURL" />
+  <meta content="Follow this page to learn about the roles and responsibilities for AEM mobile On-Demand services author." name="seoDescription" />
+  <meta content="2018-05-11T10:01:49.683-0400" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-05-04T05:12:48.502-0400" name="topicBrowsingSortDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-10-31T16:26:29.114-0400" name="firstPublishExternalDate" />
+  <meta content="Mobile On-Demand" name="jcr:title" />
+  <meta content="2018-05-04T05:12:48.502-0400" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="151466aa-d1ed-45bc-8c21-ebc606ea15b4" name="jcr:predecessors" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="2017-12-13T19:01:03.977-0500" name="jcr:created" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:authoring-on-demand-services-app" name="cq:tags" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="2018-05-04T05:12:48.736-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Mobile On-Demand" name="seoTitle" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/docs/en/aem/6-3/author/mobile-apps/mobile-on-demand" name="qaNotes" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/authoring-on-demand-services-app;/content/help/en/experience-manager/6-4/mobile/morehelp/authoring-on-demand-services-app" name="moreHelpPaths" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <note>
+   <p>If you are not using Adobe Experience Manager (AEM) as your content management source, see <a href="https://helpx.adobe.com/digital-publishing-solution/topics.html">AEM Mobile On-Demand Services Help</a>.</p> 
+  </note>
+  <note>
+   <p><strong>Prerequisite:</strong></p> 
+   <p>Before working with AEM Mobile On-Demand Services and following the steps within this getting started guide, users should be familiar with <a href="../../sites/deploying/using/deploy.md">AEM</a>. </p> 
+  </note>
+  <h3>AEM Mobile Author</h3>
+  <p>An <strong><i>AEM Author</i> (or <i>Marketer</i>)</strong> uses custom-developed or out-of-the-box templates and components to add and edit pages, drag and drop components and add media of all types from the DAM including images, videos and text fragments (content fragments). AEM's built-in content editor is then used by <i>AEM Authors</i> to create rich and relevent experiences within the app, including integration with the rest of the Adobe Marketing Cloud.</p> 
+  <p>An AEM author is responsible for the following tasks while creating an app using AEM Mobile On Demand Services. </p> 
+  <p><strong>Authoring AEM Content for AEM Mobile On-Demand Services App </strong>involves following actions:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/mobile-apps-ondemand-application-dashboard.md">AEM Mobile Application Dashboard</a></li> 
+   <li><a href="../../mobile/using/mobile-apps-ondemand-application-create-configure-action.md">Application Create and Configuration Actions</a></li> 
+   <li><a href="../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md">Cloud Configuration</a></li> 
+   <li><a href="../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md">Managing Content</a></li> 
+  </ul> 
+  <p>To learn about <strong>Content Services</strong>, see <a href="/mobile/using/content-as-a-service">Content Services Overview</a> to get started.</p> 
+  <note>
+   <p>To learn in general about basics of templates and components in AEM, see the following resources:</p> 
+   <ul> 
+    <li><a href="../../sites/developing/using/templates.md">Templates</a></li> 
+    <li><a href="../../sites/developing/using/components.md">Components</a></li> 
+   </ul> 
+  </note>
+  <h3>Additional Resources</h3>
+  <p>To understand more on the other two roles and responsibilities for creating an AEM Mobile On-Demand Services App, see the following resources:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/aem-mobile-on-demand.md">Developing AEM Content for AEM Mobile On-Demand Services</a></li> 
+   <li><a href="../../mobile/using/aem-mobile.md">Administering Content to Use AEM Mobile On-Demand Services</a></li> 
+  </ul> 
+ </body>
+</html>

@@ -1,0 +1,104 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/operations/page-authoring/config-video" name="qaNotes" /> 
+  <meta content="34" name="acrolinxSentences" /> 
+  <meta content="Learn how to configure the Video Component." name="seoDescription" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/config-video.html" name="publishExternalURL" /> 
+  <meta content="2018-07-11T13:48:00.880-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-06-25T09:40:11.728-0400" name="acrolinxDate" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="Configure the Video component" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="asgupta" name="cq:lastModifiedBy" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/config_video_krs_workflow_e3d4e63f2164900e_13_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2017-10-31T16:25:28.186-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-12-01T19:04:33.271-0500" name="jcr:created" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:operations;content_type:reference" name="cq:tags" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Configure the Video component" name="seoTitle" /> 
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations;/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations" name="moreHelpPaths" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="b0392d6d-9c34-4b8d-aadc-bfd76a82287a" name="jcr:predecessors" /> 
+  <meta content="2018-04-26T10:13:43.757-0400" name="locHandOffDate" /> 
+  <meta content="438" name="acrolinxWords" /> 
+  <meta content="26eeab17-0a20-496d-987a-735eeae2ecea" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-07-11T13:48:00.880-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-07-11T13:48:00.880-0400" name="lastPublishExternalDate" /> 
+  <meta content="Configure the Video component" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="2018-10-27T23:45:07.318-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-07-11T13:48:00.888-0400" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <p>The <a href="../../../sites/authoring/using/default-components-foundation.md#video">Video component</a> allows you to place a predefined, out-of-the-box video element on your page.</p> 
+  <p>For proper transcoding to occur, your administrator must <a href="#installingffmpeg">Install FFmpeg</a> separately. They can also <a href="#configuringvideoprofiles">Configure your Video Profiles</a> for use with HTML5 elements.</p> 
+  <h2>Configure video profiles</h2> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T04:59:43.351-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>use case?</p> 
+  </draft-comment> 
+  <p>You may want to define video profiles to use for HTML5 elements. Those chosen here are used in order. To access, use <a href="../../../sites/authoring/using/default-components-designmode.md">Design Mode</a> (Classic UI only) and select the <strong>Profiles</strong> tab:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-385.png" /> 
+  <p>You can also configure the design of the video components and parameters for Playback, Flash, and Advanced.<br /> </p> 
+  <h2>Install FFmpeg</h2> 
+  <p>The Video Component relies on the third-party open-source product FFmpeg for proper transcoding of videos that can be downloaded from <a href="http://ffmpeg.org/">http://ffmpeg.org/</a>. After you install FFmpeg, you must configure AEM to use a specific audio codec and specific runtime options.</p> 
+  <p>To install FFmpeg for your platform:<br /> </p> 
+  <ul> 
+   <li><strong>On Windows:</strong> 
+    <ol> 
+     <li>Download the compiled binary as <span class="code">ffmpeg.zip</span><br /> </li> 
+     <li>Unzip to a folder.<br /> </li> 
+     <li>Set the system environment variable <span class="code">PATH</span> to <span class="code">&amp;lt;<i>your-ffmpeg-locatio</i>n&amp;gt;\bin</span><br /> </li> 
+     <li>Restart AEM.</li> 
+    </ol> </li> 
+   <li><strong>On Mac OS X:</strong><br /> 
+    <ol> 
+     <li>Install Xcode (<a href="http://developer.apple.com/technologies/tools/xcode.html">http://developer.apple.com/technologies/tools/xcode.html</a>)</li> 
+     <li>Install XQuartz/X11.</li> 
+     <li>Install MacPorts (<a href="http://www.macports.org/">http://www.macports.org/</a>)</li> 
+     <li>In the console run the following command and follow the instructions:<br /> <span class="code"> sudo port install ffmpeg</span> <br /> <span class="code">FFmpeg</span> must be in <span class="code">PATH</span> so AEM can pick it up via command line.</li> 
+    </ol> </li> 
+   <li><strong>Using the precompiled version for OS X 10.6:</strong> 
+    <ol> 
+     <li>Download the precompiled version.</li> 
+     <li>Extract it to the <span class="code">/usr/local</span> directory.</li> 
+     <li>From terminal, execute:<br /> <span class="code">sudo ln -s /usr/local/Cellar/ffmpeg/0.6/bin/ffmpeg /usr/bin/ffmpeg</span></li> 
+    </ol> </li> 
+  </ul> 
+  <p>To configure AEM, use the following steps:</p> 
+  <ol> 
+   <li><p>Open CRXDE Lite in your web browser. (<a href="http://localhost:4502/crx/de">http://localhost:4502/crx/de</a>)</p> </li> 
+   <li><p>Select the <span class="code">/libs/settings/dam/video/format_aac/jcr:content</span> node and ensure that the node properties are as follows:</p> 
+    <ul> 
+     <li>audioCodec: <code class="code">
+       <discoiqbr /> aac</code></li> 
+     <li>customArgs: <code class="code">
+       <discoiqbr /> -flags +loop -me_method umh -g 250 -qcomp 0.6 -qmin 10 -qmax 51 -qdiff 4 -bf 16 -b_strategy 1 -i_qfactor 0.71 -cmp chroma -subq 8 -me_range 16 -coder 1 -sc_threshold 40 -b-pyramid normal -wpredp 2 -mixed-refs 1 -8x8dct 1 -fast-pskip 1 -keyint_min 25 -refs 4 -trellis 1 -direct-pred 3 -partitions i8x8,i4x4,p8x8,b8x8</code></li> 
+    </ul> </li> 
+   <li><p>To customize the configuration, create an overlay in <span class="code">/apps/settings/</span> node and move the same structure under <span class="code">/conf/global/settings/</span> node. It cannot be edited in <span class="code">/libs</span> node. For example, to overlay path <span class="code">/libs/settings/dam/video/fullhd-bp</span>, create it at <span class="code">/conf/global/settings/dam/video/fullhd-bp</span>.<br /> </p> 
+    <note> 
+     <p>Overlay and edit the entire profile-node and not just the property that needs modification. Such resources are not resolved via SlingResourceMerger.</p> 
+    </note></li> 
+   <li><p>If you changed either of the properties, click <strong>Save All</strong>.</p> </li> 
+  </ol> 
+  <note> 
+   <p>Out-of-the-box (OOTB) workflow models are not preserved when you upgrade your AEM instance. Adobe recommends that you copy OOTB workflow models before modifying them. For example, copy the OOTB DAM Update Asset model before modifying the FFmpeg Transcoding step in the DAM Update Asset model to pick video-profile names that existed before the upgrade. Then, you can overlay the /apps node to let AEM retrieve the custom changes to the OOTB model. </p> 
+  </note> 
+ </body> 
+</html>

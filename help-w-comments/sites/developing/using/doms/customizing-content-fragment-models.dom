@@ -1,0 +1,117 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="DO NOT PUBLISH, BUT DO NOT DELETE Customizing Content Fragment Models" name="jcr:title" /> 
+  <meta content="Deactivate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2018-08-13T06:05:19.461-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="" name="publishExternalURL" /> 
+  <meta content="2018-04-06T01:44:26.292-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-03-19T07:28:17.211-0400" name="jcr:created" /> 
+  <meta content="Customizing Content Fragment Models" name="navTitle" /> 
+  <meta content="2018-04-06T01:45:53.500-0400" name="unpublishExternalDate" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Customizing Content Fragment Models" name="seoTitle" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="" name="cq:tags" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="6b205574-3fd5-4b27-a814-4fcab2e9d425" name="jcr:uuid" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="true" name="noIndex" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="aheimoz" name="contentOwner" /> 
+  <meta content="0e84c4fa-828a-428e-9e7c-c0dd3b8e7159" name="jcr:predecessors" /> 
+  <meta content="2018-04-06T01:45:53.550-0400" name="cq:lastReplicated" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-06T01:44:26.292-0400" name="lastPublishExternalDate" /> 
+  <meta content="Content Fragment Models can be customized and extended." name="seoDescription" /> 
+ </head> 
+ <body> 
+  <draft-comment color="purple" lastModifiedBy="aheimoz" lastModifiedDate="2018-04-05T23:47:46.673-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>Tags/Keywords have been removed<br /> </p> 
+  </draft-comment> 
+  <p>The Content Fragment Model editor is a wizard based on <span class="code">Formbuilder</span>, inherited from:</p> 
+  <p style="margin-left: 40px;"> <span class="code">granite/ui/components/foundation/form/formbuilder</span></p> 
+  <p>This component has the tools necessary to render the drag and drop interface of the model editor, complete with data types and properties for each.</p> 
+  <h2>Locations</h2> 
+  <p>Models are saved and created under <span class="code">/conf</span>, under a folder that has the <a href="../../../assets/using/content-fragments-models.md#enablecontentfragmentmodels">Content Fragment Models property</a> enabled. This setting can also be seen in the <strong>Configuration Properties</strong>, accessible from the <strong>Configuration Browser</strong>.</p> 
+  <ol> 
+   <li>Navigate to the browser via <strong>Tools</strong>, <strong>General</strong>, <strong>Configuration Browser</strong><br /> For example, <a href="/libs/granite/configurations/content/view.html/conf">http://localhost:4502/libs/granite/configurations/content/view.html/conf</a></li> 
+   <li>From the browser, select the appropriate configuration then <strong>Properties</strong> from the toolbar.<br /> For example, the properties for <span class="code">global</span>: <a href="http://localhost:4502/libs/granite/configurations/content/edit.html/conf/global">http://localhost:4502/libs/granite/configurations/content/edit.html/conf/global</a></li> 
+  </ol> 
+  <p>In the models console, all folders with the <strong>Content Fragment Models</strong> property will appear. Navigate via <strong>Tools</strong>, <strong>Assets</strong>, <strong>Content Fragment Models</strong>; for example, <a href="http://localhost:4502/libs/dam/cfm/models/console/content/models.html/conf">http://localhost:4502/libs/dam/cfm/models/console/content/models.html/conf</a>.</p> 
+  <p>A user can <a href="../../../assets/using/content-fragments-models.md#creatingacontentfragmentmodel">create a content fragment model</a> using the <strong>Create Model</strong> wizard (using <strong>Create</strong> from the console).</p> 
+  <note> 
+   <p>You <strong><em>must</em></strong> not change anything in the <span class="code">/libs</span> path.</p> 
+   <p>This is because the content of <span class="code">/libs</span> is overwritten the next time you upgrade your instance (and may be overwritten when you apply either a hotfix or feature pack).</p> 
+  </note> 
+  <h2>Structure of a Model</h2> 
+  <p>The wizard will create an entry with this structure:</p> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-03-19T04:50:01.884-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>Image size is an issue with the CHL platform - see </p> 
+   <p>https://jira.corp.adobe.com/browse/MWPW-20327</p> 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/cf-54.png" /> 
+  <ul> 
+   <li><span class="code">../settings/dam/cfm/models</span><br /> All the models are saved under sub-folders of this folder.<br /> </li> 
+   <li><span class="code">jcr:content</span><br /> Every model contains a <span class="code">jcr:content</span> node that: 
+    <ul> 
+     <li>contains information properties about the model such as <span class="code">jcr:title</span>, <span class="code">lastModified</span>, <span class="code">lastModifiedBy</span><br /> </li> 
+     <li>usually has the <span class="code">sling:ResourceType</span> of <span class="code">dam/cfm/models/console/components/data/entity/default</span>,<br /> with the <span class="code">sling:ResourceSuperType</span> of <span class="code">dam/cfm/models/console/components/data/entity</span><br /> </li> 
+    </ul> </li> 
+   <li><span class="code">model</span><br /> The <span class="code">model</span> node contains a property <span class="code">dataTypesConfig</span>, used to determine the data types used in the model editor.</li> 
+   <li><span class="code">items</span><br /> Under the <span class="code">items</span> node, all the data types added to the model are saved (as dragged and dropped in the model editor). Each item is given a random node name, but in order for the content fragment editor to work with this model, each item must have a <span class="code">name</span> property. Additionally, on this node, all the configuration properties for a particular data type are saved, including default properties needed to render the components.</li> 
+  </ul> 
+  <note> 
+   <p>All data types dragged and dropped in a model editor, and as such instantiated, <strong>must</strong> have the <span class="code">name</span> property input by the user. </p> 
+   <p>This is seen as <strong>Property Name *</strong> in the <strong>Properties</strong> tab of model editor.<br /> </p> 
+  </note> 
+  <h2>Structure of the Model Editor</h2> 
+  <p>The <strong>Content Fragment Model Editor</strong> has two parts:</p> 
+  <ul> 
+   <li>The preview, or view, panel on the left side, where you can drop items. This:<br /> 
+    <ul> 
+     <li>Shows a preview of the <strong>Data Type</strong> that is instantiated.<br /> </li> 
+     <li>Permits ordering inside the Model Editor.</li> 
+    </ul> </li> 
+   <li>The <strong>Data Types</strong>/<strong>Properties</strong> tabs in the panel at the right side. This:<br /> 
+    <ul> 
+     <li>Shows a list of data types that can be dragged and instantiated. </li> 
+     <li>For the out-of-the-box model editor the list is present at:<br /> <span class="code">/libs/settings/dam/cfm/models/formbuilderconfig/datatypes</span><br /> This node contains all the data types currently supported in the model editor. For more information on how to configure the data types, see <a href="../../../sites/developing/using/customizing-content-fragment-model-data-types.md">Customizing Data Types for Content Fragment Models</a>.</li> 
+     <li>All rendered data types have two script tags that, when instantiated, will form the view (the component rendered on the left side) and the <strong>Properties</strong> tab, which defines the properties that a user can define for a given component.</li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>You <strong><em>must</em></strong> not change anything in the <span class="code">/libs</span> path.</p> 
+   <p>This is because the content of <span class="code">/libs</span> is overwritten the next time you upgrade your instance (and may be overwritten when you apply either a hotfix or feature pack).</p> 
+  </note> 
+  <p>The properties on the right side define a form that is submitted directly into JCR under <span class="code">/conf</span>; see the path in the example <a href="/sites/developing/using/customizing-content-fragment-models.html?cq_ck=1521442259410#StructureofaModel">Structure of a Model</a>.</p> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-03-19T08:54:00.547-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>wiki page:</p> 
+   <p style="margin-left: 40px;">The properties on the right side define a form that is submitted directly into JCR, to the path previously created in the <strong>/conf</strong> folder. When a data type is instantiated, HTML inputs are created for every property the component needs in order to be rendered in a Content Fragment, such as: property name, which acts as an identifier for components; rendered as - what should the component be rendered as; description - description of the component in the Content Fragment; etc.</p> 
+   <p>have used the actual property names; is this meaningful and are they correct?</p> 
+  </draft-comment> 
+  <p>When a data type is instantiated, HTML inputs are created for every property the component needs to be rendered in a content fragment. For example, these include:</p> 
+  <ul> 
+   <li><strong>Property Name *</strong> (<span class="code">name</span>) - acts as an identifier for components</li> 
+   <li><strong>Render As</strong> (<span class="code">metaType</span>) - type the component is to be rendered as</li> 
+   <li><strong>Description</strong> (<span class="code">fieldDescription</span>) - description of the component in the Content Fragment</li> 
+   <li>and others.</li> 
+  </ul> 
+ </body> 
+</html>

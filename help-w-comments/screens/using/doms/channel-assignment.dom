@@ -1,0 +1,191 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="7359ff58-b1d1-4d41-b172-5c42cd96dc81" name="jcr:uuid" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="2018-11-02T13:40:20.167-0400" name="topicBrowsingSortDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Follow this page to learn about Channel Assignment and Dayparting." name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Jyotika syal" name="contentOwner" /> 
+  <meta content="2019-01-15T15:39:04.037-0500" name="jcr:created" /> 
+  <meta content="3ae4e14a-ca80-4a93-8f82-b435a46f8ce5" name="jcr:predecessors" /> 
+  <meta content="" name="primaryAudienceTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Channel Assignment" name="seoTitle" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-11-02T13:40:20.167-0400" name="publishExternalDate" /> 
+  <meta content="2018-11-02T13:40:20.167-0400" name="lastPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring" name="cq:tags" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/channel-assignment.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-11-02T13:40:22.032-0400" name="cq:lastReplicated" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-19T10:29:08.451-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-31T16:20:58.868-0400" name="firstPublishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/author/authoring-screens/channel-assignment" name="qaNotes" /> 
+  <meta content="Channel Assignment" name="jcr:title" /> 
+  <meta content="2018-11-02T13:40:20.253-0400" name="cq:lastModified" /> 
+ </head> 
+ <body> 
+  <p>This section covers the following topics:</p> 
+  <ul> 
+   <li><strong>Assigning a Channel</strong></li> 
+   <li><strong>Understanding Properties of Channel Assignment dialog box</strong></li> 
+   <li><strong>Dayparting</strong></li> 
+  </ul> 
+  <p>Once you defined a display, you need to assign a channel to a display.</p> 
+  <p>This page shows assigning channel to your displays.</p> 
+  <p><strong>Pre-requisites</strong>:</p> 
+  <ul> 
+   <li><a href="../../sites/deploying/using/configuring-screens-introduction.md">Configuring and Deploying Screens</a></li> 
+   <li><a href="../../screens/using/creating-a-screens-project.md">Create and Manage Screens Project</a></li> 
+   <li><a href="../../screens/using/managing-channels.md">Create and Manage Channels</a></li> 
+   <li><a href="../../screens/using/managing-locations.md">Create and Manage Locations</a></li> 
+   <li><a href="../../screens/using/managing-displays.md">Create and Manage Displays</a></li> 
+  </ul> 
+  <h2>Assign a Channel</h2> 
+  <p>Follow the steps below to assign a channel to a display:</p> 
+  <ol> 
+   <li><p>Navigate to the required display, for example, <strong>DemoProject</strong><em> </em>--&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>SanJose</strong> --&amp;gt; <strong>StoreDisplay</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-08-23at25359pm.png" /></li> 
+   <li><p>Tap/click <strong>Assign Channel </strong>in the action bar</p> <p>Or,</p> <p>Tap/click <strong>Dashboard </strong>and<strong> </strong>click<strong> +Assign Channel </strong>from the<strong> ASSIGNED CHANNNELS </strong>panel to open the <strong>Channel Assignment</strong> dialog box.</p> <img imageRotate="0" src="assets/screen_shot_2018-08-23at25938pm.png" /><p>You can configure the following properties from the <strong>Channel Assignment </strong>dialog box:</p> <p><strong>Channel Role</strong>:</p> <p>Channel role defines the context of the display. The role is targeted by various actions and is independent of the actual channel that fulfils the role.</p> <p><strong>Reference Channel</strong>:</p> <p>Reference channel allows you to provide a reference to the desired channel, either by channel name or by channel path.</p> 
+    <ul> 
+     <li><strong>by path</strong>: you provide an explicit reference using the absolute path of the channel.</li> 
+     <li><strong>by name</strong>: You enter the name of the channel that will resolve to an actual channel by context. This feature allows you to create local version of a channel, in order to dynamically resolve location-specific content. For example, a channel with name <em>deals of the day</em>, where the actual content would be different in two cities, but you still have the sane channel role on all the displays.</li> 
+    </ul>  <p>Priority is used to order the assignments in case multiple ones match the playing criteria. The one with the highest value will always take precedence over lower values. For example, if there are two channels A and B. A has a priority of 1 and B has a priority of 2, then channel B is displayed, as it has a higher priority than A.</p> <p>The priority for a channel is set as a number (1 for minimum) in the <strong>Channel Assignment </strong>dialog box, as mentioned above. Additionally, the assigned channels are sorted based on descending priority.</p> <p><strong>Supported Events</strong>:</p> 
+    <ul> 
+     <li><strong>Initial Load</strong>: loads the channel when the player is started. It can be assigned to multiple channels in combination with schedule</li> 
+     <li><strong>Idle Screen</strong>: loads when the screen is idle. It can be assigned to multiple channels in combination with schedule</li> 
+     <li><strong>Timer</strong>: needs to be set when a schedule is provided</li> 
+     <li><strong>User Interaction</strong>: the player will switch to the specified channel, if there is a user interaction on the screen (touch) in an idle channel and will load when the screen is touched</li> 
+    </ul> <p><strong>Schedule</strong>:</p> <p>Schedule allows you to provide a description in text when the channel should appear. It also let's you define a start date (<strong>active from</strong>) and an end date (<strong>active until</strong>) for the channel to be shown. The syntax for the schedule expression is based on later.js' text and cron syntaxes:</p> 
+    <ul> 
+     <li><a href="https://bunkat.github.io/later/parsers.html#text">https://bunkat.github.io/later/parsers.html#text</a></li> 
+     <li><a href="https://bunkat.github.io/later/parsers.html#cron">https://bunkat.github.io/later/parsers.html#cron</a></li> 
+    </ul> <p><strong>Show Attraction Tooltip</strong>:</p> <p>Show attraction tooltip defines if the attraction tooltip ("<em>Touch anywhere to begin</em>") must be shown or not while the channel is running.</p> </li> 
+   <li><p>Click <strong>Save</strong> to assign the created channel to a display.</p> </li> 
+  </ol> 
+  <h3>Dayparting</h3> 
+  <p>Schedules when when combined with <strong>Dayparting</strong>, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.</p> 
+  <p>DayParting refers to as splitting up a day into time slots and specifying which content plays at the desired time. AEM Screens allows you to schedule channels in terms of dayparting within a day, week, or month as per the requirement.</p> 
+  <p>The following examples explain dayparting in channels in three different scenarios:</p> 
+  <h4>Playing content on a single day divided into multiple time slots</h4> 
+  <p>This example shows how a Restaurant uses dayparting to showcase its breakfast, lunch and dinner menu.</p> 
+  <p>Here, we will divide each day into three different time slots, so that channel content plays as per the specified time of the day: </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Channel</strong></td> 
+     <td><strong>Role</strong></td> 
+     <td><strong>Priority</strong></td> 
+     <td><strong>Schedule</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Menu_A</td> 
+     <td>Breakfast</td> 
+     <td> </td> 
+     <td>after 6:00 and before 11:00</td> 
+    </tr> 
+    <tr> 
+     <td>Menu_B</td> 
+     <td>Lunch</td> 
+     <td> </td> 
+     <td>after 11:00 and before 15:00</td> 
+    </tr> 
+    <tr> 
+     <td>Menu_C</td> 
+     <td>Dinner</td> 
+     <td> </td> 
+     <td>after 15:00 and before 20:00</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Playing content on a particular day of the week</h4> 
+  <p>This example shows the dayparting achieved in a casino where live event occurs every weekend from 8:00 pm until 10:00 pm and specials are available for dinner menu after 10:00 pm until 1:00 am.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Channel</strong></td> 
+     <td><strong>Role</strong></td> 
+     <td><strong>Priority</strong></td> 
+     <td><strong>Schedule</strong></td> 
+    </tr> 
+    <tr> 
+     <td>LiveConcert</td> 
+     <td>Weekend</td> 
+     <td> </td> 
+     <td>Oct 21, 2017 - Oct 22, 2017 <br /> after 20:00 before 22:00</td> 
+    </tr> 
+    <tr> 
+     <td>SpecialsDinner</td> 
+     <td>Weekend</td> 
+     <td> </td> 
+     <td>Oct 21, 2017 - Oct 22, 2017 <br /> after 22:00 before 1:00</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Playing content for a particular month/months</h4> 
+  <p>This example shows the dayparting for a store that displays their summer collection from the months of June until August and fall collection from September until the end of October.</p> 
+  <p>Here, you will create dayparting as per months, so that channel content plays as per the specified months of the year. </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Channel</strong></td> 
+     <td><strong>Role</strong></td> 
+     <td><strong>Priority</strong></td> 
+     <td><strong>Schedule</strong></td> 
+    </tr> 
+    <tr> 
+     <td>SummerCollection</td> 
+     <td>Summer</td> 
+     <td> </td> 
+     <td>June 01, 2017 - Aug 31, 2017</td> 
+    </tr> 
+    <tr> 
+     <td>FallCollection</td> 
+     <td>Fall</td> 
+     <td> </td> 
+     <td>Sep 01, 2017 - Oct 30, 2017</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>Additionally, you can define <strong><i>Priority</i></strong> for each of the channels. For example, if two channels are set for the same day and time or for the same month, then the channel with higher priority is played first. The minimum value for priority can be set as 0.</p> 
+  </note> 
+  <h4>Playing content for channels with same priority</h4> 
+  <p>This examples shows the dayparting for a store that displays their winter collection with the same schedule in the month of December. But since the Channel B has priority set as 2, during that week; channel B plays its content rather than Channel A.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Channel</strong></td> 
+     <td><strong>Role</strong></td> 
+     <td><strong>Priority</strong></td> 
+     <td><strong>Schedule</strong></td> 
+    </tr> 
+    <tr> 
+     <td>A</td> 
+     <td>Winter</td> 
+     <td>1</td> 
+     <td>Dec 01, 2017 - Dec 31, 2017</td> 
+    </tr> 
+    <tr> 
+     <td>B</td> 
+     <td>Christmas</td> 
+     <td>2</td> 
+     <td>Dec 24, 2017 - Dec 31, 2017</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body> 
+</html>

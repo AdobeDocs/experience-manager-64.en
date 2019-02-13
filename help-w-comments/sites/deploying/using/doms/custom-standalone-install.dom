@@ -1,0 +1,282 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-31T16:18:06.242-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-03T08:40:21.983-0400" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-30T03:26:44.917-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy/custom-standalone-install" name="qaNotes" /> 
+  <meta content="Learn about the options available when installing a standalone AEM instance. " name="seoDescription" /> 
+  <meta content="ba51296e-0755-4158-8d83-68a9b24f33c3" name="jcr:predecessors" /> 
+  <meta content="2018-04-30T03:26:44.917-0400" name="cq:lastModified" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2018-04-03T08:40:22.923-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-03T08:40:21.983-0400" name="topicBrowsingSortDate" /> 
+  <meta content="cf99cb64-9412-4d55-afe4-4af38268348c" name="jcr:uuid" /> 
+  <meta content="Custom Standalone Install" name="seoTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/custom-standalone-install.html" name="publishExternalURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/deploying;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/deploying" name="moreHelpPaths" /> 
+  <meta content="Tyler Rushton" name="contentOwner" /> 
+  <meta content="2017-12-01T19:06:01.502-0500" name="jcr:created" /> 
+  <meta content="2018-04-03T08:40:21.983-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:deploying" name="cq:tags" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Custom Standalone Install" name="navTitle" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Custom Standalone Install" name="jcr:title" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+ </head> 
+ <body> 
+  <p>This section describes the options available when installing a standalone AEM instance. You can also read <a href="../../../sites/deploying/using/storage-elements-in-aem-6.md">Storage Elements</a> for more information on choosing the backend storage type after freshly installing AEM 6.</p> 
+  <h2>Changing the Port Number by Renaming the File</h2> 
+  <p>The default port for AEM is 4502. If that port is not available or already in use, Quickstart automatically configures itself to use the first available port number as follows: 4502, 8080, 8081, 8082, 8083, 8084, 8085, 8888, 9362, <span class="code">&amp;lt;<i>random</i>&amp;gt;</span>.</p> 
+  <p>You can also set the port number by renaming the quickstart jar file, so that the file name includes the port number; for example, <span class="code">cq5-publish-p4503.jar</span> or <span class="code">cq5-author-p6754.jar</span>.</p> 
+  <p>There are various rules to be followed when renaming the quickstart jar file:</p> 
+  <ul> 
+   <li>When you rename the file, it must start with <span class="code">cq;</span> as in <span class="code">cq5-publish-p4503.jar</span>.<br /> </li> 
+   <li>It is recommended that you <i>always</i> prefix the port number with -p; as in cq5-publish-p4503.jar or cq5-author-p6754.jar.</li> 
+  </ul> 
+  <note> 
+   <p>This is to ensure that you do not need to worry about fulfiling the rules used for extracting the port number:</p> 
+   <ul> 
+    <li>the port number must be 4 or 5 digits</li> 
+    <li>these digits must come after a dash</li> 
+    <li>if there are any other digits in the filename, then the port number must be prefixed with <span class="code">-p</span></li> 
+    <li>the "cq5" prefix at the beginning of the filename is ignored</li> 
+   </ul> 
+  </note> 
+  <note> 
+   <p>You can also change the port number by using the <span class="code">-port</span> option in the start command.</p> 
+  </note> 
+  <h2>Run Modes</h2> 
+  <p><strong>Run modes</strong> allow you to tune your AEM instance for a specific purpose; for example, author or publish, test, development, intranet etc. These modes also allow you to control the use of sample content. This sample content is defined before the quickstart is built and can include packages, configurations, etc. This can be particularly useful for production-ready installations when you want to keep your installation lean and without sample content. For more information see:</p> 
+  <ul> 
+   <li><a href="../../../sites/deploying/using/configure-runmodes.md">Run Modes</a></li> 
+  </ul> 
+  <h2>Adding a File Install Provider</h2> 
+  <p>By default the folder <span class="code">crx-quickstart/install</span> is watched for files.<br /> This folder does not exist, but simply can be created at runtime.</p> 
+  <p> </p> 
+  <p>If a bundle, configuration or content package is put into this directory, it is automatically picked up and installed. If it's removed, it gets uninstalled. <br /> It is another way to put bundles, content packages or configurations to the repository.</p> 
+  <p>This is especially interesting for several use cases:</p> 
+  <ul> 
+   <li>During development, it might be easier to put something into the file system.</li> 
+   <li>If something goes wrong, the web console and the repository are not reachable. With this you can put additional bundles into this directory and they should get installed.</li> 
+   <li>The <span class="code">crx-quickstart/install</span> folder can be created before quickstart is started, and additional packages can be put there.</li> 
+  </ul> 
+  <note> 
+   <p>See also <a href="/content/help/en/experience-manager/kb/HowToInstallPackagesUsingRepositoryInstall">How to install CRX packages automatically on server startup</a> for examples.</p> 
+  </note> 
+  <draft-comment type="draft"> 
+   <h3>Relocating or Preconfiguring the Repository</h3> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>The default location of the folder holding the files of the CRX repository within AEM is:</p> 
+   <p style="margin-left: 40px;"><span class="code">crx-quickstart/repository/</span> </p> 
+   <p>With the default configuration file being:</p> 
+   <p style="margin-left: 40px;"><span class="code">crx-quickstart/repository/repository.xml</span><br /> </p> 
+   <p>Sometimes you may want to relocate, or preconfigure, the repository; for example, when installing without a cluster or when using a different Persistence Manager.</p> 
+   <p>Relocation <i>must</i> be configured <i>before</i> installation:<br /> </p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <ol> 
+    <li><p>Create the new directory (<span class="code">&amp;lt;<i>new-location</i>&amp;gt;</span>) for the repository files.</p> <p>For example:</p>  </li> 
+    <li><p>Navigate to the <span class="code">&amp;lt;aem<i>-installation-dir</i>&amp;gt;</span> directory (holding the installation jar file <span class="code">cq-quickstart&amp;lt;<i>version</i>&amp;gt;.jar</span> and <span class="code">license.properties</span>).</p> </li> 
+    <li><p>Create a new file (in <span class="code">&amp;lt;<em>cq-installation-dir</em>&amp;gt;</span>):</p> 
+     <ul> 
+      <li><span class="code"><a href="/content/docs/en/aem/6-3/deploy/deploying-crx/repository_setup#bootstrap.properties">bootstrap.properties</a></span></li> 
+     </ul> <p>With the following entries:</p> <p><strong>&lt;span class="monospaced"&gt;repository.home=&amp;lt;&lt;i&gt;new-location&lt;/i&gt;&amp;gt;&lt;/span&gt;</strong> This is used to relocate the repository. Files required for the repository will be created here upon installation. For example, repository.home=repositoryRelocated</p><p><strong>&lt;span class="monospaced"&gt;repository.config=&amp;lt;&lt;i&gt;new-location&lt;/i&gt;&amp;gt;/repository.xml&lt;/span&gt;</strong> This specifies the location of repository.xml. This version can be edited with your customizations. The location does not have to be the same as above, but is often. For example, repository.config=repositoryRelocated/repository.xml</p><p>For example:<br /> </p> 
+     <codeblock gutter="true" class="syntax xml">
+       repository.home=repositoryRelocated!!discoiqbr!!repository.config=repositoryRelocated/repository.xml 
+     </codeblock> 
+     <note type="note"> 
+      <p>If you want to use the default repository.xml as a starting point for your custom configuration, either take it from a default installation or extract it from the unpacked distribution:</p> 
+      <p><code class="code"># mkdir tmp
+        <discoiqbr /> </code># cd tmp<br /> # jar xf ../app/cq-quickstart-6.3.0-standalone.jar resources/install/15/com.day.crx.sling.server-2.4.23.jar<br /> # jar xf resources/install/15/com.day.crx.sling.server-2.4.23.jar crx-core-2.4.23.jar<br /> # jar xf crx-core-2.4.23.jar com/day/crx/core/repository.xml</p> 
+      <p>You can now copy com/day/crx/core/repository.xml to the place you wish and remove the tmp directory afterwards.</p> 
+     </note></li> 
+    <li><p>Start the installation procedure; files needed for the repository will be saved in the new location; for this example they will be under:</p>  </li> 
+   </ol> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>If you just want to preconfigure the repository (without relocating it) you only have to:</p> 
+   <ul> 
+    <li>extract <span class="code">repository.xml</span> to the required location<br /> </li> 
+    <li>update <span class="code">repository.xml</span> as required<br /> </li> 
+    <li>create <span class="code">bootstrap.properties</span> and define <span class="code">repository.config</span></li> 
+   </ul> 
+   <p>Again, before starting the actual installation.<br /> </p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <h3>Removing the Geometrixx Sites</h3> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="ppiegaze@adobe.com" lastModifiedDate="2017-11-30T05:41:51.129-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>This section needs to link to docu about using the Package Manager. But this docu has not yet been moved over to 6-0...setting to draft until it has been moved.</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>AEM comes with a set of sample Geometrixx websites. You can remove this sample content through the <strong>Package Manager</strong>.</p> 
+   <p>The individual geometrixx-related packages are:</p> 
+   <ul> 
+    <li><span class="code">cq-geometrixx-outdoors-ugc-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+    <li><span class="code">cq-geometrixx-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+    <li><span class="code">cq-content-mac-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+    <li><span class="code">cq-geometrixx-login-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+    <li><span class="code">cq-geometrixx-users-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+    <li><span class="code">cq-geometrixx-workflow-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+    <li><span class="code">cq-geometrixx-outdoors-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+    <li><span class="code">cq-geometrixx-commons-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+    <li><span class="code">cq-geometrixx-media-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+   </ul> 
+   <p>To remove an individual package, simple click <strong>Uninstall</strong> on that package.</p> 
+   <p>There is also a super-package:</p> 
+   <ul> 
+    <li><span class="code">cq-geometrixx-all-pkg-5.6.12.zip</span></li> 
+   </ul> 
+   <p>This package includes all the above individual packages. To remove all the geometrixx-related content at once, click <strong>Uninstall</strong> on this package. The super-package will go into the uninstalled state, and all the individual packages will disappear from the package manager view.</p> 
+   <p>You have now an "empty" AEM instance without any demonstration sites.<br /> </p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <note type="note"> 
+    <p>When upgrading, geometrixx sites are automatically re-installed. You may need to remove geometrixx web sites after upgrading if you do not want these samples.</p> 
+   </note> 
+  </draft-comment> 
+  <h2>Installing and Starting Adobe Experience Manager as a Windows Service</h2> 
+  <note> 
+   <p>Be sure to perform the following procedure while logged on as Administrator or start/run these steps using the <strong>Run As Administrator</strong> context-menu selection.</p> 
+   <p>Being logged on as a user with administrator privileges is <strong>insufficient</strong>. If you are not logged on as Administrator when completing these steps you receive <strong>Access Denied</strong> errors.<br /> </p> 
+  </note> 
+  <p>To install and start AEM as a Windows service:</p> 
+  <ol> 
+   <li><p>Open the crx-quickstart\opt\helpers\instsrv.bat file in a text editor.</p> </li> 
+   <li><p>If you are configuring a 64-bit Windows server, replace all instances of prunsrv with one of the following commands, according to your operating system:</p> 
+    <ul> 
+     <li>prunsrv_amd64</li> 
+     <li>prunsrv_ia64</li> 
+    </ul> <p>This command invokes the appropriate script that starts the Windows service daemon in 64-bit Java instead of 32-bit Java.</p> </li> 
+   <li><p>To prevent the process from forking into more than one process, increase the maximum heap size and the PermGen JVM parameters. Locate the <span class="code">set jvm_options</span> command and set the value as follows:</p>  </li> 
+   <li><p>Open Command Prompt, change the current directory to the crx-quickstart/opt/helpers folder of the AEM installation, and enter the following command to create the service:</p>  <p>To verify that the service is created, open Services in the Administrative Tools control panel or type <span class="code">start services.msc</span> in Command Prompt. The cq5 service appears in the list.</p> </li> 
+   <li><p>Start the service by doing one of the following:</p> 
+    <ul> 
+     <li><p>In the Services control panel, click cq5 and click Start.</p> </li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-78.png" /> 
+    <ul> 
+     <li>In the command line, type net start cq5.</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-79.png" /></li> 
+   <li><p>Windows indicates that the service is running. AEM starts and the prunsrv executable appears in Task Manager. In your web browser, navigate to AEM, for example, <span class="code">http://localhost:4502</span> to start using AEM.</p> <img imageRotate="0" src="assets/chlimage_1-80.png" /></li> 
+  </ol> 
+  <note> 
+   <p>The property values in the instsrv.bat file are used when creating the Windows service. If you edit the property values in instsrv.bat, you must uninstall and then reinstall the service.</p> 
+  </note> 
+  <note> 
+   <p>When installing AEM as service, you must provide the absolute path for the logs directory in <span class="code">com.adobe.xmp.worker.files.ncomm.XMPFilesNComm</span> from Configuration Manager.</p> 
+  </note> 
+  <p>To uninstall the service, either click <strong>Stop</strong> in the <strong>Services</strong> control panel or in the command line, navigate to the folder and type <span class="code">instsrv.bat -uninstall cq5</span>. The service gets removed from the list in the <strong>Services</strong> control panel or from the list in the command line when you type <span class="code">net start</span>.</p> 
+  <h2>Redefining the location of the temporary work directory</h2> 
+  <p>The default location of the temporary folder of the java machine is <span class="code">/tmp</span>. AEM uses this folder too, for example when building packages.<br /> </p> 
+  <p>If you want to change the location of the temporary folder (for example, if you need a directory with more free space) then define a <i><span class="code">&amp;lt;new-tmp-path&amp;gt;</span></i> by adding the JVM parameter:</p> 
+  <p style="margin-left: 40px;"><span class="code">-Djava.io.tmpdir="/&amp;lt;<i>new-tmp-path</i>&amp;gt;"</span></p> 
+  <p>to either:<br /> </p> 
+  <ul> 
+   <li>the server startup command line<br /> </li> 
+   <li>the CQ_JVM_OPTS environment parameter in the serverctl or start script</li> 
+  </ul> 
+  <h2>Further options available from the Quickstart file</h2> 
+  <p>Further options and renaming conventions are described in the Quickstart help file, which is available through the -help option. To access the help, type:</p> 
+  <ul> 
+   <li><span class="code">java -jar cq5-&amp;lt;<i>version</i>&amp;gt;.jar -help</span></li> 
+  </ul> 
+  <codeblock gutter="true" class="syntax shell">
+    Loading&amp;nbsp;quickstart&amp;nbsp;properties:&amp;nbsp;default!!discoiqbr!!Loading&amp;nbsp;quickstart&amp;nbsp;properties:&amp;nbsp;instance!!discoiqbr!!Setting&amp;nbsp;properties&amp;nbsp;from&amp;nbsp;filename&amp;nbsp;'/Users/Desktop/AEM/cq-quickstart-5.6.0.jar'!!discoiqbr!!--------------------------------------------------------------------------------!!discoiqbr!!Adobe&amp;nbsp;Experience&amp;nbsp;Manager&amp;nbsp;Quickstart&amp;nbsp;(build&amp;nbsp;20130129)&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!--------------------------------------------------------------------------------!!discoiqbr!!Usage:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;Use&amp;nbsp;these&amp;nbsp;options&amp;nbsp;on&amp;nbsp;the&amp;nbsp;Quickstart&amp;nbsp;command&amp;nbsp;line.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!--------------------------------------------------------------------------------!!discoiqbr!!!!discoiqbr!!-help&amp;nbsp;(--help,-h)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Show&amp;nbsp;this&amp;nbsp;help&amp;nbsp;message&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-quickstart.server.port&amp;nbsp;(-p,-port)&amp;nbsp;&lt;port&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Set&amp;nbsp;server&amp;nbsp;port&amp;nbsp;number&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-contextpath&amp;nbsp;(-c,-org.apache.felix.http.context_path)&amp;nbsp;&lt;contextpath&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Set&amp;nbsp;context&amp;nbsp;path&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-debug&amp;nbsp;&lt;port&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Enable&amp;nbsp;Java&amp;nbsp;Debugging&amp;nbsp;on&amp;nbsp;port&amp;nbsp;number;&amp;nbsp;forces&amp;nbsp;forking&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-gui&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Show&amp;nbsp;GUI&amp;nbsp;if&amp;nbsp;running&amp;nbsp;on&amp;nbsp;a&amp;nbsp;terminal&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-nobrowser&amp;nbsp;(-quickstart.nobrowser)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Do&amp;nbsp;not&amp;nbsp;open&amp;nbsp;browser&amp;nbsp;at&amp;nbsp;startup&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-unpack!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Unpack&amp;nbsp;installation&amp;nbsp;files&amp;nbsp;only,&amp;nbsp;do&amp;nbsp;not&amp;nbsp;start&amp;nbsp;the&amp;nbsp;server&amp;nbsp;(implies&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-verbose)&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-v&amp;nbsp;(-verbose)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Do&amp;nbsp;not&amp;nbsp;redirect&amp;nbsp;stdout/stderr&amp;nbsp;to&amp;nbsp;files&amp;nbsp;and&amp;nbsp;do&amp;nbsp;not&amp;nbsp;close&amp;nbsp;stdin&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-nofork!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Do&amp;nbsp;not&amp;nbsp;fork&amp;nbsp;the&amp;nbsp;JVM,&amp;nbsp;even&amp;nbsp;if&amp;nbsp;not&amp;nbsp;running&amp;nbsp;on&amp;nbsp;a&amp;nbsp;console&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-fork!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Force&amp;nbsp;forking&amp;nbsp;the&amp;nbsp;JVM&amp;nbsp;if&amp;nbsp;running&amp;nbsp;on&amp;nbsp;a&amp;nbsp;console,&amp;nbsp;using&amp;nbsp;recommended&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;default&amp;nbsp;memory&amp;nbsp;settings&amp;nbsp;for&amp;nbsp;the&amp;nbsp;forked&amp;nbsp;JVM.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-forkargs&amp;nbsp;&lt;args&gt;&amp;nbsp;[&lt;args&gt;&amp;nbsp;...]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Additional&amp;nbsp;arguments&amp;nbsp;for&amp;nbsp;the&amp;nbsp;forked&amp;nbsp;JVM,&amp;nbsp;defaults&amp;nbsp;to&amp;nbsp;'-Xmx1024m&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-XX:MaxPermSize=256m&amp;nbsp;'.&amp;nbsp;&amp;nbsp;Use&amp;nbsp;--&amp;nbsp;to&amp;nbsp;specify&amp;nbsp;values&amp;nbsp;starting&amp;nbsp;with&amp;nbsp;-,&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;example:&amp;nbsp;'-forkargs&amp;nbsp;--&amp;nbsp;-server'&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-a&amp;nbsp;(--interface)&amp;nbsp;&lt;interface&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Optional&amp;nbsp;IP&amp;nbsp;address&amp;nbsp;(interface)&amp;nbsp;to&amp;nbsp;bind&amp;nbsp;to&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-pt&amp;nbsp;&lt;string&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Process&amp;nbsp;type&amp;nbsp;(main/fork)&amp;nbsp;-&amp;nbsp;do&amp;nbsp;not&amp;nbsp;use&amp;nbsp;directly,&amp;nbsp;used&amp;nbsp;when&amp;nbsp;forking&amp;nbsp;a&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;process&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-r&amp;nbsp;&lt;string&gt;&amp;nbsp;[&lt;string&gt;&amp;nbsp;[&lt;string&gt;&amp;nbsp;[&lt;string&gt;&amp;nbsp;[&lt;string&gt;&amp;nbsp;[&lt;string&gt;&amp;nbsp;[&lt;string&gt;&amp;nbsp;[&lt;string&gt;&amp;nbsp;[&lt;string&gt;&amp;nbsp;[&lt;string&gt;]]]]]]]]]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Runmode(s)&amp;nbsp;-&amp;nbsp;Use&amp;nbsp;this&amp;nbsp;to&amp;nbsp;define&amp;nbsp;the&amp;nbsp;run&amp;nbsp;mode(s)&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-b&amp;nbsp;&lt;string&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Base&amp;nbsp;folder&amp;nbsp;-&amp;nbsp;defines&amp;nbsp;the&amp;nbsp;path&amp;nbsp;under&amp;nbsp;which&amp;nbsp;the&amp;nbsp;quickstart&amp;nbsp;work&amp;nbsp;folder&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;is&amp;nbsp;created&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-low-mem-action&amp;nbsp;&lt;string&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Low&amp;nbsp;memory&amp;nbsp;action&amp;nbsp;-&amp;nbsp;what&amp;nbsp;to&amp;nbsp;do&amp;nbsp;if&amp;nbsp;memory&amp;nbsp;is&amp;nbsp;insufficient&amp;nbsp;at&amp;nbsp;startup&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-use-control-port!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Start&amp;nbsp;a&amp;nbsp;control&amp;nbsp;port&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-ll&amp;nbsp;&lt;level&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Define&amp;nbsp;launchpad&amp;nbsp;log&amp;nbsp;level&amp;nbsp;(1&amp;nbsp;=&amp;nbsp;error...4&amp;nbsp;=&amp;nbsp;debug)&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!--------------------------------------------------------------------------------!!discoiqbr!!Quickstart&amp;nbsp;filename&amp;nbsp;options&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!--------------------------------------------------------------------------------!!discoiqbr!!Usage:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;Rename&amp;nbsp;the&amp;nbsp;jar&amp;nbsp;file,&amp;nbsp;including&amp;nbsp;one&amp;nbsp;of&amp;nbsp;the&amp;nbsp;patterns&amp;nbsp;shown&amp;nbsp;below,&amp;nbsp;to&amp;nbsp;set&amp;nbsp;the&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!corresponding&amp;nbsp;option.&amp;nbsp;Command-line&amp;nbsp;options&amp;nbsp;have&amp;nbsp;priority&amp;nbsp;on&amp;nbsp;these&amp;nbsp;filename&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!patterns.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!--------------------------------------------------------------------------------!!discoiqbr!!!!discoiqbr!!-NNNN!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Include&amp;nbsp;-NNNN.jar&amp;nbsp;or&amp;nbsp;-pNNNN&amp;nbsp;in&amp;nbsp;the&amp;nbsp;renamed&amp;nbsp;jar&amp;nbsp;filename&amp;nbsp;to&amp;nbsp;run&amp;nbsp;on&amp;nbsp;port&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;NNNN,&amp;nbsp;for&amp;nbsp;example:&amp;nbsp;quickstart-8085.jar&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-nobrowser!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Include&amp;nbsp;-nobrowser&amp;nbsp;in&amp;nbsp;the&amp;nbsp;renamed&amp;nbsp;jar&amp;nbsp;filename&amp;nbsp;to&amp;nbsp;avoid&amp;nbsp;opening&amp;nbsp;the&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;browser&amp;nbsp;at&amp;nbsp;startup,&amp;nbsp;example:&amp;nbsp;quickstart-nobrowser-8085.jar&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!-publish!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Include&amp;nbsp;-publish&amp;nbsp;in&amp;nbsp;the&amp;nbsp;renamed&amp;nbsp;jar&amp;nbsp;filename&amp;nbsp;to&amp;nbsp;run&amp;nbsp;cq5&amp;nbsp;in&amp;nbsp;"publish"&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mode,&amp;nbsp;example:&amp;nbsp;cq5-publish-7502.jar&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!--------------------------------------------------------------------------------!!discoiqbr!!The&amp;nbsp;license.properties&amp;nbsp;file!!discoiqbr!!--------------------------------------------------------------------------------!!discoiqbr!!&amp;nbsp;&amp;nbsp;The&amp;nbsp;license.properties&amp;nbsp;file&amp;nbsp;stores&amp;nbsp;licensing&amp;nbsp;information,&amp;nbsp;created&amp;nbsp;from&amp;nbsp;the&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;licensing&amp;nbsp;form&amp;nbsp;displayed&amp;nbsp;on&amp;nbsp;first&amp;nbsp;startup&amp;nbsp;and&amp;nbsp;stored&amp;nbsp;in&amp;nbsp;the&amp;nbsp;folder&amp;nbsp;from&amp;nbsp;where&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;Quickstart&amp;nbsp;is&amp;nbsp;run.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!--------------------------------------------------------------------------------!!discoiqbr!!Log&amp;nbsp;files!!discoiqbr!!--------------------------------------------------------------------------------!!discoiqbr!!&amp;nbsp;&amp;nbsp;Once&amp;nbsp;Quickstart&amp;nbsp;has&amp;nbsp;been&amp;nbsp;unpacked&amp;nbsp;and&amp;nbsp;started,&amp;nbsp;log&amp;nbsp;files&amp;nbsp;can&amp;nbsp;be&amp;nbsp;found&amp;nbsp;under&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;./crx-quickstart/logs.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!--------------------------------------------------------------------------------!!discoiqbr!! 
+  </codeblock> 
+  <draft-comment color="yellow" lastModifiedBy="ppiegaze@adobe.com" lastModifiedDate="2017-11-30T05:41:51.559-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>This section needs to link to docu about using the Package Manager. But this docu has not yet been moved over to 6-0...setting to draft until it has been moved.</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <h3>Uploading Packages</h3> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>If you need to install further (often customized) packages for your installation see <a></a>Uploading Packages in the CRX documentation for detailed instructions.</p> 
+  </draft-comment> 
+  <h2>Installing AEM in the Amazon EC2 environment</h2> 
+  <p>When installing AEM on an Amazon Elastic Compute Cloud (EC2) instance, if you install both author and publish on the EC2 instance, the Author instance is installed correctly by following the procedure on <a href="#installinginstancesofaemmanager">Installing Instances of AEM Manager</a>; however, the Publish instance becomes Author. </p> 
+  <p>Before installing the Publish instance on your EC2 environment, do the following:</p> 
+  <ol> 
+   <li><p>Unpack the jar file for the Publish instance before starting the instance for the first time. To unpack the file use the following command:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      java&amp;nbsp;-jar&amp;nbsp;quickstart.jar&amp;nbsp;-unpack 
+    </codeblock> 
+    <note> 
+     <p>If you change the mode <strong>after</strong> starting the instance the first time, you cannot change the runmode.</p> 
+    </note></li> 
+   <li><p>Start the instance by running:<br /> </p> 
+    <codeblock gutter="true" class="syntax xml">
+      java&amp;nbsp;-jar&amp;nbsp;quickstart.jar&amp;nbsp;-r&amp;nbsp;publish 
+    </codeblock> 
+    <note> 
+     <p>Make sure you first run the instance after unpacking it by running the command above. Otherwise, the quickstart.properties fill will not be generated. Without this file, any future AEM upgrades will fail.<br /> </p> 
+    </note></li> 
+   <li><p>In the <strong>bin</strong> folder, open the <strong>start</strong> script and check the following section:</p> 
+    <codeblock class="syntax xml">
+      #&amp;nbsp;runmode(s)!!discoiqbr!!if&amp;nbsp;[&amp;nbsp;-z&amp;nbsp;"$CQ_RUNMODE"&amp;nbsp;];&amp;nbsp;then!!discoiqbr!!&amp;nbsp;CQ_RUNMODE='author'!!discoiqbr!!fi!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Change the runmode to <strong>publish</strong> and save the file.</p> 
+    <codeblock class="syntax xml">
+      #&amp;nbsp;runmode(s)!!discoiqbr!!if&amp;nbsp;[&amp;nbsp;-z&amp;nbsp;"$CQ_RUNMODE"&amp;nbsp;];&amp;nbsp;then!!discoiqbr!!&amp;nbsp;CQ_RUNMODE='publish'!!discoiqbr!!fi!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Stop the instance and restart it by running the <strong>start</strong> script.</p> </li> 
+  </ol> 
+  <h2>Verifying the Installation</h2> 
+  <p>The following links can be used to verify that your installation is operational (all examples are on the basis that the instance is running on port 8080 of the localhost, that CRX is installed under /crx and Launchpad under /):</p> 
+  <ul> 
+   <li><span class="code">http://localhost:8080/crx/de</span><br /> The CRXDE Lite console.</li> 
+   <li><span class="code">http://localhost:8080/system/console</span><br /> The Web Console.</li> 
+  </ul> 
+  <h2>Actions after Installation</h2> 
+  <p>Although there are many possibilities to configure AEM WCM, certain actions should be taken, or at least reviewed immediately after installation:</p> 
+  <ul> 
+   <li><p>Consult the <a href="../../../sites/administering/using/security-checklist.md">Security Checklist</a> for tasks required to ensure that your system remains secure.</p> </li> 
+   <li><p>Review the list of default users and groups which are installed with AEM WCM. Check whether you want to take action on any other accounts - see <a href="../../../sites/administering/using/security.md">Security and User Administration</a> for further details.</p> </li> 
+  </ul> 
+  <h2>Accessing CRXDE Lite and the Web Console</h2> 
+  <p>Once AEM WCM has been started, you can also access:</p> 
+  <ul> 
+   <li><a href="#accessingcrxdelite">CRXDE Lite</a> - used to access and manage the repository</li> 
+   <li><a href="#accessingthewebconsole">Web Console</a> - used to manage or configure the OSGi bundles (also known as the OSGi Console)</li> 
+  </ul> 
+  <h4>Accessing CRXDE Lite</h4> 
+  <p>To open CRXDE Lite you can select <strong>CRXDE Lite</strong> from the welcome screen or use your browser to navigate to<code class="code">
+    <discoiqbr /> http://&amp;lt;<i>host</i>&amp;gt;:&amp;lt;<i>port</i>&amp;gt;/crx/de/index.jsp</code><br /> For example:<br /> <span class="code">http://localhost:4502/crx/de/index.jsp</span><span class="code"></span></p> 
+  <img imageRotate="0" src="assets/installcq_crxdelite.png" /> 
+  <h4>Accessing the Web Console</h4> 
+  <p>To access the Adobe CQ Web console you can select <strong>OSGi Console</strong> from the welcome screen or use your browser to navigate to<code class="code">
+    <discoiqbr /> http://&amp;lt;<i>host</i>&amp;gt;:&amp;lt;<i>port</i>&amp;gt;/system/console</code><br /> For example:<br /> <span class="code">http://localhost:4502/system/console</span><br /> or for the Bundles page<br /> <span class="code">http://localhost:4502/system/console/bundles</span></p> 
+  <img imageRotate="0" src="assets/chlimage_1-81.png" /> 
+  <p>See <a href="../../../sites/deploying/using/configuring-osgi.md#osgiconfigurationwiththewebconsole">OSGi Configuration with the Web Console</a> for further details.</p> 
+  <h2>Troubleshooting</h2> 
+  <p>For information on dealing with issues that may come up during installation, see:</p> 
+  <ul> 
+   <li><a href="../../../sites/deploying/using/troubleshooting.md">Troubleshooting</a></li> 
+  </ul> 
+  <h2>Uninstalling Adobe Experience Manager</h2> 
+  <p>Because AEM installs into a single directory, there is no need for an uninstall utility. Uninstalling can be as simple as deleting the entire installation directory, although how you uninstall AEM depends on what you want to achieve and what persistent storage you use.</p> 
+  <p>If persistent storage is embedded in the installation directory, for example, in the default TarPM installation, deleting folders removes data as well.</p> 
+  <note> 
+   <p>Adobe highly recommends that you back up your repository before deleting AEM. If you delete the entire &amp;lt;cq-installation-directory&amp;gt;, you will delete the repository. To keep the repository data before deleting, move or copy the &amp;lt;cq-installation-directory&amp;gt;/crx-quickstart/repository folder somewhere else before deleting the other folders.</p> 
+  </note> 
+  <p>If your installation of AEM uses external storage, for example, a database server, removing folder does not remove the data automatically, but it does remove the storage configuration, which makes restoring the JCR content difficult.</p> 
+ </body> 
+</html>

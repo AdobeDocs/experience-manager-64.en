@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-05-04T05:12:47.385-0400" name="cq:lastReplicated" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/introduction;/content/help/en/experience-manager/6-4/mobile/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="AEM integrates with PhoneGap so that you can easily create apps using AEM pages. Follow this page to get started with Adobe PhoneGap Enterprise." name="seoDescription" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="AEM Adobe PhoneGap" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy/getting-started-with-aem-mobile/aem-adobe-phonegap" name="qaNotes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:introduction;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-05-04T05:12:47.116-0400" name="lastPublishExternalDate" /> 
+  <meta content="AEM Adobe PhoneGap" name="seoTitle" /> 
+  <meta content="2017-10-31T16:26:29.473-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-12-13T19:01:08.351-0500" name="jcr:created" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/getting-started-aem-mobile-phonegap.html" name="publishExternalURL" /> 
+  <meta content="2269c86e-bb50-413e-b26c-d9e796415e29" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-05-04T05:12:47.116-0400" name="topicBrowsingSortDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2018-05-11T10:01:49.332-0400" name="locHandOffDate" /> 
+  <meta content="2018-05-11T10:01:49.333-0400" name="cq:lastModified" /> 
+  <meta content="2018-05-04T05:12:47.116-0400" name="publishExternalDate" /> 
+  <meta content="378f5505-2e1b-4461-b9dd-e92bd0777171" name="jcr:uuid" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>AEM integrates with PhoneGap so that you can easily create apps using AEM pages. PhoneGap allows the user to create utility apps that lets user to work with the content. Content Sync enables you to create versioned archives of pages for bundling with apps.</p> 
+  <p>Typically, an <em><strong>AEM Administrator</strong></em> is responsible for adding a new application to the AEM Mobile catalog, either by creating a new app using the creation wizard, or by importing an existing application.</p> 
+  <p>From here an <strong><em>AEM Author</em> (or <em>Marketer</em>)</strong> is now able to use the out-of-the-box templates and components to add and edit pages, drag and drop components and add media of all types from the DAM including images, videos and text fragments (content fragments).</p> 
+  <p>The real power of AEM Mobile is that a<em> </em>savvy<em> <strong>AEM Developer</strong></em> can extend and create custom web templates and components to enable the <em>AEM Author </em>to create beautful and engaging mobile experiences. These templates and components are not only optimized for the mobile app world; but communicate both to the device and to the AEM server (any remote server) to omni-channel service end-points. </p> 
+  <note> 
+   <p>When the <i>AEM Author</i> believes the app is ready, they can first have their stakeholders download the app with <strong><a href="../../mobile/using/phonegap-mobile-quickstart.md">Adobe Verify </a></strong>(available in both the AppStore and PlayStore) for review and approval. Once they've received the green light, they are able to release this new or updated content directly to their users through the AEM Mobile ContentSync content release management dashboard. One person can take on any number of roles, that's up to you and your governance policies.</p> 
+  </note> 
+  <h3>Prerequisites</h3> 
+  <p>AEM Mobile is just one pillar that makes up the complete AEM platform. </p> 
+  <p>Before working with AEM Mobile and following the steps within this getting started guide, users should be familiar with AEM and the AEM Mobile Control Center. See:</p> 
+  <p><a href="../../sites/deploying/using/deploy.md">Getting Started with AEM</a></p> 
+  <p><a href="../../mobile/using/phonegap-authoring-apps.md">A Walkthrough of the AEM Mobile Control Center</a></p> 
+  <h2>QuickLinks for Authors</h2> 
+  <p>See <a href="../../mobile/using/phonegap.md">Authoring for Adobe PhoneGap Enterprise in AEM</a> to learn about an author's roles and responsibilities.</p> 
+  <h2>QuickLinks for Developers</h2> 
+  <p>There are sample applcations that will integrate with AEM Mobile and can be customized by the developer. Click on <a href="../../mobile/using/developing-in-phonegap.md">Developing Adobe PhoneGap Enterprise with AEM</a>.</p> 
+  <p>In subsequent chapters you'll learn about advanced concepts like White labeling you application, Localization, Internationalization, ContentSync, Targeting, Analytics, and more.</p> 
+  <h2>QuickLinks for Administrators</h2> 
+  <p>See <a href="../../mobile/using/administer-phonegap.md">Administering Content for Adobe PhoneGap Enterprise with AEM</a> to set up and manage your mobile application.</p> 
+  <note> 
+   <p>Using hybrid mobile technologies, you can create rich mobile applications that <i>run offline and online</i> with AEM Mobile in fact, many customers choose to create apps that check for when they're online or offline and behave accordingly.</p> 
+  </note> 
+ </body> 
+</html>

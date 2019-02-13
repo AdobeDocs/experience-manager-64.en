@@ -1,0 +1,165 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/administering/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:21:35.650-0400" name="firstPublishExternalDate" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-01-15T10:40:44.900-0500" name="publishExternalDate" /> 
+  <meta content="Identifying Content to Translate" name="jcr:title" /> 
+  <meta content="f8e31552-db82-4252-aca4-255ead6ddfab" name="jcr:predecessors" /> 
+  <meta content="2017-12-01T19:06:33.361-0500" name="jcr:created" /> 
+  <meta content="2019-01-15T10:40:44.912-0500" name="cq:lastModified" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/tc-rules.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:site-features;content_type:reference" name="cq:tags" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Identifying Content to Translate" name="seoTitle" /> 
+  <meta content="Learn how to identify content that needs translating." name="seoDescription" /> 
+  <meta content="Identifying Content to Translate" name="navTitle" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2018-10-17T08:57:48.886-0400" name="locHandOffDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2019-01-15T10:40:44.960-0500" name="cq:lastReplicated" /> 
+  <meta content="2019-01-15T10:40:44.900-0500" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="1dd0ee99-cf84-4838-8f04-ab96f90e9cbd" name="jcr:uuid" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/sites/translation/tc-rules" name="qaNotes" /> 
+  <meta content="2019-01-15T10:40:44.900-0500" name="topicBrowsingSortDate" /> 
+ </head> 
+ <body> 
+  <p>Translation rules identify the content to translate for pages, components, and assets that are included in, or excluded from, translation projects. When a page or asset is being translated, AEM extracts this content so that it can be sent to the translation service.</p> 
+  <p>Pages and assets are represented as nodes in the JCR repository. The content that is extracted is one or more property values of the nodes. The translation rules identify the properties that contain the content to extract.</p> 
+  <p>Translation rules are expressed in XML format and stored in these possible locations:</p> 
+  <ul> 
+   <li><span class="code">/libs/settings/translation/rules/translation_rules.xml</span></li> 
+   <li><span class="code">/apps/settings/translation/rules/translation_rules.xml</span></li> 
+   <li><span class="code">/conf/global/settings/translation/rules/translation_rules.xml</span></li> 
+  </ul> 
+  <p> </p> 
+  <p>The file applies to all translation projects.</p> 
+  <note> 
+   <p>After an upgrade to 6.4, it is recommended to move the file from /etc. See <a href="../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translationrules">Common Repository Restructuring in AEM 6.4</a> for more details.</p> 
+  </note> 
+  <p>Rules include the following information:</p> 
+  <ul> 
+   <li>The path of the node to which the rule applies. The rule also applies to the descendants of the node.</li> 
+   <li>The names of the node properties that contain the content to translate. The property can be specific to a specific resource type or to all resource types.</li> 
+  </ul> 
+  <p>For example, you can create a rule that translates the content that authors add to all AEM foundation Text components on your pages. The rule can identify the <span class="code">/content</span> node and the <span class="code">text</span> property for the <span class="code">foundation/components/text</span> component. </p> 
+  <p>There is a <a href="#translationrulesui">console</a> that has been added for configuring translation rules. The definitions in the UI will populate the file for you.</p> 
+  <p>For an overview of the content translation features in AEM, see <a href="../../../sites/administering/using/translation.md">Translating Content for Multilingual Sites</a>. </p> 
+  <note> 
+   <p>AEM supports one-to-one mapping between resource types and reference attributes for translation of referenced content on a page.<br /> </p> 
+  </note> 
+  <h2>Rule Syntax for Pages, Components, and Assets</h2> 
+  <p>A rule is a <span class="code">node</span> element with one or more child <span class="code">property</span> elements and zero or more child <span class="code">node</span> elements:</p> 
+  <codeblock class="syntax xml">
+    &lt;node&amp;nbsp;path="content&amp;nbsp;path"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="property&amp;nbsp;name"&amp;nbsp;[translate="false"]/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;resourceType="component&amp;nbsp;path"&amp;nbsp;&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="property&amp;nbsp;name"&amp;nbsp;[translate="false"]/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&lt;/node&gt; 
+  </codeblock> 
+  <p>Each of these <span class="code">node</span> elements has the following characteristics:</p> 
+  <ul> 
+   <li>The <span class="code">path</span> attribute contains the path to the root node of the branch to which the rules apply. </li> 
+   <li>Child <span class="code">property</span> elements identify the node properties to translate for all resource types: 
+    <ul> 
+     <li>The <span class="code">name</span> attribute contains the property name.</li> 
+     <li>The optional <span class="code">translate</span> attribute equals <span class="code">false</span> if the property is not translated. By default the value is <span class="code">true</span>. This attribute is useful when overriding previous rules. </li> 
+    </ul> </li> 
+   <li>Child <span class="code">node</span> elements identify the node properties to translate for specific resource types: 
+    <ul> 
+     <li>The <span class="code">resourceType</span> attribute contains the path that resolves to the component that implements the resource type.</li> 
+     <li>Child <span class="code">property</span> elements identify the node property to translate. Use this node in the same way as the child <span class="code">property</span> elements for node rules. </li> 
+    </ul> </li> 
+  </ul> 
+  <p>The following example rule causes the content of all <span class="code">text</span> properties to be translated for all pages below the <span class="code">/content</span> node. The rule is effective for any component that stores content in a <span class="code">text</span> property, such as the foundation Text component and the foundation Image component.</p> 
+  <codeblock class="syntax xml">
+    &lt;node&amp;nbsp;path="/content"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="text"/&gt;!!discoiqbr!!&lt;/node&gt; 
+  </codeblock> 
+  <p>The following example translates the content of all <span class="code">text</span> properties, and also translates other properties of the foundation Image component. If other components have same-named properties, the rule does not apply to them.</p> 
+  <codeblock class="syntax xml">
+    &lt;node&amp;nbsp;path="/content"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="text"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;resourceType="foundation/components/textimage"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="image/alt"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="image/jcr:description"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="image/jcr:title"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&lt;/node&gt; 
+  </codeblock> 
+  <h2>Rule Syntax for Extracting Assets from Pages </h2> 
+  <p>Use the following rule syntax to include assets that are embedded in or referenced from components:</p> 
+  <codeblock class="syntax xml">
+    &lt;assetNode&amp;nbsp;resourceType="path&amp;nbsp;to&amp;nbsp;component"&amp;nbsp;assetReferenceAttribute="property&amp;nbsp;that&amp;nbsp;stores&amp;nbsp;asset"/&gt; 
+  </codeblock> 
+  <p>Each <span class="code">assetNode</span> element has the following characteristics:</p> 
+  <ul> 
+   <li>One <span class="code">resourceType</span> attribute that equals the path that resolves to the component. </li> 
+   <li>One <span class="code">assetReferenceAttribute</span> attribute that equals the name of the property that stores the asset binary (for embedded assets) or the path to the referenced asset.</li> 
+  </ul> 
+  <p>The following example extracts images from the foundation Image component:</p> 
+  <codeblock class="syntax xml">
+    &lt;assetNode&amp;nbsp;resourceType="foundation/components/image"&amp;nbsp;assetReferenceAttribute="fileReference"/&gt; 
+  </codeblock> 
+  <h2>Overriding Rules</h2> 
+  <p>The translation_rules.xml file consists of a <span class="code">nodelist</span> element with several child <span class="code">node</span> elements. AEM reads the node list from top to bottom. When multiple rules target the same node, the rule that is lower in the file is used. For example, the following rules cause all content in <span class="code">text</span> properties to be translated except for the <span class="code">/content/mysite/en</span> branch of pages:</p> 
+  <codeblock class="syntax xml">
+    &lt;nodelist&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;path="/content”&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="text"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;path=“/content/mysite/en”&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name=“text”&amp;nbsp;translate=“false"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;&amp;nbsp;!!discoiqbr!!&lt;nodelist&gt; 
+  </codeblock> 
+  <h2>Filtering Properties</h2> 
+  <p>You can filter nodes that have a specific property by using a<span class="code"> filter</span> element.</p> 
+  <p>For example, the following rules cause all content in <span class="code">text</span> properties to be translated except for the nodes that have the property <span class="code">draft</span> set to <span class="code">true</span>.</p> 
+  <codeblock class="syntax xml">
+    &lt;nodelist&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;path="/content”&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;filter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;containsProperty="draft"&amp;nbsp;propertyValue="true"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/filter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="text"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&lt;nodelist&gt; 
+  </codeblock> 
+  <h2>Translation Rules UI</h2> 
+  <p>A console is also available for configuring translation rules. </p> 
+  <p>To access it:</p> 
+  <ol> 
+   <li><p>Navigate to <strong>Tools</strong> and then <strong>General</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-58.jpeg" /></li> 
+   <li><p>Select <strong>Translation Configuration</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-59.jpeg" /></li> 
+  </ol> 
+  <p>From here, you can <strong>Add Context</strong>. This allows you to add a path.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-60.jpeg" /> 
+  <p>Then you need to select your context and then click <strong>Edit</strong>. This will open the Translation Rules Editor.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-61.jpeg" /> 
+  <p>There are 4 attributes that you can change via the UI: <span class="code">isDeep</span>, <span class="code">inherit</span>, <span class="code">translate</span> and <span class="code">updateDestinationLanguage</span>.</p> 
+  <p><strong>isDeep</strong> This attrbute is applicable on node filters and is true by default. It checks if the node (or its ancestors) contains that property with the specified property value in the filter. If false, it only checks at the current node.</p> 
+  <p>For example, child nodes are getting added into a translation job even when the parent node is having property <span class="code">draftOnly</span> set to true to flag draft content. Here <span class="code">isDeep</span> comes into play and checks if the parent nodes have property <span class="code">draftOnly</span> as true and excludes those child nodes.</p> 
+  <p>In the Editor, you can check/uncheck <strong>I<span class="code">s Deep</span></strong> in the <strong>Filters</strong> tab.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-62.jpeg" /> 
+  <p>Here is an example of the resulting xml when <strong>Is Deep</strong> is unchecked in the UI:</p> 
+  <codeblock class="syntax xml">
+    &amp;nbsp;&lt;filter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;containsProperty="draftOnly"&amp;nbsp;isDeep="false"&amp;nbsp;propertyValue="true"/&gt;!!discoiqbr!!&lt;/filter&gt; 
+  </codeblock> 
+  <p><strong>inherit</strong> This is applicable on properties. By default every property is inherited, but if you want some property to not get inherited on the child, then you can mark that property to be false so that it gets applied only on that specific node.</p> 
+  <p>In the UI, you can check/uncheck <strong>Inherit</strong> in the <strong>Properties</strong> tab.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-63.jpeg" /> 
+  <p><strong>translate</strong> The translate attribute is used simply to specify whether or not to translate a property.</p> 
+  <p>In the UI, you can check/uncheck <strong>Translate</strong> in the <strong>Properties</strong> tab.</p> 
+  <p><strong>updateDestinationLanguage</strong> This attribute is used for properties that do not have text but language codes, for example jcr:language. The user is not translating text but the language locale from source to destination. Such properties are not sent for translation.</p> 
+  <p>In the UI, you can check/uncheck <strong>Translate</strong> in the <strong>Properties</strong> tab, but for the specific properties that have language codes as value.</p> 
+  <p>To help clarify the difference between <span class="code">updateDestinationLanguage</span> and <span class="code">translate</span>, here is a simple example of a context with only two rules:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-64.jpeg" /> 
+  <p>The result in the xml will look like this:</p> 
+  <codeblock class="syntax xml">
+    &lt;property&amp;nbsp;inherit="true"&amp;nbsp;name="text"&amp;nbsp;translate="true"&amp;nbsp;updateDestinationLanguage="false"/&gt;!!discoiqbr!!&lt;property&amp;nbsp;inherit="true"&amp;nbsp;name="jcr:language"&amp;nbsp;translate="false"&amp;nbsp;updateDestinationLanguage="true"/&gt; 
+  </codeblock> 
+  <h2>Editing the Rules File Manually</h2> 
+  <p>The translation_rules.xml file that is installed with AEM contains a default set of translation rules. You can edit the file to support the requirements of your translation projects. For example, you can add rules so that the content of your custom components are translated. </p> 
+  <p>If you edit the translation_rules.xml file, keep a backup copy in a content package. Installing AEM service packs or reinstalling certain AEM packages can replace the current translation_rules.xml file with the original. To restore your rules in this situation, you can install the package that contains your backup copy.</p> 
+  <note> 
+   <p>After you create the content package, rebuild the package each time you edit the file.</p> 
+  </note> 
+  <h2>Example Translation Rules File</h2> 
+  <codeblock class="syntax xml">
+    &lt;nodelist&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;translation&amp;nbsp;rules&amp;nbsp;for&amp;nbsp;Geometrixx&amp;nbsp;Demo&amp;nbsp;site&amp;nbsp;(example)&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;path="/content/geometrixx"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;list&amp;nbsp;all&amp;nbsp;node&amp;nbsp;properties&amp;nbsp;that&amp;nbsp;should&amp;nbsp;be&amp;nbsp;translated&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="jcr:title"&amp;nbsp;/&gt;&amp;nbsp;&lt;!--&amp;nbsp;translation&amp;nbsp;workflows&amp;nbsp;running&amp;nbsp;on&amp;nbsp;content&amp;nbsp;saved&amp;nbsp;in&amp;nbsp;/content/geometrixx,&amp;nbsp;will&amp;nbsp;extract&amp;nbsp;jcr:title&amp;nbsp;values&amp;nbsp;independent&amp;nbsp;of&amp;nbsp;the&amp;nbsp;component.&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="jcr:description"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;resourceType&amp;nbsp;="foundation/components/image"&gt;&amp;nbsp;&lt;!--&amp;nbsp;translation&amp;nbsp;workflows&amp;nbsp;running&amp;nbsp;on&amp;nbsp;content&amp;nbsp;saved&amp;nbsp;in&amp;nbsp;/content/geometrixx,&amp;nbsp;will&amp;nbsp;extract&amp;nbsp;alternateText&amp;nbsp;values&amp;nbsp;only&amp;nbsp;for&amp;nbsp;Image&amp;nbsp;component.&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="alternateText"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;resourceType&amp;nbsp;="geometrixx/components/title"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="richText"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="jcr:title"&amp;nbsp;translate="false"/&gt;&amp;nbsp;&lt;!--&amp;nbsp;translation&amp;nbsp;workflows&amp;nbsp;running&amp;nbsp;on&amp;nbsp;content&amp;nbsp;saved&amp;nbsp;in&amp;nbsp;/content/geometrixx,&amp;nbsp;will&amp;nbsp;not&amp;nbsp;extract&amp;nbsp;jcr:title&amp;nbsp;for&amp;nbsp;Title&amp;nbsp;component,&amp;nbsp;but&amp;nbsp;instead&amp;nbsp;use&amp;nbsp;richText.&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;pathContains="/cq:annotations"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="text"&amp;nbsp;translate="false"/&gt;&amp;nbsp;&lt;!--&amp;nbsp;translation&amp;nbsp;workflows&amp;nbsp;running&amp;nbsp;on&amp;nbsp;content&amp;nbsp;saved&amp;nbsp;in&amp;nbsp;/content/geometrixx,&amp;nbsp;will&amp;nbsp;not&amp;nbsp;extract&amp;nbsp;text&amp;nbsp;if&amp;nbsp;part&amp;nbsp;of&amp;nbsp;cq:annotations&amp;nbsp;node.&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;translation&amp;nbsp;rules&amp;nbsp;for&amp;nbsp;Geometrixx&amp;nbsp;Outdoors&amp;nbsp;site&amp;nbsp;(example)&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;path="/content/geometrixx-outdoors"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;resourceType&amp;nbsp;="foundation/components/image"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="alternateText"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="jcr:title"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;resourceType&amp;nbsp;="geometrixx-outdoors/components/title"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="richText"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;translation&amp;nbsp;rules&amp;nbsp;for&amp;nbsp;ASSETS&amp;nbsp;(example)&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;node&amp;nbsp;path="/content/dam"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;configure&amp;nbsp;list&amp;nbsp;of&amp;nbsp;metadata&amp;nbsp;properties&amp;nbsp;here&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="dc:title"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&amp;nbsp;name="dc:description"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/node&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;translation&amp;nbsp;rules&amp;nbsp;for&amp;nbsp;extracting&amp;nbsp;ASSETS&amp;nbsp;from&amp;nbsp;SITES&amp;nbsp;content,&amp;nbsp;configure&amp;nbsp;all&amp;nbsp;components&amp;nbsp;that&amp;nbsp;embed&amp;nbsp;or&amp;nbsp;reference&amp;nbsp;assets&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;assetNode&amp;nbsp;resourceType="foundation/components/image"&amp;nbsp;assetReferenceAttribute="fileReference"/&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;assetNode&amp;nbsp;resourceType="foundation/components/video"&amp;nbsp;assetReferenceAttribute="asset"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;assetNode&amp;nbsp;resourceType="foundation/components/download"&amp;nbsp;assetReferenceAttribute="fileReference"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;assetNode&amp;nbsp;resourceType="foundation/components/mobileimage"&amp;nbsp;assetReferenceAttribute="fileReference"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;assetNode&amp;nbsp;resourceType="wcm/foundation/components/image"&amp;nbsp;assetReferenceAttribute="fileReference"/&gt;!!discoiqbr!!&lt;/nodelist&gt; 
+  </codeblock> 
+ </body> 
+</html>

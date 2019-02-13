@@ -1,0 +1,208 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-14d34aed1336a353fde-8000.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-14d34aed1336a353fde-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7f47.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-14d34aed1336a353fde-7ffd.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7835.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7834.2" name="cq:gepId" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2017-07-12T07:03:37.226-0400" name="lr_lastModified" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2017-11-22T19:06:07.654-0500" name="jcr:created" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="sortDate" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" /> 
+  <meta content="48a183e5-dd72-44fb-bc2f-5e77c2601b35" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="Working with barcoded forms" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-03T06:47:04.484-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-10-03T06:47:04.484-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/barcoded-forms.html" name="publishExternalURL" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="7d15dff7-efd7-4ee2-8d63-55f87b088b24" name="jcr:predecessors" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2018-04-03T08:15:52.154-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-03T06:47:04.484-0400" name="publishExternalDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="Working with barcoded forms" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-11-21T06:57:16.540-0500" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <h2 id="about_the_barcoded_forms_service">About the barcoded forms Service</h2> 
+  <p></p> 
+  <p>The barcoded forms service automates the capture of data from fill-and-print forms and integrates captured information into an organization's core IT systems. </p> 
+  <p>Using the barcoded forms service, you can add one-dimensional and two-dimensional barcodes to interactive PDF forms. You can then publish the barcoded forms to a website or distribute them by email or CD. When a user fills a barcoded form by using Adobe Reader, Acrobat Professional, or Acrobat Standard, the barcode is updated automatically to encode the user-supplied form data. The user can submit the form electronically, or print it to paper and submit it by mail, fax, or hand. You can later extract the user-supplied data as part of an automated workflow, routing the data among approval processes and business systems.</p> 
+  <p>For more information about the barcoded forms service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  <h2 id="decoding_barcoded_form_data">Decoding Barcoded Form Data</h2> 
+  <p></p> 
+  <p>You can use the barcoded forms service API to decode data from a PDF form or an image that contains a barcode. Decoding form data means extracting data that is located in the barcode. Before data can be decoded from a PDF form (or image), a user has to populate the form with data. </p> 
+  <note> 
+   <p>For more information about the barcoded forms service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63"> Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To decode data from a PDF form, perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a barcoded formsClient API object. </p></li> 
+   <li><p>Get a PDF form that contains barcoded data.</p></li> 
+   <li><p>Decode the data from PDF form.</p></li> 
+   <li><p>Convert the data to an XML data source.</p></li> 
+   <li><p>Process the decoded data.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files into your development project. If you are creating a client application using Java, then include the necessary JAR files. If you are using web services, then make sure that you include the proxy files.</p> 
+  <p>The following JAR files must be added to your project’s classpath:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-barcodedforms-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (Required if AEM Forms is deployed on JBoss)</p></li> 
+   <li><p>jbossall-client.jar (Required if AEM Forms is deployed on JBoss)</p></li> 
+   <li><p>xercesImpl.jar (located in &amp;lt;install directory&amp;gt;/Adobe/Adobe_Experience_Manager_forms/sdk/client-libs\thirdparty)</p></li> 
+  </ul> 
+  <p>If AEM Forms is deployed on a supported J2EE application server that is not JBOSS, then you will need to replace adobe-utilities.jar and jbossall-client.jar with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. For information about the location of all AEM Forms JAR files, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p> 
+  <p><strong>Create a barcoded forms Client API object </strong></p> 
+  <p>Before you can programmatically perform a barcoded forms service operation, you must create a Barcoded Forms service client. If you are using the Java API, create a <span class="code">BarcodedFormsServiceClient</span> object. If you are using the barcoded forms web service API, create a <span class="code">BarcodedFormsServiceService</span> object.</p> 
+  <p><strong>Get a PDF form that contains barcoded data </strong></p> 
+  <p>You must obtain a PDF form that contains a barcode that has been populated with user data. </p> 
+  <p><strong>Decode the data from the PDF form</strong></p> 
+  <p>After you obtain a PDF form (or image) that contains a barcode, you can decode data. The Barcoded Forms service supports the following types of barcodes:</p> 
+  <ul> 
+   <li><p>PDF417 barcodes.</p></li> 
+   <li><p>Data matrix barcodes.</p></li> 
+   <li><p>QR code barcodes.</p></li> 
+   <li><p>Codabar barcodes.</p></li> 
+   <li><p>Code 128 barcodes.</p></li> 
+   <li><p>Code 39 barcodes.</p></li> 
+   <li><p>EAN-13 barcodes.</p></li> 
+   <li><p>EAN-8 barcodes.</p></li> 
+  </ul> 
+  <p>Character set input as hex in the decode API implies that the content of the barcode is encoded as a hex string. For example, if UTF-8 is specified as the Character encoding in the form and Hex is specified in the decode operation, the content of the barcode is encoded as a Hex string in the &amp;lt;<span class="code">xb:content</span>&amp;gt; element in the decoded output. You can convert this Hex value to get the original content by creating application logic in your client application. </p> 
+  <p><strong>Convert the data to an XML data source</strong></p> 
+  <p>After you decode form data, you can convert it to XDP or XFDF data. For example, assume that you want to import the data into another form. To import the data into an XFA form, then you have to convert the data to XDP data. For information, see <a href="/programming-with-aem-forms/importing-exporting-data#importing_form_data">Importing Form Data</a>.</p> 
+  <p><strong>Process the decoded data</strong></p> 
+  <p>You can process the converted data to meet your business requirements. For example, after you decode and convert the data, you can save it to a file, store it in an enterprise database, populate another form, and so on. This section discusses how to save the converted data as an XML file.</p> 
+  <note> 
+   <p>The barcoded forms service fails to decode barcode data when the line delimiter and field delimiter parameters have the same value </p> 
+  </note> 
+  <p><strong>See also</strong></p> 
+  <p><a href="barcoded-forms#decode_barcoded_form_data_using_the_java_api">Decode barcoded form data using the Java API</a></p> 
+  <p><a href="barcoded-forms#decode_barcoded_form_data_using_the_web_service_api">Decode barcoded form data using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="decode_barcoded_form_data_using_the_java_api">Decode barcoded form data using the Java API</h3> 
+  <p></p> 
+  <p>Decode form data by using the barcoded forms API(Java):</p> 
+  <ol> 
+   <li><p>Include client JAR files in your Java project’s class path. </p></li> 
+   <li><p>Create a <span class="code">BarcodedFormsServiceClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties.</p></li> 
+   <li> 
+    <ul> 
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object that represents the PDF form that contains barcoded data by using its constructor and passing a string value that specifies the location of the PDF document.</p></li> 
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the <span class="code">java.io.FileInputStream</span> object.</p></li> 
+    </ul></li> 
+   <li><p>Decode the form data by invoking the <span class="code">BarcodedFormsServiceClient</span> object’s <span class="code">decode</span> method and passing the following values:</p> 
+    <ul> 
+     <li><p>The <span class="code">com.adobe.idp.Document</span> object that contains the PDF form. </p></li> 
+     <li><p>A <span class="code">java.lang.Boolean</span> object that specifies whether to decode a PDF417 barcode. </p></li> 
+     <li><p>A <span class="code">java.lang.Boolean</span> object that specifies whether to decode a data matrix barcode. </p></li> 
+     <li><p>A <span class="code">java.lang.Boolean</span> object that specifies whether to decode a QR code barcode. </p></li> 
+     <li><p>A <span class="code">java.lang.Boolean</span> object that specifies whether to decode a codabar barcode. </p></li> 
+     <li><p>A <span class="code">java.lang.Boolean</span> object that specifies whether to decode a code 128 barcode. </p></li> 
+     <li><p>A <span class="code">java.lang.Boolean</span> object that specifies whether to decode a code 39 barcode. </p></li> 
+     <li><p>A <span class="code">java.lang.Boolean</span> object that specifies whether to decode an EAN-13 barcode. </p></li> 
+     <li><p>A <span class="code">java.lang.Boolean</span> object that specifies whether to decode an EAN-8 barcode. </p></li> 
+     <li><p>A <span class="code">com.adobe.livecycle.barcodedforms.CharSet</span> enumeration value that specifies the character set encoding value used in the barcode. </p></li> 
+    </ul><p>The <span class="code">decode</span> method returns an <span class="code">org.w3c.dom.Document</span> object that contains decoded form data. </p></li> 
+   <li><p>Convert the decoded data into either XDP or XFDF data by invoking the <span class="code">BarcodedFormsServiceClient</span> object’s <span class="code">extractToXML</span> method and passing the following values:</p> 
+    <ul> 
+     <li><p>The <span class="code">org.w3c.dom.Document</span> object that contains decoded data (ensure that you use the <span class="code">decode</span> method’s return value).</p></li> 
+     <li><p>A <span class="code">com.adobe.livecycle.barcodedforms.Delimiter</span> enumeration value that specifies the line delimiter. It is recommended that you specify <span class="code">Delimiter.Carriage_Return</span>.</p></li> 
+     <li><p>A <span class="code">com.adobe.livecycle.barcodedforms.Delimiter</span> enumeration value that specifies the field delimiter. For example, specify <span class="code">Delimiter.Tab</span>.</p></li> 
+     <li><p>A <span class="code">com.adobe.livecycle.barcodedforms.XMLFormat</span> enumeration value that specifies whether to convert the barcode data into XDP or XFDF XML data. For example, specify <span class="code">XMLFormat.XDP</span> to convert the data to XDP data.</p></li> 
+    </ul> 
+    <note> 
+     <p>Do not specify the same values for the line delimiter and field delimiter parameters.</p> 
+    </note><p>The <span class="code">extractToXML</span> method returns a <span class="code">java.util.List</span> object where each element is an <span class="code">org.w3c.dom.Document</span> object. There is a separate element for each barcode that is located on the form. That is, if there are four barcodes on the form, then there are four elements in the returned <span class="code">java.util.List</span> object.</p></li> 
+   <li> 
+    <ul> 
+     <li><p>Iterate through the <span class="code">java.util.List</span> object to get each <span class="code">org.w3c.dom.Document</span> object that is located in the list. </p></li> 
+     <li><p>For each element in the list, convert the <span class="code">org.w3c.dom.Document</span> object to a <span class="code">com.adobe.idp.Document</span> object. (The application logic that converts a <span class="code">org.w3c.dom.Document</span> object into a <span class="code">com.adobe.idp.Document</span> object is shown in the Decoding barcoded form data using the Java API example). </p></li> 
+     <li><p>Save the XML data as an XML file by invoking the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">copyToFile</span>, and passing a File object that represents the XML file. </p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/barcoded-forms-service-java-api#quick_start_soap_mode_decoding_barcoded_form_data_using_the_java_api">Quick Start (SOAP mode): Decoding barcoded form data using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="decode_barcoded_form_data_using_the_web_service_api">Decode barcoded form data using the web service API</h3> 
+  <p></p> 
+  <p>Decode form data by using the barcoded forms API(web service):</p> 
+  <ol> 
+   <li> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the barcoded forms service WSDL. For information, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a>.</p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. For information, see “Referencing the .NET client assembly” in <a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a>.</p></li> 
+    </ul></li> 
+   <li><p>Using the Microsoft .NET client assembly that consumes the barcoded forms service WSDL, create an <span class="code">BarcodedFormsServiceService</span> object by invoking its default constructor.</p></li> 
+   <li> 
+    <ul> 
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. The <span class="code">BLOB</span> object is used to store a PDF document that contains a barcode.</p></li> 
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the PDF document and the mode in which to open the file. </p></li> 
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li> 
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method and passing the byte array, the starting position, and the stream length to read.</p></li> 
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning its <span class="code">binaryData</span> property with the contents of the byte array.</p></li> 
+    </ul></li> 
+   <li><p>Decode the form data by invoking the <span class="code">BarcodedFormsServiceService</span> object’s <span class="code">decode</span> method and passing the following values:</p> 
+    <ul> 
+     <li><p>The <span class="code">BLOB</span> object that contains the PDF form. </p></li> 
+     <li><p>A <span class="code">Boolean</span> object that specifies whether to decode a PDF417 barcode. </p></li> 
+     <li><p>A <span class="code">Boolean</span> object that specifies whether to decode a data matrix barcode. </p></li> 
+     <li><p>A <span class="code">Boolean</span> object that specifies whether to decode a QR code barcode. </p></li> 
+     <li><p>A <span class="code">Boolean</span> object that specifies whether to decode a codabar barcode. </p></li> 
+     <li><p>A <span class="code">Boolean</span> object that specifies whether to decode a code 128 barcode. </p></li> 
+     <li><p>A <span class="code">Bolean</span> object that specifies whether to decode a code 39 barcode. </p></li> 
+     <li><p>A <span class="code">Boolean</span> object that specifies whether to decode an EAN-13 barcode. </p></li> 
+     <li><p>A <span class="code">Boolean</span> object that specifies whether to decode an EAN-8 barcode. </p></li> 
+     <li><p>A <span class="code">CharSet</span> enumeration value that specifies the character set encoding value used in the barcode. </p></li> 
+    </ul><p>The <span class="code">decode</span> method returns a string value that contains decoded form data. </p></li> 
+   <li><p>Convert the decoded data into either XDP or XFDF data by invoking the <span class="code">BarcodedFormsServiceService</span> object’s <span class="code">extractToXML</span> method and passing the following values:</p> 
+    <ul> 
+     <li><p>A string value that contains decoded data (ensure that you use the <span class="code">decode</span> method’s return value).</p></li> 
+     <li><p>A <span class="code">Delimiter</span> enumeration value that specifies the line delimiter. It is recommended that you specify <span class="code">Delimiter.Carriage_Return</span>.</p></li> 
+     <li><p>A <span class="code">Delimiter</span> enumeration value that specifies the field delimiter. For example, specify <span class="code">Delimiter.Tab</span>.</p></li> 
+     <li><p>A <span class="code">XMLFormat</span> enumeration value that specifies whether to convert the barcode data into XDP or XFDF XML data. For example, specify <span class="code">XMLFormat.XDP</span> to convert the data to XDP data.</p></li> 
+    </ul> 
+    <note> 
+     <p>Do not specify the same values for the line delimiter and field delimiter parameters.</p> 
+    </note><p>The <span class="code">extractToXML</span> method returns an <span class="code">Object</span> array where each element is an <span class="code">BLOB</span> instance. There is a separate element for each barcode that is located on the form. That is, if there are four barcodes on the form, then there are four elements in the returned <span class="code">Object</span> array.</p></li> 
+   <li> 
+    <ul> 
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the secured PDF document.</p></li> 
+     <li><p>Create a byte array that stores the data content of the <span class="code">BLOB</span> object that was returned by the <span class="code">encryptPDFUsingPassword</span> method. Populate the byte array by getting the value of the <span class="code">BLOB</span> object’s <span class="code">binaryData</span> data member.</p></li> 
+     <li><p>Create a <span class="code">System.IO.BinaryWriter</span> object by invoking its constructor and passing the <span class="code">System.IO.FileStream</span> object.</p></li> 
+     <li><p>Write the contents of the byte array to a PDF file by invoking the <span class="code">System.IO.BinaryWriter</span> object’s <span class="code">Write</span> method and passing the byte array.</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="#unresolvedlink-lc-qs-barcoded-forms-bf.xml#ws624e3cba99b79e12e69a9941333732bac8-7f3d.2">Quick Start (Base64): Decoding barcoded form data using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a></p> 
+ </body> 
+</html>

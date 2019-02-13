@@ -1,0 +1,206 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-06-04T09:21:17.758-0400" name="acrolinxDate" />
+  <meta content="1556" name="acrolinxWords" />
+  <meta content="khsingh" name="cq:lastModifiedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-02-06T05:05:30.093-0500" name="publishExternalDate" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="Installing and Configuring Forms-centric workflow on OSGi" name="jcr:title" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2019-02-06T05:05:30.093-0500" name="lastPublishExternalDate" />
+  <meta content="146" name="acrolinxSentences" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits. " name="seoDescription" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-06-05T07:29:18.642-0400" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-02-06T05:05:30.093-0500" name="topicBrowsingSortDate" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="6a37070b-deae-4dd7-8bfd-957a73cd7053" name="jcr:uuid" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/talling_configuring_Forms_centric_workflow_on_OSGi_krs_workflow_e29eb5a2271e4a76_397_report.xml" name="acrolinxReportURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="video" name="pageLayout" />
+  <meta content="5708201b-b3c6-4d0f-989d-17be8582f169" name="jcr:predecessors" />
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-02-06T05:05:30.096-0500" name="cq:lastModified" />
+  <meta content="topic_tags:installing" name="cq:tags" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/installing" name="moreHelpPaths" />
+  <meta content="khsingh" name="acrolinxLastCheckedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/installing-configuring-Forms-centric-workflow-on-OSGi.html" name="publishExternalURL" />
+  <meta content="2019-02-06T05:05:30.115-0500" name="cq:lastReplicated" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2019-02-06T05:05:30.093-0500" name="firstPublishExternalDate" />
+ </head>
+ <body>
+  <h2>Introduction</h2>
+  <p>Enterprises collect and process data from multiple forms, back-end systems, and other data sources. The processing of data involves review and approval procedures, repetitive tasks, and data archiving. For example, reviewing a form and converting it to PDF document. When done manually, the repetitive tasks can take a lot of time and resources.</p> 
+  <p>You can use <a href="../../forms/using/aem-forms-workflow.md">Forms-centric workflow on OSGi</a> to rapidly build adaptive forms-based workflows. These workflows can help you automate review and approval workflows, business process workflows, and other repetitive tasks. These workflows also help process documents (create, assemble, distribute, and archive PDF documents, add digital signatures to limit access to documents, decode barcoded forms, and more) and use Adobe Sign signature workflow with forms and documents.</p> 
+  <p>Once set up, these workflows can be triggered manually to complete a defined process or run programmatically when users submit a form or interactive communication. The capability is included in AEM Forms add-on package. </p> 
+  <p>AEM Forms is a powerful enterprise-class platform. Forms-centric workflow on OSGi is only one of the capability of AEM Forms. For the complete list of capabilities, see <a href="../../forms/using/introduction-aem-forms.md">Introduction to AEM Forms</a>.</p> 
+  <note>
+   <p>With Forms-centric workflow on OSGi, you can rapidly build and deploy workflows for various tasks on the OSGi stack, without having to install the full-fledged Process Management capability on JEE stack. See a <a href="../../forms/using/capabilities-osgi-jee-workflows.md">comparison</a> of the Forms-centric AEM Workflows on OSGi and Process Management on JEE to learn the difference and similarities in the capabilities. </p> 
+   <p>After the comparison, If you choose to install the Process Management capability on JEE stack, see <a href="/forms/user-guide">Install or Upgrade AEM Forms on JEE</a> for detailed information about installing and configuring JEE stack and the Process Management capabilities.</p> 
+  </note>
+  <h2>Deployment Topology</h2>
+  <p>AEM Forms add-on package is an application deployed onto AEM. You require only a minimum of one AEM Author or Processing instance (production author) to run the Forms-centric workflow on OSGi capability. A processing instance is a <a href="../../forms/using/hardening-securing-aem-forms-environment.md">hardened AEM Author</a> instance. Do not perform any actual authoring, like creating workflows or adaptive forms, on the production author. </p> 
+  <p>The following topology is indicative topology to run AEM Forms Interactive Communications, Correspondence Management, AEM Forms data capture, and Forms-Centric workflow on OSGi capabilities. For detailed information about the topology, see <a href="../../forms/using/aem-forms-architecture-deployment.md">Architecture and deployment topologies for AEM Forms</a>.</p> 
+  <img imageRotate="0" src="assets/recommended-topology.png" />
+  <p>AEM Forms Forms-centric workflow on OSGi runs AEM Inbox and AEM Workflow Model creation UI on the Author instances of AEM Forms. <br /> </p> 
+  <draft-comment type="draft">
+   <p>The Publish instances, non-mandatory, can host processed documents which are ready for consumption by end-users. For example, encrypted PDF documents.</p> 
+  </draft-comment>
+  <h2>System Requirements</h2>
+  <note>
+   <p>Skip to the <a href="/forms/using/installing-configuring-Forms-centric-workflow-on-OSGi.html?cq_ck=1528114097413#Nextsteps">Next steps</a> section of the document, if you have already installed AEM Forms on OSGi as explained in the <a href="../../forms/using/installing-configuring-aem-forms-osgi.md">install and configure data capture capabilities</a> article.</p> 
+  </note>
+  <p>Before you begin to install and configure Forms-centric workflow on OSGi, ensure that:</p> 
+  <ul> 
+   <li>Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see <a href="../../sites/deploying/using/technical-requirements.md">technical requirements</a>.<br /> </li> 
+   <li>Installation path of the AEM instance does not contain white-spaces.</li> 
+   <li>An AEM instance is up and running. In AEM terminology, an "instance" is a copy of AEM running on a server in the author or publish mode. You require at least one AEM instance (Author or Processing) to run Forms-centric workflow on OSGi:
+    <ul> 
+     <li><strong>Author</strong>: An AEM instance used to create, upload, and edit content and to administer the website. Once content is ready to go live, it is replicated to the publish instance.</li> 
+     <li><strong>Processing:</strong> A processing instance is a <a href="../../forms/using/hardening-securing-aem-forms-environment.md">hardened AEM Author</a> instance. You can set up an Author instance and harden it after performing the installation. <br /> </li> 
+     <li><strong>Publish</strong>: An AEM instance that serves the published content to the public over the Internet or an internal network.</li> 
+    </ul> </li> 
+   <li>Memory requirements are met. AEM Forms add-on package requires:
+    <ul> 
+     <li>15 GB of temporary space for Microsoft Windows-based installations.</li> 
+     <li>6 GB of temporary space for UNIX-based installations.</li> 
+    </ul> </li> 
+   <li>Extra requirements for UNIX-based systems: If you are using the UNIX-based operating system, install the following packages from the installation media of the respective operating system.</li> 
+  </ul> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td>expat</td> 
+     <td>libxcb</td> 
+     <td>freetype</td> 
+     <td>libXau</td> 
+    </tr>
+    <tr>
+     <td>libSM</td> 
+     <td>zlib</td> 
+     <td>libICE</td> 
+     <td>libuuid</td> 
+    </tr>
+    <tr>
+     <td>glibc</td> 
+     <td>libXext</td> 
+     <td><p>nss-softokn-freebl</p> </td> 
+     <td>fontconfig</td> 
+    </tr>
+    <tr>
+     <td>libX11</td> 
+     <td>libXrender</td> 
+     <td>libXrandr</td> 
+     <td>libXinerama</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Install AEM Forms add-on package</h2>
+  <p>AEM Forms add-on package is an application deployed onto AEM. The package contains Forms-centric workflow on OSGi and other capabilities. Perform the following steps to install the add-on package:</p> 
+  <ol>
+   <li><p>Log in to the <a href="http://localhost:4502">AEM server</a> as an administrator and open <a href="http://localhost:4502/crx/packageshare">package share</a>. You require an Adobe ID to log in to the package share.</p> </li>
+   <li><p>In <a href="http://localhost:4502/crx/packageshare/login.html">AEM package share</a>, search <strong>AEM 6.4 Forms add-on packages </strong>or<strong> latest service packs</strong>, click the package applicable to your operating system, and click <strong>Download</strong>. Read and accept the license agreement and click <strong>OK</strong>. The download starts. Once downloaded, the word <strong>Downloaded </strong>appears next to the package.</p> <p>You can also use the version number to search an add-on package. For version number of the latest package, see the <a href="/content/help/en/aem-forms/kb/aem-forms-releases">AEM Forms releases</a> article.</p> </li>
+   <li><p>After the download completes, click <strong>Downloaded</strong>. You are redirected to package manager. In the package manager, search the downloaded package, and click <strong>Install</strong>. </p> <p>If you manually download the package via the direct link listed in the <a href="/content/help/en/aem-forms/kb/aem-forms-releases">AEM Forms releases</a> article, log in to the package manager, click <strong>Upload Package</strong>, select the downloaded package, and click upload. After the package is uploaded, click package name, and click <strong>Install.</strong></p> </li>
+   <li><p>After the package is installed, you are prompted to restart the AEM instance. <strong>Do not immediately restart the server.</strong> Before stopping the AEM Forms server, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the [AEM-Installation-Directory]/crx-quickstart/logs/error.log file and the log is stable.</p> </li>
+   <li><p>Repeat steps 1-4 on all the Author and Publish instances. </p> </li>
+  </ol>
+  <h2>Post-installation configurations</h2>
+  <p>AEM Forms has a few mandatory and optional configurations. The mandatory configurations include configuring BouncyCastle libraries and serialization agent. The optional configurations include configuring dispatcher and Adobe Target. </p> 
+  <p> </p> 
+  <h3>Mandatory post-installation configurations</h3>
+  <h4>Configure RSA and BouncyCastle libraries </h4>
+  <p>Perform the following steps on all the Author and Publish instances to boot delegate the libraries: </p> 
+  <ol>
+   <li><p>Stop the underlying AEM instance.</p> </li>
+   <li><p>Open the [AEM installation directory]\crx-quickstart\conf\sling.properties file for editing.</p> <p>If you used [AEM installation directory]\crx-quickstart\bin\start.bat to start AEM, then edit the sling.properties located at [AEM_root]\crx-quickstart\.</p> </li>
+   <li><p>Add the following properties to the sling.properties file:<br /> <br /> </p> 
+    <codeblock gutter="true" class="syntax js">
+     sling.bootdelegation.class.com.rsa.jsafe.provider.JsafeJCE=com.rsa.*!!discoiqbr!!sling.bootdelegation.class.org.bouncycastle.jce.provider.BouncyCastleProvider=org.bouncycastle.*
+    </codeblock></li>
+   <li><p>Save and close the file and start the AEM instance.</p> </li>
+   <li><p>Repeat steps 1-4 on all the Author and Publish instances. <br /> </p> </li>
+   <draft-comment type="draft">
+    <li>Step text</li>
+   </draft-comment>
+  </ol>
+  <h4>Configure the serialization agent</h4>
+  <p>Perform the following steps on all the Author and Publish instances to whitelist the package:</p> 
+  <ol>
+   <li><p>Open AEM Configuration Manager in a browser window. The default URL is http://[server]:[port]/system/console/configMgr.</p> </li>
+   <li><p>Search and open <strong>Deserialization Firewall Configuration</strong>.</p> </li>
+   <li><p>Add the <strong>sun.util.calendar </strong>package to the <strong>whitelist </strong>field. Click Save.</p> </li>
+   <li><p>Repeat steps 1-3 on all the Author and Publish instances.<br /> </p> </li>
+   <draft-comment type="draft">
+    <li>Step text</li>
+   </draft-comment>
+  </ol>
+  <h3>Optional post-installation configurations</h3>
+  <h4>Configure Dispatcher</h4>
+  <p>Dispatcher is caching and load balancing tool for AEM. AEM Dispatcher also helps to protect AEM server from attacks. You can increase the security of your AEM instance by using the Dispatcher in conjunction with an enterprise-class web server. If you use <a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html">Dispatcher</a>, then perform the following configurations for AEM Forms:</p> 
+  <ol>
+   <li><p>Configure access for AEM Forms:</p> <p>Open the dispatcher.any file for editing. Navigate to the filter section and add the following filter to the filter section:</p>  <p>Save and Close the file. For detailed information about filters, see <a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html">Dispatcher documentation</a>.</p> </li>
+   <li><p>Configure the referrer filter service:</p> <p>Log in to the Apache Felix configuration manager as an administrator. The Default URL of the configuration manager is http://[server]:[port_number]/system/console/configMgr. In the <strong>Configurations </strong>menu, select the <strong>Apache Sling Referrer Filter</strong> option. In the Allow Hosts field, enter host name of the dispatcher to allow it as a referrer and click <strong>Save</strong>. The format of the entry is http://[server]:[port].</p>  </li>
+   <draft-comment type="draft">
+    <li>Step text</li>
+   </draft-comment>
+   <draft-comment type="draft">
+    <li>Step text</li>
+   </draft-comment>
+   <draft-comment type="draft">
+    <li>Step text</li>
+   </draft-comment>
+  </ol>
+  <h4>Configure Cache</h4>
+  <p>Caching is a mechanism to shorten data access times, reduce latency, and improve input/output (I/O) speeds. Adaptive forms cache stores only HTML content and JSON structure of an adaptive form without saving any pre-filled data. It helps in reducing the time required to render an adaptive form.</p> 
+  <ul> 
+   <li>On using the adaptive forms cache, use the <a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html" target="_blank">AEM Dispatcher</a> to cache client libraries (CSS and JavaScript) of an adaptive form.</li> 
+   <li>While developing custom components, keep the adaptive forms cache disabled on the server used for development.</li> 
+  </ul> 
+  <p>Perform the following steps to configure the adaptive forms cache: </p> 
+  <ol>
+   <li><p>Go to AEM web console configuration manager at http://[server]:[port]/system/console/configMgr.</p> </li>
+   <li><p>Click <strong>Adaptive Form Configuration Service</strong> to edit its configuration values. In the edit configuration values dialog, specify the maximum number of forms or documents an instance of the AEM Forms server can cache in the <strong>Number of Adaptive Forms</strong> field. The default value is 100. Click <strong>Save</strong>.</p> 
+    <note>
+     <p>To disable the cache, set the value in the Number of Adaptive Forms field to <strong>0</strong>. The cache is reset and all forms and documents are removed from the cache when you disable or change the cache configuration. <br /> </p> 
+    </note></li>
+   <draft-comment type="draft">
+    <li></li>
+   </draft-comment>
+   <draft-comment type="draft">
+    <li>Step text</li>
+   </draft-comment>
+   <draft-comment type="draft">
+    <li>Step text</li>
+   </draft-comment>
+  </ol>
+  <h4>Configure Adobe Sign</h4>
+  <p>Adobe Sign enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.</p> 
+  <p>In a typical Adobe Sign and Forms-centric workflow on OSGi scenario, a user fills an adaptive form to<strong> </strong>apply for a service<strong>. </strong>For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, an approval/rejection workflow is started. The service provider reviews the application in AEM Inbox and uses Adobe Sign to electronically sign the application. To enable similar electronic-signature workflows, you can integrate Adobe Sign with AEM Forms.</p> 
+  <p>To use Adobe Sign with AEM Forms, <a href="../../forms/using/adobe-sign-integration-adaptive-forms.md" target="_blank">Integrate Adobe Sign with AEM Forms</a>.</p> 
+  <draft-comment type="draft">
+   <h2>Known issues and troubleshooting</h2>
+  </draft-comment>
+  <h2>Next steps</h2>
+  <p>You have configured an environment to use Forms-centric workflow on OSGi capabilities. Now, the steps toward using the capability are:</p> 
+  <ul> 
+   <li><a href="../../forms/using/aem-forms-workflow.md" target="_blank">Using Forms-centric workflow on OSGi</a></li> 
+   <li><a href="../../sites/developing/using/workflows-step-ref.md" target="_blank">Workflow Step Reference</a></li> 
+   <li><a href="../../forms/using/submit-letter-topostprocess.md" target="_blank">Post processing of letters and interactive communications</a></li> 
+  </ul> 
+ </body>
+</html>

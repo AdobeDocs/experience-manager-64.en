@@ -1,0 +1,346 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-05-17T05:53:09.699-0400" name="cq:lastModified" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="9b99030b-e385-434f-93d8-57905f140175" name="jcr:predecessors" /> 
+  <meta content="a26d7759-e7fd-4d94-b606-cee1c5a0a648" name="jcr:uuid" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-03T07:55:15.216-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:33:20.107-0400" name="firstPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Search in Communities" name="seoDescription" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/search" name="qaNotes" /> 
+  <meta content="2018-04-03T07:55:13.759-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Search Essentials" name="jcr:title" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="Search Essentials" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-03T07:55:13.759-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-05-17T05:53:09.698-0400" name="locHandOffDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-03T07:55:13.759-0400" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-12-01T19:01:53.044-0500" name="jcr:created" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/search-implementation.html" name="publishExternalURL" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>The search feature is an essential feature of AEM Communities. In addition to the <a href="../../sites/deploying/using/queries-and-indexing.md">AEM platform search</a> capabilities, AEM Communities provides the <a href="#ugcsearchapi">UGC search API</a> for the purpose of searching user generated content (UGC). UGC has unique properties as it is entered and stored separately from other AEM content and user data.</p> 
+  <p>For Communities, the two things generally searched for are</p> 
+  <ul> 
+   <li>content posted by community members 
+    <ul> 
+     <li>uses AEM Communities' UGC search API</li> 
+    </ul> </li> 
+   <li>users and user groups (user data) 
+    <ul> 
+     <li>uses the AEM platform search capabilities </li> 
+    </ul> </li> 
+  </ul> 
+  <p>This section of the documentation is of interest to developers who are creating custom components that create or manage UGC.</p> 
+  <h2>Security and Shadow Nodes</h2> 
+  <p>For a custom component, it is necessary to use the <a href="../../communities/using/socialutils.md#socialresourceutilitiespackage">SocialResourceUtilities</a> methods. The utility methods that create and search for UGC will establish the required <a href="../../communities/using/srp.md#aboutshadownodesinjcr">shadow nodes</a> and ensure the member has the correct permissions for the request.</p> 
+  <p>What is not managed through the SRP utilities are properties related to moderation.</p> 
+  <p>See <a href="../../communities/using/srp-and-ugc.md">SRP and UGC Essentials</a> for information regarding utility methods used to access UGC and ACL shadow nodes.</p> 
+  <h2>UGC Search API</h2> 
+  <p>The <a href="../../communities/using/working-with-srp.md">UGC common store</a> is provided by one of a variety of storage resource providers (SRPs), each possibly having a different native query language. Therefore, regardless of the SRP chosen, custom code should use methods from the <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/ugc/api/package-summary">UGC API package</a> (<i>com.adobe.cq.social.ugc.api</i>) which will invoke the query language appropriate for the chosen SRP.</p> 
+  <h3>ASRP Searches</h3> 
+  <p>For <a href="../../communities/using/asrp.md">ASRP</a>, UGC is stored in the Adobe cloud. While UGC is not visible in CRX, <a href="../../communities/using/moderate-ugc.md">moderation</a> is available from both the author and publish environments. The use of the <a href="#ugcsearchapi">UGC search API</a> works for ASRP the same as for other SRPs.</p> 
+  <p>Tools do not currently exist for managing ASRP searches.</p> 
+  <p>When creating custom properties that are searchable, it is necessary to adhere to the <a href="#namingofcustomproperties">naming requirements</a>. </p> 
+  <h3>MSRP Searches</h3> 
+  <p>For <a href="../../communities/using/msrp.md">MSRP</a>, UGC is stored in MongoDB configured to use Solr for searching. UGC will not be visible in CRX, but <a href="../../communities/using/moderate-ugc.md">moderation</a> is available from both the author and publish environments.</p> 
+  <p>Regarding MSRP and Solr :</p> 
+  <ul> 
+   <li>the embedded Solr for the AEM platform is not used for MSRP</li> 
+   <li>if using a remote Solr for the AEM platform, it may be shared with MSRP, but they should use different collections</li> 
+   <li>Solr may be configured for standard search or for multilingual search (MLS)</li> 
+   <li>for configuration details, see <a href="../../communities/using/msrp.md#solrconfiguration">Solr Configuration</a> for MSRP</li> 
+  </ul> 
+  <p>Custom search features should use the <a href="#ugcsearchapi">UGC search API</a>.</p> 
+  <p>When creating custom properties that are searchable, it is necessary to adhere to the <a href="#namingofcustomproperties">naming requirements</a>. </p> 
+  <h3>JSRP Searches</h3> 
+  <p>For <a href="../../communities/using/jsrp.md">JSRP</a>, UGC is stored in <a href="../../sites/deploying/using/platform.md">Oak</a> and is visible only in the repository of the AEM author or publish instance on which it was entered. </p> 
+  <p>Since UGC is typically entered in the publish environment, for multi-publisher production systems, it is necessary to configure a <a href="../../communities/using/topologies.md">publish cluster</a>, not a publish farm, so that the entered content is visible from all publishers.</p> 
+  <p>For JSRP, UGC entered in the publish environment will never be visible in the author environment. Thus all <a href="../../communities/using/moderate-ugc.md">moderation</a> tasks take place in the publish environment.</p> 
+  <p>Custom search features should use the <a href="#ugcsearchapi">UGC search API</a>.</p> 
+  <h4>Oak Indexing</h4> 
+  <p>While Oak indices are not automatically created for the AEM platform search, as of AEM 6.2 they have been added for AEM Communities to improve performance and provide support for pagination when presenting UGC search results.</p> 
+  <p>If custom properties are in use and searches are slow, then additional indices would need to be created for the custom properties to make them more performant. To maintain portability, adhere to the <a href="#namingofcustomproperties">naming requirements</a> when creating custom properties that are searchable.</p> 
+  <p>To modify existing indices or create custom indices, refer to <a href="../../sites/deploying/using/queries-and-indexing.md">Oak Queries and Indexing</a>.</p> 
+  <p>The <a href="http://adobe-consulting-services.github.io/acs-aem-commons/features/oak-index-manager.html">Oak Index Manager</a> is available from ACS AEM Commons. It provides :</p> 
+  <ul> 
+   <li>a view of existing indices</li> 
+   <li>the ability to initiate re-indexing</li> 
+  </ul> 
+  <p>To view the existing Oak indices in <a href="../../sites/developing/using/developing-with-crxde-lite.md">CRXDE Lite</a>, the location is :</p> 
+  <ul> 
+   <li>/oak:index/socialLucene</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-242.png" /> 
+  <h2>Indexed Search Properties</h2> 
+  <h3>Default Search Properties</h3> 
+  <p>Following are some of the searchable properties used for various Communities features :</p> 
+  <table align="left" border="2" cellspacing="2" cesspadding="2" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Property</strong></td> 
+     <td style="text-align: center;"><strong>Data Type</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">isFlagged</td> 
+     <td style="text-align: center;"><i>Boolean</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">isSpam</td> 
+     <td style="text-align: center;"><i>Boolean</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">read</td> 
+     <td style="text-align: center;"><i>Boolean</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">influence</td> 
+     <td style="text-align: center;"><i>Boolean</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">attachments</td> 
+     <td style="text-align: center;"><i>Boolean</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">sentiment</td> 
+     <td style="text-align: center;"><i>Long</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">flagged</td> 
+     <td style="text-align: center;"><i>Boolean</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">added</td> 
+     <td style="text-align: center;"><i>Date</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">modifiedDate</td> 
+     <td style="text-align: center;"><i>Date</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">state</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">userIdentifier</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">replies</td> 
+     <td style="text-align: center;"><i>Long</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">jcr:title</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">jcr:description</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">sling:resourceType</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">allowThreadedReply</td> 
+     <td style="text-align: center;"><i>Boolean</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">isDraft</td> 
+     <td style="text-align: center;"><i>Boolean</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">publishDate</td> 
+     <td style="text-align: center;"><i>Date</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">publishJobId</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">answered</td> 
+     <td style="text-align: center;"><i>Boolean</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">chosenanswered</td> 
+     <td style="text-align: center;"><i>Boolean</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">tag</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">cq:Tag</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">author_display_name</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">location_t</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">parentPath</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">parentTitle</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Naming of Custom Properties</h3> 
+  <p>When adding custom properties, in order for those properties to be visible to sorts and searches created with the <a href="#ugcsearchapi">UGC search API</a>, it is <i>required </i>to add a suffix to the property name. </p> 
+  <p>The suffix is for query languages which use a schema :</p> 
+  <ul> 
+   <li>it identifies the property as searchable</li> 
+   <li>it identifies the data type</li> 
+  </ul> 
+  <p>Solr is an example of a query language which uses a schema.</p> 
+  <table align="left" border="1" cellpadding="4" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Suffix </strong></td> 
+     <td style="text-align: center;"><strong>Data Type </strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">_b</td> 
+     <td style="text-align: center;"><i>Boolean</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">_dt</td> 
+     <td style="text-align: center;"><i>Calendar</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">_d</td> 
+     <td style="text-align: center;"><i>Double</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">_tl</td> 
+     <td style="text-align: center;"><i>Long</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">_s</td> 
+     <td style="text-align: center;"><i>String</i></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">_t</td> 
+     <td style="text-align: center;"><i>Text</i></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>Notes:</strong></p> 
+  <ul> 
+   <li><i>Text</i> is a tokenized string, <i>String </i>is not. Use <i>Text</i> for fuzzy (more like this) searches.</li> 
+   <li>For multi-valued types, add ‘s’ to the suffix, for example : 
+    <ul> 
+     <li><span class="code">viewDate_dt</span> : single date property</li> 
+     <li><span class="code">viewDates_dts</span> : list of dates property</li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Filters</h2> 
+  <p>Components which include the <a href="../../communities/using/essentials-comments.md">comment system</a> support the filter parameter addition to their endpoints. </p> 
+  <p>The filter syntax for AND and OR logic is expressed as follows (shown before being URL encoded) :</p> 
+  <ul> 
+   <li>To specify OR use one filter param with comma separated values : 
+    <ul> 
+     <li>filter=name eq 'Jennifer',name eq 'Jen'</li> 
+    </ul> </li> 
+   <li>To specify AND use multiple filter params : 
+    <ul> 
+     <li>filter = name eq 'Jackson'&amp;filter=message eq 'testing'</li> 
+    </ul> </li> 
+  </ul> 
+  <p>The default implementation of the <a href="../../communities/using/search.md">Search component</a> uses this syntax as can be seen in the URL that opens the Search Results page in the <a href="../../communities/using/components-guide.md">Community Components guide</a>. To experiment, browse to <a href="http://localhost:4503/content/community-components/en/search.html">http://localhost:4503/content/community-components/en/search.html</a>.</p> 
+  <p>Filter operators are :</p> 
+  <table align="left" border="1" cellpadding="4" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;">EQ</td> 
+     <td style="text-align: left;">equals</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">NE</td> 
+     <td style="text-align: left;">not equals</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">LT</td> 
+     <td style="text-align: left;">less than</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">LTE</td> 
+     <td style="text-align: left;">less than or equal to</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">GE</td> 
+     <td style="text-align: left;">greater than</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">GTE</td> 
+     <td style="text-align: left;">greater than or equal to</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">LIKE</td> 
+     <td style="text-align: left;">fuzzy match</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>It is important that the URL references the Communities component (resource) and not the page on which the component is placed :</p> 
+  <ul> 
+   <li>correct : forum component 
+    <ul> 
+     <li><span class="code">/content/community-components/en/forum/jcr:content/content/forum.social.json</span></li> 
+    </ul> </li> 
+   <li>incorrect : forum page 
+    <ul> 
+     <li><span class="code">/content/community-components/en/forum.social.json</span></li> 
+    </ul> </li> 
+  </ul> 
+  <h2>SRP Tools</h2> 
+  <p>There is an Adobe Marketing Cloud GitHub project which contains :</p> 
+  <p style="margin-left: 40px;"> <a href="https://github.com/Adobe-Marketing-Cloud/aem-communities-srp-tools">AEM Communities SRP Tools</a></p> 
+  <p>This repository contains tools for managing data in SRP.</p> 
+  <p>Currently, there is one servlet that provides the ability to delete all UGC from any SRP.</p> 
+  <p>For example, to delete all UGC in ASRP :</p> 
+  <codeblock class="syntax shell">
+    curl&amp;nbsp;-X&amp;nbsp;POST&amp;nbsp;http://localhost:4502/services/social/srp/cleanup?path=/content/usergenerated/asi/cloud&amp;nbsp;-uadmin:admin 
+  </codeblock> 
+  <h2>Troubleshooting</h2> 
+  <h3>Solr Query</h3> 
+  <p>To help troubleshoot problems with a Solr query, enable DEBUG logging for </p> 
+  <p style="margin-left: 40px;"><span class="code">com.adobe.cq.social.srp.impl.SocialSolrConnector</span>.</p> 
+  <p>The actual Solr query will be displayed URL encoded in the debug log :</p> 
+  <p style="margin-left: 40px;">Query to solr is: sort=timestamp+desc&amp;bl=en&amp;pl=en&amp;start=0&amp;rows=10<span class="uicontrol">&amp;q=%2Btitle_t:(*hello*)+%2Bprovider_id:\/content/usergenerated/asi/mongo/content/*+%2Bresource_type_s:*</span>&amp;df=provider_id&amp;trf=verbatim&amp;fq={!cost%3D100}report_suite:mongo</p> 
+  <p>The value of the <span class="code">q</span> parameter is the query. Once the URL encoding is decoded, the query can be passed to the Solr Admin Query tool for further debugging.</p> 
+  <h2>Related Resources</h2> 
+  <ul> 
+   <li><a href="../../communities/using/working-with-srp.md">Community Content Storage</a> - discusses the available SRP choices for a UGC common store</li> 
+   <li><a href="../../communities/using/srp.md">Storage Resource Provider Overview</a> - introduction and repository usage overview</li> 
+   <li><a href="../../communities/using/accessing-ugc-with-srp.md">Accessing UGC with SRP</a> - coding guidelines</li> 
+   <li><a href="../../communities/using/socialutils.md">SocialUtils Refactoring</a> - utility methods for SRP that replace SocialUtils</li> 
+   <li><a href="../../communities/using/search.md">Search and Search Results components</a> - adding UGC search feature to a template </li> 
+  </ul> 
+ </body> 
+</html>

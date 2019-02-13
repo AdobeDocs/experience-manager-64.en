@@ -1,0 +1,163 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-01-22T08:36:18.615-0500" name="publishInternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="video" name="pageLayout" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="khsingh" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-11-29T02:02:12.582-0500" name="firstPublishInternalDate" />
+  <meta content="2019-01-14T01:11:45.763-0500" name="unpublishExternalDate" />
+  <meta content="Best practices and considerations " name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/wip/styles-and-pattern--considerations-and-best-practices-.html" name="publishInternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="publishExternalURL" />
+  <meta content="left" name="sideColumn" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-01-14T01:10:48.740-0500" name="lastPublishExternalDate" />
+  <meta content="2019-01-22T08:36:18.625-0500" name="cq:lastModified" />
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="khsingh" name="cq:lastModifiedBy" />
+  <meta content="2019-01-22T08:36:18.615-0500" name="lastPublishInternalDate" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="2019-01-14T01:10:48.740-0500" name="firstPublishExternalDate" />
+  <meta content="1e035814-d8ac-44f9-9a4b-66ffc1e57884" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-01-22T08:36:18.672-0500" name="cq:lastReplicated" />
+  <meta content="2019-01-15T15:36:11.548-0500" name="jcr:created" />
+  <meta content="a39ded9e-e6d1-4310-b967-76bfa063f85a" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p>AEM Forms Automated Conversion service converts a PDF form to an adaptive form. The service uses artificial intelligence and machine learning algorithms to understand the layout and fields of the source form. Every machine learning service continuously learns from source data and produces an improved output with every churn. These services learn from the experience like humans.</p> 
+  <p>Automated Forms Conversion service is trained on a large set of forms. It easily identifies fields in a source form and produces adaptive forms. However, there are some fields and styles in PDF forms which are easily visible to the human eye but difficult to understand for the service. The service can assign different than applicable field types or panels to some fields or styles. All such field and style patterns are listed below.</p> 
+  <p>The service would start identifying and assigning correct fields or panels to these patterns as it keeps learning from the source data. For the time being, you can use <a href="../../../forms/using/wip/review-correct-ui-edited.md" target="_blank">Review and Correct</a> editor to fix such issues. Before start fixing the issues or reading further, familiarize yourself with<a href="../../../forms/using/introduction-forms-authoring.md"> adaptive form components</a>.</p> 
+  <p> </p> 
+  <h2>General</h2>
+  <draft-comment type="draft">
+   <ul> 
+    <li>Service does not convert filled PDF forms to adaptive form. Use empty adaptive forms.Service does not convert colored PDF forms to adaptive form. Use black and white or grayscale adaptive forms. <br /> </li> 
+    <li>Service does not convert filled PDF forms to adaptive form. Use empty adaptive forms.</li> 
+    <li>Service does not support scanned forms. Do not use scanned forms. </li> 
+    <li>Service can fail to recognize text and fields in a dense form. Increase the width between text and fields of a dense form before starting the conversion.</li> 
+    <li>Service does not extract images. Manually add images to converted forms.</li> 
+    <li>Service does not extract text present within an image. Manually add text to the adaptive form.</li> 
+   </ul> 
+  </draft-comment>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td width="30%">Known patterns and resolution</td> 
+     <td width="70%">Example</td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Service does not convert colored PDF forms to adaptive form.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Use black and white or grayscale PDF forms. </p> </td> 
+     <td style="text-align: left;"> <img src="assets/coloured-form.png" /></td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Service does not convert filled PDF forms to adaptive form.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Use empty adaptive forms.</p> </td> 
+     <td style="text-align: left;"><img src="assets/pre-filled-form.png" /></td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Service can fail to recognize text and fields in a dense form.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Increase the width between text and fields of a dense form before starting the conversion.</p> </td> 
+     <td style="text-align: left;"><img src="assets/dense%20form.png" /></td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Service does not support scanned forms.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Do not use scanned forms. </p> </td> 
+     <td><img src="assets/scanned-form.jpg" /></td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Service does not extract images and text within images. </p> <p> </p> <p><strong>Resolution</strong></p> <p>Manually add images or text to converted forms.</p> </td> 
+     <td><img src="assets/image-in-adaptive-form.png" /></td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Tables with dotted or non-clear boundaries and borders are do not convert.</p> <p><strong>Resolution</strong></p> <p>Use tables with clear explicit boundaries and borders. supported.</p> </td> 
+     <td><img src="assets/border-less-tables.png" /> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Choice Group </h2>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td width="30%">Pattern</td> 
+     <td width="70%">Example</td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Choice group options with shapes other than box or circle are not converted to corresponding adaptive form components. </p> <p> </p> <p><strong>Resolution</strong></p> <p>Change choice options shapes to box or circle or use Review and Correct editor to identify the shapes.</p> </td> 
+     <td><img src="assets/shaded-box-patterns.png" /> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Form fields</h2>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td width="30%">Pattern</td> 
+     <td width="70%">Example</td> 
+    </tr>
+    <tr>
+     <td width="25%"><p><strong>Pattern</strong></p> <p>Service does not identify fields without clear borders.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Use Review and Correct editor to identify such fields.</p> <p> </p> <p> </p> </td> 
+     <td width="50%"><br /> <img src="assets/fields-without-clear-borders.png" /></td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Service leaves some form fields with captions at the bottom or right unidentified.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Use Review and Correct editor to identify such fields</p> </td> 
+     <td><br /> <img src="assets/forms-with-clear-borders-scale.png" /><br /> </td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Service merges or assigns a wrong type to some form fields which are placed very near to each other or do not have clear borders. </p> <p> </p> <p><strong>Resolution</strong></p> <p>Use Review and Correct editor to identify such fields.</p> </td> 
+     <td><img src="assets/forms-with-fields-placed-nearby.png" /></td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Service can fail to recognize fields with far away captions or a dotted line between the caption and input field.</p> <p> </p> <p><strong>Resolution</strong></p> <p>Use forms fields with clear boundaries or use Review and Correct editor to fix such issues.</p> </td> 
+     <td><img src="assets/form-fields-with-far-away-captions.png" /></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Lists</h2>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td width="30%">Pattern</td> 
+     <td width="70%">Example</td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Lists containing form fields are merged or not converted to corresponding adaptive form components</p> <p><strong>Resolution</strong></p> <p>Use forms fields with clear boundaries or use Review and Correct editor to fix such issues.</p> </td> 
+     <td><img src="assets/lists-with-fields.png" /></td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Service can leave a few nested lists unidentified</p> <p> </p> <p><strong>Resolution</strong></p> <p>Use Review and Correct editor to fix such issues.</p> </td> 
+     <td><img src="assets/nested-lists.png" /> </td> 
+    </tr>
+    <tr>
+     <td><p><strong>Pattern</strong></p> <p>Service merges some lists containing choice groups with each other</p> <p><strong>Resolution</strong></p> <p>Use Review and Correct editor to fix such issues.</p> </td> 
+     <td><img src="assets/lists-containing-choice-groups.png" /> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <draft-comment type="draft">
+   <h3>Choice groups</h3>
+  </draft-comment>
+  <draft-comment type="draft">
+   <ul> 
+    <li>Lists with form fields, nested lists, and nested choice groups are not supported.</li> 
+    <li>Form fields with captions at bottom or right are not supported.</li> 
+    <li>Form fiields without bordes are not supported.</li> 
+    <li>Hidden form fields are not supported.</li> 
+    <li>Button in PDF forms are not converted to adaptive form buttons.<br /> </li> 
+    <li>Tables with clear explicit boundaries and borders are supported.</li> 
+    <li>Fields with far away captions are not supported.<br /> </li> 
+    <li>Choice groups with only box or circle shaped selectors are supported. </li> 
+   </ul> 
+  </draft-comment>
+ </body>
+</html>

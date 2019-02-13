@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-03T07:05:03.727-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="3d7a3d36-3332-43b6-911b-d67926a07be8" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="OWASP Top 10" name="navTitle" /> 
+  <meta content="2017-10-31T16:24:32.948-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:Security;content_type:reference" name="cq:tags" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/security;/content/help/en/experience-manager/6-4/sites/administering/morehelp/security" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-12-01T19:04:32.971-0500" name="jcr:created" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/owasp-top10.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T07:05:03.727-0400" name="publishExternalDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-26T10:12:29.510-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-03T07:05:04.133-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="OWASP Top 10" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Learn how AEM deals with the top 10 OWASP security risks." name="seoDescription" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/security/owasp-top10" name="qaNotes" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-03T07:05:03.727-0400" name="lastPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-26T10:12:29.510-0400" name="cq:lastModified" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="OWASP Top 10" name="seoTitle" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="13d7bcde-ee41-4e78-9bcd-2c553fc5b3ae" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+ </head> 
+ <body> 
+  <p>The <a href="https://www.owasp.org">Open Web Application Security Project</a> (OWASP) maintains a list of what they regard as the <a href="https://www.owasp.org/index.php/OWASP_Top_Ten_Project">Top 10 Web Application Security Risks</a>.</p> 
+  <p>These are listed below, together with an explanation of how CRX deals with them.</p> 
+  <h2>1. Injection</h2> 
+  <ul> 
+   <li>SQL - Prevented by design: The default repository setup neither includes nor requires a traditional database, all data is stored in the content repository. All access is limited to authenticated users and can only be performed through the JCR API. SQL is supported for search queries only (SELECT). Furthemore SQL offers value binding support.<br /> </li> 
+   <li>LDAP - LDAP injection is not possible, since the authentication module filters the input and performs the user import using the bind method.</li> 
+   <li>OS - There is no shell execution performed from within the application.</li> 
+  </ul> 
+  <h2>2. Cross-Site Scripting (XSS)</h2> 
+  <p>The general mitigation practice is to encode all output of user-generated content using a server-side XSS protection library based on <a href="https://www.owasp.org/index.php/OWASP_Java_Encoder_Project">OWASP Encoder</a> and <a href="https://www.owasp.org/index.php/Category:OWASP_AntiSamy_Project">AntiSamy</a>. </p> 
+  <p>XSS is a top priority during both testing and development, and any issues found are (typically) resolved immediately.<br /> </p> 
+  <h2>3. Broken Authentication and Session Management</h2> 
+  <p>AEM uses sound and proven authentication techniques, relying on <a href="http://jackrabbit.apache.org/">Apache Jackrabbit</a> and <a href="http://sling.apache.org/">Apache Sling</a>. Browser/HTTP Sessions are not used in AEM.<br /> </p> 
+  <h2>4. Insecure Direct Object References</h2> 
+  <p>All access to data objects is mediated by the repository and therefore restricted by role based access control.</p> 
+  <h2>5. Cross-Site Request Forgery (CSRF)</h2> 
+  <p>Cross-Site Request Forgery (CSRF) is mitigated by automatically injecting a cryptographic token into all forms and AJAX requests and verifying this token on the server for every POST. </p> 
+  <p>In addition, AEM ships with a referrer-header based filter, which can be configured to only allow POST requests from specifically white-listed hosts.</p> 
+  <h2>6. Security Misconfiguration</h2> 
+  <p>It is impossible to guarantee that all software is always correctly configured. However, we strive to provide as much guidance as possible and make configuration as simple as possible. Furthermore, AEM ships with <a href="../../../sites/administering/using/operations-dashboard.md">integrated Security Healthchecks</a> that help you monitor security configuration at a glance.</p> 
+  <p>Please review the <a href="../../../sites/administering/using/security-checklist.md">Security Checklist</a> for more information which provides you with step by step hardening instructions.<br /> </p> 
+  <h2>7. Insecure Cryptographic Storage</h2> 
+  <p>Passwords are stored as cryptographic hashes in the user node; by default such nodes are only readable by the administrator and the user himself.</p> 
+  <p>Sensitive data such as third-party credentials are stored in encrypted form using a FIPS 140-2 certified cryptographic library.</p> 
+  <h2>8. Failure to Restrict URL Access</h2> 
+  <p>The repository allows the setting of <a href="http://www.day.com/specs/javax.jcr/javadocs/jcr-2.0/javax/jcr/security/package-summary.html">finely-grained privileges (as specified by JCR)</a> for any given user or group at any given path, through access control entries. Access restrictions are enforced by the repository.<br /> </p> 
+  <h2>9. Insufficient Transport Layer Protection</h2> 
+  <p>Mitigated by server configuration (e.g. use HTTPS only).<br /> </p> 
+  <h2>10. Unvalidated Redirects and Forwards</h2> 
+  <p>Mitigated by restricting all redirects to user-supplied destinations to internal locations.<br /> </p> 
+ </body> 
+</html>

@@ -1,0 +1,186 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="dfbbf70d-458d-40cf-827d-b4b848fd85c7" name="jcr:predecessors" /> 
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/rendering-forms-value.html" name="publishExternalURL" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-08-09T03:29:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-08-09T03:29:45.393-0400" name="lr_lastModified" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-03T06:52:25.780-0400" name="publishExternalDate" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/rendering_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="10e2fe7d-a8d7-44b0-8100-b235f0a54702" name="jcr:uuid" /> 
+  <meta content="2017-11-22T19:06:06.678-0500" name="jcr:created" /> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e1c.2,AEMForms/6.1/ProgramLC/WSaa838cf79768cfdd-553309f715a1c61975d-8000,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-cd7a4691336a35304e-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-797a.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7979.2" name="cq:gepId" /> 
+  <meta content="Rendering Forms By Value" name="jcr:title" /> 
+  <meta content="2017-10-03T06:52:25.780-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-08-09T03:29:00.000-0400" name="sortDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-03T06:52:25.780-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-03T08:33:06.379-0400" name="cq:lastReplicated" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-11-21T06:59:47.302-0500" name="cq:lastModified" /> 
+  <meta content="Rendering Forms By Value Rendering Forms By Value Rendering Forms By Value" name="navTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <h2 id="rendering_forms_by_value">Rendering Forms by Value</h2> 
+  <p></p> 
+  <p>Typically, a form design that is created in Designer is passed by reference to the Forms service. Form designs can be large and, as a result, it is more efficient to pass them by reference to avoid having to marshal form design bytes by value. The Forms service can also cache the form design so that when cached, it does not have to continually read the form design.</p> 
+  <p>If a form design contains a UUID attribute, then it is cached. The UUID value is unique for all form designs and is used to uniquely identify a form. When rendering a form by value, the form should only be cached when it is used repeatedly. However, if the form is not used repeatedly and has to be unique, you can avoid caching the form using caching options that are set using the AEM Forms API.</p> 
+  <p>The Forms service can also resolve the location of linked content within the form design. For example, linked images that are referenced from within the form design are relative URLs. Linked content is always assumed to be relative to the form design location. Therefore, resolving linked content is a matter of determining its location by applying the relative path to the absolute form design location.</p> 
+  <p>Instead of passing a form design by reference, you can pass a form design by value. Passing a form design by value is efficient when a form design is dynamically created; that is, when a client application generates the XML that creates a form design during run-time. In this situation a form design is not stored in a physical repository because it is stored in memory. When dynamically creating a form design at run-time and passing it by value, you can cache the form and improve performance of the Forms service.</p> 
+  <p><strong>Limitations of passing a form by value</strong></p> 
+  <p>The following limitations apply when a form design is passed by value:</p> 
+  <ul> 
+   <li><p>No relative linked content can be within the form design. All images and fragments must be embedded inside the form design or referred to absolutely.</p></li> 
+   <li><p>Server-side calculations cannot be performed after the form is rendered. If the form is submitted back to the Forms service, the data is extracted and returned without any server-side calculations.</p></li> 
+   <li><p>Because HTML can only use linked images at run time, it is not possible to generate HTML with embedded images. This is because the Forms service supports embedded images with HTML by retrieving the images from a referenced form design. Because a form design that is passed by value does not have a referenced location, embedded images cannot be extracted when the HTML page is displayed. Therefore, image references must be absolute paths to be rendered in HTML.</p></li> 
+  </ul> 
+  <note> 
+   <p>Although you can render different types of forms by value (for example, HTML forms or forms that contain usage rights), this section discusses rendering interactive PDF forms. </p> 
+  </note> 
+  <note> 
+   <p>For more information about the Forms service, see<a href="http://www.adobe.com/go/learn_aemforms_services_63"> Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To render a form by value, perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a Forms Client API object. </p></li> 
+   <li><p>Reference the form design.</p></li> 
+   <li><p>Render a form by value.</p></li> 
+   <li><p>Write the form data stream to the client web browser.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files into your development project. If you are creating a client application using Java, then include the necessary JAR files. If you are using web services, then make sure that you include the proxy files.</p> 
+  <p><strong>Create a Forms Client API object</strong></p> 
+  <p>Before you can programmatically import data into a PDF form Client API, you must create a Data Integration service client. When creating a service client, you define connection settings that are required to invoke a service.</p> 
+  <p><strong>Reference the form design</strong></p> 
+  <p>When rendering a form by value, you have to create a <span class="code">com.adobe.idp.Document</span> object that contains the form design to render. You can reference an existing XDP file or you can dynamically create an form design at run-time and populate a <span class="code">com.adobe.idp.Document</span> with that data. </p> 
+  <note> 
+   <p>This section and the corresponding quick start references an existing XDP file. </p> 
+  </note> 
+  <p><strong>Render a form by value</strong></p> 
+  <p>To render a form by value, pass a <span class="code">com.adobe.idp.Document</span> instance that contains the form design to the render method’s <span class="code">inDataDoc</span> parameter (can be any of the <span class="code">FormsServiceClient</span> object’s render methods such as<span class="code"> renderPDFForm</span>, <span class="code">(Deprecated) renderHTMLForm</span>, and so on). This parameter value is normally reserved for data that is merged with the form. Likewise, pass an empty string value to the <span class="code">formQuery</span> parameter. Normally this parameter requires a string value that specifies the name of the form design. </p> 
+  <note> 
+   <p>If you want to display data within the form, the data must be specified within the <span class="code">xfa:datasets</span> element. For information about XFA architecture, go to <a href="http://partners.adobe.com/public/developer/xml/index_arch.html">http://partners.adobe.com/public/developer/xml/index_arch.html</a>.</p> 
+  </note> 
+  <p><strong>Write the form data stream to the client web browser</strong></p> 
+  <p>When the Forms service renders a form by value, it returns a form data stream that you must write to the client web browser. When written to the client web browser, the form is visible to the user.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-value-rendering-forms rendering-forms-value-rendering-forms#render_a_form_by_value_using_the_java_api">Render a form by value using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-value-rendering-forms rendering-forms-value-rendering-forms#render_a_form_by_value_using_the_web_service_api">Render a form by value using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2">Forms Service API Quick Starts</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing#passing_documents_to_the_forms_service">Passing Documents to the Forms Service</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms#creating_web_applications_that_renders_forms">Creating Web Applications that Renders Forms</a></p> 
+  <h3 id="render_a_form_by_value_using_the_java_api">Render a form by value using the Java API</h3> 
+  <p></p> 
+  <p>Render a form by value using the Forms API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files, such as adobe-forms-client.jar, in your Java project’s class path. </p></li> 
+   <li><p>Create a Forms Client API object </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties.</p></li> 
+     <li><p>Create an <span class="code">FormsServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object.</p></li> 
+    </ul></li> 
+   <li><p>Reference the form design </p> 
+    <ul> 
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object that represents the form design to render by using its constructor and passing a string value that specifies the location of the XDP file.</p></li> 
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the <span class="code">java.io.FileInputStream</span> object.</p></li> 
+    </ul></li> 
+   <li><p>Render a form by value </p><p>Invoke the <span class="code">FormsServiceClient</span> object’s <span class="code">renderPDFForm</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>An empty string value. (Normally this parameter requires a string value that specifies the name of the form design.)</p></li> 
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that contains the form design. Normally this parameter value is reserved for data that is merged with the form.</p></li> 
+     <li><p>A <span class="code">PDFFormRenderSpec</span> object that stores run-time options. This is an optional parameter and you can specify <span class="code">null</span> if you do not want to specify run-time options. </p></li> 
+     <li><p>A <span class="code">URLSpec</span> object that contains URI values that are required by the Forms service. </p></li> 
+     <li><p>A <span class="code">java.util.HashMap</span> object that stores file attachments. This is an optional parameter and you can specify <span class="code">null</span> if you do not want to attach files to the form.</p></li> 
+    </ul><p>The <span class="code">renderPDFForm</span> method returns a <span class="code">FormsResult</span> object that contains a form data stream that can be written to the client web browser.</p></li> 
+   <li><p>Write the form data stream to the client web browser </p> 
+    <ul> 
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by invoking the <span class="code">FormsResult</span> object ‘s <span class="code">getOutputContent</span> method.</p></li> 
+     <li><p>Get the content type of the <span class="code">com.adobe.idp.Document</span> object by invoking its <span class="code">getContentType</span> method.</p></li> 
+     <li><p>Set the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s content type by invoking its <span class="code">setContentType</span> method and passing the content type of the <span class="code">com.adobe.idp.Document</span> object.</p></li> 
+     <li><p>Create a <span class="code">javax.servlet.ServletOutputStream</span> object used to write the form data stream to the client web browser by invoking the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">getOutputStream</span> method.</p></li> 
+     <li><p>Create a <span class="code">java.io.InputStream</span> object by invoking the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">getInputStream</span> method. </p></li> 
+     <li><p>Create a byte array and allocate the size of the <span class="code">InputStream</span> object. Invoke the <span class="code">InputStream</span> object’s <span class="code">available</span> method to obtain the size of the <span class="code">InputStream</span> object.</p></li> 
+     <li><p>Populate the byte array with the form data stream by invoking the <span class="code">InputStream</span> object’s <span class="code">read </span>method and passing the byte array as an argument. </p></li> 
+     <li><p>Invoke the <span class="code">javax.servlet.ServletOutputStream</span> object’s <span class="code">write</span> method to send the form data stream to the client web browser. Pass the byte array to the <span class="code">write</span> method.</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-value-rendering-forms#rendering_forms_by_value">Rendering Forms By Value</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e1b.2">Quick Start (SOAP mode): Rendering by value using the Java API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p> 
+  <h3 id="render_a_form_by_value_using_the_web_service_api">Render a form by value using the web service API</h3> 
+  <p></p> 
+  <p>Render a form by value by using the Forms API (web service):</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create Java proxy classes that consume the Forms service WSDL.</p></li> 
+     <li><p>Include the Java proxy classes into your class path. </p></li> 
+    </ul></li> 
+   <li><p>Create a Forms Client API object </p><p>Create a <span class="code">FormsService</span> object and set authentication values.</p></li> 
+   <li><p>Reference the form design </p> 
+    <ul> 
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object by using its constructor. Pass a string value that specifies the location of the XDP file. </p></li> 
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. The <span class="code">BLOB</span> object is used to store a PDF document that is encrypted with a password.</p></li> 
+     <li><p>Create a byte array that stores the content of the <span class="code">java.io.FileInputStream</span> object. You can determine the size of the byte array by getting the <span class="code">java.io.FileInputStream</span> object’s size using its <span class="code">available</span> method. </p></li> 
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">java.io.FileInputStream</span> object’s <span class="code">read</span> method and passing the byte array.</p></li> 
+     <li><p>Populate the <span class="code">BLOB</span> object by invoking its <span class="code">setBinaryData</span> method and passing the byte array.</p></li> 
+    </ul></li> 
+   <li><p>Render a form by value </p><p>Invoke the <span class="code">FormsService</span> object’s <span class="code">renderPDFForm</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>An empty string value. (Normally this parameter requires a string value that specifies the name of the form design.)</p></li> 
+     <li><p>A <span class="code">BLOB</span> object that contains the form design. Normally this parameter value is reserved for data that is merged with the form.</p></li> 
+     <li><p>A <span class="code">PDFFormRenderSpec</span> object that stores run-time options. This is an optional parameter and you can specify <span class="code">null</span> if you do not want to specify run-time options. </p></li> 
+     <li><p>A <span class="code">URLSpec</span> object that contains URI values that are required by the Forms service. </p></li> 
+     <li><p>A <span class="code">java.util.HashMap</span> object that stores file attachments. This is an optional parameter and you can specify <span class="code">null</span> if you do not want to attach files to the form.</p></li> 
+     <li><p>An empty <span class="code">com.adobe.idp.services.holders.BLOBHolder</span> object that is populated by the method. This is used to store the rendered PDF form. </p></li> 
+     <li><p>An empty <span class="code">javax.xml.rpc.holders.LongHolder</span> object that is populated by the method. (This argument stores the number of pages in the form.)</p></li> 
+     <li><p>An empty <span class="code">javax.xml.rpc.holders.StringHolder</span> object that is populated by the method. (This argument stores the locale value.)</p></li> 
+     <li><p>An empty <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object that will contain the results of this operation.</p></li> 
+    </ul><p>The <span class="code">renderPDFForm</span> method populates the <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object that is passed as the last argument value with a form data stream that must be written to the client web browser.</p></li> 
+   <li><p>Write the form data stream to the client web browser </p> 
+    <ul> 
+     <li><p>Create a <span class="code">FormResult</span> object by getting the value of the <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object’s <span class="code">value</span> data member. </p></li> 
+     <li><p>Create a <span class="code">BLOB</span> object that contains form data by invoking the <span class="code">FormsResult</span> object’s <span class="code">getOutputContent</span> method. </p></li> 
+     <li><p>Get the content type of the <span class="code">BLOB</span> object by invoking its <span class="code">getContentType</span> method.</p></li> 
+     <li><p>Set the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s content type by invoking its <span class="code">setContentType</span> method and passing the content type of the <span class="code">BLOB</span> object.</p></li> 
+     <li><p>Create a <span class="code">javax.servlet.ServletOutputStream</span> object used to write the form data stream to the client web browser by invoking the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">getOutputStream</span> method.</p></li> 
+     <li><p>Create a byte array and populate it by invoking the <span class="code">BLOB</span> object’s <span class="code">getBinaryData</span> method. This task assigns the content of the <span class="code">FormsResult</span> object to the byte array. </p></li> 
+     <li><p>Invoke the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">write</span> method to send the form data stream to the client web browser. Pass the byte array to the <span class="code">write</span> method. </p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-value-rendering-forms#rendering_forms_by_value">Rendering Forms By Value</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e1a.2">Quick Start (Base64): Rendering by value using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2">Invoking AEM Forms using Base64 encoding</a></p> 
+ </body> 
+</html>

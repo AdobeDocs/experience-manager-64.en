@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-04-03T08:52:01.232-0400" name="cq:lastReplicated" />
+  <meta content="AEM Forms provides adaptive forms themes that you can get from package share and use to style a form. " name="seoDescription" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2016-08-11T04:50:03.928-0400" name="firstPublishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2018-04-03T08:52:01.006-0400" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:develop" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-04-03T08:52:01.006-0400" name="lastPublishExternalDate" />
+  <meta content="5b511d00-42ff-4ca7-bbcb-cc5d5c2ae72b" name="jcr:predecessors" />
+  <meta content="Reference Themes" name="jcr:title" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/develop;/content/help/en/experience-manager/6-4/forms/morehelp/develop" name="moreHelpPaths" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="05e34b88-8be7-4cef-b87f-10508821b09e" name="jcr:uuid" />
+  <meta content="2018-04-26T04:35:09.121-0400" name="cq:lastModified" />
+  <meta content="2018-04-26T04:35:09.120-0400" name="locHandOffDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/reference-themes.html" name="publishExternalURL" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-12-01T19:03:31.984-0500" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-04-03T08:52:01.006-0400" name="topicBrowsingSortDate" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <p><a href="../../forms/using/themes.md" target="_blank">Themes</a> let you style your forms without deep knowledge of CSS. In addition to the default theme, you can get the following themes by installing the <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/fd/AEM-FORMS-6.3-REFERENCE-THEMES" target="_blank">AEM-FORMS-6.3-REFERENCE-THEMES</a> package: </p> 
+  <ul> 
+   <li>Beryl</li> 
+   <li>Exec</li> 
+   <li>Exec-Light</li> 
+   <li>Liberty<br /> </li> 
+   <li>Ultramarine<br /> </li> 
+   <li>Urbane</li> 
+   <li>U.S. Web Design Standards<br /> </li> 
+   <li>Tranquil</li> 
+  </ul> 
+  <p>Each theme contains a unique and elegant style that you can use to create delightful adaptive forms for your users. It contains unique styling for selectors such as panel, text box, numeric box, radio button, table, and switch. Stylings in these themes are based on requirement. For example, in a particular scenario you require a minimalist theme with clean fonts. Liberty theme lets you achieve that look.</p> 
+  <img alt="Reference Themes" imageRotate="0" src="assets/ref-themes.png" title="Reference Themes" />
+  <p>Themes included in this package are responsive, and styling in these themes are defined for mobile and desktop displays. Most modern browsers on a variety of devices can render forms applied with one of these themes without any hassle.</p> 
+  <p>For more information on installing the package, see <a href="../../sites/administering/using/package-manager.md">How to Work With Packages</a>. </p> 
+  <h2>Beryl</h2>
+  <p>Beryl theme is used by <a href="../../forms/using/gov-reference-site-walkthrough.md" target="_blank">We.Gov adaptive form</a>, and emphasizes use of background image, transparency, and large, flat icons. In the screenshot below, you can see how the Beryl theme looks, and how it can enhance the styling of your form. </p> 
+  <a href="assets/beryl-1.png"><img alt="Beryl theme" captionBottom="Click to enlarge" imageRotate="0" src="assets/beryl.png" title="Beryl theme" /></a>
+  <h2>Exec</h2>
+  <p>Exec theme avoids solid background fills to emphasize form components. Selecting and clicking components changes font colors. In comparison to the default Canvas theme, font color of the text in the selected tab changes to dark blue. Notice how the navigation and submit buttons are different from the Beryl theme. </p> 
+  <a href="assets/exec-1.png"><img alt="Exec theme" captionBottom="Click to enlarge" imageRotate="0" src="assets/exec.png" title="Exec theme" /></a>
+  <h2>Exec Light</h2>
+  <p>Exec Light theme uses white space to create a seamless experience. The Next and Submit buttons get a solid fill and 3D shadow. Selected tabs on the left get an arrow instead of double-check marks. </p> 
+  <a href="assets/exec-light-1.png"><img alt="Exec light theme" captionBottom="Click to enlarge" imageRotate="0" src="assets/exec-light.png" title="Exec light theme" /></a>
+  <h2>Liberty</h2>
+  <p>Liberty theme uses a minimalist approach to highlight the important. For example, the font color of the visited tab changes to green. You can only see the bottom-outline of the text box which emulates the look of a paper-based form with lines. The active text box has a black bottom-outline while others get light gray bottom-outline. </p> 
+  <a href="assets/liberty-1.png"><img alt="Liberty theme" captionBottom="Click to enlarge" imageRotate="0" src="assets/liberty.png" title="Liberty theme" /></a>
+  <h2>Tranquil</h2>
+  <p>Tranquil theme provides light and dark shades of the Tranquil color scheme to highlight different components of a form. For example, radio buttons, panels, and tabs get a different shade of green.</p> 
+  <a href="assets/tranquil-1.png"><img alt="Tranquil theme" captionBottom="Click to enlarge" imageRotate="0" src="assets/tranquil.png" title="Tranquil theme" /></a>
+  <h2>Ultramarine</h2>
+  <p>Ultramarine theme uses deep blue shades to highlight components such as tabs, panels, text boxes, and buttons. </p> 
+  <a href="assets/ultramarine-1.png"><img alt="Ultramarine theme" imageRotate="0" src="assets/ultramarine.png" title="Ultramarine theme" /></a>
+  <h2>Urbane</h2>
+  <p>Urbane theme emphasizes a minimalist and functional look for your form. When you apply the Urbane theme to your form, you can see that components are flat. The panels get thin outlines to create a modern look. </p> 
+  <a href="assets/urbane-1.png"><img alt="Urbane theme" captionBottom="Click to enlarge" imageRotate="0" src="assets/urbane.png" title="Urbane theme" /></a>
+  <h2>U.S. Web Design Standards</h2>
+  <p>U.S. Web Design Standards theme, as the name suggests, uses typefaces and styles described in the Draft U.S. Web Design Standards site. The web standard is used by federal organizations to create consistent web experiences across federal government websites. </p> 
+  <a href="assets/usgov.png"><img alt="U.S. Web Design Standards Theme" captionBottom="Click to enlarge" imageRotate="0" src="assets/us-web-standards.png" title="U.S. Web Design Standards Theme" /></a>
+ </body>
+</html>

@@ -1,0 +1,66 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/content/docs/en/aem/6-0/administer/integration/third-party-services/machine-translation" name="legacyPath" />
+  <meta content="2018-07-12T09:22:17.160-0400" name="publishExternalDate" />
+  <meta content="2018-04-26T10:11:25.211-0400" name="locHandOffDate" />
+  <meta content="39bb6db7-bcdf-46f8-ac8d-da393fcb56d7" name="jcr:predecessors" />
+  <meta content="Translating Content for Multilingual Sites" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Learn how to translate content for multilingual sites." name="seoDescription" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-10-31T16:21:33.736-0400" name="firstPublishExternalDate" />
+  <meta content="2018-07-12T09:22:17.167-0400" name="cq:lastModified" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Translating Content for Multilingual Sites" name="jcr:title" />
+  <meta content="2018-07-12T09:22:17.197-0400" name="cq:lastReplicated" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:administering" name="primaryAudienceTag" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/translation.html" name="publishExternalURL" />
+  <meta content="Translating Content for Multilingual Sites" name="seoTitle" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2018-07-12T09:22:17.160-0400" name="lastPublishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:site-features;content_type:reference" name="cq:tags" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="/content/docs/en/aem/6-3/administer/sites/translation" name="qaNotes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/administering/morehelp/site-features" name="moreHelpPaths" />
+  <meta content="2017-12-01T19:01:14.264-0500" name="jcr:created" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-07-12T09:22:17.160-0400" name="topicBrowsingSortDate" />
+  <meta content="c3d94d80-f090-4679-af4d-bff740514708" name="jcr:uuid" />
+ </head>
+ <body>
+  <p>Automate the translation of page content, assets, and user-generated content to create and maintain multilingual websites. To automate translation workflows, you integrate translation service providers with AEM and create projects for translating content into multiple languages. AEM supports human and machine translation workflows.</p> 
+  <ul> 
+   <li>Human translation: Content is sent to your translation provider and translated by professional translators. When complete, the translated content is returned and imported into AEM. When your translation provider is integrated with AEM, content is automatically sent between AEM and the translation provider. </li> 
+   <li>Machine translation: The machine translation service immediately translates your content.</li> 
+  </ul> 
+  <p>Translating content involves the following steps:</p> 
+  <ol> 
+   <li><a href="../../../sites/administering/using/tc-tic.md#main-pars-title-0">Connect AEM with your translation service provider</a> and <a href="../../../sites/administering/using/tc-tic.md">create translation integration framework configurations</a>. </li> 
+   <li><a href="../../../sites/administering/using/tc-tic.md#main-pars-title-21">Associate the pages of your language master</a> with the translation service and framework configurations.</li> 
+   <li><a href="../../../sites/administering/using/tc-rules.md">Identify the type of content</a> to translate.</li> 
+   <li><a href="../../../sites/administering/using/tc-prep.md">Prepare the content for translation</a> by authoring the language master and creating the root pages of language copies.</li> 
+   <li><a href="../../../sites/administering/using/tc-manage.md#main-pars-title-4">Create translation projects</a> to gather the content to translate and to prepare the translation process.</li> 
+   <li>Use the translation projects to <a href="../../../sites/administering/using/tc-manage.md">manage the content translation process</a>.</li> 
+  </ol> 
+  <p>If your translation service provider does not provide a connector to integration with AEM, AEM supports the manual extraction and re-insertion of translation content in XML format.</p> 
+  <note>
+   <p>Your user needs to be a member of the project-administrators group to use the Language Copy features.</p> 
+  </note>
+  <h2>Best Practices</h2>
+  <p>The <a href="../../../sites/administering/using/tc-bp.md">Translation Best Practices</a> page contains important information regarding your implementation.</p> 
+ </body>
+</html>

@@ -1,0 +1,101 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Chiradeep Majumdar" name="contentOwner" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/aem_pdf_rasterizer_krs_workflow_f3c2f2ccebf6138e_83_report.xml" name="acrolinxReportURL" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T07:59:38.195-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="756" name="acrolinxWords" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Using PDF Rasterizer" name="seoTitle" /> 
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="2019-01-12T17:11:24.495-0500" name="acrolinxDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-24T12:00:03.320-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-31T16:35:24.967-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/aem-pdf-rasterizer.html" name="publishExternalURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="66" name="acrolinxSentences" /> 
+  <meta content="2018-02-20T03:18:50.941-0500" name="publishExternalDate" /> 
+  <meta content="2018-02-20T03:18:50.941-0500" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-24T12:00:03.320-0400" name="cq:lastModified" /> 
+  <meta content="This article describes how to generate high-quality thumbnails and renditions using the Adobe PDF Rasterizer library." name="jcr:description" /> 
+  <meta content="Learn how to generate high-quality thumbnails and renditions using the Adobe PDF Rasterizer library." name="seoDescription" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="cmajumda" name="cq:lastModifiedBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="6bafd99c-9af5-420e-9978-5f8df4bf46cc" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-02-20T03:18:50.941-0500" name="topicBrowsingSortDate" /> 
+  <meta content="8079d2da-7f06-48c1-8163-220c033bc14f" name="jcr:predecessors" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/using-pdf-rasterizer" name="qaNotes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="2018-02-20T08:01:50.796-0500" name="jcr:created" /> 
+  <meta content="Using PDF Rasterizer" name="jcr:title" /> 
+  <meta content="dist5" name="distType" /> 
+ </head> 
+ <body> 
+  <p>Sometimes, when you upload large, content-intensive PDF or AI files to Adobe Experience Manager (AEM) Assets, the default library may not generate an accurate output. In such cases, Adobe's PDF Rasterizer library can generate more reliable and accurate output compared to the output from a default library.</p> 
+  <p>Adobe recommends using the PDF Rasterizer library for the following:</p> 
+  <ul> 
+   <li>Heavy, content intensive AI/PDF files</li> 
+   <li>AI/PDF files with thumbnails not generated out of the box</li> 
+   <li>AI files with Pantone Matching System (PMS) colors</li> 
+  </ul> 
+  <p>Thumbnails and previews generated using PDF Rasterizer are better in quality compared to out-of-the-box output and, therefore, provide consistent viewing experience across devices. The Adobe PDF Rasterizer library does not support any color space conversion. It always outputs to RGB irrespective of the color space of the source file.</p> 
+  <ol> 
+   <li><p>Install the PDF Rasterizer package on your AEM instance from <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/day/packages/cq640/product/assets/aem-assets-pdf-rasterizer-pkg">Package Share</a>.</p> 
+    <note> 
+     <p>The PDF Rasterizer library is available for Windows and Linux only.</p> 
+    </note></li> 
+   <li><p>Access the AEM Assets Workflow console from <i>http://&amp;lt;AEM server&amp;gt;:&amp;lt;Port&amp;gt;/workflow</i>. </p> </li> 
+   <li><p>Open the DAM Update Asset workflow page.</p> </li> 
+   <li><p>Configure the following to skip the default thumbnail and web rendition generation for PDF/AI files:</p> 
+    <ul> 
+     <li>Open the <strong>Process Thumbnails</strong> step, and add <i>application/pdf</i> or <i>application/postscript</i> in the <strong>Skip Mime Types</strong> field under the <strong>Thumbnails</strong> tab as necessary.</li> 
+    </ul> <img imageRotate="0" src="assets/skip_mime_types-2.png" /> 
+    <ul> 
+     <li>In the <strong>Web Enabled Image</strong> tab, add <i>application/pdf</i> or <i>application/postscript</i> under <strong>Skip List</strong> depending upon your requirements.</li> 
+    </ul> <img imageRotate="0" src="assets/web_enabled_imageskiplist.png" /></li> 
+   <li><p>Open the <strong>Rasterize PDF/AI Image Preview Rendition</strong> step, and remove the MIME type for which you want to skip the default generation of preview image renditions. For example, remove the MIME type <em>application/pdf</em>, <em>application/postscript,</em> or <em>application/illustrator </em>from the <strong>MIME Types</strong> list.</p> <img imageRotate="0" src="assets/process_arguments.png" /></li> 
+   <li><p>Drag the <strong>PDF Rasterizer Handler</strong> step from the side panel to below the <strong>Process Thumbnails</strong> step.</p> </li> 
+   <li><p>Configure the following arguments for the <strong>PDF Rasterizer Handler</strong> step:</p> 
+    <ul> 
+     <li>Mime Types: <em>application/pdf </em>or <em>application/postscript</em></li> 
+     <li>Commands: <span class="code">PDFRasterizer -d -p 1 -s 1280 -t PNG -i ${file}</span></li> 
+     <li>Add Thumbnail sizes: 319:319, 140:100, 48:48. Add custom thumbnail configuration, if necessary.</li> 
+    </ul> <p>The command line arguments for the <span class="code">PDFRasterizer</span> command can include the following:</p> <p><strong>-d</strong>: Flag to enable smooth rendering of text, vector artwork, and images. Creates better quality images. However, including this parameter causes the command to run slowly and increase the size of images.</p> <p><span class="code">-p</span>: Page number. Default value is all pages. '*' denotes all pages.</p> <p><strong>-s</strong>: Maximum image dimension (height or width). This is converted to DPI for each page. If pages are of different size, each page can potentially scale by different amount. The default is actual page size.</p> <p><strong>-t</strong>: Output image type. Valid types are JPEG, PNG, GIF, and BMP. The default value is JPEG.</p> <p><strong>-i</strong>: Path for input PDF. It is a mandatory parameter.</p> <p><span class="code">-h</span>: Help</p> </li> 
+   <li><p>To delete intermediate renditions, select <strong>Delete Generated Rendition</strong>.</p> </li> 
+   <li><p>To let PDF Rasterize generate web renditions, select <strong>Generate Web Rendition</strong>.</p> <img imageRotate="0" src="assets/generate_web_renditions1.png" /></li> 
+   <li><p>Specify the settings in the <strong>Web Enabled Image</strong> tab.</p> <img imageRotate="0" src="assets/web_enabled_image1.png" /></li> 
+   <li><p>Save the workflow.</p> </li> 
+   <li><p>To enable PDF Rasterizer to process PDF pages with PDF libraries, open the <strong>DAM Process Subasset</strong> model from the Workflow console.</p> </li> 
+   <li><p>From the side panel, drag the the PDF Rasterizer Handler step under the <strong>Create Web-Enabled Image Rendition</strong> step.</p> </li> 
+   <li><p>Configure the following arguments for the <strong>PDF Rasterizer Handler</strong> step:</p> 
+    <ul> 
+     <li>Mime Types: <em>application/pdf </em>or <em>application/postscript</em></li> 
+     <li>Commands: <span class="code">PDFRasterizer -d -p 1 -s 1280 -t PNG -i ${file}</span></li> 
+     <li>Add Thumbnail sizes: 319:319, 140:100, 48:48. Add custom thumbnail configuration, if necessary.</li> 
+    </ul> <p>The command line arguments for the PDFRasterizer command can include the following:</p> <p><strong>-d</strong>: Flag to enable smooth rendering of text, vector artwork, and images. Creates better quality images. However, including this parameter causes the command to run slowly and increase the size of images.</p> <p><strong>-p</strong>: Page number. Default value is all pages. '*' denotes all pages.</p> <p><strong>-s</strong>: Maximum image dimension (height or width). This is converted to DPI for each page. If pages are of different size, each page can potentially scale by different amount. The default is actual page size.</p> <p><strong>-t</strong>: Output image type. Valid types are JPEG, PNG, GIF, and BMP. The default value is JPEG.</p> <p><strong>-i</strong>: Path for input PDF. It is a mandatory parameter.</p> <p><strong>-h</strong>: Help</p> </li> 
+   <li><p>To delete intermediate renditions, select <strong>Delete Generated Rendition</strong>.</p> </li> 
+   <li><p>To let PDF Rasterize generate web renditions, select <strong>Generate Web Rendition</strong>.</p> <img imageRotate="0" src="assets/generate_web_renditions.png" /></li> 
+   <li><p>Specify the settings in the <strong>Web Enabled Image</strong> tab.</p> <img imageRotate="0" src="assets/web_enabled_image-1.png" /></li> 
+   <li><p>Save the workflow.</p> </li> 
+   <li><p>Upload a PDF or AI file to AEM Assets. PDF Rasterizer generates the thumbnails and web renditions for the file.</p> </li> 
+  </ol> 
+ </body> 
+</html>

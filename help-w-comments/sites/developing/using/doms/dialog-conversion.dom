@@ -1,0 +1,266 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-11-01T07:04:17.312-0400" name="lastPublishExternalDate" /> 
+  <meta content="Dialog Conversion Tool" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="add9e6dc-30c3-41a0-ae71-485a04a7b5ef" name="jcr:uuid" /> 
+  <meta content="Dialog Conversion Tool" name="seoTitle" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools;/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools" name="moreHelpPaths" /> 
+  <meta content="2017-10-31T16:16:50.781-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-11-01T07:04:17.312-0400" name="publishExternalDate" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-05-08T12:42:57.080-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-03T09:00:37.598-0400" name="cq:lastReplicated" /> 
+  <meta content="3459d3b5-5018-4556-acd3-3bf77afdc755" name="jcr:predecessors" /> 
+  <meta content="The dialog conversion tool is provided to help you extend existing components that only have a dialog defined for the classic UI" name="seoDescription" /> 
+  <meta content="Dialog Conversion Tool" name="navTitle" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/dialog-conversion.html" name="publishExternalURL" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:development-tools;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-11-01T07:04:17.312-0400" name="topicBrowsingSortDate" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/dev-tools/dialog-conversion" name="qaNotes" /> 
+  <meta content="2018-05-08T12:42:57.078-0400" name="locHandOffDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-12-01T19:06:28.594-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>The dialog conversion tool is provided to help extend existing components that only have a dialog defined for the classic UI (based on ExtJS) or based on Granite UI and Coral 2. The tool uses the original dialog to create a duplicate dialog designed for the standard UI, based on Granite UI and Coral 3.<br /> </p> 
+  <p>The goal of this tool is to automate the upgrade as far as possible, increase efficiency, and reduce errors. However because the tool can not cover every scenario, the process can not be fully automated and the user must review the converted dialogs and possibly make additional adjustments. The tool is intended as an aid to help you start the conversion process, but not intended to take full control of the conversion.</p> 
+  <p>The tool will create the new dialog using the standard, Granite UI and Coral 3-based UI, but it will skip what it cannot convert. Therefore the resulting dialog might contain nodes from the original dialog copied as-is, if no rule matched that specific component. In addition, a converted component might have some unconverted properties, because there was no appropriate rule to convert them.</p> 
+  <note> 
+   <p>The tool cannot cover every scenario, as its conversion rules are non-exhaustive and operate on a best-effort basis. It converts the most frequently used elements and properties, but the conversion will be incomplete when dealing with customizations or highly-specialized dialogs. <strong>Converted dialogs may require additional adjustments and all conversions must be reviewed.</strong></p> 
+  </note> 
+  <note> 
+   <p>Because the classic UI is no longer being developed or enhanced, Adobe recommends that customers upgrade to the default Granite UI user interface to benefit from the latest technology.</p> 
+   <p>Although it is generally good practice to migrate to the latest platform, migrating from Coral 2 to Coral 3 is not critical. However any new project should be started based on Coral 3.</p> 
+  </note> 
+  <h2>Download and Install the Dialog Conversion Tool</h2> 
+  <p>The dialog conversion tool has been made open source and can be access via GitHub.</p> 
+  <p>CODE ON GITHUB</p> 
+  <p>You can find the code of this page on GitHub</p> 
+  <ul> 
+   <li><a href="https://github.com/Adobe-Marketing-Cloud/aem-dialog-conversion">Open aem-dialog-conversion project on GitHub</a></li> 
+   <li>Download the project as <a href="https://github.com/Adobe-Marketing-Cloud/aem-dialog-conversion/archive/master.zip">a ZIP file</a></li> 
+  </ul> 
+  <note> 
+   <p>AEM does not ship with the dialog conversion tool. You must download and install it in order to use it.</p> 
+  </note> 
+  <p>Follow these steps to install the dialog conversion tool.</p> 
+  <ol> 
+   <li><p>Download the package from the <a href="https://github.com/Adobe-Marketing-Cloud/aem-dialog-conversion/releases" target="_blank">Dialog Conversion Tool GitHub project</a>.</p> </li> 
+   <li><p>Install the package on your instance. For details on package management see <a href="../../../sites/administering/using/package-manager.md">How to Work With Packages</a>.</p> </li> 
+  </ol> 
+  <h2>Converting a Dialog</h2> 
+  <p>The tool converts dialogs by creating a corresponding Granite UI / Coral 3 dialog at the same location as the original dialog in the content tree. In the case of Granite UI / Coral 2 dialogs, these are copied to a backup location (a <span class="code">.coral2</span> suffix is appended to the dialog node name) so as not to be overridden. The tool can convert design dialogs as well as edit dialogs.</p> 
+  <p>Use the following steps to convert one or more dialogs:</p> 
+  <ol> 
+   <li><p>Open the <strong>Dialog Conversion</strong> console, accessible from <strong>Global Navigation -&amp;gt; Tools -&amp;gt;</strong> <strong>Operations</strong>:</p>  <img imageRotate="0" src="assets/chlimage_1-24.png" /></li> 
+   <li><p>Enter the required path such as <span class="code">/apps/geometrixx/components</span>. You can also enter a direct path to a single dialog such as <span class="code">/apps/geometrixx/components/lead</span>.</p> <img imageRotate="0" src="assets/chlimage_1-25.png" /></li> 
+   <li><p>Select <strong>Show dialogs</strong> to display all dialogs below that location.</p> <img imageRotate="0" src="assets/chlimage_1-26.png" /><p>The table lists all existing legacy dialogs below the entered path. Each dialog has its Type listed. Types include: </p> 
+    <ul> 
+     <li><strong>Classic:</strong> Nodes of type <span class="code">cq:Dialog</span> that have node name <span class="code">dialog</span> or <span class="code">design_dialog</span></li> 
+     <li><strong>Coral 2:</strong> Nodes named <span class="code">cq:dialog</span> or <span class="code">cq:design_dialog</span> that have a Granite UI / Coral 2 resource type at their child content node</li> 
+    </ul> <p>Each row contains a link to view the dialog and a link to CRXDE Lite to view its node structure.</p> 
+    <note> 
+     <p>Components that do not have a dialog for the classic UI or Coral 2 at all (i.e. they designed with Granite UI / Coral 3) are not listed.</p> 
+    </note></li> 
+   <li><p>Select one or more dialogs for conversion and click or tap <strong>Convert X dialog(s)</strong> to start the conversion process.</p> <img imageRotate="0" src="assets/chlimage_1-27.png" /></li> 
+   <li><p>The selected dialogs are listed with the results of their conversions. If the conversion was successful, then the row contains links to view the converted dialog or to open it in CRXDE Lite.</p> <p>Click or tap <strong>Back</strong> to return to the Dialog Conversion Tool.</p> <img imageRotate="0" src="assets/chlimage_1-28.png" /></li> 
+   <li><p>Back in the Dialog Conversion Tool, the converted dialogs are no longer shown in the list. Note however that the total number of dialogs found are still listed, including those already converted, i.e. the number of rows in the table does not necessarily match that of the number found.</p> <img imageRotate="0" src="assets/chlimage_1-29.png" /></li> 
+   <li><p>Check the option <strong>Show converted dialogs</strong> to show those dialogs located at the specified path that have already been converted.</p> <img imageRotate="0" src="assets/chlimage_1-30.png" /><p>If the dialog is already converted, links are also provided to the converted dialog. A dialog is considered converted if there is a sibling Granite UI / Coral 3 dialog already available.</p> </li> 
+  </ol> 
+  <h2>Dialog Rewrite Rules</h2> 
+  <p>The dialog conversion tool is based on the concept of <strong>graph rewriting</strong>, consisting of transforming a subject graph by applying rewrite rules. A rewrite rule is the pairing of a pattern with a replacement graph. The rule matches occurrences of a certain subgraph in the subject graph and subsequently replaces them. See also <a href="http://en.wikipedia.org/wiki/Graph_rewriting">http://en.wikipedia.org/wiki/Graph_rewriting</a> for details on graph rewriting.</p> 
+  <p>The dialog conversion tool uses this approach to rewrite a given legacy dialog tree (Classic or Granite UI / Coral 2) to its Granite UI / Coral 3 counterpart. This has the advantage that the conversion is highly flexible and can take into account even complex components, since matching is done on actual subtrees and not only single nodes or properties.</p> 
+  <h3>Algorithm</h3> 
+  <p>The rewrite algorithm takes as a parameter the tree to be rewritten and a set of rewrite rules. It traverses the tree in pre-order and for each node checks if a rule applies for the subtree rooted at that node. The first rule that matches is applied to that subtree in order to rewrite it. The traversal then restarts from the root. The algorithm stops as soon as the whole tree has been traversed and no rule has matched any subtree. As an optimization measure, the algorithm keeps track of a set of nodes that are final and therefore don't have to be rechecked for matches in subsequent traversals. It is up to the rewrite rules to define which nodes of the rewritten tree are final, and which should be revisited by future passes of the algorithm.</p> 
+  <p>The entry point for the conversion is the <span class="code">DialogConversionServlet</span>, which is registered on POST requests to <span class="code">/libs/cq/dialogconversion/content/convert.json</span>. It accepts a path request parameter, which is an array containing the paths to the dialogs that should be converted. For each dialog, the servlet then rewrites the corresponding dialog tree by applying all defined dialog rewrite rules.</p> 
+  <h3>Rewrite Rule Types</h3> 
+  <p>The rewrite rules can be defined in two different ways, either as:</p> 
+  <ul> 
+   <li>JCR node structures - <a href="../../../sites/developing/using/dialog-conversion.md#main-pars-title-8">Node-Based Rewrite Rules</a><br /> </li> 
+   <li>Java classes implementing a specific interface - <a href="../../../sites/developing/using/dialog-conversion.md#main-pars-title-7">Java-Based Rewrite Rules</a></li> 
+  </ul> 
+  <p>Some are <a href="#main-pars-title-1">provided out-of-the-box</a>, but you can also define your own customized rules. <a href="../../../sites/developing/using/dialog-conversion.md#main-pars-title-3">Sample rewrite rules</a> are also available.</p> 
+  <p>Typically, a single dialog rewrite rule is responsible for rewriting a single dialog element, for example the pathbrowser input field.</p> 
+  <note> 
+   <p>Rewrite loops are not detected by the algorithm, therefore <strong>rewrite rules must not rewrite trees in a circular fashion</strong>.</p> 
+  </note> 
+  <h3>Node-Based Rewrite Rules</h3> 
+  <p>A dialog rewrite rule can be defined in terms of nodes and properties.</p> 
+  <codeblock gutter="true" class="syntax xml">
+    rule!!discoiqbr!!&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:primaryType&amp;nbsp;=&amp;nbsp;nt:unstructured!!discoiqbr!!&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:rewriteRanking&amp;nbsp;=&amp;nbsp;4!!discoiqbr!!&amp;nbsp;&amp;nbsp;+&amp;nbsp;patterns!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:primaryType&amp;nbsp;=&amp;nbsp;nt:unstructured!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;foo!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;foo1!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;+&amp;nbsp;replacement!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;bar!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;... 
+  </codeblock> 
+  <p>This example defines a rule containing two <strong>patterns</strong> (the trees rooted at <span class="code">foo</span> and <span class="code">foo1</span>) and a <strong>replacement</strong> (the tree rooted at <span class="code">bar</span>). The pattern and replacement trees are arbitrary trees containing nodes and properties. The rule matches a subtree if any of the defined patterns match. In order for a pattern to match, the subject tree must contain the same nodes as the pattern (matching names) and all properties defined in the pattern must match the properties of the tree.</p> 
+  <p>In the case of a match, the matched subtree (called the original tree) will be substituted by the replacement. The replacement tree can define mapped properties that will inherit the value of a property in the original tree. They need to be of type <span class="code">String</span> and have the following format: </p> 
+  <p><span class="code">${&amp;lt;path&amp;gt;}</span></p> 
+  <p>If the referenced property doesn't exist in the original tree, then the property is omitted. Alternatively, a default value can be specified for that case (only possible for string properties):</p> 
+  <p><span class="code">${&amp;lt;path&amp;gt;:&amp;lt;default&amp;gt;}</span></p> 
+  <p>Properties that contain '<span class="code">:</span>' characters can be single quoted to avoid conflict with providing a default value. Boolean properties are negated if the expression is prefixed with '<span class="code">!</span>'. Mapped properties can be multivalued, in which case they will be assigned the value of the first property that exists in the matched tree.</p> 
+  <p>For example, the following property <span class="code">one</span> will be assigned the value of the property <span class="code">./two/three</span> of the matched original tree. </p> 
+  <codeblock gutter="true" class="syntax xml">
+    ...!!discoiqbr!!&amp;nbsp;&amp;nbsp;+&amp;nbsp;replacement!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;bar!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;one&amp;nbsp;=&amp;nbsp;${./two/three}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;negated&amp;nbsp;=&amp;nbsp;!${./some/boolean/prop}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;default&amp;nbsp;=&amp;nbsp;${./some/prop:default}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;multi&amp;nbsp;=&amp;nbsp;[${./prop1},&amp;nbsp;${./prop2}] 
+  </codeblock> 
+  <p>Rules also support the following optional properties.</p> 
+  <ul> 
+   <li><p><span class="code">cq:rewriteOptional</span> (boolean)<br /> Set this property on a pattern node to indicate that the node doesn’t have to be present for the pattern to match</p> </li> 
+   <li><p><span class="code">cq:rewriteRanking</span> (integer)<br /> Set this property on the rule node to affect the order by which the rules are applied. This can be useful in ensuring that rules handling more specific structures aren’t overwritten by more general ones. Rules with a lower ranking take precedence over those with higher ranking. All rules by default receive <span class="code">Integer.MAX_VALUE</span> as their ranking.</p> </li> 
+  </ul> 
+  <p>The replacement tree also supports the following special properties (named beginning with <span class="code">cq:rewrite</span>):</p> 
+  <ul> 
+   <li><p><span class="code">cq:rewriteMapChildren</span> (string)<br /> The node containing this property will receive a copy of the children of the node in the original tree referenced by the property value (e.g. <span class="code">cq:rewriteMapChildren=./items</span>).</p> </li> 
+   <li><p><span class="code">cq:rewriteFinal</span> (boolean)<br /> This is an optimization measure telling the algorithm that the node containing this property is final and doesn't have to be rechecked for matching rewrite rules. When placed on the replacement node itself, the whole replacement tree is considered final.</p> </li> 
+   <li><p><span class="code">cq:rewriteCommonAttrs</span> (boolean)<br /> Set this property on the replacement node (<span class="code">rule</span>/<span class="code">replacement</span>) to map relevant properties of the original root node to Granite common attribute equivalents in the copy root. It will handle data attributes by copying/creating the <span class="code">granite:data</span> subnode on the target and writing <span class="code">data-*</span> properties there.</p> </li> 
+   <li><span class="code">cq:rewriteRenderCondition</span> (boolean)<br /> Set this property on the replacement node (<span class="code">rule</span>/<span class="code">replacement</span>) to copy any Granite render condition (<span class="code">rendercondition</span> or <span class="code">granite:rendercondition</span>) child node from the original root node to a <span class="code">granite:rendercondition</span> child of the copy root.</li> 
+  </ul> 
+  <p>In addition, a <span class="code">cq:rewriteProperties</span> node can be added to a replacement node to define string rewrites for mapped properties in the result. The node is removed from the replacement. The properties of the <span class="code">cq:rewriteProperties</span> node must be named the same as those which they are rewriting and accept a string array with two parameters:</p> 
+  <ul> 
+   <li><span class="code">pattern</span>: Regex to match against, e.g. <span class="code">"(?:coral-Icon-)(.+)"</span></li> 
+   <li><span class="code">replacement</span>: Provided to the matcher <span class="code">replaceAll</span> function, e.g. <span class="code">"$1"</span></li> 
+  </ul> 
+  <p>The following is an example of rewriting Coral 2 icon properties to Coral 3 equivalents:</p> 
+  <codeblock class="syntax xml">
+    ...!!discoiqbr!!&amp;nbsp;&amp;nbsp;+&amp;nbsp;replacement!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;bar!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;icon&amp;nbsp;=&amp;nbsp;${./icon}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;cq:rewriteProperties!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;icon&amp;nbsp;=&amp;nbsp;[(?:coral-Icon--)(.+),&amp;nbsp;$1] 
+  </codeblock> 
+  <h4>Defining Your Own Node-Based Rewrite Rules</h4> 
+  <p>The rewrite rules provided are defined at:</p> 
+  <p style="margin-left: 40px;"><span class="code">/libs/cq/dialogconversion/rules</span></p> 
+  <p>The rules are further divided at this location into folders for classic rewrite rules and Coral 2 rewrite rules:</p> 
+  <p style="margin-left: 40px;"><span class="code">/libs/cq/dialogconversion/rules/classic</span></p> 
+  <p style="margin-left: 40px;"><span class="code">/libs/cq/dialogconversion/rules/coral2</span></p> 
+  <p>These rules can be overwritten by providing a set of rules at:</p> 
+  <p style="margin-left: 40px;"><span class="code">/apps/cq/dialogconversion/rules</span></p> 
+  <p>You can copy <span class="code">/libs/cq/dialogconversion/rules</span> to <span class="code">/apps</span> then modify existing and/or add new rules to this new instance<span class="code"></span>.</p> 
+  <h3>Java-Based Rewrite Rules</h3> 
+  <p>More complex rewrite rules can be defined as Java classes exposing an OSGi service of the interface <span class="code">com.adobe.cq.dialogconversion.DialogRewriteRule</span>.</p> 
+  <p>Such a class must implement following methods:</p> 
+  <codeblock gutter="true" class="syntax java">
+    boolean&amp;nbsp;matches(Node&amp;nbsp;root)&amp;nbsp;throws&amp;nbsp;RepositoryException;!!discoiqbr!!Node&amp;nbsp;applyTo(Node&amp;nbsp;root,&amp;nbsp;Set&lt;Node&gt;&amp;nbsp;finalNodes)&amp;nbsp;throws&amp;nbsp;DialogRewriteException,&amp;nbsp;RepositoryException;!!discoiqbr!!int&amp;nbsp;getRanking(); 
+  </codeblock> 
+  <p>The <span class="code">matches</span> method must return <span class="code">true</span> if the rule matches the subtree rooted at the supplied root node. If the rule matches, the tree rewriting algorithm will subsequently call the <span class="code">applyTo</span> method, which must rewrite the subtree rooted at the specified root node. Usually, this method will temporarily rename the original tree, build the new tree as a new child of the original tree's parent node (using its nodes and properties), and finally remove the original tree. More detailed information can be found in the Javadoc of the <span class="code">com.adobe.cq.dialogconversion.DialogRewriteRule</span> interface.</p> 
+  <h4>Further information - Javadocs</h4> 
+  <p>For further information see the <a href="http://adobe-marketing-cloud.github.io/aem-touchui-dialogconversion-samples/javadoc/">Javadocs for <span class="code">com.adobe.cq.dialogconversion</span></a>.</p> 
+  <h4>Defining Your Own Java-Based Rewrite Rules</h4> 
+  <p>The following class shows an example of a custom rewrite rule implementing the <span class="code">com.adobe.cq.dialogconversion.DialogRewriteRule</span> interface.</p> 
+  <codeblock gutter="true" class="syntax java">
+    @Component!!discoiqbr!!@Service!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;CustomDialogRewriteRule&amp;nbsp;implements&amp;nbsp;DialogRewriteRule&amp;nbsp;{!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;matches(Node&amp;nbsp;root)&amp;nbsp;throws&amp;nbsp;RepositoryException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;Node&amp;nbsp;applyTo(Node&amp;nbsp;root,&amp;nbsp;Set&lt;Node&gt;&amp;nbsp;finalNodes)&amp;nbsp;throws&amp;nbsp;DialogRewriteException,&amp;nbsp;RepositoryException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;getRanking()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!} 
+  </codeblock> 
+  <p>Alternatively, you can extend <span class="code">com.adobe.cq.dialogconversion.AbstractDialogRewriteRule</span> as below. The abstract class implements the <span class="code">getRanking</span> method and uses the <span class="code">service.ranking</span> OSGi property of the service to determine the ranking of the rule.</p> 
+  <codeblock gutter="true" class="syntax java">
+    @Component!!discoiqbr!!@Service!!discoiqbr!!@Properties({!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Property(name="service.ranking",&amp;nbsp;intValue&amp;nbsp;=&amp;nbsp;10)!!discoiqbr!!})!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;CustomDialogRewriteRule&amp;nbsp;extends&amp;nbsp;AbstractDialogRewriteRule&amp;nbsp;{!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;matches(Node&amp;nbsp;root)&amp;nbsp;throws&amp;nbsp;RepositoryException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;Node&amp;nbsp;applyTo(Node&amp;nbsp;root,&amp;nbsp;Set&lt;Node&gt;&amp;nbsp;finalNodes)&amp;nbsp;throws&amp;nbsp;RewriteException,&amp;nbsp;RepositoryException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;!!discoiqbr!!} 
+  </codeblock> 
+  <h3>Provided Rewrite Rules</h3> 
+  <p>The <span class="code">cq-dialog-conversion-content</span> package contains several predefined rewrite rules. For classic UI widgets see <a href="../../../sites/developing/using/xtypes.md">Using xtypes</a> for more information).</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Rule</strong></td> 
+     <td><strong>Legacy Component</strong></td> 
+     <td><strong>Granite UI / Coral 3 Replacement</strong></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">com.adobe.cq.dialogconversion.rules.CqDialogRewriteRule</span></td> 
+     <td>Node of type <span class="code">cq:Dialog</span>, handles different substructures</td> 
+     <td><p>A <span class="code">granite/ui/components/foundation/container</span> using either a <span class="code">fixedcolumns</span> or <span class="code">tabs</span> layout</p> <p>The actual components of the dialog are copied over and are rewritten in subsequent passes of the algorithm.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">com.adobe.cq.dialogconversion.rules.IncludeRule</span></td> 
+     <td>xtype = <span class="code">cqinclude</span></td> 
+     <td>The referenced node is copied to the Granite UI / Coral 3 dialog and (possibly) subsequently rewritten by the algorithm.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">com.adobe.cq.dialogconversion.rules.MultifieldRewriteRule</span></td> 
+     <td>xtype = <span class="code">multifield</span></td> 
+     <td><p>A <span class="code">granite/ui/components/coral/foundation/form/multifield</span></p> <p>The <span class="code">fieldConfig</span> child node (if any) is rewritten separately, thus not limiting the supported components.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">/libs/cq/dialogconversion/rules/classic</span></td> 
+     <td><code class="code">button
+       <discoiqbr /> checkbox
+       <discoiqbr /> colorfield
+       <discoiqbr /> combobox
+       <discoiqbr /> componentselector
+       <discoiqbr /> datetime
+       <discoiqbr /> fieldset
+       <discoiqbr /> fileupload
+       <discoiqbr /> hidden
+       <discoiqbr /> numberfield
+       <discoiqbr /> panel
+       <discoiqbr /> password
+       <discoiqbr /> pathfield
+       <discoiqbr /> radio
+       <discoiqbr /> radiogroup
+       <discoiqbr /> select
+       <discoiqbr /> sizefield
+       <discoiqbr /> tabpanel
+       <discoiqbr /> tags
+       <discoiqbr /> textarea
+       <discoiqbr /> textfield</code></td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">/libs/cq/dialogconversion/rules/coral2</span></td> 
+     <td><code class="code">actionfield
+       <discoiqbr /> autocomplete
+       <discoiqbr /> button
+       <discoiqbr /> checkbox
+       <discoiqbr /> collapsible
+       <discoiqbr /> colorpicker
+       <discoiqbr /> container
+       <discoiqbr /> datepicker
+       <discoiqbr /> fieldset
+       <discoiqbr /> fileupload
+       <discoiqbr /> fixedcolumns
+       <discoiqbr /> heading
+       <discoiqbr /> hidden
+       <discoiqbr /> hyperlink
+       <discoiqbr /> include
+       <discoiqbr /> multifield
+       <discoiqbr /> nestedcheckboxlist
+       <discoiqbr /> nestedcheckboxlist-checkbox
+       <discoiqbr /> numberfield
+       <discoiqbr /> password
+       <discoiqbr /> pathbrowser
+       <discoiqbr /> radio
+       <discoiqbr /> radiogroup
+       <discoiqbr /> reset
+       <discoiqbr /> select
+       <discoiqbr /> submit
+       <discoiqbr /> switch
+       <discoiqbr /> tabs
+       <discoiqbr /> tags
+       <discoiqbr /> text
+       <discoiqbr /> textarea
+       <discoiqbr /> textfield
+       <discoiqbr /> userpicker
+       <discoiqbr /> well</code></td> 
+     <td> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Sample Rewrite Rules</h3> 
+  <p>CODE ON GITHUB</p> 
+  <p>You can find the code of this page on GitHub</p> 
+  <ul> 
+   <li><a href="https://github.com/Adobe-Marketing-Cloud/aem-touchui-dialogconversion-samples">Open aem-touchui-dialogconversion-samples project on GitHub</a></li> 
+   <li>Download the project as <a href="https://github.com/Adobe-Marketing-Cloud/aem-touchui-dialogconversion-samples/archive/master.zip">a ZIP file</a></li> 
+  </ul> 
+ </body> 
+</html>

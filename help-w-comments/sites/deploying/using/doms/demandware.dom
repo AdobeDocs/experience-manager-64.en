@@ -1,0 +1,127 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:e-commerce;content_type:reference" name="cq:tags" />
+  <meta content="2017-12-01T19:03:11.635-0500" name="jcr:created" />
+  <meta content="Deploying eCommerce with Demandware" name="pageTitle" />
+  <meta content="mhaack" name="cq:lastReplicatedBy" />
+  <meta content="inherit" name="hideMerchandisingBar" />
+  <meta content="light" name="gnavTheme" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Learn how to deploy eCommerce with Salesforce Commerce Cloud / Demandware." name="seoDescription" />
+  <meta content="2017-10-31T16:17:59.754-0400" name="firstPublishExternalDate" />
+  <meta content="2018-12-17T03:05:10.676-0500" name="lastPublishInternalDate" />
+  <meta content="Salesforce Commerce Cloud" name="jcr:title" />
+  <meta content="2018-12-17T03:05:10.676-0500" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/experience-manager/6-4/sites/deploying/using/demandware.html" name="publishInternalURL" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/e-commerce;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/e-commerce" name="moreHelpPaths" />
+  <meta content="2018-12-17T03:05:10.676-0500" name="publishInternalDate" />
+  <meta content="2018-12-17T03:05:10.676-0500" name="firstPublishInternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="dist5" name="distType" />
+  <meta content="14c39e90-309e-4fff-8784-310a063b43bd" name="jcr:uuid" />
+  <meta content="73268e5a-57d0-49d2-8207-dd824d018636" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Salesforce Commerce Cloud / Demandware" name="seoTitle" />
+  <meta content="2018-04-30T03:26:46.668-0400" name="locHandOffDate" />
+  <meta content="audience:deploying" name="primaryAudienceTag" />
+  <meta content="inherit" name="hidePromoComponent" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mhaack@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-12-17T03:05:10.676-0500" name="topicBrowsingSortDate" />
+  <meta content="Salesforce Commerce Cloud" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-12-17T03:05:10.676-0500" name="lastPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/demandware.html" name="publishExternalURL" />
+  <meta content="426x240" name="modalSize" />
+  <meta content="2018-12-17T03:05:10.859-0500" name="cq:lastReplicated" />
+  <meta content="2018-12-17T03:05:10.730-0500" name="cq:lastModified" />
+  <meta content="/content/docs/en/aem/6-3/deploy/ecommerce/demandware" name="qaNotes" />
+  <meta content="no" name="groupSectionNavItems" />
+  <meta content="mhaack" name="cq:lastModifiedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="true" name="jcr:isCheckedOut" />
+ </head>
+ <body>
+  <p>Deploying the necessary eCommerce packages will provide the full functionality of the eCommerce framework, together with a reference implementation of eCommerce functionality as provided with a Salesforce Commerce Cloud / Demandware implementation (including a demonstration catalog).</p> 
+  <h3>Packages Needed for eCommerce with Salesforce Commerce Cloud</h3>
+  <p>To install eCommerce functionality you need:</p> 
+  <ul> 
+   <li>AEM eCommerce framework:
+    <ul> 
+     <li>this is part of a standard AEM installation<br /> </li> 
+    </ul> </li> 
+   <li>AEM Demandware Commerce content package
+    <ul> 
+     <li>cq-6.4.0-featurepack-10262</li> 
+    </ul> </li> 
+  </ul> 
+  <note>
+   <p>This integration supports Salesforce Commerce Cloud / Demandware instances configured to use OCAPI version 17.6 or later.<br /><br /> </p> 
+  </note>
+  <h3>Installation of eCommerce with Salesforce Commerce Cloud</h3>
+  <p>To install AEM with a Demandware Commerce integration configuration (using the demonstration catalog, Geometrixx Outdoors), the basic steps are:</p> 
+  <ol>
+   <li><p><a href="../../../sites/deploying/using/deploy.md">Install AEM</a>.</p> </li>
+   <li><p>Install the content package using the <a href="../../../sites/administering/using/package-manager.md">package manager</a>:</p> </li>
+   <li><p><a href="../../../sites/authoring/using/page-authoring.md">Author</a> any supplementary pages that you need in AEM.</p></li>
+  </ol>
+  <note>
+   <p>To download the packages, navigate to <a href="../../../sites/administering/using/package-manager.md#packageshare">Package Share</a>.</p> 
+  </note>
+  <p>The server connection between AEM and the Demandware Sandbox needs to be configured. Most of the configuration is already preconfigured to work with the provided SiteGenisis demo content package using default paths, libraries, and so on. If the connector is used with other sites and libraries, you will need to update this configuration.</p> 
+  <ol>
+   <li><p>Navigate to <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</p> </li>
+   <li><p>Click <strong>Demandware Client</strong>.</p> </li>
+   <li><p>Enter the <strong>Instance endpoint ip or hostname</strong> as required.</p> <img imageRotate="0" src="assets/chlimage_1-103.png" /></li>
+   <li><p>Click <strong>Save</strong>.</p> </li>
+   <li><p>Click <strong>Demandware TransportHandler Plugin for WebDAV</strong>.</p> </li>
+   <li><p>Set the <strong>WebDAV user</strong> and the <strong>WebDAV user password</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-104.png" /></li>
+   <li><p>Click <strong>Save</strong>.</p> </li>
+  </ol>
+  <h4>Replication</h4>
+  <p>The replication should be enabled after the package installation, you can verify that here: <a href="http://localhost:4502/etc/replication/agents.author/demandware.html">http://localhost:4502/etc/replication/agents.author/demandware.html</a></p> 
+  <note>
+   <p>The replication agent is configured to info log level by default. If you want to have more information, you can switch the log level to debug.</p> 
+  </note>
+  <h4>OAuth</h4>
+  <p>The OAuth client is configured to work with a Demandware sandbox instance. For testing purposes, no change is needed.</p> 
+  <p>For staging and productions systems, the OAuth clients need to be configured with appropriate client ID and password.</p> 
+  <ol>
+   <li><p>Navigate to <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</p> </li>
+   <li><p>Click <strong>Demandware Access Token provider</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-105.png" /></li>
+   <li><p>Modify the values as required and click <strong>Save</strong>.</p> </li>
+  </ol>
+  <h3>Salesforce Commerce Cloud Sandbox</h3>
+  <p>The Demandware Sandbox must be configured to run the new Velocity template engine.</p> 
+  <note>
+   <p>The following wizard is not part of the AEM Demandware connector. It is provided as is as part of the demo content package to help with quickly setting up the SiteGenesis demo pages.</p> 
+  </note>
+  <ol>
+   <li><p>Navigate to <a href="http://localhost:4502/etc/demandware/init.html">http://localhost:4502/etc/demandware/init.html</a>.</p> </li>
+   <li><p>Click <strong>Edit.</strong></p> </li>
+   <li><p>Verify the values and click <strong>OK</strong>.</p> </li>
+   <li><p>Click <strong>Initialize</strong>.</p> </li>
+   <li><p>Go to the WebDAV folder and check for published template files, for example under <span class="code">adobe01-tech-prtnr-na01-dw.demandware.net/on/demandware.servlet/webdav/Sites/Dynamic/SiteGenesis</span>.</p> 
+    <note>
+     <p>The extension will be <span class="code">.vs</span>.</p> 
+    </note></li>
+   <li><p>Check also for exported JS and CSS files, for example under <span class="code">adobe01-tech-prtnr-na01-dw.demandware.net/on/demandware.servlet/webdav/Sites/Libraries/SiteGenesisSharedLibrary</span>.</p> </li>
+  </ol>
+  <draft-comment type="draft">
+   <p>Draft content for test only.</p> 
+   <p> </p> 
+  </draft-comment>
+  <draft-comment type="draft">
+   <img imageRotate="0" src="assets/screen_shot_2018-10-17at112307.png" />
+  </draft-comment>
+ </body>
+</html>

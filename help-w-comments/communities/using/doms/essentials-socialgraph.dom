@@ -1,0 +1,125 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-05-17T05:56:17.135-0400" name="locHandOffDate" />
+  <meta content="2017-10-31T16:33:38.351-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/essentials-socialgraph.html" name="publishExternalURL" />
+  <meta content="2018-04-03T07:42:33.101-0400" name="topicBrowsingSortDate" />
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/socialgraph" name="qaNotes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-12-01T19:01:08.732-0500" name="jcr:created" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="c11d18ed-17d8-456e-9a24-607b106d2f38" name="jcr:uuid" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Social Graph Essentials" name="seoTitle" />
+  <meta content="2018-05-17T05:56:17.136-0400" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" />
+  <meta content="follow component and following component overview" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="light" name="gnavTheme" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="ed2851bb-c3f2-493d-94a3-7005b6f67489" name="jcr:predecessors" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="dist5" name="distType" />
+  <meta content="2018-04-03T07:42:33.101-0400" name="lastPublishExternalDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Social Graph Essentials" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-03T07:42:34.413-0400" name="cq:lastReplicated" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2018-04-03T07:42:33.101-0400" name="publishExternalDate" />
+  <meta content="Social Graph Essentials" name="navTitle" />
+ </head>
+ <body>
+  <p>The ability for a Community member to follow <a href="../../communities/using/essentials-activities.md">activities</a> as well as be followed is established through two components : </p> 
+  <p>The <span class="code">follow </span>component must be associated with another resource, and this association is already established for existing Communities members and features in a <a href="../../communities/using/overview.md#communitiessites">community site</a>.</p> 
+  <p>The <span class="code">following </span>component lists the members that are either following the current member or are being followed by the current member. This social graph of the relationships between members is included in the user profile established for a community site.</p> 
+  <h2>Essentials for Client-Side</h2>
+  <h4>Following</h4>
+  <table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+   <tbody>
+    <tr>
+     <td> <strong>resourceType</strong></td> 
+     <td>social/socialgraph/components/hbs/relationships</td> 
+    </tr>
+    <tr>
+     <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+     <td>No</td> 
+    </tr>
+    <tr>
+     <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+     <td>cq.social.hbs.socialgraph</td> 
+    </tr>
+    <tr>
+     <td> <strong>templates</strong></td> 
+     <td> /libs/social/socialgraph/components/hbs/relationships/relationships.hbs</td> 
+    </tr>
+    <tr>
+     <td> <strong>css</strong></td> 
+     <td> /libs/social/socialgraph/components/hbs/relationships/clientlibs/relationships.css</td> 
+    </tr>
+    <tr>
+     <td><strong> properties</strong></td> 
+     <td>see <a href="../../communities/using/socialgraph.md">Using Social Graph</a></td> 
+    </tr>
+    <tr>
+     <td style="vertical-align: top;"><strong> optional<br /> property</strong></td> 
+     <td>
+      <ul> 
+       <li>Name : <strong><span class="code">outgoing</span></strong></li> 
+       <li>Type : Boolean</li> 
+       <li>Value :<br /> 
+        <ul> 
+         <li><i>true </i>- the <span class="code">following</span> component will list the members who the currently signed-in member <span class="code">follows</span></li> 
+         <li><i>false </i>- the <span class="code">following</span> component will list the members who <span class="code">follow </span>the currently signed-in member</li> 
+        </ul> </li> 
+      </ul> <p>Defaults to <i>true</i> if the property is missing. Currently, it is not possible to set this property using the edit dialog in author mode. The property must be added to an instance of the <span class="code">following </span>node using <a href="../../sites/developing/using/developing-with-crxde-lite.md">CRXDE|Lite</a>.</p> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h4>Follow</h4>
+  <table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+   <tbody>
+    <tr>
+     <td> <strong>resourceType</strong></td> 
+     <td>social/socialgraph/components/hbs/following</td> 
+    </tr>
+    <tr>
+     <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+     <td>No</td> 
+    </tr>
+    <tr>
+     <td> <strong>templates</strong></td> 
+     <td> /libs/social/socialgraph/components/hbs/following/following.hbs</td> 
+    </tr>
+    <tr>
+     <td> <strong>css</strong></td> 
+     <td> /libs/social/socialgraph/components/hbs/following/clientlibs/following.css</td> 
+    </tr>
+   </tbody>
+  </table>
+  <ul> 
+   <li><a href="../../communities/using/client-customize.md">Client-side Customizations</a></li> 
+  </ul> 
+  <h2>Essentials for Server-Side</h2>
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/graph/client/api/package-frame">Social Graph API</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/graph/client/endpoint/package-frame">Social Graph Endpoints</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="../../communities/using/server-customize.md">Server-side Customizations</a></li> 
+  </ul> 
+ </body>
+</html>

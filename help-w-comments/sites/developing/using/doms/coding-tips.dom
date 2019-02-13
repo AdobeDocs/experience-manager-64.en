@@ -1,0 +1,100 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-01-18T11:18:25.811-0500" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="7d8c4f9a-2e65-4604-a097-81e955bde5fb" name="jcr:uuid" /> 
+  <meta content="Tips for coding for AEM" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-05-08T12:40:47.469-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/coding-tips.html" name="publishExternalURL" /> 
+  <meta content="5f6b299f-a88a-404c-adbc-7210d7473c66" name="jcr:predecessors" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices;/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices" name="moreHelpPaths" /> 
+  <meta content="2018-01-19T19:06:24.498-0500" name="jcr:created" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Coding Tips" name="jcr:title" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-01-18T11:18:25.811-0500" name="topicBrowsingSortDate" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:best-practices" name="cq:tags" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-05-08T12:40:47.467-0400" name="locHandOffDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Coding Tips" name="seoTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-03T09:00:12.000-0400" name="cq:lastReplicated" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/best-practices/coding-tips" name="qaNotes" /> 
+  <meta content="2017-10-31T16:17:14.440-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-01-18T11:18:25.811-0500" name="publishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+ </head> 
+ <body> 
+  <h3>Use taglibs or HTL as much as possible</h3> 
+  <p>Including scriptlets in JSPs makes it difficult to debug issues in the code. Additionally, by including scriptlets in JSPs, it is difficult to separate business logic from the view layer, which is a violation of the Single Responsibility Principle and the MVC design pattern.</p> 
+  <h3>Write readable code</h3> 
+  <p>Code is written once, but read many times. Spending some time up front to clean the code that we write will pay out dividends down the road as we and other developers need to read it later.</p> 
+  <h3>Choose intention-revealing names</h3> 
+  <p>Ideally, another programmer should not have to open a module to understand what it does. Likewise, they should be able to tell what a method does without reading it. The better we can subscribe to these ideas, the easier it will be to read our code and the faster we will be able to write and change our code.</p> 
+  <p>In the AEM code base, the following conventions are used:</p> 
+  <ul> 
+   <li>A single implementation of an interface is named <i>&amp;lt;Interface&amp;gt;Impl</i>, i.e. <i>ReaderImpl</i>.</li> 
+   <li>Multiple implementations of an interface are named <i>&amp;lt;Variant&amp;gt;&amp;lt;Interface&amp;gt;</i>, i.e. <i>JcrReader</i> and <i>FileSystemReader</i>.</li> 
+   <li>Abstract base classes are named Abstract<i>&amp;lt;Interface&amp;gt;</i> or <i>Abstract&amp;lt;Variant&amp;gt;&amp;lt;Interface&amp;gt;</i>.</li> 
+   <li>Packages are named <i>com.adobe.product.module</i>. Each Maven artifact or OSGi bundle must have its own package.</li> 
+   <li>Java implementations are placed in an impl package below their API.</li> 
+  </ul> 
+  <p>Note that these conventions don’t necessarily need to apply to customer implementations, but it is important that conventions are defined and adhered to so that the code can stay maintainable.</p> 
+  <p>Ideally, names should reveal their intention. A common code test for when names are not as clear as they should be is the presence of comments explaining what the variable or method is for:</p> 
+  <table border="1" cellpadding="0" cellspacing="0"> 
+   <tbody> 
+    <tr> 
+     <td valign="top" width="245"><p><strong>Unclear</strong></p> </td> 
+     <td valign="top" width="245"><p><strong>Clear</strong></p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="245"><p>int d; //elapsed time in days</p> </td> 
+     <td valign="top" width="245"><p>int elapsedTimeInDays;</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="245"><p>//get tagged images<br /> public List getItems() {}</p> </td> 
+     <td valign="top" width="245"><p>public List getTaggedImages() {}</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Don't repeat yourself </h3> 
+  <p>DRY states that the same set of code should never be duplicated. This also applies to things like string literals. Code duplication opens the door for defects whenever something has to change and should be sought out and eliminated.</p> 
+  <h3>Avoid naked CSS rules</h3> 
+  <p>CSS rules should be specific to your target element in the context of your application. For example, a CSS rule applied to <i>.content .center</i> would be overly broad and could potentially end up impacting lots of content across your system, requiring others to override this style in the future. <i>.myapp-centertext</i> would be a more specific rule as it is specifying centered <i>text</i> in the context of your application.</p> 
+  <h3>Eliminate usage of deprecated APIs</h3> 
+  <p>When an API is deprecated, it is always better to find the new recommended approach instead of relying on the deprecated API. This will ensure smoother upgrades in the future.</p> 
+  <h3>Write localizable code</h3> 
+  <p>Any strings that are not being supplied by an author should be wrapped in a call to AEM’s i18n dictionary through <i>I18n.get()</i> in JSP/Java and <i>CQ.I18n.get()</i> in JavaScript. This implementation will return the string that was passed to it if no implementation is found, so this offers the flexibility of implementing localization after implementing the features in the primary language.</p> 
+  <h3>Escape resource paths for safety</h3> 
+  <p>While paths in the JCR should not contain spaces, the presence of them should not cause code to break. Jackrabbit provides a Text utility class with <i>escape()</i> and <i>escapePath()</i> methods. For JSPs, Granite UI exposes a <i>granite:encodeURIPath() EL</i> function.</p> 
+  <h3>Use the XSS API and/or HTL to protect against cross-site scripting attacks</h3> 
+  <p>AEM provides an XSS API to easily clean parameters and ensure safety from cross-site scripting attacks. Additionally, HTL has these protections built directly into the templating language. An API cheat sheet is available for download at <a href="../../../sites/developing/using/dev-guidelines-bestpractices.md">Development - Guidelines and Best Practices</a>.</p> 
+  <h3>Implement appropriate logging</h3> 
+  <p>For Java code, AEM supports slf4j as the standard API for logging messages and should be used in conjunction with the configurations made available through the OSGi console for the sake of consistency in administration. Slf4j exposes five different logging levels. We recommend using the following guidelines when choosing which level to log a message at:</p> 
+  <ul> 
+   <li>ERROR: When something has broken in the code and processing cannot continue. This will often occur as a result of an unexpected exception. It is usually helpful to include stack traces in these scenarios.</li> 
+   <li>WARN: When something has not worked properly, but processing can continue. This will often be the result of an exception that we expected, such as a <i>PathNotFoundException</i>.</li> 
+   <li>INFO: Information that would be useful when monitoring a system. Keep in mind that this is the default and that most customers will leave this in place on their environments. Therefore, do not use it excessively.</li> 
+   <li>DEBUG: Lower level information about processing. Useful when debugging an issue with support.</li> 
+   <li>TRACE: The lowest level information, things like entering/exiting methods. This will usually only be used by developers.</li> 
+  </ul> 
+  <p>In the case of JavaScript, <i>console.log</i> should only be used during development and all log statements should be removed before release.</p> 
+  <h3>Avoid cargo cult programming</h3> 
+  <p>Avoid copying code without understanding what it does. When in doubt, it is always best to ask someone who has more experience with the module or API that you are not clear on.</p> 
+ </body> 
+</html>

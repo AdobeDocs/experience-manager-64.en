@@ -1,0 +1,103 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Channel Layout Editor" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="2018-04-19T10:29:12.274-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-01-15T15:39:04.846-0500" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="8e5a0795-f735-4bea-83f7-cd0f90a099f1" name="jcr:uuid" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="true" name="preview" /> 
+  <meta content="1b603f59-0c1f-4574-9be3-d96b3383a014" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-05-22T16:32:08.721-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <p><strong><em>Channel Layout Editor</em></strong> allows you to create multi zone content and use variety of assets such as videos, images, and text that can be combined in a single screen in contexual ways. You can pull in images, videos, and texts and allow it all to blend together and create an intuitive and interactive digital experience. </p> 
+  <p>As per the project requirements, sometimes you need multiple zones in a channel and edit them as one comprehensive unit. For example, a product sequence with a related social media feed running in three separate zones on a single channel.</p> 
+  <h2>Overview</h2> 
+  <p>While creating a channel, you can use diffrent templates in order to create zones in your channel. You can add an image, video, or an embedded channel to leverage content as per your project requirements.</p> 
+  <h3>Use Case Description</h3> 
+  <p>The following use case describes creating multi-zones in a channel.</p> 
+  <ol> 
+   <li> 
+    <ol> 
+     <li>Select the Adobe Experience Manager link (top left) and then <strong>Screens</strong>. Alternatively, you can ﻿go directly to: http://localhost:4502/screens.html/content/screens.</li> 
+     <li>Click <strong>Create</strong> to create a new Screens project.</li> 
+     <li>Select <strong>Screens</strong> from the <strong>Create Screens Project</strong> wizard and click <strong>Next</strong>. </li> 
+     <li>Enter the title as <strong>Channel Layout Project</strong> and click <strong>Create</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/ch1.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Channel Layout Project</strong>.</li> 
+     <li>Click <strong>Create</strong> from the action bar. A wizard will open.</li> 
+     <li>Choose the <strong>1x2 Split Screen Channel</strong> and click <strong>Next</strong>. </li> 
+     <li>Enter the <strong>Title</strong> as <strong>Split horizontal</strong> and click <strong>Create</strong>.<br /> </li> 
+    </ol> <img imageRotate="0" src="assets/channelcreation.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the <strong>Channel Layout Project</strong> you created and select the channel (<strong>Split Channel</strong>).</li> 
+     <li>Click <strong>Edit</strong> from the action bar and the editor for the <strong>Split Channel</strong> opens.</li> 
+     <li>Click the icon that toggles side panel on left hand side of the action bar to open the assets and components. Drag and drop the components you want to add to your channel.</li> 
+    </ol> <img imageRotate="0" src="assets/ch4.gif" /> 
+    <note> 
+     <p>As an example, fhe following two images are added to the channel in the editor.</p> 
+    </note><img imageRotate="0" src="assets/screen_shot_2018-02-08at123635pm.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the Locations folder where you want to create your display (<strong>Channel Layout Project</strong>--&amp;gt; <strong>Locations</strong>).</li> 
+     <li>Click <strong>Create</strong> from the action bar. </li> 
+     <li>Select <strong>Location</strong> from the <strong>Create</strong> wizard and click <strong>Next</strong>.</li> 
+     <li>Enter <strong>Title</strong> for your location as <strong>San Jose</strong>.</li> 
+     <li>Click <strong>Create</strong>.<br /> </li> 
+    </ol> <img imageRotate="0" src="assets/ch5.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the location where you want to create your display (<strong>Acme</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>San Jose</strong>) and select <strong>San Jose</strong>.</li> 
+     <li>Click <strong>Create</strong> from the action bar. Select <strong>Display</strong> from the <strong>Create</strong> wizard and click <strong>Next</strong>.</li> 
+     <li>Enter <strong>Title</strong> for your display location (enter the title as <strong>Split Display)</strong>.</li> 
+     <li>Under the <strong>Display</strong> tab, choose the details of the Layout. Choose the <strong>Resolution</strong> as<strong> Full HD</strong>. Choose the <strong>Number of Devices Horizontally</strong> as 1<strong> </strong>and the <strong>Number of Devices Vertically</strong> as <strong>1</strong>.</li> 
+     <li>Click <strong>Create</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/ch6.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the display from <strong>Channel Layout Project</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt;<strong> San Jose</strong> --&amp;gt; <strong>Split Display</strong>.</li> 
+     <li>Select <strong>Split Display</strong> and tap/click <strong>Assign Channel</strong> from the action bar, Or,</li> 
+     <li>Click <strong>Dashboard</strong> and select <strong>+Assign Channel</strong> at the top right from <strong>ASSIGNED CHANNELS &amp; SCHEDULES</strong> panel. <strong>Channel Assignment</strong> dialog box opens.</li> 
+     <li>Enter the <strong>Channel Role</strong> as <strong>Split</strong>.</li> 
+     <li>Select <strong>Reference Channel</strong> by path. Select the channel folder path (<strong>Channel Layout Project</strong> --&amp;gt; <strong>Channels</strong> --&amp;gt; <strong>Split horizontal</strong>) in the Channel.</li> 
+     <li>Select the <strong>Priority</strong> for this channel as <strong>1</strong>.</li> 
+     <li>Choose the <strong>Supported Events</strong> as <strong>Initial Load</strong> and <strong>Idle Screen</strong>.</li> 
+     <li>Click <strong>Save</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/ch7.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Launch a separate browser window. Go to Screens player using the web browser or launch the AEM Screens app.</li> 
+     <li>When you open the device you will notice the device's state as unregistered. From the AEM dashboard, navigate to <strong>Channel Layout Project</strong> --&amp;gt; <strong>Devices</strong>.</li> 
+     <li>Click <strong>Device Manager</strong> from the action bar.</li> 
+     <li>Click <strong>Device Registration </strong>and you will see the pending devices. Select the device you want to register and click <strong>Register Device</strong>.</li> 
+     <li>You will need to validate the code by verifying the code from the web browser or AEM Screens player. Click <strong>Validate</strong> to navigate to <strong>Device Registration </strong>screen.</li> 
+     <li>Enter Title as <strong>NewD</strong> and click <strong>Register</strong> and the device will be registered.</li> 
+     <li>Click <strong>Assign Display</strong> to move on to the next step where you assign the device to a display.</li> 
+     <li>Click Assign Device fand select the display path for your channel () as /content/screens/Test_Project/Locations/TestLocation/TestDisplay. Click <strong>Assign</strong>.</li> 
+     <li>Click <strong>Finish</strong> to complete the process, and now the device is assigned.</li> 
+    </ol> <img imageRotate="0" src="assets/ch8.gif" /></li> 
+  </ol> 
+  <h4>Viewing Content in AEM Screens Player</h4> 
+  <p>Load your AEM Screens Player or use the web browser. You will notice the content of the channel displayed in your Screens player. The content is displayed as 1x2 split screen channel template.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-02-08at123648pm.png" /> 
+  <h3>Inference</h3> 
+  <p>Using the available templates while creating a channel allows you to leverage and sisplay your content in different zones. The above example shows the use case for 2x2 template.</p> 
+  <p>The following images show the layout that can be acheived using different templates.</p> 
+ </body> 
+</html>

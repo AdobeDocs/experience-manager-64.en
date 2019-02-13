@@ -1,0 +1,58 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-05-11T10:01:31.418-0400" name="locHandOffDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:introduction" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-05-04T05:12:42.646-0400" name="publishExternalDate" />
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-apps" name="qaNotes" />
+  <meta content="This page serves as a landing page to get started with authoring, developing, and administering mobile apps." name="seoDescription" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/introduction;/content/help/en/experience-manager/6-4/mobile/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/develop-mobile-apps.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="27d4b5f7-4f65-4418-abc2-89c0079654a8" name="jcr:uuid" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-05-04T05:12:42.646-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-31T16:26:30.811-0400" name="firstPublishExternalDate" />
+  <meta content="2018-05-04T05:12:42.953-0400" name="cq:lastReplicated" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Mobile Apps" name="jcr:title" />
+  <meta content="Mobile Apps" name="navTitle" />
+  <meta content="2018-05-11T10:01:31.419-0400" name="cq:lastModified" />
+  <meta content="2018-05-04T05:12:42.646-0400" name="lastPublishExternalDate" />
+  <meta content="09902ea7-395f-4bdc-96ad-441e24415ee5" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="Mobile Apps" name="seoTitle" />
+  <meta content="2017-12-13T19:01:04.842-0500" name="jcr:created" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <p>Adobe Experience Manager (AEM) Mobile is part of the Adobe Experience Manager multi-channel digital platform that also leverages AEM Assets, Sites, Screens, Workflow, User Manager, Commerce and Forms. AEM Mobile offers remarkable deployment flexibility, enabling enterprises to use a variety of content sources. </p> 
+  <p>AEM Mobile offers multiple methods for creating apps. The different ways that you can use to create apps are:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/aem-mobile-on-demand.md">Getting Started with AEM Mobile On-Demand Services</a></li> 
+   <li><a href="../../mobile/using/developing-in-phonegap.md">Getting Started with Adobe PhoneGap Enterprise with AEM</a></li> 
+  </ul> 
+  <p> </p> 
+  <note>
+   <p>If you are new to Adobe Experience Manager, you may want to walk through <a href="../../sites/deploying/using/deploy.md">Getting Started with AEM</a>.</p> 
+  </note>
+ </body>
+</html>

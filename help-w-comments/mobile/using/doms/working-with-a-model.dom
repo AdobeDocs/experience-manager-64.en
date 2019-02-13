@@ -1,0 +1,114 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/working-with-a-model.html" name="publishExternalURL" />
+  <meta content="2018-04-03T07:24:39.739-0400" name="firstPublishExternalDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/using/administer-mobile-apps" name="redirectTarget" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="2018-06-14T20:11:13.520-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-12-13T19:01:17.096-0500" name="jcr:created" />
+  <meta content="Working with Models" name="jcr:title" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/content/docs/en/aem/6-3/author/mobile-apps/content-as-a-service/working-with-a-model" name="qaNotes" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="b7620825-e8b4-4f3f-b4ff-cb8c3f4fbafc" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Jyotika Syal" name="contentOwner" />
+  <meta content="Working with Models" name="seoTitle" />
+  <meta content="true" name="noIndex" />
+  <meta content="2018-05-11T10:03:14.466-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-06-14T20:11:13.540-0400" name="cq:lastReplicated" />
+  <meta content="2018-06-14T20:11:13.517-0400" name="lastPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="fed5e41f-8434-4854-a4f2-b96d288e1043" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="content_type:reference" name="cq:tags" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-06-14T20:11:13.517-0400" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-06-14T20:11:13.517-0400" name="topicBrowsingSortDate" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <p>A model describes a type of content and denotes what will be information will be available to the native application. This section explains the creation of new models.</p> 
+  <note>
+   <p><strong>Prerequisites for creating a model</strong></p> 
+   <p>Models can only be created under nodes that have been enabled by the Configuration Browser. The Configuration Browser also allows permissions to be defined so different users may only have access to the creation of models under certain configurations.</p> 
+   <p>See, <strong>Enabling Data Models</strong> in <strong><a href="/mobile/using/content-services">Administering Content Services</a></strong> for detailed steps.</p> 
+  </note>
+  <ol>
+   <li></li>
+  </ol>
+  <h2>Creating a Model</h2>
+  <note>
+   <p>To get started creating models a model type must exist. A model type defines the default state for each model created from it as well as the data types available to that model.</p> 
+  </note>
+  <p>Once you have defined the configurations in the Configuration Browser, you can create and manage your models in the application dashborad. The following steps describe the model creation flow:</p> 
+  <ol>
+   <li><p>Navigate to the Models console and choose the configuration.</p> <img imageRotate="0" src="assets/chlimage_1.png" /></li>
+   <li><p>Click <strong>Create</strong> to create a new model.</p> </li>
+   <li><p>Choose the type of template: <strong>Entity Group</strong> or <strong>Primitives Types Model</strong>. Click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-1.png" /></li>
+   <li><p>Enter the <strong>Model Title</strong> and <strong>Description</strong>. Click <strong>Create</strong> to create a model.</p> <img imageRotate="0" src="assets/chlimage_1-2.png" />
+    <note>
+     <p>Once you create a model, click <strong>Done</strong> to open the <strong>Data Model Editor </strong>to add the data types and set properties to the editor.</p> 
+    </note><p>If you created your model using the Entity Group as the template, you will only view options such as Properties, Copy and Delete for that created model.</p> <img imageRotate="0" src="assets/chlimage_1-3.png" /><p>If you created your model using the <strong>Primitives Model Type</strong> as the template, you will only view options such as Edit, Properties, Copy and Delete for that created model.</p> <img imageRotate="0" src="assets/chlimage_1-4.png" /></li>
+   <li><p>If you choose the template as <strong>Primitive Models type</strong>, click <strong>Edit</strong> to add the data types using the <strong>Data Model Editor</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-5.png" /><p>Or, if you are using the <strong>Entity Template</strong> for your model, then click on view properties to upload an image or get more information on the defined model.</p> <img imageRotate="0" src="assets/chlimage_1-6.png" />
+    <note>
+     <p>Alternatively, you can create your own custom models. See Models in Repository to create your own models and define data types.</p> 
+    </note></li>
+  </ol>
+  <h2>Managing a Model</h2>
+  <p>Managing a model involves viewing properties, editing, and deleting a model.</p> 
+  <p><strong>Viewing a Model</strong> The following steps are required for reading/viewing a model:</p>
+  <ol> 
+   <li>Navigate to the Model Console</li> 
+   <li>Select the model from the list by clicking on its icon</li> 
+   <li>Choose <strong>Properties</strong> from the toolbar icons</li> 
+   <li>Click <strong>Save &amp; Close</strong> or <strong>Save</strong> when done</li> 
+  </ol>
+  <p><strong>Editing a Model</strong> The following steps are required for editing a model:</p>
+  <ol> 
+   <li>Navigate to the Model Console</li> 
+   <li>Select the model from the list by clicking on its icon</li> 
+   <li>Choose <strong>Edit</strong> from the toolbar icons to open the <strong>Data Model Editor</strong>.</li> 
+   <li>Make changes to the model</li> 
+   <li>Click <strong>Save</strong> when done</li> 
+  </ol>
+  <note>
+   <p>You can only edit a <strong>Primitive Model Type</strong>.</p> 
+  </note>
+  <p><strong>Reading a Model</strong> The following steps are required for editing a model:</p>
+  <ol> 
+   <li>Navigate to the Model Console</li> 
+   <li>Select the model from the list by clicking on its icon</li> 
+   <li>Choose <strong>Properties</strong> from the toolbar icons</li> 
+   <li>Make changes to the model</li> 
+   <li>Click Save when done</li> 
+  </ol>
+  <p><strong>Deleting a Model</strong> The following steps are required for deleting a model:</p>
+  <ol> 
+   <li>Navigate to the Model Console</li> 
+   <li>Select the model from the list by clicking on its icon</li> 
+   <li>Click Delete</li> 
+  </ol> 
+  <p>Deleting a model will not delete entities generated from that model.</p>
+  <h3>Additional Resources</h3>
+  <p>Once you learn how to create models as an author, see</p> 
+  <ul> 
+   <li><a href="../../mobile/using/spaces-and-entities.md">Spaces and Entities</a></li> 
+   <li><a href="../../mobile/using/models-in-repository.md">Developing Models</a></li> 
+   <li><a href="../../mobile/using/rendering-and-delivery.md">Content Delivery and Rendering</a></li> 
+  </ul> 
+ </body>
+</html>

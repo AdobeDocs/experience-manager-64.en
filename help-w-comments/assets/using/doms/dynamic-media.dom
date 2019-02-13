@@ -1,0 +1,105 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-31T16:34:54.827-0400" name="topicBrowsingSortDate" /> 
+  <meta content="35" name="acrolinxSentences" /> 
+  <meta content="2017-10-31T16:34:54.827-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-31T16:34:54.827-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-24T11:58:18.887-0400" name="locHandOffDate" /> 
+  <meta content="6eb5122e-ebf2-4c8a-837c-bb4f749c422b" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Working with Dynamic Media" name="navTitle" /> 
+  <meta content="Rick Brough" name="contentOwner" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/dynamic-media" name="qaNotes" /> 
+  <meta content="2017-10-31T16:34:54.827-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-03-14T09:01:02.930-0400" name="jcr:created" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/dynamic-media.html" name="publishExternalURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/introduction;/content/help/en/experience-manager/6-4/assets/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-01-12T17:28:33.786-0500" name="acrolinxDate" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="Working with Dynamic Media" name="seoTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Learn how to use Dynamic Media to deliver assets for consumption on web, mobile, and social sites." name="seoDescription" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:introduction;content_type:reference" name="cq:tags" /> 
+  <meta content="419" name="acrolinxWords" /> 
+  <meta content="f9ad9845-ccae-4e78-926d-92ccb9ec485d" name="jcr:predecessors" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-24T11:58:18.887-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2018-04-03T08:07:45.312-0400" name="cq:lastReplicated" /> 
+  <meta content="Working with Dynamic Media" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/dynamic_media_krs_workflow_f3c2f2ccebf6138e_128_report.xml" name="acrolinxReportURL" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+ </head> 
+ <body> 
+  <p><a href="http://www.adobe.com/solutions/web-experience-management/dynamic-media.html">Dynamic Media</a> helps deliver rich visual merchandising and marketing assets on demand, automatically scaled for consumption on web, mobile, and social sites. Using a set of master assets, Dynamic Media generates and delivers multiple variations of rich content in real time through its global, scalable, performance-optimized network.</p> 
+  <p>Dynamic media serves interactive viewing experiences, including zoom, 360-degree spin, and video. Dynamic media uniquely incorporates the workflows of the Adobe Experience Manager digital asset management (Assets) solution to simplify and streamline the digital campaign management process.</p> 
+  <note> 
+   <p>A Community article is available on <a href="https://helpx.adobe.com/experience-manager/using/aem_dynamic_media.html">Working with Adobe Experience Manager and Dynamic Media</a>.</p> 
+  </note> 
+  <h2>What you can do with Dynamic Media</h2> 
+  <p>Dynamic Media lets you manage your assets before publishing them. How to work with assets in general is covered in detail in <a href="../../assets/using/managing-assets-touch-ui.md">Working with Digital Assets</a>. General topics include uploading, downloading, editing, and publishing assets; viewing and editing properties, and searching for assets.</p> 
+  <p>Dynamic-Media-only features include the following:</p> 
+  <ul> 
+   <li><a href="../../assets/using/carousel-banners.md">Carousel Banners</a></li> 
+   <li><a href="../../assets/using/image-sets.md">Image Sets</a></li> 
+   <li><a href="../../assets/using/interactive-images.md">Interactive Images</a></li> 
+   <li><a href="../../assets/using/interactive-videos.md">Interactive Videos</a></li> 
+   <li><a href="../../assets/using/mixed-media-sets.md">Mixed Media Sets</a></li> 
+   <li><a href="../../assets/using/panoramic-images.md" target="_blank">Panoramic Images</a><br /> </li> 
+   <li><a href="../../assets/using/spin-sets.md">Spin Sets</a></li> 
+   <li><a href="../../assets/using/video.md">Video</a></li> 
+   <li><a href="../../assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a></li> 
+   <li><a href="../../assets/using/managing-assets.md">Managing Assets</a></li> 
+   <li><a href="../../assets/using/custom-pop-ups.md">Using Quickviews to create custom pop-ups</a></li> 
+  </ul> 
+  <p>See also <a href="../../assets/using/administering-dynamic-media.md">Setting up Dynamic Media</a>.</p> 
+  <note> 
+   <p>To understand the differences between using Dynamic Media and integrating Scene7 with AEM, see <a href="../../sites/administering/using/scene7.md#scene7aemintegrationversusdynamicmedia">Scene7/AEM integration versus Dynamic Media</a>.</p> 
+  </note> 
+  <h2>Dynamic Media on versus Dynamic Media off</h2> 
+  <p>You can tell whether Dynamic Media is turned on by the following characteristics:</p> 
+  <ul> 
+   <li>Dynamic Renditions are available when downloading or previewing assets.</li> 
+   <li>Image sets, Spin sets, Mixed media sets are available.</li> 
+   <li>PTIFF renditions are created.</li> 
+  </ul> 
+  <p>When clicking on an image asset, the view of the asset is different with Dynamic Media <a href="../../assets/using/config-dynamic.md#enablingdynamicmedia">enabled</a>. Dynamic Media uses the on-demand HTML5 viewers.</p> 
+  <h4>Dynamic Renditions</h4> 
+  <p>Dynamic renditions such as image and viewer presets (under <strong>Dynamic</strong>) are available when Dynamic Media is enabled.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-361.png" /> 
+  <h4>Image sets, spins sets, mixed media sets</h4> 
+  <p>Image sets, spin sets, and mixed media sets are available if Dynamic Media is enabled.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-362.png" /> 
+  <h4>Ptiff renditions</h4> 
+  <p>Dynamic media enabled assets include pyramid.tiffs.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-363.png" /> 
+  <h4>Asset views change</h4> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-77F410094CD97C4F0A746C1B@AdobeID" lastModifiedDate="2018-03-15T16:31:34.766-0400" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>Need to compare against a non DM enabled instance</p> 
+  </draft-comment> 
+  <p>With Dynamic Media enabled, you can zoom in and out by clicking the + and - buttons. You can also click/tap to zoom into certain area. Revert brings you to the original version and you can make the image full screen by clicking the diagonal arrows. Dynamic Media enabled looks like this:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-364.png" /> 
+  <p>With dynamic media disabled you can zoom in and out and revert to the original size:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-365.png" /> 
+  <draft-comment type="draft"> 
+   <img imageRotate="0" src="assets/chlimage_1-366.png" /> 
+  </draft-comment> 
+ </body> 
+</html>

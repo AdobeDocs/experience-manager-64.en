@@ -1,0 +1,291 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/docs/en/aem/6-3/author/personalization/campaigns/setting-up-your-campaign" name="qaNotes" /> 
+  <meta content="2018-04-19T10:35:16.409-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="2018-10-28T00:47:18.588-0400" name="cq:lastReplicated" /> 
+  <meta content="Setting up your campaign" name="navTitle" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-02-03T08:01:12.954-0500" name="jcr:created" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="2018-10-28T00:47:18.530-0400" name="cq:lastModified" /> 
+  <meta content="Setting up your campaign" name="jcr:title" /> 
+  <meta content="2018-10-28T00:47:18.522-0400" name="lastPublishExternalDate" /> 
+  <meta content="Set up a new campaign" name="seoDescription" /> 
+  <meta content="e3c93ae9-3d65-4cd4-9717-7b3786cb9630" name="jcr:predecessors" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="6a4f662d-476b-4ad2-89d7-fc29e00fd23a" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-10-28T00:47:18.522-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-10-28T00:47:18.522-0400" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:personalization" name="cq:tags" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Setting up your campaign" name="seoTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-31T16:19:50.871-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/setting-up-your-campaign.html" name="publishExternalURL" /> 
+ </head> 
+ <body> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-77F410094CD97C4F0A746C1B@AdobeID" lastModifiedDate="2018-02-02T12:33:18.444-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>This needs to be entirely revisited. No idea what's in classic or in touch ui. Leaving content as is for now.</p> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="alvawb" lastModifiedDate="2018-02-02T12:33:18.466-0500" prevFirstName="Alva" prevLastName="Ware-Bevacqui" type="remark"> 
+   <p>All links broken</p> 
+   <p> </p> 
+  </draft-comment> 
+  <p>Setting up a new campaign includes the following (generic) steps:</p> 
+  <ol> 
+   <li><a href="#creatinganewbrand">Create a brand</a> to hold your campaigns.</li> 
+   <li>If required you can <a href="#definingthepropertiesforyournewbrand">define the properties for your new brand</a>.</li> 
+   <li><a href="#creatinganewcampaign">Create a campaign</a> to hold experiences; for example teaser pages or a newsletter.</li> 
+   <li>If required you can <a href="#definingthepropertiesforyournewcampaign">define the properties for your new campaign</a>.</li> 
+  </ol> 
+  <p>Then depending on the type of experience(s) you are creating, you will need to <a href="#creatinganewexperience">create an experience</a>. The details of the experience, and the actions that follow its creation, are dependent on the type of experience you want to create:</p> 
+  <ul> 
+   <li>If creating a Teaser: 
+    <ol> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#creatingateaserexperience">Create a teaser experience</a>.</li> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#addingcontenttoyourteaser">Add content to your teaser</a>.</li> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#creatingatouchpointforyourteaser">Create a Touchpoint for your Teaser</a> (add your teaser to a content page).</li> 
+    </ol> </li> 
+   <li>If creating a Newsletter: 
+    <ol> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#creatinganewsletterexperience">Create a newsletter experience</a>.</li> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#addingcontenttonewsletters">Add content to the newsletter.</a></li> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#personalizingnewsletters">Personalize the newsletter.</a></li> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#settingupanewsletterlandingpage">Create a compelling newsletter landing page</a>.</li> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#sendingnewsletters">Send the newsletter</a> to subscribers or leads.</li> 
+    </ol> </li> 
+   <li>If creating an Adobe Target (formerly Test&amp;Target) Offer: 
+    <ol> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#creatingatesttargetofferexperience">Create an Adobe Target offer experience</a>.</li> 
+     <li><a href="../../../sites/authoring/using/target-offers.md">Integrate with Adobe Target</a>.</li> 
+    </ol> </li> 
+  </ul> 
+  <note> 
+   <p>See <a href="../../../sites/administering/using/campaign-segmentation.md">Segmentation</a> for detailed instructions on defining your segments.</p> 
+  </note> 
+  <h3>Creating a New Brand</h3> 
+  <p>To create a new brand:<br /> </p> 
+  <ol> 
+   <li><p>Open the <strong>MCM</strong> and select <strong>Campaigns</strong> in the left pane.<br /> </p> </li> 
+   <li><p>Select <strong>New...</strong> to enter the <strong>Title</strong> and <strong>Name</strong> and template to be used for your new brand:<br /> </p> <img imageRotate="0" src="assets/chlimage_1-275.png" /></li> 
+   <li><p>Click <strong>Create</strong>. Your new brand will be shown in the MCM (with a default icon).<br /> </p> </li> 
+  </ol> 
+  <h3>Defining the Properties for Your New Brand</h3> 
+  <ol> 
+   <li><p>From <strong>Campaigns</strong> in the left pane, select your new brand icon in the right pane and click <strong>Properties...</strong><br /> </p> <p>You can enter a <strong>Title</strong>, <strong>Description</strong> and an image to be used as the icon.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-276.png" /></li> 
+   <li><p>Click <strong>OK</strong> to save.<br /> </p> </li> 
+  </ol> 
+  <h3>Creating a New Campaign</h3> 
+  <p>To create a new campaign:<br /> </p> 
+  <ol> 
+   <li><p>From <strong>Campaigns</strong>, select your new brand in the left pane, or double-click the icon in the right pane.<br /> </p> <p>The overview will be shown (empty if the brand is new).<br /> </p> </li> 
+   <li><p>Click <strong>New...</strong> and specify the <strong>Title</strong>, <strong>Name</strong> and template to be used for your new campaign.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-277.png" /></li> 
+   <li><p>Click <strong>Create</strong>. Your new campaign will be shown in the MCM.<br /> </p> </li> 
+  </ol> 
+  <h3>Defining the Properties for Your New Campaign</h3> 
+  <p>Configure campaign properties that control the behavior:</p> 
+  <ul> 
+   <li><strong>Priority:</strong> The priority of this campaign relative to other campaigns. When multiple campaigns are simultaneously On, the campaign that has the highest priority controls the visitor experience. </li> 
+   <li><strong>On and Off Time:</strong> These properties control the period of time when the campaign controls the visitor experience. The On Time property controls the time when the campaign begins to control the experience. The Off Time property controls when the campaigns stops controlling the experience.</li> 
+   <li><strong>Image:</strong> The image that represents the campaign in AEM.</li> 
+   <li><strong>Cloud Services:</strong> The Cloud Service configurations with which the campaign is integrated. (See <a href="../../../sites/administering/using/marketing-cloud.md">Integrating with Adobe Marketing Cloud</a>.)</li> 
+   <li><strong>Adobe Target:</strong> Properties that configure campaigns that are integrated with Adobe Target. (See <a href="../../../sites/administering/using/target.md">Integrating with Adobe Target</a>.)</li> 
+  </ul> 
+  <ol> 
+   <li><p>From <strong>Campaigns</strong>, select your brand. In the right pane, select your campaign and cick <strong>Properties</strong>.<br /> </p> <p>You can enter various properties, including a <strong>Title</strong>, <strong>Description</strong> and any <strong>Cloud Services</strong> you want.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-278.png" /></li> 
+   <li><p>Click <strong>OK</strong> to save.<br /> </p> </li> 
+  </ol> 
+  <h3>Creating a New Experience</h3> 
+  <p>The procedure for creating a new experience is dependent on the type of experience:<br /> </p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/campaigns.md#creatingateaser">Creating a Teaser</a></li> 
+   <li><a href="../../../sites/authoring/using/campaigns.md#creatinganewsletter">Creating a Newsletter</a></li> 
+   <li><a href="../../../sites/authoring/using/campaigns.md#creatingatesttargetoffer">Creating an Adobe Target Offer</a></li> 
+  </ul> 
+  <note> 
+   <p>As with previous releases it is still possible to create the experience as a page in the <strong>Websites</strong> console (and any such pages created in previous releases are still fully supported).</p> 
+   <p>The recommended practice is now to use the MCM for creating experiences.<br /> </p> 
+  </note> 
+  <h3>Configuring Your New Experience</h3> 
+  <p>Now that you have created the basic skeleton for your experience you need to continue with the following actions, dependent on the type of experience:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/campaigns.md#teasers">Teaser</a>: 
+    <ul> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#applyingasegmenttoyourteaser">Connect the teaser page to visitor segments.</a></li> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#creatingatouchpointforyourteaser">Create a Touchpoint for your Teaser</a> (add your teaser to a content page).</li> 
+    </ul> </li> 
+   <li><a href="../../../sites/authoring/using/campaigns.md#newsletters">Newsletter</a>: 
+    <ul> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#addingcontenttonewsletters">Add content to the newsletter.</a></li> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#personalizingnewsletters">Personalize the newsletter.</a></li> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#sendingnewsletters">Send the newsletter</a> to subscribers or leads.</li> 
+     <li><a href="../../../sites/authoring/using/campaigns.md#settingupanewsletterlandingpage">Create a compelling newsletter landing page</a>.</li> 
+    </ul> </li> 
+   <li><a href="../../../sites/authoring/using/campaigns.md#testtargetoffers">Adobe Target Offer</a>: 
+    <ul> 
+     <li><a href="../../../sites/administering/using/target.md">Integrate with Adobe Target</a>.</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Adding a New Touchpoint</h3> 
+  <p>If you have existing experiences you can add a touchpoint directly from the Calendar view of MCM:<br /> </p> 
+  <ol> 
+   <li><p>Select the calendar view for your campaign.<br /> </p> </li> 
+   <li><p>Click <strong>Add Touchpoint...</strong> to open the dialog. Specify the experience you want to add:<br /> </p> <img imageRotate="0" src="assets/chlimage_1-279.png" /></li> 
+   <li><p>Click <strong>OK</strong> to save.<br /> </p> </li> 
+  </ol> 
+  <h2>Working with Leads</h2> 
+  <note> 
+   <p>Adobe is not planning to further enhance this capability (Managing Leads).<br /> Recommendation is to <a href="../../../sites/administering/using/campaign.md">leverage Adobe Campaign and the integration to AEM</a>.</p> 
+  </note> 
+  <p>In AEM MCM, you can organize and add leads either by entering them manually or importing a comma-separated list, for example, a mailing list. Additional ways to generate leads are from newsletter sign-ups or community sign-ups (if configured, those can trigger a workflow that populates leads).<br /> </p> 
+  <p>Leads generally are categorized and put into a list so that later you can perform actions on the whole list, for example, sending out a custom email to a certain list.<br /> </p> 
+  <p>In the Dashboard, you access all leads by clicking <strong>Leads</strong> from the left pane. You can also access leads from the <strong>Lists</strong> pane.<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-21at114748am.png" /> 
+  <note> 
+   <p>To add or modify the avatars of users, open the clickstream cloud (Ctrl+Alt+c), load the profile, and click <strong>Edit</strong>.</p> 
+  </note> 
+  <h3>Creating new leads</h3> 
+  <p>After you create new leads, be sure to <a href="#activatingordeactivatingleads">activate them</a> so that you can track their activity on the publish instance and personalize their experience.<br /> </p> 
+  <p>To create a new lead manually:<br /> </p> 
+  <ol> 
+   <li><p>In AEM, navigate to the MCM. In the Dashboard, click <strong>Leads</strong>.</p> </li> 
+   <li><p>Click <strong>New</strong>. The <strong>Create New</strong> window opens.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at115008am.png" /></li> 
+   <li><p>Enter information in the fields, as appropriate. Click the <strong>Address</strong> tab.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at115045am.png" /></li> 
+   <li><p>Enter address information, as appropriate. Click <strong>Save</strong> to save the lead. If you need to add additional leads, click<strong> Save and New</strong>.<br /> </p> <p>The new lead appears in the Leads pane. When you click the entry, all entered information appears in the right pane. After creating a lead, you can add it to a list.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at120307pm.png" /></li> 
+  </ol> 
+  <h3>Activating or deactivating leads</h3> 
+  <p>Activating leads helps you track their activity on the publish instance and lets you personalize their experience. When you no longer want to track their activity, you can deactivate them.<br /> </p> 
+  <p>To active or deactive leads:<br /> </p> 
+  <ol> 
+   <li><p>In AEM, navigate to the MCM and click <strong>Leads</strong>.<br /> </p> </li> 
+   <li><p>Select the leads you want to activate or deactivate and click <strong>Activate</strong> or <strong>Deactivate</strong>.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at120620pm.png" /><p>As with AEM pages, the publish status is indicated in the <strong>Published</strong> column.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at122901pm.png" /></li> 
+  </ol> 
+  <h3>Importing new leads</h3> 
+  <p>When you import new leads, you can automatically add them to an existing list or create a new list to include these leads.</p> 
+  <p>To import leads from a comma-separated list:<br /> </p> 
+  <ol> 
+   <li><p>In AEM, navigate to the MCM and click <strong>Leads</strong>.<br /> </p> 
+    <note> 
+     <p>Alternatively, you can import leads by doing one of the following:</p> 
+     <ul> 
+      <li>In the Dashboard, click <strong>Import Leads</strong> in the <strong>Lists</strong> pane<br /> </li> 
+      <li>Click <strong>Lists</strong> and in the <strong>Tools</strong> menu, select <strong>Import Leads</strong>.<br /> </li> 
+     </ul> 
+    </note></li> 
+   <li><p>In the <strong>Tools</strong> menu, select <strong>Import</strong> <strong>Leads</strong>.<br /> </p> </li> 
+   <li><p>Enter the information as described in Sample Data. The following fields can be imported: email,familyName,givenName,gender,aboutMe,city,country,phoneNumber,postalCode,region,streetAddress<br /> </p> 
+    <note> 
+     <p>The first row in the CSV list are predefined labels that must be written exactly as in the example:</p> 
+     <p><span class="code">email,givenName,familyName</span> - if written as <span class="code">givenname</span>, for example, the system will not recognize it.</p> 
+     <p> </p> 
+    </note><img imageRotate="0" src="assets/screen_shot_2012-02-21at123055pm.png" /></li> 
+   <li><p>Click<strong> Next</strong>. Here, you preview the leads to ensure they are accurate.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at123104pm.png" /></li> 
+   <li><p>Click <strong>Next</strong>. Select the list you want the leads to belong to. If you do not want them to belong to a list, delete the information in the field. By default, AEM creates a list name that includes the date and time. Click <strong>Import</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at123123pm.png" /><p>The new lead appears in the Leads pane. If you click on the entry, all entered information appears in the right pane. After creating a lead, you can add it to a list.</p> </li> 
+  </ol> 
+  <h3>Adding Leads to Lists</h3> 
+  <p>To add leads to pre-existing lists:<br /> </p> 
+  <ol> 
+   <li><p>In the MCM, click <strong>Leads</strong> to view all available leads.<br /> </p> </li> 
+   <li><p>Select the leads you want to add to a list by selecting the check box next to the lead. You can add as many leads as you want.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at123835pm.png" /></li> 
+   <li><p>In the <strong>Tools</strong> menu, select <strong>Add to List....</strong> The <strong>Add to List </strong>window opens.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at124019pm.png" /></li> 
+   <li><p>Select which list you want to add the leads to and click <strong>OK</strong>. The leads are added to the appropriate lists.<br /> </p> </li> 
+  </ol> 
+  <h3>Viewing lead information</h3> 
+  <p>To view lead information, in the MCM, click the check box next to the lead and a right pane opens with all the lead's information displayed, including list affiliation.<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-21at124228pm.png" /> 
+  <h3>Modifying existing leads</h3> 
+  <p>To modify existing lead information:<br /> </p> 
+  <ol> 
+   <li><p>In the MCM, click <strong>Leads</strong>. From the list of leads, select the check box next to the lead you want to edit. All of the lead information appears in the right pane.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at124514pm.png" /> 
+    <note> 
+     <p>You can only edit a single lead at a time. If you need to modify leads that are part of the same list, you can modify the list instead.<br /> </p> 
+    </note></li> 
+   <li><p>Click <strong>Edit</strong>. The <strong>Edit Lead</strong> window opens.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at124609pm.png" /></li> 
+   <li><p>Make the edits as needed and click <strong>Save</strong> to save your changes.<br /> </p> 
+    <note> 
+     <p>To change the lead avatar, go to the users profile. You can load the profile in the clickstream cloud by pressing CTRL+ALT+c, clicking <strong>Load</strong>, and then selecting the profile.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h3>Deleting existing leads</h3> 
+  <p>To delete existing leads in the MCM, select the check box next to the lead and click <strong>Delete</strong>. The lead is removed from the lead list and all associated lists.<br /> </p> 
+  <note> 
+   <p>Before deleting, AEM confirms that you want to delete the existing lead. After it is deleted, it cannot be retrieved.<br /> </p> 
+  </note> 
+  <h2>Working with Lists</h2> 
+  <note> 
+   <p>Adobe is not planning to further enhance this capability (managing lists).<br /> Recommendation is to <a href="../../../sites/administering/using/campaign.md">leverage Adobe Campaign and the integration to AEM</a>.</p> 
+  </note> 
+  <p>Lists let you organize your leads into groups. With lists, you can target your marketing campaigns to a select group of people, for example, you can send a targeted newsletter to a list. Lists are visible in the MCM, either in the Dashboard or by clicking <strong>Lists</strong>. Both provide you with the name of the list and the number of members.<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-21at125021pm.png" /> 
+  <p>If you click <strong>Lists</strong>, you also can view if the list is a member of another list and see a description.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-21at124828pm.png" /> 
+  <h3>Creating new lists</h3> 
+  <p>To create a new list (group):<br /> </p> 
+  <ol> 
+   <li><p>In the MCM dashboard, click <strong>New List ...</strong> or in <strong>Lists</strong>, click <strong>New</strong> ... The Create List window opens.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at125147pm.png" /></li> 
+   <li><p>Enter a name (required) and if desired, a description and click <strong>Save</strong>. The list appears in the <strong>Lists</strong> pane.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at125320pm.png" /></li> 
+  </ol> 
+  <h3>Modifying existing lists</h3> 
+  <p>To modify an existing list:<br /> </p> 
+  <ol> 
+   <li><p>In the MCM, click <strong>Lists</strong>. <br /> </p> </li> 
+   <li><p>From the list, select the check box next to the list you want to edit and click <strong>Edit</strong>. The <strong>Edit List</strong> window opens.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at125452pm.png" /> 
+    <note> 
+     <p>You can only edit one list at a time.<br /> </p> 
+    </note></li> 
+   <li><p>Make edits, as needed and click <strong>Save</strong> to save your changes.<br /> </p> </li> 
+  </ol> 
+  <h3>Deleting existing lists</h3> 
+  <p>To delete existing lists, in the MCM, select the check box next to the list and click <strong>Delete</strong>. The list is removed. Leads that were affiliated with the list are not removed - only the affiliation with the list is deleted.<br /> </p> 
+  <note> 
+   <p>Before deleting, AEM confirms that you want to delete the existing lists. After it is deleted, it cannot be retrieved.<br /> </p> 
+  </note> 
+  <h3>Merging lists</h3> 
+  <p>You can merge an existing list with another list. When you do this, the list you are merging becomes a member of the other list. It still exists as a separate entity as well and should not be deleted.</p> 
+  <p>You might merge lists if you have the same conference in two different locations and want to merge them into an attendees list of all conferences.</p> 
+  <p>To merge existing lists:</p> 
+  <ol> 
+   <li><p>In the MCM, click <strong>Lists</strong>.<br /> </p> </li> 
+   <li><p>Select the list you want to merge another list with by selecting the check box next to it.<br /> </p> </li> 
+   <li><p>In the <strong>Tools</strong> menu, select <strong>Merge List</strong>.<br /> </p> 
+    <note> 
+     <p>You can only merge one list at a time.<br /> </p> 
+    </note></li> 
+   <li><p>In the <strong>Merge List</strong> window, select the list you want to merge with and click <strong>OK</strong>.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at10259pm.png" /><p>The list you merged should increase by one member. To see that your list was merged, select the list you merged and in the <strong>Tools</strong> menu, select <strong>Show Leads</strong>.<br /> </p> </li> 
+   <li><p>Repeat the step until you have merged all the lists you want.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2012-02-21at10538pm.png" /></li> 
+  </ol> 
+  <note> 
+   <p>Removing a merged list from its membership is identical to removing a lead from a list. Open the <strong>Lists</strong> tab, select the list that includes the merged list, and remove the membership by clicking the red circle next to the list. </p> 
+  </note> 
+  <h3>Viewing leads in lists</h3> 
+  <p>At anytime, you can view which leads belong to a specific list either by browsing or searching for members.<br /> </p> 
+  <p>To view the leads that belong to a list:<br /> </p> 
+  <ol> 
+   <li><p>In the MCM, click <strong>Lists</strong>.<br /> </p> </li> 
+   <li><p>Select the check box next to the list you want to view members for.<br /> </p> </li> 
+   <li><p>In the <strong>Tools</strong> menu, select <strong>Show Leads</strong>. AEM displays the leads that are a member of that list. You can browse through the list or search for members.<br /> </p> 
+    <note> 
+     <p>In addition, you can delete leads from a list by selecting them and then clicking <strong>Remove Membership</strong>.</p> 
+    </note><img imageRotate="0" src="assets/screen_shot_2012-02-21at10828pm.png" /></li> 
+   <li><p>Click <strong>Close</strong> to return to the MCM.<br /> </p> </li> 
+  </ol> 
+ </body> 
+</html>

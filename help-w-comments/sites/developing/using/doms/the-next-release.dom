@@ -1,0 +1,54 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-05-08T12:45:34.259-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="The next release..." name="seoTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="0543f6d8-80b3-4427-84e5-d303163184c5" name="jcr:uuid" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-31T16:16:13.532-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/the-next-release.html" name="publishExternalURL" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-31T16:16:13.532-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-03T09:01:21.331-0400" name="cq:lastReplicated" /> 
+  <meta content="The next release..." name="jcr:title" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="ec623aad-967a-46ff-b8b0-975210da4f6e" name="jcr:predecessors" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-31T16:16:13.532-0400" name="lastPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/test/testing/the-next-release" name="qaNotes" /> 
+  <meta content="The next release..." name="navTitle" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:testing;content_type:reference" name="cq:tags" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/testing;/content/help/en/experience-manager/6-4/sites/developing/morehelp/testing" name="moreHelpPaths" /> 
+  <meta content="2017-10-31T16:16:13.532-0400" name="publishExternalDate" /> 
+  <meta content="2017-12-01T19:03:58.565-0500" name="jcr:created" /> 
+  <meta content="2018-05-08T12:45:34.260-0400" name="cq:lastModified" /> 
+  <meta content="A subsequent release is nearly always foreseen, and can even start during the final stages of the current implementation" name="seoDescription" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>Implementation of a project is rarely the end of the process. A subsequent release is (nearly) always foreseen, and can even start during the final stages of the current implementation.</p> 
+  <p>In any case it can be useful to plan for the next release by:</p> 
+  <ul> 
+   <li><p>Carefully documenting and storing your test cases so they can be referenced, or hopefully re-used.</p> </li> 
+   <li><p>Developing tests which can be used as regression tests for the next release.</p> </li> 
+   <li><p>Collating any information you, or the customer, have gained through experience of the testing process.</p> <p>This may help form requirements for the next release; for example, as the customer's experience of the product has increased during testing.</p> </li> 
+  </ul> 
+  <p>As the next release may well be a migration any information related to this will prove useful.</p> 
+ </body> 
+</html>

@@ -1,0 +1,90 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Accessing UGC with SRP" name="jcr:title" />
+  <meta content="2018-05-17T05:51:20.862-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" />
+  <meta content="2018-04-03T07:29:58.013-0400" name="topicBrowsingSortDate" />
+  <meta content="Accessing UGC with SRP" name="seoTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="When a site is configured to use ASRP or MSRP, the actual UGC is not be stored in AEM's node store (JCR)" name="seoDescription" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="702be7f8-1540-4cbd-bc8b-9c89936455e0" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-04-03T07:29:58.013-0400" name="lastPublishExternalDate" />
+  <meta content="2018-04-03T07:29:58.013-0400" name="publishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-12-01T19:01:10.028-0500" name="jcr:created" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="Accessing UGC with SRP" name="navTitle" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/accessing-ugc-with-srp.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="2017-10-31T16:34:03.031-0400" name="firstPublishExternalDate" />
+  <meta content="2018-04-03T07:29:58.420-0400" name="cq:lastReplicated" />
+  <meta content="2018-05-17T05:51:20.862-0400" name="cq:lastModified" />
+  <meta content="3498b25a-0dcf-4042-8427-7c3458b15254" name="jcr:predecessors" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/developing;/content/help/en/experience-manager/6-4/communities/morehelp/developing" name="moreHelpPaths" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/content/docs/en/aem/6-3/develop/communities/code-guide/ugc-srp" name="qaNotes" />
+ </head>
+ <body>
+  <h2>About SRP</h2>
+  <p>All AEM Communities components and features are built on the <a href="../../communities/using/scf.md">social component framework (SCF)</a>, which invokes the SocialResourceProvider API to access all user generated content (UGC). </p> 
+  <p>Before a community site is created, the <a href="../../communities/using/working-with-srp.md">storage resource provider (SRP)</a> must be configured to select an implementation consistent with the underlying <a href="../../communities/using/topologies.md">topology</a>. The SRP implementations are based on three storage options :</p> 
+  <ol> 
+   <li><a href="../../communities/using/asrp.md">ASRP</a> - Adobe on-demand storage</li> 
+   <li><a href="../../communities/using/msrp.md">MSRP</a> - MongoDB</li> 
+   <li><a href="../../communities/using/jsrp.md">JSRP</a> - JCR</li> 
+  </ol> 
+  <h2>About UGC Storage</h2>
+  <p>What is important to know about storage of UGC is, when a site is configured to use ASRP or MSRP, the actual UGC is not be stored in AEM's <a href="../../sites/deploying/using/data-store-config.md">node store</a> (JCR). </p> 
+  <p>While there may be nodes in JCR which shadow the UGC to provide useful metadata, these nodes are not to be confused with the actual UGC. </p> 
+  <p>See <a href="../../communities/using/srp.md">Storage Resource Provider Overview.</a></p> 
+  <h2>Best Practice</h2>
+  <p>When developing custom components, developers should be careful to code independently of the current chosen topology, thus retaining flexibility to move to a new topology in the future.</p> 
+  <h3>Assume JCR Not Available</h3>
+  <p>Methods specific to JCR should avoided.</p> 
+  <p>Methods to use :</p> 
+  <ul> 
+   <li>Sling API (Sling Resource)
+    <ul> 
+     <li>do not assume there are JCR nodes</li> 
+    </ul> </li> 
+   <li>OSGi Events
+    <ul> 
+     <li>do not assume there are JCR events</li> 
+    </ul> </li> 
+   <li><a href="../../communities/using/socialutils.md#socialresourceutilitiespackage">SocialResourceUtilities</a></li> 
+   <li><a href="../../communities/using/socialutils.md#scfutilitiespackage">SCFUtilities</a></li> 
+  </ul> 
+  <p>Methods to avoid :</p> 
+  <ul> 
+   <li>Node API</li> 
+   <li>JCR events</li> 
+   <li>workflow launchers (which use JCR events)</li> 
+  </ul> 
+  <h3>Use Search Collections</h3>
+  <p>Different SRPs can have different native query languages. It is recommended to use methods from the <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/ugc/api/package-summary">com.adobe.cq.social.ugc.api</a> package to invoke the appropriate query language.</p> 
+  <p>For more information, see <a href="../../communities/using/search-implementation.md">Search Essentials</a>.</p> 
+  <h2>Resources</h2>
+  <ul> 
+   <li><a href="../../communities/using/working-with-srp.md">Community Content Storage</a> - discusses the available SRP choices for a UGC common store</li> 
+   <li><a href="../../communities/using/srp.md">Storage Resource Provider Overview</a> - introduction and repository usage overview</li> 
+   <li><a href="../../communities/using/srp-and-ugc.md">SRP and UGC Essentials</a> - SRP utility methods and examples</li> 
+   <li><a href="../../communities/using/search-implementation.md">Search Essentials</a> - essential information for searching UGC</li> 
+   <li><a href="../../communities/using/socialutils.md">SocialUtils Refactoring</a> - mapping deprecated utility methods to current SRP utility methods</li> 
+  </ul> 
+ </body>
+</html>

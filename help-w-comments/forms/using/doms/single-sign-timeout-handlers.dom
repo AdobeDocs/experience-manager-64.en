@@ -1,0 +1,106 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T08:53:28.237-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-03T08:53:28.378-0400" name="cq:lastReplicated" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2017-12-01T19:01:06.935-0500" name="jcr:created" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2013-02-19T05:45:22.459-0500" name="firstPublishQADate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="Single Sign On and timeout handlers" name="jcr:title" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2015-09-28T10:48:54.902-0400" name="lastPublishQADate" /> 
+  <meta content="robhagat" name="lr_lastModifiedBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/single_sign_timeout_handlers_admin_5e12de0b318c6865_2143_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="sortDate" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2015-09-28T10:48:54.902-0400" name="publishQADate" /> 
+  <meta content="2018-04-26T04:33:27.951-0400" name="locHandOffDate" /> 
+  <meta content="" name="autotagsRejected" /> 
+  <meta content="65dfe863-1e00-44d0-83d6-4f8b31e57b5f" name="jcr:uuid" /> 
+  <meta content="robhagat" name="lr_creator" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/single-sign-timeout-handlers.html" name="publishExternalURL" /> 
+  <meta content="11" name="acrolinxSentences" /> 
+  <meta content="LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a5429249-6113aa2713ccec65204-7ffe" name="cq:gepId" /> 
+  <meta content="199" name="acrolinxWords" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Single Sign On and timeout handlers" name="navTitle" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2016-05-31T06:49:10.587-0400" name="acrolinxDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="autotags" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/single-sign-timeout-handlers.html" name="publishQAURL" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-03T08:53:28.237-0400" name="publishExternalDate" /> 
+  <meta content="How-to set the session timeout value for AEM Forms workspace." name="seoDescription" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2013-03-22T13:19:06.595-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="robhagat" name="contentOwner" /> 
+  <meta content="07e1473d-b426-4009-b935-77398b38c859" name="jcr:predecessors" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" /> 
+  <meta content="2018-04-26T04:33:27.952-0400" name="cq:lastModified" /> 
+ </head> 
+ <body> 
+  <p>AEM Forms workspace is SSO enabled. If a user has logged in to an AEM Forms application like Forms Manager or PDF Generator user interface and accesses AEM Forms workspace in the same browser session, then the user is logged in to AEM Forms workspace and vice versa.</p> 
+  <h2>Handling server timeout in&amp;nbsp;AEM Forms workspace</h2> 
+  <p>Session timeout for a user can be configured in the Administration Console.</p> 
+  <p>To set the timeout, login to <span class="code">http://[server]:[port]/adminui</span>, navigate to <strong>Settings &amp;gt; User Management &amp;gt; Configuration &amp;gt; Configure Advanced System Attributes</strong>, and make the desired settings.</p> 
+  <p>In AEM Forms workspace timeout is handled as:</p> 
+  <ul> 
+   <li>Session duration for a user is available in response of <span class="code">initialize</span> call that initializes user session.</li> 
+   <li>A pop-up dialog notifies the user that session is about to expire, 15 seconds before the session expiry.</li> 
+  </ul> 
+  <p>On this pop-up dialog:</p> 
+  <ul> 
+   <li>Click OK to end the user session.</li> 
+   <li>Click Cancel to reinitialize the user session.</li> 
+  </ul> 
+  <note> 
+   <p>If no action is taken, the user is automatically logged out of AEM Forms workspace three seconds before the session expiry.</p> 
+  </note> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links> 
+   <a href="../../forms/using/introduction-customizing-html-workspace.md">Introduction to Customizing AEM Forms workspace</a> 
+   <a href="../../forms/using/generic-steps-html-workspace-customization.md">Generic steps for AEM Forms workspace customization</a> 
+   <a href="../../forms/using/tasks-organizational-hierarchy-using-manager.md">Managing tasks in an organizational hierarchy using Manager View</a> 
+   <a href="../../forms/using/integrating-correspondence-management-html-workspace.md">Integrating Correspondence Management in AEM Forms workspace</a> 
+   <a href="../../forms/using/single-sign-timeout-handlers.md">Single Sign On and timeout handlers</a> 
+   <a href="../../forms/using/displaying-user-avatar.md">Displaying the user avatar</a> 
+   <a href="../../forms/using/displaying-information-task-summary-pane.md">Displaying information in the Task Summary pane</a> 
+   <a href="../../forms/using/changing-organization-logo-branding.md">Changing the organization logo</a> 
+   <a href="../../forms/using/changing-color-scheme-interface.md">Changing the color scheme of the interface</a> 
+   <a href="../../forms/using/changing-font-interface.md">Changing the font on the interface</a> 
+   <a href="../../forms/using/changing-locale-user-interface.md">Changing the locale of the user interface</a> 
+   <a href="../../forms/using/customizing-error-dialogs.md">Customizing error dialogs</a> 
+   <a href="../../forms/using/customizing-tabs-task.md">Customizing tabs for a task</a> 
+   <a href="../../forms/using/customizing-task-actions.md">Customizing Task Actions</a> 
+   <a href="../../forms/using/customizing-listing-process-instances.md">Customizing the listing of process instances</a> 
+   <a href="../../forms/using/customizing-task-details-page.md">Customizing the task Details page</a> 
+   <a href="../../forms/using/display-additional-data-in-todo-list.md">Displaying additional data in ToDo list</a> 
+   <a href="../../forms/using/getting-task-variables-summary-url.md">Getting Task Variables in Summary URL</a> 
+   <a href="../../forms/using/images-route-actions.md">Images for Route Actions</a> 
+   <a href="../../forms/using/creating-new-login-screen.md">Creating a new login screen</a> 
+   <a href="../../forms/using/minification-javascript-files.md">Minification of the JavaScript files</a> 
+   <a href="../../forms/using/sorting-tracking-tables-add-columns.md">Sorting of Tracking tables and adding more columns</a> 
+   <a href="../../forms/using/updating-link-help-documentation.md">Updating the link to the documentation</a> 
+   <a href="../../forms/using/two-html-workspace-instances-one.md">Hosting two AEM Forms workspace instances on one server</a> 
+  </related-links> 
+ </body> 
+</html>

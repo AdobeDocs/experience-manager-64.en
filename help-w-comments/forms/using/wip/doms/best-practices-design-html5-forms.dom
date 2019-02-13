@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="true" name="preview" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="DO NOT PUBLISH - Best practices for designing HTML5 forms" name="jcr:title" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2016-05-09T06:25:45.605-0400" name="locHandOffDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="2015-06-12T04:29:42.091-0400" name="publishQADate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="https://helpx-preview.corp.adobe.com/content/help/en/aem-forms/6-1/html5-forms/best-practices-design-html5-forms.html" name="publishQAURL" />
+  <meta content="video" name="pageLayout" />
+  <meta content="24" name="acrolinxSentences" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2016-10-24T08:48:52.033-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2016-11-25T01:17:07.060-0500" name="unpublishExternalDate" />
+  <meta content="5984bb93-4992-4440-b6f4-9e151947e493" name="jcr:uuid" />
+  <meta content="2013-03-22T13:10:22.317-0400" name="firstPublishExternalDate" />
+  <meta content="" name="publishExternalURL" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="reference-adjustment-service" name="cq:lastModifiedBy" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="light" name="heroGradient" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="left" name="sideColumn" />
+  <meta content="Guidelines for form developers to ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent." name="seoDescription" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/best_practices_design_html5_forms_admin_5e12de0b318c6865_2099_report.xml" name="acrolinxReportURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Best practices for designing HTML5 forms" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="382" name="acrolinxWords" />
+  <meta content="718d7c1d-d25d-4660-b72b-0d0a0c3e2497" name="jcr:predecessors" />
+  <meta content="2019-02-08T07:55:08.653-0500" name="cq:lastModified" />
+  <meta content="2016-05-31T06:46:58.343-0400" name="acrolinxDate" />
+  <meta content="2015-06-12T04:29:42.091-0400" name="lastPublishQADate" />
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2013-03-14T10:48:47.898-0400" name="firstPublishQADate" />
+  <meta content="2019-02-11T20:42:47.490-0500" name="jcr:created" />
+ </head>
+ <body>
+  <p>This article lists some of the best practices for enabling a form template for HTML5 renditions. By following these guidelines, form developers can ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent.</p> 
+  <h3>Layout</h3>
+  <ol>
+   <li><p>In new forms, add the non-interactive (Draw) elements before the interactive (Fields) elements. Add the elements in Hierarchy (Dom Order) if there is an overlap between them. Similarly, between overlapping Draw Text and other Draw elements (like Rectangle, Circle), put in Text after Rectangle so that it is visible. Avoid any overlap between Draw and Field.</p> </li>
+   <li><p>HTML5 rendition of Form Template does not embed any fonts. Avoid using fonts that you do not expect on your client computers or you risk a not so optimum rendition on the client devices.</p> </li>
+   <li><p>For Repeatable Subforms, mark the <strong>initial count</strong> as 1 or more. If you require zero initial instances, remove or hide the initial instance in form ready or initialize the script based on data.</p> </li>
+   <li><p>If you are targeting the same form for both PDF and HTML, make sure that you protect the Acrobat-specific JavaScript by checking the environment type. Also ensure that you write equivalent scripts for the browser environment.</p> </li>
+   <li><p>If you have a <strong>hidden</strong> subform with a complex hierarchy that is split across pages, make the form visible at design time. Hide the form in the initialize script based on your logic.</p> </li>
+  </ol>
+  <h3>Scripting</h3>
+  <p>HTML5 forms contain a client-side XFA scripting library that supports form logic execution in both the scripting languages that the Adobe XFA Implementation supports: JavaScript and FormCalc. This library includes implementation for most of the commonly used APIs on the <strong>client side</strong>. The list of supported APIs and Events can be found <a href="../../../forms/using/scripting-support.md" target="_blank">here</a>. If you need APIs that are not implemented yet, you can mark your script to <strong>run at server. </strong>HTML5 forms also support <strong>Web Service</strong> invocation from the client. The service runs on the server.</p> 
+  <p>HTML5 forms and PDF forms support different set of features. For the complete list of features, see <a href="../../../forms/using/feature-differentiation-html5-forms-pdf-forms.md" target="_blank">Feature differentiation between HTML5 forms and PDF Forms.</a></p> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links>
+   <a href="../../../forms/using/wip/best-practices-design-html5-forms.md">Best practices to design a Mobile form</a>
+   <a href="../../../forms/using/preview-xdp-forms-html.md">Previewing your XDP form in HTML</a>
+   <a href="../../../forms/using/scribble-signature.md">Using Scribble Signature</a>
+   <a href="../../../forms/using/rendering-form-template.md">Rendering Form Template</a>
+   <a href="../../../forms/using/designing-form-template.md">Designing form templates</a>
+  </related-links>
+ </body>
+</html>

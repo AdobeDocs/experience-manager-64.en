@@ -1,0 +1,174 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Rendering Forms at the Client Rendering Forms at the Client Rendering Forms at the Client" name="navTitle" />
+  <meta content="2018-04-03T08:33:06.379-0400" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/rendering_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" />
+  <meta content="left" name="sideColumn" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e42.2,AEMForms/6.1/ProgramLC/WSf44d3f3cbb6be3d0c775a4a15a1c6c0170-8000,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-59a191f21336a352590-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7a6d.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7a6c.2" name="cq:gepId" />
+  <meta content="2017-08-09T03:29:00.000-0400" name="topicBrowsingSortDate" />
+  <meta content="Rendering Forms at the Client" name="jcr:title" />
+  <meta content="14580375-494a-4a73-94e2-fbdf3dcb9e0d" name="jcr:predecessors" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-03T06:52:24.480-0400" name="publishExternalDate" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="2017-10-03T06:52:24.480-0400" name="firstPublishExternalDate" />
+  <meta content="video" name="pageLayout" />
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/rendering-forms-client.html" name="publishExternalURL" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-03T06:52:24.480-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-11-22T19:05:19.703-0500" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-11-21T06:59:44.573-0500" name="cq:lastModified" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="2017-08-09T03:29:00.000-0400" name="sortDate" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="2017-08-09T03:29:44.820-0400" name="lr_lastModified" />
+  <meta content="a7475f80-6bca-4e86-853f-6e87e3a7f7a4" name="jcr:uuid" />
+ </head>
+ <body>
+  <h2 id="rendering_forms_at_the_client">Rendering Forms at the Client</h2>
+  <p></p>
+  <p>You can optimize the delivery of PDF content and improve the Forms service’s ability to handle network load by using the client-side rendering capability of Acrobat or Adobe Reader. This process is known as rendering a form at the client. To render a form at the client, the client device (typically a web browser) must use Acrobat 7.0 or Adobe Reader 7.0 or later.</p>
+  <p>Changes to a form resulting from server-side script execution is not reflected in a form that is rendered at the client unless the root subform contains the <span class="code">restoreState</span> attribute that is set to <span class="code">auto</span>. For more information about this attribute, see <a href="http://www.adobe.com/go/learn_aemforms_designer_63">Forms Designer.</a></p>
+  <note>
+   <p>For more information about the Forms service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p>
+  </note>
+  <h3 id="summary_of_steps">Summary of steps</h3>
+  <p></p>
+  <p>To render a form at the client, perform the following tasks:</p>
+  <ol>
+   <li><p>Include project files.</p></li>
+   <li><p>Create a Forms Client API object.</p></li>
+   <li><p>Set client rendering run-time options. </p></li>
+   <li><p>Render a form at the client.</p></li>
+   <li><p>Write the form to the client web browser.</p></li>
+  </ol>
+  <p><strong>Include project files</strong></p>
+  <p>Include necessary files into your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, ensure that you include the proxy files.</p>
+  <p><strong>Create a Forms Client API object</strong></p>
+  <p>Before you can programmatically perform a Forms service Client API operation, you must create a Forms service client. If you are using the Java API, create a <span class="code">FormsServiceClient</span> object. If you are using the Forms web service API, create a <span class="code">FormsService</span> object.</p>
+  <p><strong>Set client rendering run-time options</strong></p>
+  <p>You must set the client rendering run-time option to render a form at the client by setting the <span class="code">RenderAtClient</span> run-time option to <span class="code">true</span>. This results in the form being delivered to the client device where it is rendered. If <span class="code">RenderAtClient</span> is <span class="code">auto</span> (the default value), the form design determines whether the form is rendered at the client. The form design must be a form design with a flowable layouyt. </p>
+  <p>An optional run-time option that you may set is the <span class="code">SeedPDF</span> option. The <span class="code">SeedPDF</span> option combines the PDF container (seed PDF document) with the form design and the XML data. Both the form design and the XML data are delivered to Acrobat or Adobe Reader, where the form is rendered. The <span class="code">SeedPDF</span> option can be used when the client computer does not have fonts that are used in the form, such as when an end user is not licensed to use a font that the form owner is licensed to use. </p>
+  <p>You can use Designer to create a simple dynamic PDF file for use as a seed PDF file. The following steps are required to perform this task: </p>
+  <ol>
+   <li><p>Determine whether you need to embed any fonts within the seed PDF file. The seed PDF file will need to contain additional fonts required by the form being rendered. When embedding fonts into the seed PDF file, ensure that you are not violating any font licensing agreements. In Designer, you can determine whether you can legally embed fonts. Upon saving, if there are fonts you cannot embed into the form, Designer displays a message listing the fonts you cannot embed. This message is not displayed in Designer for static PDF documents. </p></li>
+   <li><p>If you are creating the seed PDF file in Designer, it is recommended that, at a minimum, you add a text field that contains a message. The message should be directed at users of earlier versions of Adobe Reader stating that they need Acrobat 7.0 or later or Adobe Reader 7.0 or later to view the document.</p></li>
+   <li><p>Save the seed PDF file as a dynamic PDF file with the PDF file name extension.</p></li>
+  </ol>
+  <note>
+   <p>You do not need to define the seed PDF run-time option to render a form on the client. If you do not specify a seed PDF, the Forms service creates a shell pdf which will not contain COS objects but will contain a PDF wrapper with the actual XDP content embedded inside. The steps in this section do not set the seed PDF run-time option. For information about COS objects, see the Adobe PDF Reference guide.</p>
+  </note>
+  <p><strong>Render a form at the client</strong></p>
+  <p>To render a form at the client, you must ensure that the client rendering run-time options are included in your application logic to render a form. </p>
+  <p><strong>Write the form data stream to the client web browser</strong></p>
+  <p>The Forms service creates a form data stream that you must write to the client web browser. When written to the client web browser, the form is rendered by Acrobat 7.0 or Adobe Reader 7.0 or later, and is visible to the user. </p>
+  <p><strong>See also</strong></p>
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms rendering-forms-client-rendering-forms#render_a_form_at_the_client_using_the_java_api">Render a form at the client using the Java API</a></p>
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms rendering-forms-client-rendering-forms#render_a_form_at_the_client_using_the_web_service_api">Render a form at the client using the web service API</a></p>
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p>
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p>
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2">Forms Service API Quick Starts</a></p>
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing#passing_documents_to_the_forms_service">Passing Documents to the Forms Service</a></p>
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms#creating_web_applications_that_renders_forms">Creating Web Applications that Renders Forms</a></p>
+  <h3 id="render_a_form_at_the_client_using_the_java_api">Render a form at the client using the Java API</h3>
+  <p></p>
+  <p>Render a form at the client by using the Forms API (Java):</p>
+  <ol>
+   <li><p>Include project files </p><p>Include client JAR files, such as adobe-forms-client.jar, in your Java project’s class path. </p></li>
+   <li><p>Create a Forms Client API object </p>
+    <ul>
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li>
+     <li><p>Create an <span class="code">FormsServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li>
+    </ul></li>
+   <li><p>Set client rendering run-time options </p>
+    <ul>
+     <li><p>Create a <span class="code">PDFFormRenderSpec</span> object by using its constructor. </p></li>
+     <li><p>Set the <span class="code">RenderAtClient</span> run-time option by invoking the <span class="code">PDFFormRenderSpec</span> object’s <span class="code">setRenderAtClient</span> method and passing the enum value <span class="code">RenderAtClient.Yes</span>.</p></li>
+    </ul></li>
+   <li><p>Render a form at the client </p><p>Invoke the <span class="code">FormsServiceClient</span> object’s <span class="code">renderPDFForm</span> method and pass the following values:</p>
+    <ul>
+     <li><p>A string value that specifies the form design name, including the file name extension. If you reference a form design that is part of a AEM Forms application, ensure that you specify the complete path, such as <span class="code">Applications/FormsApplication/1.0/FormsFolder/Loan.xdp</span>.</p></li>
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that contains data to merge with the form. If you do not want to merge data, pass an empty <span class="code">com.adobe.idp.Document</span> object.</p></li>
+     <li><p>A <span class="code">PDFFormRenderSpec</span> object that stores run-time options required to render a form at the client. </p></li>
+     <li><p>A <span class="code">URLSpec</span> object that contains URI values that are required by the Forms service to render a form. </p></li>
+     <li><p>A <span class="code">java.util.HashMap</span> object that stores file attachments. This is an optional parameter and you can specify <span class="code">null</span> if you do not want to attach files to the form.</p></li>
+    </ul><p>The <span class="code">renderPDFForm</span> method returns a <span class="code">FormsResult</span> object that contains a form data stream that must be written to the client web browser.</p></li>
+   <li><p>Write the form data stream to the client web browser </p>
+    <ul>
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by invoking the <span class="code">FormsResult</span> object ‘s <span class="code">getOutputContent</span> method.</p></li>
+     <li><p>Get the content type of the <span class="code">com.adobe.idp.Document</span> object by invoking its <span class="code">getContentType</span> method.</p></li>
+     <li><p>Set the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s content type by invoking its <span class="code">setContentType</span> method and passing the content type of the <span class="code">com.adobe.idp.Document</span> object.</p></li>
+     <li><p>Create a <span class="code">javax.servlet.ServletOutputStream</span> object used to write the form data stream to the client web browser by invoking the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">getOutputStream</span> method.</p></li>
+     <li><p>Create a <span class="code">java.io.InputStream</span> object by invoking the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">getInputStream</span> method. </p></li>
+     <li><p>Create a byte array and populate it with the form data stream by invoking the <span class="code">InputStream</span> object’s <span class="code">read</span> method and passing the byte array as an argument. </p></li>
+     <li><p>Invoke the <span class="code">javax.servlet.ServletOutputStream</span> object’s <span class="code">write</span> method to send the form data stream to the client web browser. Pass the byte array to the <span class="code">write</span> method.</p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms#rendering_forms_at_the_client">Rendering Forms at the Client</a></p>
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e41.2">Quick Start (SOAP mode): Rendering a form at the client using the Java API</a></p>
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p>
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p>
+  <h3 id="render_a_form_at_the_client_using_the_web_service_api">Render a form at the client using the web service API</h3>
+  <p></p>
+  <p>Render a form at the client by using the Forms API (web service):</p>
+  <ol>
+   <li><p>Include project files </p>
+    <ul>
+     <li><p>Create Java proxy classes that consume the Forms service WSDL. </p></li>
+     <li><p>Include the Java proxy classes into your class path. </p></li>
+    </ul></li>
+   <li><p>Create a Forms Client API object </p><p>Create a <span class="code">FormsService</span> object and set authentication values. </p></li>
+   <li><p>Set client rendering run-time options </p>
+    <ul>
+     <li><p>Create a <span class="code">PDFFormRenderSpec</span> object by using its constructor. </p></li>
+     <li><p>Set the <span class="code">RenderAtClient</span> run-time option by invoking the <span class="code">PDFFormRenderSpec</span> object’s <span class="code">setRenderAtClient</span> method and passing the string value <span class="code">RenderAtClient.Yes</span>.</p></li>
+    </ul></li>
+   <li><p>Render a form at the client </p><p>Invoke the <span class="code">FormsService</span> object’s <span class="code">renderPDFForm</span> method and pass the following values:</p>
+    <ul>
+     <li><p>A string value that specifies the form design name, including the file name extension. If you reference a form design that is part of a Forms application, ensure that you specify the complete path, such as <span class="code">Applications/FormsApplication/1.0/FormsFolder/Loan.xdp</span>.</p></li>
+     <li><p>A <span class="code">BLOB</span> object that contains data to merge with the form. If you do not want to merge data, pass <span class="code">null</span>. (See <a href="/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating#prepopulating_forms_with_flowable_layouts">Prepopulating Forms with Flowable Layouts</a>.)</p></li>
+     <li><p>A <span class="code">PDFFormRenderSpec</span> object that stores run-time options required to render a form at the client. </p></li>
+     <li><p>A <span class="code">URLSpec</span> object that contains URI values that are required by the Forms service. (See <a href="#unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a96.2">Specify URI values</a>.) </p></li>
+     <li><p>A <span class="code">java.util.HashMap</span> object that stores file attachments. This is an optional parameter and you can specify <span class="code">null</span> if you do not want to attach files to the form. (See <a href="#unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a95.2">Attach files to the form</a>.)</p></li>
+     <li><p>An empty <span class="code">com.adobe.idp.services.holders.BLOBHolder</span> object that is populated by the method. This parameter is used to store the rendered PDF form. </p></li>
+     <li><p>An empty <span class="code">javax.xml.rpc.holders.LongHolder</span> object that is populated by the method. (This argument will store the number of pages in the form).</p></li>
+     <li><p>An empty <span class="code">javax.xml.rpc.holders.StringHolder</span> object that is populated by the method. (This argument will store the locale value).</p></li>
+     <li><p>An empty <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object that will contain the results of this operation.</p></li>
+    </ul><p>The <span class="code">renderPDFForm</span> method populates the <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object that is passed as the last argument value with a form data stream that must be written to the client web browser.</p></li>
+   <li><p>Write the form data stream to the client web browser </p>
+    <ul>
+     <li><p>Create a <span class="code">FormResult</span> object by getting the value of the <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object’s <span class="code">value</span> data member. </p></li>
+     <li><p>Create a <span class="code">BLOB</span> object that contains form data by invoking the <span class="code">FormsResult</span> object’s <span class="code">getOutputContent</span> method. </p></li>
+     <li><p>Get the content type of the <span class="code">BLOB</span> object by invoking its <span class="code">getContentType</span> method.</p></li>
+     <li><p>Set the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s content type by invoking its <span class="code">setContentType</span> method and passing the content type of the <span class="code">BLOB</span> object.</p></li>
+     <li><p>Create a <span class="code">javax.servlet.ServletOutputStream</span> object used to write the form data stream to the client web browser by invoking the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">getOutputStream</span> method.</p></li>
+     <li><p>Create a byte array and populate it by invoking the <span class="code">BLOB</span> object’s <span class="code">getBinaryData</span> method. This task assigns the content of the <span class="code">FormsResult</span> object to the byte array. </p></li>
+     <li><p>Invoke the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">write</span> method to send the form data stream to the client web browser. Pass the byte array to the <span class="code">write</span> method. </p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms#rendering_forms_at_the_client">Rendering Forms at the Client</a></p>
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e40.2">Quick Start (Base64): Rendering a form at the client using the web service API</a></p>
+  <p><a href="#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2">Invoking AEM Forms using Base64 encoding</a></p>
+ </body>
+</html>

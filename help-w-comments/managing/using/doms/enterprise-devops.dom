@@ -1,0 +1,155 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Enterprise DevOps" name="navTitle" /> 
+  <meta content="2018-10-27T23:43:56.079-0400" name="cq:lastReplicated" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/managing/using/enterprise-devops.html" name="publishExternalURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/managing/morehelp/managing;/content/help/en/experience-manager/6-4/managing/morehelp/managing" name="moreHelpPaths" /> 
+  <meta content="e2fc76be-6baf-4404-8aef-d59da6e4e487" name="jcr:predecessors" /> 
+  <meta content="2018-05-09T09:49:00.818-0400" name="cq:lastModified" /> 
+  <meta content="Learn about the processes, methods and communication required to ease deployment and simplify collaboration." name="seoDescription" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="9794d197-9d41-4088-9c8a-5c18b5b8fbcc" name="jcr:uuid" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MANAGING" name="primaryProductTag" /> 
+  <meta content="/content/docs/en/aem/6-3/manage/enterprise-devops" name="qaNotes" /> 
+  <meta content="2018-04-03T10:56:54.805-0400" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T10:56:54.805-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Enterprise DevOps" name="jcr:title" /> 
+  <meta content="2017-12-01T19:04:57.820-0500" name="jcr:created" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MANAGING;topic_tags:managing;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-03T10:56:54.805-0400" name="topicBrowsingSortDate" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Enterprise DevOps" name="seoTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-31T16:26:46.619-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-05-09T09:49:00.818-0400" name="locHandOffDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <p>DevOps covers the processes, methods and communication required to:</p> 
+  <ul> 
+   <li>Ease the deployment of your software across the various environments.</li> 
+   <li>Simplify the collaboration between the development, testing and deployment teams.</li> 
+  </ul> 
+  <p>DevOps aims to avoid problems such as:</p> 
+  <ul> 
+   <li>Manual errors.</li> 
+   <li>Forgotten elements; for example, files, configuration details. </li> 
+   <li>Discrepancies; for example, between a developer's local environment and other environments.</li> 
+  </ul> 
+  <h2>Environments</h2> 
+  <p>An Adobe Experience Manager (AEM) deployment usually consists of multiple environments, used for different purposes on different levels:</p> 
+  <ul> 
+   <li><a href="#development">Development</a></li> 
+   <li><a href="#qualityassurance">Quality Assurance</a> </li> 
+   <li><a href="#staging">Staging</a></li> 
+   <li><a href="#productionauthorandpublish">Production</a></li> 
+  </ul> 
+  <note> 
+   <p>The production environment must have at least one author and one publish environment. </p> 
+   <p>It is recommended that all other environments also consist of an author and publish environment to reflect the production environment and enable early testing.</p> 
+  </note> 
+  <h3>Development</h3> 
+  <p>The developers are responsible for developing and customizing the proposed project (be it website, mobile applications, DAM implementation, etc), with all the required functionality. They:</p> 
+  <ul> 
+   <li>develop and customize the necessary elements; for example, templates, components, workflows, applications</li> 
+   <li>realize the design </li> 
+   <li>develop the necessary services and scripts to implement the required functionality </li> 
+  </ul> 
+  <p>The configuration of the <a href="../../sites/developing/using/best-practices.md">development</a> environment can be dependent on various factors, though it is usually comprised of:</p> 
+  <ul> 
+   <li>An integrated development system with version control to provide an integrated code-base. This is used to merge and consolidate code from the individual development environments used by each developer. </li> 
+   <li>A personal environment for each developer; usually resident on their local machine. At apppropriate intervals the code is synchronized with the version control system </li> 
+  </ul> 
+  <p>Depending on the scale of your system, the development environment can have both author and publish instances.<br /> </p> 
+  <h3>Quality Assurance</h3> 
+  <p>This environment is used by the quality assurance team to comprehensively <a href="/sites/developing/using/test">test</a> your new system; both design and function. It should have both author and publish environments, with suitable content, and provide all necessary services to enable a complete suite of tests.</p> 
+  <h3>Staging</h3> 
+  <p>The staging environment should be a mirror of the production environment - configuration, code and content:</p> 
+  <ul> 
+   <li>It is used to test the scripts used to implement the actual deployment.</li> 
+   <li>It can be used for final tests (design, functionality and interfaces) before deploying to the production environments. </li> 
+   <li>Although it is not always possible to have the staging environment identical to the production environment, it should be as close as possible to enable performance and load testing.</li> 
+  </ul> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:46:41.720-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>The John Lewis document states "Staging is generally used to create content outside of production in lieu of a “launch”. "</p> 
+   <p>Include something similar here? Conflicts with the diagrams provided.</p> 
+  </draft-comment> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:46:41.732-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>see <a href="http://archive.corp.adobe.com/discussion-groups/content/lists/adobe-tech/2016-06/2016-06-16_Authoring_and_software_engineering_workflows_in_enterprise_AEM_deployments_Giovanni_Sarbia.html/1#mail_1">http://archive.corp.adobe.com/discussion-groups/content/lists/adobe-tech/2016-06/2016-06-16_Authoring_and_software_engineering_workflows_in_enterprise_AEM_deployments_Giovanni_Sarbia.html/1#mail_1</a></p> 
+   <p>"guidelines should be provided on how to select an appropriate subset of content to ensure that any test in staging is still relevant"</p> 
+   <ul> 
+    <li>how?</li> 
+   </ul> 
+  </draft-comment> 
+  <h3>Production - Author and Publish</h3> 
+  <p>The production environment consists of the environments needed to actually <a href="../../sites/authoring/using/author.md#conceptofauthoringandpublishing">author and publish</a> your implementation.</p> 
+  <p>A production environment consists of at least one author instance and one publish instance:</p> 
+  <ul> 
+   <li>An <a href="#author">authoring</a> instance for the input of content.</li> 
+   <li>A <a href="#publish">publish</a> instance for content made available to your visitors/users.</li> 
+  </ul> 
+  <p>Depending on the scale of the project, it often consists of several author and/or publish instances. At a lower level, the repository may be clustered to several instances as well.</p> 
+  <h4>Author</h4> 
+  <p>Author instances are usually located behind the internal firewall. This is the environment where you, and your colleagues, will perform authoring tasks, such as:</p> 
+  <ul> 
+   <li>administrate the entire system</li> 
+   <li>input your content</li> 
+   <li>configure the layout and design of your content</li> 
+   <li>activate your content to the publish environment</li> 
+  </ul> 
+  <p>Content that was activated is packaged and placed in the author environment's replication queue. The replication process then transports that content to the publish environment.</p> 
+  <p>In order to reverse-replicate data generated in a publish environment back to the author environment, a replication listener in the author environment will poll the publish environment and retrieve such content from the publish environment's reverse-replication outbox.</p> 
+  <h4>Publish</h4> 
+  <p>A publish environment is usually located in the Demilitarized Zone (DMZ). This is the environment where visitors will access your content (for example, via a website or in the form of a mobile application) and interact with it; be it public, or within your intranet. A publish environment:</p> 
+  <ul> 
+   <li>holds content replicated from the author environment</li> 
+   <li>makes that content available to the visitors</li> 
+   <li>stores user data generated by your visitors, such as comments or other form submissions</li> 
+   <li>may be configured to add such user data to an outbox, for reverse-replication back to the author environment</li> 
+  </ul> 
+  <p>The publish environment generates your content dynamically in real-time and the content can be personalized for each individual user.</p> 
+  <h2>Code Movement</h2> 
+  <p>Code should always be propagated from bottom to top:</p> 
+  <ul> 
+   <li>code is initially developed on the local and then integrated development environments</li> 
+   <li>followed by thorough testing on the QA environment(s)</li> 
+   <li>then tested again on the staging environments</li> 
+   <li>only then should code be deployed to the production environments </li> 
+  </ul> 
+  <p>The code (e.g. customized web application functionality and design templates) is usually transferred by exporting and importing packages between the different content repositories. Where meaningful, this replication can be configured as an automatic process. </p> 
+  <p>AEM projects often trigger code deployment:</p> 
+  <ul> 
+   <li>Automatically: for transfer to the development and QA environments. </li> 
+   <li>Manually: deployments to the staging and production environments are done in a more controlled manner, often manual; though automation is possible if required.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1.png" /> 
+  <h2>Content Movement</h2> 
+  <p>Content being created for production should <strong>always</strong> be authored on the production author instance.</p> 
+  <p>Content should not follow code moving from lower environments to higher ones, as having authors create content on local machines or lower environments and then moving it to the production environment is not a good practice and likely to introduce errors and inconsistencies. </p> 
+  <p>Production content should be moved from the production environment to the staging environment to ensure that the staging environment provides an efficient and accurate testing environment. </p> 
+  <note> 
+   <p>This does not mean that staging content needs to be continually synchronized with production, regular updates are sufficient, but especially before testing a new iteration of code. Content on the QA and development environments does not need to be updated as frequently, it should just be a good representation of the production content. </p> 
+  </note> 
+  <p>Content can transferred:</p> 
+  <ul> 
+   <li>Between the different environments - by exporting and importing packages. </li> 
+   <li>Between different instances - by directly replicating (<a href="../../sites/deploying/using/replication.md">AEM replication</a>) the content (using a HTTP, or HTTPS, connection).</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-1.png" /> 
+ </body> 
+</html>

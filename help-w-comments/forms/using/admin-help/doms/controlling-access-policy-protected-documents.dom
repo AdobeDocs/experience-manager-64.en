@@ -1,0 +1,203 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2016-04-20T10:02:47.604-0400" name="firstPublishExternalDate" /> 
+  <meta content="addcd99d-39a5-45c8-9a7d-e41ac4150b9e" name="jcr:predecessors" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2016-05-31T06:58:41.272-0400" name="acrolinxDate" /> 
+  <meta content="135" name="acrolinxSentences" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="See how you can view, manage and control the access to your policy-protected documents." name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2018-04-26T04:24:05.538-0400" name="cq:lastModified" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="Controlling access to policy-protected documents" name="jcr:title" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/controlling-access-policy-protected-documents.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2016-02-05T03:27:21.231-0500" name="lr_lastModified" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2321" name="acrolinxWords" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-31T16:32:19.360-0400" name="lastPublishExternalDate" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/controlling_access_policy_protected_documents_admin_5e12de0b318c6865_2307_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-03T09:09:59.238-0400" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_document_security;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2017-12-01T19:07:35.475-0500" name="jcr:created" /> 
+  <meta content="Controlling access to policy-protected documents" name="navTitle" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-5edaef441298ead6af9-7ffc.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-5edaef441298ead6af9-7ffb.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-5edaef441298ead6af9-7ffa.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-5edaef441298ead6af9-7ff9.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-5edaef441298ead6af9-7ff8.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-5edaef441298ead6af9-7ff7.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-5edaef441298ead6af9-7ff6.2,AEMForms/6.1/AdminHelp/WS2d2a17056e219198-31ba356e14172797744-8000" name="cq:gepId" /> 
+  <meta content="5329a585-ff41-46ae-a156-dd9f13784543" name="jcr:uuid" /> 
+  <meta content="2018-04-26T04:24:05.538-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-31T16:32:19.360-0400" name="publishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>You can control the way in which recipients use your policy-protected documents no matter how widely you distribute them. </p> 
+  <p>Using the Documents page you can do these tasks:</p> 
+  <ul> 
+   <li><p>Search for and view the details of policy-protected documents. You can see information about the document name, publisher name, policy name, and date the policy was applied. If the policy that protected a document is deleted, you can also see the deleted policy ID under the policy name. Users can view and manage their own policy-protected documents. Administrators can view and manage all policy-protected documents. </p></li> 
+   <li><p>Change the details of the policy that is applied to a document. Users can edit their own policies, administrators can edit shared and personal policies, and policy set coordinators can edit shared policies in the policy sets they have permissions for. You can access the policy that is associated with a document directly from the Document Detail page.</p></li> 
+   <li><p>Revoke and reinstate access to a policy-protected document. Administrators can revoke and reinstate access to any document. Policy set coordinators (who have permission to manage documents) can revoke and reinstate access to policy-protected documents that use shared policies from their policy sets. Users can revoke access to their policy-protected documents if they created the policy that is protecting the document or if the policy is a shared one that permits this capability. </p></li> 
+   <li><p>Switch the policy that is applied to a document. Users who apply policies to documents can switch a policy if they created it or if it is a shared policy that enables this capability. Policy set coordinators can switch policies from their policy sets. Administrators can switch policies that are applied to any document. </p></li> 
+  </ul> 
+  <p>When a document is protected by a policy and you revoke access privileges or switch the applied policy, the changes take effect as follows:</p> 
+  <ul> 
+   <li><p>If the document is online, changes are applied immediately unless the user has the document open. In this case, the user must close the document for the changes to take effect. </p></li> 
+   <li><p>If a recipient is using the document offline (for example, on a laptop), the changes take effect the next time the recipient synchronizes with document security by opening any policy-protected document. </p></li> 
+  </ul> 
+  <h2 id="view_information_about_a_document">View information about a document</h2> 
+  <p></p> 
+  <p>For each document that is listed on the Documents page, you can see the document name, publisher name, policy name, and date the document was protected. If the policy that protected a document has been deleted, the policy ID is listed under Policy Name.</p> 
+  <p>You can also view more details, which are described below, about a particular document on the Document Detail page:</p> 
+  <note> 
+   <p>You must use the Policy Name link on the Document Detail page to access policies that are auto-generated in Microsoft Outlook for recipients of a document that is attached to an email message. These policies do not appear on the policies page. </p> 
+  </note> 
+  <p><strong>Document Name:</strong> The name of the selected document.</p> 
+  <p><strong>Document ID:</strong> A unique identifier that document security assigns when a policy is applied to the document. document security uses this number to track the document.</p> 
+  <p><strong>Document Status:</strong> Status of the document (for example, active or revoked.)</p> 
+  <p><strong>Publisher:</strong> Name of the user who attached the policy to the document.</p> 
+  <p><strong>Policy Name:</strong> The name of the policy that is used to protect the document. You can click the name to open the policy. You must use this link to access policies that Acrobat generates for recipients of a document that is attached to an email message in Outlook. Those policies do not appear on the Policies page.</p> 
+  <p><strong>Policy Type:</strong> The type of policy that was applied to the document.</p> 
+  <p><strong>Date Published:</strong> The date the policy was applied to the document.</p> 
+  <p><strong>Related Iterations:</strong> If the document has related iterations, this item also appears in the list. Click the link to view the list of related iterations for the document.</p> 
+  <p>Users can view information about their protected documents. Administrators can view information about documents that any user has protected with a policy. Policy set coordinators can view information about documents that are protected by policies from their policy sets. </p> 
+  <ol> 
+   <li><p>On the document security page, click Documents. </p></li> 
+   <li><p>In the list of documents, click the appropriate document. The Document Detail page opens, displaying detailed information about the document. This page also provides options for revoking document access, switching the policy, and viewing events that are related to this document. </p></li> 
+  </ol> 
+  <h2 id="view_related_iterations_for_a_document">View related iterations for a document</h2> 
+  <p></p> 
+  <p>If tracking related iterations is enabled, you can track versions of a document that various users have saved. This feature is supported only by certain applications, such as PTC Pro/ENGINEER Wildfire.</p> 
+  <p>This feature is useful when multiple users are collaborating and are saving different versions of the same document. document security can keep track of the various iterations; therefore, you can easily view document information for the different versions.</p> 
+  <p>If this feature is enabled, you can view the related iterations of a document from the Documents page. </p> 
+  <ol> 
+   <li><p>View the Document Detail page for a document. (See <a href="controlling-access-policy-protected-documents#view_information_about_a_document">View information about a document</a>.)</p></li> 
+   <li><p>Click View Related Iterations. The option is available only if the feature is enabled. The list of related iterations appears. For each iteration, you can view the following information:</p> 
+    <ul> 
+     <li><p><strong>Iteration: </strong>The filename. It may be different from the original filename and it has a version number appended to the end of it.</p></li> 
+     <li><p><strong>Publisher: </strong>The publisher of the original document.</p></li> 
+     <li><p><strong>Created By: </strong>The user who saved the iteration.</p></li> 
+     <li><p><strong>Date Created: </strong>The date and time that the Iteration was saved.</p></li> 
+     <li><p><strong>Policy: </strong>The policy that protects the iteration. Different iterations may be protected by different policies.</p></li> 
+    </ul></li> 
+   <li><p>To display the Document Detail page for that iteration, click the filename of an iteration.</p></li> 
+  </ol> 
+  <h2 id="revoking_and_reinstating_access_to_documents">Revoking and reinstating access to documents</h2> 
+  <p></p> 
+  <p>You can revoke and reinstate access to policy-protected documents:</p> 
+  <p><strong>Users:</strong> Can revoke or reinstate access to documents that they protect with their own personal policies or with shared policies for which the revoke capability is enabled for the user who applies the policy. Users who cannot revoke access to a document or switch a policy need to contact the administrator.</p> 
+  <p><strong>Administrators:</strong> Can revoke or reinstate access privileges to any policy-protected document, including those protected by personal or shared policies. If an administrator revokes access to a document that is protected with a shared policy, only an administrator can reinstate access privileges for that document.</p> 
+  <p><strong>Policy set coordinators:</strong> Can revoke or reinstate access privileges for documents that policies from their policy sets protect.</p> 
+  <p>When you revoke or reinstate document access privileges, the change takes effect at these times:</p> 
+  <ul> 
+   <li><p>If the document is online and closed, the change takes effect the next time the recipient synchronizes with document security by opening a policy-protected document.</p></li> 
+   <li><p>If the document is online and open, the change takes effect when the recipient closes the document.</p></li> 
+   <li><p>If the document is offline, (in use without an Internet connection, such as on a laptop), the change takes effect the next time the recipient synchronizes with document security.</p></li> 
+  </ul> 
+  <p><strong>Revoke access to a policy-protected document</strong></p> 
+  <ol> 
+   <li><p>On the document security page, click Documents. </p></li> 
+   <li><p>Select the check box beside the appropriate document and click Revoke. You can revoke access to multiple documents at a time.</p></li> 
+   <li><p>Select a message to display to users who attempt to open the document after it is revoked:</p> 
+    <ul> 
+     <li><p><strong>General Message: </strong>Indicates that the author revoked the document</p></li> 
+     <li><p><strong>Document Terminated: </strong>Indicates that the author terminated the document</p></li> 
+     <li><p><strong>Document Revised</strong>: Indicates that the author revised the document</p></li> 
+    </ul></li> 
+   <li><p>(Optional) If a newer version of the document is available, enter the URL and click Test to verify the URL.</p></li> 
+   <li><p>Click OK, and then click OK again to return to the Documents page.</p></li> 
+  </ol> 
+  <p><strong>Reinstate document access privileges</strong></p> 
+  <ol> 
+   <li><p>On the document security page, click Documents. </p></li> 
+   <li><p>In the list of documents, click the appropriate document.</p></li> 
+   <li><p>Click Unrevoke and then click OK.</p></li> 
+  </ol> 
+  <h2 id="switch_a_policy_that_is_applied_to_a_document">Switch a policy that is applied to a document</h2> 
+  <p></p> 
+  <p>Users, policy set coordinators, and administrators can switch the policy that is applied to a policy-protected document (you can apply only one policy at a time to a document). Users can switch policies that are applied to their own policy-protected documents if they created the policy or if the policy is a shared one that has this capability enabled. Otherwise, the administrator or policy set coordinator must switch the policy. Administrators can switch policies for any user’s policy-protected documents. Policy set coordinators can switch policies from their policy sets. </p> 
+  <p>When you switch a policy, the new policy is enforced as follows:</p> 
+  <ul> 
+   <li><p>If the document is online and closed, the change takes effect the next time the recipient synchronizes with document security by opening any policy-protected document online. </p></li> 
+   <li><p>If document is online and open, the change takes effect when the user closes the document. </p></li> 
+   <li><p>If the document is offline (in use without an active Internet or network connection, such as on a laptop), the change is applied the next time the user synchronizes with document security by opening a policy-protected document online.</p></li> 
+  </ul> 
+  <note> 
+   <p>To permit anonymous access to a policy-protected document that currently does not have this access, remove the existing policy in the client application and then apply a policy that permits anonymous access. If you switch the policy, users still must log in to access the document. </p> 
+  </note> 
+  <ol> 
+   <li><p>On the document security page, click Documents. </p></li> 
+   <li><p>In the list of documents, click the appropriate document.</p></li> 
+   <li><p>Click Switch Policy. A list of up to 100 policies appears. </p></li> 
+   <li><p>If the policy you want is not displayed, select Policy Name or Policy ID from the Find list, type the name or ID, and click Find.</p></li> 
+   <li><p>Click a new policy in the list.</p></li> 
+   <li><p>Click Switch Policy, and then click OK to return to the Documents page.</p></li> 
+  </ol> 
+  <h2 id="search_for_a_document">Search for a document</h2> 
+  <p></p> 
+  <p>You can search for documents on the Documents page by using a combination of date range criteria and the search criteria that are available in the list. These criteria include the document name, policy name, or all documents. </p> 
+  <p>Some additional search options are only available to administrators: </p> 
+  <p><strong>Document ID:</strong> Unique ID number that document security assigns to the document when the policy is applied.</p> 
+  <p><strong>Document name:</strong> Name of the document.</p> 
+  <p><strong>Publisher name:</strong> Name of the user who attached the policy to the document. You can select the user from all domains or a specified domain.</p> 
+  <p><strong>Policy ID:</strong> ID number of the policy that is attached to the document.</p> 
+  <p><strong>Policy name:</strong> Name of the policy that is attached to the document.</p> 
+  <p><strong>All documents:</strong> All documents protected by administrators and users. Using the All Documents option to search may return a long list of documents.</p> 
+  <ol> 
+   <li><p>On the document security page, click Documents. </p></li> 
+   <li><p>In the Find list, select the required search criteria. </p><p>You can specify the criteria as document ID, document name, publisher name, policy ID, policy name, or all documents. </p><p>If you specify publisher name, click the Address Book icon and specify the domain where you want to search the user, and click OK to return to the Documents search page.</p></li> 
+   <li><p>(Optional) In the Date list, select a date range option. If you select Custom Dates, type the date in format yyyy/mm/dd in the boxes that appear or use the Date Picker to specify the date range:</p> 
+    <ul> 
+     <li><p>Click the calendar to open the Date Picker.</p></li> 
+     <li><p>Use the arrows to find a year and month.</p></li> 
+     <li><p>Click a day of the month on the calendar. </p></li> 
+     <li><p>Click OK to close the Date Picker.</p></li> 
+    </ul></li> 
+   <li><p>Click Find.</p></li> 
+  </ol> 
+  <h2 id="sort_the_document_list">Sort the document list</h2> 
+  <p></p> 
+  <p>You can sort the list of documents by column heading. Triangle icons next to the column heading indicate which column is currently used to sort. An upward-pointing triangle indicates ascending order, while a downward-pointing triangle indicates descending order.</p> 
+  <ol> 
+   <li><p>On the document security page, click Documents. </p></li> 
+   <li><p>Click the appropriate column heading. </p></li> 
+   <li><p>To change the sort order, click the column again. </p></li> 
+  </ol> 
+  <h2 id="add_cover_page_to_policy_protected_documents">Add cover page to policy protected documents</h2> 
+  <p></p> 
+  <p>In the case of most non-Adobe PDF viewers, if you open a document security protected document either the first page is displayed as a blank page or the application aborts without opening the document.</p> 
+  <p>You can use the Page 0 (Wrapper Document) support to allow non-Adobe PDF viewers to open a protected document and display a cover page in the document.</p> 
+  <note> 
+   <p>When viewing such documents (containing a Page 0) in Adobe Reader/Acrobat or Mobile Reader, the protected document is opened by default.</p> 
+  </note> 
+  <p><strong>To add cover page to a policy protected document</strong></p> 
+  <p>Use the following processes in workbench:</p> 
+  <p><strong>Protect&amp;#xA;Document With Cover Page:</strong> Secures a PDF document with the specified policy, and adds a cover page to the document</p> 
+  <p><strong>Extract Protected Document:</strong> Extracts the policy-protected PDF document from the PDF document with cover page</p> 
+  <p>Use the following document security APIs:</p> 
+  <p><strong>protectDocumentWithCoverPage:</strong> Secures a given PDF with the specified policy, and returns a document with a cover page and the protected document as an attachment</p> 
+  <span class="code">//Create a ServiceClientFactory instance ServiceClientFactory factory = ServiceClientFactory.createInstance(connectionProps); //Create a RightsManagementClient object RightsManagementClient rightsClient = new RightsManagementClient(factory); //Reference a PDF document to which a policy is applied FileInputStream fileInputStream = new FileInputStream("C:\\testFile.pdf"); Document inPDF = new Document(fileInputStream); //Reference a Cover Page document FileInputStream coverPageInputStream = new FileInputStream("C:\\CoverPage.pdf"); Document inCoverDoc = new Document(coverPageInputStream); //Create a Document Manager object DocumentManager documentManager = rightsClient.getDocumentManager(); //Apply a policy to the PDF document RMSecureDocumentResult rmSecureDocument = documentManager.protectDocumentWithCoverPage( inPDF, "ProtectedPDF.pdf", "PolicySetName", "PolicyName", null, null, inCoverDoc, true); //Retrieve the policy-protected PDF document Document protectPDF = rmSecureDocument.getProtectedDoc(); //Save the policy-protected PDF document File myFile = new File("C:\\PolicyProtectedDoc.pdf"); protectPDF.copyToFile(myFile);</span> 
+  <p><strong>extractProtectedDocument:</strong> Extracts the protected document which is an attachment in the document with cover page. The document with the cover page can be created using protectDocumentWithCoverPage method</p> 
+  <span class="code">//Create a ServiceClientFactory instance ServiceClientFactory factory = ServiceClientFactory.createInstance(connectionProps); //Create a RightsManagementClient object RightsManagementClient rightsClient = new RightsManagementClient(factory); //Reference a protected PDF document with a Cover Page FileInputStream fileInputStream = new FileInputStream("C:\\policyProtectedDocWithCoverPage.pdf"); Document inPDF = new Document(fileInputStream); //Create a Document Manager object DocumentManager documentManager = rightsClient.getDocumentManager(); //Apply a policy to the PDF document Document extractedDoc = documentManager.extractProtectedDocument(inPDF); //Save the policy-protected PDF document File myFile = new File("C:\\PolicyProtectedDoc.pdf"); extractedDoc.copyToFile(myFile);</span> 
+ </body> 
+</html>

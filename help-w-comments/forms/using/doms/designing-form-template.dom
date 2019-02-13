@@ -1,0 +1,72 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-02-08T07:55:08.654-0500" name="cq:lastModified" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/designing-form-template.html" name="publishExternalURL" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/html5_forms;/content/help/en/experience-manager/6-4/forms/morehelp/html5_forms" name="moreHelpPaths" />
+  <meta content="2013-03-14T12:19:57.800-0400" name="firstPublishQADate" />
+  <meta content="2013-03-22T13:10:23.241-0400" name="firstPublishExternalDate" />
+  <meta content="22" name="acrolinxSentences" />
+  <meta content="2018-11-19T08:17:09.878-0500" name="locHandOffDate" />
+  <meta content="d6e9945a-86b9-48af-87e6-194c686eb286" name="jcr:predecessors" />
+  <meta content="2019-02-08T07:45:53.808-0500" name="lastPublishExternalDate" />
+  <meta content="2019-02-08T07:45:53.808-0500" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2015-06-12T04:29:42.269-0400" name="lastPublishQADate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:hTML5_forms" name="cq:tags" />
+  <meta content="2016-05-31T06:47:00.479-0400" name="acrolinxDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Designing Form Template" name="navTitle" />
+  <meta content="video" name="pageLayout" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="a130cedf-53ff-4187-a730-3f8224edebae" name="jcr:uuid" />
+  <meta content="2015-06-12T04:29:42.269-0400" name="publishQADate" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2019-02-08T07:45:53.855-0500" name="cq:lastReplicated" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/designing_form_template_admin_5e12de0b318c6865_2100_report.xml" name="acrolinxReportURL" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-12-01T19:01:42.264-0500" name="jcr:created" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="left" name="sideColumn" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-02-08T07:45:53.808-0500" name="topicBrowsingSortDate" />
+  <meta content="Designing form templates for HTML5 forms" name="jcr:title" />
+  <meta content="anujkapo" name="cq:lastReplicatedBy" />
+  <meta content="reference-adjustment-service" name="cq:lastModifiedBy" />
+  <meta content="AEM Forms offers rendering XFA form template to HTML5 format. Form designers can design form templates using Designer and use the HTML5 rendition capability. " name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="https://helpx-preview.corp.adobe.com/content/help/en/aem-forms/6-1/html5-forms/designing-form-template.html" name="publishQAURL" />
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="isReadyForLocalization" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="427" name="acrolinxWords" />
+ </head>
+ <body>
+  <p>The HTML5 forms component in AEM offers rendering XFA form template to HTML5 format. Form designers can design form templates using <a href="http://www.adobe.com/go/learn_aemforms_designer_63" target="_blank">Forms Designer</a> and use the HTML5 rendition capability. These form templates, along with their assets, can reside in AEM repository, file system, or exposed via http. However, if you plan to manage your forms using Forms Manager, the templates and assets should reside in the AEM repository.</p> 
+  <p>Although HTML5 forms match the behavior of the PDF forms to a great extent, there are some features in both formats that are not be applicable to the other format. For example, how barcodes get applied on a PDF form in Adobe Reader varies from a Mobile form or how a form is digitally signed also varies between the formats. For more information on such variations, see <a href="../../forms/using/feature-differentiation-html5-forms-pdf-forms.md" target="_blank">Feature differentiation between HTML5 forms and PDF Forms</a>.</p> 
+  <p>For common XFA features, see the following best practices and guidelines to design a form that works in both formats.</p> 
+  <h3>Capabilities in AEM Forms Designer for HTML5 Forms</h3>
+  <h4>Preview HTML</h4>
+  <p>The Preview HTML tab is added in the Design mode for Form Designers to preview forms in HTML5 format during the design process. For more information on how to enable and configure this capability in AEM Forms Designer, see <a href="../../forms/using/preview-xdp-forms-html.md" target="_blank">Preview HTML</a>.</p> 
+  <h4>Scribble signature</h4>
+  <p>The key target for HTML5 forms is touch devices. Therefore, a new scribble signature control is added in AEM Forms Designer. You can click or drag-and-drop the scribble signature control on your form template and configure it. It is rendered as a scribble field in HTML5 rendition and can be used to scribble signature on touch devices. On desktop machines, it can be used as a scribble field using mouse control. For more information on how to use this feature, see <a href="../../forms/using/scribble-signature.md">XFA Scribble Field</a>.</p> 
+  <img imageRotate="0" src="assets/4.png" />
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links>
+   <a href="../../forms/using/wip/best-practices-design-html5-forms.md">Best practices to design a Mobile form</a>
+   <a href="../../forms/using/preview-xdp-forms-html.md">Previewing your XDP form in HTML</a>
+   <a href="../../forms/using/scribble-signature.md">Using Scribble Signature </a>
+   <a href="../../forms/using/rendering-form-template.md">Rendering Form Template</a>
+   <a href="../../forms/using/designing-form-template.md">Designing form templates</a>
+  </related-links>
+ </body>
+</html>

@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="How Multisite Management for Targeted Content is Structured" name="jcr:title" /> 
+  <meta content="How Multisite Management for Targeted Content is Structured" name="seoTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-31T16:19:45.695-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-10-28T00:44:11.184-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="/content/docs/en/aem/6-3/author/personalization/technical-multisite-targeted" name="qaNotes" /> 
+  <meta content="ffdf48da-a946-4d76-a659-5026ec8d9dbd" name="jcr:predecessors" /> 
+  <meta content="9b806bfe-7315-4b40-932c-1dc114c3c5aa" name="jcr:uuid" /> 
+  <meta content="2018-10-28T00:44:11.192-0400" name="cq:lastModified" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/technical-multisite-targeted.html" name="publishExternalURL" /> 
+  <meta content="2018-10-28T00:44:11.184-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="A diagram shows how multisite support for targeted content is structured" name="seoDescription" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="2018-10-28T00:44:11.184-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:personalization" name="cq:tags" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-19T10:35:45.978-0400" name="locHandOffDate" /> 
+  <meta content="2018-02-03T08:01:19.859-0500" name="jcr:created" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-10-28T00:44:11.232-0400" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <p>The following diagram shows how multisite support for targeted content is structured. </p> 
+  <p>Areas appear underneath <strong>/content/campaigns/&amp;lt;brand&amp;gt;</strong> and by default each brand has a master area, which is created automatically. Each area contains its own set of activities, experiences, and offers.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-339.png" /> 
+  <p>To look up targeted content, the pages or sites can map to an area. If there is no area configured, AEM falls back to the master area for this specific brand. </p> 
+  <p>The following diagram is an example of how the logic works for three sites, called site1, site2, and site3.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-340.png" /> 
+  <ul> 
+   <li>site1 looks up myarea1 for brand1 and otherarea2 for brand2 based on area mapping.</li> 
+   <li>site2 looks up myarea1 for brand1 and master area for brand2 as only the area mapping for brand1 is defined.</li> 
+   <li>site3 looks up the master area for brand1 and brand2 as no other area mapping is defined at all for this site.</li> 
+  </ul> 
+ </body> 
+</html>

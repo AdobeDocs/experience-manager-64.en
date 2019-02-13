@@ -1,0 +1,339 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Customizing the Consoles" name="seoTitle" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/customizing-consoles-touch.html" name="publishExternalURL" /> 
+  <meta content="2018-05-08T12:41:43.039-0400" name="locHandOffDate" /> 
+  <meta content="AEM provides various mechanisms to enable you to customize the consoles of your authoring instance" name="seoDescription" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/extending/customizing-consoles-touch" name="qaNotes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-01-19T19:05:47.161-0500" name="jcr:created" /> 
+  <meta content="2018-01-18T11:19:40.152-0500" name="lastPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="c9a80f99-092d-41df-b16b-7ff5d397e9fe" name="jcr:uuid" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2017-10-31T16:17:08.570-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-05-08T12:41:43.041-0400" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:extending-aem;content_type:reference" name="cq:tags" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="Customizing the Consoles" name="navTitle" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-10-27T23:47:21.282-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-01-18T11:19:40.152-0500" name="topicBrowsingSortDate" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-01-18T11:19:40.152-0500" name="publishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Customizing the Consoles" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="3914086b-b27d-44f8-ad88-48ec40638691" name="jcr:predecessors" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+ </head> 
+ <body> 
+  <draft-comment color="blue" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:42.686-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>following paragraph also occurs on <a href="http://ec2author.day.com:8080/content/docs/en/aem/6-2/develop/extending/customizing-page-authoring-touch.html">http://ec2author.day.com:8080/content/docs/en/aem/6-2/develop/extending/customizing-page-authoring-touch.html</a> - update one update both</p> 
+   <p>gknob: why not a paragraph reference?</p> 
+   <p>ajh&amp;gt;&amp;gt;&amp;gt; because we decided not to use them in docu.....long story</p> 
+  </draft-comment> 
+  <note> 
+   <p>This document describes how to customize consoles in the modern, touch-enabled UI and does not apply to the classic UI.</p> 
+  </note> 
+  <p>AEM provides various mechanisms to enable you to customize the consoles (and the <a href="../../../sites/developing/using/customizing-page-authoring-touch.md">page authoring functionality</a>) of your authoring instance.</p> 
+  <ul> 
+   <li>Clientlibs<br /> Clientlibs allow you to extend the default implementation to realize new functionality, while reusing the standard functions, objects, and methods. When customizing, you can create your own clientlib under <span class="code">/apps.</span> For example it can hold the code required for your custom component.<br /> </li> 
+   <li>Overlays<br /> Overlays are based on node definitions and allow you to overlay the standard functionality (in <span class="code">/libs</span>) with your own customized functionality (in <span class="code">/apps</span>). When creating an overlay a 1:1 copy of the original is not required, as the sling resource merger allows for inheritance.</li> 
+  </ul> 
+  <p>These can be used in many ways to extend your AEM consoles. A small selection are covered below (at a high level).<br /> </p> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:42.787-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>Title of Gems session is version specific - need to check/revisit/reword for 6.1.<br /> </p> 
+  </draft-comment> 
+  <note> 
+   <p>For further information see:</p> 
+   <ul> 
+    <li>Using and creating <a href="../../../sites/developing/using/clientlibs.md">clientlibs</a>.</li> 
+    <li>Using and creating <a href="../../../sites/developing/using/overlays.md">overlays</a>.</li> 
+    <li><a href="/sites/developing/using/reference-materials/granite-ui/api/index">Granite</a> </li> 
+   </ul> 
+   <p>This topic is also covered in the <a href="http://docs.adobe.com/content/ddc/en/gems.html">AEM Gems</a> session - <a href="http://docs.adobe.com/content/ddc/en/gems/user-interface-customization-for-aem-6.html">User interface customization for AEM 6.0</a>.<br /> </p> 
+  </note> 
+  <note> 
+   <p>You <i><strong>must</strong></i> not change anything in the <span class="code">/libs</span> path.</p> 
+   <p>This is because the content of <span class="code">/libs</span> is overwritten the next time you upgrade your instance (and may well be overwritten when you apply either a hotfix or feature pack).</p> 
+   <p>The recommended method for configuration and other changes is:</p> 
+   <ol> 
+    <li>Recreate the required item (i.e. as it exists in <span class="code">/libs</span>) under <span class="code">/apps</span><br /> </li> 
+    <li>Make any changes within <span class="code">/apps</span></li> 
+   </ol> 
+  </note> 
+  <p>For example, the following locations within the <span class="code">/libs</span> structure can be overlaid:</p> 
+  <ul> 
+   <li>consoles (any consoles based on Granite UI pages); for example:<br /> 
+    <ul> 
+     <li><span class="code">/libs/wcm/core/content</span></li> 
+    </ul> </li> 
+   <li>secondary (inner) rails; for example: 
+    <ul> 
+     <li><span class="code">/libs/wcm/core/content/search</span></li> 
+    </ul> </li> 
+   <li>toolbar(s) (dependent on console; for example sites):<br /> 
+    <ul> 
+     <li>default<br /> <span class="code">/libs/wcm/core/content/sites/jcr:content/body/content/header/items/default</span></li> 
+     <li>selection mode<br /> <span class="code">/libs/wcm/core/content/sites/jcr:content/body/content/header/items/selection</span></li> 
+    </ul> </li> 
+   <li>help menu options (dependent on console; for example sites): 
+    <ul> 
+     <li><span class="code">/libs/wcm/core/content/sites/jcr:content/body/help</span></li> 
+    </ul> </li> 
+   <li>information shown on the card view (dependent on console; for example sites): 
+    <ul> 
+     <li><span class="code">/libs/wcm/core/content/sites/jcr:content/body/content/content/items/childpages</span></li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>See the Knowledge Base article, <a href="/content/help/en/experience-manager/kb/troubleshooting-aem-touchui-issues">Troubleshooting AEM TouchUI issues</a>, for further tips and tools.</p> 
+  </note> 
+  <h3>Code Samples</h3> 
+  <p>Various packages have been made available on Github. These provide code samples related to the tasks covered on this page.<br /> </p> 
+  <h4>aem-admin-extension-new-console</h4> 
+  <p><span class="code">aem-admin-extension-new-console</span> is a sample package showing how to <a href="#createacustomconsole">create a new AEM 6 console</a>. This package provides a UI for managing <a href="../../../sites/authoring/using/launches.md">Launches</a> and adds a link in the navigation:</p> 
+  <p>CODE ON GITHUB</p> 
+  <p>You can find the code of this page on GitHub</p> 
+  <ul> 
+   <li><a href="https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-new-console">Open aem-admin-extension-new-console project on GitHub</a></li> 
+   <li>Download the project as <a href="https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-new-console/archive/master.zip">a ZIP file</a></li> 
+  </ul> 
+  <h4>aem-admin-extension-customize-sites</h4> 
+  <p><span class="code">aem-admin-extension-customize-sites</span> is a sample package showing how to customize an existing AEM 6 admin console. This package provides updates to Sites administration:</p> 
+  <p>CODE ON GITHUB</p> 
+  <p>You can find the code of this page on GitHub</p> 
+  <ul> 
+   <li><a href="https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-customize-sites">Open aem-admin-extension-customize-sites project on GitHub</a></li> 
+   <li>Download the project as <a href="https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-customize-sites/archive/master.zip">a ZIP file</a></li> 
+  </ul> 
+  <h3>Create a Custom Console</h3> 
+  <draft-comment color="blue" lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:43.127-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>6.2 Review - is this still a good example?</p> 
+  </draft-comment> 
+  <ol> 
+   <li><p>You can create a custom console with related actions; for example, Launches at the top level (below Sites):</p> 
+    <draft-comment type="draft"> 
+     <img imageRotate="0" src="assets/chlimage_1-255.png" /> 
+    </draft-comment><p>This involves:</p> 
+    <ul> 
+     <li>creating the root space definition of your new console<span class="code"></span>; for example: 
+      <ul> 
+       <li><span class="code">/apps/&amp;lt;<i>yourProject</i>&amp;gt;/admin/ext/launches</span></li> 
+      </ul> </li> 
+     <li>this can contain (according to requirements):<br /> 
+      <ul> 
+       <li>the corresponding <a href="../../../sites/developing/using/clientlibs.md">clientlibs</a> for custom actions and <span class="code">less</span>/<span class="code">css</span> definitions 
+        <ul> 
+         <li><span class="code">/apps/&amp;lt;<i>yourProject</i>&amp;gt;/admin/ext/launches/clientlibs</span></li> 
+        </ul> </li> 
+       <li>components that need to be redefined/adjusted; for example, the breadcrumbs, datasource and the launch 
+        <ul> 
+         <li><span class="code">/apps/&amp;lt;<i>yourProject</i>&amp;gt;/admin/ext/launches/components</span></li> 
+        </ul> </li> 
+       <li>the Granite UI page resource: 
+        <ul> 
+         <li><span class="code">/apps/&amp;lt;<i>yourProject</i>&amp;gt;/admin/ext/launches/content/jcr:content</span><br /> property: <span class="code">sling:resourceType</span></li> 
+        </ul> </li> 
+       <li>the page definition of the console 
+        <ul> 
+         <li><span class="code">/apps/&amp;lt;<i>yourProject</i>&amp;gt;/admin/ext/launches/content/jcr:content/head</span></li> 
+         <li><span class="code">/apps/&amp;lt;<i>yourProject</i>&amp;gt;/admin/ext/launches/content/jcr:content/body</span></li> 
+        </ul> </li> 
+      </ul> </li> 
+    </ul> 
+    <draft-comment type="draft"> 
+     <img imageRotate="0" src="assets/chlimage_1-256.png" /> 
+    </draft-comment><img imageRotate="0" src="assets/chlimage_1-257.png" /><p>To use the new console (for example in the <a href="#addnewnavigationoptiontorail">rail for navigation</a>) an ID is used, so that it can be explicitly referenced. The ID is used to connect the console and its navigation definition. The ID is defined in the <span class="code">rail</span> node of the page; for example, for the Sites console: </p> 
+    <ul> 
+     <li>the rail node is:<br /> <span class="code">/libs/wcm/core/content/sites/jcr:content/body/rail</span> 
+      <ul> 
+       <li>here the <span class="code">currentId</span> property is defined:<br /> <span class="code">currentId</span> = <span class="code">cq-sites</span></li> 
+      </ul> </li> 
+    </ul> <p>For the Launches console example:</p> 
+    <ul> 
+     <li>the node is: 
+      <ul> 
+       <li><span class="code">/apps/&amp;lt;<i>yourProject</i>&amp;gt;/admin/ext/launches/content/jcr:content/body/rail </span></li> 
+      </ul> </li> 
+     <li>with the following properties: 
+      <ul> 
+       <li><span class="code">currentId</span> = <span class="code">cq-launches</span></li> 
+       <li><span class="code">sling:resourceType</span> = <span class="code">granite/ui/components/endor/navcolumns</span></li> 
+       <li><span class="code">srcPath</span> = <span class="code">cq/core/content/nav</span></li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Customizing the Default View for a Console</h3> 
+  <p>You can customize the default view (column, card, list) for a console:</p> 
+  <ol> 
+   <li><p>You can reorder the views by overlaying the required entry from under:</p>  <p>The first entry will be the default.</p> <p>The nodes available correlate to the view options in the rail:</p> 
+    <ul> 
+     <li><span class="code">column</span></li> 
+     <li><span class="code">card</span></li> 
+     <li><span class="code">list</span></li> 
+    </ul> </li> 
+   <li><p>For example, in a overlay for list:</p>  <p>Define the following property:</p> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">sling:orderBefore</span></li> 
+     <li><strong>Type</strong>: <span class="code">String</span><br /> </li> 
+     <li><strong>Value</strong>: <span class="code">column</span></li> 
+    </ul> </li> 
+  </ol> 
+  <p><span class="code">aem-admin-extension-customize-sites</span> is a sample package showing how to customize an existing AEM 6 admin console. This package provides updates to Sites administration:</p> 
+  <p>CODE ON GITHUB</p> 
+  <p>You can find the code of this page on GitHub</p> 
+  <ul> 
+   <li><a href="https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-customize-sites">Open aem-admin-extension-customize-sites project on GitHub</a></li> 
+   <li>Download the project as <a href="https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-customize-sites/archive/master.zip">a ZIP file</a></li> 
+  </ul> 
+  <h3>Add New Navigation Option to Rail</h3> 
+  <ol> 
+   <li><p>You can add a navigation entry in the rail (for example, a <a href="#createacustomconsole">custom console</a> such as Launches). </p> <p>To do this, you create an overlay of:</p>  <p>In the <span class="code">/apps</span> overlay:</p>  <p>Create the new nodes and properties: <br /> </p> 
+    <draft-comment type="draft"> 
+     <img imageRotate="0" src="assets/chlimage_1-258.png" /> 
+    </draft-comment><img imageRotate="0" src="assets/chlimage_1-259.png" /> 
+    <ul> 
+     <li>Extend navigation: 
+      <ul> 
+       <li><span class="code">/apps/cq/core/content/nav/launches</span></li> 
+      </ul> </li> 
+     <li>Specify location in the tree: 
+      <ul> 
+       <li>property: <span class="code">sling:orderBefore</span></li> 
+      </ul> </li> 
+     <li>To create the connection, the <span class="code">id</span> property references (i.e. must be the same as) the <span class="code">currentID</span> property <a href="#createacustomconsole">for the appropriate console</a>: 
+      <ul> 
+       <li>property: <span class="code">id</span></li> 
+       <li>value: same as for your console (e.g. <span class="code">cq-launches</span>)<br /> for example: the same value as the <span class="code">currentId</span> property on:<br /> <span class="code">/apps/&amp;lt;<i>yourProject</i>&amp;gt;/admin/ext/launches/content/jcr:content/body/rail</span><br /> <span class="code"></span></li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Add New Action to the Toolbar</h3> 
+  <ol> 
+   <li><p>You can build your own components and include the corresponding client libraries for custom actions. For example, a <strong>Promote to Twitter</strong> action at:</p>  <p>This can then be connected to a toolbar item on your console:</p>  <p>For example, in selection mode:</p>  </li> 
+  </ol> 
+  <h3>Restrict a Toolbar Action to a specific Group</h3> 
+  <ol> 
+   <li><p>You can use a custom rendering condition to overlay the standard action and impose specific conditions that must be fulfilled before it is rendered.</p> <p>For example, create a component to control the renderconditions according to group:</p>  </li> 
+   <li><p>To apply these to the Create Site action on the Sites console:</p>  <p>Create the overlay:</p>  </li> 
+   <li><p>Then add the rendercondition for the action:</p>  <p>Using properties on this node you can define the <span class="code">groups</span> allowed to perform the specific action; for example, <span class="code">administrators</span><br /> </p> </li> 
+  </ol> 
+  <draft-comment type="draft"> 
+   <h3>Renaming a Rail Entry</h3> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <ol> 
+    <li><p>You can rename a navigation entry in the rail by overriding:</p>  </li> 
+    <li><p>Depending on how you want to configure your instance, you might want to consider the impact on:</p> 
+     <ul> 
+      <li>The title as used in the toolbar:<br /> <span class="code">/libs/wcm/core/content/sites/jcr:content/body/title/rootTitle</span></li> 
+      <li>The tab title in the window:<br /> <span class="code">/libs/wcm/core/content/sites/jcr:content/jcr:title</span></li> 
+      <li>The entry in the breadcrumbs<br /> <span class="code">/libs/wcm/core/content/sites/jcr:content/body/breadcrumbs/rootTitle</span> </li> 
+     </ul> 
+     <draft-comment color="blue" lastModifiedBy="gknob@adobe.com" lastModifiedDate="2018-01-18T11:19:44.506-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+      <p>Also found this entry - where/how is it used?</p> 
+      <p>/libs/cq/gui/content/common/links/sites/jcr:title - ??? seems to be a left-over</p> 
+      <p>gknob: yes, this one can be ignored.</p> 
+     </draft-comment></li> 
+   </ol> 
+  </draft-comment> 
+  <h3>Remove Access to Navigation Option on Rail</h3> 
+  <ol> 
+   <li><p>You can rename a navigation entry in the rail by overlaying the required entry from under:</p>  <p>The nodes available correlate to the navigation options in the rail:</p> 
+    <ul> 
+     <li><span class="code">projects</span></li> 
+     <li><span class="code">sites</span></li> 
+     <li><code class="code">assets
+       <discoiqbr /> </code></li> 
+     <li><span class="code">apps</span></li> 
+     <li><span class="code">forms</span></li> 
+     <li><span class="code">screens</span></li> 
+     <li><span class="code">personalization</span></li> 
+     <li><span class="code">commerce</span></li> 
+     <li><span class="code">tools</span></li> 
+     <li><code class="code">communities
+       <discoiqbr /> </code></li> 
+    </ul> </li> 
+   <li><p>For example, on a overlay at:</p>  <p>Define the following property:</p> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">sling:hideResource</span></li> 
+     <li><strong>Type</strong>: <span class="code">String</span><br /> </li> 
+     <li><strong>Value</strong>: <span class="code">true</span></li> 
+    </ul> </li> 
+  </ol> 
+  <p><span class="code">aem-admin-extension-customize-sites</span> is a sample package showing how to customize an existing AEM 6 admin console. This package provides updates to Sites administration:</p> 
+  <p>CODE ON GITHUB</p> 
+  <p>You can find the code of this page on GitHub</p> 
+  <ul> 
+   <li><a href="https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-new-console">Open aem-admin-extension-new-console project on GitHub</a></li> 
+   <li>Download the project as <a href="https://github.com/Adobe-Marketing-Cloud/aem-admin-extension-new-console/archive/master.zip">a ZIP file</a></li> 
+  </ul> 
+  <h3>Restrict Access to Navigation Option on Rail</h3> 
+  <p>You can restrict access to a navigation option using ACLs:<br /> </p> 
+  <ol> 
+   <li><p>Open the <a href="../../../sites/administering/using/security.md">user and/or group management</a> and select the user/group you want to restrict access for.<br /> </p> 
+    <note> 
+     <p>Avoid assigning/restricting permissions on a user-by-user basis. It is <a href="../../../sites/administering/using/security.md#bestpractices">recommended to use groups</a>.</p> 
+    </note></li> 
+   <li><p>Remove access <a href="../../../sites/administering/using/security.md#permissions">permissions</a> to the appropriate node(s) under <span class="code">/libs/cq/core/content/nav/sites</span>. These correlate to the navigation options in the rail:</p> 
+    <ul> 
+     <li><span class="code">projects</span></li> 
+     <li><span class="code">sites</span></li> 
+     <li><code class="code">assets
+       <discoiqbr /> </code></li> 
+     <li><span class="code">apps</span></li> 
+     <li><span class="code">forms</span></li> 
+     <li><span class="code">screens</span></li> 
+     <li><span class="code">personalization</span></li> 
+     <li><span class="code">commerce</span></li> 
+     <li><span class="code">tools</span></li> 
+     <li><code class="code">communities
+       <discoiqbr /> </code></li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Customizing Columns in the List View</h3> 
+  <note> 
+   <p>This feature is optimized for columns of text fields; for other data types it is possible to overlay <span class="code">cq/gui/components/siteadmin/admin/listview/columns/analyticscolumnrenderer</span> in <span class="code">/apps</span>.</p> 
+  </note> 
+  <p>CODE ON GITHUB</p> 
+  <p>You can find the code of this page on GitHub</p> 
+  <ul> 
+   <li><a href="https://github.com/Adobe-Marketing-Cloud/aem-sites-extension-listview-columns">Open aem-sites-extension-listview-columns project on GitHub</a></li> 
+   <li>Download the project as <a href="https://github.com/Adobe-Marketing-Cloud/aem-sites-extension-listview-columns/archive/master.zip">a ZIP file</a></li> 
+  </ul> 
+  <p>To customize the columns in the list view:</p> 
+  <ol> 
+   <li><p>Overlay the list of available columns.</p> 
+    <ul> 
+     <li>On the node:<code class="code">
+       <discoiqbr /> /apps/wcm/core/content/common/availablecolumns</code></li> 
+     <li>Add your new columns - or remove existing ones.</li> 
+    </ul> <p>See <a href="../../../sites/developing/using/overlays.md">Using Overlays (and the Sling Resource Merger)</a> for more information.<br /> </p> </li> 
+   <li><p>Optionally:</p> 
+    <ul> 
+     <li>If you want to plug additional data, you need to write a <span class="code"><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageInfoProvider">PageInforProvider</a></span> with a <br /> <span class="code">pageInfoProviderType</span> property.<br /> </li> 
+    </ul> <p>For example, see the class/bundle attached (from GitHub) below.</p> </li> 
+   <li><p>You can now select the column in the column configurator of list view.</p> </li> 
+  </ol> 
+  <h3>Filtering Resources</h3> 
+  <p>When using a console, a common use case is when the user must select from resources (e.g. pages, components, assets, etc.). This can take the form of a list for example from which the author must choose an item.</p> 
+  <p>In order to keep the list to a reasonable size and also relevant to the use case, a filter can be implemented in the form of a custom predicate. See <a href="../../../sites/developing/using/customizing-page-authoring-touch.md#main-pars-title-936239831">this article</a> for details.</p> 
+ </body> 
+</html>

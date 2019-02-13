@@ -1,0 +1,108 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/updating-link-help-documentation.html" name="publishQAURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-26T04:31:53.054-0400" name="locHandOffDate" /> 
+  <meta content="robhagat" name="lr_lastModifiedBy" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-03T08:55:41.619-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-26T04:31:53.055-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="15" name="acrolinxSentences" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-03T08:55:41.696-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2d5c4984-f22e-4a14-87db-520371cef7d5" name="jcr:predecessors" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2013-02-19T05:45:24.605-0500" name="firstPublishQADate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Updating the link to the Help/documentation" name="navTitle" /> 
+  <meta content="" name="autotags" /> 
+  <meta content="2013-04-05T06:44:29.797-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" /> 
+  <meta content="26c1ddba-035f-49c2-a65b-40ed718b0b8e" name="jcr:uuid" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" /> 
+  <meta content="163" name="acrolinxWords" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/updating_link_help_documentation_admin_5e12de0b318c6865_2150_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2015-09-28T10:57:14.638-0400" name="lastPublishQADate" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="sortDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a5429249-6113aa2713ccec65204-7fff" name="cq:gepId" /> 
+  <meta content="robhagat" name="contentOwner" /> 
+  <meta content="" name="autotagsRejected" /> 
+  <meta content="Updating the link to the documentation" name="jcr:title" /> 
+  <meta content="2017-12-01T19:01:03.637-0500" name="jcr:created" /> 
+  <meta content="robhagat" name="lr_creator" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/forms-workspace;/content/help/en/experience-manager/6-4/forms/using/morehelp/forms-workspace" name="moreHelpPaths" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/updating-link-help-documentation.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T08:55:41.619-0400" name="publishExternalDate" /> 
+  <meta content="How-to update the destination of Workspace Help link in AEM Forms workspace to point to your custom documentation link." name="seoDescription" /> 
+  <meta content="2016-05-31T06:49:44.986-0400" name="acrolinxDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2015-09-28T10:57:14.638-0400" name="publishQADate" /> 
+ </head> 
+ <body> 
+  <p>You can access the default help content for AEM Forms workspace by selecting <strong>Help &amp;gt; Workspace Help</strong>. It points to the online documentation on Adobe's website. However, you can update it to point to any other URL.</p> 
+  <p>Consider the following use cases where you may want to change the default help URL:</p> 
+  <ul> 
+   <li>For providing localized help in a language of your choice.</li> 
+   <li>For providing customized help content for your customized workspace.<br /> </li> 
+  </ul> 
+  <p>To update the URL of the online documentation, follow the <a href="../../forms/using/generic-steps-html-workspace-customization.md">Generic Steps of customization</a> and then the following steps.</p> 
+  <ol> 
+   <li><p>Copy the <span class="code">userinfo.html</span> file from <span class="code">/libs/ws/js/runtime/templates</span> to <span class="code">/apps/ws/js/runtime/templates</span>.</p> </li> 
+   <li><p>Change:</p> 
+    <codeblock gutter="true" class="syntax plain">
+      &lt;ul&amp;nbsp;class="helpmenu"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="http://www.adobe.com/go/learn_aemforms_documentation_63"&amp;nbsp;title="&lt;%=&amp;nbsp;$.t('index.header.dropdown.WorkspaceHelp')%&gt;"&amp;nbsp;target="_blank"&gt;&lt;%=&amp;nbsp;$.t('index.header.dropdown.WorkspaceHelp')%&gt;&lt;/a&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/li&gt; 
+    </codeblock><p>to</p> 
+    <codeblock gutter="true" class="syntax plain">
+      &lt;ul&amp;nbsp;class="helpmenu"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="&lt;!--place&amp;nbsp;new&amp;nbsp;help&amp;nbsp;url&amp;nbsp;here--&gt;"&amp;nbsp;title="&lt;%=&amp;nbsp;$.t('index.header.dropdown.WorkspaceHelp')%&gt;"&amp;nbsp;target="_blank"&gt;&lt;%=&amp;nbsp;$.t('index.header.dropdown.WorkspaceHelp')%&gt;&lt;/a&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/li&gt; 
+    </codeblock></li> 
+   <li><p>Do the following:</p> 
+    <ol> 
+     <li>Open /apps/ws/js/registry.js for editing.</li> 
+     <li>Search and replace <span class="code">text!/lc/libs/ws/js/runtime/templates/userinfo.html</span> with <span class="code">text!/lc/apps/ws/js/runtime/templates/userinfo.html</span>.</li> 
+    </ol> </li> 
+  </ol> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links> 
+   <a href="../../forms/using/introduction-customizing-html-workspace.md">Introduction to Customizing AEM Forms workspace</a> 
+   <a href="../../forms/using/generic-steps-html-workspace-customization.md">Generic steps for AEM Forms workspace customization</a> 
+   <a href="../../forms/using/tasks-organizational-hierarchy-using-manager.md">Managing tasks in an organizational hierarchy using Manager View</a> 
+   <a href="../../forms/using/integrating-correspondence-management-html-workspace.md">Integrating Correspondence Management in AEM Forms workspace</a> 
+   <a href="../../forms/using/single-sign-timeout-handlers.md">Single Sign On and timeout handlers</a> 
+   <a href="../../forms/using/displaying-user-avatar.md">Displaying the user avatar</a> 
+   <a href="../../forms/using/displaying-information-task-summary-pane.md">Displaying information in the Task Summary pane</a> 
+   <a href="../../forms/using/changing-organization-logo-branding.md">Changing the organization logo</a> 
+   <a href="../../forms/using/changing-color-scheme-interface.md">Changing the color scheme of the interface</a> 
+   <a href="../../forms/using/changing-font-interface.md">Changing the font on the interface</a> 
+   <a href="../../forms/using/changing-locale-user-interface.md">Changing the locale of the user interface</a> 
+   <a href="../../forms/using/customizing-error-dialogs.md">Customizing error dialogs</a> 
+   <a href="../../forms/using/customizing-tabs-task.md">Customizing tabs for a task</a> 
+   <a href="../../forms/using/customizing-task-actions.md">Customizing Task Actions</a> 
+   <a href="../../forms/using/customizing-listing-process-instances.md">Customizing the listing of process instances</a> 
+   <a href="../../forms/using/customizing-task-details-page.md">Customizing the task Details page</a> 
+   <a href="../../forms/using/display-additional-data-in-todo-list.md">Displaying additional data in ToDo list</a> 
+   <a href="../../forms/using/getting-task-variables-summary-url.md">Getting Task Variables in Summary URL</a> 
+   <a href="../../forms/using/images-route-actions.md">Images for Route Actions</a> 
+   <a href="../../forms/using/creating-new-login-screen.md">Creating a new login screen</a> 
+   <a href="../../forms/using/minification-javascript-files.md">Minification of the JavaScript files</a> 
+   <a href="../../forms/using/sorting-tracking-tables-add-columns.md">Sorting of Tracking tables and adding more columns</a> 
+   <a href="../../forms/using/updating-link-help-documentation.md">Updating the link to the documentation</a> 
+   <a href="../../forms/using/two-html-workspace-instances-one.md">Hosting two AEM Forms workspace instances on one server</a> 
+  </related-links> 
+ </body> 
+</html>

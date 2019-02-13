@@ -1,0 +1,364 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Learn how to configure AEM so that a replication agent on the author instance uses mutual SSL (MSSL) to connect with the publish instance. Using MSSL, the replication agent and the HTTP service on the publish instance use certificates to authenticate each other. " name="seoDescription" /> 
+  <meta content="2018-04-30T03:28:01.431-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-03T08:43:24.542-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/configuring;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/configuring" name="moreHelpPaths" /> 
+  <meta content="2018-04-03T08:43:26.591-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/mssl-replication.html" name="publishExternalURL" /> 
+  <meta content="2017-12-01T19:06:58.509-0500" name="jcr:created" /> 
+  <meta content="Replicating Using Mutual SSL" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy/configuring/replication/mssl-replication" name="qaNotes" /> 
+  <meta content="Replicating Using Mutual SSL" name="seoTitle" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T08:43:24.542-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-30T03:28:01.430-0400" name="locHandOffDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:configuring" name="cq:tags" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="a730eacd-cb3e-4626-833e-10044909df2c" name="jcr:uuid" /> 
+  <meta content="2018-04-03T08:43:24.542-0400" name="topicBrowsingSortDate" /> 
+  <meta content="e7f7d4ef-dad7-4cee-a185-95eefab658ab" name="jcr:predecessors" /> 
+  <meta content="2017-10-31T16:17:52.637-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="Replicating Using Mutual SSL" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+ </head> 
+ <body> 
+  <p>Configure AEM so that a replication agent on the author instance uses mutual SSL (MSSL) to connect with the publish instance. Using MSSL, the replication agent and the HTTP service on the publish instance use certificates to authenticate each other. </p> 
+  <p>Configuring MSSL for replication involves performing the following steps:</p> 
+  <ol> 
+   <li>Create or obtain private keys and certificates for the author and publish instances.</li> 
+   <li>Install the keys and certificates on the author and publish instances:<br /> 
+    <ul> 
+     <li>Author: Author's private key and Publish's certificate.</li> 
+     <li>Pubish: Publish's private key and Author's certificate. The certificate is associated with the user account that is authenticated with the replication agent.</li> 
+    </ul> </li> 
+   <li>Configure the Jetty-Based HTTP Service on the Publish instance.</li> 
+   <li>Configure the transport and SSL properties of the replication agent. </li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-71.png" /> 
+  <p>You must determine which user account is performing the replication. When installing the trusted author certificate on the publish instance, the certificate is associated with this user account. </p> 
+  <h2>Obtaining or Creating Credentials for MSSL</h2> 
+  <p>You require a private key and public certificate for the author and publish instances:</p> 
+  <ul> 
+   <li>Private keys must be contained in pkcs#12 or JKS format.</li> 
+   <li>Certificates must be contained in pkcs#12 or JKS format. Additionally certificate contained in "CER" format can also be added to Granite Truststore.</li> 
+   <li>Certificates can be self-signed or signed by a recognized CA.</li> 
+  </ul> 
+  <h4>JKS Format</h4> 
+  <p>Generate a private key and a certificate in JKS format. The private key is stored in a KeyStore file, and the certificate is stored in a TrustStore file. Use <a href="http://docs.oracle.com/javase/7/docs/technotes/tools/solaris/keytool.html">Java <span class="code">keytool</span></a> to create both.</p> 
+  <p>Perform the following steps using Java <span class="code">keytool</span> to create the private key and the credential:</p> 
+  <ol> 
+   <li>Generate a private-public key pair in a KeyStore.</li> 
+   <li>Create or obtain the certificate: 
+    <ul> 
+     <li>Self-signed: Export the certificate from the KeyStore.</li> 
+     <li>CA-signed: Generate a certificate request and send it to the CA.</li> 
+    </ul> </li> 
+   <li>Import the certificate into a TrustStore.</li> 
+  </ol> 
+  <div>
+    Use the following procedure to create a private key and a self-signed certificate for both the author and publish instances. Use different values for command options accordingly. 
+  </div> 
+  <ol> 
+   <li><p>Open a command-line window or terminal. To create the private-public key pair, enter the following command, using option values from the table below:</p> 
+    <codeblock class="syntax shell">
+      keytool&amp;nbsp;-genkeypair&amp;nbsp;-keyalg&amp;nbsp;RSA&amp;nbsp;-validity&amp;nbsp;3650&amp;nbsp;-alias&amp;nbsp;alias&amp;nbsp;-keystore&amp;nbsp;keystorename.keystore&amp;nbsp;&amp;nbsp;-keypass&amp;nbsp;key_password&amp;nbsp;-storepass&amp;nbsp;&amp;nbsp;store_password&amp;nbsp;-dname&amp;nbsp;"CN=Host&amp;nbsp;Name,&amp;nbsp;OU=Group&amp;nbsp;Name,&amp;nbsp;O=Company&amp;nbsp;Name,L=City&amp;nbsp;Name,&amp;nbsp;S=State,&amp;nbsp;C=Country_&amp;nbsp;Code" 
+    </codeblock> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Option</th> 
+       <th>Author</th> 
+       <th>Publish</th> 
+      </tr> 
+      <tr> 
+       <td>-alias</td> 
+       <td>author</td> 
+       <td>publish</td> 
+      </tr> 
+      <tr> 
+       <td>-keystore</td> 
+       <td>author.keystore</td> 
+       <td>publish.keystore</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li><p>To export the certificate, enter the following command using option values from the table below:</p> 
+    <codeblock class="syntax shell">
+      keytool&amp;nbsp;-exportcert&amp;nbsp;-alias&amp;nbsp;alias&amp;nbsp;-file&amp;nbsp;cert_file&amp;nbsp;-storetype&amp;nbsp;jks&amp;nbsp;-keystore&amp;nbsp;keystore&amp;nbsp;-storepass&amp;nbsp;store_password 
+    </codeblock> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Option</th> 
+       <th>Author</th> 
+       <th>Publish</th> 
+      </tr> 
+      <tr> 
+       <td>-alias</td> 
+       <td>author</td> 
+       <td>publish</td> 
+      </tr> 
+      <tr> 
+       <td>-file</td> 
+       <td>author.cer</td> 
+       <td>publish.cer</td> 
+      </tr> 
+      <tr> 
+       <td>-keystore</td> 
+       <td>author.keystore</td> 
+       <td>publish.keystore</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+  </ol> 
+  <h4>pkcs#12 Format</h4> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Generate a private key and a certificate in pkcs#12 format. Use <a href="https://www.openssl.org/">openSSL</a> to generate them. Use the following procedure to generate a private key and a certificate request. To obtain the certificate, either sign the request with your private key (self-signed certificate) or send the request to a CA. Then, generate the pkcs#12 archive that contains the private key and the certificate.</p> 
+  <ol> 
+   <li><p>Open a command-line window or terminal. To create the private key, enter the following command, using option values from the table below:</p> 
+    <codeblock class="syntax shell">
+      openssl&amp;nbsp;genrsa&amp;nbsp;-out&amp;nbsp;keyname.key&amp;nbsp;2048 
+    </codeblock> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Option</th> 
+       <th>Author</th> 
+       <th>Publish</th> 
+      </tr> 
+      <tr> 
+       <td>-out</td> 
+       <td>author.key</td> 
+       <td>publish.key</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li><p>To generate a certificate request, enter the following command, using option values from the table below:</p> 
+    <codeblock class="syntax shell">
+      openssl&amp;nbsp;req&amp;nbsp;-new&amp;nbsp;-key&amp;nbsp;keyname.key&amp;nbsp;-out&amp;nbsp;key_request.csr 
+    </codeblock> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Option</th> 
+       <th>Author</th> 
+       <th>Publish</th> 
+      </tr> 
+      <tr> 
+       <td>-key</td> 
+       <td>author.key</td> 
+       <td>publish.key</td> 
+      </tr> 
+      <tr> 
+       <td>-out</td> 
+       <td>author_request.csr</td> 
+       <td>publish_request.csr</td> 
+      </tr> 
+     </tbody> 
+    </table> <p>Either sign the certificate request or send the request to a CA.</p> </li> 
+   <li><p>To sign the certificate request, enter the following command, using option values from the table below:</p> 
+    <codeblock class="syntax shell">
+      openssl&amp;nbsp;x509&amp;nbsp;-req&amp;nbsp;-days&amp;nbsp;3650&amp;nbsp;-in&amp;nbsp;key_request.csr&amp;nbsp;-signkey&amp;nbsp;keyname.key&amp;nbsp;-out&amp;nbsp;certificate.cer 
+    </codeblock> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Option</th> 
+       <th>Author</th> 
+       <th>Publish</th> 
+      </tr> 
+      <tr> 
+       <td>-signkey</td> 
+       <td>author.key</td> 
+       <td>publish.key</td> 
+      </tr> 
+      <tr> 
+       <td>-in</td> 
+       <td>author_request.csr</td> 
+       <td>publish_request.csr</td> 
+      </tr> 
+      <tr> 
+       <td>-out</td> 
+       <td>author.cer</td> 
+       <td>publish.cer</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li><p>To add your private key and the signed certificate to a pkcs#12 file, enter the following command, using option values from the table below:</p> 
+    <codeblock class="syntax shell">
+      openssl&amp;nbsp;pkcs12&amp;nbsp;-keypbe&amp;nbsp;PBE-SHA1-3DES&amp;nbsp;-certpbe&amp;nbsp;PBE-SHA1-3DES&amp;nbsp;-export&amp;nbsp;-in&amp;nbsp;certificate.cer&amp;nbsp;-inkey&amp;nbsp;keyname.key&amp;nbsp;-out&amp;nbsp;pkcs12_archive.pfx&amp;nbsp;-name&amp;nbsp;"alias" 
+    </codeblock> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Option</th> 
+       <th>Author</th> 
+       <th>Publish</th> 
+      </tr> 
+      <tr> 
+       <td>-inkey</td> 
+       <td>author.key</td> 
+       <td>publish.key</td> 
+      </tr> 
+      <tr> 
+       <td>-out</td> 
+       <td>author.pfx</td> 
+       <td>publish.pfx</td> 
+      </tr> 
+      <tr> 
+       <td>-in</td> 
+       <td>author.cer</td> 
+       <td>publish.cer</td> 
+      </tr> 
+      <tr> 
+       <td>-name</td> 
+       <td>author</td> 
+       <td>publish</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+  </ol> 
+  <h2>Install the Private Key and TrustStore on Author</h2> 
+  <p>Install the following items on the author instance:</p> 
+  <ul> 
+   <li>The private key of the author instance.</li> 
+   <li>The certificate of the publish instance.</li> 
+  </ul> 
+  <div>
+    To perform the following procedure, you must be logged in as an adminstrator of the author instance. 
+  </div> 
+  <h4>Install the Author Private Key</h4> 
+  <ol> 
+   <li><p>Open the User Management page for the author instance. (<a href="http://localhost:4502/libs/granite/security/content/useradmin.html">http://localhost:4502/libs/granite/security/content/useradmin.html</a>)</p> </li> 
+   <li><p>To open the properties of your user account, click or tap your user name. </p> </li> 
+   <li><p>If the Create KeyStore link appears in the Account Settings area, click the link. Configure a password and click OK.</p> </li> 
+   <li><p>In the Account Settings area, click Manage Keystore.</p> <img imageRotate="0" src="assets/chlimage_1-72.png" /></li> 
+   <li><p>Click Add Private Key From Key Store File.</p> <img imageRotate="0" src="assets/chlimage_1-73.png" /></li> 
+   <li><p>Click Select Key Store file, then browse for and select the author.keystore file or the author.pfx file if using pkcs#12, then click Open.</p> </li> 
+   <li><p>Enter an alias and the password for the key store. Enter the alias and password for the private key, then click Submit.</p> </li> 
+   <li><p>Close the KeyStore Management dialog box.</p> <img imageRotate="0" src="assets/chlimage_1-74.png" /></li> 
+  </ol> 
+  <h4>Install the Publish Certificate</h4> 
+  <ol> 
+   <li><p>Open the User Management page for the author instance. (<a href="http://localhost:4502/libs/granite/security/content/useradmin.html">http://localhost:4502/libs/granite/security/content/useradmin.html</a>)</p> </li> 
+   <li><p>To open the properties of your user account, click or tap your user name. </p> </li> 
+   <li><p>If the Create TrustStore link appears in the Account Settings area, click the link, create a password for the TrustStore and click OK.</p> </li> 
+   <li><p>In the Account Settings area, click Manage TrustStore.</p> </li> 
+   <li><p>Click Add Certificate From CER File.</p> <img imageRotate="0" src="assets/chlimage_1-75.png" /></li> 
+   <li><p>Clear the Map Certificate to User option. Click Select Certificate File, select publish.cer, and click Open.</p> </li> 
+   <li><p>Close the TrustStore Management dialog box.</p> <img imageRotate="0" src="assets/chlimage_1-76.png" /></li> 
+  </ol> 
+  <h2>Install Private Key and TrustStore on Publish</h2> 
+  <p>Install the following items on the publish instance:</p> 
+  <ul> 
+   <li>The private key of the publish instance.</li> 
+   <li>The certificate of the author instance. Associate the certificate with the user that is used to execute replication requests.</li> 
+  </ul> 
+  <div>
+    To perform the following procedure, you must be logged in as an adminstrator of the publish instance. 
+  </div> 
+  <h4>Install the Publish Private Key</h4> 
+  <ol> 
+   <li><p>Open the User Management page for the publish instance. (<a href="http://localhost:4503/libs/granite/security/content/useradmin.html">http://localhost:4503/libs/granite/security/content/useradmin.html</a>)</p> </li> 
+   <li><p>To open the properties of your user account, click or tap your user name. </p> </li> 
+   <li><p>If the Create KeyStore link appears in the Account Settings area, click the link. Configure a password and click OK.</p> </li> 
+   <li><p>In the Account Settings area, click Manage Keystore.</p> </li> 
+   <li><p>Click Add Private Key From Key Store File.</p> </li> 
+   <li><p>Click Select Key Store file, then browse for and select the publish.keystore file or the publish.pfx file if using pkcs#12, then click Open.</p> </li> 
+   <li><p>Enter an alias and the password for the key store. Enter the alias and password for the private key, then click Submit.</p> </li> 
+   <li><p>Close the KeyStore Management dialog box.</p> </li> 
+  </ol> 
+  <h4>Install the Author Certificate</h4> 
+  <ol> 
+   <li><p>Open the User Management page for the publish instance. (<a href="http://localhost:4503/libs/granite/security/content/useradmin.html">http://localhost:4503/libs/granite/security/content/useradmin.html</a>)</p> </li> 
+   <li><p>Locate the user account that you use to execute replication requests, and click or tap the user name. </p> </li> 
+   <li><p>If the Create TrustStore link appears in the Account Settings area, click the link, create a password for the TrustStore and click OK.</p> </li> 
+   <li><p>In the Account Settings area, click Manage TrustStore.</p> </li> 
+   <li><p>Click Add Certificate From CER File.</p> </li> 
+   <li><p>Make sure the Map Certificate to User option is selected. Click Select Certificate File, select author.cer, and click Open.</p> </li> 
+   <li><p>Click Submit, then close the TrustStore Management dialog box.</p> </li> 
+  </ol> 
+  <h2>Configure the HTTP Service on Publish</h2> 
+  <p>Configure the properties of the Apache Felix Jetty Based HTTP Service on the publish instance so that it uses HTTPS while accessing Granite Keystore. The PID of the service is <span class="code">org.apache.felix.http</span>.</p> 
+  <p>The following table lists the OSGi properties that you need to configure whether you are using the Web Console.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Property Name on Web Console</th> 
+     <th>OSGi Property Name</th> 
+     <th>Value</th> 
+    </tr> 
+    <tr> 
+     <td>Enable HTTPS</td> 
+     <td>org.apache.felix.https.enable</td> 
+     <td>true</td> 
+    </tr> 
+    <tr> 
+     <td>Enable HTTPS To Use Granite KeyStore</td> 
+     <td>org.apache.felix.https.use.granite.keystore</td> 
+     <td>true</td> 
+    </tr> 
+    <tr> 
+     <td>HTTPS Port</td> 
+     <td>org.osgi.service.http.port.secure</td> 
+     <td>8443 (or other desired port)</td> 
+    </tr> 
+    <tr> 
+     <td>Client Certificate</td> 
+     <td>org.apache.felix.https.clientcertificate</td> 
+     <td>"Client Certificate Wanted"</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Configure the Replication Agent on Author</h2> 
+  <p>Configure the replication agent on the author instance to use the HTTPS protocol when connecting to the publish instance. For complete information about configuring replication agents see <a href="../../../sites/deploying/using/replication.md#configuringyourreplicationagents">Configuring Your Replication Agents</a>.</p> 
+  <p>To enable MSSL, configure the properties on the Transport tab according to the following table:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Property</th> 
+     <th>Value</th> 
+    </tr> 
+    <tr> 
+     <td>URI</td> 
+     <td><p>https://server_name:SSL_port/bin/receive?sling:authRequestLogin=1</p> <p>For example:</p> <p>https://localhost:8443/bin/receive?sling:authRequestLogin=1</p> </td> 
+    </tr> 
+    <tr> 
+     <td>User</td> 
+     <td>No value</td> 
+    </tr> 
+    <tr> 
+     <td>Password</td> 
+     <td>No value</td> 
+    </tr> 
+    <tr> 
+     <td>SSL</td> 
+     <td>Client Auth</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <img imageRotate="0" src="assets/chlimage_1-77.png" /> 
+  <p>After you configure the replication agent, test the connection to determine whether MSSL is configured correctly.</p> 
+  <codeblock class="syntax xml">
+    29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;Create&amp;nbsp;new&amp;nbsp;HttpClient&amp;nbsp;for&amp;nbsp;Default&amp;nbsp;Agent!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;*&amp;nbsp;HTTP&amp;nbsp;Version:&amp;nbsp;1.1!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;*&amp;nbsp;Using&amp;nbsp;Client&amp;nbsp;Auth&amp;nbsp;SSL&amp;nbsp;configuration&amp;nbsp;*!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;adding&amp;nbsp;header:&amp;nbsp;Action:Test!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;adding&amp;nbsp;header:&amp;nbsp;Path:/content!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;adding&amp;nbsp;header:&amp;nbsp;Handle:/content!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;deserialize&amp;nbsp;content&amp;nbsp;for&amp;nbsp;delivery!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;No&amp;nbsp;message&amp;nbsp;body:&amp;nbsp;Content&amp;nbsp;ReplicationContent.VOID&amp;nbsp;is&amp;nbsp;empty!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;Sending&amp;nbsp;POST&amp;nbsp;request&amp;nbsp;to&amp;nbsp;https://localhost:8443/bin/receive?sling:authRequestLogin=1!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;sent.&amp;nbsp;Response:&amp;nbsp;200&amp;nbsp;OK!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;------------------------------------------------!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;Sending&amp;nbsp;message&amp;nbsp;to&amp;nbsp;localhost:8443!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&gt;&gt;&amp;nbsp;POST&amp;nbsp;/bin/receive&amp;nbsp;HTTP/1.0!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&gt;&gt;&amp;nbsp;Action:&amp;nbsp;Test!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&gt;&gt;&amp;nbsp;Path:&amp;nbsp;/content!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&gt;&gt;&amp;nbsp;Handle:&amp;nbsp;/content!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&gt;&gt;&amp;nbsp;Referer:&amp;nbsp;about:blank!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&gt;&gt;&amp;nbsp;Content-Length:&amp;nbsp;0!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&gt;&gt;&amp;nbsp;Content-Type:&amp;nbsp;application/octet-stream!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;--!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&lt;&lt;&amp;nbsp;HTTP/1.1&amp;nbsp;200&amp;nbsp;OK!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&lt;&lt;&amp;nbsp;Connection:&amp;nbsp;Keep-Alive!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&lt;&lt;&amp;nbsp;Server:&amp;nbsp;Day-Servlet-Engine/4.1.64!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&lt;&lt;&amp;nbsp;Content-Type:&amp;nbsp;text/plain;charset=utf-8!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&lt;&lt;&amp;nbsp;Content-Length:&amp;nbsp;26!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&lt;&lt;&amp;nbsp;Date:&amp;nbsp;Fri,&amp;nbsp;29&amp;nbsp;Aug&amp;nbsp;2014&amp;nbsp;18:02:46&amp;nbsp;GMT!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&lt;&lt;&amp;nbsp;Set-Cookie:&amp;nbsp;login-token=3529326c-1500-4888-a4a3-93d299726f28%3ac8be86c6-04bb-4d18-80d6-91278e08d720_98797d969258a669%3acrx.default;&amp;nbsp;Path=/;&amp;nbsp;HttpOnly;&amp;nbsp;Secure!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&lt;&lt;&amp;nbsp;Set-Cookie:&amp;nbsp;cq-authoring-mode=CLASSIC;&amp;nbsp;Path=/;&amp;nbsp;Secure!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&lt;&lt;!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&lt;&lt;&amp;nbsp;R!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;&lt;&lt;&amp;nbsp;eplicationAction&amp;nbsp;TEST&amp;nbsp;ok.!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;Message&amp;nbsp;sent.!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;------------------------------------------------!!discoiqbr!!29.08.2014&amp;nbsp;14:02:46&amp;nbsp;-&amp;nbsp;Replication&amp;nbsp;(TEST)&amp;nbsp;of&amp;nbsp;/content&amp;nbsp;successful.!!discoiqbr!!Replication&amp;nbsp;test&amp;nbsp;succeeded 
+  </codeblock> 
+ </body> 
+</html>

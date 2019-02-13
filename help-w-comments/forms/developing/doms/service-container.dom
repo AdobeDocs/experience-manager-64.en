@@ -1,0 +1,99 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-04-03T08:30:24.163-0400" name="cq:lastReplicated" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/developing/morehelp/coding;/content/help/en/experience-manager/6-4/forms/developing/morehelp/development-tools;/content/help/en/experience-manager/6-4/forms/developing/morehelp/coding;/content/help/en/experience-manager/6-4/forms/developing/morehelp/development-tools" name="moreHelpPaths" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:coding;topic_tags:development-tools" name="cq:tags" />
+  <meta content="2017-11-21T06:59:08.397-0500" name="cq:lastModified" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="ab05330c-2740-4908-9206-6958f3c6d374" name="jcr:uuid" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-07-12T07:03:00.000-0400" name="sortDate" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2017-11-01T04:29:33.703-0400" name="unpublishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2017-11-22T19:02:41.545-0500" name="jcr:created" />
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7ab4.2" name="cq:gepId" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="light" name="heroGradient" />
+  <meta content="vishgupt@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2017-10-03T06:49:00.274-0400" name="firstPublishExternalDate" />
+  <meta content="" name="publishExternalURL" />
+  <meta content="Service container" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-10-31T16:33:00.862-0400" name="lastPublishExternalDate" />
+  <meta content="2017-07-12T07:03:40.274-0400" name="lr_lastModified" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="e44029d7-a700-4337-8fe6-7ac36f84c385" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="video" name="pageLayout" />
+  <meta content="left" name="sideColumn" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Service container" name="jcr:title" />
+ </head>
+ <body>
+  <p>AEM Forms services located in the service container (including standard servces such as the Encryption service, long-lived, and short-lived processes) can be invoked using various providers, such as an EJB provider. An EJB provider enables AEM Forms services to be invoked over RMI/IIOP. A web service provider exposes services as web services (WSDL Generation) using standards such as SOAP/HTTP and SOAP/JMS.</p>
+  <p>The following table describes the different ways in which you can programmatically invoke AEM Forms services. </p>
+  <table cellpadding="4" cellspacing="0">
+   <thead align="left">
+    <tr>
+     <th class="cellrowborder" id="d19e4697" valign="top" width="NaN%"><p>Invocation method</p></th> 
+     <th class="cellrowborder" id="d19e4700" valign="top" width="NaN%"><p>Description</p></th> 
+    </tr> 
+   </thead> 
+   <tbody>
+    <tr>
+     <td class="cellrowborder" headers="d19e4697 " valign="top" width="NaN%"><p>Remote integration</p></td> 
+     <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>Remote integration provides the ability for Flex clients to invoke service operations. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-remoting#invoking_aem_forms_using_remoting">Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting</a>.)</p></td> 
+    </tr> 
+    <tr>
+     <td class="cellrowborder" headers="d19e4697 " valign="top" width="NaN%"><p>Java API</p></td> 
+     <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>A Java API can invoke an AEM Forms service. The Java API is organized into client libraries and the Java Invocation API. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api">Invoking AEM Forms using the Java API</a>.)</p></td> 
+    </tr> 
+    <tr>
+     <td class="cellrowborder" headers="d19e4697 " valign="top" width="NaN%"><p>Web services</p></td> 
+     <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>AEM Forms supports web service standards such as SOAP/HTTP. A service can be exposed as a web service, with the WSDL complying to web service standards defined by W3C.</p><p>A service can be invoked from any web service stack, including the .NET Framework and Sun™ Web Services SDK. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_web_services">Invoking AEM Forms using Web Services</a>.)</p></td> 
+    </tr> 
+    <tr>
+     <td class="cellrowborder" headers="d19e4697 " valign="top" width="NaN%"><p>REST requests</p></td> 
+     <td class="cellrowborder" headers="d19e4700 " valign="top" width="NaN%"><p>AEM Forms supports REST requests. A service can be invoked directly from an HTML page. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-rest#invoking_aem_forms_using_rest_requests">Invoking AEM Forms using REST Requests</a>.)</p></td> 
+    </tr> 
+   </tbody> 
+  </table>
+  <p>The following illustration provides a visual representation of the different ways in which AEM Forms services can be programmatically invoked. </p>
+  <note>
+   <p>In addition to using the AEM Forms SDK to create client applications that can invoke AEM Forms services, you can also create components that can be deployed to the service container. For example, you can create a Bank component that contains custom data types that can be used in processes. That is, you can create a data type such as <span class="code">com.adobe.idp.BankAccount</span>. You can then create <span class="code">com.adobe.idp.BankAccount</span> instances in your client applications. (See <a href="#unresolvedlink-lc-co-create-components-custom-data-types-cc.xml#ws624e3cba99b79e12e69a9941333732bac8-7b86.2">Creating Components That Use Custom Data Types</a>.)</p>
+  </note>
+  <p>The service container provides the following functionality:</p>
+  <ul>
+   <li><p>Allows AEM Forms services to be invoked using different methods. You can configure a service by setting endpoints so that it can be invoked using all methods: Remoting, the Java API, web services, and REST. (See <a href="/programming-with-aem-forms/programmatically-endpoints#programmatically_managing_endpoints">Programmatically Managing Endpoints</a>.)</p></li>
+   <li><p>Converts a message into a normalized format called an invocation request. An invocation request is sent from a client application (or another service) to a service located in the service container. An invocation request contains information such as the name of the service to invoke and data values that are required to perform the operation. Many services require a document to perform an operation. Therefore, an invocation request usually contains a document, which can be PDF data, XDP data, XML data, and so on. </p></li>
+   <li><p>Routes invocation requests to appropriate services (the name of the service to invoke is part of the invocation request). </p></li>
+   <li><p>Performs tasks such as determining whether the caller has permission to invoke the specified service operation. The invocation request must contain a valid AEM forms user name and password. </p><p>There are different ways to send an invocation request to a service. As well, there are different ways to send required input values to the service. For example, assume that you use the Java API to invoke a service that requires a PDF document. The corresponding Java method contains a parameter that accepts a PDF document. In this situation, the data type of the parameter is <span class="code">com.adobe.idp.Document</span>. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#passing_data_to_aem_forms_services_using_the_java_api">Passing data to AEM Forms services using the Java API</a>.)</p><p>If you invoke a service using watched folders, then an invocation request is sent when you place a file in a configured watched folder. If you invoke a service using e-mail, then an invocation request is sent to a service when an e-mail message arrives in a configured inbox.</p><p>The service container sends back an invocation response once the operation is performed. An invocation response contains information such as the operation results. For example, if the operation modifies a PDF document, then the invocation response contains the modified PDF document. If the operation was unsuccessful, then the invocation response contains an error message. </p><p>An invocation response can be retrieved in the same way in which an invocation request is sent. That is, if the invocation request is sent using the Java API, then an invocation response can be retrieved using the Java API. Assume, for example, that an operation modifies a PDF document. You can retrieve the modified PDF document by getting the return value of the Java method that invoked the service.</p><p>When a long-lived process is invoked, an invocation response contains an identifier value that is associated with the invocation request. Using this identifier value, you can check the status of the process at a later time. For example, consider the MortgageLoan long-lived service. Using the identifier value, you can check to determine whether the process successfully completed. (See <a href="/programming-with-aem-forms/invoking-human-centric-long-lived#invoking_human_centric_long_lived_processes">Invoking Human-Centric Long-Lived Processes</a>.)</p><p>The following diagram shows a client application (that uses the Java API) invoking a service. </p><p>When a client application invokes a service, three events occur:</p>
+    <ol>
+     <li><p>A client application sends an invocation request to a service. </p></li>
+     <li><p>The service performs the operation that is specified in the invocation request.</p></li>
+     <li><p>The service container returns an invocation response to the client application.</p></li>
+    </ol></li>
+  </ul>
+  <p><strong>See also</strong></p>
+  <p><a href="/programming-with-aem-forms/aem-forms-processes#understanding_aem_forms_processes">Understanding AEM Forms Processes</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-remoting#invoking_aem_forms_using_remoting">Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api">Invoking AEM Forms using the Java API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_web_services">Invoking AEM Forms using Web Services</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-human-centric-long-lived#invoking_human_centric_long_lived_processes">Invoking Human-Centric Long-Lived Processes</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-rest#invoking_aem_forms_using_rest_requests">Invoking AEM Forms using REST Requests</a></p>
+ </body>
+</html>

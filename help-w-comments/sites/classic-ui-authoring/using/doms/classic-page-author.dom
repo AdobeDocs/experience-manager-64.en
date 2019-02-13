@@ -1,0 +1,65 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-31T16:19:19.524-0400" name="firstPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring" name="moreHelpPaths" /> 
+  <meta content="2018-04-19T10:23:14.926-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-03T06:44:01.433-0400" name="lastPublishExternalDate" /> 
+  <meta content="There are two overviews to authoring with AEM: First Steps for Authors - an introduction for new authors and Quick Guide to Authoring Pages - a quick guide (high-level) to the main actions." name="seoDescription" /> 
+  <meta content="2018-04-03T06:44:01.433-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Authoring Pages" name="seoTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" /> 
+  <meta content="Authoring Pages" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;products:SG_EXPERIENCEMANAGER/6.4" name="primaryProductTag" /> 
+  <meta content="Authoring Pages" name="navTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/page-authoring" name="qaNotes" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-03T06:44:02.140-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-19T10:23:14.925-0400" name="locHandOffDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="313fbe41-9958-42b8-a509-498980e120b5" name="jcr:predecessors" /> 
+  <meta content="2018-04-03T06:44:01.433-0400" name="publishExternalDate" /> 
+  <meta content="9a1eeec4-b591-4c8f-b3e3-d69f5f4e7fcd" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-page-author.html" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+  <meta content="2017-12-01T19:02:42.858-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>The following provide two types of overview to authoring with AEM:</p> 
+  <ul> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-first-steps.md">First Steps for Authors</a> - an introduction for new authors<br /> </li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-qg-page-authoring.md">Quick Guide to Authoring Pages</a> - a quick guide (high-level) to the main actions</li> 
+  </ul> 
+  <note> 
+   <p>This section covers the tasks involved when authoring a content page. There are many additional features closely related to page authoring, these are covered under <a href="/sites/classic-ui-authoring/using/classic-feature">Site and Page Features</a>.<br /> </p> 
+  </note> 
+  <h2>Quick Overview of Features Used for Authoring Pages</h2> 
+  <p>To aid you when authoring pages the author environment provides features such as:</p> 
+  <ul> 
+   <li><strong>Drag and drop</strong><br /> Components (such as Text, Image) and digital assets (such as images) can be positioned on the page simply by dragging and dropping them in the desired location.</li> 
+   <li><strong>Editing</strong><br /> Once positioned on your page, a component-specific dialog can be opened to enter content and/or configure characteristics of that component (for example, image size).<br /> </li> 
+   <li><strong>In-place Editing</strong><br /> Text and Image components can be edited directly on the webpage without opening a dialog box or an explicit save action.</li> 
+   <li><strong><a href="../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#sidekickclassicui">Sidekick</a></strong><br /> A floating "inspector" window that appears on the editable page. From here new components can be dragged onto the page and page-specific actions can be executed.</li> 
+   <li><strong><a href="../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#thecontentfinderclassicui">Content Finder</a></strong><br /> On the left side of each authorable page, the content finder provides quick access to a range of assets, including digital assets (such as other images, Flash elements and documents), other pages and paragraphs. These items can be dragged to the page; for example to position assets or create links to other pages.</li> 
+   <li><strong>Context menu</strong><br /> Right clicking on most onscreen elements (for example, paragraphs on the page) brings up a context menu with appropriate action options.</li> 
+   <li><strong>Search as you type</strong><br /> In certain scenarios (for example, path selection in edit dialogs) searching for content through the AEM interface presents dynamic matches as you type the query.</li> 
+  </ul> 
+ </body> 
+</html>

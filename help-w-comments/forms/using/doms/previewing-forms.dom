@@ -1,0 +1,115 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-12-01T19:02:44.979-0500" name="jcr:created" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:author" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="left" name="sideColumn" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-04-03T08:51:58.477-0400" name="publishExternalDate" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/previewing_forms_admin_5e12de0b318c6865_2053_report.xml" name="acrolinxReportURL" />
+  <meta content="2018-04-26T04:35:38.358-0400" name="locHandOffDate" />
+  <meta content="2016-04-20T09:33:31.666-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-26T04:35:38.359-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T08:51:58.598-0400" name="cq:lastReplicated" />
+  <meta content="2018-04-03T08:51:58.477-0400" name="topicBrowsingSortDate" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Previewing a form" name="jcr:title" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="ca242fce-dd89-40f4-8546-0f06a118b1f6" name="jcr:uuid" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="2016-05-31T06:42:18.102-0400" name="acrolinxDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/previewing-forms.html" name="publishExternalURL" />
+  <meta content="video" name="pageLayout" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="436" name="acrolinxWords" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="23" name="acrolinxSentences" />
+  <meta content="2018-04-03T08:51:58.477-0400" name="lastPublishExternalDate" />
+  <meta content="You can preview your forms before publishing or activating to ensure it meets the expectations. Preview options may vary across the supported form types." name="seoDescription" />
+  <meta content="Previewing a form with custom data" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="cb4378ef-4593-4240-a2e9-6ebc0b332bd2" name="jcr:predecessors" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2015-06-12T04:26:37.462-0400" name="lastPublishQADate" />
+ </head>
+ <body>
+  <draft-comment lastModifiedBy="asgupta" lastModifiedDate="2017-11-30T06:08:07.066-0500" type="remark">
+   <p>Link to the following articles if and when these are created. For now these are not part of the content plan.<br /> </p> 
+   <ol> 
+    <li>Creating Custom Data for adaptive form</li> 
+    <li>Creating Custom Data for XFA/Mobile Forms</li> 
+    <li>Previewing your AFs for different devices</li> 
+   </ol> 
+   <p>Link to these articles when they are published live:<br /> </p> 
+   <ol> 
+    <li>Prepopulating and customizing adaptive forms: /content/help/en/aem-forms/6/prepopulate-customize-adaptive-forms.html</li> 
+   </ol> 
+  </draft-comment>
+  <h2>Overview</h2>
+  <p>In AEM Forms, you can preview the forms and documents present in the repository. Preview helps to know exactly how the forms look and behave when they are released to the end users.</p> 
+  <p>When previewing forms, they are rendered in interactive interface and the user can fill the forms with data. When previewing documents, they are rendered in non-interactive mode and the user can only view the document. For forms, an additional option of Custom Preview is available. Using this option, you can preview the form using data from an XML file. The data fills up some or all of the fields of the form being previewed.</p> 
+  <p>The following table lists the preview options available for different types of supported forms:<br /> </p> 
+  <table border="1" cellpadding="1" cellspacing="1" width="100%"> 
+   <tbody>
+    <tr>
+     <td style="text-align: center;"><strong>Asset type</strong><br /> </td> 
+     <td style="text-align: center;"><strong>Available preview options</strong><br /> </td> 
+    </tr>
+    <tr>
+     <td>Document</td> 
+     <td>PDF preview</td> 
+    </tr>
+    <tr>
+     <td>PDF Form</td> 
+     <td>PDF preview and Preview with Data<br /> </td> 
+    </tr>
+    <tr>
+     <td>adaptive form</td> 
+     <td>HTML preview and HTML preview with Data</td> 
+    </tr>
+    <tr>
+     <td>Form Template</td> 
+     <td>PDF preview, PDF preview with Data, HTML preview, HTML preview with Data<br /> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Previewing a form</h2>
+  <ol>
+   <li><p>Select an asset you want to preview, and click Preview <img src="assets/aem6forms_preview.png" /> in the actions toolbar.</p> 
+    <note>
+     <p>To select an asset, switch to List view from the default Card view. Click <img src="assets/aem6forms_viewlist.png" /> or <img src="assets/aem6forms_viewcard.png" /> to switch views.<br /> </p> 
+    </note></li>
+   <li><p>Clicking Preview lists the possible preview options applicable for the selected Asset Type. Click the desired option to render the selected asset in a new tab.</p> <p>Your options are:</p> 
+    <ul> 
+     <li>Preview as HTML</li> 
+     <li>Preview with Data</li> 
+     <li>Preview as PDF (available for form templates)<br /> </li> 
+    </ul> </li>
+  </ol>
+  <h2>Preview with Data</h2>
+  <p>When you select <strong>Preview with Data</strong>, you can see how the form looks with real data entered in it. Preview with Data option lets you upload an XML that contains sample user data. The sample user data is used to populate the preview form in the format you choose. </p> 
+  <ol>
+   <li><p>Select an asset, click Preview <img src="assets/aem6forms_preview.png" />, and select <strong>Preview with Data</strong>.</p> </li>
+   <li><p>In the Preview Form dialog, provide FormData as an XML file. Click Preview to render the form with the merged data from XML.</p> </li>
+  </ol>
+  <related-links>
+   <a href="../../forms/using/introduction-forms-authoring.md">Introduction to adaptive forms authoring</a>
+   <a href="../../forms/using/introduction-managing-forms.md">Introduction to managing forms</a>
+   <a href="../../forms/using/creating-adaptive-form.md">Creating an adaptive form</a>
+   <a href="../../forms/using/get-xdp-pdf-documents-aem.md">Getting XDP and PDF documents in AEM Forms</a>
+  </related-links>
+ </body>
+</html>

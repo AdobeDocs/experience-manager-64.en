@@ -1,0 +1,323 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="7814deb3-1404-4082-b18f-be90d0a1fca6" name="jcr:uuid" /> 
+  <meta content="2018-05-17T05:54:48.436-0400" name="locHandOffDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="OSGi Events for Communities Components" name="seoTitle" /> 
+  <meta content="2018-04-03T07:43:02.395-0400" name="cq:lastReplicated" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-05-17T05:54:48.437-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="OSGi events are sent that can trigger asynchronous listeners" name="seoDescription" /> 
+  <meta content="2017-12-01T19:01:54.402-0500" name="jcr:created" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="OSGi Events for Communities Components" name="jcr:title" /> 
+  <meta content="2017-10-31T16:33:37.998-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/developing;/content/help/en/experience-manager/6-4/communities/morehelp/developing" name="moreHelpPaths" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="b3aeb5c1-f8ff-4a84-a533-0e6cca5960bf" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-03T07:43:00.861-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-03T07:43:00.861-0400" name="publishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/events" name="qaNotes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/events.html" name="publishExternalURL" /> 
+  <meta content="OSGi Events for Communities Components" name="navTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2018-04-03T07:43:00.861-0400" name="topicBrowsingSortDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>When members interact with Communities features, OSGi events are sent that can trigger asynchronous listeners, like notifications or gamification (scoring and badging).</p> 
+  <p>A component's <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/scf/core/SocialEvent">SocialEvent</a> instance records the events as <span class="code">actions </span>that occur for a <span class="code">topic</span>. The SocialEvent includes a method to return a <span class="code">verb </span>associated with the action. There is an <i>n-1</i> relationship between <span class="code">actions </span>and <span class="code">verbs</span>.</p> 
+  <p>For the Communities components delivered in the release, the following tables describe the <span class="code">verbs </span>defined for each <span class="code">topic </span>available for use.</p> 
+  <h2>Topics and Verbs</h2> 
+  <p><strong><a href="../../communities/using/calendar-basics-for-developers.md">Calendar Component</a></strong><br /> SocialEvent <span class="code">topic </span>= com/adobe/cq/social/calendar</p> 
+  <table border="2" cellpadding="2" cellspacing="2" width="70%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Verb</strong></td> 
+     <td style="text-align: center;"><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">POST</td> 
+     <td style="text-align: center;">member creates a calendar event</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">ADD</td> 
+     <td style="text-align: center;">member comments on a calendar event</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">UPDATE</td> 
+     <td style="text-align: center;">member's calendar event or comment is edited</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">DELETE</td> 
+     <td style="text-align: center;">member's calendar event or comment is deleted</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+  <p><strong><a href="../../communities/using/essentials-comments.md">Comments Component</a></strong><br /> SocialEvent <span class="code">topic </span>= com/adobe/cq/social/comment</p> 
+  <table border="2" cellpadding="2" cellspacing="2" width="70%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Verb</strong></td> 
+     <td style="text-align: center;"><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">POST</td> 
+     <td style="text-align: center;">member creates a comment</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">ADD</td> 
+     <td style="text-align: center;">member replies to comment</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">UPDATE</td> 
+     <td style="text-align: center;">member's comment is edited</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">DELETE</td> 
+     <td style="text-align: center;">member's comment is deleted</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+  <p><strong><a href="../../communities/using/essentials-file-library.md">File Library Component</a></strong><br /> SocialEvent <span class="code">topic </span>= com/adobe/cq/social/fileLibrary</p> 
+  <table border="2" cellpadding="2" cellspacing="2" width="70%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Verb</strong></td> 
+     <td style="text-align: center;"><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">POST</td> 
+     <td style="text-align: center;">member creates a folder</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">ATTACH</td> 
+     <td style="text-align: center;">member uploads a file</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">UPDATE</td> 
+     <td style="text-align: center;">member updates a folder or file</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">DELETE</td> 
+     <td style="text-align: center;">member deletes a folder or file</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+  <p><strong><a href="../../communities/using/essentials-forum.md">Forum Component</a></strong><br /> SocialEvent <span class="code">topic </span>= com/adobe/cq/social/forum</p> 
+  <table border="2" cellpadding="2" cellspacing="2" width="70%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Verb</strong></td> 
+     <td style="text-align: center;"><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">POST</td> 
+     <td style="text-align: center;">member creates forum topic</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">ADD</td> 
+     <td style="text-align: center;">member replies to forum topic</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">UPDATE</td> 
+     <td style="text-align: center;">member's forum topic or reply is edited</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">DELETE</td> 
+     <td style="text-align: center;">member's forum topic or reply is deleted</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+  <p><strong><a href="../../communities/using/blog-developer-basics.md">Journal Component</a></strong><br /> SocialEvent <span class="code">topic </span>= com/adobe/cq/social/journal</p> 
+  <table border="2" cellpadding="2" cellspacing="2" width="70%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Verb</strong></td> 
+     <td style="text-align: center;"><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">POST</td> 
+     <td style="text-align: center;">member creates a blog article</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">ADD</td> 
+     <td style="text-align: center;">member comments on a blog article</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">UPDATE</td> 
+     <td style="text-align: center;">member's blog article or comment is edited</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">DELETE</td> 
+     <td style="text-align: center;">member's blog article or comment is deleted</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+  <p><strong><a href="../../communities/using/qna-essentials.md">QnA Component</a></strong><br /> SocialEvent <span class="code">topic</span> = com/adobe/cq/social/qna</p> 
+  <table border="2" cellpadding="2" cellspacing="2" width="70%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Verb</strong></td> 
+     <td style="text-align: center;"><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">POST</td> 
+     <td style="text-align: center;">member creates a QnA question</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">ADD</td> 
+     <td style="text-align: center;">member creates a QnA answer</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">UPDATE</td> 
+     <td style="text-align: center;">member's QnA question or answer is edited</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">SELECT</td> 
+     <td style="text-align: center;">member's answer is selected</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">UNSELECT</td> 
+     <td style="text-align: center;">member's answer is de-selected</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">DELETE</td> 
+     <td style="text-align: center;">member's QnA question or answer is deleted</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+  <p><strong><a href="../../communities/using/reviews-basics.md">Reviews Component</a></strong><br /> SocialEvent <span class="code">topic </span>= com/adobe/cq/social/review</p> 
+  <table border="2" cellpadding="2" cellspacing="2" width="70%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Verb</strong></td> 
+     <td style="text-align: center;"><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">POST</td> 
+     <td style="text-align: center;">member creates review</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">UPDATE</td> 
+     <td style="text-align: center;">member's review is edited</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">DELETE</td> 
+     <td style="text-align: center;">member's review is deleted</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+  <p><strong><a href="../../communities/using/rating-basics.md">Rating Component</a></strong><br /> SocialEvent <span class="code">topic </span>= com/adobe/cq/social/tally</p> 
+  <table border="2" cellpadding="2" cellspacing="2" width="70%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Verb</strong></td> 
+     <td style="text-align: center;"><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">ADD RATING</td> 
+     <td style="text-align: center;">member's content has been up rated</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">REMOVE RATING</td> 
+     <td style="text-align: center;">member's content has been down rated</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+  <p><strong><a href="../../communities/using/essentials-voting.md">Voting Component</a></strong><br /> SocialEvent <span class="code">topic </span>= com/adobe/cq/social/tally</p> 
+  <table border="2" cellpadding="2" cellspacing="2" width="70%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Verb</strong></td> 
+     <td style="text-align: center;"><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">ADD VOTING</td> 
+     <td style="text-align: center;">member's content has been up voted</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">REMOVE VOTING</td> 
+     <td style="text-align: center;">member's content has been down voted</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+  <p><strong>Moderation-enabled Components</strong><br /> SocialEvent <span class="code">topic </span>= com/adobe/cq/social/moderation</p> 
+  <table border="2" cellpadding="2" cellspacing="2" width="70%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Verb</strong></td> 
+     <td style="text-align: center;"><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">DENY</td> 
+     <td style="text-align: center;">member's content is denied</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">FLAG-AS-INAPPROPRIATE</td> 
+     <td style="text-align: center;">member's content is flagged</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">UNFLAG-AS-INAPPROPRIATE</td> 
+     <td style="text-align: center;">member's content is unflagged</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">ACCEPT</td> 
+     <td style="text-align: center;">member's content is approved by moderator</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">CLOSE</td> 
+     <td style="text-align: center;">member closes comment to edits and replies</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">OPEN</td> 
+     <td style="text-align: center;">member re-opens comment</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Events for Custom Components</h2> 
+  <p>For a custom component, the <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/scf/core/SocialEvent">SocialEvent abstract class</a> must be extended d to record the component's events as <span class="code">actions </span>that occur for a <span class="code">topic</span>.</p> 
+  <p>The custom event would override the method <span class="code">getVerb()</span> so that an appropriate <span class="code">verb </span>is returned for each <span class="code">action</span>. The <span class="code">verb</span> returned for an action may be one commonly used (such as <span class="code">POST</span>) or one specialized for the component (such as <span class="code">ADD RATING</span>). There is an <i>n-1</i> relationship between <span class="code">actions </span>and <span class="code">verbs</span>.</p> 
+  <note> 
+   <p>Ensure a custom extension is registered with a ranking lower than any existing implementation in the product.</p> 
+  </note> 
+  <h4>Pseudo-Code for Custom Component Event</h4> 
+  <p> <a href="https://osgi.org/javadoc/r4v41/org/osgi/service/event/Event.html">org.osgi.service.event.Event</a>;<br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/scf/core/SocialEvent">com.adobe.cq.social.scf.core.SocialEvent</a>;<br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/ObjectTypes">com.adobe.granite.activitystreams.ObjectTypes</a>;<br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/Verbs">com.adobe.granite.activitystreams.Verbs</a>;</p> 
+  <codeblock gutter="true" class="syntax java">
+    package&amp;nbsp;com.mycompany.recipe;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.osgi.service.event.Event;!!discoiqbr!!import&amp;nbsp;com.adobe.cq.social.scf.core.SocialEvent;!!discoiqbr!!import&amp;nbsp;com.adobe.granite.activitystreams.ObjectTypes;!!discoiqbr!!import&amp;nbsp;com.adobe.granite.activitystreams.Verbs;!!discoiqbr!!!!discoiqbr!!/*&amp;nbsp;!!discoiqbr!!&amp;nbsp;*&amp;nbsp;The&amp;nbsp;Recipe&amp;nbsp;type,&amp;nbsp;passed&amp;nbsp;to&amp;nbsp;RecipeEvent(),&amp;nbsp;would&amp;nbsp;be&amp;nbsp;a&amp;nbsp;custom&amp;nbsp;Recipe&amp;nbsp;class&amp;nbsp;!!discoiqbr!!&amp;nbsp;*&amp;nbsp;that&amp;nbsp;extends&amp;nbsp;either&amp;nbsp;!!discoiqbr!!&amp;nbsp;*&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.adobe.cq.social.scf.SocialComponent&amp;nbsp;!!discoiqbr!!&amp;nbsp;*&amp;nbsp;or!!discoiqbr!!&amp;nbsp;*&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.adobe.cq.social.scf.SocialCollectionComponent!!discoiqbr!!&amp;nbsp;*&amp;nbsp;See&amp;nbsp;https://docs.adobe.com/docs/en/aem/6-2/develop/communities/scf/server-customize.html!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!!!discoiqbr!!/**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Defines&amp;nbsp;events&amp;nbsp;that&amp;nbsp;are&amp;nbsp;triggered&amp;nbsp;on&amp;nbsp;a&amp;nbsp;custom&amp;nbsp;component,&amp;nbsp;"Recipe".!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;RecipeEvent&amp;nbsp;extends&amp;nbsp;SocialEvent&lt;RecipeEvent.RecipeActions&gt;&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;static&amp;nbsp;final&amp;nbsp;long&amp;nbsp;serialVersionUID&amp;nbsp;=&amp;nbsp;1L;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;protected&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PARENT_PATH&amp;nbsp;=&amp;nbsp;"PARENT_PATH";!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;The&amp;nbsp;event&amp;nbsp;topic&amp;nbsp;suffix&amp;nbsp;for&amp;nbsp;Recipe&amp;nbsp;events!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;RECIPE_TOPIC&amp;nbsp;=&amp;nbsp;"recipe";!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;recipe&amp;nbsp;-&amp;nbsp;the&amp;nbsp;recipe&amp;nbsp;resource&amp;nbsp;on&amp;nbsp;which&amp;nbsp;the&amp;nbsp;event&amp;nbsp;was&amp;nbsp;triggered!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;userId&amp;nbsp;-&amp;nbsp;the&amp;nbsp;user&amp;nbsp;id&amp;nbsp;of&amp;nbsp;the&amp;nbsp;user&amp;nbsp;who&amp;nbsp;triggered&amp;nbsp;the&amp;nbsp;action!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;action&amp;nbsp;-&amp;nbsp;the&amp;nbsp;recipe&amp;nbsp;action&amp;nbsp;that&amp;nbsp;triggered&amp;nbsp;this&amp;nbsp;event!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;RecipeEvent(final&amp;nbsp;Recipe&amp;nbsp;recipe,&amp;nbsp;final&amp;nbsp;String&amp;nbsp;userId,&amp;nbsp;final&amp;nbsp;RecipeEvent.RecipeActions&amp;nbsp;action)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;recipePath&amp;nbsp;=&amp;nbsp;recipe.getResource().getPath();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;parentPath&amp;nbsp;=&amp;nbsp;(recipe.getParentComponent()&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;?&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;recipe.getParentComponent().getResource().getPath()&amp;nbsp;:&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;recipe.getSourceComponentId();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this(recipePath,&amp;nbsp;userId,&amp;nbsp;parentPath,&amp;nbsp;action);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;recipePath&amp;nbsp;-&amp;nbsp;the&amp;nbsp;path&amp;nbsp;to&amp;nbsp;the&amp;nbsp;recipe&amp;nbsp;resource&amp;nbsp;(jcr&amp;nbsp;node)&amp;nbsp;on&amp;nbsp;which&amp;nbsp;the&amp;nbsp;event&amp;nbsp;was&amp;nbsp;triggered!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;userId&amp;nbsp;-&amp;nbsp;the&amp;nbsp;user&amp;nbsp;id&amp;nbsp;of&amp;nbsp;the&amp;nbsp;user&amp;nbsp;who&amp;nbsp;triggered&amp;nbsp;the&amp;nbsp;action!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;parentPath&amp;nbsp;-&amp;nbsp;the&amp;nbsp;path&amp;nbsp;to&amp;nbsp;the&amp;nbsp;parent&amp;nbsp;node&amp;nbsp;of&amp;nbsp;the&amp;nbsp;recipe&amp;nbsp;resource!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;action&amp;nbsp;-&amp;nbsp;the&amp;nbsp;recipe&amp;nbsp;action&amp;nbsp;that&amp;nbsp;triggered&amp;nbsp;this&amp;nbsp;event!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;RecipeEvent(final&amp;nbsp;String&amp;nbsp;recipePath,&amp;nbsp;final&amp;nbsp;String&amp;nbsp;userId,&amp;nbsp;final&amp;nbsp;String&amp;nbsp;parentPath)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;super(RECIPE_TOPIC,&amp;nbsp;recipePath,&amp;nbsp;userId,&amp;nbsp;action,&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;new&amp;nbsp;BaseEventObject(recipePath,&amp;nbsp;ObjectTypes.ARTICLE),&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;new&amp;nbsp;BaseEventObject(parentPath,&amp;nbsp;ObjectTypes.COLLECTION),!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;new&amp;nbsp;HashMap&lt;String,&amp;nbsp;Object&gt;(1)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;static&amp;nbsp;final&amp;nbsp;long&amp;nbsp;serialVersionUID&amp;nbsp;=&amp;nbsp;1L;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(parentPath&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.put(PARENT_PATH,&amp;nbsp;parentPath);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;RecipeEvent&amp;nbsp;(final&amp;nbsp;Event&amp;nbsp;event)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;super(event);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;List&amp;nbsp;of&amp;nbsp;available&amp;nbsp;recipe&amp;nbsp;actions&amp;nbsp;that&amp;nbsp;can&amp;nbsp;trigger&amp;nbsp;a&amp;nbsp;recipe&amp;nbsp;event.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;enum&amp;nbsp;RecipeActions&amp;nbsp;implements&amp;nbsp;SocialEvent.SocialActions&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;RecipeAdded,&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;RecipeModified,&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;RecipeDeleted;!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getVerb()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;switch&amp;nbsp;(this)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;RecipeAdded:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;Verbs.POST;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;RecipeModified:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;Verbs.UPDATE;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;RecipeDeleted:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;Verbs.DELETE;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;default:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;throw&amp;nbsp;new&amp;nbsp;IllegalArgumentException("Unsupported&amp;nbsp;action");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!} 
+  </codeblock> 
+  <h2>Sample EventListener to Filter Activity Stream Data</h2> 
+  <p>It is possible to listen to events for the purpose of modifying what appears in the activity stream.</p> 
+  <p>The following pseudo-code sample will remove DELETE events for Comments component from the activity stream.</p> 
+  <h4>Pseudo-code for EventListener</h4> 
+  <p>Requires <a href="../../communities/using/deploy-communities.md#latestfeaturepack">latest feature pack</a>.</p> 
+  <codeblock gutter="true" class="syntax java">
+    package&amp;nbsp;my.company.comments;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;java.util.Collections;!!discoiqbr!!import&amp;nbsp;java.util.Map;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.apache.commons.lang.StringUtils;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Activate;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Component;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Modified;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Property;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Service;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.resource.Resource;!!discoiqbr!!import&amp;nbsp;org.apache.sling.commons.osgi.PropertiesUtil;!!discoiqbr!!import&amp;nbsp;org.osgi.service.component.ComponentContext;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;com.adobe.cq.social.activitystreams.listener.api.ActivityStreamProviderExtension;!!discoiqbr!!import&amp;nbsp;com.adobe.cq.social.commons.events.CommentEvent.CommentActions;!!discoiqbr!!import&amp;nbsp;com.adobe.cq.social.scf.core.SocialEvent;!!discoiqbr!!!!discoiqbr!!@Service!!discoiqbr!!@Component(metatype&amp;nbsp;=&amp;nbsp;true,&amp;nbsp;label&amp;nbsp;=&amp;nbsp;"My&amp;nbsp;Comment&amp;nbsp;Delete&amp;nbsp;Event&amp;nbsp;Filter",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;description&amp;nbsp;=&amp;nbsp;"Prevents&amp;nbsp;comment&amp;nbsp;DELETE&amp;nbsp;events&amp;nbsp;from&amp;nbsp;showing&amp;nbsp;up&amp;nbsp;in&amp;nbsp;activity&amp;nbsp;streams")!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;CommentDeleteEventActivityFilter&amp;nbsp;implements&amp;nbsp;ActivityStreamProviderExtension&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Property(name&amp;nbsp;=&amp;nbsp;"ranking",&amp;nbsp;intValue&amp;nbsp;=&amp;nbsp;10)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;protected&amp;nbsp;int&amp;nbsp;ranking;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Activate!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;activate(final&amp;nbsp;ComponentContext&amp;nbsp;ctx)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ranking&amp;nbsp;=&amp;nbsp;PropertiesUtil.toInteger(ctx.getProperties().get("ranking"),&amp;nbsp;10);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Modified!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;update(final&amp;nbsp;Map&lt;String,&amp;nbsp;Object&gt;&amp;nbsp;props)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ranking&amp;nbsp;=&amp;nbsp;PropertiesUtil.toInteger(props.get("ranking"),&amp;nbsp;10);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;evaluate(final&amp;nbsp;SocialEvent&lt;?&gt;&amp;nbsp;evt,&amp;nbsp;final&amp;nbsp;Resource&amp;nbsp;resource)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(evt.getAction()&amp;nbsp;!=&amp;nbsp;null&amp;nbsp;&amp;&amp;&amp;nbsp;evt.getAction()&amp;nbsp;instanceof&amp;nbsp;SocialEvent.SocialActions)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;final&amp;nbsp;SocialEvent.SocialActions&amp;nbsp;action&amp;nbsp;=&amp;nbsp;evt.getAction();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(StringUtils.equals(action.getVerb(),&amp;nbsp;CommentActions.DELETED.getVerb()))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;false;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;true;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;Map&lt;String,&amp;nbsp;?&amp;nbsp;extends&amp;nbsp;Object&gt;&amp;nbsp;getActivityProperties(final&amp;nbsp;SocialEvent&lt;?&gt;&amp;nbsp;arg0,&amp;nbsp;final&amp;nbsp;Resource&amp;nbsp;arg1)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;Collections.&lt;String,&amp;nbsp;Object&gt;emptyMap();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;Map&lt;String,&amp;nbsp;?&amp;nbsp;extends&amp;nbsp;Object&gt;&amp;nbsp;getActorProperties(final&amp;nbsp;SocialEvent&lt;?&gt;&amp;nbsp;arg0,&amp;nbsp;final&amp;nbsp;Resource&amp;nbsp;arg1)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;Collections.&lt;String,&amp;nbsp;Object&gt;emptyMap();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getName()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;"My&amp;nbsp;Comment&amp;nbsp;Delete&amp;nbsp;Event&amp;nbsp;Filter";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;Map&lt;String,&amp;nbsp;?&amp;nbsp;extends&amp;nbsp;Object&gt;&amp;nbsp;getObjectProperties(final&amp;nbsp;SocialEvent&lt;?&gt;&amp;nbsp;arg0,&amp;nbsp;final&amp;nbsp;Resource&amp;nbsp;arg1)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;Collections.&lt;String,&amp;nbsp;Object&gt;emptyMap();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;Ensure&amp;nbsp;a&amp;nbsp;custom&amp;nbsp;extension&amp;nbsp;is&amp;nbsp;registered&amp;nbsp;with&amp;nbsp;a&amp;nbsp;ranking&amp;nbsp;lower&amp;nbsp;than&amp;nbsp;any&amp;nbsp;existing&amp;nbsp;implementation&amp;nbsp;in&amp;nbsp;the&amp;nbsp;product.&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;int&amp;nbsp;getRanking()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;this.ranking;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;Map&lt;String,&amp;nbsp;?&amp;nbsp;extends&amp;nbsp;Object&gt;&amp;nbsp;getTargetProperties(final&amp;nbsp;SocialEvent&lt;?&gt;&amp;nbsp;arg0,&amp;nbsp;final&amp;nbsp;Resource&amp;nbsp;arg1)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;Collections.&lt;String,&amp;nbsp;Object&gt;emptyMap();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String[]&amp;nbsp;getStreamProviderPid()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;new&amp;nbsp;String[]{"*"};!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!} 
+  </codeblock> 
+ </body> 
+</html>

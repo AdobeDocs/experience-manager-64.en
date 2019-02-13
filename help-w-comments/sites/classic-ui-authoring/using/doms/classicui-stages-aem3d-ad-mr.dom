@@ -1,0 +1,72 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-03T06:47:30.159-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-04-03T06:47:30.159-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="e543dee3-e963-40a9-8763-d6ebb6ea32b6" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Learn how to set up a standard stage with Autodesk Maya and Mental Ray." name="seoDescription" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/classic-ui-authoring/morehelp/authoring;/content/help/en/experience-manager/6-4/assets/classic-ui-authoring/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="2018-04-19T10:28:11.404-0400" name="locHandOffDate" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-12-07T19:01:36.301-0500" name="jcr:created" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:authoring;content_type:reference" name="cq:tags" />
+  <meta content="Setting up a standard stage with Autodesk Maya and Mental Ray" name="seoTitle" />
+  <meta content="2017-10-31T16:18:25.880-0400" name="firstPublishExternalDate" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-04-03T06:47:30.159-0400" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classicui-stages-aem3d-ad-mr.html" name="publishExternalURL" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-04-19T10:28:11.405-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T06:47:31.305-0400" name="cq:lastReplicated" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Setting up a standard stage with Autodesk Maya and Mental Ray" name="jcr:title" />
+  <meta content="User" name="contentOwner" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/assets/3d-assets/about-the-use-of-stages-in-aem-3d/setting-up-stage-with-ad-mr" name="qaNotes" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="43094af0-3049-4c31-870f-2b5d5890bdab" name="jcr:predecessors" />
+ </head>
+ <body>
+  <ol>
+   <li><p>In Maya, create a new, empty scene.</p> </li>
+   <li><p>Create a (temporary) reference to a representative model. Doing so helps to facilitate evaluating lighting, setting up cameras, and configuring the renderer.<br /> <br /> </p> </li>
+   <li><p>Add lights as usual. Currently, AEM 3D supports the following light types:</p> 
+    <ul> 
+     <li>Directional lights</li> 
+     <li>Spot lights</li> 
+     <li>Point lights<br /> </li> 
+    </ul> <p>Other light types are ignored or converted to one of the above supported types when the stage is uploaded into AEM 3D. The converted types are used when you view the asset and when you render using the built-in Rapid Refine renderer. The original light types are used when rendering with Maya.<br /> <br /> <br /> </p> </li>
+   <li><p>Create a ground plane, if required, and apply a suitable material.</p> <p>Adobe recommends that you set up a ground plane as single-sided. Doing so ensures that you can view the asset from below in AEM 3D without the ground plane hiding the asset.<br /> <br /> </p> </li>
+   <li><p>(Optional) Create and configure cameras.</p> <p>Have the cameras "look" toward the center of the scene where the asset will be inserted. Be sure you set the cameras to renderable.</p> </li>
+   <li><p>Set up rendering with Mental Ray.</p> <p>Configure the Render Settings with the following suggestions:</p> 
+    <ul> 
+     <li>Common tab<br /> Deselect the <strong>Alpha channel (mask)</strong> check box for all Renderable Cameras.</li> 
+     <li>Quality tab
+      <ul> 
+       <li><strong>Overall quality</strong> <span class="code">- 0.5</span> or less</li> 
+       <li><strong>Indirect Diffuse (GI) Mode</strong> - <span class="code">Final Gather</span></li> 
+       <li><strong>Filter Size</strong> - <span class="code">2.0</span>, <span class="code">2.0</span></li> 
+      </ul> </li> 
+     <li>Render the scene at the typical image sizes that you expect to use. If necessary, refine the lights, or Render settings, or do both to achieve the results you want.<br /> Be aware that rendering with Mental Ray, using image-based lighting, is very slow and CPU-intensive. Adobe recommends that you configure the lowest quality settings that are still capable of producing the desired render quality.</li> 
+    </ul> </li>
+   <li><p>Remove the reference that you created in step 2.<br /> <br /> </p> </li>
+   <li><p>Save the scene, then exit Autodesk Maya.</p> </li>
+   <li><p>Upload the scene into AEM and wait for upload processing to complete.</p> <p>See <a href="../../../assets/using/managing-assets-touch-ui.md#main-pars-title-6">Uploading Assets</a>.</p> <p>If Autodesk® Maya® is not configured on the AEM server, export an FBX from Maya and upload it into AEM.</p> </li>
+   <li><p>Open Asset Properties in AEM. Set Title to a suitable string that will appear in the Stage Selector drop-down list. Verify that <strong>Class</strong> is set to <strong>3D Stage</strong>. Save and exit.</p> </li>
+   <li><p>Open a 3D asset, select the new stage, and verify that it previews and renders as expected.<br /> <br /> </p> </li>
+  </ol>
+ </body>
+</html>

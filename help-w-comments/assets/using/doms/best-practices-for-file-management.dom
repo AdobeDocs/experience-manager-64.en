@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="498" name="acrolinxWords" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="f30fb2b0-c8e5-43c7-a25b-a51553f66fde" name="jcr:uuid" />
+  <meta content="Best Practices for Organizing Your Digital Assets for Using Profiles" name="navTitle" />
+  <meta content="rbrough" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" />
+  <meta content="32" name="acrolinxSentences" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="Best Practices for Organizing Your Digital Assets for Using Profiles" name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-03-14T09:01:10.529-0400" name="jcr:created" />
+  <meta content="2017-10-31T16:35:19.831-0400" name="firstPublishExternalDate" />
+  <meta content="2018-04-24T11:59:25.358-0400" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-11-24T06:29:42.818-0500" name="topicBrowsingSortDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/processing-profiles/best-practices-for-file-management" name="qaNotes" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="Rick Brough" name="contentOwner" />
+  <meta content="2018-04-24T11:59:25.357-0400" name="locHandOffDate" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-04-03T08:04:08.401-0400" name="cq:lastReplicated" />
+  <meta content="Best Practices for Organizing Your Digital Assets for Using Profiles" name="seoTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="6f613f5e-ed68-4199-8c69-202a561692d7" name="jcr:predecessors" />
+  <meta content="2017-11-24T06:29:42.818-0500" name="publishExternalDate" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-11-24T06:29:42.818-0500" name="lastPublishExternalDate" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/best_practices_for_file_management_krs_workflow_f3c2f2ccebf6138e_102_report.xml" name="acrolinxReportURL" />
+  <meta content="2019-01-12T17:13:05.049-0500" name="acrolinxDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/best-practices-for-file-management.html" name="publishExternalURL" />
+  <meta content="Tips and best-practices for naming, organizing, managing metadata for digital asset files." name="seoDescription" />
+ </head>
+ <body>
+  <p>An important concept regarding the use of profiles in AEM Assets is that they are assigned to folders. Within a profile are settings in the form of metadata profiles, along with video profiles or image profiles. These settings process the contents of a folder along with any of its sub-folders. Therefore, how you name files and folders, how you arrange sub-folders, and how you handle the files within these folders has a significant impact on how those assets are processed by a profile. </p> 
+  <p>By using consistent and appropriate file and folder naming strategies, along with good metadata practice, you can make the most of your digital asset collection and ensure that the right files are processed by the right profile.</p> 
+  <p>See <a href="../../assets/using/processing-profiles.md">Profiles for Processing Video, Metadata, and Images</a>.</p> 
+  <p>The following are best-practice tips for organizing your digital asset files.</p> 
+  <ul> 
+   <li>Organize your files based on the metadata that you add to them instead of on the folders in which they reside. You can accomplish this by adding metadata profiles.<br /> See <a href="../../assets/using/metadata-profiles.md">Metadata Profiles.</a><br /> See <a href="../../assets/using/metadata.md">Metadata for Digital Asset Management</a>.<br /> </li> 
+   <li>In most cases, your collection of digital assets are always growing. Therefore, it is important, earlier on, to formalize metadata use, folder structure, and file naming among all your uploaded assets. Standardizing on these things ensures that as your pool of digital assets grows, you can apply processing profiles to folders with greater precision and consistency.</li> 
+   <li>Use folders only to impose a consisistent storage structure for your digital assets. For example, folder structures that can help you refine what profiles to assign may include the following:
+    <ul> 
+     <li>Development folders - contains digital assets that you are currently working on.</li> 
+     <li>Client folders - contains digital assets based on clients or project names.<br /> </li> 
+     <li>Master folders - contains original, source digital assets.<br /> </li> 
+     <li>Rendition folders - contains renditions and copies of the original, source digital assets.<br /> </li> 
+     <li>File Size folders - contains digital assets based on small, medium, or large file sizes.<br /> </li> 
+     <li>Staging folders - contains digital assets that are ready to publish live on your website.</li> 
+     <li>Mime type folders - contains digital assets that are specific to mime types such as images, documents, and multimedia.</li> 
+     <li>Archive folders - contains retired digital assets.</li> 
+     <li>Date-based folders - contains digital assets based on a creation date or a last modified date.</li> 
+    </ul> </li> 
+   <li>Create a directory of folders that are not likely to change so that any assigned profiles do not break.</li> 
+   <li>If an asset is already published, then you use AEM to move the asset to another folder, and re-publish from its new location, the original published asset location is still available, along with the newly re-published asset. The original published asset, however, is "lost" to AEM and cannot be unpublished. Therefore, as a best practice, unpublish assets first before you move them to a different folder.</li> 
+  </ul> 
+ </body>
+</html>

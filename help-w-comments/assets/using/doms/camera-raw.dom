@@ -1,0 +1,112 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Learn how to enable Camera Raw support in Adobe Experience Manager (AEM) Assets." name="seoDescription" />
+  <meta content="2018-10-15T22:35:28.387-0400" name="cq:lastReplicated" />
+  <meta content="f11af4a6-b049-4147-8103-3b8552f149b6" name="jcr:uuid" />
+  <meta content="Camera Raw Support" name="seoTitle" />
+  <meta content="2018-01-30T07:01:21.214-0500" name="jcr:created" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/camera_raw_krs_workflow_f3c2f2ccebf6138e_108_report.xml" name="acrolinxReportURL" />
+  <meta content="2018-10-09T05:13:23.372-0400" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="asgupta" name="cq:lastReplicatedBy" />
+  <meta content="Camera Raw Support" name="jcr:title" />
+  <meta content="Camera Raw Support" name="navTitle" />
+  <meta content="2018-10-15T22:35:28.258-0400" name="cq:lastModified" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" />
+  <meta content="2019-01-12T17:26:15.127-0500" name="acrolinxDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="2018-10-15T22:35:28.253-0400" name="topicBrowsingSortDate" />
+  <meta content="35" name="acrolinxSentences" />
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="427" name="acrolinxWords" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Chiradeep Majumdar" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2018-10-15T22:35:28.253-0400" name="lastPublishExternalDate" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="2017-10-31T16:35:08.639-0400" name="firstPublishExternalDate" />
+  <meta content="80854d7b-5a80-4fd5-a845-080f20684cca" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/camera-raw" name="qaNotes" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/camera-raw.html" name="publishExternalURL" />
+  <meta content="2018-10-15T22:35:28.253-0400" name="publishExternalDate" />
+  <meta content="asgupta" name="cq:lastModifiedBy" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+ </head>
+ <body>
+  <p>The Camera Raw package enables support for various raw file formats, such as .cr2, .nef, .raf, and so on. The Camera Raw functionality is supported in AEM to render your assets in JPEG format. The supported pacakge is available at <a href="http://blogs.adobe.com/lightroomjournal/2017/03/acr-9-9-now-available.html">http://blogs.adobe.com/lightroomjournal/2017/03/acr-9-9-now-available.html</a>.<br /> </p> 
+  <note>
+   <p>The functionality supports only JPEG renditions.</p> 
+  </note>
+  <p>To enable Camera Raw support in Adobe Experience Manager (AEM) Assets:</p> 
+  <ol>
+   <li><p>Based on the AEM version and the operating system, download the appropriate Camera Raw package and install it:</p> 
+    <table border="0" cellpadding="0" cellspacing="0" width="0"> 
+     <tbody>
+      <tr>
+       <td><p><strong>Supported Platforms</strong></p> </td> 
+       <td><p><strong>Package Share Link</strong></p> </td> 
+       <td><p><strong>Supported AEM Versions</strong></p> </td> 
+      </tr>
+      <tr>
+       <td><p>Windows 64 Bit, Mac OS, RHEL 7.x</p> </td> 
+       <td><p><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem630/product/assets/aem-assets-cameraraw-pkg">1.3.16</a></p> </td> 
+       <td><p>6.3, 6.4</p> </td> 
+      </tr>
+      <tr>
+       <td><p>Windows 64 Bit, Mac OS, RHEL 7.x</p> </td> 
+       <td><p><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem620/product/assets/aem-assets-cameraraw-pkg">1.2.8</a></p> </td> 
+       <td><p>6.2 </p> </td> 
+      </tr>
+      <tr>
+       <td><p>Windows 64 Bit, Mac OS, RHEL 7.x</p> </td> 
+       <td><p><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem610/product/assets/aem-assets-cameraraw-pkg">1.1.22</a></p> </td> 
+       <td><p>6.1</p> </td> 
+      </tr>
+     </tbody>
+    </table> </li>
+   <li><p>Go to <span class="code">http://[AEM server]:[Port]/workflow</span>. For example, go to <span class="code">http://localhost:4502/workflow</span> and open the <span class="uicontrol">DAM Update Asset</span> workflow.</p> </li>
+   <li><p>Open the sample workflow <span class="uicontrol">Sample DAM Update Asset With Camera RAW and DNG Handling Step</span>. Using this workflow as a reference, configure the <span class="uicontrol">DAM Update Asset</span> workflow for AEM Assets.</p> </li>
+   <li><p>Open the <span class="uicontrol">Process Thumbnails</span> step.<br /> </p> </li>
+   <li><p>Provide the following configuration in the <span class="uicontrol">Thumbnails</span> tab:</p> 
+    <ul> 
+     <li>Thumbnails: <span class="code">140:100:false, 48:48:false, 319:319:false</span></li> 
+     <li>Skip Mime Types: <span class="code">skip:image/dng, skip:image/x-raw-(.*)</span></li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-337.png" /></li>
+   <li><p>In the <span class="uicontrol">Web Enabled Image</span> tab, specify the following:</p> 
+    <ul> 
+     <li>Skip List: <span class="code">audio/mpeg, video/(.*), image/dng, image/x-raw-(.*)</span></li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-338.png" /></li>
+   <li><p>From SideKick, add the <span class="uicontrol">Camera Raw/DNG Handler</span> step below the <span class="uicontrol">Thumbnail creation</span> step.</p> </li>
+   <li><p>In the <span class="uicontrol">Camera Raw/DNG Handler</span> step, provide the following configuration in the <span class="uicontrol">Arguments</span> tab:</p> <p>Mime Types: <span class="code">image/dng, image/x-raw-(.*)</span></p> <p>Command: </p> 
+    <ul> 
+     <li><span class="code">DAM_Raw_Converter ${directory}/${filename} ${directory} cq5dam.web.1280.1280.jpeg 1280 1280</span></li> 
+     <li><span class="code">DAM_Raw_Converter ${directory}/${filename} ${directory} cq5dam.thumbnail.319.319.jpeg 319 319</span></li> 
+     <li><span class="code">DAM_Raw_Converter ${directory}/${filename} ${directory} cq5dam.thumbnail.140.100.jpeg 140 100</span></li> 
+     <li><span class="code">DAM_Raw_Converter ${directory}/${filename} ${directory} cq5dam.thumbnail.48.48.jpeg 48 48</span></li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-339.png" /></li>
+   <li><p>Click <span class="uicontrol">Save</span>. </p> <p>You can now import camera raw files into AEM Assets.</p> 
+    <note>
+     <p>Linux, Windows, and Mac (with 64-bit JVM) support the Camera Raw package.</p> 
+    </note><p>After you install the Camera RAW package and configure the required workflow, <span class="uicontrol">Image Adjust</span><strong> </strong>option appears in the list of panes.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-340.png" /><p>Click <span class="uicontrol">Image Adjust</span> from the list and use the options in the <span class="uicontrol">Image Adjust</span> pane to make lightweight edits to your image.</p> <img imageRotate="0" src="assets/chlimage_1-341.png" /></li>
+  </ol>
+  <p>After saving the edits to a Camera Raw image, a new rendition <span class="code">AdjustedPreview.jpg</span> is generated for the image. For other image types except Camera Raw, the changes are reflected in all the renditions.</p> 
+  <note>
+   <p>The Camera Raw library has limitations around the total pixels it can process at a time. Currently, it can process a maximum of 1073741824 (1024 x 1024 x 1024) pixels.</p> 
+  </note>
+ </body>
+</html>

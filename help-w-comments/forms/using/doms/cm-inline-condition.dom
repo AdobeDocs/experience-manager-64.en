@@ -1,0 +1,157 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-05T05:55:50.139-0400" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-04-05T05:55:50.139-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4" name="primaryProductTag" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="topic_tags:correspondence-management;content_type:reference;products:SG_EXPERIENCEMANAGER/6.4;topic_tags:interactive-communications" name="cq:tags" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="gtalwar" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-06-23T03:20:08.380-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/cm-inline-condition.html" name="publishExternalURL" /> 
+  <meta content="gtalwar@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:20:45.634-0400" name="locHandOffDate" /> 
+  <meta content="61e56911-a054-4be2-8d11-259788d48090" name="jcr:uuid" /> 
+  <meta content="Using inline condition and repeat in Interactive Communications and letters, you can create communications that are highly contextual and well structured. " name="jcr:description" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/morehelp/interactive-communications;/content/help/en/experience-manager/6-4/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/morehelp/interactive-communications" name="moreHelpPaths" /> 
+  <meta content="Inline condition and repeat in Interactive Communications and letters" name="jcr:title" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2cdde9ac-f952-4cdd-8c75-06e1a5e4af42" name="jcr:predecessors" /> 
+  <meta content="2018-04-05T05:55:50.139-0400" name="lastPublishExternalDate" /> 
+  <meta content="gtalwar" name="cq:lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-05T05:55:50.535-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-03-14T09:01:16.162-0400" name="jcr:created" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Inline condition and repeat in Interactive Communications and letters" name="seoTitle" /> 
+  <meta content="2018-04-26T04:20:45.635-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+ </head> 
+ <body> 
+  <h2>Inline conditions</h2> 
+  <p>AEM Forms allows you to use inline conditions in text modules to automate rendering of text that depends on the context or data associated with the form data model (in Interactive Communication) or data dictionary (in letters). Inline condition displays specific content based on condition evaluation being true or false.</p> 
+  <p>Conditions perform computations on data values provided by the form data model/Data Dictionary or by end users. Using inline conditions, you can save time and reduce human errors, while creating highly contextual and personalized Interactive Communication/letters. </p> 
+  <p>For more information, see:</p> 
+  <ul> 
+   <li><a href="../../forms/using/create-interactive-communication.md" target="_blank">Create an Interactive Communication</a></li> 
+   <li><a href="../../forms/using/cm-overview.md" target="_blank">Correspondence Management Overview</a></li> 
+   <li><a href="../../forms/using/texts-interactive-communications.md" target="_blank">Text in Interactive Communications</a></li> 
+  </ul> 
+  <h3>Example: Using rules to conditionalize inline text in Interactive Communication</h3> 
+  <p>To conditionalize a sentence, paragraph, or string of text in an Interactive Communication, you can create a rule in the appropriate text document fragment. The following example uses a rule to display a toll free number only to the US recipients of the Interactive Communication. </p> 
+  <p>For more information, see Create rule in text in <a href="../../forms/using/texts-interactive-communications.md" target="_blank">Texts in Interactive Communications</a>.</p> 
+  <p>Once you include the text fragment in an Interactive Communication and Agent uses the Agent UI to prepare an Interactive Communication, the (form data model) data for the recipients is evaluated and the text is shown only to the recipients in the US. </p> 
+  <h3>Example: Using inline condition in a letter to render the appropriate address </h3> 
+  <p>You can insert inline condition in a letter by inserting the inline condition in the appropriate text module. The following example uses two conditions to evaluate and display the appropriate address, Sir or Ma'am, in a letter based on the DD element Gender. Using similar steps, you can create other conditions. </p> 
+  <note> 
+   <p>If your existing assets include old condition/repeat expressions (pre 6.2 SP1 CFP 4), the assets display old syntax of condition and repeat. However, the old condition/repeat works. The new and old condition/repeat expressions are compatible with each other to create a nested mix of old and new condition/repeat expressions.</p> 
+  </note> 
+  <ol> 
+   <li><p>In the relevant text module, select the part of text that you want to conditionalize and tap <strong>Condition</strong>. </p> <img imageRotate="0" src="assets/1_selecttext.png" /><p>The Condition dialog appears with an empty condition.</p> <img imageRotate="0" src="assets/2_conditiondialog.png" /> 
+    <note> 
+     <p>Empty or invalid conditional expression cannot be saved. There has to be a valid conditional expression inside <span class="code">${}</span> to save the expression. </p> 
+    </note></li> 
+   <li><p>Do the following to construct a condition for evaluating whether the selected/conditionalized text appears in the letter and then tap the check mark to save the expression:</p> <p>Double-tap a DD element to insert it in the condition. Insert the appropriate operator and construct the following condition in dialog.</p> 
+    <codeblock class="syntax java">
+      ${DD_creditcard_Gender=="Male"}!!discoiqbr!! 
+    </codeblock><p>For more information on creating the expression, see <strong>Creating expressions and remote functions with expression builder</strong> in <a href="../../forms/using/expression-builder.md" target="_blank">Expression Builder</a>. The value specified in the expression must be supported for the element in the data dictionary. For more information, see <a href="../../forms/using/data-dictionary.md" target="_blank">Data Dictionary</a>.</p> <p>Once the condition is inserted, you can hover over the handle on the left of the condition to view the condition. You can tap the handle to view the pop-up menu of the condition, which allows you to edit or remove the condition.</p> <img imageRotate="0" src="assets/3_hoverhandle.png" /><img imageRotate="0" src="assets/4_editconditionremoveconditionpopup.png" /></li> 
+   <li><p>Insert similar condition by selecting the text <span class="code">Ma'am</span>.</p> 
+    <codeblock gutter="true" class="syntax java">
+      ${DD_creditcard_Gender&amp;nbsp;==&amp;nbsp;"Female"} 
+    </codeblock></li> 
+   <li><p>Preview the relevant letter and notice that the text is rendered according to the inline condition. You can input the value of DD element Gender using:</p> 
+    <ul> 
+     <li>A sample XML data file created based on the relevant data dictionary while previewing the letter with sample data.</li> 
+     <li>An XML data file attached to the relevant data dictionary. </li> 
+    </ul> <p>For more information, see <a href="../../forms/using/data-dictionary.md" target="_blank">Data Dictionary</a>.</p> <img imageRotate="0" src="assets/5_letteroutput.png" /></li> 
+  </ol> 
+  <h2>Repeat</h2> 
+  <p>You may have dynamic information in your Interactive Communication/letter, such as transactions in a credit card statement, the instance or occurrence of which may keep changing with each generated letter. Using repeat, you can format and structure such dynamic information in your text document fragment. </p> 
+  <p>Further, you can specify rule/condition within the repeat construct to conditionalize the information/entries that are rendered in the Interactive Communication/letter.</p> 
+  <h3>Example: Using repeat in an Interactive Communication to format, structure, and display a list of credit card transactions</h3> 
+  <p>The following example gives you the steps for using repeat to structure and render the credit card transactions in an Interactive Communication.</p> 
+  <ol> 
+   <li><p>In a form data model-based text document fragment, insert the relevant form data model objects (and embedded text required for the labels, as in this example):</p> <img imageRotate="0" src="assets/1_elementstext.png" /> 
+    <note> 
+     <p>The repeatable content must include at least one property of the type Collection.</p> 
+    </note></li> 
+   <li><p>Select the content on which to apply repeat.</p> <img imageRotate="0" src="assets/2_selection.png" /></li> 
+   <li><p>Tap Repeat. </p> <p>The Repeat dialog appears. </p> <img imageRotate="0" src="assets/3_repeatdialog.png" /></li> 
+   <li><p>Select Line Break as separator and, if required, tap Add Condition to create a rule. You can also use text as separator and specify the text charaters to be used as separator. </p> <p>The Create Rule dialog appears. </p> 
+    <note /></li> 
+   <li><p>Create a rule to display transactions dated after Feb 28, 2018 to include the transactions only for the month of March in the Interactive Communication. </p> 
+    <note> 
+     <p>This example assumes that the Agent will be creating the statement at the end of March 2018. Otherwise, you can create another rule to include transactions before 2018-04-01 to exclude transactions after March 2018.</p> 
+    </note><img imageRotate="0" src="assets/4_createrule.png" /></li> 
+   <li><p>Save the condition/rule and then save the repeat. Conditional repeat gets applied to the selected content. </p> <img imageRotate="0" src="assets/5_onmouseoverconditionrule.png" /><p>On mouse over, the text document fragment displays the Condition and the separator used in the repeat applied to the content.</p> </li> 
+   <li><p>Save the text document fragment and preview the relevant Interactive Communication. Depending on the data in the form data model, the repeat applied on the elements renders the transaction details similar to the following in the preview: </p> <img imageRotate="0" src="assets/screen_shot_2018-03-09at155516copy.png" /></li> 
+  </ol> 
+  <h3>Example: Using repeat in a letter to format, structure, and display a list of credit card transactions</h3> 
+  <p>The following example gives you the steps for using repeat to structure and render the credit card transactions in a letter. Using similar steps, you can use repeat in a different scenario. </p> 
+  <ol> 
+   <li><p>Open (while editing or creating) a text module that has DD elements that render repeated/dynamic data and embed the required text around the DD elements. For example, a text module has the following DD elements to create a statement of transactions on a credit card:</p>  
+    <codeblock gutter="true" class="syntax js">
+      {^DD_creditcard_TransactionDate^}&amp;nbsp;{^DD_creditcard_TransactionAmount^}!!discoiqbr!!{^DD_creditcard_TransactionType^}&amp;nbsp; 
+    </codeblock><p>These DD elements render a list of the transactions made on the credit card with the following information:</p> <p>Transaction date, Transaction amount, and Transaction type (Debit or Credit)</p> </li> 
+   <li><p>Embed the text within the DD elements to make the statement more readable, such as following:</p> <img imageRotate="0" src="assets/1_repeat.png" /> 
+    <codeblock gutter="true" class="syntax js">
+      !!discoiqbr!!!!discoiqbr!!Date:&amp;nbsp;{^DD_creditcard_TransactionDate^}&amp;nbsp;Amount&amp;nbsp;(USD):&amp;nbsp;{^DD_creditcard_TransactionAmount^}&amp;nbsp;Transaction&amp;nbsp;Type:&amp;nbsp;{^DD_creditcard_TransactionType^}&amp;nbsp;!!discoiqbr!! 
+    </codeblock><p>The job of rendering a well formatted statement, however, is not done yet. If you render a letter based on the work done so far, it appears as the following:</p> <img imageRotate="0" src="assets/1_1renderwithoutrepeat.png" /><p>To repeat the static text along with the DD elements, you need to apply repeat as explained in the further steps.</p> </li> 
+   <li><p>Select the static text as well as the DD elements that you want to repeat, as shown below:</p> <img imageRotate="0" src="assets/2_repeat_selecttext.png" /></li> 
+   <li><p>Tap <strong>Repeat</strong>. The Repeat dialog appears with an empty inline condition. </p> <img imageRotate="0" src="assets/3_repeat_dialog.png" /></li> 
+   <li><p>If required, insert a condition to selectively render the transactions, such as to render transaction amounts bigger than 50 cents:</p> 
+    <codeblock gutter="true" class="syntax js">
+      ${DD_creditcard_TransactionAmount&amp;nbsp;&gt;&amp;nbsp;0.5} 
+    </codeblock><p>Otherwise, if you do not need to render the information (here transactions) selectively, keep the condition empty by deleting the following in the dialog: <span class="code">${}</span>. Saving a repeat expression gets enabled either when the repeat expression window is empty (without ${} when no repeat is needed) or when it contains a valid condition for repeat.</p> </li> 
+   <li><p>Select a separator for formatting the dynamic text and tap the check mark to save:</p> 
+    <ul> 
+     <li><strong>Line Break</strong>: Inserts line break after each transaction entry in the output letter.</li> 
+     <li><strong>Text</strong>: Inserts the specified text character after each transaction entry in the output letter.</li> 
+    </ul> <p>Once the condition is inserted, the text with repeat is highlighted in red and a handle appears on its left. You can hover over the handle on the left of the repeat to view the repeat construct. </p> <img imageRotate="0" src="assets/4_repeat_hoverdetail.png" /><p>You can tap the handle to view the pop-up menu of the repeat, which allows you to edit or remove the repeat construct.</p> <img imageRotate="0" src="assets/5_repeateditremove.png" /></li> 
+   <li><p>Preview the relevant letter and notice that the text is rendered according to repeat. You can input the value of DD elements using:</p> 
+    <ul> 
+     <li>A sample XML data file created based on the relevant data dictionary while previewing the letter with sample data.</li> 
+     <li>An XML data file attached to the relevant data dictionary. </li> 
+    </ul> <p>For more information, see <a href="/content/help/en/aem-forms/6-2/data-dictionary">Data Dictionary</a>.</p> <img imageRotate="0" src="assets/6_repeatoutputpreview.png" /><p>The static text repeats with the transaction details. Repeating static text is facilitated by the repeat applied to the text in this procedure. The condition, ${DD_creditcard_TransactionAmount &amp;gt; 0.5}, ensures that the transactions below USD .5 are not rendered in the letter.</p> 
+    <note> 
+     <p>You can insert condition and repeat only while creating or editing the relevant text module. While previewing the letter, although you can make edits to the text module, you cannot insert condition or repeat.</p> 
+    </note></li> 
+  </ol> 
+  <h2>Using inline condition and repeat - some use cases </h2> 
+  <h3>Repeat within condition</h3> 
+  <p>You may require to use repeat within a condition. Correspondence Management allows you to use repeat within an inline condition construct. </p> 
+  <p>For example, following is repeat (formatted in red) within a condition (formatted in green).</p> 
+  <p>While the repeat renders the credit card transactions, the condition ${DD_creditcard_nooftransactions &amp;gt; 0} ensures that the repeat construct is rendered only if there's at least one transaction. </p> 
+  <img imageRotate="0" src="assets/repeatwitincondition.png" /> 
+  <p>Similarly, according to your requirement, you can create:</p> 
+  <ul> 
+   <li>One or more conditions within a condition</li> 
+   <li>One or more conditions within a repeat</li> 
+   <li>A combination of conditions and repeat within a condition or repeat</li> 
+  </ul> 
+  <h3>Empty inline condition</h3> 
+  <p>You may need to insert empty inline conditions and embed text and DD elements later. Correspondence Management allows you to do that.</p> 
+  <img imageRotate="0" src="assets/emptycondition.png" /> 
+  <p>It is, however, recommended that if possible, you insert the text and DD elements first in the text module with the intended formatting, such as bullets, and apply an inline condition afterwards. </p> 
+  <related-links> 
+   <a href="../../forms/using/document-fragments.md">Document fragments</a> 
+   <a href="../../forms/using/create-correspondence.md">Create correspondence</a> 
+   <a href="../../forms/using/expression-builder.md">Expression builder</a> 
+   <a href="../../forms/using/create-letter.md">Create letter</a> 
+   <a href="../../forms/using/data-dictionary.md">Data dictionary</a> 
+  </related-links> 
+ </body> 
+</html>

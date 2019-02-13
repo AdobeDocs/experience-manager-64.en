@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="98f94e9d-22c6-4cf7-aeeb-5c262223f277" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="Learn how to add new states for styling a custom component in theme editor. " name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2019-02-11T20:42:45.402-0500" name="jcr:created" /> 
+  <meta content="2017-11-30T06:13:37.904-0500" name="cq:lastModified" /> 
+  <meta content="true" name="preview" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="DO NOT PUBLISH - New states in Theme Editor" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="sashanka" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="c4ff992e-ce15-4ffa-b927-92ef2a64855f" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/develop;/content/help/en/experience-manager/6-4/forms/using/morehelp/develop" name="moreHelpPaths" /> 
+ </head> 
+ <body> 
+  <p>An AEM Forms component contains states that let you define its behavior when a user interacts with it in the rendered form. Standard states are focus, disabled, hover, error, and success. These states correspond to <a href="https://www.w3.org/TR/2001/CR-css3-selectors-20011113/#UIstates">UI element states in CSS</a>. When you open the structure of a component, you can find these states in the cq:styleConfig node. For example, in the text box component, states fall under c<span class="code">q:styleConfig &amp;gt; items &amp;gt; field &amp;gt; items &amp;gt; widgetAndText &amp;gt; states</span>. Similarly, you can specify states when you create your component or customize a component. </p> 
+  <p>When you create or customize a component, it is stored in the <span class="code">/apps</span> folder in CRXDE. Perform the following steps to add states for the new component.</p> 
+  <ol> 
+   <li><p>Open CRXDE in your browser.<br /> URL: <span class="code">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/crx/de/index.jsp</span></p> </li> 
+   <li><p>Navigate to <span class="code">/apps/&amp;lt;path-to-your-component&amp;gt;</span>.<br /> For example, a text-box component is customized to include a label below the text box, called subTitle. In this example, a subTitle node is created under <span class="code">cq:styleConfig</span>.</p> <img alt="The custom component node" imageRotate="0" src="assets/new-node-custom-component.png" title="The custom component node" /></li> 
+   <li><p>Add states in the node that you want to style in the theme editor.<br /> In this example, Selected state is added instead of focus. Other standard states are added as-is.</p> </li> 
+   <li><p>To enable styling of the states for the widget in the customized component, create <span class="code">cq:themeConfig</span> node and overlay the widget using it. The <span class="code">cq:themeConfig</span> node lets theme editor use custom states you add in the component instead of inheriting states from the default component. </p> <p>In this example, <span class="code">cq:themeConfig</span> node is created as shown in the screenshot below.<br /> </p> <img alt="The footer node under items of the theme configuration" imageRotate="0" src="assets/footer-node.png" title="The footer node under items of the theme configuration" /><p>The properties of the footer node are specified as:<br /> </p> <a href="assets/footer-node-properties-1.png"><img alt="Footer node properties" captionBottom="Click to enlarge" imageRotate="0" src="assets/footer-node-properties.png" title="Footer node properties" /></a></li> 
+   <li><p>In CRXDE, click <strong>Save All</strong> above the address bar.</p> </li> 
+  </ol> 
+  <p>To verify that you can style the component with new states, edit a theme in which your custom component is included as a selector.</p> 
+  <p>In the example theme below, the custom component is available as selector for styling. </p> 
+  <img alt="Example theme with custom component highlighted" imageRotate="0" src="assets/theme-custom-component.png" title="Example theme with custom component highlighted" /> 
+  <p>When you click the selector, the State drop-down in sidebar lists the custom states. In the example, Selected state is the added custom state that is available in the State drop-down. </p> 
+  <img alt="New state for styling visible in the STATE field" imageRotate="0" src="assets/new-state-theme.png" title="New state for styling visible in the STATE field" /> 
+  <p>The states that you add in Theme Editor are available for inline styling also. If you add your custom component in your form, and switch to Style layer, you can see the states you added for your component when you select it. </p> 
+  <related-links> 
+   <a href="../../../forms/using/themes.md">Themes in AEM Forms</a> 
+  </related-links> 
+ </body> 
+</html>

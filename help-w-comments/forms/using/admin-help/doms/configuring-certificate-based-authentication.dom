@@ -1,0 +1,107 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-26T04:25:01.472-0400" name="locHandOffDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-26T04:25:01.473-0400" name="cq:lastModified" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2016-05-31T06:54:58.001-0400" name="acrolinxDate" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_user_management;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-04-03T09:09:36.065-0400" name="cq:lastReplicated" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="45" name="acrolinxSentences" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="5fa7b517-359f-4d0d-bb10-2a041071f105" name="jcr:predecessors" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="694" name="acrolinxWords" /> 
+  <meta content="2017-10-31T16:32:33.516-0400" name="lastPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-certificate-based-authentication.html" name="publishExternalURL" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_certificate_based_authentication_admin_5e12de0b318c6865_2281_report.xml" name="acrolinxReportURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Import a Certificate Authority (CA) certificate into the Trust Store and create a certificate mapping for certificate-based authentication." name="seoDescription" /> 
+  <meta content="2017-12-01T19:05:26.782-0500" name="jcr:created" /> 
+  <meta content="3c8834e3-4535-47c9-9e85-a1683636b8b9" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/configuring_user_management;/content/help/en/experience-manager/6-4/forms/morehelp/configuring_user_management" name="moreHelpPaths" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Configuring certificate-based authentication" name="jcr:title" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2016-04-20T10:01:44.501-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-31T16:32:33.516-0400" name="publishExternalDate" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f99.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb4684b83c12905cdec41-7ff3.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb4684b83c12905cdec41-7ff2.2" name="cq:gepId" /> 
+  <meta content="Configuring certificate-based authentication" name="navTitle" /> 
+  <meta content="2016-02-05T03:27:15.642-0500" name="lr_lastModified" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>User Management usually performs authentication by using a user name and password. User Management also supports certificate-based authentication, which you can use to authenticate users through Acrobat or to authenticate users programmatically. For details about authenticating users programmatically, see <a href="http://www.adobe.com/go/learn_aemforms_programming_63" target="_blank">Programming with AEM forms</a>.</p> 
+  <p>To use certificate-based authentication, import a Certificate Authority (CA) certificate that you trust into the Trust Store and then create a certificate mapping.</p> 
+  <h2 id="import_the_ca_certificate">Import the CA certificate</h2> 
+  <p></p> 
+  <p>When importing the certificate, select the Trust for Certificate Authentication and Trust for Identity options, and any other options that you require. For details about importing certificates, see <a href="../../../forms/using/admin-help/certificates.md#managing-certificates">Managing certificates</a>.</p> 
+  <h2 id="configuring_certificate_mapping">Configuring certificate mapping</h2> 
+  <p></p> 
+  <p>To enable certificate-based authentication for users, create a certificate mapping. A <i>certificate mapping</i> defines a map between a certificate’s attributes and the attributes of users in a domain. You can map more than one certificate to the same domain. </p> 
+  <p>When you test a certificate, User Management uploads the certificate checks to ensure that it meets the following requirements:</p> 
+  <ul> 
+   <li><p>The certificate is valid. </p></li> 
+   <li><p>The Issuer you specified can verify the certificate. </p></li> 
+   <li><p>The certificate contains the attribute required for mapping. </p></li> 
+   <li><p>The mapping you specified maps the certificate to only one user in the AEM forms database. Both current and obsolete (deleted) users are checked to determine whether they match the mapping criteria. Therefore, the certificate test fails if more than one user, including obsolete users, has the attribute value being considered.</p></li> 
+  </ul> 
+  <draft-comment lastModifiedBy="" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>Bug 2287292:</p> 
+  </draft-comment> 
+  <note> 
+   <p>You cannot edit an existing certificate mapping.</p> 
+  </note> 
+  <p><strong>Add a certificate mapping</strong></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Configuration &amp;gt; Certificate Mapping.</p></li> 
+   <li><p>Click New Certificate Mapping and, in the For Issuer list, select the certificate alias as configured in Trust Store Management.</p></li> 
+   <li><p>Map one of the certificate’s attributes to a user’s attribute. For example, you can map the certificate’s common name to the user’s login ID.</p><p>If the content of the attribute in the certificate is different from the content in the user’s attribute in the User Management database, you can use a Java Regular Expression (regex) to match the two attributes. For example, if the common names of the certificates are names like <i>Alex Pink (Authentication)</i> and <i>Alex Pink (Signing)</i> and the common name in the User Management database is <i>Alex Pink</i>, you use a regex to extract the required part of the certificate attribute (in this example, <i>Alex Pink</i>.) The regular expression you specify must conform to the Java regex specification. </p><p>You can transform the expression by specifying the order of the groups in the Custom Order box. The custom order is used with the <span class="code">java.util.regex.Matcher.replaceAll()</span> method. The behavior that is seen will correspond to that method's behavior, and the input string (the custom order) must be specified accordingly. </p><p>To test the regex, enter a value in the Test Parameter box and click Test. </p><p>You can use the following characters in the regex:</p> 
+    <ul> 
+     <li><p>. (any character) </p></li> 
+     <li><p>* (0 or more occurrences)</p></li> 
+     <li><p>() (specify the group in brackets)</p></li> 
+     <li><p>\ (used to escape a regex character to a regular character)</p></li> 
+     <li><p>$n (used to refer to the nth group)</p></li> 
+    </ul><p>Examples of regular expressions:</p> 
+    <ul> 
+     <li><p>To extract "Alex Pink" from "Alex Pink (Authentication)"</p><p><strong>Regex:</strong> (.*) \(Authentication\) </p></li> 
+     <li><p>To extract "Alex Pink" from "Alex (Authentication) Pink"</p><p><strong>Regex:</strong> (.*)\(Authentication\) (.*)</p></li> 
+     <li><p>To extract "Pink Alex" from "Alex (Authentication) Pink"</p><p><strong>Regex:</strong> (.*)\(Authentication\) (.*) </p><p>Custom Order: $2 $1 (return second group, concatenated to first group, captured by whitespace character)</p></li> 
+     <li><p>To extract "apink@sampleorg.com" from "smtp:apink@sampleorg.com"</p><p><strong>Regex:</strong> smtp:(.*)</p></li> 
+    </ul><p>For details on using regular expressions, see <a href="http://java.sun.com/docs/books/tutorial/essential/regex/">Java tutorial about regular expressions</a>. </p></li> 
+   <li><p>In the For Domain list, select the user’s domain.</p></li> 
+   <li><p>To test this configuration, click Browse to upload a sample user certificate, click Test Certificate and, if the configuration is correct, click OK.</p></li> 
+  </ol> 
+  <p><strong>Edit an existing certificate mapping</strong></p> 
+  <ol> 
+   <li><p>In Administration Console, click Settings &amp;gt; User Management &amp;gt; Configuration.</p></li> 
+   <li><p>Click Certificate Mapping. </p></li> 
+   <li><p>Select the certificate mapping to edit and edit its configuration. You can update the regular expression and custom order.</p></li> 
+   <li><p>To test your changes, click Browse to upload a sample certificate, click Test Certificate, and then click OK.</p></li> 
+  </ol> 
+  <p><strong>Delete a certificate mapping</strong></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Configuration &amp;gt; Certificate Mapping.</p></li> 
+   <li><p>Select the check box for the certificate mapping to delete, click Delete, and then click OK.</p></li> 
+  </ol> 
+ </body> 
+</html>

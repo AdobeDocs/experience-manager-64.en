@@ -1,0 +1,113 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-31T16:16:53.229-0400" name="firstPublishExternalDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/developing;/content/help/en/experience-manager/6-4/screens/morehelp/developing" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:developing" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="7a0b7b98-5ae6-473b-a61c-b9d48b4d54f5" name="jcr:predecessors" />
+  <meta content="Jyotika Syal" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-05-08T12:42:16.164-0400" name="locHandOffDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="2018-11-02T13:36:01.086-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="primaryAudienceTag" />
+  <meta content="Offline Channels" name="seoTitle" />
+  <meta content="The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.
+
+" name="seoDescription" />
+  <meta content="2019-01-15T15:39:03.298-0500" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/content/docs/en/aem/6-3/develop/developing-screens/offline-channels" name="qaNotes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-11-02T13:36:01.086-0400" name="topicBrowsingSortDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/offline-channels.html" name="publishExternalURL" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="4f0e5ff5-02ac-4a9b-bd80-ed12fe965c8a" name="jcr:uuid" />
+  <meta content="Offline Channels" name="jcr:title" />
+  <meta content="2018-11-02T13:36:01.170-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-11-02T13:36:02.495-0400" name="cq:lastReplicated" />
+  <meta content="2018-11-02T13:36:01.086-0400" name="publishExternalDate" />
+ </head>
+ <body>
+  <p>The Screens player provides offline support for the channels by leveraging the <strong><i>ContentSync</i></strong> technology.</p> 
+  <p>The players use a local http server to serve the unzipped content. </p> 
+  <p>When a channel is configured to run <i>online</i>, the player serves the channel-resources by accessing the AEM server but when the channel is configured to run <i>offline</i>, the player serves the channel-resources from a local http server.</p> 
+  <p>The workflow for the process is as follows:</p> 
+  <ol> 
+   <li>Parse the desired page(s)</li> 
+   <li>Collect all related assets</li> 
+   <li>Package everything in a zip file</li> 
+   <li>Download the zip and extract it locally</li> 
+   <li>Display local copy of the content</li> 
+  </ol> 
+  <h2>Update Handlers</h2>
+  <p>The <strong><i>ContentSync</i></strong> uses update handlers to parse and collect all necessary pages and assets for a specific project. AEM Screens uses the following update handlers:</p> 
+  <h4>Common Options</h4>
+  <ul> 
+   <li><i>type</i>: the update handler type to use</li> 
+   <li><i>path</i>: path to the resource</li> 
+   <li><i>[targetRootDirectory]</i>: target folder in the zip file</li> 
+  </ul> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Type</strong></td> 
+     <td><strong>Description</strong></td> 
+     <td><strong>Options</strong></td> 
+    </tr>
+    <tr>
+     <td>channels</td> 
+     <td>collects a channel</td> 
+     <td>extension: extension of the resource to collect<br /> [pathSuffix='']: suffix to add to the channel path<br /> [deep=true]: whether to parse child pages recursively<br /> [includeImages=true]: include all images in the channel<br /> [includeVideos=true]: include all videos in the channel<br /> [includeProducts=true]: include all products in the channel</td> 
+    </tr>
+    <tr>
+     <td>clientlib</td> 
+     <td>collect the specified client library</td> 
+     <td>[extension='']: can be either css or js, to collect only the former, or only the latter</td> 
+    </tr>
+    <tr>
+     <td>assetrenditions</td> 
+     <td>collect the asset renditions</td> 
+     <td>[renditions=[]]: list of renditions to collect. Defaults to the original rendition</td> 
+    </tr>
+    <tr>
+     <td>copy</td> 
+     <td>copy the specified structure from path</td> 
+     <td> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h3>Testing ContentSync Configuration</h3>
+  <p>Follow the steps below to test the ContentSync configuration:</p> 
+  <ol> 
+   <li>Open <a href="http://localhost:4502/libs/cq/contentsync/content/console.html">http://localhost:4502/libs/cq/contentsync/content/console.html</a></li> 
+   <li>Select your config in the list</li> 
+   <li>Click Clear Cache</li> 
+   <li>Click Update Cache</li> 
+   <li>Click Download Full</li> 
+   <li>Extract the zip file</li> 
+   <li>Start a local server in the extracted folder </li> 
+   <li>Open your start page and check your app status</li> 
+  </ol> 
+  <h2>Enabling Offline Config for a Channel</h2>
+  <p>Follow the steps below to enable offline config for a channel:</p> 
+  <ol>
+   <li><p>Inspect the channel content and check if it is requested from an AEM Instance (Online).</p> <img imageRotate="0" src="assets/chlimage_1-48.png" /></li>
+   <li><p>Navigate to the channel dashboard and click <strong>... </strong>in the<strong> CHANNEL INFORMATION </strong>Panel to change the properties.</p> <img imageRotate="0" src="assets/chlimage_1-49.png" /></li>
+   <li><p>Navigate to the channel properties and make sure the checkbox is disabled under the <strong>Channel</strong> tab. Click <strong>Save &amp; Close</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2017-12-19at122422pm.png" /><p>Before content is properly deployed to the device, click the <strong>Update Offline Content</strong>.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2017-12-19at122637pm.png" /><p>The <strong>Offline</strong> status under <strong>PROPERTIES</strong> also updates accordingly.</p> <img imageRotate="0" src="assets/screen_shot_2017-12-19at124735pm.png" /></li>
+   <li><p>Inspect the channel content and check if it is requested from the local Player-Cache. </p> <img imageRotate="0" src="assets/chlimage_1-50.png" /></li>
+  </ol>
+ </body>
+</html>

@@ -1,0 +1,219 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="publishExternalURL" /> 
+  <meta content="audience:administering;products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:integration;content_type:reference" name="cq:tags" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Multi-tenancy for ContextHub Audiences" name="seoTitle" /> 
+  <meta content="wg-adobe;wg-credit-agricole" name="cq:cugPrincipals" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-06-19T11:41:03.497-0400" name="mwpw_migration_script_version" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="2019-01-15T15:36:30.993-0500" name="jcr:created" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration;/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration" name="moreHelpPaths" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Multi-tenancy for ContextHub Audiences" name="jcr:title" /> 
+  <meta content="5f59d19b-560d-4a10-876f-550da1becaa1" name="jcr:predecessors" /> 
+  <meta content="2017-10-13T12:21:10.362-0400" name="lastPublishExternalDate" /> 
+  <meta content="eda21c9f-06ca-47ac-98b9-4a0c9c665b99" name="jcr:uuid" /> 
+  <meta content="Deactivate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-08-19T23:47:31.337-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-08-09T03:01:22.996-0400" name="unpublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/docs/en/sign-in.html" name="cq:cugLoginPage" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-08-09T03:01:23.021-0400" name="cq:lastReplicated" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="Learn about multi-tenancy support for ContextHub Audiences." name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-09T03:43:24.594-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>is this Target specific?</p> 
+  </draft-comment> 
+  <p>You can create multi-tenancy for ContextHub audiences and adds the following functionality:</p> 
+  <ul> 
+   <li>You can manage access to tenant folders and tenant audiences.<br /> For example, you can manage access for users of a specific tenant to only have access to audience folders for that tenant (and not have access to folders of other tenants). </li> 
+   <li>You can view audiences in a hierarchical folder structure.</li> 
+   <li>When selecting audiences, you can select audiences from tenant folders.<br /> You only see audiences for tenants that you have privileges to see.</li> 
+  </ul> 
+  <p>This document provides the information about how to:</p> 
+  <ul> 
+   <li>Create tenant folders</li> 
+   <li>Manage content for tenants</li> 
+   <li>Manage access to tenant folders</li> 
+   <li>Select audiences while targeting content and while creating activities in brands.</li> 
+  </ul> 
+  <p>For further information about how to use ContextHub audiences, see the following documentation:</p> 
+  <ul> 
+   <li><a href="../../../sites/administering/using/segmentation.md">Configuring Segmentation with ContextHub</a></li> 
+   <li><a href="../../../sites/authoring/using/managing-audiences.md">Managing Audiences</a></li> 
+   <li><a href="../../../sites/authoring/using/content-targeting-touch.md">Authoring Targeted Content Using Targeting Mode</a></li> 
+  </ul> 
+  <h2>Creating tenant folders for ContextHub audiences</h2> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-19T23:47:31.219-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>is /etc still the correct location?</p> 
+   <p>and if not - what are the new locations (exactly)?<br /> </p> 
+  </draft-comment> 
+  <p>You need to create tenant folders so that they can be selected by users. To create a tenant folder, you must be an administrator and you must make sure that the tenant folder fulfills the following conditions (based on the <strong>/etc/segmentation/contexthub node</strong>):</p> 
+  <ul style="list-style-position: inside;"> 
+   <li>It is created somewhere below <strong>/etc/segmentation/contexthub</strong> 
+    <ul> 
+     <li> e.g. <strong>/etc/segmentation/contexthub/newaudiencefolder</strong></li> 
+    </ul> </li> 
+   <li>Its <strong>jcr:primaryType</strong> is <strong>cq:Page</strong></li> 
+   <li>It includes a node jcr:content with the following properties: 
+    <ul> 
+     <li><strong>jcr:primaryType</strong> =&amp;gt; String <strong>cq:PageContent</strong></li> 
+     <li><strong>sling:resourceType</strong> =&amp;gt; String <strong>cq/contexthub/components/segments-listing-page</strong></li> 
+    </ul> </li> 
+  </ul> 
+  <p>These folders cannot be created through the Audiences console. These folders should only be created by administrative users that have access to tools such as CRXDE Lite (to create the nodes) and to the Access Control Editor (to set the ACLs accordingly).</p> 
+  <p>In addition, there are also changes in the Resolved Segments UI, which are described in the following section. You may want to activate filtering, which is also described. </p> 
+  <h3>Configuring filtering in the resolved segments UI</h3> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-09T03:18:32.940-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>is /etc still the correct location?<br /> </p> 
+  </draft-comment> 
+  <p>The Resolved Segments UI has been extended to be able to filter the displayed segments based on the accessible segments paths for the current user.</p> 
+  <p>To access the Resolved Segments UI, navigate through the Cloud Settings to the following location; for example: <strong>http://localhost:4502/etc/cloudsettings/default/contexthub/persona.html</strong></p> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-09T03:14:40.501-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>Before this feature pack is installed, the configuration already consisted of key/value pairs in JSON:</p> 
+  </draft-comment> 
+  <codeblock gutter="true" class="syntax js">
+    {!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"title":&amp;nbsp;"Resolved&amp;nbsp;Segments",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"icon":&amp;nbsp;"coral-Icon--targeted",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"storeMapping":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"s":&amp;nbsp;"segmentation"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"template":&amp;nbsp;"&lt;p&amp;nbsp;class=\"contexthub-module-line1\"&gt;Resolved&amp;nbsp;Segments&lt;/p&gt;&lt;p&amp;nbsp;class=\"contexthub-module-line2\"&gt;{{s.summary}}&lt;/p&gt;",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"clickable":&amp;nbsp;true,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"listReference":&amp;nbsp;"/store/segmentation/segments",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"listType":&amp;nbsp;"custom",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"listItemTemplate":&amp;nbsp;"&lt;span&gt;{{label}}&lt;/span&gt;",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"itemOnClickNoop":&amp;nbsp;true!!discoiqbr!!} 
+  </codeblock> 
+  <p>A key/value pair is available to the JSON configuration of the Resolved Segments UI so you can configure whether the resolved segments are filtered by the accessible segments paths for the current user: <strong>"isFilteredByAccessiblePaths": true/false</strong></p> 
+  <p>The filter is turned off by default, that is <strong>"isFilteredByAccessiblePaths": false </strong></p> 
+  <p>You can turn on filtering by changing this value to <strong>true</strong>.</p> 
+  <note> 
+   <p>If you make any changes to this configuration, you should see them after reloading the Resolved Segments UI.</p> 
+  </note> 
+  <p>The detailed configuration in JSON looks like this:</p> 
+  <codeblock gutter="true" class="syntax js">
+    {!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"title":&amp;nbsp;"Resolved&amp;nbsp;Segments",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"icon":&amp;nbsp;"coral-Icon--targeted",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"storeMapping":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"s":&amp;nbsp;"segmentation"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"template":&amp;nbsp;"&lt;p&amp;nbsp;class=\"contexthub-module-line1\"&gt;Resolved&amp;nbsp;Segments&lt;/p&gt;&lt;p&amp;nbsp;class=\"contexthub-module-line2\"&gt;{{s.summary}}&lt;/p&gt;",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"clickable":&amp;nbsp;true,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"listReference":&amp;nbsp;"/store/segmentation/segments",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"listType":&amp;nbsp;"custom",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"listItemTemplate":&amp;nbsp;"&lt;span&gt;{{label}}&lt;/span&gt;",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"itemOnClickNoop":&amp;nbsp;true,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"isFilteredByAccessiblePaths":&amp;nbsp;false!!discoiqbr!!} 
+  </codeblock> 
+  <h2>Managing content for tenants </h2> 
+  <p>You can set up multiple tenants by creating groups for those tenant users and adding users to those groups. Then, you set the privileges for the tenant group.</p> 
+  <p>In this example, there are three tenant groups: <strong>tenants1</strong>, <strong>tenants2</strong>, and <strong>tenantsX</strong>. You can manage groups and users by navigating to <strong>Tools</strong> &amp;gt; <strong>Security</strong> &amp;gt; <strong>Users</strong> or <strong>Groups</strong> respectively.</p> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-09T03:54:18.624-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>new screenshot needed?</p> 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/chlimage_1-341.png" /> 
+  <p>Each tenant group in this example has one user: <strong>tenant1</strong>, <strong>tenant2</strong>, and <strong>tenantX</strong>.</p> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-09T03:54:29.120-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>new screenshot needed?</p> 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/chlimage_1-342.png" /> 
+  <p>For example, if you select the group <strong>tenants1</strong>, you see that <strong>tenant1</strong> is a member of that group. The same is true of the other users: <strong>tenant2</strong> is a member of group <strong>tenants2</strong>.<strong> tenantX </strong>is a member of group <strong>tenantsX</strong>.</p> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-09T03:55:59.776-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>new screenshot needed<br /> </p> 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/chlimage_1-343.png" /> 
+  <p>In addition, all groups are members of the group <strong>content-authors</strong>, which gives them write permissions, and <strong>target-activity-authors</strong>, which gives them the right to set up to target activities.</p> 
+  <p>The folder structure on your AEM instance in this example looks something like this:</p> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-09T03:18:51.096-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>is /etc still the correct location?<br /> </p> 
+  </draft-comment> 
+  <ul> 
+   <li><strong>/etc/segmentation</strong> 
+    <ul> 
+     <li> <strong> /contexthub/</strong> 
+      <ul> 
+       <li><strong>/common </strong>-- this is a folder for common audiences<br /> </li> 
+       <li><strong>/emptyCommonFolder</strong> -- this is an empty folder for common audiences</li> 
+       <li><strong>/tenants1</strong> -- this is a folder for audiences available to users in the group tenants1</li> 
+       <li><strong>/tenants2</strong> -- this is a folder for audiences available to users in the group tenants2</li> 
+       <li><strong>/tenantsX</strong> -- this is a folder for audiences available to users in the group tenantsX</li> 
+       <li><strong>ch-75-to-100</strong> -- this is a single audience that is not in a folder</li> 
+      </ul> </li> 
+     <li><strong>/adobe-target</strong> -- this folder contains audiences for adobe target</li> 
+     <li><strong>/brands</strong> -- these folders contain audiences specific to brands, such as geometrixx or we.retail.</li> 
+    </ul> </li> 
+  </ul> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-09T03:19:03.170-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>is /etc still the correct location?<br /> </p> 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/chlimage_1-344.png" /> 
+  <p>If you expand each folder, they include audiences that are specific to that folder. </p> 
+  <p>After you have set up your groups and users, you need to manage the access they have.</p> 
+  <h2>Managing access</h2> 
+  <p>You manage access to content for different tenants through the ACL editor. The following example describes an example of how to set up tenants so that users that belong to each of these tenants have access as follows:</p> 
+  <ul> 
+   <li>Users in the group <strong>tenants1</strong> have access to audiences available only to <strong>tenants1</strong>.</li> 
+   <li>Users in the group <strong>tenants2</strong> have access to audiences available only to <strong>tenants2</strong>.</li> 
+   <li>Users in the group <strong>tenantsX</strong> have access to audiences available to both <strong>tenants1</strong> and <strong>tenants2</strong> and <strong>tenantsX</strong>. </li> 
+  </ul> 
+  <p> In addition, all groups have access to common folders that are accessible to everyone. </p> 
+  <note> 
+   <p>See <a href="../../../sites/administering/using/security.md#managingusersandgroups">Managing Users and Groups</a> for general information on accessing the user administration and security console, creating users and groups, adding users to a group, and impersonating another user.</p> 
+  </note> 
+  <p>By default, all tenants have access to all tenant folders unless you deny them explicitly. Given the previous example, <strong>tenants1</strong>, <strong>tenants2</strong>, and <strong>tenantsX</strong> all have write permissions to <strong>/etc/segmentation</strong> because they are members of the<strong> content-authors</strong> group.</p> 
+  <p>In addition, tenants cannot read tenant folders if they are denied <strong>rep:write</strong> privileges to that specific folder:</p> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-09T03:57:37.782-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>is /etc still the correct location?<br /> </p> 
+  </draft-comment> 
+  <ul> 
+   <li><p>When looking at the <strong>tenantsX</strong> group privileges, <strong>tenants1</strong> and <strong>tenants2</strong> are denied permission to the tenantsX folder. Only users in group <strong>tenantsX</strong> have access to this folder.</p> <img imageRotate="0" src="assets/chlimage_1-345.png" /></li> 
+   <li><p>When looking at the <strong>tenants2</strong> group privileges, <strong>tenants1</strong> is denied permission to the tenants2 folder. (But <strong>tenantsX</strong> is not denied, so users in that group can access the tenants2 folder).</p> <img imageRotate="0" src="assets/chlimage_1-346.png" /></li> 
+   <li><p>When looking at the <strong>tenants1</strong> group privileges, <strong>tenants2</strong> is denied permission to the tenants1 folder. (But <strong>tenantsX</strong> is not denied, so users in that group can access the tenants2 folder).</p> <img imageRotate="0" src="assets/chlimage_1-347.png" /></li> 
+  </ul> 
+  <p>After changing the rights, if you are a user in the <strong>tenantsX</strong> group, you see all the folders. If you are a user in the <strong>tenants1</strong> group, you only see folders in tenant1. If you are a user in the <strong>tenants2</strong> group, you only see folders in tenants 2.</p> 
+  <p>You can ensure that users in each tenant are seeing the correct folders by impersonating a user in each tenant. See <a href="../../../sites/administering/using/security.md#impersonatinganotheruser">Impersonating another user</a>.</p> 
+  <h2>Creating ContextHub audiences for tenants</h2> 
+  <p>Audiences are covered in general in detail in <a href="../../../sites/authoring/using/managing-audiences.md">Managing Audiences</a>. To access audiences, navigate to <strong>Personalization</strong> &amp;gt; <strong>Audiences</strong>.</p> 
+  <p>Audiences can also be managed in structured folders:</p> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-09T04:21:21.449-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>new screenshot needed?</p> 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/chlimage_1-348.png" /> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-09T04:21:51.824-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/audiences.html shows global and We.Retail.....and We.Retail shows:</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <img imageRotate="0" src="assets/tt-01.png" /> 
+  </draft-comment> 
+  <p>You can create audiences directly in contexthub or in a tenant folder. Which audiences and audience folders are available to a certain user depends on the privileges.</p> 
+  <p>To create an audience in a tenant folder:</p> 
+  <ol> 
+   <li><p>Navigate to <strong>Personalization</strong> &amp;gt; <strong>Audiences</strong>. </p> </li> 
+   <li> <p>Tap or click the <strong>ContextHub</strong> folder to open it.</p>
+    <draft-comment color="green" lastmodifiedby="aheimoz" lastmodifieddate="2018-08-09T04:23:35.987-0400" prevfirstname="Alison" prevlastname="Heimoz" type="remark"> 
+     <p>no ContextHub folder....only global or We.Retail</p> 
+    </draft-comment> </li> 
+   <li><p>Tap or click <strong>Create</strong>. Enter a title and tap or click <strong>Create</strong>. See <a href="../../../sites/authoring/using/managing-audiences.md">Managing Audiences</a> for additional information on creating audiences in AEM 6.2.</p> </li> 
+  </ol> 
+  <h2>Selecting audiences when targeting</h2> 
+  <p>When in targeting mode, you can select audiences from different tenants based on the privileges you have. For detailed information on targeting content, see <a href="../../../sites/authoring/using/content-targeting-touch.md">Authoring Targeted Content Using Targeting Mode</a>.</p> 
+  <ol> 
+   <li><p>In a page in Sites that you want to target, select <strong>Targeting, </strong>select an activity, and tap or click <strong>Start Targeting</strong>.</p> </li> 
+   <li><p>In the <strong>Audiences</strong> tab, select <strong>Add Experience Targeting</strong>. </p> </li> 
+   <li><p>Select the audience from the drop-down menu of available audience folders. Only those audience folders that are available to that tenant and common folders are displayed in the drop-down menu.</p> </li> 
+   <li><p>Select the audience and proceed with authoring targeted content as described in <a href="../../../sites/authoring/using/content-targeting-touch.md">Authoring Targeted Content Using Targeting Mode</a>.</p> </li> 
+  </ol> 
+  <h2>Selecting audiences for activities</h2> 
+  <p>When selecting audiences for activities in brands, you can select audiences from different tenants based on the privileges you have. For detailed information on managing activities, see <a href="../../../sites/authoring/using/activitylib.md">Managing Activities</a>.</p> 
+  <ol> 
+   <li><p>Navigate to <strong>Personalization</strong> &amp;gt; <strong>Activities</strong> and select a brand. </p> </li> 
+   <li><p>Select an activity and tap or click <strong>Edit</strong>.</p> </li> 
+   <li><p>Select <strong>Add Experience Targeting</strong>. </p> 
+    <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-08-09T04:31:54.783-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+     <p>don't see this -</p> 
+     <p>http://localhost:4502/libs/cq/personalization/touch-ui/content/v2/activities/createactivitywizard.html/content/campaigns/we-retail/master?activity=/content/campaigns/we-retail/master/we-retail-home-page-personalization-activity</p> 
+    </draft-comment> 
+    <draft-comment type="draft"> 
+     <img imageRotate="0" src="assets/tt-02.png" /> 
+    </draft-comment></li> 
+   <li><p>Select the audience from the drop-down menu of available audience folders. Only those audience folders that are available to that tenant and common folders are displayed in the drop-down menu.</p> </li> 
+   <li><p>Select the audience and proceed with managing activities as described in <a href="../../../sites/authoring/using/activitylib.md">Managing Activities</a>.</p> </li> 
+  </ol> 
+ </body> 
+</html>

@@ -1,0 +1,98 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="3ef9748b-74cd-4545-9a70-a61a31c1cad5" name="jcr:predecessors" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="38" name="acrolinxSentences" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_out_office_settings_admin_5e12de0b318c6865_2293_report.xml" name="acrolinxReportURL" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="Configuring Out of Office Settings" name="navTitle" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2016-05-31T06:56:47.204-0400" name="acrolinxDate" /> 
+  <meta content="2018-04-03T09:09:45.023-0400" name="cq:lastReplicated" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2018-04-26T04:24:31.851-0400" name="locHandOffDate" /> 
+  <meta content="2016-04-20T10:02:17.078-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-31T16:32:23.682-0400" name="publishExternalDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2016-02-05T03:27:17.965-0500" name="lr_lastModified" /> 
+  <meta content="The Out of Office feature enables you to specify when a user will be out of the office and unable to complete tasks assigned by AEM forms." name="seoDescription" /> 
+  <meta content="2017-12-01T19:06:15.121-0500" name="jcr:created" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-out-office-settings.html" name="publishExternalURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="637" name="acrolinxWords" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_forms_workflow;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="Configuring Out of Office Settings" name="jcr:title" /> 
+  <meta content="2018-04-26T04:24:31.852-0400" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d3f.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d0c.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fba.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fb9.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fb8.2" name="cq:gepId" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="7c83fe71-17a7-4901-8bea-688c14bcb07c" name="jcr:uuid" /> 
+  <meta content="2017-10-31T16:32:23.682-0400" name="lastPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>The Out of Office feature enables users or administrators to specify when a user will be out of the office and unable to complete tasks assigned by AEM forms. While a user is set to Out of Office, their tasks are assigned to one or more designated users. Users can change their Out of Office settings in Workspace or administrators can change the settings on a user’s behalf in forms workflow.</p> 
+  <p>When creating a process, the Workbench user can specify whether a task can be redirected due to Out of Office settings.</p> 
+  <h2 id="view_a_user_s_out_of_office_information">View a user’s Out of Office information</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; forms workflow &amp;gt; Out of Office.</p></li> 
+   <li><p>In the box near the top of the Out of Office page, you can do one of the following: </p><p>Select the Search By Name option. Type all or part of the user name and click Find. If you leave the field blank, Forms workflow returns a list of all of the users</p><p>Select the Search By Date Range option. Specify the from and to dates along with desired time stamps to narrow the search result. Click Find.</p></li> 
+   <li><p>Click a user name to display the user’s Out of Office information below the list of users. </p></li> 
+  </ol> 
+  <h2 id="change_a_user_s_out_of_office_status">Change a user’s out of office status</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>Find the user, as described in <a href="configuring-out-office-settings#view_a_user_s_out_of_office_information">View a user’s Out of Office information</a>.</p></li> 
+   <li><p>Click the name of the user who you want to change.</p></li> 
+   <li><p>From the <i>User Name</i> is currently list, select either In the Office or Out of the Office.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <h2 id="add_an_out_of_office_date_range_for_a_user">Add an Out of Office date range for a user</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>Find the user, as described in <a href="configuring-out-office-settings#view_a_user_s_out_of_office_information">View a user’s Out of Office information</a>.</p></li> 
+   <li><p>Click the name of the user who you want to change.</p></li> 
+   <li><p>Click Add Date Range.</p></li> 
+   <li><p>Enter a Start Time and End Time. You can click the Calendar icon to select a date. If you do not specify an end time, the user will be set as out of office indefinitely.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <h2 id="assign_a_user_for_out_of_office_tasks">Assign a user for Out of Office tasks</h2> 
+  <p></p> 
+  <p>While a user is out of the office, you can assign one or more users to perform any new tasks for the user. You can set up the following configurations:</p> 
+  <ul> 
+   <li><p>Assign all new tasks to a designated default user.</p></li> 
+   <li><p>Do not reassign any tasks. New tasks remain assigned to the user who is out of the office.</p></li> 
+   <li><p>Assign a default user who will receive most of the user’s tasks, but specify that tasks from certain processes are reassigned to other users or remain assigned to the user who is out of the office.</p></li> 
+   <li><p>Do not assign a default user, but assign certain tasks from certain processes to specific users.</p> 
+    <ol> 
+     <li><p>Find the user, as described in <a href="configuring-out-office-settings#view_a_user_s_out_of_office_information">View a user’s Out of Office information</a>.</p></li> 
+     <li><p>Click the name of the user who you want to change.</p></li> 
+     <li><p>In the Default User For Out of Office Tasks list, select a user from the list. If you do not want to designate a default user to receive reassigned items, select Do Not Assign. </p><p>If the appropriate user name does not appear in the list, click Find User and use the Find User dialog box to search for the user. Select the appropriate user from the list and click Select User. You can also click View User’s Schedule in the Find User dialog box to see the selected user’s out of office schedule. </p></li> 
+     <li><p>If there are any processes that should not be sent to the default user, click Add An Exception, then select the process and select another user from the list. You can also select Do Not Assign to have the task remain assigned to the user who is out of the office. </p></li> 
+     <li><p>Click Save.</p></li> 
+    </ol></li> 
+  </ul> 
+ </body> 
+</html>

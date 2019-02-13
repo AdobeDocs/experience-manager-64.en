@@ -1,0 +1,246 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="MySQL Configuration for Enablement Features" name="jcr:title" /> 
+  <meta content="2017-12-01T19:04:41.257-0500" name="jcr:created" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-03T07:49:54.104-0400" name="lastPublishExternalDate" /> 
+  <meta content="Connecting your MySQL server" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="329fcb7f-75ee-409d-9fcd-39771446cdaf" name="jcr:uuid" /> 
+  <meta content="2018-04-03T07:49:54.104-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="MySQL Configuration for Enablement Features" name="seoTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/communities/enablement/mysql" name="qaNotes" /> 
+  <meta content="4bf23963-d989-43da-98ef-bffce26e7f4f" name="jcr:predecessors" /> 
+  <meta content="MySQL Configuration for Enablement Features" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-05-17T05:53:03.232-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-31T16:33:25.245-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-03T07:49:55.259-0400" name="cq:lastReplicated" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-03T07:49:54.104-0400" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Janice Kendall" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-05-17T05:53:03.231-0400" name="locHandOffDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/mysql.html" name="publishExternalURL" /> 
+ </head> 
+ <body> 
+  <p>MySQL is a relational database primarily used for SCORM tracking and reporting data for enablement resources. Included are tables for other features such as tracking video pause/resume.</p> 
+  <p>These instructions describe how to connect to the MySQL server, establish the enablement database, and populate the database with initial data.</p> 
+  <h2>Requirements</h2> 
+  <p>Before configuring MySQL for Communities' enablement feature, be sure to</p> 
+  <ul> 
+   <li>install <a href="http://dev.mysql.com/downloads/mysql/">MySQL server</a> Community Server version 5.6 
+    <ul> 
+     <li>version 5.7 is not supported for SCORM</li> 
+     <li>may be same server as author AEM instance</li> 
+    </ul> </li> 
+   <li>on all AEM instances, install the official <a href="../../communities/using/deploy-communities.md#jdbcdriverformysql">JDBC driver for MySQL</a></li> 
+   <li>install <a href="http://dev.mysql.com/downloads/tools/workbench/">MySQL workbench</a></li> 
+   <li>on all AEM instances, install the <a href="../../communities/using/enablement.md#scorm">SCORM package</a></li> 
+  </ul> 
+  <h2>Installing MySQL</h2> 
+  <p>MySQL should be downloaded and installed following the instructions for the target OS.</p> 
+  <h3>Lower case table names</h3> 
+  <p>As SQL is case insensitive, for case sensitive operating systems, it is necessary to include a setting to lower case all table names.</p> 
+  <p>For example, to specify all lower case table names on a Linux OS :</p> 
+  <ul> 
+   <li>edit file <span class="code">/etc/my.cnf</span></li> 
+   <li>in the <span class="code">[mysqld]</span> section, add the following line :<br /> <span class="code"> lower_case_table_names = 1</span></li> 
+  </ul> 
+  <h3>UTF8 character set</h3> 
+  <p>To provide better multilingual support, it is necessary to use the UTF8 character set.</p> 
+  <p>Change MySQL to have UTF8 as its character set :</p> 
+  <ul> 
+   <li>mysql&amp;gt; SET NAMES 'utf8';</li> 
+  </ul> 
+  <p>Change the MySQL database to default to UTF8 :</p> 
+  <ul> 
+   <li>edit file <span class="code">/etc/my.cnf</span></li> 
+   <li>in the <span class="code">[client]</span> section, add the following line:<br /> <span class="code"> default-character-set=utf8</span></li> 
+   <li>in the <span class="code">[mysqld]</span> section, add the following line:<br /> <span class="code"> character-set-server=utf8</span></li> 
+  </ul> 
+  <h2>Installing MySQL Workbench</h2> 
+  <p>MySQL Workbench provides an UI for executing SQL scripts which install the schema and initial data. </p> 
+  <p>MySQL Workbench should be downloaded and installed following the instructions for the target OS.</p> 
+  <p> </p> 
+  <h2>Enablement Connection</h2> 
+  <p>When the MySQL Workbench is first launched, unless already in use for other purposes, it will not yet show any connections :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-340.png" /> 
+  <h3>New Connection Settings</h3> 
+  <ol> 
+   <li>select the '+' icon to the right of <span class="code">MySQL Connections</span>.</li> 
+   <li>in the dialog <span class="code">Setup New Connection</span>, enter values appropriate for your platform<br /> for demonstration purposes, with the author AEM instance and MySQL on the same server : 
+    <ul> 
+     <li>Connection Name: <span class="code">Enablement</span></li> 
+     <li>Connection Method: <span class="code">Standard (TCP/IP)</span></li> 
+     <li>Hostname: <span class="code">127.0.0.1</span></li> 
+     <li>Username: <span class="code">root</span></li> 
+     <li>Password: <span class="code"><i>no password by default</i></span></li> 
+     <li>Default Schema: <span class="code"><i>leave blank</i></span></li> 
+    </ul> </li> 
+   <li>select <span class="code">Test Connection</span> to verify the connection to the running MySQL service</li> 
+  </ol> 
+  <p><strong>Notes </strong>:</p> 
+  <ul> 
+   <li>the default port is 3306</li> 
+   <li>the <span class="code">Connection Name</span> chosen is entered as the <span class="code">datasource</span> name in <a href="#configurejdbcconnections">JDBC OSGi configuration</a></li> 
+  </ul> 
+  <h4>Successful Connection</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-341.png" /> 
+  <h4>New Enablement Connection</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-342.png" /> 
+  <h2>Database Setup</h2> 
+  <p>Upon opening the new Enablement connection, notice there is a test schema and default user accounts.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-343.png" /> 
+  <h3>Obtain SQL Scripts</h3> 
+  <p>The SQL scripts are obtained using CRXDE Lite on the author instance. The <a href="../../communities/using/deploy-communities.md#scorm">SCORM package</a> must be installed :</p> 
+  <ol> 
+   <li>browse to CRXDE Lite 
+    <ul> 
+     <li>for example, <a href="http://localhost:4502/crx/de">http://localhost:4502/crx/de</a></li> 
+    </ul> </li> 
+   <li>expand the <span class="code">/libs/social/config/scorm/</span> folder</li> 
+   <li>download* <span class="code">database_scormengine.sql</span></li> 
+   <li>download* <span class="code">database_scorm_integration.sql</span></li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-344.png" /> 
+  <p>* One method for downloading the schema is to</p> 
+  <ul> 
+   <li>select the <span class="code">jcr:content </span>node for the sql file</li> 
+   <li>notice the value for the <span class="code">jcr:data </span>property is a <u>view </u>link</li> 
+   <li>select the <u>view </u>link to save the data to a local file</li> 
+  </ul> 
+  <h3>Create SCORM Database</h3> 
+  <p>The Enablement SCORM Database to be created is :</p> 
+  <ul> 
+   <li>name : <span class="code">ScormEngineDB</span></li> 
+   <li>created from scripts : 
+    <ul> 
+     <li>schema : <span class="code">database_scormengine.sql</span></li> 
+     <li>data : <span class="code">database_scorm_integration.sql</span></li> 
+    </ul> </li> 
+  </ul> 
+  <p>Follow the steps below (<a href="#step1opensqlfile">open</a>, <a href="#step2executesqlscript">execute</a>) to install each <a href="#obtainsqlscripts">SQL script</a> . <a href="#refresh">Refresh</a> when necessary to see the results of the script execution.</p> 
+  <p>Be sure to install the schema before installing the data.</p> 
+  <note> 
+   <p>If the database name is changed, be sure to specify it correctly in</p> 
+   <ul> 
+    <li><a href="#configurejdbcconnections">JDBC config</a></li> 
+    <li><a href="#configurescorm">SCORM config</a></li> 
+   </ul> 
+  </note> 
+  <h4>Step 1 : open SQL file</h4> 
+  <p>In the MySQL Workbench</p> 
+  <ul> 
+   <li>from the File pulldown menu</li> 
+   <li>select <span class="code">Open SQL Script ...</span> </li> 
+   <li>in this order, select one of : 
+    <ol> 
+     <li><span class="code">database_scormengine.sql</span></li> 
+     <li><span class="code">database_scorm_integration.sql</span></li> 
+    </ol> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-345.png" /> 
+  <h4>Step 2 : execute SQL Script</h4> 
+  <p>In the Workbench window for the file opened in Step 1, select the <span class="code">lightening (flash) icon</span> to execute the script.</p> 
+  <p>Note that the execution of the <span class="code">database_scormengine.sql</span> script to create the SCORM database may take a minute to complete.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-346.png" /> 
+  <h4>Refresh</h4> 
+  <p>Once the scripts are executed, it is necessary to refresh the <span class="code">SCHEMAS </span>section of the <span class="code">Navigator</span> in order to see the new database. Use the refresh icon to the right of 'SCHEMAS' :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-347.png" /> 
+  <h4> Result : scormenginedb</h4> 
+  <p>After installing and refreshing SCHEMAS, the <strong><span class="code">scormenginedb </span></strong>will be visible.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-348.png" /> 
+  <h2>Configure JDBC Connections</h2> 
+  <p>The OSGi configuration for <strong>Day Commons JDBC Connections Pool</strong> configures the MySQL JDBC Driver.</p> 
+  <p>All publish and author AEM instances should point to the same MySQL server. </p> 
+  <p>When MySQL runs on a server different from AEM, the server hostname must be specified in place of 'localhost' in the JDBC connector (which populates the <a href="#configurescormengineservice">ScormEngine</a> config).</p> 
+  <ul> 
+   <li>on each author and publish AEM instance</li> 
+   <li>signed in with administrator privileges</li> 
+   <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">web console</a> 
+    <ul> 
+     <li>for example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a></li> 
+    </ul> </li> 
+   <li>locate the <span class="code">Day Commons JDBC Connections Pool</span></li> 
+   <li>select the '+' icon to create a new configuration</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-349.png" /> 
+  <ul> 
+   <li>enter the following values : 
+    <ul> 
+     <li><strong>JDBC driver class</strong> : com.mysql.jdbc.Driver</li> 
+     <li><strong>JDBC connection URI</strong> : jdbc:mysql://localhost:3306/aem63reporting<br /> specify server in place of localhost if MySQL server is not the same as 'this' AEM server<br /> </li> 
+     <li><strong>Username </strong>: root<br /> or enter the configured Username for the MySQL server, if not 'root'</li> 
+     <li><strong>Password</strong> : <br /> clear this field if no password set for MySQL,<br /> else enter the configured password for the MySQL Username</li> 
+     <li><strong>...</strong></li> 
+     <li><strong>Datasource name</strong> : name entered for the <a href="#newconnectionsettings">MySQL connection</a>, for example, 'enablement'</li> 
+    </ul> </li> 
+   <li>select <strong>Save</strong></li> 
+  </ul> 
+  <h2>Configure Scorm</h2> 
+  <h3>AEM Communities ScormEngine Service</h3> 
+  <p>The OSGi configuration for <strong>AEM Communities ScormEngine Service</strong> configures SCORM for an enablement community's use of the MySQL server.</p> 
+  <p>This configuration is present when the <a href="../../communities/using/deploy-communities.md#scormpackage">SCORM package</a> is installed.</p> 
+  <p>All publish and author instances point to the same MySQL server. </p> 
+  <p>When MySQL runs on a server different from AEM, the server hostname must be specified in place of 'localhost' in the ScormEngine Serivce, which is typically populated from the <a href="#configurejdbcconnections">JDBC Connection</a> config.</p> 
+  <ul> 
+   <li>on each author and publish AEM instance</li> 
+   <li>signed in with administrator privileges</li> 
+   <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">web console</a> 
+    <ul> 
+     <li>for example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a></li> 
+    </ul> </li> 
+   <li>locate the <span class="code">AEM Communities ScormEngine Service</span></li> 
+   <li>select the edit icon</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-350.png" /> 
+  <ul> 
+   <li>verify the following parameter values are consistent with the <a href="#configurejdbcconnectionspool">JDBC Connection</a> config : 
+    <ul> 
+     <li><strong>JDBC connection URI</strong> : jdbc:mysql://localhost:3306/ScormEngineDB<br /> <i>ScormEngineDB</i> is the default database name in the SQL scripts</li> 
+     <li><strong>Username </strong>: root<br /> or enter the configured Username for the MySQL server, if not 'root'</li> 
+     <li><strong>Password</strong> : <br /> clear this field if no password set for MySQL,<br /> else enter the configured password for the MySQL Username</li> 
+    </ul> </li> 
+   <li>regarding the following parameter : 
+    <ul> 
+     <li><strong>Scorm User Password</strong> : DO NOT EDIT<br /> For internal use only. It is for a special service user used by AEM Communities to communicate with the scorm engine.<br /> </li> 
+    </ul> </li> 
+   <li>select <strong>Save</strong></li> 
+  </ul> 
+  <h3>Adobe Granite CSRF Filter</h3> 
+  <p>To ensure enablement courses work correctly in all browsers, it is necessary to add Mozilla as a User Agent that is not checked by the CSRF filter.</p> 
+  <ul> 
+   <li>on each publish AEM instance</li> 
+   <li>signed in with administrator privileges</li> 
+   <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">web console</a> 
+    <ul> 
+     <li>for example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a></li> 
+    </ul> </li> 
+   <li>locate <span class="code">Adobe Granite CSRF Filter</span></li> 
+   <li>select the edit icon</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-351.png" /> 
+  <ul> 
+   <li>select the <span class="code">[+]</span> icon to add a Safe User Agent</li> 
+   <li>enter <span class="code">Mozilla/*</span></li> 
+   <li>select <strong>Save</strong></li> 
+  </ul> 
+ </body> 
+</html>

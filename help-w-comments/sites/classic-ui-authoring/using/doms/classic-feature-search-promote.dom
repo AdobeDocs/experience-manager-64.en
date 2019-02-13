@@ -1,0 +1,164 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2cac404d-e1d1-449e-9c8b-aa2ac6fbb191" name="jcr:predecessors" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T06:43:42.089-0400" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-03T06:43:43.090-0400" name="cq:lastReplicated" /> 
+  <meta content="Integrating Search&amp;Promote capabilities in your web site, you can use the Search&amp;Promote components to add features to your pages such as keyword search, search results page
+search refinement, and banners." name="seoDescription" /> 
+  <meta content="2018-04-03T06:43:42.089-0400" name="publishExternalDate" /> 
+  <meta content="Adding Search&amp;Promote Features To Your Page" name="navTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:site-features" name="cq:tags" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="b5c6c8f3-9fcf-4205-923e-1f3ea2d012bb" name="jcr:uuid" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2017-10-31T16:19:21.982-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-19T10:23:22.728-0400" name="cq:lastModified" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-feature-search-promote.html" name="publishExternalURL" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-04-19T10:23:22.727-0400" name="locHandOffDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-03T06:43:42.089-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Adding Search&amp;Promote Features To Your Page" name="seoTitle" /> 
+  <meta content="2017-12-01T19:06:33.182-0500" name="jcr:created" /> 
+  <meta content="Adding Search&amp;Promote Features To Your Page" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/site-page-features/search-and-promote" name="qaNotes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>To integrate Search&amp;Promote capabilities in your web site, use the Search&amp;Promote components to add the following features to your pages:</p> 
+  <ul> 
+   <li>Keyword search<br /> </li> 
+   <li>Search results page</li> 
+   <li>Search refinement</li> 
+   <li>Banners</li> 
+  </ul> 
+  <p>Note that you can use Search&amp;Promote capabilities only if your AEM administrator has enabled them. See <a href="../../../sites/administering/using/search-and-promote.md">Integrating with Adobe Search&amp;Promote</a>.</p> 
+  <p>Facets are configured on the Search&amp;Promote server, as is the information that each component provides. The following table provides a brief description of each component. Subsequent sections provide detailed information about their use.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Search&amp;Promote component</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>Banners</td> 
+     <td>Displays banner advertisements. Banners are selected based on data gathered through Search&amp;Promote.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Breadcrumbs</td> 
+     <td>Displays the search keyword and the sequence of filters that the user has applied to search results.</td> 
+    </tr> 
+    <tr> 
+     <td>Checkbox List-Facet</td> 
+     <td>A list of checkboxes for selecting facets for filtering search results.</td> 
+    </tr> 
+    <tr> 
+     <td>Dropdown Facet</td> 
+     <td>A drop-downl list of facets for filtering search results.</td> 
+    </tr> 
+    <tr> 
+     <td>Link List Facet</td> 
+     <td>A list of facet links for filtering search results.</td> 
+    </tr> 
+    <tr> 
+     <td>Pagination</td> 
+     <td>Controls for navigating through pages of search results.</td> 
+    </tr> 
+    <tr> 
+     <td>Results</td> 
+     <td>Displays the results of a keyword search.</td> 
+    </tr> 
+    <tr> 
+     <td>Search</td> 
+     <td>Adds a search field to the page.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Creating the search results page</h3> 
+  <p>Use the WCM Websites console to create a page for showing search results. The results of a search from any Search component can appear on this page if it uses the same Search&amp;Promote service.<br /> </p> 
+  <p>The components that enable users to review search results are Results, and Pagination. The <strong>Results</strong> component has no configurable properties in Edit or Design mode. The Results component simply lists search results, which provide links to other pages, and displays the number of results for the search keyword.<br /> </p> 
+  <img imageRotate="0" src="assets/srchresultscomp.png" /> 
+  <p>The <strong>Pagination</strong> component enables users to navigate multiple pages of search results. User can see the number of pages, move to the next or previous page, select a page to open, or consolidate all results on one page.<br /> </p> 
+  <img imageRotate="0" src="assets/srchpagination.png" /> 
+  <p>You can configure the following component properties in Edit mode to control runtime behavior:</p> 
+  <ul> 
+   <li>Hide single result page: Select this option to hide the page navigation controls when the search returns a single page of results.<br /> </li> 
+   <li>Hide First/Last: Select this option to prevent users from jumping to the first or last page of results.<br /> </li> 
+   <li>Hide Previous/Next: Determines whether users can navigate results pages relative to the current page.<br /> </li> 
+   <li>Hide view all: Determines whether the user can consolidate all search results on a single page. Typically, providing paged data makes more efficient use of server resources. Select this option to prevent the transfer of large data sets in one response message.</li> 
+  </ul> 
+  <h3>Enabling the filtering of results by facets</h3> 
+  <p>You can enable users to filter search results by facets. The <strong>Checkbox List Facet, Dropdown Facet,</strong> and <strong>Link List Facet </strong>components enable users to select one or more facets for filtering. When using these components, you should also include the <strong>Breadcrumbs</strong> component. Breadcrumbs indicate the current filters that are used.</p> 
+  <p>The <strong>Checkbox List Facet, Dropdown Facet,</strong> and<strong> Link List Facet</strong> components each have the following properties that you configure in <strong>Edit</strong> mode:</p> 
+  <ul> 
+   <li><strong>Facet Name</strong>: The name of the facet that is used for filters.</li> 
+  </ul> 
+  <p>The <strong>Checkbox List Facet</strong> component displays a list of facets with an accompanying checkbox. Use a <strong>Checkbox List Facet</strong> so that users can view a subset of results that include items from multiple facets. For example, the<strong> </strong>Brand facet is appropriate because several brands supply the same type of product.</p> 
+  <p>A check box appears for each facet that is associated with a search result. When a user selects a check box, the page reloads with an updated result set. All checkboxes remain on the page so that customers can add or remove facets to the filter at any time:</p> 
+  <img imageRotate="0" src="assets/sandpcheckboxcomp.png" /> 
+  <p>The <strong>Dropdown Facet</strong> component enables customers to select a facet item from a drop-down list. This component is useful when you want customers to focus on a single facet item at once. For example, the Department facet is appropriate for enabling customers to narrow product searches by gender. John searches for <i>jeans</i> and then filters on the Men's department.<br /> </p> 
+  <p>The drop-down list is populated with the facets that are associated with all search results. Upon selecting an item in the drop-down list, the page reloads with an updated result set. The items in the drop-down list do not change so that customers can switch from facet to facet at any time.<br /> </p> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/sandpdropdowndepartment.png" /> 
+  <p>The <strong>Link List Facet</strong> component enables customers to progressively narrow their focus on items that are categorized under multiple facet members or facets. <br /> </p> 
+  <p>Facet members appear as a list of links. The text of each link is the name of a facet member that is associated with the current search results. When a customer clicks a facet link, the page reloads and a subset of the search results appears. The list of links is updated accordingly enabling an even narrower focus. </p> 
+  <img imageRotate="0" src="assets/sandplinklistcomp.png" /> 
+  <p>The links in the list also changes when a filter is applied from a different type of Search&amp;Promote component. The use of multiple types filter components can provide effective filter combinations.</p> 
+  <p>The <strong>Breadcrumbs</strong> component enables customers to see the filters that are currently applied to search results, in the order in which they were applied. Customers can click the items in the breadcrumb to revert to that filter combination. </p> 
+  <img imageRotate="0" src="assets/sandpbreadcrumbcomp.png" /> 
+  <p>You can configure the following properties for Breadcrumbs in Edit mode to customize the component's look:</p> 
+  <ul> 
+   <li>Delimiter: Define the character or character string to act as a delimiter between each breadcrumb. The Delimiter field accepty any character string as input. The default setting is: "&amp;gt;" (without the quotes)</li> 
+   <li>Trailing Delimiter: Define a character or character string to be displayed at the end of the breadcrumbs. The Traiiling Delimiter field accepts any character string as input. The default setting for this is *blank* (i.e. nothing is displayed at the end of the breadcrumb line)</li> 
+  </ul> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <h3>Adding search boxes</h3> 
+  <p>The Search component enables customers to perform keyword searches. Add Search components to each page where you want to provide access to searching.<br /> </p> 
+  <p>Configure the following properties in Edit mode to control runtime behavior:</p> 
+  <ul> 
+   <li>Result Page Path: The path to the page that displays search results.<br /> </li> 
+   <li>Enable Auto-Complete: Select to cause suggested search keywords to appear when the customer begins typing in the search box.<br /> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/sandpsearchcomp.png" /> 
+  <h3>Adding banners</h3> 
+  <p>The Banners component dispays banner advertisements according to the customer's Search&amp;Promote searches. Logic on the Search&amp;Replace server determines which banner to show. For example, a search on jeans could cause a fashion-related banner to appear. Filtering on the Men's department could further refine the choice of banner.</p> 
+  <p>The Banners component provides one configurable property named Banner Area. In Edit mode, select one of the property values to specify how the banner appears. The Search&amp;Promote service determines the list of values that you can select from. <br /> </p> 
+  <h3>Example Search&amp;Promote search page</h3> 
+  <p>This diagram shows the components that are added to a page to create the fully-functional Search&amp;Promote results page below.</p> 
+  <img imageRotate="0" src="assets/1328213789109.png" /> 
+  <img imageRotate="0" src="assets/sandppageexample.png" /> 
+ </body> 
+</html>

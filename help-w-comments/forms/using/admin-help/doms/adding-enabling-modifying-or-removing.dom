@@ -1,0 +1,98 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="Adding, enabling, modifying, or removing endpoints" name="jcr:title" /> 
+  <meta content="Adding, enabling, modifying, or removing&amp;#xA;endpoints" name="navTitle" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="91c00282-eafb-4c18-9e28-5be5bf3f5dcf" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WSa7dd8288c271d6622c62801212964a0e5b5-8000.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb1c01fa7512905cdf2c9-7ff7.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb1c01fa7512905cdf2c9-7ff6.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb1c01fa7512905cdf2c9-7ff5.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb1c01fa7512905cdf2c9-7ff4.2" name="cq:gepId" /> 
+  <meta content="2016-04-20T09:58:51.951-0400" name="firstPublishExternalDate" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T09:09:18.952-0400" name="cq:lastReplicated" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/adding-enabling-modifying-or-removing.html" name="publishExternalURL" /> 
+  <meta content="2018-04-26T04:25:41.862-0400" name="cq:lastModified" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2016-05-31T06:52:33.998-0400" name="acrolinxDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/adding_enabling_modifying_or_removing_admin_5e12de0b318c6865_2252_report.xml" name="acrolinxReportURL" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="25" name="acrolinxSentences" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:25:41.861-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-31T16:32:40.422-0400" name="lastPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Learn how to add, enable, modify and remove endpoints." name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="6d7f6ad8-24a5-4d09-b272-d64da06f05dd" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="367" name="acrolinxWords" /> 
+  <meta content="2017-10-31T16:32:40.422-0400" name="publishExternalDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2017-12-01T19:03:11.828-0500" name="jcr:created" /> 
+  <meta content="2016-02-05T03:27:09.936-0500" name="lr_lastModified" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/managing_endpoints;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+ </head> 
+ <body> 
+  <h2 id="add_an_endpoint_to_a_service">Add an endpoint to a service</h2> 
+  <p></p> 
+  <p>Endpoints can be added only to services. An endpoint cannot exist alone; it must be associated with a service.</p> 
+  <note> 
+   <p>It is recommended that you use unique names when adding endpoints.</p> 
+  </note> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Service Management.</p></li> 
+   <li><p>On the Service Management page, click the service to configure.</p></li> 
+   <li><p>In the list on the Endpoints tab, select the type of endpoint to add and click Add.</p></li> 
+   <li><p>Depending on the endpoint type, configure additional endpoint settings. </p></li> 
+   <li><p>Click Add.</p></li> 
+  </ol> 
+  <h2 id="enable_or_disable_an_endpoint">Enable or disable an endpoint</h2> 
+  <p></p> 
+  <p>By default, new endpoints are automatically enabled. But if you have disabled an endpoint, you will need to enable it for it to be operational. </p> 
+  <p>If you are experiencing problems with services, disable the associated endpoints to better troubleshoot the problem. You may also want to disable endpoints during regular system maintenance or when upgrading a service. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Endpoint Management.</p></li> 
+   <li><p>On the Endpoint Management page, select the check box for the endpoint to enable or disable and click Enable or Disable.</p></li> 
+  </ol> 
+  <h2 id="modify_an_endpoint">Modify an endpoint</h2> 
+  <p></p> 
+  <note> 
+   <p>The changes you make to an endpoint configuration using administration console are not reflected in the design-time copies of your applications. If you redeploy an application, any change that you made to its endpoints using administration console will be lost.</p> 
+  </note> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Endpoint Management.</p></li> 
+   <li><p>On the Endpoint Management page, click the endpoint to modify.</p></li> 
+   <li><p>On the Update Endpoint page, modify the endpoint name, description, and settings.</p> 
+    <note> 
+     <p>Do not include a &amp;lt; character in the name or description because it will truncate the name or description displayed in Workspace.</p> 
+    </note></li> 
+   <li><p>To save your changes, click Update.</p></li> 
+  </ol> 
+  <p>You can also do this task from the Service Management page by selecting a service and then clicking the Endpoints tab. </p> 
+  <h2 id="remove_an_endpoint">Remove an endpoint</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Endpoint Management.</p></li> 
+   <li><p>On the Endpoint Management page, select the check box for the endpoint to remove and click Remove. The endpoint is no longer displayed.</p></li> 
+  </ol> 
+ </body> 
+</html>

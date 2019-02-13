@@ -1,0 +1,71 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:author" name="cq:tags" /> 
+  <meta content="After filling an adaptive form, users can be redirected to a webpage that form authors can configure while creating the form." name="seoDescription" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_redirect_page_admin_5e12de0b318c6865_1974_report.xml" name="acrolinxReportURL" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2018-04-03T08:18:28.371-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/author;/content/help/en/experience-manager/6-4/forms/morehelp/author" name="moreHelpPaths" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2016-04-20T09:33:36.038-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/configuring-redirect-page.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T08:18:29.878-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-03T08:18:28.371-0400" name="lastPublishExternalDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:20:28.614-0400" name="cq:lastModified" /> 
+  <meta content="2017-12-01T19:01:56.475-0500" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2016-05-31T06:34:44.305-0400" name="acrolinxDate" /> 
+  <meta content="2018-04-03T08:18:28.371-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Configuring redirect page" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="3c6dadc7-e1c5-471b-9dfd-f42acf9403fb" name="jcr:predecessors" /> 
+  <meta content="262" name="acrolinxWords" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2015-06-12T04:25:24.444-0400" name="lastPublishQADate" /> 
+  <meta content="2018-04-26T04:20:28.613-0400" name="locHandOffDate" /> 
+  <meta content="Configuring redirect page" name="jcr:title" /> 
+  <meta content="dbb390ab-5eb6-4de2-82a7-ae26d8021022" name="jcr:uuid" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="15" name="acrolinxSentences" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <p>Form authors can configure a page for each form, to which the form users are redirected after submitting a form.</p> 
+  <ol> 
+   <li>In the edit mode, select a component, then click <img src="assets/field-level.png" /> &amp;gt; <strong>Adaptive Form Container</strong>, and then click <img src="assets/cmppr.png-" />.</li> 
+   <li>In the sidebar, click <strong>Submission</strong>.<br /> </li> 
+   <li>Provide the URL of the redirect page under Thank You Page in the Submission section.<br /> </li> 
+   <li>Optionally, under Submit Action, for the Submit to REST endpoint action, you can configure the parameter to be passed to the redirect page.<br /> </li> 
+  </ol> 
+  <img alt="Redirect page configuration" captionBottom="Redirect page configuration" imageRotate="0" src="assets/thank-you-setting-1.png" title="Redirect page configuration" /> 
+  <p>Form authors can use the following parameters that are passed to the Thank you page. For all the available submit actions, <span class="code">status</span><strong> </strong>and <span class="code">owner</span> parameters are passed. Besides these two parameters, some additional parameters are passed for the following submit actions:</p> 
+  <ul> 
+   <li><strong>Store content action</strong> (deprecated) : <span class="code">contentPath</span>--the path of the node in the repository where submitted data is stored--is passed.</li> 
+   <li><strong>Store PDF action</strong> (deprecated) : <span class="code">contentPath</span>--of the submitted data and path to the node storing the PDF file in the repository--is passed.<br /> </li> 
+   <li><strong>Submit to Forms workflow</strong>: Output parameters returned from forms workflow are passed.<br /> </li> 
+   <li><strong>Submit to REST endpoint</strong>: Parameters added for in-field to parameter mapping are passed. <span class="code">status</span> and <span class="code">owner</span> parameters are not passed in this submit action. For more information, see <a href="../../forms/using/configuring-submit-actions.md">Configuring the Submit to REST endpoint submit action</a>.<br /> </li> 
+  </ul> 
+  <related-links> 
+   <a href="../../forms/using/introduction-forms-authoring.md">Introduction to Adaptive forms authoring</a> 
+   <a href="../../forms/using/creating-adaptive-form.md">Creating an Adaptive form</a> 
+   <a href="../../forms/using/configuring-submit-actions.md">Configuring the Submit action</a> 
+  </related-links> 
+ </body> 
+</html>

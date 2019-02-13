@@ -1,0 +1,109 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-10-27T23:43:57.542-0400" name="cq:lastReplicated" />
+  <meta content="d531e064-53a8-47bc-a781-fc4d50d4f8ab" name="jcr:uuid" />
+  <meta content="2018-04-03T10:56:37.631-0400" name="lastPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-03-01T08:01:17.961-0500" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/managing/using/web-accessibility.html" name="publishExternalURL" />
+  <meta content="2017-10-31T16:26:45.397-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="/content/docs/en/aem/6-3/manage/web-accessibility" name="qaNotes" />
+  <meta content="31fe5e62-7ff2-4228-af29-60e5a47db51c" name="jcr:predecessors" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/content/help/en/experience-manager/6-4/managing/morehelp/managing-accessibility;/content/help/en/experience-manager/6-4/managing/morehelp/introduction;/content/help/en/experience-manager/6-4/managing/morehelp/managing-accessibility;/content/help/en/experience-manager/6-4/managing/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="AEM and the Web Accessibility Guidelines" name="seoTitle" />
+  <meta content="Learn how to create accessible websites and content with AEM." name="seoDescription" />
+  <meta content="AEM and the Web Accessibility Guidelines" name="jcr:title" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-05-09T09:48:59.441-0400" name="locHandOffDate" />
+  <meta content="aheimoz" name="cq:lastModifiedBy" />
+  <meta content="2018-05-09T09:48:59.441-0400" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MANAGING;topic_tags:managing-accessibility;content_type:reference;topic_tags:introduction" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="AEM and the Web Accessibility Guidelines" name="navTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MANAGING" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-04-03T10:56:37.631-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-04-03T10:56:37.631-0400" name="publishExternalDate" />
+ </head>
+ <body>
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-02-07T07:33:00.896-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark">
+   <p>original content provided by Andrew Kirkpatrick<br /> </p> 
+  </draft-comment>
+  <draft-comment color="yellow" lastModifiedBy="amychen" lastModifiedDate="2018-02-28T18:26:10.149-0500" prevFirstName="Amy" prevLastName="Chen" type="remark">
+   <p>rename page? to one of the following?:</p> 
+   <ul> 
+    <li>AEM and Web Content Accessibility</li> 
+    <li>AEM and Accessibility Guidelines</li> 
+   </ul> 
+  </draft-comment>
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-02-23T05:44:52.711-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark">
+   <p>https://theblog.adobe.com/marie-van-driessche-designing-deaf-people-everyone-actually/ </p> 
+  </draft-comment>
+  <p>There are many social, economical, and legal motivations for ensuring that web content is designed to be as accessible as possible to the target audience, regardless of any disability or limitations they may have. Web accessibility is therefore an increasingly important aspect of good web design.</p> 
+  <p>Creating accessible websites and content with AEM impact:</p> 
+  <ul> 
+   <li>Administrators responsible for configuring Adobe Experience Manager (AEM) to ensure accessibility features are correctly enabled.<br /> </li> 
+   <li>Authors using these features to create web sites that support key guidelines in WCAG 2.0.<br /> Creating accessible content is a process. AEM provides the capabilities, but content authors need to ensure that they follow the techniques required to create accessible content.</li> 
+   <li>Template developers should also be aware of such issues when implementing the website design.</li> 
+  </ul> 
+  <h3>Further Information</h3>
+  <p>The following pages and section provide information and guidelines:</p> 
+  <ul> 
+   <li><a href="../../sites/administering/using/rte-accessible-content.md">Configuring the Rich Text Editor for Producing Accessible Sites</a><br /> Guidelines on how administrators can configure AEM for producing accessible content.</li> 
+   <li><a href="../../sites/authoring/using/creating-accessible-content.md">Creating Accessible Content (WCAG 2.0 Conformance)</a><br /> The WCAG 2.0 Guidelines provide a list of success criteria for Level A and Level AA conformance levels. This page details the success criteria covered by AEM, together with how to meet them when generating content.<br /> </li> 
+   <li><a href="../../managing/using/qg-wcag.md">Quick Guide to WCAG 2.0</a><br /> Background information about WCAG 2.0. <br /> </li> 
+   <li><a href="../../forms/using/creating-accessible-adaptive-forms.md">Creating Accessible Adaptive Forms</a><br /> Adobe Experience Manager (AEM) includes a number of features and capabilities that enhance the usability of adaptive forms for users with different abilities. The solution also assists form authors in creating accessible adaptive forms.</li> 
+  </ul> 
+  <h3>World Wide Web Consortium and WCAG 2.0</h3>
+  <p>The <a href="http://www.w3.org/">World Wide Web Consortium (W3C)</a> is an international community dedicated to developing web standards. To help web designers and developers produce accessible web sites the <a href="http://www.w3.org/WAI/">Web Accessibility Initiative (WAI)</a> published the <a href="http://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines (WCAG) 2.0</a> in December 2008 (updating the original version published in 1999).</p> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-02-12T04:33:44.644-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark">
+   <p>review for AEM 6.5</p> 
+  </draft-comment>
+  <note>
+   <p>An <a href="https://www.w3.org/TR/WCAG21/">updated version of the guidelines</a> is currently in development, but will not be considered for this version of AEM.</p> 
+  </note>
+  <p>Using Adobe Experience Manager, content authors and/or website owners can create web content that meets WCAG 2.0 Level A and Level AA success criteria.</p> 
+  <p>Specific aspects of WCAG 2.0 are highlighted in our <a href="../../managing/using/qg-wcag.md">quick guide to WCAG 2.0</a>.</p> 
+  <h4>WCAG 2.0 Accessibility Conformance Levels</h4>
+  <p>WCAG 2.0 provides <a href="http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html">guidelines (with related success criteria) covering the accessibility levels</a>.</p> 
+  <p>These, as they relate to AEM, are covered under <a href="../../sites/authoring/using/creating-accessible-content.md">Level A and AA Conformance</a>. When creating your site, you should determine the overall level to which you would like your site to conform.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-03-01T02:31:03.610-0500" type="annotation">
+   WCAG 2.0 provides guidelines (with related success criteria) covering the accessibility levels. DONE
+  </draft-comment>
+  <note>
+   <p>As it is not possible to satisfy all Level AAA Success Criteria for certain types of content, it is not recommended as a required level of conformance.</p> 
+  </note>
+  <h3>Accessibility at Adobe</h3>
+  <p>For additional information, please visit the <a href="http://www.adobe.com/accessibility/">Adobe Accessibility Resource Center</a>.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-03-01T02:32:52.086-0500" type="annotation">
+   For additional information, please visit Adobe Accessibility. DONE
+  </draft-comment>
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2018-03-01T02:39:01.569-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark">
+   <p>FOR 6.5</p> 
+   <p>Amy Chen:</p> 
+   <p>The Adobe Experience Manager 6.5 Accessibility Conformance Report gives information about product conformance to accessibility standards.</p> 
+   <p>The current/old sentence points to a document from AEM 5.6. I will be creating a new document, now called Accessibility Conformance Reports instead of VPATs for AEM 6.5.</p> 
+  </draft-comment>
+  <draft-comment type="draft">
+   <p>The Adobe Experience Manager 6.5 Accessibility Conformance Report gives information about product conformance to accessibility standards.<br /> </p> 
+  </draft-comment>
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-03-01T02:38:44.770-0500" type="annotation">
+   The Adobe Experience Manager 6.5 Accessibility Conformance Report gives information about product conformance to accessibility standards. PREPPED FOR 6.5
+  </draft-comment>
+ </body>
+</html>

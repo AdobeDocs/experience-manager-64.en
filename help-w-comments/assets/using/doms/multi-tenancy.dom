@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="9" name="acrolinxSentences" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-31T16:34:22.709-0400" name="firstPublishExternalDate" /> 
+  <meta content="Learn how the Multi-tenancy feature lets you segregate content in the CRX repository based on the customer organization to prevent unauthorized access." name="seoDescription" /> 
+  <meta content="a785b666-77f7-4da2-915a-5e328b8b28f9" name="jcr:predecessors" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2017-12-01T19:05:10.137-0500" name="jcr:created" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/multi_tenancy_krs_workflow_f3c2f2ccebf6138e_191_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2017-11-28T11:34:41.623-0500" name="publishExternalDate" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="258" name="acrolinxWords" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-24T11:56:44.205-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-03T08:10:11.883-0400" name="cq:lastReplicated" /> 
+  <meta content="da1a0ccb-3e5c-4fac-985c-f302f77b97f9" name="jcr:uuid" /> 
+  <meta content="2017-11-28T11:34:41.623-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Multi-tenancy for Collections, Snippets, and Snippet Templates" name="jcr:title" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/multi-tenancy" name="qaNotes" /> 
+  <meta content="2019-01-12T17:34:48.387-0500" name="acrolinxDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/multi-tenancy.html" name="publishExternalURL" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-24T11:56:44.204-0400" name="locHandOffDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Multi-tenancy for Collections, Snippets, and Snippet Templates" name="seoTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-11-28T11:34:41.623-0500" name="lastPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="User" name="contentOwner" /> 
+ </head> 
+ <body> 
+  <p>The Multi-tenancy feature lets you segregate content in CRX based on the organization prefix and organization ID to safeguard the content from unauthorized access by users of other organizations.</p> 
+  <p>Adobe Experience Manager (AEM) Assets stores data for each organization in a different path. Each organization-specific path is identified by the organization prefix and organization ID <br /> that is included in the traditional location where different types of assets are stored in CRX.</p> 
+  <p>For example, if you create a folder named Demo, AEM assets traditionally stores the folder at the following location in CRX:</p> 
+  <p><strong>..<em>/content/dam/Demo</em></strong></p> 
+  <p>With the Multi-tenancy feature enabled, you can now store the data at the following location:</p> 
+  <p><strong>..<em>/content/dam/&amp;lt;organization prefix&amp;gt;/&amp;lt;organization id&amp;gt;Demo</em> <br /> </strong></p> 
+  <p>For example, if for Adobe Marketing Cloud users of AEM Assets (on demand) that are assigned to the aodpremium organization, you can use the Multi-tenancy feature to configure the following path to segregate their content:</p> 
+  <p><strong>..<em>/content/dam/&amp;lt;mac&amp;gt;/&amp;lt;aodpremium&amp;gt;Demo</em></strong></p> 
+  <p>Where <strong>mac</strong> is the organization prefix and <strong>aodpremium</strong> is the organization ID.</p> 
+  <p>Based on the user's organization and ID, this qualified path is displayed in the AEM Assets interface and various wizards, including the Move and Snippet creation wizards to enforce seggregation.</p> 
+  <p>The Multi-tenancy feature lets you seggregate the following types of assets and components:</p> 
+  <ul> 
+   <li>Collections</li> 
+   <li>Public Collections </li> 
+   <li>Catalogs (including the Add/Select Page wizard)</li> 
+   <li>Templates</li> 
+   <li>Snippet templates</li> 
+   <li>Lightbox</li> 
+  </ul> 
+ </body> 
+</html>

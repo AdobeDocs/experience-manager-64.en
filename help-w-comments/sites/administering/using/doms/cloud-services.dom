@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="noIndex" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="true" name="preview" /> 
+  <meta content="raiman" name="contentOwner" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="raiman" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2018-06-26T08:14:21.671-0400" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Cloud Services" name="jcr:title" /> 
+  <meta content="2018-06-19T07:29:27.393-0400" name="jcr:created" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="video" name="pageLayout" /> 
+ </head> 
+ <body> 
+  <h2>Introduction</h2> 
+  <p>In previous versions of AEM, cloud services were located under Tools &amp;gt; Deployment. With AEM 6.4, there is a new menu tab called Cloud Services, at the same level as Tools. The tab allows customers to create and configure out-of-the-box integrations, both internal and external. There is also a new location structure that allows for a layered approach, providing more flexibility for defining cloud services configurations.</p> 
+  <h2>Structure</h2> 
+  <p>The configuration wizard will force customers to create cloud configurations under /conf, and we advise that customers create them under &amp;lt;my-app&amp;gt;, which should be listed in the browser. Upon creating a cloud service config, the system will place it under /conf/&amp;lt;my-app&amp;gt;/settings/cloudconfigs/&amp;lt;cloud_service&amp;gt;. </p> 
+  <p>The following screenshot exemplifies how the structure looks for we-retail cloud configurations:</p> 
+  <img imageRotate="0" src="assets/cloud_services_structure.png" /> 
+  <note> 
+   <p>Customers occasionally create custom cloud services and the guidance for 6.4 is to use the legacy approach from 6.3. Creating custom cloud services in 6.3 is <a href="/content/help/en/experience-manager/6-3/sites/developing/using/extending-cloud-config-custom-cloud">documented here</a>. </p> 
+  </note> 
+  <note> 
+   <p>Any pre-existing cloud service already configured under /etc will continue to exist and work without any change. </p> 
+  </note> 
+  <h2>Cloud Services</h2> 
+  <p>With AEM 6.4, we have a new menu tab called Cloud Services, at the same level as Tools. It includes the following cards:</p> 
+  <ul> 
+   <li><strong>Legacy Cloud Services</strong> - this is the card that was in Legacy versions under Tools &amp;gt; Deployment. Customers will need to access it for any cloud service that hasn't been provided as an independent card under the same menu tab. Any cloud services created using this card will appear under <span class="code">/etc/cloudservices</span>. Note that as of 6.4, some cloud services under this card will no longer be editable, instead assuming that new cloud services will be created with the new paradigm. </li> 
+   <li><strong>An assortment of independent cloud services cards - </strong>Context aware configurations allow for a layered approach where customers can include configurations in /libs/settings, /apps/settings, /conf/global/settings, and /conf/&amp;lt;tenant&amp;gt;/settings. For example, /libs/settings is overridden by new properties in /apps/settings, which is overridden by /conf/global/settings and so on. Note that run-mode specific settings are supported with this layered approach as well (for example <span class="code">/apps/settings.author</span>).</li> 
+  </ul> 
+  <h3>Creating Cloud Service Configurations</h3> 
+  <p>We advise customers to create (new 6.4, non-legacy) cloud configurations under /conf/&amp;lt;my-app&amp;gt;/settings/cloudconfigs/.</p> 
+  <p>In order to create the the &amp;lt;my-app&amp;gt; folder under /conf, the Configuration browser (Tools &amp;gt; Configuration browser) must be used to create sibling folders to the pre-existing global folder, as illustrated below. </p> 
+  <p>(Note that in the picture below, 6.4 will no longer have the author/publish aware configurations checkbox)</p> 
+  <p>Creating the my-app folder:</p> 
+  <img /> 
+  <note> 
+   <p>The configuration browser manages the configuration containers below /conf, as by default only /conf/global would be there. It is agnostic of the contents though, so the configurations themselves are managed below /conf/&amp;lt;container&amp;gt;/settings/cloudconfigs by each console as required.</p> 
+  </note> 
+  <p>In order to create cloud service configurations, do the following:</p> 
+  <ol> 
+   <li><p>Go to Tools &amp;gt; Cloud Services and click the desired card (for example the Recaptcha card). Clicking it brings up an interface similar to the config browser.</p> </li> 
+   <li><p>Click <strong>Create</strong> to configure it.</p> </li> 
+   <li><p>After the configuration is created check the location/settings.</p> </li> 
+  </ol> 
+  <h3>Assigning cloud service configurations to pages</h3> 
+  <p>To assign cloud service configurations to pages, follow these steps:</p> 
+  <ol> 
+   <li>Step text</li> 
+   <li>Step text</li> 
+   <li>Step text</li> 
+   <li>Step text</li> 
+   <li>Step text</li> 
+  </ol> 
+ </body> 
+</html>

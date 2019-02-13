@@ -1,0 +1,282 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2017-12-02T19:01:13.324-0500" name="jcr:created" /> 
+  <meta content="2019-01-12T17:34:03.639-0500" name="acrolinxDate" /> 
+  <meta content="e512e325-7964-483d-a6bf-6b3fd7740a53" name="jcr:uuid" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-12-01T09:55:42.047-0500" name="topicBrowsingSortDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-24T11:56:16.726-0400" name="locHandOffDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/scene7" name="qaNotes" /> 
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-10-27T23:43:08.690-0400" name="cq:lastReplicated" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/scene7_krs_workflow_f3c2f2ccebf6138e_177_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-24T11:56:16.726-0400" name="cq:lastModified" /> 
+  <meta content="Adding Scene7 Features to your Page" name="seoTitle" /> 
+  <meta content="2017-10-31T16:34:15.379-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-12-01T09:55:42.047-0500" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;content_type:reference;topic_tags:managing-assets" name="cq:tags" /> 
+  <meta content="a62371da-1e87-4164-b3dd-cd2323c1af4d" name="jcr:predecessors" /> 
+  <meta content="210" name="acrolinxSentences" /> 
+  <meta content="Learn how to add Scene7 features and components to your AEM page." name="seoDescription" /> 
+  <meta content="Alva Ware-Bevacqui" name="contentOwner" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/scene7.html" name="publishExternalURL" /> 
+  <meta content="Adding Scene7 Features to your Page" name="navTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2652" name="acrolinxWords" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/managing-assets;/content/help/en/experience-manager/6-4/assets/morehelp/managing-assets" name="moreHelpPaths" /> 
+  <meta content="Adding Scene7 Features to your Page" name="jcr:title" /> 
+  <meta content="2017-12-01T09:55:42.047-0500" name="lastPublishExternalDate" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+ </head> 
+ <body> 
+  <p><a href="http://help.adobe.com/en_US/scene7/using/WS26AB0D9A-F51C-464e-88C8-580A5A82F810.html">Adobe Scene7</a> is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.</p> 
+  <p>You can view AEM assets published in Scene7 in various viewers:</p> 
+  <ul> 
+   <li>Zoom</li> 
+   <li>Flyout</li> 
+   <li>Video</li> 
+   <li>Image Template</li> 
+   <li>Image</li> 
+  </ul> 
+  <div>
+    You can publish digital assets directly from AEM to Scene7 and you can publish digital assets from Scene7 to AEM. 
+  </div> 
+  <div> 
+  </div> 
+  <div>
+    This document describes how to publish digital assets from AEM to Scene7 and vice versa. Viewers are also described in detail. For information on configuring AEM for Scene7, see 
+   <a href="../../sites/administering/using/scene7.md">Integrating Scene7 with AEM</a>. 
+  </div> 
+  <div> 
+  </div> 
+  <div>
+    See also 
+   <a href="../../assets/using/image-maps.md">Adding Image Maps</a>. 
+  </div> 
+  <div> 
+  </div> 
+  <div>
+    For more information on using video components with AEM, see the following: 
+  </div> 
+  <ul> 
+   <li><a href="../../assets/using/video.md">Video</a></li> 
+  </ul> 
+  <note> 
+   <p>If Scene7 assets do not display properly, please make sure that Dynamic media is <a href="../../assets/using/config-dynamic.md#disablingdynamicmedia">disabled</a> and then refresh the page.</p> 
+  </note> 
+  <h2>Manually Publishing to Scene7 from Assets</h2> 
+  <p>You can publish digital assets to Scene7 as follows:</p> 
+  <ul> 
+   <li><a href="../../sites/classic-ui-authoring/using/manage-assets-classic-s7.md#publishingfromtheassetsconsole">In the classic user interface from the Assets console</a></li> 
+   <li><a href="../../sites/classic-ui-authoring/using/manage-assets-classic-s7.md#publishingfromanasset">In the classic user interface from an asset</a></li> 
+   <li><a href="../../sites/classic-ui-authoring/using/manage-assets-classic-s7.md#publishingassetsfromoutsidethecqtargetfolder">In the classic user interface from outside the the CQ Target folder</a></li> 
+  </ul> 
+  <note> 
+   <p>AEM publishes to Scene7 asynchronously. After you click <strong>Publish</strong>, it may take several seconds for your asset to publish to Scene7.</p> 
+   <p> </p> 
+  </note> 
+  <h2>Scene7 Components</h2> 
+  <p>The following Scene7 components are available in AEM:</p> 
+  <ul> 
+   <li>Zoom</li> 
+   <li>Flyout (Zoom)</li> 
+   <li>Image Template</li> 
+   <li>Image</li> 
+   <li>Video</li> 
+  </ul> 
+  <note> 
+   <p>These components are not available by default and need to be selected in Design mode before using.</p> 
+  </note> 
+  <p>After they are made available in Design mode, you can add the components to your page like any other AEM component. Assets that have not yet been published to Scene7 are published to Scene7 if in a synchronized folder or on a page or with a Scene7 cloud configuration.</p> 
+  <note> 
+   <p>If you are creating and developing custom S7 viewers and using the Content Finder, you need to explicity add the <strong>allowfullscreen</strong> parameter.</p> 
+  </note> 
+  <h3>Flash Viewers End-of-Life Notice</h3> 
+  <p>Effective January 31, 2017, Adobe Scene7 will officially end-of-life support for the Flash viewer platform.</p> 
+  <p>For more information about this important change, see <a href="https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html">Flash Viewer End-of-Life FAQs</a>.</p> 
+  <h3>Adding a Scene7 Component to a Page</h3> 
+  <p>Adding a Scene7 component to a page is the same as adding a component to any page. Scene7 components are described in detail in the following sections.</p> 
+  <p>To add a Scene7 component/viewer to a page in the touch-optimized UI:<br /> </p> 
+  <ol> 
+   <li><p>In AEM, open the page where you want to add the Scene7 component.<br /> </p> </li> 
+   <li><p>If no Scene7 components are available, click <strong>Design</strong> mode, tap/click any component with a blue border, click the Parent icon, and then the Configuration icon. In <strong>Parsys (Design)</strong>, select all the <strong>Scene7</strong> components to make them available and click <strong>OK</strong>.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-226.png" /></li> 
+   <li><p>Click <strong>Edit</strong> to return to Edit mode.<br /> </p> </li> 
+   <li><p>Drag a component from the <strong>Scene7</strong> group in the sidekick onto the page in the desired location.<br /> </p> </li> 
+   <li><p>Click the <strong>Configuration</strong> icon to open the component.<br /> </p> </li> 
+   <li><p>Edit the component as necessary and click <strong>OK</strong> to save changes.</p> </li> 
+   <li><p>Drag your image or video from the content browser onto the Scene7 component you added to the page.</p> 
+    <note> 
+     <p>In touch UI only, you must drag and drop the image or video onto the Scene7 component you placed on the page. Selecting and editing the Scene7 component and then choosing the asset is not supported.</p> 
+    </note></li> 
+  </ol> 
+  <h3>Adding interactive viewing experiences to a responsive website</h3> 
+  <p>Responsive design for your assets means that your assets adapts depending on where it is displayed. With responsive design, the same assets can be effectively displayed on multiple devices.</p> 
+  <p>See also <a href="../../sites/developing/using/responsive.md">Responsive Design for Web Pages</a>.</p> 
+  <p>To add an interactive viewing experience to a responsive site in the touch-optimized UI:</p> 
+  <ol> 
+   <li><p>Log in to AEM, and ensure that you have <a href="../../sites/administering/using/scene7.md#configuringscene7integration">configured Adobe Scene7 Cloud Services</a> and that Scene7 components are available. </p> 
+    <note> 
+     <p>If Scene7 WCM components are not available, be sure <a href="../../sites/authoring/using/author-environment-tools.md#designmodeclassicui">to enable them via Design mode</a>.<a href="../../sites/authoring/using/default-components-designmode.md"></a></p> 
+    </note></li> 
+   <li><p>In a website with the Scene7 components enabled, drag an <strong>Image</strong> component to the page.</p> </li> 
+   <li><p>Select the component and tap or click the configuration icon.</p> </li> 
+   <li><p>In the <strong>Scene7 Settings</strong> tab, adjust the breakpoints.</p> <img imageRotate="0" src="assets/chlimage_1-227.png" /></li> 
+   <li><p>Confirm that the viewers are responsively resizing and that all interactions are optimized for desktop, tablet, and mobile.</p> </li> 
+  </ol> 
+  <h3>Settings common to all Scene7 components</h3> 
+  <p>Although configuration options vary, the following are common to all Scene7 components:</p> 
+  <ul> 
+   <li><strong>File Reference </strong>- Browse to a file that you want to reference. File reference shows the asset URL and not necessarily the full Scene7 URL including the URL commands and parameters. You cannot add Scene7 URL commands and parameters in this field. They have to be added through the corresponding functionality in the component.</li> 
+   <li><strong>Width</strong> - Lets you set the width.</li> 
+   <li><strong>Height</strong> - Lets you set the height.</li> 
+  </ul> 
+  <p>You set these configuration options by opening (double-clicking) a Scene7 component, for example, when you open a <strong>Zoom</strong> component:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-228.png" /> 
+  <h3>Zoom</h3> 
+  <p>The HTML5 Zoom component displays a larger image when you press the + button.</p> 
+  <p>The asset has zoom tools at the bottom. Click <strong>+</strong> to enlarge. Click <strong>-</strong> to reduce. Clicking the <strong>x</strong> or the reset zoom arrow brings the image back to the original size it was imported as. Click the diagonal arrows to make it full screen. Click <strong>Edit</strong> to configure the component. With this component, you can configure <a href="#settingscommontoallscene7components">settings common to all Scene7 components</a>.<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-229.png" /> 
+  <h3>Flyout</h3> 
+  <p>In the HTML5 Flyout component, the asset is shown as split screen; left the asset in the specified size; right the zoom portion is displayed. Click <strong>Edit</strong> to configure the component. With this component, you can configure <a href="../../sites/administering/using/scene7.md#settingscommontoallscene7components">settings common to all Scene7 components</a>.<br /> </p> 
+  <note> 
+   <p>If your Flyout component uses a custom size, then that custom size is used and responsive setup of the component is disabled.</p> 
+   <p>If your Flyout component uses the default size, as set in the Design view, then the default size is used and the component stretches to accomodate the page layout size with responsive setup of the component enabled. Be aware, however, that there is a limitation on responsive setup of the component. When the you use the Flyout component with responsive setup, you should not use it with full page stretch. Otherwise, the Flyout may extend beyond the page's right border.</p> 
+  </note> 
+  <img imageRotate="0" src="assets/chlimage_1-230.png" /> 
+  <h3>Image</h3> 
+  <p>The Scene7 Image component lets you add Scene7 functionality to your images, such as Scene7 modifiers, image or viewer presets, and sharpening. The Scene7 image component is similar to other image components in AEM with special Scene7 functionality. In this example, the image has the Scene7 URL modifier, <strong>&amp;op_invert=1</strong> applied.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-231.png" /> 
+  <p><strong>Title, Alt Text</strong> In the Advanced tab, add a title to the image and alt text for those users who have graphics turned off.</p> 
+  <p><strong>URL, Open in</strong> You can set an asset from to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-232.png" /> 
+  <p><strong>Viewer preset</strong> Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See Managing Viewer Presets. You cannot select a viewer preset if you are using an image preset and vice versa.</p> 
+  <p><strong>Scene7 Configuration</strong> Select the Scene7 configuration you want to use to fetch active image presets from the SPS.</p> 
+  <p><strong>Image preset</strong> Select an existing image preset from the drop-down menu. If the image preset you are looking for is not visible, you may need to make it visible. See Managing Image Presets. You cannot select a viewer preset if you are using an image preset and vice versa.</p> 
+  <p><strong>Output Format</strong> Select the output format of the image, for example jpeg. Depending on the output format you select, you may have additional configuration options. See Image Preset best practices.</p> 
+  <p><strong>Sharpening</strong> Select how you want to sharpen the image. Sharpening is explained in detail in Image Preset best practices and Sharpening best practices.</p> 
+  <p><strong>URL Modifiers</strong> You can change image effects by supplying additional S7 image commands. These are described in Image Presets and the Command reference.</p> 
+  <p><strong>Breakpoints</strong> If your website is responsive, you want to adjust the breakpoints. Breakpoints must be separated by commas (,).</p> 
+  <h3>Image Template</h3> 
+  <p><a href="http://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html">Scene7 Image Templates</a> are layered Photoshop content that was imported to Scene7, where content and properties were parameterized for variability. The<strong> Image template</strong> component lets you import images and change the text dynamically in AEM. In addition, you can configure the <strong>Image template</strong> component to use values from client context, so that each user experiences the image in a personalized way.</p> 
+  <p>Click <strong>Edit</strong> to configure the component. You can configure <a href="../../sites/administering/using/scene7.md#settingscommontoallscene7components">settings common to all Scene7 components</a> as well as other settings described in this section.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-233.png" /> 
+  <p><strong>File Reference, Width, Height</strong> See settings common to all Scene7 components.</p> 
+  <note> 
+   <p>Scene7 URL commands and parameters cannot be added to the File Reference URL directly. They can only be defined in the component UI in the <strong>Parameter</strong> panel.</p> 
+  </note> 
+  <p><strong>Title, Alt Text</strong> In the Scene7 Image Template tab, add a title to the image and alt text for those users who have graphics turned off.</p> 
+  <p><strong>URL, Open in</strong> You can set an asset from to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-234.png" /> 
+  <p><strong>Parameter Panel</strong> When importing an image, the parameters are pre-populated with information from the image. If there is no content that can be dynamically changed, this window is empty.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-235.png" /> 
+  <h4>Changing text dynamically</h4> 
+  <p>To change the text dynamically, enter new text in the fields and click <strong>OK</strong>. In this example, the <strong>Price</strong> is now $50 and shipping is 99 cents.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-236.png" /> 
+  <p>The text in the image changes. You can reset the text back to the original value by clicking <strong>Reset</strong> next to the field.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-237.png" /> 
+  <h4>Changing text to reflect the value of a client context value</h4> 
+  <p>To link a field to a client context value, click <strong>Select</strong> to open the client-context menu, select the client context, and click <strong>OK</strong>. In this example, the name changes based on linking the Name with the formatted name in the profile.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-238.png" /> 
+  <p>The text reflects the name of the currently logged in user. You can reset the text back to the original value by clicking <strong>Reset </strong>next to the field.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-239.png" /> 
+  <h4>Making the Scene7 image template a link</h4> 
+  <p>To make the Scene7 image template component a clickable link:</p> 
+  <ol> 
+   <li><p>On the page with the Scene7 image template component, click <strong>Edit</strong>.</p> </li> 
+   <li><p>In the <strong>URL</strong> field, enter the URL that users go to when the image is clicked. In the <strong>Open in</strong> field, select whether you want the target to open (a new window or same window). </p> <img imageRotate="0" src="assets/chlimage_1-240.png" /></li> 
+   <li><p>Click <strong>OK</strong>.</p> </li> 
+  </ol> 
+  <h3>Video component</h3> 
+  <p>The Scene7 <strong>Video</strong> component (available from the Scene7 section of the sidekick) uses device and bandwidth detection to serve the right video to each screen. This component is an HTML5 video player; it is a single viewer that can be used cross channel.</p> 
+  <p>It can be used for adaptive video sets, a single MP4 video, or a single F4V video. <br /> </p> 
+  <p>See <a href="../../assets/using/s7-video.md">Video</a> for more information on how videos work with Scene7 integration. In addition, see how <a href="../../assets/using/s7-video.md">the <strong>Scene7 video </strong>component compares to the foundation <strong>video</strong> component</a>. </p> 
+  <img imageRotate="0" src="assets/chlimage_1-241.png" /> 
+  <h3>Known limitations for the video component</h3> 
+  <p>Adobe DAM and WCM shows if a master video is uploaded. They do not show these proxy assets:</p> 
+  <ul> 
+   <li>Scene7 encoded renditions</li> 
+   <li>Scene7 adaptive video sets</li> 
+  </ul> 
+  <p>When using an adaptive video set with the Scene7 video component, the component will need to resized to fit he dimensions of the video. <br /> </p> 
+  <h3>Excluding master videos from adaptive video sets</h3> 
+  <p>See <a href="../../sites/administering/using/scene7.md#excludingmastervideosfromadaptivevideosets" target="_blank">Excluding master videos from adaptive video sets</a>.</p> 
+  <h2>Scene7 Content Browser</h2> 
+  <p>The Scene7 content browser lets you view content from Scene7 directly in AEM. To access the content browser, in the Content Finder, select <strong>Scene7</strong> in the touch-optimized user interface or the <strong>S7</strong> icon in the classic user interface. Functionality is identical between both user interfaces.</p> 
+  <p>If you have multiple configurations, AEM by default displays the <a href="../../sites/administering/using/scene7.md#configuringadefaultconfiguration">default configuration</a>. You can select different configurations directly in the Scene7 content browser in the drop-down menu.</p> 
+  <note> 
+   <ul> 
+    <li>Assets located in the ad-hoc folder will not appear in the Scene7 content browser.</li> 
+    <li>When <a href="../../sites/administering/using/scene7.md#configuringthestatepublishedunpublishedofassetspushedtoscene7">Secure Preview is enabled</a>, both published and unpublished assets on Scene7 do appear in the Scene7 content browser.</li> 
+    <li>If you do not see <strong>Scene7 </strong>or the<strong> S7 </strong>icon as an option in the content browser, you need to <a href="../../sites/administering/using/scene7.md">configure Scene7 to work with AEM</a>.</li> 
+    <li>For video, the Scene7 content browser supports: 
+     <ul> 
+      <li>Adaptive Video Sets: container of all video renditions needed for seamless playback across multiple screens</li> 
+      <li>Single MP4 video </li> 
+      <li>Single F4V video </li> 
+     </ul> </li> 
+   </ul> 
+  </note> 
+  <h3>Browsing content in the Touch-optimized UI</h3> 
+  <p>You can access the content browser either in the touch-optimized or classic UI. Currently the touch-optimized has the following limitation:</p> 
+  <ul> 
+   <li>FXG and Flash assets from Scene7 are not supported. </li> 
+  </ul> 
+  <p>Browse Scene7 assets by selecting <strong>Scene7</strong> from the third drop-down menu. Scene7 does not appear in the list if you have not configured Scene7/AEM integration.</p> 
+  <note> 
+   <ul> 
+    <li>The Scene7 content browser loads about 100 assets and sorts them by name. </li> 
+    <li>If you have a secure preview server set, the browser will use that preview server to render thumbnails and assets.</li> 
+   </ul> 
+  </note> 
+  <img imageRotate="0" src="assets/chlimage_1-242.png" /> 
+  <p>In addition, you can browse resolution information, size, days since modification, and file name by hovering over the asset in the browser.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-243.png" /> 
+  <ul> 
+   <li>For Adaptive Video Sets and Templates, no size information is generated for thumbnails.</li> 
+   <li>For Adaptive Video Sets, no resolution is generated for thumbnails.</li> 
+  </ul> 
+  <h3>Searching for Scene7 assets with the content browser</h3> 
+  <p>Searching for Scene7 assets is similar to searching AEM assets except that when you search you are actually seeing a remote view of the assets in the Scene7 system, rather than importing them directly into AEM.</p> 
+  <p>You can use either the classic UI or the touch-optimized UI to both view and search for assets. Depending on the interface, how you search is slightly different. </p> 
+  <p>When searching in either UI, you can filter by the following criteria (shown here in the touch-optimized UI):</p> 
+  <p><strong>Enter keywords</strong> You can search assets by name. When searching the keywords you enter is what the file name starts with. For example, typing the word "swimming" would look for any asset file names that start with those letters in that order. Be sure to click enter after you type the term to find the asset.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-244.png" /> 
+  <p><strong>Folder/path</strong> The name of the folder that appears is based on the configuration you have selected. You can drill down to lower levels by clicking the folder icon and selecting a sub-folder, then clicking the checkmark to select it.</p> 
+  <p>If you enter a keyword and select a folder, AEM searches that folder and any sub-folders. However, if you do not enter any keywords when searching, selecting the folder will only show the assets in that folder and will not include any subfolders.</p> 
+  <p>By default, AEM searches the folder selected and all sub-folders.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-245.png" /> 
+  <p><strong>Type of Asset</strong> Select Scene7 to browse Scene7 content. This option is only available if Scene7 has been configured.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-246.png" /> 
+  <p><strong>Configuration</strong> If you have more than one Scene7 configuration defined in Cloud Services, you can select it here. As a result the folder will change based on the configuration you have chosen.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-247.png" /> 
+  <p><strong>Asset type</strong> Within the Scene7 browser, you can filter results to include any of the following: images, templates, videos, and adaptive video sets. If you do not select any asset type, AEM by default searches all asset types.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-248.png" /> 
+  <note> 
+   <ul> 
+    <li>In the classic UI, you can also search for <strong>Flash</strong> and <strong>FXG</strong>. Filtering for these in the touch-optimized UI is currently not supported.</li> 
+    <li>When searching video, you are searching a single rendition. Results return the original rendition (only *.mp4) and the encoded rendition.</li> 
+    <li>When searching an adaptive video set, you are searching the the folder and all sub-folders but only if you have added a keyword to the search. If you have not added a keyword, AEM does not search the sub-folders.</li> 
+   </ul> 
+  </note> 
+  <p><strong>Publish Status</strong> You can filter for assets based on publication status: Unpublished or Published. If you do not select any Publish Status, AEM by default searches all publish statuses.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-249.png" /> 
+ </body> 
+</html>

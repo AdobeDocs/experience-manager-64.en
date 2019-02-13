@@ -1,0 +1,75 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="172" name="acrolinxWords" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2016-04-20T10:07:54.612-0400" name="firstPublishExternalDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Setting timeout values for use with Acrobat Reader DC extensions " name="jcr:title" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="9ca84ea2-044d-4eaf-84a8-795882b4ce16" name="jcr:uuid" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2018-04-26T04:22:42.766-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-03T09:10:35.793-0400" name="cq:lastReplicated" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/setting_timeout_values_acrobat_reader_admin_5e12de0b318c6865_2366_report.xml" name="acrolinxReportURL" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/setting-timeout-values-acrobat-reader.html" name="publishExternalURL" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2018-04-26T04:22:42.766-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="7" name="acrolinxSentences" /> 
+  <meta content="2016-05-31T07:03:01.593-0400" name="acrolinxDate" /> 
+  <meta content="Learn how to set timeout values for use with Acrobat Reader DC extensions." name="seoDescription" /> 
+  <meta content="2016-02-05T03:27:31.026-0500" name="lr_lastModified" /> 
+  <meta content="2017-12-01T19:03:59.958-0500" name="jcr:created" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="2017-10-31T16:31:59.012-0400" name="lastPublishExternalDate" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e97.2" name="cq:gepId" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="7f41aca9-cbc4-4efd-9e93-a44d94687acc" name="jcr:predecessors" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Setting timeout values for use&amp;#xA;with Acrobat Reader DC extensions" name="navTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:31:59.012-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+ </head> 
+ <body> 
+  <draft-comment type="remark"> 
+   <p>Bug 1539440:</p> 
+  </draft-comment> 
+  <p>When working on many PDF files in Acrobat Reader DC extensions, ensure that the following time-out values are set appropriately to prevent jobs from timing out and failing:</p> 
+  <p><strong>Document Disposal Timeout</strong> </p> 
+  <p></p> 
+  <p>This value can be set in administration console. Click Settings &gt; Core System Settings &gt; Configurations and specify a value for Default Document Disposal Timeout.</p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p></p> 
+  <p> </p> 
+  <p></p> 
+  <p></p> 
+  <p><strong>User Manager AEM forms Timeout:</strong> This value can be set by editing the config.xml file. In administration console, click Settings &gt; User Management &gt; Configuration &gt; Import and export configuration files, and then click Export. Open the exported config.xml file and edit the following lines:</p> 
+  <p>&amp;lt;entry key="assertionValidityInMinutes" value="600"/&amp;gt;</p> 
+  <p>&amp;lt;entry key="SessionTimeout" value="600"/&amp;gt;</p> 
+  <p>Save and then import the config.xml file back into administration console.</p> 
+  <p><strong>Application Server Session Timeout:</strong> This value can be set on the application server. For more information, see the documentation provided with your application server.</p> 
+ </body> 
+</html>

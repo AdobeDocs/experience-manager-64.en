@@ -1,0 +1,146 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="17f16b3d-0570-4b2f-9e95-7adbbc90b67f" name="jcr:uuid" />
+  <meta content="aheimoz" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:site-features" name="cq:tags" />
+  <meta content="You need to promote launch pages to move the content back into the source (production) before publishing. " name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2019-01-31T02:28:01.843-0500" name="cq:lastModified" />
+  <meta content="2019-01-31T02:28:01.839-0500" name="lastPublishExternalDate" />
+  <meta content="/content/docs/en/aem/6-0/author/site-page-features/launches" name="legacyPath" />
+  <meta content="aheimoz" name="cq:lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Promoting Launches" name="seoTitle" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2019-01-31T02:28:01.868-0500" name="cq:lastReplicated" />
+  <meta content="2019-01-31T02:28:01.839-0500" name="publishExternalDate" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-01-31T02:28:01.839-0500" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="f2294f73-b4a4-48bd-b783-e1029644927c" name="jcr:predecessors" />
+  <meta content="Promoting Launches" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-04-19T10:32:35.475-0400" name="locHandOffDate" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/site-features" name="moreHelpPaths" />
+  <meta content="/content/docs/en/aem/6-3/author/site-page-features/launches/promoting-launches" name="qaNotes" />
+  <meta content="Promoting Launches" name="jcr:title" />
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/launches-promoting.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-12-01T19:03:53.651-0500" name="jcr:created" />
+  <meta content="2017-10-31T16:20:26.016-0400" name="firstPublishExternalDate" />
+ </head>
+ <body>
+  <p>You need to promote launch pages to move the content back into the source (production) before publishing. When a launch page is promoted, the corresponding page of the source pages is replaced with the content of the promoted page. The following options are available when promoting a launch page:</p> 
+  <ul> 
+   <li>Whether to promote only the current page or the entire launch.</li> 
+   <li>Whether to promote the child pages of the current page.</li> 
+   <li>Whether to promote the full launch or only pages that have changed.</li> 
+  </ul> 
+  <note>
+   <p>After you promote the launch pages to the target (<strong>Production</strong>), you can activate the <strong>Production</strong> pages as an entity (to make the process quicker). Add the pages to a workflow package and use it as the payload for a workflow that activates a package of pages. You need to create the workflow package before promoting the launch. See <a href="#processingpromotedpagesusingaemworkflow">Processing Promoted Pages Using AEM Workflow</a>.</p> 
+  </note>
+  <note>
+   <p>A single launch cannot be promoted concurrently. This means that two promote actions on the same launch at the same time can result in an error - <span class="code">Launch could not be promoted</span> (together with conflict errors in the log).<br /> </p> 
+  </note>
+  <note>
+   <p>When promoting launches for <em>modified</em> pages, modifications in both the source and launch branches are considered.</p> 
+  </note>
+  <h2>Promoting Launch Pages</h2>
+  <note>
+   <p>This covers the manual action of promoting launch pages when there is only one launch level. See:</p> 
+   <ul> 
+    <li><a href="#promotinganestedlaunch">Promoting a Nested Launch</a> when there is more than one launch in the structure.</li> 
+    <li><a href="../../../sites/authoring/using/launches.md#launchestheorderofevents">Launches - the Order of Events</a> for further details about automatic promotion and publication.</li> 
+   </ul> 
+  </note>
+  <p>You can promote launches from either the <strong>Sites</strong> console or the <strong>Launches</strong> console:</p> 
+  <ol>
+   <li><p>Open:</p> 
+    <ul> 
+     <li>the <strong>Sites</strong> console:
+      <ol> 
+       <li>Open the <a href="../../../sites/authoring/using/author-environment-tools.md#showingpagereferences">references rail</a> and select the required source page using <a href="../../../sites/authoring/using/basic-handling.md">selection mode</a> (or select and open the references rail, the order is not important). All references will be shown.</li> 
+       <li>Select <strong>Launches</strong> (e.g. Launches (1)) to show a list of the specific launches.</li> 
+       <li>Select the specific launch to show the actions available.</li> 
+       <li>Select <strong>Promote launch</strong> to open the wizard.</li> 
+      </ol> </li> 
+     <li>the <strong>Launches</strong> console:
+      <ol> 
+       <li>Select your launch (tap/click on the thumbnail).</li> 
+       <li>Select <strong>Promote</strong>.</li> 
+      </ol> </li> 
+    </ul> </li>
+   <li><p>In the first step you can specify:</p> 
+    <ul> 
+     <li><strong>Promote full launch</strong></li> 
+     <li><strong>Promote modified pages</strong></li> 
+     <li><strong>Promote current page</strong></li> 
+     <li><strong>Promote current page and sub pages</strong></li> 
+    </ul> <p>For example, when selecting to only promote modified pages:<br /> </p> <img imageRotate="0" src="assets/chlimage_1.png" />
+    <note>
+     <p>This covers a single launch, if you have nested launches see <a href="#promotinganestedlaunch">Promoting a Nested Launch</a>.</p> 
+    </note></li>
+   <li><p>Select <strong>Next</strong> to proceed.</p> </li>
+   <li><p>You can review the pages to be promoted, these will depend on the range of pages you have chosen:<br /> </p> <img imageRotate="0" src="assets/chlimage_1-1.png" /></li>
+   <li><p>Select <strong>Promote</strong>.</p> </li>
+  </ol>
+  <h2>Promoting Launch Pages when Editing</h2>
+  <p>When you are editing a launch page, the <strong>Promote Launch</strong> action is also available from <strong>Page Information</strong>. This will open the wizard to collect the information needed.<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-2.png" />
+  <note>
+   <p>This is available for single and <a href="#promotinganestedlaunch">nested launches</a>.</p> 
+  </note>
+  <h2>Promoting a Nested Launch</h2>
+  <p>After creating a nested launch you can promote it back to any of the sources, including the root source (production).</p> 
+  <img imageRotate="0" src="assets/chlimage_1-3.png" />
+  <ol>
+   <li><p>As with <a href="#creatinganestedlaunchlaunchwithinalaunch">Creating a Nested Launch</a>, navigate to and select the required launch in either the <strong>Launches</strong> console or the <strong>References</strong> rail.</p> </li>
+   <li><p>Select <strong>Promote launch</strong> to open the wizard.<br /> </p> </li>
+   <li><p>Enter the required details:</p> 
+    <ul> 
+     <li><strong>Promotion target</strong><br /> You can promote to any of the sources.<br /> </li> 
+     <li><strong>Scope</strong><br /> Here you can select whether to promote the entire launch, or only pages that have actually been edited. If the latter, you can then select to include/exclude sub-pages. The default configuration is to only promote page changes for the current page:
+      <ul> 
+       <li><strong>Promote full launch</strong></li> 
+       <li><strong>Promote modified pages</strong></li> 
+       <li><strong>Promote current page</strong></li> 
+       <li><strong>Promote current page and sub pages</strong></li> 
+      </ul> </li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-4.png" /></li>
+   <li><p>Select <strong>Next</strong>.</p> </li>
+   <li><p>Review the promotion details before selecting <strong>Promote</strong>:<br /> </p> 
+    <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T04:52:42.152-0500" prevFirstName="unknown" prevLastName="unknown" type="remark">
+     <p>seems to show -1 when it's all pages - isn't that a bit confusing for the users?</p> 
+    </draft-comment><img imageRotate="0" src="assets/chlimage_1-5.png" />
+    <note>
+     <p>The pages listed will depend on the <strong>Scope</strong> defined and possibly the pages that have actually been edited.</p> 
+    </note></li>
+   <li><p>Your changes will be promoted and reflected in the <strong>Launches</strong> console:</p> <img imageRotate="0" src="assets/chlimage_1-6.png" /></li>
+  </ol>
+  <h2>Processing Promoted Pages Using AEM Workflow</h2>
+  <p>Use workflow models to perform bulk processing of promoted Launches pages:</p> 
+  <ol> 
+   <li>Create a workflow package. </li> 
+   <li>When authors promote Launch pages, they store them in the workflow package.</li> 
+   <li>Start a workflow model using the package as the payload. </li> 
+  </ol> 
+  <p>To start a workflow automatically when pages are promoted, <a href="../../../sites/administering/using/workflows-starting.md#main-pars-par12-evwuge-refd">configure a workflow launcher</a> for the package node.</p> 
+  <p>For example, you can automatically generate page activation requests when authors promote Launches pages. Configure a workflow launcher to start the Request Activation workflow when the package node is modified. </p> 
+  <img imageRotate="0" src="assets/chlimage_1-7.png" />
+  <draft-comment type="draft">
+   <img imageRotate="0" src="assets/chlimage_1-8.png" />
+  </draft-comment>
+ </body>
+</html>

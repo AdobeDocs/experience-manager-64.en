@@ -1,0 +1,134 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:01:15.712-0500" name="jcr:created" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-03T07:33:20.312-0400" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T07:33:20.312-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-10-31T16:33:56.882-0400" name="firstPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2018-05-17T05:49:14.934-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-03T07:33:23.178-0400" name="cq:lastReplicated" /> 
+  <meta content="Catalog Essentials" name="jcr:title" /> 
+  <meta content="20eae738-4142-43e7-a6e1-c324a1e0bf8e" name="jcr:predecessors" /> 
+  <meta content="Catalog Essentials" name="seoTitle" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/catalog-developer-essentials.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="33fcdcfc-2600-46c2-b371-8ceaf3301c27" name="jcr:uuid" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Catalog Essentials" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-03T07:33:20.312-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/developing;/content/help/en/experience-manager/6-4/communities/morehelp/developing" name="moreHelpPaths" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/catalog" name="qaNotes" /> 
+  <meta content="Catalog overview" name="seoDescription" /> 
+  <meta content="2018-05-17T05:49:14.933-0400" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <p>This page provides the essential information for working with the catalog feature of enablement community sites.</p> 
+  <p>The catalog feature, when included in a community site, allows community members to browse and select enablement resources listed in a catalog.</p> 
+  <p>The <a href="../../communities/using/catalog.md"><span class="code">enablement catalog</span> component</a> allows community members to access a catalog of <a href="../../communities/using/resources.md">enablement resources</a>. The use of AEM tags is an important part of managing the appearance of enablement resources in a catalog. </p> 
+  <p>See <a href="../../communities/using/tag-resources.md">Tagging Enablement Resources</a>.</p> 
+  <h2>Essentials for Client-Side</h2> 
+  <table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td> <strong>resourceType</strong></td> 
+     <td>social/enablement/components/hbs/catalog</td> 
+    </tr> 
+    <tr> 
+     <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+     <td>No</td> 
+    </tr> 
+    <tr> 
+     <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+     <td>cq.social.enablement.hbs.breadcrumbs<br /> cq.social.enablement.hbs.catalog<br /> cq.social.enablement.hbs.resource<br /> cq.social.enablement.hbs.learningpath</td> 
+    </tr> 
+    <tr> 
+     <td> <strong>templates</strong></td> 
+     <td> /libs/social/enablement/components/hbs/catalog/catalog.hbs<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> <strong>css</strong></td> 
+     <td> /libs/social/enablement/components/hbs/catalog/clientlibs/catalog.css</td> 
+    </tr> 
+    <tr> 
+     <td><strong> properties</strong></td> 
+     <td>see <a href="../../communities/using/catalog.md">Catalog Feature</a></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Essentials for Server-Side</h2> 
+  <h3>Catalog Function</h3> 
+  <p>A community site structure that includes the <a href="../../communities/using/functions.md#catalogfunction">Catalog function</a>, includes a configured <span class="code">enablement catalog</span> component.</p> 
+  <h3>Pre-Filters</h3> 
+  <p>When a Catalog function has been added to a community site, it is possible to restrict the enablement resources and learning paths which appear in the catalog by specifying a pre-filter. This is done by setting properties on the instance of the catalog resource for the site.</p> 
+  <p>Using the example of the <a href="../../communities/using/getting-started-enablement.md">Enablement Tutorial</a> :</p> 
+  <ul> 
+   <li>on author</li> 
+   <li>using <a href="../../sites/developing/using/developing-with-crxde-lite.md">CRXDE</a> 
+    <ul> 
+     <li>such as <a href="http://localhost:4502/crx/de">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/crx/de</a></li> 
+    </ul> </li> 
+   <li>navigate to the catalog resource on the catalog page 
+    <ul> 
+     <li>for example, <span class="code">/content/sites/enable/en/catalog/jcr:content/content/primary/catalog</span></li> 
+    </ul> </li> 
+   <li>add a child filters node 
+    <ul> 
+     <li>select the <span class="code">catalog </span>node</li> 
+     <li>select <strong>Create Node</strong> 
+      <ul> 
+       <li>Name : <span class="code">filters</span></li> 
+       <li>Type : <span class="code">nt:unstructured</span></li> 
+      </ul> </li> 
+     <li>select <strong>Save All</strong></li> 
+    </ul> </li> 
+   <li>add <span class="code">se_resource-tags</span> property to the <span class="code">filters</span> node 
+    <ul> 
+     <li>select the <span class="code">filters</span> node</li> 
+     <li>add a Multi property 
+      <ul> 
+       <li>Name : <span class="code">se_resource-tags</span></li> 
+       <li>Type : String</li> 
+       <li>Value : <i>&amp;lt;enter a <a href="#prefiltertagids">TagID</a>&amp;gt;</i></li> 
+       <li>select <strong>Multi</strong></li> 
+       <li>select <strong>Add</strong> 
+        <ul> 
+         <li>in popup dialog, select '+' to add additional pre-filter TagIDs</li> 
+        </ul> </li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li>re-publish the community site</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-196.png" /> 
+  <h4>Pre-filter TagIDs</h4> 
+  <p>The pre-filter <a href="../../sites/developing/using/framework.md#tagid">TagIDs</a> must exactly match the tags applied to the enablement resources. These are visible in the <span class="code">resources</span> folder for the site as the values of the property <span class="code">se_resource-tags</span>.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-197.png" /> 
+  <h3>Reference APIs</h3> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/api/package-summary">Enablement API</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/reporting/api/package-summary">Reporting API</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/reporting/analytics/api/package-summary">Reporting Analytics API</a></li> 
+  </ul> 
+ </body> 
+</html>

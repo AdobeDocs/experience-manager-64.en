@@ -1,0 +1,169 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2019-01-07T06:42:54.562-0500" name="cq:lastModified" /> 
+  <meta content="a245931e-4759-4f20-8629-4b361835fcf6" name="jcr:predecessors" /> 
+  <meta content="2019-01-03T05:32:48.941-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2016-05-31T06:36:50.713-0400" name="acrolinxDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:correspondence-management" name="cq:tags" /> 
+  <meta content="Custom special characters in Correspondence Management" name="seoTitle" /> 
+  <meta content="2017-01-13T06:34:58.102-0500" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2015-11-20T09:09:23.546-0500" name="lastPublishQADate" /> 
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2019-01-03T05:32:48.973-0500" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/custom-special-characters.html" name="publishExternalURL" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/customize_create_correspondence_ui_admin_5e12de0b318c6865_1995_report.xml" name="acrolinxReportURL" /> 
+  <meta content="Learn how to add custom special characters in Correspondence Management." name="seoDescription" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-01-03T05:32:48.941-0500" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management" name="moreHelpPaths" /> 
+  <meta content="1174" name="acrolinxWords" /> 
+  <meta content="Custom special characters in Correspondence Management" name="jcr:title" /> 
+  <meta content="a3f78235-9702-47c0-a1f7-fb110be4f9a5" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-12-01T19:03:23.554-0500" name="jcr:created" /> 
+  <meta content="2019-01-07T06:42:54.561-0500" name="locHandOffDate" /> 
+  <meta content="anujkapo" name="cq:lastModifiedBy" /> 
+  <meta content="2019-01-03T05:32:48.941-0500" name="lastPublishExternalDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="69" name="acrolinxSentences" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="anujkapo" name="cq:lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>Correspondence Management has built-in, default support for 210 special characters that you can insert in letters with ease. </p> 
+  <p>For example, you can insert the following special characters:</p> 
+  <ul> 
+   <li>Currency symbols such as €,￥, and £</li> 
+   <li>Mathematical symbols such as ∑, √, ∂, and ^</li> 
+   <li>Punctuation symbols as ‟ and ”</li> 
+  </ul> 
+  <p>You can insert special characters in letters:</p> 
+  <ul> 
+   <li>In the <a href="../../forms/using/document-fragments.md#createtext" target="_blank">text editor</a></li> 
+   <li>In an <a href="../../forms/using/create-correspondence.md#managecontent" target="_blank">editable, inline module in a correspondence</a></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/specialcharactersinlinemodule.png" title="Inserting a special characters in an inline, editable module" /> 
+  <p>The admin can add support for more/custom special characters by customization. This article provides the instructions on how you can add support for additional, custom special characters. </p> 
+  <h2 id="CreatingFolderStructure">Add or modify support for custom special characters in Correspondence Management</h2> 
+  <p>Use the following steps to add support for custom special characters:</p> 
+  <ol> 
+   <li><p>Go to <span class="code">http://[server]:[port]/[ContextPath]/crx/de</span> and login as Administrator.</p> </li> 
+   <li><p>In the apps folder, create a folder named <span class="uicontrol">specialcharacters</span> with path/structure similar to the specialcharacters folder (located in the textEditorConfig folder under libs):</p> 
+    <ol> 
+     <li><p>Right-click the <strong>specialcharacters </strong>folder at the following path and select <strong>Overlay Node</strong>:</p>  </li> 
+     <li><p>Ensure that the Overlay Node dialog has the following values:</p> <p><strong>Path:</strong> /libs/fd/cm/ma/gui/configuration/textEditorConfig/specialcharacters</p> <p><strong>Overlay Location:</strong> /apps/</p> <p><strong>Match Node Types:</strong> Checked<br /> </p> 
+      <note> 
+       <p>Do not make changes in the /libs branch. Any changes you do make may be lost, because this branch is liable to changes whenever you:</p> 
+       <ul> 
+        <li>Upgrade on your instance</li> 
+        <li>Apply a hot fix</li> 
+        <li>Install a feature pack</li> 
+       </ul> 
+      </note></li> 
+     <li><p>Click <strong>OK</strong> and then click <strong>Save All</strong>. The specialcharacters folder is created in the specified path.</p> <p>After creating the overlay, verify node structure tags. Each node created in /apps using the overlay should have same class and properties as defined in /libs for that node. If any property or tag is missing in node structure under /apps location, sync its tags with the corresponding node in /libs.</p> </li> 
+    </ol></li> 
+   <li><p>Ensure that the <span class="uicontrol">textEditorConfig</span> node has the following properties and values:</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td>Name</td> 
+       <td>Type</td> 
+       <td>Value</td> 
+      </tr> 
+      <tr> 
+       <td>cmConfigurationType</td> 
+       <td>String</td> 
+       <td>cmTextEditorConfiguration</td> 
+      </tr> 
+      <tr> 
+       <td>cssPath</td> 
+       <td>String</td> 
+       <td>/libs/fd/cm/ma/gui/components/admin/createasset/textcontrol/clientlibs/textcontrol</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li><p>Right-click the <strong><span class="uicontrol">specialcharacters</span></strong> folder at the following path and select <strong>Create &amp;gt; Child Node </strong>and then click <strong>Save All</strong>:</p> <p>/apps/fd/cm/ma/gui/configuration/textEditorConfig/specialcharacters/&amp;lt;YourChildNode&amp;gt;</p> </li> 
+   <li><p>Refresh the Text Editor\Create Correspondence UI page. The node that you have added is the last one in the list of Special characters in the UI.</p> </li> 
+   <li><p>Click <strong>Save All</strong>.</p> </li> 
+   <li><p>Make the changes in the special characters as required:</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td><strong>To...</strong></td> 
+       <td><strong>Complete the following steps</strong></td> 
+      </tr> 
+      <tr> 
+       <td>Add a custom special character</td> 
+       <td> 
+        <ol> 
+         <li>Add a child node under “/apps/fd/cm/ma/gui/configuration/textEditorConfig/specialcharacters” with mandatory properties.</li> 
+         <li>Click Save All</li> 
+         <li>Refresh the Text Editor\Create Correspondence UI to see the changes.</li> 
+        </ol> </td> 
+      </tr> 
+      <tr> 
+       <td>Update an existing special character's properties</td> 
+       <td> 
+        <ol> 
+         <li>Overlay the node to be updated as explained above and verify tags and classes.</li> 
+         <li>Change any values, such as caption, value, endValue, and multipleCaption. </li> 
+         <li>Click Save All. </li> 
+         <li>Refresh the Text Editor\Create Correspondence UI to see the changes.</li> 
+        </ol> </td> 
+      </tr> 
+      <tr> 
+       <td>Hide a special charcter</td> 
+       <td> 
+        <ol> 
+         <li>Overlay the node to be hidden under “/apps/fd/cm/ma/gui/configuration/textEditorConfig/specialcharacters"</li> 
+         <li>Add sling:hideResource (Boolean) property to the node (under apps) to be hidden. </li> 
+         <li>Click Save All. </li> 
+         <li>Refresh the Text Editor\Create Correspondence UI to see the changes.<br /> </li> 
+        </ol> </td> 
+      </tr> 
+      <tr> 
+       <td>Hide multiple special charcters</td> 
+       <td> 
+        <ol> 
+         <li>Add the property "sling:hideChildren (String or String[])" to “/apps/fd/cm/ma/gui/configuration/textEditorConfig/specialcharacters”. </li> 
+         <li>Add node names (special characters to be hidden) as values for "sling:hideChildren" property. </li> 
+         <li>Click Save All. </li> 
+         <li>Refresh the Text Editor\Create Correspondence UI to see the changes.<br /> </li> 
+        </ol> </td> 
+      </tr> 
+      <tr> 
+       <td>Order special characters</td> 
+       <td> 
+        <ol> 
+         <li>Add a child node under “/apps/fd/cm/ma/gui/configuration/textEditorConfig/specialcharacters” with mandatory properties. </li> 
+         <li>Add "sling:orderBefore (String)" property to the newly-created child node. </li> 
+         <li>Add node name as value before which newly added special charcter is to be shown. </li> 
+         <li>Click Save All. </li> 
+         <li>Refresh the Text Editor\Create Correspondence UI to see the changes.<br /> </li> 
+        </ol> </td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+  </ol> 
+  <related-links> 
+   <a href="../../forms/using/add-custom-action-asset-listing-view.md">Add custom action to Asset Listing view</a> 
+   <a href="../../forms/using/add-action-button-in-create-correspondence-ui.md">Add Custom Action/Button in Create Correspondence UI</a> 
+   <a href="../../forms/using/add-custom-properties-cm-assets.md">Add custom properties to Correspondence Management assets</a> 
+  </related-links> 
+ </body> 
+</html>

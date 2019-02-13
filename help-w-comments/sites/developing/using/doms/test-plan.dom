@@ -1,0 +1,66 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-04-03T09:01:21.331-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="4a2fad7b-fc3e-41c4-8f2e-5b4669813755" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/content/docs/en/aem/6-3/develop/test/testing/test-plan" name="qaNotes" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2017-10-31T16:16:14.372-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-31T16:16:14.372-0400" name="lastPublishExternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/testing;/content/help/en/experience-manager/6-4/sites/developing/morehelp/testing" name="moreHelpPaths" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:testing;content_type:reference" name="cq:tags" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/test-plan.html" name="publishExternalURL" />
+  <meta content="Compiling your Test Plan" name="jcr:title" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2017-10-31T16:16:14.372-0400" name="firstPublishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-05-08T12:45:33.444-0400" name="cq:lastModified" />
+  <meta content="Compiling your Test Plan" name="seoTitle" />
+  <meta content="2018-05-08T12:45:33.443-0400" name="locHandOffDate" />
+  <meta content="e70f3f82-d66f-49fb-a9b9-31590472ed9d" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="The individual test cases are amalgamated into your Test Plan" name="seoDescription" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-10-31T16:16:14.372-0400" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-12-01T19:04:08.092-0500" name="jcr:created" />
+  <meta content="Compiling your Test Plan" name="navTitle" />
+ </head>
+ <body>
+  <p>The individual test cases will then be amalgamated into your Test Plan, which will also define:</p> 
+  <p> <strong>Priorities</strong></p>
+  <li><p>Certain tests will have more significance than others, so it is advisable to indicate their priority.</p> <p>For example, certain tests can affect a Go / No-Go decision, and therefore must be confirmed with every interim release tested.</p> </li> 
+  <strong>Iterations</strong>
+  <li><p>If your project uses any form of development iteration (involving multiple releases being made available) then you may need or want an indication of the results for each iteration. This can be used to indicate:</p> 
+   <ul> 
+    <li><p>which tests will be covered in which iteration.</p> </li> 
+    <li><p>the results seen for tests repeated in various iterations.</p> </li> 
+    <li><p>that priority tests and tests on basic features are repeated at regular intervals.</p> </li> 
+   </ul> </li> 
+  <strong>Tester</strong>
+  <li><p>At some point you can assign either the appropriate test team, or a specific test person (possibly dependent on availability and/or experience).</p> </li> 
+  <strong>Summary or Overview</strong>
+  <li><p>For reporting purposes you will want to provide an overview of the testing results:</p> 
+   <ul> 
+    <li><p>Percentage of tests already covered.</p> </li> 
+    <li><p>Percentage success / failure.</p> </li> 
+    <li><p>Specific figures related to the priority tests.</p> </li> 
+   </ul> </li> 
+  <p></p> 
+ </body>
+</html>

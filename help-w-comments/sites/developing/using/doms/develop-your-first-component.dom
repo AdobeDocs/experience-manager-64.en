@@ -1,0 +1,56 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="light" name="gnavTheme" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/develop-your-first-component.html" name="publishExternalURL" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="2018-01-18T11:18:59.438-0500" name="publishExternalDate" />
+  <meta content="ff48f94a-3e77-4175-ace6-1b89c6b6a99a" name="jcr:uuid" />
+  <meta content="Developing Experience Manager Components" name="jcr:title" />
+  <meta content="Developing Experience Manager Components" name="seoTitle" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/using/components-basics" name="redirectTarget" />
+  <meta content="f2a2dadf-5e09-4c18-a40a-11c282b1c817" name="jcr:predecessors" />
+  <meta content="2018-01-18T11:18:59.438-0500" name="lastPublishExternalDate" />
+  <meta content="dist5" name="distType" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/components;/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/developing/morehelp/components;/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="2018-01-19T19:01:35.048-0500" name="jcr:created" />
+  <meta content="A community article is available which discusses how to build your first Adobe Experience Manager components." name="seoDescription" />
+  <meta content="User" name="contentOwner" />
+  <meta content="2018-08-24T07:41:50.912-0400" name="cq:lastReplicated" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-01-18T11:18:59.438-0500" name="topicBrowsingSortDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/content/docs/en/aem/6-3/develop/the-basics/develop-your-first-component" name="qaNotes" />
+  <meta content="2018-05-08T12:42:27.497-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-08-24T07:41:48.196-0400" name="cq:lastModified" />
+  <meta content="2017-10-31T16:17:03.550-0400" name="firstPublishExternalDate" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="noIndex" />
+  <meta content="true" name="jcr:isCheckedOut" />
+ </head>
+ <body>
+  <p>A community article is available which discusses how to build your first Adobe Experience Manager components. </p> 
+  <p>You can find the article <a href="/content/help/en/experience-manager/using/aem63_components">here</a>.</p> 
+  <note>
+   <p>For additional on components see <a href="../../../sites/developing/using/components-basics.md">Component Basics</a>.</p> 
+  </note>
+  <h4>Additional Community Articles</h4>
+  <p><a href="/content/help/en/experience-manager/using/aem63_slingmodel">Creating Adobe Experience Manager 6.3 Sling Model Components</a></p> 
+  <p><a href="/content/help/en/experience-manager/using/aem63_htl_youtube">Creating an Experience Manager YouTube Component</a></p> 
+  <p><a href="/content/help/en/experience-manager/using/aem63_htl">Creating an Adobe Experience Manager 6.3 HTL component that uses the WCMUsePojo API</a></p> 
+ </body>
+</html>

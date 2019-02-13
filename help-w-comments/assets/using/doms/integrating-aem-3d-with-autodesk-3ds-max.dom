@@ -1,0 +1,88 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="2018-07-17T13:26:25.382-0400" name="cq:lastModified" /> 
+  <meta content="2018-07-17T13:26:25.415-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-07-17T13:26:25.375-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="rbrough" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-07-17T13:26:25.375-0400" name="firstPublishExternalDate" /> 
+  <meta content="cd31a6ff-2e9b-41fc-bb3f-ff750b595af0" name="jcr:predecessors" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="2018-07-17T13:26:25.375-0400" name="topicBrowsingSortDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Integrating AEM 3D with AutoDesk 3ds Max" name="seoTitle" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="Integrating AEM 3D with Autodesk 3ds Max" name="jcr:title" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="2018-07-17T13:26:25.375-0400" name="lastPublishExternalDate" /> 
+  <meta content="40" name="acrolinxSentences" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="516" name="acrolinxWords" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;content_type:reference;topic_tags:3D" name="cq:tags" /> 
+  <meta content="5fd33123-b91f-448d-b2ad-e648c0bc5eaf" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-07-17T07:29:55.041-0400" name="jcr:created" /> 
+  <meta content="2019-01-12T17:37:49.113-0500" name="acrolinxDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/integrating_aem_3d_with_autodesk_3ds_max_krs_workflow_f3c2f2ccebf6138e_228_report.xml" name="acrolinxReportURL" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/3d;/content/help/en/experience-manager/6-4/assets/morehelp/3d" name="moreHelpPaths" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="rbrough" name="contentOwner" /> 
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/integrating-aem-3d-with-autodesk-3ds-max.html" name="publishExternalURL" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="You can optionally integrate AEM 3D with Autodesk 3ds Max software to enable support for native 3ds Max files (.MAX). Rendering by way of 3ds Max is not supported at this time." name="seoDescription" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>This task is optional and pertains to Windows only.</p> 
+  </note> 
+  <p>You can optionally integrate AEM 3D with Autodesk 3ds Max software to enable support for native 3ds Max files (.MAX). Rendering by way of 3ds Max is not supported at this time.</p> 
+  <p>See <a href="../../assets/using/advanced-config-3d.md">Advanced configuration settings</a>.</p> 
+  <p>See also <a href="../../assets/using/integrate-maya-with-3d.md">Integrating AEM 3D with AutoDesk Maya</a>.</p> 
+  <p>To integrate AEM 3D with Autodesk 3ds Max:</p> 
+  <ol> 
+   <li><p>Install Autodesk 3ds Max software on the same servers where AEM Author nodes are installed.</p> <p>Following installation, verify that you can open and use Maya and that there are no licensing issues.</p> 
+    <note> 
+     <p>To avoid access denied issues, install 3ds Max using the same admin user account as AEM.</p> 
+    </note></li> 
+   <li><p>In 3ds Max, click <strong>Customize </strong>&amp;gt; <strong>Plug-in Manager</strong>.</p> <p>Locate <strong><span class="code">FBXMAX.DLU</span></strong> and verify that its <strong>Status</strong> is "loaded".</p> <p>Close the Plug-In Manager dialog box and 3ds Max.</p> </li> 
+   <li><p>Update the conversion script. </p> <p>AEM uses a command line script to invoke the 3ds Max command line utility <strong><span class="code">3dsmaxcmd.exe</span></strong>. You must edit this script if you installed a version other than 3ds Max 2016, or if you installed 3ds Max to a non-standard location, or if you installed AEM on a different partition or drive.</p> 
+    <ol> 
+     <li>Open CRXDE Lite and navigate to <strong>/libs/settings/dam/v3D/scripts/max</strong>.</li> 
+     <li>Double-click <span class="code">export-fbx.bat</span> to open it.</li> 
+     <li>Edit the first line of the script as needed to reflect the location of the <span class="code">3dsmaxcmd.exe</span> utility. For example, if 3ds Max 2017 is used and AEM is installed on a different disk drive:</li> 
+    </ol> <img imageRotate="0" src="assets/image2018-6-22_13-35-8.png" /></li> 
+   <li><p>Near the upper-left corner of the CRXDE Lite page, tap or click <strong>Save All</strong>.</p> <p>Near the upper-left corner of the CRXDE Lite page, tap or click <strong>Save All</strong>.</p> </li> 
+   <li><p>Remove the working folder (only necessary if a previous attempt was made to ingest a .MAX file).</p> 
+    <ol> 
+     <li>In CRXDE Lite, navigate to <span class="code">/libs/settings/dam/v3D/Paths/maxWorkPath</span>. By default, the value of this setting is <span class="code">./MaxWork</span>, which is relative to the AEM install root folder.</li> 
+     <li>Log onto the server itself and use <strong>File Explorer</strong> to navigate to the AEM install root folder.</li> 
+     <li>Delete the <strong>MaxWork</strong> folder--including its entire contents--if it exists.<br /> The folder is re-created automatically the next time a .MAX file is ingested.</li> 
+    </ol> </li> 
+   <li><p>Enable 3ds Max for ingestion by doing the following:<br /> </p> 
+    <ol> 
+     <li>In CRXDE Lite, navigate to <span class="code">/libs/settings/dam/v3D/assetTypes/max</span> and set the <strong>Enabled</strong> property to true:</li> 
+    </ol> <img imageRotate="0" src="assets/image2018-6-22_13-50-50.png" /></li> 
+   <li><p>Near the upper-left corner of the CRXDE Lite page, tap or click <strong>Save All</strong>.</p> </li> 
+  </ol> 
+  <h3>Testing the integration of AEM 3D with Autodesk 3ds Max</h3> 
+  <ol> 
+   <li><p>Open AEM Assets, then upload the .MAX file located in <span class="code">sample-3D-content/models</span><strong> </strong>to the <strong>test3d</strong> folder.</p> <p>Note that sample-3D-content.zip was previously downloaded for validating the basic 3D functionality.</p> </li> 
+   <li><p>Return to the Card view and observe the message banners shown on the uploaded assets.</p> <p>The Converting Format banner is displayed while 3ds Max is converting the native 3ds Max format to .FBX.</p> </li> 
+   <li><p>After processing is finished, open <span class="code">logo-sphere.max</span> in the Detail view.</p> <p>The Preview experience is the same as with <strong>logo_sphere.fbx</strong>.</p> </li> 
+  </ol> 
+ </body> 
+</html>

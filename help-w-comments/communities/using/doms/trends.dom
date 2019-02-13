@@ -1,0 +1,108 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-31T16:33:09.440-0400" name="firstPublishExternalDate" />
+  <meta content="2018-05-17T05:52:55.114-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T08:04:23.927-0400" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-04-03T08:04:25.023-0400" name="cq:lastReplicated" />
+  <meta content="2018-04-03T08:04:23.927-0400" name="publishExternalDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="ab717036-9bff-49d5-8f9c-343c7727fa82" name="jcr:uuid" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-04-03T08:04:23.927-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-05-17T05:52:55.113-0400" name="locHandOffDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="47d502e9-d1f8-4ef0-8f3d-121437cdf82f" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/trends.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Activity Trends" name="seoTitle" />
+  <meta content="2017-12-01T19:02:25.904-0500" name="jcr:created" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Activity Trends" name="jcr:title" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/content/docs/en/aem/6-3/author/communities/trends" name="qaNotes" />
+  <meta content="Adding a Community Activity List component to a page" name="seoDescription" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="Activity Trends" name="navTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:authoring;content_type:reference" name="cq:tags" />
+ </head>
+ <body>
+  <h3>Introduction</h3>
+  <p>The <span class="code">Community Activity List</span> component provides the ability to add trending information regarding posts and views by members as well as posts and views of content.</p> 
+  <p>This section of the documentation describes</p> 
+  <ul> 
+   <li>adding the <span class="code">Community Activity List</span> component to a <a href="../../communities/using/overview.md#communitysites">community site</a></li> 
+   <li>configuration settings for the <span class="code">Community Activity List</span> component</li> 
+  </ul> 
+  <h3>Requirement</h3>
+  <p>Data for the <span class="code">Community Activity List</span> is only available when Adobe Analytics is licensed and configured for the community site.</p> 
+  <p>See <a href="../../communities/using/analytics.md">Analytics Configuration for Communities Features</a>.</p> 
+  <h3>Adding a Community Activity List to a Page</h3>
+  <p>To add a <span class="code">Community Activity List</span> component to a page in author mode, locate the component</p> 
+  <ul> 
+   <li><span class="code">Communities / Community Activity List</span></li> 
+  </ul> 
+  <p>and drag it into place on a page.</p> 
+  <p>For necessary information, visit <a href="../../communities/using/basics.md">Communities Components Basics</a>.</p> 
+  <p>When first placed on a page of a community site, this is how the component appears :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-234.png" />
+  <h3>Configuring Community Activity List </h3>
+  <p>Select the placed <span class="code">Community Activity List</span> component to access and select the <span class="code">Configure</span> icon which opens the edit dialog.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-235.png" />
+  <p>Under the <strong>Comments </strong>tab, specify if and how comments for uploaded files appear :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-236.png" />
+  <ul> 
+   <li><strong>Type</strong><br /> Specify whether to to display data regarding community members or user generated content (UGC).<br /> Select from 
+    <ul> 
+     <li><span class="code">Members</span></li> 
+     <li><span class="code">Content</span></li> 
+    </ul> Default is <span class="code">Members</span>.</li> 
+   <li><strong>Display title</strong><br /> A descriptive title to display above the data, such as <span class="code">Trending Content</span>.<br /> Default is no title.</li> 
+   <li><strong>Display count</strong><br /> The number of items to list.<br /> Default is 10.</li> 
+   <li><strong>Activity type</strong><br /> Select one of
+    <ul> 
+     <li><span class="code">Views </span>(page visits)</li> 
+     <li><span class="code">Posts </span>(creating UGC)</li> 
+     <li><span class="code">Follows</span></li> 
+     <li><span class="code">Likes</span></li> 
+    </ul> Default is Views.</li> 
+   <li><strong>Time period</strong><br /> Select one of
+    <ul> 
+     <li><span class="code">Last 24 hours</span></li> 
+     <li><span class="code">Last 7 days</span></li> 
+     <li><span class="code">Last 30 days</span></li> 
+     <li><span class="code">Last 90 days</span></li> 
+     <li><span class="code">This year (since Jan 1st)</span></li> 
+     <li><span class="code">Total</span></li> 
+    </ul> Default is <span class="code">Total</span>.</li> 
+   <li><strong>Context path</strong><br /> Provides the ability to scope the activity to a subset of the site, such as a specific Blog.<br /> Default is the entire community site.</li> 
+   <li><strong>Member count aggregation</strong><br /> When unchecked (turned off), only top-level posts are counted. For example, if the context is the root page (the default), then an <span class="code">Activity Type </span>of <span class="code">Posts </span>will never show any activity as there is no ability to post content to the root page. When checked, the counts on all descendant pages are included.<br /> Default is checked.</li> 
+  </ul> 
+  <h3>Example Page with 4 Components</h3>
+  <p><strong>Top Visitors</strong> config : Type = Members, Activity type = Views</p> 
+  <p><strong>Top Contributors</strong> config : Type = Members, Activity type = Posts</p> 
+  <p><strong>Top Content</strong> config : Type = Content, Activity type = Views, </p> 
+  <p><strong>Trending Content</strong> config : Type = Content, Activity type = Posts</p> 
+  <img imageRotate="0" src="assets/chlimage_1-237.png" />
+  <draft-comment type="draft">
+   <h3>Additional Information</h3>
+  </draft-comment>
+  <draft-comment type="draft">
+   <p>More information may be found on the <a href="../../communities/using/essentials-file-library.md">??? Essentials</a> page for developers.</p> 
+   <p>For moderation of posted topics and comments, see <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+   <p>For tagging posted topics and comments, see <a href="../../communities/using/tag-ugc.md">Tagging User Generated Content</a>.</p> 
+  </draft-comment>
+ </body>
+</html>

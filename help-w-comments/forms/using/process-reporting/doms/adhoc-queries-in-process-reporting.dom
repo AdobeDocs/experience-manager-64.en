@@ -1,0 +1,183 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" />
+  <meta content="content_type:reference;topic_tags:process-reporting;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2014-11-25T09:53:08.213-0500" name="lastPublishQADate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2013-09-18T09:35:53.372-0400" name="firstPublishExternalDate" />
+  <meta content="Ad-hoc queries in Process Reporting" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="5d7d4aa9-4e42-40ca-af32-5c81f46a1e96" name="jcr:uuid" />
+  <meta content="09/06/13" name="locPublishDate" />
+  <meta content="2018-10-24T10:43:09.122-0400" name="lastPublishExternalDate" />
+  <meta content="2018-10-24T10:43:09.122-0400" name="publishExternalDate" />
+  <meta content="later" name="locPublishOption" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2013-06-19T09:44:05.379-0400" name="firstPublishQADate" />
+  <meta content="2014-11-25T09:53:08.213-0500" name="publishQADate" />
+  <meta content="Ad-hoc Queries in Process Reporting" name="jcr:title" />
+  <meta content="2018-10-24T10:43:09.122-0400" name="topicBrowsingSortDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2013-06-21T08:39:41.691-0400" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="1c8270d9-b84e-4d81-8b76-32766de8c48a" name="jcr:predecessors" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2013-09-02T09:37:36.735-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-10-24T10:43:09.132-0400" name="cq:lastModified" />
+  <meta content="khsingh" name="cq:lastModifiedBy" />
+  <meta content="2018-10-24T10:43:09.234-0400" name="cq:lastReplicated" />
+  <meta content="http://helpx.stage.adobe.com/livecycle/help/process-reporting/adhoc-queries-in-process-reporting.html" name="publishQAURL" />
+  <meta content="Create custom queries to search for AEM Forms on JEE  process and task details in Process Reporting" name="seoDescription" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/process-reporting/adhoc-queries-in-process-reporting.html" name="publishExternalURL" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/process-reporting;/content/help/en/experience-manager/6-4/forms/morehelp/process-reporting" name="moreHelpPaths" />
+ </head>
+ <body>
+  <h2>Ad-hoc queries in Process Reporting</h2>
+  <p>Ad-hoc queries in Process Reporting allow you to create custom queries that you can use to search for process and task details of the AEM Forms process instances defiend in your AEM Forms environment.</p> 
+  <p>Also, ad hoc queries can be defined using process and task property filters. These filters can then be saved and used to run the reports later.</p> 
+  <p><a href="../../../forms/using/process-reporting/adhoc-queries-in-process-reporting.md#main-pars-header-0"><strong>Process Search</strong></a>: Search for process instances with a user-defined search filter based on process attributes.</p> 
+  <p><a href="../../../forms/using/process-reporting/adhoc-queries-in-process-reporting.md#main-pars-header-4"><strong>Process Details</strong></a>: View details of a process instance by specifying the process ID.</p> 
+  <p><strong>Task Search</strong>: Search for task instances with a user-defined search filter based on task attributes.</p> 
+  <p><strong>Task Details</strong>: View details of a task instance by specifying the task ID.<br /> </p> 
+  <h3>Processes and Tasks</h3>
+  <p>The steps that you follow to create filters and run queries for process details are the same as that for tasks.</p> 
+  <p>This means that the user interfaces for the Process Search and Task Search differs only in the fields that you can search by and the fields returned in the search results. This is simply because, while many of the fields are identical, certain fields are specific to processes and certain fields are specific to tasks.</p> 
+  <p>This article, details the descriptions of the Process/Task Search and Process/Task Details sections. At appropriate locations, any specific differences will be called-out specifically.<br /> </p> 
+  <h2>Process/Task Search</h2>
+  <p>You use Process/Task Search to define filters for querying process/task instances.</p> 
+  <h3>To create a Process/Task Search query</h3>
+  <ol>
+   <li><p>To view the saved Process/Task Search queries or to create a query, click <strong>Adhoc Queries</strong> and then click <strong>Process/Task Search</strong>.<br /> </p> <img imageRotate="0" src="assets/search_nodes.png" /><p>The <strong>My Filters</strong> panel is displayed to the right of the tree view.</p> <p>In the <strong>My Filters</strong> panel, you can create new ad-hoc queries and click to execute previously saved queries.<br /> </p> <img imageRotate="0" src="assets/my_filters_panel.png" /></li>
+   <li><p>To execute an existing query, you simply click the query in the <strong>My Filters</strong> panel.</p> </li>
+   <li><p>To create a query, click <strong>Add </strong>(+).</p> <p>The <strong>Create Filter</strong> panel displays.</p> <img imageRotate="0" src="assets/create_filter_panel.png" /><p>A query consists of one or more query filters. To create a filter, add a filter row to the query. By default, one filter row is added to the query.<br /> </p>  
+    <ol>
+     <li><p>Select a field.</p> <img imageRotate="0" src="assets/filter_field.png" />
+      <note>
+       <p>The field list contains the fields that are specific to AEM Forms process/task. </p> 
+      </note></li>
+     <li><p>Select a condition.</p> <img imageRotate="0" src="assets/filter_condition.png" />
+      <note>
+       <p>The conditions listed depend on the attribute that is selected for filtering.</p> 
+      </note></li>
+     <li><p>Enter a value.</p> <img imageRotate="0" src="assets/filter_value.png" /></li>
+     <li><p>To add another filter to the query, click <strong>Add </strong>(+) on the right of the filter row.</p> <p>To remove a filter from the query, click <strong>Delete </strong>(-) on the right of the filter row.<br /> </p> <img imageRotate="0" src="assets/filter_add_del.png" /></li>
+    </ol></li>
+  </ol>
+  <p>After you create a query, use the options in the upper right corner of the <strong>Create Filter</strong> panel to:</p> 
+  <ul> 
+   <li><strong>Cancel</strong>: Cancel the changes and go back to the <strong>My Filters</strong> panel.</li> 
+   <li><strong>Run</strong>: Execute the current query to see and / or verify the results. In this case, you do not need to save the query before executing the query. You can verify the results, make changes if required, and then save the query when you are satisfied with the output.<br /> </li> 
+   <li><strong>Save</strong>: Save the filter. The filter can then be viewed and executed from the <strong>My Filters </strong>panel.</li> 
+  </ul> 
+  <h3>Options in My Filters panel</h3>
+  <p>Use the options in the <strong>My Filters</strong> panel to <strong>Add </strong><img src="assets/lc_pr_add_filter.png" />, <strong>Edit </strong><img src="assets/lc_pr_delete_filter.png" />, or <strong>Delete </strong><img src="assets/lc_pr_edit_filter.png" />an ad-hoc query.<br /> </p> 
+  <img imageRotate="0" src="assets/my_filters_options.png" />
+  <h3>To execute a Search query</h3>
+  <ol>
+   <li><p>To execute a query, click the filter in the <strong>My Filters</strong> panel or click the <strong>Run </strong>button if you are creating or editing a filter.</p> </li>
+   <li><p>The results of the query display in the <strong>Report </strong>panel of the <strong>Process Reporting</strong> window.</p> <img imageRotate="0" src="assets/process_search_result.png" /><p>You can paginate the search results with the help of the pagination panel displayed at the bottom of the report.<br /> </p> <img imageRotate="0" src="assets/process_result_pgn.png" /><p>In the <strong>Display </strong>drop-down list, choose the number of results to be displayed per page.</p> <p>In the <strong>Page </strong>text box, enter a page number to go directly to that page.<br /> </p> </li>
+   <li><p>The following fields are displayed in a Process Search result:</p> 
+    <ul> 
+     <li><strong>Process ID</strong>: The ID of the process. The field is hyperlinked. If you click a process ID in this field, you are redirected to the <span class="uicontrol">Process Details</span> panel for the process.<br /> </li> 
+     <li><strong>Initiator</strong>: The AEM Forms user who started the process instance<br /> </li> 
+     <li><strong>Created Time</strong>: The date and time when the process instance started<br /> </li> 
+     <li><strong>Completed Time</strong>: The date and time when the process instance completed</li> 
+     <li><strong>Duration</strong>: The duration from start to completion of the process instance</li> 
+     <li><strong>Status</strong>: The current status of the process instance.<br /> </li> 
+    </ul> <p>By default, the result is sorted by Process ID. However, to sort the result by any of the fields, click the field title.</p> <p>Since the sorting is a toggle operation, click a column header to sort the result ascending and click it again to sort descending.</p> <p>Similarly, the following fields are displayed in a Task Search result:</p> 
+    <ul> 
+     <li><strong>Task ID</strong>: The ID of the task. The field is hyperlinked. If you click a task ID in this field, you are redirected to the <span class="uicontrol">Task Details</span> panel for the task.<br /> </li> 
+     <li><strong>Initiator</strong>: The AEM Forms user who started the process instance<br /> </li> 
+     <li><strong>Created Time</strong>: The date and time when the process instance started<br /> </li> 
+     <li><strong>Completed Time</strong>: The date and time when the process instance completed</li> 
+     <li><strong>Duration</strong>: The duration from start to completion of the process instance</li> 
+     <li><strong>Status</strong>: The current status of the process instance.</li> 
+    </ul> <p>By default, the result is sorted by Task ID. However, to sort the result by any of the fields, click the field title. The result is sorted by the column that is indicated by a darkened arrow next to the column header.</p> <p>Since the sorting is a toggle operation, click a field header to sort the result ascending and click it again to sort descending. The current sort order (ascending / descending) is indicated by the direction of darkened arrow next to the column header.</p> <img imageRotate="0" src="assets/task_search_result.png" /></li>
+   <li><p>Click the rail button <img src="assets/lc_pr_rail_button.png" /> on the upper-left to collapse the <strong>My Filters</strong> pane and expands the space available for the <strong>Report </strong>panel.</p> </li>
+   <li><p>Use the options in the upper right corner of the <strong>Report </strong>panel to perform operations on the query result.</p> 
+    <ul> 
+     <li><strong>Refresh</strong>: Refreshes the report with latest data lying in the storage<br /> </li> 
+     <li><strong>Export to CSV</strong>: Export the report data to a comma-separated file.</li> 
+    </ul> 
+    <note>
+     <p>When you export a report, the entire result from the search is exported to a CSV file and not just the current page<br /> </p> 
+    </note></li>
+  </ol>
+  <h2>Process/Task Details</h2>
+  <p>You use the <strong>Process Details</strong> panel to view the details of a specific process.<br /> </p> 
+  <p>Similarly, you use the <strong>Task Details</strong> panel to view the details of a specific task.<br /> </p> 
+  <h3>To view Process/Task Details</h3>
+  <p>You can view the details of a specific AEM Forms process/task:</p> 
+  <ul> 
+   <li><strong>From a Process/Task Search result<br /> </strong></li> 
+   <li><strong>By entering the Process/Task ID in the Process/Task Details panel</strong></li> 
+  </ul> 
+  <h4>From a Process/Task Search result</h4>
+  <ol>
+   <li><p>Execute a process/task search. For details, see <a href="../../../forms/using/process-reporting/adhoc-queries-in-process-reporting.md#main-pars-header-3">To execute a Process Search query</a>.</p> <p>Notice that the process IDs displayed returned in the result, are hyperlinked.<br /> </p> <img imageRotate="0" src="assets/process_id_list.png" /></li>
+   <li><p>Click on a process ID in the list to view the details of this process in the <strong>Process Details</strong> panel.</p> <p>The <strong>Process/Task Details</strong> query result displays details of the tasks/forms contained in the process/task.<br /> </p> <p>By default, the result is sorted by Task/Form ID. However, to sort the result by any of the fields, click the field title. The column by which the result is sorted is indicated by a darkened arrow next to the column header.</p> <p>Since the sorting is a toggle operation, click a field header to sort the result ascending and click it again to sort descending. The current sort order (ascending / descending) is indicated by the direction of darkened arrow next to the column header.<br /> </p>  <img imageRotate="0" src="assets/process_details.png" /><p><strong>Left panel:</strong> Displays the following details of the selected process:</p>
+    <ul> 
+     <li>Name of process<br /> </li> 
+     <li>Process creation date time<br /> </li> 
+     <li>Process completion date time</li> 
+     <li>Process duration</li> 
+     <li>Process status</li> 
+     <li>Process initiator</li> 
+    </ul><p><strong>Upper-Right panel:</strong> Displays the following details of the tasks that make up selected process:</p>
+    <ul> 
+     <li>Task ID<br /> </li> 
+     <li>Task name</li> 
+     <li>Task owner</li> 
+     <li>Task creation date time</li> 
+     <li>Task update date time<br /> </li> 
+     <li>Task completion date time</li> 
+     <li>Task duration</li> 
+     <li>Task status</li> 
+    </ul><p><strong>Lower-Right panel:</strong> Displays the following details of the process history of the selected process:</p>
+    <ul> 
+     <li>Process name<br /> </li> 
+     <li>Process initiator</li> 
+     <li>Process update date time<br /> </li> 
+     <li>Process completion date time</li> 
+     <li>Process status</li> 
+    </ul> <img imageRotate="0" src="assets/task_details.png" /><p><strong>Left panel:</strong> Displays the following details of the selected task:</p>
+    <ul> 
+     <li>Task Name</li> 
+     <li>ID of process to which this task belongs<br /> </li> 
+     <li>Task description<br /> </li> 
+     <li>Task creation date time<br /> </li> 
+     <li>Task completion date time</li> 
+     <li>Task duration</li> 
+     <li>Task status</li> 
+     <li>Selected route of task</li> 
+    </ul><p><strong>Upper-Right panel:</strong> Displays the following details of the forms that make up selected task:</p>
+    <ul> 
+     <li>Foprm ID<br /> </li> 
+     <li>Form creation date time</li> 
+     <li>Form update date time</li> 
+     <li>Form template Url<br /> </li> 
+    </ul><p><strong>Lower-Right panel:</strong> Displays the following details of the process history of the selected task:</p>
+    <ul> 
+     <li>Task assignment type</li> 
+     <li>Task owner</li> 
+     <li>Task assignment creation date time</li> 
+     <li>Task update date time</li> 
+    </ul></li>
+   <li><p>Click <strong>Back to Process/Task Search</strong> to go back to the search result from which the process/task details were drilled down.</p> <img imageRotate="0" src="assets/back_to_search.png" /><p>However, if the process/task details were found by entering a specific process/task ID, clicking Back to Process/Task Search takes you back to <strong>Process/Task Search</strong>, without displaying any search result.</p> </li>
+  </ol>
+  <h4>By entering the Process/Task ID in the Process/Task Details panel &lt;br&gt;</h4>
+  <ol>
+   <li><p>Go to the <strong>Process/Task Details</strong> panel.<br /> </p> <img imageRotate="0" src="assets/details_nodes.png" /></li>
+   <li><p>In the Process/Task ID text box, enter the process/task ID.<br /> </p> <img imageRotate="0" src="assets/process_details-1.png" /><p>The fields in the <strong>Process/Task Details</strong> query result are fields specific to an AEM Forms process/task.</p> <p>For a process, the query result displays the details of the tasks contained in the process.</p> <p>For a task, the query result displays the details the forms contained in the task.</p> </li>
+  </ol>
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+ </body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="49a41de6-e82a-41bb-8b92-f48e3d43fa1b" name="jcr:uuid" />
+  <meta content="2018-10-30T16:06:53.625-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="jsyal" name="contentOwner" />
+  <meta content="15e99f32-454c-4979-933c-ad6d9021b3a1" name="jcr:predecessors" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="noIndex" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-10-30T16:06:53.625-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/using/implementing-chrome-os-player" name="redirectTarget" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="left" name="sideColumn" />
+  <meta content="light" name="heroGradient" />
+  <meta content="video" name="pageLayout" />
+  <meta content="2018-10-30T16:06:53.629-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/implementing-chrome-os-player.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="REDIRECT Implementing Chrome OS Player" name="jcr:title" />
+  <meta content="2018-01-18T19:07:01.165-0500" name="jcr:created" />
+  <meta content="2018-10-30T16:06:53.625-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-10-30T16:06:53.625-0400" name="firstPublishExternalDate" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="2018-10-30T16:06:53.642-0400" name="cq:lastReplicated" />
+ </head>
+ <body></body>
+</html>

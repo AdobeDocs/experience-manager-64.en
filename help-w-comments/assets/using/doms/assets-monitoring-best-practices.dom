@@ -1,0 +1,206 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Assets Monitoring Best Practices" name="jcr:title" /> 
+  <meta content="Assets Monitoring Best Practices" name="seoTitle" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="7db88dfe-037a-4b46-85c3-b91cf1072d6e" name="jcr:uuid" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/assets_monitoring_best_practices_krs_workflow_f3c2f2ccebf6138e_95_report.xml" name="acrolinxReportURL" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="1757" name="acrolinxWords" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-24T11:59:35.931-0400" name="locHandOffDate" /> 
+  <meta content="103" name="acrolinxSentences" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/best-practices-for-assets/assets-monitoring-best-practices" name="qaNotes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-04-24T11:59:35.932-0400" name="cq:lastModified" /> 
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="2017-11-22T10:40:25.143-0500" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-11-22T10:40:25.143-0500" name="lastPublishExternalDate" /> 
+  <meta content="70406a92-9ca0-47af-a78d-39ead0bc9f3f" name="jcr:predecessors" /> 
+  <meta content="2017-12-01T19:05:08.620-0500" name="jcr:created" /> 
+  <meta content="2017-11-22T10:40:25.143-0500" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2019-01-12T17:12:32.445-0500" name="acrolinxDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Chiradeep Majumdar" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-03T08:04:08.401-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/assets-monitoring-best-practices.html" name="publishExternalURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-31T16:35:21.679-0400" name="firstPublishExternalDate" /> 
+  <meta content="Best practices for monitoring the environment and performance of your AEM instance after it is deployed." name="seoDescription" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+ </head> 
+ <body> 
+  <p>From the Adobe Experience Manager (AEM) Assets standpoint, monitoring should include observing and reporting on the following processes and technologies:</p> 
+  <ul> 
+   <li>System CPU</li> 
+   <li>System memory usage</li> 
+   <li>System disk IO and IO wait time</li> 
+   <li>System network IO</li> 
+   <li>JMX MBeans for:<br /> 
+    <ul> 
+     <li>Heap utilization</li> 
+     <li>Asynchronous processes, such as workflows</li> 
+    </ul> </li> 
+   <li>OSGi console health checks</li> 
+  </ul> 
+  <p>Typically, AEM Assets can be monitored in two ways, live monitoring and long term monitoring.</p> 
+  <h2>Live Monitoring</h2> 
+  <p>You should perform live monitoring during the performance testing phase of your development or during high-load situations to understand the performance characteristics of your environment. Typically, live monitoring should be performed using a suite of tools. Here are some recommendations:</p> 
+  <ul> 
+   <li><a href="https://visualvm.java.net/">Visual VM</a>: Visual VM enables you to view detailed Java VM information, including CPU usage, Java memory usage. In addition, it lets you sample and evaluate code that runs on an instance.</li> 
+   <li><a href="http://man7.org/linux/man-pages/man1/top.1.html">Top</a>: Top is a Linux command that opens up a dashboard, which displays usage statistics, including CPU, memory, and IO usage. It provides a high-level overview of what is happening on an instance.</li> 
+   <li><a href="http://hisham.hm/htop/">Htop</a>: Htop is an interactive process viewer. It provides detailed CPU and memory usage in addition to what Top can provide. Htop can be installed on most Linux systems using <span class="code">yum install htop</span> or <span class="code">apt-get install htop</span>.</li> 
+   <li><a href="http://guichaz.free.fr/iotop/">Iotop</a>: Iotop is a detailed dashboard for disk IO usage. It displays bars and meters that depict the processes that use disk IO and the amount they use. Iotop can be installed on most Linux systems using <span class="code">yum install iotop</span> or <span class="code">apt-get install iotop</span>.</li> 
+   <li><a href="http://www.ex-parrot.com/pdw/iftop/">Iftop</a>: Iftop displays detailed information about ethernet/network usage. Iftop displays per communication channel statistics on the entities using ethernet and the amount of bandwidth they use. Iftop can be installed on most Linux systems using <span class="code">yum install iftop</span> or <span class="code">apt-get install iftop</span>.</li> 
+   <li>Java Flight Recorder (JFR): A commercial tool from Oracle that you can use freely in non-production environments. For more details, see <a href="http://cq-ops.tumblr.com/post/73865704329/how-to-use-java-flight-recorder-to-diagnose-cq">How to Use Java Flight Recorder to Diagnose CQ Runtime Problems</a>.</li> 
+   <li>AEM error.log file: You can investigate the AEM error.log file for details of errors logged in the system. Use the command <span class="code">tail -F quickstart/logs/error.log</span> to identify errors that you should investigate.</li> 
+   <li><a href="../../sites/administering/using/workflows.md">Workflow console</a>: Leverage the workflow console to monitor workflows that lag behind or get stuck.</li> 
+  </ul> 
+  <p>Typically, you use these tools together to obtain a comprehensive idea about the performance of your AEM instance.</p> 
+  <note> 
+   <p>These tools are standard tools and not directly supported by Adobe. They don’t require additional licenses.</p> 
+  </note> 
+  <img imageRotate="0" src="assets/chlimage_1-144.png" /> 
+  <img imageRotate="0" src="assets/chlimage_1-145.png" /> 
+  <h2>Long Term Monitoring</h2> 
+  <p>Long term monitoring of an AEM instance involves monitoring for a longer duration the same portions that are monitored live. It also includes defining alerts specific to your environment.</p> 
+  <h3>Log aggregation and reporting</h3> 
+  <p>There are several tools available to aggregate logs, for example Splunk(TM) and Elastic Search/Logstash/Kabana (ELK). To evaluate the uptime of your AEM instance, it is important for you to understand log events specific to your system and create alerts based on them. A good knowledge of your development and operations practices can help you better understand how to tune your log aggregation process to generate critical alerts.</p> 
+  <h3>Environment monitoring</h3> 
+  <p>Environment monitoring includes monitoring the following:</p> 
+  <ul> 
+   <li>Network throughput</li> 
+   <li>Disk IO</li> 
+   <li>Memory</li> 
+   <li>CPU utilization</li> 
+   <li>JMX MBeans</li> 
+   <li>External websites</li> 
+  </ul> 
+  <p>You require external tools, such as NewRelic(TM) and AppDynamics(TM) to monitor each item. Using these tools, you can define alerts specific to your system, for example high system utilization, workflow back up, health check failures, or unauthenticated access to your website. Adobe does not recommend any particular tools over others. Find the tool that works for you, and leverage it to monitor the items discussed.</p> 
+  <h4>Internal application monitoring</h4> 
+  <p>Internal application monitoring includes monitoring the application components that make up the AEM stack, including JVM, the content repository, and monitoring through custom application code built on the platform. In general, it is performed through JMX Mbeans that can be monitored directly by many popular monitoring solutions, such as SolarWinds (TM), HP OpenView(TM), Hyperic(TM), Zabbix(TM), and others. For systems that do not support a direct connection to JMX, you can write shell scripts to extract the JMX data and expose it to these systems in a format that they natively understand.</p> 
+  <p>Remote access to the JMX Mbeans is not enabled by default. For more information on monitoring through JMX, see <a href="http://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html">Monitoring and Management Using JMX Technology</a>. </p> 
+  <p>In many cases, a baseline is required to effectively monitor a statistic. To create a baseline, observe the system under normal working conditions for a predetermined period and then identify the normal metric.</p> 
+  <p><strong>JVM monitoring</strong></p> 
+  <p>As with any Java-based application stack, AEM depends on the resources that are provided to it through the underlying Java Virtual Machine. You can monitor the status of many of these resources through Platform MXBeans that are exposed by JVM. For more information on MXBeans, see <a href="http://docs.oracle.com/javase/7/docs/technotes/guides/management/mxbeans.html">Using the Platform MBean Server and Platform MXBeans</a>.</p> 
+  <p>Here are some baseline parameters that you can monitor for JVM: </p> 
+  <p>Memory</p> 
+  <ul> 
+   <li><span class="code">MBean: lava.lang:type=Memory</span></li> 
+   <li>URL: <i>/system/console/jmx/java.lang:type=Memory</i></li> 
+   <li>Instances: All servers</li> 
+   <li>Alarm threshold: When the heap or non-heap memory utilization exceeds 75% of the corresponding maximum memory.</li> 
+   <li>Alarm definition: Either system memory is insufficient, or there is a memory leak in the code. Analyze a thread dump to arrive at a definition.</li> 
+  </ul> 
+  <p><strong>Note</strong>: Information provided by this bean is expressed in bytes.</p> 
+  <p>Threads</p> 
+  <ul> 
+   <li>MBean: <span class="code">java.lang:type=Threading</span></li> 
+   <li>URL: <i>/system/console/jmx/java.lang:type=Threading</i></li> 
+   <li>Instances: All servers</li> 
+   <li>Alarm threshold: When the number of threads is greater than 150% of the baseline.</li> 
+   <li>Alarm definition: Either there is an active runaway process, or an inefficient operation consumes a large amount of resources. Analyze a thread dump to arrive at a definition.</li> 
+  </ul> 
+  <p><strong>AEM monitoring</strong></p> 
+  <p>AEM also exposes a set of statistics and operations through JMX. These can help assess system health and identify potential problems before they impact users. For more information, see <a href="../../sites/administering/using/jmx-console.md">documentation</a> on AEM JMX MBeans.</p> 
+  <p>Here are some baseline parameters that you can monitor for AEM:</p> 
+  <p>Replication agents</p> 
+  <ul> 
+   <li>MBean: <span class="code">com.adobe.granite.replication:type=agent,id=”&amp;lt;AGENT_NAME&amp;gt;”</span></li> 
+   <li>URL: <i>/system/console/jmx/com.adobe.granite.replication:type=agent,id=”&amp;lt;AGENT_NAME&amp;gt;”</i></li> 
+   <li>Instances: One Author and all publish instances (for flush agents)</li> 
+   <li>Alarm threshold: When the value of <span class="code">QueueBlocked</span> is true or the value of <span class="code">QueueNumEntries</span> is greater than 150% of the baseline.</li> 
+   <li>Alarm definition: Presence of a blocked queue in the system indicating that the replication target is down or unreachable. Often, network or infrastructure issues cause excessive entries to be queued, which can adversely impact system performance.</li> 
+  </ul> 
+  <p><strong>Note</strong>: For the MBean and URL parameters, replace <span class="code">&amp;lt;AGENT_NAME&amp;gt;</span> with the name of the replication agent you want to monitor.</p> 
+  <p>Session counter</p> 
+  <ul> 
+   <li>MBean: <span class="code">org.apache.jackrabbit.oak:id=7,name="OakRepository Statistics",type="RepositoryStats"</span></li> 
+   <li>URL: <i>/system/console/jmx/org.apache.jackrabbit.oak:id=7,name="OakRepository Statistics",type</i>="RepositoryStats"</li> 
+   <li>Instances: All servers</li> 
+   <li>Alarm threshold: When open sessions exceed the baseline by more than 50%.</li> 
+   <li>Alarm definition: Sessions may be opened through a piece of code and never close. This may happen slowly over time and eventually cause memory leaks in the system. While the number of sessions should fluctuate on a system, they should not increase continuously.</li> 
+  </ul> 
+  <p>Health Checks</p> 
+  <p>Health checks that are available in the <a href="../../sites/administering/using/operations-dashboard.md#healthreports">operations dashboard</a> have corresponding JMX MBeans for monitoring. However, you can write custom health checks to expose additional system statistics.</p> 
+  <p>Here are some out-of-the-box health checks that are helpful to monitor:</p> 
+  <ul> 
+   <li>System Checks 
+    <ul> 
+     <li>MBean: <span class="code">org.apache.sling.healthcheck:name=systemchecks,type=HealthChec</span>k </li> 
+     <li>URL: <i>/system/console/jmx/org.apache.sling.healthcheck:name=systemchecks,type=HealthCheck</i></li> 
+     <li>Instances: One author, all publish servers</li> 
+     <li>Alarm threshold: When the status is not OK</li> 
+     <li>Alarm definition: The status of one of the metrics is either WARN or CRITICAL. Check the log attribute for more information on the cause of the issue.</li> 
+    </ul> </li> 
+   <li>Replication Queue 
+    <ul> 
+     <li>MBean: <span class="code">org.apache.sling.healthcheck:name=replicationQueue,type=HealthCheck </span></li> 
+     <li>URL: <i>/system/console/jmx/org.apache.sling.healthcheck:name=replicationQueue,type=HealthCheck</i></li> 
+     <li>Instances: One author, all publish servers</li> 
+     <li>Alarm threshold: When the status is not OK</li> 
+     <li>Alarm definition: The status of one of the metrics is either WARN or CRITICAL. Check the log attribute for more information on the queue that caused the issue.</li> 
+    </ul> </li> 
+   <li>Response Performance 
+    <ul> 
+     <li>MBean: <span class="code">org.apache.sling.healthcheck:name=requestsStatus,type=HealthCheck </span></li> 
+     <li>URL: <i>/system/console/jmx/org.apache.sling.healthcheck:name=requestsStatus,type=HealthCheck</i></li> 
+     <li>Instances: All servers</li> 
+     <li>Alarm duration: When the status is not OK</li> 
+     <li>Alarm definition: The status of one of the metrics is either WARN or CRITICAL status. Check the log attribute for more information on the queue that caused the issue.</li> 
+    </ul> </li> 
+   <li>Query Performance 
+    <ul> 
+     <li>MBean: <span class="code">org.apache.sling.healthcheck:name=queriesStatus,type=HealthCheck </span></li> 
+     <li>URL: <i>/system/console/jmx/org.apache.sling.healthcheck:name= queriesStatus,type=HealthCheck</i></li> 
+     <li>Instances: One author, all publish servers</li> 
+     <li>Alarm threshold: When the status is not OK</li> 
+     <li>Alarm definition: One or more queries running slowly in the system. Check the log attribute for more information on the queries that caused the issue.</li> 
+    </ul> </li> 
+   <li>Active Bundles 
+    <ul> 
+     <li>MBean: org.apache.sling.healthcheck:name=inactiveBundles,type=HealthCheck </li> 
+     <li>URL: <i>/system/console/jmx/org.apache.sling.healthcheck:name=inactiveBundles,type=HealthCheck</i></li> 
+     <li>Instances: All servers</li> 
+     <li>Alarm threshold: When the status is not OK</li> 
+     <li>Alarm definition: Presence of inactive or unresolved OSGi bundles on the system. Check the log attribute for more information on the bundles that caused the issue.</li> 
+    </ul> </li> 
+   <li>Log Errors 
+    <ul> 
+     <li>MBean: <span class="code">org.apache.sling.healthcheck:name=logErrorHealthCheck,type=HealthCheck </span></li> 
+     <li>URL: <i>/system/console/jmx/org.apache.sling.healthcheck:name=logErrorHealthCheck,type=HealthCheck</i></li> 
+     <li>Instances: All servers</li> 
+     <li>Alarm threshold: When the status is not OK</li> 
+     <li>Alarm definition: There are errors in the log files. Check the log attribute for more information on the cause of the issue.</li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Common Issues and Resolutions </h2> 
+  <p>In the process of monitoring, if you encounter issues, here are some troubleshooting tasks that you can perform to resolve common issues with AEM instances:</p> 
+  <ul> 
+   <li>If using TarMK, run Tar compaction often. For more details, see <a href="../../sites/deploying/using/storage-elements-in-aem-6.md#maintainingtherepository">Maintaining the Repository</a>.</li> 
+   <li>Check <span class="code">OutOfMemoryError</span> logs. For more information, see <a href="https://helpx.adobe.com/experience-manager/kb/AnalyzeMemoryProblems.html">Analyze memory problems</a>.</li> 
+   <li>Check the logs for any references to unindexed queries, tree traversals, or index traversals. These indicate unindexed queries or inadequately indexed queries. For For best practices on optimizing query and indexing performance, see <a href="../../sites/deploying/using/best-practices-for-queries-and-indexing.md">Best Practices for Queries and Indexing</a>.</li> 
+   <li>Use the workflow console to verify that your workflows perform as expected. If possible, condense multiple workflows into a single workflow. </li> 
+   <li>Revisit live monitoring, and look for additional bottlenecks or high consumers of any specific resources.</li> 
+   <li>Investigate the egress points from the client network and the ingress points to the AEM instance network, including the dispatcher. Frequently, these are bottleneck areas. For more information, see <a href="../../assets/using/assets-network-considerations.md">Assets network considerations</a>.</li> 
+   <li>Upsize your AEM server. You may have an inadequately sized your AEM instance. Adobe Support can help you identify whether your server is undersized.</li> 
+   <li>Examine the <span class="code">access.log</span> and <span class="code">error.log</span> files for entries around the time of something went wrong. Look for patterns that can potentially indicate custom code anomalies. Add them to the list of events you monitor.</li> 
+  </ul> 
+ </body> 
+</html>

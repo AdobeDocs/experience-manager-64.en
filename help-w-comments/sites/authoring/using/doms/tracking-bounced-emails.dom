@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="13647f58-abe8-4635-84d1-6ddcb6b73ec0" name="jcr:predecessors" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Tracking Bounced Emails" name="seoTitle" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-02-03T08:01:02.468-0500" name="jcr:created" />
+  <meta content="2018-04-19T10:36:02.631-0400" name="locHandOffDate" />
+  <meta content="Tracking Bounced Emails" name="jcr:title" />
+  <meta content="2018-10-28T00:47:52.913-0400" name="cq:lastModified" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization" name="moreHelpPaths" />
+  <meta content="2017-10-31T16:19:37.247-0400" name="firstPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/content/docs/en/aem/6-3/author/personalization/campaigns/email-marketing/tracking-bounced-emails" name="qaNotes" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:personalization" name="cq:tags" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="de471fb2-1adc-43d5-bcfa-310bc9e48f14" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Tracking Bounced Emails" name="navTitle" />
+  <meta content="2018-10-28T00:47:52.905-0400" name="lastPublishExternalDate" />
+  <meta content="2018-10-28T00:47:52.950-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="User" name="contentOwner" />
+  <meta content="2018-10-28T00:47:52.905-0400" name="publishExternalDate" />
+  <meta content="2018-10-28T00:47:52.905-0400" name="topicBrowsingSortDate" />
+  <meta content="AEM is capable of managing email bounces and can stop sending newsletters to those adresses" name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/tracking-bounced-emails.html" name="publishExternalURL" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe will not further enhance E-mail tracking of open/bounces (not deliverable) sent by the AEM SMTP service.</p> 
+   <p>Adobe's recommendation is to <a href="../../../sites/administering/using/campaign.md">leverage Adobe Campaign and the integration to AEM</a>.</p> 
+  </note>
+  <p>This feature is available in the classic user interface. See <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-email-tracking-bounces.md">Tracking Bounced Emails in the classic UI</a>.</p> 
+ </body>
+</html>

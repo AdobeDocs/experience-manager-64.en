@@ -1,0 +1,146 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="281" name="acrolinxWords" />
+  <meta content="2016-04-20T10:10:05.368-0400" name="firstPublishExternalDate" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="2018-04-03T09:10:40.865-0400" name="cq:lastReplicated" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/system_information_service_apis_admin_5e12de0b318c6865_2380_report.xml" name="acrolinxReportURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/system-information-service-apis.html" name="publishExternalURL" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="2017-10-31T16:31:55.148-0400" name="publishExternalDate" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="video" name="pageLayout" />
+  <meta content="2017-12-01T19:05:04.597-0500" name="jcr:created" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="left" name="sideColumn" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="2018-04-26T04:22:23.975-0400" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-04-26T04:22:23.975-0400" name="cq:lastModified" />
+  <meta content="System information Service APIs" name="jcr:title" />
+  <meta content="2016-05-31T07:03:33.199-0400" name="acrolinxDate" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/system_information_service;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="AEMForms/6.1/AdminHelp/WS98f05ad7ea54cfa4d348ee113ff5646513-7ffe" name="cq:gepId" />
+  <meta content="31" name="acrolinxSentences" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2017-10-31T16:31:55.148-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="2016-02-05T03:27:33.012-0500" name="lr_lastModified" />
+  <meta content="3a6e4d3e-b17f-466c-993a-c83be168c7c8" name="jcr:uuid" />
+  <meta content="This document provides detailed information about the APIs provided by the the system information service." name="seoDescription" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="dd2bf6f7-19ca-4fd7-ae94-9adfd928a1d8" name="jcr:predecessors" />
+  <meta content="System information Service APIs" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+ </head>
+ <body>
+  <p>The system information service provides a set of REST APIs to retrieve information. The following table provides detailed information about the APIs:</p> 
+  <table cellpadding="4" cellspacing="0">
+   <thead align="left">
+    <tr>
+     <th class="row-nocellborder" id="d19e32321" valign="top" width="NaN%"><p>Name</p></th> 
+     <th class="row-nocellborder" id="d19e32324" valign="top" width="NaN%"><p>URL</p></th> 
+     <th class="cellrowborder" id="d19e32327" valign="top" width="NaN%"><p>Descrption</p></th> 
+    </tr> 
+   </thead> 
+   <tbody>
+    <tr>
+     <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfo.properties</p></td> 
+     <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>http://[server]:[port]/rest/services/SystemInfo.properties</p></td> 
+     <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>This API is a wrapper for <a href="http://docs.oracle.com/javase/6/docs/api/java/lang/System.html#getProperties()">system.getProperties</a> Java API. It retrieves configuration of the current working environment. </p></td> 
+    </tr> 
+    <tr>
+     <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfo.envVar</p></td> 
+     <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>http://[server]:[port]/rest/services/ SystemInfo.envVar</p></td> 
+     <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>Retrieves all the environment variables of the host operating system. </p></td> 
+    </tr> 
+    <tr>
+     <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfo.logs</p></td> 
+     <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>http://[server]:[port]/rest/services/ SystemInfo.logs</p></td> 
+     <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>Downloads a zip file that contains application server logs. </p></td> 
+    </tr> 
+    <tr>
+     <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfo.config</p></td> 
+     <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>http://[server]:[port]/rest/services/ SystemInfo.config</p></td> 
+     <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>Retrieves all the content of the config.xml file. </p></td> 
+    </tr> 
+    <tr>
+     <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfo.services</p></td> 
+     <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>http://[server]:[port]/rest/services/ SystemInfo.services</p></td> 
+     <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>Retrieves status and configuration parameters of AEM forms services.</p></td> 
+    </tr> 
+    <tr>
+     <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfo.vitalDetails</p></td> 
+     <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>http://[server]:[port]/rest/services/ SystemInfo.vitalDetails</p></td> 
+     <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>Retrieves server uptime, JVM arguments, system memory, heap size, operating system name, number of active threads, and thread count. </p></td> 
+    </tr> 
+    <tr>
+     <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfo.coreSettings</p></td> 
+     <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>http://[server]:[port]/rest/services/ SystemInfo.coreSettings</p></td> 
+     <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>Retrieves values of following properties:</p>
+      <ul>
+       <li><p>AdobeTempDir</p></li>
+       <li><p>AdobeServerFontDir</p></li>
+       <li><p>CustomerFontDir</p></li>
+       <li><p>GlobalDocumentStorageRootDir</p></li>
+       <li><p>DefaultDocumentMaxInlineSize</p></li>
+       <li><p>DefaultDocumentDisposalTimeout</p></li>
+       <li><p>EnableDocumentDBStorage</p></li>
+       <li><p>GlobalDocumentStorageUseNetworkShare</p></li>
+       <li><p>EnableFIPS</p></li>
+       <li><p>EnableWSDL</p></li>
+       <li><p>DataServicesConfigFile </p></li>
+       <li><p>EnableRDS</p></li>
+      </ul><p></p></td> 
+    </tr> 
+    <tr>
+     <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfo.database</p></td> 
+     <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>http://[server]:[port]/rest/services/ SystemInfo.database</p></td> 
+     <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>Retrieves detailed information about the database.</p></td> 
+    </tr> 
+    <tr>
+     <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfo.licenseInfo</p></td> 
+     <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>http://[server]:[port]/rest/services/ SystemInfo.licenseInfo</p></td> 
+     <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>Retrieves version and license information of installed AEM forms components. </p></td> 
+    </tr> 
+    <tr>
+     <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfNo.serverConfig</p></td> 
+     <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>http://[server]:[port]/rest/services/ SystemInfo.serverConfig</p></td> 
+     <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>Downloads configuration files of the host application server. </p></td> 
+    </tr> 
+    <tr>
+     <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfo.threads?delay=[n]&amp;iterations=[n]</p></td> 
+     <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>http://[server]:[port]/rest/services/ SystemInfo.threads?delay=[n]&amp;iterations=[n]</p></td> 
+     <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>Retrieves count and stack trace of active threads. It accepts following parameters:</p>
+      <ul>
+       <li><p>iterations= [n]: Specifies the count of iterations. Replace n with a number. </p></li>
+       <li><p>Delay= [n]: Specifies the number of milliseconds to wait before starting the next iteration. </p></li>
+      </ul><p></p></td> 
+    </tr> 
+    <tr>
+     <td class="row-nocellborder" headers="d19e32321 " valign="top" width="NaN%"><p>SystemInfo.info</p></td> 
+     <td class="row-nocellborder" headers="d19e32324 " valign="top" width="NaN%"><p>http://[server]:[port]/rest/services/ SystemInfo.info</p></td> 
+     <td class="cellrowborder" headers="d19e32327 " valign="top" width="NaN%"><p>This API is a wrapper for all of the system information service APIs. Internally, it runs all system information APIs and downloads information in zip format. </p><p><i><strong>note</strong>: The SystemInfo.info does not provide count and stack trace of active threads. </i></p></td> 
+    </tr> 
+   </tbody> 
+  </table>
+ </body>
+</html>

@@ -1,0 +1,114 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="722" name="acrolinxWords" /> 
+  <meta content="2018-04-26T04:39:16.066-0400" name="cq:lastModified" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/customzing-errors-html5-forms.html" name="publishExternalURL" /> 
+  <meta content="192e8cde-a3fb-440f-b94c-2cfb5187b6be" name="jcr:uuid" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Customizing error messages for HTML5 forms" name="jcr:title" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-03T08:26:31.566-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-12-01T19:06:16.481-0500" name="jcr:created" /> 
+  <meta content="cfb45ab9-ca6a-4ab9-8420-f30232996a82" name="jcr:predecessors" /> 
+  <meta content="2018-04-03T08:26:31.566-0400" name="lastPublishExternalDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2016-05-31T06:37:17.658-0400" name="acrolinxDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/customzing_errors_html5_forms_admin_5e12de0b318c6865_2001_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-03T08:26:32.863-0400" name="cq:lastReplicated" /> 
+  <meta content="62" name="acrolinxSentences" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T08:26:31.566-0400" name="publishExternalDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2016-04-20T09:36:41.225-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:customization" name="cq:tags" /> 
+  <meta content="Learn how to customize the display of error messages for HTML5 forms including how to change their position and appearance." name="seoDescription" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2015-06-12T04:25:40.295-0400" name="lastPublishQADate" /> 
+  <meta content="2018-04-26T04:39:16.066-0400" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <p>In HTML5 forms, out of the box, the error messages and warnings have a fixed position and appearance (font and color), the error is displayed only for a selected field, and only one error is displayed.</p> 
+  <p>The article provides the steps to customize HTML5 forms error messages to, </p> 
+  <ul> 
+   <li>change the appearance and position of error messages. You can make an error to appear at the top, bottom, and right of any field. </li> 
+   <li>display error messages for multiple fields at any given moment. </li> 
+   <li>display the error irrespective of a field is selected or not. <br /> </li> 
+  </ul> 
+  <h2>Customizing Error Messages&amp;nbsp;</h2> 
+  <p>Before customizing the error messages, download and extract the attached package (CustomErrorManager-1.0-SNAPSHOT.zip). </p> 
+  <div> 
+   <p>After extracting the package, open the CustomErrorManager-1.0-SNAPSHOT folder. It contains jcr_root and META-INF folders. These folders contains the CSS and .JS files required to customize the error message.</p> 
+   <p><a alt="CustomErrorManager-1.0-SNAPSHOT.zip" href="assets/customerrormanager-1.0-snapshot.zip">Get File</a></p> 
+  </div> 
+  <h3>Customizing the position of error messages&amp;nbsp;</h3> 
+  <p>To customize the position of error message, add &amp;lt;div&amp;gt; tag for each error and warning field, postion the &amp;lt;div&amp;gt; tag on the left or right, and apply css styles on the &amp;lt;div&amp;gt; tag. For detailed steps, see the procedure listed below:</p> 
+  <ol> 
+   <li><p>Navigate to the <span class="code">CustomErrorManager-1.0-SNAPSHOT </span>folder and open the <span class="code">etc\clientlibs\mf-custom-error-manager\CustomErrorManager\javascript</span> folder.</p> </li> 
+   <li><p>Open the <span class="code">customErrorManager.js</span> file for editing. The <span class="code">markError</span> function in the file accepts the following parameters: </p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td> </td> 
+       <td> </td> 
+      </tr> 
+      <tr> 
+       <td>jqWidget</td> 
+       <td> jqWidget is the handle for widget.</td> 
+      </tr> 
+      <tr> 
+       <td>msg </td> 
+       <td>contains the error message</td> 
+      </tr> 
+      <tr> 
+       <td>type </td> 
+       <td>denotes whether it is an error or warning</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li><p>On the out of the box implementation, error messages appears on the right of the field. To make the error messages appear on the top use the following code.<br /> </p> 
+    <codeblock gutter="true" class="syntax js">
+      markError:&amp;nbsp;function&amp;nbsp;(jqWidget,&amp;nbsp;msg,&amp;nbsp;type)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;element&amp;nbsp;=&amp;nbsp;jqWidget.element,&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//Gives&amp;nbsp;the&amp;nbsp;div&amp;nbsp;containing&amp;nbsp;widget!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;pos&amp;nbsp;=&amp;nbsp;$(element).offset(),&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//Calculates&amp;nbsp;the&amp;nbsp;position&amp;nbsp;of&amp;nbsp;the&amp;nbsp;div&amp;nbsp;in&amp;nbsp;the&amp;nbsp;view&amp;nbsp;port!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;msgHeight&amp;nbsp;=&amp;nbsp;xfalib.view.util.TextMetrics.measureExtent(msg).height&amp;nbsp;+&amp;nbsp;5;&amp;nbsp;&amp;nbsp;//Calculating&amp;nbsp;the&amp;nbsp;height&amp;nbsp;of&amp;nbsp;the&amp;nbsp;Error&amp;nbsp;Message!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;styles&amp;nbsp;=&amp;nbsp;{};!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;styles.left&amp;nbsp;=&amp;nbsp;pos.left&amp;nbsp;+&amp;nbsp;"px";&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Assign&amp;nbsp;the&amp;nbsp;desired&amp;nbsp;left&amp;nbsp;position&amp;nbsp;using&amp;nbsp;pos.left.&amp;nbsp;Here&amp;nbsp;it&amp;nbsp;is&amp;nbsp;calculated&amp;nbsp;for&amp;nbsp;exact&amp;nbsp;left&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;styles.top&amp;nbsp;=&amp;nbsp;pos.top&amp;nbsp;-&amp;nbsp;msgHeight&amp;nbsp;+&amp;nbsp;"px";&amp;nbsp;&amp;nbsp;//&amp;nbsp;Assign&amp;nbsp;the&amp;nbsp;desired&amp;nbsp;top&amp;nbsp;position&amp;nbsp;using&amp;nbsp;pos.top.&amp;nbsp;Here&amp;nbsp;it&amp;nbsp;is&amp;nbsp;calculated&amp;nbsp;for&amp;nbsp;top&amp;nbsp;of&amp;nbsp;the&amp;nbsp;field&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(type&amp;nbsp;!=&amp;nbsp;"warning")&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(!jqWidget.errorDiv){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//Adding&amp;nbsp;the&amp;nbsp;warning&amp;nbsp;div&amp;nbsp;if&amp;nbsp;it&amp;nbsp;is&amp;nbsp;not&amp;nbsp;present&amp;nbsp;already!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jqWidget.errorDiv=$("&lt;div&amp;nbsp;id='customError'&gt;&lt;/div&gt;").appendTo('body');!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jqWidget.$css(jqWidget.errorDiv.get(0),&amp;nbsp;styles);&amp;nbsp;//&amp;nbsp;Applying&amp;nbsp;the&amp;nbsp;styles&amp;nbsp;to&amp;nbsp;the&amp;nbsp;warning&amp;nbsp;div!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jqWidget.errorDiv.text(msg).show();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//Showing&amp;nbsp;the&amp;nbsp;warning&amp;nbsp;message!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(!jqWidget.errorDiv){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//Adding&amp;nbsp;the&amp;nbsp;error&amp;nbsp;div&amp;nbsp;if&amp;nbsp;it&amp;nbsp;is&amp;nbsp;not&amp;nbsp;present&amp;nbsp;already!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jqWidget.errorDiv=$("&lt;div&amp;nbsp;id='customWarning'&gt;&lt;/div&gt;").appendTo('body');!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jqWidget.$css(jqWidget.errorDiv.get(0),&amp;nbsp;styles);&amp;nbsp;//&amp;nbsp;Applying&amp;nbsp;the&amp;nbsp;styles&amp;nbsp;to&amp;nbsp;the&amp;nbsp;error&amp;nbsp;div!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jqWidget.errorDiv.text(msg).show();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//Showing&amp;nbsp;the&amp;nbsp;warning&amp;nbsp;message!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Save and close the file.</p> </li> 
+   <li><p>Navigate to the <span class="code">CustomErrorManager-1.0-SNAPSHOT</span> folder and create an archive of jcr_root and META-INF folders. Rename the archive to CustomErrorManager-1.0-SNAPSHOT.zip.</p>  </li> 
+   <li><p>Use the package manager to upload and install the package. </p> </li> 
+  </ol> 
+  <h2>Display error messages for multiple fields&amp;nbsp;</h2> 
+  <p>Ue the attached package to simultaneously display error messages for all the fields. To display a single error message, use default profile.<br /> </p> 
+  <h3>Customizing the appearance of error messages.&amp;nbsp;</h3> 
+  <ol> 
+   <li><p>Navigate to the etc\clientlibs\mf-custom-error-manager\CustomErrorManager\css folder.<br /> </p> </li> 
+   <li><p>Open the file sample.css for editing.The css file contains 2 ids- #customError, #customWarning. You can use these ids to change various properties such as color, font size etc.<br /> Use the following code to change font size and color of error/warning messages. <br /> </p> 
+    <codeblock gutter="true" class="syntax js">
+      #customError&amp;nbsp;{!!discoiqbr!!color:&amp;nbsp;#0000FF;&amp;nbsp;//&amp;nbsp;it&amp;nbsp;changes&amp;nbsp;the&amp;nbsp;color&amp;nbsp;of&amp;nbsp;Error&amp;nbsp;Message!!discoiqbr!!display:none;!!discoiqbr!!position:absolute;!!discoiqbr!!opacity:0.85;!!discoiqbr!!font-size:&amp;nbsp;24px;&amp;nbsp;&amp;nbsp;//&amp;nbsp;it&amp;nbsp;changes&amp;nbsp;the&amp;nbsp;font&amp;nbsp;size&amp;nbsp;of&amp;nbsp;Error&amp;nbsp;Message!!discoiqbr!!z-index:5;!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!#customWarning&amp;nbsp;{!!discoiqbr!!color:&amp;nbsp;#00FF00;&amp;nbsp;&amp;nbsp;//&amp;nbsp;it&amp;nbsp;changes&amp;nbsp;the&amp;nbsp;color&amp;nbsp;of&amp;nbsp;Warning&amp;nbsp;Message!!discoiqbr!!display:none;!!discoiqbr!!position:absolute;!!discoiqbr!!opacity:0.85;!!discoiqbr!!font-size:&amp;nbsp;18px;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;it&amp;nbsp;changes&amp;nbsp;the&amp;nbsp;font&amp;nbsp;size&amp;nbsp;of&amp;nbsp;Warning&amp;nbsp;Message!!discoiqbr!!z-index:5;!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!Save&amp;nbsp;the&amp;nbsp;changes. 
+    </codeblock></li> 
+   <li><p>Save and close the file.</p> </li> 
+   <li><p>Navigate to the CustomErrorManager-1.0-SNAPSHOT folder and create an archive of jcr_root and META-INF folders. Rename the archive to CustomErrorManager-1.0-SNAPSHOT.zip.</p>  </li> 
+   <li><p>Use the package manager to upload and install the package.</p> </li> 
+  </ol> 
+  <h2>Render the form with the new profile.&amp;nbsp;</h2> 
+  <p>Out of the box, html5 forms use a default profile: http://&amp;lt;server&amp;gt;/content/xfaforms/profiles/default.html?contentRoot=&amp;lt;xdp location&amp;gt;&amp;template=&amp;lt;name of the xdp&amp;gt;</p> 
+  <p>To view a form with the custom error messages, render the form with error profile: http://&amp;lt;server&amp;gt;/content/xfaforms/profiles/error.html?contentRoot=&amp;lt;xdp location&amp;gt;&amp;template=&amp;lt;name of the xdp&amp;gt;</p> 
+  <note> 
+   <p>The attached package installs the error profile. </p> 
+  </note> 
+ </body> 
+</html>

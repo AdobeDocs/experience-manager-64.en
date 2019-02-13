@@ -1,0 +1,80 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="khsingh" name="cq:lastModifiedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="left" name="sideColumn" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="2018-11-19T08:16:50.683-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2015-06-12T04:24:51.723-0400" name="lastPublishQADate" />
+  <meta content="7db92106-4482-4cc1-8790-ec331914cb69" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="300" name="acrolinxWords" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/submit_form_data_livecycle_process_admin_5e12de0b318c6865_2066_report.xml" name="acrolinxReportURL" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2016-04-20T09:45:11.908-0400" name="firstPublishExternalDate" />
+  <meta content="758f5922-93dc-46b3-b21e-20e4c39c5acb" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-11-13T07:30:31.223-0500" name="topicBrowsingSortDate" />
+  <meta content="16" name="acrolinxSentences" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-12-01T19:02:34.449-0500" name="jcr:created" />
+  <meta content="AEM Forms allows you to integrate adaptive forms with AEM Forms on JEE processes for processing form data." name="seoDescription" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/submit-form-data-livecycle-process.html" name="publishExternalURL" />
+  <meta content="2018-11-19T08:16:50.682-0500" name="locHandOffDate" />
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:Configuration" name="cq:tags" />
+  <meta content="2018-11-13T07:30:31.223-0500" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2016-05-31T06:43:35.114-0400" name="acrolinxDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Form workflows submit and process data" name="navTitle" />
+  <meta content="2018-11-13T07:30:31.223-0500" name="lastPublishExternalDate" />
+  <meta content="2018-11-13T07:30:31.262-0500" name="cq:lastReplicated" />
+  <meta content="video" name="pageLayout" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/configuration;/content/help/en/experience-manager/6-4/forms/morehelp/configuration" name="moreHelpPaths" />
+  <meta content="Configuring AEM Forms to submit form data to an AEM Forms on JEE process" name="jcr:title" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+ </head>
+ <body>
+  <p>Adaptive forms supports submitting data to an AEM Forms on JEE process for further processing. It allows you to trigger an AEM Forms on JEE process with the data available from the submitted form. Perform the following steps to enable your AEM Forms instance to submit an adaptive form to AEM Forms on JEE process: </p> 
+  <h2>Configure your AEM Forms server</h2>
+  <p>Perform the following steps to enable your AEM forms server to submit data to an AEM Forms on JEE server:</p> 
+  <ol> 
+   <li>Go to AEM web configuration console at http://[<em>host</em>]:[<em>port</em>]/system/console/configMgr.</li> 
+   <li>Locate and click the <strong>Adobe LiveCycle Client SDK Configuration</strong> component.</li> 
+   <li>Click to edit the configuration server URL, username, and password for the AEM Forms on JEE server.</li> 
+   <li>Review the settings and click <strong>Save</strong>.</li> 
+  </ol> 
+  <img alt="Adobe LiveCycle Client SDK configuration" imageRotate="0" src="assets/clientsdkconfiguration.jpg" title="Adobe LiveCycle Client SDK configuration" />
+  <h2>Map data with process fields</h2>
+  <p>Once your AEM Forms is configured, map the data XML and attachments from the submitted form to the fields in the AEM Forms on JEE process. To do this:</p> 
+  <ol> 
+   <li>In the AEM web configuration console, click to edit the <strong>Guide LiveCycle Process Locator and Invoker</strong> configuration.</li> 
+   <li>Specify the following parameters:
+    <ul> 
+     <li><strong>Name of the data xml parameter</strong> (mandatory): Specify the XML property file of the AEM Forms on JEE process that needs to process the submitted data. The default value is <strong>dataxml</strong>.</li> 
+     <li><strong>Name of the file attachments parameter </strong>(optional):<strong> </strong>Specify the list of document objects that the AEM Forms on JEE process needs to process. The default value is <strong>fileAttachmentsList</strong>.</li> 
+    </ul> </li> 
+   <li>Review the settings and click <strong>Save</strong>.</li> 
+  </ol> 
+  <img alt="Guide LiveCycle Process Locator and Invoker" imageRotate="0" src="assets/test3.jpg" title="Guide LiveCycle Process Locator and Invoker" />
+  <p>Once configured, the Submit to Forms Workflow submit action lists the AEM Forms on JEE server processes containing the specified data xml parameter.</p> 
+  <related-links>
+   <a href="/forms/using/submit-store-data-crx-repository" target="_blank">Submitting and storing content in JCR repository</a>
+   <a href="../../forms/using/form-submission-receipt-via-email.md" target="_blank"> Sending a form submission acknowledgement via email</a>
+   <a href="../../forms/using/configuring-submit-actions.md" target="_blank">Configure submit action</a>
+  </related-links>
+ </body>
+</html>

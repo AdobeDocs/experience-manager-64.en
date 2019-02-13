@@ -1,0 +1,82 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-01-19T19:05:51.765-0500" name="jcr:created" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="ac03a8f5-21e4-46ae-8d11-dcaf8a1b59a3" name="jcr:uuid" />
+  <meta content="2018-01-18T11:18:32.777-0500" name="lastPublishExternalDate" />
+  <meta content="User" name="contentOwner" />
+  <meta content="2018-04-03T09:00:12.000-0400" name="cq:lastReplicated" />
+  <meta content="2018-05-08T12:41:01.291-0400" name="cq:lastModified" />
+  <meta content="Tips for architecting your content (hint: everything is content)" name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Content Architecture" name="jcr:title" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:best-practices" name="cq:tags" />
+  <meta content="2017-10-31T16:17:11.801-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Content Architecture" name="seoTitle" />
+  <meta content="2018-01-18T11:18:32.777-0500" name="publishExternalDate" />
+  <meta content="2018-01-18T11:18:32.777-0500" name="topicBrowsingSortDate" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices;/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices" name="moreHelpPaths" />
+  <meta content="2018-05-08T12:41:01.290-0400" name="locHandOffDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="d15a7c78-7eb2-4f7b-903d-16535224f015" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/content-architecture.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/docs/en/aem/6-3/develop/best-practices/content-architecture" name="qaNotes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <h3>Follow David's Model</h3>
+  <p>David’s Model was written by David Nuescheler years ago, but the ideas hold true today. The main tenets of David’s Model are as follows:</p> 
+  <ul> 
+   <li>Data first, structure later. Maybe.</li> 
+   <li>Drive the content hierarchy, don’t let it happen.</li> 
+   <li>Workspaces are for clone(), merge() and update().</li> 
+   <li>Beware of same name siblings.</li> 
+   <li>References are considered harmful.</li> 
+   <li>Files are files are files.</li> 
+   <li>ID’s are evil.</li> 
+  </ul> 
+  <p>David’s Model can be found on the Jackrabbit wiki at <a href="http://wiki.apache.org/jackrabbit/DavidsModel">http://wiki.apache.org/jackrabbit/DavidsModel</a>.</p> 
+  <h3>Everything is content</h3>
+  <p>Everything should be stored in the repository rather than relying on separate third party data sources such as databases. This applies to authored content, binary data like images, code, configurations, etc. This allows us to use one set of APIs to manage all content and to manage the promotion of this content through replication. We also gain a single source of backup, logging, etc.</p> 
+  <h3>Use the "content model first" design principle</h3>
+  <p>When building a new feature, always start by designing the JCR content structure first, and then look into reading and writing your content using the default Sling servlets. This will allow you to ensure that your implementation works well with out of the box access control mechanisms and allow you to avoid generating unnecessary CRUD-style servlets.</p> 
+  <h3>Be RESTful</h3>
+  <p>Servlets should be defined based on resourceTypes instead of paths. This makes it possible to use JCR access controls, adhere to REST principles, and use the resource and resource resolver that are provided to us in the request. This also allows us to change the scripts that render URLs on the server side without needing to change any URLs from the client side, while hiding server-side implementation details from the client for added security.</p> 
+  <h3>Avoid defining new node types</h3>
+  <p>Node types work at a low level in the infrastructure layer and most requirements can be met by using a sling:resourceType assigned to an nt:unstructured, oak:Unstructured, sling:Folder or cq:Page node type. Node types equate to schema in the repository and changing node types can be very expensive down the road.</p> 
+  <h3>Adhere to naming conventions in the JCR</h3>
+  <p>Adhering to naming conventions will add consistency to your code base, lowering the incidence rate of defects and increasing the velocity of developers working in the system. The following conventions are used by Adobe in developing AEM:</p> 
+  <ul> 
+   <li>Node names
+    <ul> 
+     <li>All lower case</li> 
+     <li>Word separation using hyphens</li> 
+    </ul> </li> 
+   <li>Property names
+    <ul> 
+     <li>Camel case, starting with a lower case letter</li> 
+    </ul> </li> 
+   <li>Components (JSP/HTML)
+    <ul> 
+     <li>All lower case</li> 
+     <li>Word separation using hyphens</li> 
+    </ul> </li> 
+  </ul> 
+ </body>
+</html>

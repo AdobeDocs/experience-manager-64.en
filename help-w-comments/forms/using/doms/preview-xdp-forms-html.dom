@@ -1,0 +1,140 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="LiveCycle/10.5/MobileForms/WS98f05ad7ea54cfa46168253f13b607f622a-8000,LiveCycle/10.5/MobileForms/WS98f05ad7ea54cfa46168253f13b607f622a-7fff,LiveCycle/10.5/MobileForms/WS1c6a952ec830d7d19c6aa9513b65a0dccf-8000" name="cq:gepId" /> 
+  <meta content="" name="autotags" /> 
+  <meta content="robhagat" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/author;/content/help/en/experience-manager/6-4/forms/morehelp/author" name="moreHelpPaths" /> 
+  <meta content="" name="autotagsRejected" /> 
+  <meta content="2016-05-31T06:42:27.119-0400" name="acrolinxDate" /> 
+  <meta content="2013-02-18T05:26:31.785-0500" name="jcr:created" /> 
+  <meta content="2018-04-03T08:51:58.703-0400" name="cq:lastReplicated" /> 
+  <meta content="Generate HTML5 preview of an XDP form" name="jcr:title" /> 
+  <meta content="2018-04-03T08:51:58.593-0400" name="publishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="d87a6b5d-9b2b-4873-a53c-5bdcb729e501" name="jcr:predecessors" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="38" name="acrolinxSentences" /> 
+  <meta content="5f0d3380-948a-43a6-a915-09c87f341941" name="jcr:uuid" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-12-17T06:03:33.236-0500" name="cq:lastModified" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2015-11-20T08:17:05.445-0500" name="lastPublishQADate" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/preview-xdp-forms-html.html" name="publishExternalURL" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="mix:lockable;mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/preview_xdp_forms_html_admin_5e12de0b318c6865_2055_report.xml" name="acrolinxReportURL" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T08:51:58.593-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Preview HTML tab in LiveCycle Designer can be used to preview forms as they appear in a browser." name="seoDescription" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-12-17T06:03:33.234-0500" name="locHandOffDate" /> 
+  <meta content="2018-04-03T08:51:58.593-0400" name="lastPublishExternalDate" /> 
+  <meta content="645" name="acrolinxWords" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="2016-04-20T09:36:42.658-0400" name="firstPublishExternalDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="Preview your XDP forms in HTML" name="navTitle" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="robhagat" name="lr_lastModifiedBy" /> 
+  <meta content="robhagat" name="lr_creator" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:author" name="cq:tags" /> 
+ </head> 
+ <body> 
+  <p>While designing a form in AEM Forms Designer, besides previewing the PDF rendition of a form, you can also preview an HTML5 rendition of it. You can use the <strong>Preview HTML</strong> tab to preview a form as it would appear in a browser.</p> 
+  <h2 id="html_preview_of_forms_in_forms_designer">Enable HTML Preview for XDP forms in Designer</h2> 
+  <p>To enable Designer to generate HTML preview of XDP forms, perform the following configurations:</p> 
+  <ul> 
+   <li>Configure Apache Sling Authentication Service</li> 
+   <li>Disable protected mode <br /> </li> 
+   <li>Provide details of AEM Forms server </li> 
+  </ul> 
+  <h3>Configure Apache Sling Authentication Service</h3> 
+  <ol> 
+   <li><p>Go to http://[<em>server</em>]:[<em>port</em>]/system/console/configMgr on AEM Forms running on OSGi or <br /> http://[<em>server</em>]:[<em>port</em>]/lc/system/console/configMgr on AEM Forms running on JEE.</p> </li> 
+   <li><p>Locate and click <strong>Apache Sling Authentication Service</strong> configuration to open it in edit mode.<br /> </p> </li> 
+   <draft-comment type="draft"> 
+    <li><p>Enable <strong>Allow Anonymous Access</strong>.</p> </li> 
+   </draft-comment> 
+   <li><p>Depending on whether you are running AEM Forms on OSGi or JEE, add the following in the <strong>Authentication Requirements</strong> field:<br /> </p> 
+    <ul> 
+     <li>AEM Forms on JEE<br /> 
+      <ul> 
+       <li>-/content/xfaforms</li> 
+       <li>-/etc/clientlibs</li> 
+      </ul> </li> 
+     <li>AEM Forms on OSGi 
+      <ul> 
+       <li>-/content/xfaforms</li> 
+       <li>-/etc/clientlibs/fd/xfaforms</li> 
+      </ul> </li> 
+    </ul> 
+    <note> 
+     <p>Do not copy-paste the specified value in the Authentication Requirements field as it may corrupt the special characters in the value. Instead, type the specified value in the field.</p> 
+    </note></li> 
+   <li><p>Specify a user name and password in <span class="uicontrol">Anonymous User Name</span> and <span class="uicontrol">Anonymous User Password</span> fields, respectively. The specified credentials are used to handle anonymous authentication and allow access to anonymous users.</p> </li> 
+   <li><p>Click <strong>Save</strong> to save the configuration.</p> </li> 
+  </ol> 
+  <h3>Disable protected mode</h3> 
+  <p>The <a href="../../forms/using/get-xdp-pdf-documents-aem.md" target="_blank">protected mode</a> is on, by default. Keep it enabled for the production environments. You can disable it for a development environment to preview HTML5 Forms in desinger. Perform the following steps to disable it: </p> 
+  <ol> 
+   <li><p>Log in to AEM Web Console as an administrator.</p> 
+    <ul> 
+     <li>URL for AEM Forms on OSGi is http://[server]:[port]/system/console/configMgr<br /> </li> 
+     <li>URL for AEM Forms on JEE is http://[<em>server</em>]:[<em>port</em>]/lc/system/console/configMgr</li> 
+    </ul> </li> 
+   <li><p>Open <span class="uicontrol">Mobile Forms Configurations</span> for editing.</p> </li> 
+   <li><p>Deselect the <span class="uicontrol">Protected Mode</span> option and click <span class="uicontrol">Save</span>.</p> </li> 
+  </ol> 
+  <h3>Provide details of AEM Forms server</h3> 
+  <ol> 
+   <li><p>In Designer, go to <strong>Tools </strong>&amp;gt; <strong>Options</strong>.</p> </li> 
+   <li><p>In the Options window, select <strong>Server Options</strong> page, provide the following details, and click <strong>OK</strong>.</p> 
+    <ul> 
+     <li><strong>Server URL</strong>: AEM Forms server URL.<br /> </li> 
+     <li><strong>HTTP port number</strong>: AEM server port. The default value is 4502.</li> 
+     <li><strong>HTML Preview Context: </strong>Path of the profile for rendering XFA forms. The following default profiles are used to preview the form in Designer. However, you can also specify path to a custom profile. 
+      <ul> 
+       <li><span class="code">/content/xfaforms/profiles/default.html</span> (AEM Forms on OSGi)<br /> </li> 
+       <li><span class="code">/lc/content/xfaforms/profiles/default.html</span> (AEM Forms on JEE)</li> 
+      </ul> </li> 
+     <li><strong>Forms Manager Context:</strong> Context path at which Forms Manager UI is deployed. The default values are: 
+      <ul> 
+       <li><span class="code">/aem/forms</span> (AEM Forms on OSGi)</li> 
+       <li><span class="code">/lc/forms</span> (AEM Forms on JEE)</li> 
+      </ul> </li> 
+    </ul> <p><strong>Note: </strong><em>Ensure that AEM Forms server is up and running. The HTML preview connects to the CRX server to </em>generate<em> a preview.</em></p> <img alt="AEM Forms Designer options " captionBottom="AEM Forms Designer options " imageRotate="0" src="assets/server_options.png" title="AEM Forms Designer options " /></li> 
+   <li><p>To preview a form in HTML, click the <strong>Preview HTML</strong> tab.</p> 
+    <note> 
+     <p>If HTML Preview tab is closed, Press F4 to open the Preview HTML tab. You can also select Preview HTML from View menu to open the Preview HTML tab.</p> 
+    </note> 
+    <note> 
+     <p>The HTML preview does not support PDF documents, the HTML preview is only for XDP documents. </p> 
+    </note></li> 
+  </ol> 
+  <h2>To preview a form using sample data</h2> 
+  <p>Designer lets you preview and test your form by using sample XML data. It is recommended that you frequently test your form with sample data to ensure that the form renders correctly.</p> 
+  <p>If you do not have sample data, Designer can create it, or you can create it yourself. (See <a href="http://help.adobe.com/en_US/AEMForms/6.1/DesignerHelp/WS107c29ade9134a2c136ae6f212a1f379c94-8000.2.html#WS92d06802c76abadb-728f46ac129b395660c-7efe.2" target="_blank">To automatically generate sample data to preview your form</a> and <a href="http://help.adobe.com/en_US/AEMForms/6.1/DesignerHelp/WS107c29ade9134a2c136ae6f212a1f379c94-8000.2.html#WS92d06802c76abadb-728f46ac129b395660c-7eff.2" target="_blank">To create sample data to preview your form</a>.)</p> 
+  <p>Testing your form by using a sample data source ensures that the data and fields are mapped and that repeating subforms repeat as you expected. You can create a balanced form layout that provides the appropriate space for each object to display the merged data.<br /> </p> 
+  <ol> 
+   <li><p>Select <strong>File &amp;gt; Form Properties</strong>.<br /> </p> </li> 
+   <li><p>Click the <strong>Preview </strong>tab and, in the Data File box, type the full path to your test data file. You can also use the Browse button to navigate to the file.<br /> </p> </li> 
+   <li><p>Click <strong>OK</strong>. The next time you preview the form in the <strong>Preview HTML</strong> tab, the data values from the sample XML file will appear in the respective objects.<br /> </p> </li> 
+  </ol> 
+  <h2 id="html_preview_of_forms_in_forms_manager">Preview forms located in a repository</h2> 
+  <p>In AEM Forms, you can preview forms and documents in a repository. Preview helps to know exactly how the forms look and behave as they will be used end users. </p> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+ </body> 
+</html>

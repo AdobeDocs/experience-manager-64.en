@@ -1,0 +1,121 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2015-09-18T04:45:42.784-0400" name="lastPublishQADate" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/supporting_new_language_localization_admin_5e12de0b318c6865_2069_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-26T04:33:10.229-0400" name="locHandOffDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2016-04-20T09:45:11.931-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/configuration;/content/help/en/experience-manager/6-4/forms/morehelp/configuration" name="moreHelpPaths" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/supporting-new-language-localization.html" name="publishExternalURL" /> 
+  <meta content="Supporting new locales for adaptive forms localization" name="jcr:title" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="5963e089-bec7-49b6-b5a2-cb9fd6b99243" name="jcr:predecessors" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2da8aadd-2d9c-46d7-ab79-f78302f7567c" name="jcr:uuid" /> 
+  <meta content="2016-05-31T06:43:49.549-0400" name="acrolinxDate" /> 
+  <meta content="AEM Forms allows you to add new locales for localizing adaptive forms. The supported locales by default are English, French, German, and Japanese." name="seoDescription" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="939" name="acrolinxWords" /> 
+  <meta content="2018-04-17T07:25:23.202-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:02:37.695-0500" name="jcr:created" /> 
+  <meta content="add locales for adaptive form localization" name="navTitle" /> 
+  <meta content="55" name="acrolinxSentences" /> 
+  <meta content="2019-01-28T03:11:10.911-0500" name="cq:lastModified" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:Configuration" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-17T07:25:23.228-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-17T07:25:23.202-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-17T07:25:23.202-0400" name="publishExternalDate" /> 
+ </head> 
+ <body> 
+  <h2>About locale dictionaries</h2> 
+  <p>The localization of adaptive forms relies on two types of locale dictionaries:</p> 
+  <p><strong>Form-specific dictionary</strong> Contains strings used in adaptive forms. For example, labels, field names, error messages, help descriptions, and so on. It is managed as a set of XLIFF files for each locale and you can access it at http://&lt;host&gt;:&lt;port&gt;/libs/cq/i18n/translator.html.</p> 
+  <p><strong>Global dictionaries</strong> There are two global dictionaries, managed as JSON objects, in AEM client library. These dictionaries contain default error messages, month names, currency symbols, date and time patterns, and so on. You can find these dictionaries in CRXDe Lite at /libs/fd/xfaforms/clientlibs/I18N. These locations contains separate folders for each locale. Because global dictionaries are usually not updated frequently, keeping separate JavaScript files for each locale enables browsers to cache them and reduce network bandwidth usage when accessing different adaptive forms on same server.</p> 
+  <h3>How localization of adaptive form works</h3> 
+  <p>When an adaptive form is rendered, it identifies the requested locale by looking at the following parameters in the specified order:</p> 
+  <ul> 
+   <li>Request parameter <span class="code">afAcceptLang</span><br /> To override the browser locale of users, you can pass the <span class="code">afAcceptLang</span> request parameter to force the locale. For example, the following URL will force to render the form in Japanese locale:<br /> <span class="code">http://[<em>server</em>]:[<em>port</em>]/&amp;lt;<em>contextPath</em>&amp;gt;/&amp;lt;<em>formFolder</em>&amp;gt;/&amp;lt;<em>formName</em>&amp;gt;.html?wcmmode=disabled&amp;afAcceptLang=ja</span><br /> </li> 
+   <li>The browser locale set for the user, which is specified in the request using the <span class="code">Accept-Language</span> header. <br /> </li> 
+   <li>Language setting of the user specified in AEM.</li> 
+  </ul> 
+  <p>Once the locale is identified, the adaptive forms picks the form-specific dictionary. If the form-specific dictionary for the requested locale is not found, it uses the English (en) dictionary is used.</p> 
+  <p>If a client library for the requested locale doesn't exist, it checks for a client library for the language code present in the locale. For example, if the requested locale is <span class="code">en_ZA</span> (South African English) and the client library for <span class="code">en_ZA</span> doesn't exist, the adaptive form will use the client library for <span class="code">en</span> (English) language, if it exists. However, if none of them exist, the adaptive form uses the dictionary for <span class="code">en</span> locale.</p> 
+  <h2>Add localization support for non-supported locales</h2> 
+  <p>AEM Forms currently supports localization of adaptive forms content in English (en), Spanish (es), French (fr), Italian (it), German (de), Japanese (ja), Portuguese-Brazilian (pt-br), Chinese- (zh-tn), Chinese-Taiwan (zh-tw), and Korean (ko-kr) locales.</p> 
+  <p>To add support for a new locale at adaptive forms runtime:</p> 
+  <ol> 
+   <li><a href="../../forms/using/supporting-new-language-localization.md#main-pars-header-0">Add a locale to the GuideLocalizationService service</a><br /> </li> 
+   <li><a href="../../forms/using/supporting-new-language-localization.md#main-pars-header-1">Add XFA client library for a locale</a><br /> </li> 
+   <li><a href="../../forms/using/supporting-new-language-localization.md#main-pars-header-2">Add adaptive form client library for a locale</a></li> 
+   <li><a href="../../forms/using/supporting-new-language-localization.md#main-pars-header-4">Add locale support for the dictionary</a></li> 
+   <li><a href="../../forms/using/supporting-new-language-localization.md#main-pars-header-9">Restart the server</a></li> 
+  </ol> 
+  <h3>Add a locale to the Guide Localization service &lt;br&gt;</h3> 
+  <ol> 
+   <li>Go to <span class="code">http://[server]:[port]/system/console/configMgr</span>.</li> 
+   <li>Click to edit the <strong>Guide Localization Service</strong> component.</li> 
+   <li>Add the locale you want to add to the list of supported locales.</li> 
+  </ol> 
+  <img alt="GuideLocalizationSevice" imageRotate="0" src="assets/configservice.png" title="GuideLocalizationSevice" /> 
+  <h3>Add XFA client library for a locale &lt;br&gt;</h3> 
+  <p>Create a node of type <span class="code">cq:ClientLibraryFolder</span> under <span class="code">etc/&amp;lt;folderHierarchy&amp;gt;</span>, with category <span class="code"> xfaforms.I18N.&amp;lt;locale&amp;gt;</span>, and add the following files to the client library:</p> 
+  <ul> 
+   <li><strong>I18N.js</strong> defining <span class="code">xfalib.locale.Strings</span> for the <span class="code">&amp;lt;locale&amp;gt;</span> as defined in <span class="code">/etc/clientlibs/fd/xfaforms/I18N/ja/I18N</span>.</li> 
+   <li><strong>js.txt</strong> containing the following:</li> 
+  </ul> 
+  <codeblock gutter="true" class="syntax js">
+    /libs/fd/xfaforms/clientlibs/I18N/Namespace.js!!discoiqbr!!I18N.js!!discoiqbr!!/etc/clientlibs/fd/xfaforms/I18N/LogMessages.js 
+  </codeblock> 
+  <h3>Add adaptive form client library for a locale &lt;br&gt;</h3> 
+  <p>Create a node of type <span class="code">cq:ClientLibraryFolder</span> under <span class="code">etc/&amp;lt;folderHierarchy&amp;gt;</span>, with category as <span class="code">guides.I18N.&amp;lt;locale&amp;gt;</span> and and dependencies as <span class="code">xfaforms.3rdparty</span>, <span class="code">xfaforms.I18N.&amp;lt;locale&amp;gt;</span> and<span class="code"> guide.common</span>.<span class="code"></span></p> 
+  <p>Add the following files to the client library:</p> 
+  <ul> 
+   <li><strong>i18n.js</strong> defining <span class="code">guidelib.i18n</span>, having patterns of "calendarSymbols", <span class="code">datePatterns</span>, <span class="code">timePatterns</span>, <span class="code">dateTimeSymbols</span>, <span class="code">numberPatterns</span>, <span class="code">numberSymbols</span>, <span class="code">currencySymbols</span>, <span class="code">typefaces</span> for the <span class="code">&amp;lt;locale&amp;gt;</span> as per the XFA specifications described in <a href="/content/dam/Adobe/specs/xfa_spec_3_3.pdf" target="_blank">Locale Set Specification</a>. You can also see how it is defined for other supported locales in <span class="code">/etc/clientlibs/fd/af/I18N/fr/javascript/i18n.js</span>.</li> 
+   <li><strong>LogMessages.js</strong> defining <span class="code">guidelib.i18n.strings</span> and <span class="code">guidelib.i18n.LogMessages</span> for the <span class="code">&amp;lt;locale&amp;gt;</span> as defined in <span class="code">/etc/clientlibs/fd/af/I18N/fr/javascript/LogMessages.js</span>.</li> 
+   <li><strong>js.txt</strong> containing the following:</li> 
+  </ul> 
+  <codeblock gutter="true" class="syntax js">
+    i18n.js!!discoiqbr!!LogMessages.js 
+  </codeblock> 
+  <h3>Add locale support for the dictionary &lt;br&gt;</h3> 
+  <p>Perform this step only if the <span class="code">&amp;lt;locale&amp;gt;</span> you are adding is not among <span class="code">en</span>, <span class="code">de</span>, <span class="code">es</span>, <span class="code">fr</span>, <span class="code">it</span>, <span class="code">pt-br</span>, <span class="code">zh-tn</span>, <span class="code">zh-tw</span>, <span class="code">ja</span>, <span class="code">ko-kr</span>.</p> 
+  <ol> 
+   <li>Create an <span class="code">nt:unstructured</span> node <span class="code">languages</span> under <span class="code">etc</span>, if not present already.</li> 
+   <li>Add a multi-valued string property <span class="code">languages</span> to the node, if not present already.</li> 
+   <li>Add the <span class="code">&amp;lt;locale&amp;gt;</span> default locale values <span class="code">de</span>, <span class="code">es</span>, <span class="code">fr</span>, <span class="code">it</span>, <span class="code">pt-br</span>, <span class="code">zh-tn</span>, <span class="code">zh-tw</span>, <span class="code">ja</span>, <span class="code">ko-kr</span>, if not present already.</li> 
+   <li>Add the <span class="code">&amp;lt;locale&amp;gt;</span> to the values of the <span class="code">languages</span> property of <span class="code">/etc/languages</span>.</li> 
+  </ol> 
+  <p>The <span class="code">&amp;lt;locale&amp;gt;</span> will appear at <span class="code">http://[server]:[port]/libs/cq/i18n/translator.html</span>.</p> 
+  <h3>Restart the server</h3> 
+  <p>Restart the AEM server for the added locale to come into effect.<br /> </p> 
+  <h2>Sample libraries for adding support for Spanish</h2> 
+  <div> 
+   <p>Sample client libraries for adding support for Spanish</p> 
+   <p><a alt="Sample.zip" href="assets/sample.zip">Get File</a></p> 
+  </div> 
+  <related-links> 
+   <a href="../../forms/using/installing-configuring-aem-forms-osgi.md" target="_blank">Installing and configuring AEM Forms</a> 
+   <a href="/forms/using/localizing-adaptive-forms" target="_blank">Localizing adaptive forms</a> 
+  </related-links> 
+ </body> 
+</html>

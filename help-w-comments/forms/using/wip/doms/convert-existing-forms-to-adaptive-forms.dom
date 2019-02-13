@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-12-03T02:37:05.952-0500" name="publishInternalDate" /> 
+  <meta content="2018-12-03T02:37:06.008-0500" name="cq:lastReplicated" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="00a1743a-801f-4c63-8d49-c73be28ba444" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-12-03T02:37:05.952-0500" name="lastPublishInternalDate" /> 
+  <meta content="2018-11-29T08:51:41.989-0500" name="acrolinxDate" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="63" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/convert_existing_forms_to_adaptive_forms_krs_workflow_27a21c3e5e538b90_125_report.xml" name="acrolinxReportURL" /> 
+  <meta content="752" name="acrolinxWords" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="Run the Automated Forms Conversion service to convert PDF forms to adaptive forms" name="jcr:description" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="khsingh" name="acrolinxLastCheckedBy" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-01-15T15:36:11.134-0500" name="jcr:created" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2018-12-03T02:37:05.961-0500" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="khsingh" name="contentOwner" /> 
+  <meta content="Use Automated Forms Conversion service" name="jcr:title" /> 
+  <meta content="2018-11-29T01:58:26.013-0500" name="firstPublishInternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="58ae2cf3-bab3-4cb8-ba4a-7799e761eb95" name="jcr:uuid" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/wip/convert-existing-forms-to-adaptive-forms.html" name="publishInternalURL" /> 
+ </head> 
+ <body> 
+  <p>AEM Forms Automated Forms Conversion service, powered by Adobe Sensei, automatically converts your PDF forms to device-friendly and responsive adaptive forms. Whether you are using non-interactive PDF forms, Acroforms, or XFA-based PDF forms, the Automated Forms Conversion service can easily convert these forms into adaptive forms. For information about the capabilities, conversion workflow, and onboarding information see<a href="../../../forms/using/wip/introduction-to-automated-form-conversion-service.md"> Automated Forms Conversion</a> service. </p> 
+  <h2>Pre-requisites</h2> 
+  <ul> 
+   <li><a href="../../../forms/using/wip/configure-the-automated-forms-conversion-service.md" target="_blank">Configure the conversion service</a><br /> </li> 
+   <li>Prepare the <a href="../../../forms/using/template-editor.md" target="_blank">templates</a> to be applied to converted forms</li> 
+   <li>Prepare the <a href="../../../forms/using/themes.md" target="_blank">themes</a> to be applied to converted forms</li> 
+  </ul> 
+  <h2>Start the conversion process</h2> 
+  <p>After you connect your AEM instance with AEM Forms Conversion Service, you can convert your print forms to adaptive forms. Perform the following steps in the listed order to convert the forms:</p> 
+  <ul> 
+   <li><a href="../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md#main-pars-header-1222828150">Upload PDF forms to your AEM Forms server</a></li> 
+   <li><a href="../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md#main-pars-header-1734028641">Run the conversion</a></li> 
+   <li><a href="/content#main-pars_header_1485925451">Review and correct the converted forms</a></li> 
+  </ul> 
+  <h3>Upload PDF forms to your AEM Forms server</h3> 
+  <p>The conversion service converts PDF forms available on your AEM Forms instance to adaptive forms. You can upload all the PDF forms at once or in a phased manner, as required. The source folder should not have more than 15 forms and 50 pages in total. The size of source folder should not exceed 10 MB. Do not keep forms in a sub-folder of the source folder. Perform the following steps to upload the forms to be converted to a folder on your AEM Forms instance:</p> 
+  <ol> 
+   <li><p>Log in to the AEM Forms instance. <br /> </p> </li> 
+   <li><p>Tap <span class="uicontrol">Adobe Experience Manager</span> <img src="assets/adobeexperiencemanager.png" /> &amp;gt; <span class="uicontrol">Navigation </span><img src="assets/compass.png" /> <span class="uicontrol"> </span>&amp;gt; <span class="uicontrol">Forms</span> &amp;gt; <span class="uicontrol">Forms &amp; Documents</span>.</p> </li> 
+   <li><p>Tap <span class="uicontrol">Create </span>&amp;gt; <span class="uicontrol">Folder</span>. Specify <strong>Title</strong> and <strong>Name</strong> of the folder. Tap <span class="uicontrol">Create</span>. A folder is created.</p> </li> 
+   <li><p>Tap to open the newly created folder.</p> </li> 
+   <li><p>Tap <span class="uicontrol">Create </span>&amp;gt; <span class="uicontrol">File Upload</span>. Select the forms to upload, click <span class="uicontrol">Open</span>, and click <span class="uicontrol">Upload</span>. The forms are uploaded. </p> </li> 
+  </ol> 
+  <h3>Run the conversion</h3> 
+  <p>After you have uploaded the forms and configured the service, perform the following steps to start the conversion:</p> 
+  <ol> 
+   <li><p>On your AEM Forms instance, tap <span class="uicontrol">Adobe Experience Manager</span> <img src="assets/adobeexperiencemanager.png" /> &amp;gt; <span class="uicontrol">Navigation </span><img src="assets/compass.png" /> <span class="uicontrol"> </span>&amp;gt; <span class="uicontrol">Forms</span> &amp;gt; <span class="uicontrol">Forms &amp; Documents</span>.</p> </li> 
+   <li><p>Select the folder containing PDF forms (forms to be converted) and tap<span class="uicontrol"> <strong>Start Automated Forms Conversion</strong></span>. The <strong><span class="uicontrol">Conversion Settings</span></strong> dialog appears.</p> <img imageRotate="0" src="assets/start-conversion-dialog.png" /></li> 
+   <li><p>In the <span class="uicontrol"><strong>General</strong> </span>tab of the Conversion Settings dialog:</p> 
+    <ul> 
+     <li>Select a<strong> <span class="uicontrol">Cloud Configuration</span></strong>. Template and Theme options are automatically filled on selecting the configuration. You can specify a different template or a theme, if required.</li> 
+     <li>Select the <strong><span class="uicontrol">Extract Fragment</span></strong> option to allow the conversion service to identify, extract, and download form fragments for converted forms.</li> 
+     <li>Specify the location of <strong><span class="uicontrol">Existing Fragments</span></strong>, if required. Conversion service uses the Form Fragments available at the specified location in converted forms, wherever applicable.<br /> </li> 
+    </ul> 
+    <note> 
+     <p>You can use only <strong>Extract Fragment</strong> or <strong>Existing Fragments</strong> at a time. You cannot use both the options simultaneously.</p> 
+    </note></li> 
+   <li><p>In the <strong>Output</strong> tab of Conversion Settings dialog, specify the location to save converted forms (adaptive forms), adaptive form schema, form fragments, and form fragments schemas.</p> </li> 
+   <li><p>Tap <span class="uicontrol">Start Conversion</span>. The Conversion is started. The <span class="uicontrol">Conversion in Progress</span> logo is displayed until the conversion is in progress. The logo is removed after the conversion is complete. You can periodically refresh the folder to check the conversion status. A status email is also sent on the <a href="../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#main-pars-header-242943920">configured email address</a> on completion of conversion.</p> <p>On a successful conversion, the converted adaptive form and related schema are downloaded to the folder specified in the <span class="uicontrol">Output </span>tab of the conversion dialog. Form fragments and corresponding schema are downloaded only if the <span class="uicontrol">Extract Fragment</span> option is selected before starting the conversion.</p> <img imageRotate="0" src="assets/conversion-in-progress.png" /> 
+    <note> 
+     <p>When a secured PDF is provided, the conversion fails. On a failed conversion, the Conversion failed logo is displayed if all the input forms fail to convert or the Partially failed logo is displayed when only a few of all the input forms fail to convert. A status email is also sent on the <a href="../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#main-pars-header-242943920">configured email address</a>. An error is also logged to the error.log file.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h2>Review and correct the converted forms</h2> 
+  <p>Real world forms have complex data capture requirements. Once the automated conversion is complete, customers can review the conversion quality of the form and make necessary updates to the form. AEM Forms provides a <a href="../../../forms/using/wip/review-correct-ui-edited.md" target="_blank">review and correct</a> editor to make required changes. It allows you to improve automated identification of form fields and convert identified fields from one type to another. For example, you can help identify two-column layout of a form and change a field automatically identified as radio button to multiple choices field. <br /> </p> 
+  <h2>Previous</h2> 
+  <p><a href="../../../forms/using/wip/configure-the-automated-forms-conversion-service.md" target="_blank">Configure the Automated Forms Conversion service</a></p> 
+  <h2>Next</h2> 
+  <p><a href="../../../forms/using/wip/review-correct-ui-edited.md" target="_blank">Review and correct converted forms</a></p> 
+ </body> 
+</html>

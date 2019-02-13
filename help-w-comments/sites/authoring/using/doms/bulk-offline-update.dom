@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="REDIRECT Bulk Offline Update" name="jcr:title" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-10-31T00:58:00.784-0400" name="cq:lastReplicated" />
+  <meta content="2018-10-31T00:58:00.641-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-10-31T00:58:00.641-0400" name="publishExternalDate" />
+  <meta content="left" name="sideColumn" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="noIndex" />
+  <meta content="jsyal" name="contentOwner" />
+  <meta content="2018-10-31T00:58:00.641-0400" name="lastPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/bulk-offline-update.html" name="publishExternalURL" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="602cf25b-1e05-4591-a857-6b002e434f9c" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/using/bulk-offline-update" name="redirectTarget" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-20T07:29:37.240-0400" name="jcr:created" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="video" name="pageLayout" />
+  <meta content="light" name="heroGradient" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-10-31T00:58:00.673-0400" name="cq:lastModified" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="e307cc3a-06a7-41d8-9f3f-fbbcb2f7ecf2" name="jcr:uuid" />
+  <meta content="2018-10-31T00:58:00.641-0400" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body></body>
+</html>

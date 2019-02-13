@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="d2a2dd4c-165f-419a-843d-a1d7c88068a1" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-10-29T16:43:02.090-0400" name="cq:lastModified" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="2018-10-29T16:43:02.130-0400" name="cq:lastReplicated" />
+  <meta content="2018-10-29T16:43:02.080-0400" name="publishExternalDate" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="jsyal" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="noIndex" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-02-07T08:01:17.521-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="left" name="sideColumn" />
+  <meta content="(Redirect)Configuring and Deploying AEM Screens" name="jcr:title" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="2018-10-29T13:10:04.228-0400" name="firstPublishExternalDate" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="2018-10-29T16:43:02.080-0400" name="topicBrowsingSortDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2018-10-29T16:43:02.080-0400" name="lastPublishExternalDate" />
+  <meta content="ac62b8ff-0997-42f2-baf0-01904452f6a7" name="jcr:uuid" />
+  <meta content="video" name="pageLayout" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html" name="publishExternalURL" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/using/configuring-screens-introduction" name="redirectTarget" />
+ </head>
+ <body></body>
+</html>

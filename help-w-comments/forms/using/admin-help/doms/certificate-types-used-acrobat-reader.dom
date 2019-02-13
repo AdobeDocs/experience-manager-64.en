@@ -1,0 +1,244 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-26T04:25:29.098-0400" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="940" name="acrolinxWords" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Certificate types used by Acrobat Reader DC extensions " name="jcr:title" /> 
+  <meta content="d4d18bed-5078-4f26-a1df-2d3d8b516d96" name="jcr:predecessors" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2016-04-20T09:59:14.539-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/certificate_types_used_acrobat_reader_admin_5e12de0b318c6865_2263_report.xml" name="acrolinxReportURL" /> 
+  <meta content="checked_improved" name="acrolinxStatus" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-12-01T19:06:46.870-0500" name="jcr:created" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:25:29.098-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="42" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-31T16:32:38.138-0400" name="publishExternalDate" /> 
+  <meta content="Certificate types used by Acrobat&amp;#xA;Reader DC extensions" name="navTitle" /> 
+  <meta content="2017-10-31T16:32:38.138-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-03T09:09:24.042-0400" name="cq:lastReplicated" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2016-02-05T03:27:12.283-0500" name="lr_lastModified" /> 
+  <meta content="Learn about the certificate types used by Acrobat Reader DC extensions." name="seoDescription" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/certificate-types-used-acrobat-reader.html" name="publishExternalURL" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2016-05-31T06:53:11.205-0400" name="acrolinxDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e99.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-620a5f4712905cdf3e2-7fec.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e96.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-620a5f4712905cdf3e2-7fea.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-620a5f4712905cdf3e2-7fe9.2" name="cq:gepId" /> 
+  <meta content="0662ae3d-6558-441f-9374-3a2c833bf528" name="jcr:uuid" /> 
+ </head> 
+ <body> 
+  <p>The Certificate Viewer provides the following information about the certificate:</p> 
+  <ul> 
+   <li><p>Certificate "friendly" name</p></li> 
+   <li><p>Certificate profiles</p></li> 
+   <li><p>Validity period</p></li> 
+   <li><p>Acrobat Reader DC extensions usage rights</p></li> 
+  </ul> 
+  <h2 id="certificate_friendly_name">Certificate “friendly” name</h2> 
+  <p></p> 
+  <p>The "friendly" name of a Acrobat Reader DC extensions certificate is a string that describes the properties of the certificate, as in the following example:</p> 
+  <p>ARE 2D Barcode Full Production V6.1 P8 0002054</p> 
+  <p>The string contains the following elements:</p> 
+  <p><strong>Certificate type:</strong> Describes the AEM forms modules that the certificate activates, and the level of activation, such as ARE 2D Barcode Full. For a list of the certificate types available, see the Type column in the table in the Certificate profiles section.</p> 
+  <p><strong>Deployment type:</strong> Indicates the intended use of the certificate, such as Production. The value can be Evaluation or Production. For a list of deployment types associated with each certificate type, see the Deployment type column in the table in the Certificate profiles section.</p> 
+  <p><strong>Usage rights version:</strong> Describes the version of the usage rights algorithm that the certificate can be used for, such as V6.1. This version does not signify the version of Acrobat or Acrobat Reader DC extensions.</p> 
+  <p><strong>Profile code:</strong> The profile code is a shorthand description of complete certificate properties, such as example, P8. For a list of the profile codes associated with each file type, see the Profile code column in the table in the Certificate Profiles section.</p> 
+  <p><strong>Serial number:</strong> A serial number is assigned to each certificate issued by Adobe, such as 0002054. Adobe Enterprise Support or an Adobe Enterprise account representative can use this serial number to trace the certificate to a specific product order or to an OEM relationship.</p> 
+  <h2 id="certificate_profiles">Certificate profiles</h2> 
+  <p></p> 
+  <p>The following table lists the certificate profiles that you may encounter when analyzing Acrobat Reader DC extensions certificates.</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e12660" valign="top" width="NaN%"><p>Profile code</p></th> 
+     <th class="cellrowborder" id="d19e12663" valign="top" width="NaN%"><p>Type</p></th> 
+     <th class="cellrowborder" id="d19e12666" valign="top" width="NaN%"><p>Validity period</p></th> 
+     <th class="cellrowborder" id="d19e12669" valign="top" width="NaN%"><p>Deployment type</p></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P1</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>SAP Production</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P2</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>SAP Internal Test</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>2 years</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Evaluation and test</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P3</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Acrobat Reader DC extensions, Production</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P4</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Acrobat Reader DC extensions, Internal Adobe Use</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>2 years</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P5</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Acrobat Reader DC extensions, Partner Integration</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>2 years</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Evaluation and test</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P6</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Acrobat Reader DC extensions, Evaluation</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>60 days</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Evaluation</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P8</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Forms, Production</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>P9</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Adobe Acrobat 7.x, Production</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>I10</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Forms; may be used by OEMs</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production and evaluation</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>I11</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Forms; may be used by OEMs</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production and evaluation</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>I12</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Signature only; may be used by OEMs</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production and evaluation</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>I13</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Offline Commenting only; may be used by OEMs</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production and evaluation</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>I14</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Commenting only; may be used by OEMs</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production and evaluation</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12660 " valign="top" width="NaN%"><p>I15</p></td> 
+     <td class="cellrowborder" headers="d19e12663 " valign="top" width="NaN%"><p>Full permissions; may be used by OEMs</p></td> 
+     <td class="cellrowborder" headers="d19e12666 " valign="top" width="NaN%"><p>Max</p></td> 
+     <td class="cellrowborder" headers="d19e12669 " valign="top" width="NaN%"><p>Production and evaluation</p></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2 id="validity_period">Validity period</h2> 
+  <p></p> 
+  <p>Evaluation certificates are issued to customers and developers so that they can evaluate and develop sample applications for products. The validity period of these certificates is between 60 and 90 days. They expire at the end of the second month following the data of issue.</p> 
+  <p>Partner Integration certificates are issued to Adobe business partners to support software development, integration, prototyping, and demonstration. These certificates are valid for two years from the date of issue.</p> 
+  <p>Adobe Internal Use certificates are used within Adobe to support software development, integration, prototyping and demonstration. These certificates are valid for two years from the date of issue.</p> 
+  <p>Production certificates are issued to customers who purchased Acrobat Reader DC extensions. These certificates are valid for the maximum period permitted by the certificate authority (CA), shown as <i>Max</i> in the Certificate Profiles table. </p> 
+  <h2 id="acrobat_reader_dc_extensions_usage_rights">Acrobat Reader DC extensions usage rights</h2> 
+  <p></p> 
+  <p>When you examine the Acrobat Reader DC extensions certificate in the Certificate Viewer, you can select the usage rights item from the Details tab (if configured) to see an itemized list of the Adobe Reader usage rights that the certificate can enable. The usage rights enabled on a particular document may be a subset of those enabled by the certificate.</p> 
+  <p>If online commenting is required in a non-collaborative environment, contact Adobe Support for more information. The Mode property matches the deployment type and is either <i>production</i> or <i>evaluation</i>. </p> 
+  <p>The permitted Acrobat Reader DC extensions usage rights consist of one or more specific elements. These elements are used in different combinations to achieve varieties of licensed product functionality. </p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e12897" valign="top" width="NaN%"><p>Usage rights element</p></th> 
+     <th class="cellrowborder" id="d19e12900" valign="top" width="NaN%"><p>Capability enabled in Adobe Reader when viewing a rights-enabled PDF document</p></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>FormFillInAndSave</p></td> 
+     <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Fill in form fields and save files locally.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>FormImportExport</p></td> 
+     <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Import and export form data as FDF, XFDF, XML, and XDP files.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>FormAddDelete</p></td> 
+     <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Add, change, or delete fields and field properties on the PDF form.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>SubmitStandalone</p></td> 
+     <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Submit data, by email or offline, to a server when it is not running in a browser session.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>SpawnTemplate</p></td> 
+     <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Create pages from template pages within the same PDF form.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>Signing</p></td> 
+     <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Digitally sign and save PDF documents, and clear digital signatures.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>AnnotModify</p></td> 
+     <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Create and modify document annotations such as comments.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>AnnotImportExport</p></td> 
+     <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Save annotations such as comments in a separate data file and load comments from a file.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>BarcodePlaintext</p></td> 
+     <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Print a document with form data barcoded in an unencrypted form that does not require licensed server software to decode.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>AnnotOnline</p></td> 
+     <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Upload and download annotations such as comments to and from an online document review and comment server.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>FormOnline</p></td> 
+     <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Connect to web services or databases that are defined within a PDF form.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e12897 " valign="top" width="NaN%"><p>EFModif</p></td> 
+     <td class="cellrowborder" headers="d19e12900 " valign="top" width="NaN%"><p>Modify embedded file objects associated with the PDF document.</p></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>Acrobat Reader DC extensions usage rights can be licensed from Adobe only in certain combinations that work together. It is not possible to license these capabilities independently. For information about the available combinations of usage rights, contact an AEM forms account representative.</p> 
+  </note> 
+ </body> 
+</html>

@@ -1,0 +1,154 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/mixed_media_sets_krs_workflow_f3c2f2ccebf6138e_192_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2019-01-12T17:34:54.783-0500" name="acrolinxDate" /> 
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="117" name="acrolinxSentences" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2018-08-22T15:54:44.822-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-08-22T15:54:44.875-0400" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/dynamic-media/mixed-media-sets" name="qaNotes" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="rbrough" name="cq:lastReplicatedBy" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:dynamic-media;content_type:reference" name="cq:tags" /> 
+  <meta content="Mixed Media Sets" name="seoTitle" /> 
+  <meta content="Mixed Media Sets" name="navTitle" /> 
+  <meta content="Mixed Media Sets" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-08-22T15:54:44.809-0400" name="publishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" /> 
+  <meta content="2018-08-22T15:54:44.809-0400" name="topicBrowsingSortDate" /> 
+  <meta content="1536" name="acrolinxWords" /> 
+  <meta content="9931430d-44bd-4a9a-a631-2139db15da83" name="jcr:uuid" /> 
+  <meta content="f97faab4-2081-4982-a954-f50657597c8e" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-24T11:56:44.557-0400" name="locHandOffDate" /> 
+  <meta content="Alva Ware-Bevacqui" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/mixed-media-sets.html" name="publishExternalURL" /> 
+  <meta content="Learn how to work with mixed media sets in dynamic media" name="seoDescription" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="2018-08-22T15:54:44.809-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-02-27T08:01:04.958-0500" name="jcr:created" /> 
+  <meta content="2017-10-31T16:34:22.892-0400" name="firstPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>Mixed Media Sets let you provide a mix of images, Image Sets, Spin Sets, and videos in one presentation. </p> 
+  <p>Mixed Media Sets are designated by a banner with the word <strong>MixedMediaSet</strong>. In addition, if the Mixed Media Set is published, then the publish date, indicated by the <strong>World</strong> icon is on the banner along with the last modification date, indicated by the <strong>Pencil</strong> icon displays. </p> 
+  <img imageRotate="0" src="assets/chlimage_1-351.png" /> 
+  <note> 
+   <p>For information on the Assets user interface, see <a href="../../assets/using/managing-assets-touch-ui.md">Managing assets with the Touch UI</a>.</p> 
+  </note> 
+  <h2>Quick Start: Mixed Media Sets</h2> 
+  <p>To get you up and running quickly with Mixed Media Sets, follow these steps:</p> 
+  <ol> 
+   <li><p><a href="#uploadingassets">Upload your assets</a>.</p> <p>Start by uploading the images and videos for your Mixed Media Sets. If necessary, create your <a href="../../assets/using/image-sets.md">Image Sets</a> and <a href="../../assets/using/spin-sets.md">Spin Sets</a>. Because users can zoom on images in the Mixed Media Set Viewer, take zooming into account when you choose images. Make sure that the images are least 2000 pixels in the largest dimension.</p> 
+    <draft-comment type="draft"> 
+     <note type="note"> 
+      <p>You must publish your assets <strong>before</strong> you publish your mixed media set.</p> 
+     </note> 
+    </draft-comment></li> 
+   <li> <p>To create a Mixed Media Set, from the Assets page, tap <strong>Create</strong> &amp;gt; <strong>Mixed Media Set</strong> and then name the set, choose the assets, and choose the order the images appear.</p> <p>See <a href="../../assets/using/working-with-selectors.md">Working with Selectors.</a></p> </li> 
+   <li><p>Set up <a href="../../assets/using/managing-viewer-presets.md">Mixed Media Viewer presets</a>, as needed.</p> <p>Administrators can create or modify Mixed Media Set Viewer Presets. To see your mixed media with a viewer preset, select the mixed media set, and in the left-rail drop-down menu, select <strong>Viewers</strong>.</p> <p>See <strong>Tools</strong> &amp;gt; <strong>Assets </strong>&amp;gt; <strong>Viewer Presets</strong> to create or edit viewer presets.</p> <p>See <a href="../../assets/using/managing-viewer-presets.md">Adding and editing viewer presets.</a></p> </li> 
+   <li> <p>Select the Mixed Media Set and you can preview it. Click the thumbnail icons to examine your Mixed Media Set in the selected Viewer. You can choose different Viewers from the <strong>Viewers</strong> menu, available from the left rail drop-down menu.</p> </li> 
+   <li> <p>Publishing a Mixed Media Set activates the URL and Embed string. In addition, you must <a href="../../assets/using/managing-viewer-presets.md#publishingviewerpresets" target="_blank">publish the viewer preset</a>.</p> </li> 
+   <li><p><a href="../../assets/using/linking-urls-to-yourwebapplication.md">Link URLs to your Web Application</a> or <a href="../../assets/using/embed-code.md">Embed the Video or Image Viewer</a>. </p> <p>AEM Assets creates URL calls for Mixed Media Sets and activates them after you publish the mixed media sets. You can copy these URLs when you preview assets. Alternatively you can embed them on your web site.</p> <p>Select the Mixed Media Set, then in the left rail drop-down menu, select <strong>Viewers</strong>.</p> <p>See <a href="../../assets/using/linking-urls-to-yourwebapplication.md">Linking a Mixed Media Set to a web page</a> and <a href="../../assets/using/embed-code.md">Embedding the Video or Image Viewer</a>.</p> </li> 
+  </ol> 
+  <p>If you need to, you can edit <a href="#editingmixedmediasets">Mixed Media Sets</a>. In addition, you can view and modify <a href="../../assets/using/managing-assets-touch-ui.md#editingproperties" target="_blank">Mixed Media Set properties</a>.</p> 
+  <note> 
+   <p>If you have issues creating sets, see <a href="../../assets/using/troubleshoot-dms7.md">Troubleshooting Dynamic Media - Scene7 mode</a>.</p> 
+  </note> 
+  <h2>Uploading Assets</h2> 
+  <p>Start by uploading the images and videos for your Mixed Media Sets. Because users can zoom on images in the Mixed Media Set Viewer, be sure you take zooming into account when you choose images. Make sure that the images are least 2000 pixels in the largest dimension.</p> 
+  <p>In addition, if you want to add spin sets or image sets to the mixed media set, create those as well.</p> 
+  <h2>Creating Mixed Media Sets</h2> 
+  <p>You can add images, Image Sets, Spin Sets, and videos to your Mixed Media set. Make sure your files, image sets, and spin sets are ready to publish before you add them to the Mixed Media Set.</p> 
+  <p>When you add assets to your set, they are automatically added in alphanumeric order. You can manually re-order or sort assets after they have been added.</p> 
+  <draft-comment type="draft"> 
+   <note type="note"> 
+    <p>Assets in the mixed media set must be published before the mixed media set is published.</p> 
+   </note> 
+  </draft-comment> 
+  <p>To create a Mixed Media Set:</p> 
+  <ol> 
+   <li><p>In Assets, navigate to where you want to create a mixed media set, and click <strong>Create</strong>, and select<strong> Mixed Media Set</strong>. You can also create the set from inside a folder that contains your assets. The Mixed Media Set Editor displays.</p> <img imageRotate="0" src="assets/chlimage_1-352.png" /></li> 
+   <li><p>In the Mixed Media Set Editor, in <strong>Title</strong>, enter a name for the Mixed Media Set. The name appears in the banner across the Mixed Media Set. Optionally, enter a description.</p> <img imageRotate="0" src="assets/chlimage_1-353.png" /> 
+    <note> 
+     <p>When creating the mixed media set, you can change the mixed media set thumbnail or allow AEM to select the thumbnail automatically based on the assets in the mixed media set. To select a thumbnail, click <strong>Change thumbnail </strong>and select any image (you can navigate to other folders to find images as well). If you have selected a thumbnail and then decide that you want AEM to generate one from the mixed media set, select <strong>Switch to Automatic thumbnail</strong>.</p> 
+    </note></li> 
+   <li><p>Tap or click the the Asset Selector to select assets that you want to include in your Mixed Media Set. Select them and click <strong>Select</strong>.</p> <p>With the Asset Selector, you can search for assets by typing in a keyword and tapping or clicking Return. You can also apply filters to refine your search results. You can filter by path, collection, file type, and tag. Select the filter and then click/tap the <strong>Filter</strong> icon from the toolbar. Change the view by selecting the View icon and selecting list, column or card view.</p> <p>See <a href="../../assets/using/working-with-selectors.md">Working with Selectors</a>.</p> <img imageRotate="0" src="assets/chlimage_1-354.png" /></li> 
+   <li><p>Re-order the assets by dragging them up or down the list (must select the reorder icon), as necessary.</p> <img imageRotate="0" src="assets/chlimage_1-355.png" /><p>If you want to add thumbnails, click the <strong>+</strong> <strong>thumbnail</strong> icon next to the image and navigate to the thumbnail you want. When done selecting all the thumbnail images click <strong>Save.</strong></p> 
+    <note> 
+     <p>If you want to add assets, tap or click <strong>Add Asset</strong>.</p> 
+    </note></li> 
+   <li><p>To delete an asset, select the corresponding check box and click <strong>Delete Asset</strong>. </p> </li> 
+   <li><p>To apply a preset, tap or click <strong>Preset</strong> in the upper right corner and select a preset to apply to the assets.</p> </li> 
+   <li><p>Click <strong>Save</strong>. Your newly created Mixed Media Set appears in the folder you created it in.</p> </li> 
+  </ol> 
+  <h2>Editing Mixed Media Sets</h2> 
+  <p>You can perform a variety of editing tasks to assets in Mixed Media Sets directly in the user interface <a href="../../assets/using/managing-assets-touch-ui.md">as you would any asset in Assets</a>. You can also perform the following actions in Mixed Media Sets:</p> 
+  <ul> 
+   <li>Add assets to the Mixed Media Set.</li> 
+   <li>Re-order assets in the Mixed Media Set.</li> 
+   <li>Delete assets in the Mixed Media Set.</li> 
+   <li>Apply viewer presets.</li> 
+   <li>Change the default thumbnail.</li> 
+  </ul> 
+  <p>To edit a Mixed Media Set:</p> 
+  <draft-comment type="draft"> 
+   <note type="note"> 
+    <p>You can create mixed media sets manually or automatically through set automation. Note, however, that you cannot see set members in the user interface. See <a href="#viewingmixedmediasetmembers">Viewing Mixed Media Set Members</a>.</p> 
+   </note> 
+  </draft-comment> 
+  <ol> 
+   <li><p>Do any one of the following:</p> 
+    <ul> 
+     <li>Hover over a Mixed Media Set asset, then tap <strong>Edit</strong> (pencil icon).</li> 
+     <li>Hover over a Mixed Media Set asset, tap <strong>Select</strong> (checkmark icon), then tap <strong>Edit</strong> on the toolbar.</li> 
+     <li>Tap on a Mixed Media Set asset, then tap <strong>Edit</strong> (pencil icon) on the toolbar.<br /> </li> 
+    </ul> </li> 
+   <li><p>In the Mixed Media Set Editor, do any of the following:</p> 
+    <ul> 
+     <li>To reorder assets - In the left panel, tap <strong>Assets</strong> (picture icon), drag an asset to a new location.</li> 
+     <li>To add assets - On the toolbar, tap <strong>Add Asset</strong>. Navigate to the assets. For each asset that you want to add, hover over the asset's image (not the asset's name), then tap the checkmark icon. In the upper-right corner, tap <strong>Select</strong>. <br /> </li> 
+     <li style="box-sizing: border-box; border-width: 0px; border-top-style: initial; border-right-style: initial; border-bottom-style: dotted; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(84, 120, 170); border-left-color: initial; border-image: initial; margin: 0px 0px 3px; padding: 2px 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; list-style: disc;">To delete an asset - In the left panel, tap <strong>Assets </strong>(picture icon), then select the asset. On the toolbar bar tap <strong>Delete Asset</strong>.</li> 
+     <li style="box-sizing: border-box; border-width: 0px; border-top-style: initial; border-right-style: initial; border-bottom-style: dotted; border-left-style: initial; border-top-color: initial; border-right-color: initial; border-bottom-color: rgb(84, 120, 170); border-left-color: initial; border-image: initial; margin: 0px 0px 3px; padding: 2px 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline; list-style: disc;">To sort assets by their name in ascending or descending order, in the left panel, tap <strong>Assets</strong> (picture icon). To the right of the <strong>Assets</strong> heading, tap the up or down caret icons.</li> 
+    </ul> 
+    <note> 
+     <ul> 
+      <li>To delete an entire Mixed Media Set, from any viewing mode (such as Card view or Column view) navigate to the Mixed Media Set. Hover over the asset and tap the checkmark icon to select it. Press <strong>Backspace</strong> on the keyboard, or click <strong>More </strong>(three dots) on the toolbar, then tap <strong>Delete</strong>.</li> 
+      <li>You can edit the assets in a Mixed Media Set by navigating to the set, clicking <strong>Set Members</strong> in the left rail, and then clicking or tapping the Pencil icon on an individual asset to open the editing window.</li> 
+     </ul> 
+    </note></li> 
+   <li><p>Tap <strong>Save</strong> when you are done editing.</p> </li> 
+  </ol> 
+  <note> 
+   <ul> 
+    <li>To edit the assets in a Mixed Media Set - Navigate to the Mixed Media Set. Tap (do not select) the set to open it in the AEM Set Preview page. In the left rail, click the down caret to open the drop-down list, then tap <strong>Set Members</strong>. In the Set Members page, hover on an asset, then tap <strong>Edit</strong> (pencil icon) to open the editing page.</li> 
+    <li>To delete an entire Mixed Media Set - From any viewing mode (such as Card view or Column view), navigate to the Mixed Media Set. Hover on the set, then tap <strong>Select</strong> (checkmark icon). Press <strong>Backspace</strong> on your keyboard, or tap <strong>More</strong> (row of three dots), then tap <strong>Delete</strong>.</li> 
+   </ul> 
+  </note> 
+  <h2>Previewing Mixed Media Sets</h2> 
+  <p>See <a href="../../assets/using/previewing-assets.md">Previewing Assets</a> for details on how to preview Mixed Media Sets.</p> 
+  <h2>Publishing Mixed Media Sets</h2> 
+  <p>See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Assets</a> for details on how to publish Mixed Media Sets.</p> 
+  <note> 
+   <p>If the mixed media set does not fully end up in the delivery service the first time you publish it, you may need to publish the mixed media set a second time.</p> 
+  </note> 
+ </body> 
+</html>

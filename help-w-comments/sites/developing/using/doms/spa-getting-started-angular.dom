@@ -1,0 +1,125 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-12-11T04:52:20.898-0500" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:spa;content_type:reference" name="cq:tags" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/spa-getting-started-angular.html" name="publishExternalURL" /> 
+  <meta content="2018-12-11T04:52:20.462-0500" name="topicBrowsingSortDate" /> 
+  <meta content="This article presents a sample SPA application, explains how it is put together, and allows you to get up-and-running with your own SPA quickly using the Angular framework." name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="eb4080ef-ef05-4466-ad65-701c600c62b1" name="jcr:predecessors" /> 
+  <meta content="Getting Started with SPAs in AEM - Angular" name="jcr:title" /> 
+  <meta content="2019-01-15T15:39:01.531-0500" name="jcr:created" /> 
+  <meta content="2018-12-11T04:52:20.462-0500" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="2018-12-11T04:52:20.462-0500" name="lastPublishExternalDate" /> 
+  <meta content="2018-12-11T04:52:20.462-0500" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-12-11T04:52:20.472-0500" name="cq:lastModified" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/spa;/content/help/en/experience-manager/6-4/sites/developing/morehelp/spa" name="moreHelpPaths" /> 
+  <meta content="937ca870-12c7-4922-891c-07450c8aae42" name="jcr:uuid" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Getting Started with SPAs in AEM - Angular" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>Single page applications (SPAs) can offer compelling experiences for website users. Developers want to be able to build sites using SPA frameworks and authors want to seamlessly edit content within AEM for a site built using SPA frameworks.</p> 
+  <p>The SPA authoring feature offers a comprehensive solution for supporting SPAs within AEM. This article presents a simplified SPA application on the Angular framework, explains how it is put together, allowing you to get up-and-running with your own SPA quickly.<br /> </p> 
+  <note> 
+   <p>This article is based on the Angular framework. For the corresponding document for the React framework see <a href="../../../sites/developing/using/spa-getting-started-react.md">Getting Started with SPAs in AEM - React</a>.</p> 
+  </note> 
+  <h2>Introduction</h2> 
+  <p>This article summarizes the basic functioning of a simple SPA and the minimum that you need to know to get yours running.</p> 
+  <p>For more detail on how SPAs work in AEM, see the following documents:</p> 
+  <ul> 
+   <li><a href="../../../sites/developing/using/spa-walkthrough.md">SPA Introduction and Walkthrough</a><br /> </li> 
+   <li><a href="../../../sites/developing/using/spa-overview.md">SPA Authoring Introduction</a><br /> </li> 
+   <li><a href="../../../sites/developing/using/spa-blueprint.md">SPA Blueprint</a><br /> </li> 
+  </ul> 
+  <note> 
+   <p>In order to be able to author content within an SPA, the content must be stored in AEM and be exposed by the content model.</p> 
+   <p>An SPA developed outside of AEM will not be authorable if it does not respect the content model contract.<br /> </p> 
+  </note> 
+  <p>This document will walk through the structure of a simplified SPA and illustrate how it works so you can apply this understanding to your own SPA.<br /> </p> 
+  <h2>Dependencies, Configuration, and Building</h2> 
+  <p>In addition to the expected Angular dependency, the sample SPA can leverage additional libraries to make the creation of the SPA more efficient.<br /> </p> 
+  <h3>Dependencies</h3> 
+  <p>The <span class="code">package.json</span> file defines the requirements of the overall SPA package. The minimum required AEM dependencies are listed here.<br /> </p> 
+  <codeblock gutter="true" class="syntax js">
+    "dependencies":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;"@adobe/cq-angular-editable-components":&amp;nbsp;"~1.0.3",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"@adobe/cq-spa-component-mapping":&amp;nbsp;"~1.0.3",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"@adobe/cq-spa-page-model-manager":&amp;nbsp;"~1.0.4"!!discoiqbr!!} 
+  </codeblock> 
+  <p>The <span class="code">aem-clientlib-generator</span> is leveraged to make the creation of client libraries automatic as part of the build process.</p> 
+  <p style="margin-left: 40px;"><span class="code">"aem-clientlib-generator": "^1.4.1",</span></p> 
+  <p>Further details about it can be found <a href="https://github.com/wcm-io-frontend/aem-clientlib-generator">on GitHub here</a>.<br /> </p> 
+  <note> 
+   <p>The minimum version of the <span class="code">aem-clientlib-generator</span> required is 1.4.1.<br /> </p> 
+  </note> 
+  <p>The <span class="code">aem-clientlib-generator</span> is configured in the <span class="code">clientlib.config.js</span> file as follows.</p> 
+  <codeblock gutter="true" class="syntax js">
+    module.exports&amp;nbsp;=&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;default&amp;nbsp;working&amp;nbsp;directory&amp;nbsp;(can&amp;nbsp;be&amp;nbsp;changed&amp;nbsp;per&amp;nbsp;'cwd'&amp;nbsp;in&amp;nbsp;every&amp;nbsp;asset&amp;nbsp;option)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;context:&amp;nbsp;__dirname,!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;path&amp;nbsp;to&amp;nbsp;the&amp;nbsp;clientlib&amp;nbsp;root&amp;nbsp;folder&amp;nbsp;(output)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;clientLibRoot:&amp;nbsp;"./../content/jcr_root/apps/my-angular-app/clientlibs",!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;libs:&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name:&amp;nbsp;"my-angular-app",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;allowProxy:&amp;nbsp;true,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;categories:&amp;nbsp;["my-angular-app"],!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;embed:&amp;nbsp;["my-angular-app.responsivegrid"],!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jsProcessor:&amp;nbsp;["min:gcc"],!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;serializationFormat:&amp;nbsp;"xml",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;assets:&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;js:&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"dist/**/*.js"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;],!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;css:&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"dist/**/*.css"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}; 
+  </codeblock> 
+  <h3>Building</h3> 
+  <p>Actually building the app leverages <a href="https://webpack.js.org/">Webpack</a> for transpilation in addition to the aem-clientlib-generator for automatic client library creation. Therefore the build command will resemble:</p> 
+  <p style="margin-left: 40px;"><span class="code">"build": "ng build --build-optimizer=false &amp;&amp; clientlib",</span></p> 
+  <p>Once built, the package can be uploaded to an AEM instance.<br /> </p> 
+  <h3>Maven Archetype for SPA Starter Kit</h3> 
+  <p>Adobe recommends leveraging the <a href="https://github.com/adobe/aem-spa-project-archetype">Maven Archetype for SPA Starter Kit</a> to help you start your own SPA project for AEM.<br /> </p> 
+  <h2>Application Structure</h2> 
+  <p>Including the dependencies and building your app as described previously will leave you with a working SPA package which you can upload to your AEM instance.</p> 
+  <p>The next section of this document will take you through how an SPA in AEM is structured, the important files which drive the application, and how they work together.</p> 
+  <p>A simplified image component is used as an example, but all components of the application are based on the same concept.</p> 
+  <h3>app.module.ts</h3> 
+  <p>The entry point into the SPA is the <span class="code">app.module.ts</span> file shown here simplified to focus on the important content.<br /> </p> 
+  <codeblock gutter="true" class="syntax js">
+    //&amp;nbsp;app.module.ts!!discoiqbr!!import&amp;nbsp;{&amp;nbsp;BrowserModule,&amp;nbsp;BrowserTransferStateModule&amp;nbsp;}&amp;nbsp;from&amp;nbsp;'@angular/platform-browser';!!discoiqbr!!import&amp;nbsp;{&amp;nbsp;NgModule&amp;nbsp;}&amp;nbsp;from&amp;nbsp;'@angular/core';!!discoiqbr!!import&amp;nbsp;{&amp;nbsp;AppComponent&amp;nbsp;}&amp;nbsp;from&amp;nbsp;'./app.component';!!discoiqbr!!import&amp;nbsp;{&amp;nbsp;SpaAngularEditableComponentsModule&amp;nbsp;}&amp;nbsp;from&amp;nbsp;'@adobe/cq-angular-editable-components';!!discoiqbr!!import&amp;nbsp;{&amp;nbsp;AppRoutingModule&amp;nbsp;}&amp;nbsp;from&amp;nbsp;'./app-routing.module';!!discoiqbr!!!!discoiqbr!!@NgModule({!!discoiqbr!!&amp;nbsp;&amp;nbsp;imports:&amp;nbsp;[&amp;nbsp;BrowserModule.withServerTransition({&amp;nbsp;appId:&amp;nbsp;'my-angular-app'&amp;nbsp;}),!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SpaAngularEditableComponentsModule,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;AppRoutingModule,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;BrowserTransferStateModule&amp;nbsp;],!!discoiqbr!!&amp;nbsp;&amp;nbsp;providers:&amp;nbsp;...,!!discoiqbr!!&amp;nbsp;&amp;nbsp;declarations:&amp;nbsp;[&amp;nbsp;...&amp;nbsp;],!!discoiqbr!!&amp;nbsp;&amp;nbsp;entryComponents:&amp;nbsp;[&amp;nbsp;...&amp;nbsp;],!!discoiqbr!!&amp;nbsp;&amp;nbsp;bootstrap:&amp;nbsp;[&amp;nbsp;AppComponent&amp;nbsp;]!!discoiqbr!!})!!discoiqbr!!export&amp;nbsp;class&amp;nbsp;AppModule&amp;nbsp;{}!!discoiqbr!! 
+  </codeblock> 
+  <p>The <span class="code">app.module.ts</span> file is the starting point of the app and contains the initial project configuration and uses <span class="code">AppComponent</span> to bootstrap the App.</p> 
+  <h4>Static Instantiation</h4> 
+  <p>When the component is instantiated statically using the component template, the value must be passed from the model to the properties of the component. The values from the model are passed as attributes to be later available as component properties.</p> 
+  <h3>app.component.ts</h3> 
+  <p>Once <span class="code">app.module.ts</span> bootstraps <span class="code">AppComponent</span>, it can then initialize the App, which is shown here in a simplified version to focus on the important content.</p> 
+  <codeblock gutter="true" class="syntax js">
+    //&amp;nbsp;app.component.ts!!discoiqbr!!import&amp;nbsp;{&amp;nbsp;Component&amp;nbsp;}&amp;nbsp;from&amp;nbsp;'@angular/core';!!discoiqbr!!import&amp;nbsp;{&amp;nbsp;ModelManager&amp;nbsp;}&amp;nbsp;from&amp;nbsp;'@adobe/cq-spa-page-model-manager';!!discoiqbr!!import&amp;nbsp;{&amp;nbsp;Constants&amp;nbsp;}&amp;nbsp;from&amp;nbsp;"@adobe/cq-angular-editable-components";!!discoiqbr!!!!discoiqbr!!@Component({!!discoiqbr!!&amp;nbsp;&amp;nbsp;selector:&amp;nbsp;'app-root',!!discoiqbr!!&amp;nbsp;&amp;nbsp;template:&amp;nbsp;`!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;router-outlet&gt;&lt;/router-outlet&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;`!!discoiqbr!!})!!discoiqbr!!!!discoiqbr!!export&amp;nbsp;class&amp;nbsp;AppComponent&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;items;!!discoiqbr!!&amp;nbsp;&amp;nbsp;itemsOrder;!!discoiqbr!!&amp;nbsp;&amp;nbsp;path;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;constructor()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ModelManager.initialize().then(this.updateData.bind(this));!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;private&amp;nbsp;updateData(model)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.path&amp;nbsp;=&amp;nbsp;model[Constants.PATH_PROP];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.items&amp;nbsp;=&amp;nbsp;model[Constants.ITEMS_PROP];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.itemsOrder&amp;nbsp;=&amp;nbsp;model[Constants.ITEMS_ORDER_PROP];!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <h3>main-content.component.ts</h3> 
+  <p>By processing the page, <span class="code">app.component.ts</span> calls <span class="code">main-content.component.ts</span> listed here in a simplfied version.<br /> </p> 
+  <codeblock gutter="true" class="syntax js">
+    import&amp;nbsp;{&amp;nbsp;Component&amp;nbsp;}&amp;nbsp;from&amp;nbsp;'@angular/core';!!discoiqbr!!import&amp;nbsp;{&amp;nbsp;ModelManagerService&amp;nbsp;}&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;from&amp;nbsp;'../model-manager.service';!!discoiqbr!!import&amp;nbsp;{&amp;nbsp;ActivatedRoute&amp;nbsp;}&amp;nbsp;from&amp;nbsp;'@angular/router';!!discoiqbr!!import&amp;nbsp;{&amp;nbsp;Constants&amp;nbsp;}&amp;nbsp;from&amp;nbsp;"@adobe/cq-angular-editable-components";!!discoiqbr!!!!discoiqbr!!@Component({!!discoiqbr!!&amp;nbsp;&amp;nbsp;selector:&amp;nbsp;'app-main',!!discoiqbr!!&amp;nbsp;&amp;nbsp;template:&amp;nbsp;`!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;aem-page&amp;nbsp;class="structure-page"&amp;nbsp;[attr.data-cq-page-path]="path"&amp;nbsp;[cqPath]="path"&amp;nbsp;[cqItems]="items"&amp;nbsp;[cqItemsOrder]="itemsOrder"&amp;nbsp;&gt;&lt;/aem-page&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;`!!discoiqbr!!})!!discoiqbr!!!!discoiqbr!!export&amp;nbsp;class&amp;nbsp;MainContentComponent&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;items;!!discoiqbr!!&amp;nbsp;&amp;nbsp;itemsOrder;!!discoiqbr!!&amp;nbsp;&amp;nbsp;path;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;constructor(&amp;nbsp;private&amp;nbsp;route:&amp;nbsp;ActivatedRoute,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;modelManagerService:&amp;nbsp;ModelManagerService)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.modelManagerService.getData({&amp;nbsp;path:&amp;nbsp;this.route.snapshot.data.path&amp;nbsp;}).then((data)&amp;nbsp;=&gt;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.path&amp;nbsp;=&amp;nbsp;data[Constants.PATH_PROP];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.items&amp;nbsp;=&amp;nbsp;data[Constants.ITEMS_PROP];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.itemsOrder&amp;nbsp;=&amp;nbsp;data[Constants.ITEMS_ORDER_PROP];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <p>The <span class="code">MainComponent</span> ingests the JSON representation of the page model and processes the content to wrap/decorate each element of the page. Further details on the <span class="code">Page</span> can be found in the document <a href="../../../sites/developing/using/spa-blueprint.md#main-pars-header-1694932501">SPA Blueprint</a>.</p> 
+  <h3>image.component.ts</h3> 
+  <p>The <span class="code">Page</span> is composed of components. With the JSON ingested, the <span class="code">Page</span> can process those components such as <span class="code">image.component.ts</span> as shown here.<br /> </p> 
+  <codeblock gutter="true" class="syntax js">
+    ///&amp;nbsp;image.component.ts!!discoiqbr!!import&amp;nbsp;{&amp;nbsp;Component,&amp;nbsp;Input&amp;nbsp;}&amp;nbsp;from&amp;nbsp;'@angular/core';!!discoiqbr!!!!discoiqbr!!const&amp;nbsp;ImageEditConfig&amp;nbsp;=&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;emptyLabel:&amp;nbsp;'Image',!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;isEmpty:&amp;nbsp;function(cqModel)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;!cqModel&amp;nbsp;||&amp;nbsp;!cqModel.src&amp;nbsp;||&amp;nbsp;cqModel.src.trim().length&amp;nbsp;&lt;&amp;nbsp;1;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!};!!discoiqbr!!!!discoiqbr!!@Component({!!discoiqbr!!&amp;nbsp;&amp;nbsp;selector:&amp;nbsp;'app-image',!!discoiqbr!!&amp;nbsp;&amp;nbsp;templateUrl:&amp;nbsp;'./image.component.html',!!discoiqbr!!})!!discoiqbr!!!!discoiqbr!!export&amp;nbsp;class&amp;nbsp;ImageComponent&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;@Input()&amp;nbsp;src:&amp;nbsp;string;!!discoiqbr!!&amp;nbsp;&amp;nbsp;@Input()&amp;nbsp;alt:&amp;nbsp;string;!!discoiqbr!!&amp;nbsp;&amp;nbsp;@Input()&amp;nbsp;title:&amp;nbsp;string;!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!MapTo('my-angular-app/components/image')(ImageComponent,&amp;nbsp;ImageEditConfig); 
+  </codeblock> 
+  <p>The central idea of SPAs in AEM is the idea of mapping SPA components to AEM components and updating the component when the content is modified (and vice versa). See the document <a href="../../../sites/developing/using/spa-overview.md">SPA Editor Overview</a> for an summary of this communication model.</p> 
+  <p style="margin-left: 40px;"><span class="code">MapTo('my-angular-app/components/image')(Image, ImageEditConfig);</span></p> 
+  <p>The <span class="code">MapTo</span> method maps the SPA component to the AEM component. It supports the use of a single string or an array of strings.</p> 
+  <p><span class="code">ImageEditConfig</span> is a configuration object that contributes to enabling the authoring capabilities of a component by providing the necessary metadata for the editor to generate placeholders</p> 
+  <p>If there is no content, labels are provided as placeholders to represent the empty content.<br /> </p> 
+  <h4>Dynamically Passed Properties</h4> 
+  <p>The data coming from the model are dynamically passed as properties of the component.</p> 
+  <h3>image.component.html</h3> 
+  <p>Finally the image can be rendered in <span class="code">image.component.html</span>.<br /> </p> 
+  <codeblock class="syntax js">
+    //&amp;nbsp;image.component.html!!discoiqbr!!&lt;img&amp;nbsp;[src]="src"&amp;nbsp;[alt]="alt"&amp;nbsp;[title]="title"/&gt; 
+  </codeblock> 
+  <h2>Next Steps</h2> 
+  <p>For a step-by-step guide to creating your own SPA, see the <a href="/content/help/en/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop">Getting Started with the AEM SPA Editor - WKND Events Tutorial</a>.</p> 
+  <p>For further information about how to oraganize yourself to develop SPAs for AEM see the article <a href="../../../sites/developing/using/spa-architecture.md">Developing SPAs for AEM</a>.</p> 
+  <p>For further details about the dynamic model to component mapping and how it works within SPAs in AEM, see the article <a href="../../../sites/developing/using/spa-dynamic-model-to-component-mapping.md">Dynamic Model to Component Mapping for SPAs</a>.</p> 
+  <p>If you wish to implement SPAs in AEM for a framework other than React or Angular or simply wish to take a deep dive into how the SPA SDK for AEM works, refer to the <a href="../../../sites/developing/using/spa-blueprint.md">SPA Blueprint</a> article.<br /> </p> 
+ </body> 
+</html>

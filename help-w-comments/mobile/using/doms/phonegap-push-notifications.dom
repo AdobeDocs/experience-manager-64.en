@@ -1,0 +1,321 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-apps/developing-in-phonegap/developing-mobile-applications/push-notifications" name="qaNotes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="2017-12-13T19:01:37.164-0500" name="jcr:created" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap-push-notifications.html" name="publishExternalURL" /> 
+  <meta content="2018-05-04T05:13:45.512-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/developing-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/developing-adobe-phonegap-enterprise" name="moreHelpPaths" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="b3fd5ca1-789b-43f9-a049-2512e27632d6" name="jcr:predecessors" /> 
+  <meta content="2018-05-04T05:13:45.680-0400" name="cq:lastReplicated" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-05-04T05:13:45.512-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-05-11T10:03:06.744-0400" name="locHandOffDate" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="1b7c81ff-6585-4e52-b05e-70b0557abb58" name="jcr:uuid" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:developing-adobe-phonegap-enterprise" name="cq:tags" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Follow this page to learn about how to use push notifications in an AEM Mobile app." name="seoDescription" /> 
+  <meta content="2017-10-31T16:25:58.614-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-05-04T05:13:45.512-0400" name="publishExternalDate" /> 
+  <meta content="Push Notifications" name="navTitle" /> 
+  <meta content="Push Notifications" name="seoTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-05-11T10:03:06.745-0400" name="cq:lastModified" /> 
+  <meta content="Push Notifications" name="jcr:title" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>Being able to instantly alert your AEM Mobile app users with important notifications is crucial to the value of a mobile app and its marketing campaigns. Here, we describe the steps that need to be taken to allow your app to receive push notifications, and how to configure and send pushes from AEM Mobile to the app installed on the phone. Additionally, this section describes how to configure the <a href="#deeplinking">Deep Linking</a> feature to your push notifications.</p> 
+  <note> 
+   <p><i>Push notifications are not guaranteed delivery; they are more like announcements. A best effort is made to make sure everyone receives them but they are not a guaranteed delivery mechanism. Also, the time to deliver a push can vary from less than a second to up to half an hour.</i></p> 
+  </note> 
+  <p>Using push notifications with AEM requires a few different technologies. First, a push notification service provider must be used to manage the the notifications and devices (AEM does not do this, yet). Two providers are configured out-of-the-box with AEM: <a href="http://aws.amazon.com/sns/">Amazon Simple Notification Service</a> (or SNS), and <a href="https://www.pushwoosh.com/">Pushwoosh</a>. Second, the push technology for the given mobile OS must go through the appropriate service — Apple's Push Notification Service (or APNS) for iOS devices; and Google Cloud Messaging (or GCM) for Android devices. Although AEM does not communicate with these platform specific services directly, some related configuration information must be provided by AEM along with the notifications in order for these services to execute the push. </p> 
+  <p>Once installed and configured (as explained below) it works like this:</p> 
+  <ol> 
+   <li>A push notification is created in AEM, and sent to the service provider (Amazon SNS or Pushwoosh).</li> 
+   <li>The service provider receives it and sends it to the core provider (APNS or GCM). </li> 
+   <li>The core provider pushes the notification to all devices registered for that push. For each device it uses the cellular data network or WiFi, whichever is currently available on the device.</li> 
+   <li>The notification displays on the device if the app it is registered for is not running. A user tapping on the notification will start the app and display the notification within the app. In the case that the application is already running, only the in-app notification is displayed.</li> 
+  </ol> 
+  <p>This release of AEM supports iOS and Android mobile devices.</p> 
+  <h2>Overview and Procedure</h2> 
+  <p>To use push notifications in an AEM Mobile app, the following high-level steps must be taken.</p> 
+  <p>Typically, an AEM Developer will:</p> 
+  <ol> 
+   <li>Register with Apple and Google messaging services</li> 
+   <li>Register with a push messaging service and configure it</li> 
+   <li>Add push support to the app</li> 
+   <li>Prepare a phone for testing</li> 
+  </ol> 
+  <div>
+    While an AEM Administrator will: 
+  </div> 
+  <ol> 
+   <li>Configure push on AEM apps</li> 
+   <li>Build and deploy the app</li> 
+   <li>Send a Push Notification</li> 
+   <li>Configure deep linking <i>(optional)</i></li> 
+  </ol> 
+  <h3>Step 1: Register with Apple and Google messaging services</h3> 
+  <h4>Using the Apple Push Notification Service (APNS)</h4> 
+  <p>Go to the Apple page <a href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html">here </a>to become familiar with the Apple Push Notification Service.</p> 
+  <p>To use APNS you will need a <strong>Certificate</strong> file (a .cer file), a push<strong> Private Key</strong> (a .p12 file) and a <strong>Private Key Password</strong> from Apple. Instructions on how to do that can be found <a href="https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ProvisioningDevelopment.html">here</a>.</p> 
+  <h4>Using the Google Cloud Messaging (GCM) service</h4> 
+  <note> 
+   <p>Google is replacing GCM with a similar service called Firebase Cloud Messaging (FCM). For more information on FCM, click <a href="https://developers.google.com/cloud-messaging/faq">here</a>.</p> 
+  </note> 
+  <p>Go to the Google page <a href="http://developer.android.com/google/gcm/index.html">here </a>to become familiar with Google Cloud Messaging for Android.</p> 
+  <p>You will need to follow the steps <a href="http://developer.android.com/google/gcm/gs.html">here </a>to <strong>Create a Google API project</strong>, <strong>Enable the GCM Service</strong>, and <strong>Obtain an API Key</strong>. You will need the <strong>API Key</strong> to send push notifications to Android devices. Also, record your <strong>Project Number</strong>, which is also sometimes called a <strong>GCM Sender Id</strong>.</p> 
+  <p>The following steps shows a different method of creating GCM API Keys:</p> 
+  <ol> 
+   <li>Log into google and go to the <a href="https://developers.google.com/mobile/add?platform=android&amp;cntapi=gcm">Google's Developer page</a>. </li> 
+   <li>Choose your app from the list (or create a new one).</li> 
+   <li>Under Android Package Name, enter your app id, i.e. "com.adobe.cq.mobile.weretail.outdoorsapp". (If that does not work, try again with "test.test").</li> 
+   <li>Click <strong>Continue To Choose and configure services</strong></li> 
+   <li>Select Cloud Messaging, and then click <strong>Enable Google Cloud Messaging</strong>.</li> 
+   <li>The new Server API Key and (new or existing) Sender ID will then be displayed. </li> 
+  </ol> 
+  <note> 
+   <p>Record the Server API Key. This value is entered on the site of your push provider.</p> 
+  </note> 
+  <h3>Step 2: Register and Configure a Push Messaging Service</h3> 
+  <p>AEM is configured to use one of three services for push notifications:</p> 
+  <ul> 
+   <li>Amazon SNS</li> 
+   <li> Pushwoosh</li> 
+   <li>Adobe Mobile Services</li> 
+  </ul> 
+  <p><i>Amazon SNS</i> and <i>Pushwoosh</i> configurations will allow you to send pushed from inside AEM screens.</p> 
+  <p><i>Adobe Mobile Services</i> configuration allows you to configure and send push notifications from within Adobe Mobile Services using an Adobe Analytics account (but the app needs to be built with this config set to enable AMS push notifications).</p> 
+  <h4>Using the Amazon SNS messaging service</h4> 
+  <note> 
+   <p><i>Information about Amazon SNS, and a link to create a new AWS account, can be found <a href="http://aws.amazon.com/sns/">here</a>. You can get a free account for a year.</i></p> 
+  </note> 
+  <p>If you do not want to use Amazon SNS you can skip these steps.</p> 
+  <p>Follow these steps to set up Amazon SNS for push notifications:</p> 
+  <ol> 
+   <li> 
+    <ol> 
+     <li>Record your Account Id. The format should be twelve digits with no spaces or dashes, i.e. "123456789012".</li> 
+     <li>Ensure you are in the "us-east" or "eu" region, as a later step (Identity Pool Creation) requires one of those.</li> 
+     <li>After registering, log into the management console and select <a href="https://console.aws.amazon.com/sns/">SNS</a> (Push Notification Service). Click on "Get Started" if it appears.</li> 
+    </ol> </li> 
+   <li> 
+    <ol> 
+     <li>Click on your login name on the upper right of the screen, and choose Security Credentials from the menu.</li> 
+     <li>Click on Access Keys, and in the space below, click<strong> Create New Access Key</strong>.</li> 
+     <li>Click <strong>Show Access Key</strong>, and copy and save the Access Key ID and Secret Access Key shown. If you choose the option to download the keys, you will get a csv file that contains those same values.</li> 
+     <li>Other security related certificates, and some other, can be managed on this page.</li> 
+    </ol> 
+    <note> 
+     <p>An Access Key can be used for multiple apps.</p> 
+    </note><p>For organizations, which use an "AWS Sandbox" account, the steps are very similar, and outlined here:</p> 
+    <ol> 
+     <li>Click on your login name on the upper right of the screen, and choose My Security Credentials from the menu.</li> 
+     <li>Click on Users in the left list of actions, and choose your user name.</li> 
+     <li>Click on the Security credentials tab.</li> 
+     <li>From here you see your keys and create new keys. Save the keys for later use.</li> 
+    </ol> </li> 
+   <li> 
+    <ol> 
+     <li>Click <strong>Create Topic</strong> and choose a topic name. Record all fields such as Topic ARN, Topic Owner, Region, Display name.</li> 
+     <li>Click <strong>Other Topic Actions</strong> -&amp;gt; <strong>Edit Topic Policy</strong>. Under <strong>Allow these users to subscribe to this topic</strong>, select <strong>Everyone.</strong></li> 
+     <li>Click <strong>Update Policy</strong>.</li> 
+    </ol> 
+    <note> 
+     <p>You can create multiple topics for different scenarios such as dev, test, demo, and so on. The rest of the SNS configuration can remain the same. Build the app with the different topic; push notifications sent to that topic will only be received by the app built with that topic.</p> 
+    </note></li> 
+   <li> 
+    <ol> 
+     <li>Click Applications, then Create Platform Application. Choose a name and select a platform (APNS for iOS, GCM for Android). Depending on the platform other fields will need to be filled in: 
+      <ol> 
+       <li>For APNS, a P12 file, a Password, a Certificate and a Private Key must all be entered. These should have been obtained in the step <i>Using the Apple Push Notification Service (APNS)</i> above.</li> 
+       <li>For GCM, an API Key must be entered. This should have been obtained in the step <i>Using the Google Cloud Messaging (GCM) service</i> above.</li> 
+      </ol> </li> 
+     <li>Repeat the above step once for each platform you will be supporting. To be able to push to both iOS and Android, two Platform Applications must be created.</li> 
+    </ol> </li> 
+   <li> 
+    <ol> 
+     <li>Use <a href="https://console.aws.amazon.com/cognito">Cognito</a> to create an Identity Pool, which will store basic data of unauthenticated users. Note, only "us-east" and "eu" regions are supported by Amazon Cognito at this time.</li> 
+     <li>Give it a name, and check the box for "Enable access to unauthenticated identities".</li> 
+     <li>On the next page ("<i>Your Cognito identities require access to your resources</i>") click Allow.</li> 
+     <li>On the upper right of the page, click on the link "<i>Edit identity pool"</i>. The Identity Pool Id is shown. Save this text for later.</li> 
+     <li>On the same page, choose the drop down next to "Unauthenticated role" and ensure it has the role Cognito_&amp;lt;pool name&amp;gt;UnauthRole selected. Save your changes.</li> 
+    </ol> </li> 
+   <li> 
+    <ol> 
+     <li><p>Login to <a href="https://console.aws.amazon.com/iam/home">Identity and Access Management</a> (IAM)</p> </li> 
+     <li><p>Select Roles</p> </li> 
+     <li><p>Click on the role created in the previous step, called Cognito_&amp;lt;yourIdentityPoolName&amp;gt;Unauth_Role. Record the "Role ARN" displayed.</p> </li> 
+     <li><p>Open "Inline Policies" if it is not already opened. You should see a policy there with a name like oneClick_Cognito_&amp;lt;yourIdentityPoolName&amp;gt;Unauth_Role_1234567890123.</p> </li> 
+     <li><p>Click "Edit Policy". Replace the contents of the Policy Document with this snippet of JSON:</p> 
+      <table border="0" cellpadding="0" cellspacing="0"> 
+       <tbody> 
+        <tr> 
+         <td><p> </p> <p>{</p> <p> "Version": "2012-10-17",</p> <p> "Statement": [</p> <p> {</p> <p> "Action": [</p> <p> "mobileanalytics:PutEvents",</p> <p> "cognito-sync:*",</p> <p> "SNS:CreatePlatformEndpoint",</p> <p> "SNS:Subscribe"</p> <p> ],</p> <p> "Effect": "Allow",</p> <p> "Resource": [</p> <p> "*"</p> <p> ]</p> <p> }</p> <p> ]</p> <p>}</p> <p> </p> </td> 
+        </tr> 
+       </tbody> 
+      </table> </li> 
+     <li><p>Click on<strong> Apply Policy</strong></p> </li> 
+    </ol> </li> 
+  </ol> 
+  <h4>Using the Pushwoosh messaging service</h4> 
+  <p>If you do not want to use Pushwoosh, you can skip this step.</p> 
+  <p>To use Pushwoosh:</p> 
+  <ol> 
+   <li><strong>Register with Pushwoosh</strong> 
+    <ol> 
+     <li>Go to pushwoosh.com and create a new account.</li> 
+    </ol> </li> 
+   <li><strong>Create an API Access Token</strong> 
+    <ol> 
+     <li>On the Pushwoosh site, go to the API Access menu item to generate an API Access Token. You will need to securely record this.</li> 
+    </ol> </li> 
+   <li><strong>Create a new app</strong> 
+    <ol> 
+     <li>For Android support, you need to provide your GCM API key.</li> 
+     <li>When configuring the app, choose Cordova as the framework.</li> 
+     <li>For iOS support you need to provide the Certificate file (.cer), Push Certificate (.p12) and private key password; these should have been obtained from Apple's APNS site. <strong> </strong>For Framework, choose Cordova. </li> 
+     <li>Pushwoosh will generate an App Id for that app, in the form "XXXXX-XXXXX", where each X is a hexadecimal value (0 through F).</li> 
+    </ol> </li> 
+  </ol> 
+  <p> </p> 
+  <note> 
+   <p><i>If a second app is configured in AEM with the same App Id (and other related values: API Access Token, and GCM Id), any push notifications sent via the second app on AEM will go to any other app with that App Id.</i></p> 
+  </note> 
+  <h3>Step 3: Add push support to the app</h3> 
+  <h4>Add ContentSync Configuration</h4> 
+  <p>Create two content nodes (one in app-config and one in app-config-dev) called notificationsConfig:</p> 
+  <ul> 
+   <li> /content/&amp;lt;your app&amp;gt;/shell/jcr:content/pge-app/app-config-dev/notificationsConfig</li> 
+   <li> /content/&amp;lt;your app&amp;gt;/shell/jcr:content/pge-app/app-config/notificationsConfig</li> 
+  </ul> 
+  <p>With these properties (.content.xml files) :<br /> &amp;lt;jcr:root xmlns:jcr="<a href="http://www.jcp.org/jcr/1.0">http://www.jcp.org/jcr/1.0</a>" xmlns:nt="<a href="http://www.jcp.org/jcr/nt/1.0">http://www.jcp.org/jcr/nt/1.0</a>"<br /> jcr:primaryType="nt:unstructured"<br /> excludeProperties="[appAPIAccessToken]"<br /> path="../../../.."<br /> targetRootDirectory=“www"<br /> type="notificationsconfig”/&amp;gt;</p> 
+  <note> 
+   <p>The content sync handler looks for those nodes, and if they are not there, it does not write out the pge-notifications-config.json file.</p> 
+  </note> 
+  <h4>Add Client Libraries</h4> 
+  <p>The push notification client libraries must be added to the app by following these steps:</p> 
+  <p>In CRXDE Lite:</p> 
+  <ol> 
+   <li>Navigate to <i>/etc/designs/phonegap/&amp;lt;app name&amp;gt;/clientlibsall.</i></li> 
+   <li>Double click on the embed section in the properties pane.</li> 
+   <li>In the dialog that appears, add a new client lib by clicking the + button.</li> 
+   <li>In the new text field, add “cq.mobile.push”, and click OK.</li> 
+   <li>Add one more called cq.mobile.push.amazon, and click OK.</li> 
+   <li>Save the changes.</li> 
+  </ol> 
+  <note> 
+   <p>If push notifications are removed, or are not used, for space considerations on the app, and to avoid console error messages, remove these clientlibs from your app.</p> 
+  </note> 
+  <h3>Step 4: Prepare a Phone for Testing</h3> 
+  <note> 
+   <p><i>For push notifications, you need to test on an actual device, as emulators are not able to receive push notifications. </i></p> 
+  </note> 
+  <h4>IOS</h4> 
+  <p>For iOS you will need to use a Mac OS computer and you need to join the <a href="https://developer.apple.com/programs/ios/">iOS Developer Program</a>. Some corporations have corporate licenses which may be available to all developers.</p> 
+  <p>With XCode 8.1, before using Push Notifications you must go to the Capabilities tab in your project, and toggle the Push Notifications toggle ON.</p> 
+  <h4>Android</h4> 
+  <p>To install the app on an Android phone using CLI (see below: <strong>6 - Deploy the app onto your phone</strong>), you first must put the phone in "developer mode." See <a href="http://developer.android.com/tools/device.html#developer-device-options">Enabling On-device Developer Options</a> for details on doing this.</p> 
+  <p><a name="administrator"></a> </p> 
+  <h3>Step 5: Configure push on AEM apps</h3> 
+  <p>Before building and deploying to your configured mobile device, you must configure the notification settings for the messaging service you decided to use.</p> 
+  <ol> 
+   <li>Create the appropriate authorization groups for push notifications.</li> 
+   <li>Login to AEM as the appropriate user, click on the Apps tab.</li> 
+   <li>Click on the App.</li> 
+   <li>Find the Manage Cloud Services tile and click on the pencil, to modify your cloud configs.</li> 
+   <li>Select Amazon SNS Connnection, Pushwoosh Connection, or Adobe Mobile Services, as the notification configuration.</li> 
+   <li>Enter the provider properties and click Submit to save them, and Done. They are not verified remotely at this stage, except in the case of AMS. </li> 
+   <li>You should now see the config you just entered on the Manage Cloud Services tile.</li> 
+  </ol> 
+  <h3>Step 6: Build and deploy the app</h3> 
+  <p><i><strong>Note:</strong> Refer also to our instructions <a href="../../mobile/using/building-app-mobile-phonegap.md">here</a> on building PhoneGap applications.</i></p> 
+  <p>There are two ways to build and deploy your app using PhoneGap. </p> 
+  <p><i><strong>Note:</strong> For push notification testing, emulators will not suffice because push notifications use a distinct protocol between the push provider (Apple or Google) and the device. Current Mac/PC hardware and emulators do not support this.</i></p> 
+  <ol> 
+   <li><i>PhoneGap Build</i> is a service offered by PhoneGap that will build your app for you on their servers, and allow you to download it to your device directly. Refer to the <a href="https://build.phonegap.com/">PhoneGap Build documentation</a> to learn how to set up and use PhoneGap Build.</li> 
+   <li><i>PhoneGap Command Line Interface</i> (CLI) lets you use a rich set of PhoneGap commands on your command line to build, debug, and deploy your app. Refer to the <a href="http://docs.phonegap.com/en/edge/guide_cli_index.md.html#The%20Command-Line%20Interface">PhoneGap developer documentation</a> to learn how to set up and use PhoneGap CLI.</li> 
+  </ol> 
+  <h3>Step 7: Send a Push Notification</h3> 
+  <p>To create a new notification and send it, follow these steps.</p> 
+  <ol> 
+   <li>Create a new notification 
+    <ul> 
+     <li>In your AEM Mobile app's dashboard, find the Push Notifications tile.</li> 
+     <li>In the menu on the upper right, choose "Create". Note that this button will not be available until the cloud config is first set.</li> 
+     <li>In the Create Notification Wizard, enter in a title and a message, then click the "Create" button. Your notification is now ready to send immediately or later. It can be edited and the message and/or title can be changed and saved.</li> 
+    </ul> </li> 
+   <li>Send the notification 
+    <ul> 
+     <li>In the Apps dashboard, find the Push Notifications tile.</li> 
+     <li>Select the notification, or click on the details button on the bottom right (<strong>. . .</strong>), to show the list of notifications. This list also indicates if a notification is ready to be sent, has already been sent, or if an error occurred during sending.</li> 
+     <li>Select the checkbox for one notification (only) and click the "Send Notification" button above the list. You will have one chance to "Cancel" or "Send" the notification on the dialog that appears.</li> 
+    </ul> </li> 
+   <li>Dealing with the results<br /> 
+    <ul> 
+     <li>If the push notification service (Amazon SNS or Pushwoosh) receives the Send request, confirms it as valid, and sends it to the native providers (APNS and GCM) successfully, the Send dialog will close with no message. In the notification list, the status of that notification will be listed as Sent.</li> 
+     <li>If the push send fails, the dialog will show a message indicating the problem. In the notification list, the status of that notification will be listed as Error, but if the problem is rectified, the notification can be sent again. In the event of an error, additional error information should appear in the server error log.</li> 
+     <li>Note there are some platform differences between iOS and Android push notifications. Among them: 
+      <ul> 
+       <li>Building with CLI will start the app after it is deployed on Android. On iOS, you have to start it manually. Since the push registration step happens at startup, Android apps can receive push notifications right away (since it will have started and registered) while iOS apps will not.</li> 
+       <li>On Android, the OK button text is in all caps (and in any other buttons added on the in-app notification), while in iOS it is not.</li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ol> 
+  <p>For AMS Push Notifications, notifications must be composed and sent from the AMS server. AMS provides additional push notification capabilities beyond those provided by AEM's notifications with AWS and Pushwoosh.</p> 
+  <note> 
+   <p><i>Push notifications are not guaranteed delivery; they are more like announcements. A best effort is made to make sure everyone hears it but they are not a guaranteed delivery mechanism. Also, the time to deliver a push can vary from less <i>than </i>a second to up to half an hour.</i></p> 
+  </note> 
+  <h3>Configuring Deep Linking with Push Notifications</h3> 
+  <p><a name="deeplinking"></a>What is Deep Linking? In the context of a push notification, it is a means to allow an app to be opened or directed (if open) to a specified location inside the app.</p> 
+  <p>How does it work? The author of a push notification optionally adds a button label (i.e. "Show me!") to the notification and chooses the page they would like linked in the notification, via a visual path browser. When sent, the push occurs as normal except that in the in-app message, the OK button is replaced by a "Dismiss" button, and the new button specified ("Show me!") also appears. Clicking on the new button will make the app go to the specified page within the app. Clicking Dismiss will just dismiss the message.</p> 
+  <p>If the app is not open, the shade will appear as normal. Taking action on the notification in the shade will open the app and then present the user the deep link buttons based on what was configured in the push notification.</p> 
+  <p>Create the notification, add a button text and link path for the optional deep link:</p> 
+  <note> 
+   <p>.To access the Push Notification tile in your dashboard, follow the steps below.</p> 
+  </note> 
+  <ol> 
+   <li><p>Click the edit on the top right corner of the <strong>Manage Cloud Services</strong> tile.</p> <img imageRotate="0" src="assets/chlimage_1-113.png" /></li> 
+   <li><p>Select the <strong>Pushwoosh Connection</strong>. Click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-114.png" /></li> 
+   <li><p>Enter the details of the properties and click <strong>Submit</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-115.png" /><p>One you submit your configuration, the <strong>Push Notifications</strong> tile displays in the dashboard.</p> <img imageRotate="0" src="assets/chlimage_1-116.png" /></li> 
+  </ol> 
+  <h3>Create Notification Wizard</h3> 
+  <p>Once the <strong>Push Notifications</strong> tile displays in your dashboard, use the create notification wizard to add the content:</p> 
+  <ol> 
+   <li><p>Click the add symbol on the top right corner of the <strong>Push Notifications</strong> tile to open the <strong>Create Notification Wizard</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-117.png" /></li> 
+   <li><p>Clicking the browse icon in the link path, presents the user with the content structure of the app.</p> <p>Once you select the path, click the check icon.</p> <img imageRotate="0" src="assets/chlimage_1-118.png" /> 
+    <note> 
+     <p><i>The Link Button Text is limited to 20 characters. </i></p> 
+     <p><i>If the end user doesn't have the latest version of the application and the linked path isn't available, confirming the action of the deep link will bring the user to the main page of the app. </i></p> 
+    </note></li> 
+   <li><p>Enter the <strong>Text Details</strong> in the <strong>Create Notification Wizard</strong> and click <strong>Create</strong>.</p>  <img imageRotate="0" src="assets/chlimage_1-119.png" /><p>Open the details by clicking on the push notification you created from the <strong>Push Notifications</strong> tile.</p> <p>You can edit properties, send notifications, or delete the notification.</p> <img imageRotate="0" src="assets/chlimage_1-120.png" /></li> 
+  </ol> 
+  <note> 
+   <p><strong>Additional Information</strong>:</p> 
+   <p>Pushwoosh and Amazon SNS will be not be supported after 6.4 Release and will be available as an add-on from the package share.</p> 
+  </note> 
+  <h3>The Next Steps</h3> 
+  <p>Once you understand the details on push notifications for your app, see <a href="../../mobile/using/phonegap-aem-mobile-content-personalization.md">AEM Mobile Content Personalization</a>.</p> 
+  <p> </p> 
+  <p> </p> 
+ </body> 
+</html>

@@ -1,0 +1,331 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-12-01T19:03:08.796-0500" name="jcr:created" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Creating and Organizing Pages" name="navTitle" /> 
+  <meta content="2019-01-31T02:43:07.874-0500" name="lastPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/managing-pages.html" name="publishExternalURL" /> 
+  <meta content="Creating and Organizing Pages" name="seoTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-31T16:20:15.583-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2019-01-31T02:43:07.882-0500" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="true" name="converted" /> 
+  <meta content="ee6aa1fa-bd46-449d-a607-a97007312a3f" name="jcr:predecessors" /> 
+  <meta content="86df48dd-fd09-430e-9c32-4c4bdd08d7d7" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2019-01-31T02:43:07.874-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2019-01-31T02:43:07.926-0500" name="cq:lastReplicated" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Creating and Organizing Pages" name="jcr:title" /> 
+  <meta content="/content/docs/en/aem/6-3/author/page-authoring/managing-pages" name="qaNotes" /> 
+  <meta content="How to create and manage pages with AEM" name="seoDescription" /> 
+  <meta content="2019-01-31T02:43:07.874-0500" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-19T10:33:23.484-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring" name="moreHelpPaths" /> 
+ </head> 
+ <body> 
+  <p>This section describes how to create and manage pages with Adobe Experience Manager (AEM) so that you can then <a href="../../../sites/authoring/using/editing-content.md">create content</a> on those pages.</p> 
+  <note> 
+   <p>Your account needs the <a href="../../../sites/administering/using/security.md">appropriate access rights</a> and <a href="../../../sites/administering/using/security.md#permissions">permissions</a> to take action on pages such as create, copy, move, edit, and delete.</p> 
+   <p>If you encounter any problems we suggest you contact your system administrator.</p> 
+  </note> 
+  <note> 
+   <p>There are a number of <a href="../../../sites/authoring/using/keyboard-shortcuts.md">keyboard shortcuts</a> that you can use from the websites console that make organizing your pages more efficient.<br /> </p> 
+  </note> 
+  <h2>Organizing your Website</h2> 
+  <p>As an author you will need to organize your website within AEM. This involves creating and naming your content pages so that:</p> 
+  <ul> 
+   <li>You can easily find them on the author environment<br /> </li> 
+   <li>Visitors to your site can easily browse them on the publish environment</li> 
+  </ul> 
+  <p>You can also use <a href="#creatinganewfolder">folders</a> to help organize your content.<br /> </p> 
+  <p>The structure of a website can be thought of as a tree structure that holds your content pages. The names of these content pages are used to form the URLs, whereas the title is shown when the page content is viewed.</p> 
+  <p>The following shows an example from the We.Retail site, where a hiking shorts page (<span class="code">desert-sky-shorts</span>) is accessed:</p> 
+  <ul> 
+   <li>Author environment<br /> <span class="code">http://localhost:4502/editor.html/content/we-retail/us/en/products/equipment/hiking/desert-sky-shorts.html</span></li> 
+   <li>Publish environment<br /> <span class="code">http://localhost:4503/content/we-retail/us/en/products/equipment/hiking/desert-sky-shorts.html</span></li> 
+  </ul> 
+  <p>Depending on the configuration of your instance, use of <span class="code">/content</span> might be optional on the publish environment.<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    &amp;nbsp;/content!!discoiqbr!!&amp;nbsp;/we-retail!!discoiqbr!!&amp;nbsp;&amp;nbsp;/us!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;/en!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/products!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/equipment!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/hiking!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/desert-sky-shorts!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/hiking-poles!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/...&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/running...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/surfing...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/seasonal...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/about-us!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/experience!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;/es...!!discoiqbr!!&amp;nbsp;&amp;nbsp;/de...!!discoiqbr!!&amp;nbsp;&amp;nbsp;/fr...!!discoiqbr!!&amp;nbsp;&amp;nbsp;/...!!discoiqbr!!&amp;nbsp;/... 
+  </codeblock> 
+  <p>This structure can be viewed From the <strong>Sites</strong> console, where you can <a href="../../../sites/authoring/using/basic-handling.md#navigating">navigate through the pages of your website</a> and perform actions on the pages. You can also create new sites and <a href="#creatinganewpage">new pages</a>.</p> 
+  <p>From any point, you can see the upward branch from breadcrumbs in the header bar:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at104706.png" /> 
+  <h3>Page Naming Conventions</h3> 
+  <p>When creating a new page there are two keys fields:</p> 
+  <ul> 
+   <li><strong><a href="#title">Title</a></strong>: 
+    <ul> 
+     <li>This is displayed to the user in the console and shown at the top of the page content when editing.<br /> </li> 
+     <li>This field is mandatory.</li> 
+    </ul> </li> 
+   <li><strong><a href="#name">Name</a></strong>: 
+    <ul> 
+     <li>This is used to generate the URI.<br /> </li> 
+     <li>User input for this field is optional. If not specified, the name is derived from the title. See the following section <a href="../../../sites/authoring/using/managing-pages.md#main-pars-header">Page Name Restrictions and Best Practices</a> for details.<br /> </li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Page Name Restrictions and Best Practices</h4> 
+  <p>The page <strong>Title</strong> and <strong>Name</strong> can be created separately but are related:<br /> </p> 
+  <ul> 
+   <li>When creating a page, only the <strong>Title</strong> field is required. If no <strong>Name</strong> is provided at page creation, AEM will generate a name from the first 64 characters of the title (observing the validation set out below). Only the first 64 characters are used in order to support the best practice of short page names.<br /> </li> 
+   <li>If a page name is manually specified by the author, the 64 character limit does not apply, however other technical limitations on the page name length may.<br /> </li> 
+  </ul> 
+  <note> 
+   <p>When defining a page name, a good rule-of-thumb is to keep the page name as brief but as expressive and memorable as possible to make it easy to understand for the reader. See the <a href="https://www.w3.org/Provider/Style/TITLE.html">W3C style guide</a> for the <span class="code">title</span> element for more information.<br /> </p> 
+   <p>Also keep in mind that some browsers (e.g. older versions of IE) can only accept URLs up to a certain length, so there is also technical reason to keep page names short.<br /> </p> 
+  </note> 
+  <p>When creating a new page, AEM will <a href="../../../sites/developing/using/naming-conventions.md">validate the page name according to the conventions</a> imposesd by AEM and the JCR.</p> 
+  <p>The minimum allowed characters are:</p> 
+  <ul> 
+   <li>'a' through to 'z'</li> 
+   <li>'A' through to 'Z'</li> 
+   <li>'0' through to '9'</li> 
+   <li>_ (underscore)</li> 
+   <li>- (hyphen/minus)</li> 
+  </ul> 
+  <p>Full details of all characters allowed can be found in <a href="../../../sites/developing/using/naming-conventions.md">the naming conventions</a>.</p> 
+  <note> 
+   <p>If AEM is running on a <a href="../../../sites/deploying/using/recommended-deploys.md">MongoMK persistence manager deployment</a>, page names are limited to 150 characters.<br /> </p> 
+  </note> 
+  <h4>Title</h4> 
+  <p>If you supply only a page <strong>Title</strong> when creating a new page, AEM will derive the page <strong>Name</strong> from this string and <a href="../../../sites/developing/using/naming-conventions.md">validate the name according to the conventions</a> imposed by AEM and JCR. A <strong>Title</strong> field containing invalid characters will be accepted, but the name derived will have the invalid characters subsituted. For example:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Title</th> 
+     <th scope="row">Derived Name</th> 
+    </tr> 
+    <tr> 
+     <td>Schön</td> 
+     <td>schoen.html</td> 
+    </tr> 
+    <tr> 
+     <td>SC%&amp;*ç+</td> 
+     <td>sc---c-.html</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Name</h4> 
+  <p>When you supply a page <strong>Name</strong> when creating a new page, AEM will <a href="../../../sites/developing/using/naming-conventions.md">validate the name according to the conventions</a> imposed by AEM and JCR. You cannot submit invalid characters in the <strong>Name</strong> field. When AEM detects invalid characters the field will be highlighted with an explanatory message.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at104817.png" /> 
+  <note> 
+   <p>You should avoid using a two-letter code as defined by ISO-639-1 as a page name, unless it is a language root.</p> 
+   <p>See <a href="../../../sites/administering/using/tc-prep.md">Preparing Content for Translation</a> for more information.</p> 
+  </note> 
+  <h3>Templates</h3> 
+  <p>In AEM, a template specifies a specialized type of page. A template will be used as the basis for any new page being created.</p> 
+  <p>The template defines the structure of a page including a thumbnail image and other properties. For example, you may have separate templates for product pages, sitemaps, and contact information. Templates are comprised of <a href="#components">components</a>.</p> 
+  <p>AEM comes with several templates provided out-of-the-box. The templates available depend on the individual website. The key fields are:<br /> </p> 
+  <ul> 
+   <li><strong>Title</strong><br /> The title displayed on the resulting web-page.<br /> </li> 
+   <li><strong>Name</strong><br /> Used when naming the page.<br /> </li> 
+   <li><strong>Template</strong><br /> A list of templates available for use when generating the new page.</li> 
+  </ul> 
+  <note> 
+   <p>If configured on your instance, <a href="../../../sites/authoring/using/templates.md">template authors can create templates with the Template Editor</a>.<br /> </p> 
+  </note> 
+  <h3>Components</h3> 
+  <p>Components are the elements provided by AEM so that you can add specific types of content. AEM comes with a range of <a href="../../../sites/authoring/using/default-components-console.md">out-of-the-box components</a> that provide comprehensive functionality. These include:</p> 
+  <ul> 
+   <li>Text</li> 
+   <li>Image</li> 
+   <li>Slideshow</li> 
+   <li>Video</li> 
+   <li>And many more</li> 
+  </ul> 
+  <p>Once you have created and opened a page you can <a href="../../../sites/authoring/using/editing-content.md#insertinganewparagraph">add content using the components</a>, which are available from the <a href="../../../sites/authoring/using/author-environment-tools.md#componentbrowser">component browser</a>.</p> 
+  <note> 
+   <p>The <a href="../../../sites/authoring/using/default-components-console.md">Components Console</a> give an overview of the components on your instance.<br /> </p> 
+  </note> 
+  <h2>Managing Pages</h2> 
+  <h3>Creating a New Page</h3> 
+  <p>Unless all pages have been created for you in advance, before you can start creating content, you must create a page:</p> 
+  <ol> 
+   <li><p>Open the Sites console (for example, <a href="http://localhost:4502/sites.html/content">http://localhost:4502/sites.html/content</a>).</p> </li> 
+   <li><p>Navigate to the location where you want to create the new page. </p> </li> 
+   <li><p>Open the drop down selector using <strong>Create</strong> in the toolbar, then select <strong>Page</strong> from the list:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at104944.png" /></li> 
+   <li><p>From the first stage of the wizard you can either:</p> 
+    <ul> 
+     <li>Select the template you want used to create the new page, then click/tap <strong>Next</strong> to proceed.<br /> </li> 
+     <li><strong>Cancel</strong> to abort the process.</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-9.png" /></li> 
+   <li><p>From the final stage of the wizard you can either:</p> 
+    <ul> 
+     <li>Use the three tabs to enter the <a href="../../../sites/authoring/using/editing-page-properties.md">page properties</a> you want assigned to the new page, then click/tap <strong>Create</strong> to actually create the page.<br /> </li> 
+     <li>Use <strong>Back</strong> to return to template selection.</li> 
+    </ul> <p>Key fields are:</p> 
+    <ul> 
+     <li><strong>Title</strong>: 
+      <ul> 
+       <li>This is displayed to the user and is mandatory.</li> 
+      </ul> </li> 
+     <li><strong>Name</strong>: 
+      <ul> 
+       <li>This is used to generate the URI. If not specified, the name is derived from the title.</li> 
+       <li>If you supply a page <strong>Name</strong> when creating a new page, AEM will <a href="../../../sites/developing/using/naming-conventions.md">validate the name according to the conventions</a> imposesd by AEM and JCR.<br /> </li> 
+       <li>You <strong>cannot submit invalid characters</strong> in the <strong>Name</strong> field. When AEM detects invalid characters the field will be highlighted and an explanatory message shown to indicate the characters that need removing/replacing.</li> 
+      </ul> </li> 
+    </ul> 
+    <note> 
+     <p>See <a href="#pagenamingconventions">Page Naming Conventions</a>.</p> 
+    </note><p>The minimum information required to create a new page is the <strong>Title</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-10.png" /></li> 
+   <li><p>Use <strong>Create</strong> to complete the process and create your new page. The confirmation dialog will ask whether you want to <strong>Open</strong> the page immediately or return to the console (<strong>Done</strong>):<br /> </p> <img imageRotate="0" src="assets/chlimage_1-11.png" /> 
+    <note> 
+     <p>If you create a page using a name that already exists at that location, the system will automatically generate a variation of the name by appending a number. For example if <span class="code">winter</span> already exists a new page will become <span class="code">winter0</span>.</p> 
+    </note></li> 
+   <li><p>If you return to the console you will see your new page:<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at105321.png" /></li> 
+  </ol> 
+  <note> 
+   <p>Once a page has been created its template cannot be changed - unless you <a href="../../../sites/authoring/using/launches-creating.md#createlaunchwithnewtemplate">create a launch with a new template</a>, though this will lose any content already existing.<br /> </p> 
+  </note> 
+  <h3>Opening a Page For Editing</h3> 
+  <p>After creating a page, or navigating to an existing page (in the console), you can open it for edit:</p> 
+  <ol> 
+   <li><p>Open the <strong>Sites</strong> console.</p> </li> 
+   <li><p>Navigate until you find the page that you want to edit.</p> </li> 
+   <li><p>Select your page by using either:</p> 
+    <ul> 
+     <li><a href="../../../sites/authoring/using/basic-handling.md#quickactions">Quick actions</a></li> 
+     <li><a href="../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode">Selection mode</a> and the toolbar</li> 
+    </ul> <p>And then select the <strong>Edit</strong> icon:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at105355.png" /></li> 
+   <li><p>The page will be opened and you can <a href="../../../sites/authoring/using/editing-content.md#touchoptimizedui">edit the page</a> as required.<br /> </p> </li> 
+  </ol> 
+  <note> 
+   <p>Navigating to other pages from the page editor is only possible in Preview mode since links are not active in the Edit mode..</p> 
+  </note> 
+  <h3>Copying and Pasting a Page</h3> 
+  <draft-comment color="blue" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T04:51:00.367-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>6.2 Review - touch - Is there anything to differentiate between copy-root-page-alone from copy-root-page-with-all-child-pages?</p> 
+  </draft-comment> 
+  <p>You can copy a page and all of its subpages to a new location:</p> 
+  <ol> 
+   <li><p>In the <strong>Sites</strong> console, navigate until you find the page that you want to copy.</p> </li> 
+   <li><p>Select your page using either:</p> 
+    <ul> 
+     <li><a href="../../../sites/authoring/using/basic-handling.md#quickactions">Quick actions</a></li> 
+     <li><a href="../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode">Selection mode</a> and the toolbar</li> 
+    </ul> <p>And then the <strong>Copy</strong> page icon:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at105425.png" /> 
+    <note> 
+     <p>If you are in selection mode this is exited automatically as soon as the page is copied.</p> 
+    </note></li> 
+   <li><p>Navigate to the location for the new copy of the page.</p> </li> 
+   <li><p>Use the <strong>Paste</strong> page icon:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at105510.png" /><p>A copy of the original page and any subpages will be created at this location.</p> 
+    <note> 
+     <p>If you copy the page to a location where a page with the same name as the original already exists, the system will automatically generate a variation of the name by appending a number. For example if <span class="code">winter</span> already exists <span class="code">winter</span> will become <span class="code">winter1</span>.</p> 
+    </note></li> 
+  </ol> 
+  <h3>Moving or Renaming a Page</h3> 
+  <note> 
+   <p>Renaming a page is also subject to the <a href="#pagenamingconventions">Page Naming Conventions</a> when specifying the new page name.</p> 
+  </note> 
+  <note> 
+   <p>A page can only be moved to a location where the template upon which the page is based is allowed. See <a href="../../../sites/developing/using/templates.md#main-pars-title-1885710792">Template Availability</a> for more information.</p> 
+  </note> 
+  <p>The procedure to move or rename a page is basically the same and is handled by the same wizard. With this wizard you can:</p> 
+  <ul> 
+   <li>Rename a page without moving it.</li> 
+   <li>Move the page without renaming it.</li> 
+   <li>Move and rename at the same time.</li> 
+  </ul> 
+  <p>AEM offers you the functionality to update any internal links that refer to the page being renamed/moved. This can be done on a page-by-page basis to provide full flexibility.</p> 
+  <ol> 
+   <li><p>Navigate until you find the page that you want to move.</p> </li> 
+   <li><p>Select your page using either:</p> 
+    <ul> 
+     <li><a href="../../../sites/authoring/using/basic-handling.md#quickactions">Quick actions</a></li> 
+     <li><a href="../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode">Selection mode</a> and the toolbar</li> 
+    </ul> <p>And then select the <strong>Move</strong> page icon:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at105534.png" /><p>This will open the move page wizard.</p> </li> 
+   <li><p>From the <strong>Rename</strong> stage of the wizard you can either:</p> 
+    <ul> 
+     <li>Specify the name you want the page to have after it is moved, then click/tap <strong>Next</strong> to proceed.<br /> </li> 
+     <li><strong>Cancel</strong> to abort the process.</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-12.png" /><p>The page name can remain the same if you are only moving the page.</p> 
+    <note> 
+     <p>If you move a page to a location where a page with the same name already exists, the system will automatically generate a variation of the name by appending a number. For example if <span class="code">winter</span> already exists <span class="code">winter</span> will become <span class="code">winter1</span>.</p> 
+    </note></li> 
+   <li><p>From the <strong>Select Destination</strong> stage of the wizard you can either:</p> 
+    <ul> 
+     <li>Use the <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-1571169225">column view</a> to navigate to the new location for the page: 
+      <ul> 
+       <li>Select the destination it by clicking the destination's thumbnail.<br /> </li> 
+       <li>Click <strong>Next</strong> to continue.</li> 
+      </ul> </li> 
+     <li>Use <strong>Back</strong> to return to page name specification.</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-13.png" /> 
+    <note> 
+     <p>If you move a page to a location where a page with the same name already exists, the system will automatically generate a variation of the name by appending a number. For example if <span class="code">winter</span> already exists <span class="code">winter</span> will become <span class="code">winter1</span>.</p> 
+    </note></li> 
+   <li><p>If the page is linked to or referenced, then these references will be listed in the <strong>Adjust/Republish</strong> step. You can indicate which should be adjusted and republished as appropriate.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-14.png" /></li> 
+   <li><p>Selecting <strong>Move</strong> will complete the process and move/rename your page as appropriate.</p> </li> 
+  </ol> 
+  <note> 
+   <p>If the page was already published, moving the page will automatically unpublish it. By default, it will be republished when the move is complete, but this can changed by unchecking the <strong>Republish</strong> field in the <strong>Adjust/Republish</strong> step.</p> 
+  </note> 
+  <note> 
+   <p>If the page is not referenced in any way, then the <strong>Adjust/Republish</strong> step will be skipped.</p> 
+  </note> 
+  <h3>Deleting a Page</h3> 
+  <ol> 
+   <li><p>Navigate until you can see the page you want to delete.</p> </li> 
+   <li><p>Use <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-14">selection mode</a> to select the required page, then use <strong>Delete</strong> from the toolbar:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at105622.png" /> 
+    <note> 
+     <p>As a security precaution, <strong>the Delete</strong> page icon is not available as a quick action.</p> 
+    </note></li> 
+   <li><p>A dialog will ask for confirmation, use:</p> 
+    <ul> 
+     <li><strong>Cancel</strong> to abort the action</li> 
+     <li><strong>Delete</strong> to confirm the action: 
+      <ul> 
+       <li>If the page has no references, the page will be deleted.</li> 
+       <li>If the page has references, a message box will inform you that <strong>One or more pages are referenced.</strong> You can select <strong>Force Delete</strong> or <strong>Cancel</strong>.<br /> </li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ol> 
+  <note> 
+   <p>If a page is already published, it will automatically be unpublished before deletion.</p> 
+  </note> 
+  <h3>Locking a Page</h3> 
+  <p>You can <a href="../../../sites/authoring/using/editing-content.md#main-pars-title-13">lock/unlock a page</a> from either a console or when editing an individual page. Information about whether a page is locked is also shown in both locations.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at105713.png" /> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at105720.png" /> 
+  <h3>Creating a New Folder</h3> 
+  <p>You can create folders to help organize your files and pages.</p> 
+  <note> 
+   <p>Folders are also subject to the <a href="#pagenamingconventions">Page Naming Conventions</a> when specifying the new folder name.</p> 
+  </note> 
+  <note> 
+   <ul> 
+    <li>Folders can only be created directly under <strong>Sites</strong> or under other folders. They cannot be created under a page.</li> 
+    <li>The standard actions move, copy, paste, delete, publish, unpublish, and view/edit properties can be performed on a folder.</li> 
+    <li>Folders are not available for selection within a live copy.</li> 
+   </ul> 
+  </note> 
+  <ol> 
+   <li><p>Open the <strong>Sites</strong> console and navigate to the required location.</p> </li> 
+   <li><p>To open the option list, select <strong>Create</strong> from the toolbar</p> </li> 
+   <li><p>Select <strong>Folder</strong> to open the dialog. Here you can enter the <strong>Name</strong> and <strong>Title</strong>:<br /> </p> <img imageRotate="0" src="assets/chlimage_1-15.png" /></li> 
+   <li><p>Select <strong>Create</strong> to create the folder.</p> </li> 
+  </ol> 
+ </body> 
+</html>

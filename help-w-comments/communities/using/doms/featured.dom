@@ -1,0 +1,90 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="The Featured Content feature lets signed-in site visitors highlight content " name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-04-03T07:45:10.474-0400" name="lastPublishExternalDate" />
+  <meta content="2017-10-31T16:33:36.598-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="09ab4c94-b2c4-4212-aaac-c7a388ed7c0d" name="jcr:uuid" />
+  <meta content="2018-04-03T07:45:11.817-0400" name="cq:lastReplicated" />
+  <meta content="2018-04-03T07:45:10.474-0400" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/featured.html" name="publishExternalURL" />
+  <meta content="Featured Content Feature" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="/content/docs/en/aem/6-3/author/communities/featured" name="qaNotes" />
+  <meta content="408e31c5-baf9-407a-a62d-a72809923550" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-12-01T19:01:41.114-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-05-17T05:53:24.515-0400" name="cq:lastModified" />
+  <meta content="2018-05-17T05:53:24.515-0400" name="locHandOffDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:authoring;content_type:reference" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/authoring;/content/help/en/experience-manager/6-4/communities/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="2018-04-03T07:45:10.474-0400" name="topicBrowsingSortDate" />
+  <meta content="Featured Content Feature" name="seoTitle" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="false" name="isReadyForLocalization" />
+ </head>
+ <body>
+  <h3>Introduction</h3>
+  <p>The featured content feature provides an area for signed-in site visitors (community members) in the publish environment to highlight content for</p> 
+  <ul> 
+   <li><a href="../../communities/using/blog-feature.md">blogs</a></li> 
+   <li><a href="../../communities/using/calendar.md">calendars</a></li> 
+   <li><a href="../../communities/using/forum.md">forums</a></li> 
+   <li><a href="../../communities/using/ideation-feature.md">ideas</a></li> 
+   <li><a href="../../communities/using/working-with-qna.md">QnA</a></li> 
+  </ul> 
+  <p>Once content is flagged as featured, it will be listed within this component, which may be placed in specific landing pages or areas that easily catches the attention of community members.</p> 
+  <p>The ability to feature content may be allowed or disallowed per component.</p> 
+  <p>This section of the documentation describes</p> 
+  <ul> 
+   <li>adding featured content to a community site</li> 
+   <li>configuration settings for the <span class="code">Featured Content </span>component</li> 
+  </ul> 
+  <h3>Adding Featured Content to a Page</h3>
+  <p>To add a <span class="code">Featured Content</span> component to a page in author mode, use the component browser to locate</p> 
+  <ul> 
+   <li><span class="code">Communities / Featured Content</span></li> 
+  </ul> 
+  <p>and drag it into place on a page where the featured contentshould appear.</p> 
+  <p>For necessary information, visit <a href="../../communities/using/basics.md">Communities Components Basics</a>.</p> 
+  <p>When the <a href="../../communities/using/essentials-featured.md#essentialsforclientside">required client-side libraries</a> are included, this is how the <span class="code">Featured Content </span>component will appear :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-13.png" />
+  <h3>Configuring Featured Content</h3>
+  <p>Select the placed <span class="code">Featured Content</span> component to access and select the <span class="code">Configure</span> icon which opens the edit dialog.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-14.png" />
+  <img imageRotate="0" src="assets/chlimage_1-15.png" />
+  <h4>Settings tab</h4>
+  <p>Under the <strong>Settings </strong>tab, identify the content to feature :</p> 
+  <ul> 
+   <li><strong>Display Name</strong><br /> The title for the list of featured content. For example <span class="code">Featured Questions</span> or <span class="code">Featured Ideas</span>. Default is <span class="code">Featured Content</span> if left empty.</li> 
+   <li><strong>Location of the Featured Content</strong><br /> <i>(Required)</i> Browse to the page containing the content that may be feature (components of that page must be configured to Allow Featured Content). For example, <span class="code">/content/sites/engage/en/forum</span></li> 
+   <li><strong>Display Limit</strong><br /> The maximum number of featured content to display. Default is 5.</li> 
+  </ul> 
+  <h3>Site Visitor Experience</h3>
+  <p>The ability to flag content as featured content requires moderator privileges.</p> 
+  <p>When a moderator views posted content, they have access to the in-context moderation flags, which includes the new <span class="code">Feature</span> flag.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-16.png" />
+  <p>Once flagged as feature, the modeartion flag becomes <span class="code">Unfeature</span>.</p> 
+  <p>The page containing the <span class="code">Featured Content</span> component, will now include this post.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-17.png" />
+  <p><span class="code">Read More</span> is a link to the actual post. </p> 
+  <h3>Additional Information</h3>
+  <p>More information may be found on the <a href="../../communities/using/essentials-featured.md">Featured Content</a> page for developers.</p> 
+  <p>For flagging content as featured, see <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+ </body>
+</html>

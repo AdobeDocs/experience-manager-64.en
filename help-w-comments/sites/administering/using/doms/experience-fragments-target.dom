@@ -1,0 +1,111 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="aheimoz" name="cq:lastReplicatedBy" />
+  <meta content="Target Integration with Experience Fragments" name="navTitle" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-01-15T15:36:30.556-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-01-31T03:20:28.290-0500" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Target Integration with Experience Fragments" name="seoDescription" />
+  <meta content="2019-01-31T03:20:28.282-0500" name="publishExternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration;/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration" name="moreHelpPaths" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-01-31T03:20:28.282-0500" name="lastPublishExternalDate" />
+  <meta content="Target Integration with Experience Fragments" name="seoTitle" />
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="aheimoz" name="cq:lastModifiedBy" />
+  <meta content="audience:administering" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-01-31T03:20:28.325-0500" name="cq:lastReplicated" />
+  <meta content="2019-01-09T07:34:22.772-0500" name="firstPublishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:integration;content_type:reference" name="cq:tags" />
+  <meta content="carlino" name="contentOwner" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/experience-fragments-target.html" name="publishExternalURL" />
+  <meta content="2019-01-31T03:20:28.282-0500" name="topicBrowsingSortDate" />
+  <meta content="b7c10e32-98ae-4a0d-9754-de4c8e81586f" name="jcr:predecessors" />
+  <meta content="99b248e7-55d0-457d-8f64-d2bd25f4b3ea" name="jcr:uuid" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="Target Integration with Experience Fragments" name="jcr:title" />
+ </head>
+ <body>
+  <note>
+   <p>This functionality requires the application of <a href="../../../release-notes/sp-release-notes.md">AEM 6.4 Service Pack 2 (6.4.2.0)</a> or later.</p> 
+  </note>
+  <p>You can export <a href="../../../sites/authoring/using/experience-fragments.md">Experience Fragments</a>, created in Adobe Experience Manager (AEM), to Adobe Target. They can then be used as offers in Target activities, to test and personalize experiences at scale. This lets you combine the ease-of-use and power of AEM, with the powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in Target.<br /> </p> 
+  <h2>Prerequisites</h2>
+  <p>Various actions are required:</p> 
+  <ol>
+   <li><p>You have to integrate AEM with Target. See <a href="../../../sites/administering/using/target.md">Integrating with Adobe Target</a> for more information.</p> 
+    <draft-comment color="blue" lastModifiedBy="aheimoz" lastModifiedDate="2019-01-10T03:37:44.571-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark">
+     <p>for how much longer - Cloud Services config being deprecated - need to use Adobe Launch<br /> </p> 
+     <p><a href="https://jira.corp.adobe.com/browse/CQ-4248189">https://jira.corp.adobe.com/browse/CQ-4248189</a></p> 
+    </draft-comment></li>
+   <li><p>Experience Fragments are exported from the author instance, so you need to <a href="../../../sites/developing/using/externalizer.md">Configure the Link Externalizer</a> on the author instance to ensure that any links are externalized for the publish instance.</p></li>
+  </ol>
+  <h2>Add the Cloud Configuration</h2>
+  <p>Before exporting a fragment you need to add the <strong>Cloud Configuration</strong> for <strong>Adobe Target</strong> to the fragment, or folder:<br /> </p> 
+  <ol>
+   <li><p>Navigate to the <strong>Experience Fragments</strong> console.</p> </li>
+   <li><p>Open <strong>Page Properties</strong> for the appropriate folder or fragment.<br /> </p> 
+    <note>
+     <p>If you add the cloud configuration to the Experience Fragment parent folder, the configuration is inherited by all the children.</p> 
+     <p>If you add the cloud configuration to the Experience Fragment itself, the configuration is inherited by all varations.</p> 
+    </note></li>
+   <li><p>Select the <strong>Cloud Services</strong> tab.<br /> </p> </li>
+   <li><p>Under <strong>Cloud Service Configuration</strong>, select <strong>Adobe Target</strong> from the drop down list.</p> </li>
+   <li><p>Under <strong>Adobe Target</strong>, select the appropriate configuration.<br /> </p> </li>
+   <li><p><strong>Save &amp; Close</strong>.</p> </li>
+  </ol>
+  <h2>Exporting an Experience Fragment to Target</h2>
+  <note>
+   <p>For media assets, such as images, only a reference is exported to Target. The asset itself remains stored in AEM Assets and is delivered from the AEM publish instance.</p> 
+   <p>Due to this the Experience Fragment, with all related assets, needs to be published before exporting to Target.</p> 
+  </note>
+  <p>To export an experience fragment from AEM to Target (after specifying the Cloud Configuration):</p> 
+  <ol>
+   <li><p>Navigate to the Experience Fragment console.</p> </li>
+   <li><p>Select the Experience Fragment you would like to export to target.</p> 
+    <note>
+     <p>It has to be an Experience Fragment Web variation.</p> 
+    </note></li>
+   <li><p>Tap/click <strong>Export to Adobe Target</strong>.</p> 
+    <note>
+     <p>If the Experience Fragment has already been exported, select <strong>Update in Adobe Target</strong>.</p> 
+    </note></li>
+   <li><p>Tap/click <strong>Export without publishing</strong> or <strong>Publish</strong> as required.</p> 
+    <note>
+     <p>Selecting<strong> Publish</strong> will publish the experience fragment right away and send it to Target.</p> 
+    </note></li>
+   <li><p>Tap/click <strong>OK</strong> in the confirmation dialog.</p> <p>Your experience fragment should now be in Target.</p> </li>
+  </ol>
+  <note>
+   <p>Alternatively, you can perform the export from the page editor, using comparable commands in the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-21">Page Information</a> menu.</p> 
+  </note>
+  <h2>Using your Experience Fragments in Target</h2>
+  <p>After performing the preceding tasks, the experience fragment displays on the Offers page in Target. Please have a look at the <a href="https://experiencecloud.adobe.com/resources/help/en_US/target/target/aem-experience-fragments.html">specific Target documentation</a> to learn about what you can achieve there.</p> 
+  <h2>Deleting an Experience Fragment already exported to Target</h2>
+  <p>Deleting an Experience Fragment that has already been exported to Target may cause problems if the fragment is already being used in an offer in Target. Deleting the fragment would render the offer unusable as the fragment content is being delivered by AEM.</p> 
+  <p>To avoid such situations:</p> 
+  <ul>
+   <li><p>If the Experience Fragment is not being currently used in an activity, AEM allows the user to delete the fragment without a warning message.</p> </li>
+   <li><p>If the Experience Fragment is currently in use by an activity in Target, an error message warns the AEM user about possible consequences that deleting the fragment will have on the activity.</p> <p>The error message in AEM does not prohibit the user from (force-)deleting the Experience Fragment. If the Experience Fragment is deleted:</p> 
+    <ul> 
+     <li>The Target offer with AEM Experience Fragment may show undesired behavior
+      <ul> 
+       <li>The offer will likely still render, as the Experience Fragment HTML was pushed to Target</li> 
+       <li>Any references in the Experience Fragment may not work correctly if referenced assets were deleted in AEM as well.</li> 
+      </ul> </li> 
+     <li>Of course, any further modifications to the Experience Fragment are impossible as the Experience Fragment does not exist anymore in AEM.</li> 
+    </ul> </li>
+  </ul>
+ </body>
+</html>

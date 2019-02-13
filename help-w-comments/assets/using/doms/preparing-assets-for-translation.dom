@@ -1,0 +1,79 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-11-28T11:52:46.062-0500" name="lastPublishExternalDate" /> 
+  <meta content="34" name="acrolinxSentences" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="2017-12-01T19:04:33.608-0500" name="jcr:created" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/managing-assets;/content/help/en/experience-manager/6-4/assets/morehelp/managing-assets" name="moreHelpPaths" /> 
+  <meta content="Preparing Assets for Translation" name="jcr:title" /> 
+  <meta content="449" name="acrolinxWords" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="c75d065c-bfed-4514-91dd-f25bfc59624a" name="jcr:uuid" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:managing-assets;content_type:reference" name="cq:tags" /> 
+  <meta content="Create language root folders to prepare for translating multilingual assets." name="seoDescription" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2019-01-12T17:34:33.069-0500" name="acrolinxDate" /> 
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-31T16:34:21.965-0400" name="firstPublishExternalDate" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="5867531c-3f8e-4627-b65c-66cd4891340f" name="jcr:predecessors" /> 
+  <meta content="2018-04-03T08:10:11.883-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/preparing-assets-for-translation.html" name="publishExternalURL" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-11-28T11:52:46.062-0500" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-11-28T11:52:46.062-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-24T11:56:36.744-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/managing-assets-touch-ui/preparing-assets-for-translation" name="qaNotes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-24T11:56:36.744-0400" name="cq:lastModified" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/preparing_assets_for_translation_krs_workflow_f3c2f2ccebf6138e_188_report.xml" name="acrolinxReportURL" /> 
+  <meta content="Preparing Assets for Translation" name="seoTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <p>Multilingual assets means assets with binaries, metadata, and tags in multiple languages. Generally, binaries, metadata, and tags for assets exist in one language, which are then translated to other languages for use in multilingual projects.</p> 
+  <p>In Adobe Experience Manager (AEM) Assets, multilingual assets are included in folders, where each folder contains the assets in a different language.</p> 
+  <p>Each language folder is called a language copy. The root folder of a language copy, known as the language root, identifies the language of the content in the language copy. For example, <i>/content/dam/it</i> is the Italian language root for the Italian language copy. Language copies must use a <a href="../../assets/using/preparing-assets-for-translation.md#main-pars-title">correctly-configured language root</a> so that the correct language is targeted when translations of source assets are performed.</p> 
+  <p>The language copy for which you originally add assets is the language master. The language master is the source that is translated into other languages.</p> 
+  <p>The sample folder hierarchy includes several language roots:</p> 
+  <codeblock class="syntax java">
+    /content!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/-&amp;nbsp;dam!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;en!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;fr!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;de!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;es!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;it!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;ja!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;zh 
+  </codeblock> 
+  <p>Perform the following steps to prepare your assets for translation:</p> 
+  <ol> 
+   <li>Create the language root of your language master. For example, the language root of the English language copy in the sample folder hierarchy is <i>/content/dam/en</i>. Ensure that the language root is correctly configured according to the information in <a href="../../assets/using/preparing-assets-for-translation.md#main-pars-title">Creating a Language Root</a>.</li> 
+   <li>Add assets to your language master. </li> 
+   <li>Create the language root of each target language for which you require a language copy.</li> 
+  </ol> 
+  <h2>Creating a Language Root</h2> 
+  <p>To create the language root, you create a folder and use an ISO language code as the value for the Name property. After you create the language root, you can create a language copy at any level within the language root. </p> 
+  <p>For example, the root page of the Italian language copy of the sample hierarchy has <span class="code">it</span> as the Name property. The Name property is used as the name of the asset node in the repository, and therefore determines the path of the assets. (<i>&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/assets.html/content/dam/it/</i>)</p> 
+  <ol> 
+   <li><p>From the Assets console, click/tap <strong>Create</strong> and choose <strong>Folder</strong> from the menu.</p> <img imageRotate="0" src="assets/chlimage_1-122.png" /></li> 
+   <li><p>In the Name field type the country code in the format of <span class="code">&amp;lt;language-code&amp;gt;</span>.</p> <img imageRotate="0" src="assets/chlimage_1-123.png" /></li> 
+   <li><p>Click or tap<strong> Create</strong>. The language root is created in the Assets console.<br /> </p> </li> 
+  </ol> 
+  <h2>Viewing Language Roots</h2> 
+  <p>The touch-optimized UI provides a References panel that shows a list of language roots that have been created within AEM Assets.</p> 
+  <ol> 
+   <li><p>In the Assets console, select the language master for which you want to create language copies.</p> </li> 
+   <li><p>Click or tap the GlobalNav icon, and choose <strong>References</strong> to open the Reference pane.</p> <img imageRotate="0" src="assets/chlimage_1-124.png" /></li> 
+   <li><p>In the References pane, click or tap <strong>Language Copies</strong>. The Language Copies panel shows the language copies of the assets.</p> <img imageRotate="0" src="assets/chlimage_1-125.png" /></li> 
+  </ol> 
+ </body> 
+</html>

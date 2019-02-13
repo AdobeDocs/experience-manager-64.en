@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="Create target offers" name="seoDescription" /> 
+  <meta content="2018-04-19T10:26:41.374-0400" name="cq:lastModified" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="Target offers" name="seoTitle" /> 
+  <meta content="2017-10-31T16:18:32.701-0400" name="firstPublishExternalDate" /> 
+  <meta content="c47de3d4-9ef0-4253-9de1-17bebe68b7b6" name="jcr:predecessors" /> 
+  <meta content="2018-04-03T06:46:49.158-0400" name="cq:lastReplicated" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-03T06:46:48.988-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Target offers" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/personalization/campaigns/target-offers" name="qaNotes" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-12-01T19:02:57.104-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="5e1f0464-440b-4e23-81e5-88049ab10989" name="jcr:uuid" /> 
+  <meta content="2018-04-03T06:46:48.988-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Target offers" name="jcr:title" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-19T10:26:41.372-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-03T06:46:48.988-0400" name="publishExternalDate" /> 
+  <meta content="trushton" name="cq:lastModifiedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-personalization-campaigns-target-offers.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+ </head> 
+ <body> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-77F410094CD97C4F0A746C1B@AdobeID" lastModifiedDate="2017-11-30T05:07:10.645-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>Old text seems obsolete. Need to revisit.</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <img imageRotate="0" src="assets/chlimage_1-156.png" /> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <img imageRotate="0" src="assets/chlimage_1-157.png" /> 
+  </draft-comment> 
+  <h3>Creating a Test&amp;Target Offer Experience</h3> 
+  <ol> 
+   <li><p>Select your new campaign in the left pane, or double-click it in the right pane.</p> </li> 
+   <li><p>Select the list view using the icon:</p> <img imageRotate="0" src="assets/chlimage_1-158.png" /></li> 
+   <li><p>Click <strong>New ...</strong></p> </li> 
+   <li><p>You can specify the <strong>Title</strong>, <strong>Name</strong> and type of experience to be created; in this case, Test&amp;Target Offer.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-159.png" /></li> 
+   <li><p>Click <strong>Create</strong>.</p> 
+    <note> 
+     <p>Test&amp;Target experiences are not currently listed in the MCM. They can be accessed from the <strong>Websites</strong> console, under Campaigns.</p> 
+    </note></li> 
+  </ol> 
+  <h3>Integrating with Adobe Target</h3> 
+  <p>See <a href="../../../sites/administering/using/target.md">Integrate with Adobe </a><a href="../../../sites/administering/using/target.md">Target</a> for full details.</p> 
+ </body> 
+</html>

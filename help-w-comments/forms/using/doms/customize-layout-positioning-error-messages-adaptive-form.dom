@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/ze_layout_positioning_error_messages_adaptive_form_admin_5e12de0b318c6865_1996_report.xml" name="acrolinxReportURL" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="32" name="acrolinxSentences" /> 
+  <meta content="2018-04-03T08:24:14.502-0400" name="cq:lastReplicated" /> 
+  <meta content="537" name="acrolinxWords" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T08:24:13.255-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:customization" name="cq:tags" /> 
+  <meta content="2018-04-26T04:39:24.721-0400" name="cq:lastModified" /> 
+  <meta content="2016-05-31T06:36:53.663-0400" name="acrolinxDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="eeda5b9f-aff3-462a-a5b9-731c5f16c7d4" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2016-04-20T09:33:28.273-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-12-01T19:03:34.770-0500" name="jcr:created" /> 
+  <meta content="You can customize layout and positioning of the error messages of an adaptive for. " name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2015-08-26T06:47:37.108-0400" name="lastPublishQADate" /> 
+  <meta content="2018-04-03T08:24:13.255-0400" name="publishExternalDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2018-04-03T08:24:13.255-0400" name="lastPublishExternalDate" /> 
+  <meta content="a93bf62f-75b2-44b0-b19d-67d40a4be108" name="jcr:predecessors" /> 
+  <meta content="Customize layout and positioning of error messages of an adaptive form" name="jcr:title" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/customize-layout-positioning-error-messages-adaptive-form.html" name="publishExternalURL" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-04-26T04:39:24.720-0400" name="locHandOffDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>You can customize layout and positioning of the error messages of an adaptive form. You can perform the following customizations:</p> 
+  <ul> 
+   <li>Customize location and layout of the caption of a field without making any change to the corresponding CSS properties<br /> </li> 
+   <li>Customize position of inline error messages</li> 
+   <li>Customize content of dynamic help indicator</li> 
+   <li>Customize position of the field components (caption, widget, short description, long description, and help indicator components) without making any change to the corresponding CSS properties</li> 
+  </ul> 
+  <h2>Customize layout of fields</h2> 
+  <p>You can customize the layout of a single field or of all the fields to change the position of caption and error messages. Perform the following steps to apply a custom layout to a field:</p> 
+  <h3>Customize layout of a single field</h3> 
+  <p>Perform the following steps to apply a custom layout to a single field:</p> 
+  <ol> 
+   <li><p>Open the form in <strong>Style</strong> mode. To open the form in style mode, in the page toolbar tap <img src="assets/canvas-drop-down.png" /> &amp;gt; <strong>Style</strong>.<strong> </strong></p> </li> 
+   <li><p>In the sidebar, under Form Objects<strong>,</strong> select the field and tap the edit button <img src="assets/edit-button.png" />.</p> </li> 
+   <li><p>Select the state of the field you want to customize, and specify the styling for that state. </p> <img alt="Specifying inline styling of a field" imageRotate="0" src="assets/edit-error-state.png" title="Specifying inline styling of a field" /></li> 
+  </ol> 
+  <h3>Customize layout of all the fields of a form</h3> 
+  <p>With AEM Forms, you can now create a theme and apply it to your form. Theme editor lets you specify styling of form components in one place. When you create a theme, you specify styling at a component level. For more information on themes, see <a href="../../forms/using/themes.md" target="_blank">Themes in AEM Forms</a>.</p> 
+  <p>Create a theme using Theme Editor to customize layout of all fields in your form. After you create a theme, perform the following steps to apply it to a form:</p> 
+  <ol> 
+   <li><p>Open your form in edit mode. </p> </li> 
+   <li><p>In the edit mode, select a component, then tap <img src="assets/field-level.png" /> &amp;gt; <strong>Adaptive Form Container</strong>, and then tap <img src="assets/cmppr.png" />.</p> </li> 
+   <li><p>In the sidebar, under Adaptive Form Theme, select the theme you have created using the Theme Editor. </p> </li> 
+  </ol> 
+  <h2>Create a custom field layout</h2> 
+  <ol> 
+   <li><p>Open CRXDE lite. The default URL is http://[Server]:[Port]/crx/de.</p> </li> 
+   <li><p>Copy a field layout from the /libs/fd/af/layouts/field node (For example, defaultFieldLayout) to the /apps node (For example, /apps/af-field-layout).</p> </li> 
+   <li><p>Rename the copied node and the defaultFieldLayout.jsp file. For example, errorOnRight.jsp.<br /> </p> </li> 
+   <li><p>Change value of the qtip and jcr:description properties of the copied node. For example, change the value of the properties to Error On Right<br /> </p> </li> 
+   <li><p>To add new styles and behavior, create a client library in the /etc node. </p> <p>For example, at the location /etc/af-field-layout-clientlib, create the node client-library. Add the categories property with value af.field.errorOnRight and style.less file with following code:<br /> </p> 
+    <codeblock gutter="true" class="syntax css">
+      !!discoiqbr!!.widgetErrorWrapper&amp;nbsp;{!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;height:&amp;nbsp;38px;!!discoiqbr!!&amp;nbsp;margin:&amp;nbsp;5px;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;.guideFieldWidget{!!discoiqbr!!&amp;nbsp;width:&amp;nbsp;60%;!!discoiqbr!!&amp;nbsp;float:&amp;nbsp;left;&amp;nbsp;!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;.guideFieldError{!!discoiqbr!!&amp;nbsp;overflow:hidden;!!discoiqbr!!&amp;nbsp;width:40%;&amp;nbsp;!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>To enhance the appearance and behavior, include the client library created in the layout file (errorOnRight.jsp).</p> </li> 
+   <li><p>Open the edit dialog of the field select the <strong>Styling </strong>tab. In the <strong>Configure Field Layout</strong> drop-down box, select the newly created layout, and click <strong>OK</strong>.</p> </li> 
+  </ol> 
+  <div> 
+   <p>The ErrorOnRight.zip package contains code to show error messages on the right side of fields.</p> 
+   <p><a alt="ErrorOnRight.zip" href="assets/erroronright.zip">Get File</a></p> 
+  </div> 
+  <related-links> 
+   <a href="../../forms/using/creating-custom-adaptive-form-themes.md">Create custom Adaptive form themes</a> 
+   <a href="../../forms/using/dynamically-populate-dropdowns.md">Dynamically populating drop-down lists</a> 
+  </related-links> 
+ </body> 
+</html>

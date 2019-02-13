@@ -1,0 +1,75 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2013-03-22T13:14:46.516-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="autotags" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2015-09-18T10:57:54.831-0400" name="publishQADate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="LiveCycle/10.5/HTMLWorkspace/WSa0b1fbebd32c111d-c643b1913c6366759f-7fff" name="cq:gepId" /> 
+  <meta content="robhagat" name="contentOwner" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2016-05-31T06:47:29.028-0400" name="acrolinxDate" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/architecture.html" name="publishQAURL" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="robhagat" name="lr_lastModifiedBy" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" /> 
+  <meta content="2013-02-19T05:45:19.703-0500" name="firstPublishQADate" /> 
+  <meta content="2018-04-26T04:38:00.176-0400" name="locHandOffDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="271101ce-56ec-4566-aecf-ed5a8f31f32e" name="jcr:uuid" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/architecture1_admin_5e12de0b318c6865_2112_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-03T08:41:45.661-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-26T04:38:00.177-0400" name="cq:lastModified" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="sortDate" /> 
+  <meta content="2013-02-18T07:11:31.118-0500" name="jcr:created" /> 
+  <meta content="Conceptual information and overview of the architecture of LiveCycle AEM Forms workspace." name="seoDescription" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="229" name="acrolinxWords" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-03T08:41:46.478-0400" name="cq:lastReplicated" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" /> 
+  <meta content="mix:lockable;mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="" name="autotagsRejected" /> 
+  <meta content="12" name="acrolinxSentences" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Architecture" name="navTitle" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/forms-workspace;/content/help/en/experience-manager/6-4/forms/morehelp/forms-workspace" name="moreHelpPaths" /> 
+  <meta content="AEM Forms Workspace Architecture" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="599d2fbc-28dd-4c4d-9816-64539d3fc641" name="jcr:predecessors" /> 
+  <meta content="2015-09-18T10:57:54.831-0400" name="lastPublishQADate" /> 
+  <meta content="robhagat" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T08:41:45.661-0400" name="publishExternalDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="robhagat" name="lr_creator" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/html-workspace-architecture.html" name="publishExternalURL" /> 
+ </head> 
+ <body> 
+  <p>AEM Forms workspace is a web application hosted on CRX™. When workspace is opened in a browser, a CRX resource is accessed, and the application is rendered as HTML page in the browser.</p> 
+  <p>The application accesses AEM Forms server on REST endpoints to do the following:</p> 
+  <ul> 
+   <li>Fetch user tasks, process startpoints, process history, and user information</li> 
+   <li>Perform action on tasks</li> 
+   <li>Query tasks in database</li> 
+   <li>Update user preferences and more</li> 
+  </ul> 
+  <p>The AEM Forms server accesses AEM Forms database over JDBC. The database persists tasks, processes and their instances, users, and related information. </p> 
+  <p>The AEM Forms workspace is designed into modular JavaScript™ components which can be individually customized and reused in other web applications. The components are based on BackBone which is a JavaScript library that gives structure to web applications. A detailed article describing interaction of components with BackBone is <a href="../../forms/using/backbone-interaction.md">here</a>. The organization of components in the CRX folder structure is discussed in <a href="../../forms/using/folder-structure.md">this</a> article.</p> 
+  <p>Packages delivered for AEM Forms workspace:</p> 
+  <ul> 
+   <li><span class="code">adobe-lc-workspace-pkg-&amp;lt;version&amp;gt;.zip</span>: It is CRX package, that is, it can be deployed in CRX using the Package Manager.</li> 
+   <li><span class="code">adobe-lc-workspace-&amp;lt;version&amp;gt;-src.zip</span>: It is an archive that contains complete code of AEM Forms workspace and scripts to create the deploy packages--Ship, Debug, and Dev packages.<br /> </li> 
+  </ul> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+ </body> 
+</html>

@@ -1,0 +1,202 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="vishgupt@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:author" name="cq:tags" /> 
+  <meta content="vishgupt" name="cq:lastModifiedBy" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-12-01T19:05:06.335-0500" name="jcr:created" /> 
+  <meta content="2018-04-25T08:14:14.780-0400" name="publishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/adaptive-form-fragments.html" name="publishExternalURL" /> 
+  <meta content="1955" name="acrolinxWords" /> 
+  <meta content="2015-11-20T08:24:12.451-0500" name="lastPublishQADate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2018-04-25T08:14:14.780-0400" name="lastPublishExternalDate" /> 
+  <meta content="44795866-3a10-429d-942b-9761318fad34" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-26T04:26:03.007-0400" name="cq:lastModified" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/author;/content/help/en/experience-manager/6-4/forms/morehelp/author" name="moreHelpPaths" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/adaptive_form_fragments_admin_5e12de0b318c6865_1945_report.xml" name="acrolinxReportURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="118" name="acrolinxSentences" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2016-05-31T06:31:03.395-0400" name="acrolinxDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-25T08:14:15.060-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-26T04:26:03.006-0400" name="locHandOffDate" /> 
+  <meta content="vishgupt" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-25T08:14:14.780-0400" name="topicBrowsingSortDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="Adaptive form fragments" name="jcr:title" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Adaptive forms provides a mechanism to create a form segment, such as a panel or a group of fields, as use it in any adaptive form. You can also save an existing panel as fragment." name="seoDescription" /> 
+  <meta content="55100f46-4367-45e8-87aa-9f740a38ae87" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2016-04-20T09:28:50.830-0400" name="firstPublishExternalDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+ </head> 
+ <body> 
+  <p>While every form is designed for a specific purpose, there are some common segments in most forms, such as to provide personal details like name and address, family details, income details, and so on. Form developers are required to create these common segments every time a new form is created.</p> 
+  <p>Adaptive forms provides a convenient mechanism to create form segment like a panel or a group of fields only once and reuse them across adaptive forms. These reusable and standalone segments are called adaptive form fragments.</p> 
+  <h2>Create a fragment</h2> 
+  <p>You can create an adaptive form fragment from scratch or save a panel in an existing adaptive form as fragment.</p> 
+  <h3>Create fragment from scratch</h3> 
+  <ol> 
+   <li><p>Log into AEM Forms author instance at http://[<em>hostname</em>]:[<em>port</em>]/aem/forms.html.</p> </li> 
+   <li><p>Click <strong>Create &amp;gt; Adaptive Form Fragment</strong>.</p> </li> 
+   <li><p>Specify title, name, description, and tags for the fragment.</p> 
+    <note> 
+     <p>Ensure that you specify a unique name for the fragment. If there already exists another fragment with the same name, the fragment fails to create.</p> 
+    </note></li> 
+   <li><p>Click to open the <strong>Form Model</strong> tab, and from the <strong>Select From</strong> drop-down menu, select one of the following models for the fragment:</p> 
+    <ul> 
+     <li><strong>None</strong>: Specifies to create the fragment from scratch without using any form model.</li> 
+     <li><strong>Form Template</strong>: Specifies to create the fragment using an XDP template uploaded to AEM Forms. Select the appropriate XDP template as the form model for the fragment.</li> 
+    </ul> <img alt="Creating an adaptive form using form template as model" imageRotate="0" src="assets/form-template-model.png" /><p>The sub forms marked as fragments in the selected form template are also displayed. You can select a sub form for adaptive form fragment from the drop-down list.</p> <img alt="Select subforms from the specified form template" imageRotate="0" src="assets/fragment-subform.png" /><p>In addition, you can create an adaptive form fragment using sub forms that are not marked as fragments in the form template by specifying the SOM expression for the sub form in the drop-down box. </p> 
+    <ul> 
+     <li><strong>XML Schema</strong>: Specifies to create the fragment using an XML schema uploaded to AEM Forms. You can upload or select from the available XML schemas as the form model for the fragment.</li> 
+    </ul> <img alt="Create an adaptive form fragment based on an XML schema as model" imageRotate="0" src="assets/xml-schema-model.png" /><p>You can also create an adaptive form fragment by selecting a complexType present in the selected schema from the drop-down box.</p> <img alt="Select a complex type from the specified XML schema model" imageRotate="0" src="assets/complex-type.png" /></li> 
+   <li><p>Click <strong>Create</strong> and then click <strong>Open</strong> to open the fragment, with a default template, in edit mode.</p> </li> 
+  </ol> 
+  <p>In edit mode, you can drag-and-drop any adaptive form component from the AEM sidekick onto the fragment. For information about adaptive form components, see <a href="../../forms/using/introduction-forms-authoring.md" target="_blank">Introduction to authoring adaptive forms</a>.</p> 
+  <p>In addition, if you selected an XML schema or XDP form template as the form model for your fragment, a new tab displaying the form-model hierarchy appears in the content finder. It allows you to drag-and-drop form-model elements onto the fragment. The added form-model elements get converted into form components while retaining the original properties from the associated XDP or XSD.</p> 
+  <h3>Save panel as a fragment</h3> 
+  <ol> 
+   <li><p>Open an adaptive form that contains the panel you want to save as adaptive form fragment.</p> </li> 
+   <li><p>In the panel toolbar, click <span class="uicontrol">Save as Fragment</span>. The Save As Fragment dialog opens.</p> 
+    <note> 
+     <p>If the panel you are saving as fragment contains child panel, the resulting fragment will include them.</p> 
+    </note></li> 
+   <li><p>In the Fragment Creation dialog, specify the following information:</p> 
+    <ul> 
+     <li><strong>Name</strong>: Name of the fragment. The default value is the element name of the panel. It is a mandatory field.<br /> <em><strong>Note</strong>: Ensure that you specify a unique name for the fragment. If there already exists another fragment with the same name, the fragment fails to create.</em><br /> </li> 
+     <li><strong>Title</strong>: Title of the fragment. The default value is the title of the panel.<br /> </li> 
+     <li><strong>Description</strong>: Description of the fragment.<br /> </li> 
+     <li><strong>Tags</strong>: Tags metadata for the fragment.<br /> </li> 
+     <li><strong>Target Path</strong>: Repository path where the fragment will be saved. If you do not specify a path, a node with the same name as that of the fragment gets created next to the node containing the adaptive form. The fragment is saved in this node.<br /> </li> 
+     <li><strong>Form Model</strong>: Depending on the form model for the adaptive form, this field displays the <strong>XML Schema</strong>, <strong>Form Template</strong>, or <strong>None</strong>. It is a non-editable field.</li> 
+     <li><strong>Fragment Model Root</strong>: Appears only in XSD-based adaptive forms. It specifies the root for the fragment model. You can choose <strong>/</strong> or the XSD complex type from the drop-down. Note that you can reuse the fragment in another adaptive form only if you select the complex type as the fragment model root.<br /> If you choose <strong>/</strong> as the fragment model root, the complete XSD tree from the root is visible in the adaptive form data model tab. For a complex type fragment model root, only the descendants of the selected complex type are visible in the adaptive form data model tab.<br /> </li> 
+     <li><strong>XSD Ref</strong>: Appears only in XSD-based adaptive forms. It displays the location of the XML schema.<br /> </li> 
+     <li><strong>XDP Ref</strong>: Appears only in XDP-based adaptive forms. It displays the location of the XDP form template.</li> 
+    </ul> <img captionBottom="Save As Fragment dialog" imageRotate="0" src="assets/save-fragment.png" title="Save Fragment dialog" /></li> 
+   <li><p>Click <strong>OK</strong>.</p> <p>The panel is saved at the specified or the default location in the repository. In the adaptive form, the panel is replaced by a snapshot of the fragment. As shown below, the General Information panel and its child panels, Personal Information and Address, are saved as a fragment.</p> <p>To edit the fragment, click <span class="uicontrol">Edit Asset</span> in the panel toolbar. The fragment opens in a new tab or window in edit mode.</p> <img alt="Editing fragment" imageRotate="0" src="assets/edit-fragment.png" title="Editing fragment" /></li> 
+  </ol> 
+  <h2>Working with fragments</h2> 
+  <h3>Configure fragment appearance</h3> 
+  <p>Any fragment you insert in adaptive forms appears as a placeholder image. The placeholder displays titles of up to a maximum of ten child panels in the fragment. You can configure AEM Forms to show the complete fragment instead of the placeholder image.</p> 
+  <p>Perform the following steps to show complete fragments in forms:</p> 
+  <ol> 
+   <li>Go to AEM web console configuration page at http:[<em>host</em>]:[<em>port</em>]/system/console/configMgr.</li> 
+   <li>Search and click <span class="uicontrol">Adaptive Form Configuration Service</span> to open it in edit mode.</li> 
+   <li>Disable <span class="uicontrol">Enable Placeholder in place of Fragment</span> checkbox to show complete fragments rather than the placeholder image.</li> 
+  </ol> 
+  <h3>Insert a fragment in an adaptive form</h3> 
+  <p>The adaptive form fragments you create appear in the Adaptive Form Fragments tab of the AEM content finder. To insert an adaptive form fragment in an adaptive form:</p> 
+  <ol> 
+   <li><p>Open the adaptive form, in edit mode, in which you want to insert an adaptive form fragment.</p> </li> 
+   <li><p>Click <strong>Assets </strong><img src="assets/assets-browser.png" /> in the sidebar. In the assets browser, select <strong>Adaptive Form Fragments </strong>from the drop-down<strong>. </strong></p> <p>You can also choose to display all adaptive form fragments or filter based on their form model - Form Template, XML Schema, or Basic.</p> </li> 
+   <li><p>Drag-and-drop an adaptive form fragment onto the adaptive form.</p> 
+    <note> 
+     <p>The adaptive form fragment is not enabled for authoring from within the adaptive form. Moreover, you cannot use an XSD-based fragment in a JSON-based adaptive form and the opposite way.</p> 
+    </note></li> 
+  </ol> 
+  <p>The adaptive form fragment is inserted by reference in the adaptive form and is synchronized with the standalone adaptive form fragment. It means when you update the adaptive form fragment, the changes reflect in all adaptive forms where the fragment is used.</p> 
+  <h3>Embed a fragment in adaptive form</h3> 
+  <p>You can choose to embed an adaptive form fragment in an adaptive form by clicking <strong>Embed Asset: &amp;lt;<em>fragmentName</em>&amp;gt;</strong> button on the panel toolbar of the added fragment, as shown in the following example image.</p> 
+  <img alt="Embed a form fragment in adaptive form" imageRotate="0" src="assets/embed-fragment.png" /> 
+  <note> 
+   <p>The embedded fragment is no longer linked with the standalone fragment. You can edit the components in the embedded fragment from within the adaptive form.</p> 
+  </note> 
+  <h3>Using fragments within fragments</h3> 
+  <p>You can create nested adaptive form fragments, which means you can drag-drop a fragment in another fragment, and can have nested fragment structure.</p> 
+  <h3>Change fragments</h3> 
+  <p>You can replace or change an adaptive form fragment by another fragment by using the <strong>Select Fragment asset</strong> property in the Edit component dialog for an adaptive form fragment panel.</p> 
+  <h2>Auto mapping of fragments for data binding</h2> 
+  <p>When you create an adaptive form fragment using an XFA form template or XSD complex type and drag-drop the fragment to an adaptive form, the XFA fragment or the XSD complex type is automatically replaced by the corresponding adaptive form fragment whose fragment model root is mapped to the XFA fragment or XSD complex Type.</p> 
+  <p>You can change the fragment asset and its bindings from the Edit component dialog.</p> 
+  <note> 
+   <p>You can also drag-drop a bound adaptive form fragment from Adaptive Form Fragment library in AEM content finder and provide the correct bind reference from the Edit component dialog of the adaptive form fragment panel.</p> 
+  </note> 
+  <h2>Manage fragments</h2> 
+  <p>You can perform several operations on adaptive form fragments using the AEM Forms UI.</p> 
+  <ol> 
+   <li><p>Go to http://[hostname]:[port]/aem/forms.html.<br /> </p> </li> 
+   <li><p>Click <strong>Select</strong> in the AEM Forms UI toolbar and select an adaptive form fragment. The toolbar displays the following operations you can perform on the selected adaptive form fragment.</p> 
+    <table border="1" cellpadding="0" cellspacing="0"> 
+     <tbody> 
+      <tr> 
+       <td valign="top" width="132"><p><strong>Operation</strong></p> </td> 
+       <td valign="top" width="406"><p><strong>Description</strong></p> </td> 
+      </tr> 
+      <tr> 
+       <td valign="top" width="132"><p>Open</p> </td> 
+       <td valign="top" width="406"><p>Opens the selected adaptive form fragment in edit mode.<br /> <br /> </p> </td> 
+      </tr> 
+      <tr> 
+       <td valign="top" width="132"><p>View Properties</p> </td> 
+       <td valign="top" width="406"><p>Opens the Properties panel. From the Properties panel, you can view and edit properties, generate a preview, and upload a thumbnail image for the selected fragment. For more information, see <a href="../../forms/using/manage-form-metadata.md" target="_blank">Managing metadata</a>.<br /> <br /> </p> </td> 
+      </tr> 
+      <tr> 
+       <td valign="top" width="132"><p>Copy</p> </td> 
+       <td valign="top" width="406"><p>Copies the selected fragment. The Paste button appears in the toolbar.<br /> <br /> </p> </td> 
+      </tr> 
+      <tr> 
+       <td valign="top" width="132"><p>Download</p> </td> 
+       <td valign="top" width="406"><p>Downloads the selected fragment.<br /> <br /> </p> </td> 
+      </tr> 
+      <tr> 
+       <td valign="top" width="132"><p>Preview</p> </td> 
+       <td valign="top" width="406"><p>Provides options to preview the fragment as an HTML or a custom preview by merging data from an XML file with the fragment. For more information, see <a href="../../forms/using/previewing-forms.md" target="_blank">Previewing a form</a>.<br /> <br /> </p> </td> 
+      </tr> 
+      <tr> 
+       <td valign="top" width="132"><p>Start Review / Manage Review</p> </td> 
+       <td valign="top" width="406"><p>Allows initiating and managing a review of the selected fragment. For more information, see <a href="../../forms/using/create-reviews-forms.md" target="_blank">Creating and managing reviews</a>.<br /> <br /> </p> </td> 
+      </tr> 
+      <tr> 
+       <td valign="top" width="132"><p>Create Dictionary</p> </td> 
+       <td valign="top" width="406"><p>Generates a dictionary for localizing the selected fragment. For more information, see <a href="/forms/using/localizing-adaptive-forms" target="_blank">Localizing adaptive forms</a>.<br /> <br /> </p> </td> 
+      </tr> 
+      <tr> 
+       <td valign="top" width="132"><p>Publish / Unpublish</p> </td> 
+       <td valign="top" width="406"><p>Publishes / unpublishes the selected fragment.<br /> <br /> </p> </td> 
+      </tr> 
+      <tr> 
+       <td valign="top" width="132"><p>Delete</p> </td> 
+       <td valign="top" width="406"><p>Deletes the selected fragment.<br /> <br /> </p> </td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+  </ol> 
+  <h2>Localizing adaptive form containing fragments</h2> 
+  <p>To localize an adaptive form that contains adaptive form fragments, you need to localize the fragment and the form separately. The idea is to localize a fragment once and reuse it in multiple adaptive forms.</p> 
+  <note> 
+   <p>The localization keys in the fragment won’t appear in the XLIFF file for an adaptive form.</p> 
+  </note> 
+  <h2>Key points to remember when working with fragments</h2> 
+  <ul> 
+   <li>Ensure that the fragment name is unique. The fragment fails to create if there is an existing fragment with the same name.</li> 
+   <li>In an XDP-based adaptive form, if you save a panel as fragment that includes another XDP fragment, the resulting fragment will be automatically bound to the child XDP fragment. In case of an XSD-based adaptive form, the resulting fragment will be bound to the schema root.<br /> </li> 
+   <li>When you create an adaptive form fragment, a fragment node gets created, which is similar to the guideContainer node for an adaptive form, in CRXDe Lite.</li> 
+   <li>A fragment in an adaptive form that uses a different form data model is not supported. For example, an XDP-based fragment is not supported in an XSD-based adaptive form and vice-versa.</li> 
+   <li>Adaptive form fragments are available for use through the Adaptive Form Fragments tab in AEM content finder.</li> 
+   <li>Any expression, script, or style in a stand-alone adaptive form fragment is retained when it is inserted by reference or embedded in an adaptive form.</li> 
+   <li>You cannot edit an adaptive form fragment, which is inserted by reference, from within an adaptive form. To edit, you either edit the stand-alone adaptive form fragment or embed the fragment in the adaptive form.</li> 
+   <li>When you publish an adaptive form, you need to publish the standalone adaptive form fragments inserted by reference in the adaptive form.</li> 
+   <li>When you republish an updated adaptive form fragment, the changes reflect in the published instances of the adaptive form in which the fragment is used.</li> 
+   <li>Adaptive form containing the Verify component does not support anonymous users. Also, it is not reommended to use the Verify component in an adaptive form fragment.<br /> </li> 
+   <li>(<strong>Mac only</strong>) To ensure that the form fragments functionality works perfectly in all the scenarios, add the following entry to the /private/etc/hosts file:<br /> <span class="code">127.0.0.1 &amp;lt;Host machine&amp;gt;</span><strong><br /> Host machine</strong>: The Apple Mac machine on which AEM Forms is deployed.</li> 
+  </ul> 
+  <h2>Reference Fragments</h2> 
+  <p>Reference adaptive form fragments that you can use to create your form are available. For more information, see <a href="../../forms/using/reference-adaptive-form-fragments.md" target="_blank">Reference Fragments</a>.</p> 
+ </body> 
+</html>

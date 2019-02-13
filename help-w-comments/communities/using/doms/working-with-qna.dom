@@ -1,0 +1,152 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Q&amp;A Forum Feature" name="seoTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/authoring;/content/help/en/experience-manager/6-4/communities/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="2017-10-31T16:33:07.787-0400" name="firstPublishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Q&amp;A Forum Feature" name="jcr:title" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="Adding the QnA forum feature to a page" name="seoDescription" />
+  <meta content="2018-12-04T04:22:54.377-0500" name="topicBrowsingSortDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/working-with-qna.html" name="publishExternalURL" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="4e9b06ab-048d-44d4-80ea-bf68863d2927" name="jcr:predecessors" />
+  <meta content="mgulati" name="cq:lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:authoring;content_type:reference" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-12-17T06:03:54.915-0500" name="locHandOffDate" />
+  <meta content="a930dc20-8ad8-4761-b5f1-8ef803c6436d" name="jcr:uuid" />
+  <meta content="2018-12-04T04:22:54.377-0500" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-12-04T04:22:54.377-0500" name="lastPublishExternalDate" />
+  <meta content="2017-12-01T19:02:49.811-0500" name="jcr:created" />
+  <meta content="2018-12-17T06:03:54.916-0500" name="cq:lastModified" />
+  <meta content="2018-12-04T04:22:54.423-0500" name="cq:lastReplicated" />
+  <meta content="/content/docs/en/aem/6-3/author/communities/qna" name="qaNotes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Q&amp;A Forum Feature" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mgulati@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mgulati" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <h2>Introduction</h2>
+  <p>The QnA (questions and answers) forum feature provides an area for community members to ask and answer questions :</p> 
+  <ul> 
+   <li>create new questions</li> 
+   <li>inline images (with support for drag and drop)</li> 
+   <li>view and answer questions</li> 
+   <li>search for a question</li> 
+   <li>help moderate the QnA content</li> 
+   <li>identify best answers</li> 
+   <li>move QnA questions from one page to another</li> 
+  </ul> 
+  <p>This section of the documentation describes</p> 
+  <ul> 
+   <li>adding the QnA forum feature to an AEM site</li> 
+   <li>configuration settings for the <span class="code">QnA </span>component</li> 
+  </ul> 
+  <h2>Adding a Q&amp;A Forum to a Page</h2>
+  <p>To add a <span class="code">QnA</span> component to a page in author mode, use the component browser to locate</p> 
+  <ul> 
+   <li><span class="code">Communities / QnA</span></li> 
+  </ul> 
+  <p>and drag it into place on a page where the QnA forum should appear.</p> 
+  <p>For necessary information, visit <a href="../../communities/using/basics.md">Communities Components Basics</a>.</p> 
+  <p>When the <a href="../../communities/using/qna-essentials.md#essentialsforclientside">required client-side libraries</a> are included, this is how the <span class="code">QnA </span>component will appear :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-292.png" />
+  <h3>Configuring QnA</h3>
+  <p>Select the placed <span class="code">QnA</span> component to access and select the <span class="code">Configure</span> icon which opens the edit dialog.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-293.png" />
+  <img imageRotate="0" src="assets/chlimage_1-294.png" />
+  <h4>Settings tab</h4>
+  <p>Under the <strong>Settings </strong>tab, specify settings for topics (questions) and replies (answers) :</p> 
+  <ul> 
+   <li><strong>Topics Per Page</strong><br /> Defines the number of questions/posts shown per page. Default is 10.</li> 
+   <li><strong>Moderated</strong><br /> If checked, posting of topics and comments must be approved before they will appear on a publish site. Default is unchecked.</li> 
+   <li><strong>Closed</strong><br /> If checked, the forum is closed to new questions and comments. Default is unchecked.</li> 
+   <li><strong>Rich Text Editor</strong><br /> If checked, topics and comments may be entered with markup. Default is unchecked.</li> 
+   <li><strong>Allow Tagging</strong><br /> If checked, allow members to add tag labels to their post (see <strong>Tag field</strong> tab). Default is unchecked.</li> 
+   <li><strong>Allow File Uploads</strong><br /> If checked, allow file attachments to be added to the question or comment. Default is unchecked.</li> 
+   <li><strong>Max File Size</strong><br /> Relevant only if <span class="code">Allow File Uploads</span> is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).</li> 
+   <li><strong>Allowed File Types</strong><br /> Relevant only if <span class="code">Allow File Uploads</span> is checked. A comma separated list of file extensions with the "dot" separater. For example : .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that<strong> </strong>all file types are allowed.</li> 
+   <li><strong>Max Attach Image File Size</strong><br /> Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152<strong> </strong>(2 Mb).</li> 
+   <li><strong>Allow Following</strong><br /> If checked, include the following feature for forum posts, which allows members to be <a href="../../communities/using/notifications.md">notified</a> of new posts. Default is unchecked.</li> 
+   <li><strong>Allow Pinning</strong><br /> If checked, forum topics may be pinned to the top of the list of topics. Default is unchecked.</li> 
+   <li><strong>Allow Email Subscriptions</strong><br /> If checked, allow members to be notified of new posts by email (<a href="../../communities/using/subscriptions.md">subscription</a>). Requires <span class="code">Allow Following</span> to be checked and <a href="../../communities/using/email.md">email configured</a>. Default is unchecked.</li> 
+   <li><strong>Allow Replies</strong><br /> If checked, allow replies to comments posted to the question. Default is unchecked.</li> 
+   <li><strong>Allow Users to Delete Comments and Topics</strong><br /> If checked, allow members to delete the comments and questions they posted. Default is<strong> </strong>unchecked.</li> 
+   <li><strong>Allow Voting</strong><br /> If checked, include the Voting feature with a question. Default is unchecked.</li> 
+   <li><strong>Move Selected Answer To The Top</strong><br /> If checked, first answer shown is a selected answer. Default is checked.</li> 
+   <li><strong>Display Badges</strong><br /> If checked, display earned and assigned <a href="../../communities/using/implementing-scoring.md">badges</a> with a member's blog entry. Default is unchecked.</li> 
+   <li><strong>Allow Featured Content</strong><br /> if checked, the idea is able to be identified as <a href="../../communities/using/featured.md">featured content</a>. Default is unchecked.</li> 
+  </ul> 
+  <h4>User Moderation tab</h4>
+  <p>Under the <strong>User Moderation </strong>tab, specify how the posted topics (quetions) and answers (user generated content) are managed. For more information, see <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+  <ul> 
+   <li><strong>Deny Answers</strong><br /> If checked, trusted member moderators will be allowed to deny posted answers and prevent the answer from appearing on the public Q&amp;A forum. Default is unchecked.</li> 
+   <li><strong>Close / Reopen Topics</strong><br /> If checked, trusted member moderators may close a question (topic) to further edits and answers, and may also reopen a question. Default is unchecked.</li> 
+   <li><strong>Move Topics</strong><br /> If checked, allow publish-side moderators to move questions. Default is unchecked.</li> 
+   <li><strong>Flag Posts</strong><br /> If checked, allow members to flag others' questions or answers as inappropriate. Default is unchecked.</li> 
+   <li><strong>Flag Reason List</strong><br /> If checked, allow members to choose, from a drop-down list, their reason for flagging a question or answer as inappropriate. Default is unchecked.</li> 
+   <li><strong>Custom Flag Reason</strong><br /> If checked, allow members to enter their own reason for flagging a question or answer as inappropriate. Default is unchecked.</li> 
+   <li><strong>Moderation Threshold</strong><br /> Enter the number of times a question or answer has to be flagged by members before moderators are notified. Default is 1 ( one time).</li> 
+   <li><strong>Flagging Limit</strong><br /> Enter the number of times a question or answer has to be flagged before it is hidden from public view. If set to -1, the flagged question or answer is never hidden from public view. Else, this number must be greater than or equal to the Moderation Threshold. Default is 5.</li> 
+  </ul> 
+  <h4>Tag field tab</h4>
+  <p>Under the <strong>Tag field</strong> tab, the tags which may be applied, if allowed under the <strong>Settings </strong>tab, are limited according to namespaces chosen.</p> 
+  <ul> 
+   <li><strong>Allowed Namespaces</strong><br /> Relevant if <span class="code">Allow Tagging</span> is checked under the <strong>Settings </strong>tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.</li> 
+   <li><strong>Suggestion Limit</strong><br /> Enter the number of tags to be displayed as a suggestion to the member posting to the forum. A value of <strong>-</strong>1 means no limits. Default is 0.</li> 
+  </ul> 
+  <h4>Sort Settings tab</h4>
+  <p>Under the <strong>Sort Settings </strong>tab, specify how the posted comments are sorted when displayed. </p> 
+  <ul> 
+   <li><strong>Sort By</strong><br /> Check all allowed sort selections : <span class="code">Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked</span>. Default is <span class="code">Newest, Oldest, Last Updated</span>.</li> 
+   <li><strong>Set as Default</strong><br /> Pull down to select one of the checked sort options to appear as the default. Default is <span class="code">Newest</span>.</li> 
+   <li><strong>Select Time Options for Analytics Sorting</strong><br /> Pull down to select one of <span class="code">All, Last 24 Hours, Last 7 Days, Last 30 Days</span>. Default is <span class="code">All</span>.</li> 
+  </ul> 
+  <draft-comment type="draft">
+   <h2>Related Questions Component</h2>
+  </draft-comment>
+  <draft-comment type="draft">
+   <h3>Configuring Related Questions</h3>
+  </draft-comment>
+  <draft-comment type="draft">
+   <img imageRotate="0" src="assets/chlimage_1-295.png" />
+  </draft-comment>
+  <h2>Site Visitor Experience</h2>
+  <h4>Identifying Answers</h4>
+  <p>One answer can be marked as a correct or useful answer using the <span class="code">Select Answer</span> button. Once a Question is marked as Answered, another answer cannot be selected until the first one has been unselected using the <span class="code">Unmark Chosen Answer </span>button.</p> 
+  <p>Once selected as a viable answer, it may be unselected using the <span class="code">Unmark Chosen Answer</span> button.</p> 
+  <p>Once an answer is selected as the viable answer, an indication that the question has been <span class="code">Answered </span>is displayed next to the question topic on the main QnA page.</p> 
+  <h4>Moderators and Administrators</h4>
+  <p>When the signed in user has moderator or administrator privileges, they are able to perform the moderation tasks permitted by the configuration of the component, regardless of who authored the question or answer.</p> 
+  <p>They also have the ability to identify answers.</p> 
+  <h4>Members</h4>
+  <p>When the site visitor is signed in, depending on the configuration, they may</p> 
+  <ul> 
+   <li>post a new question</li> 
+   <li>edit or delete questions they authored</li> 
+   <li>may also flag others' questions or answers</li> 
+   <li>may identify answers for questions they authored</li> 
+  </ul> 
+  <h4>Anonymous</h4>
+  <p>Site visitors who are not signed in may only read posted questions and answers, translate them if supported, but may not add neither a question nor answer, nor flag others' posts.</p> 
+  <h2>Additional Information</h2>
+  <p>More information may be found on the <a href="../../communities/using/qna-essentials.md">QnA Essentials</a> page for developers.</p> 
+  <p>For moderation of posted topics and comments, see <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+  <p>For tagging posted topics and comments, see <a href="../../communities/using/tag-ugc.md">Tagging User Generated Content</a>.</p> 
+ </body>
+</html>

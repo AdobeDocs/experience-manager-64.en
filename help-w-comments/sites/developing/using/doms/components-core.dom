@@ -1,0 +1,82 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="true" name="noIndex" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="/content/docs/en/aem/6-3/develop/components/core-components" name="qaNotes" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-01-25T03:10:35.199-0500" name="lastPublishExternalDate" />
+  <meta content="/content/help/en/experience-manager/core-components/user-guide" name="redirectTarget" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference" name="cq:tags" />
+  <meta content="2018-01-26T19:01:05.055-0500" name="jcr:created" />
+  <meta content="REDIRECT Core Components" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-01-25T03:10:35.199-0500" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/components-core.html" name="publishExternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/components;/content/help/en/experience-manager/6-4/sites/developing/morehelp/components" name="moreHelpPaths" />
+  <meta content="Core Components" name="seoTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-05-08T12:40:59.876-0400" name="locHandOffDate" />
+  <meta content="User" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-04-03T09:29:19.884-0400" name="cq:lastReplicated" />
+  <meta content="2017-10-31T16:17:12.021-0400" name="firstPublishExternalDate" />
+  <meta content="dist5" name="distType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-01-25T03:10:35.199-0500" name="topicBrowsingSortDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="f34e2e01-2179-4296-bd7f-c11f42f1ae7b" name="jcr:uuid" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="gnavTheme" />
+  <meta content="The core components have been introduced with AEM 6.3 and offer flexible and feature-rich authoring functionality. " name="seoDescription" />
+  <meta content="2018-05-08T12:40:59.877-0400" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="42d6a19b-a758-4284-9bd5-4a111d5be892" name="jcr:predecessors" />
+ </head>
+ <body>
+  <h2>Overview</h2>
+  <p>The core components have been released for AEM version 6.3. They provide robust and extensible base components, and their highlights are:</p> 
+  <ul> 
+   <li>Feature-rich capabilities</li> 
+   <li>Continuous delivery</li> 
+   <li>Component versioning</li> 
+   <li>Modern implementation</li> 
+   <li>Lean markup</li> 
+   <li>Capability to serialize as JSON the content model for headless CMS use cases</li> 
+  </ul> 
+  <p> </p> 
+  <h2>Compatibility and Documentation</h2>
+  <p>The core components have been introduced with AEM 6.3 and offer flexible and feature-rich authoring functionality. The <a href="../../../sites/developing/using/we-retail.md">We.Retail reference site</a> illustrates how the core components can be used.</p> 
+  <p>The following table lists which versions of the core components are compatible with AEM 6.3. Follow the link in the table for more information about that version of the core components.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <th><strong>Core Components Version</strong></th> 
+     <th><strong>Compatible with AEM 6.3</strong></th> 
+    </tr>
+    <tr>
+     <td><a href="/content/help/en/experience-manager/core-components/using/versions">Version 1</a></td> 
+     <td>Compatible</td> 
+    </tr>
+    <tr>
+     <td><a href="/content/help/en/experience-manager/core-components/using/versions">Version 2</a></td> 
+     <td>Compatible</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <note>
+   <p>Core Components require AEM 6.3 and Java 8.</p> 
+   <p>Core Components do not work with the Classic UI.</p> 
+  </note>
+ </body>
+</html>

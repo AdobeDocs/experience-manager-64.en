@@ -1,0 +1,62 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_output;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2017-10-31T16:32:37.639-0400" name="lastPublishExternalDate" /> 
+  <meta content="You can specify the character set used to encode the output stream. Learn how you can change the character set." name="seoDescription" /> 
+  <meta content="2017-12-01T19:04:05.221-0500" name="jcr:created" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="b23b10ba-d1bc-4442-b1f7-d49d1d2c25d4" name="jcr:predecessors" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/change-character-set.html" name="publishExternalURL" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2016-05-31T06:53:15.448-0400" name="acrolinxDate" /> 
+  <meta content="2018-04-26T04:25:27.134-0400" name="cq:lastModified" /> 
+  <meta content="2016-02-05T03:27:12.633-0500" name="lr_lastModified" /> 
+  <meta content="117" name="acrolinxWords" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/change_character_set_admin_5e12de0b318c6865_2265_report.xml" name="acrolinxReportURL" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="9" name="acrolinxSentences" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Change the character set" name="navTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2018-04-03T09:09:29.676-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2016-04-20T09:59:20.676-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="ab10d278-a481-4419-8501-dd31cca3866b" name="jcr:uuid" /> 
+  <meta content="2017-10-31T16:32:37.639-0400" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2018-04-26T04:25:27.133-0400" name="locHandOffDate" /> 
+  <meta content="Change the character set" name="jcr:title" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d67.2" name="cq:gepId" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+ </head> 
+ <body> 
+  <p>You can specify the character set used to encode the output stream.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; output.</p></li> 
+   <li><p>Under Internationalization, in the Character Set list, select a character set. This setting is dependent on the <span class="code">TransformationFormat</span> and <span class="code">PrintFormat</span> specified through the API. To specify a character set other than those listed, select Custom and specify an encoding value in the box that is displayed. </p><p>If <span class="code">TransformationFormat</span> is PDF and PDF/A or <span class="code">PrintFormat</span> is PCL, PostScript, Zebra label, IPL, DPL, TPCL, GenericColorPCL, or GenericPSLevel3, only specific character sets are supported.</p><p>The character set must be a valid canonical name. The default value is ISO-8859-1.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+ </body> 
+</html>

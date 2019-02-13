@@ -1,0 +1,135 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SITES" name="cq:tags" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="eec9b79b-11fc-450b-a9b2-23f976ef0d9d" name="jcr:uuid" /> 
+  <meta content="2018-04-03T08:46:02.447-0400" name="lastPublishExternalDate" /> 
+  <meta content="Quickstart for AEM Screens" name="seoTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy/aem-screens-introduction/setting-up-a-basic-project" name="qaNotes" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/setting-up-a-basic-project-screens.html" name="publishExternalURL" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:05:51.694-0500" name="jcr:created" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Quickstart for AEM Screens" name="jcr:title" /> 
+  <meta content="2018-04-30T03:27:53.621-0400" name="locHandOffDate" /> 
+  <meta content="reference-adjustment-service" name="cq:lastModifiedBy" /> 
+  <meta content="d472cadf-1c55-4820-8514-4bc85f993606" name="jcr:predecessors" /> 
+  <meta content="2018-04-03T08:46:02.447-0400" name="firstPublishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-10-28T00:36:16.548-0400" name="cq:lastModified" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-10-28T00:36:26.081-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-04-03T08:46:02.447-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T08:46:02.447-0400" name="publishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>This section is a quickstart to AEM Screens and shows how to achieve basic actions. It walks you through setting up a basic digital signage experience with content/assets and publishing to a screens player. For in-depth understanding of all the components for Screens development, see the resources at the end of the page.</p> 
+  <h2>Creating a Digital Signage Experience</h2> 
+  <p>The following steps allow you to create a sample project for Screens and publish content to Screens player.</p> 
+  <ol> 
+   <li> <p>There are three different players for iOS, OS X and Android.</p> <p>To download AEM Screens Player, click <a href="https://download.macromedia.com/screens/">here</a>.</p> <p>Additionally, AEM Screens is also available in <a href="https://itunes.apple.com/us/app/aem-screens/id1169641856?mt=8">iTunes App Store</a> and <a href="https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en">Google Play Store</a>.</p> <p>See <a href="../../../sites/deploying/using/configuring-screens-introduction.md">Installing and Configuring Screens</a> for more details.</p> </li> 
+   <li> 
+    <ol> 
+     <li>Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can ﻿go directly to: <a href="http://localhost:4502/screens.html/content/screens">http://localhost:4502/screens.html/content/screens</a>.</li> 
+     <li>Click <strong>Create</strong> to create a new Screens project (see the figure below).</li> 
+     <li>Select <strong>Screens</strong> from the <strong>Create Screens Project</strong> wizard and click <strong>Next</strong>.</li> 
+     <li>Enter the title as <i>Test_Project </i>and click <strong>Create</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/chlimage_1-141.png" /><p>Once the project is created, it brings you back to the Screens Project console. You can now select your project. In a project, there are five kind of folders namely <i>Applications</i>, <i>Channels</i>, <i>Devices</i>, <i>Locations</i>, and <i>Schedules</i>, as shown in the figure below.</p> <img imageRotate="0" src="assets/chlimage_1-142.png" /><p>See <a href="../../../sites/authoring/using/creating-a-screens-project.md">Creating and Managing projects in Screens</a> for more details.</p> </li> 
+   <li> <p>Once you have your project in place, you need to create a new channel where your content is managed. </p> <p>Follow the steps below to create a new channel for your project:</p> 
+    <ol> 
+     <li>Navigate to the <i>Test_Project</i> you created and select the <strong>Channels</strong> folder.</li> 
+     <li>Click<strong> Create</strong> next to the plus icon in the action bar (see the figure below). A wizard will open.</li> 
+     <li>Choose the <strong>Sequence Channel </strong>and click <strong>Next</strong>.</li> 
+     <li>Enter the <strong>Name</strong> and <strong>Title</strong> as <i>TestChannel</i> and click <strong>Create</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/chlimage_1-143.png" /><p>The <i>TestChannel</i> is created and added to your channels folder, as shown in the figure below.</p> <img imageRotate="0" src="assets/chlimage_1-144.png" /><p>See <a href="../../../screens/using/managing-channels.md">Channel Management</a> for more details on creating and managing channels.</p> </li> 
+   <li> <p>Once you have your channel in place, you need to create your location. The locations help you compartmentalise your various digital signage experiences and will contain the configurations of the displays according to where the various screens are.</p> <p>Follow the steps below to create a new location for your project:</p> 
+    <ol> 
+     <li>Navigate to the <i>Tes</i>t<i>_Project</i> you created and select the <strong>Locations </strong>folder.</li> 
+     <li>Click <strong>Create</strong> from the action bar (see the figure below). A wizard will open. </li> 
+     <li>Select <strong>Locations</strong> from the wizard and click <strong>Next</strong>.</li> 
+     <li>Enter the <strong>Name</strong> and <strong>Title</strong> for your location (enter the title as <i>TestLocation</i>) and click <strong>Create</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/chlimage_1-145.png" /><p>The <i>TestLocation</i> is created and added to your <strong>Locations</strong> folder.</p> <img imageRotate="0" src="assets/chlimage_1-146.png" /><p>Once you have created a location, you need to create a new display for your location.</p> <p>The display represents the digital experience that you want to run on one or multiple screens.</p>  
+    <ol> 
+     <li>Navigate to the location where you want to create your display. Navigate to <i>Test_Project </i>--&amp;gt; <strong>Locations</strong> --&amp;gt; <i>TestLocation</i>, as shown in the figure above, and </li> 
+     <li>Select <i>TestLocation</i> and click<strong> Create </strong>from the action bar. </li> 
+     <li>Select <strong>Display </strong>from the <strong>Create</strong> wizard opens and click <strong>Next</strong>.</li> 
+     <li>Enter <strong>Name</strong> and <strong>Title</strong> for your display location (enter the title as <i>TestDisplay</i>).</li> 
+     <li>Under the Display tab, choose the details of the Layout. 
+      <ol> 
+       <li>Choose the <strong>Resolution</strong> as <strong>Full HD</strong>.</li> 
+       <li>Choose the <strong>Number of Devices Horizontally</strong> as 1.</li> 
+       <li>Choose the <strong>Number of Devices Vertically</strong> as 1.</li> 
+      </ol> </li> 
+     <li>Click <strong>Create</strong>.</li> 
+    </ol> <p>A new display (<i>TestDisplay</i>) is added to your location named <i>TestLocation</i>, as shown in the figure below:</p> <img imageRotate="0" src="assets/chlimage_1-147.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to Locations folder --&amp;gt;<i>TestLocation</i> --&amp;gt;<i>TestDisplay</i> that you created in the preceedig step.</li> 
+     <li>Click <strong>View Dashboard</strong> in the action bar (see the figure below).</li> 
+     <li>Click the <strong>...</strong> button on the top right of the <strong>Devices </strong>panel and choose <strong>Add Device Config</strong>.</li> 
+     <li>Select the <strong>Device config </strong>from the wizard and click <strong>Next</strong>.</li> 
+     <li>Enter the <strong>Name</strong> and <strong>Title</strong> for the device (name it as <i>TestDeviceConfig</i>) and click <strong>Create</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/chlimage_1-148.png" /><p>The device config (<i>TestDeviceConfig</i>) is created and added to the current display.</p> <img imageRotate="0" src="assets/chlimage_1-149.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the display from <strong>Locations</strong> folder --&amp;gt; <i>TestLocation</i> --&amp;gt; <i>TestDisplay</i>.</li> 
+     <li>Select <i>TestDisplay</i> and tap/click <strong>Assign Channel </strong>in the action bar, Or,</li> 
+     <li>Click <strong>View Dashboard</strong> and select <strong>+assign channel</strong> at the top right from <strong>ASSIGNED CHANNELS</strong> panel. <strong>Channel Assignment</strong> dialog box opens.</li> 
+     <li>Enter the <strong>Channel Role</strong> as <i>LiveStream</i>.</li> 
+     <li>Select the path (<i>TestProject</i> --&amp;gt; <i>Channels</i> --&amp;gt; <i>TestChannel</i> ) in the <strong>Channel</strong>.</li> 
+     <li>Choose the <strong>Supported Events</strong> as <strong>Initial Load </strong>and <strong>Idle Screen</strong>.</li> 
+     <li>Click <strong>Save</strong>.</li> 
+    </ol> <p>The channel should be created and added to the panel, as shown in the figure below:</p> <img imageRotate="0" src="assets/chlimage_1-150.png" /></li> 
+   <li> <p>Before you register a device, the Screens player is displayed as a pending device.</p> <p>To view the pending device:</p> 
+    <ol> 
+     <li>Launch a separate browser window.</li> 
+     <li>Go to http://localhost:4502/content/mobileapps/cq-screens-player/firmware.html</li> 
+     <li>From the dashboard, navigate to <i>TestProject</i> --&amp;gt; <strong>Devices</strong></li> 
+     <li>Click <strong>Device Manager</strong> from the action bar.</li> 
+     <li>Click <strong>Device Registration</strong> and you will see the pending devices, as shown in the figure below:</li> 
+    </ol> <img imageRotate="0" src="assets/chlimage_1-151.png" /><p>Select the device you want to register and click <strong>Register Device</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-152.png" /><p>You will need to validate the code by verifying the code from the web browser.</p> 
+    <ol> 
+     <li>Click Validate to navigate to <strong>Device Registration</strong> screen.</li> 
+     <li>Enter <strong>Title</strong> and click <strong>Register </strong>and<strong> </strong>the device will be registered as shown in the figure below:</li> 
+    </ol> <img imageRotate="0" src="assets/chlimage_1-153.png" /></li> 
+   <li> <p>Once you have registered the device,</p> 
+    <ol> 
+     <li>Click <strong>Assign Display</strong> as shown in the figure above.</li> 
+     <li>Select the display path for your channel as <i>/content/screens/TestProject/locations/TestLocation/TestDisplay.</i></li> 
+     <li>Click <strong>Assign</strong>.</li> 
+     <li>Click <strong>Finish</strong> to complete the process, and now the device is assigned as shown in the figure below:</li> 
+    </ol>  <img imageRotate="0" src="assets/chlimage_1-154.png" /></li> 
+  </ol> 
+  <h3>Viewing the content in Screens Player</h3> 
+  <p>Once you have added the above configurations, the player should automatically show the default channel for the display on your device, for example an image (in this scenario, a sequence channel).</p> 
+  <img imageRotate="0" src="assets/chlimage_1-155.png" /> 
+  <h3>Additional Resources</h3> 
+  <p>For in-depth understanding for all the modules for Screens, see the resources below:</p> 
+  <ol> 
+   <li><a href="../../../sites/deploying/using/configuring-screens-introduction.md">Installing and Configuring Screens</a></li> 
+   <li><a href="../../../sites/authoring/using/creating-a-screens-project.md">Screens Project Creation</a></li> 
+   <li><a href="/content/docs/en/aem/6-3/administer/administering-screens/managing-devices/device-assignment">Device Assignment</a></li> 
+   <li>Application Management</li> 
+   <li>Channel Management</li> 
+   <li>Device Management</li> 
+   <li>Location Management</li> 
+  </ol> 
+  <p> </p> 
+  <p> </p> 
+ </body> 
+</html>

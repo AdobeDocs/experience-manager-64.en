@@ -1,0 +1,105 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-05-11T10:01:21.879-0400" name="cq:lastModified" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="f9d3880c-0275-4fe6-8864-4c3e69810903" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-12-13T19:01:25.906-0500" name="jcr:created" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/mobile-apps/phonegap/configure-your-adobe-phonegap-build-cloud-service" name="qaNotes" /> 
+  <meta content="e860aa69-87d7-4b6c-8e6c-d26cf2fef3e1" name="jcr:predecessors" /> 
+  <meta content="2018-05-11T10:01:21.878-0400" name="locHandOffDate" /> 
+  <meta content="Configure your Adobe PhoneGap Build Cloud Service" name="seoTitle" /> 
+  <meta content="Follow this page for configuring the cloud services and building your application with PhoneGap build." name="seoDescription" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/administering-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/administering-adobe-phonegap-enterprise" name="moreHelpPaths" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:26:32.949-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-05-04T05:12:37.292-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-05-04T05:12:37.292-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-05-04T05:12:37.292-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Configure your Adobe PhoneGap Build Cloud Service" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-05-04T05:12:37.498-0400" name="cq:lastReplicated" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:administering-adobe-phonegap-enterprise" name="cq:tags" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/configure-phonegap-build-cloud.html" name="publishExternalURL" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Configure your Adobe PhoneGap Build Cloud Service" name="jcr:title" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>The <strong>PhoneGap Build Tile</strong> on the application dashboard provides the ability to build and distribute your PhoneGap mobile application through the Adobe PhoneGap Build Service.</p> 
+  <p>All supported platforms defined within the<strong> Manage App</strong> tile will be built with PhoneGap Build when pushing a remote build with the <strong>PhoneGap Build</strong> Tile.</p> 
+  <p>You can push a remote build to <a href="https://build.phonegap.com">https://build.phonegap.com</a> or download the source to build locally with <a href="http://docs.phonegap.com/references/phonegap-cli/">PhoneGap CLI</a>.</p> 
+  <img alt="PhoneGap Build Tile" captionBottom="AEM Command Center PhoneGap Build Tile" imageRotate="0" src="assets/chlimage_1-65.png" title="PhoneGap Build Tile" /> 
+  <h2>Configuring the Cloud Service</h2> 
+  <p>In order to take advantage of PhoneGap Build you need to configure the AEM PhoneGap Build Cloud Service with your PhoneGap Build account information.</p> 
+  <p>If you don't currently have an account, navigate to <a href="https://build.phonegap.com">https://build.phonegap.com</a> and sign up! If you have an Adobe Creative Cloud membership, you may have support for up to 25 private apps (non-open source apps).</p> 
+  <p>Once you have verified your PhoneGap Build account is active, navigate to your AEM Cloud Management Console, specifically the <a href="http://localhost:4502/etc/cloudservices/phonegap-build.html">PhoneGap Build Cloud Service</a> (http://localhost:4502/etc/cloudservices/phonegap-build.html).</p> 
+  <p>Use the <strong>Manage Cloud Services</strong> tile to configure a new cloud service configuration.</p> 
+  <h3>Using Manage Cloud Services tile</h3> 
+  <p>Before starting to build your app using <strong>PhoneGap Build</strong> tile, you must configure your cloud services, using the <strong>Manage Cloud Services</strong> tile from the AEM Mobile dashboard.</p> 
+  <p>To configure cloud services for your app, follow the steps below:</p> 
+  <ol> 
+   <li><p>Click on the top right corner of the <strong>Manage Cloud Services</strong> tile.</p> <img imageRotate="0" src="assets/chlimage_1-66.png" /></li> 
+   <li><p>Choose <strong>PhoneGap Build </strong>option from the <strong>Add or Edit Cloud Service</strong> screen.</p> <p>Click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-67.png" /></li> 
+   <li><p>Enter your credentials to create a new cloud configuration. </p> <p>Once it is verified, click <strong>Submit</strong>. This configured cloud configuration now displays in the <strong>Manage Cloud Services</strong> tile.</p> <img imageRotate="0" src="assets/chlimage_1-68.png" /></li> 
+  </ol> 
+  <h3>Building your Application with PhoneGap Build</h3> 
+  <p>Once you have configured the cloud services, you can build your application with <strong>PhoneGap Build</strong> tile. Click on the top right corner to choose from the <strong>Build Remote</strong> or <strong>Download Source</strong> options.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-69.png" /> 
+  <p>To invoke a remote build with Adobe PhoneGap Build, click <strong>Build Remote</strong>.</p> 
+  <note> 
+   <p>If the build fails for any reason (red iOS icon below indicates that platform failed), you can hover over the icon to get the error message. Alternatively, you can click the triple dot, '...' at the bottom of the tile to navigate directly to https://build.phonegap.com (you must authenticate) and watch and manage your build directly.</p> 
+  </note> 
+  <h3>Building your application with PhoneGap CLI</h3> 
+  <p>PhoneGap provides a command line interface to build your application locally.</p> 
+  <p>Compile the PhoneGap application on your computer using the PhoneGap Command line Interface (CLI). To include the AEM content into your application, AEM creates a ZIP file that contains the content of your mobile application, Content Sync configurations, and other required assets. Download the ZIP file and include it in your build.</p> 
+  <p>In order to take advantage of PhoneGap's command line interface, you will need to set up your local environment to include:</p> 
+  <ol> 
+   <li>Platform SDK (iOS, Android, WindowsPhone, ...) and,</li> 
+   <li>PhoneGap CLI</li> 
+  </ol> 
+  <div>
+    You can read more 
+   <a href="http://docs.phonegap.com/references/phonegap-cli/">here</a>. 
+  </div> 
+  <div> 
+  </div> 
+  <div>
+    Once you have installed the pre-requisites, give it a simple test by creating a simple app and getting it running either in your simulator or better yet on your device, from a terminal try: 
+  </div> 
+  <codeblock gutter="true" class="syntax xml">
+    phonegap&amp;nbsp;create&amp;nbsp;myApp!!discoiqbr!!cd&amp;nbsp;myApp!!discoiqbr!!phonegap&amp;nbsp;run&amp;nbsp;ios&amp;nbsp;(or&amp;nbsp;android,&amp;nbsp;...)&amp;nbsp; 
+  </codeblock> 
+  <note> 
+   <p>add --emulate at the end of this line if you don't want to run it on your connected device.</p> 
+  </note> 
+  <p>Once you have verified that the above works, use the <strong>PhoneGap Build</strong> Tile to <strong>Download Source</strong>. Save and unzip the file onto your local system. Once that is done:</p> 
+  <ul> 
+   <li>navigate to that saved file (folder) </li> 
+   <li>run 'phonegap run ios' (or android, etc)</li> 
+  </ul> 
+  <h3>Additional Resources</h3> 
+  <p>To learn about the roles and responsibilities of an Author and Developer, see the resources below:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/developing-in-phonegap.md">Developing for Adobe PhoneGap Enterprise with AEM</a></li> 
+   <li><a href="../../mobile/using/phonegap.md">Authoring for Adobe PhoneGap Enterprise in AEM</a></li> 
+  </ul> 
+ </body> 
+</html>

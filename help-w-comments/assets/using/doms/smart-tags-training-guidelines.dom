@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="asgupta" name="cq:lastModifiedBy" />
+  <meta content="2018-09-18T07:14:48.024-0400" name="publishExternalDate" />
+  <meta content="cdd403de-174e-49b0-9d04-4c15b0844143" name="jcr:uuid" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/smart_tags_training_guidelines_krs_workflow_f3c2f2ccebf6138e_216_report.xml" name="acrolinxReportURL" />
+  <meta content="36" name="acrolinxSentences" />
+  <meta content="474" name="acrolinxWords" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-04-24T11:56:02.479-0400" name="locHandOffDate" />
+  <meta content="2018-03-15T09:02:36.309-0400" name="jcr:created" />
+  <meta content="2018-09-18T07:14:48.032-0400" name="cq:lastModified" />
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2019-01-12T17:37:10.887-0500" name="acrolinxDate" />
+  <meta content="Smart Content Service Training Guidelines" name="jcr:title" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/smart-tags-training-guidelines.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="green" name="acrolinxPageStatus" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-09-18T07:14:48.024-0400" name="lastPublishExternalDate" />
+  <meta content="cmajumda" name="contentOwner" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2018-09-18T07:14:48.024-0400" name="topicBrowsingSortDate" />
+  <meta content="asgupta" name="cq:lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-04-09T11:05:12.963-0400" name="firstPublishExternalDate" />
+  <meta content="2018-09-18T07:14:48.587-0400" name="cq:lastReplicated" />
+  <meta content="2ec6ec61-d98a-4a61-9774-2fb489db3077" name="jcr:predecessors" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+ </head>
+ <body>
+  <p>To be able to effectively tag your brand images, the Smart Content Service requires that the training images conform to certain guidelines.</p> 
+  <h2>Guidelines for training</h2>
+  <p>For best results, images in your training set should conform to the following guidelines:</p> 
+  <p><strong>Quantity and size: </strong>Minimum <strong>30 images per tag</strong>. Minimum of 500 pixels on the longer side.</p> 
+  <p><strong>Coherence</strong>: Images for a tag should be visually similar.</p> 
+  <p>For example, it is not a good idea to tag all of these images as <em>my-party</em> (for training) because they are not visually similar.</p> 
+  <img alt="Illustrative images to exemplify the guidelines for training" imageRotate="0" src="assets/coherence.png" title="Illustrative images to exemplify the guidelines for training" />
+  <p><strong>Coverage</strong>: There should be sufficient variety in the images in the training. The idea is to supply a few but reasonably diverse examples so that AEM learns to focus on the right things. If you're applying the same tag on visually dissimilar images, include at least five examples of each kind.</p> 
+  <p>For example, for the tag <em>model-down-pose</em>, include more training images similar to the highlighted image below for the service to identify similar images more accurately during tagging.</p> 
+  <img alt="Illustrative images to exemplify the guidelines for training" imageRotate="0" src="assets/coverage_1.png" title="Illustrative images to exemplify the guidelines for training" />
+  <p><strong>Distraction/obstruction</strong>: The service trains better on images that have less distraction (prominent backgrounds, unrelated accompaniments, such as objects/persons with the main subject).</p> 
+  <p>For example, for the tag <em>casual-shoe</em>, the second image is not a good training candidate.</p> 
+  <img alt="Illustrative images to exemplify the guidelines for training" imageRotate="0" src="assets/distraction.png" title="Illustrative images to exemplify the guidelines for training" />
+  <p><strong>Completeness: </strong>If an image qualifies for more than one tag, add all applicable tags before including the image for training. For example, for tags, such as <em>raincoat</em> and <em>model-side-view</em>, add both the tags on the eligible asset before including it for training.</p> 
+  <img alt="Illustrative images to exemplify the guidelines for training" imageRotate="0" src="assets/completeness.png" title="Illustrative images to exemplify the guidelines for training" />
+  <h2>Limitations</h2>
+  <p>Enhanced smart tags are based on learning models of brand images and their tags. These models are not always perfect at identifying tags. The current version of the Smart Content Service has the following limitations:</p> 
+  <ul> 
+   <li>Inability to recognize subtle differences in images. For example, slim versus regular fitted shirts. </li> 
+   <li>Inability to identify tags based on tiny patterns/parts of an image. For example, logos on T-shirts.</li> 
+   <li>Tagging is supported in the locales that AEM is supported in. For a list of languages, see <a href="../../release-notes/smart-content-service-release-notes.md" target="_blank">Smart Content Services release notes</a>.</li> 
+  </ul> 
+  <div>
+   To search for assets with smart tags (regular or enhanced), use the Assets Omni-search (full-text search). There is no separate search predicate for smart tags.
+  </div> 
+  <draft-comment lastModifiedBy="sneh" lastModifiedDate="2018-03-14T04:30:43.049-0400" type="annotation">
+   This needs to be highlighted in the section for running training workflows as well
+  </draft-comment>
+  <note>
+   <p>The ability of the Smart Content Service to train on your tags and apply them on other images depends on the quality of images you use for training. </p> 
+   <p>For best results, Adobe recommends that you use visually similar images to train the service for each tag.</p> 
+  </note>
+ </body>
+</html>

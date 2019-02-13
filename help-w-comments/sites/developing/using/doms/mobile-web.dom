@@ -1,0 +1,62 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="AEM provides several tools that enable you to develop sites for mobile devices and to integrate your content into mobile applications" name="seoDescription" />
+  <meta content="2017-12-01T19:01:28.525-0500" name="jcr:created" />
+  <meta content="Mobile Web" name="jcr:title" />
+  <meta content="Mobile Web" name="navTitle" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/mobile-web.html" name="publishExternalURL" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:mobile-web;content_type:reference" name="cq:tags" />
+  <meta content="Mobile Web" name="seoTitle" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/content/docs/en/aem/6-0/develop/mobile" name="legacyPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-05-08T12:44:24.010-0400" name="locHandOffDate" />
+  <meta content="2018-05-08T12:44:24.011-0400" name="cq:lastModified" />
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-web" name="qaNotes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-31T16:16:29.666-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-31T16:16:29.666-0400" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-31T16:16:29.666-0400" name="publishExternalDate" />
+  <meta content="2017-10-31T16:16:29.666-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/mobile-web;/content/help/en/experience-manager/6-4/sites/developing/morehelp/mobile-web" name="moreHelpPaths" />
+  <meta content="73470ab7-4b36-489b-bc1f-a3725391a6c3" name="jcr:predecessors" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="96516377-3665-41ea-ba4f-88bff552c319" name="jcr:uuid" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-10-27T23:47:33.942-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note>
+  <p>AEM provides several tools that enable you to develop sites for mobile devices and to integrate your content into mobile applications.</p> 
+  <p>This page should be read in conjunction with the <a href="../../../sites/authoring/using/mobile.md">Mobile page for authors</a>.</p> 
+  <h4>Developing Web Sites for Mobile</h4>
+  <p>Develop page templates and components that are optimized for viewing using mobile devices. Develop pages that use a responsive layout that adjusts to multiple screen sizes, or develop pages that are optimized for a specific screen size. Use the device emulators that AEM provides or create your own emulators for WSYWIG authoring and previewing: </p> 
+  <ul> 
+   <li><a href="../../../sites/developing/using/groupfilters.md">Creating Device Group Filters</a></li> 
+   <li><a href="../../../sites/developing/using/responsive.md">Responsive Design for Web Pages</a></li> 
+   <li><a href="../../../sites/developing/using/mobile.md">Creating Sites for Mobile Devices</a></li> 
+   <li><a href="../../../sites/developing/using/emulators.md">Emulators</a></li> 
+  </ul> 
+  <h4>Developing Mobile Apps</h4>
+  <p>Develop mobile applications that use AEM pages as the application interface. AEM integrates with PhoneGap so that you can easily create apps using AEM pages. Content Sync enables you to create versioned archives of pages for bundling with apps. To learn more about Content Sync, click <a href="../../../mobile/using/phonegap-contentsync.md">here</a>.</p> 
+ </body>
+</html>

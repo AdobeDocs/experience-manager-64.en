@@ -1,0 +1,188 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-03T07:30:02.075-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:34:02.092-0400" name="firstPublishExternalDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="Add a ClientLibraryFolder" name="seoDescription" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/tutorials/an-scf-sandbox/add-clientlibs" name="qaNotes" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/add-clientlibs.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T07:30:00.990-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T07:30:00.990-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-05-17T05:49:31.130-0400" name="cq:lastModified" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Add Clientlibs" name="navTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-03T07:30:00.990-0400" name="lastPublishExternalDate" /> 
+  <meta content="Add Clientlibs" name="seoTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-12-01T19:05:22.537-0500" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Add Clientlibs" name="jcr:title" /> 
+  <meta content="1e828641-8b87-4a4b-be40-e7fae9b2fdca" name="jcr:predecessors" /> 
+  <meta content="2018-05-17T05:49:31.129-0400" name="locHandOffDate" /> 
+  <meta content="b3bc5d2a-fc0d-44ba-bfdf-0a7f504f6370" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+ </head> 
+ <body> 
+  <table cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;"><strong><a href="../../communities/using/develop-app.md">⇐ Develop Sandbox Application</a></strong></td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/develop-content.md">Develop Sandbox Content ⇒</a></strong></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Add a ClientLibraryFolder (clientlibs)</h3> 
+  <p>Create a ClientLibraryFolder named <span class="code">clientlibs </span>which will contain the JS and CSS used to render the pages of your site.</p> 
+  <p>The <span class="code">categories </span>property value given to this client library is the identifier used to directly include this clientlib from a content page or to embed it in other clientlibs.</p> 
+  <ol> 
+   <li>using <strong>CRXDE Lite</strong>, expand<span class="code"> /etc/designs</span></li> 
+   <li>right click on <span class="code">an-scf-sandbox</span> and select <span class="code">Create Node</span> 
+    <ul> 
+     <li>Name : <span class="code">clientlibs</span></li> 
+     <li>Type : <span class="code">cq:ClientLibraryFolder</span></li> 
+    </ul> </li> 
+   <li>click <strong>OK</strong></li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-227.png" /> 
+  <p>In the <strong>Properties</strong> tab for the new <span class="code">clientlibs</span> node, enter the <strong><span class="code">categories </span></strong>property:</p> 
+  <ul> 
+   <li>Name : <strong>categories</strong></li> 
+   <li>Type : <strong>String</strong></li> 
+   <li>Value : <strong>apps.an-scf-sandbox</strong></li> 
+   <li>click <strong>Add</strong></li> 
+   <li>click <strong>Save All</strong></li> 
+  </ul> 
+  <div>
+    Note : prefacing the categories value with 'apps.' is a convention to identify the 'owning application' as being in the /apps folder, not /libs. 
+  </div> 
+  <p>IMPORTANT : Add placeholder<span class="code"> js.tx</span>t and<strong><span class="code"> css.tx</span></strong>t files. (It's not officially a cq:ClientLibraryFolder without them.)</p> 
+  <ol> 
+   <li>right click on <strong><span class="code">/etc/designs/an-scf-sandbox/clientlibs</span></strong></li> 
+   <li>select<strong> Create File...</strong></li> 
+   <li>enter<strong> Name:</strong> <span class="code">css.txt</span></li> 
+   <li>select<strong> Create File... </strong></li> 
+   <li>enter <strong>Name:</strong><span class="code"> js.txt</span></li> 
+   <li>click <strong>Save All</strong></li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-228.png" /> 
+  <p>The first line of the css.txt and js.txt identifies the base location from which the following lists of files are to be found.</p> 
+  <p>Try setting the content of css.txt to</p> 
+  <p><code class="code">#base=.
+    <discoiqbr /> style.css</code></p> 
+  <p>Then create a file under clientlibs named style.css, and set the content to </p> 
+  <p><span class="code">body {</span></p> 
+  <p><span class="code"> background-color: #b0c4de;</span></p> 
+  <p><span class="code">}</span></p> 
+  <h3>Embed SCF Clientlibs</h3> 
+  <p>In the <strong>Properties</strong> tab for the <span class="code">clientlibs</span> node, enter the multi-value String property <strong>embed</strong>. This will embed the necessary <a href="../../communities/using/client-customize.md#clientlibsforscf">client-side libraries (clientlibs) for SCF components</a>. For this tutorial we will add many of the clientlibs necessary for the Communities components. </p> 
+  <p><strong>Note</strong> that this may or may not be the desired approach to use for a production site as there are considerations of convenience versus size/speed of the clientlibs downloaded for every page.</p> 
+  <p>If only using one feature on one page, you could include that feature's complete clientlib directly on the page, e.g., &amp;lt;% ui:includeClientLib categories=cq.social.hbs.forum" %&amp;gt;</p> 
+  <p>In this case, we're including them all, and so would prefer the more basic SCF clientlibs which are the author clientlibs:</p> 
+  <ul> 
+   <li>Name : <strong><span class="code">embed</span></strong></li> 
+   <li>Type : <strong><span class="code">String</span></strong></li> 
+   <li>click <strong><span class="code">Multi</span></strong></li> 
+   <li>Value: <strong><span class="code">cq.social.scf</span></strong><br /> <i>&amp;lt;enter&amp;gt; will pop up a dialog<br /> click <strong>[+] </strong>after each entry to add the following clientlib categories:</i> 
+    <ul> 
+     <li><strong><span class="code">cq.ckeditor</span></strong></li> 
+     <li><strong><span class="code">cq.social.author.hbs.comments</span></strong></li> 
+     <li><strong><span class="code">cq.social.author.hbs.forum</span></strong></li> 
+     <li><strong><span class="code">cq.social.author.hbs.rating</span></strong></li> 
+     <li><strong><span class="code">cq.social.author.hbs.reviews</span></strong></li> 
+     <li><strong><span class="code">cq.social.author.hbs.voting</span></strong></li> 
+     <li>click <strong>OK</strong></li> 
+    </ul> </li> 
+   <li>click <strong>Save All</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-229.png" /> 
+  <p> </p> 
+  <p>This is how <span class="code">/etc/designs/an-scf-sandbox/clientlibs</span> should now appear in the repository :</p> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-230.png" /> 
+  <h3>Include Clientlibs in PlayPage Template</h3> 
+  <p>Without including the <span class="code">apps.an-scf-sandbox</span> ClientLibraryFolder category on the page, the SCF components will not be functional nor styled as the necessary Javascript(s) and style(s) will not be available.</p> 
+  <p>For example, without including the clientlibs, the SCF comments component appears unstyled :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-231.png" /> 
+  <p>Once apps.an-scf-sandbox clientlibs is included, the SCF comments component appears styled :</p> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-232.png" /> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">The include statement belongs in the &amp;lt;head&amp;gt; section of the &amp;lt;html&amp;gt; script. The default <strong><span class="code">foundation head.jsp</span></strong> includes a script that can be <u>overlaid </u>: <strong><span class="code">headlibs.jsp</span></strong>.</p> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"><strong>Copy headlibs.jsp and include clientlibs:</strong></p> 
+  <ol> 
+   <li>using <strong>CRXDE Lite</strong>, select <strong><span class="code">/libs/foundation/components/page/headlibs.jsp</span></strong></li> 
+   <li>right click and select <strong>Copy </strong>(or select Copy from the tool bar)</li> 
+   <li>select<strong><span class="code"> /apps/an-scf-sandbox/components/playpage</span></strong></li> 
+   <li>right click and select <strong>Paste </strong>(or select Paste from the tool bar)</li> 
+   <li>double click on <strong><span class="code">headlibs.jsp</span></strong> to open it</li> 
+   <li>append the following line to the end of the file<br /> <strong><span class="code">&amp;lt;ui:includeClientLib categories="apps.an-scf-sandbox"/&amp;gt;</span></strong></li> 
+   <li>click <strong style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Save All</strong></li> 
+  </ol> 
+  <codeblock class="syntax xml">
+    &lt;%@&amp;nbsp;page&amp;nbsp;session="false"&amp;nbsp;%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"&amp;nbsp;%&gt;&lt;%!!discoiqbr!!%&gt;&lt;ui:includeClientLib&amp;nbsp;categories="cq.foundation-main"/&gt;&lt;%!!discoiqbr!!%&gt;!!discoiqbr!!&lt;cq:include&amp;nbsp;script="/libs/cq/cloudserviceconfigs/components/servicelibs/servicelibs.jsp"/&gt;!!discoiqbr!!&lt;%&amp;nbsp;currentDesign.writeCssIncludes(pageContext);&amp;nbsp;%&gt;!!discoiqbr!!&lt;ui:includeClientLib&amp;nbsp;categories="apps.an-scf-sandbox"/&gt;!!discoiqbr!!!!discoiqbr!! 
+  </codeblock> 
+  <p>Load your website in the browser and see if the background is not a shade of blue.</p> 
+  <p> <a href="http://localhost:4502/content/an-scf-sandbox/en/play.html">http://localhost:4502/content/an-scf-sandbox/en/play.html</a></p> 
+  <img imageRotate="0" src="assets/chlimage_1-233.png" /> 
+  <h3>Saving Your Work So Far</h3> 
+  <p>At this point, there exists a minimalist sandbox, and it might be worth saving as a package so that, while playing, if your respository becomes corrupt and you desire to start over, you can turn your server off, rename or delete the folder crx-quickstart/, turn your server on, upload and install this saved package, and not have to repeat these most basic of steps.</p> 
+  <p>This package exists on the <a href="../../communities/using/create-sample-page.md">Create a Sample Page</a> tutorial for those who can't wait to just jump in and start playing!...</p> 
+  <p>To create a package:</p> 
+  <ul> 
+   <li>from CRXDE Lite click the <a href="http://localhost:4502/crx/packmgr/">Package icon</a> </li> 
+   <li>click <strong>Create Package</strong> 
+    <ul> 
+     <li>Package Name: an-scf-sandbox-minimal-pkg</li> 
+     <li>Version: 0.1</li> 
+     <li>Group: &amp;lt;leave as default&amp;gt;</li> 
+     <li>click <strong>OK</strong></li> 
+    </ul> </li> 
+   <li>click <strong>Edit</strong> 
+    <ul> 
+     <li>select <strong>Filters </strong>tab 
+      <ul> 
+       <li>click <strong>Add filter</strong></li> 
+       <li>Root Path: &amp;lt;browse to<strong> /apps/an-scf-sandbox</strong>&amp;gt;</li> 
+       <li>click <strong>Done</strong></li> 
+       <li>click <strong>Add filter</strong></li> 
+       <li>Root Path: &amp;lt;browse to <strong>/etc/designs/an-scf-sandbox</strong>&amp;gt;</li> 
+       <li>click <strong>Done</strong></li> 
+       <li>click <strong>Add filter</strong></li> 
+       <li>Root Path: &amp;lt;browse to <strong>/content/an-scf-sandbox</strong>&amp;gt;</li> 
+       <li>click <strong>Done</strong></li> 
+      </ul> </li> 
+     <li>click <strong>Save</strong></li> 
+    </ul> </li> 
+   <li>click <strong>Build</strong></li> 
+  </ul> 
+  <div>
+    Now you can select 
+   <strong>Download </strong>to save it to disk and 
+   <strong>Upload Package</strong> elsewhere, as well as select 
+   <strong>More &amp;gt; Replicate</strong> in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox. 
+  </div> 
+  <table cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;"><strong><a href="../../communities/using/develop-app.md">⇐ Develop Sandbox Application</a></strong></td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/develop-content.md">Develop Sandbox Content ⇒</a></strong></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body> 
+</html>

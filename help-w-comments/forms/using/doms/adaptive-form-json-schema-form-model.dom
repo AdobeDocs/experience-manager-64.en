@@ -1,0 +1,258 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/adaptive-form-json-schema-form-model.html" name="publishExternalURL" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="Adaptive form with JSON schema" name="navTitle" /> 
+  <meta content="2015-06-12T04:25:34.423-0400" name="lastPublishQADate" /> 
+  <meta content="2018-04-03T08:00:35.539-0400" name="publishExternalDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-26T04:26:01.990-0400" name="cq:lastModified" /> 
+  <meta content="147" name="acrolinxSentences" /> 
+  <meta content="2017-12-01T19:06:32.541-0500" name="jcr:created" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:26:01.989-0400" name="locHandOffDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="" name="privateBeta" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-04-03T08:00:35.539-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/develop;/content/help/en/experience-manager/6-4/forms/using/morehelp/develop" name="moreHelpPaths" /> 
+  <meta content="Adaptive forms can use JSON schema as form model, allowing you to leverage existing JSON schemas to create adaptive forms. " name="seoDescription" /> 
+  <meta content="khsingh" name="acrolinxLastCheckedBy" /> 
+  <meta content="994cf596-9ae0-4f3d-93e5-d0ae4810ed88" name="jcr:predecessors" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-04-26T07:52:22.565-0400" name="firstPublishExternalDate" /> 
+  <meta content="Creating adaptive forms using JSON Schema" name="jcr:title" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="1b20beee-0043-4c8f-80c2-c08643c34d32" name="jcr:uuid" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/adaptive_form_json_schema_form_model_krs_workflow_6accf30e2250b8db_1089_report.xml" name="acrolinxReportURL" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="1305" name="acrolinxWords" /> 
+  <meta content="topic_tags:develop;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T08:00:35.539-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-03T08:00:37.231-0400" name="cq:lastReplicated" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-03-20T00:52:45.564-0400" name="acrolinxDate" /> 
+ </head> 
+ <body> 
+  <h2>Prerequisites</h2> 
+  <p>Authoring an adaptive form using an JSON Schema as its form model requires basic understanding of JSON Schema. It is recommended to read through the following content before this article.</p> 
+  <ul> 
+   <li><a href="../../forms/using/creating-adaptive-form.md" target="_blank">Creating an adaptive form</a></li> 
+   <li><a href="http://json-schema.org/" target="_blank">JSON Schema</a></li> 
+  </ul> 
+  <h2>Using a JSON Schema as form model </h2> 
+  <p>AEM Forms supports creation of an adaptive form by using an existing JSON Schema as the form model. This JSON Schema represents the structure in which data is produced or consumed by the back-end system in your organization. The JSON Schema you use should be compliant with <a href="http://json-schema.org/draft-04/schema" target="_blank">v4 specifications</a>. </p> 
+  <p>The key features of using an JSON Schema are:</p> 
+  <ul> 
+   <li>The structure of the JSON is displayed as a tree in the Content Finder tab in the authoring mode for an adaptive form. You can drag and add element from the JSON hierarchy to the adaptive form.</li> 
+   <li>You can pre-populate the form using JSON that is compliant with the associated schema.</li> 
+   <li>On submission, the data entered by the user is submitted as JSON that aligns with the associated schema.</li> 
+  </ul> 
+  <p>An JSON Schema consists of simple and complex element types. The elements have attributes that add rules to the element. When these elements and attributes are dragged onto an adaptive form, they are automatically mapped to the corresponding adaptive form component.</p> 
+  <p>This mapping of JSON elements with adaptive form components is as follows:</p> 
+  <table border="1" cellpadding="3" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th><strong>JSON element, properties, or attributes</strong></th> 
+     <th><strong>Adaptive form component</strong></th> 
+    </tr> 
+    <tr> 
+     <td><p>String properties with enum and enumNames constraint.</p> <p>Syntax,</p> <p> <span class="code">{</span></p> <p><span class="code">"type" : "string",</span></p> <p><span class="code">"enum" : ["M", "F"]</span></p> <p><span class="code">"enumNames" : ["Male", "Female"]</span></p> <p><span class="code">}</span></p> <p> </p> </td> 
+     <td><p>Drop down component:</p> 
+      <ul> 
+       <li>Values listed in enumNames are displayed in the drop box.</li> 
+       <li>Values listed in the enum are used for calculation.</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td><p>String property with format constraint. For example, email, and date.</p> <p>Syntax,</p> <p><span class="code">{</span></p> <p><span class="code">"type" : "string",</span></p> <p><span class="code">"format" : "email"</span></p> <p><span class="code">}</span></p> <p> </p> </td> 
+     <td> 
+      <ul> 
+       <li>Email component is mapped when the type is string and format is email.</li> 
+       <li>Textbox component with validation is mapped when the type is string and format is hostname.</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td><p>{</p> <p>"type" : "string",</p> <p>}</p> </td> 
+     <td><br /> <br /> Text field<br /> <br /> <br /> </td> 
+    </tr> 
+    <tr> 
+     <td>number property<br /> </td> 
+     <td>Numeric Field with sub type set to float<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>integer property<br /> </td> 
+     <td>Numeric Field with sub type set to integer<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>boolean property<br /> </td> 
+     <td>Switch<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>object property<br /> </td> 
+     <td>Panel<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>array property</td> 
+     <td>Repeatable Panel with min and max equal to minItems and maxItems respectively. Only Homogenous arrays are supported. So the items constraint must be an object and not an array.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Common schema properties</h3> 
+  <p>Adaptive Form uses information available in JSON Schema to map each generated field. In particular:</p> 
+  <ul> 
+   <li>The title property serves as label for the adaptive form components.</li> 
+   <li>The description property is set as long description for an adaptive form component.</li> 
+   <li>The default property serves as initial value of an adaptive form field.</li> 
+   <li>The maxLength property is set as maxlength attribute of the text field component.</li> 
+   <li>The minimum, maximum, exclusiveMinimum, and exclusiveMaximum properties are used for Numeric box component.</li> 
+   <li>To support range for DatePicker component additional JSON Schema properties minDate and maxDate are provided..</li> 
+   <li>The minItems and maxItems properties are used to restrict the number of items/fields that may be added or removed from a panel component.</li> 
+   <li>The readOnly property sets the readonly attribute of an adaptive form component.</li> 
+   <li>The required property marks the adaptive form field as mandatory whereas in case of panel(where type is object), the final submitted JSON data has fields with empty value corresponding to that object.</li> 
+   <li>The pattern property is set as the validation pattern (regular expression) in adaptive form.</li> 
+  </ul> 
+  <h2>Sample JSON Schema</h2> 
+  <p>Here's an example of an JSON Schema.</p> 
+  <codeblock gutter="true" class="syntax plain">
+    {!!discoiqbr!!&amp;nbsp;"$schema":&amp;nbsp;"http://json-schema.org/draft-04/schema#",!!discoiqbr!!&amp;nbsp;"definitions":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;"employee":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"object",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"userName":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"string"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"dateOfBirth":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"string",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"format":&amp;nbsp;"date"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"email":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"string",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"format":&amp;nbsp;"email"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"language":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"string"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"personalDetails":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/personalDetails"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"projectDetails":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/projectDetails"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"required":&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"userName",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"dateOfBirth",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"language"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;]!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"personalDetails":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"object",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"GeneralDetails":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/GeneralDetails"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"Family":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/Family"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"Income":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/Income"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"projectDetails":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"array",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"items":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"string"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"age":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"number"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"projects":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/projects"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"minItems":&amp;nbsp;1,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"maxItems":&amp;nbsp;4!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"projects":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"array",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"items":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"string"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"age":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"number"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"projectsAdditional":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/projectsAdditional"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"minItems":&amp;nbsp;1,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"maxItems":&amp;nbsp;4!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"projectsAdditional":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"array",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"items":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"Additional_name":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"string"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"Additional_areacode":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"number"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"minItems":&amp;nbsp;1,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"maxItems":&amp;nbsp;4!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"GeneralDetails":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"object",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"age":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"number"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"married":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"boolean"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"phone":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"number",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"aem:afProperties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"sling:resourceType":&amp;nbsp;"/libs/fd/af/components/guidetelephone",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"guideNodeClass":&amp;nbsp;"guideTelephone"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"string"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"Family":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"object",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"spouse":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/spouse"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"kids":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/kids"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"Income":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"object",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"monthly":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"number"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"yearly":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"number"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"spouse":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"object",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"string"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"Income":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/Income"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"kids":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"array",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"items":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"string"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"age":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"number"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"minItems":&amp;nbsp;1,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"maxItems":&amp;nbsp;4!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;},!!discoiqbr!!&amp;nbsp;"type":&amp;nbsp;"object",!!discoiqbr!!&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;"employee":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/employee"!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <h3>Reusable schema definitions</h3> 
+  <p>Definition keys are used to identify reusable schemas. The reusable schema definitions are used to create fragments. It is similar to identifying complex types in XSD. A sample JSON Schema with definitions is given below:</p> 
+  <codeblock gutter="true" class="syntax plain">
+    {!!discoiqbr!!&amp;nbsp;&amp;nbsp;"$schema":&amp;nbsp;"http://json-schema.org/draft-04/schema#",!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;"definitions":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"address":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"object",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"street_address":&amp;nbsp;{&amp;nbsp;"type":&amp;nbsp;"string"&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"city":&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{&amp;nbsp;"type":&amp;nbsp;"string"&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"state":&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{&amp;nbsp;"type":&amp;nbsp;"string"&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"required":&amp;nbsp;["street_address",&amp;nbsp;"city",&amp;nbsp;"state"]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"object",!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"billing_address":&amp;nbsp;{&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/address"&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"shipping_address":&amp;nbsp;{&amp;nbsp;"$ref":&amp;nbsp;"#/definitions/address"&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!! 
+  </codeblock> 
+  <p>The above example defines a customer record, where each customer has both a shipping and a billing address. Structure of both the addresses is same—addresses have a street address, city and state— so it is a good idea to not duplicate the addresses. It also makes addition and deletion of fields easy for any future changes.</p> 
+  <h2>Pre-Configuring fields in JSON Schema Definition</h2> 
+  <p>You can use the <strong>aem:afProperties</strong> property to preconfigure JSON Schema field to map to a custom adaptive form component. An example is listed below:</p> 
+  <codeblock gutter="true" class="syntax plain">
+    {!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"properties":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"sizeInMB":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"integer",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"minimum":&amp;nbsp;16,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"maximum":&amp;nbsp;512,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"aem:afProperties"&amp;nbsp;:&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"sling:resourceType"&amp;nbsp;:&amp;nbsp;"/apps/fd/af/components/guideTextBox",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"guideNodeClass"&amp;nbsp;:&amp;nbsp;"guideTextBox"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"required":&amp;nbsp;[&amp;nbsp;"sizeInMB"&amp;nbsp;],!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"additionalProperties":&amp;nbsp;false!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!! 
+  </codeblock> 
+  <h2>Limit acceptable values for an adaptive form component</h2> 
+  <p>You can add the following restrictions to JSON Schema elements to limit the values acceptable to an adaptive form component: </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td width="21%"><p><strong> Schema property</strong></p> </td> 
+     <td valign="top" width="14%"><p><strong>Data Type</strong></p> </td> 
+     <td width="41%"><p><strong>Description</strong></p> </td> 
+     <td width="22%"><p><strong>Component</strong></p> </td> 
+    </tr> 
+    <tr> 
+     <td width="21%"><p><span class="code">maximum</span></p> </td> 
+     <td valign="top" width="14%"><p>String</p> </td> 
+     <td width="41%"><p>Specifies the upper bound for numeric values and dates. By default, the maximum value is included.</p> </td> 
+     <td width="22%"> 
+      <ul> 
+       <li>Numeric box</li> 
+       <li>Numeric Stepper<br /> </li> 
+       <li>Date Picker</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td width="21%"><p><span class="code">minimum</span></p> </td> 
+     <td valign="top" width="14%"><p>String</p> </td> 
+     <td width="41%"><p>Specifies the lower bound for numeric values and dates. By default, the minimum value is included.</p> </td> 
+     <td width="22%"> 
+      <ul> 
+       <li>Numeric box</li> 
+       <li>Numeric Stepper</li> 
+       <li>Date Picker</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td width="21%"><p><span class="code">exclusiveMaximum</span></p> </td> 
+     <td valign="top" width="14%"><p>Boolean</p> </td> 
+     <td width="41%"><p>If true, the numeric value or date specified in the component of the form must be less than the numeric value or date specified for the maximum property.</p> <p>If false, the numeric value or date specified in the component of the form must be less than or equal to the numeric value or date specified for the maximum property.</p> </td> 
+     <td width="22%"> 
+      <ul> 
+       <li>Numeric box</li> 
+       <li>Numeric Stepper</li> 
+       <li>Date Picker</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td width="21%"><p><span class="code">exclusiveMinimum</span></p> </td> 
+     <td valign="top" width="14%"><p>Boolean</p> </td> 
+     <td width="41%"><p>If true, the numeric value or date specified in the component of the form must be greater than the numeric value or date specified for the minimum property.</p> <p>If false, the numeric value or date specified in the component of the form must be greater than or equal to the numeric value or date specified for the minimum property.</p> </td> 
+     <td width="22%"> 
+      <ul> 
+       <li>Numeric box</li> 
+       <li>Numeric Stepper</li> 
+       <li>Date Picker</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td width="21%"><p><span class="code">minLength</span></p> </td> 
+     <td valign="top" width="14%"><p>String</p> </td> 
+     <td width="41%"><p>Specifies the minimum number of characters allowed in a component. The minimum length must be equal to or greater than zero.</p> </td> 
+     <td width="22%"> 
+      <ul> 
+       <li>Text box</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">maxLength</span></td> 
+     <td>String</td> 
+     <td>Specifies the maximum number of characters allowed in a component. The maximum length must be equal to or greater than zero.</td> 
+     <td> 
+      <ul> 
+       <li>Text box</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td width="21%"><p><span class="code">pattern</span></p> </td> 
+     <td valign="top" width="14%"><p>String</p> </td> 
+     <td width="41%"><p>Specifies the sequence of the characters. A component accepts the characters if the characters conform to specified pattern.</p> <p>The pattern property maps to the validation pattern of the corresponding adaptive form component.</p> </td> 
+     <td width="22%"> 
+      <ul> 
+       <li>All adaptive forms components which are mapped to an XSD schema </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>maxItems</td> 
+     <td>String</td> 
+     <td>Specifies the maximum number of item in an array. The maximum items must be equal to or greater than zero.</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>minItems</td> 
+     <td>String</td> 
+     <td>Specifies the minimum number of item in an array. The minimum items must be equal to or greater than zero.</td> 
+     <td> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Non-supported constructs </h2> 
+  <p>Adaptive forms does not support the following JSON Schema constructs:</p> 
+  <ul> 
+   <li>Null type</li> 
+   <li>Union types such as any, and</li> 
+   <li>OneOf, AnyOf, AllOf, and NOT</li> 
+   <li>Only Homogenous arrays are supported. So, the items constraint must be an object and not be an array.</li> 
+  </ul> 
+  <h2>Frequently asked questions</h2> 
+  <p><strong>Why I am not able to drag individual elements of a subform (structure generated from any complex type) for repeatable subforms (minOccours or maxOccurs values are greater than 1)?</strong></p> 
+  <p>In a repeatable subform, you must use the complete subform. If you want only selective fields, use the entire structure and delete the unwanted ones.</p> 
+  <p><strong>I have a long complex structure in Content Finder. How can I find a specific element?</strong></p> 
+  <p>You have two options:</p> 
+  <ul> 
+   <li>Scroll through the tree structure<br /> </li> 
+   <li>Use the Search box to find an element</li> 
+  </ul> 
+ </body> 
+</html>

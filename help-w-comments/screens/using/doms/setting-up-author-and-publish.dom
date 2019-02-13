@@ -1,0 +1,57 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2019-01-15T15:39:11.403-0500" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="Setting Up Author and Publish" name="jcr:title" /> 
+  <meta content="true" name="preview" /> 
+  <meta content="2018-12-03T17:46:43.165-0500" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <p>The following section covers the following topics:</p> 
+  <ul> 
+   <li>Overview 
+    <ul> 
+     <li>Prerequisites</li> 
+    </ul> </li> 
+   <li>Setting up Author and Publish Channels</li> 
+  </ul> 
+  <h2>Overview</h2> 
+  <p>AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. AEM Screens devices can now connect to an AEM publish farm via load balancer. Multiple AEM publish instances can be added to continue to scale the publish farm.</p> 
+  <p>This section explains how to transfer content from author to publish servers and then consequently all the way up to the players.</p> 
+  <h3>Prerequisites</h3> 
+  <p>You must learn the basics of Author and Publish servers and the AEM topology, to continue setting up Author and Publish channel in your AEM instance.</p> 
+  <p>To learn in detail about Publish Servers, Architectural Overview, and Replication Agents, please refer to <a href="../../screens/using/author-and-publish.md"><strong>Supporting Author and Publish in AEM Screens</strong></a>.</p> 
+  <h2>Setting up Author and Publish Channels</h2> 
+  <p>Follow the steps below to set up and implement author and publish channels in your AEM Screens project.</p> 
+  <h2>On the Author Instance</h2> 
+  <p>Follow the steps on the author instance, such as <a href="/aem/start">http://localhost:4502/aem/start.html.</a></p> 
+  <ol> 
+   <li> 
+    <ol> 
+     <li>Navigate to Screens project from<strong> Test Project </strong>--&amp;gt;<strong> Channels</strong>.</li> 
+     <li>Click <strong>Create</strong> next to the plus icon in the action bar. A wizard will open (<em>See Channel Types for more information</em>).</li> 
+     <li>Select the <strong>Sequence Channel</strong> template from the wizard and click <strong>Next</strong>.</li> 
+     <li>Enter the <strong>Title </strong>as<strong> Offline Channel</strong>.</li> 
+     <li>Click <strong>Create</strong> and the channel is created and added to your channels folder.</li> 
+    </ol> <p>Similarly, create another channel titled as <strong>Offline Channel</strong>, as shown in the figure below.</p> <img imageRotate="0" src="assets/screen_shot_2018-12-03at15354pm.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Test Channel </strong>--&amp;gt; <strong>Channels</strong> --&amp;gt; <strong>Offline Channel</strong>.</li> 
+     <li>Click <strong>Edit</strong> from the action bar to open the editor.<br /> </li> 
+     <li>Drag and drop the images and videos to your channel.</li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-12-03at23332pm.png" /><p>Similarly add content to<strong> Online Channel</strong>, as shown in the figure below.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-12-03at23239pm.png" /></li> 
+   <li><p>Step text</p> </li> 
+   <li>Step text</li> 
+   <li>Step text</li> 
+  </ol> 
+ </body> 
+</html>

@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Specifying XCI configuration options" name="jcr:title" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d86.2" name="cq:gepId" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2016-02-05T03:27:31.984-0500" name="lr_lastModified" /> 
+  <meta content="8" name="acrolinxSentences" /> 
+  <meta content="2018-04-26T04:22:34.871-0400" name="locHandOffDate" /> 
+  <meta content="2016-05-31T07:03:10.360-0400" name="acrolinxDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="2017-12-01T19:02:51.513-0500" name="jcr:created" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:31:57.612-0400" name="publishExternalDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/specifying_xci_configuration_options_admin_5e12de0b318c6865_2373_report.xml" name="acrolinxReportURL" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="31079560-e8dc-4ec5-a0cf-51919a20be26" name="jcr:uuid" /> 
+  <meta content="2018-04-26T04:22:34.871-0400" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="83d85ee7-0f70-4c4a-b489-0e9a5c27009b" name="jcr:predecessors" /> 
+  <meta content="Specifying XCI configuration options" name="navTitle" /> 
+  <meta content="131" name="acrolinxWords" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2016-04-20T10:09:57.809-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/specifying-xci-configuration-options.html" name="publishExternalURL" /> 
+  <meta content="2017-10-31T16:31:57.612-0400" name="lastPublishExternalDate" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="Learn how to specify XCI configuration options." name="seoDescription" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-03T09:10:35.793-0400" name="cq:lastReplicated" /> 
+ </head> 
+ <body> 
+  <p>Forms enables you to specify a custom XCI file that it will use for rendering. (See <a href="../../../forms/using/admin-help/configuring-locations-forms.md#configuring-locations-for-forms">Configuring locations for Forms</a>.) By default, Forms overrides some of the options specified in the XCI file, including the following:</p> 
+  <ul> 
+   <li></li> 
+   <li></li> 
+   <li></li> 
+   <li></li> 
+  </ul> 
+  <p>You can select options that cancel the override for the options listed above, in which case Forms will use the values specified in the custom XCI file. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Forms.</p></li> 
+   <li><p>Select or deselect the Use System Default XCI Options check box. When this option is selected, Forms uses its default values for the packets, creator, producer, and compressObjectStream settings. When this option is deselected, Forms uses the values specified in the custom XCI file.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+ </body> 
+</html>

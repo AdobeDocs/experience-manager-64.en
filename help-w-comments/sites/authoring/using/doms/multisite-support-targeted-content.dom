@@ -1,0 +1,240 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:personalization" name="cq:tags" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/multisite-support-targeted-content.html" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-19T10:33:38.222-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="fbfdd444-a6a9-4a7b-89fc-75bdd5ef3986" name="jcr:uuid" /> 
+  <meta content="2018-02-03T08:01:32.990-0500" name="jcr:created" /> 
+  <meta content="ba6e993d-f810-4de1-b935-c026d376a254" name="jcr:predecessors" /> 
+  <meta content="Working with Targeted Content in Multisites" name="navTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="If you need to manage targeted content, such as activities, experiences, and offers between your sites, you can take advantage of AEM's built-in multisite support for targeted content" name="seoDescription" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-10-28T00:43:53.665-0400" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="/content/docs/en/aem/6-3/author/personalization/multisite-support-targeted-content" name="qaNotes" /> 
+  <meta content="2018-10-28T00:43:53.704-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-10-28T00:43:53.658-0400" name="publishExternalDate" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Working with Targeted Content in Multisites" name="jcr:title" /> 
+  <meta content="2018-10-28T00:43:53.658-0400" name="lastPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-10-28T00:43:53.658-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2017-10-31T16:20:02.975-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Working with Targeted Content in Multisites" name="seoTitle" /> 
+ </head> 
+ <body> 
+  <p>If you need to manage targeted content, such as activities, experiences, and offers between your sites, you can take advantage of AEM's built-in multisite support for targeted content.</p> 
+  <note> 
+   <p>Working with Multisite support for targeted content is an advanced feature. To use this feature, you should be familiar with <a href="../../../sites/administering/using/msm.md">Multi Site Manager</a> and the <a href="../../../sites/administering/using/target.md">Adobe Target integration</a> with AEM. </p> 
+  </note> 
+  <p>This document describes the following:</p> 
+  <ul> 
+   <li>Provides a brief overview of AEM's multisite support for targeted content.</li> 
+   <li>Describes some possible usage scenarios on how you can link sites (in one brand). </li> 
+   <li>Provides an example walkthrough of how marketers would use this feature. </li> 
+   <li>Detailed instructions on how to implement multisite support for targeted content.</li> 
+  </ul> 
+  <p>To set up how your sites share personalized content, you need to perform the following steps:</p> 
+  <ol> 
+   <li><a href="#creatingnewareas">Create a new area</a> or <a href="#creatingnewareasaslivecopies">create a new area as live copy</a>. An area includes all the activities tha are available for an <i>area</i> of the page; that is , the location on the page where the component is targeted. Creating a new area creates an empty area, whereas creating a new area as a live copy lets you inherit content across site structures.</li> 
+   <li><a href="#linkingsitestoanarea">Link your site or page</a> to an area.</li> 
+  </ol> 
+  <p>At any time you can suspend or restore inheritance. In addition, if you do not want to suspend inheritance, you can also create local experiences. By default, all pages use the Master Area unless you specify otherwise.</p> 
+  <h2>Introduction to multisite support for targeted content</h2> 
+  <p>Multisite support for targeted content is available out of the box and lets you push targeted content from the master page that you manage through MSM to a local live copy or lets you manage global and local modifications of such content.</p> 
+  <p>You manage this in an <strong>Area</strong>. Areas separate targeted content (activities, experiences and offers) used in different sites and provide an MSM-based mechanism to create and manage the inheritance of targeted content together with site inheritance. This prevents your having to re-create targeted content in inherited sites as was required in AEM prior to 6.2.</p> 
+  <p>In an area, only activities linked to that area are pushed to live copies. By default, the Master Area is selected. After you create additional areas, you can link those to your sites or pages to indicate which targeted content is pushed.</p> 
+  <p>A site or live copy links to an area containing the activities that need to be available on that site or live copy. By default the site or live copy links to the master area, but you can link other areas besides the master areaas well.</p> 
+  <note> 
+   <p>You should be aware of the following when using multisite support for targeted content:</p> 
+   <ul> 
+    <li>When you are using rollouts or live copies, an MSM license is required.</li> 
+    <li>When you are using synchronization to Adobe Target, an Adobe Target license is required.</li> 
+   </ul> 
+  </note> 
+  <h2>Use cases</h2> 
+  <p>You can set up multisite support for targeted content in a number of ways, depending on your use case. This section describes how this would work theoretically with one brand. In addition, in <a href="#exampletargetingcontentbasedongeogrpahy">Example: Targeting Content Based on Geogrpahy</a>, you can see a real-world application of targeting content in multiple sites.</p> 
+  <p>Targeted content is wrapped in a so-called areas, which define the scope for sites or pages. These areas are defined at the brand level. One brand can contain multiple areas. Areas can be distinct between brands. While one brand may just contain the master area and therefore is shared across all brands, another brand may contain multiple brands (for example, by region). Brands, therefore, do not need to mirror the set of areas between them.</p> 
+  <p>With multisite support for targeted content, you can, for example, have two (or more) sites with <strong>one</strong> brand that have one of the following:</p> 
+  <ul> 
+   <li>A completely <i>distinct</i> set of targeted content - Editing targeted content in one does not affect the other. Sites linking to distinct areas read and write to their own configured area. For example:<br /> 
+    <ul> 
+     <li>Site A links to Area X</li> 
+     <li>Site B links to Area Y</li> 
+    </ul> </li> 
+   <li>A <i>shared</i> set of targeted content - Editing in one does have a direct impact on both sites; you can set this up by having two sites refer to the same area. Sites linking to the same area share the targeted content within this area. For example: 
+    <ul> 
+     <li>Site A links to Area X</li> 
+     <li>Site B links to Area X</li> 
+    </ul> </li> 
+   <li>A distinct set of targeted content <i>inherited</i> from another site via MSM - Content can be unidirectionally rolled out from master to live copy. For example: 
+    <ul> 
+     <li>Site A links to Area X</li> 
+     <li>Site B links to Area Y (which is a live copy of Area X)</li> 
+    </ul> </li> 
+  </ul> 
+  <p>You could also have <strong>multiple</strong> brands that are used in one site, which could be more complex than this example.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-341.png" /> 
+  <note> 
+   <p>For a more technical look at this feature, see <a href="../../../sites/authoring/using/technical-multisite-targeted.md">How Multisite Management for Targeted Content is Structured</a>.</p> 
+  </note> 
+  <h2>Example: Targeting content based on geography</h2> 
+  <p>Using multisite for targeted content allows you to share, roll out, or isolate personalization content. To better illustrate how this feature is used, consider a scenario where you want to control how targeted content is rolled out based on geography as in the following scenario:</p> 
+  <p>There are four versions of the same site based on geography:</p> 
+  <ul> 
+   <li>The <strong>United States</strong> site is in the upper left corner and is the master site. In this example, it is open in Targeting mode.</li> 
+   <li>The three other versions of this site are <strong>Canada</strong>, <strong>Great Britain</strong>, and <strong>Australia</strong>, which are all live copies. These sites are open in Preview mode.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-342.png" /> 
+  <p>Each site shares personalized content in geographic regions:</p> 
+  <ul> 
+   <li>Canada shares the master area with the United States.</li> 
+   <li>Great Britian is linked to the European area and inherits from the master area.</li> 
+   <li>Australia, because it is in the southern hemisphere and seasonal products would not apply, has its own personalized content.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-343.png" /> 
+  <p>For the northern hemisphere, we have a winter activity created but in the male audience the marketer in North America would like a different image for winter, so he or she changes it in the United States site. </p> 
+  <img imageRotate="0" src="assets/chlimage_1-344.png" /> 
+  <p>After refreshing the tab, the Canadian site changes to the new image without any action on our part. It does so because it shares the master area with the United States. In the Great Britan and Australia sites, the image does not change.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-345.png" /> 
+  <p>The marketer would like to roll out these changes to the European region and <a href="../../../sites/administering/using/msm-livecopy.md">rolls out the live copy</a> by tapping or clicking <strong>Rollout Page</strong>. After refreshing the tab, the Great Britain site has the new image as the Europe area inherits from the master area (after rollout).</p> 
+  <img imageRotate="0" src="assets/chlimage_1-346.png" /> 
+  <p>The image in the Australia site remains unchanged, which is the desired behavior, as it is summer in Australia and the marketer does not want to change that content. Australia's site does not change because it does not share an area with any other region nor is it a live copy of another region. The marketer never has to worry that the Australian site's targeted content will get overwritten.</p> 
+  <p>In addition, for Great Britain, whose area is a live copy of the master area, you can see the inheritance status by the green indicator next to the activity name. If an activity is inherited, you cannot modify it unless you suspend or detach the live copy.</p> 
+  <p>At any time, you can suspend the inheritance or detach the inheritance completely. You can also always add local experiences that are only available to that experience without suspending the inheritance.</p> 
+  <note> 
+   <p>For a more technical look at this feature, see <a href="../../../sites/authoring/using/technical-multisite-targeted.md">How Multisite Management for Targeted Content is Structured</a>.</p> 
+  </note> 
+  <h3>Creating a new area versus creating a new area as livecopy</h3> 
+  <p>In AEM, you have the option of creating a new area or creating a new areas as livecopy. Creating a new area groups activities and anything that belongs to those activities, such as offers, experiences, and so on. You create a new area when you want to create either a completely distinct set of targeted content or you want share a set of targeted content.</p> 
+  <p>If, however, you have inheritance set up via the MSM between the two sites, then you may want to inherit the activities. In this case, you create a new area as a live copy, where Y is a live copy of X and therefore inherits all the activities as well. </p> 
+  <note> 
+   <p>The default rollout triggers subsequent rollouts of the targeted content whenever a page is a Live copy linking to an area that itself is a Live copy of the area linked to the Pages blueprint.</p> 
+  </note> 
+  <p>For example, in the following diagram, there are four sites where two share the master area (and all the activities that are part of that area), one site that has an area that is a live copy of an area, so that it shares the activities upon rollout, and one side that is completely separate (and therefore requires an area for its activities).</p> 
+  <img imageRotate="0" src="assets/chlimage_1-347.png" /> 
+  <p>To achieve this in AEM, you would do the following:</p> 
+  <ul> 
+   <li>Site A links to the Master Area - no area creation needed. Master Area is selected by default in AEM. Site A and B share activities, and so on.</li> 
+   <li>Site B links to the Master Area - no area creation needed. Master Area is selected by default in AEM. Site A and B share activities, and so on.</li> 
+   <li>Site C links to Inherited Area, which is a live copy of the Master Area - Create Area as Live Copy where you create a live copy based on the Master Area. The Inherited Area inherits activities from the Master Area upon rollout.</li> 
+   <li>Site D links to its own Isolated Area - Create Area where you create an entirely new area with no activities yet defined. The isolated area will not share activities with any other site.</li> 
+  </ul> 
+  <h2>Creating new areas</h2> 
+  <p>Areas can span activities and offers. After you have created an area in either one of them (for example, activities), you also have the area available in the other one (for example, offers).</p> 
+  <note> 
+   <p>The default area called Master Area is collapsed by default when you tap or click on the name of a brand <strong>until</strong> you create another area. Then, when you select a brand in either the <strong>Activity</strong> or <strong>Offers</strong> console, you see the <strong>Area</strong> console. </p> 
+  </note> 
+  <p>To create a new area:</p> 
+  <ol> 
+   <li><p>Navigate to <strong>Personalization</strong> &amp;gt; <strong>Activities</strong> or <strong>Offers</strong> or and then to your brand. </p> </li> 
+   <li><p>Tap or click <strong>Create Area</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-348.png" /></li> 
+   <li><p>Click the <strong>Area</strong> icon and click <strong>Next</strong>.</p> </li> 
+   <li><p>In the <strong>Title</strong> field, enter a name for the new area. Optionally select tags.</p> </li> 
+   <li><p>Tap or click <strong>Create</strong>.</p> <p>AEM redirects to the brand window, where it lists any areas created. If there is another area besides the Master Area, then you can create areas directly in the Brand console.</p> <img imageRotate="0" src="assets/chlimage_1-349.png" /></li> 
+  </ol> 
+  <h2>Creating areas as live copies</h2> 
+  <p>You create an area as a live copy in order to inherit the targeted content across site structures.</p> 
+  <p>To create an area as a livecopy:</p> 
+  <ol> 
+   <li><p>Navigate to <strong>Personalization</strong> &amp;gt; <strong>Activities</strong> or <strong>Offers</strong> and then to your brand.</p> </li> 
+   <li><p>Tap or click <strong>Create Area as Live Copy</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-350.png" /></li> 
+   <li><p>Select the area that you want to make a live copy of and click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-351.png" /></li> 
+   <li><p>In the <strong>Name</strong> field, enter a name for the live copy. By default, sub pages are included; exclude them by selecting the <strong>Exclude sub pages</strong> check box.</p> <img imageRotate="0" src="assets/chlimage_1-352.png" /></li> 
+   <li><p>In the <strong>Rollout Configs</strong> drop-down menu, select the appropriate configuration.</p> <p>See <a href="../../../sites/administering/using/msm-sync.md#installedrolloutconfigurations">Installed Rollout Configurations</a> for descriptions of each option.</p> <p>See <a href="../../../sites/administering/using/msm-livecopy.md">Creating and Synchronizing Live Copies</a> for more information on live copies.</p> 
+    <note> 
+     <p>When a page is rolled out to a Live Copy and the area configured for the Blueprint page is also the Blueprint for the area configured for the Pages Live Copy, the LiveAction <strong>personalizationContentRollout</strong> triggers a synchronous subRollout, which is part of the <strong>Standard rollout config</strong>. </p> 
+    </note></li> 
+   <li><p>Tap or click <strong>Create</strong>.</p> <p>AEM redirects to the brand window, where it lists any areas created. If there is another area besides the Master Area, then you can create areas directly from the brand window.</p> <img imageRotate="0" src="assets/chlimage_1-353.png" /></li> 
+  </ol> 
+  <h2>Linking sites to an area</h2> 
+  <p>You can link areas to either pages or to a site. Areas are inherited by all subpages unless those pages are overlayed by a mapping on a subpage. In general, however, you link at the site level. </p> 
+  <p>When you link, only those activities, experiences, and offers from the selected area are available. This prevents accidental mixup of independently managed content. If no other area is configured, the master area of each brand is used. </p> 
+  <note> 
+   <p>Pages or sites that reference the same area are using the <i>same</i> shared set of activities, experiences, and offers. Editing an activity, experience, or offer that is shared by multiple sites affects all sites. </p> 
+  </note> 
+  <p>To link a site to an area:</p> 
+  <ol> 
+   <li><p>Navigate to the site (or page) that you want to link to an area.</p> </li> 
+   <li><p>Select the site or page and tap or click <strong>View Properties</strong>.</p> </li> 
+   <li><p>Tap or click the <strong>Personalization</strong> tab. </p> </li> 
+   <li><p>In the <strong>Brand</strong> menu, select the brand you want to link your area to. After you select the brand, available areas are available in the <strong>Area Reference</strong> menu.</p> <img imageRotate="0" src="assets/chlimage_1-354.png" /></li> 
+   <li><p>Select the area from the <strong>Area Reference</strong> drop-down menu and tap or click <strong>Save</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-355.png" /></li> 
+  </ol> 
+  <h2>Detaching live copy or suspending inheritance of targeted content</h2> 
+  <p>You may want to either suspend or detach inheritance of targeted content. Suspending or detaching the live copy is done per activity. For example, you may want to modify experiences in your activity, but if that activity is still linked to inherited copy, you cannot modify the experience or any of the activity's properties.</p> 
+  <p>Suspending the live copy temporarily breaks inheritance, but in the future you can restore inheritance. Detaching the live copy permanently breaks inheritance. </p> 
+  <p>You suspend or detach the inheritance of targeted content by restoring it in an activity. If a page or site links to an area that is a Live Copy, you can view an activity's inheritance status. </p> 
+  <p>An activity that is inheriting from another site is marked green next to the activity name. A suspended inheritance is marked red, and a locally created activity has no icon. </p> 
+  <draft-comment type="draft"> 
+   <p>For example, the activity in this image is inheriting from another site.</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <img imageRotate="0" src="assets/chlimage_1-356.png" /> 
+  </draft-comment> 
+  <note> 
+   <ul> 
+    <li>You can only suspend or detach live copies in an activity.</li> 
+    <li>You do not need to suspend or detach live copies to extend an inherited activity. You can always create <strong>new</strong> local experiences and offers for that activity. If you want to modify an existing activity, then you need to suspend inheritance.</li> 
+   </ul> 
+  </note> 
+  <h3>Suspending inheritance</h3> 
+  <p>To suspend or detach inheritance of targeted content in an activity:</p> 
+  <ol> 
+   <li><p>Navigate to the page where you want to detach or suspend inheritance and tap or click <strong>Targeting</strong> in the mode drop-down menu.</p> </li> 
+   <li><p>If your page is linked to an area that is a live copy, you see the inheritance status. Tap or click <strong>Start Targeting</strong>.</p> 
+    <draft-comment type="draft"> 
+     <img imageRotate="0" src="assets/chlimage_1-357.png" /> 
+    </draft-comment></li> 
+   <li><p>To suspend on an activity, do one of the following:</p> 
+    <ol> 
+     <li>Select an element of the activity, such as the audience. AEM automatically displays a Suspend Live Copy confirmation box. (You can suspend live copy by tapping or clicking on any element throughout the Targeting process.)</li> 
+     <li>Select <strong>Suspend Live Copy</strong> from the drop-down menu in the toolbar.</li> 
+    </ol> <img imageRotate="0" src="assets/chlimage_1-358.png" /></li> 
+   <li><p>Tap or click <strong>Suspend</strong> to suspend the activity. Suspended activities are marked in red.</p> <img imageRotate="0" src="assets/chlimage_1-359.png" /></li> 
+  </ol> 
+  <h3>Breaking Inheritance</h3> 
+  <p>To break inheritance of targeted content in an activity:</p> 
+  <ol> 
+   <li><p>Navigate to the page where you want to detach the live copy from the master and tap or click <strong>Targeting</strong> in the mode drop-down menu.</p> </li> 
+   <li><p>If your page is linked to an area that is a live copy, you see the inheritance status. Tap or click <strong>Start Targeting</strong>.</p> </li> 
+   <li><p>Select<strong> Detach Live Copy</strong> from the drop-down menu in the toolbar. AEM confirms that you want to detach the live copy.</p> </li> 
+   <li><p>Tap or click <strong>Detach</strong> to detach the live copy from the activity. After it is detached, the drop-down menu regarding inheritance no longer displays. The activity is now a local activity.</p> <img imageRotate="0" src="assets/chlimage_1-360.png" /></li> 
+  </ol> 
+  <h2>Restoring inheritance of targeted content</h2> 
+  <p>If you have suspended inheritance of targeted content in an activity, you can restore it at any time. However, if you have detached the live copy, you cannot restore the inheritance.</p> 
+  <p>To restore inheritance of targeted content in an activity:</p> 
+  <ol> 
+   <li><p>Navigate to the page where you want to restore inheritance and tap or click <strong>Targeting</strong> in the mode drop-down menu.</p> </li> 
+   <li><p>Tap or click <strong>Start Targeting</strong>.</p> </li> 
+   <li><p>Select <strong>Resume Live Copy</strong> from the drop-down menu in the toolbar.</p> <img imageRotate="0" src="assets/chlimage_1-361.png" /></li> 
+   <li><p>Tap or click <strong>Resume</strong> to confirm that you want to resume live copy inheritance. Any modifications made to the current activity are lost if you resume inheritance.</p> </li> 
+  </ol> 
+  <h2>Deleting areas</h2> 
+  <p>When you delete an area, you delete all the activities in that area. AEM warns you before you can delete an area. If you do delete an area that a site is linked to, the mapping for this brand will automatically remap to the master area.</p> 
+  <p>To delete an area:</p> 
+  <ol> 
+   <li><p>Navigate to <strong>Personalization</strong> &amp;gt; <strong>Activities</strong> or <strong>Offers</strong> and then your brand.</p> </li> 
+   <li><p>Tap or click the icon next to the area you want to delete.</p> </li> 
+   <li><p>Tap or click <strong>Delete</strong> and confirm that you want to delete the area.</p> </li> 
+  </ol> 
+ </body> 
+</html>

@@ -1,0 +1,198 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-10-11T03:53:15.283-0400" name="publishExternalDate" /> 
+  <meta content="2018-10-17T08:57:56.404-0400" name="locHandOffDate" /> 
+  <meta content="b6ea27b0-7bbf-4dcf-97e6-483969ee6857" name="jcr:uuid" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Install and configure adaptive forms, PDF Forms, and HTML5 Forms. Configure Adobe Analytics and Adobe Target for adaptive forms to analyze usage of forms and target users based on their profile." name="seoDescription" /> 
+  <meta content="2018-10-11T03:53:15.283-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-10-11T03:53:15.283-0400" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Install and configure adaptive forms, PDF Forms, and HTML5 Forms. Configure Adobe Analytics and Adobe Target for adaptive forms to analyze usage of forms and target users based on their profile." name="jcr:description" /> 
+  <meta content="2018-05-07T03:15:13.259-0400" name="firstPublishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/installing" name="moreHelpPaths" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="2018-10-11T03:53:15.314-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/installing-configuring-aem-forms-osgi.html" name="publishExternalURL" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Install and configure data capture capabilities" name="jcr:title" /> 
+  <meta content="2018-02-16T08:03:02.632-0500" name="jcr:created" /> 
+  <meta content="khsingh" name="contentOwner" /> 
+  <meta content="2018-10-17T08:57:56.404-0400" name="cq:lastModified" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="topic_tags:installing" name="cq:tags" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="dcf854cb-8085-4b00-be20-f57d2cf6e833" name="jcr:predecessors" /> 
+ </head> 
+ <body> 
+  <h2>Introduction</h2> 
+  <p>AEM Forms provides a set of forms to obtain data from end user: adaptive forms, HTML5 Forms, and PDF Forms. It also provides tools to list all the available forms on a webpage, analyze usage of forms, and target users based on their profile. These capabilities are included in AEM Forms add-on package. The add-on package is deployed on an Author or Publish instance of AEM.</p> 
+  <p><strong>Adaptive forms:</strong> These forms change appearance based on the screen size of the device, are engaging, and interactive in nature. Adaptive Forms can also integrate with Adobe Analytics, Adobe Sign, and Adobe Target. It enabled you to deliver personalized forms and process-oriented experiences to users based on their demography and other features. You can also integrate adaptive forms with Adobe Sign.</p> 
+  <p><strong>PDF Forms</strong> are suitable for pixel-perfect printing and digital information capture within a PDF document. In the digital avatar, you can use Adobe Acrobat or Acrobat Reader to fill these forms. You can host these forms on your website or use the forms portal to list these forms on an AEM site. You can also email these forms to others as attachments. These forms are best suited for desktop environments.</p> 
+  <p><strong>HTML5 Forms</strong> are the browser-friendly version of PDF Forms. HTML5 Forms are suitable for environments that do not support PDF plug-ins. HTML5 Forms enables the rendering of XFA-based forms on mobile devices and desktop browsers on which XFA-based PDF is not supported. These forms are best suited for tablets and desktop environments.</p> 
+  <p>AEM Forms is a powerful enterprise-class platform and the data capture (adaptive forms, PDF Forms, and HTML5 Forms) is only one of the capability of AEM Forms. For the complete list of capabilities, see <a href="../../forms/using/introduction-aem-forms.md">Introduction to AEM Forms</a>.</p> 
+  <h2>Deployment Topology</h2> 
+  <p>AEM Forms add-on package is an application deployed onto AEM. You require only a minimum of one AEM Author and AEM Publish instance to run AEM Forms data capture capabilities. The following topology is suggested to run AEM Forms AEM Forms data capture capabilities. For detailed information about the topology, see <a href="../../forms/using/aem-forms-architecture-deployment.md">Architecture and deployment topologies for AEM Forms</a>.</p> 
+  <img imageRotate="0" src="assets/recommended-topology.png" /> 
+  <h2>System Requirements</h2> 
+  <p>Before you begin to install and configure data capture capability AEM Forms, ensure that:</p> 
+  <ul> 
+   <li>Hardware and software infrastructure is in place. For a detailed list of supported hardware and software, see <a href="../../sites/deploying/using/technical-requirements.md">technical requirements</a>.<br /> </li> 
+   <li>Installation path of the AEM instance does not contain white-spaces.</li> 
+   <li>An AEM instance is up and running. In AEM terminology, an "instance" is a copy of AEM running on a server in the author or publish mode. You require at least two <a href="../../sites/deploying/using/deploy.md" target="_blank">AEM instances (one Author and one Publish)</a> to run AEM Forms data capture capabilities: 
+    <ul> 
+     <li><strong>Author</strong>: An AEM instance used to create, upload, and edit content and to administer the website. Once content is ready to go live, it is replicated to the publish instance.</li> 
+     <li><strong>Publish</strong>: An AEM instance that serves the published content to the public over the internet or an internal network.</li> 
+    </ul> </li> 
+   <li>Memory requirements are met. AEM Forms add-on package requires: 
+    <ul> 
+     <li>15 GB of temporary space for Microsoft Windows-based installations.</li> 
+     <li>6 GB of temporary space for UNIX-based installations.</li> 
+    </ul> </li> 
+   <li>Replication and reverse replication for the author and publish instances is set. For details, see <a href="../../sites/deploying/using/replication.md" target="_blank">Replication</a>.</li> 
+   <li>Extra requirements for UNIX-based systems: If you are using the UNIX-based operating system, install the following packages from the installation media of the respective operating system.</li> 
+  </ul> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>expat</td> 
+     <td>libxcb</td> 
+     <td>freetype</td> 
+     <td>libXau</td> 
+    </tr> 
+    <tr> 
+     <td>libSM</td> 
+     <td>zlib</td> 
+     <td>libICE</td> 
+     <td>libuuid</td> 
+    </tr> 
+    <tr> 
+     <td>glibc</td> 
+     <td>libXext</td> 
+     <td><p>nss-softokn-freebl</p> </td> 
+     <td>fontconfig</td> 
+    </tr> 
+    <tr> 
+     <td>libX11</td> 
+     <td>libXrender</td> 
+     <td>libXrandr</td> 
+     <td>libXinerama</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Install AEM Forms add-on package</h2> 
+  <p>AEM Forms add-on package is an application deployed onto AEM. The package contains AEM Forms data capture and other capabilities. Perform the following steps to install the add-on package:</p> 
+  <ol> 
+   <li><p>Log in to the <a href="http://localhost:4502">AEM server</a> as an administrator and open <a href="http://localhost:4502/crx/packageshare">package share</a>. You require an Adobe ID to log in to the package share.</p> </li> 
+   <li><p>In <a href="http://localhost:4502/crx/packageshare/login.html">AEM package share</a>, search <strong>AEM 6.4 Forms add-on packages</strong>, click the package applicable to your operating system, and click <strong>Download</strong>. Read and accept the license agreement and click <strong>OK</strong>. The download starts. Once downloaded, the word <strong>Downloaded </strong>appears next to the package.</p> <p>You can also use the version number to search an add-on package. For version number of the latest package, see the <a href="/content/help/en/aem-forms/kb/aem-forms-releases">AEM Forms releases</a> article.</p> </li> 
+   <li><p>After the download completes, click <strong>Downloaded</strong>. You are redirected to package manager. In the package manager, search the downloaded package, and click <strong>Install</strong>. </p> <p>If you manually download the package via the direct link listed in the <a href="/content/help/en/aem-forms/kb/aem-forms-releases">AEM Forms releases</a> article, log in to the package manager, click <strong>Upload Package</strong>, select the downloaded package, and click upload. After the package is uploaded, click package name, and click <strong>Install.</strong></p> </li> 
+   <li><p>After the package is installed, you are prompted to restart the AEM instance. <strong>Do not immediately restart the server.</strong> Before stopping the AEM Forms server, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the [AEM-Installation-Directory]/crx-quickstart/logs/error.log file and the log is stable.</p> </li> 
+   <li><p>Repeat steps 1-4 on all the Author and Publish instances. </p> </li> 
+  </ol> 
+  <h2>Post-installation configurations</h2> 
+  <p>AEM Forms has a few mandatory and optional configurations. The mandatory configurations include configuring BouncyCastle libraries and serialization agent. The optional configurations include configuring dispatcher, Forms portal, Adobe Sign, Adobe Analytics, and Adobe Target. </p> 
+  <p> </p> 
+  <h3>Mandatory post-installation configurations</h3> 
+  <h4>Configure RSA and BouncyCastle libraries </h4> 
+  <p>Perform the following steps on all the Author and Publish instances to boot delegate the libraries: </p> 
+  <ol> 
+   <li><p>Stop the underlying AEM instance.</p> </li> 
+   <li><p>Open the [AEM installation directory]\crx-quickstart\conf\sling.properties file for editing.</p> <p>If you used [AEM installation directory]\crx-quickstart\bin\start.bat to start AEM, then edit the sling.properties located at [AEM_root]\crx-quickstart\.</p> </li> 
+   <li><p>Add the following properties to the sling.properties file:<br /> <br /> </p> 
+    <codeblock gutter="true" class="syntax js">
+      sling.bootdelegation.class.com.rsa.jsafe.provider.JsafeJCE=com.rsa.*!!discoiqbr!!sling.bootdelegation.class.org.bouncycastle.jce.provider.BouncyCastleProvider=org.bouncycastle.* 
+    </codeblock></li> 
+   <li><p>Save and close the file and start the AEM instance.</p> </li> 
+   <li><p>Repeat step 1-4 on all the Author and Publish instances. <br /> </p> </li> 
+   <draft-comment type="draft"> 
+    <li>Step text</li> 
+   </draft-comment> 
+  </ol> 
+  <h4>Configure the serialization agent</h4> 
+  <p>Perform the following steps on all the Author and Publish instances to whitelist the package:</p> 
+  <ol> 
+   <li><p>Open AEM Configuration Manager in a browser window. The default URL is http://[server]:[port]/system/console/configMgr.</p> </li> 
+   <li><p>Search and open <strong>Deserialization Firewall Configuration</strong>.</p> </li> 
+   <li><p>Add the <strong>sun.util.calendar </strong>package to the <strong>whitelist </strong>field. Click Save.</p> </li> 
+   <li><p>Repeat step 1-3 on all the Author and Publish instances.<br /> </p> </li> 
+   <draft-comment type="draft"> 
+    <li>Step text</li> 
+   </draft-comment> 
+  </ol> 
+  <h3>Optional post-installation configurations</h3> 
+  <h4>Configure Dispatcher</h4> 
+  <p>Dispatcher is caching and load balancing tool for AEM. AEM Dispatcher also helps to protect AEM server from attacks. You can increase the security of your AEM instance by using the Dispatcher in conjunction with an enterprise-class web server. If you use <a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html">Dispatcher</a>, then perform the following configurations for AEM Forms:</p> 
+  <ol> 
+   <li><p>Configure access for AEM Forms:</p> <p>Open the dispatcher.any file for editing. Navigate to the filter section and add the following filter to the filter section:</p>  <p>Save and Close the file. For detailed information about filters, see <a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html">Dispatcher documentation</a>.</p> </li> 
+   <li><p>Configure the referrer filter service:</p> <p>Log in to the Apache Felix configuration manager as an administrator. The Default URL of the configuration manager is http://[server]:[port_number]/system/console/configMgr. In the <strong>Configurations </strong>menu, select the <strong>Apache Sling Referrer Filter</strong> option. In the Allow Hosts field, enter host name of the dispatcher to allow it as a referrer and click <strong>Save</strong>. The format of the entry is http://[server]:[port].</p>  </li> 
+   <draft-comment type="draft"> 
+    <li>Step text</li> 
+   </draft-comment> 
+   <draft-comment type="draft"> 
+    <li>Step text</li> 
+   </draft-comment> 
+   <draft-comment type="draft"> 
+    <li>Step text</li> 
+   </draft-comment> 
+  </ol> 
+  <h4>Configure Cache</h4> 
+  <p>Caching is a mechanism to shorten data access times, reduce latency, and improve input/output (I/O) speeds. Adaptive forms cache stores only HTML content and JSON structure of an adaptive form without saving any pre-filled data. It helps in reducing the time required to render an adaptive form.</p> 
+  <ul> 
+   <li>On using the adaptive forms cache, use the <a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html" target="_blank">AEM Dispatcher</a> to cache client libraries (CSS and JavaScript) of an adaptive form.</li> 
+   <li>While developing custom components, keep the adaptive forms cache disabled on the server used for development.</li> 
+  </ul> 
+  <p>Perform the following steps to configure the adaptive forms cache: </p> 
+  <ol> 
+   <li><p>Go to AEM web console configuration manager at http://[server]:[port]/system/console/configMgr.</p> </li> 
+   <li><p>Click <strong>Adaptive Form and Interactive Communication Web Channel Configuration</strong> to edit its configuration values. In the edit configuration values dialog, specify the maximum number of forms or documents an instance of the AEM Forms server can cache in the <strong>Number of Adaptive Forms</strong> field. The default value is 100. Click <strong>Save</strong>.</p> 
+    <note> 
+     <p>To disable the cache, set the value in the Number of Adaptive Forms field to <strong>0</strong>. The cache is reset and all forms and documents are removed from the cache when you disable or change the cache configuration. <br /> </p> 
+    </note></li> 
+   <draft-comment type="draft"> 
+    <li></li> 
+   </draft-comment> 
+   <draft-comment type="draft"> 
+    <li>Step text</li> 
+   </draft-comment> 
+   <draft-comment type="draft"> 
+    <li>Step text</li> 
+   </draft-comment> 
+  </ol> 
+  <h4>Configure SSL communcation for Form Data Model</h4> 
+  <p>You can enable SSL communication for Form Data Model. To enable SSL communication for Form data model, before starting any AEM Forms instance, add certificates to Java Trust Store of all the instances. You can run the below command to add the certificates: <span class="kbd"> </span></p> 
+  <p><span class="kbd">keytool -import -alias &amp;lt;alias-name&amp;gt; -file &amp;lt;pathTo .cer certificate file&amp;gt; -keystore &amp;lt;&amp;lt;pathToJRE&amp;gt;\lib\security\cacerts&amp;gt;</span></p> 
+  <h4>Configure Adobe Sign</h4> 
+  <p>Adobe Sign enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.</p> 
+  <p>In a typical Adobe Sign and adaptive forms scenario, a user fills an adaptive form to<strong> </strong>apply for a service<strong>. </strong>For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, the form is sent to the service provider for further action. Service provider reviews the application and uses Adobe Sign to mark the application approved. To enable similar electronic-signature workflows, you can integrate Adobe Sign with AEM Forms.</p> 
+  <p>To use Adobe Sign with AEM Forms, <a href="../../forms/using/adobe-sign-integration-adaptive-forms.md" target="_blank">Integrate Adobe Sign with AEM Forms</a>.</p> 
+  <h4>Configure Adobe Analytics</h4> 
+  <p>AEM Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable.</p> 
+  <p>To use Adobe Analytics with AEM Forms, see <a href="../../forms/using/configure-analytics-forms-documents.md" target="_blank">Configuring analytics and reports</a>.<br /> </p> 
+  <h4>Integrate Adobe Target</h4> 
+  <p>Your customers are likely to abandon a form if the experience it delivers is not engaging. While it is frustrating for the customers, it can also upturn the support volume and cost for your organization. It is critical as well as challenging to identify and provide the right customer experience that increases the conversion rate. AEM forms holds the key to this problem.</p> 
+  <p>AEM forms integrates with Adobe Target, an Adobe Marketing Cloud solution, to deliver personalized and engaging customer experiences across multiple digital channels. To use Adobe Target to A/B test adaptive forms, <a href="../../forms/using/ab-testing-adaptive-forms.md#setupandintegratetargetinaemforms" target="_blank">Integrate Adobe Target with AEM Forms</a>. </p> 
+  <draft-comment type="draft"> 
+   <h2>Known issues and troubleshooting</h2> 
+  </draft-comment> 
+  <h2>Next steps</h2> 
+  <p>You have configured an environment to use AEM Forms data capture capabilities. Now, the next steps towards using the capability are:</p> 
+  <ul> 
+   <li><a href="../../forms/using/create-your-first-adaptive-form.md" target="_blank">Create your first adaptive form</a></li> 
+   <li><a href="https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/designer-quickstart.pdf" target="_blank">Create your first PDF form</a></li> 
+   <li><a href="../../forms/using/introduction.md" target="_blank">Introduction to HTML5 Forms</a></li> 
+  </ul> 
+ </body> 
+</html>

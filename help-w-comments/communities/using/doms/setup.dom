@@ -1,0 +1,180 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-10-27T23:43:31.484-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/content/docs/en/aem/6-3/administer/communities/getting-started/setup" name="qaNotes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="ee6e3edf-13f8-4474-87d4-d83a3ad52c4d" name="jcr:uuid" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="Initial Setup" name="jcr:title" />
+  <meta content="2017-12-01T19:01:15.327-0500" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-04-03T07:55:39.540-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-04-03T07:55:39.540-0400" name="publishExternalDate" />
+  <meta content="2017-10-31T16:33:19.682-0400" name="firstPublishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-04-03T07:55:39.540-0400" name="lastPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/setup.html" name="publishExternalURL" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Initial Setup" name="seoTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:introduction;content_type:reference" name="cq:tags" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-09-14T19:35:32.449-0400" name="cq:lastModified" />
+  <meta content="Initial Setup" name="navTitle" />
+  <meta content="2018-09-14T19:35:32.448-0400" name="locHandOffDate" />
+  <meta content="Janice Kendall" name="contentOwner" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/introduction;/content/help/en/experience-manager/6-4/communities/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Setting up Communities" name="seoDescription" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="b98519b3-73e6-4c55-9cff-23965eeda414" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p> </p> 
+  <table cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td style="text-align: left;"> </td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/create-site.md">Author a New Community Site ⇒</a></strong></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Start Author and Publish Instances</h2>
+  <p>For development and demonstration purposes, it will be necessry to run one author and one publish instance.</p> 
+  <p>To do so, follow the basic AEM <a href="../../sites/deploying/using/deploy.md#gettingstarted">Getting Started</a> instructions, which will result in</p> 
+  <ul> 
+   <li>author environment on <a href="http://localhost:4502/">localhost:4502</a></li> 
+   <li>publish environment on <a href="http://localhost:4503/">localhost:4503</a></li> 
+  </ul> 
+  <div>
+   For AEM Communities,
+  </div> 
+  <ul> 
+   <li>the author environment is for
+    <ul> 
+     <li>development of sites, templates and components</li> 
+     <li>administrative and configuration tasks</li> 
+    </ul> </li> 
+   <li>the publish environment is for
+    <ul> 
+     <li>the community experience of posting and moderating content</li> 
+     <li>creating community groups, members and member groups</li> 
+    </ul> </li> 
+  </ul> 
+  <note>
+   <p>If not familiar with AEM, view the documentation on <a href="../../sites/authoring/using/basic-handling.md">basic handling</a> and a <a href="../../sites/authoring/using/qg-page-authoring.md">quick guide to authoring pages</a>.</p> 
+  </note>
+  <h2>Install Latest Communities Release</h2>
+  <p>This tutorial creates an <a href="../../communities/using/overview.md#engagementcommunity">engagement community site</a> and is based on AEM Communities 6.2 feature pack version 1.10.</p> 
+  <p> To ensure the latest feature pack is installed, visit:</p> 
+  <ul> 
+   <li><a href="../../communities/using/deploy-communities.md#latestreleases">Latest Releases</a></li> 
+  </ul> 
+  <p>For a tutorial that creates an <a href="../../communities/using/overview.md#enablementcommunity">enablement community site</a>, visit <a href="../../communities/using/getting-started-enablement.md">Getting Started with AEM Communities for Enablement</a>.</p> 
+  <h2>Configure Analytics</h2>
+  <p>When <a href="../../communities/using/analytics.md">Adobe Analytics is configured for the community site</a>, information on community activity is available that enhances the community member's experience as well as provides feedback to administrators of the site.</p> 
+  <p>Integration with Adobe Analytics is optional.</p> 
+  <h2>Configure Email for Notifications</h2>
+  <p>The notifications feature, available by default for all sites created using the <span class="code">Communities Sites</span> console, provides an email channel for notifications. </p> 
+  <p>What is necessary is for email to be properly configured for the site.</p> 
+  <p>See <a href="../../communities/using/email.md">Configuring Email</a>.</p> 
+  <h2>Enable the Tunnel Service</h2>
+  <p>When creating a community site in the author environment, the tunnel service makes possible the ability to assign roles to trusted community members registered in the publish environment. The tunnel service also allows access to community members from the <a href="../../communities/using/members.md">Members and Groups consoles</a> in the author environment.</p> 
+  <p>The convention is for members and member groups created in the publish environment to <i>not </i>be recreated in the author environment. For more information see <a href="../../communities/using/users.md">Managing Users and User Groups</a>.</p> 
+  <p>For simple instructions to enable the tunnel service on an <strong>author</strong> instance, see <a href="../../communities/using/deploy-communities.md#tunnelserviceonauthor">Tunnel Service</a>.</p> 
+  <h2>Community Administrator Role</h2>
+  <p>Members of the Community Administrators group are able to create community sites, manage sites, manage members (they can ban members from the community), and moderate content.</p> 
+  <h4>Create User</h4>
+  <p>Create a user on <em>author</em>, who is assigned the role of Community Administrator:</p> 
+  <ul> 
+   <li>on the author instance
+    <ul> 
+     <li>for example, <a href="http://localhost:4503/">http://localhost:4502/</a></li> 
+    </ul> </li> 
+   <li>sign in with administrator privileges
+    <ul> 
+     <li>for example, username 'admin' / password 'admin'</li> 
+    </ul> </li> 
+   <li>from the main console, navigate to <strong>Tools, Operations, Security, Users</strong></li> 
+   <li>from the <strong>Edit </strong>menu, select <strong>Add User</strong></li> 
+  </ul> 
+  <ul> 
+   <li>in the <span class="code">Create New User</span> dialog enter
+    <ul> 
+     <li><strong>ID*</strong>: sirius</li> 
+     <li><strong>Emai Address</strong>: sirius.nilson@mailinator.com</li> 
+     <li><strong>Password*</strong>: password</li> 
+     <li><strong>Confirm Password*</strong>: password</li> 
+     <li><strong>First Name</strong>: Sirius</li> 
+     <li><strong>Last Name*</strong>: Nilson</li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Assign Sirius to Community Administrators Group</h4>
+  <p>Scroll down to <span class="code">Add User to Groups</span> :</p> 
+  <ul> 
+   <li>enter 'C' to search
+    <ul> 
+     <li>select <span class="code">Community Administrators</span></li> 
+     <li>select <span class="code">Community Enablement Managers</span></li> 
+    </ul> </li> 
+  </ul> 
+  <ul> 
+   <li>select <strong>Save</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-314.png" />
+  <h2>Enable Social Login</h2>
+  <p>Before the demonstration versions of social login with Facebook and Twitter may be used, it is necessary to</p> 
+  <ol> 
+   <li>install a fix pack or <a href="../../communities/using/deploy-communities.md#latestfeaturepack">latest feature pack</a> (for March 2017 Facebook API changes)</li> 
+   <li><a href="../../communities/using/social-login.md#adobegraniteoauthauthenticationhandler">enable the OAuth provider</a> in the publish environment</li> 
+  </ol> 
+  <p>For production servers, it is necessary to create the cloud services necessary to provide social login. </p> 
+  <p>See <a href="../../communities/using/social-login.md">Social Login with Facebook and Twitter</a>.</p> 
+  <h2>Create Tutorial Tags</h2>
+  <p>Create tags to use for the engage and enablement tutorials, using the tag namespace of <span class="code">Tutorial</span>.</p> 
+  <p>Use the <a href="../../sites/administering/using/tags.md#taggingconsole">Tagging console</a> to create the following tags :</p> 
+  <ul> 
+   <li><span class="code">Tutorial : Sports / Baseball</span></li> 
+   <li><span class="code">Tutorial : Sports / Gymnastics</span></li> 
+   <li><span class="code">Tutorial : Sports / Skiing</span></li> 
+   <li><span class="code">Tutorial : Arts / Visual</span></li> 
+   <li><span class="code">Tutorial : Arts / Auditory</span></li> 
+   <li><span class="code">Tutorial : Arts / History</span></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-315.png" />
+  <p>Then follow the instructions to</p> 
+  <ol> 
+   <li><a href="../../sites/administering/using/tags.md#settingtagpermissions">set the tag permissions</a></li> 
+   <li><a href="../../sites/administering/using/tags.md#publishingtags">publish the tags</a></li> 
+  </ol> 
+  <div>
+   <p>Sample package of tags created for the AEM Communities Getting Started Tutorials</p>
+   <p><a alt="Tutorial Tags-v6.3.zip" href="assets/tutorial_tags-v63.zip">Get File</a></p>
+  </div>
+  <h2>MongoDB for UGC Common Store</h2>
+  <p>It is recommended, but optional, to set <a href="../../communities/using/msrp.md">MSRP</a> (MongoDB) as the <a href="../../communities/using/working-with-srp.md">common store</a> to experience the flexibility of moderating all UGC from either publish and/or author environments.</p> 
+  <p>For instructions visit <a href="../../communities/using/demo-mongo.md">How to Setup MongoDB for Demo</a>.</p> 
+  <p>By default, the installation of the author and publish AEM instances result in user generated content (UGC) being stored in <a href="../../sites/deploying/using/platform.md">JCR Tar storage</a> which is accessed using <a href="../../communities/using/jsrp.md">JSRP</a>. JSRP is not a common store, which means UGC is visible only on the instance on which it was entered. Typically, UGC is entered on a publish instance and would not be visible in the author environment, resulting in all moderation tasks needing to use the publish instance.</p> 
+  <p> </p> 
+  <table cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td style="text-align: left;"> </td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/create-site.md">Author a New Community Site⇒</a></strong></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <p> </p> 
+ </body>
+</html>

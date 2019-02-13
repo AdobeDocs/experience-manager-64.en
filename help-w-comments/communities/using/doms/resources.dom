@@ -1,0 +1,381 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T07:54:04.865-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Enablement Resources Console" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="2018-04-03T07:54:07.139-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-05-17T05:57:12.756-0400" name="locHandOffDate" /> 
+  <meta content="Janice Kendall" name="contentOwner" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Enablement Resources Console" name="navTitle" /> 
+  <meta content="6729ec32-4b1d-45fc-ac19-a21187489d23" name="jcr:uuid" /> 
+  <meta content="2018-03-05T08:01:20.962-0500" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-05-17T05:57:12.757-0400" name="cq:lastModified" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Enablement Resources Console" name="jcr:title" /> 
+  <meta content="0f431295-b43f-4243-b9b5-5a5870710adb" name="jcr:predecessors" /> 
+  <meta content="sigoel" name="cq:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="The Resources console is where Enablement Managers create, manage, and assign resources to members of an enablement community site" name="seoDescription" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/communities/consoles/resources" name="qaNotes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="2018-04-03T07:54:04.865-0400" name="lastPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-10-31T16:33:21.414-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/resources.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T07:54:04.865-0400" name="publishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>For AEM Communities, the Resources console is where <a href="../../communities/using/users.md">Enablement Managers</a> create, manage and assign resources to members of an enablement community site.</p> 
+  <h2>Requirements</h2> 
+  <p>Before adding enablement resources for a community site, the AEM instances must be properly configured, including :</p> 
+  <ul> 
+   <li>SCORM</li> 
+   <li>FFmpeg</li> 
+  </ul> 
+  <p>For details, see <a href="../../communities/using/enablement.md">Configuring Enablement</a>.</p> 
+  <note> 
+   <p>If SCORM is installed after community site creation, any enablement resources present before SCORM is installed must be recreated.</p> 
+  </note> 
+  <note> 
+   <p>With the release of <a href="../../communities/using/deploy-communities.md#latestfeaturepack">AEM 6.3</a> and the equivalent Communities feature packs <a href="../../communities/using/deploy-communities.md#latestfeaturepack">AEM 6.2 FP3</a> and <a href="https://docs.adobe.com/content/docs/en/aem/6-1/deploy/communities.html#Latest Feature Pack">AEM 6.1 FP7</a>, the enablement feature no longer requires a <a href="../../communities/using/mysql.md">MySQL database</a>.</p> 
+  </note> 
+  <h2>Terminology</h2> 
+  <h3>Resource</h3> 
+  <p>Resources are essential to an <a href="../../communities/using/overview.md#enablementcommunity">enablement community</a>. They are the materials assigned to members that enable them to improve their skills.</p> 
+  <p>Characteristics of a Resource:</p> 
+  <ul> 
+   <li>may be of type 
+    <ul> 
+     <li>image (JPG, PNG, GIF, BMP)</li> 
+     <li>video (MP4)</li> 
+     <li>flash (SWF)</li> 
+     <li>document (PDF)</li> 
+     <li>or quiz (SCORM)</li> 
+    </ul> </li> 
+   <li>may be referenced from one or more learning paths</li> 
+  </ul> 
+  <h3>Learning Path</h3> 
+  <p>A learning path is a logical set of enablement resources grouped together for ease of assigning to members.</p> 
+  <h3>Members Group</h3> 
+  <p>When a community site is created, the name given to the site for the URL is used in the creation of the <a href="../../communities/using/users.md">site specific user groups</a> configured with various permissions for various roles. All of these automatically created groups are prefixed with <span class="code">Community <i>&amp;lt;site-name&amp;gt;</i></span>.</p> 
+  <p>One such user group is <span class="code">Community <i>&amp;lt;site-name&amp;gt;</i> Members</span> group, which identifies registered users in the publish environment as community members. See the tutorial <a href="../../communities/using/getting-started-enablement.md">Getting Started with AEM Communities for Enablement</a> for an example.</p> 
+  <p>For <a href="../../communities/using/overview.md#egagementcommunity">engagement communities</a>, it is reasonable to allow site visitors to self-register or use social login, at which point they are automatically added to the members group. </p> 
+  <p>For <a href="../../communities/using/overview.md#enablementcommunity">enablement communities</a>, it is recommended to make the site private which then requires an administrator to add users to the members group.</p> 
+  <h2>Accessing a Community Site's Enablement Resources</h2> 
+  <h3>Navigate to Communities Resources</h3> 
+  <p>In the author environment, to reach the Resources console</p> 
+  <ul> 
+   <li>from global navigation : <strong>Navigation, Communities, Resources</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-170.png" /> 
+  <h3>Select a Community Site</h3> 
+  <p>The Communities Resources console will display all community sites. </p> 
+  <p>Enablement resources are created for a specific community site after selecting the site from the Resources console.</p> 
+  <p>Once a specific community site is selected, any existing enablement resources and learning paths are accessible for managing and modifying, and new enablement resources and learning paths may be created.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-171.png" /> 
+  <h4>Search</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-172.png" /> 
+  <p>Select the side-panel toggle icon in order to search for an enablement resource or learning path. When selected, a search panel opens up on the left side of the console and provides a text box into which search terms may be entered.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-173.png" /> 
+  <h4>Selection Mode</h4> 
+  <p>To select multiple enablement resources, select the first by hovering over the card and selecting the checkmark icon. Once selected, selecting any other card will add it to the selection group. Selecting a second time de-selects the card.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-174.png" /> 
+  <h2>Create a Resource</h2> 
+  <img imageRotate="0" src="assets/chlimage_1-175.png" /> 
+  <p>To add a new enablement resource to the community site</p> 
+  <ul> 
+   <li>select the <span class="code">Create</span> icon</li> 
+   <li>from the sub-menu which displays, select <span class="code">Resource</span></li> 
+  </ul> 
+  <p>This launches a step-by-step process of</p> 
+  <ul> 
+   <li>describing the resource (name, card image and text)</li> 
+   <li>selecting the resource content</li> 
+   <li>selecting a cover image for the resource</li> 
+   <li>identifying resource contacts</li> 
+   <li>assigning resources to members</li> 
+  </ul> 
+  <p>When the resource is part of a course, a learning path, members should only be assigned to the learning path. Assignments may be added after the enablement resource has been created. </p> 
+  <h3>1 Basic Info</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-176.png" /> 
+  <ul> 
+   <li><strong>Add Image</strong><br /> (<i>optional</i>) An image to display on the card for the enablement resource in the member's assignments page as well as the Resources console. The image is selected from the server's local file system. If an image is not provided, a thumbnail will be generated for the uploaded resource.<br /> <strong><i>Note</i></strong> : the recommended image size is not simply 480 x 480 pixels. Due to the responsive design of the cards to various browser dimensions, the display size will vary from 220 X 165 pixels to 400 x 165 pixels.</li> 
+   <li><strong>Site Name</strong><br /> (<i>readonly</i>) The community site to which the resource is being added.</li> 
+   <li><strong>Resource Name*</strong><br /> (<i>required</i>) The display name for the resource. A valid node name is created from the display name.</li> 
+   <li><strong>Tags</strong><br /> (<i>optional</i>) One or more tags may be chosen which associate the enablement resource with one or more catalogs. See <a href="../../communities/using/tag-resources.md">Tagging Enablement Resources</a>.</li> 
+   <li><strong>Show in Catalog</strong><br /> When unchecked, the enablement resource will not appear in any catalog. If checked, the enablement resource will appear in all catalogs unless <a href="../../communities/using/catalog-developer-essentials.md#prefilters">pre-filtered</a> or the member filters from the UI. Default is unchecked.</li> 
+   <li><strong>Description</strong><br /> (<i>optional</i>) The description to display for the enablement resource.</li> 
+   <li><strong>Small Asset</strong><br /> (<i>optional</i>) Selected from AEM Assets. A thumbnail image to represent the resource in the publish environment, such as in a catalog.</li> 
+   <li><strong>Large Asset</strong><br /> (<i>optional</i>) Selected from AEM Assets. A large image to represent the resource in the publish environment, such as on the main page for a resource.</li> 
+   <li><strong>Content Fragment Asset</strong><br /> (<i>optional</i>) Selected from AEM Assets. A content fragment that may be referenced in the publish environment, but is not in use by default.</li> 
+  </ul> 
+  <ul> 
+   <li>Select <strong>Next</strong></li> 
+  </ul> 
+  <h3>2 Add Content</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-177.png" /> 
+  <p>While it appears as if multiple enablement resources might be selected, only one is allowed.</p> 
+  <p>Select the <span class="code">'+' icon</span>, in the upper right corner, to begin the process of choosing the resource by identifying the source.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-178.png" /> 
+  <ul> 
+   <li><strong>Upload from my local files</strong><br /> Uploading from the local file system will use the native file browser to select and upload a file. Supported file types are SCORM.zip (HTML5 or SWF), MP4 video, SWF, PDF, and image types (JPG, PNG, GIF, BMP). The filename becomes the name of the asset, which is added to the asset library.</li> 
+   <li><strong>Browse Asset Library</strong><br /> Select from Assets Library. Selection is limited to those that are visible within the community site.</li> 
+   <li><strong>Add an external URL</strong><br /> Enter a link to learning content.<br /> In the dialog which opens, enter : 
+    <ul> 
+     <li><strong>Title</strong><br /> The name of the asset for the enablement resource.</li> 
+     <li><strong>URL</strong><br /> The URL to an asset.</li> 
+    </ul> </li> 
+   <li><strong>Add an Adobe Connect URL</strong><br /> Enter a link to an Adobe Connect session.<br /> In the dialog which opens, enter : 
+    <ul> 
+     <li><strong>Title</strong><br /> The name of the asset for the enablement resource.</li> 
+     <li><strong>URL</strong><br /> The URL to an Adobe Connect session.</li> 
+    </ul> </li> 
+   <li><strong>Define an External Resource</strong><br /> Enter the location where the material is to be presented. The values for the success status and score are entered manually (see <a href="../../communities/using/reports.md">Reports</a>). An uploaded cover image can be used to provide additional information.<br /> In the dialog which opens, enter : 
+    <ul> 
+     <li><strong>Title</strong><br /> The name of the asset for the enablement resource.</li> 
+     <li><strong>Location</strong><br /> The location of a physical site, such as a classroom..</li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Example of an added video resource</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-179.png" /> 
+  <ul> 
+   <li><strong>Resource Cover Image</strong><br /> The cover image is an image to be displayed when the enablement resource is first viewed. For example, the cover image is displayed when a video resource is not yet playing. If a custom image is not uploaded, a default image is displayed. For video resources, it may be possible to <a href="../../communities/using/enablement.md#ffmpeg">generate a thumbnail</a>, but only when uploaded and not when the video is referenced as an URL. For location resources, the image can be used to provide additional information.<br /> The recommended size for the cover image is 640 x 360 px. </li> 
+  </ul> 
+  <ul> 
+   <li>Select <strong>Next</strong></li> 
+  </ul> 
+  <h3>3 Settings</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-180.png" /> 
+  <note> 
+   <p>Learners should not be enrolled direclty in enablement resources that are to be referenced from a learning path. Learners need only be enrolled in the learning path.</p> 
+   <p>If a member is enrolled in both a resource and a learning path which references that resource, their assignments will show both the single resource and the resource within the learning path.</p> 
+  </note> 
+  <ul> 
+   <li><strong>Social Settings</strong><br /> These settings control whether or not learners are able to provide input regarding the enablement resource. The <a href="../../communities/using/sites-console.md#moderation">moderation settings</a> are those of the parent community site. 
+    <ul> 
+     <li><strong>Allow Commenting</strong><br /> If checked, members are allowed to comment on the resource. Default is checked.</li> 
+     <li><strong>Allow Ratings</strong><br /> If checked, members are allowed to rate the resource. Default is checked.</li> 
+     <li><strong>Allow Anonymous Access</strong><br /> If checked, anonymous site visitors are allowed to view the resource in a catalog when the community site also allows anonymous access. Default is unchecked.</li> 
+    </ul> </li> 
+   <li><strong>Due Date</strong><br /> <i>(Optional)</i> A date by which the assignment should be completed may be selected.</li> 
+   <li><strong>Resource Author</strong><br /> <i>(Optional)</i> The author of the enablement resource. Use the pulldown menu to select from the users who are members of the <a href="#membersgroup">members group</a>.</li> 
+   <li><strong>Resource Contact*</strong><br /> <i>(Required)</i> A person the member can contact regarding the enablement resource. Use the pulldown menu to select from the users who are members of the <a href="#membersgroup">members group</a>.</li> 
+   <li><strong>Resource Expert</strong><br /> <i>(Optional)</i> A person the member can contact who has expertise regarding the enablement resource. Use the pulldown menu to select from users who are members of the <a href="#membersgroup">members group</a>.</li> 
+  </ul> 
+  <h3>4 Assignments</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-181.png" /> 
+  <ul> 
+   <li><strong>Add Assignees</strong><br /> Use the pulldown menu to select from <a href="#membersgroup">members</a> - the users and user groups (listed in bold face) - who are to be enrolled as Learners. When members sign into the community site, the enablement resources (and learning paths) in which they are enrolled will appear on their <a href="../../communities/using/functions.md#assignmentsfunction">Assignments</a> page.</li> 
+  </ul> 
+  <ul> 
+   <li>select <strong>Create</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-182.png" /> 
+  <p>Successful creation of the enablement resource returns to the Resources console with the newly created resource selected. From this console, it is possible to <a href="#managingaresource">manage the resource</a>.</p> 
+  <h2>Create a Learning Path</h2> 
+  <img imageRotate="0" src="assets/chlimage_1-183.png" /> 
+  <p>To add a new learning path to the community site</p> 
+  <ul> 
+   <li>select the <span class="code">Create</span> icon</li> 
+   <li>from the sub-menu which displays, select <span class="code">Learning Path</span></li> 
+  </ul> 
+  <p>This launches a step-by-step process of</p> 
+  <ul> 
+   <li>identifying the learning path</li> 
+   <li>providing a card image to represent the learning path to the learners</li> 
+   <li>referencing the enablement resources to include in the learning path</li> 
+   <li>optionally ordering the resources</li> 
+   <li>optionally identifying prerequisite learning paths</li> 
+   <li>identifying a learning path contact</li> 
+   <li>enrolling members</li> 
+  </ul> 
+  <p>For enablement resources included in a learning path, the assignments should only be made for the learning path and not for the individual resources.</p> 
+  <h3>Basic Info</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-184.png" /> 
+  <ul> 
+   <li><strong>Add Image</strong><br /> (<i>optional</i>) An image to display on the card for the learning path in the member's assignments page as well as the Resources console. The image is selected from the server's local file system. If an image is not provided, a thumbnail will be generated for the uploaded resource.<br /> <strong><i>Note</i></strong> : the recommended image size is no longer simply 480 x 480 pixels. Due to the responsive design of the cards to various browser dimensions, the display size will vary from 220 X 165 pixels to 400 x 165 pixels.</li> 
+   <li><strong>Site Name</strong><br /> (<i>readonly</i>) The community site to which the resource is being added.</li> 
+   <li><strong>Learning Path Name</strong><br /> (<i>required</i>) The display name for the learning path. A valid node name is created from the display name.</li> 
+   <li><strong>Tags</strong><br /> (<i>optional</i>) One or more tags may be chosen which associate the learning path with one or more catalogs. See <a href="../../communities/using/tag-resources.md">Tagging Enablement Resources</a>.</li> 
+   <li><strong>Show in Catalog</strong><br /> When unchecked, the learning path will not appear in any catalog. If checked, the learning path will appear in all catalogs unless <a href="../../communities/using/catalog-developer-essentials.md#prefilters">pre-filtered</a> or the member filters from the UI. Showing the learning path in a catalog will indirectly grant READ access to all its contained resources. Default is unchecked.</li> 
+   <li><strong>Description</strong><br /> (<i>optional</i>) The description to display for the enablement resource.</li> 
+   <li><strong>Small Asset</strong><br /> (<i>optional</i>) Selected from AEM Assets. A thumbnail image to represent the resource in the publish environment, such as in a catalog.</li> 
+   <li><strong>Large Asset</strong><br /> (<i>optional</i>) Selected from AEM Assets. A large image to represent the resource in the publish environment, such as on the main page for a resource.</li> 
+   <li><strong>Content Fragment Asset</strong><br /> (<i>optional</i>) Selected from AEM Assets. A content fragment that may be referenced in the publish environment, but is not in use by default.</li> 
+  </ul> 
+  <ul> 
+   <li>Select <strong>Next</strong></li> 
+  </ul> 
+  <ul> 
+  </ul> 
+  <h3>Add Prerequisites</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-185.png" /> 
+  <ul> 
+   <li><strong>Prerequisite Learning Paths</strong><br /> (<i>optional</i>) When other published learning paths are selected, they must be completed before a learner can select this learning path.</li> 
+  </ul> 
+  <ul> 
+   <li>Select <strong>Next</strong></li> 
+  </ul> 
+  <ul> 
+  </ul> 
+  <h3>Add Resources</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-186.png" /> 
+  <ul> 
+   <li><strong>Enforce Order in Learning Path</strong><br /> (<em>optional</em>) if set to On, then the order in which the enablement resources are added is the order in which learners are required to proceed through the learning path. Default is Off.</li> 
+   <li><strong>Resources</strong><br /> One or more Resources chosen from among the <em>published </em>enablement resources created for the current community site.</li> 
+  </ul> 
+  <ul> 
+  </ul> 
+  <note> 
+   <p>You can only select the resources available at the same level as the learning path. For example, for a learning path created in a group only the group level resources are available; for a learning path created in a community site the resources in that site are available for adding to the learning path.</p> 
+  </note> 
+  <ul> 
+   <li>Select <strong>Next</strong>.</li> 
+  </ul> 
+  <h3>Settings</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-187.png" /> 
+  <ul> 
+   <li><strong>Add Enrollments</strong><br /> Use the pulldown menu to select from the members and member groups (listed in bold face) who are members of the community site's <a href="#membersgroup">members group</a>. It is not necessary to add assignments when first creating the learning path. The learning path properties can be modified to add learners at a later time. </li> 
+   <li><strong>Learning Path Contact*</strong><br /> <i>(Required)</i> A person the member can contact regarding the learning path. Use the pulldown menu to select from the users who are members of the community site's <a href="#membersgroup">members group</a>.</li> 
+  </ul> 
+  <ul> 
+   <li>select <strong>Create</strong></li> 
+  </ul> 
+  <note> 
+   <p>Enablement resources referenced from the learning path should not list the same Assignees (learners), if any.</p> 
+   <p>If a member is enrolled in both an enablement resource and a learning path which references that rresource, their assignments will show both the single resource and the resource within the learning path.</p> 
+  </note> 
+  <h2>Managing a Resource</h2> 
+  <p>To manage a single enablement resource</p> 
+  <ul> 
+   <li>from the Resources console</li> 
+   <li>select the community site which contains the resource</li> 
+   <li>select the resource</li> 
+  </ul> 
+  <p>For the selected enablement resource, it is possible to :</p> 
+  <ul> 
+   <li>View properties (default)</li> 
+   <li>Edit properties</li> 
+   <li>Delete</li> 
+   <li>Publish</li> 
+   <li>Unpublish</li> 
+  </ul> 
+  <p>To upload a new version of the enablement resource, it is recommended to create a new resource, and then unenroll members from the old version and enroll them in the new version.</p> 
+  <h3>Edit Resource</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-188.png" /> 
+  <p>By selecting the pencil icon, the steps shown for creating a an enablement resource are made available so that any of the information provided may be modified.</p> 
+  <p>If the only change is to modify assignments on the Settings step, then saving the changes results in the modifications being published. If any other changes are made, the resource must be explicitly published afting saving.</p> 
+  <h3>Delete Resource</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-189.png" /> 
+  <p>By selecting the trashcan icon, the enablement resource will be <span class="code">Delete</span>d after confirmation.</p> 
+  <h3>Publish</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-190.png" /> 
+  <p>Before learners are able to see an assigned enablement resourse, it must be published :</p> 
+  <ul> 
+   <li>select the world icon to <span class="code">Publish</span></li> 
+   <li>in the dialog which pops up, select <strong>Publish </strong>again</li> 
+   <li>select <strong>Close</strong></li> 
+  </ul> 
+  <p>Even though the dialog states the action is queued, it often is published immediately.</p> 
+  <h3>Unpublish</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-191.png" /> 
+  <p>To temporarily make the enablement resources unaccessible to members in the publish environment without deleting it, use the world icon to <span class="code">Unpublish </span>the resource.</p> 
+  <h3>Report</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-192.png" /> 
+  <p>The Report icon provides access to the reports generated when learners interact with their assigned enablement resources in the publish environment. The report varies depending on the type of resource.</p> 
+  <p>For all learning paths, it is possible to view a report based either on resources or learners (<span class="code">User Report</span>).</p> 
+  <img imageRotate="0" src="assets/chlimage_1-193.png" /> 
+  <p>This Report is specifically for the current enablement resource or learning path. The depth of reporting provided depends on whether or not <a href="../../communities/using/analytics.md">Adobe Analytics</a> is licensed and enabled for the community site. The <a href="#timeline">Timeline</a>, <a href="#viewerengagement">Viewer Engagement</a>, and <a href="#engagementbydevice">Engagement by Device</a> reports are imported from Adobe Analytics based on the <a href="../../communities/using/analytics.md#reportimporter">polling interval</a>.</p> 
+  <p>For all enablement resources, regardless of whether or not Adobe Analytics is enabled, there are reports on <a href="#assigneestatus">Assignee Status</a> and <a href="#ratings">Ratings</a> as well as a <a href="#reportsummary">Report Summary</a> table.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-194.png" /> 
+  <h4>Timeline</h4> 
+  <p>The Analytics Timeline report shows when events occur over time for this enablement resource :</p> 
+  <ul> 
+   <li><strong>Views</strong><br /> a view is when a learner visits the resource details page</li> 
+   <li><strong>Plays</strong><br /> a play is when alLearner interacts with the resource, such as playing a video or opening a PDF</li> 
+   <li><strong>Ratings</strong><br /> a rating is when a learner assigns a star rating to a resource</li> 
+   <li><strong>Comments</strong><br /> a comment is when alLearner adds a comment</li> 
+  </ul> 
+  <p>The vertical axis is the number of events.</p> 
+  <p>The horizontal axis is calendar time.</p> 
+  <p><a href="../../communities/using/sites-console.md#analytics">Adobe Analytics required</a>.</p> 
+  <h4>Viewer Engagement</h4> 
+  <p>The Analytics Viewer Engagement report shows, for video resources, the number of learners who have viewed the resource and, if not played to the end, at what point learners stopped playing it.</p> 
+  <p>The vertical axis is the number of learners who have viewed this resource.</p> 
+  <p>The horizontal axis is the duration of this resource.</p> 
+  <p><a href="../../communities/using/sites-console.md#enablement">Marketing Cloud Org ID required</a>.</p> 
+  <h4>Engagement by Device</h4> 
+  <p>The Analytics Engagement by Device report, for video resources, describes the percentage of views that were played from desktop and from mobile.</p> 
+  <p><a href="../../communities/using/sites-console.md#enablement">Marketing Cloud Org ID required</a>.</p> 
+  <h4>Assignee Status</h4> 
+  <p>The Assignee Status report, based on the number of learners, describes how many have</p> 
+  <ul> 
+   <li><strong>Not started</strong></li> 
+   <li><strong>In progress</strong></li> 
+   <li><strong>Completed</strong></li> 
+  </ul> 
+  <h4>Ratings</h4> 
+  <p>The Ratings report is based on the number of learners who have rated the enablement resource, showing the number of each star rating followed by a summary of the total number of ratings and the average rating.</p> 
+  <h4>Report Summary</h4> 
+  <p>For an enablement resource, the Report Summary is a table listing</p> 
+  <ul> 
+   <li>each learner who has interacted with the resource 
+    <ul> 
+     <li>their status</li> 
+     <li>whether they were assigned the resource 
+      <ul> 
+       <li>as opposed to their finding the resource in a catalog</li> 
+      </ul> </li> 
+     <li>number of comments posted</li> 
+     <li>the rating given, if any</li> 
+    </ul> </li> 
+  </ul> 
+  <p>For a learning path Resource Report, the Report Summary is a table listing</p> 
+  <ul> 
+   <li>each resource included in the learning path 
+    <ul> 
+     <li>publish status</li> 
+     <li>number of views</li> 
+     <li>number of plays</li> 
+     <li>averate rating</li> 
+     <li>format</li> 
+     <li>size</li> 
+     <li>community site name</li> 
+    </ul> </li> 
+  </ul> 
+  <p>For a learning path User Report, the Report Summary is a table listing</p> 
+  <ul> 
+   <li>each learner who is assigned to the learning path 
+    <ul> 
+     <li>number of Resources completed</li> 
+     <li>their status</li> 
+    </ul> </li> 
+  </ul> 
+  <p>It is possible to adjust the display of the table by selecting columns using the <span class="code">Show / hide columns</span> selector.</p> 
+  <h4>Download Report as CSV</h4> 
+  <p>The Reports Summary table may be downloaded in CSV format using a button at the top of the console.</p> 
+  <ul> 
+   <li>for an enablement resource : <span class="code">Download Resource Report as CSV</span> button</li> 
+   <li>for a learning path: <span class="code">Download Learning Path Report as CSV</span> button</li> 
+  </ul> 
+  <p>The complete Reports Summary is downloaded regardless of columns chosen for display.</p> 
+  <draft-comment type="draft"> 
+   <h2>Troubleshooting</h2> 
+  </draft-comment> 
+ </body> 
+</html>

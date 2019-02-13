@@ -1,0 +1,197 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-03T06:49:13.174-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-03T08:30:24.163-0400" name="cq:lastReplicated" /> 
+  <meta content="Working with XMP Utilities" name="jcr:title" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="950e2aab-d6f8-4a79-8055-897c4bc03e44" name="jcr:uuid" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-07-12T07:03:40.486-0400" name="lr_lastModified" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2017-10-03T06:49:13.174-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-11-22T19:06:22.968-0500" name="jcr:created" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="3520a842-c276-48df-965b-59c43204e616" name="jcr:predecessors" /> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-10f88f211336a357c3b-8000.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7bea.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-10f88f211336a357c3b-7ffc.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-72c3.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-72c2.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7bed.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-10f88f211336a357c3b-7ff1.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-10f88f211336a357c3b-7fec.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-10f88f211336a357c3b-7fea.2" name="cq:gepId" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2017-10-03T06:49:13.174-0400" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-11-21T06:59:16.807-0500" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/xmp-utilities.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="sortDate" /> 
+  <meta content="Working with XMP Utilities" name="navTitle" /> 
+ </head> 
+ <body> 
+  <p><strong>About the XMP Utilities Service</strong></p> 
+  <p>PDF documents contain metadata, which is information about the document as distinguished from the contents of the document, such as text and graphics. Adobe Extensible Metadata Platform (XMP) is a standard for handling document metadata. </p> 
+  <p>The XMP Utilities service can retrieve and save XMP metadata from PDF documents, and import XMP metadata into PDF documents. </p> 
+  <p>You can accomplish these tasks using the XMP Utilities service:</p> 
+  <ul> 
+   <li><p>Import metadata into PDF documents. (See <a href="xmp-utilities#importing_metadata_into_pdf_documents">Importing Metadata into PDF Documents</a>.)</p></li> 
+   <li><p>Export metadata from PDF documents. (See <a href="xmp-utilities#exporting_metadata_from_pdf_documents">Exporting Metadata from PDF Documents</a>.)</p></li> 
+  </ul> 
+  <note> 
+   <p>For more information about the XMP Utilities service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h2 id="importing_metadata_into_pdf_documents">Importing Metadata into PDF Documents</h2> 
+  <p></p> 
+  <p>You can use the XMP Utilities Java and web service APIs to programmatically import XMP metadata into a PDF document. Metadata provides information about a PDF document such as the document’s author and keywords related to the document. Metadata can be located in the document’s Document Properties dialog, as shown in the following illustration. </p> 
+  <img alt="" src="assets/ww_ww_metadatadialog.png" /> 
+  <p>To programmatically import metadata into a PDF document, you can use an existing XML document that specifies the metadata values or you can use an object of type <span class="code">XMPUtilityMetadata</span>. (See <a href="http://www.adobe.com/go/learn_aemforms_javadocs_63_en">AEM Forms API Reference</a>.)</p> 
+  <note> 
+   <p>This section discusses how to use an XML document to import metadata into a PDF document. </p> 
+  </note> 
+  <p>The following XML code contains metadata values that correspond to the previous illustration. For example, notice the bold items, which specify keywords.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     &lt;?xpacket&amp;nbsp;begin="?"&amp;nbsp;id="W5M0MpCehiHzreSzNTczkc9d"?&gt;&amp;nbsp;!!discoiqbr!! &lt;x:xmpmeta&amp;nbsp;xmlns:x="adobe:ns:meta/"&amp;nbsp;x:xmptk="Adobe&amp;nbsp;XMP&amp;nbsp;Core&amp;nbsp;4.2-jc015&amp;nbsp;52.349034,&amp;nbsp;2008&amp;nbsp;Jun&amp;nbsp;20&amp;nbsp;00:30:39-PDT&amp;nbsp;(debug)"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:RDF&amp;nbsp;xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:Description&amp;nbsp;rdf:about=""&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xmlns:xmp="http://ns.adobe.com/xap/1.0/"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xmp:MetadataDate&gt;2008-10-22T10:52:21-04:00&lt;/xmp:MetadataDate&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xmp:CreatorTool&gt;AEM&amp;nbsp;Forms&lt;/xmp:CreatorTool&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xmp:ModifyDate&gt;2008-10-22T10:52:21-04:00&lt;/xmp:ModifyDate&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xmp:CreateDate&gt;2008-02-13T11:00:18-05:00&lt;/xmp:CreateDate&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/rdf:Description&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:Description&amp;nbsp;rdf:about=""&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xmlns:pdf="http://ns.adobe.com/pdf/1.3/"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;pdf:Producer&gt;AEM&amp;nbsp;Forms&lt;/pdf:Producer&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;pdf:Keywords&gt;keyword1,&amp;nbsp;keyword2,&amp;nbsp;keyword3,keyword4&lt;/pdf:Keywords&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/rdf:Description&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:Description&amp;nbsp;rdf:about=""&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xmpMM:DocumentID&gt;uuid:1cce1f84-331e-4d8d-8538-15441c271dd7&lt;/xmpMM:DocumentID&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xmpMM:InstanceID&gt;uuid:cdda0ca6-7c91-4771-9dc9-796c8fe59350&lt;/xmpMM:InstanceID&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/rdf:Description&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:Description&amp;nbsp;rdf:about=""&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dc:format&gt;application/pdf&lt;/dc:format&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dc:description&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:Alt&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:li&amp;nbsp;xml:lang="x-default"&gt;Adobe&amp;nbsp;Designer&amp;nbsp;Sample&lt;/rdf:li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/rdf:Alt&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dc:description&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dc:title&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:Alt&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:li&amp;nbsp;xml:lang="x-default"&gt;Grant&amp;nbsp;Application&lt;/rdf:li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/rdf:Alt&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dc:title&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dc:creator&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:Seq&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:li&gt;Tony&amp;nbsp;Blue&lt;/rdf:li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/rdf:Seq&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dc:creator&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dc:subject&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:Bag&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:li&gt;keyword1&lt;/rdf:li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:li&gt;keyword2&lt;/rdf:li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:li&gt;keyword3&lt;/rdf:li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:li&gt;keyword4&lt;/rdf:li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/rdf:Bag&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dc:subject&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/rdf:Description&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:Description&amp;nbsp;rdf:about=""&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xmlns:desc="http://ns.adobe.com/xfa/promoted-desc/"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;desc:version&amp;nbsp;rdf:parseType="Resource"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:value&gt;1.0&lt;/rdf:value&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;desc:ref&gt;/template/subform[1]&lt;/desc:ref&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/desc:version&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;desc:contact&amp;nbsp;rdf:parseType="Resource"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rdf:value&gt;Adobe&amp;nbsp;Systems&amp;nbsp;Incorporated&lt;/rdf:value&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;desc:ref&gt;/template/subform[1]&lt;/desc:ref&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/desc:contact&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/rdf:Description&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/rdf:RDF&gt;&amp;nbsp;!!discoiqbr!! &lt;/x:xmpmeta&gt; 
+  </codeblock> 
+  <note> 
+   <p>For more information about the XMP Utilities service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To import XMP metadata into a PDF document, perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an XMPUtilityService client.</p></li> 
+   <li><p>Invoke the XMP metadata import operation.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files into your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, ensure that you include the proxy files.</p> 
+  <p><strong>Create an XMPUtilityService client</strong></p> 
+  <p>Before you can programmatically perform an XMP Utilities operation, you must create an XMPUtilityService client. With the Java API, this is accomplished by creating an <span class="code">XMPUtilityServiceClient</span> object. With the web service API, this is accomplished by using an <span class="code">XMPUtilityServiceService</span> object. </p> 
+  <p><strong>Invoke the XMP metadata import operation</strong></p> 
+  <p>After you create the service client, you can invoke one of the XMP metadata import operations to import the XMP metadata into the specified PDF document.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="xmp-utilities#import_xmp_metadata_using_the_java_api">Import XMP metadata using the Java API</a></p> 
+  <p><a href="xmp-utilities#importing_xmp_metadata_using_the_web_service_api">Importing XMP metadata using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="import_xmp_metadata_using_the_java_api">Import XMP metadata using the Java API</h3> 
+  <p></p> 
+  <p>Import XMP metadata by using the XMP Utilities API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files, such as adobe-pdfutility-client.jar, in your Java project’s class path. </p> 
+    <note> 
+     <p>The adobe-pdfutility-client.jar file contains classes that enable you to programmatically invoke the XMP Utilities service. </p> 
+    </note></li> 
+   <li><p>Create an XMPUtilityService client </p><p>Create an <span class="code">XMPUtilityServiceClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties.<i></i></p></li> 
+   <li><p>Invoke the XMP metadata import operation </p><p>To modify the XMP metadata, invoke either the <span class="code">XMPUtilityServiceClient</span> object’s <span class="code">importMetadata</span> method or its <span class="code">importXMP</span> method.</p><p>If you use the <span class="code">importMetadata</span> method, pass in the following values:</p> 
+    <ul> 
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that represents the PDF file.</p></li> 
+     <li><p>An <span class="code">XMPUtilityMetadata</span> object that contains the metadata to be imported.</p></li> 
+    </ul><p>If you use the <span class="code">importXMP</span> method, pass in the following values:</p> 
+    <ul> 
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that represents the PDF file.</p></li> 
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that represents an XML file that contains the metadata to be imported.</p></li> 
+    </ul><p>In either case, the returned value is a <span class="code">com.adobe.idp.Document</span> object that represents the PDF file with the newly imported metadata. You can then save this object to disk.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="xmp-utilities#importing_metadata_into_pdf_documents">Importing Metadata into PDF Documents</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="importing_xmp_metadata_using_the_web_service_api">Importing XMP metadata using the web service API</h3> 
+  <p></p> 
+  <p>To programmatically import XMP metadata using the XMP Utilities web service API, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the XMP Utilities service WSDL file. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a>.)</p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-web#creating_a_net_client_assembly_that_uses_base64_encoding">Creating a .NET client assembly that uses Base64 encoding</a>.)</p></li> 
+    </ul></li> 
+   <li><p>Create an XMPUtilityService client </p><p>Create an <span class="code">XMPUtilityServiceService</span> object by using your proxy class constructor. </p></li> 
+   <li><p>Invoke the XMP metadata import operation </p><p>To modify the XMP metadata, invoke either the <span class="code">XMPUtilityServiceService</span> object’s <span class="code">importMetadata</span> method or its <span class="code">importXMP</span> method.</p><p>If you use the <span class="code">importMetadata</span> method, pass in the following values:</p> 
+    <ul> 
+     <li><p>A <span class="code">BLOB</span> object that represents the PDF file.</p></li> 
+     <li><p>An <span class="code">XMPUtilityMetadata</span> object that contains the metadata to be imported.</p></li> 
+    </ul><p>If you use the <span class="code">importXMP</span> method, pass in the following values:</p> 
+    <ul> 
+     <li><p>A <span class="code">BLOB</span> object that represents the PDF file.</p></li> 
+     <li><p>A <span class="code">BLOB</span> object that represents an XML file that contains the metadata to be imported.</p></li> 
+    </ul><p>In either case, the returned value is a <span class="code">BLOB</span> object that represents the PDF file with the newly imported metadata. You can then save this object to disk.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="xmp-utilities#importing_metadata_into_pdf_documents">Importing Metadata into PDF Documents</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-xmp-utilities-xu.xml#ws624e3cba99b79e12e69a9941333732bac8-7be8.2">Quick Start (Base64): Importing XMP metadata using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#creating_a_net_client_assembly_that_uses_base64_encoding">Creating a .NET client assembly that uses Base64 encoding</a></p> 
+  <h2 id="exporting_metadata_from_pdf_documents">Exporting Metadata from PDF Documents</h2> 
+  <p></p> 
+  <p>You can use the XMP Utilities Java and web service APIs to programmatically retrieve and save XMP metadata from a PDF document.</p> 
+  <note> 
+   <p>For more information about the XMP Utilities service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To export XMP metadata from a PDF document, perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an XMPUtilityService client.</p></li> 
+   <li><p>Invoke the XMP metadata export operation.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files into your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, ensure that you include the proxy files.</p> 
+  <p><strong>Create an XMPUtilityService client</strong></p> 
+  <p>Before you can programmatically perform an XMP Utilities operation, you must create an XMPUtilityService client. With the Java AP,I this is accomplished by creating an <span class="code">XMPUtilityServiceClient</span> object. With the web service API, this is accomplished using an <span class="code">XMPUtilityServiceService</span> object.</p> 
+  <p><strong>Invoke the XMP metadata export operation</strong></p> 
+  <p>After you create the service client, you can invoke one of the XMP metadata export operations, which can be used to inspect the XMP metadata or save it to disk.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="xmp-utilities#import_xmp_metadata_using_the_java_api">Import XMP metadata using the Java API</a></p> 
+  <p><a href="xmp-utilities#importing_xmp_metadata_using_the_web_service_api">Importing XMP metadata using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="export_xmp_metadata_using_the_java_api">Export XMP metadata using the Java API</h3> 
+  <p></p> 
+  <p>Export XMP metadata by using the XMP Utilities API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files, such as adobe-pdfutility-client.jar, in your Java project’s class path. </p> 
+    <note> 
+     <p>The adobe-pdfutility-client.jar file contains classes that enable you to programmatically invoke the XMP Utility service. </p> 
+    </note></li> 
+   <li><p>Create an XMPUtilityService client </p><p>Create an <span class="code">XMPUtilityServiceClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties.<i></i></p></li> 
+   <li><p>Invoke the XMP metadata import operation </p><p>To inspect the XMP metadata, invoke the <span class="code">XMPUtilityServiceClient</span> object’s <span class="code">exportMetadata</span> method and pass in a <span class="code">com.adobe.idp.Document</span> object that represents the PDF file. The method returns an <span class="code">XMPUtilityMetadata</span> object that contains the retrieved metadata.</p><p>To retrieve and save the XMP metadata, invoke the <span class="code">XMPUtilityServiceClient</span> object’s <span class="code">exportXMP</span> method and pass in a <span class="code">com.adobe.idp.Document</span> object that represents the PDF file. The method returns a <span class="code">com.adobe.idp.Document</span> object that contains the retrieved metadata, which you can subsequently save to disk as an XML file.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="xmp-utilities#exporting_metadata_from_pdf_documents">Exporting Metadata from PDF Documents</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="export_xmp_metadata_using_the_web_service_api">Export XMP metadata using the web service API</h3> 
+  <p></p> 
+  <p>Export XMP metadata by using the XMP Utilities API (web service):</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the XMP Utilities service WSDL file. </p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. </p></li> 
+    </ul></li> 
+   <li><p>Create an XMPUtilityService client </p><p>Create an <span class="code">XMPUtilityServiceService</span> object by using your proxy class constructor. </p></li> 
+   <li><p>Invoke the XMP metadata import operation </p><p>To inspect the XMP metadata, invoke the <span class="code">XMPUtilityServiceClient</span> object’s <span class="code">exportMetadata</span> method and pass in a <span class="code">BLOB</span> object that represents the PDF file. The method returns an <span class="code">XMPUtilityMetadata</span> object that contains the retrieved metadata.</p><p>To retrieve and save the XMP metadata, invoke the <span class="code">XMPUtilityServiceClient</span> object’s <span class="code">exportXMP</span> method and pass in a <span class="code">BLOB</span> object that represents the PDF file. The method returns a <span class="code">BLOB</span> object that contains the retrieved metadata, which you can subsequently save to disk as an XML file.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="xmp-utilities#exporting_metadata_from_pdf_documents">Exporting Metadata from PDF Documents</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#creating_a_net_client_assembly_that_uses_base64_encoding">Creating a .NET client assembly that uses Base64 encoding</a></p> 
+ </body> 
+</html>

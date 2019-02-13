@@ -1,0 +1,540 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/docsdaycom/templates/standarddocpage" name="Template" /> 
+  <meta content="User, Group and Access Rights Administration" name="seoTitle" /> 
+  <meta content="User, Group and Access Rights Administration" name="navTitle" /> 
+  <meta content="2017-12-01T19:07:35.133-0500" name="jcr:created" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="asgupta" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="asgupta" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/user-group-ac-admin.html" name="publishExternalURL" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/security;/content/help/en/experience-manager/6-4/sites/administering/morehelp/security" name="moreHelpPaths" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-10-12T11:02:38.740-0400" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="utf-8" name="Encoding" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-10-12T11:02:38.735-0400" name="publishExternalDate" /> 
+  <meta content="2018-10-12T11:02:38.777-0400" name="cq:lastReplicated" /> 
+  <meta content="2addc71a-90a8-4779-b418-7e0929900634" name="jcr:uuid" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:Security;content_type:reference" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-10-12T11:02:38.735-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="User, Group and Access Rights Administration" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="14.01.2009 16:49:13 [alvawb]" name="CmgrLastModified" /> 
+  <meta content="aa11ea1d-5184-4b88-8f71-39187afa47f5" name="jcr:predecessors" /> 
+  <meta content="2018-10-12T11:02:38.735-0400" name="lastPublishExternalDate" /> 
+  <meta content="Learn about user, group and access rights administration in AEM." name="seoDescription" /> 
+  <meta content="2018-10-12T11:02:38.735-0400" name="firstPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>Enabling access to a CRX repository involves several topics:</p> 
+  <ul> 
+   <li><a href="#evaluatingaccessrightsforusersandgroups">Access Rights</a> - the concepts of how they are defined and evaluated</li> 
+   <li><a href="#useradministration">User Administration</a> - managing the individual accounts used for access</li> 
+   <li><a href="#groupadministration">Group Administration</a> - simplify user management by forming groups<br /> </li> 
+   <li><a href="#accessrightmanagement">Access Right Management</a> - defining policies that control how these users and groups can access resources<br /> </li> 
+  </ul> 
+  <p>The basic elements are:<br /> </p> 
+  <p><strong>User Accounts</strong> CRX authenticates access by identifying, and verifying, a user (by that a person, or another application) according to details held in the user account.</p> 
+  <p>In CRX every user account is a node in the workspace. A CRX user account has the following properties:</p> 
+  <ul> 
+   <li>It represents one user of CRX.</li> 
+   <li>It holds a user name and password.</li> 
+   <li>Is applicable for that workspace.</li> 
+   <li>It cannot have sub-users. For hierarchical access rights you should use groups.</li> 
+  </ul> 
+  <ul> 
+   <li>You can specify access rights for the user account.<br /> However, to simplify management we recommend that (in the majority of cases) you assign access rights to group accounts. Assigning access rights for each individual user quickly becomes very difficult to manage (the exceptions are certain system users when only one or two instances exist).</li> 
+  </ul> 
+  <p><strong>Group Accounts</strong> Group accounts are collections of users and/or other groups. These are used to simplify management as a change in the access rights assigned to a group is automatically applied to all users in that group. A user does not have to belong to any group, but often belongs to several.</p> 
+  <p>In CRX a group has the following properties:</p> 
+  <ul> 
+   <li>It represents a group of users with common access rights. For example, authors or developers.</li> 
+   <li>Is applicable for that workspace.</li> 
+   <li>It can have members; these can be individual users or other groups.</li> 
+   <li>Hierarchical grouping can be achieved with member relationships. You cannot place a group directly below another group in the repository.</li> 
+  </ul> 
+  <ul> 
+   <li>You can define the access rights for all group members.</li> 
+  </ul> 
+  <draft-comment lastModifiedBy="remove-legacyref-6-1" lastModifiedDate="2017-11-30T05:02:38.479-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>hierarchies:</p> 
+   <p>AS: "users and group may not be created in a hierarchy i.e. rep:User or rep:Group node cannot reside underneath another node of that node type. hierarchical ordering of users and groups can however be achieved by using intermediate nodes of type rep:AuthorizableFolder. so, i'd say this is the same."<br /> </p> 
+   <p><br /> Do we want to mention this (rep:Authorizable) or just leave to what is possible over the GUI?<br /> </p> 
+  </draft-comment> 
+  <p><strong>Access Rights</strong> CRX uses Access Rights to control access to specific areas of the repository.</p> 
+  <p>This is done by assigning privileges to either allow or deny access to a resource (node or path) in the repository. As various privileges can be assigned, they must be evaluated to determine which combination is applicable for the current request.<br /> </p> 
+  <p>CRX allows you to configure the access rights for both user and groups accounts. The same basic principles of evaluation are then applied to both.</p> 
+  <h2>How Access Rights are Evaluated</h2> 
+  <note> 
+   <p>CRX implements <a href="http://www.day.com/specs/jcr/2.0/16_Access_Control_Management.html">access control as defined by JSR-283</a>. </p> 
+   <p>A standard installation of a CRX repository is configured to use resource-based access control lists. This is one possible implementation of JSR-283 access control and one of the implementations present with Jackrabbit.</p> 
+  </note> 
+  <h3>Subjects and Principals</h3> 
+  <p>CRX uses two key concepts when evaluating access rights:<br /> </p> 
+  <ul> 
+   <li>A <strong>principal</strong> is an entity that carries access rights. Principals include: 
+    <ul> 
+     <li>A user account.</li> 
+     <li>A group account.<br /> If a user account belongs to one, or more, groups it is also associated with each of those group principals.<br /> </li> 
+    </ul> </li> 
+   <li>A <strong>subject</strong> is used to represent the source of a request.<br /> It is used to consolidate the access rights applicable for that request. These are taken from: 
+    <ul> 
+     <li>The user principal<br /> The rights that you assign directly to the user account.<br /> </li> 
+     <li>All groups principals associated with that user<br /> All rights assigned to any of the groups that the user belongs to.</li> 
+    </ul> The result is then used to allow or deny access to the resource requested.</li> 
+  </ul> 
+  <h4>Compiling the list of Access Rights for a Subject</h4> 
+  <p>In CRX the subject is dependent on:</p> 
+  <ul> 
+   <li>the user principal</li> 
+   <li>all the group principals that are associated with that user</li> 
+  </ul> 
+  <p>The list of access rights applicable for the subject is constructed from:</p> 
+  <ul> 
+   <li>the rights that you assign directly to the user account<br /> </li> 
+   <li>plus all rights assigned to any of the groups that the user belongs to</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-372.png" /> 
+  <note> 
+   <ul> 
+    <li>CRX does not take any user hierarchy into account when it compiles the list.</li> 
+    <li>CRX uses a group hierarchy only when you include a group as a member of another group. There is no automatic inheritance of group permissions.</li> 
+    <li>The order in which you specify the groups does not affect the access rights.</li> 
+   </ul> 
+  </note> 
+  <h3>Resolving Request and Access Rights</h3> 
+  <p>When CRX handles the request it compares the access request from the subject with the access control list on the repository node:</p> 
+  <p>So if Linda requests to update the <span class="code">/features</span> node in the following repository structure:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-373.png" /> 
+  <h3>Order of Precedence</h3> 
+  <p>Access rights in CRX are evaluated as follows:</p> 
+  <ul> 
+   <li>User principals always take precedence over group principals irrespective of: 
+    <ul> 
+     <li>their order in the access control list <br /> </li> 
+     <li>their position in the node hierarchy</li> 
+    </ul> </li> 
+   <li>For a given principal there exists (at most) 1 deny and 1 allow entry on a given node. The implementation always clears redundant entries and makes sure that the same privilege is not listed in both the allow and deny entries.<br /> </li> 
+  </ul> 
+  <note> 
+   <p>This evaluation process is appropriate for the resource based access control of a standard CRX installation. <br /> </p> 
+  </note> 
+  <p>Taking two examples where the user <span class="code">aUser</span> is member of the group <span class="code">aGroup</span>:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;parentNode!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;acl!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;ace:&amp;nbsp;aUser&amp;nbsp;-&amp;nbsp;deny&amp;nbsp;-&amp;nbsp;write!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;childNode!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;acl!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;ace:&amp;nbsp;aGroup&amp;nbsp;-&amp;nbsp;allow&amp;nbsp;-&amp;nbsp;write!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;grandChildNode!!discoiqbr!! 
+  </codeblock> 
+  <p>In the above case:</p> 
+  <ul> 
+   <li><span class="code">aUser</span> is not granted write permission on <span class="code">grandChildNode</span>.<br /> </li> 
+  </ul> 
+  <codeblock gutter="true" class="syntax xml">
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;parentNode!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;acl!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;ace:&amp;nbsp;aUser&amp;nbsp;-&amp;nbsp;deny&amp;nbsp;-&amp;nbsp;write!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;childNode!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;acl!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;ace:&amp;nbsp;aGroup&amp;nbsp;-&amp;nbsp;allow&amp;nbsp;-&amp;nbsp;write!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;ace:&amp;nbsp;aUser&amp;nbsp;-&amp;nbsp;deny&amp;nbsp;-&amp;nbsp;write!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;grandChildNode 
+  </codeblock> 
+  <p>In this case:</p> 
+  <ul> 
+   <li><span class="code">aUser</span> is not granted write permission on <span class="code">grandChildNode</span>.</li> 
+   <li>The second ACE for <span class="code">aUser</span> is redundant.</li> 
+  </ul> 
+  <p>Access rights from multiple group principals are evaluated based on their order, both within the hierarchy and within a single access control list.</p> 
+  <draft-comment lastModifiedBy="remove-legacyref-6-1" lastModifiedDate="2017-11-30T05:02:38.760-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>example?<br /> </p> 
+   <p>needed? or should they avoid such a situation?<br /> </p> 
+  </draft-comment> 
+  <draft-comment lastModifiedBy="remove-legacyref-6-1" lastModifiedDate="2017-11-30T05:02:38.771-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>check claims about multiple groups.<br /> </p> 
+   <p>see also "be positive" in the best practices table below...<br /> </p> 
+  </draft-comment> 
+  <h3>Best Practices</h3> 
+  <p>The following table list some recommendations and best practices:<br /> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="400"> 
+   <tbody> 
+    <tr> 
+     <td>Recommendation...</td> 
+     <td>Reason...</td> 
+    </tr> 
+    <tr> 
+     <td><i>Use Groups</i></td> 
+     <td><p>Avoid assigning access rights on a user-by-user basis. There are several reasons for this:</p> 
+      <ul> 
+       <li>You have many more users than groups, so groups simplify the structure.</li> 
+       <li>Groups help provide an overview over all accounts.</li> 
+       <li>Inheritance is simpler with groups.</li> 
+       <li>Users come and go. Groups are long-term.</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td><i>Be Positive</i></td> 
+     <td><p>Always use Allow statements to specify the access rights of the group principal (wherever possible). Avoid using a Deny statement.</p> <p>Group principals are evaluated in order, both within the hierarchy and order within a single access control list.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><i>Keep it Simple</i></td> 
+     <td><p>Investing some time and thought when configuring a new installation will be well repaid.</p> <p>Applying a clear structure will simplify the ongoing maintenance and administration, ensuring that both your current colleagues and/or future successors can easily understand what is being implemented.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><i>Test</i></td> 
+     <td>Use a test installation to practice and ensure that you understand the relationships between the various users and groups.</td> 
+    </tr> 
+    <tr> 
+     <td><i>Default Users / Groups</i></td> 
+     <td>Always update the Default Users and Groups immediately after installation to help prevent any security issues.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <draft-comment lastModifiedBy="remove-legacyref-6-1" lastModifiedDate="2017-11-30T05:02:38.814-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>need confirmation of whether the above are still accurate.</p> 
+   <p>in particular the "Be Positive" comment about order of group evaluation.<br /> </p> 
+  </draft-comment> 
+  <h2>User Administration</h2> 
+  <p>A standard dialog is used for <strong>User Administration</strong>.<br /> </p> 
+  <p>You must be logged into the appropriate workspace, then you can access the dialog from both:</p> 
+  <ul> 
+   <li>the <strong>User Administration</strong> link on the Main Console of CRX</li> 
+   <li>the <strong>Security</strong> menu of the CRX Explorer</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-374.png" /> 
+  <p><strong>Properties</strong></p> 
+  <ul> 
+   <li><strong>UserID</strong><br /> Short name for the account, used when accessing CRX.</li> 
+   <li><strong>Principal Name</strong><br /> A full text name for the account.</li> 
+   <li><strong>Password</strong><br /> Needed when accessing CRX with this account.</li> 
+   <li><strong>ntlmhash</strong><br /> Automatically assigned for each new account and updated when the password is changed.<br /> </li> 
+   <li>You can add new properties by defining a name, type and value. Click Save (green tick symbol) for each new property.<br /> </li> 
+  </ul> 
+  <p><strong>Group Membership</strong> This displays all groups that the account belongs to. The Inherited column indicates membership that has been inherited as a result of membership of another group.</p> 
+  <p>Clicking on a GroupID (when available) will open the <a href="#groupadministration">Group Administration</a> for that group.<br /> </p> 
+  <p><strong>Impersonators</strong> With the Impersonate functionality a user can work on behalf of another user.</p> 
+  <p>This means that a user account can specify other accounts (user or group) which can operate with their account. In other words, if user-B is allowed to impersonate user-A, then user-B can take actions using the full account details of user-A (including ID, name and access rights).<br /> </p> 
+  <p>This allows the impersonator accounts to complete tasks as if they were using the account they are impersonating; for example, during an absence or to share an excessive load short-term.</p> 
+  <p>If an account impersonates another it is very difficult to see. The log files hold no information about the fact that impersonation has occurred on the events. So if user-B is impersonating user-A all events will look as if they were performed by user-A personally.</p> 
+  <h3>Creating a User Account</h3> 
+  <ol> 
+   <li>Open the <strong>User Administration</strong> dialog.</li> 
+   <li>Click <strong>Create User</strong>.</li> 
+   <li>You can then enter the Properties: 
+    <ul> 
+     <li><strong>UserID</strong> used as the account name.<br /> </li> 
+     <li><strong>Password</strong> needed when logging in.</li> 
+     <li><strong>Principal Name</strong> to provide a full textual name.<br /> </li> 
+     <li><strong>Intermediate Path</strong> which can be used to form a tree structure.<br /> </li> 
+    </ul> </li> 
+   <li>Click on the Save (green tick symbol).</li> 
+   <li>The dialog will be expanded so that you can: 
+    <ol> 
+     <li>Configure <strong>Properties</strong>.</li> 
+     <li>See <strong>Group Membership</strong>.<br /> </li> 
+     <li>Define <strong>Impersonators</strong>.</li> 
+    </ol> </li> 
+  </ol> 
+  <note> 
+   <p>A loss of performance can sometimes be seen when registering new users in installations that have a high number of both:</p> 
+   <ul> 
+    <li>users<br /> </li> 
+    <li>groups with many members</li> 
+   </ul> 
+  </note> 
+  <h3>Updating a User Account</h3> 
+  <ol> 
+   <li>With the <strong>User Administration</strong> dialog open the list view of all accounts.<br /> </li> 
+   <li>Navigate through the tree structure.</li> 
+   <li>Click on the required account to open for edit.</li> 
+   <li>Make a change then click on Save (green tick symbol) for that entry.</li> 
+   <li>Click <strong>Close</strong> to finish, or <strong>List...</strong> to return to the list of all user accounts.</li> 
+  </ol> 
+  <h3>Removing a User Account</h3> 
+  <ol> 
+   <li>With the <strong>User Administration</strong> dialog open the list view of all accounts.<br /> </li> 
+   <li>Navigate through the tree structure.</li> 
+   <li>Select the required account and click <strong>Remove User</strong>; the account will be deleted immediately.</li> 
+  </ol> 
+  <note> 
+   <p>This removes the node for this principal from the repository. </p> 
+   <p>Access right entries are not removed. This ensures the historical integrity.<br /> </p> 
+  </note> 
+  <h3>Defining Properties</h3> 
+  <p>You can define <strong>Properties</strong> for either new or existing accounts:</p> 
+  <ol> 
+   <li>Open the <strong>User Administration</strong> dialog for the appropriate account.</li> 
+   <li>Define a <strong>Property</strong> name.</li> 
+   <li>Select the <strong>Type</strong> from the drop-down list.</li> 
+   <li>Define the <strong>Value</strong>.</li> 
+   <li>Click Save (green click symbol) for the new property.</li> 
+  </ol> 
+  <p>Existing properties can be deleted with the trash symbol.</p> 
+  <p>With the exception of the Password, properties cannot be edited, they must be deleted and recreated.</p> 
+  <h4>Changing the Password</h4> 
+  <p>The <strong>Password</strong> is a special property that can be changed by clicking on the <strong>Change Password</strong> link.</p> 
+  <p>You can also change the password to your own user account from the <strong>Security</strong> menu in the CRX Explorer.</p> 
+  <h3>Defining an Impersonator</h3> 
+  <p>You can define Impersonators for either new or existing accounts:</p> 
+  <ol> 
+   <li>Open the <strong>User Administration</strong> dialog for the appropriate account.</li> 
+   <li>Specify the account to be allowed to impersonate that account.<br /> You can use Browse... to select an existing account. <br /> </li> 
+   <li>Click Save (green tick symbol) for the new property.</li> 
+  </ol> 
+  <h2>Group Administration</h2> 
+  <p>A standard dialog is used for <strong>Group Administration</strong>.</p> 
+  <p>You must be logged into the appropriate workspace, then you can access the dialog from both:</p> 
+  <ul> 
+   <li>the <strong>Group Administration</strong> link on the Main Console of CRX</li> 
+   <li>the <strong>Security</strong> menu of the CRX Explorer</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-50.jpeg" /> 
+  <p><strong>Properties</strong></p> 
+  <ul> 
+   <li><strong>GroupID</strong><br /> Short name for the group account.</li> 
+   <li><strong>Principal Name</strong><br /> A full text name for the group account.</li> 
+   <li>You can add new properties by defining a name, type and value. Click Save (green tick symbol) for each new property.</li> 
+   <li><strong>Members</strong><br /> You can add users, or other groups, as members of this group.</li> 
+  </ul> 
+  <p><strong>Group Membership</strong> This displays all groups that the current group account belongs to. The Inherited column indicates membership that has been inherited as a result of membership of another group.</p> 
+  <p>Clicking on a GroupID will open the dialog for that group.<br /> </p> 
+  <p><strong>Members</strong> Lists all accounts (users and/or groups) that are members of the current group.</p> 
+  <p>The <strong>Inherited</strong> column indicates membership that has been inherited as a result of membership of another group.</p> 
+  <note> 
+   <p>When the Owner, Editor, or Viewer role is assigned to a user on any Asset folder, a new group gets created. The group name is of the format <span class="code">mac-default-&amp;lt;foldername&amp;gt;</span> for each folder on which the roles are defined.<br /> </p> 
+  </note> 
+  <h3>Creating a Group Account</h3> 
+  <ol> 
+   <li>Open the <strong>Group Administration</strong> dialog.</li> 
+   <li>Click <strong>Create Group</strong>.</li> 
+   <li>You can then enter the Properties: 
+    <ul> 
+     <li><strong>Principal Name</strong> to provide a full textual name.<br /> </li> 
+     <li><strong>Intermediate Path</strong> which can be used to form a tree structure.<br /> </li> 
+    </ul> </li> 
+   <li>Click on the Save (green tick symbol).</li> 
+   <li>The dialog will be expanded so that you can: 
+    <ol> 
+     <li>Configure <strong>Properties</strong>.</li> 
+     <li>See <strong>Group Membership</strong>.<br /> </li> 
+     <li>Manage <strong>Members</strong>.</li> 
+    </ol> </li> 
+  </ol> 
+  <h3>Updating a Group Account</h3> 
+  <ol> 
+   <li>With the <strong>Group Administration</strong> dialog open the list view of all accounts.<br /> </li> 
+   <li>Navigate through the tree structure.</li> 
+   <li>Click on the required account to open for edit.</li> 
+   <li>Make a change then click on Save (green tick symbol) for that entry.</li> 
+   <li>Click <strong>Close</strong> to finish, or <strong>List...</strong> to return to the list of all group accounts.</li> 
+  </ol> 
+  <h3>Removing a Group Account</h3> 
+  <ol> 
+   <li>With the <strong>Group Administration</strong> dialog open the list view of all accounts.<br /> </li> 
+   <li>Navigate through the tree structure.</li> 
+   <li>Select the required account and click <strong>Remove Group</strong>; the account will be deleted immediately.</li> 
+  </ol> 
+  <note> 
+   <p>This removes the node for this principal from the repository. </p> 
+   <p>Access right entries are not removed. This ensures the historical integrity.<br /> </p> 
+  </note> 
+  <h3>Defining Properties</h3> 
+  <p>You can define Properties for either new or existing accounts:</p> 
+  <ol> 
+   <li>Open the <strong>Group Administration</strong> dialog for the appropriate account.</li> 
+   <li>Define a <strong>Property</strong> name.</li> 
+   <li>Select the <strong>Type</strong> from the drop-down list.</li> 
+   <li>Define the <strong>Value</strong>.</li> 
+   <li>Click Save (green tick symbol) for the new property.</li> 
+  </ol> 
+  <p>Existing properties can be deleted with the trash symbol.</p> 
+  <h3>Members</h3> 
+  <p>You can add members to the current group:</p> 
+  <ol> 
+   <li>Open the <strong>Group Administration</strong> dialog for the appropriate account.</li> 
+   <li>Either: 
+    <ul> 
+     <li>Enter the name of the required member (user or group account).</li> 
+     <li>Or use <strong>Browse...</strong> to search for, and select, the principal (user or group account) that you want to add.</li> 
+    </ul> </li> 
+   <li>Click Save (green tick symbol) for the new property.</li> 
+  </ol> 
+  <p>Or delete an existing member with the trash symbol.</p> 
+  <h2>Access Right Management</h2> 
+  <p>With the <strong>Access Control</strong> tab of CRXDE Lite you can define the access control policies and assign the related privileges.</p> 
+  <p>For example, for <strong>Current Path</strong> select the required resource in the left pane, the Access Control tab in the bottom right pane:<br /> </p> 
+  <img imageRotate="0" src="assets/crx_accesscontrol_tab.png" /> 
+  <draft-comment color="yellow" lastModifiedBy="remove-legacyref-6-1" lastModifiedDate="2017-11-30T05:02:39.332-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>Applicable Policy is policy that can be applied to this node. So using the sample picture above, for node /content/geometrixx-outdoors/en/men/shirts/ashanti we can create/apply acl policy. Once this policy is created, it will be become/appear as local policy and the applicable policy table has no entry anymore (as no other applicable policy is available/configured). You can think applicable policies as the available choices when creating local policy.<br /> </p> 
+   <p>Once we have local policy, then it will add/override the policy from the parent.</p> 
+   <p>Lastly the effective policy will just display the aggregated policies from the local and inhereted from parent. </p> 
+   <p>The corresponding jcr api is http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/javax/jcr/security/AccessControlManager.html</p> 
+  </draft-comment> 
+  <p>The policies are categorized according to:</p> 
+  <ul> 
+   <li><strong>Applicable Access Control Policies</strong><br /> These policies can be applied. <br /> These are policies that are available for creating a local policy. Once you select and add an applicable policy it becomes a local policy.<br /> </li> 
+   <li><strong>Local Access Control Policies</strong><br /> These are access control policies that you have applied. You can then update, order, or remove them.<br /> A local policy will override any policies inherited from the parent. </li> 
+   <li><strong>Effective Access Control Policies</strong><br /> These are the access control policies that are now in effect for any access requests. They show the aggregated policies derived from both the local policies and any inherited from the parent.<br /> </li> 
+  </ul> 
+  <h3>Policy Selection</h3> 
+  <p>The policies can be selected for:<br /> </p> 
+  <ul> 
+   <li><strong>Current Path</strong><br /> As in the example above, select a resource within the repository. The policies for this "current path" will be shown.<br /> </li> 
+   <li><strong>Repository</strong><br /> Selects repository level access control. For example, when setting the <span class="code">jcr:namespaceManagement</span> privilege, which is only relevant for the repository, not a node. </li> 
+   <li><strong>Principal</strong><br /> A principal that is registered in the repository.<br /> You can either type in the <strong>Principal</strong> name or click the icon to the right of the field to open the <strong>Select Principal</strong> dialog.<br /> This allows you to <strong>Search</strong> for a <strong>User</strong> or <strong>Group</strong>. Select the required principal from the resulting list, then click <strong>OK</strong> to carry the value back to the previous dialog.</li> 
+  </ul> 
+  <draft-comment color="yellow" lastModifiedBy="remove-legacyref-6-1" lastModifiedDate="2017-11-30T05:02:39.387-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p><i>Repository</i> is selecting repository level access control. For example setting it to something like jcr:namespaceManagement privilege, which is only make sense for repository, not a node.<br /> </p> 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/crx_accesscontrol_selectprincipal.png" /> 
+  <note> 
+   <p>To simplify management we recommend that you assign access rights to group accounts, not individual user accounts.</p> 
+   <p>It is easier to manage a few groups, rather than many user accounts.</p> 
+  </note> 
+  <h3>Privileges</h3> 
+  <p>The following privileges are available for selection when adding an access control entry (see the <a href="http://www.day.com/maven/jsr170/javadocs/jcr-2.0/javax/jcr/security/Privilege.html">Security API</a> for full details):</p> 
+  <table border="0" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th><strong>Privilege Name</strong></th> 
+     <th><strong>Which controls the privilege to...</strong></th> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:read</span></td> 
+     <td>Retrieve a node and read its properties and their values.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">rep:write</span></td> 
+     <td>This is a jackrabbit specific aggregate privilege of jcr:write and jcr:nodeTypeManagement.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:all</span></td> 
+     <td>This is an aggregate privilege that contains all other predefined privileges.</td> 
+    </tr> 
+    <tr> 
+     <td><strong>Advanced</strong></td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">crx:replicate</span></td> 
+     <td>Perform replication of a node.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:addChildNodes</span></td> 
+     <td>Create child nodes of a node.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:lifecycleManagement</span></td> 
+     <td>Perform lifecycle operations on a node.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:lockManagement</span></td> 
+     <td>Lock and unlock a node; refresh a lock.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:modifyAccessControl</span></td> 
+     <td>Modify the access control policies of a node.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:modifyProperties</span></td> 
+     <td>Create, modify and remove the properties of a node.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:namespaceManagement</span></td> 
+     <td>Register, unregister and modify namespace definitions.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:nodeTypeDefinitionManagement</span></td> 
+     <td>Import node type definitions to the repository.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:nodeTypeManagement</span></td> 
+     <td>Add and remove mixin node types and change the primary node type of a node. This also includes any calls to Node.addNode and XML importing methods where the mixin or primary type of new node is explicitly specified.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:readAccessControl</span></td> 
+     <td>Read the access control policy of a node.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:removeChildNodes</span></td> 
+     <td>Remove child nodes of a node.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:removeNode</span></td> 
+     <td>Remove a node.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:retentionManagement</span></td> 
+     <td>Perform retention management operations on a node.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:versionManagement</span></td> 
+     <td>Perform versioning operations on a node.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:workspaceManagement</span></td> 
+     <td>The creation and deletion of workspaces through the JCR API.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">jcr:write</span></td> 
+     <td>This is an aggregate privilege that contains:<br /> - jcr:modifyProperties<br /> - jcr:addChildNodes<br /> - jcr:removeNode<br /> - jcr:removeChildNodes</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">rep:privilegeManagement</span></td> 
+     <td>Register new privilege.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Registering New Privileges</h3> 
+  <p>You can also register new privileges:<br /> </p> 
+  <ol> 
+   <li><p>From the toolbar select <strong>Tools</strong>, then <strong>Privileges</strong> to display the privileges currently registered.<br /> </p> <img imageRotate="0" src="assets/ac_privileges.png" /></li> 
+   <li><p>Use the <strong>Register Privilege</strong> icon (<strong>+</strong>) to open the dialog and define a new privilege:<br /> </p> <img imageRotate="0" src="assets/ac_privilegeregister.png" /></li> 
+   <li><p>Click <strong>OK</strong> to save. The privilege will now be available for selection.<br /> </p> </li> 
+  </ol> 
+  <h3>Adding an Access Control Entry</h3> 
+  <ol> 
+   <li><p>Select your resource and open the <strong>Access Control</strong> tab.<br /> </p> </li> 
+   <li><p>To add a new <strong>Local Access Control Policies</strong>, click the <strong>+</strong> icon at the right of the <strong>Applicable Access Control Policy</strong> list:<br /> </p> <img imageRotate="0" src="assets/crx_accesscontrol_applicable.png" /></li> 
+   <li><p>A new entry appears under <strong>Local Access Control Policies:</strong><br /> </p> <img imageRotate="0" src="assets/crx_accesscontrol_newlocal.png" /></li> 
+   <li><p>Click the <strong>+</strong> icon to add a new entry:<br /> </p> <img imageRotate="0" src="assets/crx_accesscontrol_addentry.png" /> 
+    <note> 
+     <p>Currently a workaround is needed to specify an empty string.</p> 
+     <p>For this you need to use "".<br /> </p> 
+    </note> 
+    <draft-comment color="yellow" lastModifiedBy="cleonard@adobe.com" lastModifiedDate="2017-11-30T05:02:40.022-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+     <p>There is a hack for rep:glob to specify empty string. Need to use "".</p> 
+     <p>https://bugs.day.com/bugzilla/show_bug.cgi?id=33695</p> 
+     <p>This is temporary solution until it is fixed permanently. </p> 
+    </draft-comment></li> 
+   <li><p>Define your access control policy and click <strong>OK</strong> to save. Your new policy will:</p> 
+    <ul> 
+     <li> be listed under <strong>Local Access Control Policy</strong> <br /> </li> 
+     <li>the changes will be reflected in the <strong>Effective Access Control Policies</strong>.<br /> </li> 
+    </ul> </li> 
+  </ol> 
+  <p>CRX will validate your selection; for a given principal there exists (at most) 1 deny and 1 allow entry on a given node. The implementation always clears redundant entries and makes sure that the same privilege is not listed in both the allow and deny entries.</p> 
+  <h3>Ordering Local Access Control Policies</h3> 
+  <p>The order in the list indicates the order in which the policies are applied.<br /> </p> 
+  <ol> 
+   <li><p>In the table of <strong>Local Access Control Policies</strong> select the required entry and drag it to the new position in the table.</p> <img imageRotate="0" src="assets/crx_accesscontrol_reorder.png" /></li> 
+   <li><p>The changes will be shown in both the tables for the <strong>Local</strong> and the <strong>Effective Access Control Policies</strong>.<br /> </p> </li> 
+  </ol> 
+  <h3>Removing an Access Control Policy</h3> 
+  <ol> 
+   <li><p>In the table of <strong>Local Access Control Policies</strong> click the red icon (-) at the right of the entry.<br /> </p> </li> 
+   <li><p>The entry will be removed from both the tables for the <strong>Local</strong> and the <strong>Effective Access Control Policies</strong>.<br /> </p> </li> 
+  </ol> 
+  <h3>Testing an Access Control Policy</h3> 
+  <ol> 
+   <li><p>From the CRXDE Lite toolbar select <strong>Tools</strong>, then <strong>Test Access Control...</strong>.<br /> </p> </li> 
+   <li><p>A new dialog opens in the top right pane. Select the <strong>Path</strong> and/or <strong>Principal</strong> that you want to test.<br /> </p> </li> 
+   <li><p>Click <strong>Test</strong> to see the results for your selection:<br /> </p> <img imageRotate="0" src="assets/crx_accesscontrol_test.png" /></li> 
+  </ol> 
+ </body> 
+</html>

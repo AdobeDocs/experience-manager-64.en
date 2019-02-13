@@ -1,0 +1,347 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Solr Configuration for SRP" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="083c530e-e43c-4379-b146-b5eaf50061aa" name="jcr:uuid" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="a5b58de8-dcac-47ec-b19d-f64575fb524b" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-03T07:58:40.659-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-31T16:33:17.561-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/solr.html" name="publishExternalURL" /> 
+  <meta content="Janice Kendall" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/communities/srp/solr" name="qaNotes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-05-17T05:51:49.069-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-03T07:58:39.279-0400" name="publishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-05-17T05:51:49.068-0400" name="locHandOffDate" /> 
+  <meta content="Solr Configuration for SRP" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T07:58:39.279-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="2017-12-01T19:05:51.204-0500" name="jcr:created" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T07:58:39.279-0400" name="lastPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="An Apache Solr installation may be shared between the node store (Oak) and common store (SRP) by using different collections" name="seoDescription" /> 
+ </head> 
+ <body> 
+  <h2>Solr for AEM Platform</h2> 
+  <p>An <a href="http://lucene.apache.org/solr/">Apache Solr</a> installation may be shared between the <a href="../../sites/deploying/using/data-store-config.md">node store</a> (Oak) and <a href="../../communities/using/working-with-srp.md">common store</a> (SRP) by using different collections.</p> 
+  <p>If both the Oak and SRP collections are used intensively, a second Solr may be installed for performance reasons.</p> 
+  <p>For production environments, <a href="#solrcloudmode">SolrCloud mode</a> provides improved performance over standalone mode (a single, local Solr setup).</p> 
+  <h3>Requirements</h3> 
+  <p>Download and install Apache Solr :</p> 
+  <ul> 
+   <li><a href="http://archive.apache.org/dist/lucene/solr/4.10.4/">version 4.10</a> or <a href="http://archive.apache.org/dist/lucene/solr/5.5.3/">version 5</a></li> 
+   <li>Solr requires Java 1.7 or greater</li> 
+   <li>no service is needed</li> 
+   <li>choice of run modes : 
+    <ul> 
+     <li>standalone mode</li> 
+     <li><a href="#solrcloudmode">SolrCloud mode</a> (recommended for production environments)</li> 
+    </ul> </li> 
+   <li>choice of Multilingual Search (MLS) 
+    <ul> 
+     <li><a href="#installingstandardmls">Installing Standard MLS</a></li> 
+     <li><a href="#installingadvancedmls">Installing Advanced MLS</a></li> 
+    </ul> </li> 
+  </ul> 
+  <h2>SolrCloud Mode</h2> 
+  <p><a href="https://cwiki.apache.org/confluence/display/solr/SolrCloud">SolrCloud</a> mode is recommended for production environments. When running in SolrCloud mode, SolrCloud must be installed and configured before installing Multilingual Search (MLS). </p> 
+  <p>The recommendation is to follow the SolrCloud instructions to install :</p> 
+  <ul> 
+   <li>3 SolrCloud nodes on same server</li> 
+   <li>an external Apache ZooKeeper</li> 
+  </ul> 
+  <p>It is also recommended to configure JVM to tune memory usage and garbage collection.</p> 
+  <h4>JVM Configuration Example</h4> 
+  <codeblock class="syntax shell">
+    JVM_OPTS="-server&amp;nbsp;-Xmx2048m&amp;nbsp;-XX:MaxPermSize=768M&amp;nbsp;-XX:+UseConcMarkSweepGC&amp;nbsp;-XX:+CMSClassUnloadingEnabled&amp;nbsp;-Xloggc:../logs/gc.log&amp;nbsp;-XX:+PrintGCDetails&amp;nbsp;-XX:+PrintGCDateStamps&amp;nbsp;-Djava.awt.headless=true"&amp;nbsp;&amp;nbsp; 
+  </codeblock> 
+  <h3>SolrCloud Setup Commands</h3> 
+  <p>When running in SolrCloud mode, prior to MLS installation, use and knowledge of the following SolrCloud set-up commands is necessary.</p> 
+  <h4>1. Upload a configuration to ZooKeeper</h4> 
+  <p>Reference :<br /> <a href="https://cwiki.apache.org/confluence/display/solr/Command+Line+Utilities">https://cwiki.apache.org/confluence/display/solr/Command+Line+Utilities</a></p> 
+  <p>Usage :<br /> sh ./scripts/cloud-scripts/zkcli.sh \<br /> -cmd upconfig \<br /> -zkhost <i>server:port</i> \<br /> -confname <i>myconfig-name </i>\<br /> -solrhome <i>solr-home-path</i> \<br /> -confdir <i>config-dir</i></p> 
+  <h4>2. Create a collection</h4> 
+  <p>Reference :<br /> <a href="https://cwiki.apache.org/confluence/display/solr/Solr+Start+Script+Reference#SolrStartScriptReference-Create">https://cwiki.apache.org/confluence/display/solr/Solr+Start+Script+Reference#SolrStartScriptReference-Create<br /> </a></p> 
+  <p>Usage :<br /> ./bin/solr create \<br /> -c <i>mycollection-name </i>\<br /> -d <i>config-dir</i> \<br /> -n <i>myconfig-name</i> \<br /> -p <i>port </i>\<br /> -s <i>number-of-shards</i> \<br /> -rf <i>number-of-replicas</i></p> 
+  <h4>3. Link a collection to a configuration set</h4> 
+  <p>Link a collection to a configuration already uploaded to ZooKeeper.</p> 
+  <p>Reference :<br /> <a href="https://cwiki.apache.org/confluence/display/solr/Command+Line+Utilities">https://cwiki.apache.org/confluence/display/solr/Command+Line+Utilities</a></p> 
+  <p>Usage :<br /> sh ./scripts/cloud-scripts/zkcli.sh \<br /> -cmd linkconfig \<br /> -zkhost <i>server:port</i> \<br /> -collection <i>mycollection-name</i> \<br /> -confname <i>myconfig-name</i></p> 
+  <h3>Comparison of Standard and Advanced MLS</h3> 
+  <p>Multilingual Search (MLS) for AEM Communities is built for the Solr platform to provide improved search across all supported languages, including English. </p> 
+  <p>MLS for AEM communities is available as either Standard MLS or Advanced MLS. Standard MLS only includes Solr configuration settings, and excludes any plugins or resource files. Advanced MLS is the more comprehensive solution and includes Solr configuration settings as well as plugins and related resources</p> 
+  <p>Standard MLS includes enhancements for content search for the following languages :</p> 
+  <ul> 
+   <li>English : improved stemmer for attempting to match word derivations</li> 
+   <li>Japanese : improved Japanese tokenization for half-width characters</li> 
+  </ul> 
+  <p>Advanced MLS includes enhancements for content search for the following languages :</p> 
+  <ul> 
+   <li>English : replaced stemmer with lemmatizer</li> 
+   <li>German : added decompounder</li> 
+   <li>French : added elision handling</li> 
+   <li>Chinese (Simplified) : added a smarter tokenizer</li> 
+   <li>various languages : added a stemmer, stop word list, and a normalizer.</li> 
+  </ul> 
+  <p>In all, the following 33 languages are supported in Advanced MLS.</p> 
+  <table border="0" cellpadding="2" cellspacing="2" width="90%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;">Arabic</td> 
+     <td style="text-align: center;">German</td> 
+     <td style="text-align: center;">Norwegian</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Bulgarian</td> 
+     <td style="text-align: center;">Greek</td> 
+     <td style="text-align: center;">Polish</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Chinese (Simplified)</td> 
+     <td style="text-align: center;">Haitian Creole</td> 
+     <td style="text-align: center;">Portuguese</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Chinese (Traditional)</td> 
+     <td style="text-align: center;">Hebrew</td> 
+     <td style="text-align: center;">Romanian</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Czech</td> 
+     <td style="text-align: center;">Hungarian</td> 
+     <td style="text-align: center;">Russian</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Danish</td> 
+     <td style="text-align: center;">Indonesian</td> 
+     <td style="text-align: center;">Slovak</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Dutch</td> 
+     <td style="text-align: center;">Italian</td> 
+     <td style="text-align: center;">Slovenian</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">English</td> 
+     <td style="text-align: center;">Japanese</td> 
+     <td style="text-align: center;">Spanish</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Estonian</td> 
+     <td style="text-align: center;">Korean</td> 
+     <td style="text-align: center;">Swedish</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Finnish</td> 
+     <td style="text-align: center;">Latvian</td> 
+     <td style="text-align: center;">Thai</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">French</td> 
+     <td style="text-align: center;">Lithuanian</td> 
+     <td style="text-align: center;">Turkish</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Comparison of AEM 6.1 Solr search, Standard MLS and Advanced MLS</h4> 
+  <p><strong>Note </strong>: AEM 6.1 refers to AEM 6.1 Communities FP3 and earlier.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-296.png" /> 
+  <h3>Installing Standard MLS</h3> 
+  <p>For the SRP collection (either MSRP or DSRP), to support Standard Multilingual Search (MLS) it is necessary to modify two of Solr's configuration files :</p> 
+  <ul> 
+   <li><strong>schema.xml</strong></li> 
+   <li><strong>solrconfig.xml</strong></li> 
+  </ul> 
+  <draft-comment type="draft"> 
+   <p>Normally, the standard MLS files are obtained from the AEM repository.</p> 
+   <p>Temporarily, the most current standard MLS files are available for download here :</p> 
+  </draft-comment> 
+  <div> 
+   <p>standard MLS files (schema.xml, solrconfig.xml) for Solr 4.10</p> 
+   <p><a alt="msrp-standard-solr-4-10.zip"></a></p> 
+  </div> 
+  <div> 
+   <p>standard MLS files (schema.xml, solrconfig.xml) for Solr 5</p> 
+   <p><a alt="msrp-standard-solr-5.zip"></a></p> 
+  </div> 
+  <draft-comment type="draft"> 
+   <ol> 
+    <li>download the msrp-standard-solr package approprite for the version of the Solr server</li> 
+    <li>extract the contents of the zip file to the local server on which Solr is deployed</li> 
+    <li>follow the installation instructions for either standalone or SolrCloud mode</li> 
+   </ol> 
+  </draft-comment> 
+  <p>The Standard MLS files are stored in the AEM repository. </p> 
+  <p><strong>Note </strong>: While the Solr files are stored in the msrp/ folder, they are also for DSRP (no changes necessary).</p> 
+  <p><strong>Download instructions</strong> : replace <i>solrX </i>with <i>solr4 </i>or <i>solr5 </i>as appropriate</p> 
+  <ol> 
+   <li>using CRXDE|Lite, locate 
+    <ul> 
+     <li> /libs/social/config/datastore/msrp/<i>solrX</i>/<strong>schema.xml</strong></li> 
+     <li>/libs/social/config/datastore/msrp/<i>solrX</i>/<strong>solrconfig.xml</strong></li> 
+    </ul> </li> 
+   <br /> 
+   <li>download to local server on which Solr is deployed 
+    <ul> 
+     <li>locate the <span class="code">jcr:content</span> node's <span class="code">jcr:data</span> property</li> 
+     <li>select <u><span class="code">view</span></u> to start the download</li> 
+     <li>ensure the files are saved with the appropriate names and encoding (UTF8)</li> 
+    </ul> </li> 
+   <li>follow the installation instructions for either standalone or SolrCloud mode</li> 
+  </ol> 
+  <h4>SolrCloud Mode - Standard MLS</h4> 
+  <ol> 
+   <li>Install and configure Solr in SolrCloud mode</li> 
+   <li>Prepare a new configuration : 
+    <ol> 
+     <li>create <i>new-config-dir</i><br /> such as <i>solr-install-dir</i>/myconfig/</li> 
+     <li>copy the contents of the existing Solr configuration directory to <i>new-config-dir</i> 
+      <ul> 
+       <li>for Solr4 : copy <i>solr-install-dir</i>/example/solr/collection1/conf/*</li> 
+       <li>for Solr5 : copy <i>solr-install-dir</i>/server/solr/configsets/data_driven_schema_configs/*</li> 
+      </ul> </li> 
+     <li>copy the downloaded <strong>schema.xml</strong> and <strong>solrconfig.xml</strong> to <i>new-config-dir</i> to overwrite existing files</li> 
+    </ol> </li> 
+   <li><a href="#1uploadaconfigurationtozookeeper">Upload the new configuration</a> to ZooKeeper</li> 
+   <li><a href="#2createacollection">Create a collection</a> specifying the necessary parameters, such as number of shards, number of replicas, and configuration name.</li> 
+   <li>If the configuration name was <i>not </i>provided during creation of the collection, <a href="#3linkacollectiontoaconfigurationset">link this newly created collection</a> with the configuration uploaded to ZooKeeper</li> 
+   <li>For MSRP, run <a href="../../communities/using/msrp.md#msrpreindextool">MSRP Reindex Tool</a>, unless this is a new installation</li> 
+  </ol> 
+  <h4>Standalone Mode - Standard MLS</h4> 
+  <ol> 
+   <li>Install Solr in standalone mode</li> 
+   <li>If running Solr5, create a collection1 (similar to Solr4) : 
+    <ul> 
+     <li>./bin/solr start</li> 
+     <li>./bin/solr create_core -c collection1 -d sample_techproducts_configs</li> 
+    </ul> </li> 
+   <li>Backup <strong>schema.xml</strong> and <strong>solrconfig.xml</strong> in the Solr config dir, such as : 
+    <ul> 
+     <li>for Solr4 : <i>solr-install-dir</i>/example/solr/collection1/conf/</li> 
+     <li>created for Solr5 : <i>solr-install-dir</i>/server/solr/collection1/conf/</li> 
+    </ul> </li> 
+   <li>Copy the downloaded <strong>schema.xml</strong> and <strong>solrconfig.xml</strong> to that same directory</li> 
+   <li>Restart Solr</li> 
+   <li>For MSRP, run <a href="#msrpreindextool">MSRP Reindex Tool</a>, unless this is a new installation</li> 
+  </ol> 
+  <h3>Installing Advanced MLS</h3> 
+  <p>For the SRP collection (MSRP or DSRP) to support advanced MLS, new Solr plug-ins are required in addition to a custom schema and Solr configuration. All required items are packaged into a downloadable zip file. In addition, an install script is included for use when Solr is deployed in standalone mode.</p> 
+  <p>To obtain the Advanced MLS package, see <a href="../../communities/using/deploy-communities.md#aemadvancedmls">AEM Advanced MLS</a> in the deploy section of the documentation.</p> 
+  <p>To get started with the install for either SolrCloud or standalone mode:</p> 
+  <ul> 
+   <li>download AEM-SOLR-MLS zip archive to server hosting Solr</li> 
+   <li>unpack the archive</li> 
+  </ul> 
+  <h4>SolrCloud Mode - Advanced MLS</h4> 
+  <p>Installation instructions - note the few differences for Solr4 and Solr5 :</p> 
+  <ol> 
+   <li>Install and configure Solr in SolrCloud mode</li> 
+   <li>Extract the contents of the Advanced MLS package to disk. The contents should include : 
+    <ul> 
+     <li><strong>schema.xml</strong></li> 
+     <li><strong>solrconfig.xml</strong></li> 
+     <li><strong>stopwords/ </strong>folder</li> 
+     <li><strong>profiles/ </strong>folder</li> 
+     <li><strong>extra-libs/</strong> folder</li> 
+    </ul> </li> 
+   <li>Prepare a new configuration : 
+    <ol> 
+     <li>create a <i>new-config-dir</i> 
+      <ul> 
+       <li>such as <i>solr-install-dir</i>/myconfig/</li> 
+       <li>create subfolders stopwords/ and lang/</li> 
+      </ul> </li> 
+     <li>copy the contents of the existing Solr config dir to <i>new-config-dir</i> 
+      <ul> 
+       <li>for Solr4 : copy <i>solr-install-dir</i>/example/solr/collection1/conf/*</li> 
+       <li>for Solr5 : copy <i>solr-install-dir</i>/server/solr/configsets/data_driven_schema_configs/*</li> 
+      </ul> </li> 
+     <li>copy the extracted <strong>schema.xml</strong> and <strong>solrconfig.xml</strong> to <i>new-config-dir</i> to overwrite existing files</li> 
+     <li>for Solr5 : copy <i>solr_install_dir</i>/server/solr/configsets/sample_techproducts_configs/conf/lang/*.txt" to <i>new-config-dir</i>/lang/</li> 
+     <li>copy the extracted <strong>stopwords/</strong> folder to <i>new-config-dir</i> 
+      <ul> 
+       <li>resulting in <i>new-config-dir</i>/stopwords/*.txt</li> 
+      </ul> </li> 
+    </ol> </li> 
+   <li><a href="#1uploadaconfigurationtozookeeper">Upload the new configuration</a> to ZooKeeper</li> 
+   <li>Copy the new <strong>profiles/</strong> folder ... 
+    <ul> 
+     <li>for Solr4 : copy to each node's resources/ folder</li> 
+     <li>for Solr5 : copy to each Solr installation's server/resources/ folder. If all nodes are in the same Solr install directory, then this step is performed only once. </li> 
+    </ul> </li> 
+   <li>Create a<strong> lib/</strong> folder in the solr-home directory (contains solr.xml) of each node in SolrCloud. Copy jars from the following locations to the new lib/ folder on each node:<br /> 
+    <ul> 
+     <li><strong>extra-libs/</strong> extracted from the advanced MLS package</li> 
+     <li><i>solr-install-dir</i>/contrib/extraction/lib/*.jar</li> 
+     <li><i>solr-install-dir</i>/dist/solr-cell-*.jar</li> 
+     <li><i>solr-install-dir</i>/contrib/clustering/lib/*.jar</li> 
+     <li><i>solr-install-dir</i>/dist/solr-clustering-*.jar</li> 
+     <li><i>solr-install-dir</i>/contrib/langid/lib/*.jar</li> 
+     <li><i>solr-install-dir</i>/dist/solr-langid-*.jar</li> 
+     <li><i>solr-install-dir</i>/contrib/velocity/lib/*.jar</li> 
+     <li><i>solr-install-dir</i>/dist/solr-velocity-*.jar</li> 
+     <li><i>solr-install-dir</i>/contrib/analysis-extras/lib/*.jar</li> 
+     <li><i>solr-install-dir</i>/contrib/analysis-extras/lucene-libs/*.jar</li> 
+    </ul> </li> 
+   <li><a href="#2createacollection">Create a collection</a> specifying the necessary parameters, such as number of shards, number of replicas, and configuration name.</li> 
+   <li>If the configuration name was <i>not</i> provided during creation of the collection, <a href="#3linkacollectiontoaconfigurationset">link this newly created collection</a> with the configuration uploaded to ZooKeeper</li> 
+   <li>For MSRP, run <a href="#msrpreindextool">MSRP Reindex Tool</a>, unless this is a new installation</li> 
+  </ol> 
+  <h4>Standalone Mode - Advanced MLS</h4> 
+  <p>An install script is included in the Advanced MLS package.</p> 
+  <p>After the contents of the package have been extracted to the server hosting the standalone Solr server, simply execute the install script in order to install the necessary resources and configuration files.</p> 
+  <ul> 
+   <li>Install Solr in standalone mode</li> 
+   <li>If running Solr5, create a collection1 (similar to Solr4) : 
+    <ul> 
+     <li>./bin/solr start</li> 
+     <li>./bin/solr create_core -c collection1 -d sample_techproducts_configs</li> 
+    </ul> </li> 
+   <li>Run the install script : Install [-v 4|5] [-d solrhome] [-c collectionpath]<br /> where : 
+    <ul> 
+     <li>-d solrhome<br /> Solr installation directory</li> 
+     <li>-c collectionpath<br /> collection path in solr</li> 
+     <li>--help<br /> print command line options</li> 
+     <li>-v [4|5]<br /> set version for solr</li> 
+    </ul> </li> 
+  </ul> 
+  <ul> 
+   <li>Example for Solr 4.10.4: 
+    <ul> 
+     <li>Install.bat -v 4 -d c:/solr-4.10.4 -c c:/solr-4.10.4/example/solr/collection1</li> 
+    </ul> </li> 
+  </ul> 
+  <ul> 
+   <li>Example for Solr 5.4.0: 
+    <ul> 
+     <li>Install.sh -v 5 -d /tmp/solr-5.4.0 -c /tmp/solr-5.4.0/server/solr/collection1</li> 
+    </ul> </li> 
+  </ul> 
+  <p><strong>Note</strong>:</p> 
+  <ul> 
+   <li>the install script will back-up schema.xml and solrconfig.xml before installing new versions by appending ".orig"</li> 
+  </ul> 
+  <h3>About solrconfig.xml</h3> 
+  <p>The <strong>solrconfig.xml</strong> file controls the auto commit interval and search visibility and will requiring testing and tuning.</p> 
+  <p>&amp;lt;autoCommit&amp;gt; : By default, the AutoCommit interval, which is a hard commit to stable storage, is set to 15 seconds. The search visibility defaults to using the pre-commit index.</p> 
+  <p>To change search to use an index updated to reflect changes due to the commit, change the contained &amp;lt;openSearcher&amp;gt; to true.</p> 
+  <p>&amp;lt;autoSoftCommit&amp;gt; : A 'soft' commit ensures that changes are visible (the index is updated), but does not ensure changes are synced to stable storage (hard commit). The result is an improvement in performance. By default, &amp;lt;autoSoftCommit&amp;gt; is disabled with the contained &amp;lt;maxTime&amp;gt; set to -1.</p> 
+ </body> 
+</html>

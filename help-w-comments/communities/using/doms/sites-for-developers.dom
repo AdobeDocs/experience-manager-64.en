@@ -1,0 +1,152 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="68141e6e-d415-4428-96f4-9e6bfd72cb64" name="jcr:predecessors" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/developing;/content/help/en/experience-manager/6-4/communities/morehelp/developing" name="moreHelpPaths" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-04-03T07:56:42.160-0400" name="lastPublishExternalDate" /> 
+  <meta content="mgulati" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/sites-for-developers.html" name="publishExternalURL" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-31T16:33:18.420-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/sites" name="qaNotes" /> 
+  <meta content="Community Site Essentials" name="seoTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T07:56:42.160-0400" name="publishExternalDate" /> 
+  <meta content="2018-05-17T05:55:11.322-0400" name="cq:lastModified" /> 
+  <meta content="2018-03-15T09:01:57.606-0400" name="jcr:created" /> 
+  <meta content="Community Site Essentials" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Exporting and deleting community sites and creating custom site templates" name="seoDescription" /> 
+  <meta content="2018-04-03T07:56:43.570-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-05-17T05:55:11.322-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-03T07:56:42.160-0400" name="topicBrowsingSortDate" /> 
+  <meta content="ebe56a97-eddc-4b72-8b9f-3a3f61196e15" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="Community Site Essentials" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+ </head> 
+ <body> 
+  <h2>Custom Site Template</h2> 
+  <p>A custom site template may be specified separately for each language copy of a community site.</p> 
+  <p>To do so,</p> 
+  <ul> 
+   <li>create a custom template</li> 
+   <li>overlay the default site template path</li> 
+   <li>add the custom template to the overlay path</li> 
+   <li>specify the custom template by adding a <span class="code">page-template</span> property to the <span class="code">configuration</span> node</li> 
+  </ul> 
+  <p><strong>Default template</strong>:</p> 
+  <p style="margin-left: 40px;">/<strong>libs</strong>/social/console/components/hbs/sitepage/<strong>sitepage</strong>.hbs</p> 
+  <p><strong>Custom template in overlay path</strong> :</p> 
+  <p style="margin-left: 40px;">/<strong>apps</strong>/social/console/components/hbs/sitepage/<strong>&amp;lt;<i>template-name</i>&amp;gt;</strong>.hbs</p> 
+  <p><strong> Property</strong> : page-template<br /> <strong> Type</strong> : String<br /> <strong> Value</strong> : &amp;lt;<i>template-name</i>&amp;gt; (no extension)</p> 
+  <p><strong>Configuration node</strong> :</p> 
+  <p style="margin-left: 40px;">/content/&amp;lt;<i>community site path</i>&amp;gt;/&amp;lt;<i>lang</i>&amp;gt;/configuration</p> 
+  <p style="margin-left: 40px;">for example : /content/sites/engage/en/configuration</p> 
+  <note> 
+   <p>All nodes in the overlaid path need only be of type <span class="code">Folder</span>.</p> 
+  </note> 
+  <note> 
+   <p>If the custom template is given the name <i>sitepage.hbs,</i> then all community sites will be customized.</p> 
+  </note> 
+  <h3>Custom Site Template Example</h3> 
+  <p>As an example, <span class="code">vertical-sitepage.hbs</span> is a site template that results in the placement of menu links vertically down the left side of the page, instead of horizontally below the banner.</p> 
+  <div> 
+   <p></p> 
+   <p><a alt="vertical-sitepage.hbs" href="assets/vertical-sitepage.hbs">Get File</a></p> 
+  </div> 
+  <p>Place the custom site template in the overlay folder :</p> 
+  <p style="margin-left: 40px;"> /<strong>apps</strong>/social/console/components/hbs/sitepage/<strong>vertical-sitepage</strong>.hbs</p> 
+  <p>Identify the custom template by adding a <span class="code">page-template</span> property to the configuration node : </p> 
+  <p style="margin-left: 40px;">/content/sites/sample/en/configuration</p> 
+  <img imageRotate="0" src="assets/chlimage_1-87.png" /> 
+  <p>Be sure to<strong> Save All</strong> and replicate custom code to all AEM instances (custom code is not included when the community site content is published from the console).</p> 
+  <p>The recommended practice for replicating custom code is to <a href="../../sites/administering/using/package-manager.md#creatinganewpackage" target="_blank">create a package</a> and deploy it on all instances.</p> 
+  <h2>Exporting a Community Site</h2> 
+  <p>Once a community site is created, it is possible to export the site as an AEM package stored in package manager and available for download and upload.</p> 
+  <p>This is available from the <a href="../../communities/using/sites-console.md#exportingthesite">Communities Sites console</a>.</p> 
+  <p>Note that UGC and custom code is not included in the community site package.</p> 
+  <p>To export UGC, use the <a href="https://github.com/Adobe-Marketing-Cloud/communities-ugc-migration">AEM Communities UGC Migration Tool</a>, an open source migration tool available on GitHub.</p> 
+  <h2>Deleting a Community Site</h2> 
+  <p>As of AEM Communities 6.3 Service Pack 1, Delete Site icon appears on hovering over the community site from Communities &amp;gt; Sites console. During development, if it is desired to delete a community site and start fresh, you can use this functionality. Deleting a community site, removes the following items associated with that site:</p> 
+  <ul> 
+   <li><a href="#usergeneratedcontent">UGC</a></li> 
+   <li><a href="#communityusergroups">user groups</a></li> 
+   <li><a href="#enablementassets">assets</a></li> 
+   <li><a href="#databaserecords">database records</a></li> 
+  </ul> 
+  <h3>Community Unique Site ID</h3> 
+  <p>To identify the unique site ID associated with the community site, using CRXDE :</p> 
+  <ul> 
+   <li>navigate to the language root of the site, such as<br /> <span class="code">/content/sites/<i>&amp;lt;site name&amp;gt;</i>/en/rep:policy</span></li> 
+   <li>find the <span class="code">allow&amp;lt;#&amp;gt;</span> node with a <span class="code">rep:principalName</span> in this format : 
+    <ul> 
+     <li><span class="code">rep:principalName = <i>community-enable-nrh9h-members</i></span> 
+      <ul> 
+      </ul> </li> 
+    </ul> </li> 
+   <li>the site ID is the 3rd component of <span class="code">rep:principalName</span><br /> for example, if <span class="code">rep:principalName = community-enable-nrh9h-members</span> 
+    <ul> 
+     <li><strong>site name</strong> = <i>enable</i></li> 
+     <li><strong>site ID</strong> = <i>nrh9h</i></li> 
+     <li><strong>unique site ID</strong> = <i>enable-nrh9h</i></li> 
+    </ul> </li> 
+  </ul> 
+  <h3>User Generated Content</h3> 
+  <p>Obtain the communities-srp-tools project from Github :</p> 
+  <ul> 
+   <li><a href="https://github.com/Adobe-Marketing-Cloud/communities-srp-tools">https://github.com/Adobe-Marketing-Cloud/communities-srp-tools</a></li> 
+  </ul> 
+  <p>This contains a servlet to delete all UGC from any SRP.</p> 
+  <p>All UGC may be removed or for a specific site, for example :</p> 
+  <ul> 
+   <li>path=/content/usergenerated/asi/mongo/content/sites/engage</li> 
+  </ul> 
+  <p>This only removes user generated content (entered on publish) and not authored content (entered on author). Therefore, <a href="../../communities/using/srp.md#shadownodes">shadow nodes</a> are not affected.</p> 
+  <h3>Community User Groups</h3> 
+  <p>On all author and publish instances, from the <a href="../../sites/administering/using/security.md" target="_blank">security console</a>, locate and remove the <a href="../../communities/using/users.md">user groups</a> that are :</p> 
+  <ul> 
+   <li>prefixed with <span class="code">community</span></li> 
+   <li>followed by <a href="#communityuniquesiteid">unique site id</a></li> 
+  </ul> 
+  <p>For example, <span class="code">community-engage-x0e11-members</span>.</p> 
+  <draft-comment type="draft"> 
+   <h3>Community Web Site</h3> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>From the main console :</p> 
+   <ul> 
+    <li>select <strong>Sites</strong></li> 
+    <li>select <strong>Community Sites</strong> folder</li> 
+    <li>enter <strong>Select </strong>mode</li> 
+    <li>select Community Site to delete</li> 
+    <li>select <strong>Delete</strong> (may need to select from <strong>More...</strong>)</li> 
+   </ul> 
+  </draft-comment> 
+  <h3>Enablement Assets</h3> 
+  <p>From the main console :</p> 
+  <ul> 
+   <li>select <strong>Assets</strong></li> 
+   <li>enter <strong>Select</strong> mode</li> 
+   <li>select folder named with the <a href="#communityuniquesiteid">unique site Id</a></li> 
+   <li>select <strong>Delete</strong> (may need to select from <strong>More...</strong>)</li> 
+  </ul> 
+  <h3>Database Records</h3> 
+  <p>There is no tool for selectively deleting database entries for one specific enablement community site. </p> 
+  <p>When all community sites are being deleted, then drop the enablementdb and scormenginedb using MySQL Workbench.</p> 
+ </body> 
+</html>

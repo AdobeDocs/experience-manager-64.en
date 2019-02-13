@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="topic_tags:3D;content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/setting_up_stage_with_ad_mr_krs_workflow_f3c2f2ccebf6138e_172_report.xml" name="acrolinxReportURL" />
+  <meta content="Setting up a standard stage with Autodesk Maya and Mental Ray" name="jcr:title" />
+  <meta content="rbrough" name="cq:lastReplicatedBy" />
+  <meta content="2019-01-10T13:15:15.071-0500" name="cq:lastModified" />
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="rbrough" name="contentOwner" />
+  <meta content="2019-01-12T17:33:42.006-0500" name="acrolinxDate" />
+  <meta content="2019-01-10T13:15:15.115-0500" name="cq:lastReplicated" />
+  <meta content="46261519-fb8c-4dbd-a243-05193643c508" name="jcr:predecessors" />
+  <meta content="2019-01-10T13:15:15.062-0500" name="lastPublishExternalDate" />
+  <meta content="32" name="acrolinxSentences" />
+  <meta content="How to set up a standard stage with Autodesk Maya and Mental Ray" name="seoDescription" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2018-03-13T09:02:43.283-0400" name="jcr:created" />
+  <meta content="2017-10-31T16:34:14.237-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="Setting up a standard stage with Autodesk Maya and Mental Ray" name="seoTitle" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/setting-up-stage-with-ad-mr.html" name="publishExternalURL" />
+  <meta content="413" name="acrolinxWords" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="8e624b9d-63c1-4f22-8b5c-9803e55ef5e3" name="jcr:uuid" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/content/docs/en/aem/6-3/author/assets/3d-assets/about-the-use-of-stages-in-aem-3d/setting-up-stage-with-ad-mr" name="qaNotes" />
+  <meta content="rbrough" name="cq:lastModifiedBy" />
+  <meta content="2019-01-10T13:15:15.062-0500" name="topicBrowsingSortDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-01-10T13:15:15.062-0500" name="publishExternalDate" />
+  <meta content="green" name="acrolinxPageStatus" />
+  <meta content="2018-04-24T11:56:03.602-0400" name="locHandOffDate" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/3d;/content/help/en/experience-manager/6-4/assets/morehelp/3d" name="moreHelpPaths" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <ol>
+   <li><p>In Maya, create a new, empty scene.</p> </li>
+   <li><p>Create a (temporary) reference to a representative model. Doing so helps to facilitate evaluating lighting, setting up cameras, and configuring the renderer.<br /> <br /> </p> </li>
+   <li><p>Add lights as usual. Currently, AEM 3D supports the following light types:</p> 
+    <ul> 
+     <li>Directional lights</li> 
+     <li>Spot lights</li> 
+     <li>Point lights<br /> </li> 
+    </ul> <p>Other light types are ignored or converted to one of the above supported types when the stage is uploaded into AEM 3D. The converted types are used when you view the asset and when you render using the built-in Rapid Refine renderer. The original light types are used when rendering with Maya.<br /> <br /> <br /> </p> </li>
+   <li><p>Create a ground plane, if required, and apply a suitable material.</p> <p>Adobe recommends that you set up a ground plane as single-sided. Doing so ensures that you can view the asset from below in AEM 3D without the ground plane hiding the asset.<br /> <br /> </p> </li>
+   <li><p>(Optional) Create and configure cameras.</p> <p>Have the cameras "look" toward the center of the scene where the asset will be inserted. Be sure you set the cameras to renderable.</p> </li>
+   <li><p>Set up rendering with Mental Ray.</p> <p>Configure the Render Settings with the following suggestions:</p> 
+    <ul> 
+     <li>Common tab<br /> Deselect the <strong>Alpha channel (mask)</strong> check box for all Renderable Cameras.</li> 
+     <li>Quality tab
+      <ul> 
+       <li><strong>Overall quality</strong> <span class="code">- 0.5</span> or less</li> 
+       <li><strong>Indirect Diffuse (GI) Mode</strong> - <span class="code">Final Gather</span></li> 
+       <li><strong>Filter Size</strong> - <span class="code">2.0</span>, <span class="code">2.0</span></li> 
+      </ul> </li> 
+     <li>Render the scene at the typical image sizes that you expect to use. If necessary, refine the lights, or Render settings, or do both to achieve the results you want.<br /> Be aware that rendering with Mental Ray, using image-based lighting, is very slow and CPU-intensive. Adobe recommends that you configure the lowest quality settings that are still capable of producing the desired render quality.</li> 
+    </ul> </li>
+   <li><p>Remove the reference that you created in step 2.<br /> <br /> </p> </li>
+   <li><p>Save the scene, then exit Autodesk Maya.</p> </li>
+   <li><p>Upload the scene into AEM and wait for upload processing to complete.</p> <p>See <a href="../../assets/using/managing-assets-touch-ui.md#uploadingassets">Uploading Assets</a>.</p> <p>If Autodesk® Maya® is not configured on the AEM server, export an FBX from Maya and upload it into AEM.</p> </li>
+   <li><p>Open Asset Properties in AEM. Set Title to a suitable string that will appear in the Stage Selector drop-down list. Verify that <strong>Class</strong> is set to <strong>3D Stage</strong>. Save and exit.</p> </li>
+   <li><p>Open a 3D asset, select the new stage, and verify that it previews and renders as expected.<br /> <br /> </p> </li>
+  </ol>
+ </body>
+</html>

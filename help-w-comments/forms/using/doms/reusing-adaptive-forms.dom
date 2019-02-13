@@ -1,0 +1,86 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="9132faa7-5a50-4e65-84ef-d55a5bda5ce9" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:author" name="cq:tags" />
+  <meta content="video" name="pageLayout" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-04-03T08:52:03.727-0400" name="cq:lastReplicated" />
+  <meta content="You can reuse an existing adaptive form to create new adaptive forms. " name="seoDescription" />
+  <meta content="2018-04-03T08:52:03.609-0400" name="publishExternalDate" />
+  <meta content="2018-04-26T04:34:59.796-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2015-06-12T04:26:36.666-0400" name="lastPublishQADate" />
+  <meta content="9ce44b5d-928b-469f-b6e5-6b27b4dc25ef" name="jcr:uuid" />
+  <meta content="2017-12-01T19:02:44.375-0500" name="jcr:created" />
+  <meta content="left" name="sideColumn" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-04-03T08:52:03.609-0400" name="lastPublishExternalDate" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/reusing-adaptive-forms.html" name="publishExternalURL" />
+  <meta content="2016-04-20T09:47:25.143-0400" name="firstPublishExternalDate" />
+  <meta content="2018-04-03T08:52:03.609-0400" name="topicBrowsingSortDate" />
+  <meta content="2016-05-31T06:42:39.943-0400" name="acrolinxDate" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Reusing adaptive forms" name="jcr:title" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Reusing Adaptive Forms" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="2018-04-26T04:34:59.795-0400" name="locHandOffDate" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/reusing_adaptive_forms_admin_5e12de0b318c6865_2058_report.xml" name="acrolinxReportURL" />
+  <meta content="29" name="acrolinxSentences" />
+  <meta content="582" name="acrolinxWords" />
+ </head>
+ <body>
+  <h2>Introduction</h2>
+  <p>If you want to use some of the properties of an existing adaptive form to generate a new one, you can simply use the copy-paste functionality. In addition, you can paste the new adaptive form at the desired folder path. All metadata properties are replicated and the XFA and XSDs for XFA- and XSD-based adaptive forms are also copied.<br /> </p> 
+  <note>
+   <p>The status and the review details are not copied. For example, if your adaptive form is published and then if you copy it, the pasted adaptive form is in unpublished state. Similarly, if a copied asset is under review, the pasted asset is not under the same review.<br /> </p> 
+  </note>
+  <draft-comment type="draft">
+   <note>
+    <p>To know more about how to start a review of a form, see <a href="../../forms/using/create-reviews-forms.md">Creating and managing reviews of forms</a></p> 
+   </note>
+  </draft-comment>
+  <h3>Copy an adaptive form</h3>
+  <p>Copy an adaptive form using either of the following approaches:</p> 
+  <ol>
+   <li><p>Click copy <img height="16" src="assets/aem6forms_copy.png" width="16" /> icon from Quick actions.<br /> </p> 
+    <note>
+     <p>Quick actions are the action items that get displayed over a thumbnail on mouse hover.</p> 
+    </note></li>
+   <li><p>Select the adaptive form. The selection process is different for different views.</p> <p>If you are in card view, go to selection mode by clicking the selection <img height="16" src="assets/aem6forms_check-circle.png" width="16" /> icon and click all the adaptive forms that you want to copy.</p> <p>If you are in list view, click the check boxes of all adaptive forms to select them.</p> 
+    <note>
+     <p>All selected assets must be adaptive forms because copy-paste functionality is supported only for adaptive forms, and all assets that are selected must be present in the same folder.<br /> </p> 
+    </note><p>After selecting the assets, click the copy <img height="16" src="assets/aem6forms_copy.png" width="16" /> icon present in the toolbar to copy the selected adaptive form.</p> </li>
+  </ol>
+  <h3>Paste an adaptive form</h3>
+  <p>Clicking the copy action automatically exits the selection mode and makes the paste <img height="16" src="assets/aem6forms_paste.png" width="16" /> icon visible. Now go to the desired folder path and click the paste <img height="16" src="assets/aem6forms_paste.png" width="16" /> icon to paste the copied adaptive form. </p> 
+  <p>If you are pasting in the same folder or another file with the same node name (with which it is stored in the CRX repository) exists in this target folder, 1 is appended to the suffix (for example, myaf becomes myaf1 and if myaf1 exists at the same location, myaf becomes myaf2. All other properties remain same as the original adaptive form.</p> 
+  <p><br /> After clicking the paste <img height="16" src="assets/aem6forms_paste.png" width="16" /> icon, it will again become hidden. At one time, you can only paste once. To again create a copy of same asset, copy it again.<br /> </p> 
+  <h3>Change contents of new adaptive form</h3>
+  <p>The content of a pasted adaptive forms can be changed using the following approaches to make it different from the copied form:</p> 
+  <ol>
+   <li> <p>You can change the metadata properties of the adaptive form for example, title and description. For more details about metadata properties and how they can be changed, see <a href="../../forms/using/manage-form-metadata.md" target="_blank">Managing Form Metadata</a></p> </li>
+   <li> <p>You can change the XFA/XSD used in adaptive forms. To know how these adaptive forms can be changed, see <a href="../../forms/using/manage-form-metadata.md" target="_blank">Managing form metadata</a></p> </li>
+   <li> <p>The pasted asset is different from the copied one. You can publish it as a new asset to make it available for end users. To know how to publish an asset, see <a href="../../forms/using/publishing-unpublishing-forms.md" target="_blank">Publishing and unpublishing forms</a></p> </li>
+  </ol>
+  <related-links>
+   <a href="../../forms/using/creating-adaptive-form.md" target="_blank"> Creating an adaptive form</a>
+  </related-links>
+ </body>
+</html>

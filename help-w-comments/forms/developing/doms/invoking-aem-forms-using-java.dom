@@ -1,0 +1,822 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2019-01-26T08:28:37.275-0500" name="cq:lastReplicated" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-03T06:48:35.672-0400" name="firstPublishExternalDate" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="Invoking AEM Forms using the Java&amp;#xA;API" name="navTitle" /> 
+  <meta content="780c4fde-4833-4c97-893c-46671615abe5" name="jcr:uuid" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Invoking AEM Forms using the JavaAPI" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-11-22T19:06:05.860-0500" name="jcr:created" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-01-26T08:28:37.254-0500" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/developing/invoking-aem-forms-using-java.html" name="publishExternalURL" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/developing/morehelp/coding;/content/help/en/experience-manager/6-4/forms/developing/morehelp/coding" name="moreHelpPaths" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7b72.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7b4b.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7ff2.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7ff0.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7fcf.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7ff8.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7fd6.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7ff6.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7ffe.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7ffd.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7b9f.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7fef.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7fea.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7fe2.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7fe0.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7b4a.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7fdc.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7fda.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7b4d.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7b3b.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7b46.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7da0.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d998de71336a351bfb-7fd2.2" name="cq:gepId" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="dddabd3a-e298-4e3d-ac5f-89b9596fdd88" name="jcr:predecessors" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="sortDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:coding" name="cq:tags" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-07-12T07:03:38.627-0400" name="lr_lastModified" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-01-26T08:28:37.254-0500" name="lastPublishExternalDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2019-01-26T08:28:37.257-0500" name="cq:lastModified" /> 
+  <meta content="2018-11-19T08:17:15.728-0500" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <p>AEM Forms can be invoked by using the AEM Forms Java API. When using the AEM Forms Java API, you can use either the Invocation API or Java client libraries. Java client libraries are available for services such as the Rights Management service. These strongly typed APIs let you develop Java applications that invoke AEM Forms. </p> 
+  <p>The Invocation API are classes that are located in the <span class="code">com.adobe.idp.dsc</span> package. Using these classes, you can send an invocation request directly to a service and handle an invocation response that is returned. Use the Invocation API to invoke short-lived or long-lived processes that were created by using Workbench.</p> 
+  <p>The recommended way to programmatically invoke a service is to use a Java client library that corresponds to the service as opposed to the Invocation API. For example, to invoke the Encryption service, use the Encryption service client library. To perform an Encryption service operation, invoke a method that belongs to the Encryption service client object. You can encrypt a PDF document with a password by invoking the <span class="code">EncryptionServiceClient</span> object’s <span class="code">encryptPDFUsingPassword</span> method. </p> 
+  <p>The Java API supports the following features:</p> 
+  <ul> 
+   <li><p>RMI transport protocol for remote invocation</p></li> 
+   <li><p>VM transport for local invocation</p></li> 
+   <li><p>SOAP for remote invocation</p></li> 
+   <li><p>Different authentication, such as user name and password</p></li> 
+   <li><p>Synchronous and asynchronous invocation requests</p></li> 
+  </ul> 
+  <p><strong>Adobe Developer website</strong></p> 
+  <p>The Adobe Developer website contains the following articles that discuss invoking AEM Forms services using the Java API:</p> 
+  <p><a href="http://www.adobe.com/devnet/livecycle/articles/java_servlets.html">Using Java servlets to invoke AEM Forms processes</a></p> 
+  <p><a href="http://www.adobe.com/devnet/livecycle/articles/distiller_java_03.html">Invoking the AEM Forms Distiller API from Java</a></p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="../../forms/developing/invoking-human-centric-long-lived.md#main-pars-text-0">Invoking Human-Centric Long-Lived Processes</a></p> 
+  <p><a href="../../forms/developing/invoking-aem-forms-using-web.md">Invoking AEM Forms using Web Services</a></p> 
+  <p><a href="invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="invoking-aem-forms-using-java#passing_data_to_aem_forms_services_using_the_java_api">Passing data to AEM Forms services using the Java API</a></p> 
+  <p><a href="invoking-aem-forms-using-java#invoking_a_service_using_a_java_client_library">Invoking a service using a Java client library</a></p> 
+  <p><a href="invoking-aem-forms-using-java#invoking_a_short_lived_process_using_the_invocation_api">Invoking a short-lived process using the Invocation API</a></p> 
+  <p><a href="../../forms/developing/invoking-human-centric-long-lived.md">Creating a Java web application that invokes a human-centric long-lived process</a></p> 
+  <h2 id="including_aem_forms_java_library_files">Including AEM Forms Java library files</h2> 
+  <p></p> 
+  <p>To programmatically invoke a AEM Forms service by using the Java API, include required library files (JAR files) in your Java project’s classpath. The JAR files that you include in your client application’s classpath depend on several factors:</p> 
+  <ul> 
+   <li><p>The AEM Forms service to invoke. A client application can invoke one or more services.</p></li> 
+   <li><p>The mode in which you want to invoke a AEM Forms service. You can use the EJB or SOAP mode. (See <a href="invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a>.)</p></li> 
+   <li><p>The J2EE application server on which AEM Forms is deployed.</p></li> 
+  </ul> 
+  <h3 id="service_specific_jar_files">Service-specific JAR files</h3> 
+  <p></p> 
+  <p>The following table lists the JAR files that are required to invoke AEM Forms services.</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e6626" valign="top" width="NaN%"><p>File</p></th> 
+     <th class="cellrowborder" id="d19e6629" valign="top" width="NaN%"><p>Description</p></th> 
+     <th class="cellrowborder" id="d19e6632" valign="top" width="NaN%"><p>Location</p></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-livecycle-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Must always be included in a Java client application’s class path.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-usermanager-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Must always be included in a Java client application’s class path.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-utilities.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Must always be included in a Java client application’s class path.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk//client-libs/&lt;app server&gt;</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-applicationmanager-client-sdk.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Application Manager service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-assembler-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Assembler service. </p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-backup-restore-client-sdk.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Backup and Restore service API.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-barcodedforms-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the barcoded forms service. </p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-convertpdf-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Convert PDF service. </p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-distiller-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Distiller service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-docconverter-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the DocConverter service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-contentservices-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Document Management service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-encryption-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Encryption service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-forms-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Forms service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-formdataintegration-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Form Data Integration service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-generatepdf-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Generate PDF service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-generate3dpdf-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Generate 3D PDF service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-jobmanager-client-sdk.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Job Manager service. </p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-output-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Output service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-pdfutility-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the PDF Utilities or XMP Utilities service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-reader-extensions-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Acrobat Reader DC extensions service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-repository-client.jar</p><p>commons-codec-1.3.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Repository service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p><p>&lt;<i>install directory</i>&gt;/sdk/client-libs\thirdparty</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"> 
+      <ul> 
+       <li><p>adobe-rightsmanagement-client.jar</p></li> 
+       <li><p>namespace.jar</p></li> 
+       <li><p>jaxb-api.jar</p></li> 
+       <li><p>jaxb-impl.jar</p></li> 
+       <li><p>jaxb-libs.jar</p></li> 
+       <li><p>jaxb-xjc.jar</p></li> 
+       <li><p>relaxngDatatype.jar</p></li> 
+       <li><p>xsdlib.jar</p></li> 
+      </ul></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Rights Management service.</p><p>If AEM Forms is deployed on JBoss, include all these files. </p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p><p>JBoss-specific lib directory</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-signatures-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Signature service.</p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-taskmanager-client-sdk.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Task Manager service. </p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e6626 " valign="top" width="NaN%"><p>adobe-truststore-client.jar</p></td> 
+     <td class="cellrowborder" headers="d19e6629 " valign="top" width="NaN%"><p>Required to invoke the Trust Store service. </p></td> 
+     <td class="cellrowborder" headers="d19e6632 " valign="top" width="NaN%"><p>&lt;<i>install directory</i>&gt;/sdk/client-libs/common</p></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3 id="connection_mode_and_j2ee_application_jar_files">Connection mode and J2EE application JAR files</h3> 
+  <p>The following table lists the JAR files that are dependant upon the connection mode and the J2EE application server on which AEM Forms is deployed.</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e7012" valign="top" width="NaN%"><p>File</p> </th> 
+     <th class="cellrowborder" id="d19e7015" valign="top" width="NaN%"><p>Description</p> </th> 
+     <th class="cellrowborder" id="d19e7018" valign="top" width="NaN%"><p>Location</p> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e7012 " valign="top" width="NaN%"> 
+      <ul> 
+       <li><p>activation.jar</p> </li> 
+       <li><p>axis.jar</p> </li> 
+       <li><p>commons-codec-1.3.jar</p> </li> 
+       <li><p>commons-collections-3.1.jar</p> </li> 
+       <li><p>commons-discovery.jar</p> </li> 
+       <li><p>commons-logging.jar</p> </li> 
+       <li><p>dom3-xml-apis-2.5.0.jar</p> </li> 
+       <li><p>jaxen-1.1-beta-9.jar</p> </li> 
+       <li><p>jaxrpc.jar</p> </li> 
+       <li><p>log4j.jar</p> </li> 
+       <li><p>mail.jar</p> </li> 
+       <li><p>saaj.jar</p> </li> 
+       <li><p>wsdl4j.jar</p> </li> 
+       <li><p>xalan.jar</p> </li> 
+       <li><p>xbean.jar</p> </li> 
+      </ul> 
+      <ul> 
+       <li>xercesImpl.jar<br /> </li> 
+       <li>commons-httpclient-3.1.jar</li> 
+      </ul> <p> </p> </td> 
+     <td class="cellrowborder" headers="d19e7015 " valign="top" width="NaN%"><p>if AEM Forms is invoked using the SOAP mode, include these JAR files.</p> </td> 
+     <td class="cellrowborder" headers="d19e7018 " valign="top" width="NaN%"><p>&lt;<em>install directory</em>&gt;/sdk/client-libs/thirdparty</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e7012 " valign="top" width="NaN%"><p> jboss-client.jar</p> </td> 
+     <td class="cellrowborder" headers="d19e7015 " valign="top" width="NaN%"><p>if AEM Forms is deployed on JBoss Application Server, include this JAR file.</p> <p>Required classes will not be found by the classloader if jboss-client.jar and the referenced jars are not co-located.</p> </td> 
+     <td class="cellrowborder" headers="d19e7018 " valign="top" width="NaN%"><p>JBoss client lib directory</p> <p>If you deploy your client application on the same J2EE application server, you do not need to include this file.</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e7012 " valign="top" width="NaN%"><p>wlclient.jar</p> </td> 
+     <td class="cellrowborder" headers="d19e7015 " valign="top" width="NaN%"><p>if AEM Forms is deployed on BEA WebLogic Server®, then include this JAR file.</p> </td> 
+     <td class="cellrowborder" headers="d19e7018 " valign="top" width="NaN%"><p>WebLogic-specific lib directory</p> <p>If you deploy your client application on the same J2EE application server, you do not need to include this file.</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e7012 " valign="top" width="NaN%"> 
+      <ul> 
+       <li><p>com.ibm.ws.admin.client_6.1.0.jar</p> </li> 
+       <li><p>com.ibm.ws.webservices.thinclient_6.1.0.jar</p> </li> 
+      </ul> </td> 
+     <td class="cellrowborder" headers="d19e7015 " valign="top" width="NaN%"> 
+      <ul> 
+       <li><p>if AEM Forms is deployed on WebSphere Application Server, include these JAR files.</p> </li> 
+       <li><p>(com.ibm.ws.webservices.thinclient_6.1.0.jar is required for web service invocation).</p> </li> 
+      </ul> </td> 
+     <td class="cellrowborder" headers="d19e7018 " valign="top" width="NaN%"><p>WebSphere-specific lib directory (<em>[WAS_HOME]</em>/runtimes)</p> <p>If you deploy your client application on the same J2EE application server, you do not have to include these files.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3 id="invoking_scenarios">Invoking scenarios</h3> 
+  <p></p> 
+  <p>The following table specifies invoking scenarios and lists the required JAR files to successfully invoke AEM Forms.</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e7174" valign="top" width="NaN%"><p>Services</p> </th> 
+     <th class="cellrowborder" id="d19e7177" valign="top" width="NaN%"><p>Invocation mode</p> </th> 
+     <th class="cellrowborder" id="d19e7180" valign="top" width="NaN%"><p>J2EE application server</p> </th> 
+     <th class="cellrowborder" id="d19e7183" valign="top" width="NaN%"><p>Required JAR files</p> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e7174 " valign="top" width="NaN%"><p>Forms service</p> </td> 
+     <td class="cellrowborder" headers="d19e7177 " valign="top" width="NaN%"><p>EJB</p> </td> 
+     <td class="cellrowborder" headers="d19e7180 " valign="top" width="NaN%"><p>JBoss</p> </td> 
+     <td class="cellrowborder" headers="d19e7183 " valign="top" width="NaN%"> 
+      <ul> 
+       <li><p>adobe-livecycle-client.jar</p> </li> 
+       <li><p>adobe-usermanager-client.jar</p> </li> 
+      </ul> 
+      <ul> 
+       <li>jboss-client.jar</li> 
+      </ul> 
+      <ul> 
+       <li>adobe-forms-client.jar<br /> </li> 
+       <li>commons-httpclient-3.1.jar</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e7174 " valign="top" width="NaN%"><p>Forms service</p> <p>Acrobat Reader DC extensions service</p> <p>Signature service</p> </td> 
+     <td class="cellrowborder" headers="d19e7177 " valign="top" width="NaN%"><p>EJB</p> </td> 
+     <td class="cellrowborder" headers="d19e7180 " valign="top" width="NaN%"><p>JBoss</p> </td> 
+     <td class="cellrowborder" headers="d19e7183 " valign="top" width="NaN%"> 
+      <ul> 
+       <li><p>adobe-livecycle-client.jar</p> </li> 
+       <li><p>adobe-usermanager-client.jar</p> </li> 
+      </ul> 
+      <ul> 
+       <li>jboss-client.jar<br /> </li> 
+       <li>commons-httpclient-3.1.jar</li> 
+      </ul> 
+      <ul> 
+       <li><p>adobe-forms-client.jar</p> </li> 
+       <li><p>adobe-reader-extensions-client.jar</p> </li> 
+       <li><p>adobe-signatures-client.jar</p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e7174 " valign="top" width="NaN%"><p>Forms service</p> </td> 
+     <td class="cellrowborder" headers="d19e7177 " valign="top" width="NaN%"><p>SOAP</p> </td> 
+     <td class="cellrowborder" headers="d19e7180 " valign="top" width="NaN%"><p>WebLogic</p> </td> 
+     <td class="cellrowborder" headers="d19e7183 " valign="top" width="NaN%"> 
+      <ul> 
+       <li><p>adobe-livecycle-client.jar</p> </li> 
+       <li><p>adobe-usermanager-client.jar</p> </li> 
+       <li><p>wlclient.jar</p> </li> 
+       <li><p>activation.jar</p> </li> 
+       <li><p>axis.jar</p> </li> 
+       <li><p>commons-codec-1.3.jar</p> </li> 
+       <li><p>commons-collections-3.1.jar</p> </li> 
+       <li><p>commons-discovery.jar</p> </li> 
+       <li><p>commons-logging.jar</p> </li> 
+       <li><p>dom3-xml-apis-2.5.0.jar</p> </li> 
+       <li><p>jai_imageio.jar</p> </li> 
+       <li><p>jaxen-1.1-beta-9.jar</p> </li> 
+       <li><p>jaxrpc.jar</p> </li> 
+       <li><p>log4j.jar</p> </li> 
+       <li><p>mail.jar</p> </li> 
+       <li><p>saaj.jar</p> </li> 
+       <li><p>wsdl4j.jar</p> </li> 
+       <li><p>xalan.jar</p> </li> 
+       <li><p>xbean.jar</p> </li> 
+       <li><p>xercesImpl.jar</p> </li> 
+       <li><p>adobe-forms-client.jar</p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e7174 " valign="top" width="NaN%"><p>Forms service</p> <p>Acrobat Reader DC extensions service</p> <p>Signature service</p> </td> 
+     <td class="cellrowborder" headers="d19e7177 " valign="top" width="NaN%"><p>SOAP</p> </td> 
+     <td class="cellrowborder" headers="d19e7180 " valign="top" width="NaN%"><p>WebLogic</p> </td> 
+     <td class="cellrowborder" headers="d19e7183 " valign="top" width="NaN%"> 
+      <ul> 
+       <li><p>adobe-livecycle-client.jar</p> </li> 
+       <li><p>adobe-usermanager-client.jar</p> </li> 
+       <li><p>wlclient.jar</p> </li> 
+       <li><p>activation.jar</p> </li> 
+       <li><p>axis.jar</p> </li> 
+       <li><p>commons-codec-1.3.jar</p> </li> 
+       <li><p>commons-collections-3.1.jar</p> </li> 
+       <li><p>commons-discovery.jar</p> </li> 
+       <li><p>commons-logging.jar</p> </li> 
+       <li><p>dom3-xml-apis-2.5.0.jar</p> </li> 
+       <li><p>jai_imageio.jar</p> </li> 
+       <li><p>jaxen-1.1-beta-9.jar</p> </li> 
+       <li><p>jaxrpc.jar</p> </li> 
+       <li><p>log4j.jar</p> </li> 
+       <li><p>mail.jar</p> </li> 
+       <li><p>saaj.jar</p> </li> 
+       <li><p>wsdl4j.jar</p> </li> 
+       <li><p>xalan.jar</p> </li> 
+       <li><p>xbean.jar</p> </li> 
+       <li><p>xercesImpl.jar</p> </li> 
+       <li><p>adobe-forms-client.jar</p> </li> 
+       <li><p>adobe-reader-extensions-client.jar</p> </li> 
+       <li><p>adobe-signatures-client.jar</p> </li> 
+      </ul> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3 id="upgrading_jar_files">Upgrading JAR files</h3> 
+  <p></p> 
+  <p>If you are upgrading from LiveCycle to AEM Forms, it is recommeded that you include the AEM Forms JAR files in your Java project’s class path. For example, if you are using services such as the Rights Management service, you will encounter a compatibility issue if you do not include AEM Forms JAR files in your class path. </p> 
+  <p>Assuming that you are upgrading to AEM Forms. To use a Java application that invokes the Rights Management service, include the AEM Forms versions of the following JAR files:</p> 
+  <ul> 
+   <li><p>adobe-rightsmanagement-client.jar</p></li> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+  </ul> 
+  <p><strong>See also</strong></p> 
+  <p><a href="invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api">Invoking AEM Forms using the Java API</a></p> 
+  <p><a href="invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="invoking-aem-forms-using-java#passing_data_to_aem_forms_services_using_the_java_api">Passing data to AEM Forms services using the Java API</a></p> 
+  <p><a href="invoking-aem-forms-using-java#invoking_a_service_using_a_java_client_library">Invoking a service using a Java client library</a></p> 
+  <h2 id="setting_connection_properties">Setting connection properties</h2> 
+  <p></p> 
+  <p>You set connection properties to invoke AEM Forms when using the Java API. When setting connection properties, specify whether to invoke services remotely or locally, and also specify the connection mode and authentication values. Authentication values are required if service security is enabled. However, if service security is disabled, it is not necessary to specify authentication values. (See <a href="/programming-with-aem-forms/processes-tasks#disabling_service_security">Disabling Service Security</a>.)</p> 
+  <p>The connection mode can either be SOAP or EJB mode. The EJB mode uses the RMI/IIOP protocol, and the performance of the EJB mode is better than the performance of the SOAP mode. The SOAP mode is used to eliminate a J2EE application server dependency or when a firewall is located between AEM Forms and the client application. The SOAP mode uses the https protocol as the underlying transport and can communicate across firewall boundaries. If neither a J2EE application server dependency or a firewall is an issue, it is recommended that you use the EJB mode.</p> 
+  <p>To successfully invoke a AEM Forms service, set the following connection properties:</p> 
+  <ul> 
+   <li><p><strong>DSC_DEFAULT_EJB_ENDPOINT:</strong> If you are using the EJB connection mode, this value represents the URL of the J2EE application server on which AEM Forms is deployed. To remotely invoke AEM Forms, specify the J2EE application server name on which AEM Forms is deployed. If your client application is located on the same J2EE application server, then you can specify <span class="code">localhost</span>. Depending on which J2EE application server AEM Forms is deployed on, specify one of the following values:</p> 
+    <ul> 
+     <li><p>JBoss: <span class="code">http://&amp;lt;ServerName&amp;gt;:8080 (default port)</span></p> </li> 
+     <li><p>WebSphere: <span class="code">iiop://&amp;lt;ServerName&amp;gt;:2809 (default port)</span></p> </li> 
+     <li><p>WebLogic: <span class="code">t3://&amp;lt;ServerName&amp;gt;:7001 (default port)</span></p> </li> 
+    </ul> </li> 
+   <li><p><strong>DSC_DEFAULT_SOAP_ENDPOINT</strong>: If you are using the SOAP connection mode, this value represents the endpoint to where an invocation request is sent. To remotely invoke AEM Forms, specify the J2EE application server name on which AEM Forms is deployed. If your client application is located on the same J2EE application server, you can specify <span class="code">localhost</span> (for example, <span class="code">http://localhost:8080</span>.)</p> 
+    <ul> 
+     <li><p>The port value <span class="code">8080</span> is applicable if the J2EE application is JBoss. If the J2EE application server is IBM® WebSphere®, use port <span class="code">9080</span>. Likewise, if the J2EE application server is WebLogic, use port <span class="code">7001</span>. (These values are default port values. If you change the port value, use the applicable port number.)</p> </li> 
+    </ul> </li> 
+   <li><p><strong>DSC_TRANSPORT_PROTOCOL</strong>: If you are using the EJB connection mode, specify <span class="code">ServiceClientFactoryProperties.DSC_EJB_PROTOCOL</span> for this value. If you are using the SOAP connection mode, specify <span class="code">ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL</span>.</p> </li> 
+   <li><p><strong>DSC_SERVER_TYPE</strong>: Specifies the J2EE application server on which AEM Forms is deployed. Valid values are <span class="code">JBoss</span>, <span class="code">WebSphere</span>, <span class="code">WebLogic</span>.</p> 
+    <ul> 
+     <li><p>If you set this connection property to <span class="code">WebSphere</span>, the <span class="code">java.naming.factory.initial</span> value is set to <span class="code">com.ibm.ws.naming.util.WsnInitCtxFactory</span>.</p> </li> 
+     <li><p>If you set this connection property to <span class="code">WebLogic</span>, the <span class="code">java.naming.factory.initial</span> value is set to <span class="code">weblogic.jndi.WLInitialContextFactory</span>.</p> </li> 
+     <li><p>Likewise, if you set this connection property to <span class="code">JBoss</span>, the <span class="code">java.naming.factory.initial</span> value is set to <span class="code">org.jnp.interfaces.NamingContextFactory</span>.</p> </li> 
+     <li><p>You can set the <span class="code">java.naming.factory.initial</span> property to a value that meets your requirements if you do not want to use the default values.</p> </li> 
+    </ul>  </li> 
+   <li><p><strong>DSC_CREDENTIAL_USERNAME:</strong> Specifies the AEM forms user name. For a user to sucessfully invoke a AEM Forms service, they need the Services User role. A user can also have another role that includes the Service Invoke permission. Otherwise, an exception is thrown when they attempt to invoke a service. If service security is disabled, it is not necessary to specify this connection property. (See <a href="/programming-with-aem-forms/processes-tasks#disabling_service_security">Disabling Service Security</a>.)</p> </li> 
+   <li><p><strong>DSC_CREDENTIAL_PASSWORD:</strong> Specifies the corresponding password value. If service security is disabled, it is not necessary to specify this connection property.</p> </li> 
+   <li><p><strong>DSC_REQUEST_TIMEOUT: </strong>The default request timeout limit for the SOAP request is 1200000 milliseconds (20 minutes). Sometime, a request can require longer time to complete the operation. For example, a SOAP request that retrieves a large set of records can require a longer timeout limit. You can use the <span class="code">ServiceClientFactoryProperties.DSC_REQUEST_TIMEOUT</span> to increase the request call timeout limit for the SOAP requests.</p>  </li> 
+  </ul> 
+  <p>To set connection properties, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Create a <span class="code">java.util.Properties</span> object by using its constructor. </p></li> 
+   <li><p>To set the <span class="code">DSC_DEFAULT_EJB_ENDPOINT</span> connection property, invoke the <span class="code">java.util.Properties</span> object’s <span class="code">setProperty</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>The <span class="code">ServiceClientFactoryProperties.DSC_DEFAULT_EJB_ENDPOINT</span> enumeration value</p></li> 
+     <li><p>A string value that specifies the URL of the J2EE application server that hosts AEM Forms</p></li> 
+    </ul> 
+    <note> 
+     <p>If you are using the SOAP connection mode, specify the <span class="code">ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT</span> enumeration value instead of the <span class="code">ServiceClientFactoryProperties.DSC_DEFAULT_EJB_ENDPOINT</span><i> enumeration value.</i></p> 
+    </note></li> 
+   <li><p>To set the <span class="code">DSC_TRANSPORT_PROTOCOL</span> connection property, invoke the <span class="code">java.util.Properties</span> object’s <span class="code">setProperty</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>The <span class="code">ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL</span> enumeration value</p></li> 
+     <li><p>The <span class="code">ServiceClientFactoryProperties.DSC_EJB_PROTOCOL</span> enumeration value</p></li> 
+    </ul> 
+    <note> 
+     <p>If you are using the SOAP connection mode, specify the <span class="code">ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL </span>enumeration value instead of the <span class="code">ServiceClientFactoryProperties.DSC_EJB_PROTOCOL</span><i> enumeration value.</i></p> 
+    </note></li> 
+   <li><p>To set the <span class="code">DSC_SERVER_TYPE</span> connection property, invoke the <span class="code">java.util.Properties</span> object’s <span class="code">setProperty</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>The <span class="code">ServiceClientFactoryProperties.DSC_SERVER_TYPE </span>enumeration value</p></li> 
+     <li><p>A string value that specifies the J2EE application server that hosts AEM Forms (for example, if AEM Forms is deployed on JBoss, specify <span class="code">JBoss</span>).</p> 
+      <ol> 
+       <li><p>To set the <span class="code">DSC_CREDENTIAL_USERNAME</span> connection property, invoke the <span class="code">java.util.Properties</span> object’s <span class="code">setProperty</span> method and pass the following values:</p></li> 
+      </ol></li> 
+     <li><p>The <span class="code">ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME</span> enumeration value</p></li> 
+     <li><p>A string value that specifies the user name required to invoke AEM Forms</p> 
+      <ol> 
+       <li><p>To set the <span class="code">DSC_CREDENTIAL_PASSWORD</span> connection property, invoke the <span class="code">java.util.Properties</span> object’s <span class="code">setProperty</span> method and pass the following values:</p></li> 
+      </ol></li> 
+     <li><p>The <span class="code">ServiceClientFactoryProperties.DSC_CREDENTIAL_PASSWORD</span> enumeration value</p></li> 
+     <li><p>A string value that specifies the corresponding password value</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>Setting the EJB connection mode for JBoss</strong></p> 
+  <p>The following Java code example sets connection properties to invoke AEM Forms deployed on JBoss and using the EJB connection mode.</p> 
+  <codeblock gutter="true" class="syntax java">
+     Properties&amp;nbsp;ConnectionProps&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Properties();&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_EJB_ENDPOINT,&amp;nbsp;"http://&lt;hostname&gt;:8080");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_EJB_PROTOCOL);&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE,&amp;nbsp;"JBoss");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME,&amp;nbsp;"administrator");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_PASSWORD,&amp;nbsp;"password");!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_DOCUMENT_HTTP_ENDPOINT,"http://&lt;hostname&gt;:8080"); 
+  </codeblock> 
+  <p><strong>Setting the EJB connection mode for WebLogic</strong></p> 
+  <p>The following Java code example sets connection properties to invoke AEM Forms deployed on WebLogic and using the EJB connection mode.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     Properties&amp;nbsp;ConnectionProps&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Properties();&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_EJB_ENDPOINT,&amp;nbsp;"t3://localhost:7001");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_EJB_PROTOCOL);&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE,&amp;nbsp;"WebLogic");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME,&amp;nbsp;"administrator");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_PASSWORD,&amp;nbsp;"password"); 
+  </codeblock> 
+  <p><strong>Setting the EJB connection mode for WebSphere</strong></p> 
+  <p>The following Java code example sets connection properties to invoke AEM Forms deployed on WebSphere and using the EJB connection mode.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     Properties&amp;nbsp;ConnectionProps&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Properties();&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_EJB_ENDPOINT,&amp;nbsp;"iiop://localhost:2809");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_EJB_PROTOCOL);&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE,&amp;nbsp;"WebSphere");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME,&amp;nbsp;"administrator");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_PASSWORD,&amp;nbsp;"password"); 
+  </codeblock> 
+  <p><strong>Setting the SOAP connection mode</strong></p> 
+  <p>The following Java code example sets connection properties in SOAP mode to invoke AEM Forms deployed on JBoss.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     Properties&amp;nbsp;ConnectionProps&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Properties();&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT,&amp;nbsp;"http://localhost:8080");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE,&amp;nbsp;"JBoss");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME,&amp;nbsp;"administrator");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_PASSWORD,&amp;nbsp;"password"); 
+  </codeblock> 
+  <note> 
+   <p>If you select the SOAP connection mode, ensure to include additional JAR files in your client application’s class path. </p> 
+  </note> 
+  <p><strong>Setting connection properties when service security is disabled</strong></p> 
+  <p>The following Java code example sets connection properties required to invoke AEM Forms deployed on JBoss Application Server and when service security is disabled. (See <a href="/programming-with-aem-forms/processes-tasks#disabling_service_security">Disabling Service Security</a>.) </p> 
+  <codeblock gutter="true" class="syntax as3">
+     Properties&amp;nbsp;ConnectionProps&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Properties();&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_EJB_ENDPOINT,&amp;nbsp;"jnp://localhost:1099");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_EJB_PROTOCOL);&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE,&amp;nbsp;"JBoss"); 
+  </codeblock> 
+  <note> 
+   <p>All Java Quick Starts associated with Programming with AEM Forms show both EJB and SOAP connection settings. </p> 
+  </note> 
+  <p><strong>Setting the SOAP connection mode with custom request timeout limit</strong></p> 
+  <codeblock gutter="true" class="syntax as3">
+     Properties&amp;nbsp;ConnectionProps&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Properties();&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_SOAP_ENDPOINT,&amp;nbsp;"http://localhost:8080");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,ServiceClientFactoryProperties.DSC_SOAP_PROTOCOL);&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE,&amp;nbsp;"JBoss");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_USERNAME,&amp;nbsp;"administrator");&amp;nbsp;!!discoiqbr!! ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_CREDENTIAL_PASSWORD,&amp;nbsp;"password");&amp;nbsp;!!discoiqbr!!ConnectionProps.setProperty(ServiceClientFactoryProperties.DSC_REQUEST_TIMEOUT,&amp;nbsp;"1800000");&amp;nbsp;//&amp;nbsp;Request&amp;nbsp;timeout&amp;nbsp;limit&amp;nbsp;30&amp;nbsp;Minutes 
+  </codeblock> 
+  <p><strong>Using a Context object to invoke AEM Forms</strong></p> 
+  <p>You can use a <span class="code">com.adobe.idp.Context</span> object to invoke a AEM Forms service with an authenticated user (the <span class="code">com.adobe.idp.Context</span> object represents an authenticated user). When using a <span class="code">com.adobe.idp.Context</span> object, you do not need to set the <span class="code">DSC_CREDENTIAL_USERNAME</span> or <span class="code">DSC_CREDENTIAL_PASSWORD</span> properties. You can obtain a <span class="code">com.adobe.idp.Context</span> object when authenicating users by using the <span class="code">AuthenticationManagerServiceClient</span> object’s <span class="code">authenticate</span> method. </p> 
+  <p>The <span class="code">authenticate</span> method returns an <span class="code">AuthResult</span> object that contains the results of the authentication. You can create a <span class="code">com.adobe.idp.Context</span> object by invoking its constructor. Then invoke the <span class="code">com.adobe.idp.Context</span> object’s <span class="code">initPrincipal</span> method and pass the <span class="code">AuthResult</span> object, as shown in the following code:</p> 
+  <codeblock gutter="true" class="syntax as3">
+     Context&amp;nbsp;myCtx&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Context();&amp;nbsp;&amp;nbsp;!!discoiqbr!! myCtx.initPrincipal(authResult); 
+  </codeblock> 
+  <p>Instead of setting the <span class="code">DSC_CREDENTIAL_USERNAME</span> or <span class="code">DSC_CREDENTIAL_PASSWORD</span> properties, you can invoke the <span class="code">ServiceClientFactory</span> object’s <span class="code">setContext</span> method and pass the <span class="code">com.adobe.idp.Context</span> object. When using a AEM forms user to invoke a service, ensure that they have the role named <span class="code">Services User</span> that is required to invoke a AEM Forms service.</p> 
+  <p>The following code example shows how to use a <span class="code">com.adobe.idp.Context</span> object within connection settings that are used to create an <span class="code">EncryptionServiceClient</span> object.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     //Authenticate&amp;nbsp;a&amp;nbsp;user&amp;nbsp;and&amp;nbsp;use&amp;nbsp;the&amp;nbsp;Context&amp;nbsp;object&amp;nbsp;within&amp;nbsp;connection&amp;nbsp;settings&amp;nbsp;!!discoiqbr!! //&amp;nbsp;Authenticate&amp;nbsp;the&amp;nbsp;user&amp;nbsp;!!discoiqbr!! String&amp;nbsp;username&amp;nbsp;=&amp;nbsp;"wblue";&amp;nbsp;!!discoiqbr!! String&amp;nbsp;password&amp;nbsp;=&amp;nbsp;"password";&amp;nbsp;!!discoiqbr!! AuthResult&amp;nbsp;authResult&amp;nbsp;=&amp;nbsp;authClient.authenticate(username,&amp;nbsp;password.getBytes());&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! //Set&amp;nbsp;a&amp;nbsp;Content&amp;nbsp;object&amp;nbsp;that&amp;nbsp;represents&amp;nbsp;the&amp;nbsp;authenticated&amp;nbsp;user&amp;nbsp;!!discoiqbr!! //Use&amp;nbsp;the&amp;nbsp;Context&amp;nbsp;object&amp;nbsp;to&amp;nbsp;invoke&amp;nbsp;the&amp;nbsp;Encryption&amp;nbsp;service&amp;nbsp;!!discoiqbr!! Context&amp;nbsp;myCtx&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Context();&amp;nbsp;&amp;nbsp;!!discoiqbr!! myCtx.initPrincipal(authResult);&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! //Set&amp;nbsp;connection&amp;nbsp;settings&amp;nbsp;!!discoiqbr!! Properties&amp;nbsp;connectionProps&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Properties();&amp;nbsp;!!discoiqbr!! connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DEFAULT_EJB_ENDPOINT,&amp;nbsp;"jnp://&lt;server&gt;:1099");&amp;nbsp;!!discoiqbr!! connectionProps.setProperty(ServiceClientFactoryProperties.DSC_TRANSPORT_PROTOCOL,&amp;nbsp;ServiceClientFactoryProperties.DSC_EJB_PROTOCOL);&amp;nbsp;!!discoiqbr!! connectionProps.setProperty(ServiceClientFactoryProperties.DSC_SERVER_TYPE,&amp;nbsp;ServiceClientFactoryProperties.DSC_JBOSS_SERVER_TYPE);&amp;nbsp;!!discoiqbr!! connectionProps.setProperty(ServiceClientFactoryProperties.DSC_DOCUMENT_HTTP_ENDPOINT,"jnp://&lt;server&gt;:1099");!!discoiqbr!!!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!! //Create&amp;nbsp;a&amp;nbsp;ServiceClientFactory&amp;nbsp;object&amp;nbsp;!!discoiqbr!! ServiceClientFactory&amp;nbsp;myFactory&amp;nbsp;=&amp;nbsp;ServiceClientFactory.createInstance(connectionProps);&amp;nbsp;!!discoiqbr!! myFactory.setContext(myCtx);&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!! //Create&amp;nbsp;an&amp;nbsp;EncryptionServiceClient&amp;nbsp;object&amp;nbsp;!!discoiqbr!! EncryptionServiceClient&amp;nbsp;encryptClient&amp;nbsp;&amp;nbsp;=&amp;nbsp;new&amp;nbsp;EncryptionServiceClient(myFactory); 
+  </codeblock> 
+  <note> 
+   <p>For complete details about authenticating a user, see <a href="/programming-with-aem-forms/users#authenticating_users">Authenticating Users</a>.</p> 
+  </note> 
+  <h3 id="invoking_scenarios">Invoking scenarios</h3> 
+  <p></p> 
+  <p>The following invoking scenarios are discussed in this section:</p> 
+  <ul> 
+   <li><p>A client application running in its own Java virtual machine (JVM) invokes a stand-alone AEM Forms instance.</p></li> 
+   <li><p>A client application running in its own JVM invokes clustered AEM Forms instances.</p></li> 
+  </ul> 
+  <h3 id="client_application_invoking_a_stand_alone_aem_forms_instance">Client application invoking a stand-alone AEM Forms instance</h3> 
+  <p></p> 
+  <p>The following diagram shows a client application running in its own JVM and invoking a stand-alone AEM Forms instance.</p> 
+  <p>In this scenario, a client application is running in its own JVM and invokes AEM Forms services.</p> 
+  <note> 
+   <p>This scenario is the invoking scenario on which all Quick Starts are based. </p> 
+  </note> 
+  <h3 id="client_application_invoking_clustered_aem_forms_instances">Client application invoking clustered AEM Forms instances</h3> 
+  <p></p> 
+  <p>The following diagram shows a client application running in its own JVM and invoking AEM Forms instances located in a cluster.</p> 
+  <p>This scenario is similar to a client application invoking a stand-alone AEM Forms instance. However, the provider URL is different. If a client application wants to connect to a specific J2EE application server, the application must change the URL to reference the specific J2EE application server.</p> 
+  <p>Referencing a specific J2EE application server is not recommended because the connection between the client application and AEM Forms is terminated if the application server stops. It is recommended that the provider URL reference a cell-level JNDI manager, instead of a specific J2EE application server.</p> 
+  <p>Client applications that use the SOAP connection mode can use the HTTP load balancer port for the cluster. Client applications that use the EJB connection mode can connect to the EJB port of a specific J2EE application server. This action handles the Load Balancing between cluster nodes. </p> 
+  <p><strong>WebSphere</strong></p> 
+  <p>The following example shows the contents of a jndi.properties file that is used to connect to AEM Forms that is deployed on WebSphere.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     java.naming.factory.initial=com.ibm.websphere.naming.&amp;nbsp;!!discoiqbr!! WsnInitialContextFactory&amp;nbsp;!!discoiqbr!! java.naming.provider.url=corbaloc::appserver1:9810,:appserver2:9810 
+  </codeblock> 
+  <p><strong>WebLogic</strong></p> 
+  <p>The following example shows the contents of a jndi.properties file that is used to connect to AEM Forms that is deployed on WebLogic.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     java.naming.factory.initial=weblogic.jndi.WLInitialContextFactory&amp;nbsp;!!discoiqbr!! java.naming.provider.url=t3://appserver1:8001,&amp;nbsp;appserver2:8001 
+  </codeblock> 
+  <p><strong>JBoss</strong></p> 
+  <p>The following example shows the contents of a jndi.properties file that is used to connect to AEM Forms that is deployed on JBoss.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     java.naming.factory.initial=&amp;nbsp;org.jnp.interfaces.NamingContextFactory&amp;nbsp;!!discoiqbr!! java.naming.provider.url=&amp;nbsp;jnp://appserver1:1099,&amp;nbsp;appserver2:1099,&amp;nbsp;!!discoiqbr!! appserver3:1099 
+  </codeblock> 
+  <note> 
+   <p>Consult your administrator to determine the J2EE application server name and port number.</p> 
+  </note> 
+  <p><strong>See also</strong></p> 
+  <p><a href="invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="invoking-aem-forms-using-java#passing_data_to_aem_forms_services_using_the_java_api">Passing data to AEM Forms services using the Java API</a></p> 
+  <p><a href="invoking-aem-forms-using-java#invoking_a_service_using_a_java_client_library">Invoking a service using a Java client library</a></p> 
+  <h2 id="passing_data_to_aem_forms_services_using_the_java_api">Passing data to AEM Forms services using the Java API</h2> 
+  <p></p> 
+  <p>AEM Forms service operations typically consume or produce PDF documents. When you invoke a service, sometimes it is necessary to pass a PDF document (or other document types such as XML data) to the service. Likewise sometimes it is necessary to handle a PDF document that is returned from the service. The Java class that enables you to pass data to and from AEM Forms services is <span class="code">com.adobe.idp.Document</span>.</p> 
+  <p>AEM Forms services do not accept a PDF document as other data types, such as a <span class="code">java.io.InputStream</span> object or a byte array. A <span class="code">com.adobe.idp.Document</span> object can also be used to pass other types of data, such as XML data, to services.</p> 
+  <p>A <span class="code">com.adobe.idp.Document</span> object is a Java serializable type, so it can be passed over an RMI call. The receiving side can be collocated (same host, same class loader), local (same host, different class loader), or remote (different host). Passing of document content is optimized for each case. For example, if the sender and receiver are located on the same host, the content is passed over a local file system. (In some cases, documents can be passed in memory.)</p> 
+  <p>Depending on the <span class="code">com.adobe.idp.Document</span> object size, the data is carried within the <span class="code">com.adobe.idp.Document</span> object or stored on the server's file system. Any temporary storage resources occupied by the <span class="code">com.adobe.idp.Document</span> object are removed automatically upon the <span class="code">com.adobe.idp.Document</span> disposal. (See <a href="invoking-aem-forms-using-java#disposing_document_objects">Disposing Document objects</a>.)</p> 
+  <p>Sometimes it is necessary to know the content type of a <span class="code">com.adobe.idp.Document</span> object before you can pass it to a service. For example, if an operation requires a specific content type, such as <span class="code">application/pdf</span>, it is recommended that you determine the content type. (See <a href="invoking-aem-forms-using-java#determining_the_content_type_of_a_document">Determining the content type of a document</a>.)</p> 
+  <p>The <span class="code">com.adobe.idp.Document</span> object attempts to determine the content type using the supplied data. If the content type cannot be retrieved from the data supplied (for example, when the data was supplied as a byte array), set the content type. To set the content type, invoke the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">setContentType</span> method. (See <a href="invoking-aem-forms-using-java#determining_the_content_type_of_a_document">Determining the content type of a document</a>)</p> 
+  <p>If collateral files reside on the same file system, creating a <span class="code">com.adobe.idp.Document</span> object is faster. If collateral files reside on remote file systems, a copy operation must be done, which affects performance. </p> 
+  <p>An application can contain both <span class="code">com.adobe.idp.Document</span> and <span class="code">org.w3c.dom.Document</span> data types. However, ensure that you fully qualify the <span class="code">org.w3c.dom.Document</span> data type. For information about converting a<span class="code"> org.w3c.dom.Document</span> object to a <span class="code">com.adobe.idp.Document</span> object, see <a href="/programming-with-aem-forms/forms-service-api-quick-starts#quick_start_soap_mode_prepopulating_forms_with_flowable_layouts_using_the_java_api">Quick Start (EJB mode): Prepopulating Forms with Flowable Layouts using the Java API</a>.</p> 
+  <note> 
+   <p>To prevent a memory leak in WebLogic while using a <span class="code">com.adobe.idp.Document</span> object, read the document information in chunks of 2048 bytes or less. For example, the following code reads the document information in chunks of 2048 bytes:</p> 
+  </note> 
+  <codeblock gutter="true" class="syntax as3">
+     &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Set&amp;nbsp;up&amp;nbsp;the&amp;nbsp;chunk&amp;nbsp;size&amp;nbsp;to&amp;nbsp;prevent&amp;nbsp;a&amp;nbsp;potential&amp;nbsp;memory&amp;nbsp;leak&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;buffSize&amp;nbsp;=&amp;nbsp;2048;&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Determine&amp;nbsp;the&amp;nbsp;total&amp;nbsp;number&amp;nbsp;of&amp;nbsp;bytes&amp;nbsp;to&amp;nbsp;read&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;docLength&amp;nbsp;=&amp;nbsp;(int)&amp;nbsp;inDoc.length();&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;byte&amp;nbsp;[]&amp;nbsp;byteDoc&amp;nbsp;=&amp;nbsp;new&amp;nbsp;byte[docLength];&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Set&amp;nbsp;up&amp;nbsp;the&amp;nbsp;reading&amp;nbsp;position&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;pos&amp;nbsp;=&amp;nbsp;0;&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Loop&amp;nbsp;through&amp;nbsp;the&amp;nbsp;document&amp;nbsp;information,&amp;nbsp;2048&amp;nbsp;bytes&amp;nbsp;at&amp;nbsp;a&amp;nbsp;time&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;while&amp;nbsp;(docLength&amp;nbsp;&gt;&amp;nbsp;0)&amp;nbsp;{&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Read&amp;nbsp;the&amp;nbsp;next&amp;nbsp;chunk&amp;nbsp;of&amp;nbsp;information&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;toRead&amp;nbsp;=&amp;nbsp;Math.min(buffSize,&amp;nbsp;docLength);&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;bytesRead&amp;nbsp;=&amp;nbsp;inDoc.read(pos,&amp;nbsp;byteDoc,&amp;nbsp;pos,&amp;nbsp;toRead);&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Handle&amp;nbsp;the&amp;nbsp;exception&amp;nbsp;in&amp;nbsp;case&amp;nbsp;data&amp;nbsp;retrieval&amp;nbsp;failed&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(bytesRead&amp;nbsp;==&amp;nbsp;-1)&amp;nbsp;{&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;inDoc.doneReading();&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;inDoc.dispose();&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;throw&amp;nbsp;new&amp;nbsp;RuntimeException("Data&amp;nbsp;retrieval&amp;nbsp;failed!");&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Update&amp;nbsp;the&amp;nbsp;reading&amp;nbsp;position&amp;nbsp;and&amp;nbsp;number&amp;nbsp;of&amp;nbsp;bytes&amp;nbsp;remaining&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;pos&amp;nbsp;+=&amp;nbsp;bytesRead;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;docLength&amp;nbsp;-=&amp;nbsp;bytesRead;&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;The&amp;nbsp;document&amp;nbsp;information&amp;nbsp;has&amp;nbsp;been&amp;nbsp;successfully&amp;nbsp;read&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;inDoc.doneReading();&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;inDoc.dispose(); 
+  </codeblock> 
+  <p><strong>See also</strong></p> 
+  <p><a href="invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api">Invoking AEM Forms using the Java API</a></p> 
+  <p><a href="invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="creating_documents">Creating documents</h3> 
+  <p></p> 
+  <p>Create a <span class="code">com.adobe.idp.Document</span> object before you invoke a service operation that requires a PDF document (or other document types) as an input value. The <span class="code">com.adobe.idp.Document</span> class provides constructors that enable you to create a document from the following content types:</p> 
+  <ul> 
+   <li><p>A byte array</p></li> 
+   <li><p>An existing <span class="code">com.adobe.idp.Document</span> object</p></li> 
+   <li><p>A <span class="code">java.io.File</span> object</p></li> 
+   <li><p>A <span class="code">java.io.InputStream</span> object</p></li> 
+   <li><p>A <span class="code">java.net.URL</span> object</p></li> 
+  </ul> 
+  <h4 id="creating_a_document_based_on_a_byte_array">Creating a document based on a byte array</h4> 
+  <p></p> 
+  <p>The following code example creates a <span class="code">com.adobe.idp.Document</span> object that is based on a byte array.</p> 
+  <p><strong>Creating a Document object that is based on a byte array</strong></p> 
+  <codeblock gutter="true" class="syntax as3">
+     Document&amp;nbsp;myPDFDocument&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Document(myByteArray); 
+  </codeblock> 
+  <h4 id="creating_a_document_based_on_another_document">Creating a document based on another document</h4> 
+  <p></p> 
+  <p>The following code example creates a <span class="code">com.adobe.idp.Document</span> object that is based on another <span class="code">com.adobe.idp.Document</span> object.</p> 
+  <p><strong>Creating a Document object that is based on another document</strong></p> 
+  <codeblock gutter="true" class="syntax as3">
+     //Create&amp;nbsp;a&amp;nbsp;Document&amp;nbsp;object&amp;nbsp;based&amp;nbsp;on&amp;nbsp;a&amp;nbsp;byte&amp;nbsp;array&amp;nbsp;!!discoiqbr!! InputStream&amp;nbsp;is&amp;nbsp;=&amp;nbsp;new&amp;nbsp;FileInputStream("C:\\Map.pdf");&amp;nbsp;!!discoiqbr!! int&amp;nbsp;len&amp;nbsp;=&amp;nbsp;is.available();&amp;nbsp;!!discoiqbr!! byte&amp;nbsp;[]&amp;nbsp;myByteArray&amp;nbsp;=&amp;nbsp;new&amp;nbsp;byte[len];&amp;nbsp;!!discoiqbr!! int&amp;nbsp;i&amp;nbsp;=&amp;nbsp;0;&amp;nbsp;!!discoiqbr!! while&amp;nbsp;(i&amp;nbsp;&lt;&amp;nbsp;len)&amp;nbsp;{&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;i&amp;nbsp;+=&amp;nbsp;is.read(myByteArray,&amp;nbsp;i,&amp;nbsp;len);&amp;nbsp;!!discoiqbr!! }&amp;nbsp;!!discoiqbr!! Document&amp;nbsp;myPDFDocument&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Document(myByteArray);&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! //Create&amp;nbsp;another&amp;nbsp;Document&amp;nbsp;object&amp;nbsp;!!discoiqbr!! Document&amp;nbsp;anotherDocument&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Document(myPDFDocument); 
+  </codeblock> 
+  <h4 id="creating_a_document_based_on_a_file">Creating a document based on a file</h4> 
+  <p></p> 
+  <p>The following code example creates a <span class="code">com.adobe.idp.Document</span> object that is based on a PDF file named <em>map.pdf</em>. This file is located in the root of the C hard drive. This constructor attempts to set the MIME content type of the <span class="code">com.adobe.idp.Document</span> object using the filename extension.</p> 
+  <p>The <span class="code">com.adobe.idp.Document</span> constructor that accepts a <span class="code">java.io.File</span> object also accepts a Boolean parameter. By setting this parameter to <span class="code">true</span>, the <span class="code">com.adobe.idp.Document</span> object deletes the file. This action means that you do not have to remove the file after passing it to the <span class="code">com.adobe.idp.Document</span> constructor.</p> 
+  <p>Setting this parameter to <span class="code">false</span> means that you retain ownership of this file. Setting this parameter to <span class="code">true</span> is more efficient. The reason is because the <span class="code">com.adobe.idp.Document</span> object can move the file directly to the local managed area instead of copying it (which is slower).</p> 
+  <p><strong>Creating a Document object that is based on a PDF file</strong></p> 
+  <codeblock gutter="true" class="syntax as3">
+     //Create&amp;nbsp;a&amp;nbsp;Document&amp;nbsp;object&amp;nbsp;based&amp;nbsp;on&amp;nbsp;the&amp;nbsp;map.pdf&amp;nbsp;source&amp;nbsp;file&amp;nbsp;!!discoiqbr!! File&amp;nbsp;mySourceMap&amp;nbsp;=&amp;nbsp;new&amp;nbsp;File("C:\\map.pdf");&amp;nbsp;!!discoiqbr!! Document&amp;nbsp;myPDFDocument&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Document(mySourceMap,true); 
+  </codeblock> 
+  <h4 id="creating_a_document_based_on_an_inputstream_object">Creating a document based on an InputStream object</h4> 
+  <p></p> 
+  <p>The following Java code example creates a <span class="code">com.adobe.idp.Document</span> object that is based on a <span class="code">java.io.InputStream</span> object. </p> 
+  <p><strong>Creating a document based on an InputStream object</strong></p> 
+  <codeblock gutter="true" class="syntax as3">
+     //Create&amp;nbsp;a&amp;nbsp;Document&amp;nbsp;object&amp;nbsp;based&amp;nbsp;on&amp;nbsp;an&amp;nbsp;InputStream&amp;nbsp;object&amp;nbsp;!!discoiqbr!! InputStream&amp;nbsp;is&amp;nbsp;=&amp;nbsp;new&amp;nbsp;FileInputStream("C:\\Map.pdf");&amp;nbsp;!!discoiqbr!! Document&amp;nbsp;myPDFDocument&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Document(is); 
+  </codeblock> 
+  <h4 id="creating_a_document_based_on_content_accessible_from_an_url">Creating a document based on content accessible from an URL</h4> 
+  <p></p> 
+  <p>The following Java code example creates a <span class="code">com.adobe.idp.Document</span> object that is based on a PDF file named <em>map.pdf</em>. This file is located within a web application named <span class="code">WebApp</span> that is running on <span class="code">localhost</span>. This constructor attempts to set the <span class="code">com.adobe.idp.Document</span> object’s MIME content type using the content type returned with the URL protocol.</p> 
+  <p>The URL supplied to the <span class="code">com.adobe.idp.Document</span> object is always read at the side where the original <span class="code">com.adobe.idp.Document</span> object is created, as shown in this example:</p> 
+  <codeblock gutter="true" class="syntax as3">
+     &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Document&amp;nbsp;doc&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Document(new&amp;nbsp;java.net.URL("file:c:/temp/input.pdf")); 
+  </codeblock> 
+  <p>The c:/temp/input.pdf file must be located on the client computer (not on the server computer). The client computer is where the URL is read and where the <span class="code">com.adobe.idp.Document</span> object was created.</p> 
+  <p><strong>Creating a document based on content accessible from an URL</strong></p> 
+  <codeblock gutter="true" class="syntax as3">
+     //Create&amp;nbsp;a&amp;nbsp;Document&amp;nbsp;object&amp;nbsp;based&amp;nbsp;on&amp;nbsp;a&amp;nbsp;java.net.URL&amp;nbsp;object&amp;nbsp;!!discoiqbr!! URL&amp;nbsp;myURL&amp;nbsp;=&amp;nbsp;new&amp;nbsp;URL("http",&amp;nbsp;"localhost",&amp;nbsp;8080,"/WebApp/map.pdf");&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!! //Create&amp;nbsp;another&amp;nbsp;Document&amp;nbsp;object&amp;nbsp;!!discoiqbr!! Document&amp;nbsp;myPDFDocument&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Document(myURL); 
+  </codeblock> 
+  <p><strong>See also</strong></p> 
+  <p><a href="invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api">Invoking AEM Forms using the Java API</a></p> 
+  <p><a href="invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="handling_returned_documents">Handling returned documents</h3> 
+  <p></p> 
+  <p>Service operations that return a PDF document (or other data types such as XML data) as an output value return a <span class="code">com.adobe.idp.Document</span> object. After you receive a <span class="code">com.adobe.idp.Document</span> object, you can convert it to the following formats:</p> 
+  <ul> 
+   <li><p>A<span class="code"> java.io.File</span> object</p></li> 
+   <li><p>A <span class="code">java.io.InputStream</span> object</p></li> 
+   <li><p>A byte array</p></li> 
+  </ul> 
+  <p>The following line of code converts a <span class="code">com.adobe.idp.Document</span> object to a <span class="code">java.io.InputStream</span> object. Assume that <span class="code">myPDFDocument</span> represents a <span class="code">com.adobe.idp.Document</span> object:</p> 
+  <codeblock gutter="true" class="syntax as3">
+     &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;java.io.InputStream&amp;nbsp;resultStream&amp;nbsp;=&amp;nbsp;myDocument.getInputStream(); 
+  </codeblock> 
+  <p>Likewise, you can copy the contents of a <span class="code">com.adobe.idp.Document</span> to a local file by performing the following tasks:</p> 
+  <ol> 
+   <li><p>Create a<span class="code"> java.io.File</span> object.</p></li> 
+   <li><p>Invoke the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">copyToFile</span> method and pass the <span class="code">java.io.File </span>object. </p></li> 
+  </ol> 
+  <p>The following code example copies the contents of a <span class="code">com.adobe.idp.Document</span> object to a file named <em>AnotherMap.pdf</em>.</p> 
+  <p><strong>Copying the contents of a document object to a file</strong></p> 
+  <codeblock gutter="true" class="syntax as3">
+     File&amp;nbsp;outFile&amp;nbsp;=&amp;nbsp;new&amp;nbsp;File("C:\\AnotherMap.pdf");&amp;nbsp;!!discoiqbr!! myDocument.copyToFile&amp;nbsp;(outFile); 
+  </codeblock> 
+  <p><strong>See also</strong></p> 
+  <p><a href="invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api">Invoking AEM Forms using the Java API</a></p> 
+  <p><a href="invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="determining_the_content_type_of_a_document">Determining the content type of a document</h3> 
+  <p></p> 
+  <p>Determine the MIME type of a <span class="code">com.adobe.idp.Document</span> object by invoking the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">getContentType</span> method. This method returns a string value that specifies the content type of the <span class="code">com.adobe.idp.Document</span> object. The following table describes the different content types that AEM Forms returns.</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e8457" valign="top" width="NaN%"><p>MIME type</p></th> 
+     <th class="cellrowborder" id="d19e8460" valign="top" width="NaN%"><p>Description</p></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">application/pdf</span></p></td> 
+     <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>PDF document</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">application/vnd.adobe.xdp+xml</span></p></td> 
+     <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>XML Data Packaging (XDP), which is used for exported XML Forms Architecture (XFA) forms</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">text/xml</span></p></td> 
+     <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Bookmarks, attachments, or other XML documents</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">application/vnd.fdf</span></p></td> 
+     <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Forms Data Format (FDF), which is used for exported Acrobat forms</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">application/vnd.adobe.xfdf</span></p></td> 
+     <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>XML Forms Data Format (XFDF), which is used for exported Acrobat forms</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">application/rdf+xml</span></p></td> 
+     <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Rich data format and XML</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">application/octet-stream</span></p></td> 
+     <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Generic data format</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e8457 " valign="top" width="NaN%"><p><span class="code">NULL</span></p></td> 
+     <td class="cellrowborder" headers="d19e8460 " valign="top" width="NaN%"><p>Unspecified MIME type</p></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>The following code example determines the content type of a <span class="code">com.adobe.idp.Document</span> object.</p> 
+  <p><strong>Determining the content type of a Document object</strong></p> 
+  <codeblock gutter="true" class="syntax as3">
+     //Determine&amp;nbsp;the&amp;nbsp;content&amp;nbsp;type&amp;nbsp;of&amp;nbsp;the&amp;nbsp;Document&amp;nbsp;object&amp;nbsp;!!discoiqbr!! String&amp;nbsp;ct&amp;nbsp;=&amp;nbsp;myDocument.getContentType();&amp;nbsp;!!discoiqbr!! System.out.println("The&amp;nbsp;content&amp;nbsp;type&amp;nbsp;of&amp;nbsp;the&amp;nbsp;Document&amp;nbsp;object&amp;nbsp;is&amp;nbsp;"&amp;nbsp;+ct); 
+  </codeblock> 
+  <p><strong>See also</strong></p> 
+  <p><a href="invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api">Invoking AEM Forms using the Java API</a></p> 
+  <p><a href="invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="disposing_document_objects">Disposing Document objects</h3> 
+  <p></p> 
+  <p>When you no longer require a <span class="code">Document</span> object, it is recommended that you dispose of it by invoking its <span class="code">dispose</span> method. Each <span class="code">Document</span> object consumes a file descriptor and as much as 75 MB of RAM space on your application’s host platform. If a <span class="code">Document</span> object is not disposed, then the Java Garage collection process disposes it. However, by disposing of it sooner by using the <span class="code">dispose</span> method, you can free the memory occupied by the <span class="code">Document</span> object. </p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api">Invoking AEM Forms using the Java API</a></p> 
+  <p><a href="invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="invoking-aem-forms-using-java#invoking_a_service_using_a_java_client_library">Invoking a service using a Java client library</a></p> 
+  <h2 id="invoking_a_service_using_a_java_client_library">Invoking a service using a Java client library</h2> 
+  <p></p> 
+  <p>AEM Forms service operations can be invoked by using a service’s strongly typed API, which is known as a Java client library. A <i>Java client library</i> is a set of concrete classes that provide access to services deployed in the service container. You instantiate a Java object that represents the service to invoke instead of creating an <span class="code">InvocationRequest</span> object by using the Invocation API. The Invocation API is used to invoke processes, such as long-lived processes, created in Workbench. (See <a href="/programming-with-aem-forms/invoking-human-centric-long-lived#invoking_human_centric_long_lived_processes">Invoking Human-Centric Long-Lived Processes</a>.)</p> 
+  <p>To perform a service operation, invoke a method that belongs to the Java object. A Java client library contains methods that typically map one-to-one with service operations. When using a Java client library, set required connection properties. (See <a href="invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a>.)</p> 
+  <p>After you set connection properties, create a <span class="code">ServiceClientFactory</span> object that is used to instantiate a Java object that lets you invoke a service. Each service that has a Java client library has a corresponding client object. For example, to invoke the Repository service, create a <span class="code">ResourceRepositoryClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. The <span class="code">ServiceClientFactory</span> object is responsible for maintaining connection settings that are required to invoke AEM Forms services.</p> 
+  <p>Although obtaining a <span class="code">ServiceClientFactory</span> is typically fast, some overhead is involved when the factory is first used. This object is optimized for reuse and therefore, when possible, use the same <span class="code">ServiceClientFactory</span> object when you are creating multiple Java client objects. That is, do not create a separate <span class="code">ServiceClientFactory</span> object for each client library object that you create.</p> 
+  <p>There is a User Manager setting that controls the lifetime of the SAML assertion that is inside the <span class="code">com.adobe.idp.Context</span> object that affects the <span class="code">ServiceClientFactory</span> object. This setting controls all authentication context lifetimes throughout AEM Forms, including all invocations performed by using the Java API. By default, the time period in which a <span class="code">ServiceCleintFactory</span> object can be used is two hours.</p> 
+  <note> 
+   <p>To explain how to invoke a service by using the Java API, the Repository service’s <span class="code">writeResource</span> operation is invoked. This operation places a new resource into the repository. </p> 
+  </note> 
+  <p>You can invoke the Repository service by using a Java client library and by performing the following steps:</p> 
+  <ol> 
+   <li><p>Include client JAR files, such as the adobe-repository-client.jar, in your Java project’s class path. For information about the location of these files, see <a href="invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p></li> 
+   <li><p>Set connection properties that are required to invoke a service. </p></li> 
+   <li><p>Create a <span class="code">ServiceClientFactory</span> object by invoking the <span class="code">ServiceClientFactory</span> object’s static <span class="code">createInstance</span> method and passing the <span class="code">java.util.Properties</span> object that contains connection properties.</p></li> 
+   <li><p>Create a <span class="code">ResourceRepositoryClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. Use the <span class="code">ResourceRepositoryClient</span> object to invoke Repository service operations. </p></li> 
+   <li><p>Create a <span class="code">RepositoryInfomodelFactoryBean</span> object by using its constructor and pass <span class="code">null</span>. This object lets you create a <span class="code">Resource</span> object that represents the content that is added to the repository.</p></li> 
+   <li><p>Create a <span class="code">Resource</span> object by invoking the <span class="code">RepositoryInfomodelFactoryBean</span> object’s <span class="code">newImage</span> method and passing the following values:</p> 
+    <ul> 
+     <li><p>A unique ID value by specifying<span class="code"> new Id()</span>. </p></li> 
+     <li><p>A unique UUID value by specifying <span class="code">new Lid()</span>.</p></li> 
+     <li><p>The name of the resource. You can specify the file name of the XDP file. </p></li> 
+    </ul><p>Cast the return value to <span class="code">Resource</span>. </p></li> 
+   <li><p>Create a <span class="code">ResourceContent</span> object by invoking the <span class="code">RepositoryInfomodelFactoryBean</span> object’s <span class="code">newImage</span> method and casting the return value to <span class="code">ResourceContent</span>. This object represents the content that is added to the repository.</p></li> 
+   <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by passing a <span class="code">java.io.FileInputStream</span> object that stores the XDP file to add to the repository. (See <a href="invoking-aem-forms-using-java#creating_a_document_based_on_an_inputstream_object">Creating a document based on an InputStream object</a>.)</p></li> 
+   <li><p>Add the content of the <span class="code">com.adobe.idp.Document</span> object to the <span class="code">ResourceContent</span> object by invoking the <span class="code">ResourceContent</span> object’s <span class="code">setDataDocument</span> method. Pass the <span class="code">com.adobe.idp.Document</span> object.</p></li> 
+   <li><p>Set the MIME type of the XDP file to add to the repository by invoking the <span class="code">ResourceContent</span> object’s <span class="code">setMimeType</span> method and passing <span class="code">application/vnd.adobe.xdp+xml</span>.</p></li> 
+   <li><p>Add the content of the <span class="code">ResourceContent</span> object to the <span class="code">Resource</span> object by invoking the <span class="code">Resource</span> object ‘s <span class="code">setContent</span> method and passing the <span class="code">ResourceContent</span> object.</p></li> 
+   <li><p>Add a description of the resource by invoking the <span class="code">Resource</span> object ‘s <span class="code">setDescription</span> method and passing a string value that represents a description of the resource. </p></li> 
+   <li><p>Add the form design to the repository by invoking the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">writeResource</span> method and passing the following values:</p> 
+    <ul> 
+     <li><p>A string value that specifies the path to the resource collection that contains the new resource</p></li> 
+     <li><p>The <span class="code">Resource</span> object that was created</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#quick_start_soap_mode_writing_a_resource_using_the_java_api">Quick Start (EJB mode): Writing a resource using the Java API</a></p> 
+  <p><a href="invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api">Invoking AEM Forms using the Java API</a></p> 
+  <p><a href="invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <h2 id="invoking_a_short_lived_process_using_the_invocation_api">Invoking a short-lived process using the Invocation API</h2> 
+  <p></p> 
+  <p>You can invoke a short-lived process using the Java Invocation API. When you invoke a short-lived process using the Invocation API, you pass required parameter values by using a <span class="code">java.util.HashMap</span> object. For each parameter to pass to a service, invoke the <span class="code">java.util.HashMap</span> object’s <span class="code">put</span> method and specify the name-value pair that is required by the service in order to perform the specified operation. Specify the exact name of the parameters that belong to the short-lived process.</p> 
+  <note> 
+   <p>For information about invoking a long-lived process, see <a href="/programming-with-aem-forms/invoking-human-centric-long-lived#invoking_human_centric_long_lived_processes">Invoking Human-Centric Long-Lived Processes</a>.</p> 
+  </note> 
+  <p>The discussion here is about using Invocation API to invoke the following AEM Forms short-lived process named <span class="code">MyApplication/EncryptDocument</span>.</p> 
+  <note> 
+   <p>This process is not based on an existing AEM Forms process. To follow along with the code example, create a process named <span class="code">MyApplication/EncryptDocument</span> using Workbench. (See <a href="http://www.adobe.com/go/learn_aemforms_workbench_63">Using Workbench</a>.)</p> 
+  </note> 
+  <p>When this process is invoked, it performs the following actions:</p> 
+  <ol> 
+   <li><p>Obtains the unsecured PDF document that is passed to the process. This action is based on the <span class="code">SetValue</span> operation. The input parameter for this process is a <span class="code">document</span> process variable named <span class="code">inDoc</span>. </p></li> 
+   <li><p>Encrypts the PDF document with a password. This action is based on the <span class="code">PasswordEncryptPDF</span> operation. The password encrypted PDF document is returned in a process variable named <span class="code">outDoc</span>. </p></li> 
+  </ol> 
+  <h3 id="invoke_the_myapplication_encryptdocument_short_lived_process_using_the_java_invocation_api">Invoke the MyApplication/EncryptDocument short-lived process using the Java invocation API</h3> 
+  <p></p> 
+  <p>Invoke the <span class="code">MyApplication/EncryptDocument</span> short-lived process using the Java invocation API:</p> 
+  <ol> 
+   <li><p>Include client JAR files, such as the adobe-livecycle-client.jar, in your Java project’s class path. (See <a href="invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.)</p></li> 
+   <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. (See <a href="invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a>.)</p></li> 
+   <li><p>Create a <span class="code">ServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. A <span class="code">ServiceClient</span> object lets you invoke a service operation. It handles tasks such as locating, dispatching, and routing invocation requests.</p></li> 
+   <li><p>Create a <span class="code">java.util.HashMap</span> object by using its constructor. </p></li> 
+   <li><p>Invoke the <span class="code">java.util.HashMap</span> object’s <span class="code">put</span> method for each input parameter to pass to the long-lived process. Because the <span class="code">MyApplication/EncryptDocument</span> short-lived process requires one input parameter of type <span class="code">Document</span>, you only have to invoke the <span class="code">put</span> method once, as shown in the following example.</p> 
+    <codeblock gutter="true" class="syntax as3">
+       //Create&amp;nbsp;a&amp;nbsp;Map&amp;nbsp;object&amp;nbsp;to&amp;nbsp;store&amp;nbsp;the&amp;nbsp;parameter&amp;nbsp;value&amp;nbsp;for&amp;nbsp;inDoc&amp;nbsp;!!discoiqbr!! Map&amp;nbsp;params&amp;nbsp;=&amp;nbsp;new&amp;nbsp;HashMap();&amp;nbsp;!!discoiqbr!! InputStream&amp;nbsp;inFile&amp;nbsp;=&amp;nbsp;new&amp;nbsp;FileInputStream("C:\\Adobe\Loan.pdf");&amp;nbsp;!!discoiqbr!! Document&amp;nbsp;inDoc&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Document(inFile);&amp;nbsp;!!discoiqbr!! params.put("inDoc",&amp;nbsp;inDoc); 
+    </codeblock></li> 
+   <li><p>Create an <span class="code">InvocationRequest</span> object by invoking the <span class="code">ServiceClientFactory</span> object’s <span class="code">createInvocationRequest</span> method and passing the following values:</p> 
+    <ul> 
+     <li><p>A string value that specifies the name of the long-lived process to invoke. To invoke the <span class="code">MyApplication/EncryptDocument</span> process, specify <span class="code">MyApplication/EncryptDocument</span>.</p></li> 
+     <li><p>A string value that represents the process operation name. Typically the name of a short-lived process operation is <span class="code">invoke</span>.</p></li> 
+     <li><p>The <span class="code">java.util.HashMap</span> object that contains the parameter values that the service operation requires. </p></li> 
+     <li><p>A Boolean value that specifies <span class="code">true</span>, which creates a synchronous request (this value is applicable to invoke a short-lived process). </p></li> 
+    </ul></li> 
+   <li><p>Send the invocation request to the service by invoking the <span class="code">ServiceClient</span> object’s <span class="code">invoke</span> method and passing the <span class="code">InvocationRequest</span> object. The <span class="code">invoke</span> method returns an <span class="code">InvocationReponse</span> object.</p> 
+    <note> 
+     <p>A long-lived process can be invoked by passing the value <span class="code">false </span>as the fourth parameter of the <span class="code">createInvocationRequest</span> method. Passing the value <span class="code">false </span><i>creates an asynchronous request.</i></p> 
+    </note></li> 
+   <li><p>Retrieve the process’s return value by invoking the <span class="code">InvocationReponse</span> object’s <span class="code">getOutputParameter</span> method and passing a string value that specifies the name of the output parameter. In this situation, specify <span class="code">outDoc</span> (<span class="code">outDoc</span> is the name of the output parameter for the <span class="code">MyApplication/EncryptDocument</span> process). Cast the return value to <span class="code">Document</span>, as shown in the following example.</p> 
+    <codeblock gutter="true" class="syntax as3">
+       InvocationResponse&amp;nbsp;response&amp;nbsp;=&amp;nbsp;myServiceClient.invoke(request);&amp;nbsp;!!discoiqbr!! Document&amp;nbsp;encryptDoc&amp;nbsp;=&amp;nbsp;(Document)&amp;nbsp;response.getOutputParameter("outDoc"); 
+    </codeblock></li> 
+   <li><p>Create a <span class="code">java.io.File</span> object and ensure that the file extension is .pdf.</p></li> 
+   <li><p>Invoke the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">copyToFile</span> method to copy the contents of the <span class="code">com.adobe.idp.Document</span> object to the file. Ensure that you use the <span class="code">com.adobe.idp.Document</span> object that was returned by the <span class="code">getOutputParameter</span> method.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/invocation-api-quick-starts#quick_start_invoking_a_short_lived_process_using_the_invocation_api">Quick Start: Invoking a short-lived process using the Invocation API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-human-centric-long-lived#invoking_human_centric_long_lived_processes">Invoking Human-Centric Long-Lived Processes</a></p> 
+  <p><a href="invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p></p> 
+ </body> 
+</html>

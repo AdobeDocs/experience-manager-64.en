@@ -1,0 +1,178 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/docs/en/aem/6-3/administer/administering-screens/device-control-center" name="qaNotes" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-04-03T08:40:39.077-0400" name="topicBrowsingSortDate" />
+  <meta content="audience:deploying" name="primaryAudienceTag" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/device-control-center.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="b3ad90f1-c5ef-4179-9f89-6d80adaee59d" name="jcr:predecessors" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-04-03T08:40:40.335-0400" name="cq:lastReplicated" />
+  <meta content="2017-12-01T19:07:20.192-0500" name="jcr:created" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="d6a1ec07-e2f3-44d9-a693-f6fe727fd857" name="jcr:uuid" />
+  <meta content="2018-04-03T08:40:39.077-0400" name="firstPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SITES" name="cq:tags" />
+  <meta content="2018-04-03T08:40:39.077-0400" name="publishExternalDate" />
+  <meta content="2018-04-30T03:26:49.184-0400" name="locHandOffDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Device Control Center" name="seoTitle" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Device Control Center" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-04-30T03:26:49.184-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T08:40:39.077-0400" name="lastPublishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="Jyotika syal" name="contentOwner" />
+ </head>
+ <body>
+  <p>This section shows the different consoles available and how to achieve basic actions.<br /> </p> 
+  <h2>Projects</h2>
+  <p>The Screens Projects console is available by selecting the Adobe Experience Manager link (top left) and then Screens.</p> 
+  <p>Alternatively, you can ﻿go directly to: <a href="http://localhost:4502/screens.html/content/screens">http://localhost:4502/screens.html/content/screens</a><br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-29.png" />
+  <p>The Screens project is the top node of your project. Different projects could be differents brands, deployments, customers, and so on.<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-30.png" />
+  <p>To create a new Screens project:<br /> </p> 
+  <ol>
+   <li><p>Tap/click <strong>Create</strong>, a wizard will open.<br /> </p> </li>
+   <li><p>Select the required template and tap/click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-31.png" /></li>
+   <li><p>Enter the properties as required and tap/click <strong>Create</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-32.png" />
+    <note>
+     <p>By default, the initial structure will contain the Applications, Channels, Devices and Locations master pages, but this can be manually adjusted if needed.</p> 
+    </note></li>
+  </ol>
+  <p>The project is created and it brings you back to the Screens Project console. You can now select your project.</p> 
+  <p>In a project, there are four kind of folders:</p> 
+  <ul> 
+   <li>Applications</li> 
+   <li>Locations</li> 
+   <li>Channels</li> 
+   <li>Devices</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-33.png" />
+  <h2>Applications</h2>
+  <p>The applications console allows you to preview the applications built for AEM Screens that will run on your display.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-34.png" />
+  <p>For example, you can navigate to <a href=" http://localhost:4502/screens.html/content/screens/geometrixx/apps">http://localhost:4502/screens.html/content/screens/geometrixx/apps</a> and select the <strong>Preview </strong>icon of the <strong>Geometrixx Virtual Showroom Experience</strong>.</p> 
+  <p>The preview of the application should open in a new tab.</p> 
+  <h2>Locations</h2>
+  <p>The locations host the configuration of the displays according to where the various screens are.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-35.png" />
+  <p>For an example of a configuration, navigate to <a href="http://localhost:4502/screens/dashboard/display.html/content/screens/geometrixx/locations/demo/flagship/dual">http://localhost:4502/screens/dashboard/display.html/content/screens/geometrixx/locations/demo/flagship/dual</a>.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-36.png" />
+  <p>In the <strong>Devices/Screens</strong> section you see:</p> 
+  <ul> 
+   <li>What AEM Screens Player hardware and software is running. The heartbeat is active if the player is running. The version shown is the Firmware version. If a newer version is available on the server, there is an option to update the Firmware on the AEM Screens Player.</li> 
+   <li>The <strong>eye icon</strong> allows to play the content of the device on your local browser ("browser" or "web" version of the Firmware)</li> 
+   <li>The <strong>camera icon</strong> allows to create a remote screenshot.</li> 
+  </ul> 
+  <p><strong>Assigned Channels</strong> shows how the content is getting assigned to Displays. If you click the <strong>pencil</strong> icon of one channel, you'll see:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-37.png" />
+  <p>You can configure:<br /> </p> 
+  <ul> 
+   <li><strong>Role</strong>: any name</li> 
+   <li><strong>Channel</strong>: browse one of the channels created</li> 
+   <li><strong>Supported Events</strong>
+    <ul> 
+     <li><strong>Initial Load</strong>: will load this channel when the player is started. It can be assigned to multiple in combination with schedule</li> 
+     <li><strong>Idle Screen</strong>: is loaded when the screen is idle. It can be assigned to multiple in combination with schedule</li> 
+     <li><strong>Timer</strong>: needs to be set when a schedule is provided</li> 
+     <li><strong>User Interaction</strong>: will be loaded when the screen is touched</li> 
+    </ul> </li> 
+   <li><strong>Schedule</strong>: you can describe in text when the channel should appear. See <a href="http://bunkat.github.io/later/parsers.html#text">http://bunkat.github.io/later/parsers.html#text</a> to know how to write.</li> 
+   <li><strong>Show Attraction Tooltip</strong>: defines if the attraction tooltip ("Touch anywhere to begin") must be shown or not while the channel is running</li> 
+  </ul> 
+  <note>
+   <p>By default, changes made here are live instantly.</p> 
+  </note>
+  <h3>Creating a New Location</h3>
+  <p>To create a new location:<br /> </p> 
+  <ol>
+   <li><p>Navigate to your Locations folder, for example <a href="http://localhost:4502/screens.html/content/screens/sample/locations">http://localhost:4502/screens.html/content/screens/sample/locations</a>.</p> </li>
+   <li><p>Select the locations folder and tap/click <strong>Create</strong> next to the plus icon in the action bar. A wizard will open.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-38.png" /></li>
+   <li><p>Select the required template and tap/click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-39.png" /></li>
+   <li><p>Enter the properties as required and tap/click <strong>Create</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-40.png" /></li>
+  </ol>
+  <p>The location is created and added to your locations folder.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-41.png" />
+  <h3>Creating a New Display</h3>
+  <p>To create a new display:<br /> </p> 
+  <ol>
+   <li><p>Navigate to the appropriate location, for example <a href="http://localhost:4502/screens.html/content/screens/sample/locations/sample-location">http://localhost:4502/screens.html/content/screens/sample/locations/sample-location</a>.</p> </li>
+   <li><p>Select your location folder and tap/click <strong>Create</strong> next to the plus icon in the action bar. A wizard will open.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-42.png" /></li>
+   <li><p>Select the required template and tap/click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-43.png" /></li>
+   <li><p>Enter the properties as required and tap/click <strong>Create</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-44.png" /></li>
+  </ol>
+  <p>The display is created and added to the location you chose.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-45.png" />
+  <h3>Creating a New Device Config</h3>
+  <p>To create a new device config:<br /> </p> 
+  <ol>
+   <li><p>Navigate to the appropriate display, for example <a href="http://localhost:4502/screens.html/content/screens/sample/locations/sample-location/sample-display">http://localhost:4502/screens.html/content/screens/sample/locations/sample-location/sample-display</a>.</p> </li>
+   <li><p>Select your display folder and tap/click <strong>View Dashboard</strong> in the action bar.</p> <img imageRotate="0" src="assets/chlimage_1-46.png" /></li>
+   <li><p>Tap/click the <strong>+</strong> button on the top right of the <strong>Devices / Screens</strong> panel.</p> <img imageRotate="0" src="assets/chlimage_1-47.png" /></li>
+   <li><p>Select the required template and tap/click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-48.png" /></li>
+   <li><p>Enter the properties as required and tap/click <strong>Create</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-49.png" /></li>
+  </ol>
+  <p>The device config is created and added to the current display.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-50.png" />
+  <h3>Channel assignment</h3>
+  <p>To assign a channel to a display:</p> 
+  <ol>
+   <li><p>Navigate to the required display, for example <a href="http://localhost:4502/screens.html/content/screens/sample/locations/sample-location/sample-display">http://localhost:4502/screens.html/content/screens/sample/locations/sample-location/sample-display</a>.</p> </li>
+   <li><p>Select the display folder and tap/click <strong>View Dashboard </strong>in the action bar.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-51.png" /></li>
+   <li><p>Tap/click the link button at the top right of the Assigned Channels panel.</p> <img imageRotate="0" src="assets/chlimage_1-52.png" /></li>
+   <li><p>Enter the properties as required and tap/click <strong>Save</strong> button.</p> <img imageRotate="0" src="assets/chlimage_1-53.png" /></li>
+  </ol>
+  <p>The link to the channel should be created and added to the panel.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-54.png" />
+  <h2>Channels</h2>
+  <p>The channels will display a sequence of content.<br /> </p> 
+  <p>The channels could display just some images, but they could also display an application.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-55.png" />
+  <p>From the Channels console, you can preview your channel on your browser.<br /> </p> 
+  <p>You can also open the Channel for authoring. For more information about authoring these channels, see <a href="/content/docs/en/aem/6-3/author/screens">Screens Authoring Capabilites</a>.</p> 
+  <h3>Creating a New Channel</h3>
+  <p>To create a new channel:<br /> </p> 
+  <ol>
+   <li><p>Navigate to your Channels folder, for example <a href="http://localhost:4502/screens.html/content/screens/sample/channels">http://localhost:4502/screens.html/content/screens/sample/channels</a>.</p> </li>
+   <li><p>Select the channels folder and tap/click <strong>Create</strong> next to the plus icon in the action bar. A wizard will open.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-56.png" /></li>
+   <li><p>Select the required template and tap/click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-57.png" /></li>
+   <li><p>Enter the properties as required and click <strong>Create</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-58.png" /></li>
+  </ol>
+  <p>The channel is created and added to your channels folder.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-59.png" />
+  <h2>Devices</h2>
+  <p>The devices console allows you to access the device manager to assign your device to a display.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-60.png" />
+  <note>
+   <p>Before assigning your device, you need to register it. For more information, see <a href="/content/docs/en/aem/6-3/deploy/screens#Device Registration">Device Registration</a>.</p> 
+  </note>
+  <h3>Device Assignment</h3>
+  <p>To assign your device to a display:</p> 
+  <ol>
+   <li><p>Navigate to the Devices folder of your project, for example <a href="http://localhost:4502/screens.html/content/screens/sample/devices">http://localhost:4502/screens.html/content/screens/sample/devices</a>.</p> </li>
+   <li><p>Select your <strong>Devices</strong> folder and tap/click <strong>Device Manager</strong> in the action bar.</p> <img imageRotate="0" src="assets/chlimage_1-61.png" /></li>
+   <li><p>Select an unassigned device from the list, and tap/click the <strong>Assign Device</strong> button in the action bar.</p> <img imageRotate="0" src="assets/chlimage_1-62.png" /></li>
+   <li><p>Select the display you want to assign the device to from the list, and tap/click the <strong>Assign</strong> button</p> <img imageRotate="0" src="assets/chlimage_1-63.png" /></li>
+   <li><p>Tap/click the <strong>Finish</strong> button to complete the assignment process.</p> <img imageRotate="0" src="assets/chlimage_1-64.png" /></li>
+  </ol>
+  <p>The display dashboard opens and you should see the device you just added.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-65.png" />
+  <p>On your device, the player should automatically show the default channel for the display, for example an image if it is a sequence channel.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-66.png" />
+ </body>
+</html>

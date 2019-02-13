@@ -1,0 +1,53 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:authoring;content_type:reference" name="cq:tags" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classicui-assets.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-04-03T06:47:21.519-0400" name="topicBrowsingSortDate" />
+  <meta content="b08395d7-8ab9-4500-8369-39c61844d293" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/assets" name="qaNotes" />
+  <meta content="2018-04-03T06:47:21.519-0400" name="lastPublishExternalDate" />
+  <meta content="2017-10-31T16:18:26.916-0400" name="firstPublishExternalDate" />
+  <meta content="Working with Assets" name="seoTitle" />
+  <meta content="2017-12-01T19:01:11.188-0500" name="jcr:created" />
+  <meta content="2018-04-03T06:47:21.519-0400" name="publishExternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/classic-ui-authoring/morehelp/authoring;/content/help/en/experience-manager/6-4/assets/classic-ui-authoring/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Working with Assets" name="jcr:title" />
+  <meta content="Working with Assets" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-19T10:27:50.828-0400" name="locHandOffDate" />
+  <meta content="2018-04-19T10:27:50.829-0400" name="cq:lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-10-27T23:46:51.456-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="85ee658f-aa19-4b1f-b800-43516fe3b280" name="jcr:predecessors" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="The Author Environment and Tools section provides information about using Content Finder to find and use assets when editing pages. AEM Assets provides other methods for working with assets." name="seoDescription" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+ </head>
+ <body>
+  <p>The <a href="../../../sites/authoring/using/author-environment-tools.md">Author Environment and Tools</a> section provides information about using Content Finder to find and use assets when editing pages. AEM Assets provides other methods for working with assets:</p> 
+  <ul> 
+   <li><a href="../../../sites/classic-ui-authoring/using/manage-assets-classic-using-share-page.md">Using Asset Share Pages</a></li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/manage-assets-classic-s7.md">Adding Scene7 Features to your Page</a></li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/dynamic-media-assets.md">Working with Dynamic Media</a></li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/asset-naming-conventions.md">Naming conventions for assets</a></li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classicui-3dassets.md">Working with 3D assets</a></li> 
+  </ul> 
+ </body>
+</html>

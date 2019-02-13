@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-04-03T08:02:33.521-0400" name="topicBrowsingSortDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-31T16:33:16.886-0400" name="firstPublishExternalDate" />
+  <meta content="2017-12-01T19:01:19.512-0500" name="jcr:created" />
+  <meta content="704c2c63-a75f-4262-8b56-262b770e885f" name="jcr:predecessors" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="3b7a9a0b-3fd9-4777-8988-5651628aa365" name="jcr:uuid" />
+  <meta content="2018-04-03T08:02:33.521-0400" name="lastPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Storage Configuration" name="jcr:title" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="Storage Configuration" name="seoTitle" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/srp-config.html" name="publishExternalURL" />
+  <meta content="Janice Kendall" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-05-17T05:57:24.426-0400" name="locHandOffDate" />
+  <meta content="2018-05-17T05:57:24.426-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T08:02:33.521-0400" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Storage Configuration" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-04-03T08:02:34.910-0400" name="cq:lastReplicated" />
+  <meta content="/content/docs/en/aem/6-3/administer/communities/consoles/tools/srp-config" name="qaNotes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="How to access the Storage Configuration Console" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <p>Storage configuration is the means of identifying the storage chosen for community content, also known as user generated content (UGC).</p> 
+  <p>This setting informs the AEM Communities code as to which implementation of the storage resource provider (SRP) is to be used when accessing UGC and must reflect the topology established when AEM was deployed.</p> 
+  <p>For a discussion of storage options and deployment topologies, visit</p> 
+  <ul> 
+   <li><a href="../../communities/using/working-with-srp.md">Community Content Store</a></li> 
+   <li><a href="../../communities/using/topologies.md">Recommended Topologies</a></li> 
+  </ul> 
+  <h2>Storage Configuration Console</h2>
+  <img imageRotate="0" src="assets/chlimage_1-195.png" />
+  <p>In the author environment, to reach the storage configuration console</p> 
+  <ul> 
+   <li>from global navigation : <strong>Tools, Communities, Storage Configuration</strong></li> 
+  </ul> 
+  <p>To select a storage option other than the default JCR :</p> 
+  <ul> 
+   <li>select an option</li> 
+   <li>configure appropriately
+    <ul> 
+     <li>see details for <a href="../../communities/using/msrp.md#selectmsrp">selecting MSRP</a></li> 
+     <li>see details for <a href="../../communities/using/dsrp.md#selectdsrp">selecting DSRP</a></li> 
+     <li>see details for <a href="../../communities/using/asrp.md#selectasrp">selecting ASRP</a></li> 
+    </ul> </li> 
+   <li>select <strong>Submit</strong></li> 
+  </ul> 
+  <h3>About JCR Storage</h3>
+  <p>Be aware that if no selection is made, the default is the AEM repository, JCR. </p> 
+  <p>JCR is <i>not </i>a common store shared by the author and publish environments. Community content will be visible only from the author or publish environment in which it was created.</p> 
+  <p>Visit <a href="../../communities/using/jsrp.md">JCR Store</a> for additional information.</p> 
+  <note>
+   <p>The absence of the node <span class="code">srpc </span>under <span class="code">/etc/socialconfig</span> indicates the default <a href="../../communities/using/jsrp.md">JCR store</a>.</p> 
+  </note>
+ </body>
+</html>

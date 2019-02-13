@@ -1,0 +1,109 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-01-11T14:03:52.571-0500" name="lastPublishInternalDate" />
+  <meta content="@adobe.com;@caesars.com" name="admittedDomains" />
+  <meta content="2018-04-25T09:46:29.001-0400" name="firstPublishExternalDate" />
+  <meta content="jsyal" name="contentOwner" />
+  <meta content="93be59e5-0d2f-43e8-957e-8bb6e8e9f4d4" name="jcr:predecessors" />
+  <meta content="08ab3bb7-bf9e-4820-9d57-0bbd1e4a72a4" name="jcr:uuid" />
+  <meta content="2018-11-02T16:57:54.356-0400" name="topicBrowsingSortDate" />
+  <meta content="2019-01-15T15:39:04.683-0500" name="jcr:created" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/asset-level-scheduling.html" name="publishExternalURL" />
+  <meta content="2018-11-02T16:57:54.356-0400" name="lastPublishExternalDate" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="Asset Level Scheduling" name="jcr:title" />
+  <meta content="2019-01-11T14:03:52.587-0500" name="cq:lastModified" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-01-11T14:03:52.648-0500" name="cq:lastReplicated" />
+  <meta content="true" name="noIndex" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone. " name="seoDescription" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring" name="cq:tags" />
+  <meta content="2018-11-02T16:57:54.356-0400" name="publishExternalDate" />
+  <meta content="2019-01-11T14:03:52.571-0500" name="firstPublishInternalDate" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2019-01-11T14:03:52.571-0500" name="publishInternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/experience-manager/6-4/screens/using/asset-level-scheduling.html" name="publishInternalURL" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>This section describes asset level scheduling for the assets used in Channels.</p> 
+  <p>The following topics are covered in this section:</p> 
+  <ul> 
+   <li><strong><a href="/screens/using/asset-level-scheduling.html?cq_ck=1545086435144#Overview">Overview</a></strong></li> 
+   <li><strong><a href="/screens/using/asset-level-scheduling.html?cq_ck=1545086435144#UsingAssetLevelScheduling">Using Asset Level Scheduling</a></strong></li> 
+   <li><strong><a href="/screens/using/asset-level-scheduling.html?cq_ck=1545086435144#HandlingRecurrenceinAssets">Handling Recurrence in Assets</a></strong></li> 
+   <li><strong><a href="#multi-assetscheduling">Multi Asset Scheduling</a><br /> </strong></li> 
+  </ul> 
+  <note>
+   <p>This AEM Screens functionality is only available, if you have installed AEM 6.3 Feature Pack 3 or AEM 6.4 Screens Feature Pack 1.</p> 
+   <p>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.</p> 
+  </note>
+  <h2>Overview</h2>
+  <p><strong><em>Asset Level Scheduling</em></strong>, allows you to activate a specific asset in a channel for a scheduled time frame in the player's local timezone. This is available for images, videos, transitions, pages, and embedded channels (dynamic or static).</p> 
+  <p><em>For example</em>, you want a special promotion to be displayed only during happy hour (2PM to 5PM) on Mondays and Wednesdays.</p> 
+  <p>With this feature, not only can you specify start and end date and time but also a recurrence pattern.</p> 
+  <h2>Using Asset Level Scheduling</h2>
+  <p>Asset Level Scheduling is done by configuring the <strong>Activation</strong> tab while accessing properties of an asset.</p> 
+  <p>Follow the steps below to perform asset level scheduling:</p> 
+  <ol>
+   <li><p>Select any channel and click <strong>Edit</strong> from the action bar to add or edit content in your channel.</p> <img imageRotate="0" src="assets/screen_shot_2018-04-23at111422am.png" />
+    <note>
+     <p>To learn in detail on how to</p> 
+     <ul> 
+      <li>Create a project, see <strong><a href="../../sites/authoring/using/creating-a-screens-project.md">Creating a new Project</a></strong>.</li> 
+      <li>Create and add content to a channel, see <strong><a href="../../screens/using/managing-channels.md">Managing Channels</a></strong>.</li> 
+     </ul> 
+    </note></li>
+   <li><p>Click <strong>Edit</strong> to open the channel editor and select an asset you want to apply the scheduling to.</p> <img imageRotate="0" src="assets/screen_shot_2018-04-24at90434pm.png" /></li>
+   <li><p>Select the asset and click on top left <strong>Configure</strong> icon to open the properties of the image.</p> <p>Click the <strong>Activation</strong> tab.</p> <img imageRotate="0" src="assets/screen_shot_2018-04-23at112348am.png" /></li>
+   <li><p>You can specify the the date from the date picker from the <strong>Active from</strong> and <strong>Active until</strong> fields.</p> <p>If you select the<strong> Active from</strong> and <strong>Active until</strong> date and time, the asset will display and loop only between that start date/time and end date/time respectively.</p> <img imageRotate="0" src="assets/screen_shot_2018-04-23at113545am.png" /></li>
+  </ol>
+  <h2>Handling Recurrence in Assets</h2>
+  <p>You can schedule assets to recur at certain intervals on daily, weekly, or monthly basis too as per your requirement.</p> 
+  <p>Suppose you want to display an image only on Fridays from 1:00 pm until 10:00 pm. You can use the Activation tab to set the desired recurring interval for your asset.</p> 
+  <h3>Adding a Recurring Event for your Asset</h3>
+  <ol>
+   <li><p>Select the asset and click on <strong>Configure</strong> icon to open the properties dialog box.</p> </li>
+   <li><p>After entering the start date/time and end/date time, you can use a cron expression or a natural text version to specify your recurrence schedule.</p> <p>You can search the web for a free cron expression generator and then copy and paste the cron expression into the <strong>Schedule</strong> and your asset will display for the particular interval of day and time.</p> <p><em>Alternatively</em>, instead of using cron expression, you can also use the natural text version such as <em>after 6:00 and before 18:00</em> on Friday to accomplish your task. Enter the text in the <strong>Schedule</strong> to display your asset.</p> </li>
+  </ol>
+  <h2>Multi-asset Scheduling</h2>
+  <note>
+   <p>The <strong>Multi-asset Scheduling</strong> feature is only available, if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3.</p> 
+  </note>
+  <p><strong><em>Multi-asset Scheduling</em></strong> allows the user to select multiple assets and apply a playback schedule to all selected assets. </p> 
+  <h3>Prerequisites</h3>
+  <p>To use multi-asset level scheduling for your assets, create an AEM Screens project with a sequence channel. For example, the following use case showcases the implementation of the feature:<br /> </p> 
+  <ul> 
+   <li>Create an AEM Screens project titled as <strong>MultiAssetDemo</strong></li> 
+   <li>Create a channel titled as <strong>MultiAssetChannel</strong> and add content to the channel, as shown in the figure below</li> 
+  </ul> 
+  <draft-comment lastModifiedBy="jsyal" lastModifiedDate="2018-12-19T12:57:48.509-0500" type="annotation">
+   MultiAssetDemo
+  </draft-comment>
+  <img imageRotate="0" src="assets/screen_shot_2018-12-21at70128am.png" />
+  <p>Follow the steps below to select multiple assets and schedule their display in an AEM Screens project:</p> 
+  <ol>
+   <li><p>Select <strong>MultiAssetChannel</strong> and click <strong>Edit</strong> from the action bar to open the editor.</p> <img imageRotate="0" src="assets/screen_shot_2018-12-21at70313am.png" /></li>
+   <li><p>Select multiple assets from the editor and click <strong>Edit Activation</strong> (top left icon).<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-12-21at70550am.png" /></li>
+   <li><p>Select the date and time in <strong>Active from</strong> and <strong>Active until </strong>from the <strong>Component Activation</strong> dialog box. Click the check mark icon when you are done selecting the schedules.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-12-17at20337pm.png" /></li>
+   <li><p>Click refresh to check the assets to which multi-asset schedule is applied.</p> 
+    <note>
+     <p>The schedule icon is visible on the top right corner to those assets that have muti asset scheduling.</p> 
+    </note><img imageRotate="0" src="assets/screen_shot_2018-12-21at70722am.png" /></li>
+  </ol>
+ </body>
+</html>

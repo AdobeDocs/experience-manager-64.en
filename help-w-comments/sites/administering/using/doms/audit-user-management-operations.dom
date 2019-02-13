@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="2018-09-26T09:13:13.011-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-31T16:25:46.132-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="How to Audit User Management Operations in AEM" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="87b5b0ba-c16c-45e8-b7f7-575b1d403eee" name="jcr:predecessors" /> 
+  <meta content="2018-04-26T10:14:05.558-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-09-26T09:13:13.008-0400" name="lastPublishExternalDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:Security;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-12-01T19:05:53.414-0500" name="jcr:created" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="How to Audit User Management Operations in AEM" name="seoTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/security/audit-user-management-operations" name="qaNotes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/security;/content/help/en/experience-manager/6-4/sites/administering/morehelp/security" name="moreHelpPaths" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-09-26T09:13:13.008-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="ff99e4a6-b285-449d-ac36-26ca97db8318" name="jcr:uuid" /> 
+  <meta content="2018-09-26T09:13:13.023-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-09-26T09:13:13.008-0400" name="publishExternalDate" /> 
+  <meta content="Learn how to audit User Management Operations in AEM." name="seoDescription" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/audit-user-management-operations.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+ </head> 
+ <body> 
+  <h2>Introduction</h2> 
+  <p>AEM has introduced the ability to log permission changes so they can be audited at a later time.</p> 
+  <p>The enhancement allows for the auditing CRUD (Create, Read, Update, Delete) actions on permissions and group assignments of users. More specifically, it will log:</p> 
+  <ul> 
+   <li>A new user getting created</li> 
+   <li>A user being added to a group</li> 
+   <li>Permission changes of an existing user or group</li> 
+  </ul> 
+  <p>By default, the entries will be written to the <span class="code">error.log</span> file. To make monitoring easier, it is recommended that they be redirected to a separate log file. More info on how to do this in the paragraph below.</p> 
+  <h2>Redirecting the output to a separate log file</h2> 
+  <p>In order to redirect the logging output to a separate log file, you'll need to create a new <strong>Apache Sling Logging Logger</strong> configuration. We'll use <span class="code">useraudit.log</span> as the name of the separate file in the example below.</p> 
+  <ol> 
+   <li><p>Go to the Web Console by browsing to <em>http://serveraddress:serverport/system/console/configMgr</em></p> </li> 
+   <li><p>Search for <strong>Apache Sling Logging Logger</strong>. Then, press the "+" in the right hand side of the entry to create a new factory configuration.</p> </li> 
+   <li><p>Create the following configuration:</p> 
+    <ul> 
+     <li><strong>Log Level:</strong> Information</li> 
+     <li><strong>Log File:</strong> logs/useraudit.log</li> 
+     <li><strong>Message Pattern:</strong> leavel default<br /> </li> 
+     <li><strong>Logger: </strong>com.adobe.granite.security.user.internal.audit, com.adobe.granite.security.user.internal.servlets.AuthorizableServlet</li> 
+    </ul> <p>In order to enter both loggers into the <strong>Logger</strong> field, you need to enter the name of the first, then create another field by pressing the "+" button and entering the name of the second logger.<br /> </p> </li> 
+  </ol> 
+  <h2>Example output</h2> 
+  <p>If configured correctly, the output should look like this:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    19.05.2017&amp;nbsp;15:15:08.933&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196108932]&amp;nbsp;POST&amp;nbsp;/libs/granite/security/post/authorizables.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.servlets.AuthorizableServlet&amp;nbsp;Create&amp;nbsp;Group&amp;nbsp;'group1'&amp;nbsp;operation&amp;nbsp;initiated&amp;nbsp;by&amp;nbsp;User&amp;nbsp;'admin'&amp;nbsp;(administrator)!!discoiqbr!!19.05.2017&amp;nbsp;15:15:08.934&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196108932]&amp;nbsp;POST&amp;nbsp;/libs/granite/security/post/authorizables.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.audit.AuditAuthorizableAction&amp;nbsp;Group&amp;nbsp;'group1'&amp;nbsp;was&amp;nbsp;created!!discoiqbr!!!!discoiqbr!!19.05.2017&amp;nbsp;15:16:25.698&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196185696]&amp;nbsp;POST&amp;nbsp;/libs/granite/security/post/authorizables.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.servlets.AuthorizableServlet&amp;nbsp;Create&amp;nbsp;User&amp;nbsp;'user1'&amp;nbsp;operation&amp;nbsp;initiated&amp;nbsp;by&amp;nbsp;User&amp;nbsp;'admin'&amp;nbsp;(administrator)!!discoiqbr!!19.05.2017&amp;nbsp;15:16:25.700&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196185696]&amp;nbsp;POST&amp;nbsp;/libs/granite/security/post/authorizables.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.audit.AuditAuthorizableAction&amp;nbsp;User&amp;nbsp;'user1'&amp;nbsp;was&amp;nbsp;created!!discoiqbr!!!!discoiqbr!!19.05.2017&amp;nbsp;15:16:25.728&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196185726]&amp;nbsp;POST&amp;nbsp;/home/groups/d/dGf7f7vGrZRLs6HS3AK-.rw.userprops.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.servlets.AuthorizableServlet&amp;nbsp;Edit&amp;nbsp;Membership&amp;nbsp;for&amp;nbsp;Group&amp;nbsp;'group1'&amp;nbsp;operation&amp;nbsp;initiated&amp;nbsp;by&amp;nbsp;User&amp;nbsp;'admin'&amp;nbsp;(administrator)!!discoiqbr!!19.05.2017&amp;nbsp;15:16:25.729&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196185726]&amp;nbsp;POST&amp;nbsp;/home/groups/d/dGf7f7vGrZRLs6HS3AK-.rw.userprops.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.audit.AuditGroupAction&amp;nbsp;User&amp;nbsp;'user1'&amp;nbsp;was&amp;nbsp;added&amp;nbsp;to&amp;nbsp;the&amp;nbsp;group&amp;nbsp;'group1'!!discoiqbr!!!!discoiqbr!!19.05.2017&amp;nbsp;15:17:29.830&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196249828]&amp;nbsp;POST&amp;nbsp;/home/users/5/5dI6iK4HkZmrfTjcLBoI.rw.userprops.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.servlets.AuthorizableServlet&amp;nbsp;Password&amp;nbsp;Change&amp;nbsp;for&amp;nbsp;User&amp;nbsp;'user2'&amp;nbsp;operation&amp;nbsp;initiated&amp;nbsp;by&amp;nbsp;User&amp;nbsp;'admin'&amp;nbsp;(administrator)!!discoiqbr!!19.05.2017&amp;nbsp;15:17:29.832&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196249828]&amp;nbsp;POST&amp;nbsp;/home/users/5/5dI6iK4HkZmrfTjcLBoI.rw.userprops.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.audit.AuditAuthorizableAction&amp;nbsp;Password&amp;nbsp;for&amp;nbsp;User&amp;nbsp;'user2'&amp;nbsp;was&amp;nbsp;changed!!discoiqbr!!!!discoiqbr!!19.05.2017&amp;nbsp;15:17:54.906&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196274904]&amp;nbsp;POST&amp;nbsp;/home/users/5/5dI6iK4HkZmrfTjcLBoI.rw.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.servlets.AuthorizableServlet&amp;nbsp;Delete&amp;nbsp;User&amp;nbsp;'user2'&amp;nbsp;operation&amp;nbsp;initiated&amp;nbsp;by&amp;nbsp;User&amp;nbsp;'admin'&amp;nbsp;(administrator)!!discoiqbr!!19.05.2017&amp;nbsp;15:17:54.906&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196274904]&amp;nbsp;POST&amp;nbsp;/home/users/5/5dI6iK4HkZmrfTjcLBoI.rw.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.audit.AuditAuthorizableAction&amp;nbsp;User&amp;nbsp;'user2'&amp;nbsp;was&amp;nbsp;removed!!discoiqbr!!!!discoiqbr!!19.05.2017&amp;nbsp;15:19:11.050&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196351049]&amp;nbsp;POST&amp;nbsp;/libs/granite/security/post/authorizables.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.servlets.AuthorizableServlet&amp;nbsp;Create&amp;nbsp;User&amp;nbsp;'user3'&amp;nbsp;operation&amp;nbsp;initiated&amp;nbsp;by&amp;nbsp;User&amp;nbsp;'admin'&amp;nbsp;(administrator)!!discoiqbr!!19.05.2017&amp;nbsp;15:19:11.052&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196351049]&amp;nbsp;POST&amp;nbsp;/libs/granite/security/post/authorizables.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.audit.AuditAuthorizableAction&amp;nbsp;User&amp;nbsp;'user3'&amp;nbsp;was&amp;nbsp;created!!discoiqbr!!19.05.2017&amp;nbsp;15:19:36.899&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196376898]&amp;nbsp;POST&amp;nbsp;/home/groups/d/dGf7f7vGrZRLs6HS3AK-.rw.userprops.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.servlets.AuthorizableServlet&amp;nbsp;Edit&amp;nbsp;Membership&amp;nbsp;for&amp;nbsp;Group&amp;nbsp;'group1'&amp;nbsp;operation&amp;nbsp;initiated&amp;nbsp;by&amp;nbsp;User&amp;nbsp;'admin'&amp;nbsp;(administrator)!!discoiqbr!!!!discoiqbr!!19.05.2017&amp;nbsp;15:19:36.916&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196376915]&amp;nbsp;POST&amp;nbsp;/home/groups/d/dGf7f7vGrZRLs6HS3AK-.rw.userprops.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.servlets.AuthorizableServlet&amp;nbsp;Edit&amp;nbsp;Membership&amp;nbsp;for&amp;nbsp;Group&amp;nbsp;'group1'&amp;nbsp;operation&amp;nbsp;initiated&amp;nbsp;by&amp;nbsp;User&amp;nbsp;'admin'&amp;nbsp;(administrator)!!discoiqbr!!19.05.2017&amp;nbsp;15:19:36.917&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196376915]&amp;nbsp;POST&amp;nbsp;/home/groups/d/dGf7f7vGrZRLs6HS3AK-.rw.userprops.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.audit.AuditGroupAction&amp;nbsp;User&amp;nbsp;'user1'&amp;nbsp;was&amp;nbsp;removed&amp;nbsp;from&amp;nbsp;the&amp;nbsp;group&amp;nbsp;'group1'!!discoiqbr!!!!discoiqbr!!19.05.2017&amp;nbsp;15:21:34.419&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196494417]&amp;nbsp;POST&amp;nbsp;/home/groups/d/dGf7f7vGrZRLs6HS3AK-.rw.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.servlets.AuthorizableServlet&amp;nbsp;Delete&amp;nbsp;Group&amp;nbsp;'group1'&amp;nbsp;operation&amp;nbsp;initiated&amp;nbsp;by&amp;nbsp;User&amp;nbsp;'admin'&amp;nbsp;(administrator)!!discoiqbr!!19.05.2017&amp;nbsp;15:21:34.419&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495196494417]&amp;nbsp;POST&amp;nbsp;/home/groups/d/dGf7f7vGrZRLs6HS3AK-.rw.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.audit.AuditAuthorizableAction&amp;nbsp;Group&amp;nbsp;'group1'&amp;nbsp;was&amp;nbsp;removed!!discoiqbr!!!!discoiqbr!!19.05.2017&amp;nbsp;15:44:10.404&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495197850401]&amp;nbsp;POST&amp;nbsp;/home/users/3/35XVpVtLRx4a5J9gKrVG.rw.userprops.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.servlets.AuthorizableServlet&amp;nbsp;Password&amp;nbsp;Change&amp;nbsp;for&amp;nbsp;User&amp;nbsp;'john'&amp;nbsp;operation&amp;nbsp;initiated&amp;nbsp;by&amp;nbsp;User&amp;nbsp;'john'&amp;nbsp;(not&amp;nbsp;administrator)!!discoiqbr!!19.05.2017&amp;nbsp;15:44:10.405&amp;nbsp;*INFO*&amp;nbsp;[0:0:0:0:0:0:0:1&amp;nbsp;[1495197850401]&amp;nbsp;POST&amp;nbsp;/home/users/3/35XVpVtLRx4a5J9gKrVG.rw.userprops.html&amp;nbsp;HTTP/1.1]&amp;nbsp;com.adobe.granite.security.user.internal.audit.AuditAuthorizableAction&amp;nbsp;Password&amp;nbsp;for&amp;nbsp;User&amp;nbsp;'john'&amp;nbsp;was&amp;nbsp;changed 
+  </codeblock> 
+ </body> 
+</html>

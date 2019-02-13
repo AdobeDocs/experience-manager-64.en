@@ -1,0 +1,130 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="62" name="acrolinxSentences" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="2017-10-31T16:34:15.182-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/search-video-assets.html" name="publishExternalURL" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="2018-04-03T08:11:25.948-0400" name="cq:lastReplicated" />
+  <meta content="Searching Video Assets" name="navTitle" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="Searching Video Assets" name="jcr:title" />
+  <meta content="de4e7912-92a2-4b2a-b68f-6aeb256c0621" name="jcr:predecessors" />
+  <meta content="2017-10-31T16:34:15.182-0400" name="lastPublishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:managing-assets;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="Use keywords, file properties such as a Mime type, size, or recently modified time stamp to quickly find your file in AEM Assets." name="seoDescription" />
+  <meta content="2018-04-24T11:56:08.734-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-10-31T16:34:15.182-0400" name="publishExternalDate" />
+  <meta content="2019-01-12T17:33:52.531-0500" name="acrolinxDate" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-10-31T16:34:15.182-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-12-02T19:01:37.456-0500" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Searching Video Assets" name="seoTitle" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-04-24T11:56:08.733-0400" name="locHandOffDate" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/managing-assets;/content/help/en/experience-manager/6-4/assets/morehelp/managing-assets" name="moreHelpPaths" />
+  <meta content="/content/docs/en/aem/6-3/author/assets/managing-assets-touch-ui/search-video-assets" name="qaNotes" />
+  <meta content="38785653-0edc-4b89-9e8f-af1fa7c670c4" name="jcr:uuid" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/search_video_assets_krs_workflow_f3c2f2ccebf6138e_176_report.xml" name="acrolinxReportURL" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="585" name="acrolinxWords" />
+ </head>
+ <body>
+  <p>To save time and effort from having to browse through potentially hundreds of videos, use keywords, file properties such as a file's type, or recently modified time stamp to quickly find your file.</p> 
+  <p>If you aren't seeing the file you are looking for, you can change the entire scope of a search by clicking one of the options at the bottom of the search results. For example, if you search for a file in the Documents library but you cannot find it, you can click Libraries to expand the search to the rest of your libraries. For more information, see <a href="http://windows.microsoft.com/en-us/windows7/find-a-file-or-folder">Find a file or folder</a>.</p> 
+  <p>You can search for digital assets based on one or more of the following properties:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Search field</strong></td> 
+     <td><strong>Search property values</strong></td> 
+    </tr>
+    <tr>
+     <td><p>Mime Types</p> </td> 
+     <td>Images, Documents, Multimedia, Archives, or Other.</td> 
+    </tr>
+    <tr>
+     <td>Last Modified</td> 
+     <td>Hour, Day, Week, Month, or Year.</td> 
+    </tr>
+    <tr>
+     <td>File Size</td> 
+     <td>Small, Medium, or Large.</td> 
+    </tr>
+    <tr>
+     <td>Publish Status</td> 
+     <td>Published or Unpublished.</td> 
+    </tr>
+    <tr>
+     <td>Approved Status</td> 
+     <td>Approved or Rejected.</td> 
+    </tr>
+    <tr>
+     <td>Orientation</td> 
+     <td>Horizontal, Vertical, or Square.</td> 
+    </tr>
+    <tr>
+     <td>Style</td> 
+     <td>Color, or Black &amp; White.</td> 
+    </tr>
+    <tr>
+     <td>Video Height</td> 
+     <td><p>Specified as a minimum and maximum value.</p> <p>Value is stored in the metadata of video renditions only.</p> </td> 
+    </tr>
+    <tr>
+     <td>Video Width</td> 
+     <td><p>Specified as a minimum and maximum value.</p> <p>Value is stored in the metadata of video renditions only.</p> </td> 
+    </tr>
+    <tr>
+     <td>Video Format</td> 
+     <td><p>DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media.</p> <p>Value is stored in the metadata of the source video and any renditions.</p> </td> 
+    </tr>
+    <tr>
+     <td>Video Codec</td> 
+     <td><p>x264.</p> <p>Value is stored in the metadata of video renditions only.</p> </td> 
+    </tr>
+    <tr>
+     <td>Video Bitrate</td> 
+     <td><p>Specified as a minimum and maximum value.</p> <p>Value is stored in the metadata of video renditions only.</p> </td> 
+    </tr>
+    <tr>
+     <td>Audio Codec</td> 
+     <td><p>Libvorbis, Lame Mp3, AAC Encoding.</p> <p>Value is stored in the metadata of video renditions only.</p> </td> 
+    </tr>
+    <tr>
+     <td>Audio Bitrate</td> 
+     <td><p>Specified as a minimum and maximum value.</p> <p>Value is stored in the metadata of video renditions only.</p> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <ol>
+   <li><p>On the <strong>Experience Manager</strong> page, in the left rail, tap <strong>Assets</strong>.</p> <p>If the left rail is not visible, tap the Toggle Rail icon (the lines in the icon will either be dark grey or blue).</p> </li>
+   <li><p>Open the folder that makes the most sense as a starting point for your search.</p> </li>
+   <li><p>On the toolbar, tap the Search icon (magnifying glass).</p> </li>
+   <li><p>Search for video assets by doing any one of the following:</p> 
+    <ul> 
+     <li>Search using keywords<br /> In the Enter Keywords field, start typing and then press Enter.<br /> The current view is filtered based on the keywords that you type. Files are displayed as search results if your keywords match the file's name, metadata tags, or other properties.</li> 
+     <li>Search using properties<br /> To search for a video file based on a property such as the video's type, you can narrow the search by selecting a video or audio property. For example, expand the Video Format drop-down, and then check one or more values. Some properties require you to enter a minimum and maximum value.<br /> </li> 
+     <li>Search using keywords and properties<br /> Enter a keyword but instead of pressing Enter, expand a video or audio property list, and then set the values you want.</li> 
+    </ul> </li>
+   <li><p>(Optional) Near the bottom of the page, tap <strong>Save Smart Collection</strong>, enter a name for the search. Check <strong>Public </strong>if you want the saved search made available to other users of the Adobe Experience Manager account. Uncheck if you want the search made available only to you when you are signed in to the account. Tap <strong>Save</strong>. </p> </li>
+  </ol>
+ </body>
+</html>

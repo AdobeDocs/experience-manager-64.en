@@ -1,0 +1,277 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="publishExternalURL" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="dd8590ff-f496-48cd-b08f-3e71bb8322cc" name="jcr:uuid" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/rendering_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" /> 
+  <meta content="2017-10-31T16:33:02.580-0400" name="lastPublishExternalDate" /> 
+  <meta content="dfe0bec1-957c-4849-ba1d-98f3f0991a7d" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e25.2,AEMForms/6.1/ProgramLC/WSe9eecbdd4d71d968445e349015a1c6d625d-8000,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-29c15c9d1336a352e5a-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-29c15c9d1336a352e5a-7ffe.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-79a8.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-29c15c9d1336a352e5a-7ffc.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-79ab.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-79aa.2" name="cq:gepId" /> 
+  <meta content="Prepopulating Forms with Flowable Layouts" name="jcr:title" /> 
+  <meta content="2018-04-03T08:32:20.478-0400" name="cq:lastReplicated" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-03T06:52:18.490-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-11-01T04:29:31.717-0400" name="unpublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-11-21T06:59:38.922-0500" name="cq:lastModified" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/developing/morehelp/operations;/content/help/en/experience-manager/6-4/forms/developing/morehelp/operations" name="moreHelpPaths" /> 
+  <meta content="2017-08-09T03:29:43.594-0400" name="lr_lastModified" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-11-22T19:07:16.473-0500" name="jcr:created" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="vishgupt@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+ </head> 
+ <body> 
+  <h2 id="prepopulating_forms_with_flowable_layouts">Prepopulating Forms with Flowable Layouts</h2> 
+  <p></p> 
+  <p>Prepopulating forms displays data to users within a rendered form. For example, assume a user logs in to a website with a user name and password. If authentication is successful, the client application queries a database for user information. The data is merged into the form and then the form is rendered to the user. As a result, the user is able to view personalized data within the form. </p> 
+  <p>Prepopulating a form has the following advantages:</p> 
+  <ul> 
+   <li><p>Enables the user to view custom data in a form.</p></li> 
+   <li><p>Reduces the amount of typing the user does to fill in a form.</p></li> 
+   <li><p>Ensures data integrity by having control over where data is placed.</p></li> 
+  </ul> 
+  <p>The following two XML data sources can prepopulate a form:</p> 
+  <ul> 
+   <li><p>An XDP data source, which is XML that conforms to XFA syntax (or XFDF data to prepopulate a form created using Acrobat).</p></li> 
+   <li><p>An arbitrary XML data source that contains name/value pairs matching the form’s field names (the examples in this section use an arbitrary XML data source).</p></li> 
+  </ul> 
+  <p>An XML element must exist for every form field that you want to prepopulate. The XML element name must match the field name. An XML element is ignored if it does not correspond to a form field or if the XML element name does not match the field name. It is not necessary to match the order in which the XML elements are displayed, as long as all XML elements are specified.</p> 
+  <p>When you prepopulate a form that already contains data, you must specify the data that is already displayed within the XML data source. Assume that a form containing 10 fields has data in four fields. Next, assume that you want to prepopulate the remaining six fields. In this situation, you must specify 10 XML elements in the XML data source that is used to prepopulate the form. If you specify only six elements, the original four fields are empty.</p> 
+  <p>For example, you can prepopulate a form such as the sample confirmation form. (See “Confirmation form” in <a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering#rendering_interactive_pdf_forms">Rendering Interactive PDF Forms</a>.)</p> 
+  <p>To prepopulate the sample confirmation form, you have to create an XML data source that contains three XML elements that match the three fields in the form. This form contains the following three fields: <span class="code">FirstName</span>, <span class="code">LastName</span>, and <span class="code">Amount</span>. The first step is to create an XML data source that contains XML elements that match the fields located in the form design. The next step is to assign data values to the XML elements, as shown in the following XML code.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;Untitled&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;FirstName&gt;Jerry&lt;/FirstName&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;LastName&gt;Johnson&lt;/LastName&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;Amount&gt;250000&lt;/Amount&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/Untitled&gt; 
+  </codeblock> 
+  <p>After you prepopulate the confirmation form with this XML data source and then render the form, the data values that you assigned to the XML elements are displayed, as shown in the following diagram.</p> 
+  <img alt="" src="assets/pf_pf_confirmxml3.png" /> 
+  <h3 id="prepopulating_forms_with_flowable_layouts">Prepopulating forms with flowable layouts</h3> 
+  <p></p> 
+  <p>Forms with flowable layouts are useful to display an undetermined amount of data to users. Because the layout of the form adjusts automatically to the amount of data that is merged, you do not need to predetermine a fixed layout or number of pages for the form as you need to do with a form with a fixed layout.</p> 
+  <p>A form is typically populated with data that is obtained during run-time. As a result, you can prepopulate a form by creating an in-memory XML data source and placing the data directly into the in-memory XML data source.</p> 
+  <p>Consider a web-based application, such as an online store. After an online shopper finishes purchasing items, all purchased items are placed into an in-memory XML data source that is used to prepopulate a form. The following diagram shows this process, which is explained in the table following the diagram.</p> 
+  <img alt="" src="assets/pf_pf_finsrv_webapp_v1.png" /> 
+  <p>The following table describes the steps in this diagram.</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e69369" valign="top" width="NaN%"><p>Step</p></th> 
+     <th class="cellrowborder" id="d19e69372" valign="top" width="NaN%"><p>Description</p></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e69369 " valign="top" width="NaN%"><p>1</p></td> 
+     <td class="cellrowborder" headers="d19e69372 " valign="top" width="NaN%"><p>A user purchases items from a web-based online store. </p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e69369 " valign="top" width="NaN%"><p>2</p></td> 
+     <td class="cellrowborder" headers="d19e69372 " valign="top" width="NaN%"><p>After the user finishes purchasing items and clicks the Submit button, an in-memory XML data source is created. Purchased items and user information are placed into the in-memory XML data source. </p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e69369 " valign="top" width="NaN%"><p>3</p></td> 
+     <td class="cellrowborder" headers="d19e69372 " valign="top" width="NaN%"><p>The XML data source is used to prepopulate a purchase order form (an example of this form is shown following this table). </p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e69369 " valign="top" width="NaN%"><p>4</p></td> 
+     <td class="cellrowborder" headers="d19e69372 " valign="top" width="NaN%"><p>The purchase order form is rendered to the client web browser. </p></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>The following diagram shows an example of a purchase order form. The information in the table can adjust to the number of records in the XML data. </p> 
+  <img alt="" src="assets/pf_pf_poform.png" /> 
+  <note> 
+   <p>A form can be prepopulated with data from other sources such as an enterprise database or external applications. </p> 
+  </note> 
+  <h3 id="form_design_considerations">Form design considerations</h3> 
+  <p></p> 
+  <p>Forms with flowable layouts are based on form designs that are created in Designer. A form design specifies a set of layout, presentation, and data capture rules, including calculating values based on user input. The rules are applied when data is entered into a form. Fields that are added to a form are subforms that are within the form design. For example, in the purchase order form shown in the previous diagram, each line is a subform. For information about creating a form design that contains subforms, see <a href="http://www.adobe.com/go/learn_aemforms_qs_poformflowable_9">Creating a purchase order form that has a flowable layout</a>. </p> 
+  <h3 id="understanding_data_subgroups">Understanding data subgroups</h3> 
+  <p></p> 
+  <p>An XML data source is used to prepopulate forms with fixed layouts and flowable layouts. However, the difference is that an XML data source that prepopulates a form with a flowable layout contains repeating XML elements that are used to prepopulate subforms that are repeated within the form. These repeating XML elements are called data subgroups.</p> 
+  <p>An XML data source that is used to prepopulate the purchase order form shown in the previous diagram contains four repeating data subgroups. Each data subgroup corresponds to a purchased item. The purchased items are a monitor, a desk lamp, a phone, and an address book.</p> 
+  <p>The following XML data source is used to prepopulate the purchase order form.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;header&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;XML&amp;nbsp;elements&amp;nbsp;used&amp;nbsp;to&amp;nbsp;prepopulate&amp;nbsp;non-repeating&amp;nbsp;fields&amp;nbsp;such&amp;nbsp;as&amp;nbsp;address&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!and&amp;nbsp;city&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtPONum&gt;8745236985&lt;/txtPONum&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dtmDate&gt;2004-02-08&lt;/dtmDate&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtOrderedByCompanyName&gt;Any&amp;nbsp;Company&amp;nbsp;Name&lt;/txtOrderedByCompanyName&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtOrderedByAddress&gt;555,&amp;nbsp;Any&amp;nbsp;Blvd.&lt;/txtOrderedByAddress&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtOrderedByCity&gt;Any&amp;nbsp;City&lt;/txtOrderedByCity&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtOrderedByStateProv&gt;ST&lt;/txtOrderedByStateProv&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtOrderedByZipCode&gt;12345&lt;/txtOrderedByZipCode&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtOrderedByCountry&gt;Any&amp;nbsp;Country&lt;/txtOrderedByCountry&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtOrderedByPhone&gt;(123)&amp;nbsp;456-7890&lt;/txtOrderedByPhone&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtOrderedByFax&gt;(123)&amp;nbsp;456-7899&lt;/txtOrderedByFax&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtOrderedByContactName&gt;Contact&amp;nbsp;Name&lt;/txtOrderedByContactName&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDeliverToCompanyName&gt;Any&amp;nbsp;Company&amp;nbsp;Name&lt;/txtDeliverToCompanyName&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDeliverToAddress&gt;7895,&amp;nbsp;Any&amp;nbsp;Street&lt;/txtDeliverToAddress&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDeliverToCity&gt;Any&amp;nbsp;City&lt;/txtDeliverToCity&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDeliverToStateProv&gt;ST&lt;/txtDeliverToStateProv&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDeliverToZipCode&gt;12346&lt;/txtDeliverToZipCode&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDeliverToCountry&gt;Any&amp;nbsp;Country&lt;/txtDeliverToCountry&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDeliverToPhone&gt;(123)&amp;nbsp;456-7891&lt;/txtDeliverToPhone&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDeliverToFax&gt;(123)&amp;nbsp;456-7899&lt;/txtDeliverToFax&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDeliverToContactName&gt;Contact&amp;nbsp;Name&lt;/txtDeliverToContactName&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/header&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;detail&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;A&amp;nbsp;data&amp;nbsp;subgroup&amp;nbsp;that&amp;nbsp;contains&amp;nbsp;information&amp;nbsp;about&amp;nbsp;the&amp;nbsp;monitor&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtPartNum&gt;00010-100&lt;/txtPartNum&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDescription&gt;Monitor&lt;/txtDescription&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;numQty&gt;1&lt;/numQty&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;numUnitPrice&gt;350.00&lt;/numUnitPrice&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/detail&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;detail&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;A&amp;nbsp;data&amp;nbsp;subgroup&amp;nbsp;that&amp;nbsp;contains&amp;nbsp;information&amp;nbsp;about&amp;nbsp;the&amp;nbsp;desk&amp;nbsp;lamp&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtPartNum&gt;00010-200&lt;/txtPartNum&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDescription&gt;Desk&amp;nbsp;lamps&lt;/txtDescription&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;numQty&gt;3&lt;/numQty&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;numUnitPrice&gt;55.00&lt;/numUnitPrice&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/detail&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;detail&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;A&amp;nbsp;data&amp;nbsp;subgroup&amp;nbsp;that&amp;nbsp;contains&amp;nbsp;information&amp;nbsp;about&amp;nbsp;the&amp;nbsp;Phone&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtPartNum&gt;00025-275&lt;/txtPartNum&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDescription&gt;Phone&lt;/txtDescription&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;numQty&gt;5&lt;/numQty&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;numUnitPrice&gt;85.00&lt;/numUnitPrice&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/detail&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;detail&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;A&amp;nbsp;data&amp;nbsp;subgroup&amp;nbsp;that&amp;nbsp;contains&amp;nbsp;information&amp;nbsp;about&amp;nbsp;the&amp;nbsp;address&amp;nbsp;book&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtPartNum&gt;00300-896&lt;/txtPartNum&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;txtDescription&gt;Address&amp;nbsp;book&lt;/txtDescription&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;numQty&gt;2&lt;/numQty&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;numUnitPrice&gt;15.00&lt;/numUnitPrice&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/detail&gt; 
+  </codeblock> 
+  <p>Notice that each data subgroup contains four XML elements that correspond to this information:</p> 
+  <ul> 
+   <li><p>Items part number</p></li> 
+   <li><p>Items description</p></li> 
+   <li><p>Quantity of items</p></li> 
+   <li><p>Unit price</p></li> 
+  </ul> 
+  <p>The name of a data subgroup’s parent XML element must match the name of the subform that is located in the form design. For example, in the previous diagram, notice that the name of the data subgroup’s parent XML element is <span class="code">detail</span>. This corresponds to the name of the subform that is located in the form design on which the purchase order form is based. If the name of the data subgroup’s parent XML element and the subform do not match, a server-side form is not prepopulated.</p> 
+  <p>Each data subgroup must contain XML elements that match the field names in the subform. The <span class="code">detail</span> subform located in the form design contains the following fields:</p> 
+  <ul> 
+   <li><p>txtPartNum</p></li> 
+   <li><p>txtDescription</p></li> 
+   <li><p>numQty</p></li> 
+   <li><p>numUnitPrice</p></li> 
+  </ul> 
+  <note> 
+   <p>If you attempt to prepopulate a form with a data source that contains repeating XML elements and you set the <span class="code">RenderAtClient</span> option to <span class="code">No</span>, only the first data record is merged into the form. To ensure that all data records are merged into the form, set the <span class="code">RenderAtClient</span> to <span class="code">Yes</span>. For information about the <span class="code">RenderAtClient</span> option, see <a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms#rendering_forms_at_the_client">Rendering Forms at the Client</a>.</p> 
+  </note> 
+  <note> 
+   <p>For more information about the Forms service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63"> Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To prepopulate a form with a flowable layout, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an in-memory XML data source.</p></li> 
+   <li><p>Convert the XML data source.</p></li> 
+   <li><p>Render a prepopulated form.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files into your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, ensure that you include the proxy files.</p> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files into your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, ensure that you include the proxy files.</p> 
+  <p><strong>Create an in-memory XML data source</strong></p> 
+  <p>You can use <span class="code">org.w3c.dom</span> classes to create an in-memory XML data source to prepopulate a form with a flowable layout. You must place data into an XML data source that conforms to the form. For information about the relationship between a form with a flowable layout and the XML data source, see <a href="/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating#understanding_data_subgroups">Understanding data subgroups</a>.</p> 
+  <p><strong>Convert the XML data source</strong></p> 
+  <p>An in-memory XML data source that is created by using <span class="code">org.w3c.dom</span> classes can be converted to a <span class="code">com.adobe.idp.Document</span> object before it can be used to prepopulate a form. An in-memory XML data source can be converted by using Java XML transform classes. </p> 
+  <note> 
+   <p>If you are using the Forms service’s WSDL to prepopulate a form, you must convert a <span class="code">org.w3c.dom.Document</span> object into a <span class="code">BLOB</span> object. </p> 
+  </note> 
+  <p><strong>Render a prepopulated form</strong></p> 
+  <p>You render a prepopulated form just like other form. The only difference is that you use the <span class="code">com.adobe.idp.Document</span> object that contains the XML data source to prepopulate the form.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating#prepopulating_forms_using_the_java_api">Prepopulating forms using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating#prepopulating_forms_using_the_web_service_api">Prepopulating forms using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2">Forms Service API Quick Starts</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering#rendering_interactive_pdf_forms">Rendering Interactive PDF Forms</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms#creating_web_applications_that_renders_forms">Creating Web Applications that Renders Forms</a></p> 
+  <h3 id="prepopulating_forms_using_the_java_api">Prepopulating forms using the Java API</h3> 
+  <p></p> 
+  <p>To prepopulate a form with a flowable layout by using the Forms API (Java), perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files, such as adobe-forms-client.jar, in your Java project’s class path. For information about the location of these files, see <a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a>.</p></li> 
+   <li><p>Create an in-memory XML data source </p> 
+    <ul> 
+     <li><p>Create a Java <span class="code">DocumentBuilderFactory</span> object by calling the <span class="code">DocumentBuilderFactory</span> class’ <span class="code">newInstance</span> method.</p></li> 
+     <li><p>Create a Java <span class="code">DocumentBuilder</span> object by calling the <span class="code">DocumentBuilderFactory</span> object’s <span class="code">newDocumentBuilder</span> method.</p></li> 
+     <li><p>Call the <span class="code">DocumentBuilder</span> object’s <span class="code">newDocument</span> method to instantiate a <span class="code">org.w3c.dom.Document</span> object.</p></li> 
+     <li><p>Create the XML data source’s root element by invoking the <span class="code">org.w3c.dom.Document</span> object’s <span class="code">createElement</span> method. This creates an <span class="code">Element</span> object that represents the root element. Pass a string value representing the name of the element to the <span class="code">createElement</span> method. Cast the return value to <span class="code">Element</span>. Next, append the root element to the document by calling the <span class="code">Document</span> object’s <span class="code">appendChild</span> method, and pass the root element object as an argument. The following lines of code shows this application logic:</p><span class="code"> Element root = (Element)document.createElement("transaction");  document.appendChild(root);</span></li> 
+     <li><p>Create the XML data source’s header element by calling the <span class="code">Document</span> object’s <span class="code">createElement</span> method. Pass a string value representing the name of the element to the <span class="code">createElement</span> method. Cast the return value to <span class="code">Element</span>. Next, append the header element to the root element by calling the <span class="code">root</span> object’s <span class="code">appendChild</span> method, and pass the header element object as an argument. The XML elements that are appended to the header element correspond to the static portion of the form. The following lines of code show this application logic:</p><span class="code"> Element header = (Element)document.createElement("header");  root.appendChild(header);</span></li> 
+     <li><p>Create a child element that belongs to the header element by calling the <span class="code">Document</span> object’s <span class="code">createElement</span> method, and pass a string value that represents the element’s name. Cast the return value to <span class="code">Element</span>. Next, set a value for the child element by calling its <span class="code">appendChild</span> method, and pass the <span class="code">Document</span> object’s <span class="code">createTextNode</span> method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the header element by calling the header element’s <span class="code">appendChild</span> method, and pass the child element object as an argument. The following lines of code show this application logic:</p><span class="code"> Element poNum= (Element)document.createElement("txtPONum");  poNum.appendChild(document.createTextNode("8745236985"));  header.appendChild(LastName);</span></li> 
+     <li><p>Add all remaining elements to the header element by repeating the last sub-step for each field appearing in the static portion of the form (in the XML data source diagram, these fields are shown in section A. (See <a href="/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating#understanding_data_subgroups">Understanding data subgroups</a>.)</p></li> 
+     <li><p>Create the XML data source’s detail element by calling the <span class="code">Document</span> object’s <span class="code">createElement</span> method. Pass a string value representing the name of the element to the <span class="code">createElement</span> method. Cast the return value to <span class="code">Element</span>. Next, append the detail element to the root element by calling the <span class="code">root</span> object’s <span class="code">appendChild</span> method, and pass the detail element object as an argument. The XML elements that are appended to the detail element correspond to the dynamic portion of the form. The following lines of code show this application logic:</p><span class="code"> Element detail = (Element)document.createElement("detail");  root.appendChild(detail);</span></li> 
+     <li><p>Create a child element that belongs to the detail element by calling the <span class="code">Document</span> object’s <span class="code">createElement</span> method, and pass a string value that represents the element’s name. Cast the return value to <span class="code">Element</span>. Next, set a value for the child element by calling its <span class="code">appendChild</span> method, and pass the <span class="code">Document</span> object’s <span class="code">createTextNode</span> method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the detail element by calling the detail element’s <span class="code">appendChild</span> method, and pass the child element object as an argument. The following lines of code show this application logic:</p><span class="code"> Element txtPartNum = (Element)document.createElement("txtPartNum");  txtPartNum.appendChild(document.createTextNode("00010-100"));  detail.appendChild(txtPartNum);</span></li> 
+     <li><p>Repeat the last sub-step for all XML elements to append to the detail element. To properly create the XML data source used to populate the purchase order form, you must append the following XML elements to the detail element: <span class="code">txtDescription</span>, <span class="code">numQty</span>, and <span class="code">numUnitPrice</span>.</p></li> 
+     <li><p>Repeat the last two sub-steps for all data items used to prepopulate the form.</p></li> 
+    </ul></li> 
+   <li><p>Convert the XML data source </p> 
+    <ul> 
+     <li><p>Create a <span class="code">javax.xml.transform.Transformer</span> object by invoking the <span class="code">javax.xml.transform.Transformer</span> object’s static <span class="code">newInstance</span> method. </p></li> 
+     <li><p>Create a <span class="code">Transformer</span> object by invoking the <span class="code">TransformerFactory</span> object’s <span class="code">newTransformer</span> method. </p></li> 
+     <li><p>Create a <span class="code">ByteArrayOutputStream</span> object by using its constructor. </p></li> 
+     <li><p>Create a<span class="code"> javax.xml.transform.dom.DOMSource</span> object by using its constructor and passing the <span class="code">org.w3c.dom.Document</span> object that was created in step 1. </p></li> 
+     <li><p>Create a <span class="code">javax.xml.transform.dom.DOMSource</span> object by using its constructor and passing the <span class="code">ByteArrayOutputStream</span> object.</p></li> 
+     <li><p>Populate the Java <span class="code">ByteArrayOutputStream</span> object by invoking the <span class="code">javax.xml.transform.Transformer</span> object’s <span class="code">transform</span> method and passing the <span class="code">javax.xml.transform.dom.DOMSource</span> and the <span class="code">javax.xml.transform.stream.StreamResult</span> objects. </p></li> 
+     <li><p>Create a byte array and allocate the size of the <span class="code">ByteArrayOutputStream</span> object to the byte array. </p></li> 
+     <li><p>Populate the byte array by invoking the <span class="code">ByteArrayOutputStream</span> object’s <span class="code">toByteArray</span> method. </p></li> 
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the byte array. </p></li> 
+    </ul></li> 
+   <li><p>Render a prepopulated form </p><p>Invoke the <span class="code">FormsServiceClient</span> object’s <span class="code">renderPDFForm</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A string value that specifies the form design name, including the file name extension.</p></li> 
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that contains data to merge with the form. Ensure that you use the <span class="code">com.adobe.idp.Document</span> object created in steps one and two.</p></li> 
+     <li><p>A <span class="code">PDFFormRenderSpec</span> object that stores run-time options. </p></li> 
+     <li><p>A <span class="code">URLSpec</span> object that contains URI values that are required by the Forms service. </p></li> 
+     <li><p>A <span class="code">java.util.HashMap</span> object that stores file attachments. This is an optional parameter and you can specify <span class="code">null</span> if you do not want to attach files to the form.</p></li> 
+    </ul><p>The <span class="code">renderPDFForm</span> method returns a <span class="code">FormsResult</span> object that contains a form data stream that must be written to the client web browser.</p> 
+    <ul> 
+     <li><p>Create a <span class="code">javax.servlet.ServletOutputStream</span> object used to send a form data stream to the client web browser. </p></li> 
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by invoking the <span class="code">FormsResult</span> object ‘s <span class="code">getOutputContent</span> method. </p></li> 
+     <li><p>Create a <span class="code">java.io.InputStream</span> object by invoking the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">getInputStream</span> method. </p></li> 
+     <li><p>Create a byte array populate it with the form data stream by invoking the <span class="code">InputStream</span> object’s <span class="code">read</span> method and passing the byte array as an argument. </p></li> 
+     <li><p>Invoke the <span class="code">javax.servlet.ServletOutputStream</span> object’s <span class="code">write</span> method to send the form data stream to the client web browser. Pass the byte array to the <span class="code">write</span> method. </p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating#prepopulating_forms_with_flowable_layouts">Prepopulating forms with flowable layouts</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e24.2">Quick Start (SOAP mode): Prepopulating Forms with Flowable Layouts using the Java API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p> 
+  <h3 id="prepopulating_forms_using_the_web_service_api">Prepopulating forms using the web service API</h3> 
+  <p></p> 
+  <p>To prepopulate a form with a flowable layout by using the Forms API (web service), perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create Java proxy classes that consume the Forms service WSDL. (See <a href="#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b03.2">Creating Java proxy classes using Apache Axis</a>.)</p></li> 
+     <li><p>Include the Java proxy classes into your class path. </p></li> 
+    </ul></li> 
+   <li><p>Create an in-memory XML data source </p> 
+    <ul> 
+     <li><p>Create a Java <span class="code">DocumentBuilderFactory</span> object by calling the <span class="code">DocumentBuilderFactory</span> class’ <span class="code">newInstance</span> method.</p></li> 
+     <li><p>Create a Java <span class="code">DocumentBuilder</span> object by calling the <span class="code">DocumentBuilderFactory</span> object’s <span class="code">newDocumentBuilder</span> method.</p></li> 
+     <li><p>Call the <span class="code">DocumentBuilder</span> object’s <span class="code">newDocument</span> method to instantiate a <span class="code">org.w3c.dom.Document</span> object.</p></li> 
+     <li><p>Create the XML data source’s root element by invoking the <span class="code">org.w3c.dom.Document</span> object’s <span class="code">createElement</span> method. This creates an <span class="code">Element</span> object that represents the root element. Pass a string value representing the name of the element to the <span class="code">createElement</span> method. Cast the return value to <span class="code">Element</span>. Next, append the root element to the document by calling the <span class="code">Document</span> object’s <span class="code">appendChild</span> method, and pass the root element object as an argument. The following lines of code show this application logic:</p><span class="code"> Element root = (Element)document.createElement("transaction");  document.appendChild(root);</span></li> 
+     <li><p>Create the XML data source’s header element by calling the <span class="code">Document</span> object’s <span class="code">createElement</span> method. Pass a string value representing the name of the element to the <span class="code">createElement</span> method. Cast the return value to <span class="code">Element</span>. Next, append the header element to the root element by calling the <span class="code">root</span> object’s <span class="code">appendChild</span> method, and pass the header element object as an argument. The XML elements that are appended to the header element correspond to the static portion of the form. The following lines of code show this application logic:</p><span class="code"> Element header = (Element)document.createElement("header");  root.appendChild(header);</span></li> 
+     <li><p>Create a child element that belongs to the header element by calling the <span class="code">Document</span> object’s <span class="code">createElement</span> method, and pass a string value that represents the element’s name. Cast the return value to <span class="code">Element</span>. Next, set a value for the child element by calling its <span class="code">appendChild</span> method, and pass the <span class="code">Document</span> object’s <span class="code">createTextNode</span> method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the header element by calling the header element’s <span class="code">appendChild</span> method, and pass the child element object as an argument. The following lines of code shows this application logic:</p><span class="code"> Element poNum= (Element)document.createElement("txtPONum");  poNum.appendChild(document.createTextNode("8745236985"));  header.appendChild(LastName);</span></li> 
+     <li><p>Add all remaining elements to the header element by repeating the last sub-step for each field appearing in the static portion of the form (in the XML data source diagram, these fields are shown in section A. (See <a href="/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating#understanding_data_subgroups">Understanding data subgroups</a>.)</p></li> 
+     <li><p>Create the XML data source’s detail element by calling the <span class="code">Document</span> object’s <span class="code">createElement</span> method. Pass a string value representing the name of the element to the <span class="code">createElement</span> method. Cast the return value to <span class="code">Element</span>. Next, append the detail element to the root element by calling the <span class="code">root</span> object’s <span class="code">appendChild</span> method, and pass the detail element object as an argument. The XML elements that are appended to the detail element correspond to the dynamic portion of the form. The following lines of code shows this application logic:</p><span class="code"> Element detail = (Element)document.createElement("detail");  root.appendChild(detail);</span></li> 
+     <li><p>Create a child element that belongs to the detail element by calling the <span class="code">Document</span> object’s <span class="code">createElement</span> method, and pass a string value that represents the element’s name. Cast the return value to <span class="code">Element</span>. Next, set a value for the child element by calling its <span class="code">appendChild</span> method, and pass the <span class="code">Document</span> object’s <span class="code">createTextNode</span> method as an argument. Specify a string value that appears as the child element’s value. Finally, append the child element to the detail element by calling the detail element’s <span class="code">appendChild</span> method, and pass the child element object as an argument. The following lines of code shows this application logic:</p><span class="code"> Element txtPartNum = (Element)document.createElement("txtPartNum");  txtPartNum.appendChild(document.createTextNode("00010-100"));  detail.appendChild(txtPartNum);</span></li> 
+     <li><p>Repeat the last sub-step for all XML elements to append to the detail element. To properly create the XML data source used to populate the purchase order form, you must append the following XML elements to the detail element: <span class="code">txtDescription</span>, <span class="code">numQty</span>, and <span class="code">numUnitPrice</span>.</p></li> 
+     <li><p>Repeat the last two sub-steps for all data items used to prepopulate the form.</p></li> 
+    </ul></li> 
+   <li><p>Convert the XML data source </p> 
+    <ul> 
+     <li><p>Create a <span class="code">javax.xml.transform.Transformer</span> object by invoking the <span class="code">javax.xml.transform.Transformer</span> object’s static <span class="code">newInstance</span> method. </p></li> 
+     <li><p>Create a <span class="code">Transformer</span> object by invoking the <span class="code">TransformerFactory</span> object’s <span class="code">newTransformer</span> method. </p></li> 
+     <li><p>Create a <span class="code">ByteArrayOutputStream</span> object by using its constructor. </p></li> 
+     <li><p>Create a<span class="code"> javax.xml.transform.dom.DOMSource</span> object by using its constructor and passing the <span class="code">org.w3c.dom.Document</span> object that was created in step 1. </p></li> 
+     <li><p>Create a <span class="code">javax.xml.transform.dom.DOMSource</span> object by using its constructor and passing the <span class="code">ByteArrayOutputStream</span> object.</p></li> 
+     <li><p>Populate the Java <span class="code">ByteArrayOutputStream</span> object by invoking the <span class="code">javax.xml.transform.Transformer</span> object’s <span class="code">transform</span> method and passing the <span class="code">javax.xml.transform.dom.DOMSource</span> and the <span class="code">javax.xml.transform.stream.StreamResult</span> objects. </p></li> 
+     <li><p>Create a byte array and allocate the size of the <span class="code">ByteArrayOutputStream</span> object to the byte array. </p></li> 
+     <li><p>Populate the byte array by invoking the <span class="code">ByteArrayOutputStream</span> object’s <span class="code">toByteArray</span> method. </p></li> 
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor and invoke its <span class="code">setBinaryData</span> method and pass the byte array. </p></li> 
+    </ul></li> 
+   <li><p>Render a prepopulated form </p><p>Invoke the <span class="code">FormsService</span> object’s <span class="code">renderPDFForm</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A string value that specifies the form design name, including the file name extension.</p></li> 
+     <li><p>A <span class="code">BLOB</span> object that contains data to merge with the form. Ensure that you use the <span class="code">BLOB</span> object that was created in steps one and two. </p></li> 
+     <li><p>A <span class="code">PDFFormRenderSpecc</span> object that stores run-time options. For more information, see <a href="http://www.adobe.com/go/learn_aemforms_javadocs_63_en">AEM Forms API Reference</a>.</p></li> 
+     <li><p>A <span class="code">URLSpec</span> object that contains URI values that are required by the Forms service.</p></li> 
+     <li><p>A <span class="code">java.util.HashMap</span> object that stores file attachments. This is an optional parameter and you can specify <span class="code">null</span> if you do not want to attach files to the form.</p></li> 
+     <li><p>An empty <span class="code">com.adobe.idp.services.holders.BLOBHolder</span> object that is populated by the method. This is used to store the rendered PDF form. </p></li> 
+     <li><p>An empty <span class="code">javax.xml.rpc.holders.LongHolder</span> object that is populated by the method. (This argument will store the number of pages in the form).</p></li> 
+     <li><p>An empty <span class="code">javax.xml.rpc.holders.StringHolder</span> object that is populated by the method. (This argument will store the locale value).</p></li> 
+     <li><p>An empty <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object that will contain the results of this operation.</p></li> 
+    </ul><p>The <span class="code">renderPDFForm</span> method populates the <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object that is passed as the last argument value with a form data stream that must be written to the client web browser.</p> 
+    <ul> 
+     <li><p>Create a <span class="code">FormResult</span> object by getting the value of the <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object’s <span class="code">value</span> data member. </p></li> 
+     <li><p>Create a <span class="code">BLOB</span> object that contains form data by invoking the <span class="code">FormsResult</span> object’s <span class="code">getOutputContent</span> method. </p></li> 
+     <li><p>Get the content type of the <span class="code">BLOB</span> object by invoking its <span class="code">getContentType</span> method.</p></li> 
+     <li><p>Set the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s content type by invoking its <span class="code">setContentType</span> method and passing the content type of the <span class="code">BLOB</span> object.</p></li> 
+     <li><p>Create a <span class="code">javax.servlet.ServletOutputStream</span> object used to write the form data stream to the client web browser by invoking the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">getOutputStream</span> method.</p></li> 
+     <li><p>Create a byte array and populate it by invoking the <span class="code">BLOB</span> object’s <span class="code">getBinaryData</span> method. This task assigns the content of the <span class="code">FormsResult</span> object to the byte array. </p></li> 
+     <li><p>Invoke the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">write</span> method to send the form data stream to the client web browser. Pass the byte array to the <span class="code">write</span> method. </p></li> 
+    </ul> 
+    <note> 
+     <p>The <span class="code">renderPDFForm</span> method populates the <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object that is passed as the last argument value with a form data stream that must be written to the client web browser. </p> 
+    </note></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating prepopulating-forms-flowable-layouts-prepopulating#prepopulating_forms_with_flowable_layouts">Prepopulating forms with flowable layouts</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e23.2">Quick Start (Base64): Prepopulating Forms with Flowable Layouts using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2">Invoking AEM Forms using Base64 encoding</a></p> 
+  <p></p> 
+ </body> 
+</html>

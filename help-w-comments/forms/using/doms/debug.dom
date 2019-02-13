@@ -1,0 +1,197 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="The document list steps to troubleshoot various known issues. " name="seoDescription" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2019-02-04T08:10:52.269-0500" name="cq:lastModified" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2019-01-28T03:46:32.147-0500" name="publishExternalDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/debug_admin_5e12de0b318c6865_2091_report.xml" name="acrolinxReportURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="autotagsRejected" /> 
+  <meta content="Debugging HTML5 forms" name="jcr:title" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Debugging HTML5 forms" name="navTitle" /> 
+  <meta content="2017-12-01T19:03:51.954-0500" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" /> 
+  <meta content="2019-01-28T03:46:32.147-0500" name="lastPublishExternalDate" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="robhagat" name="contentOwner" /> 
+  <meta content="2019-02-04T08:10:52.268-0500" name="locHandOffDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2013-03-22T13:10:31.721-0400" name="firstPublishExternalDate" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="LiveCycle/10.5/MobileForms/WSf49552907c5bbe1e-5c1ee67313cd222355f-7ffc" name="cq:gepId" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="autotags" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="sortDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="https://helpx-preview.corp.adobe.com/content/help/en/aem-forms/6-1/html5-forms/debug.html" name="publishQAURL" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="809" name="acrolinxWords" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2019-01-28T03:46:32.242-0500" name="cq:lastReplicated" /> 
+  <meta content="2015-06-12T04:29:36.255-0400" name="lastPublishQADate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/debug.html" name="publishExternalURL" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:hTML5_forms" name="cq:tags" /> 
+  <meta content="2016-05-31T06:46:22.511-0400" name="acrolinxDate" /> 
+  <meta content="53" name="acrolinxSentences" /> 
+  <meta content="2015-06-12T04:29:36.255-0400" name="publishQADate" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/html5_forms;/content/help/en/experience-manager/6-4/forms/morehelp/html5_forms" name="moreHelpPaths" /> 
+  <meta content="robhagat" name="lr_creator" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="d8c40ccd-2938-4a18-94ec-952fba88918c" name="jcr:uuid" /> 
+  <meta content="robhagat" name="lr_lastModifiedBy" /> 
+  <meta content="011dc18f-63eb-4d0e-a633-876fd9d20c58" name="jcr:predecessors" /> 
+  <meta content="2013-02-20T08:58:24.143-0500" name="firstPublishQADate" /> 
+ </head> 
+ <body> 
+  <p>This document includes several troubleshooting scenarios. For each scenario, some steps are provided to troubleshoot the problem. Follow these steps and, if the problem persists, configure the Logger to get and review logs for errors/warnings. For more details about HTML5 forms logging, see <a href="../../forms/using/enable-logs.md" target="_blank">Generating Logs for HTML5 forms</a>. </p> 
+  <h3>Problem: When rendering the form, I see org.apache.sling.api.SlingException exception page</h3> 
+  <p>In the exception details, search for word <strong>caused by</strong>.</p> 
+  <p>The probable reason is that one or more parameters in the URL are incorrect.</p> 
+  <p>Check the following parameters:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Parameter</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>template</td> 
+     <td>The filename of the template</td> 
+    </tr> 
+    <tr> 
+     <td>contentRoot</td> 
+     <td>The path where template and associated resources reside</td> 
+    </tr> 
+    <tr> 
+     <td>dataRef</td> 
+     <td>Absolute path of the data file that is merged with the template.<br /> Note: Path defines the absolute path of the data file.</td> 
+    </tr> 
+    <tr> 
+     <td>data</td> 
+     <td>UTF-8 encoded data bytes that are merged with the template.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Problem: Unable to render a form (an error message is displayed)</h3> 
+  <ol> 
+   <li><p>Ensure that the specified parameters are correct. For detailed information on parameters, see <a href="../../forms/using/debug.md#main-pars-table">Render Parameters</a>.</p> </li> 
+   <li><p>Log in to CRX Package Manager(at http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/crx/packmgr/index.jsp) and check whether the following packages are correctly installed:</p> 
+    <ul> 
+     <li>adobe-lc-forms-content-pkg-&amp;lt;version&amp;gt;.zip</li> 
+     <li>adobe-lc-forms-runtime-pkg-&amp;lt;version&amp;gt;.zip<br /> </li> 
+    </ul> </li> 
+   <li><p>Log in to CQ Web Console (Felix Console) at http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/system/console/bundles.<br /> Ensure that the status of the following bundles is "active":</p> 
+    <ul> 
+     <li>scala-lang.bundle [osgi] (com.adobe.livecyclescala-lang.bundle)</li> 
+     <li>Adobe XFA Forms Renderer(com.adobe.livecycle.adobe-lc-forms-core)<br /> </li> 
+     <li>Adobe XFA Forms LC Connector (com.adobe.livecycle.adobe-lc-forms-lc-connector)<br /> </li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Problem: Form renders without styles</h3> 
+  <ol> 
+   <li><p>In your browser, open <strong>Developer Tools. </strong>Ensure that profile.css is available.</p> </li> 
+   <li><p>If the profile.css file is not available, login to CRX DE at http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/crx/de.</p> </li> 
+   <li><p>In the folder hierarchy on the left, navigate to /etc/clientlibs/fd/xfaforms/. Open css.txt files listed in the folders. </p> 
+    <ul> 
+     <li>profile</li> 
+     <li>runtime</li> 
+     <li>scrollnav</li> 
+     <li>toolbar</li> 
+     <li>xfalib</li> 
+    </ul> </li> 
+   <li><p>Verify that the files mentioned inside the css.txt are present in CRX DE lite at /libs/fd/xfaforms/clientlibs/xfalib/css.</p> 
+    <codeblock class="syntax css">
+      #base=css!!discoiqbr!!application.css!!discoiqbr!!dialog.css!!discoiqbr!!datepicker.css!!discoiqbr!!scribble.css!!discoiqbr!!listboxwidget.css 
+    </codeblock></li> 
+   <li><p>If the mentioned files are not available, install the adobe-lc-forms-runtime-pkg-&amp;lt;version&amp;gt;.zip package again.</p> </li> 
+  </ol> 
+  <h3>Problem: Unexpected error encountered</h3> 
+  <ol> 
+   <li><p>In the form URL, add a query parameter debugClientLibs and set its value to true (For example: http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/content/xfaforms/profiles/test.html?contentRoot=&amp;lt;some path&amp;gt;&amp;template=&amp;lt;name of xdp file&amp;gt;&amp;log=1-a9-b9-c9&amp;<strong>debugClientLibs=true</strong>)</p> </li> 
+   <li><p>In the desktop browser like chrome, go to Developer Tools -&amp;gt; Console.</p> </li> 
+   <li><p>Open the logs to identify the type of error. For detailed information on logs, see <a href="../../forms/using/enable-logs.md">logs for HTML5 forms</a>.</p> </li> 
+   <li><p>Go to Developer Tools -&amp;gt; Console. Use stack trace to locate the code which is causing the error. Debug the error to resolve the issue.</p> 
+    <note> 
+     <p>If it is scripting failure, check if the same problem occurs during the PDF rendition of the form as well. If yes, then there is a problem in the form scripting logic.</p> 
+    </note></li> 
+  </ol> 
+  <h3>Problem: Unable to submit the form</h3> 
+  <ol> 
+   <li><p>Ensure that you have rights to access the AEM server and you are connected to the server. </p> </li> 
+   <li><p>Check that the parameter submitUrl is correct.</p> </li> 
+   <li><p>Enable the client side logs as mentioned at <a href="../../forms/using/enable-logs.md">Logs for the HTML5 forms</a> using debug option as <strong>1-a5-b5-c5</strong>. Then render the form and click submit. Open browser debug console and check if there is an error. </p> </li> 
+   <li><p>Locate the server logs as mentioned at <a href="../../forms/using/enable-logs.md" target="_blank">Logs for the HTML5 forms</a>. Check if there was any error in server logs during submission.</p> </li> 
+  </ol> 
+  <h3>Problem: Localized error messages do not display</h3> 
+  <ol> 
+   <li><p>Render the form with additional query parameter <strong>debugClientLibs=true</strong> in the desktop browser, and then go to Developer Tools -&amp;gt; Resources and check for the file I18N.css.</p> </li> 
+   <li><p>If the file is not available, login into CRX DE at http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/crx/de.</p> </li> 
+   <li><p>In the folder hierarchy on the left, navigate to /libs/fd/xfaforms/clientlibs/I18N and ensure that the following files and folders exist:</p> 
+    <ul> 
+     <li>Namespace.js</li> 
+     <li>LogMessages.js</li> 
+     <li>Folders for languages</li> 
+    </ul> </li> 
+   <li><p>If any of the above files or folders do not exist, install the <strong>adobe-lc-forms-runtime-pkg-&amp;lt;version&amp;gt;.zip</strong> package again.</p> </li> 
+   <li><p>Navigate to the folder which has the same name as the name of the locale and check its content. The folder must contain the following files:</p> 
+    <ul> 
+     <li> I18N.js</li> 
+     <li> js.txt<br type="_moz" /> </li> 
+    </ul> </li> 
+   <li><p>Check the content of js.txt and make sure that it has the following entries.</p> 
+    <codeblock class="syntax js">
+      ../Namespace.js!!discoiqbr!!I18N.js!!discoiqbr!!../LogMessages.js 
+    </codeblock></li> 
+  </ol> 
+  <h3> &lt;/p&gt; </h3> 
+  <h3>Problem: Image not showing up</h3> 
+  <ol> 
+   <li><p>Ensure that the image URL is correct. </p> </li> 
+   <li><p>Check if your browser supports this type of image. </p> </li> 
+   <li><p>In the exception details, search for word <strong>caused by</strong>.</p> <p>The probable reason is that one or more parameters in the URL are incorrect.</p> <p>Check the following parameters:</p> Step text 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td><strong>Parameter</strong></td> 
+       <td><strong>Description</strong></td> 
+      </tr> 
+      <tr> 
+       <td>template</td> 
+       <td>The filename of the template</td> 
+      </tr> 
+      <tr> 
+       <td>contentRoot</td> 
+       <td>The path where template and associated resources reside</td> 
+      </tr> 
+      <tr> 
+       <td>dataRef</td> 
+       <td>Absolute path of the data file that is merged with the template.<br /> Note: Path defines the absolute path of the data file.</td> 
+      </tr> 
+      <tr> 
+       <td>data</td> 
+       <td>UTF-8 encoded data bytes that are merged with the template.</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li><p>In the desktop browser, go to Developer Tools -&amp;gt; Resources.</p> <p>Check on the left side in Frames if that image displays.</p> </li> 
+  </ol> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+ </body> 
+</html>

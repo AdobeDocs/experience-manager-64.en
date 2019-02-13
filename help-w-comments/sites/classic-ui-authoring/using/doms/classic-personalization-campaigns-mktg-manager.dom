@@ -1,0 +1,148 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-personalization-campaigns-mktg-manager.html" name="publishExternalURL" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/personalization/campaigns/marketing-campaign-manager" name="qaNotes" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="71d26fdb-e3a1-48ca-a344-dffaf9c0e925" name="jcr:predecessors" /> 
+  <meta content="2018-04-19T10:26:27.483-0400" name="cq:lastModified" /> 
+  <meta content="Working with the Marketing Campaign Manager" name="navTitle" /> 
+  <meta content="2017-12-01T19:03:27.594-0500" name="jcr:created" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" /> 
+  <meta content="Working with the Marketing Campaign Manager" name="jcr:title" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-19T10:26:27.481-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-03T06:45:51.698-0400" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-04-03T06:45:51.698-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="trushton" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-03T06:45:52.710-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-03T06:45:51.698-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="The Marketing Campaign Manager (MCM) is a console that helps you manage multi-channel campaigns. With this marketing automation software you can manage all your brands, campaigns and experiences together with the related segments, lists, leads, and reports." name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Working with the Marketing Campaign Manager" name="seoTitle" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="3f8535af-3f36-4d0e-b802-a365b7f33dc8" name="jcr:uuid" /> 
+  <meta content="2017-10-31T16:18:39.731-0400" name="firstPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>In AEM, the Marketing Campaign Manager (MCM) is a console that helps you manage multi-channel campaigns. With this marketing automation software you can manage all your brands, campaigns and experiences together with the related segments, lists, leads, and reports.</p> 
+  <p>MCM can be accessed from various locations in AEM; for example, the Welcome screen, using the Campaigns icon or with the URL:</p> 
+  <p style="margin-left: 40px;"><span class="code">http://&amp;lt;<i>hostname</i>&amp;gt;:&amp;lt;<i>port-nr</i>&amp;gt;/libs/mcm/content/admin.html</span></p> 
+  <p>For example:</p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4502/libs/mcm/content/admin.html</span></p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-21at114636am.png" /> 
+  <p>From the MCM you can access:<br /> </p> 
+  <ul> 
+   <li><strong><a href="#dashboard">Dashboard</a></strong><br /> This is divided into four panes: 
+    <ul> 
+     <li><a href="#lists">Lists</a><br /> This pane shows the lists you have already created, together with the number of leads in that list. From this pane you can create a new list directly or import leads to create a new list.<br /> Selecting a specific list will take you to the <a href="#lists">Lists</a> section showing details for your list.<br /> </li> 
+     <li><a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#anoverviewofsegmentation">Segments</a><br /> This pane show the segments that you have defined. Segments let you characterize a collection of visitors that share certain traits.<br /> Selecting a specific segment will open the segment definition page.<br /> </li> 
+     <li><a href="../../../sites/administering/using/reporting.md">Reports</a><br /> AEM provides different reports to help you analyze and monitor the state of your instance. This MCM pane lists the reports.<br /> Selecting a report will open the report page.<br /> </li> 
+     <li><a href="#campaigns">Campaigns</a><br /> This pane lists your campaign experiences such as <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#newsletters">newsletters</a> and <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#teasers">teasers</a>.</li> 
+    </ul> </li> 
+   <li><strong><a href="#leads">Leads</a></strong><br /> Here you can manage your leads. You can create or import leads, edit specific details for individual leads or delete when no longer needed. You can also put leads in different groups, called Lists. <strong>Note:</strong> Adobe is not planning to further enhance this capability.<br /> Recommendation is to <a href="../../../sites/administering/using/campaign.md">leverage Adobe Campaign and the integration to AEM</a>.<br /> </li> 
+   <li><strong><a href="#lists">Lists</a></strong><br /> Here you can manage your lists (of leads).<strong>Note:</strong> Adobe is not planning to further enhance this capability.<br /> Recommendation is to <a href="../../../sites/administering/using/campaign.md">leverage Adobe Campaign and the integration to AEM</a>.</li> 
+   <li><strong><a href="#campaigns">Campaigns</a></strong><br /> Here you can manage your Brands, Campaigns and Experiences.<br /> </li> 
+  </ul> 
+  <h3>Dashboard</h3> 
+  <p>The dashboard shows four panes that provide you with an overview of your lists (of leads), segments, reports and campaigns. Access to basic functionality for these is also available here.<br /> </p> 
+  <img imageRotate="0" src="assets/mcm_dashboard.png" /> 
+  <h3>Leads</h3> 
+  <note> 
+   <p>Adobe is not planning to further enhance this capability (Managing Leads).<br /> Recommendation is to leverage <a href="../../../sites/administering/using/campaign.md">Adobe Campaign and the integration to AEM</a>.</p> 
+  </note> 
+  <p>In AEM MCM, you can organize and add leads by either entering them manually or importing a comma-separated list; for example, a mailing list. Additional ways to generate leads are from newsletter sign-ups or community sign-ups (if configured, these can trigger a workflow that populates leads). Leads are usually categorized and put into a list so that later you can perform actions on the whole list; for example, sending out a custom email to a certain list.<br /> </p> 
+  <p>Under <strong>Leads</strong> in the left pane you can create, import, edit and delete your leads, then activate or deactivate as required. You can add a lead to a list, or see which lists it already belongs to.</p> 
+  <note> 
+   <p>See <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#workingwithleads">Working with Leads</a> for detailed information about specific tasks.<br /> </p> 
+  </note> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-21at114748am-1.png" /> 
+  <h3>Lists</h3> 
+  <note> 
+   <p>Adobe is not planning to further enhance this capability (Managing Lists).<br /> Recommendation is to leverage <a href="../../../sites/administering/using/campaign.md">Adobe Campaign and the integration to AEM</a>.</p> 
+  </note> 
+  <p>Lists let you organize your leads into groups. With lists, you can target your marketing campaigns to a select group of people; for example, you can send a targeted newsletter to a list.</p> 
+  <p>Under <strong>Lists</strong>, you can manage your lists by creating, importing, editing, merging and deleting lists which you can then activate or deactivate as required. You can also view the leads within that list, see if the list is a member of another list or view the description.<br /> </p> 
+  <note> 
+   <p>See <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#workingwithlists">Working with Lists</a> for detailed information about specific tasks.<br /> </p> 
+  </note> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-21at124828pm-1.png" /> 
+  <h3>Campaigns</h3> 
+  <note> 
+   <p>See <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#workingwithlists">Teasers and Strategies</a>, <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#settingupyourcampaign">Setting up your Campaign</a> and <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#newsletters">Newsletters</a> for detailed information about specific tasks.<br /> </p> 
+  </note> 
+  <p>To access existing campaigns, in the MCM click <strong>Campaigns</strong>.<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-21at11106pm.png" /> 
+  <ul> 
+   <li><strong>In the left pane</strong>:<br /> There is a list of all brands and campaigns.<br /> A single click on a brand will both: 
+    <ul> 
+     <li>expand the list to show all related campaigns in the left pane; this list also shows the number of experiences that exist for each campaign.</li> 
+     <li>open the brand overview in the right pane.</li> 
+    </ul> </li> 
+  </ul> 
+  <ul> 
+   <li><strong></strong><strong>In the right pane</strong>:<br /> Icons are shown for each brand (historical campaigns will not be shown).<br /> You can double-click on these to open the brand overview.</li> 
+  </ul> 
+  <h4>Brand Overview</h4> 
+  <img imageRotate="0" src="assets/mcm_brandoverview.png" /> 
+  <p>From here you can:</p> 
+  <ul> 
+   <li>See the number of campaigns and experiences (number shown in the left pane) that exist for this brand.<br /> </li> 
+   <li>Create a <strong>New...</strong> campaign for this brand.<br /> </li> 
+   <li>Change the timespan being viewed; select <strong>Week</strong>, <strong>Month</strong> or <strong>Quarter</strong>, use the arrows to select specific periods or return to <strong>Today</strong>.</li> 
+   <li>Select a campaign (in the right pane) to: 
+    <ul> 
+     <li>Edit the <strong>Properties...</strong></li> 
+     <li><strong>Delete</strong> the campaign.</li> 
+    </ul> </li> 
+   <li>Open the campaign overview (double-click a campaign in the right pane, or single click in the left pane).</li> 
+  </ul> 
+  <h4>Campaign Overview</h4> 
+  <p>For the individual campaigns there are two views available:</p> 
+  <ol> 
+   <li> <p>Use the icon:<br /> </p> <img imageRotate="0" src="assets/mcm_iconcalendarview.png" /><p>This presents a list of all touchpoints (grey) with a horizontal timeframe of the experiences (green) connected to that touchpoint:<br /> </p> <img imageRotate="0" src="assets/mcm_banner_calendarview.png" /><p>From here you can:</p> 
+    <ul> 
+     <li>Change the timespan you are viewing by using the arrows, or return to <strong>Today</strong>.<br /> </li> 
+     <li>Use <strong>Add Touchpoint...</strong> to add a new touchpoint for an existing experience.<br /> </li> 
+     <li>Click on a teaser (in the right pane) to set the <strong>On Time</strong> and <strong>Off Time</strong>.</li> 
+    </ul> 
+    <draft-comment color="yellow" lastModifiedBy="ims-author-77F410094CD97C4F0A746C1B@AdobeID" lastModifiedDate="2017-11-30T05:07:04.261-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+     <p>The link "English" under the teaser name - is this a link to the touchpoint page?<br /> </p> 
+    </draft-comment></li> 
+   <li> <p>Use the icon:<br /> </p> <img imageRotate="0" src="assets/mcm_icon_listview-1.png" /><p>This lists all experiences (e.g. teasers and newsletters) for the selected campaign:<br /> </p> <img imageRotate="0" src="assets/mcm_banner_listview.png" /><p>From here you can:</p> 
+    <ul> 
+     <li>Create a <strong>New...</strong> experience; for example, Adobe Target offers, teasers and newsletters.</li> 
+     <li><strong>Edit</strong> the details of a specific teaser page or newsletter (a double-click can also be used).</li> 
+     <li>Define the <strong>Properties...</strong> for a specific teaser page or newsletter.</li> 
+     <li><strong>Simulate</strong> the look and feel of an experience (teaser page or newsletter).<br /> When the simulated page is open you can then open the sidekick to switch into edit mode for that page.<br /> </li> 
+     <li><strong>Analyze...</strong> the impressions generated for a page.<br /> </li> 
+     <li><strong>Delete</strong> items when they are no longer needed.</li> 
+     <li><strong>Search </strong>for your text (the Title field of the experience will be searched).</li> 
+     <li>Use <strong>Advanced</strong> search to apply filters to the search.</li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Simulating your Campaign Experiences</h3> 
+  <p>In the MCM, click <strong>Campaigns</strong>. Ensure that the list view is active, then select the required campaign experience and click <strong>Simulate</strong>. The touchpoint (teaser or newsletter page) will be opened to show the experience that you have selected - as the visitor will see it.</p> 
+  <img imageRotate="0" src="assets/mcm_simulateexperience.png" /> 
+  <p>From here you can also open the sidekick (click the small down arrow) to change to edit mode for updating the page.</p> 
+  <h3>Analyzing your Campaign Experiences</h3> 
+  <p>In the MCM, click <strong>Campaigns</strong>. Ensure that the list view is active, then select the required campaign experience and select <strong>Analyze...</strong>. A chart of the page impressions over time will be shown.</p> 
+  <img imageRotate="0" src="assets/mcm_campaignanalyze.png" /> 
+ </body> 
+</html>

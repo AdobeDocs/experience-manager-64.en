@@ -1,0 +1,680 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:platform;content_type:reference" name="cq:tags" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Custom Node Types" name="navTitle" /> 
+  <meta content="2018-01-18T11:19:16.072-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-05-08T12:41:53.466-0400" name="cq:lastModified" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T09:00:18.011-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="4191a8c6-91d9-40f6-ad43-04eed490e7bf" name="jcr:predecessors" /> 
+  <meta content="2018-05-08T12:41:53.464-0400" name="locHandOffDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="681ea934-a9dc-4e1d-b058-3abe6bbe4c7b" name="jcr:uuid" /> 
+  <meta content="2018-01-18T11:19:16.072-0500" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/platform/custom-nodetypes" name="qaNotes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform;/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform" name="moreHelpPaths" /> 
+  <meta content="Custom Node Types" name="seoTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="AEM is based on Sling and uses a JCR repository with node types offered by both, but AEM also provides a range of custom node types" name="seoDescription" /> 
+  <meta content="2018-01-18T11:19:16.072-0500" name="lastPublishExternalDate" /> 
+  <meta content="2018-01-19T19:07:34.604-0500" name="jcr:created" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="Custom Node Types" name="jcr:title" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/custom-nodetypes.html" name="publishExternalURL" /> 
+  <meta content="2017-10-31T16:17:09.507-0400" name="firstPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>As CQ is based on Sling and uses a JCR repository, node types offered by both of these are available for use:<br /> </p> 
+  <ul> 
+   <li><a href="http://www.day.com/specs/jcr/2.0/3_Repository_Model.html#NodeTypes">JCR Node Types</a></li> 
+   <li><a href="https://cwiki.apache.org/confluence/display/SLING/Sling+Node+Types">Sling Node Types</a></li> 
+  </ul> 
+  <p>In addition to these. CQ provides a range of custom node types.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:20.869-0500" type="remark"> 
+   <p>Taken from the CQ 5.3.0 branch (and compared with current versions):</p> 
+   <ul> 
+    <li>http://svn.day.com/view/svn/cq5/trunk/content/jcr_root/libs/.../*.cnd</li> 
+   </ul> 
+   <p>A tool to generate the docu automatically (isn't standard javadocs) would be good - but not all comments use the same formatting (and proof-reading is good too). Currently using awk and sed to extract relevant information.<br /> </p> 
+   <p>Updates encountered for 5.4 are currently set as draft.<br /> </p> 
+   <p>Need confirmation of status on some node types flagged as ToDo.<br /> </p> 
+  </draft-comment> 
+  <h2>Audit</h2> 
+  <h3>cq:AuditEvent</h3> 
+  <p><strong>Description</strong> Defines the node type of an audit event node.</p> 
+  <ul> 
+   <li>@prop cq:time</li> 
+   <li>@prop cq:userid</li> 
+   <li>@prop cq:path</li> 
+   <li>@prop cq:type</li> 
+   <li>@prop cq:category</li> 
+   <li>@prop cq:properties<br /> <br /> </li> 
+  </ul> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:20.963-0500" type="remark"> 
+   <p>Description needs more detail from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:AuditEvent] - * (undefined) - * (undefined) multiple + * (nt:base) = nt:base multiple version - cq:time (date) - cq:userid (string) - cq:path (string) - cq:type (string) - cq:category (string) - cq:properties (binary)</p> 
+  <draft-comment type="draft"> 
+   <h2>Calendar</h2> 
+  </draft-comment> 
+  <draft-comment color="purple" lastModifiedBy="ims-author-D9FB647253FD17BE0A4C98A6@AdobeID" lastModifiedDate="2018-01-18T11:19:21.036-0500" type="remark"> 
+   <p>Calendar mixin as a marker for calendar subtrees.</p> 
+   <p>Removed for <a href="https://jira.corp.adobe.com/browse/DOC-6415">DOC-6415</a></p> 
+   <p>5.6.1 (1.3.12) and 6.0 (1.5.124) have<br /> /libs/social/calendar/nodestypes/calendar.cnd<br /> cq:Calendar<br /> cq:CalendarComponent<br /> cq:CalendarEvent<br /> cq:CalendarRecurrence<br /> cq:CalendarRecurrenceRule<br /> cq:CalendarTodo<br /> cq:Alarm<br /> cq:CalendarAttendee</p> 
+   <p>6.1 GA (1.7.197) does not have calendar.cnd</p> 
+  </draft-comment> 
+  <h2>Comment</h2> 
+  <draft-comment color="purple" lastModifiedBy="ims-author-D9FB647253FD17BE0A4C98A6@AdobeID" lastModifiedDate="2018-01-18T11:19:21.082-0500" type="remark"> 
+   <p>UNSURE WHETHER THESE SHOULD BE UNDER<br /> develop/platform<br /> or<br /> develop/communities</p> 
+   <p>Updating per AEM 6.1 FP2 (1.8.269) /libs/social/commons/nodetypes/</p> 
+   <ul> 
+    <li>comments.cnd 
+     <ul> 
+      <li>removed cq:Rating per <a href="https://jira.corp.adobe.com/browse/CQ-39458">CQ-39458</a></li> 
+     </ul> </li> 
+    <li>commentscontent.cnd</li> 
+    <li>commentattachment.cnd</li> 
+    <li>location.cnd</li> 
+   </ul> 
+   <p> </p> 
+  </draft-comment> 
+  <h3>cq:Comment</h3> 
+  <p><strong>Description</strong> Defines the nodetype of a comment node.</p> 
+  <ul> 
+   <li>@prop userIdentifier<br /> The user identifier.</li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:Comment] &gt; mix:title, mix:created, mix:language, nt:unstructured, cq:Taggable - email (string) - ip (string) - referer (string) - url (string) - userAgent (string) - userIdentifier (string) - authorizableId (string)</p> 
+  <h3>cq:CommentAttachment</h3> 
+  <p><strong>Description</strong> Defines the nodetype of a commentattachment node</p> 
+  <p><strong>Definition</strong> [cq:CommentAttachment] &gt; nt:file - * (undefined) - * (undefined) multiple</p> 
+  <h3>cq:CommentContent</h3> 
+  <p><strong>Description</strong> Defines the nodetype of a comment content node</p> 
+  <p><strong>Definition</strong> [cq:Comment] &gt; mix:title, mix:created, mix:language, nt:unstructured, cq:Taggable - email (string) - ip (string) - referer (string) - url (string) - userAgent (string) - userIdentifier (string) - authorizableId (string)</p> 
+  <h3>cq:GeoLocation</h3> 
+  <p><strong>Description</strong> A mixin that defines a geographic location in decimal degrees (DD)</p> 
+  <ul> 
+   <li>@prop latitude<br /> latitude encoded as double using decimal degrees</li> 
+   <li>@prop longitude<br /> longitude encoded as double using decimal degrees</li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:GeoLocation] mixin - latitude (double) - longitude (double)</p> 
+  <h3>cq:Trackback</h3> 
+  <p><strong>Description</strong> Defines the node type of a trackback node.</p> 
+  <p><strong>Definition</strong> [cq:Trackback] &gt; mix:title, mix:created, mix:language, nt:unstructured</p> 
+  <draft-comment type="draft"> 
+   <h2>Content Sync</h2> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <h3>cq:ContentSyncConfig</h3> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p><strong>FOR CQ5.4</strong></p> 
+   <p><strong>Description</strong></p> 
+   <p></p> 
+   <p>Defines a CQ Content Sync Configuration.</p> 
+   <p></p> 
+   <p><strong>Definition</strong></p> 
+   <p></p> 
+   <p>[cq:ContentSyncConfig] &amp;gt; sling:Folder</p> 
+   <p></p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <h3>cq:ContentSyncHash</h3> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p><strong>FOR CQ 5.4</strong></p> 
+   <p><strong>Description</strong></p> 
+   <p></p> 
+   <p>Defines a mixin that adds a md5 hash.<br /> </p> 
+   <ul> 
+    <li>@prop md5<br /> MD5 hash as hex string.<br /> </li> 
+   </ul> 
+   <p></p> 
+   <p><strong>Definition</strong></p> 
+   <p></p> 
+   <p>[cq:ContentSyncHash] mixin<br /> - md5 (string) copy</p> 
+   <p></p> 
+  </draft-comment> 
+  <h2>Core</h2> 
+  <h3>cq:Page</h3> 
+  <p><strong>Description</strong> Defines the default CQ page.</p> 
+  <ul> 
+   <li>@node jcr:content<br /> Primary content of the page.</li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:Page] &gt; nt:hierarchyNode orderable + jcr:content (nt:base) = nt:unstructured copy primary + * (nt:base) = nt:base version</p> 
+  <h3>cq:PseudoPage</h3> 
+  <p><strong>Description</strong> Defines a mixin type that marks nodes as pseudo pages. This means they can be adapted for Page and WCM editing support.</p> 
+  <p><strong>Definition</strong> [cq:PseudoPage] mixin</p> 
+  <h3>cq:PageContent</h3> 
+  <p><strong>Description</strong> Defines the default node for page content, with the minimum properties as used by WCM.</p> 
+  <ul> 
+   <li>@prop jcr:title<br /> Title for the page.</li> 
+   <li>@prop jcr:description<br /> Description of this page.</li> 
+   <li>@prop cq:template<br /> Path to the template used to create the page.</li> 
+   <li>@prop cq:allowedTemplates<br /> List of regular expressions used to determine the path(s) to allowed template.</li> 
+   <li>@prop pageTitle<br /> Title usually displayed in the &lt;title&gt; tag.</li> 
+   <li>@prop navTitle<br /> Title usually used in navigation.</li> 
+   <li>@prop hideInNav<br /> Specifies whether the page should be hidden in the navigation.</li> 
+   <li>@prop onTime<br /> Time when this page becomes valid.</li> 
+   <li>@prop offTime<br /> Time when this page becomes invalid.</li> 
+   <li>@prop cq:lastModified<br /> Date the page (or its paragraphs) was last modified.</li> 
+   <li>@prop cq:lastModifiedBy<br /> Last user to change the page (or its paragraphs).</li> 
+   <li>@prop jcr:language<br /> The language of page content.</li> 
+  </ul> 
+  <note> 
+   <p>It is not compulsory for page content to use this type.</p> 
+  </note> 
+  <p><strong>Definition</strong> [cq:PageContent] &gt; nt:unstructured, mix:title, mix:created, cq:OwnerTaggable, sling:VanityPath, cq:ReplicationStatus, sling:Resource orderable - cq:template (string) - cq:allowedTemplates (string) multiple - pageTitle (string) - navTitle (string) - hideInNav (boolean) - onTime (date) - offTime (date) - cq:lastModified (date) - cq:lastModifiedBy (string) - cq:designPath (string) - jcr:language (string)</p> 
+  <h3>cq:Template</h3> 
+  <p><strong>Description</strong> Defines a CQ template.</p> 
+  <ul> 
+   <li>@node jcr:content<br /> Default content for new pages.</li> 
+   <li>@node icon.png<br /> A file that holds a characteristic icon.</li> 
+   <li>@node thumbnail.png<br /> A file that holds a characteristic thumbnail image.</li> 
+   <li>@node workflows<br /> Auto assign workflow configuration. The configuration will follow the structure below:<br /> + workflows<br /> + name1<br /> - cq:path<br /> - cq:workflowName</li> 
+   <li>@prop allowedParents<br /> Regular expression patterns to determine the path(s) to templates allowed as parent templates.</li> 
+   <li>@prop allowedChildren<br /> Regular expression patterns to determine the path(s) to templates allowed as child templates.</li> 
+   <li>@prop ranking<br /> Position within the list of templates in the create page dialog.<br /> </li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:Template] &gt; nt:hierarchyNode, mix:title - * (undefined) - * (undefined) multiple + * (nt:base) = nt:base multiple version + jcr:content (nt:base) copy + icon.png (nt:file) copy + thumbnail.png (nt:file) copy + workflows (nt:base) copy - allowedParents (string) multiple - allowedChildren (string) multiple - ranking (long)</p> 
+  <h3>cq:Component</h3> 
+  <p><strong>Description</strong> Defines a CQ component.</p> 
+  <ul> 
+   <li>@prop jcr:title <br /> Title for the component.</li> 
+   <li>@prop jcr:description <br /> Description of the component.</li> 
+   <li>@node dialog <br /> Primary dialog.</li> 
+   <li>@prop dialogPath<br /> Primary dialog path (alternative to dialog).</li> 
+   <li>@node design_dialog <br /> Design dialog.</li> 
+   <li>@prop cq:cellName <br /> Name of the design cell.</li> 
+   <li>@prop cq:isContainer <br /> Indicates whether this is a container component. This forces the cell names of child components to be used instead of path names. For example, the <span class="code">parsys</span> is a container component. If this value is not defined, the check is made based on the existence of a <span class="code">cq:childEditConfig</span>.</li> 
+   <li>@prop cq:noDecoration <br /> If true, no decoration <span class="code">div</span> tags are drawn when including this component.</li> 
+   <li>@node cq:editConfig <br /> The configuration that defines the parameters for the edit bar.</li> 
+   <li>@node cq:childEditConfig<br /> The edit configuration that is inherited by child components.</li> 
+   <li>@node cq:htmlTag <br /> Defines additional tag attributes that are added to the "surrounding" <span class="code">div</span> tag when the component is included.</li> 
+   <li>@node icon.png <br /> A file that holds a characteristic icon.</li> 
+   <li>@node thumbnail.png <br /> A file that holds a characteristic thumbnail image.</li> 
+   <li>@prop allowedParents <br /> Regular expression patterns to determine the path(s) of components that are allowed as parent components.</li> 
+   <li>@prop allowedChildren<br /> Regular expression patterns to determine the path(s) of components that are allowed as child components.</li> 
+   <li>@node virtual <br /> Contains subnodes that reflect virtual components used for the component drag and drop.</li> 
+   <li>@prop componentGroup<br /> Name of the component group, used for the component drag and drop.</li> 
+   <li>@node cq:infoProviders <br /> Contains subnodes, each of which has a property <span class="code">className</span> that refers to a <span class="code">PageInfoProvider</span>.</li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:Component] &gt; nt:folder, mix:title, sling:ResourceSuperType - * (undefined) - * (undefined) multiple + * (nt:base) = nt:base multiple version + dialog (nt:base) = nt:unstructured copy - dialogPath (string) + design_dialog (nt:base) = nt:unstructured copy - cq:cellName (string) - cq:isContainer (boolean) - cq:noDecoration (boolean) + cq:editConfig (cq:EditConfig) = cq:EditConfig copy + cq:childEditConfig (cq:EditConfig) = cq:EditConfig copy + cq:htmlTag (nt:base) = nt:unstructured copy + icon.png (nt:file) copy + thumbnail.png (nt:file) copy - allowedParents (string) multiple - allowedChildren (string) multiple + virtual (nt:base) = sling:Folder copy - componentGroup (string) + cq:infoProviders (nt:base) = nt:unstructured copy</p> 
+  <h3>cq:ComponentMixin</h3> 
+  <p><strong>Description</strong> Defines a CQ Component as mixin type.</p> 
+  <p><strong>Definition</strong> [cq:ComponentMixin] &gt; cq:Component mixin</p> 
+  <h3>cq:EditConfig</h3> 
+  <p><strong>Description</strong> Defines the configuration for the "editbar".</p> 
+  <ul> 
+   <li>@prop cq:dialogMode<br /> Mode of the dialog: 
+    <ul> 
+     <li><span class="code">floating</span> - for a normal, floating dialog</li> 
+     <li><span class="code">inline</span> - inline editing</li> 
+     <li><span class="code">auto</span> - automatic detection (depending on available space)</li> 
+    </ul> </li> 
+   <li>@node cq:inplaceEditing <br /> Inplace editing configuration for this component.</li> 
+   <li>@prop cq:layout <br /> Layout of the edit bar: 
+    <ul> 
+     <li><span class="code">editbar</span> - edit bar</li> 
+     <li><span class="code">rollover</span> - roll over frame</li> 
+     <li><span class="code">auto</span> - automatic detection</li> 
+    </ul> </li> 
+   <li>@node cq:formParameters <br /> Additional parameters to add to the dialog form.</li> 
+   <li>@prop cq:actions <br /> List of actions (edit bar buttons, or menu items).</li> 
+   <li>@node cq:actionConfigs <br /> Widget configurations for edit bar or menu items.</li> 
+   <li>@prop cq:emptyText <br /> Text to be displayed if no visual content is present.</li> 
+   <li>@node cq:dropTargets <br /> Collection of <span class="code">{@link cq:DropTargetConfig}</span> nodes. <br /> </li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:EditConfig] &gt; nt:unstructured, nt:hierarchyNode orderable - cq:dialogMode (string) &lt; 'auto', 'floating', 'inline' - cq:layout (string) &lt; 'editbar', 'rollover', 'auto' + cq:formParameters (nt:base) = nt:unstructured - cq:actions (string) multiple + cq:actionConfigs (nt:base) = nt:unstructured - cq:emptyText (string) + cq:dropTargets (nt:base) = nt:unstructured + cq:listeners (nt:base) = cq:EditListenersConfig</p> 
+  <draft-comment type="draft"> 
+   <p><strong>For CQ5.4</strong></p> 
+   <p> after dialogMode:</p> 
+   <p> + cq:inplaceEditing (cq:InplaceEditingConfig) = cq:InplaceEditingConfig<br /> </p> 
+  </draft-comment> 
+  <h3>cq:DropTargetConfig</h3> 
+  <p><strong>Description</strong> Configures one drop target of a component. The name of the this node will be used as an ID for drag and drop.</p> 
+  <ul> 
+   <li>@prop accept <br /> List of mime types accepted by this drop target; e.g. <span class="code">["image/*"]</span></li> 
+   <li>@prop groups <br /> List of drag and drop groups that accept a source.</li> 
+   <li>@prop propertyName <br /> Name of the property used to store the reference.<br /> </li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:DropTargetConfig] &gt; nt:unstructured orderable - accept (string) multiple - groups (string) multiple - propertyName (string) + parameters (nt:base) = nt:unstructured</p> 
+  <draft-comment type="draft"> 
+   <h3>cq:InplaceEditingConfig</h3> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p><strong>For CQ 5.4</strong></p> 
+   <p><strong>Description</strong></p> 
+   <p></p> 
+   <p>Configures inplace editing of a component.</p> 
+   <ul> 
+    <li>@prop active<br /> True to activate inplace editing for the component.</li> 
+    <li>@prop editorType<br /> ID of the inplace editor to be used.</li> 
+    <li>@prop configPath<br /> Path to the configuration of the editor (optional).</li> 
+    <li>@node config<br /> Configuration of the editor (used if no configPath is specified; optional).<br /> </li> 
+   </ul> 
+   <p></p> 
+   <p><strong>Definition</strong></p> 
+   <p><code class="code">[cq:InplaceEditingConfig] &amp;gt; nt:unstructured
+     <discoiqbr /> - active (boolean)
+     <discoiqbr /> - editorType (string)
+     <discoiqbr /> - configPath (string)
+     <discoiqbr /> + config (nt:unstructured) = nt:unstructured</code></p> 
+  </draft-comment> 
+  <h3>cq:VirtualComponent</h3> 
+  <p><strong>Description</strong> Defines a virtual CQ component. These are currently used only for the new component drag and drop wizard.</p> 
+  <ul> 
+   <li>@prop jcr:title <br /> Title of this component.</li> 
+   <li>@prop jcr:description <br /> Description of this component.</li> 
+   <li>@node cq:editConfig <br /> Edit configuration that defines the parameters for the edit bar.</li> 
+   <li>@node cq:childEditConfig <br /> Edit configuration that is inherited by child components.</li> 
+   <li>@node icon.png<br /> A file that holds a characteristic icon.</li> 
+   <li>@node thumbnail.png <br /> A file that holds a characteristic thumbnail image.</li> 
+   <li>@prop allowedParents <br /> Regular expression patterns to determine path(s) of components that are allowed as parent components.</li> 
+   <li>@prop allowedChildren<br /> Regular expression patterns to determine path(s) of components that are allowed as child components.</li> 
+   <li>@prop componentGroup <br /> Name of the component group for the component drag and drop.<br /> </li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:VirtualComponent] &gt; nt:folder, mix:title - * (undefined) - * (undefined) multiple + * (nt:base) = nt:base multiple version + cq:editConfig (cq:EditConfig) = cq:EditConfig copy + icon.png (nt:file) copy + thumbnail.png (nt:file) copy - allowedParents (string) multiple - allowedChildren (string) multiple - componentGroup (string)</p> 
+  <h3>cq:EditListenersConfig</h3> 
+  <p><strong>Description</strong> Defines the (client side) listeners to be executed on an edit event. The values must either reference a valid client side listener function or contain a predefined shortcut:</p> 
+  <ul> 
+   <li>REFRESH_PAGE</li> 
+   <li>REFRESH_SELF</li> 
+   <li>REFRESH_PARENT<br /> </li> 
+  </ul> 
+  <p> </p> 
+  <ul> 
+   <li>@prop aftercreate <br /> Fires after a component has been created.</li> 
+   <li>@prop afteredit <br /> Fires after a component has been edited (modified).</li> 
+   <li>@prop afterdelete <br /> Fires after a component has been deleted.</li> 
+   <li>@prop afterinsert <br /> Fires after a component has been added to this container.</li> 
+   <li>@prop afterremove <br /> Fires after a component has been removed from this container.</li> 
+   <li>@prop aftermove <br /> Fires after components have been moved in this container.<br /> </li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:EditListenersConfig] - * (undefined) - * (undefined) multiple + * (nt:base) = nt:base multiple version - aftercreate (string) - afteredit (string) - afterdelete (string) - afterinsert (string) - afterremove (string) - aftermove (string)</p> 
+  <h2>DAM</h2> 
+  <h3>dam:AssetContent</h3> 
+  <p><strong>Description</strong> Content of a DAM asset.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:22.647-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [dam:AssetContent] &gt; nt:unstructured + metadata (nt:unstructured) + renditions (nt:folder)</p> 
+  <h3>dam:Asset</h3> 
+  <p><strong>Description</strong> DAM asset.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:22.743-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [dam:Asset] &gt; nt:hierarchyNode + jcr:content (dam:AssetContent) = dam:AssetContent copy primary + * (nt:base) = nt:base version</p> 
+  <h3>dam:Thumbnail</h3> 
+  <p><strong>Description</strong> Thumbnail to represent a DAM asset.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:22.835-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [dam:Thumbnails] mixin + dam:thumbnails (nt:folder)</p> 
+  <h2>Delivery Container List</h2> 
+  <h3>cq:containerList</h3> 
+  <p><strong>Description</strong> Container List.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:22.958-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:containerList] mixin</p> 
+  <h2>Delivery Page</h2> 
+  <h3>cq:Cq4PageAttributes</h3> 
+  <p><strong>Description</strong> cq:attributes is the node type for the ContentBus version tags. This node only has a series of properties; of which three are predefined "created", "csd", and "timestampe".</p> 
+  <ul> 
+   <li>@prop created (long) mandatory copy<br /> Timestamp of creation of the version information, generally the time of checkin of the previous version or time of page creation.</li> 
+   <li>@prop csd (string) mandatory copy<br /> csd standard attribute, copy of the cq:csd property of the page node</li> 
+   <li>@prop timestampe (long) mandatory copy<br /> Timestamp of last version modification, generally checkin time.</li> 
+   <li>@prop * (string) copy<br /> Additional attributes, versioned with the parent node.</li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:Cq4PageAttributes] &gt; nt:base - created (long) mandatory copy - csd (string) mandatory copy - timestampe (long) mandatory copy - * (string) copy</p> 
+  <h3>cq:Cq4ContentPage</h3> 
+  <p><strong>Description</strong> The node type cq:contentPage contains the property and child node definitions for ContentBus content pages. Only when this mixin type is added to a node of type "cq:page", a node becomes a ContentBus content page.</p> 
+  <p>The items in a "cq:Cq4ContentPage" are:</p> 
+  <ul> 
+   <li>@prop cq:csd<br /> The ContentBus CSD of the page.</li> 
+   <li>@node cq:content<br /> The content of the page. This child node does not exist if the page node is in state "Existing without content" or "Deleted".</li> 
+   <li>@node cq:attributes<br /> The list of page attributes, which were formerly known as version tags. This node is mandatory for the cq:contentPage type. The attrbutes node is versioned, when the page is node is versioned.<br /> </li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:Cq4ContentPage] - cq:csd (string) mandatory copy + cq:attributes (cq:Cq4PageAttributes)</p> 
+  <h2>Importer</h2> 
+  <h3>cq:PollConfig</h3> 
+  <p><strong>Description</strong> Poll configuration.</p> 
+  <ul> 
+   <li>@prop source (String) mandatory<br /> Data source URI, this is required and must not be empty</li> 
+   <li>@prop target (String)<br /> The target location where data retrieved from the data source is stored. This is optional and defaults to the cq:PollConfig node.</li> 
+   <li>@prop interval (Long)<br /> The interval in seconds at which to poll for new or updated data from the data source. This is optional and defaults to 30 Minutes (1800 seconds).<br /> </li> 
+   <li><a href="/content/help/en/experience-manager/using/polling">Creating Custom Data Importer Services for Adobe Experience Manager</a></li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:PollConfig] mixin - source (String) mandatory - target (String) - interval (Long)</p> 
+  <h3>cq:PollConfigFolder</h3> 
+  <p><strong>Description</strong> Convenience primary node type to easily create poll configuration nodes.</p> 
+  <p><strong>Definition</strong> [cq:PollConfigFolder] &gt; sling:Folder, cq:PollConfig</p> 
+  <h2>Location</h2> 
+  <h3>cq:GeoLocation</h3> 
+  <p><strong>Description</strong> A mixin that defines a geographic location in decimal degrees (DD).</p> 
+  <ul> 
+   <li>@prop latitude <br /> Latitude encoded as double using decimal degrees.</li> 
+   <li>@prop longitude <br /> Longitude encoded as double using decimal degrees.<br /> </li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:GeoLocation] mixin - latitude (double) - longitude (double)</p> 
+  <h2>Mailer</h2> 
+  <h3>cq:mailerMessage</h3> 
+  <p><strong>Description</strong> MailerService nodetypes. The mailer uses nodes having this mixin as root nodes of message definitions.</p> 
+  <p><strong>Definition</strong> [cq:mailerMessage] mixin - messageStatus (string) = 'new' mandatory autocreated</p> 
+  <h2>MSM</h2> 
+  <h3>cq:LiveRelationship</h3> 
+  <p><strong>Description</strong> Defines a LiveRelationship mixin. A master node and a slave node can be virtually linked through a LiveRelationship.</p> 
+  <p><strong>Definition</strong> [cq:LiveRelationship] mixin - cq:lastRolledout (date) - cq:lastRolledoutBy (string) - cq:sourceUUID (string)</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:23.597-0500" type="remark"> 
+   <p>remove sourceUUID for CQ 5.4<br /> </p> 
+  </draft-comment> 
+  <h3>cq:LiveSync</h3> 
+  <p><strong>Description</strong> Defines a LiveSync mixin. If a node is involved in a LiveRelationship with a master node as a slave, it is marked a LiveSync.</p> 
+  <ul> 
+   <li>@prop cq:master <br /> Path of the master node of the LiveRelationship.</li> 
+   <li>@prop cq:isDeep <br /> Defines if the relationship is available for children.</li> 
+   <li>@prop cq:syncTrigger <br /> Defines when is triggered the sync.</li> 
+   <li>@node * LiveSyncAction <br /> Actions to perform on sync<br /> <br /> </li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:LiveSync] &gt; cq:LiveRelationship mixin orderable + * (cq:LiveSyncAction) = cq:LiveSyncAction + cq:LiveSyncConfig (nt:base) = cq:LiveSyncConfig</p> 
+  <h3>cq:LiveSyncCancelled</h3> 
+  <p><strong>Description</strong> Defines a LiveSyncCancelled mixin. Cancel the LiveSync behavior of a slave node which may be involded in a LiveRelationship owing to one of its parents.</p> 
+  <ul> 
+   <li>@prop cq:isCancelledForChildren <br /> Defines whether a LiveSync is cancelled; also for children.<br /> </li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:LiveSyncCancelled] &gt; cq:LiveRelationship mixin - cq:isCancelledForChildren (boolean)</p> 
+  <h3>cq:LiveSyncAction</h3> 
+  <p><strong>Description</strong> Defines a LiveSyncAction attached to a LiveSync.</p> 
+  <ul> 
+   <li>@prop name <br /> Action name.</li> 
+   <li>@prop value <br /> Action value.</li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:LiveSyncAction] &gt; nt:unstructured</p> 
+  <h3>cq:LiveSyncConfig</h3> 
+  <p><strong>Description</strong> Live Sync configuration.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:24.024-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:LiveSyncConfig] - cq:master (string) mandatory - cq:isDeep (boolean) - cq:trigger (string) /** deprecated **/</p> 
+  <p>For CQ 5.4 add to the end of list:</p> 
+  <p><span class="code"> - cq:rolloutConfigs (string) multiple deprecated **/</span></p> 
+  <h3>cq:BlueprintAction</h3> 
+  <p><strong>Description</strong> Blueprint action.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:24.135-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:BlueprintAction] &gt; nt:unstructured</p> 
+  <draft-comment type="draft"> 
+   <h3>cq:BlueprintSyncConfig</h3> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p><strong>FOR CQ 5.4</strong></p> 
+   <p><strong>Description</strong></p> 
+   <p></p> 
+   <p>Blueprint Sync configuration.<br /> </p> 
+   <p></p> 
+   <p></p> 
+   <p><strong>Remark</strong> by Alison Heimoz (aheimoz) on Fri, 8 Oct 2010, 00:29:38 EDT<br /> </p> 
+   <p>Need definition from RnD.<br /> </p> 
+   <p></p> 
+   <p></p> 
+   <p><strong>Definition</strong></p> 
+   <p></p> 
+   <p>[cq:BlueprintSyncConfig] &amp;gt; nt:unstructured<br /> - cq:rolloutConfigs (string) multiple</p> 
+   <p></p> 
+  </draft-comment> 
+  <h2>Platform</h2> 
+  <h3>cq:Console</h3> 
+  <p><strong>Description</strong> Defines the nodetype of a console node.</p> 
+  <p><strong>Definition</strong> [cq:Console] &gt; sling:VanityPath, mix:title mixin</p> 
+  <h2>Replication</h2> 
+  <h3>cq:ReplicationStatus</h3> 
+  <p><strong>Description</strong> Defines replication status information mixin.</p> 
+  <ul> 
+   <li>@prop cq:lastPublished <br /> The date the page was last published (not used anymore).</li> 
+   <li>@prop cq:lastPublishedBy <br /> The user who published the page last (not used anymore).</li> 
+   <li>@prop cq:lastReplicated <br /> The date the page was last replicated.</li> 
+   <li>@prop cq:lastReplicatedBy <br /> The user that replicated the page last.</li> 
+   <li>@prop cq:lastReplicationAction <br /> The replication action: activate or deactivate.</li> 
+   <li>@prop cq:lastReplicationStatus <br /> The replication status (not used anymore).<br /> </li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:ReplicationStatus] mixin - cq:lastPublished (date) ignore - cq:lastPublishedBy (string) ignore - cq:lastReplicated (date) ignore - cq:lastReplicatedBy (string) ignore - cq:lastReplicationAction (string) ignore - cq:lastReplicationStatus (string) ignore</p> 
+  <h2>Security</h2> 
+  <h3>cq:ApplicationPrivilege</h3> 
+  <p><strong>Description</strong> Defines an application privilege.</p> 
+  <p><strong>Definition</strong> [cq:ApplicationPrivilege] mixin</p> 
+  <h3>cq:PrivilegeAcl</h3> 
+  <p><strong>Description</strong> Defines an application privilege ACL.</p> 
+  <ul> 
+   <li>@prop cq:isPathDependent</li> 
+   <li>@node * ACEs<br /> </li> 
+  </ul> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:24.599-0500" type="remark"> 
+   <p>Need more detailed definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:PrivilegeAcl] &gt; cq:ApplicationPrivilege mixin orderable - cq:isPathDependent (boolean) + * (cq:PrivilegeAce) = cq:PrivilegeAce</p> 
+  <h3>cq:PrivilegeAce</h3> 
+  <p><strong>Description</strong> Defines an application privilege ACE.</p> 
+  <ul> 
+   <li>@prop path</li> 
+   <li>@prop deny</li> 
+  </ul> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:24.689-0500" type="remark"> 
+   <p>Need more detailed definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:PrivilegeAce] - path mandatory - deny (boolean)</p> 
+  <h3>cq:ApplicationPrivilege</h3> 
+  <p><strong>Description</strong> Defines an application privilege.</p> 
+  <p><strong>Definition</strong> [cq:ApplicationPrivilege] mixin</p> 
+  <h3>cq:PrivilegeAcl</h3> 
+  <p><strong>Description</strong> Defines an application privilege ACL.</p> 
+  <ul> 
+   <li>@prop cq:isPathDependent</li> 
+   <li>@node * ACEs<br /> </li> 
+  </ul> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:24.862-0500" type="remark"> 
+   <p>Need more detailed definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:PrivilegeAcl] &gt; cq:ApplicationPrivilege mixin orderable - cq:isPathDependent (boolean) + * (cq:PrivilegeAce) = cq:PrivilegeAce</p> 
+  <h3>cq:PrivilegeAce</h3> 
+  <p><strong>Description</strong> Defines an application privilege ACE.</p> 
+  <ul> 
+   <li>@prop path</li> 
+   <li>@prop deny</li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:PrivilegeAce] - path mandatory - deny (boolean)</p> 
+  <h2>Site Importer</h2> 
+  <h3>cq:ComponentExtractorSource</h3> 
+  <p><strong>Description</strong> Defines a mixin type that marks files that can be opened with component extractor.</p> 
+  <p><strong>Definition</strong> [cq:ComponentExtractorSource] mixin</p> 
+  <h2>Tagging</h2> 
+  <h3>cq:Tag</h3> 
+  <p><strong>Description</strong> Defines a single tag, but can also contain tags, thus creating a taxonomy</p> 
+  <p><strong>Definition</strong> [cq:Tag] &gt; nt:base, mix:title - sling:resourceType (String) - * (undefined) multiple - * (undefined) + * (nt:base) = cq:Tag version</p> 
+  <h3>cq:Taggable</h3> 
+  <p><strong>Description</strong> Abstract base mixin for taggable content.</p> 
+  <ul> 
+   <li>@node cq:tags</li> 
+  </ul> 
+  <p><strong>Definition</strong> [cq:Taggable] - cq:tags (string) multiple</p> 
+  <h3>cq:OwnerTaggable</h3> 
+  <p><strong>Description</strong> Only authors/owners are allowed to tag the content (moderated/administered tagging).</p> 
+  <p><strong>Definition</strong> [cq:OwnerTaggable] &gt; cq:Taggable</p> 
+  <h3>cq:UserTaggable (ToDo)</h3> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:25.480-0500" type="remark"> 
+   <p>is this active or todo for 5.3?<br /> </p> 
+  </draft-comment> 
+  <p><strong>Description</strong> Any user/public website can tag the content (Web2.0 style), used inside cq:userContent.</p> 
+  <p><strong>Definition</strong> [cq:UserTaggable] &gt; cq:Taggable mixin</p> 
+  <h3>cq:AllowsUserContent</h3> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:25.586-0500" type="remark"> 
+   <p>is this active or todo for 5.3?<br /> </p> 
+  </draft-comment> 
+  <p><strong>Description</strong> Adds a cq:userContent subnode that can be modified by users; each user will have their own cq:userContent/&lt;userid&gt; subnode, that typically has the mixin cq:UserTaggable.</p> 
+  <p><strong>Definition</strong> [cq:AllowsUserContent] mixin + cq:userContent (nt:unstructured)</p> 
+  <p><span class="code">TODO: extended variant, more explicitly defining the cq:userContent tree</span></p> 
+  <p><code class="code">[cq:AllowsUserContent]
+    <discoiqbr /> mixin
+    <discoiqbr /> + cq:userContent (cq:UserContent)</code></p> 
+  <p><span class="code"></span><span class="code"></span></p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:25.655-0500" type="remark"> 
+   <p>ToDo by when? Leave in or remove from here.<br /> </p> 
+  </draft-comment> 
+  <h3>cq:UserContent</h3> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:25.700-0500" type="remark"> 
+   <p>is this active or todo for 5.3?<br /> </p> 
+  </draft-comment> 
+  <p><strong>Description</strong> Can be modified by users.</p> 
+  <p><strong>Definition</strong> [cq:UserContent] &gt; nt:unstructured // userids + * (cq:UserData) // other content + * (nt:base)</p> 
+  <h3>cq:UserData</h3> 
+  <p><strong>Description</strong> User data.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:25.818-0500" type="remark"> 
+   <p>is this active or todo for 5.3?<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:UserData] &gt; nt:unstructured, cq:UserTaggable</p> 
+  <h2>Widgets</h2> 
+  <h3>cq:ClientLibraryFolder</h3> 
+  <p><strong>Description</strong> Client library folder.</p> 
+  <p><strong>Definition</strong> [cq:ClientLibraryFolder] &gt; sling:Folder - categories (string) multiple - dependencies (string) multiple</p> 
+  <h3>cq:Widget</h3> 
+  <p><strong>Description</strong> Widget.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:26.003-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:Widget] &gt; nt:unstructured orderable - xtype (string) - name (string) - title (string) + items (nt:base) = cq:WidgetCollection copy</p> 
+  <h3>cq:WidgetCollection</h3> 
+  <p><strong>Description</strong> Widget collection.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:26.095-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:WidgetCollection] &gt; nt:unstructured orderable + * (cq:Widget) = cq:Widget copy</p> 
+  <h3>cq:Dialog</h3> 
+  <p><strong>Description</strong> Dialog.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:26.187-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:Dialog] &gt; cq:Widget orderable</p> 
+  <h3>cq:Panel</h3> 
+  <p><strong>Description</strong> Panel.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:26.297-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:Panel] &gt; cq:Widget orderable</p> 
+  <h3>cq:TabPanel</h3> 
+  <p><strong>Description</strong> Tab panel.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:26.407-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:TabPanel] &gt; cq:Panel orderable - activeTab (long)</p> 
+  <h3>cq:Field</h3> 
+  <p><strong>Description</strong> Field.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:26.554-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:Field] &gt; cq:Widget orderable - fieldLabel (string) - value (string) - ignoreData (boolean)</p> 
+  <h2>Wiki</h2> 
+  <h3>wiki:Topic</h3> 
+  <p><strong>Description</strong> Wiki topic.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:26.694-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [wiki:Topic] &gt; nt:unstructured, nt:hierarchyNode, mix:versionable, mix:lockable + * (wiki:Topic) version + wiki:attachments (nt:folder) = nt:folder version + wiki:properties (wiki:Properties) = wiki:Properties copy - wiki:text (string) mandatory primary - wiki:lastModified (date) mandatory - wiki:lastModifiedBy (string) mandatory - wiki:topicName - wiki:topicTitle - wiki:lockedBy - wiki:logMessage (string) - wiki:quietSave (boolean)</p> 
+  <h3>wiki:User</h3> 
+  <p><strong>Description</strong> Wiki user.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:26.799-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [wiki:User] mixin - wiki:subscriptions (string) multiple</p> 
+  <h3>wiki:Properties</h3> 
+  <p><strong>Description</strong> Wiki properties.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:26.910-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [wiki:Properties] - wiki:isGlobal (boolean) - * (undefined)</p> 
+  <h2>Workflow</h2> 
+  <h3>cq:Workflow</h3> 
+  <p><strong>Description</strong> Represents a workflow instance.</p> 
+  <p><strong>Definition</strong> [cq:Workflow] &gt; nt:base, mix:referenceable - modelId (String) - modelVersion (String) - startTime (Date) - endTime (Date) - initiator (String) - * (undefined) - * (undefined) multiple - sling:resourceType (String) = "cq/workflow/components/instance" mandatory autocreated + workflowStack (nt:unstructured) + wait (nt:unstructured) + orTab (nt:unstructured) + data (cq:WorkflowData) + history (nt:unstructured) + metaData (nt:unstructured) + workItems (nt:unstructured)</p> 
+  <h3>cq:WorkItem</h3> 
+  <p><strong>Description</strong> Work item.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:27.174-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:WorkItem] - assignee (String) - workflowId (String) - nodeId (String) - startTime (Date) - endTime (Date) - dueTime (Date) - sling:resourceType (String) = "cq/workflow/components/workitem" mandatory autocreated + metaData (nt:unstructured)</p> 
+  <h3>cq:Payload</h3> 
+  <p><strong>Description</strong> Payload.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:27.278-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:Payload] - path (Path) - uuid (String) - jcr:url (String) - binary (Binary) - javaObject (String) - * (undefined) - * (undefined) multiple</p> 
+  <h3>cq:WorkflowData</h3> 
+  <p><strong>Description</strong> Workflow data.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:27.377-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:WorkflowData] - * (undefined) - * (undefined) multiple + payload (cq:Payload) + metaData (nt:unstructured) copy</p> 
+  <h3>cq:WorkflowModel</h3> 
+  <p><strong>Description</strong> Auto assign workflow configuration. The configuration will follow this structure below: workflows + name1 - cq:path - cq:workflowName + workflows (nt:base)</p> 
+  <p><strong>Definition</strong> [cq:WorkflowModel] &gt; nt:base, mix:versionable orderable - title (String) - description (String) - sling:resourceType (String) = "cq/workflow/components/model" mandatory autocreated + nodes (nt:unstructured) copy + transitions (nt:unstructured) copy + metaData (nt:unstructured) copy</p> 
+  <h3>cq:WorkflowNode</h3> 
+  <p><strong>Description</strong> Workflow node.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:27.564-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:WorkflowNode] orderable - title (String) - description (String) - maxIdleTime (long) - type (String) - * (undefined) - * (undefined) multiple + metaData (nt:unstructured) copy + timeoutConfiguration (nt:unstructured) copy</p> 
+  <h3>cq:WorkflowTransition</h3> 
+  <p><strong>Description</strong> Workflow transition.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:27.654-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:WorkflowTransition] orderable - from (String) - to (String) - rule (String) + metaData (nt:unstructured) copy</p> 
+  <h3>cq:OrTab</h3> 
+  <p><strong>Description</strong> Or tab.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:27.745-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:OrTab] - workflowId (String) // not compulsory as this node will already be attached to the workflow node - nodeId (String)</p> 
+  <h3>cq:Wait</h3> 
+  <p><strong>Description</strong> Wait.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:27.835-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:Wait] - workflowId (String) // not compulsory as this node will be already attached to the workflow node - destNodeId (String) - fromNodeId (String)</p> 
+  <h3>cq:WorkflowStack</h3> 
+  <p><strong>Description</strong> Workflow stack.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:27.926-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:WorkflowStack] - containeeInstanceId (String) - parentInstanceId (String) - nodeId (String)</p> 
+  <h3>cq:ProcessStack</h3> 
+  <p><strong>Description</strong> Process stack.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:28.015-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:ProcessStack] - workflowId (String) // not compulsory as this node will be already attached to the workflow node - containerWorkflowModelId (String) - containerWorkflowNodeId - containerWorkflowEndNodeId // still needed (if name already defines that id)</p> 
+  <h3>cq:WorkflowLauncher</h3> 
+  <p><strong>Description</strong> Workflow launcher.</p> 
+  <draft-comment lastModifiedBy="aheimoz" lastModifiedDate="2018-01-18T11:19:28.107-0500" type="remark"> 
+   <p>Need definition from RnD.<br /> </p> 
+  </draft-comment> 
+  <p><strong>Definition</strong> [cq:WorkflowLauncher] - nodetype (String) - glob (String) - eventType (Long) - description (String) - condition (String) - workflow (String) - * (undefined) - * (undefined) multiple</p> 
+ </body> 
+</html>

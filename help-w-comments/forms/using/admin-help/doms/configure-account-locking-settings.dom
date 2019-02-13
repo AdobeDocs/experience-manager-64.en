@@ -1,0 +1,64 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="b3c76f9d-e337-4781-a9ac-3439e0db31e7" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-03T09:09:29.676-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-26T04:25:24.751-0400" name="cq:lastModified" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2016-02-05T03:27:13.281-0500" name="lr_lastModified" /> 
+  <meta content="181" name="acrolinxWords" /> 
+  <meta content="2016-04-20T09:59:27.499-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Use the Enable Account Locking option to lock user accounts after a specified number of consecutive authentication failures." name="seoDescription" /> 
+  <meta content="2017-10-31T16:32:37.041-0400" name="lastPublishExternalDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="13" name="acrolinxSentences" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configure_account_locking_settings_admin_5e12de0b318c6865_2268_report.xml" name="acrolinxReportURL" /> 
+  <meta content="Configure account-locking settings" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-31T16:32:37.041-0400" name="publishExternalDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-26T04:25:24.750-0400" name="locHandOffDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2016-05-31T06:53:19.019-0400" name="acrolinxDate" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7fe2.2" name="cq:gepId" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/setting_up_and_managing_domains;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="Configure account-locking settings" name="jcr:title" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2017-12-01T19:04:05.386-0500" name="jcr:created" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configure-account-locking-settings.html" name="publishExternalURL" /> 
+  <meta content="cce4f5d0-2dde-4903-8717-09d72bdd183d" name="jcr:uuid" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>When you add a domain, specify whether to enable account locking. When the Enable Account Locking option is selected, user accounts are locked after a specified number of consecutive authentication failures. After a specified length of time, the user can attempt to authenticate again. This feature prevents users from trying various credential combinations to access the system. </p> 
+  <p>Use settings on the Domain Management page to specify the maximum number of authentication failures and the length of time that accounts are locked. These settings apply to all domains that have account locking enabled.</p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Domain Management.</p></li> 
+   <li><p>In the Maximum Consecutive Authentication Failures box, enter the number of consecutive times a user can unsuccessfully attempt to log in before their account is locked. The default value is 20.</p></li> 
+   <li><p>In the Unlock The Account After (Minutes) box, enter the number of minutes that the user account is locked. After the specified number of minutes, the user can attempt to log in again. The default value is 30.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+ </body> 
+</html>

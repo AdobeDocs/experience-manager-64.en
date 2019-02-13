@@ -1,0 +1,110 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="How LC administrators can customize HTML WS to host two instances on a single server accessible via different URLs." name="seoDescription" /> 
+  <meta content="2013-07-06T01:52:01.848-0400" name="jcr:created" /> 
+  <meta content="2015-09-28T10:52:10.894-0400" name="lastPublishQADate" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/two-html-workspace-instances-one.html" name="publishQAURL" /> 
+  <meta content="0ca96ef4-cd9c-4838-a712-b0d8d7d30af9" name="jcr:predecessors" /> 
+  <meta content="Two HTML workspace instances one server" name="navTitle" /> 
+  <meta content="2013-07-06T03:00:10.330-0400" name="firstPublishQADate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/two-html-workspace-instances-one.html" name="publishExternalURL" /> 
+  <meta content="Hosting two AEM Forms workspace instances on one server" name="jcr:title" /> 
+  <meta content="2015-09-28T10:52:10.894-0400" name="publishQADate" /> 
+  <meta content="asgupta" name="jcr:createdBy" /> 
+  <meta content="2018-04-26T04:31:58.650-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-03T08:55:40.970-0400" name="cq:lastReplicated" /> 
+  <meta content="386" name="acrolinxWords" /> 
+  <meta content="09/06/13" name="locPublishDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="later" name="locPublishOption" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="b981f013-a7b2-440b-be18-4e2ec9e84f7c" name="jcr:uuid" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-26T04:31:58.649-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-03T08:55:40.814-0400" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2016-05-31T06:49:51.568-0400" name="acrolinxDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2018-04-03T08:55:40.814-0400" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2013-07-12T07:02:31.804-0400" name="firstPublishExternalDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/two_html_workspace_instances_one_admin_5e12de0b318c6865_2152_report.xml" name="acrolinxReportURL" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-03T08:55:40.814-0400" name="lastPublishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="32" name="acrolinxSentences" /> 
+ </head> 
+ <body> 
+  <p>The default installation and settings of AEM Forms allow for only one AEM Forms workspace to be available on the server. However, you may need to host two different instances of AEM Forms workspace on a single AEM Forms server. The two instances are accessbile by different URLs.</p> 
+  <p>AEM Forms administrators customize the workspace to create two different URLs and make two workspaces available on the same server. In this customization article, we assume the two workspaces are accessible at <span class="code">http://[server]:[port]/lc/ws</span> and <span class="code">http://[server]:[port]:/lc/ws2</span>.</p> 
+  <p>Follow these steps to configure AEM Forms workspace.</p> 
+  <ol> 
+   <li><p>Install the dev package of AEM Forms workspace on your server. See <a href="../../forms/using/introduction-customizing-html-workspace.md#main-pars-header-15">dev package</a>, for instructions to create it.</p> </li> 
+   <li><p>Login to CRXDE Lite as an administrator, by accessing <span class="code">http://[server]:[port]/lc/crx/de/index.jsp</span>.</p> </li> 
+   <li><p>Copy node ws at /content and paste at /content. Rename node to ws2. Click <span class="uicontrol">Save all</span>. In properties of this node, change value of <span class="code">sling:resourceType</span> to ws2. Click <span class="uicontrol">Save all</span>.<br /> </p> </li> 
+   <li><p>Copy folder ws from /libs and paste at /apps. Rename the folder to ws2. Click <span class="uicontrol">Save all</span>.</p> </li> 
+   <li><p>In <span class="code">GET.jsp</span> at <span class="code">/apps/ws2</span>, make the following code changes. Replace the following </p> 
+    <codeblock gutter="true" class="syntax plain">
+      &lt;html&amp;nbsp;lang="en"&gt;!!discoiqbr!!&lt;head&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;meta&amp;nbsp;charset="utf-8"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;title&gt;Workspace&amp;nbsp;Next&lt;/title&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;meta&amp;nbsp;http-equiv="refresh"&amp;nbsp;content="0;URL='/lc/libs/ws/index.html'"&amp;nbsp;/&gt;&lt;html&amp;nbsp;lang="en"&gt;!!discoiqbr!!&lt;head&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;meta&amp;nbsp;charset="utf-8"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;title&gt;Workspace&amp;nbsp;Next&lt;/title&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;meta&amp;nbsp;http-equiv="refresh"&amp;nbsp;content="0;URL='/lc/libs/ws/index.html'"&amp;nbsp;/&gt; 
+    </codeblock><p>with the following code<br /> </p> 
+    <codeblock gutter="true" class="syntax plain">
+      &lt;html&amp;nbsp;lang="en"&gt;!!discoiqbr!!&lt;head&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;meta&amp;nbsp;charset="utf-8"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;title&gt;Workspace&amp;nbsp;Next&lt;/title&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;meta&amp;nbsp;http-equiv="refresh"&amp;nbsp;content="0;URL='/lc/apps/ws2/index.html'"&amp;nbsp;/&gt; 
+    </codeblock></li> 
+   <li><p>In <span class="code">registry.js</span> at <span class="code">/apps/ws2/js</span>, change path of templates to refer to templates at <span class="code">/apps/ws2/js/runtime/templates</span>. Replace the following code<br /> </p> 
+    <codeblock gutter="true" class="syntax css">
+      "tasklist"&amp;nbsp;:&amp;nbsp;{!!discoiqbr!!"name":&amp;nbsp;"tasklist",!!discoiqbr!!"path":&amp;nbsp;"tasklistview",!!discoiqbr!!"model":&amp;nbsp;"tasklist",!!discoiqbr!!"template":&amp;nbsp;"text!/lc/libs/ws/js/runtime/templates/tasklist.html",!!discoiqbr!!"utility":&amp;nbsp;"utility",!!discoiqbr!!"view":&amp;nbsp;"taskview",!!discoiqbr!!"errorModel":&amp;nbsp;null!!discoiqbr!!} 
+    </codeblock><p>with the following code<br /> </p> 
+    <codeblock gutter="true" class="syntax css">
+      "tasklist"&amp;nbsp;:&amp;nbsp;{!!discoiqbr!!"name":&amp;nbsp;"tasklist",!!discoiqbr!!"path":&amp;nbsp;"tasklistview",!!discoiqbr!!"model":&amp;nbsp;"tasklist",!!discoiqbr!!"template":&amp;nbsp;"text!/lc/apps/ws2/js/runtime/templates/tasklist.html",!!discoiqbr!!"utility":&amp;nbsp;"utility",!!discoiqbr!!"view":&amp;nbsp;"taskview",!!discoiqbr!!"errorModel":&amp;nbsp;null!!discoiqbr!!} 
+    </codeblock></li> 
+   <li><p>In <span class="code">userinfo.js</span> at <span class="code">/apps/ws2/js/runtime/models</span> and <span class="code">/apps/ws2/js/runtime/views</span>, change string <span class="code">/lc/content/ws</span> to <span class="code">lc/content/ws2</span>.<br /> </p> </li> 
+   <li><p>In <span class="code">/apps/ws2/js/runtime/services/service.js</span>, change the path in <span class="code">getLocalizationData</span> function to point to <span class="code">/lc/apps/ws2/Locale.html</span>.<br /> </p> </li> 
+   <li><p>To refer to <span class="code">pdf.html</span> of the new Workspace, change the path of <span class="code">pdf.html</span> in <span class="code">/apps/ws2/js/runtime/views/forms/pdftaskform.js</span>.<br /> </p> </li> 
+   <li><p>To refer to <span class="code">pdf.html</span> of the new Workspace, change paths of <span class="code">pdf.html</span> and <span class="code">WsNextAdapter.swf</span> in <span class="code">startprocess.html</span>, <span class="code">taskdetails.html</span>, and <span class="code">processinstancehistory.html</span> at <span class="code">/apps/ws2/js/runtime/templates</span>.<br /> </p> </li> 
+   <li><p>Copy <span class="code">/etc/map/ws</span> folder and paste at <span class="code">/etc/map</span>. Rename the new folder to ws2. Click Save all.<br /> </p> </li> 
+   <li><p>In properties of <span class="code">ws2</span>, change value of <span class="code">sling:redirect</span> to <span class="code">content/ws2</span>.<br /> </p> </li> 
+   <li><p>Change value of <span class="code">sling:match</span> to <span class="code">^[^/\||]/[^/\||]/ws2$</span>.</p> </li> 
+  </ol> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links> 
+   <a href="../../forms/using/introduction-customizing-html-workspace.md">Introduction to Customizing AEM Forms workspace</a> 
+   <a href="../../forms/using/generic-steps-html-workspace-customization.md">Generic steps for AEM Forms workspace customization</a> 
+   <a href="../../forms/using/tasks-organizational-hierarchy-using-manager.md">Managing tasks in an organizational hierarchy using Manager View</a> 
+   <a href="../../forms/using/integrating-correspondence-management-html-workspace.md">Integrating Correspondence Management in AEM Forms workspace</a> 
+   <a href="../../forms/using/single-sign-timeout-handlers.md">Single Sign On and timeout handlers</a> 
+   <a href="../../forms/using/displaying-user-avatar.md">Displaying the user avatar</a> 
+   <a href="../../forms/using/displaying-information-task-summary-pane.md">Displaying information in the Task Summary pane</a> 
+   <a href="../../forms/using/changing-organization-logo-branding.md">Changing the organization logo</a> 
+   <a href="../../forms/using/changing-color-scheme-interface.md">Changing the color scheme of the interface</a> 
+   <a href="../../forms/using/changing-font-interface.md">Changing the font on the interface</a> 
+   <a href="../../forms/using/changing-locale-user-interface.md">Changing the locale of the user interface</a> 
+   <a href="../../forms/using/customizing-error-dialogs.md">Customizing error dialogs</a> 
+   <a href="../../forms/using/customizing-tabs-task.md">Customizing tabs for a task</a> 
+   <a href="../../forms/using/customizing-task-actions.md">Customizing Task Actions</a> 
+   <a href="../../forms/using/customizing-listing-process-instances.md">Customizing the listing of process instances</a> 
+   <a href="../../forms/using/customizing-task-details-page.md">Customizing the task Details page</a> 
+   <a href="../../forms/using/display-additional-data-in-todo-list.md">Displaying additional data in ToDo list</a> 
+   <a href="../../forms/using/getting-task-variables-summary-url.md">Getting Task Variables in Summary URL</a> 
+   <a href="../../forms/using/images-route-actions.md">Images for Route Actions</a> 
+   <a href="../../forms/using/creating-new-login-screen.md">Creating a new login screen</a> 
+   <a href="../../forms/using/minification-javascript-files.md">Minification of the JavaScript files</a> 
+   <a href="../../forms/using/sorting-tracking-tables-add-columns.md">Sorting of Tracking tables and adding more columns</a> 
+   <a href="../../forms/using/updating-link-help-documentation.md">Updating the link to the documentation</a> 
+   <a href="../../forms/using/two-html-workspace-instances-one.md">Hosting two AEM Forms workspace instances on one server</a> 
+  </related-links> 
+ </body> 
+</html>

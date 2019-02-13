@@ -1,0 +1,138 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Create rules to add interactivity, business logic, and smart validations to an adaptive form. " name="seoDescription" /> 
+  <meta content="Deactivate" name="cq:lastReplicationAction" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="47cb3b6a-86d0-4669-b5ff-9bccd68b3d6c" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="[DO NOT PUBLISH] Tutorial: Apply rules to adaptive form fields" name="jcr:title" /> 
+  <meta content="2018-02-20T08:01:34.705-0500" name="jcr:created" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="Create rules to add interactivity, business logic, and smart validations to an adaptive form. " name="navTitle" /> 
+  <meta content="2018-07-17T10:06:52.589-0400" name="cq:lastReplicated" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2018-02-20T03:28:50.721-0500" name="firstPublishExternalDate" /> 
+  <meta content="true" name="preview" /> 
+  <meta content="e06539bf-42e9-44ab-8c93-22ee31bc887e" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="publishExternalURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-02-06T03:45:14.646-0500" name="cq:lastModified" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.3/FORMS" name="cq:tags" /> 
+  <meta content="2018-07-12T03:59:49.337-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-07-17T10:06:52.535-0400" name="unpublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Apply rules to adaptive form fields" name="seoTitle" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-26T04:21:33.146-0400" name="locHandOffDate" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <p><img src="assets/06-apply-rules-to-adaptive-form_main.png" /> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;">This tutorial is a step in the <a href="../../forms/using/create-your-first-adaptive-form.md" target="_blank">Create Your First Adaptive Form</a> series. Adobe recommends following the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>About the tutorial</h2> 
+  <p>You can use rules to add interactivity, business logic, and smart validations to an adaptive form. Adaptive forms have a built-in rule editor. The rule editor provides a drag-and-drop functionality, similar to guided tours. The drag-and-drop method is the fastest and easiest method to create rules. The rule editor also provides a code window for users interested in testing their coding skills or taking the rules to the next level.</p> 
+  <p>You can learn more about the rule editor at <a href="../../forms/using/rule-editor.md" target="_blank">Adaptive Forms rule editor</a>.</p> 
+  <p>By the end of the tutorial, you will learn to create rules to:<br /> </p> 
+  <ul> 
+   <li>Invoke a Form Data Model service to retrieve data from the database</li> 
+   <li>Invoke a Form Data Model service to add data to the database</li> 
+   <li>Run a validations check and display error messages<br /> </li> 
+  </ul> 
+  <p>Interactive GIF images at the end of each section of the tutorial help you learn and validate the functionality of the form you are building, on the fly.<br /> </p> 
+  <h2 id="retrieve-customer-record">Step 1: Retrieve a customer record from the database</h2> 
+  <p>You created a form data model by following the <a href="../../forms/using/create-form-data-model.md" target="_blank">create form data model</a> article. Now, you can use the rule editor to invoke the Forms Data Model services to retrieve and add information to the database.</p> 
+  <p>Every customer is assigned a unique Customer ID number, which helps identify relevant customer data in a database. The procedure below uses the Customer ID to retrieve information from the database:</p> 
+  <ol> 
+   <li><p>Open the adaptive form for editing.<br /> <a href="http://localhost:4502/editor.html/content/forms/af/change-billing-shipping-address.html  " target="_blank">http://localhost:4502/editor.html/content/forms/af/change-billing-shipping-address.html</a> <br /> </p> </li> 
+   <li><p>Tap the<span class="uicontrol"> Customer ID</span> field and tap the <span class="uicontrol">Edit Rules</span> icon. The Rule Editor window opens.</p> </li> 
+   <li><p>Tap the <span class="uicontrol">+ Create</span> icon to add a rule. It opens the Visual Editor.</p> <p>In the Visual Editor, the <span class="uicontrol">WHEN </span>statement is selected by default. Also, the form object (in this case, <span class="uicontrol">Customer ID</span>) from where you launched the rule editor is specified in the <span class="uicontrol">WHEN </span>statement.</p> </li> 
+   <li><p>Tap the <span class="uicontrol">Select State</span> drop-down and select <span class="uicontrol">is changed</span>.</p>  </li> 
+   <li><p>In the <strong>THEN</strong> statement, select <strong>Invoke Service</strong> from the <strong>Select Action</strong> drop-down.</p> </li> 
+   <li><p>Select the <strong>Retrieve Shipping Address</strong> service from the <strong>Select</strong> drop-down.</p> </li> 
+   <li><p>Drag-and-drop the<strong> Customer ID</strong> field from the Form Objects tab to the <strong>Drop object or select here </strong>field in the <strong>INPUT</strong> box.</p>  </li> 
+   <li><p>Drag-and-drop the<strong> Customer ID, Name, Shipping Address, State, and Zip Code</strong> field from the Form Objects tab to the <strong>Drop object or select here </strong>field in the <strong>OUTPUT</strong> box.</p>  <p>Tap <strong>Done</strong> to save the rule. On the rule editor window, tap <strong>Close. </strong></p> </li> 
+   <li><p> Preview the adaptive form. Enter an ID in the <strong>Customer ID</strong> field. The form can now retrieve customer details from the database.</p>  </li> 
+  </ol> 
+  <h2 id="updated-customer-address">Step 2: Add the updated customer address to the database</h2> 
+  <p>After the customer details are retrieved from the database, you can update the shipping address, state, and zip code. The procedure below invokes a Form Data Model service to update customer information to the database:</p> 
+  <ol> 
+   <li><p>Select the<strong> Submit </strong>field and tap the <strong>Edit Rules</strong> icon. The Rule Editor window opens.</p> </li> 
+   <li><p>Select the <strong>Submit - Click</strong> rule and tap the <strong>Edit</strong> icon. The options to edit the Submit rule appear.</p>  <p>In the WHEN option, the <strong>Submit </strong>and <strong>is clicked</strong> options are already selected.</p>  </li> 
+   <li><p>In the <strong>THEN</strong> option, tap the <strong>+ Add Statement</strong> option. Select <strong>Invoke Service</strong> from the <strong>Select Action</strong> drop-down.</p> </li> 
+   <li><p>Select the <strong>Update Shipping Address</strong> service from the <strong>Select</strong> drop-down.</p>  </li> 
+   <li> <p>Drag-and-drop the<strong> Shipping Address, State, and Zip Code</strong> field from the Form Objects tab to the corresponding 
+     <g class="gr_ gr_21 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="21" id="21">
+       tablename 
+     </g>.property (for example, 
+     <g class="gr_ gr_22 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="22" id="22">
+       customerdetails 
+     </g>.shippingAddress) of the <strong>Drop object or select here </strong>field in the <strong>INPUT</strong> box. All the fields prefixed with 
+     <g class="gr_ gr_23 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="23" id="23">
+       tablename 
+     </g> (For example, 
+     <g class="gr_ gr_24 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="24" id="24">
+       customerdetails 
+     </g> in this use case) serve as input data for the update service. All the content provided in these fields is updated in the data source.</p> 
+    <note> 
+     <p>Do not drag-and-drop the <strong>Name</strong> and <strong>Customer ID</strong> fields to the corresponding tablename.property (for example, customerdetails.name). It helps avoid updating name and ID of the customer by mistake. </p> 
+    </note></li> 
+   <li><p>Drag-and-drop the <strong>Customer ID</strong> field from the Form Objects tab to the id field in the <strong>INPUT</strong> box. Fields without a prefixed 
+     <g class="gr_ gr_5 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="5" id="5">
+       tablename 
+     </g> (for example, 
+     <g class="gr_ gr_6 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="6" id="6">
+       customerdetails 
+     </g> in this use case) serve as a search parameter for the update service. The <strong>id</strong> field in this use case uniquely identifies a record in the 
+     <g class="gr_ gr_7 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="7" id="7">
+       customerdetails 
+     </g> table.</p> </li> 
+   <li><p>Tap <strong>Done</strong> to save the rule. On the rule editor window, tap <strong>Close. </strong></p> </li> 
+   <li><p>Preview the adaptive form. Retrieve details of a customer, update the shipping address, and submit the form. When you retrieve details of the same customer again, the updated shipping address is displayed. </p> </li> 
+  </ol> 
+  <h2>Step 3: (Bonus section) Use the code editor to run validations and display error messages</h2> 
+  <p>You should run validation on the form to ensure that the data entered in the form is correct and an error message is displayed in case of incorrect data. For example, if a non-existing Customer ID is entered in the form, an error message should be displayed.</p> 
+  <p>Adaptive forms provide several components with built-in validations, for example, email, and numeric fields that you can use for common use cases. Use the rule editor for advanced use cases, for example, to display an error message when the database returns zero (0) records (no records).<br /> </p> 
+  <p>The following procedure shows how to create a rule to displays an error message if the Customer ID entered in the form does not exist in the database. The rule also brings the focus to and resets the Customer ID field. The rule uses <a href="../../forms/using/invoke-form-data-model-services.md" target="_blank">the dataIntegrationUtils API of the form data model service</a> to check if the Customer ID exists in the database. <br /> </p> 
+  <ol> 
+   <li><p>Tap the <span class="uicontrol">Customer ID </span>field and tap the <span class="code">Edit Rules</span> icon. The Rule Editor window opens.</p> </li> 
+   <li><p>Tap the<span class="uicontrol"> + Create </span>icon to add a rule. It opens the Visual Editor.</p> <p>In the Visual Editor, the <span class="uicontrol">WHEN </span>statement is selected by default. Also, the form object (in this case, <span class="uicontrol">Customer ID</span>) from where you launched the rule editor is specified in the <span class="uicontrol">WHEN </span>statement.</p> </li> 
+   <li><p>Tap the <span class="uicontrol">Select State</span> drop-down and select <span class="uicontrol">is changed</span>.</p>  <p>In the <strong>THEN</strong> statement, select <strong>Invoke Service</strong> from the <strong>Select Action</strong> drop-down.</p> </li> 
+   <li><p>Switch from <span class="uicontrol">Visual Editor</span> to <span class="uicontrol">Code Editor</span>. The switch control is on the right side of the window. The Code Editor opens, displaying code similar to the following:</p>  </li> 
+   <li><p>Replace the input variable section with the following code:</p> 
+    <codeblock gutter="true" class="syntax js">
+      var&amp;nbsp;inputs&amp;nbsp;=&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id"&amp;nbsp;:&amp;nbsp;this!!discoiqbr!!}; 
+    </codeblock></li> 
+   <li><p>Replace the guidelib.dataIntegrationUtils.executeOperation (operationInfo, inputs, outputs) section with the following code:</p> 
+    <codeblock gutter="true" class="syntax js">
+      guidelib.dataIntegrationUtils.executeOperation(operationInfo,&amp;nbsp;inputs,&amp;nbsp;outputs,&amp;nbsp;function&amp;nbsp;(result)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;if&amp;nbsp;(result)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;result&amp;nbsp;=&amp;nbsp;JSON.parse(result);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;customer_Name.value&amp;nbsp;=&amp;nbsp;result.name;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;customer_Shipping_Address&amp;nbsp;=&amp;nbsp;result.shippingAddress;!!discoiqbr!!&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(window.confirm("Invalid&amp;nbsp;Customer&amp;nbsp;ID.&amp;nbsp;Provide&amp;nbsp;a&amp;nbsp;valid&amp;nbsp;customer&amp;nbsp;ID"))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;customer_Name.value&amp;nbsp;=&amp;nbsp;"&amp;nbsp;";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;guideBridge.setFocus(customer_ID);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}); 
+    </codeblock></li> 
+   <li><p>Preview the adaptive form. Enter an incorrect Customer ID. An error message appears.</p>  </li> 
+  </ol> 
+  <draft-comment type="draft"> 
+   <h2>Next steps</h2> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>[<strong><span class="uicontrol">This section will be hidden until the next tutorial is published</span></strong>]</p> 
+   <p> </p> 
+  </draft-comment> 
+ </body> 
+</html>

@@ -1,0 +1,938 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="68d8d9b4-b0c3-49fe-87be-80c76a30a597" name="jcr:uuid" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Programmatically Managing Endpoints" name="jcr:title" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/programmatically-endpoints.html" name="publishExternalURL" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="sortDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="2017-11-22T19:05:05.968-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-11-21T06:58:52.084-0500" name="cq:lastModified" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-03T06:48:55.853-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Programmatically Managing Endpoints" name="navTitle" /> 
+  <meta content="2017-07-12T07:03:39.374-0400" name="lr_lastModified" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-03T06:48:55.853-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="fd1940ea-1667-4f15-ac62-8ce92993e127" name="jcr:predecessors" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="2018-04-03T08:26:02.499-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-03T06:48:55.853-0400" name="lastPublishExternalDate" /> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7b66.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e65.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e127e8b25641336a35a956-7ffc.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-6fa7.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e63.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e124d0a652c1336a35aa50-7ffd.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-6f9a.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e61.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-784df6291336a35ab5a-7ffe.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-6f8e.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e53.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e5f.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12360ce9ae1336a35ac63-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-6f7b.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e52.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e5d.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12452220f01336a35ad6d-7ffd.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-6f68.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e5b.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-391aad101336a35ae67-7ffd.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-6f5b.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e59.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-552f91171336a35af70-7ffd.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-6f4e.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e57.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e122dd108341336a35b05b-7ffd.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-6f3e.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e55.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12454f8c7a1336a35b155-7ffd.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-6f31.2" name="cq:gepId" /> 
+ </head> 
+ <body> 
+  <p><strong>About Endpoint Registry Service </strong></p> 
+  <p>The Endpoint Registry service provides the ability to programmatically manage endpoints. You can, for example, add the following types of endpoints to a service:</p> 
+  <ul> 
+   <li><p>EJB</p></li> 
+   <li><p>SOAP</p></li> 
+   <li><p>Watched Folder</p></li> 
+   <li><p>Email</p></li> 
+   <li><p>(Deprecated for AEM forms) Remoting</p></li> 
+   <li><p>Task Manager</p><p>A Remoting endpoint enables Flex clients to invoke operations on the AEM Forms service that the endpoint is added to. A Flex destination with the same name as the endpoint is created and Flex clients can create RemoteObjects that point to this destination to invoke operations on the relevant service.</p><p>The Email, Task Manager, and Watched Folder endpoints expose only a specific operation of the service. Adding these endpoints requires a second configuration step to select a method to invoke, set configuration parameters, and specify input and output parameter mappings.</p><p>You can organize TaskManager endpoints into groups called <i>categories</i>. These categories are then exposed to Workspace through TaskManager, with end users seeing the TaskManager endpoints as they are categorized. Within Workspace, end users see these categories in the navigation pane. The endpoints within each category are displayed as process cards on the Start Processes page in Workspace.</p><p>You can accomplish these tasks using the Endpoint Registry service:</p></li> 
+   <li><p>Add EJB endpoints. (See <a href="programmatically-endpoints#adding_ejb_endpoints">Adding EJB Endpoints</a>.) </p></li> 
+   <li><p>Add SOAP endpoints. (See <a href="programmatically-endpoints#adding_soap_endpoints">Adding SOAP Endpoints</a>.)</p></li> 
+   <li><p>Add Watched Folder endpoints (See <a href="programmatically-endpoints#adding_watched_folder_endpoints">Adding Watched Folder Endpoints</a>.)</p></li> 
+   <li><p>Add Email endpoints. (See <a href="programmatically-endpoints#adding_email_endpoints">Adding Email Endpoints</a>.)</p></li> 
+   <li><p>Add Remoting endpoints. (See <a href="programmatically-endpoints#adding_remoting_endpoints">Adding Remoting Endpoints</a>.)</p></li> 
+   <li><p>Add TaskManager endpoints (See <a href="programmatically-endpoints#adding_taskmanager_endpoints">Adding TaskManager Endpoints</a>.)</p></li> 
+   <li><p>Modify endpoints (See <a href="programmatically-endpoints#modifying_endpoints">Modifying Endpoints</a>.)</p></li> 
+   <li><p>Remove endpoints (See <a href="programmatically-endpoints#removing_endpoints">Removing Endpoints</a>.)</p></li> 
+   <li><p>Retrieve endpoint connector information (See <a href="programmatically-endpoints#retrieving_endpoint_connector_information">Retrieving Endpoint Connector Information</a>.)</p></li> 
+  </ul> 
+  <draft-comment type="remark">
+    Content Referenced from lc_ep_add_ejb_endpoints_ae.xml#WS624e3cba99b79e12e69a9941333732bac8-7e65.2_ver6.1 
+  </draft-comment> 
+  <h2 id="adding_ejb_endpoints">Adding EJB Endpoints</h2> 
+  <p></p> 
+  <p>You can programmatically add an EJB endpoint to a service by using the AEM Forms Java API. By adding an EJB endpoint to a service, you are enabling a client application to invoke the service by using the EJB mode. That is, when setting connection properties that are required to invoke AEM Forms, you can select the EJB mode. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a>.) </p> 
+  <note> 
+   <p>You cannot add an EJB endpoint by using web services.</p> 
+  </note> 
+  <note> 
+   <p>Typically, an EJB endpoint is added to a service by default, However, an EJB endpoint can be added to a process that is programmatically deployed or when an EJB endpoint was removed and has to be added again. </p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To add an EJB endpoint to a service, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an <span class="code">EndpointRegistry Client</span> object.</p></li> 
+   <li><p>Set EJB endpoint attributes.</p></li> 
+   <li><p>Create an EJB endpoint.</p></li> 
+   <li><p>Enable the endpoint. </p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files in your development project. The following JAR files must be added to your project’s class path:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+  </ul> 
+  <p>For information about the location of these JAR files, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p> 
+  <p><strong>Create an EndpointRegistry Client object </strong></p> 
+  <p>Before you can programmatically add an EJB endpoint, you must create an <span class="code">EndpointRegistryClient</span> object.</p> 
+  <p><strong>Set EJB endpoint attributes</strong></p> 
+  <p>To create an EJB endpoint for a service, specify the following values:</p> 
+  <ul> 
+   <li><p><strong>Connector identifier</strong>: Specifies the type of endpoint to create. To create an EJB endpoint, specify <span class="code">EJB</span>. </p></li> 
+   <li><p><strong>Description</strong>: Specifies the endpoint description.</p></li> 
+   <li><p><strong>Name</strong>: Specifies the name of the endpoint. </p></li> 
+   <li><p><strong>Service identifier</strong>: Specifies the service to which the endpoint belongs. </p></li> 
+   <li><p><strong>Operation name</strong>: Specifies the name of the operation that is invoked by using the endpoint. When creating an EJB endpoint, specify a wildcard character (<span class="code">*</span>). However, if you want to specify a specific operation as opposed to invoking all service operations, specify the name of the operation as opposed to using the wildcard character (<span class="code">*</span>).</p></li> 
+  </ul> 
+  <p><strong>Create an EJB endpoint</strong></p> 
+  <p>After you set EJB endpoint attributes, you can create an EJB endpoint for a service. </p> 
+  <p><strong>Enable the endpoint</strong></p> 
+  <p>After you create a new endpoint, you must enable it. After you enable the endpoint, it can be used to invoke the service. After you enable the endpoint, you can view it within administration console.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#adding_an_ejb_endpoint_using_the_java_api">Adding an EJB endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="adding_an_ejb_endpoint_using_the_java_api">Adding an EJB endpoint using the Java API</h3> 
+  <p></p> 
+  <p>Add an EJB endpoint by using the Java API:</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-livecycle-client.jar, in your Java project’s class path. (</p></li> 
+   <li><p>Create an EndpointRegistry Client object. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+     <li><p>Create an <span class="code">EndpointRegistryClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li> 
+    </ul></li> 
+   <li><p>Set EJB endpoint attributes. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">CreateEndpointInfo</span> object by using its constructor. </p></li> 
+     <li><p>Specify the connector identifier value by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setConnectorId</span> method and passing the string value <span class="code">EJB</span>.</p></li> 
+     <li><p>Specify the description of the endpoint by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setDescription</span> method and passing a string value that describes the endpoint.</p></li> 
+     <li><p>Specify the name of the endpoint by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setName</span> method and passing a string value that specifies the name.</p></li> 
+     <li><p>Specify the service to which the endpoint belongs by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setServiceId</span> method and passing a string value that specifies the service name.</p></li> 
+     <li><p>Specify the operation that is invoked by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setOperationName</span> method and pass a string value that specifies the operation name. For SOAP and EJB endpoints, specify a wildcard character (<span class="code">*</span>), which implies all operations.</p></li> 
+    </ul></li> 
+   <li><p>Create an EJB endpoint. </p><p>Create the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">createEndpoint</span> method and passing the <span class="code">CreateEndpointInfo</span> object. This method returns an <span class="code">Endpoint</span> object that represents the new EJB endpoint. </p></li> 
+   <li><p>Enable the endpoint. </p><p>Enable the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s enable method and passing the <span class="code">Endpoint</span> object that was returned by the <span class="code">createEndpoint</span> method.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_adding_an_ejb_endpoint_using_the_java_api">QuickStart: Adding an EJB endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <draft-comment type="remark">
+    Content Referenced from lc_ep_add_soap_endpoints_as.xml#WS624e3cba99b79e12e69a9941333732bac8-7e63.2_ver6.1 
+  </draft-comment> 
+  <h2 id="adding_soap_endpoints">Adding SOAP Endpoints</h2> 
+  <p></p> 
+  <p>You can programmatically add a SOAP endpoint to a service by using the AEM Forms Java API. By adding a SOAP endpoint, you enable a client application to invoke the service by using the SOAP mode. That is, when setting connection properties required to invoke AEM Forms, you can select the SOAP mode.</p> 
+  <note> 
+   <p>You cannot add a SOAP endpoint by using web services. </p> 
+  </note> 
+  <note> 
+   <p>Typically, a SOAP endpoint is added to a service by default, However, a SOAP endpoint can be added to a process that is programmatically deployed or when a SOAP endpoint was removed and has to be added again. </p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To add a SOAP endpoint to a service, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an <span class="code">EndpointRegistryClient</span> object. </p></li> 
+   <li><p>Set SOAP endpoint attributes.</p></li> 
+   <li><p>Create a SOAP endpoint.</p></li> 
+   <li><p>Enable the endpoint.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, make sure that you include the proxy files.</p> 
+  <p>The following JAR files must be added to your project’s class path:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+  </ul> 
+  <p>These JAR files are required to create a SOAP endpoint. However, you require addition JAR files if you use the SOAP endpoint to invoke the service. For information about AEM Forms JAR files, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p> 
+  <p><strong>Create an EndpointRegistry Client object </strong></p> 
+  <p>To programmatically add a SOAP endpoint to a service, you must create an <span class="code">EndpointRegistryClient</span> object. </p> 
+  <p><strong>Set SOAP endpoint attributes</strong></p> 
+  <p>To add a SOAP endpoint to a service, specify the following values:</p> 
+  <ul> 
+   <li><p><strong>Connector identifier value</strong>: Specifies the type of endpoint to create. To create a SOAP endpoint, specify <span class="code">SOAP</span>. </p></li> 
+   <li><p><strong>Description</strong>: Specifies the endpoint description.</p></li> 
+   <li><p><strong>Name</strong>: Specifies the endpoint name.</p></li> 
+   <li><p><strong>Service identifier value</strong>: Specifies the service to which the endpoint belongs. </p></li> 
+   <li><p><strong>Operation name</strong>: Specifies the name of the operation that is invoked by using the endpoint. When creating a SOAP endpoint, specify a wildcard character (<span class="code">*</span>). However, if you want to specify a specific operation as opposed to invoking all service operations, specify the name of the operation as opposed to using the wildcard character (<span class="code">*</span>).</p></li> 
+  </ul> 
+  <p><strong>Create a SOAP endpoint</strong></p> 
+  <p>After you set SOAP endpoint attributes, you can create a SOAP endpoint. </p> 
+  <p><strong>Enable the endpoint</strong></p> 
+  <p>After you create a new endpoint, you must enable it. When the endpoint is enabled, it can be used to invoke the service. After you enable the endpoint, you can view see it within administration console. </p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#add_a_soap_endpoint_using_the_java_api">Add a SOAP endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="add_a_soap_endpoint_using_the_java_api">Add a SOAP endpoint using the Java API</h3> 
+  <p></p> 
+  <p>Add a SOAP endpoint to a service by using the Java API:</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-livecycle-client.jar, in your Java project’s class path. </p></li> 
+   <li><p>Create an EndpointRegistry Client object. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties.</p></li> 
+     <li><p>Create an <span class="code">EndpointRegistryClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li> 
+    </ul></li> 
+   <li><p>Set SOAP endpoint attributes. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">CreateEndpointInfo</span> object by using its constructor. </p></li> 
+     <li><p>Specify the connector identifier value by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setConnectorId</span> method and passing the string value <span class="code">SOAP</span>.</p></li> 
+     <li><p>Specify the description of the endpoint by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setDescription</span> method and passing a string value that describes the endpoint.</p></li> 
+     <li><p>Specify the name of the endpoint by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setName</span> method and passing a string value that specifies the name.</p></li> 
+     <li><p>Specify the service to which the endpoint belongs by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setServiceId</span> method and passing a string value that specifies the service name.</p></li> 
+     <li><p>Specify the operation that is invoked by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setOperationName</span> method and passing a string value that specifies the operation name. For SOAP and EJB endpoints, specify a wildcard character (<span class="code">*</span>), which implies all operations.</p></li> 
+    </ul></li> 
+   <li><p>Create a SOAP endpoint. </p><p>Create the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">createEndpoint</span> method and passing the <span class="code">CreateEndpointInfo</span> object. This method returns an <span class="code">Endpoint</span> object that represents the new SOAP endpoint.</p></li> 
+   <li><p>Enable the endpoint. </p><p>Enable the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s enable method and pass the <span class="code">Endpoint</span> object that was returned by the <span class="code">createEndpoint</span> method.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_adding_a_soap_endpoint_using_the_java_api">QuickStart: Adding a SOAP endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <draft-comment type="remark">
+    Content Referenced from lc_ep_add_watched_folder_endpoints_aw.xml#WS624e3cba99b79e12e69a9941333732bac8-7e61.2_ver6.1 
+  </draft-comment> 
+  <h2 id="adding_watched_folder_endpoints">Adding Watched Folder Endpoints</h2> 
+  <p></p> 
+  <p>You can programmatically add a Watched Folder endpoint to a service by using the AEM Forms Java API. By adding a Watched Folder endpoint, you enable users to place a file (such as a PDF file) in a folder. When the file is placed in the folder, the configured service is then invoked and manipulates the file. After the service performs the specified operation, it saves the modified file in a specified output folder. A watched folder is configured to be scanned at a fixed rate interval or with a cron schedule, such as every Monday, Wednesday, and Friday at noon.</p> 
+  <p>For the purposes of programmatically adding a Watched Folder endpoint to a service, consider the following short-lived process named <i>EncryptDocument</i>. (See <a href="/programming-with-aem-forms/aem-forms-processes#understanding_aem_forms_processes">Understanding AEM Forms Processes</a>.) </p> 
+  <img alt="" src="assets/aw_aw_encryptdocumentprocess.png" /> 
+  <p>This process accepts an unsecured PDF document as an input value and then passes the unsecured PDF document to the Encryption service’s <span class="code">EncryptPDFUsingPassword</span> operation. The PDF document is encrypted with a password, and the password-encrypted PDF document is the output value of this process. The name of the input value (the unsecured PDF document) is <span class="code">InDoc</span> and the data type is <span class="code">com.adobe.idp.Document</span>. The name of the output value (the password-encrypted PDF document) is <span class="code">SecuredDoc</span> and the data type is <span class="code">com.adobe.idp.Document</span>.</p> 
+  <note> 
+   <p>You cannot add a Watched Folder endpoint by using web services. </p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To add a Watched Folder endpoint to a service, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an <span class="code">EndpointRegistryClient</span> object. </p></li> 
+   <li><p>Set Watched Folder endpoint attributes.</p></li> 
+   <li><p>Specify configuration values.</p></li> 
+   <li><p>Define input parameter values. </p></li> 
+   <li><p>Define an output parameter value. </p></li> 
+   <li><p>Create a Watched Folder endpoint.</p></li> 
+   <li><p>Enable the endpoint. </p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, make sure that you include the proxy files.</p> 
+  <p>The following JAR files must be added to your project’s class path:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server) </p></li> 
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+  </ul> 
+  <p>For information about the location of these JAR files, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p> 
+  <p><strong>Create an EndpointRegistry Client object </strong></p> 
+  <p>To programmatically add a Watched Folder endpoint, you must create an <span class="code">EndpointRegistryClient</span> object. </p> 
+  <p><strong>Set Watched Folder endpoint attributes</strong></p> 
+  <p>To create a Watched Folder endpoint for a service, specify the following values:</p> 
+  <ul> 
+   <li><p><strong>Connector identifier</strong>: Specifies the type of endpoint that is created. To create a Watched Folder endpoint, specify <span class="code">WatchedFolder</span>. </p></li> 
+   <li><p><strong>Description</strong>: Specifies the description of the endpoint.</p></li> 
+   <li><p><strong>Name</strong>: Specifies the name of the endpoint. </p></li> 
+   <li><p><strong>Service identifier</strong>: Specifies the service to which the endpoint belongs. For example, to add a Watched Folder endpoint to the process that is introduced in this section (a process becomes a service when activated using Workbench), specify <span class="code">EncryptDocument</span>. </p></li> 
+   <li><p><strong>Operation name</strong>: Specifies the name of the operation that is invoked by using the endpoint. Typically, when creating a Watched Folder endpoint for a service that originated from a process created in Workbench, the name of the operation is <span class="code">invoke</span>.</p></li> 
+  </ul> 
+  <p><strong>Specify configuration values</strong></p> 
+  <p>You must specify configuration values for a Watched Folder endpoint when programmatically adding a Watched Folder endpoint to a service. These configuration values are specified by an administrator if a Watched Folder endpoint is added by using administration console. </p> 
+  <p>The following list specifies configuration values that are set when programmatically adding a Watched Folder endpoint to a service:</p> 
+  <ul> 
+   <li><p><strong>url</strong>: Specifies the watched folder location. In a clustered environment, this value must point to a shared network folder that is accessible from every computer in the cluster.</p></li> 
+   <li><p><strong>asynchronous</strong>: Identifies the invocation type as asynchronous or synchronous. Transient and synchronous processes can only be invoked synchronously. The default value is true. Asynchronous is recommended.</p></li> 
+   <li><p><strong>cronExpression</strong>: Used by quartz to schedule the polling of the input directory. For details about configuring the cron expression, see <a href="http://quartz.sourceforge.net/javadoc/org/quartz/CronTrigger.html">http://quartz.sourceforge.net/javadoc/org/quartz/CronTrigger.html</a>.</p></li> 
+   <li><p><strong>purgeDuration</strong>: This is a mandatory attribute. Files and folders in the result folder are purged when they are older than this value. This value is measured in days. This attribute is useful in ensuring the result folder does not become full. A value of -1 days indicates to never delete the results folder. The default value is -1.</p></li> 
+   <li><p><strong>repeatInterval</strong>: The interval, in seconds, for scanning the Watched Folder for input. Unless throttling is enabled, this value should be longer than the time to process an average job; otherwise, the system may become overloaded. The default value is 5.</p></li> 
+   <li><p><strong>repeatCount</strong>: The number of times a Watched Folder scans the folder or directory. A value of -1 indicates indefinite scanning. The default value is -1.</p></li> 
+   <li><p><strong>throttleOn</strong>: Limits the number of Watched Folder jobs that can be processed at any given time. The maximum number of jobs is determined by the batchSize value.</p></li> 
+   <li><p><strong>userName</strong>: The user name used when invoking a target service from the Watched Folder. This value is mandatory. The default value is SuperAdmin.</p></li> 
+   <li><p><strong>domainName</strong>: The user’s domain. This value is mandatory. The default value is DefaultDom. </p></li> 
+   <li><p><strong>batchSize</strong>: The number of files or folders to be picked up per scan. Use this value to prevent an overload on the system; scanning too many files at one time can result in a crash. The default value is 2.</p></li> 
+   <li><p><strong>waitTime</strong>: The time, in milliseconds, to wait before scanning a folder or file after creation. For example, if wait time is 36,000,000 milliseconds (one hour) and the file was created one minute ago, this file is picked up after 59 or more minutes have passed. This attribute is useful to ensure that a file or folder is completely copied to the input folder. For example, if you have a large file to process and the file takes ten minutes to download, set the wait time to 10*60 *1000 milliseconds. This setting prevents the watched folder from scanning the file if it has not been waiting for ten minutes. The default value is 0.</p></li> 
+   <li><p><strong>excludeFilePattern</strong>: The pattern that a watched folder uses to determine which files and folders to scan and pick up. Any file or folder that has this pattern will not be scanned for processing. This setting is useful when the input is a folder that contains multiple files. The contents of the folder can be copied into a folder that has a name that will be picked up by the watched folder. This step prevents the watched folder from picking up a folder for processing before the folder is completely copied into the input folder. For example, if the excludeFilePattern value is <span class="code">data*</span>, all files and folders that match <span class="code">data*</span> are not picked up. This includes files and folders named <span class="code">data1</span>, <span class="code">data2</span>, and so on. Additionally, the pattern can be supplemented with wildcard patterns to specify file patterns. The watched folder modifies the regular expression to support wildcard patterns such as <span class="code">*.*</span> and <span class="code">*.pdf</span>. These wildcard patterns are not supported by regular expressions. </p></li> 
+   <li><p><strong>includeFilePattern</strong>: The pattern that the watched folder uses to determine which folders and files to scan and pick up. For example, if this value is <span class="code">*</span>, all files and folders that match <span class="code">input*</span> are picked up. This includes files and folders named <span class="code">input1</span>, <span class="code">input2</span>, and so on. The default value is <span class="code">*</span>. This value indicates all files and folders. Additionally, the pattern can be supplemented with wildcard patterns to specify file patterns. The watched folder modifies the regular expression to support wildcard patterns such as <span class="code">*.*</span> and <span class="code">*.pdf</span>. These wildcard patterns are not supported by regular expressions. This value is a mandatory.</p></li> 
+   <li><p><strong>resultFolderName</strong>: The folder where the saved results are stored. This location can be an absolute or a relative directory path. If the results do not appear in this folder, check the failure folder. Read-only files are not processed and will be saved in the failure folder. The default value is <span class="code">result/%Y/%M/%D/</span>. This is the results folder inside the watched folder.</p></li> 
+   <li><p><strong>preserveFolderName</strong>: The location where files are stored after successful scanning and pickup. This location can be an absolute, a relative, or a null directory path. The default value is <span class="code">preserve/%Y/%M/%D/</span>. </p></li> 
+   <li><p><strong>failureFolderName</strong>: The folder where failure files are saved. This location is always relative to the watched folder. Read-only files are not processed and will be saved in the failure folder. The default value is <span class="code">failure/%Y/%M/%D/</span>.</p></li> 
+   <li><p><strong>preserveOnFailure</strong>: Preserve input files in case of failure to execute the operation on a service. The default value is true.</p></li> 
+   <li><p><strong>overwriteDuplicateFilename</strong>: When set to true, files in the results folder and preserve folder are overwritten. When set to false, files and folders that have a numeric index suffix are used for the name. The default value is false.</p></li> 
+  </ul> 
+  <p><strong>Define input parameter values</strong></p> 
+  <p>When creating a Watched Folder endpoint, you must define input parameter values. That is, you must describe the input values that are passed to the operation that is invoked by the watched folder. For example, consider the process introduced in this topic. It has one input value named <span class="code">InDoc</span> and its data type is <span class="code">com.adobe.idp.Document</span>. When creating a Watched Folder endpoint for this process (after a process is activated, it becomes a service), you must define the input parameter value.</p> 
+  <p>To define input parameter values required for a Watched Folder endpoint, specify the following values:</p> 
+  <p><strong>Input parameter name</strong>: The name of the input parameter. The name of an input value is specified in Workbench for a process. If the input value belongs to a service operation (a service that is not a process created in Workbench), the input name is specified in the component.xml file. For example, the name of the input parameter for the process introduced in this section is <span class="code">InDoc</span>. </p> 
+  <p><strong>Mapping type</strong>: Used to configure the input values required to invoke the service operation. There are two types of mapping types: </p> 
+  <ul> 
+   <li><p><span class="code">Literal</span>: The Watched Folder endpoint uses the value entered in the field as it is displayed. All basic Java types are supported. For example, if an API uses input such as String, long, int, and Boolean, the string is converted into the proper type and the service is invoked.</p></li> 
+   <li><p><span class="code">Variable</span>: The value entered is a file pattern that the watched folder uses to pick the input. For example, if you select Variable for the mapping type and the input document must be a PDF file, you can specify <span class="code">*.pdf </span>as the mapping value. </p></li> 
+  </ul> 
+  <p><strong>Mapping value</strong>: Specifies the value of the mapping type. For example, if you select a <span class="code">Variable</span> mapping type, you can specify <span class="code">*.pdf</span> as the file pattern.</p> 
+  <p><strong>Data type</strong>: Specifies the data type of the input value(s). For example, the data type of the input value of the process introduced in this section is <span class="code">com.adobe.idp.Document</span>. </p> 
+  <p><strong>Define an output parameter value</strong></p> 
+  <p>When creating a Watched Folder endpoint, you must define an output parameter value. That is, you must describe the output value that is returned by the service that is invoked by the Watched Folder endpoint. For example, consider the process introduced in this topic. It has an output value named <span class="code">SecuredDoc</span> and its data type is <span class="code">com.adobe.idp.Document</span>. When creating a Watched Folder endpoint for this process (after a process is activated, it becomes a service), you must define the output parameter value.</p> 
+  <p>To define an output parameter value required for a Watched Folder endpoint, specify the following values:</p> 
+  <p><strong>Output parameter name</strong>: The name of the output parameter. The name of a process output value is specified in Workbench. If the output value belongs to a service operation (a service that is not a process created in Workbench), the output name is specified in the component.xml file. For example, the name of the output parameter for the process introduced in this section is <span class="code">SecuredDoc</span>. </p> 
+  <p><strong>Mapping type</strong>: Used to configure the output of the service and operation. The following options are available:</p> 
+  <ul> 
+   <li><p>If the service returns a single object (a single document), the pattern is <span class="code">%F.pdf</span> and the source destination is sourcefilename.pdf. For example, the process introduced in this section returns a single document. As a result, the mapping type can be defined as <span class="code">%F.pdf</span> (<span class="code">%F</span> means use the given file name). The pattern <span class="code">%E</span> specifies the extension of the input document.</p></li> 
+   <li><p>If the service returns a list, the pattern is <span class="code">Result\%F\</span>, and the source destination is Result\sourcefilename\source1 (output 1) and Result\sourcefilename\source2 (output 2). </p></li> 
+   <li><p>If the service returns a map, the pattern is <span class="code">Result\%F\</span>, and the source destination is Result\sourcefilename\file1 and Result\sourcefilename\file2. If the map has more than one object, the pattern is <span class="code">Result\%F.pdf</span> and the source destination is Result\sourcefilename1.pdf (output 1), Result\sourcefilenam2.pdf (output 2), and so on. </p></li> 
+  </ul> 
+  <p><strong>Data type</strong>: Specifies the data type of the return value. For example, the data type of the return value of the process introduced in this section is <span class="code">com.adobe.idp.Document</span>.</p> 
+  <p><strong>Create a Watched Folder endpoint</strong></p> 
+  <p>After you set the endpoint’s attributes, configuration values, and define input and output parameter values, you must create the Watched Folder endpoint. </p> 
+  <p><strong>Enable the endpoint</strong></p> 
+  <p>After you create a Watched Folder endpoint, you must enable it. When the endpoint is enabled, it can be used to invoke the service. After you enable the endpoint, you can view it within administration console. </p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#add_a_watched_folder_endpoint_using_the_java_api">Add a Watched Folder endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="add_a_watched_folder_endpoint_using_the_java_api">Add a Watched Folder endpoint using the Java API</h3> 
+  <p></p> 
+  <p>Add a Watched Folder endpoint by using the AEM Forms Java API:</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-livecycle-client.jar, in your Java project’s class path. </p></li> 
+   <li><p>Create an EndpointRegistry Client object. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties.</p></li> 
+     <li><p>Create an <span class="code">EndpointRegistryClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li> 
+    </ul></li> 
+   <li><p>Set Watched Folder endpoint attributes. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">CreateEndpointInfo</span> object by using its constructor. </p></li> 
+     <li><p>Specify the connector identifier value by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setConnectorId</span> method and passing the string value <span class="code">WatchedFolder</span>.</p></li> 
+     <li><p>Specify the description of the endpoint by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setDescription</span> method and passing a string value that describes the endpoint.</p></li> 
+     <li><p>Specify the name of the endpoint by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setName</span> method and passing a string value that specifies the name.</p></li> 
+     <li><p>Specify the service to which the endpoint belongs by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setServiceId</span> method and passing a string value that specifies the service name.</p></li> 
+     <li><p>Specify the operation that is invoked by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setOperationName</span> method and passing a string value that specifies the operation name. Typically, when creating a Watched Folder endpoint for a service that originated from a process created in Workbench, the name of the operation is invoke. </p></li> 
+    </ul></li> 
+   <li><p>Specify configuration values. </p><p>For each configuration value to set for the Watched Folder endpoint, you must invoke the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setConfigParameterAsText</span> method. For example, to set the <span class="code">url</span> configuration value, invoke the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setConfigParameterAsText</span> method and pass the following string values:</p> 
+    <ul> 
+     <li><p>A string value that specifies the name of the configuration value. When setting the <span class="code">url</span> configuration value, specify <span class="code">url</span>. </p></li> 
+     <li><p>A string value that specifies the value of the configuration value. When setting the <span class="code">url</span> configuration value, specify the watched folder location.</p></li> 
+    </ul> 
+    <note> 
+     <p>To see all the configuration values set for the EncryptDocument service, see the Java code example located at <a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_adding_a_watched_folder_endpoint_using_the_java_api">QuickStart: Adding a Watched Folder endpoint using the Java API</a>. </p> 
+    </note></li> 
+   <li><p>Define input parameter values.</p><p>Define an input parameter value by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setInputParameterMapping</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A string value that specifies the name of the input parameter. For example, the name of the input parameter for the EncryptDocument service is <span class="code">InDoc</span>. </p></li> 
+     <li><p>A string value that specifies the data type of the input parameter. For example, the data type of the <span class="code">InDoc</span> input parameter is <span class="code">com.adobe.idp.Document</span>. </p></li> 
+     <li><p>A string value that specifies the mapping type. For example, you can specify <span class="code">variable</span>.</p></li> 
+     <li><p>A string value that specifies the mapping type value. For example, you can specify *.pdf as the file pattern.</p></li> 
+    </ul> 
+    <note> 
+     <p>Invoke the <span class="code">setInputParameterMapping</span> method for each input parameter value to define. Because the EncryptDocument process has only one input parameter, you need to invoke this method once. </p> 
+    </note></li> 
+   <li><p>Define an output parameter value.</p><p>Define an output parameter value by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setOutputParameterMapping</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A string value that specifies the name of the output parameter. For example, the name of the output parameter for the EncryptDocument service is <span class="code">SecuredDoc</span>. </p></li> 
+     <li><p>A string value that specifies the data type of the output parameter. For example, the data type of the <span class="code">SecuredDoc</span> output parameter is <span class="code">com.adobe.idp.Document</span>. </p></li> 
+     <li><p>A string value that specifies the mapping type. For example, you can specify <span class="code">%F.pdf</span>.</p></li> 
+    </ul></li> 
+   <li><p>Create a Watched Folder endpoint. </p><p>Create the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">createEndpoint</span> method and passing the <span class="code">CreateEndpointInfo</span> object. This method returns an <span class="code">Endpoint</span> object that represents the Watched Folder endpoint. </p></li> 
+   <li><p>Enable the endpoint.</p><p>Enable the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">enable</span> method and passing the <span class="code">Endpoint</span> object that was returned by the <span class="code">createEndpoint</span> method.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_adding_a_watched_folder_endpoint_using_the_java_api">QuickStart: Adding a Watched Folder endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="watched_folder_configuration_values_constant_file">Watched folder configuration values constant file</h3> 
+  <p></p> 
+  <p>The <a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_adding_a_watched_folder_endpoint_using_the_java_api">QuickStart: Adding a Watched Folder endpoint using the Java API</a> uses a constant file that must be part of your Java project in order to compile the quick start. This constant file represents configuration values that must be set when adding a Watched Folder endpoint. The following Java code represents the constant file. For information about these configuration values, see <a href="#unresolvedlink-lc-ep-add-watched-folder-endpoints-aw.xml#ws624e3cba99b79e12e69a9941333732bac8-6f85.2">Specify configuration values</a>. </p> 
+  <codeblock gutter="true" class="syntax as3">
+     /**&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;This&amp;nbsp;class&amp;nbsp;contains&amp;nbsp;constants&amp;nbsp;that&amp;nbsp;can&amp;nbsp;be&amp;nbsp;used&amp;nbsp;when&amp;nbsp;setting&amp;nbsp;Watched&amp;nbsp;Folder&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;configuration&amp;nbsp;values&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/&amp;nbsp;!!discoiqbr!! &amp;nbsp;!!discoiqbr!! public&amp;nbsp;final&amp;nbsp;class&amp;nbsp;WatchedFolderEndpointConfigConstants&amp;nbsp;{&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_FILEPROVIDER_URL&amp;nbsp;=&amp;nbsp;"url";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_PROPERTY_ASYNCHRONOUS&amp;nbsp;=&amp;nbsp;"asynchronous";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_CRON_EXPRESSION&amp;nbsp;=&amp;nbsp;"cronExpression";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_PURGE_DURATION&amp;nbsp;=&amp;nbsp;"purgeDuration";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_REPEAT_INTERVAL&amp;nbsp;=&amp;nbsp;"repeatInterval";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_REPEAT_COUNT&amp;nbsp;=&amp;nbsp;"repeatCount";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_THROTTLE&amp;nbsp;=&amp;nbsp;"throttleOn";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_USERNAMER&amp;nbsp;=&amp;nbsp;"userName";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_DOMAINNAME&amp;nbsp;=&amp;nbsp;"domainName";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_FILEPROVIDER_BATCH_SIZE&amp;nbsp;=&amp;nbsp;"batchSize";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_FILEPROVIDER_WAIT_TIME&amp;nbsp;=&amp;nbsp;"waitTime";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EXCLUDE_FILE_PATTERN&amp;nbsp;=&amp;nbsp;"excludeFilePattern";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_INCLUDE_FILE_PATTERN&amp;nbsp;=&amp;nbsp;"excludeFilePattern";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_FILEPROVIDER_RESULT_FOLDER_NAME&amp;nbsp;=&amp;nbsp;&amp;nbsp;"resultFolderName";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_FILEPROVIDER_PRESERVE_FOLDER_NAME&amp;nbsp;=&amp;nbsp;"preserveFolderName";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_FILEPROVIDER_FAILURE_FOLDER_NAME&amp;nbsp;=&amp;nbsp;"failureFolderName";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_FILEPROVIDER_PRESERVE_ON_FAILURE&amp;nbsp;=&amp;nbsp;"preserveOnFailure";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_FILEPROVIDER_OVERWRITE_DUPLICATE_FILENAME&amp;nbsp;=&amp;nbsp;"overwriteDuplicateFilename";&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;} 
+  </codeblock> 
+  <draft-comment type="remark">
+    Content Referenced from lc_ep_add_email_endpoints_ae.xml#WS624e3cba99b79e12e69a9941333732bac8-7e5f.2_ver6.1 
+  </draft-comment> 
+  <h2 id="adding_email_endpoints">Adding Email Endpoints</h2> 
+  <p></p> 
+  <p>You can programmatically add an Email endpoint to a service by using the AEM Forms Java API. By adding an Email endpoint, you enable users to send an email message with one or more file attachments to a specified email account. Then the configure service operation is invoked and manipulates the files. After the service performs the specified operation, it sends an email message to the sender with the modified files as file attachments. </p> 
+  <p>For the purposes of programmatically adding an Email endpoint to a service, consider the following short-lived process named <i>MyApplication\EncryptDocument</i>. For information about short-lived processes, see <a href="/programming-with-aem-forms/aem-forms-processes#understanding_aem_forms_processes">Understanding AEM Forms Processes</a>.</p> 
+  <img alt="" src="assets/ae_ae_encryptdocumentprocess.png" /> 
+  <p>This process accepts an unsecured PDF document as an input value and then passes the unsecured PDF document to the Encryption service’s <span class="code">EncryptPDFUsingPassword</span> operation. This process encrypts the PDF document with a password and returns the password-encrypted PDF document as the output value. The name of the input value (the unsecured PDF document) is <span class="code">InDoc</span> and the data type is <span class="code">com.adobe.idp.Document</span>. The name of the output value (the password-encrypted PDF document) is <span class="code">SecuredDoc</span> and the data type is <span class="code">com.adobe.idp.Document</span>.</p> 
+  <note> 
+   <p>You cannot add an Email endpoint by using web services. </p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To add an Email endpoint to a service, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an <span class="code">EndpointRegistryClient</span> object. </p></li> 
+   <li><p>Set Email endpoint attributes.</p></li> 
+   <li><p>Specify configuration values.</p></li> 
+   <li><p>Define input parameter values. </p></li> 
+   <li><p>Define an output parameter value. </p></li> 
+   <li><p>Create the Email endpoint.</p></li> 
+   <li><p>Enable the endpoint. </p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, make sure that you include the proxy files.</p> 
+  <p>The following JAR files must be added to your project’s class path:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+  </ul> 
+  <p>For information about the location of these JAR files, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p> 
+  <p><strong>Create an EndpointRegistry Client object </strong></p> 
+  <p>Before you can programmatically add an Email endpoint, you must create an <span class="code">EndpointRegistryClient</span> object.</p> 
+  <p><strong>Set Email endpoint attributes</strong></p> 
+  <p>To create an Email endpoint for a service, specify the following values:</p> 
+  <ul> 
+   <li><p><strong>Connector identifier value</strong>: Specifies the type of endpoint that is created. To create an Email endpoint, specify <span class="code">Email</span>.</p></li> 
+   <li><p><strong>Description</strong>: Specifies a description for the endpoint.</p></li> 
+   <li><p><strong>Name</strong>: Specifies the name of the endpoint.</p></li> 
+   <li><p><strong>Service identifier value</strong>: Specifies the service to which the endpoint belongs. For example, to add an Email endpoint to the process that is introduced in this section (a process becomes a service when activated using Workbench), specify <span class="code">EncryptDocument</span>.</p></li> 
+   <li><p><strong>Operation name</strong>: Specifies the name of the operation that is invoked by using the endpoint. Typically, when creating an Email endpoint for a service that originated from a process created in Workbench, the name of the operation is <span class="code">invoke</span>.</p></li> 
+  </ul> 
+  <p><strong>Specify configuration values</strong></p> 
+  <p>You must specify configuration values for an Email endpoint when programmatically adding an Email endpoint to a service. These configuration values are specified by an administrator if an Email endpoint is added using administration console.</p> 
+  <note> 
+   <p>The email account that is monitored is a special account that is used for the Email endpoint only. This account is not a regular user's email account. A regular user’s email account must not be configured as the account that the Email Provider uses because the Email Provider deletes email messages from the inbox after it is finished with the messages.</p> 
+  </note> 
+  <p>The following configuration values are set when programmatically adding an Email endpoint to a service:</p> 
+  <ul> 
+   <li><p><strong>cronExpression</strong>: A cron expression if the email must be scheduled by using a cron expression.</p></li> 
+   <li><p><strong>repeatCount</strong>: Number of times the email endpoint scans the folder or directory. A value of -1 indicates indefinite scanning. The default value is -1. </p></li> 
+   <li><p><strong>repeatInterval</strong>: The scanning rate in seconds that the receiver uses for checking for incoming mail. The default value is 10. </p></li> 
+   <li><p><strong>startDelay</strong>: The time to wait to scan after the scheduler starts. The default time is 0. </p></li> 
+   <li><p><strong>batchSize</strong>: The number of email messages the receiver processes per scan for optimum performance. A value of -1 indicates all emails. The default value is 2. </p></li> 
+   <li><p><strong>userName</strong>: The user name used when invoking a target service from email. The default value is <span class="code">SuperAdmin</span>. </p></li> 
+   <li><p><strong>domainName</strong>: A mandatory configuration value. The default value is <span class="code">DefaultDom</span>. </p></li> 
+   <li><p><strong>domainPattern</strong>: Specifies the domain patterns of incoming email that the provider accepts. For example, if <span class="code">adobe.com</span> is used, only email from adobe.com is processed, email from other domains is ignored.</p></li> 
+   <li><p><strong>filePattern</strong>: Specifies the incoming file attachment patterns that the provider accepts. This includes files that have specific file name extensions (*.dat, *.xml), files that have specific names (data), and files that have composite expressions in the name and extension (*.[dD][aA][Tt]). The default value is <span class="code">*</span>.</p></li> 
+   <li><p><strong>recipientSuccessfulJob</strong>: An email address to which messages are sent to indicate successful jobs. By default, a successful job message is always sent to the sender. If you type <span class="code">sender</span>, email results are sent to the sender. Up to 100 recipients are supported. Specify additional recipients with email addresses, each one separated by a comma. To turn off this option, leave this value blank. In some cases, you may want to trigger a process and do not want an email notification of the result. The default value is <span class="code">sender</span>. </p></li> 
+   <li><p><strong>recipientFailedJob</strong>: An email address to which messages are sent to indicate failed jobs. By default, a failed job message is always sent to the sender. If you type <span class="code">sender</span>, email results are sent to the sender. Up to 100 recipients are supported. Specify additional recipients with email addresses, each one separated by a comma. To turn off this option, leave this value blank. The default value is <span class="code">sender</span>. </p></li> 
+   <li><p><strong>inboxHost</strong>: The inbox host name or IP address for the email provider to scan.</p></li> 
+   <li><p><strong>inboxPort</strong>: The port that the email server uses. The default value for POP3 is 110 and the default value for IMAP is 143. If SSL is enabled, the default value for POP3 is 995 and the default value for IMAP is 993. </p></li> 
+   <li><p><strong>inboxProtocol</strong>: The email protocol for the email endpoint to use to scan the inbox. The options are <span class="code">IMAP</span> or <span class="code">POP3</span>. The inbox host mail server must support these protocols.</p></li> 
+   <li><p><strong>inboxTimeOut</strong>: Time-out in seconds for the email provider to wait for inbox responses. The default value is 60.</p></li> 
+   <li><p><strong>inboxUser</strong>: The user name required to log in to the email account. Depending on the email server and configuration, this may only be the user name portion of the email or it may be the full email address.</p></li> 
+   <li><p><strong>inboxPassword</strong>: The password for the inbox user. </p></li> 
+   <li><p><strong>inboxSSLEnabled</strong>: Set this value to force the email provider to use SSL when sending notification messages of results or errors. Ensure the IMAP or POP3 host supports SSL. </p></li> 
+   <li><p><strong>smtpHost</strong>: The host name of the mail server that the email provider sends results and error messages to.</p></li> 
+   <li><p><strong>smtpPort</strong>: The default value for the SMTP port is 25.</p></li> 
+   <li><p><strong>smtpUser</strong>: The user account for the email provider to use when it sends out email notifications of results and errors.</p></li> 
+   <li><p><strong>smtpPassword</strong>: The password for the SMTP account. Some mail servers do not require an SMTP password.</p></li> 
+   <li><p><strong>charSet</strong>: The character set used by the email provider. The default value is <span class="code">UTF-8</span>. </p></li> 
+   <li><p><strong>smtpSSLEnabled</strong>: Set this value to force the email provider to use SSL when sending notification messages of results or errors. Ensure that the SMTP Host supports SSL. </p></li> 
+   <li><p><strong>failedJobFolder</strong>: Specifies a directory in which to store results when the SMTP mail server is not operational.</p></li> 
+   <li><p><strong>asynchronous</strong>: When set to synchronous, all input documents are processed and a single response is returned. When set to asynchronous, a response is sent for each input document that is processed. For example, an Email endpoint is created for the process introduced in this topic, and an email message is sent to the endpoint's inbox that contains multiple unsecured PDF documents. When all PDF documents are encrypted with a password, and if the endpoint is configured as synchronous, a single response email message is sent with all secured PDF documents attached. If the endpoint is configured as asynchronous, a separate response email message is sent for each secured PDF document. Each email message contains a single PDF document as an attachment. The default value is asynchronous.</p></li> 
+  </ul> 
+  <p><strong>Define input parameter values</strong></p> 
+  <p>When creating an Email endpoint, you must define input parameter values. That is, you must describe the input values that are passed to the operation that is invoked by the Email endpoint. For example, consider the process introduced in this topic. It has one input value named <span class="code">InDoc</span> and its data type is <span class="code">com.adobe.idp.Document</span>. When creating an Email endpoint for this process (after a process is activated, it becomes a service), you must define the input parameter value.</p> 
+  <p>To define input parameter values required for an Email endpoint, specify the following values:</p> 
+  <p><strong>Input parameter name</strong>: The name of the input parameter. The name of an input value is specified in Workbench for a process. If the input value belongs to a service operation (a Forms service that is not a process created in Workbench), the input name is specified in the component.xml file. For example, the name of the input parameter for the process introduced in this section is <span class="code">InDoc</span>.</p> 
+  <p><strong>Mapping type</strong>: Used to configure the input values required to invoke the service operation. Two types of mapping types are as follows: </p> 
+  <ul> 
+   <li><p><span class="code">Literal</span>: The Email endpoint uses the value entered in the field as it is displayed. All basic Java types are supported. For example, if an API uses input such as String, long, int, and Boolean, the string is converted to the proper type and the service is invoked.</p></li> 
+   <li><p><span class="code">Variable</span>: The value entered is a file pattern that the Email endpoint uses to pick the input. For example, if you select Variable for the mapping type and the input document must be a PDF file, you can specify <span class="code">*.pdf</span> as the mapping value. </p></li> 
+  </ul> 
+  <p><strong>Mapping value</strong>: Specifies the value of the mapping type. For example, if you select a Variable mapping type, you can specify <span class="code">*.pdf</span> as the file pattern.</p> 
+  <p><strong>Data type</strong>: Specifies the data type of the input values. For example, the data type of the input value of the process introduced in this section is com.adobe.idp.Document.</p> 
+  <p><strong>Define an output parameter value</strong></p> 
+  <p>When creating an Email endpoint, you must define an output parameter value. That is, you must describe the output value that is returned by the service that is invoked by the Email endpoint. For example, consider the process introduced in this topic. It has an output value named <span class="code">SecuredDoc</span> and its data type is <span class="code">com.adobe.idp.Document</span>. When creating an Email endpoint for this process (after a process is activated, it becomes a service), you must define the output parameter value.</p> 
+  <p>To define an output parameter value required for an Email endpoint, specify the following values:</p> 
+  <p><strong>Output parameter name</strong>: The name of the output parameter. The name of a process output value is specified in Workbench. If the output value belongs to a service operation (a service that is not a process created in Workbench), the output name is specified in the component.xml file. For example, the name of the output parameter for the process introduced in this section is <span class="code">SecuredDoc</span>. </p> 
+  <p><strong>Mapping type</strong>: Used to configure the output of the service and operation. The following options are available:</p> 
+  <ul> 
+   <li><p>If the service returns a single object (a single document), the pattern is <span class="code">%F.pdf</span> and the source destination is sourcefilename.pdf. For example, the process introduced in this section returns a single document. As a result, the mapping type can be defined as <span class="code">%F.pdf</span> (<span class="code">%F</span> means use the given file name). The pattern <span class="code">%E</span> specifies the extension of the input document.</p></li> 
+   <li><p>If the service returns a list, the pattern is<span class="code"> Result\%F\</span>, and the source destination is Result\sourcefilename\source1 (output 1) and Result\sourcefilename\source2 (output 2). </p></li> 
+   <li><p>If the service returns a map, the pattern is <span class="code">Result\%F\</span>, and the source destination is Result\sourcefilename\file1 and Result\sourcefilename\file2. If the map has more than one object, the pattern is <span class="code">Result\%F.pdf</span> and the source destination is Result\sourcefilename1.pdf (output 1), Result\sourcefilenam2.pdf (output 2), and so on.</p></li> 
+  </ul> 
+  <p><strong>Data type</strong>: Specifies the data type of the return value. For example, the data type of the return value of the process introduced in this section is <span class="code">com.adobe.idp.Document</span>. </p> 
+  <p><strong>Create the Email endpoint</strong></p> 
+  <p>After you set the Email endpoint attributes and configuration values, and define input and output parameter values, you must create the Email endpoint. </p> 
+  <p><strong>Enable the endpoint</strong></p> 
+  <p>After you create an Email endpoint, you must enable it. When the endpoint is enabled, it can be used to invoke the service. After you enable the endpoint, you can view it within administration console. </p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#add_an_email_endpoint_using_the_java_api">Add an Email endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="add_an_email_endpoint_using_the_java_api">Add an Email endpoint using the Java API</h3> 
+  <p></p> 
+  <p>Add an Email endpoint by using the Java API:</p> 
+  <ol> 
+   <li><p>Include project files.</p><p>Include client JAR files, such as adobe-livecycle-client.jar, in your Java project’s class path. </p></li> 
+   <li><p>Create an EndpointRegistry Client object.</p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+     <li><p>Create an <span class="code">EndpointRegistryClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li> 
+    </ul></li> 
+   <li><p>Set Email endpoint attributes. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">CreateEndpointInfo</span> object by using its constructor. </p></li> 
+     <li><p>Specify the connector identifier value by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setConnectorId</span> method and passing the string value <span class="code">Email</span>.</p></li> 
+     <li><p>Specify the description of the endpoint by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setDescription</span> method and passing a string value that describes the endpoint.</p></li> 
+     <li><p>Specify the name of the endpoint by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setName</span> method and passing a string value that specifies the name.</p></li> 
+     <li><p>Specify the service to which the endpoint belongs by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setServiceId</span> method and passing a string value that specifies the service name.</p></li> 
+     <li><p>Specify the operation that is invoked by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setOperationName</span> method and passing a string value that specifies the operation name. Typically, when creating an Email endpoint for a service that originated from a process created in Workbench, the name of the operation is invoke.</p></li> 
+    </ul></li> 
+   <li><p>Specify configuration values.</p><p>For each configuration value to set for the Email endpoint, you must invoke the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setConfigParameterAsText</span> method. For example, to set the <span class="code">smtpHost</span> configuration value, invoke the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setConfigParameterAsText</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A string value that specifies the name of the configuration value. When setting the <span class="code">smtpHost</span> configuration value, specify <span class="code">smtpHost</span>. </p></li> 
+     <li><p>A string value that specifies the value of the configuration value. When setting the <span class="code">smtpHost</span> configuration value, specify a string value that specifies the name of the SMTP server. </p></li> 
+    </ul> 
+    <note> 
+     <p>To see all the configuration values set for the EncryptDocument service introduced in this section, see the Java code example located at <a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_adding_an_email_endpoint_using_the_java_api">QuickStart: Adding an Email endpoint using the Java API</a>. </p> 
+    </note></li> 
+   <li><p>Define input parameter values. </p><p>Define an input parameter value by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setInputParameterMapping</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A string value that specifies the name of the input parameter. For example, the name of the input parameter for the EncryptDocument service is <span class="code">InDoc</span>. </p></li> 
+     <li><p>A string value that specifies the data type of the input parameter. For example, the data type of the <span class="code">InDoc</span> input parameter is <span class="code">com.adobe.idp.Document</span>. </p></li> 
+     <li><p>A string value that specifies the mapping type. For example, you can specify <span class="code">variable</span>.</p></li> 
+     <li><p>A string value that specifies the mapping type value. For example, you can specify *.pdf as the file pattern.</p></li> 
+    </ul> 
+    <note> 
+     <p>Invoke the <span class="code">setInputParameterMapping</span> method for each input parameter value to define. Because the EncryptDocument process has only one input parameter, you need to invoke this method once. </p> 
+    </note></li> 
+   <li><p>Define an output parameter value. </p><p>Define an output parameter value by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setOutputParameterMapping</span> method and passing the following values:</p> 
+    <ul> 
+     <li><p>A string value that specifies the name of the output parameter. For example, the name of the output parameter for the EncryptDocument service is <span class="code">SecuredDoc</span>. </p></li> 
+     <li><p>A string value that specifies the data type of the output parameter. For example, the data type of the <span class="code">SecuredDoc</span> output parameter is <span class="code">com.adobe.idp.Document</span>. </p></li> 
+     <li><p>A string value that specifies the mapping type. For example, you can specify <span class="code">%F.pdf</span>.</p></li> 
+    </ul></li> 
+   <li><p>Create the Email endpoint. </p><p>Create the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">createEndpoint</span> method and passing the <span class="code">CreateEndpointInfo</span> object. This method returns an <span class="code">Endpoint</span> object that represents the Email endpoint. </p></li> 
+   <li><p>Enable the endpoint. </p><p>Enable the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">enable</span> method and passing the <span class="code">Endpoint</span> object that was returned by the <span class="code">createEndpoint</span> method.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_adding_a_watched_folder_endpoint_using_the_java_api">QuickStart: Adding a Watched Folder endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="email_configuration_values_constant_file">Email configuration values constant file</h3> 
+  <p></p> 
+  <p>The <a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_adding_an_email_endpoint_using_the_java_api">QuickStart: Adding an Email endpoint using the Java API</a> uses a constant file that must be part of your Java project in order to compile the quick start. This constant file represents configuration values that must be set when adding an email endpoint. The following Java code represents the constant file. For information about these configuration values, see <a href="#unresolvedlink-lc-ep-add-email-endpoints-ae.xml#ws624e3cba99b79e12e69a9941333732bac8-6f73.2">Specify configuration values</a>. </p> 
+  <codeblock gutter="true" class="syntax as3">
+     /**&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;This&amp;nbsp;class&amp;nbsp;contains&amp;nbsp;constants&amp;nbsp;that&amp;nbsp;can&amp;nbsp;be&amp;nbsp;used&amp;nbsp;when&amp;nbsp;setting&amp;nbsp;email&amp;nbsp;endpoint&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;configuration&amp;nbsp;values&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/&amp;nbsp;!!discoiqbr!! public&amp;nbsp;class&amp;nbsp;EmailEndpointConfigConstants&amp;nbsp;{&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_CRON_EXPRESSION&amp;nbsp;=&amp;nbsp;"cronExpression";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_REPREAT_COUNT&amp;nbsp;=&amp;nbsp;"repeatCount";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_REPREAT_INTERVAL&amp;nbsp;=&amp;nbsp;"repeatInterval";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_START_DELAY&amp;nbsp;=&amp;nbsp;"startDelay";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_BATCH_SIZE&amp;nbsp;=&amp;nbsp;"batchSize";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_USERNAME&amp;nbsp;=&amp;nbsp;"userName";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_DOMAINNAME&amp;nbsp;=&amp;nbsp;"domainName";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_DOMAINPATTERN&amp;nbsp;=&amp;nbsp;"domainPattern";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_FILEPATTERN&amp;nbsp;=&amp;nbsp;"filePattern";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_RECIPIENT_SUCCESSFUL_JOB&amp;nbsp;=&amp;nbsp;"recipientSuccessfulJob";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_RECIPIENT_FAILED_JOB&amp;nbsp;=&amp;nbsp;"recipientFailedJob";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_INBOX_HOST&amp;nbsp;=&amp;nbsp;"inboxHost";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_INBOX_PORT&amp;nbsp;=&amp;nbsp;"inboxPort";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_PROTOCOL&amp;nbsp;=&amp;nbsp;"inboxProtocol";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_INBOX_TIMEOUT&amp;nbsp;=&amp;nbsp;"inboxTimeOut";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_INBOX_USER&amp;nbsp;=&amp;nbsp;"inboxUser";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_INBOX_PASSWORD&amp;nbsp;=&amp;nbsp;"inboxPassword";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_INBOX_SSL&amp;nbsp;=&amp;nbsp;"inboxSSLEnabled";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_SMTP_HOST&amp;nbsp;=&amp;nbsp;"smtpHost";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_SMTP_PORT&amp;nbsp;=&amp;nbsp;"smtpPort";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_SMTP_USER&amp;nbsp;=&amp;nbsp;"smtpUser";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_SMTP_PASSWORD&amp;nbsp;=&amp;nbsp;"smtpPassword";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_CHARSET&amp;nbsp;=&amp;nbsp;"charSet";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_SMTP_SSL&amp;nbsp;=&amp;nbsp;"smtpSSLEnabled";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_FAILED_FOLDER&amp;nbsp;=&amp;nbsp;"failedJobFolder";&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;PROPERTY_EMAILPROVIDER_ASYNCHRONOUS&amp;nbsp;=&amp;nbsp;"asynchronous";&amp;nbsp;!!discoiqbr!! } 
+  </codeblock> 
+  <draft-comment type="remark">
+    Content Referenced from lc_ep_add_remoting_endpoints_ar.xml#WS624e3cba99b79e12e69a9941333732bac8-7e5d.2_ver6.1 
+  </draft-comment> 
+  <h2 id="adding_remoting_endpoints">Adding Remoting Endpoints</h2> 
+  <p></p> 
+  <note> 
+   <p>LiveCycle Remoting APIs deprecated for AEM forms on JEE.</p> 
+  </note> 
+  <p>You can programmatically add a Remoting endpoint to a service by using the AEM Forms Java API. By adding a Remoting endpoint, you are enabling a Flex application to invoke the service by using remoting. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-remoting#invoking_aem_forms_using_remoting">Invoking AEM Forms Using (Deprecated for AEM forms) AEM Forms Remoting</a>.)</p> 
+  <p>For the purposes of programmatically adding a Remoting endpoint to a service, consider the following short-lived process named <i>EncryptDocument</i>.</p> 
+  <img alt="" src="assets/ar_ar_encryptdocumentprocess.png" /> 
+  <p>This process accepts an unsecured PDF document as an input value and then passes the unsecured PDF document to the Encryption service’s <span class="code">EncryptPDFUsingPassword</span> operation. The PDF document is encrypted with a password, and the password-encrypted PDF document is the output value of this process. The name of the input value (the unsecured PDF document) is <span class="code">InDoc</span> and the data type is <span class="code">com.adobe.idp.Document</span>. The name of the output value (the password-encrypted PDF document) is <span class="code">SecuredDoc</span> and the data type is <span class="code">com.adobe.idp.Document</span>.</p> 
+  <p>To demonstrate how to add a Remoting endpoint to a service, this section adds a Remoting endpoint to a service named EncryptDocument.</p> 
+  <note> 
+   <p>You cannot add a Remoting endpoint by using web services. </p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To remove an endpoint from a service, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an <span class="code">EndpointRegistryClient</span> object. </p></li> 
+   <li><p>Set Remoting endpoint attributes.</p></li> 
+   <li><p>Create a Remoting endpoint.</p></li> 
+   <li><p>Enable the endpoint. </p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, make sure that you include the proxy files. </p> 
+  <p>The following JAR files must be added to your project’s class path:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+  </ul> 
+  <p>For information about the location of these JAR files, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p> 
+  <p><strong>Create an EndpointRegistry Client object </strong></p> 
+  <p>To programmatically add a Remoting endpoint, you must create an <span class="code">EndpointRegistryClient</span> object. </p> 
+  <p><strong>Set Remoting endpoint attributes</strong></p> 
+  <p>To create a Remoting endpoint for a service, specify the following values:</p> 
+  <ul> 
+   <li><p><strong>Connector identifier value</strong>: Specifies the type of endpoint that is created. To create a Remoting endpoint, specify <span class="code">Remoting</span>.</p></li> 
+   <li><p><strong>Description</strong>: Specifies the description of the endpoint.</p></li> 
+   <li><p><strong>Name</strong>: Specifies the name of the endpoint. </p></li> 
+   <li><p><strong>Service identifier value</strong>: Specifies the service to which the endpoint belongs. For example, to add a Remoting endpoint to the process that is introduced in this section (a process becomes a service when it is activated within Workbench), specify <span class="code">EncryptDocument</span>.</p></li> 
+   <li><p><strong>Operation name</strong>: Specifies the name of the operation that is invoked by using the endpoint. When creating a Remoting endpoint, specify a wildcard character (*).</p></li> 
+  </ul> 
+  <p><strong>Create a Remoting endpoint</strong></p> 
+  <p>After you set Remoting endpoint attributes, you can create a Remoting endpoint for a service. </p> 
+  <p><strong>Enable the endpoint</strong></p> 
+  <p>After you create a new endpoint, you must enable it. When a Remoting endpoint is enabled, it enables a Flex client to invoke the service. </p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#add_a_remoting_endpoint_using_the_java_api">Add a Remoting endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="add_a_remoting_endpoint_using_the_java_api">Add a Remoting endpoint using the Java API</h3> 
+  <p></p> 
+  <p>Add a Remoting endpoint by using the Java API:</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-livecycle-client.jar, in your Java project’s class path. </p></li> 
+   <li><p>Create an EndpointRegistry Client object. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+     <li><p>Create an <span class="code">EndpointRegistryClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li> 
+    </ul></li> 
+   <li><p>Set Remoting endpoint attributes. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">CreateEndpointInfo</span> object by using its constructor. </p></li> 
+     <li><p>Specify the connector identifier value by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setConnectorId</span> method and passing the string value <span class="code">Remoting</span>.</p></li> 
+     <li><p>Specify the description of the endpoint by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setDescription</span> method and passing a string value that describes the endpoint.</p></li> 
+     <li><p>Specify the name of the endpoint by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setName</span> method and passing a string value that specifies the name.</p></li> 
+     <li><p>Specify the service to which the endpoint belongs by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setServiceId</span> method and passing a string value that specifies the service name.</p></li> 
+     <li><p>Specify the operation that is invoked by the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setOperationName</span> method and passing a string value that specifies the operation name. For a Remoting endpoint, specify a wildcard character (*). </p></li> 
+    </ul></li> 
+   <li><p>Create a Remoting endpoint. </p><p>Create the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">createEndpoint</span> method and passing the <span class="code">CreateEndpointInfo</span> object. This method returns an <span class="code">Endpoint</span> object that represents the new Remoting endpoint.</p></li> 
+   <li><p>Enable the endpoint. </p><p>Enable the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">enable</span> method and passing the <span class="code">Endpoint</span> object that was returned by the <span class="code">createEndpoint</span> method.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_adding_a_remoting_endpoint_using_the_java_api">QuickStart: Adding a Remoting endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <draft-comment type="remark">
+    Content Referenced from lc_ep_add_taskmanager_endpoints_at.xml#WS624e3cba99b79e12e69a9941333732bac8-7e5b.2_ver6.1 
+  </draft-comment> 
+  <h2 id="adding_taskmanager_endpoints">Adding TaskManager Endpoints</h2> 
+  <p></p> 
+  <p>You can programmatically add a TaskManager endpoint to a service by using the AEM Forms Java API. By adding a TaskManager endpoint to a service, you enable a Workspace user to invoke the service. That is, a user working in Workspace can invoke a process that has a corresponding TaskManager endpoint.</p> 
+  <note> 
+   <p>You cannot add a TaskManager endpoint by using web services. </p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To add a TaskManager endpoint to a service, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an <span class="code">EndpointRegistryClient</span> object. </p></li> 
+   <li><p>Create a category for the endpoint. </p></li> 
+   <li><p>Set TaskManager endpoint attributes.</p></li> 
+   <li><p>Create a TaskManager endpoint.</p></li> 
+   <li><p>Enable the endpoint. </p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, make sure that you include the proxy files.</p> 
+  <p>The following JAR files must be added to your project’s class path:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+  </ul> 
+  <p>For information about the location of these JAR files, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p> 
+  <p><strong>Create an EndpointRegistry Client object </strong></p> 
+  <p>Before you can programmatically add a TaskManager endpoint, you must create an <span class="code">EndpointRegistryClient</span> object. </p> 
+  <p><strong>Create a category for the endpoint</strong></p> 
+  <p>Categories are used to organize services within Workspace. That is, a Workspace user can invoke a service that has a TaskManager endpoint by selecting a category within Workspace. When creating a TaskManager endpoint, you can either reference an existing category or programmatically create a new category. </p> 
+  <note> 
+   <p>This section creates a new category as part of adding a TaskManager endpoint to a service. </p> 
+  </note> 
+  <p><strong>Set TaskManager endpoint attributes</strong></p> 
+  <p>To create a TaskManager endpoint for a service, specify the following values:</p> 
+  <ul> 
+   <li><p><strong>Connector identifier</strong>: Specifies the type of endpoint that is created. To create a TaskManager endpoint, specify <span class="code">TaskManagerConnector</span>. </p></li> 
+   <li><p><strong>Description</strong>: Specifies the description of the endpoint.</p></li> 
+   <li><p><strong>Name</strong>: Specifies the name of the endpoint. </p></li> 
+   <li><p><strong>Service identifier</strong>: Specifies the service to which the endpoint belongs. </p></li> 
+   <li><p><strong>Category</strong>: Specifies a category identifier value that is associated with the TaskManager endpoint. </p></li> 
+   <li><p><strong>Operation name</strong>: Typically, when creating a TaskManager endpoint for a service that originated from a process created in Workbench, the name of the operation is <span class="code">invoke</span>. </p></li> 
+  </ul> 
+  <p><strong>Create a TaskManager endpoint</strong></p> 
+  <p>After you set a TaskManager endpoint attributes, you can create a TaskManager endpoint for a service. </p> 
+  <p><strong>Enable the endpoint</strong></p> 
+  <p>After you create a new endpoint, you must enable it. When the endpoint is enabled, it can be used to invoke the service from within Workspace. After you enable the endpoint, you can view it within administration console.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#add_a_taskmanager_endpoint_using_the_java_api">Add a TaskManager endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="add_a_taskmanager_endpoint_using_the_java_api">Add a TaskManager endpoint using the Java API</h3> 
+  <p></p> 
+  <p>Add a TaskManager endpoint by using the Java API:</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-livecycle-client.jar, in your Java project’s class path. </p></li> 
+   <li><p>Create an EndpointRegistry Client object. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+     <li><p>Create an <span class="code">EndpointRegistryClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li> 
+    </ul></li> 
+   <li><p>Create a category for the endpoint. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">CreateEndpointCategoryInfo</span> object by using its constructor and passing the following values:</p> 
+      <ul> 
+       <li><p>A string value that specifies the identifier value of the category</p></li> 
+       <li><p>A string value that specifies the description of the category</p></li> 
+      </ul></li> 
+     <li><p>Create the category by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">createEndpointCategory</span> method and passing the <span class="code">CreateEndpointCategoryInfo</span> object. This method returns an <span class="code">EndpointCategory</span> object that represents the new category. </p></li> 
+    </ul></li> 
+   <li><p>Set TaskManager endpoint attributes. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">CreateEndpointInfo</span> object by using its constructor. </p></li> 
+     <li><p>Specify the connector identifier value by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setConnectorId</span> method and passing the string value <span class="code">TaskManagerConnector</span>.</p></li> 
+     <li><p>Specify the description of the endpoint by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setDescription</span> method and passing a string value that describes the endpoint.</p></li> 
+     <li><p>Specify the name of the endpoint by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setName</span> method and passing a string value that specifies the name.</p></li> 
+     <li><p>Specify the service to which the endpoint belongs by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setServiceId</span> method and passing a string value that specifies the service name.</p></li> 
+     <li><p>Specify the category to which the endpoint belongs by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setCategoryId</span> method and passing a string value that specifies the category identifier value. You can invoke the <span class="code">EndpointCategory</span> object’s <span class="code">getId</span> method to get the identifier value of this category. </p></li> 
+     <li><p>Specify the operation that is invoked by invoking the <span class="code">CreateEndpointInfo</span> object’s <span class="code">setOperationName</span> method and passing a string value that specifies the operation name. Typically, when creating a <span class="code">TaskManager</span> endpoint for a service that originated from a process created in Workbench, the name of the operation is <span class="code">invoke</span>.</p></li> 
+    </ul></li> 
+   <li><p>Create a TaskManager endpoint. </p><p>Create the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">createEndpoint</span> method and passing the <span class="code">CreateEndpointInfo</span> object. This method returns an <span class="code">Endpoint</span> object that represents the new TaskManager endpoint. </p></li> 
+   <li><p>Enable the endpoint. </p><p>Enable the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">enable</span> method and passing the <span class="code">Endpoint</span> object that was returned by the <span class="code">createEndpoint</span> method.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_adding_a_taskmanager_endpoint_using_the_java_api">QuickStart: Adding a TaskManager endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><strong></strong></p> 
+  <draft-comment type="remark">
+    Content Referenced from lc_ep_modify_endpoints_me.xml#WS624e3cba99b79e12e69a9941333732bac8-7e59.2_ver6.1 
+  </draft-comment> 
+  <h2 id="modifying_endpoints">Modifying Endpoints</h2> 
+  <p></p> 
+  <p>You can programmatically modify an existing endpoint by using the AEM Forms Java API. By modifying an endpoint, you can change the behaviour of the endpoint. Consider, for example, a Watched Folder endpoint that specifies a folder that is used as the watched folder. You can programmatically modify configuration values that belong to the Watched Folder endpoint, resulting in another folder functioning as the watched folder. For information about configuration values that belong to a Watched Folder endpoint, see <a href="programmatically-endpoints#adding_watched_folder_endpoints">Adding Watched Folder Endpoints</a>.</p> 
+  <p>To demonstrate how to modify an endpoint, this section modifies a Watched Folder endpoint by changing the folder that behaves as the watched folder. </p> 
+  <note> 
+   <p>You cannot modify an endpoint by using web services. </p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To modify an endpoint, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an <span class="code">EndpointRegistryClient</span> object. </p></li> 
+   <li><p>Retrieve the endpoint.</p></li> 
+   <li><p>Specify new configuration values.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, make sure that you include the proxy files.</p> 
+  <p>The following JAR files must be added to your project’s class path:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+  </ul> 
+  <p>For information about the location of these JAR files, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p> 
+  <p><strong>Create an EndpointRegistry Client object </strong></p> 
+  <p>To programmatically modify an endpoint, you must create an <span class="code">EndpointRegistryClient</span> object. </p> 
+  <p><strong>Retrieve the endpoint to modify</strong></p> 
+  <p>Before you can modify an endpoint, you must retrieve it. To retrieve an endpoint, you must connect as a user who can access an endpoint. It is recommended that you connect as an administrator. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a>). </p> 
+  <p>You can retrieve an endpoint by retrieving a list of endpoints. You can then iterate through the list, searching for the specific endpoint to remove. For example, you can locate an endpoint by determining the service that corresponds to the endpoint and the type of endpoint. When you locate the endpoint, you can modify it. </p> 
+  <p><strong>Specify new configuration values</strong></p> 
+  <p>When modifying an endpoint, specify new configuration values. For example, to modify a Watched Folder endpoint, reset all Watched Folder endpoint configuration values, not just the ones that you want to modify. For information about configuration values that belong to a Watched Folder endpoint, see <a href="programmatically-endpoints#adding_watched_folder_endpoints">Adding Watched Folder Endpoints</a>. </p> 
+  <note> 
+   <p>For information about configuration values that belong to an Email endpoint, see <a href="programmatically-endpoints#adding_email_endpoints">Adding Email Endpoints</a>.</p> 
+  </note> 
+  <note> 
+   <p>You cannot modify the service that is invoked by the endpoint. If you attempt to modify the service, an exception is thrown. To modify the service associated with a given endpoint, remove the endpoint and create a new one. (See <a href="programmatically-endpoints#removing_endpoints">Removing Endpoints</a>.)</p> 
+  </note> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#modifying_an_endpoint_using_the_java_api">Modifying an endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="modifying_an_endpoint_using_the_java_api">Modifying an endpoint using the Java API</h3> 
+  <p></p> 
+  <p>Modify an endpoint by using the Java API:</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-livecycle-client.jar, in your Java project’s class path. </p></li> 
+   <li><p>Create an EndpointRegistry Client object. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+     <li><p>Create an <span class="code">EndpointRegistryClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li> 
+    </ul></li> 
+   <li><p>Retrieve the endpoint to modify. </p> 
+    <ul> 
+     <li><p>Retrieve a list of all endpoints to which the current user (specified in the connection properties) can access by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">getEndpoints</span> method and passing a <span class="code">PagingFilter</span> object that acts as a filter. You can pass a <span class="code">(PagingFilter)null</span> value to return all endpoints. This method returns a <span class="code">java.util.List</span> object where each element is an <span class="code">Endpoint</span> object. For information about a <span class="code">PagingFilter</span> object, see <a href="http://www.adobe.com/go/learn_aemforms_javadocs_63_en">AEM Forms API Reference</a>. </p></li> 
+     <li><p>Iterate through the <span class="code">java.util.List</span> object to determine whether it has endpoints. If endpoints exist, each element is an <span class="code">EndPoint</span> instance. </p></li> 
+     <li><p>Determine the service that corresponds to an endpoint by invoking the <span class="code">EndPoint</span> object’s <span class="code">getServiceId</span> method. This method returns a string value that specifies the service name. </p></li> 
+     <li><p>Determine the type of endpoint by invoking the <span class="code">EndPoint</span> object’s <span class="code">getConnectorId</span> method. This method returns a string value that specifies the type of endpoint. For example, if the endpoint is a Watched Folder endpoint, this method returns <span class="code">WatchedFolder</span>.</p></li> 
+    </ul></li> 
+   <li><p>Specify new configuration values. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ModifyEndpointInfo</span> object by invoking its constructor. </p></li> 
+     <li><p>For each configuration value to set, invoke the <span class="code">ModifyEndpointInfo</span> object’s <span class="code">setConfigParameterAsText</span> method. For example, to set the url configuration value, invoke the <span class="code">ModifyEndpointInfo</span> object’s <span class="code">setConfigParameterAsText</span> method and pass the following values:</p> 
+      <ul> 
+       <li><p>A string value that specifies the name of the configuration value. For example, to set the <span class="code">url</span> configuration value, specify <span class="code">url</span>. </p></li> 
+       <li><p>A string value that specifies the value of the configuration value. To define a value for the <span class="code">url</span> configuration value, specify the watched folder location.</p></li> 
+      </ul></li> 
+     <li><p>Invoke the <span class="code">EndpointRegistryClient</span> object’s <span class="code">modifyEndpoint</span> method and pass the <span class="code">ModifyEndpointInfo</span> object.</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_modifying_an_endpoint_using_the_java_api">QuickStart: Modifying an endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <draft-comment type="remark">
+    Content Referenced from lc_ep_remove_endpoints_re.xml#WS624e3cba99b79e12e69a9941333732bac8-7e57.2_ver6.1 
+  </draft-comment> 
+  <h2 id="removing_endpoints">Removing Endpoints</h2> 
+  <p></p> 
+  <p>You can programmatically remove an endpoint from a service by using the AEM Forms Java API. After you remove an endpoint, the service cannot be invoked by using the invocation method that the endpoint enabled. For example, if you remove an SOAP endpoint from a service, you cannot invoke the service by using the SOAP mode. </p> 
+  <p>To demonstrate how to remove an endpoint from a service, this section removes an EJB endpoint from a service named <i>EncryptDocument</i>.</p> 
+  <note> 
+   <p>You cannot remove an endpoint by using web services. </p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To remove an endpoint from a service, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an <span class="code">EndpointRegistryClient</span> object. </p></li> 
+   <li><p>Retrieve the endpoint.</p></li> 
+   <li><p>Remove the endpoint. </p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files into your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, make sure that you include the proxy files.</p> 
+  <p>The following JAR files must be added to your project’s class path:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server) </p></li> 
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+  </ul> 
+  <p>For information about the location of these JAR files, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p> 
+  <p><strong>Create an EndpointRegistry Client object </strong></p> 
+  <p>To programmatically remove an endpoint, you must create an <span class="code">EndpointRegistryClient</span> object. </p> 
+  <p><strong>Retrieve the endpoint to remove</strong></p> 
+  <p>Before you can remove an endpoint, you must retrieve it. To retrieve an endpoint, you must connect as a user who can access an endpoint. It is recommended that you connect as an administrator. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a>). </p> 
+  <p>You can retrieve an endpoint by retrieving a list of endpoints. You can then iterate through the list, searching for the specific endpoint to remove. For example, you can locate an endpoint by determining the service that corresponds to the endpoint and the type of endpoint. When you locate the endpoint, you can remove it. </p> 
+  <p><strong>Remove the endpoint</strong></p> 
+  <p>After you create a new endpoint, you must enable it. When the endpoint is enabled, it can be used to invoke the service. After you enable the endpoint, you can view it within administration console.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#removing_an_endpoint_using_the_java_api">Removing an endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-6f3d.2">Setting the EJB connection mode</a></p> 
+  <h3 id="removing_an_endpoint_using_the_java_api">Removing an endpoint using the Java API</h3> 
+  <p></p> 
+  <p>Remove an endpoint by using the Java API:</p> 
+  <ol> 
+   <li><p>Include project files.</p><p>Include client JAR files, such as adobe-livecycle-client.jar, in your Java project’s class path. </p></li> 
+   <li><p>Create an EndpointRegistry Client object. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+     <li><p>Create an <span class="code">EndpointRegistryClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li> 
+    </ul></li> 
+   <li><p>Retrieve the endpoint to remove.</p> 
+    <ul> 
+     <li><p>Retrieve a list of all endpoints to which the current user (specified in the connection properties) has access by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">getEndpoints</span> method and passing a <span class="code">PagingFilter</span> object that acts as a filter. You can pass <span class="code">(PagingFilter)null</span> to return all endpoints. This method returns a <span class="code">java.util.List</span> object where each element is an <span class="code">Endpoint</span> object. </p></li> 
+     <li><p>Iterate through the <span class="code">java.util.List</span> object to determine whether it has endpoints. If endpoints exist, each element is a <span class="code">EndPoint</span> instance. </p></li> 
+     <li><p>Determine the service that corresponds to an endpoint by invoking the <span class="code">EndPoint</span> object’s <span class="code">getServiceId</span> method. This method returns a string value that specifies the service name. </p></li> 
+     <li><p>Determine the type of endpoint by invoking the <span class="code">EndPoint</span> object’s <span class="code">getConnectorId</span> method. This method returns a string value that specifies the type of endpoint. For example, if the endpoint is an EJB endpoint, this method returns <span class="code">EJB</span>.</p></li> 
+    </ul></li> 
+   <li><p>Remove the endpoint.</p><p>Remove the endpoint by invoking the <span class="code">EndpointRegistryClient</span> object’s <span class="code">remove</span> method and passing the <span class="code">EndPoint</span> object that represents the endpoint to remove.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_removing_an_endpoint_using_the_java_api">QuickStart: Removing an endpoint using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><strong></strong></p> 
+  <draft-comment type="remark">
+    Content Referenced from lc_ep_retrieve_endpoint_connector_info_re.xml#WS624e3cba99b79e12e69a9941333732bac8-7e55.2_ver6.1 
+  </draft-comment> 
+  <h2 id="retrieving_endpoint_connector_information">Retrieving Endpoint Connector Information</h2> 
+  <p></p> 
+  <p>You can programmatically retrieve information about endpoint connectors using the AEM Forms API. A connector enables an endpoint to invoke a service using various invocation methods. For example, a Watched Folder connector enables an endpoint to invoke a service using watched folders. By programmatically retrieving information about endpoint connectors, you can retrieve configuration values associated with a connector such as which configuration values are required and which ones are optional. </p> 
+  <p>To demonstrate how to retrieve information about endpoint connectors, this section retrieves information about a Watched Folder connector. (See <a href="programmatically-endpoints#adding_watched_folder_endpoints">Adding Watched Folder Endpoints</a>.)</p> 
+  <note> 
+   <p>You cannot retrieve information about endpoints by using web services. </p> 
+  </note> 
+  <note> 
+   <p>This topic uses the <span class="code">ConnectorRegistryClient</span> API to retrieve information about endpoint connectors. (See <a href="http://www.adobe.com/go/learn_aemforms_javadocs_63_en">AEM Forms API Reference</a>.)</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To retrieve endpoint connector information, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an <span class="code">ConnectorRegistryClient</span> object. </p></li> 
+   <li><p>Specify the connector type.</p></li> 
+   <li><p>Retrieve configuration values. </p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files into your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, make sure that you include the proxy files.</p> 
+  <p>The following JAR files must be added to your project’s class path:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server) </p></li> 
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li> 
+  </ul> 
+  <p>If AEM Forms is deployed on a supported J2EE application server that is not JBoss, then replace adobe-utilities.jar and jbossall-client.jar with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. For information about the location of all AEM Forms JAR files, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p> 
+  <p><strong>Create an ConnectorRegistry Client object </strong></p> 
+  <p>To programmatically retrieve endpoint connector information, create a <span class="code">ConnectorRegistryClient</span> object. </p> 
+  <p><strong>Specify the connector type</strong></p> 
+  <p>Specify the type of connector from which to retrieve information. The following types of connectors exist:</p> 
+  <ul> 
+   <li><p><strong>EJB</strong>: Enables a client application to invoke a service using the EJB mode.</p></li> 
+   <li><p><strong>SOAP</strong>: Enables a client application to invoke a service using the SOAP mode.</p></li> 
+   <li><p><strong>Watched Folder</strong>: Enables watched folders to invoke a service.</p></li> 
+   <li><p><strong>Email</strong>: Enables email messages to invoke a service.</p></li> 
+   <li><p><strong>Remoting</strong>: Enables a Flex client application to invoke a service.</p></li> 
+   <li><p><strong>TaskManagerConnector</strong>: Enables a Workspace user to invoke a service from within Workspace.</p></li> 
+  </ul> 
+  <p><strong>Retrieve configuration values</strong></p> 
+  <p>After you specify the connector type, you can retrieve information about the connector such as supported configuration value. For example, for any connector, you can determine which configuration values are required and which ones are optional.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#retrieve_endpoint_connector_information_using_the_java_api">Retrieve endpoint connector information using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="retrieve_endpoint_connector_information_using_the_java_api">Retrieve endpoint connector information using the Java API</h3> 
+  <p></p> 
+  <p>Retrieve endpoint connector information by using the Java API:</p> 
+  <ol> 
+   <li><p>Include project files. .</p><p>Include client JAR files, such as adobe-livecycle-client.jar, in your Java project’s class path. </p></li> 
+   <li><p>Create a ConnectorRegistry Client object.</p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+     <li><p>Create a <span class="code">ConnectorRegistryClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li> 
+    </ul></li> 
+   <li><p>Specify the connector type.</p><p>Specify the connector type by invoking the <span class="code">ConnectorRegistryClient</span> object’s <span class="code">getEndpointDefinition</span> method and passing a string value that specifies the connector type. For example, to specify the Watched Folder connector type, pass the string value <span class="code">WatchedFolder</span>. This method returns an <span class="code">Endpoint</span> object that corresponds to the connector type. </p></li> 
+   <li><p>Retrieve configuration values. </p> 
+    <ul> 
+     <li><p>Retrieve configuration values that are associated within this endpoint by invoking the <span class="code">Endpoint</span> object’s <span class="code">getConfigParameters</span> method. This method returns an array of <span class="code">ConfigParameter</span> objects. </p></li> 
+     <li><p>Retrieve information about each configuration value by retrieving each element within the array. Each element is a <span class="code">ConfigParameter</span> object. You can, for example, determine whether the configuration value is required or optional by invoking the <span class="code">ConfigParameter</span> object’s <span class="code">isRequired</span> method. If the configuration value is required, then this method returns <span class="code">true</span>. </p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="programmatically-endpoints#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="/programming-with-aem-forms/endpoint-registry-java-api-quick#quickstart_retrieving_endpoint_connector_information_using_the_java_api">QuickStart: Retrieving endpoint connector information using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><strong></strong></p> 
+ </body> 
+</html>

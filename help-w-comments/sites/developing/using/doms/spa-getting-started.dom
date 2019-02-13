@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="video" name="pageLayout" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="REDIRECT Getting Started with SPAs in AEM" name="jcr:title" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="noIndex" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-12-11T04:52:19.507-0500" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="395cb4ac-2b07-4065-b005-6bbdf0e43b88" name="jcr:predecessors" />
+  <meta content="2018-12-11T04:52:19.523-0500" name="cq:lastModified" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="left" name="sideColumn" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/spa-getting-started.html" name="publishExternalURL" />
+  <meta content="2018-12-11T04:52:19.507-0500" name="publishExternalDate" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/using/spa-getting-started-angular" name="redirectTarget" />
+  <meta content="2018-12-11T04:52:19.858-0500" name="cq:lastReplicated" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="2018-12-11T04:52:19.507-0500" name="lastPublishExternalDate" />
+  <meta content="2018-04-12T07:28:38.100-0400" name="jcr:created" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-12-11T04:52:19.507-0500" name="firstPublishExternalDate" />
+  <meta content="bohnert" name="contentOwner" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="a1cb8393-8b75-4452-8863-e5eead22280c" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+ </head>
+ <body></body>
+</html>

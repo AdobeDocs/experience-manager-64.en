@@ -1,0 +1,124 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Naming Conventions" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:platform;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2017-12-01T19:03:33.454-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-05-08T12:44:30.638-0400" name="cq:lastModified" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="Naming Conventions" name="navTitle" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="Nodes in the repository are subject to naming conventions of the Java Content Repository" name="seoDescription" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T09:01:04.346-0400" name="cq:lastReplicated" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/platform/naming-conventions" name="qaNotes" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform;/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform" name="moreHelpPaths" /> 
+  <meta content="2017-10-31T16:16:28.856-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-31T16:16:28.856-0400" name="firstPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/naming-conventions.html" name="publishExternalURL" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Naming Conventions" name="seoTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-05-08T12:44:30.636-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-31T16:16:28.856-0400" name="lastPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="8be4c59a-a03a-4ff5-b264-263f87384a81" name="jcr:predecessors" /> 
+  <meta content="7a7df31f-8635-44de-afe8-2255834f9294" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-31T16:16:28.856-0400" name="topicBrowsingSortDate" /> 
+ </head> 
+ <body> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T05:25:10.680-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>do we need info for assets - and if so is this the appropriate location (and if not, where is)?</p> 
+  </draft-comment> 
+  <p>Nodes in the repository are subject to naming conventions of the <a href="../../../sites/developing/using/the-basics.md#javacontentrepository">Java Content Repository</a>. However AEM imposes further conventions for the name of page nodes.<br /> </p> 
+  <h2>Naming Conventions for Pages</h2> 
+  <p>These naming conventions are implemented at various levels:</p> 
+  <ul> 
+   <li>JcrUtil: the AEM implementation of the <a href="#jcrutilities">JCR utilities</a>.</li> 
+   <li>PageManager: the <a href="#pagemanager">Page Manager</a> provides methods for page level operations.</li> 
+   <li>According to the UI being used: 
+    <ul> 
+     <li><a href="#standardui">Standard, touch-enabled UI</a><br /> </li> 
+     <li><a href="#classicui">Classic UI</a> <br /> </li> 
+    </ul> </li> 
+  </ul> 
+  <h3>JCR Utilities</h3> 
+  <p><a href="/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/commons/jcr/JcrUtil">JcrUtil</a> is the AEM implementation of the JCR utilities. Of particular interest to validating names are the character mappings that it controls and the following validations:</p> 
+  <ul> 
+   <li><span class="code">isValidName</span> 
+    <ul> 
+     <li>Checks if the name is not empty and contains only valid chars.</li> 
+     <li>Can be used to check whether a proposed name is valid.</li> 
+    </ul> </li> 
+   <li><span class="code">createValidName</span> 
+    <ul> 
+     <li>This creates a valid label out of an arbitrary string.<br /> </li> 
+     <li>It can be used to create a name from a title.</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Page Manager</h3> 
+  <p><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageManager">PageManager</a> provides methods for page level operations, based on <a href="#jcrutilities">JCRUtil</a>.<br /> </p> 
+  <h3>Standard UI</h3> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T05:25:10.808-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>Rofe&amp;gt;&amp;gt;&amp;gt; I would really _not_ mention the ampersand here, because the UI will run havoc if it is being used. Imho allowing this character (of all other special characters) is a bug that needs to be fixed rather than documented.</p> 
+   <p>"The touch-optimized UI allows the use of ampersand ( &amp; ) in a node name. However pages with ampersand in the name cannot be edited (in neither touch-optimized nor classic)."</p> 
+  </draft-comment> 
+  <p>The standard, touch-enabled UI:</p> 
+  <ul> 
+   <li>Validates the name according to the restrictions imposed by PageManager when either: 
+    <ul> 
+     <li>a page title is provided for conversion into the node name</li> 
+     <li>an explicit node name is provided<br /> </li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Classic UI</h3> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T05:25:10.849-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>just to check what is meant by "dash/minus":</p> 
+   <ul> 
+    <li>all dashes and hyphen characters</li> 
+    <li>dash and the hyphen-minus char</li> 
+    <li>or just the hyphen-minus char (instead of dash-minus)</li> 
+    <li>http://www.fileformat.info/info/unicode/char/2d/index.htm</li> 
+    <li>http://www.fileformat.info/info/unicode/char/search.htm?q=dash&amp;preview=entity</li> 
+    <li>http://www.fileformat.info/info/unicode/char/search.htm?q=minus&amp;preview=entity</li> 
+   </ul> 
+  </draft-comment> 
+  <p>The classic UI imposes tighter restrictions:</p> 
+  <ul> 
+   <li>Validates the name when an explicit node name when either: 
+    <ul> 
+     <li>a page title is provided for conversion into the node name</li> 
+     <li>an explicit node name is provided</li> 
+    </ul> </li> 
+   <li>Valid characters (only these characters are actually valid when a page is created from within the classic UI, even though <span class="code">PageManagerImpl</span> would allow additional characters): 
+    <ul> 
+     <li>'a' to 'z'</li> 
+     <li>'A' to 'Z'</li> 
+     <li>'0' to '9'</li> 
+     <li>_ (underscore)</li> 
+     <li>- (dash/minus)</li> 
+    </ul> </li> 
+  </ul> 
+  <draft-comment type="draft"> 
+   <h3>Naming Conventions for Assets</h3> 
+  </draft-comment> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T05:25:10.891-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>apparently the rules are much more open for assets - need confirmation of what - or a link</p> 
+   <p>Rofe&amp;gt;&amp;gt;&amp;gt; Asset names allow all sorts of special characters, except characters forbidden by JCR name standard</p> 
+  </draft-comment> 
+ </body> 
+</html>

@@ -1,0 +1,199 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2016-04-20T09:28:47.903-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Chart component" name="navTitle" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/chart-component-interactive-communications.html" name="publishExternalURL" /> 
+  <meta content="Using charts in Interactive Communications" name="jcr:title" /> 
+  <meta content="Chart component in Interactive Communications" name="seoTitle" /> 
+  <meta content="2016-05-31T06:34:30.377-0400" name="acrolinxDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2040" name="acrolinxWords" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/interactive-communications;/content/help/en/experience-manager/6-4/forms/morehelp/interactive-communications" name="moreHelpPaths" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="d9f5dbe1-35e2-44ee-a775-954b16faeb80" name="jcr:predecessors" /> 
+  <meta content="2018-04-05T07:04:28.918-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-26T04:20:56.188-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-05T07:04:28.875-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-05T07:04:28.875-0400" name="lastPublishExternalDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/chart_component_admin_5e12de0b318c6865_1969_report.xml" name="acrolinxReportURL" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2018-04-26T04:20:56.189-0400" name="cq:lastModified" /> 
+  <meta content="vishgupt@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="AEM Forms provides a chart component that you can use to create charts in your Interactive Communication. This document explains basic and agent configurations of the chart component." name="seoDescription" /> 
+  <meta content="Using charts in an Interactive Communication, you can condense large amounts of information into an easy to analyze and understand visual format
+
+" name="jcr:description" /> 
+  <meta content="120" name="acrolinxSentences" /> 
+  <meta content="2018-04-06T07:28:58.461-0400" name="jcr:created" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2015-11-20T08:12:05.619-0500" name="lastPublishQADate" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:interactive-communications" name="cq:tags" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="vishgupt" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-05T07:04:28.875-0400" name="publishExternalDate" /> 
+  <meta content="119d708b-e2ab-4eed-b2ab-32549463383e" name="jcr:uuid" /> 
+  <meta content="cpuri" name="cq:lastModifiedBy" /> 
+ </head> 
+ <body> 
+  <draft-comment type="draft"> 
+   <note type="caution"> 
+    <p>Adaptive documents are supported for production use under a "gated" program. If you intend to use Adaptive Documents in a production environment, contact AEM Forms team at <a href="mailto:DL-forms_documents@adobe.com">DL-forms_documents@adobe.com</a>.</p> 
+   </note> 
+  </draft-comment> 
+  <p>A chart or a graph is a visual representation of data. It condenses large amounts of information into easy-to-understand visual format, enabling the recipients of the Interactive Communication to better visualize, interpret, and analyze complex data. </p> 
+  <p>While creating an Interactive Communication, you can add charts to visually represent two-dimensional data from the Interactive Communication's form data model. The Chart component allows you to add and configure the following types of charts:</p> 
+  <ul> 
+   <li>Pie</li> 
+   <li>Column<br /> </li> 
+   <li>Donut</li> 
+   <li>Bar (Web channel only)</li> 
+   <li>Line</li> 
+   <li>Line and Point</li> 
+   <li>Point</li> 
+   <li>Area</li> 
+  </ul> 
+  <h2>Add and configure chart in an Interactive Communication</h2> 
+  <p>Complete the following steps to add a chart to an Interactive Communication: </p> 
+  <ol> 
+   <li><p>From the Components in the AEM sidebar, drag and drop the Chart component in one of the following of print or web channel of an Interactive Communication:</p> 
+    <ul> 
+     <li>Print channel: Target area and Image field</li> 
+     <li>Web channel: Panel and Target area</li> 
+    </ul> <p>The dropped Chart component, creates a placeholder for a chart. </p> 
+    <note /></li> 
+   <li><p>Tap the chart component in the Interactive Communication editor and from the Component toolbar select <span class="uicontrol">Configure (</span><img src="assets/configure_icon.png" />).</p> <p>Properties sidebar appears with the Basic properties of the chart in focus. </p> <img alt="Basic properties of a line type chart in print channel" captionBottom="Basic properties of a line type chart in print channel" imageRotate="0" src="assets/chart_basicproperties.png" title="Basic properties of a line type chart in print channel" /><img alt="Basic properties of a line type chart in web channel" captionBottom="Basic properties of a line type chart in web channel" imageRotate="0" src="assets/basicpropertieswebchannel.png" title="Basic properties of a line type chart in web channel" /></li> 
+   <li><p>Configure the Basic properties of the chart for print channel and web channel. Apart from the common properties, there are properties that are specific to print and web channel and the chart type. </p> 
+    <ul> 
+     <li><span class="uicontrol">Name*</span>: Name of the chart object. The name of the chart that you specify here does not appear in the chart output but is used in rules to refer to the chart. </li> 
+     <li><span class="uicontrol">Chart Type</span>: Specify the chart type: Pie, Column, Donut, Line, Line and Point, Point, or Area. </li> 
+     <li><span class="uicontrol">Hide Object</span>: Select to hide the chart in the final output. </li> 
+     <li>Specify the following for <span class="uicontrol">x-axis</span> and <span class="uicontrol">y-axis</span>: 
+      <ul> 
+       <li><span class="uicontrol">Title</span>: Specify the titles for X and Y axis to be displayed in the Interactive Communication. </li> 
+       <li><span class="uicontrol">Data Model Object *</span>: Browse and select data model objects for the X and Y axis of the chart from the form data model specified while creating the Interactive Communication. Choose two collection/array type properties of the same parent data model object that are meaningful in relation to each other to plot on the X and Y axis of a chart. <br /> </li> 
+       <li><span class="uicontrol">Function</span>: To use statistical functions to compute the values on the axis, select function for X / Y axis. For more information about functions, see <a href="#usefunction">Use functions in chart</a> and <a href="#applicationsumfrequency">Example 2: Application of sum and mean functions in a line chart</a>.</li> 
+      </ul> </li> 
+    </ul> 
+    <draft-comment lastModifiedBy="gtalwar" lastModifiedDate="2018-03-07T04:41:31.026-0500" type="annotation">
+      setting properties in web and print channel for chart? What is the significance of the name? 
+    </draft-comment> 
+    <note> 
+     <p>For print channel, on the X axis, the data model object that you bind should be of Number, String, or Date type. On the Y axis the data model object that you bind should be of Number type. It is recommended that you use the right-side legend in the print channel. </p> 
+    </note><p>For more information on chart properties, see <a href="/forms/using/chart-component.html?cq_ck=1520443323457#BasicPropertiesCharts">Basic properties in charts</a>. </p> </li> 
+   <li><p>(Print channel only) In the Agent Settings, specify whether it is mandatory for the agent to use this chart. If i<span class="uicontrol">t Is Mandatory For the Agent To Use This Chart</span> option is not selected, the agent can tap the eye icon for the chart in the Content tab of Agent UI to show/hide the chart. </p> <img imageRotate="0" src="assets/chart_agentproperties.png" /></li> 
+   <li><p>In the Properties sidebar, tap <img src="assets/done_icon.png" />.</p> <p>Preview to see the appearance and data of the chart. Return to reconfigure the properties of the chart, if necessary. </p> </li> 
+   <li><p>Return to making other changes in the Interactive Communication. </p> </li> 
+  </ol> 
+  <h2 id="ChartOutputPrintWeb">Example 1: Chart output in print and web</h2> 
+  <p>In the Basic tab, you define the type of chart, the source form data model properties that contain data, the labels to be plotted on x-axis and y-axis of the chart, and optionally the statistical function to compute the values for plotting on the chart.</p> 
+  <p>Let's understand in detail about the minimum required information in basic properties, with the help of a credit card statement generated using an Interactive Communication. Consider that you want to generate a chart to depict the amount of different expenses in the statement. You want to use different types of charts for print and web output of the Interactive Communication. </p> 
+  <p>To accomplish this, you need to specify:</p> 
+  <ul> 
+   <li><span class="uicontrol">Chart Type</span> - in this example, Column for the print channel and Donut for the web channel</li> 
+   <li><span class="uicontrol">Data Model Objects</span> as source for X and Y axis of the chart - in this example, Transaction Amount for X axis and Expense name for the Y axis</li> 
+   <li><span class="uicontrol">Title</span> for the X and Y axis (for Column type chart in the print channel only in this example) - in this example, Amount ($) for the X axis and Expense for the Y axis.</li> 
+   <li><span class="uicontrol">Label Direction</span> (for Column type chart in the print channel only in this example) - in this example <span class="kbd">Tilt Left</span></li> 
+   <li><span class="uicontrol">Tooltip</span> to display on mouse over of an expense (web channel only) - in this example <span class="kbd">${x}: $ ${y}</span>, which displays as [Expense Label: $ Amount] (Example: Theme Park Visit: $ 315)</li> 
+  </ul> 
+  <img alt="Column chart in the print output of an Interactive Communication" captionBottom="Column chart in the print output of an Interactive Communication" imageRotate="0" src="assets/chartprintchannel.png" title="Column chart in the print output of an Interactive Communication" /> 
+  <p><strong>A.</strong> Y axis - Amount fetched from the form data model property and Title property set to Amount ($) <strong>B.</strong> Label Direction of X-axis set to Tilt Left <strong>C.</strong> X Axis - Expense description fetched from the form data model property and Title property set to Expense</p> 
+  <img alt="Donut chart in the web output of an Interactive Communication" captionBottom="Donut chart in the web output of an Interactive Communication" imageRotate="0" src="assets/chartwebchannel.png" title="Donut chart in the web output of an Interactive Communication" /> 
+  <p><strong>A.</strong> Inner Radius property of the donut is set <strong>B.</strong> Show Legend property is selected and Legend Position property is set to Right <strong>C.</strong> Tooltip displays the detail of the item on mouse over - Tooltip is set to ${x}: $ ${y}</p> 
+  <h2 id="ApplicationSumFrequency">Example 2: Application of Sum and Frequency functions in a line chart</h2> 
+  <p>By applying functions in a chart, you can plot data that is not directly provided by the form data model. In this example, we use a credit card statement example to understand how Sum and Frequency functions can be applied to the chart.</p> 
+  <img alt="Line chart without a function with three &quot;Bed and Breakfast&quot; transactions" captionBottom="Line chart without a function with three &quot;Bed and Breakfast&quot; transactions" imageRotate="0" src="assets/creditcarddatalinechartcopy.png" title="Line chart without a function with three &quot;Bed and Breakfast&quot; transactions" /> 
+  <h3>Sum function</h3> 
+  <p>You can apply the sum function to add up values of multiple instances of same data property and show it only once. For example, in the following graph, the Sum function is applied on the Y axis to add up the amount of the three Bed and Breakfast transactions ($99.45, $78, and $12) and show only one transaction ($189.45). </p> 
+  <p>Sum function can make graph more useful when you want to collate and display sum for many instances of the same data property. </p> 
+  <img imageRotate="0" src="assets/creditcardchartsumfunctioncopy.png" /> 
+  <h3>Frequency function</h3> 
+  <p>The Frequency function returns the number of values on X or Y axis for a given value on the other axis. With application of the Frequency function on the y-axis (Amount/TransAmount), the graph displays that there have been three occurrences of Bed and Breakfast transactions and one occurrence of rest of the types of transactions. </p> 
+  <img imageRotate="0" src="assets/creditcardchartfrequencyfunctioncopy.png" /> 
+  <h2 id="BasicPropertiesCharts">Basic properties in charts</h2> 
+  <p>In the Basic tab, you can configure the following properties:</p> 
+  <p><strong>Name</strong> An identifier for the chart element. Name is not visible on the chart but helps when referring to the element from other components, scripts, and SOM expressions.</p> 
+  <p><strong>Title (Print channel only)</strong> Specifies title of the chart.</p> 
+  <p><strong>Chart type</strong> Specifies the type of chart you want to generate. The available options are Pie, Column, Donut, Bar (Web channel only), Line, Line and Point, Point, and Area. For more information, see Example 1: Chart output in print and web.</p> 
+  <p><strong>X-axis &gt; Title</strong> Specifies the title for the x-axis.</p> 
+  <p><strong>X-axis &gt; Data Model Object *</strong> Specify the name of the form data model collection item to be plotted on x-axis.</p> 
+  <p><strong>X-axis &gt; Function</strong> Specifies the statistical/custom function to use for computing the values on x-axis. For more information about functions, see Use functions in chart and Example 2: Application of sum and mean functions in a line chart.</p> 
+  <p><strong>X-axis &gt; Label Direction</strong> Direction of the label on the chart in print channel. If you choose direction of the label as Custom Rotation, Custom Rotation Angle (degrees) field appears. In the Custom Rotation Angle (degrees) field, you can choose angle of rotation in steps of 15 degrees.</p> 
+  <p><strong>Y-axis &gt; Title</strong> Specifies the title for the y-axis.</p> 
+  <p><strong>Y-axis &gt; Data Model Object *</strong> Specifies the form data model collection item to be plotted on y-axis. In the Print channel, the data model object for the Y-axis should be of type Number.</p> 
+  <p><strong>Y-axis &gt; Function</strong> Specifies the statistical/custom function to use for computing the values on y-axis. For more information about functions, see Use functions in chart and Example 2: Application of sum and mean functions in a line chart.</p> 
+  <p><strong>Show legend</strong> Shows a legend for the pie or donut chart when enabled.</p> 
+  <p><strong>Legend position</strong> Specifies the position of the legend with respect to the chart. The available options are Right, Left, Top, and Bottom.</p> 
+  <p><strong>Height (Print channel only) </strong> Height of the chart in pixels.</p> 
+  <p><strong>Width (Print channel only) </strong> Width of the chart in pixels.</p> 
+  <note> 
+   <p>You can control width of chart in web channel using the style layer or by applying a theme.</p> 
+  </note> 
+  <p><strong>Tooltip (Web channel only)</strong> Specifies the format in which the tooltip appears on mouseover on a data point in the chart in the web channel. The default value is ${x}(${y}). Depending on the chart type, when you point the mouse on a point, bar, or slice in the chart, the variables ${x} and ${y} are dynamically replaced with the corresponding values on x-axis and y-axis and displayed in the tooltip.</p> 
+  <p>To disable tool tip, leave the Tooltip field blank. This option is not applicable for Line and Area charts. For example, see <a href="#chartoutputprintweb">Example 1: Chart output in print and web</a>.</p> 
+  <p><strong>CSS Class (Web channel only)</strong> Specify the name of a CSS class in the CSS class field to apply custom styling to the chart.</p> 
+  <p><strong>Mandatory Page Break Before (Print channel only)</strong> Select to add a mandatory page break before the chart and put the chart on the top of a new page.</p> 
+  <p><strong>Mandatory Page Break After (Print channel only)</strong> Select to add a mandatory page break after the chart and put the contents following the chart on the top of a new page.</p> 
+  <p><strong>Indentation (Print channel only)</strong> Specify the indentation of the chart from the left of the page.</p> 
+  <p><strong>Chart-specific configurations</strong> In addition to common configurations, the following chart-specific configuration are available:</p> 
+  <ul> 
+   <li><strong>Inner radius</strong>: available for Donut charts to specify the radius (in pixels) of the inner circle in the chart.</li> 
+   <li><strong>Line color</strong>: available for Line, Line and Point, and Area charts to specify the hexadecimal value of the color for the line in the chart.</li> 
+   <li><strong>Point color</strong>: available for Point and Line and Point charts to specify the hexadecimal value of the color for the points in the chart.<br /> </li> 
+   <li><strong>Area color</strong>: available for Area charts to specify the hexadecimal value of the color for the area under the line in the chart.<br /> </li> 
+  </ul> 
+  <h2 id="UseFunction">Use functions in chart</h2> 
+  <p>You can configure a chart to use statistical functions to compute values from the source data for plotting on the chart. By applying functions in a chart, you can plot data that is not directly provided by the form data model. </p> 
+  <p>While the Chart component come with some in-built functions, you can write your own functions and make them available for use in the chart configuration in the Web channel.</p> 
+  <img imageRotate="0" src="assets/functionchart.png" /> 
+  <note> 
+   <p>You can use functions to compute values for either X-axis or Y-axis in a chart.</p> 
+  </note> 
+  <h3>Default functions</h3> 
+  <p>The following functions are available by default with the Chart component:</p> 
+  <p><strong>Mean (Average)</strong> Returns the average of the values on X or Y axis for a given value on the other axis.</p> 
+  <p><strong>Sum</strong> Returns the sum of all values on X or Y axis for a given value on the other axis.</p> 
+  <p><strong>Maximum</strong> Returns the maximum of the values on X or Y axis for a given value on the other axis.</p> 
+  <p><strong>Frequency</strong> Returns the number of values on X or Y axis for a given value on the other axis.</p> 
+  <p><strong>Range</strong> Returns the difference between the maximum and minimum of the values on X or Y axis for a given value on the other axis.</p> 
+  <p><strong>Median</strong> Returns the value that separates higher and lower values in half on X or Y axis for a given value on the other axis.</p> 
+  <p><strong>Minimum</strong> Returns the minimum of the values on X or Y axis for a given value on the other axis.</p> 
+  <p><strong>Mode</strong> Returns the value with most occurrences on X or Y axis for a given value on the other axis</p> 
+  <h3>Custom functions in web channel</h3> 
+  <p>In addition to using the default functions in charts, you can write custom functions in JavaScript™ and make them available in the list of functions in the Chart component for web channel.</p> 
+  <p>A function takes an array or values and a category name as inputs and returns a value. For example:</p> 
+  <codeblock class="syntax js">
+    Multiply(valueArray,&amp;nbsp;category)&amp;nbsp;{!!discoiqbr!! var&amp;nbsp;val&amp;nbsp;=&amp;nbsp;1;!!discoiqbr!! _.each(valueArray,&amp;nbsp;function(value)&amp;nbsp;{!!discoiqbr!! val&amp;nbsp;=&amp;nbsp;val&amp;nbsp;*&amp;nbsp;value;!!discoiqbr!! });!!discoiqbr!! return&amp;nbsp;val;!!discoiqbr!!} 
+  </codeblock> 
+  <p>Once you have written a custom function, do the following to make it available for use in the chart configuration:</p> 
+  <ol> 
+   <li>Add the custom function in the client library associated with the relevant Interactive Communication. For more information, see <a href="../../forms/using/configuring-submit-actions.md" target="_blank">Configuring the Submit action</a> and <a href="../../sites/developing/using/clientlibs.md" target="_blank">Using Client-Side Libraries</a>.</li> 
+   <li>To display the custom function in Function drop-down, in CRXDe Lite, create an <span class="code">nt:unstructured</span> node in the apps folder with the following properties: 
+    <ul> 
+     <li>Add property <span class="code">guideComponentType</span> with value as <span class="code">fd/af/reducer</span>. (mandatory)</li> 
+     <li>Add property <span class="code">value</span> to a fully qualified name of the custom JavaScript™ function. (mandatory) and set its value to name of the custom function, such as Multiply. </li> 
+     <li>Add property <span class="code">jcr:description</span> with the value you want to display as the name of the custom function that appears in the Function drop-down. For example, <strong>Multiply</strong>.<br /> </li> 
+     <li>Add property <span class="code">qtip</span> with value that will be short description of the custom function. It appears as a tooltip when hovering pointer over the function name in the <strong>Function</strong> drop-down list.<br /> </li> 
+    </ul> </li> 
+   <li>Click <strong>Save All</strong> to save the configuration.</li> 
+  </ol> 
+  <div>
+    The function is now available for use in the Chart. 
+  </div> 
+ </body> 
+</html>

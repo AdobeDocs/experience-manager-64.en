@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4;topic_tags:release-notes;content_type:reference" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="513f40b4-d46b-40c5-98eb-162876d06824" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="dist5" name="distType" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Release notes specific to the Dynamic Media Feature Pack 18912." name="seoDescription" />
+  <meta content="2017-11-02T11:32:38.528-0400" name="publishExternalDate" />
+  <meta content="User" name="contentOwner" />
+  <meta content="2017-10-31T16:37:53.909-0400" name="firstPublishExternalDate" />
+  <meta content="2017-11-02T11:32:38.528-0400" name="topicBrowsingSortDate" />
+  <meta content="/content/docs/en/aem/6-3/release-notes/dynamic-media-featurepack-14410" name="qaNotes" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="alvawb@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4" name="primaryProductTag" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-01-18T10:01:52.170-0500" name="cq:lastReplicated" />
+  <meta content="Deactivate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/release-notes/dynamic-media-featurepack-14410.html" name="publishExternalURL" />
+  <meta content="rbrough" name="cq:lastModifiedBy" />
+  <meta content="Dynamic Media Feature Pack 18912 Release Notes" name="seoTitle" />
+  <meta content="light" name="gnavTheme" />
+  <meta content="494a0087-f27c-49c9-bf31-85f44edad48a" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-03-15T16:05:18.586-0400" name="cq:lastModified" />
+  <meta content="2017-11-02T11:32:38.528-0400" name="lastPublishExternalDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/content/help/en/experience-manager/6-4/morehelp/release-notes;/content/help/en/experience-manager/6-4/morehelp/release-notes" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Dynamic Media Feature Pack 18912 Release Notes" name="jcr:title" />
+  <meta content="2018-02-27T08:01:04.007-0500" name="jcr:created" />
+ </head>
+ <body>
+  <h2>Release Information</h2>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td>Products</td> 
+     <td><strong>Dynamic Media Feature Pack 18912 (optional)</strong></td> 
+    </tr>
+    <tr>
+     <td>Version</td> 
+     <td>1.0</td> 
+    </tr>
+    <tr>
+     <td>Type</td> 
+     <td>Feature Release</td> 
+    </tr>
+    <tr>
+     <td>Date</td> 
+     <td>August 31, 2017</td> 
+    </tr>
+    <tr>
+     <td>Download URL</td> 
+     <td><p>Feature Pack 18912 (optional) - Lets you bulk ingest assets by way of FTP, or migrate assets from Dynamic Media Classic (Scene7) to Dynamic Media, or both.</p> <p>Contact Adobe support to request access and complete setup of your account to enable the features in this feature pack.</p> </td> 
+    </tr>
+    <tr>
+     <td>Compatibility (*)</td> 
+     <td>AEM 6.4</td> 
+    </tr>
+    <tr>
+     <td>Description of Feature Pack</td> 
+     <td>New automation and delivery features for Dynamic Media. Upgrade release for Dynamic Media Classic customers. </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>What is included in Dynamic Media Feature Pack 18912</h2>
+  <ul> 
+   <li><strong><a href="../assets/using/managing-assets-touch-ui.md#uploadingassetsusingftp">FTP Ingestion</a> (available via FP 18912): </strong>Bulk upload large volume of assets and/or very large file size assets through FTP for more scalable and performant ingestion. FTP jobs can be scheduled on a recurring basis to automate ingestion.</li> 
+   <li><strong>Asset Replicator (available via FP 18912):</strong> For customers transitioning from Dynamic Media Classic (Scene7) to Dynamic Media, master assets will be replicated from their existing S7 repository to the Dynamic Media repository. This enables customers to achieve the following benefits during the upgrade:
+    <ol> 
+     <li>No need to change URLs used on their existing production sites.</li> 
+     <li>No need to rewrite API automation scripts or integrations with 3rd party systems.</li> 
+     <li>No need to re-develop custom branded interactive viewers.</li> 
+    </ol> </li> 
+  </ul> 
+  <p> </p> 
+  <h2>Installation Instructions</h2>
+  <p>See I<a href="../assets/using/bulk-ingest-migrate.md">nstalling Feature Pack 18912</a>.</p> 
+  <h2>Helpful resources</h2>
+  <ul> 
+   <li><a href="http://www.adobe.com/solutions/web-experience-management.html">Adobe Experience Manager Product Page</a></li> 
+   <li><a href="https://docs.adobe.com/content/docs/en/aem/6-3.html">AEM Documentation</a></li> 
+  </ul> 
+ </body>
+</html>

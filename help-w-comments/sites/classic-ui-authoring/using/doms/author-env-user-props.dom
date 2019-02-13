@@ -1,0 +1,77 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="10360b84-3d6d-487a-a44d-52b9dab23b61" name="jcr:uuid" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-03T06:43:31.393-0400" name="topicBrowsingSortDate" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="AEM provides you with the capability to configure your account and certain aspects of the author environment." name="seoDescription" />
+  <meta content="2018-04-03T06:43:31.393-0400" name="publishExternalDate" />
+  <meta content="Configuring your account environment" name="navTitle" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-04-19T10:23:40.934-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T06:43:31.393-0400" name="lastPublishExternalDate" />
+  <meta content="Configuring your account environment" name="seoTitle" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/author-environment/user-properties" name="qaNotes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Configuring your account environment" name="jcr:title" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="b05deffc-a639-4659-85a1-a5017d169f16" name="jcr:predecessors" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-12-01T19:02:56.823-0500" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-10-31T16:19:29.229-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/author-env-user-props.html" name="publishExternalURL" />
+  <meta content="2018-04-03T06:43:32.193-0400" name="cq:lastReplicated" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="2018-04-19T10:23:40.932-0400" name="locHandOffDate" />
+ </head>
+ <body>
+  <p>AEM provides you with the capability to configure your account and certain aspects of the author environment.<br /> </p> 
+  <p>Using the <a href="#accountsettings">account settings</a> and <a href="#userpreferences">user preferences</a> the following options and preferences can be defined:<br /> </p> 
+  <ul> 
+   <li><strong>Editing Toolbar</strong><br /> Select whether you want to have the global editing toolbar. This toolbar, which is shown at the top of the browser window, gives you <strong>Copy</strong>, <strong>Cut</strong>, <strong>Paste</strong>, <strong>Delete</strong> buttons for using with the paragraph components on that page:
+    <ul> 
+     <li>Show when needed (Default)</li> 
+     <li>Always show</li> 
+     <li>Keep Hidden</li> 
+    </ul> </li> 
+   <li><strong>Impersonate as</strong><br /> With the <a href="../../../sites/administering/using/security.md#main-pars-title-23">Impersonate as</a> functionality a user can work on behalf of another user.</li> 
+   <li><strong>Language</strong><br /> The language to use for the UI of the authoring environment. Select the required language from the available list.<br /> </li> 
+   <li><strong>Window Management</strong><br /> Select either:
+    <ul> 
+     <li>Multiple Windows (Default)<br /> Pages will be opened in a new window.</li> 
+     <li>Single Window<br /> Pages will be opened in the current window.</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Account Settings</h3>
+  <p>The user icon gives you access to various to the following options:</p> 
+  <ul> 
+   <li>Sign Out</li> 
+   <li><a href="../../../sites/administering/using/security.md#main-pars-title-23">Impersonate as</a></li> 
+   <li><a href="#userpreferences">User Preferences</a> </li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/author-env-inbox.md">Notification Inbox</a></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-195.png" />
+  <h3>User Preferences</h3>
+  <p>Each user can set certain properties for themselves. This is available from <strong>Preferences</strong> dialog in the top right corner of the consoles.<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-08at105033am.png" />
+  <p>The dialog offers the following options:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-196.png" />
+ </body>
+</html>

@@ -1,0 +1,99 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-03T07:42:40.665-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-03T07:42:42.287-0400" name="cq:lastReplicated" /> 
+  <meta content="096e33e8-9d86-4375-8453-3f08b95b94e0" name="jcr:predecessors" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Voting component overview" name="seoDescription" /> 
+  <meta content="Voting Essentials" name="navTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-05-17T05:54:00.065-0400" name="locHandOffDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Voting Essentials" name="seoTitle" /> 
+  <meta content="d42b6cae-c67e-43f8-9082-c8db8e5f4d13" name="jcr:uuid" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/voting" name="qaNotes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T07:42:40.665-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-03T07:42:40.665-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:01:05.960-0500" name="jcr:created" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/essentials-voting.html" name="publishExternalURL" /> 
+  <meta content="2018-05-17T05:54:00.066-0400" name="cq:lastModified" /> 
+  <meta content="Voting Essentials" name="jcr:title" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-31T16:33:38.176-0400" name="firstPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>The voting component, a <a href="../../communities/using/tally.md">tally</a> subclass, is a useful tool that allows members to rate a particular piece of content by simply selecting up or down arrows to indicate their opinion.</p> 
+  <p>Placing multiple instances of a voting component on the same page is allowed; each instance must be configured with an unique <span class="code">tally name</span> property.</p> 
+  <p>Anonymous posting of a vote is not supported. Site visitors must register and sign in to participate in voting only once, The signed in visitor (member) may change their vote at any time.</p> 
+  <h2>Essentials for Client-Side</h2> 
+  <table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td> <strong>resourceType</strong></td> 
+     <td>social/tally/components/hbs/voting</td> 
+    </tr> 
+    <tr> 
+     <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+     <td>Yes - properties are editable in <i>design </i>mode</td> 
+    </tr> 
+    <tr> 
+     <td> <a href="../../communities/using/client-customize.md#clientlibsforscf"><strong>clientlibs</strong></a></td> 
+     <td> cq.social.hbs.voting</td> 
+    </tr> 
+    <tr> 
+     <td> <strong>templates</strong></td> 
+     <td><p> /libs/social/tally/components/hbs/voting/voting.hbs<br /> /libs/social/tally/components/hbs/voting/activity-title.hbs</p> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>CSS</strong></td> 
+     <td> /libs/social/tally/components/hbs/voting/clientlibs/votingcomponent.css</td> 
+    </tr> 
+    <tr> 
+     <td><strong>properties</strong></td> 
+     <td><p>see <a href="../../communities/using/voting.md">Using Voting</a></p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <ul> 
+   <li><a href="../../communities/using/client-customize.md">Client-side Customizations</a></li> 
+  </ul> 
+  <h2>Essentials for Server-Side</h2> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary">Tally APIs</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary">Tally Endpoints</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="../../communities/using/server-customize.md">Server-side Customizations</a></li> 
+  </ul> 
+  <h3>Accessing Posted Voting (UGC)</h3> 
+  <p>UGC should be moderated using one of the standard methods for moderation.<br /> See <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+  <p>As of AEM 6.1 Communities, use of a <a href="../../communities/using/working-with-srp.md">common store</a> for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).</p> 
+  <p><strong>The location and format of the UGC in the repository is subject to change without warning</strong>.</p> 
+  <p>See :</p> 
+  <ul> 
+   <li><a href="../../communities/using/srp.md">Storage Resource Provider Overview</a> - introduction and repository usage overview</li> 
+   <li><a href="../../communities/using/srp-and-ugc.md">SRP and UGC Essentials</a> - SRP utility methods and examples</li> 
+   <li><a href="../../communities/using/accessing-ugc-with-srp.md">Accessing UGC with SRP</a> - coding guidelines</li> 
+   <li><a href="../../communities/using/socialutils.md">SocialUtils Refactoring</a> - mapping deprecated utility methods to current SRP utility methods</li> 
+  </ul> 
+ </body> 
+</html>

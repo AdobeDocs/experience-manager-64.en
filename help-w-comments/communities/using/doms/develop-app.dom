@@ -1,0 +1,178 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="953a5fd9-89b8-4332-9605-a63adefff943" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-31T16:33:46.939-0400" name="firstPublishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/tutorials/an-scf-sandbox/develop-app" name="qaNotes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-05-17T05:51:27.606-0400" name="cq:lastModified" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="542160ad-01a2-4a9d-80f3-3ce992658f37" name="jcr:predecessors" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/developing;/content/help/en/experience-manager/6-4/communities/morehelp/developing" name="moreHelpPaths" /> 
+  <meta content="2018-04-03T07:38:32.875-0400" name="topicBrowsingSortDate" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Develop Sandbox Application" name="navTitle" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/develop-app.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="2018-04-03T07:38:32.875-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-03T07:38:34.410-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Develop Sandbox Application" name="jcr:title" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2018-04-03T07:38:32.875-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:03:52.355-0500" name="jcr:created" /> 
+  <meta content="Develop application using foundation scripts" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Develop Sandbox Application" name="seoTitle" /> 
+  <meta content="2018-05-17T05:51:27.605-0400" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <table cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;"><strong><a href="../../communities/using/initial-content.md">⇐ Initial Sandbox Content</a></strong></td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/add-clientlibs.md">Add Clientlibs ⇒</a></strong></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>In this section, now that the template has been setup in the <a href="../../communities/using/initial-app.md">initial application</a> section, and the initial pages established in the <a href="../../communities/using/initial-content.md">initial content</a> section, the application can be developed using foundation scripts including the ability to enable authoring with Communities components. At the end of this section, the website will be functional.<br /> </p> 
+  <h2>Using Foundation Page Scripts</h2> 
+  <p>The default script, created when the component which renders the playpage template was added, is modifed to include the foundation page's head.jsp and a local body.jsp.</p> 
+  <h3>Super Resource Type</h3> 
+  <p>The first step is to add a resource super type property to the<span class="code"> /apps/an-scf-sandbox/components/playpage</span> node so that it inherits the scripts and properties of the super type.</p> 
+  <p>Using CRXDE Lite:</p> 
+  <ol> 
+   <li> 
+    <lp>
+      select node 
+     <span class="code">/apps/an-scf-sandbox/components/playpage</span> 
+     <br /> 
+    </lp></li> 
+   <li> 
+    <lp>
+      on the Properties tab, enter a new property with the following values: 
+    </lp> 
+    <ul> 
+     <li>Name: <strong> <span class="code">sling:resourceSuperType</span></strong></li> 
+     <li>Type: <strong><span class="code">String </span></strong></li> 
+     <li>Value: <strong><span class="code">foundation/components/page</span></strong></li> 
+    </ul> </li> 
+   <li>Click the green<strong> [+] Add</strong></li> 
+   <li>click <strong>Save All</strong></li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-238.png" /> 
+  <h3>head and body scripts</h3> 
+  <ol> 
+   <li><p>In <strong>CRXDE Lite</strong> explorer pane, navigate to <span class="code">/apps/an-scf-sandbox/components/playpage</span> and double-click the file <span class="code">playpage.jsp</span> to open it in the edit pane.</p> <h4>/apps/an-scf-sandbox/components/playpage/playpage.jsp</h4> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%--!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;An&amp;nbsp;SCF&amp;nbsp;Sandbox&amp;nbsp;Play&amp;nbsp;Component&amp;nbsp;component.!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;This&amp;nbsp;is&amp;nbsp;the&amp;nbsp;component&amp;nbsp;which&amp;nbsp;renders&amp;nbsp;content&amp;nbsp;for&amp;nbsp;An&amp;nbsp;SCF&amp;nbsp;Sandbox&amp;nbsp;page.!!discoiqbr!!!!discoiqbr!!--%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@page&amp;nbsp;session="false"&amp;nbsp;%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%!!discoiqbr!!&amp;nbsp;//&amp;nbsp;TODO&amp;nbsp;add&amp;nbsp;your&amp;nbsp;code&amp;nbsp;here!!discoiqbr!!%&gt; 
+    </codeblock></li> 
+   <li><p>Being aware of open/close script tags, replace " // TODO ..." with includes of scripts for the head and body parts of &amp;lt;html&amp;gt;.</p> <p>With a super type of <span class="code">foundation/components/page</span>, any script not defined in this same folder will resolve to a script in <span class="code">/apps/foundation/components/page</span> folder (if it exists), else to a script in <span class="code">/libs/foundation/components/page</span> folder.</p>  <h4>/apps/an-scf-sandbox/components/playpage/playpage.jsp</h4> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%--!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;An&amp;nbsp;SCF&amp;nbsp;Sandbox&amp;nbsp;Play&amp;nbsp;Component&amp;nbsp;component&amp;nbsp;:&amp;nbsp;playpage.jsp!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;This&amp;nbsp;is&amp;nbsp;the&amp;nbsp;component&amp;nbsp;which&amp;nbsp;renders&amp;nbsp;content&amp;nbsp;for&amp;nbsp;An&amp;nbsp;SCF&amp;nbsp;Sandbox&amp;nbsp;page.!!discoiqbr!!!!discoiqbr!!--%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@page&amp;nbsp;session="false"&amp;nbsp;%&gt;!!discoiqbr!!&lt;html&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;cq:include&amp;nbsp;script="head.jsp"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;cq:include&amp;nbsp;script="body.jsp"/&gt;!!discoiqbr!!&lt;/html&gt; 
+    </codeblock></li> 
+   <li><p>The foundation script <span class="code">head.jsp</span> need not be overlaid, but the foundation script <span class="code">body.jsp</span> is empty.</p> <p>To setup for authoring, overlay <span class="code">body.jsp</span> with a local script and include a paragraph system (parsys) in the body :</p> 
+    <ol> 
+     <li>navigate to <span class="code">/apps/an-scf-sandbox/components</span></li> 
+     <li>select the <span class="code">playpage </span>node</li> 
+     <li>right click and select <span class="code">Create &amp;gt; Create File...</span> 
+      <ul> 
+       <li>Name: <strong>body.jsp</strong></li> 
+      </ul> </li> 
+     <li>click<strong> Save All</strong></li> 
+    </ol> 
+    <div>
+      Open 
+     <span class="code">/apps/an-scf-sandbox/components/playpage/body.jsp</span> and paste in the following text: 
+    </div> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%--!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;An&amp;nbsp;SCF&amp;nbsp;Sandbox&amp;nbsp;Play&amp;nbsp;Component&amp;nbsp;component&amp;nbsp;:&amp;nbsp;body.jsp!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;This&amp;nbsp;is&amp;nbsp;the&amp;nbsp;component&amp;nbsp;which&amp;nbsp;renders&amp;nbsp;content&amp;nbsp;for&amp;nbsp;An&amp;nbsp;SCF&amp;nbsp;Sandbox&amp;nbsp;page.!!discoiqbr!!!!discoiqbr!!--%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@page&amp;nbsp;session="false"&amp;nbsp;%&gt;!!discoiqbr!!&lt;body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h2&gt;Community&amp;nbsp;Play&lt;/h2&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;cq:include&amp;nbsp;path="par"&amp;nbsp;resourceType="foundation/components/parsys"&amp;nbsp;/&gt;!!discoiqbr!!&lt;/body&gt; 
+    </codeblock></li> 
+   <li><p>Click<strong> Save All</strong><br /> </p>  </li> 
+  </ol> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"><strong>View the page in a browser in edit mode:</strong></p> 
+  <ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"> 
+   <li>Standard UI : <a href=" http://localhost:4502/editor.html/content/an-scf-sandbox/en/play">http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.html</a></li> 
+  </ul> 
+  <p>You should not only see the heading <strong>Community Play</strong>, but also the UI for editing page content.</p> 
+  <p>The Assets/Component side panel is seen when both the side panel is toggled open and the window is wide enough for both the side content and the page content to be displayed.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-239.png" /> 
+  <p> </p> 
+  <ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"> 
+   <li>Classic UI : <a href="http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html">http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html</a></li> 
+  </ul> 
+  <p>Following is how the play page appears in the classic UI including with content finder (cf) :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-240.png" /> 
+  <h2>Communities Components</h2> 
+  <p>To enable Communities components for authoring, start by following these instructions :</p> 
+  <ul> 
+   <li><a href="../../communities/using/basics.md#accessingcommunitiescomponents">Accessing Communities Components</a></li> 
+  </ul> 
+  <p>For the purposes of this sandbox, start with these <strong>Communities </strong>components (enable by checking the box):</p> 
+  <ul> 
+   <li>Comments </li> 
+   <li>Forum</li> 
+   <li>Rating</li> 
+   <li>Reviews</li> 
+   <li>Reviews Summary (Display)</li> 
+   <li>Voting</li> 
+  </ul> 
+  <p>In addition, choose <strong>General</strong> components, such as</p> 
+  <ul> 
+   <li>Image</li> 
+   <li>Table</li> 
+   <li>Text</li> 
+   <li>Title (Foundation)</li> 
+  </ul> 
+  <note> 
+   <p>The components enabled for the page par are stored in the repository as the value of the <span class="code">components</span> property of the<br /> <span class="code">/etc/designs/an-scf-sandbox/jcr:content/playpage/par</span> node.</p> 
+  </note> 
+  <h2>Landing Page</h2> 
+  <p>In a multi-language environment, the root page would include a script which would parse the request from the client to determine the preferred langauge.</p> 
+  <p>In this simple example, the root page is being statically set to redirect to the english page, which may be developed in the future to be the main landing page with a link to the play page.</p> 
+  <p>Change the browser URL to the root page : <a href="http://locahost:4502/editor.html/content/an-scf-sandbox.html">http://localhost:4502/editor.html/content/an-scf-sandbox.html</a></p> 
+  <ul> 
+   <li>select the Page Information icon</li> 
+   <li>select <strong>Open Properties</strong></li> 
+   <li>on the ADVANCED tab 
+    <ul> 
+     <li>for the Redirect entry, browse to <strong>Websites &amp;gt; SCF Sandbox Site &amp;gt; SCF Sandbox</strong></li> 
+     <li>click <strong>OK</strong></li> 
+    </ul> </li> 
+   <li>click <strong>OK</strong></li> 
+  </ul> 
+  <div>
+    Once the site is published, browsing to the root page on a publish instance will redirect to the english page. 
+  </div> 
+  <div> 
+  </div> 
+  <table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;">The last step before playing with the communities SCF components is to add a Client Library Folder (clientlibs) .... <strong><a href="../../communities/using/add-clientlibs.md">⇒</a></strong></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <table cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;"><strong><a href="../../communities/using/initial-content.md">⇐ Initial Sandbox Content</a></strong></td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/add-clientlibs.md">Add Clientlibs ⇒</a></strong></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body> 
+</html>

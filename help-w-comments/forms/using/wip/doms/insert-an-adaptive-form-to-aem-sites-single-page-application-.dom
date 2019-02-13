@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="khsingh" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-01-15T15:36:11.934-0500" name="jcr:created" />
+  <meta content="true" name="preview" />
+  <meta content="2018-12-13T05:48:51.212-0500" name="cq:lastModified" />
+  <meta content="khsingh" name="cq:lastModifiedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Insert an adaptive form to AEM Sites single page application " name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body></body>
+</html>

@@ -1,0 +1,135 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="2017-10-31T16:21:37.789-0400" name="firstPublishExternalDate" /> 
+  <meta content="d3b63d04-d1a0-4f89-902f-19ba14383743" name="jcr:predecessors" /> 
+  <meta content="trushton@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Connecting to Microsoft Translator" name="seoTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:site-features;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-26T10:11:29.037-0400" name="locHandOffDate" /> 
+  <meta content="2018-07-25T10:36:36.951-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2018-10-12T10:47:39.072-0400" name="cq:lastModified" /> 
+  <meta content="Connecting to Microsoft Translator" name="navTitle" /> 
+  <meta content="2018-07-25T10:36:36.951-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/sites/translation/tc-msconf" name="qaNotes" /> 
+  <meta content="2018-10-27T23:45:45.499-0400" name="cq:lastReplicated" /> 
+  <meta content="Learn how to connect AEM to Microsoft Translator." name="seoDescription" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-07-25T10:36:36.951-0400" name="publishExternalDate" /> 
+  <meta content="Connecting to Microsoft Translator" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/tc-msconf.html" name="publishExternalURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-12-01T19:05:20.546-0500" name="jcr:created" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/administering/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="8f7ae161-e98f-4890-97ea-b1b1afc72a34" name="jcr:uuid" /> 
+ </head> 
+ <body> 
+  <p>Create a configuration for the Microsoft Translator cloud service to use your Microsoft Translation account for translating AEM page content, community content, or assets.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Property</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>Translation Label</td> 
+     <td>The display name for the translation service.</td> 
+    </tr> 
+    <tr> 
+     <td>Translation Attribution</td> 
+     <td>(Optional) For user-generated content, the attribution that appears next to translated text, for example <span class="code">Translations by Microsoft</span>.</td> 
+    </tr> 
+    <tr> 
+     <td>Workspace ID</td> 
+     <td>(Optional) The ID of your customized Microsoft Translator engine to use.</td> 
+    </tr> 
+    <tr> 
+     <td>Subscription Key</td> 
+     <td>Your Microsoft Subscription Key for Microsoft Translator.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>After you create the configuration, you need to <a href="../../../sites/administering/using/tc-msconf.md#main-pars-title-14">activate it</a>.</p> 
+  <p>The following procedure uses the touch-optimized UI to create a Microsoft Translator configuration.</p> 
+  <ol> 
+   <li><p>On the rail, click or tap Tools &amp;gt; Cloud Services.</p> </li> 
+   <li><p>In the Microsoft Translator area, then click or tap Show Configurations.</p> </li> 
+   <li><p>Click the + link next to Available Configurations.</p> <img imageRotate="0" src="assets/chlimage_1-471.png" /></li> 
+   <li><p>Type a title for your configuration. The title identifies the configuration in the Cloud Services console as well as in page property drop-down lists. The default name is based on the title. Optionally, type a name to use for the repository node that stores the configuration. You should use the default value for the Parent Configuration property which is the path of the repository node.</p> </li> 
+   <li><p>Click Create.</p> </li> 
+   <li><p>In the dialog box that appears, type values for the properties and then click OK.</p> </li> 
+  </ol> 
+  <h2>Sample Microsoft Translator Cloud Service Configurations</h2> 
+  <p>The following Microsoft Translator cloud service configurations are installed with the Geometrixx samples. Some sample configurations use a trial Microsoft Translation account that allows for a maximum of 2 000 000 free translated characters per month. </p> 
+  <h4>Microsoft Translator Trial License</h4> 
+  <p>The Microsoft Translator Trial License configuration is a sample configuration that is installed with the Geometrixx Outdoors sample package. This configuration uses a Microsoft Translator account that has a free subscription that allows for 2 000 000 translated characters per month.</p> 
+  <h4>Microsoft Translator Trial License - Geometrixx-outdoors</h4> 
+  <p>The Microsoft Translator Trial License - Geometrixx-outdoors configuration is a sample configuration that is installed with Geometrixx Outdoors. This configuration uses the same free Microsoft Translator account as the Microsoft Translator Trial License configuration. The account has a free subscription that allows for 2 000 000 translated characters per month.</p> 
+  <p>This Microsoft Translator configuration is optimized for use with the type of content of the Geometrixx Outdoors sample site.</p> 
+  <h3>Upgrading The Microsoft Translator Trial License Configuration</h3> 
+  <p>Microsoft Translation configuration pages provide a convenient link to the Microsoft web site for obtaining an account subscription that is adequate for production systems.</p> 
+  <ol> 
+   <li><p>On the rail, click or tap Tools &amp;gt; Operations &amp;gt; Cloud &amp;gt; Cloud Services.</p> </li> 
+   <li><p>In the Microsoft Translator area, click or tap Show Configurations, then click or tap Microsoft Translator Trial License (Microsoft Translation Configuration).</p> <img imageRotate="0" src="assets/chlimage_1-472.png" /></li> 
+   <li><p>On the configuration page, click Upgrade Subscription. Use the Microsoft web page that opens to configure your account.</p> <img imageRotate="0" src="assets/chlimage_1-473.png" /></li> 
+  </ol> 
+  <h3>Customizing Your Microsoft Translator Engine</h3> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Microsoft Translation configuration pages provide a convenient link to the Microsoft web site for customizing your Microsoft Translator engine. (<a href="https://hub.microsofttranslator.com/">https://hub.microsofttranslator.com</a>)</p> 
+  <ol> 
+   <li><p>On the rail, click or tap Tools &amp;gt; Operations &amp;gt; Cloud &amp;gt; Cloud Services.</p> </li> 
+   <li><p>In the Microsoft Translator area, click or tap Show Configurations, then click or tap the configuration that you want to customize.</p> </li> 
+   <li><p>On the configuration page, click Customize Translator. Use the Microsoft web page that opens to customize your service.</p> </li> 
+  </ol> 
+  <h2>Activating the Translator Service Configurations</h2> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">You need to activate your cloud service configurations to support translated content that is replicated to the publish instance. Use the method of <a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-1">activating a complete section (tree)</a> to activate the repository nodes that store the Microsoft Translator or third-party cloud service configurations. The nodes are located below the following parent nodes:</p> 
+  <ul> 
+   <li>Microsoft Translation Service: /etc/cloudservices/msft-translation</li> 
+   <li>Third-party Translation: /etc/cloudservices/machine-translation</li> 
+  </ul> 
+  <draft-comment type="draft"> 
+   <h2>Turning Off Translation</h2> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="sbroders@adobe.com" lastModifiedDate="2017-11-30T05:02:29.830-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>draft for now. Modify as required for 6.1. Rework to add sling:osgiconfig info</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>Use the <a href="http://localhost:4503/system/console/bundles">Web Console</a> to turn off all machine translation services, including the use of machine translation for page content and user generated content (UGC). When turned off, translation tools no longer appear in the UI, and translations of UGC no longer appears.</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <ol> 
+    <li><p>Navigate to the <a href="http://localhost:4503/system/console/bundles">Web Console</a> and login with administrator privileges (default is admin/admin).</p> </li> 
+    <li><p>To find all translation-related bundles, enter <span class="code">Translation </span>in the filter box and click <span class="code">Apply Filter</span> :</p> <img imageRotate="0" src="assets/chlimage_1-474.png" /></li> 
+    <li><p>To the right of each translation-related bundle, under <span class="code">Actions</span>, click the square <span class="code">stop </span>button:</p> 
+     <ul> 
+      <li>Adobe CQ Translation Workflow </li> 
+      <li>AEM Social Communities Translation - Bundle</li> 
+      <li>Granite Translation - Microsoft Connector Core Bundle</li> 
+      <li>Granite Translation - Translation API</li> 
+      <li>Granite Translation - Translation Core</li> 
+     </ul> <p>When stopped, the square button changes to a triangle.</p> </li> 
+    <li><p>Restart AEM.</p> 
+     <note type="note"> 
+      <p>To re-enable the translation services, click the triangle buttons next to each translation bundle and restart the server.</p> 
+     </note></li> 
+    <li><p>To re-enable the Translation service, click the arrow next to the Translation bundle and restart the server.</p> </li> 
+   </ol> 
+  </draft-comment> 
+ </body> 
+</html>

@@ -1,0 +1,109 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="c4ab45c0-e989-45a2-b261-17c23ff57743" name="jcr:predecessors" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-03T09:00:43.659-0400" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="Creating Custom Extensions" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="trushton" name="cq:lastModifiedBy" /> 
+  <meta content="Creating Custom Extensions" name="seoTitle" /> 
+  <meta content="2018-05-08T12:43:14.524-0400" name="cq:lastModified" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/extending/extending-adobe-campaign/creating-custom-extensions" name="qaNotes" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="2018-05-08T12:43:14.523-0400" name="locHandOffDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2017-10-31T16:16:46.080-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/extending-campaign-extensions.html" name="publishExternalURL" /> 
+  <meta content="2017-10-31T16:16:46.080-0400" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Creating Custom Extensions" name="navTitle" /> 
+  <meta content="2017-12-01T19:05:21.801-0500" name="jcr:created" /> 
+  <meta content="2017-10-31T16:16:46.080-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="f854fac3-3c5f-4ef6-97f4-08be339b250f" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="You can call your custom code in Adobe Campaign from AEM or from AEM to Adobe Campaign" name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-31T16:16:46.080-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:extending-aem;content_type:reference" name="cq:tags" /> 
+ </head> 
+ <body> 
+  <p>Generally when you implement a project, you have custom code in both AEM and Adobe Campaign. With the use of the existing API, you can call your custom code in Adobe Campaign from AEM or from AEM to Adobe Campaign. This document describes how to do that.</p> 
+  <h2>Prerequisites</h2> 
+  <p>You need to have the following installed:</p> 
+  <ul> 
+   <li>Adobe Experience Manager</li> 
+   <li>Adobe Campaign 6.1</li> 
+  </ul> 
+  <p>See <a href="../../../sites/administering/using/campaignonpremise.md">Integrating AEM with Adobe Campaign 6.1</a> for more information.</p> 
+  <h2>Example 1: AEM to Adobe Campaign</h2> 
+  <p>The standard integration between AEM and Campaign is based on JSON and JSSP (JavaScript Server Page). These JSSP files can be found in the Campaign console, and all start with <strong>amc</strong> (Adobe Marketing Cloud).</p> 
+  <img imageRotate="0" src="assets/chlimage_1-20.png" /> 
+  <note> 
+   <p><a href="../../../sites/developing/using/we-retail.md#weretail">For this example, please see Geometrixx</a>, which is available from Package Share. </p> 
+  </note> 
+  <p>In this example, we create a new custom JSSP file and call that from the AEM side to retrieve the result. This can be used, for example, to retrieve data from Adobe Campaign or to save data into Adobe Campaign.</p> 
+  <ol> 
+   <li><p>In Adobe Campaign, to create a new JSSP file, click the <strong>New</strong> icon.</p> <img imageRotate="0" src="assets/chlimage_1-21.png" /></li> 
+   <li><p>Enter the name of this JSSP file. In this example, we use <strong>cus:custom.jssp</strong> (meaning it will be in the <strong>cus</strong> namespace).</p> <img imageRotate="0" src="assets/chlimage_1-22.png" /></li> 
+   <li><p>Put the following code inside the jssp-file:</p> 
+    <codeblock class="syntax js">
+      &lt;%!!discoiqbr!!var&amp;nbsp;origin&amp;nbsp;=&amp;nbsp;request.getParameter("origin");!!discoiqbr!!document.write("Hello&amp;nbsp;from&amp;nbsp;Adobe&amp;nbsp;Campaign,&amp;nbsp;origin&amp;nbsp;:&amp;nbsp;"&amp;nbsp;+&amp;nbsp;origin);!!discoiqbr!!%&gt; 
+    </codeblock></li> 
+   <li><p>Save your work. The remaining work is in AEM.</p> </li> 
+   <li><p>Create a simple servlet on the AEM side to call this JSSP. In this example, we assume the following:</p> 
+    <ul> 
+     <li>You have the connection working between AEM and Campaign</li> 
+     <li>The campaign cloudservice is configured on <strong>/content/geometrixx-outdoors</strong></li> 
+    </ul> <p>The most important object in this example is the <strong>GenericCampaignConnector</strong>, which allows you to call (get and post) jssp files on the Adobe Campaign side.</p> <p>Here is a small code snippet:</p> 
+    <codeblock class="syntax js">
+      @Reference!!discoiqbr!!private&amp;nbsp;GenericCampaignConnector&amp;nbsp;campaignConnector;!!discoiqbr!!...!!discoiqbr!!Map&lt;String,&amp;nbsp;String&gt;&amp;nbsp;params&amp;nbsp;=&amp;nbsp;new&amp;nbsp;HashMap&lt;String,&amp;nbsp;String&gt;();!!discoiqbr!!params.put("origin",&amp;nbsp;"AEM");&amp;nbsp;!!discoiqbr!!CallResults&amp;nbsp;results&amp;nbsp;=&amp;nbsp;campaignConnector.callGeneric("/jssp/cus/custom.jssp",&amp;nbsp;params,&amp;nbsp;credentials);!!discoiqbr!!return&amp;nbsp;results.bodyAsString(); 
+    </codeblock></li> 
+   <li><p>As you see in this example, you need to pass in the credentials into the call. You can get this via the getCredentials() method where you pass in a page that has the Campaign cloud service configured.</p> 
+    <codeblock class="syntax xml">
+      //&amp;nbsp;page&amp;nbsp;containing&amp;nbsp;the&amp;nbsp;cloudservice&amp;nbsp;for&amp;nbsp;Adobe&amp;nbsp;Campaign!!discoiqbr!!Configuration&amp;nbsp;config&amp;nbsp;=&amp;nbsp;campaignConnector.getWebserviceConfig(page.getContentResource().getParent());!!discoiqbr!!CampaignCredentials&amp;nbsp;credentials&amp;nbsp;=&amp;nbsp;campaignConnector.retrieveCredentials(config); 
+    </codeblock></li> 
+  </ol> 
+  <p>The complete code is as follows:</p> 
+  <codeblock class="syntax java">
+    import&amp;nbsp;java.io.IOException;!!discoiqbr!!import&amp;nbsp;java.io.PrintWriter;!!discoiqbr!!import&amp;nbsp;java.util.HashMap;!!discoiqbr!!import&amp;nbsp;java.util.Map;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;javax.servlet.ServletException;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Reference;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.sling.SlingServlet;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.SlingHttpServletRequest;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.SlingHttpServletResponse;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.servlets.SlingSafeMethodsServlet;!!discoiqbr!!import&amp;nbsp;org.slf4j.Logger;!!discoiqbr!!import&amp;nbsp;org.slf4j.LoggerFactory;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;com.day.cq.mcm.campaign.CallResults;!!discoiqbr!!import&amp;nbsp;com.day.cq.mcm.campaign.CampaignCredentials;!!discoiqbr!!import&amp;nbsp;com.day.cq.mcm.campaign.GenericCampaignConnector;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.api.Page;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.api.PageManager;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.api.PageManagerFactory;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.webservicesupport.Configuration;!!discoiqbr!!!!discoiqbr!!@SlingServlet(paths="/bin/campaign",&amp;nbsp;methods="GET")!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;CustomServlet&amp;nbsp;extends&amp;nbsp;SlingSafeMethodsServlet&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;private&amp;nbsp;final&amp;nbsp;Logger&amp;nbsp;log&amp;nbsp;=&amp;nbsp;LoggerFactory.getLogger(this.getClass());!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;@Reference!!discoiqbr!!&amp;nbsp;private&amp;nbsp;GenericCampaignConnector&amp;nbsp;campaignConnector;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;@Reference!!discoiqbr!!&amp;nbsp;private&amp;nbsp;PageManagerFactory&amp;nbsp;pageManagerFactory;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;protected&amp;nbsp;void&amp;nbsp;doGet(SlingHttpServletRequest&amp;nbsp;request,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;SlingHttpServletResponse&amp;nbsp;response)&amp;nbsp;throws&amp;nbsp;ServletException,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;IOException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;PageManager&amp;nbsp;pm&amp;nbsp;=&amp;nbsp;pageManagerFactory.getPageManager(request.getResourceResolver());!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;Page&amp;nbsp;page&amp;nbsp;=&amp;nbsp;pm.getPage("/content/geometrixx-outdoors");!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;String&amp;nbsp;result&amp;nbsp;=&amp;nbsp;null;!!discoiqbr!!&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;page&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;result&amp;nbsp;=&amp;nbsp;callCustomFunction(page);!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;result&amp;nbsp;!=&amp;nbsp;null&amp;nbsp;)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;PrintWriter&amp;nbsp;pw&amp;nbsp;=&amp;nbsp;response.getWriter();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;pw.print(result);!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;private&amp;nbsp;String&amp;nbsp;callCustomFunction(Page&amp;nbsp;page&amp;nbsp;)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;try&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;Configuration&amp;nbsp;config&amp;nbsp;=&amp;nbsp;campaignConnector.getWebserviceConfig(page.getContentResource().getParent());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;CampaignCredentials&amp;nbsp;credentials&amp;nbsp;=&amp;nbsp;campaignConnector.retrieveCredentials(config);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;Map&lt;String,&amp;nbsp;String&gt;&amp;nbsp;params&amp;nbsp;=&amp;nbsp;new&amp;nbsp;HashMap&lt;String,&amp;nbsp;String&gt;();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;params.put("origin",&amp;nbsp;"AEM");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;CallResults&amp;nbsp;results&amp;nbsp;=&amp;nbsp;campaignConnector.callGeneric("/jssp/cus/custom.jssp",&amp;nbsp;params,&amp;nbsp;credentials);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;results.bodyAsString();!!discoiqbr!!&amp;nbsp;&amp;nbsp;}&amp;nbsp;catch&amp;nbsp;(Exception&amp;nbsp;e&amp;nbsp;)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;log.error("Something&amp;nbsp;went&amp;nbsp;wrong&amp;nbsp;during&amp;nbsp;the&amp;nbsp;connection",&amp;nbsp;e);!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;return&amp;nbsp;null;!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!} 
+  </codeblock> 
+  <h2>Example 2: Adobe Campaign to AEM</h2> 
+  <p>AEM offers out of the box APIs to retrieve the objects available anywhere in the siteadmin explorer view.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-23.png" /> 
+  <note> 
+   <p><a href="../../../sites/developing/using/we-retail.md#weretail">For this example, please see Geometrixx</a>, which is available from Package Share. </p> 
+  </note> 
+  <p>For each node in the explorer there is an API that is linked to it. For example for the node : </p> 
+  <ul> 
+   <li><a href="http://localhost:4502/siteadmin#/content/campaigns/geometrixx/scott-recommends">http://localhost:4502/siteadmin#/content/campaigns/geometrixx/scott-recommends</a></li> 
+  </ul> 
+  <p>the API is:</p> 
+  <ul> 
+   <li><a href="http://localhost:4502/content/campaigns/geometrixx/scott-recommends.2.json">http://localhost:4502/content/campaigns/geometrixx/scott-recommends.1.json</a></li> 
+  </ul> 
+  <p>The end of the URL <strong>.1.json</strong> can be replaced by <strong>.2.json</strong>, <strong>.3.json</strong>, according to the number of sub-levels you interested in getting To obtain all of them the keyword <strong>infinity</strong> can be used:</p> 
+  <ul> 
+   <li><a href="http://localhost:4502/content/campaigns/geometrixx/scott-recommends.2.json">http://localhost:4502/content/campaigns/geometrixx/scott-recommends.infinity.json</a></li> 
+  </ul> 
+  <p>Now to consume the API we must know that AEM, by default, uses basic authentification.</p> 
+  <p>A JS library that is named <strong>amcIntegration.js</strong> is available in 6.1.1 (build 8624 and higher) that implements that logic among several other ones.</p> 
+  <h3>AEM API call</h3> 
+  <codeblock class="syntax java">
+    loadLibrary("nms:amcIntegration.js");!!discoiqbr!!&amp;nbsp;!!discoiqbr!!var&amp;nbsp;cmsAccountId&amp;nbsp;=&amp;nbsp;sqlGetInt("select&amp;nbsp;iExtAccountId&amp;nbsp;from&amp;nbsp;NmsExtAccount&amp;nbsp;where&amp;nbsp;sName=$(sz)","aemInstance")!!discoiqbr!!var&amp;nbsp;cmsAccount&amp;nbsp;=&amp;nbsp;nms.extAccount.load(String(cmsAccountId));!!discoiqbr!!var&amp;nbsp;cmsServer&amp;nbsp;=&amp;nbsp;cmsAccount.server;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!var&amp;nbsp;request&amp;nbsp;=&amp;nbsp;new&amp;nbsp;HttpClientRequest(cmsServer+"/content/campaigns/geometrixx.infinity.json")!!discoiqbr!!aemAddBasicAuthentication(cmsAccount,&amp;nbsp;request);!!discoiqbr!!request.method&amp;nbsp;=&amp;nbsp;"GET"!!discoiqbr!!request.header["Content-Type"]&amp;nbsp;=&amp;nbsp;"application/json;&amp;nbsp;charset=UTF-8";!!discoiqbr!!request.execute();!!discoiqbr!!var&amp;nbsp;response&amp;nbsp;=&amp;nbsp;request.response; 
+  </codeblock> 
+ </body> 
+</html>

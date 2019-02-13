@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="d0c225a3-3a02-48a7-bbbd-5a37e3091e67" name="jcr:uuid" />
+  <meta content="green" name="acrolinxPageStatus" />
+  <meta content="2018-04-24T12:00:21.417-0400" name="locHandOffDate" />
+  <meta content="187" name="acrolinxWords" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="9b276911-3472-43aa-a819-6cc05f79bc7f" name="jcr:predecessors" />
+  <meta content="Activity stream in timeline" name="navTitle" />
+  <meta content="2018-04-03T07:55:02.070-0400" name="cq:lastReplicated" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="This article describes how to display activity logs for assets on the timeline. " name="jcr:description" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/authoring;/content/help/en/experience-manager/6-4/assets/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="2018-04-24T12:00:21.418-0400" name="cq:lastModified" />
+  <meta content="2017-11-17T10:01:08.990-0500" name="lastPublishExternalDate" />
+  <meta content="2017-11-17T10:01:08.990-0500" name="topicBrowsingSortDate" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/activity_stream_krs_workflow_f3c2f2ccebf6138e_77_report.xml" name="acrolinxReportURL" />
+  <meta content="Activity stream in timeline" name="seoTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;content_type:reference;topic_tags:authoring" name="cq:tags" />
+  <meta content="2019-01-12T17:10:46.896-0500" name="acrolinxDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="2017-12-19T19:02:41.937-0500" name="jcr:created" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/activity-stream.html" name="publishExternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Display activity logs for assets on the timeline." name="seoDescription" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/docs/en/aem/6-3/author/assets/managing-assets-touch-ui/activity-stream" name="qaNotes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-11-17T10:01:08.990-0500" name="publishExternalDate" />
+  <meta content="alvawb@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="Activity stream in timeline" name="jcr:title" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="cmajumda" name="cq:lastModifiedBy" />
+  <meta content="13" name="acrolinxSentences" />
+  <meta content="checked_improved" name="acrolinxStatus" />
+  <meta content="2017-10-31T16:35:26.666-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+ </head>
+ <body>
+  <p>This feature displays activity logs for assets on the timeline. If you perform any of the following asset-related operations in Adobe Experience Manager (AEM) Assets, the Activity stream feature updates the timeline to reflect the activity.</p> 
+  <p>The following operations are logged in the activity stream:</p> 
+  <ul> 
+   <li>Create</li> 
+   <li>Delete</li> 
+   <li>Download (including renditions)</li> 
+   <li>Publish</li> 
+   <li>Unpublish</li> 
+   <li>Approve</li> 
+   <li>Reject</li> 
+   <li>Move</li> 
+  </ul> 
+  <div>
+   The activity logs to be displayed in the timeline are fetched from the location 
+   <em>/var/audit/com.day.cq.dam/content/dam</em> in CRX, where log files are stored.
+  </div> 
+  <note>
+   <p>Transient workflows are not displayed in the timeline, because no history information is saved for these workflows.</p> 
+  </note>
+  <p>To view the activity stream, perform one or more of the operations on the asset, select the asset, and then choose <strong>Timeline</strong> from the GlobalNav list.</p> 
+  <img imageRotate="0" src="assets/timeline-3.png" />
+  <p>The timeline displays the activity stream for the operations you perform on the assets. </p> 
+  <img imageRotate="0" src="assets/activity_stream.png" />
+  <note>
+   <p>The default log storage location for <strong>Publish</strong> and <strong>Unpublish</strong> tasks is <i>/var/audit/com.day.cq.replication/content</i>. For <strong>Move</strong> tasks, the default location is <i>/var/audit/com.day.cq.wcm.core.page</i>.</p> 
+  </note>
+ </body>
+</html>

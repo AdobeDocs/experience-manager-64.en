@@ -1,0 +1,56 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/enable-pdf-a-support.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-26T04:23:47.249-0400" name="locHandOffDate" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e40.2" name="cq:gepId" /> 
+  <meta content="2018-04-26T04:23:47.250-0400" name="cq:lastModified" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:32:15.896-0400" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2016-09-19T09:13:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Enable PDF/A support" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2016-09-19T09:13:00.000-0400" name="sortDate" /> 
+  <meta content="Learn how to enable PDF/A support. PDF/A-compliant files can be created from Microsoft Excel, Microsoft PowerPoint, and Microsoft Word files." name="seoDescription" /> 
+  <meta content="2018-04-03T09:10:46.785-0400" name="cq:lastReplicated" /> 
+  <meta content="030a821f-c9e0-40c9-b7b8-25ffbbf289c6" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/working_with_pdf_generator;/content/help/en/experience-manager/6-4/forms/morehelp/working_with_pdf_generator" name="moreHelpPaths" /> 
+  <meta content="2016-09-20T07:54:14.104-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-31T16:32:15.896-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:02:48.792-0500" name="jcr:created" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_pdf_generator;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="0891241c-19e8-4af2-9732-4df6d1ee03c3" name="jcr:uuid" /> 
+  <meta content="Enable PDF/A support" name="jcr:title" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="2016-09-19T09:13:47.014-0400" name="lr_lastModified" /> 
+  <meta content="admin" name="lr_creator" /> 
+ </head> 
+ <body> 
+  <p>PDF Generator supports the creation of PDF/A-compliant files from Microsoft Excel, Microsoft PowerPoint, and Microsoft Word files.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; File Type Settings. </p></li> 
+   <li><p>Click New or select an existing file type setting. </p></li> 
+   <li><p>Click Microsoft Excel, Microsoft PowerPoint, or Microsoft Word and then select Create PDF/A-1a Compliant File and save your changes. </p></li> 
+   <li><p>In the native application (such as Microsoft Word), click Adobe PDF &amp;gt; Change Conversion Settings, and then select PDF/A-1b.</p></li> 
+  </ol> 
+  <related-links> 
+   <a href="/content/help/en/aem-forms/6-1/admin-help/configuring-file-type-settings#create_or_edit_file_type_settings">Create or edit file type settings</a> 
+  </related-links> 
+ </body> 
+</html>

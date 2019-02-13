@@ -1,0 +1,635 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="The Checklist - Further Reference" name="jcr:title" /> 
+  <meta content="Learn about further details that elaborate on and/or augment the documents and principles covered by the Managing Projects - Best Practices Checklist." name="seoDescription" /> 
+  <meta content="The Checklist - Further Reference" name="navTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MANAGING" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/help/en/experience-manager/6-4/managing/morehelp/managing-checklist;/content/help/en/experience-manager/6-4/managing/morehelp/managing-checklist" name="moreHelpPaths" /> 
+  <meta content="2018-04-03T10:57:16.386-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-10-27T23:43:55.074-0400" name="cq:lastReplicated" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/docs/en/aem/6-3/manage/best-practices/further-reference" name="qaNotes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-05-09T09:49:01.499-0400" name="cq:lastModified" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/managing/using/best-practices-further-reference.html" name="publishExternalURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-04-03T10:57:16.386-0400" name="publishExternalDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="c9e62e2c-5e01-4622-94f7-96e33ceff6c1" name="jcr:uuid" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="e9fe3e31-670d-4874-a15c-dda5a61d454f" name="jcr:predecessors" /> 
+  <meta content="2017-10-31T16:26:48.338-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="The Checklist - Further Reference" name="seoTitle" /> 
+  <meta content="2018-05-09T09:49:01.499-0400" name="locHandOffDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MANAGING;topic_tags:managing-checklist;content_type:reference" name="cq:tags" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T10:57:16.386-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-12-06T19:02:21.409-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <p>This page provides further details to elaborate on and/or augment the documents and principles covered by the <a href="../../managing/using/best-practices.md">Managing Projects - Best Practices Checklist</a>.</p> 
+  <h2>AEM - What will you be using?</h2> 
+  <note> 
+   <p>The lists in this sub-section are not exhaustive, but intended as an introduction.</p> 
+  </note> 
+  <h3>Features within AEM</h3> 
+  <p>When implementing AEM (particularly for the first time) you will need to review the <a href="http://www.adobe.com/marketing-cloud/experience-manager.html">capabilites and workflows of AEM</a> to be sure of which areas you want/need.</p> 
+  <p>Consider the features of AEM that you will be using, and the impact on your design; for example:</p> 
+  <ul> 
+   <li><a href="../../sites/administering/using/ecommerce.md">Commerce</a></li> 
+   <li><a href="../../sites/deploying/using/aem-screens-introduction.md">Screens</a></li> 
+   <li><a href="../../assets/using/assets.md">Assets</a></li> 
+   <li><a href="../../sites/administering/using/tags.md">Tags</a></li> 
+   <li><a href="../../sites/administering/using/msm-and-translation.md">Multi Site Management and Translation</a></li> 
+   <li><a href="/forms/user-guide">Forms</a></li> 
+   <li><a href="../../communities/using/deploy-communities.md">Communities</a></li> 
+   <li><a href="https://answers.livefyre.com/product/livefyre-for-adobe-experience-manager-aem/livefyre-for-adobe-experience-manager/">Livefyre</a></li> 
+  </ul> 
+  <p>In addition check the <a href="../../release-notes.md">Release Notes</a>, for the various versions of AEM, to see when any new features were added.</p> 
+  <h3>Integrations</h3> 
+  <p>AEM can be integrated with other Adobe products and/or third party services. These can increase the power and functionality at your disposal. </p> 
+  <p>See <a href="../../sites/administering/using/integration.md">Solutions Integration</a> for full information.</p> 
+  <h2>Migrate or Upgrade?</h2> 
+  <p>A major consideration is whether you want to either:</p> 
+  <ul> 
+   <li>Upgrade the existing installation in place.</li> 
+   <li>Migrate the content from the current system to a fresh, new installation.</li> 
+  </ul> 
+  <p>When moving from a previous version to the current version there are two options:</p> 
+  <ul> 
+   <li>Use the <a href="../../sites/administering/using/package-manager.md">Package Manager</a> to export all content and application code from the old system to the new one.</li> 
+   <li><a href="../../sites/deploying/using/upgrade.md">Upgrade</a> the old system in-place. This is the recommended choice in most cases.</li> 
+  </ul> 
+  <h2>Basic Ground Rules</h2> 
+  <p>As with any project it is critical to establish ground-rules as soon as possible. These include:</p> 
+  <note> 
+   <p>These points are generic, the <a href="../../managing/using/best-practices.md">Best Practices Checklist</a> deals with specifics in relation to AEM.</p> 
+  </note> 
+  <ul> 
+   <li> <p>These should be clearly defined and made known to everyone involved in the project. In addition, it is advisable to highlight:</p> 
+    <ul> 
+     <li>Decision Makers</li> 
+     <li>Points of Contact</li> 
+    </ul> </li> 
+   <li> 
+    <ul> 
+     <li>For each role a clear definition of the responsibilities related to your project helps prevent confusion.</li> 
+    </ul> </li> 
+   <li> <p>By involving interested parties as soon as possible you can encourage them to become <i>stakeholders</i> in the project, thus increasing their commitment to its success.</p> 
+    <ul> 
+     <li>On the customer side this includes the authors - who will have to work with the system on a day to day basis.</li> 
+     <li>Within your own project team this will also include the people responsible for quality assurance. The more they understand the customer's requirements the better they can plan the tests.</li> 
+    </ul> </li> 
+   <li> 
+    <ul> 
+     <li>Although these should not be formalized excessively, specific definitions should ensure that the key people are always informed and therefore kept up-to-date. Specific attention should be made to communication with external parties.</li> 
+    </ul> </li> 
+   <li> <p>The processes to be defined will depend upon your individual project. Again try to keep these simple, with consideration for:</p> 
+    <ul> 
+     <li>Defining processes (and paths of communication) for interacting with any third-parties; e.g. design agencies and third-party software suppliers amongst others.</li> 
+     <li>Often the customer will have their own Project Management and Reporting procedures and tools.</li> 
+    </ul> </li> 
+   <li> <p>There are many tools available for tracking information on bugs, tasks, and other aspects of your project - see <a href="#overviewofpotentialtools">Overview of Potential Tools</a> for more details.</p> 
+    <ul> 
+     <li>The key point to note here is to keep only one copy of the information and share the information (and therefore access to the tool being used). This will ease maintenance and help prevent discrepancies.</li> 
+    </ul> </li> 
+   <li> <p>Clearly define what is to be covered by the project at various levels:</p> 
+    <ul> 
+     <li>the individual releases (if an iterative release process is used, and regardless of whether they are delivered to customers or your internal test team).</li> 
+     <li>the AEM project.</li> 
+     <li>the entire project; including any third-party software, their impact on testing, organizational issues and many others.</li> 
+     <li>For certain aspects it can also be useful to state what is <i>not</i> within the scope of the project. This can help prevent confusion and incorrect assumptions, though it should be limited to essential issues.</li> 
+    </ul> </li> 
+   <li> <p>Clearly define what information you will report, in what form, how often and to whom.</p> </li> 
+   <li> 
+    <ul> 
+     <li>Define any abbreviations and/or customer-specific terminology to be used.</li> 
+    </ul> </li> 
+   <li> 
+    <ul> 
+     <li>Define any assumptions being made.</li> 
+    </ul> </li> 
+  </ul> 
+  <p>This information can be defined within a Project Handbook; the use of a Wiki can also help ensure that ongoing changes are handled efficiently. Wherever these are defined, the key factors are that:</p> 
+  <ul> 
+   <li>Information is defined and maintained</li> 
+   <li>Information is clearly communicated to all of the relevant people involved. Although standard Project Management practice, it cannot be repeated often enough that clear role definition and good communication can make, or break, a project.</li> 
+   <li>Only one version is kept of any information being tracked; for example, bug tracking, issue tracking, etc.</li> 
+  </ul> 
+  <h2>Key Performance Indicators and Target Metrics</h2> 
+  <p>Organizations use Key Performance Indicators (KPIs) to evaluate their success at reaching targets. These indicators are measurable values that can be used to demonstrate how effectively specific objectives are being met.</p> 
+  <p>These indicators can be:</p> 
+  <ul> 
+   <li>Business: 
+    <ul> 
+     <li>Used to measure key business objectives.</li> 
+     <li>It is important to choose KPIs appropriate to your business/scenario with clear definitions of what they are, how they will be measured, how they will be used and by whom.</li> 
+    </ul> </li> 
+   <li>Performance: 
+    <ul> 
+     <li>Define how to measure the performance of the system. </li> 
+     <li>Some examples include page load time, server response time and database query performance.</li> 
+    </ul> </li> 
+  </ul> 
+  <p>Some, but not all, indicators can be based on the target metrics that you identify and define.</p> 
+  <h3>Target Metrics</h3> 
+  <p>Metrics are used to define quantitative measurements for the quality of your website - they are basically a definition of the performance goals that you want to achieve and can be used to define your <a href="#keyperformanceindicators">KPIs (Key Performance Indicators)</a>.</p> 
+  <p>Many metrics can be defined, but often the ones you define cover your goals for performance and concurrency. In particular, factors which can be difficult to quantify, and are often prone to <i>emotional</i> assessment:</p> 
+  <ul> 
+   <li>"our website is <i>much too slow</i> today" - when does <i>slow</i> qualify?</li> 
+   <li>"everything <i>grinds to a halt</i> when my colleague logs in" - how many concurrent users can the system support?</li> 
+   <li>"when I search, the system <i>grinds to a halt</i> " - which sort of search requests are impacting the system?</li> 
+   <li>"it takes <i>ages</i> to download the file" - what are acceptable download times (under normal network conditions)?</li> 
+  </ul> 
+  <p>Target Metrics are defined at the start of a project to:</p> 
+  <ul> 
+   <li>indicate the expected dimensions of the website you will offer</li> 
+   <li>indicate the minimum quality which you want to achieve</li> 
+   <li>define how these factors will actually be measured</li> 
+   <li>be used as the basis for the <a href="#keyperformanceindicators">Key Performance Indicators</a></li> 
+  </ul> 
+  <p>As always care must be taken when defining the target metrics:</p> 
+  <ul> 
+   <li>if set too high they may be completely unattainable</li> 
+   <li>if set too low fluctuations may not be highlighted</li> 
+   <li>to ensure that they can be repeatedly and consistently measured</li> 
+   <li>to provide a balance across the different factors being measured</li> 
+   <li>certain metrics will relate to a test environment, but some should reflect real-life scenarios as they must be measurable, and reproducible, on your production website</li> 
+   <li>prioritize the metrics according to their significance to the website</li> 
+   <li>limit the metrics to a set that can be realistically monitored</li> 
+  </ul> 
+  <p>During development of the project they can be updated and tuned as appropriate. After the project has been successfully implemented, they can be used to help you control your installation and monitor/maintain the required levels of service for ongoing operation.</p> 
+  <p>When used properly these metrics can provide a useful tool; when used irresponsibly they can be a time-wasting distraction. As always, you need to understand what you are measuring, how you are measuring it and why.</p> 
+  <note> 
+   <p>This section will deal with the basic principles and issues to be considered. Each installation is different, so the actual values to be measured will differ.</p> 
+  </note> 
+  <h3>Everything rests on your Project Design</h3> 
+  <p>All metrics to be measured will, in some way, be affected by the design of your project. Conversely, many issues will be best solved by design changes.</p> 
+  <p>Therefore, you should define your target metrics <i>before</i> deciding on your design. This allows you to optimize your design based on these factors. Once your project has been developed, it will be difficult to make any changes to the basic design principles.</p> 
+  <p>When you create the structure for the website, follow the recommended structure for AEM websites. Make sure you understand the following issues and/or principles:</p> 
+  <ul> 
+   <li>How to structure website content.</li> 
+   <li>How templates and components work.</li> 
+   <li>How caching works.</li> 
+   <li>The impacts of personalized content.</li> 
+   <li>How the search function works.</li> 
+   <li>How you can use CSS and related technologies to create compact, non-redundant HTML code.</li> 
+  </ul> 
+  <p>If you feel that your design does not follow the guidelines, or if you are unsure about some of the implications, clarify these issues before you start either the programming phase or filling in the content.</p> 
+  <h3>Infrastructure</h3> 
+  <p>To define or assess the infrastructure it will help to define target values such as:</p> 
+  <ul> 
+   <li>visitors/day; both average and peak</li> 
+   <li>hits/day; both average and peak</li> 
+   <li>number of web-pages being made available</li> 
+   <li>volume of web-content</li> 
+  </ul> 
+  <p>Depending on your situation, and the strategic significance of the website, this will help you to assess and choose your infrastructure:</p> 
+  <ul> 
+   <li>number of servers</li> 
+   <li>number of AEM instances (author and publish)</li> 
+  </ul> 
+  <h3>Performance</h3> 
+  <p>There are several performance factors which can be evaluated:</p> 
+  <ul> 
+   <li>response times for individual pages, taking into account: 
+    <ul> 
+     <li>response times on an author environment</li> 
+     <li>response times on the publish environment</li> 
+    </ul> </li> 
+   <li>response times for search requests</li> 
+  </ul> 
+  <p>This section can be read in conjunction with <a href="../../sites/deploying/using/configuring-performance.md">Performance Optimization</a> that expands the technical details of actually measuring the performance.</p> 
+  <h4>Response times for individual pages</h4> 
+  <p>A key issue is the time your website takes to respond to visitor requests.</p> 
+  <p>Although this value will vary for each request, an average target value can be defined. Once this value is proven to be both achievable and maintainable, it can be used to monitor the performance of the website and indicate the development of potential problems</p> 
+  <p>Differing targets on author and publish environments</p> 
+  <p>The response times you will be aiming for will be different on the author and publish environments, reflecting the target audience:</p> 
+  <ul> 
+   <li> <p>This environment is used by authors entering, and updating content, so it must:</p> 
+    <ul> 
+     <li>cater for a small number of users who generate a high number of requests when updating content pages and the individual elements on those pages</li> 
+     <li>be as fast as possible to maximize their productivity for getting your content onto your website</li> 
+    </ul> </li> 
+   <li> <p>This environment contains content which you make available to your users:</p> 
+    <ul> 
+     <li>speed is still vital, but is often slower than an author environment</li> 
+     <li>additional performance enhancing mechanisms are often applied: 
+      <ul> 
+       <li>the content is cached</li> 
+       <li>load-balancing is applied</li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Setting target response times</h4> 
+  <p>So how can you decide on achievable (average) response times? This is often a matter of experience:</p> 
+  <ul> 
+   <li>past experience on your website</li> 
+   <li>experience with AEM</li> 
+   <li>recognizing complex pages which have above average response times (these should be individually optimized if possible)</li> 
+  </ul> 
+  <p>However, (under controlled circumstances) the following guidelines can be applied:</p> 
+  <ul> 
+   <li>70% of the requests for pages should respond in less than 100ms.</li> 
+   <li>25% of the requests for pages should respond in less than 100ms-300ms.</li> 
+   <li>4% of the requests for pages should respond in less than 300ms-500ms.</li> 
+   <li>1% of the requests for pages should respond in less than 500ms-1000ms.</li> 
+   <li>No pages should respond slower than 1 second.<br /> The above numbers assume the following conditions: 
+    <ul> 
+     <li>measured on publish (no authoring environment and/or CFC overhead)</li> 
+     <li>measured on the server (no network overhead)</li> 
+     <li>not cached (no AEM-output cache, no Dispatcher cache)</li> 
+     <li>only for complex items with many dependencies (HTML, JS, PDF, ...)</li> 
+     <li>no other load on the system</li> 
+    </ul> </li> 
+  </ul> 
+  <p>There are several mechanisms you can use to monitor the response times:</p> 
+  <ul> 
+   <li> <p>A good starting point for performance analysis is the request log. Amongst other information, you can use this to see the response times of individual requests. See <a href="../../sites/deploying/using/configuring-performance.md">Performance Optimization</a> for more details.</p> </li> 
+   <li>   </li> 
+  </ul> 
+  <h4>Search</h4> 
+  <p>Search requests can have a significant impact on your website, in terms of both the:</p> 
+  <ul> 
+   <li>Response time of the actual search 
+    <ul> 
+     <li>A fast search function is a quality goal for your website</li> 
+    </ul> </li> 
+   <li>Impact on general performance 
+    <ul> 
+     <li>As a search function must scan (potentially large) sections of the content, or a specially extracted index, this can impact the performance of the entire system if not optimized</li> 
+    </ul> </li> 
+  </ul> 
+  <p>Setting targets for search requests is, again, a matter of experience depending on:</p> 
+  <ul> 
+   <li>experience of AEM</li> 
+   <li>an assessment of how often search will be used in comparison to other goals</li> 
+   <li>your persistence manager</li> 
+   <li>your search index</li> 
+   <li>the complexity of your search function; a basic search function which only allows 1 search term to be input will be quicker than an advanced search allowing the user to build up complex search statements using AND/OR/NOT.</li> 
+  </ul> 
+  <p>These should be planned and integrated from the very start of your project. Mechanisms available for monitoring include:</p> 
+  <ul> 
+   <li> <p>Again the request.log can be used to monitor the response times for search requests; see <a href="../../sites/deploying/using/configuring-performance.md">Performance Optimization</a> for more details.</p> </li> 
+   <li> <p>To customize the information you collect about search requests, and their performance, it is recommended to include information collection in your project source code; see <a href="../../sites/deploying/using/configuring-performance.md">Performance Optimization</a> for more details.</p> </li> 
+  </ul> 
+  <h3>Concurrency</h3> 
+  <p>Your website will be made available to a number of users/visitors, on both the author and publish environments. The numbers are often more than you used when testing, but also fluctuating and difficult to predict. Your website will need to be designed for an average number of concurrent users/visitors without noticing a negative performance impact. Again the <span class="code">request.log</span> can be used to make concurrency tests; see <a href="../../sites/deploying/using/configuring-performance.md">Performance Optimization</a> for more details.</p> 
+  <p>Targets for the number of concurrent users, are dependent on the environment type:</p> 
+  <ul> 
+   <li> 
+    <ul> 
+     <li>Usually the number of concurrent users can be accurately estimated. You will know how many authors you have in total, though (probably) not all will be active at the same time.</li> 
+    </ul> </li> 
+   <li> 
+    <ul> 
+     <li>This is more difficult to predict, so you must select a target value. Again this should be based on experience of your current website together with realistic expectations of your new website.</li> 
+     <li>Special events (e.g. when you publish new, very popular content) may exceed expectations - or even capabilities (as sometimes reported in the press when tickets for certain events are made available for sale).</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Capacity and Volume</h3> 
+  <p>Before discussing the related metrics, a quick definition of the terms:</p> 
+  <ul> 
+   <li> 
+    <ul> 
+     <li>The amount of output that is processed and delivered by the system.</li> 
+    </ul> </li> 
+   <li> 
+    <ul> 
+     <li>The system’s ability to deliver the volume.</li> 
+     <li>At each step, capacity and volume are measured differently, as shown in the table below. For best performance, make sure that the capacity matches the volume at each step, and that both capacity and volume are shared across all steps. For example, you may be able to compute the navigation on the client computer, or put it in the cache, instead of computing it on the server for every request.</li> 
+    </ul> </li> 
+   <li> 
+    <table> 
+     <tbody> 
+      <tr> 
+       <td>What / Where </td> 
+       <td>Capacity </td> 
+       <td>Volume</td> 
+      </tr> 
+     </tbody> 
+     <tbody> 
+      <tr> 
+       <td>Client</td> 
+       <td>Computational power of the user’s computer.</td> 
+       <td>Complexity of the page layout.</td> 
+      </tr> 
+      <tr> 
+       <td>Network</td> 
+       <td>Network bandwidth.</td> 
+       <td>Size of the page (code, images and so on).</td> 
+      </tr> 
+      <tr> 
+       <td>Dispatcher cache</td> 
+       <td>Server memory of the Web server (main memory and hard drive).</td> 
+       <td>Web server (main memory and hard drive). Number and size of the cached pages.</td> 
+      </tr> 
+      <tr> 
+       <td>Output cache</td> 
+       <td>Server memory of the AEM server (main memory and hard drive).</td> 
+       <td>Number and size of the pages in the output cache, the number of dependencies per page. The dispatcher cache lowers this volume.</td> 
+      </tr> 
+      <tr> 
+       <td>Web Server</td> 
+       <td>Computational power of the Web server.</td> 
+       <td>Amount of requests. Caching lowers this volume.</td> 
+      </tr> 
+      <tr> 
+       <td>Template</td> 
+       <td>Computational power of the Web server.</td> 
+       <td>Complexity of the templates.</td> 
+      </tr> 
+      <tr> 
+       <td>Repository</td> 
+       <td>Performance of the repository.</td> 
+       <td>Number of pages loaded from the repository.</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+  </ul> 
+  <h3>Other Metrics</h3> 
+  <p>The preceding sections detail the main metrics to be defined.</p> 
+  <p>Depending on your specific requirements it might be useful for you to define additional metrics, either in isolation, or taking the above classifications into account.</p> 
+  <p>However, it is preferable to have a small set of accurate, core metrics that function easily and reliably, rather than try to measure and define every aspect of your website. By its sheer nature, your website will start to change and evolve as soon as it is handed over to your users.</p> 
+  <h2>Security</h2> 
+  <p>Security is crucial and an ever-increasing challenge. It <strong><i>must</i></strong> be considered and planned from the earliest stages of your project.</p> 
+  <p>The <a href="../../sites/administering/using/security-checklist.md">Security Checklist</a> details steps that you should take to ensure that your AEM installation is secure when deployed. Other security aspects are covered under <a href="../../sites/developing/using/security.md">Security (when developing)</a> and <a href="/sites/administering/using/security-landing">User Administration and Security</a>.</p> 
+  <h2>Parallel and Iterative Tasks</h2> 
+  <note> 
+   <p>The following:</p> 
+   <ul> 
+    <li>Offers an overview related to the <i>first</i> implemention of an AEM project.</li> 
+    <li>Is intended as an abstract overview; see the <a href="../../managing/using/best-practices.md">Project Checklist</a> for specific phases/milestones/tasks.</li> 
+    <li>Any time scales are theoretical.</li> 
+   </ul> 
+  </note> 
+  <p>For a new implementation of a standard AEM project you will need to consider tasks such as:</p> 
+  <ul> 
+   <li>Handover from the Sales process.</li> 
+   <li>Implementation of the customer application (<strong>Development</strong>).</li> 
+   <li>Installation and configuration of the infrastructure (and related processes) on customer site (<strong>Infrastructure</strong>).</li> 
+   <li>Creation (or migration) of the content (<strong>Content</strong>).</li> 
+   <li>Handover to operations (<strong>Maintenance/Support</strong>).</li> 
+   <li>Follow up releases.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-2.png" /> 
+  <p>For all aspects it is recommended to use an iterative approach:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-3.png" /> 
+  <note> 
+   <p>Split the project-launch into <strong>Soft Launch(s)</strong> (reduced availability, multiple iterations) and <strong>Hard Launch</strong> (full availability - Live) to allow for tuning, optimization and user training under realistic conditions on the production environment.</p> 
+  </note> 
+  <note> 
+   <p>See the <a href="../../managing/using/best-practices.md">Project Checklist</a> for examples of tasks which you should perform (or assess) during the life-cycle of your project.</p> 
+  </note> 
+  <p>Some points to note for each category are:</p> 
+  <ul> 
+   <li> 
+    <ul> 
+     <li>Define the base architecture first.</li> 
+     <li>Use several iterations (sprints) for development: 
+      <ul> 
+       <li>First sprint equates to the first full development cycle.</li> 
+       <li>First sprint results in the first deployment to your test environment.</li> 
+       <li>Every sprint has a runable result.</li> 
+       <li>Each sprint gets a customer signoff (minimum of structured test with feedback).</li> 
+      </ul> </li> 
+     <li>Plan for the eventuality of an update of the available AEM version during the project.<br /> </li> 
+     <li>Plan for tests and optimization during sprints.</li> 
+     <li>Plan for stabilization and optimization phases.</li> 
+     <li>Create a log of items to be planned for further releases.</li> 
+     <li>Plan for partner involvement and handover.</li> 
+    </ul> </li> 
+   <li> 
+    <ul> 
+     <li>Define the base architecture first: 
+      <ul> 
+       <li>Define performance requirements.</li> 
+       <li>Define performance goals (ie clearly define expectations).</li> 
+       <li>Define hardware and infrastructure architecture; including sizing.</li> 
+       <li>Define deployment.</li> 
+      </ul> </li> 
+     <li>Use several iterations; for the first sprint and initial configuration prepare: 
+      <ul> 
+       <li>Development environment.</li> 
+       <li>Development process.</li> 
+       <li>Test environment.</li> 
+       <li>Deployment process (including configuration management).</li> 
+      </ul> </li> 
+     <li>Plan for several load tests.</li> 
+     <li>Plan for tests and optimization during sprints.</li> 
+     <li>Plan for a stabilization and optimization phase.</li> 
+     <li>Deploy to the production environment as early as possible (let the operations team setup the system to gain experience).</li> 
+     <li>Use named users and defined roles as early as possible.</li> 
+     <li>Plan for training (for example, administrator training).</li> 
+     <li>Plan for handover to operations.</li> 
+    </ul> </li> 
+   <li> 
+    <ul> 
+     <li>The base architecture: 
+      <ul> 
+       <li>Drives the content hierarchy.</li> 
+       <li>Helps to define the content concept.</li> 
+       <li>Defines MSM usage and layout.</li> 
+       <li>Defines roles, groups, workflows and permissions.</li> 
+      </ul> </li> 
+     <li>Consider whether offline page creation will be useful.</li> 
+     <li>Plan for the early creation of first pages and content (for use in tests and feedback).</li> 
+     <li>Plan for the migration of existing content.</li> 
+     <li>Plan for "in-sprint-migration" after refactoring.</li> 
+     <li>Plan "content burndown" (sitemap for go-live content).</li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Estimating Time and Effort</h2> 
+  <p>Dependent on your resulting task list you can then make initial estimates of time and effort for (high-level) task definitions. These should include an indication of who (customer or partner) will do what and when.</p> 
+  <p>The following list shows standard approximations and inter-relationships of effort involved, and therefore costs:</p> 
+  <note> 
+   <p>These figures can only be used for initial estimates. An experienced AEM developer must make the detailed analysis.</p> 
+  </note> 
+  <table> 
+   <colgroup> 
+    <col width="150pt" /> 
+    <col width="450pt" /> 
+   </colgroup> 
+   <tbody> 
+    <tr> 
+     <th> Phase</th> 
+     <th>Effort </th> 
+    </tr> 
+    <tr> 
+     <td>Development</td> 
+     <td>A rough estimation of 2 - 4 hours for each component node will cover all development requirements.</td> 
+    </tr> 
+    <tr> 
+     <td>Developer Testing</td> 
+     <td>15% of Development</td> 
+    </tr> 
+    <tr> 
+     <td>Follow-up</td> 
+     <td>10% of Development</td> 
+    </tr> 
+    <tr> 
+     <td>Documentation</td> 
+     <td>15% of Development</td> 
+    </tr> 
+    <tr> 
+     <td>JavaDoc Documentation</td> 
+     <td>10% of Development</td> 
+    </tr> 
+    <tr> 
+     <td>Bug-fixing</td> 
+     <td>15% of Development</td> 
+    </tr> 
+    <tr> 
+     <td>Project Management</td> 
+     <td>20% of project costs for ongoing Project Management and Governance</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Detailed planning can then relate available or required resources to deadlines and costs.</p> 
+  <h2>Reference Architecture</h2> 
+  <p>The reference architecture is given to provide a template solution for the AEM architecture. The reference architecture addresses problems commonly encountered for enterprise systems including scaling, reliability and security.</p> 
+  <p>The following site metrics should be defined:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Classification</td> 
+     <td>Definition </td> 
+    </tr> 
+    <tr> 
+     <td>Number of Internet sites</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Number of intranet sites</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Number of code bases (e.g. if Internet and intranet differ)</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Number of individual pages</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Number of site visits / day</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Number of page views / day</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Volume (in GB) of data transfer / day</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Number of concurrent users (Closed User Group)</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Number of concurrent visitors (publish)</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Number of concurrent authors</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Number of registered authors</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Number of page activations / working day</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Number of page activations during deployment</td> 
+     <td> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Overview of Potential Tools</h2> 
+  <p>The following list is provided to inform you of tools that can be used. It is intended as an introduction, not an extensive recommendation list, and should certainly not deter you from using any other tools which you prefer.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Product</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>AEM</td> 
+     <td><p>AEM itself provides a range of mechanisms to help you monitor, test, investigate and debug your application; including:</p> 
+      <ul> 
+       <li><a href="../../sites/developing/using/developer-mode.md">Developer Mode</a></li> 
+       <li>The <a href="../../sites/developing/using/hobbes.md">Testing Console</a></li> 
+       <li><a href="../../sites/administering/using/operations-dashboard.md">Operations Dashboard</a></li> 
+       <li><a href="../../sites/authoring/using/content-insights.md">Content Insight</a></li> 
+       <li>The <a href="../../sites/authoring/using/author-environment-tools.md#contenttree">Content Tree</a></li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>Selenium</td> 
+     <td><a href="http://docs.seleniumhq.org/">Selenium</a> is an Open Source test tool. The tests run direct in the browser - emulating how your users work.</td> 
+    </tr> 
+    <tr> 
+     <td>Microsoft Project</td> 
+     <td>A commonly used project management tool.</td> 
+    </tr> 
+    <tr> 
+     <td>Jira</td> 
+     <td><a href="https://www.atlassian.com/software/jira">Jira</a> is an Open Source tool for tracking and managing details of your software bugs. Workflows can be imposed onto the bug details as required.</td> 
+    </tr> 
+    <tr> 
+     <td>Git</td> 
+     <td><a href="https://git-scm.com/">Git</a> is a revision control software.</td> 
+    </tr> 
+    <tr> 
+     <td>Eclipse</td> 
+     <td><p>Eclipse is an Open Source IDE, composed of various projects. These are focused on building an open development platform comprised of extensible frameworks, tools and runtimes for building, deploying and managing software across the lifecycle.</p> <p>See <a href="../../sites/developing/using/howto-projects-eclipse.md">How to Develop AEM Projects Using Eclipse</a> for more information.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>IntelliJ</td> 
+     <td><p>A professional (and therefore liable to licensing costs) IDE offering a comprehensive range of features. </p> <p>See <a href="../../sites/developing/using/ht-intellij.md">How to Develop AEM Projects using IntelliJ IDEA</a> for more information.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Maven</td> 
+     <td><a href="https://maven.apache.org/">Maven</a> is a software project management and comprehension tool which can manage a project's build process (software and documentation).</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Further Reading</h2> 
+  <p>In addition, the following sections are of particular interest:</p> 
+  <ul> 
+   <li><a href="../../sites/deploying/using/deploy.md#main-pars-title-0">Getting Started</a></li> 
+   <li><a href="../../sites/deploying/using/technical-requirements.md">Technical Requirements</a></li> 
+   <li><a href="../../sites/deploying/using/monitoring-and-maintaining.md">Monitoring and Maintaining your Instance</a></li> 
+  </ul> 
+  <h3>Best Practices</h3> 
+  <p>Adobe provides further Best Practices for all phases and audiences:</p> 
+  <ul> 
+   <li><a href="../../sites/deploying/using/best-practices.md">Deploying</a></li> 
+   <li><a href="../../sites/authoring/using/best-practices.md">Authoring</a></li> 
+   <li><a href="../../sites/administering/using/administer-best-practices.md">Administering</a></li> 
+   <li><a href="../../sites/developing/using/best-practices.md">Developing</a></li> 
+   <li><a href="../../managing/using/best-practices.md">Project Management</a></li> 
+  </ul> 
+ </body> 
+</html>

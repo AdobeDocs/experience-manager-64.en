@@ -1,0 +1,52 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/content/docs/en/aem/6-3/deploy/best-practices/performance" name="qaNotes" />
+  <meta content="alvawb" name="cq:lastReplicatedBy" />
+  <meta content="2018-10-24T17:34:37.378-0400" name="publishExternalDate" />
+  <meta content="Performance &amp; Scalability" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="862dc4ef-3887-4293-bd1a-3935d6796f8a" name="jcr:predecessors" />
+  <meta content="Performance &amp; Scalability" name="jcr:title" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:best-practices" name="cq:tags" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/performance.html" name="publishExternalURL" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="audience:deploying" name="primaryAudienceTag" />
+  <meta content="This white paper discusses the ways scalability has been built into AEM along with performance indicators and disaster recovery features.  " name="seoDescription" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-12-01T19:03:03.311-0500" name="jcr:created" />
+  <meta content="2018-09-14T19:28:24.270-0400" name="locHandOffDate" />
+  <meta content="User" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-10-31T16:17:49.875-0400" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="alvawb@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2018-10-24T17:34:37.378-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-10-24T17:34:37.378-0400" name="topicBrowsingSortDate" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/best-practices;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/best-practices" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="alvawb" name="cq:lastModifiedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-10-24T17:34:37.386-0400" name="cq:lastModified" />
+  <meta content="dde755f3-26b3-42ab-9de2-6046a6038d05" name="jcr:uuid" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="Performance &amp; Scalability" name="seoTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-10-24T17:34:37.427-0400" name="cq:lastReplicated" />
+ </head>
+ <body>
+  <h2>White Paper: AEM Scalability, Performance, and Disaster Recovery</h2>
+  <p>This white paper discusses the ways scalability has been built into Adobe Experience Manager along with outstanding performance indicators and excellent disaster recovery features. </p> 
+  <div>
+   <p>A flexible, scalable platform promoting technical agility, high performance, and sound disaster recovery features.</p>
+   <p><a alt="AEM_Scalability_White_Paper_FINAL - 06122015je.pdf" href="assets/aem_scalability_whitepaperfinal-06122015je.pdf">Get File</a></p>
+  </div>
+ </body>
+</html>

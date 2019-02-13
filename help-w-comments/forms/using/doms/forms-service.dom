@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Forms Service" name="navTitle" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2016-05-31T06:38:29.000-0400" name="acrolinxDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-11-19T08:17:06.903-0500" name="cq:lastModified" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="checked_improved" name="acrolinxStatus" /> 
+  <meta content="2018-11-12T08:04:21.386-0500" name="topicBrowsingSortDate" /> 
+  <meta content="43" name="acrolinxSentences" /> 
+  <meta content="2015-06-12T04:26:28.967-0400" name="lastPublishQADate" /> 
+  <meta content="2018-11-19T08:17:06.901-0500" name="locHandOffDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/document_services;/content/help/en/experience-manager/6-4/forms/morehelp/document_services" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="Forms Service" name="jcr:title" /> 
+  <meta content="2018-11-12T08:04:21.386-0500" name="lastPublishExternalDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/forms-service.html" name="publishExternalURL" /> 
+  <meta content="2016-04-20T09:44:51.746-0400" name="firstPublishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="The article describes Forms service and the form-related tasks you can perform using Forms service." name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/forms_service_admin_5e12de0b318c6865_2013_report.xml" name="acrolinxReportURL" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-11-12T08:04:21.424-0500" name="cq:lastReplicated" /> 
+  <meta content="2018-11-12T08:04:21.386-0500" name="publishExternalDate" /> 
+  <meta content="5cef9b29-e3a1-4689-abc9-890486ea38d6" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="04f20e1f-fd0d-44ba-afa5-0c8ddf246cbc" name="jcr:predecessors" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:document_services" name="cq:tags" /> 
+  <meta content="699" name="acrolinxWords" /> 
+  <meta content="2017-12-01T19:06:16.603-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>The Forms service lets you create interactive data capture client applications that validate, process, transform, and deliver forms that are typically created in Designer. The Forms service renders as PDF documents any form design that you develop.</p> 
+  <p>Forms service also enables organizations to extend their intelligent data capture processes by deploying electronic forms as Adobe PDFs. You can also use the service to import and export data to and from existing PDF forms respectively.</p> 
+  <p>Use the Forms service to do the following: </p> 
+  <ul> 
+   <li>Render PDF forms based on template and XML data.</li> 
+   <li>Enable form data integration to import data into and extract data from PDF forms.</li> 
+   <li>Render forms based on fragments.</li> 
+  </ul> 
+  <h2>Creating PDF forms&amp;nbsp;</h2> 
+  <p>Use Form service to create PDF Forms for data capture. Typically, you start with an AEM Forms Designer template. Use the <span class="code">renderPDFForm</span> (link to Javadoc) operation of the Forms service to convert this template to a PDF form.</p> 
+  <p>The first parameter of the <span class="code">renderPDFForm</span> operation is the name of the template file (for example, <span class="code">ExpenseClaim.xdp</span>). You can store the template file in a local file system, CRX repository, or at an HTTP or FTP location. You can specify the location of the template file by setting the content root in the <span class="code">PDFFormRenderOptions</span> parameter of the <span class="code">renderPDFForm</span> operation. See Javadoc for details of other options that you can specify for the <span class="code">PDFFormRenderOptions</span> parameter.</p> 
+  <p>The <span class="code">renderPDFForm</span> operation can also accept XML data. The XML data is merged with the template when creating a PDF Form so that the generated PDF form contains the specified data. The second parameter for the <span class="code">renderPDFForm</span> operation can accept a Document (Javadoc) object that contains XML data.</p> 
+  <h2>Extracting data from PDF forms&amp;nbsp;</h2> 
+  <p>Use the <span class="code">exportData</span> (Javadoc) operation of the Forms service to extract data XML from a PDF form. This operation accepts a document as its first parameter. You can export the data either as an XDP document or an XML file. If you export the data as an XML file, the exported data removes the XDP envelope and returns a plain XML file. You can specify this arrangement using the second parameter.</p> 
+  <h2>Importing data into PDF forms</h2> 
+  <p>Forms service also lets you merge a PDF form created using either AEM Forms Designer or the <span class="code">renderPDFForm</span> operation with XML data. The <span class="code">importData</span> (Javadoc) operation of Forms service accepts the PDF form and XML data and returns a PDF form with data XML.</p> 
+  <h2>Rendering forms based on fragments</h2> 
+  <p>Forms service can render forms based on fragments that you create using AEM Forms Designer. A fragment is a reusable part of a form. It is saved as a separate XDP file that can be inserted into multiple form designs. For example, a fragment can include an address block or legal text.</p> 
+  <p>Using fragments simplifies and accelerates the creation and maintenance of large numbers of forms. When creating a form, insert a reference to the required fragment for the fragment to appear in the form. The fragment reference contains a subform that points to the physical XDP file.</p> 
+  <p>The following are the advantages of using fragments:</p> 
+  <ul> 
+   <li><p><strong>Content reuse</strong>: You can reuse content in multiple form designs. To quickly reuse parts of the same content in multiple forms, create a fragment. Copying or re-creating the content takes a longer time. Using fragments also ensures that the frequently used parts of a form design have consistent content and appearance in all the referencing forms.</p> </li> 
+   <li><p><strong>Global updates</strong>: You can make global changes to multiple forms only once in a file. You can change the content, script objects, data bindings, layout, or styles in a fragment. All XDP forms that reference the fragment reflect the changes.</p> </li> 
+   <li><p><strong>Shared form creation</strong>: You can share the creation of forms among several resources. Form developers with expertise in scripting or other advanced features of AEM Forms Designer can develop and share fragments that use scripting and dynamic properties. Form designers can use the fragments to design forms. In addition, they can use the fragments to ensure that all parts of a form have a consistent appearance and functionality across multiple forms.</p> </li> 
+  </ul> 
+ </body> 
+</html>

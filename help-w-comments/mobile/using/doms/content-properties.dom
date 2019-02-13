@@ -1,0 +1,335 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Content Properties and Nodes" name="seoTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-apps/aem-mobile-on-demand/content-properties-exporting/Content-Properties" name="qaNotes" />
+  <meta content="Follow this page to learn about content properties and nodes.
+
+" name="seoDescription" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/content-properties.html" name="publishExternalURL" />
+  <meta content="2018-05-04T05:12:39.141-0400" name="topicBrowsingSortDate" />
+  <meta content="37bcd663-78e4-4d7c-a381-072a1ac75253" name="jcr:predecessors" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:developing-on-demand-services-app" name="cq:tags" />
+  <meta content="2018-05-04T05:12:39.141-0400" name="publishExternalDate" />
+  <meta content="Content Properties and Nodes" name="jcr:title" />
+  <meta content="User" name="contentOwner" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="2017-10-31T16:26:31.893-0400" name="firstPublishExternalDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/developing-on-demand-services-app;/content/help/en/experience-manager/6-4/mobile/morehelp/developing-on-demand-services-app" name="moreHelpPaths" />
+  <meta content="2018-05-11T10:01:23.079-0400" name="locHandOffDate" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-05-04T05:12:39.141-0400" name="lastPublishExternalDate" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="2018-05-04T05:12:39.495-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-12-13T19:01:24.862-0500" name="jcr:created" />
+  <meta content="2018-05-11T10:01:23.079-0400" name="cq:lastModified" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="3005c915-e31a-4aa3-9966-a2317e7439a7" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <p>Articles, Banners, and Collections are represented as cq:Pages in AEM.</p> 
+  <p>They share the same common properties found in any cq:Page in addition to several others shown below that represent Adobe Experience Manager (AEM) Mobile On-Demand services metadata and integration supporting properties.</p> 
+  <p>The following tables describe the content properties and nodes.</p> 
+  <h2></h2>
+  <h3>Common Integration Properties</h3>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Property Name</strong></td> 
+     <td><strong>Type</strong></td> 
+     <td><strong>Defaults or Expected Values</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr>
+    <tr>
+     <td>dps-id</td> 
+     <td>String</td> 
+     <td> </td> 
+     <td>assigned by AEM Mobile and stored by AEM once uploaded to AEM Mobile or imported from AEM Mobile</td> 
+    </tr>
+    <tr>
+     <td>dps-resourceType</td> 
+     <td>String</td> 
+     <td>dps:Article | dps:Banner | dps:Collection</td> 
+     <td>entity type property</td> 
+    </tr>
+    <tr>
+     <td>dps-version</td> 
+     <td>String</td> 
+     <td> </td> 
+     <td>version of AEM Mobile entity (also contained within the full aemm-id)</td> 
+    </tr>
+    <tr>
+     <td>dps-lastSynced</td> 
+     <td>Date</td> 
+     <td> </td> 
+     <td>date of last sync/import from AEM Mobile into AEM</td> 
+    </tr>
+    <tr>
+     <td>dps-lastUploaded</td> 
+     <td>Date</td> 
+     <td> </td> 
+     <td>date of last upload from AEM to AEM Mobile</td> 
+    </tr>
+    <tr>
+     <td>dps-lastUploadedBy</td> 
+     <td>String:userid</td> 
+     <td> </td> 
+     <td>id user that performed the last upload request from AEM to AEM Mobile</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2></h2>
+  <h3>Core Metadata Properties</h3>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Property Name</strong></td> 
+     <td><strong>Type</strong></td> 
+     <td><strong>Defaults or Expected Values</strong></td> 
+    </tr>
+    <tr>
+     <td>dps-title<br /> </td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-shortTitle</td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-abstract</td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-shortAbstract</td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-department</td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-category</td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-keywords</td> 
+     <td>String[]</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-internalKeywords</td> 
+     <td>String[]</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-importance</td> 
+     <td>String[]</td> 
+     <td>Importance from {"low", "normal", "high"}</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h3>Articles</h3>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Property Name</strong></td> 
+     <td><strong>Type</strong></td> 
+     <td><strong>Defaults or Expected Values</strong></td> 
+    </tr>
+    <tr>
+     <td>dps-author</td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-authorURL</td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-hideFromBrowsePage</td> 
+     <td>Boolean</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-access</td> 
+     <td>String</td> 
+     <td>ProtectedAccess from {"protected", "metered", "free"}</td> 
+    </tr>
+    <tr>
+     <td><strong>Social</strong></td> 
+     <td> </td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-socialShareURL</td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-articleText</td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-url</td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h3>Banners</h3>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Property Name</strong></td> 
+     <td><strong>Type</strong></td> 
+     <td><strong>Defaults or Expected Values</strong></td> 
+    </tr>
+    <tr>
+     <td>dps-tapAction</td> 
+     <td> </td> 
+     <td>TapAction from {webLink}</td> 
+    </tr>
+    <tr>
+     <td>dps-tapActinUrl</td> 
+     <td> </td> 
+     <td> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h3>Collections</h3>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Property Name</strong></td> 
+     <td><strong>Type</strong></td> 
+     <td><strong>Defaults or Expected Values</strong></td> 
+    </tr>
+    <tr>
+     <td>dps-productId</td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-readingPosition</td> 
+     <td>String</td> 
+     <td>from {"reset","retain"}</td> 
+    </tr>
+    <tr>
+     <td>dps-horizontalSwipe</td> 
+     <td>Boolean</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td><p>dps-allowDownlaod</p> </td> 
+     <td>Boolean</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>dps-openDefault</td> 
+     <td>String</td> 
+     <td>from {"browsePage","contentView"}</td> 
+    </tr>
+    <tr>
+     <td>dps-layout</td> 
+     <td>String</td> 
+     <td> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Content Nodes</h2>
+  <h3>Common Nodes</h3>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Node Name</strong></td> 
+     <td><strong>Type</strong></td> 
+     <td><strong>Defaults or Expected Values</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr>
+    <tr>
+     <td>image</td> 
+     <td><p>jcr:primaryType=nt:unstructured</p> <p>sling:resourceType=foundation/components/image</p> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h3>Entities</h3>
+  <h4>Articles</h4>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td>Node Name</td> 
+     <td>Type</td> 
+     <td>Defaults of Expected Values</td> 
+     <td>Description</td> 
+    </tr>
+    <tr>
+     <td>social-share-image</td> 
+     <td> </td> 
+     <td><p>jcr:primaryType=nt:unstructured</p> <p>sling:resourceType=foundation/components/image</p> <p> </p> </td> 
+     <td> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h4>Banners</h4>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td>Node Name</td> 
+     <td>Type</td> 
+     <td>Defaults of Expected Values</td> 
+     <td>Description</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h4>Collections</h4>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td>Node Name</td> 
+     <td>Type</td> 
+     <td>Defaults of Expected Values</td> 
+     <td>Description</td> 
+    </tr>
+    <tr>
+     <td>background-image</td> 
+     <td><p>jcr:primaryType=nt:unstructured</p> <p>sling:resourceType=foundation/components/image</p> </td> 
+     <td> </td> 
+     <td> </td> 
+    </tr>
+   </tbody>
+  </table> 
+ </body>
+</html>

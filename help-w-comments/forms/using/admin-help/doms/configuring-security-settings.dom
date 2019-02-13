@@ -1,0 +1,116 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="3e7ee13e-90ed-46bb-a7b6-4cc0014deb45" name="jcr:uuid" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="1377" name="acrolinxWords" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2016-04-20T10:02:25.842-0400" name="firstPublishExternalDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="Learn how to configure security settings." name="seoDescription" /> 
+  <meta content="2017-10-31T16:32:22.736-0400" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e84.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e49.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7faf.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e47.2" name="cq:gepId" /> 
+  <meta content="Configuring security settings" name="navTitle" /> 
+  <meta content="2016-05-31T06:57:25.143-0400" name="acrolinxDate" /> 
+  <meta content="86" name="acrolinxSentences" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_security_settings_admin_5e12de0b318c6865_2296_report.xml" name="acrolinxReportURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2018-04-26T04:24:24.394-0400" name="cq:lastModified" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-26T04:24:24.393-0400" name="locHandOffDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-12-01T19:06:34.146-0500" name="jcr:created" /> 
+  <meta content="Configuring security settings" name="jcr:title" /> 
+  <meta content="2016-02-05T03:27:18.524-0500" name="lr_lastModified" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_pdf_generator;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-security-settings.html" name="publishExternalURL" /> 
+  <meta content="a9105b4d-4532-4e56-9eca-4d21e7ef9af0" name="jcr:predecessors" /> 
+  <meta content="2017-10-31T16:32:22.736-0400" name="lastPublishExternalDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-03T09:09:52.361-0400" name="cq:lastReplicated" /> 
+ </head> 
+ <body> 
+  <p>You can limit access to PDF documents by setting passwords and by restricting certain features, such as printing and editing. When a PDF document has restricted features, tools and menu items that are related to those features are dimmed. You can also use other methods to create secure documents, such as encrypting or certifying a document. A security setting contains the password and specific options to use for certain PDF conversions.</p> 
+  <p>On the Security Settings page, you can do the following tasks: </p> 
+  <h2 id="create_or_edit_a_security_setting">Create or edit a security setting</h2> 
+  <p></p> 
+  <p>A <i>security setting</i> controls the security and permissions for files that are converted with that security setting.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; Security Settings.</p></li> 
+   <li><p>Click New or click the name of a security setting.</p></li> 
+   <li><p>On the New/Edit Security Setting page, complete the required information for the security setting. (See <a href="../../../forms/using/admin-help/configuring-file-type-settings.md#configuring-file-type-settings">Configuring file type settings</a>.)</p></li> 
+   <li><p>Click Save and, in the dialog box that appears, type a name for the setting and then click OK.</p></li> 
+  </ol> 
+  <h3 id="security_settings">Security settings</h3> 
+  <p></p> 
+  <p>These settings configure the compatibility and encryption. For instructions about accessing the fonts settings, see <a href="configuring-security-settings#create_or_edit_a_security_setting">Create or edit a security setting</a>. </p> 
+  <p><strong>Compatibility:</strong> Sets the type of encryption for opening a password-protected document. The Acrobat 3.0 And Later option uses a low encryption level, but the other options use a high encryption level:</p> 
+  <p><strong>Acrobat 3.0 And Later:</strong> Uses low encryption (40-bit RC4).</p> 
+  <p><strong>Acrobat 5.0 And Later:</strong> Uses high encryption (128-bit RC4).</p> 
+  <p><strong>Acrobat 6.0 And Later:</strong> Uses high encryption (128-bit RC4). This option lets you enable metadata for searching.</p> 
+  <p><strong>Acrobat 7.0 And Later:</strong> Uses high encryption (128-bit AES). This option lets you enable metadata for searching and encrypt only file attachments.</p> 
+  <p><strong>Acrobat 9.0 And Later:</strong> Uses high encryption (256-bit AES). This option lets you enable metadata for searching and encrypt only file attachments.</p> 
+  <p>An earlier version of Acrobat cannot open a PDF document that has a higher compatibility setting. For example, if you select the Acrobat 7.0 And Later option, you cannot open the document in Acrobat 6.0 or earlier. </p> 
+  <p>Ensure that the compatibility level is consistent with the PDF compatibility level for the same source. For example, if you have a watched folder configured to use the Standard PDF setting, which is compatible with Acrobat 5.0 or later, your security compatibility level must not be higher than Acrobat 5.0.</p> 
+  <p><strong>Document Restriction:</strong> The document restrictions that are available depend on the Compatibility option you selected.</p> 
+  <p><strong>No Encryption:</strong> Does not encrypt any part of the document.</p> 
+  <p><strong>Encrypt All Document Contents:</strong> Encrypts the document and the document metadata. When this option is selected, search engines cannot access the document metadata.</p> 
+  <p><strong>Encrypt All Document Contents Except Metadata (Acrobat&amp;#xA;6 And Later Compatible):</strong> Encrypts the contents of a document but still allows search engines to access the document metadata. This option is available only when the Compatibility option is set to Acrobat 6.0 or later, Acrobat 7.0 or later, or Acrobat 9.0 or later.</p> 
+  <p><strong>Encrypt Only File Attachments (Acrobat 7 And Later&amp;#xA;Compatible):</strong> Users can open the document without a password but must enter a password to open file attachments. This option is available only when the Compatibility option is set to Acrobat 7.0 or later or to Acrobat 9.0 or later.</p> 
+  <p>These settings configure the password security:</p> 
+  <p><i><strong>Note</strong>: If you forget a password, it cannot be recovered from the document. It is recommended that you store passwords in another secure location in case you forget them. Also, keep a backup copy of the document that is not password-protected.</i></p> 
+  <p><strong>Require A Password To Open The Document:</strong> Enables the password options.</p> 
+  <p><strong>Document Open Password:</strong> Prevents users from opening the document unless they type the password you specify. Passwords are case sensitive. Acrobat uses the RC4 method of security from RSA Security Inc. to password-protect PDF documents. If you are restricting printing and editing, it is recommended that you add a document open password to enhance security.</p> 
+  <p><strong>Retype Document Open Password:</strong> Ensures that the document open password is correct.</p> 
+  <p><strong>Require A Password To Open File Attachments:</strong> Enables the password options. This option is available only when the Compatibility option is set to Acrobat 7.0 or later or to Acrobat 9.0 or later, and the Document restriction option is set to Encrypt Only File Attachments.</p> 
+  <p><strong>File Attachment Open Password:</strong> Ensures that a password is required to open a file attachment. Users can open the document without a password. This option is available only when the Compatibility option is set to Acrobat 7.0 or later or to Acrobat 9.0 or later, and the Document restriction option is set to Encrypt Only File Attachments.</p> 
+  <p><strong>Retype File Attachment:</strong> Ensures that the password is correct. This option is available only when the Compatibility option is set to Acrobat 7.0 or later or to Acrobat 9.0 or later, and the Document restriction option is set to Encrypt Only File Attachments.</p> 
+  <p>These options configure the permissions:</p> 
+  <p><strong>Use A Password To Restrict Printing And Editing Of&amp;#xA;The Document And Its Security Settings:</strong> Enables restrictions on permissions.</p> 
+  <p><strong>Permissions Password:</strong> Restricts users from printing and editing. Users cannot change these security settings unless they type the password you specify. You cannot use the same password that is used for Document Open Password. When you set a permissions password, only those people who type that password can change security settings. If the PDF document has both types of passwords, either password will open it. However, a user can only set or change the restricted features with the permissions password. If the PDF document has only the permission password or if a user opens the document by using the document open password, the password prompt appears when the user tries to change security settings.</p> 
+  <p><strong>Retype Permissions Password:</strong> Ensures that the permissions password is correct.</p> 
+  <p><strong>Printing Allowed:</strong> Specifies the quality of printing for the PDF document:</p> 
+  <p><strong>None:</strong> Prevents users from printing the document.</p> 
+  <p><strong>Low Resolution (150 dpi):</strong> Lets users print the document at no higher than 150-dpi resolution. Printing may be slower because each page is printed as a bitmap image. This option is available only if a high encryption level (Acrobat 5.0, 6.0, 7.0, or 9.0) is selected.</p> 
+  <p><strong>High Resolution:</strong> Lets users print at any resolution, directing high-quality vector output to PostScript and other printers that support advanced high-quality printing features.</p> 
+  <p><strong>Changes Allowed:</strong> Defines which editing actions are allowed in the PDF document:</p> 
+  <p><strong>None:</strong> Prevents users from changing the document, including filling signature and form fields.</p> 
+  <p><strong>Inserting, Deleting, And Rotating Pages:</strong> Lets users insert, delete, and rotate pages, as well as create bookmarks and thumbnail pages. This option is available only if a high encryption level (Acrobat 5.0, 6.0, 7.0, or 9.0) is selected.</p> 
+  <p><strong>Filling In Form Fields And Signing Existing Signature&amp;#xA;Fields:</strong> Lets users fill forms and add digital signatures. However, users cannot add comments or create form fields. This option is available only if a high encryption level (Acrobat 5.0, 6.0, 7.0, or 9.0) is selected.</p> 
+  <p><strong>Commenting, Filling In Form Fields, And Signing Existing&amp;#xA;Signature Fields:</strong> Lets users fill forms and add digital signatures and comments.</p> 
+  <p><strong>Page Layout, Touch-up, Filling In Form Fields And Signing&amp;#xA;Existing Signature Fields:</strong> Lets users insert, rotate, or delete pages and create bookmarks or thumbnail images, fill out forms, and add digital signatures. This option does not allow users to create form fields. This option is available only if a low encryption level (Acrobat 3.0) is selected.</p> 
+  <p><strong>Any Except Extracting Pages:</strong> Lets users change the document by using any method in the Changes Allowed list, except remove pages.</p> 
+  <p><strong>Enable Copying Of Text, Images, And Other Content:</strong> Lets users select and copy the contents of the PDF document. It also lets utilities that need access to the contents of a PDF file, such as Acrobat Catalog, access those contents. This option is available only if a high encryption level is selected.</p> 
+  <p><strong>Enable Text Access Of Screen Reader Devices For The&amp;#xA;Visually Impaired:</strong> Lets users with vision impairment read the document by using screen readers. However, users cannot copy or extract the document contents. This option is available only if a high encryption level is selected.</p> 
+  <h2 id="delete_a_security_setting">Delete a security setting</h2> 
+  <p></p> 
+  <p>You can delete a security setting if it is no longer required. However, preconfigured security settings cannot be deleted. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; Security Settings.</p></li> 
+   <li><p>Select the check box beside the setting to delete. You can select multiple settings.</p></li> 
+   <li><p>Click Delete and, on the Delete Confirmation page, click Delete again.</p></li> 
+  </ol> 
+ </body> 
+</html>

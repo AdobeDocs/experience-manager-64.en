@@ -1,0 +1,82 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Communities Subscriptions" name="seoTitle" />
+  <meta content="/content/docs/en/aem/6-3/administer/communities/subscriptions" name="qaNotes" />
+  <meta content="Communities Subscriptions" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-04-03T08:02:38.381-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="2018-04-03T08:02:36.390-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="2018-04-03T08:02:36.390-0400" name="publishExternalDate" />
+  <meta content="2017-10-31T16:33:16.673-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-05-17T05:51:51.287-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="gnavTheme" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-04-03T08:02:36.390-0400" name="lastPublishExternalDate" />
+  <meta content="Communities Subscriptions" name="navTitle" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" />
+  <meta content="35ee4ac1-4103-40a7-9777-83e7834e18ea" name="jcr:uuid" />
+  <meta content="2018-05-17T05:51:51.287-0400" name="locHandOffDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Community members interact with other members through email " name="seoDescription" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/subscriptions.html" name="publishExternalURL" />
+  <meta content="2017-12-01T19:01:49.677-0500" name="jcr:created" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="7bd8f8bd-0ac7-4813-bccc-fd07a1138c37" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="dist5" name="distType" />
+  <meta content="Janice Kendall" name="contentOwner" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <h2>Overview</h2>
+  <p>As of Communities <a href="../../communities/using/deploy-communities.md#latestfeaturepack">FP1</a>, community members may interact with the community through email using a feature referrred to as subscriptions.</p> 
+  <p>Subscriptions are similar to <a href="../../communities/using/notifications.md">notifications</a> as members may subscribe when following blog articles, forum topics or QnA questions.</p> 
+  <p>What distinguishes subscriptions from notifications is :</p> 
+  <ul> 
+   <li>members may not subscribe when following other members</li> 
+   <li>the only action for members to take is to select <span class="code">Email Subscriptions</span> when following</li> 
+   <li>when email reply is configured, members may effectively post content by simply replying to the received email</li> 
+  </ul> 
+  <h3>Requirements</h3>
+  <p><strong>Configure Email</strong></p> 
+  <p>Email must be configured in order for subscriptions to be functional and for members to reply by email.</p> 
+  <p>For instructions on setting up email, see <a href="../../communities/using/email.md">Configuring Email</a>.</p> 
+  <p><strong>Enable Subscriptions and Follow</strong></p> 
+  <p>Components must be configured to enable subscriptions <i>and</i> following. Features that allow subscriptions are <a href="../../communities/using/blog-feature.md">blog</a>, <a href="../../communities/using/forum.md">forum</a> and <a href="../../communities/using/working-with-qna.md">QnA</a>.</p> 
+  <h2>Subscriptions from Following</h2>
+  <img imageRotate="0" src="assets/chlimage_1-5.png" />
+  <p>The <strong>Follow </strong>button provides a means to follow entries as activities, subscriptions and/or notifications. Each time the <strong>Follow </strong>button is selected, it is possible to toggle on or off a selection. </p> 
+  <p>If any method of following is selected, the text of the button changes to <strong>Following</strong>. For convenience, it is possible to select <span class="code">Unfollow All</span> to toggle off all methods.</p> 
+  <p>The <strong>Follow </strong>button will include the <span class="code">Email Subscriptions</span> option only when a forum, QnA, or blog is configured to enable email subscriptions. This button will appear </p> 
+  <ul> 
+   <li>on the main feature page for the enabled forum, QnA, or blog
+    <ul> 
+     <li>will send an email for all activity under that feature</li> 
+    </ul> </li> 
+   <li>for a specific entry, such as a forum topic, QnA question, or blog article
+    <ul> 
+     <li>will send an email when there is activity for that specific entry</li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Reply by Email</h2>
+  <p>When email is <a href="../../communities/using/email.md#configurepollingimporter">configured for replying by email</a>, the member who subscribed will receive an email with the posted content and a link to the online content.</p> 
+  <p>If they reply to the email, the content they enter in the reply will appear as content online.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-6.png" />
+  <p>The amount of time it takes for a reply to be posted is controlled by the <a href="../../communities/using/email.md#configurepollingimporter">polling importer's update interval</a>.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-7.png" />
+ </body>
+</html>

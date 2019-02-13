@@ -1,0 +1,101 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="Follow this page to get answers to FAQs related to an AEM Screens project." name="seoDescription" /> 
+  <meta content="2019-01-11T15:05:12.821-0500" name="topicBrowsingSortDate" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/troubleshoot;/content/help/en/experience-manager/6-4/screens/morehelp/troubleshoot" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/aem-screens-faqs.html" name="publishExternalURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="3fa4b4f7-4fcf-4646-8dc2-d9950fcec1b7" name="jcr:uuid" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS;content_type:reference;topic_tags:troubleshoot" name="cq:tags" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2019-01-11T15:05:12.821-0500" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="AEM Screens FAQs" name="jcr:title" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2b7df094-9299-4a9a-b1a6-7a6ee09962dd" name="jcr:predecessors" /> 
+  <meta content="2019-01-11T15:05:12.821-0500" name="lastPublishExternalDate" /> 
+  <meta content="2019-01-11T15:05:12.880-0500" name="cq:lastReplicated" /> 
+  <meta content="2019-01-15T15:39:03.623-0500" name="jcr:created" /> 
+  <meta content="2018-10-29T17:46:40.334-0400" name="firstPublishExternalDate" /> 
+  <meta content="2019-01-11T15:05:12.831-0500" name="cq:lastModified" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+ </head> 
+ <body> 
+  <p>The following section provides answers to few of the commonly asked FAQs related to an AEM Screens project.</p> 
+  <h3>Channel Management</h3> 
+  <h4>What is the difference between an online and an offline channel?</h4> 
+  <p>An <strong><em>Online Channel</em></strong>, will show the updated content in the real time environment whereas an <strong><em>Offline Channel</em></strong>, shows the cached content.</p> 
+  <h4>How do I make a channel online?</h4> 
+  <p>Select the channel and navigate to channel properties from the action bar. Check <strong>Developer mode (force channel to be online)</strong> under <strong>Channel</strong> tab to make the channel online.</p> 
+  <h4>What is the use of the Channel Role field?</h4> 
+  <p>The Channel Role, is the abstraction of the actual channel that is run so that the author can focus on the generic experience directly. You can think of it as a kind of tag that uniquely identifies the channel in its context (display or schedule).</p> 
+  <h4>How does actual channel resolution happen?</h4> 
+  <p>For <em>static references</em>, the resolution just follows the path that is specified.</p> 
+  <p>For <em>dynamic references</em>, the resolution occurs once the channel is assigned to the display (not the schedule). The display path becomes the context for the channel and the resolution happens as follows (highest to lowest priority):</p> 
+  <ol> 
+   <li>The display has a child node that matches the referenced channel name</li> 
+   <li>The display has a sibling node that matches the referenced channel name</li> 
+   <li>The parent location of the display has a child node that matches the referenced channel name</li> 
+   <li>The grand-parent location of the display has a child node that matches the referenced channel name</li> 
+  </ol> 
+  <p>And so on, until you reach the locations folder and stop there at the moment (so you cannot reference a channel that would be in the channels folder for instance, only channels in the locations sub-tree).</p> 
+  <h3>Device Registration</h3> 
+  <h4>If I discover endpoints such as requests for device onboarding and registration, I can script a large number of devices and register these devices. Besides locking this to a branch Wi-Fi, is it possible to secure these requests?</h4> 
+  <p>Currently Registration is only possible on the author instance. Although the registration service is unauthenticated it will only create a pending device in AEM and will not actually register the device or assign any display. </p> 
+  <p>To register a device (which means creating a user for the device in AEM), you still need to authenticate to AEM and currently manually follow the registration wizard to complete registration. Theoretically, a malicious user may create several pending devices but cannot register any without an AEM login.</p> 
+  <h4>Is there a way to transform HTTP GET requests into HTTP POST with some form of authentication?</h4> 
+  <p>The registration request is a POST request. </p> 
+  <p>It is recommended to obtain the device ID from the session rather than passed as parameter. This would clean up the server logs, browser cache, and so on. It is currently not a security issue. Please note that semantically GET is used when there is no state change on the server and POST is used when there is a state change.</p> 
+  <h3>Device Monitoring and Health Reports</h3> 
+  <h4>How do I troubleshoot, if my AEM Screens player shows blank screen?</h4> 
+  <p>Please check for the following possibilities to troubleshoot the blank screen issue:</p> 
+  <ul> 
+   <li>AEM is unable to push the Offline Content<br /> </li> 
+   <li>Channel does not have any content</li> 
+   <li>None of the assets are scheduled to show at current time</li> 
+  </ul> 
+  <h4>What do I do if AEM Screens player cannot register and its state is displayed as Failure?</h4> 
+  <p>You need to enable the Apache Sling Referrer Filter Allow Empty. This is required for optimal operation of the control protocol between AEM Screens Player and AEM Screens server.</p> 
+  <ol> 
+   <li>Navigate to <strong>Adobe Experience Manager Web Console Configuration</strong></li> 
+   <li>Check the <strong>allow.empty </strong>option.</li> 
+   <li>Click <strong>Save</strong>.</li> 
+  </ol> 
+  <h4>How to troubleshoot if while registering an AEM Screens player, device shows FAILURE and the console logs display ENAME_NOT_FOUND error?</h4> 
+  <p>This issue may occur if the player is unable to find the AEM Screens Server DNS. You can try using the IP address to connect. To obtain the IP of server, use: <em>arp &amp;lt;server_dns_name&amp;gt;</em>.</p> 
+  <h4>Does AMS recommend implementing an Android Watchdog on all Devices? Is the Watchdog (Cordova) plugin included as part of the APK?</h4> 
+  <p>A cross platform Android watchdog using pure Android APIs is already a part of the apk. No additional software is needed but depending on the device you use, you may need to resign the apk to obtain system privileges for a full power cycle (Powermanager api). If it is not resigned using the manufacturer keys, it will quit and restart the application but not power cycle. </p> 
+  <p>For more information on how to implement Android Player, please refer to <a href="../../screens/using/implementing-android-player.md"><strong>Implementing Android Player</strong></a>.<br /> </p> 
+  <h4>What third-party remote monitoring and alerting tools (software) does Adobe/AMS recommend for monitoring each device? </h4> 
+  <p>Depending on what you desire out of the monitoring and alerts, a new feature AEM Screens Notifications service notifies you if a device has not pinged in a while. The third-party tools will depend on your Operating System (OS), its capabilities and the customer’s specific needs. </p> 
+  <p>For more information on where you can monitor device activity, please refer to <a href="../../screens/using/screens-notifications-service.md"><strong>AEM Screens Notifications Service</strong></a>.<br /> </p> 
+  <h3>AEM Screens Player</h3> 
+  <h4>How to Install ChromeOS player as Chrome Browser Plugin?</h4> 
+  <p>ChromeOS player can be installed as Chrome Browser plugin in developer mode without requiring actual chrome player device. For installation, follow the steps below:</p> 
+  <ol> 
+   <li>Click <a href="https://download.macromedia.com/screens/">here</a><strong></strong> to download the latest Chrome Player.</li> 
+   <li>Unzip and save it on disk.</li> 
+   <li>Open Chrome browser and click the 3-dots menu and select <strong>More Tools</strong> --&amp;gt; <strong>Extensions</strong> from the top right corner or directly navigate to <em><strong>chrome://extensions</strong></em>.</li> 
+   <li>Switch on the <strong>Developer mode</strong> from top right corner.</li> 
+   <li>Click on <strong>Load Unpacked </strong>from top left corner and load unzipped Chrome Player.<br /> </li> 
+   <li>Check <strong>AEM Screens Chrome Player</strong> plugin if is available in the list of extensions.</li> 
+   <li>Open a new tab and click the <strong>Apps</strong> icon from the top left corner, or directly navigate to <strong><em>chrome://apps</em></strong>.</li> 
+   <li>Click on <strong>AEM Screens</strong> Plugin to launch Chrome Player. By default, the player is launched in full screen mode. Press <strong>esc</strong> to exit full screen mode.</li> 
+  </ol> 
+  <h4>How to troubleshoot if Screens player is unable to authenticate through publish instance with custom error handler?</h4> 
+  <p>When AEM Screens player starts, it makes a request to <strong><em>/content/screens/svc.ping.json</em></strong>, when the player gets a 404 error. The player initiates an authentication request to authenticate against the publish instance. If there is a custom error handler in publish instance, please make sure that you return the 404 status code for anonymous user on <strong><em>/content/screens/svc.ping.json</em></strong>.</p> 
+ </body> 
+</html>

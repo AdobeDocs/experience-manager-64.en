@@ -1,0 +1,49 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="d56b07d1-44ce-4eb1-a284-07740f1cce8e" name="jcr:uuid" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="2018-04-03T06:46:55.399-0400" name="lastPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-04-03T06:46:55.399-0400" name="publishExternalDate" />
+  <meta content="2018-04-03T06:46:55.399-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-04-19T10:27:17.640-0400" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="If you need to manage targeted content, such as activities, experiences, and offers between your sites, you can take advantage of AEM's built-in multisite support for targeted content." name="seoDescription" />
+  <meta content="2018-04-19T10:27:17.641-0400" name="cq:lastModified" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-personalization-multisite-targeting.html" name="publishExternalURL" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization" name="moreHelpPaths" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-12-01T19:02:49.272-0500" name="jcr:created" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Working with Targeted Content in Multisites" name="navTitle" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/personalization/multisite-support-targeted-content" name="qaNotes" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="44439275-3756-4297-b766-249c863adbb3" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Working with Targeted Content in Multisites" name="seoTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Working with Targeted Content in Multisites" name="jcr:title" />
+  <meta content="2017-10-31T16:18:30.501-0400" name="firstPublishExternalDate" />
+  <meta content="2018-10-27T23:46:36.621-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body>
+  <p>If you need to manage targeted content, such as activities, experiences, and offers between your sites, you can take advantage of AEM's built-in multisite support for targeted content.</p> 
+  <note>
+   <p>Targeted content in multisites is not available in classic UI. See <a href="../../../sites/authoring/using/multisite-support-targeted-content.md">Working with targeted Content in Multisites</a> in the standard authoring documentation for details.</p> 
+  </note>
+ </body>
+</html>

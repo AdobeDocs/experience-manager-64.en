@@ -1,0 +1,57 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="4b1ba020-e25f-4bde-907a-53d8be15e5ab" name="jcr:predecessors" />
+  <meta content="2017-10-31T16:18:29.155-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-12-01T19:02:48.371-0500" name="jcr:created" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="There are a number of project workflows available out of the box." name="seoDescription" />
+  <meta content="Working with Project Workflows" name="jcr:title" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/projects;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/projects" name="moreHelpPaths" />
+  <meta content="2018-04-03T06:47:16.030-0400" name="publishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="Working with Project Workflows" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-projects-workflows.html" name="publishExternalURL" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/projects/working-with-workflows" name="qaNotes" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="ce0a4ab0-fe0b-4875-b330-10117234d591" name="jcr:uuid" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-03T06:47:16.030-0400" name="lastPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Working with Project Workflows" name="seoTitle" />
+  <meta content="2018-10-27T23:46:48.390-0400" name="cq:lastReplicated" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:projects;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-04-19T10:27:36.634-0400" name="locHandOffDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-04-19T10:27:36.636-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T06:47:16.030-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+ </head>
+ <body>
+  <p>The project workflows available out of the box include the following:</p> 
+  <ul> 
+   <li><strong>Project Approval Workflow</strong> - This workflow allows you to assign content to a user, review, then approve.</li> 
+   <li><strong>Request Launch</strong> - A workflow the requests a launch.</li> 
+   <li><strong>Request Landing Page</strong> - This workflow requests a landing page.</li> 
+   <li><strong>Request Email </strong>- Workflow for requesting an email.</li> 
+   <li><strong>Product Photo Shoot and Product Photo Shoot (Commerce) </strong>- Maps assets with products</li> 
+   <li><strong>DAM Create and Translate Copy and DAM Create Language Copy</strong> - Creates translated binaries, metadata, and tags for assets and folders.</li> 
+  </ul> 
+  <note>
+   <p>Projects are not available in classic UI. See <a href="../../../sites/authoring/using/projects.md">Projects</a> in the standard authoring documentation for details.</p> 
+  </note>
+ </body>
+</html>

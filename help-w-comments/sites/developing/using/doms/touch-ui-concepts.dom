@@ -1,0 +1,536 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="3105a1e7-813f-4cd2-9f7c-6c8f9cc12baf" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Concepts of the AEM Touch-Enabled UI" name="navTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Concepts of the AEM Touch-Enabled UI" name="seoTitle" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2018-10-27T23:47:42.914-0400" name="cq:lastReplicated" /> 
+  <meta content="With AEM 5.6 Adobe introduced a new touch-optimized UI with responsive design for the author environment" name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-31T16:16:11.261-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-05-08T12:45:38.993-0400" name="locHandOffDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="51113b8a-e33f-411d-898e-9b07ba485f20" name="jcr:predecessors" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-31T16:16:11.261-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-08-17T03:04:07.878-0400" name="cq:lastModified" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-31T16:16:11.261-0400" name="firstPublishExternalDate" /> 
+  <meta content="Concepts of the AEM Touch-Enabled UI" name="jcr:title" /> 
+  <meta content="2017-10-31T16:16:11.261-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:06:28.359-0500" name="jcr:created" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/touch-ui-concepts.html" name="publishExternalURL" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/the-basics/touch-ui-concepts" name="qaNotes" /> 
+  <meta content="dist5" name="distType" /> 
+ </head> 
+ <body> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T05:25:34.196-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>Which are still relevant? </p> 
+   <p><a href="https://wiki.day.com/content/wiki/Users/acapt/Widgets/Widgets2012.html">https://wiki.day.com/content/wiki/Users/acapt/Widgets/Widgets2012.html</a></p> 
+   <p><a href="https://zerowing.corp.adobe.com/display/obuadobeui/AUI">https://zerowing.corp.adobe.com/display/obuadobeui/AUI</a> ?<br /> </p> 
+   <p><a href="https://zerowing.corp.adobe.com/display/uxd/ADMS+UI+Style+Guide">https://zerowing.corp.adobe.com/display/uxd/ADMS+UI+Style+Guide</a></p> 
+  </draft-comment> 
+  <p>With AEM 5.6 Adobe introduced a new touch-enabled UI with <a href="../../../sites/authoring/using/responsive-layout.md">responsive design</a> for the author environment. This differs considerably from the original classic UI as it is designed to operate on both touch and desktop devices.</p> 
+  <p>This touch-enabled UI is now the standard UI for AEM, superseding the classic UI.</p> 
+  <note> 
+   <p>The touch-enabled UI is the standard UI for AEM, though the classic UI is still supported.</p> 
+  </note> 
+  <p>The touch-enabled UI includes:</p> 
+  <ul> 
+   <li>The suite header that:<br /> 
+    <ul> 
+     <li>Shows the logo</li> 
+     <li>Provides a link to the Global Navigation<br /> </li> 
+     <li>Provides link to other generic actions; such as Search, Help, Marketing Cloud Solutions, Notifications and User Settings.<br /> </li> 
+    </ul> </li> 
+   <li>The left-hand rail (shown when needed and hidable), which can show: 
+    <ul> 
+     <li>Timeline<br /> </li> 
+     <li>References</li> 
+     <li>Filters</li> 
+    </ul> </li> 
+   <li>The navigation header, which is again context sensitive and can show: 
+    <ul> 
+     <li>Indicates which console you are currently using and/or your location within that console<br /> </li> 
+     <li>Selection for the left-hand rail</li> 
+     <li>Breadcrumbs</li> 
+     <li>Access to appropriate <strong>Create</strong> actions<br /> </li> 
+     <li>View selections</li> 
+    </ul> </li> 
+   <li>The content area that: 
+    <ul> 
+     <li>Lists the items of content (be they pages, assets, forum posts, etc)</li> 
+     <li>Can be formatted as requested, e.g. column, card, or list</li> 
+     <li>Uses a responsive design (the display resizes automatically according to your device and/or window size)<br /> </li> 
+     <li>Uses infinite scrolling (no more pagination, all items are listed ine one window)<br /> </li> 
+    </ul> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-201.png" /> 
+  <note> 
+   <p>Nearly all AEM functionality has been ported to the touch-enabled UI. However in some limited cases, functionality will revert to the classic UI. See <a href="../../../release-notes/touch-ui-features-status.md">Touch UI Feature Status</a> for more information.</p> 
+  </note> 
+  <p>The touch-enabled UI has been designed by Adobe to provide consistency in the user experience across multiple products. It is based on:</p> 
+  <ul> 
+   <li><strong>Coral UI</strong> (CUI) an implementation of Adobe's visual style for the touch-enabled UI. Coral UI provides everything your product / project / web application needs to adopt the UI visual style.</li> 
+   <li><strong>Granite UI</strong> components are built with Coral UI.</li> 
+  </ul> 
+  <p>The basic principles of the touch-enabled UI are:</p> 
+  <ul> 
+   <li>Mobile first (with desktop in mind)</li> 
+   <li>Responsive design</li> 
+   <li>Context relevant display</li> 
+   <li>Reusable</li> 
+   <li>Include embedded reference documentation</li> 
+   <li>Include embedded tests</li> 
+   <li>Bottom-up design to ensure these principles are applied to every element and component<br /> </li> 
+  </ul> 
+  <p>For a further overview of the touch-enabled UI structure, see the article <a href="../../../sites/developing/using/touch-ui-structure.md">Structure of the AEM Touch-Enabled UI</a>.<br /> </p> 
+  <h2>AEM Technology Stack</h2> 
+  <p>AEM uses the Granite platform as a base and the Granite platform includes, amongst other things, the Java Content Repository. </p> 
+  <img imageRotate="0" src="assets/chlimage_1-202.png" /> 
+  <h2>Granite</h2> 
+  <p>Granite is Adobe's Open Web stack, providing various components including:</p> 
+  <ul> 
+   <li>An application launcher</li> 
+   <li>An OSGi framework into which everything is deployed</li> 
+   <li>A number of OSGi compendium services to support building applications</li> 
+   <li>A comprehensive Logging Framework providing various logging APIs</li> 
+   <li>The CRX Repository implementation of the JCR API Specification</li> 
+   <li>The Apache Sling Web Framework</li> 
+   <li>Additional parts of the current CRX product</li> 
+  </ul> 
+  <note> 
+   <p>Granite is run as an open development project within Adobe: contributions to the code, discussions and issues are made from across the entire company.</p> 
+   <p>However, Granite is <strong>not</strong> an open source project. It is heavily based on several open source projects (Apache Sling, Felix, Jackrabbit and Lucene in particular), but Adobe draws a clear line between what is public and what is internal.<br /> </p> 
+  </note> 
+  <h2>Granite UI</h2> 
+  <p>The Granite engineering platform also provides a foundation UI framework. The major goals of this are to:</p> 
+  <ul> 
+   <li>Provide granular UI widgets</li> 
+   <li>Implement the UI concepts and illustrate best practices (long lists rendering, lists filtering, object CRUD, CUD wizards...)</li> 
+   <li>Provide an extensible and plug-in based administration UI</li> 
+  </ul> 
+  <p>These adhere to the requirements:</p> 
+  <ul> 
+   <li>Respect "mobile first"</li> 
+   <li>Be extensible</li> 
+   <li>Be easy to override</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-203.png" /> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T05:25:34.429-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p><a href="https://zerowing.corp.adobe.com/display/granite/Granite+Home#">https://zerowing.corp.adobe.com/display/granite/Granite+Home#</a></p> 
+   <p> </p> 
+  </draft-comment> 
+  <div> 
+   <p>GraniteUI.pdf</p> 
+   <p><a alt="GraniteUI.pdf" href="assets/graniteui.pdf">Get File</a></p> 
+  </div> 
+  <p>The Granite UI:</p> 
+  <ul> 
+   <li>Uses the RESTful architecture of Sling</li> 
+   <li>Implements component libraries intended for building content-centric web applications</li> 
+   <li>Provides granular UI widgets</li> 
+   <li>Provides a default, standardized UI</li> 
+   <li>Is extensible</li> 
+   <li>Is designed for both mobile and desktop devices (respects mobile first)</li> 
+   <li>Can be used in any Granite-based platform/product/project; eg AEM</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-204.png" /> 
+  <ul> 
+   <li><a href="#graniteuifoundationcomponents">Granite UI Foundation Components</a><br /> This library of foundation components can be used or extended by other libraries.</li> 
+   <li><a href="#graniteuiadministrationcomponents">Granite UI Administration Components</a></li> 
+  </ul> 
+  <h3>Client Side vs Server Side</h3> 
+  <p>The client-server communication in the Granite UI consists of hypertext, not objects, so there is no need for the client to understand the business logic</p> 
+  <ul> 
+   <li>The server enriches the HTML with semantic data</li> 
+   <li>The client enriches the hypertext with hypermedia (interaction)</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-205.png" /> 
+  <h4>Client-Side</h4> 
+  <p>This uses an extension of HTML vocabulary, provided so that the author can express their intention to build an interactive webapp. This is a similar approach to <a href="http://www.w3.org/TR/wai-aria/">WAI-ARIA</a> and <a href="http://microformats.org/">microformats</a>.</p> 
+  <p>It primarily consists of a collection of interaction patterns (for example, asyncronously submitting a form) that are interpreted by JS and CSS codes, run on the client-side. The role of the client-side is to enhance the markup (given as the hypermedia affordance by the server) for interactivity.</p> 
+  <p>The client-side is independent of any server technology. As long as the server gives the appropriate markup, the client-side can fulfil its role.</p> 
+  <p>Currently the JS and CSS codes are delivered as Granite <a href="../../../sites/developing/using/clientlibs.md">clientlibs</a> under the category:</p> 
+  <p><span class="code"> granite.ui.foundation and granite.ui.foundation.admin</span></p> 
+  <p>These are delivered as part of the content package:</p> 
+  <p><span class="code"> granite.ui.content</span><br /> </p> 
+  <h4>Server-Side</h4> 
+  <p>This is formed by a collection of sling components that enable the author to <i>compose</i> a webapp fast. The developer develops components, the author assembles the components to be a webapp. The role of the server-side is to give the hypermedia affordance (markup) to the client.</p> 
+  <p>Currently the components are located in the Granite repository at:</p> 
+  <p><span class="code"> /libs/granite/ui/components/foundation</span></p> 
+  <p>This is delivered as part of the content package:</p> 
+  <p><span class="code"> granite.ui.content</span></p> 
+  <h3>Differences with the Classic UI</h3> 
+  <p>The differences between Granite UI and ExtJS (used for the classic UI) are also of interest:<br /> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>ExtJS</strong></td> 
+     <td><strong>Granite UI</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Remote Procedure Call<br /> </td> 
+     <td>State Transistions</td> 
+    </tr> 
+    <tr> 
+     <td>Data transfer objects</td> 
+     <td>Hypermedia</td> 
+    </tr> 
+    <tr> 
+     <td>Client knows server internals</td> 
+     <td>Client does not know internals</td> 
+    </tr> 
+    <tr> 
+     <td>"Fat client"</td> 
+     <td>"Thin client"</td> 
+    </tr> 
+    <tr> 
+     <td>Specialized client libraries</td> 
+     <td>Universal client libraries</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Granite UI Foundation Components</h3> 
+  <p>The <a href="/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index">Granite UI foundation components</a> provide the basic building blocks needed for building any UI. They include, amongst others:</p> 
+  <ul> 
+   <li>Button</li> 
+   <li>Hyperlink</li> 
+   <li>User Avatar</li> 
+  </ul> 
+  <p>The foundation components can be found under:</p> 
+  <p><span class="code"> /libs/granite/ui/components/foundation</span><br /> </p> 
+  <p>This library contains a Granite UI component for each Coral element. A component is content driven, with its configuration residing in the repository. This makes it possible to compose a Granite UI application without writing HTML markup by hand.<br /> </p> 
+  <p>Purpose:</p> 
+  <ul> 
+   <li>Component model for HTML Elements<br /> </li> 
+   <li>Component composition</li> 
+   <li>Automatic unit and functionality testing</li> 
+  </ul> 
+  <p>Implementation:</p> 
+  <ul> 
+   <li>Repository based composition and configuration</li> 
+   <li>Leveraging testing facilities provided by the Granite platform</li> 
+   <li>JSP templating</li> 
+  </ul> 
+  <p>This library of foundation components can be used or extended by other libraries.<br /> </p> 
+  <h3>ExtJS and Corresponding Granite UI Components</h3> 
+  <p>When upgrading ExtJS code to use the Granite UI, the following list provides a convenient overview of ExtJS xtypes and node types with their equivalent Granite UI resource types.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>ExtJS xtype</strong></td> 
+     <td><strong>Granite UI resource type</strong></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">button</span></td> 
+     <td><span class="code">granite/ui/components/foundation/form/button</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">checkbox</span></td> 
+     <td><span class="code">granite/ui/components/foundation/form/checkbox</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">componentstyles</span></td> 
+     <td><span class="code">cq/gui/components/authoring/dialog/componentstyles</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">cqinclude</span></td> 
+     <td><span class="code">granite/ui/components/foundation/include</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">datetime</span></td> 
+     <td><span class="code">granite/ui/components/foundation/form/datepicker</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">dialogfieldset</span></td> 
+     <td><span class="code">granite/ui/components/foundation/form/fieldset</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">hidden</span></td> 
+     <td><span class="code">granite/ui/components/foundation/form/hidden</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">html5smartfile, html5smartimage </span></td> 
+     <td><span class="code">granite/ui/components/foundation/form/fileupload</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">multifield</span></td> 
+     <td><span class="code">granite/ui/components/foundation/form/multifield</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">numberfield</span></td> 
+     <td><span class="code">granite/ui/components/foundation/form/numberfield</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">pathfield, paragraphreference</span></td> 
+     <td><span class="code">granite/ui/components/foundation/form/pathbrowser</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">selection</span></td> 
+     <td><span class="code">granite/ui/components/foundation/form/select</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">sizefield</span></td> 
+     <td><span class="code">cq/gui/components/authoring/dialog/sizefield</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">tags</span></td> 
+     <td><code class="code">granite/ui/components/foundation/form/autocomplete
+       <discoiqbr /> cq/gui/components/common/datasources/tags</code></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">textarea</span></td> 
+     <td><span class="code">granite/ui/components/foundation/form/textarea</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">textfield</span></td> 
+     <td><span class="code">granite/ui/components/foundation/form/textfield</span></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Node type</strong></td> 
+     <td><strong>Granite UI resource type</strong></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">cq:WidgetCollection</span></td> 
+     <td><span class="code">granite/ui/components/foundation/container</span></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">cq:TabPanel</span></td> 
+     <td><code class="code">granite/ui/components/foundation/container
+       <discoiqbr /> granite/ui/components/foundation/layouts/tabs</code></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">cq:panel</span></td> 
+     <td><span class="code">granite/ui/components/foundation/container</span></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Granite UI Administration Components</h3> 
+  <p>The <a href="/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index">Granite UI administration components</a> build on the foundation components to provide generic building blocks that any administration application can implement. These include, amongst others:</p> 
+  <ul> 
+   <li>Global Navigation Bar<br /> </li> 
+   <li>Rail (skeleton)<br /> </li> 
+   <li>Search Panel</li> 
+  </ul> 
+  <p>Purpose:</p> 
+  <ul> 
+   <li>Unified look-and-feel for administration applications</li> 
+   <li>RAD for administration applications </li> 
+  </ul> 
+  <p>Implementation:</p> 
+  <ul> 
+   <li>Pre-defined components using the foundation components</li> 
+   <li>Components can be customize</li> 
+  </ul> 
+  <h2>Coral UI</h2> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T05:25:34.805-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p><a href="https://git.corp.adobe.com/pages/Reef/CoralUI/index.html#">https://git.corp.adobe.com/pages/Reef/CoralUI/index.html#</a></p> 
+   <p> </p> 
+   <p><a href="https://git.corp.adobe.com/pages/Reef/CoralUI/jsdoc/index.html">https://git.corp.adobe.com/pages/Reef/CoralUI/jsdoc/index.html</a></p> 
+  </draft-comment> 
+  <div> 
+   <p>CoralUI.pdf</p> 
+   <p><a alt="CoralUI.pdf" href="assets/coralui.pdf">Get File</a></p> 
+  </div> 
+  <p>Coral UI (CUI) is an implementation of Adobe's visual style for the touch-enabled UI, that has been designed to provide consistency in the user experience across multiple products. Coral UI provides everything you need to adopt the visual style used on the authoring environment.</p> 
+  <draft-comment type="draft"> 
+   <note type="caution"> 
+    <p>Coral UI is a UI library made available to AEM customers for building applications and web interfaces within the boundaries of their licensed use of the product. Its use is intended for their internal business users (e.g. authors).</p> 
+    <p>Use of Coral UI is only permitted:<br /> </p> 
+    <ul> 
+     <li>When it has been shipped and bundled with CQ.</li> 
+     <li>For use when extending the existing UI of the authoring environment.</li> 
+    </ul> 
+    <p>Use of Coral UI is not permitted:</p> 
+    <ul> 
+     <li>On/for public facing websites</li> 
+     <li>On AEM publish instances<br /> </li> 
+    </ul> 
+   </note> 
+  </draft-comment> 
+  <note> 
+   <p>Coral UI is a UI library made available to AEM customers for building applications and web interfaces within the boundaries of their licensed use of the product.</p> 
+   <p>Use of Coral UI is only permitted:<br /> </p> 
+   <ul> 
+    <li>When it has been shipped and bundled with AEM.</li> 
+    <li>For use when extending the existing UI of the authoring environment.</li> 
+    <li>Adobe corporate collateral, ads, and presentations.<br /> </li> 
+    <li>The UI of Adobe-branded applications (the font must not be readily available for other uses).</li> 
+    <li>With minor customizations.</li> 
+   </ul> 
+   <p>Use of Coral UI should be avoided in:</p> 
+   <ul> 
+    <li>Documents and other items not related to Adobe.</li> 
+    <li>Content-creation environments (where the preceding items might be generated by others).</li> 
+    <li>Applications/components/web pages that are not clearly connected to Adobe.</li> 
+   </ul> 
+  </note> 
+  <p>The Coral UI is a collection of building blocks for developing web applications.<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-206.png" /> 
+  <p>Designed to be modular from the start, each module forms a distinct layer based on its primary role. Although the layers have been designed to support each other, they can also be used independently if needed. This makes it possible to implement Coral’s user experience in any HTML-capable environment.</p> 
+  <p>With the Coral UI it is not mandatory to use a particular development model and/or platform. The primary goal of Coral is to provide unified and clean HTML5 markup, independent of the actual method used to emit this markup. This might be used for client or server-side rendering, templates, JSP, PHP, or even Adobe Flash RIA applications - to name just a few.</p> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T05:25:35.045-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>needs updating when the coral docu is ready</p> 
+   <p>https://issues.adobe.com/browse/CUI-816</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <note type="note"> 
+    <p>The Coral UI documentation gives further details.</p> 
+   </note> 
+  </draft-comment> 
+  <h3>HTML Elements - The Markup Layer</h3> 
+  <p>The HTML elements provide a common look and feel for all base UI elements (including navigation bar, button, menu, rail, amongst others).<br /> </p> 
+  <p>At the most basic level, a HTML element is a HTML tag with a dedicated class name. More complex elements can be composed of multiple tags, nested inside each other (in a specific manner). <br /> </p> 
+  <p>The CSS is used to provide the actual look and feel. To make it possible to easily customize the look-and-feel (e.g. for the case of branding) actual style values are declared as variables that are expanded by the <a href="http://lesscss.org/">LESS</a> pre-processor during runtime.<br /> </p> 
+  <p>Purpose:</p> 
+  <ul> 
+   <li>Provide basic UI elements with a common look-and-feel</li> 
+   <li>Provide the default grid system</li> 
+  </ul> 
+  <p>Implementation:</p> 
+  <ul> 
+   <li>HTML tags with styles inspired by <a href="http://twitter.github.com/bootstrap/">bootstrap</a></li> 
+   <li>Classes are defined in LESS files</li> 
+   <li>Icons are defined as font sprites</li> 
+  </ul> 
+  <p>For example, the markup:<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;button&amp;nbsp;class="btn&amp;nbsp;btn-large&amp;nbsp;btn-primary"&amp;nbsp;type="button"&gt;Large&amp;nbsp;button&lt;/button&gt;&amp;nbsp;!!discoiqbr!!&lt;button&amp;nbsp;class="btn&amp;nbsp;btn-large"&amp;nbsp;type="button"&gt;Large&amp;nbsp;button&lt;/button&gt; 
+  </codeblock> 
+  <p>Is displayed as: </p> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T05:25:35.166-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>clearer image would be good<br /> </p> 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/chlimage_1-207.png" /> 
+  <p>The look-and-feel is defined in LESS, tied to an element by dedicated class name (the following extract has been shortened for the sake of brevity):<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    .btn&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;font-size:&amp;nbsp;@baseFontSize;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;line-height:&amp;nbsp;@baseLineHeight;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.buttonBackground(@btnBackground,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@btnBackgroundHighlight,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;@grayDark,&amp;nbsp;0&amp;nbsp;1px&amp;nbsp;1px&amp;nbsp;rgba(255,255,255,.75)); 
+  </codeblock> 
+  <p>Actual values are defined in a LESS variable file (the following extract has been shortened for the sake of brevity):<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    @btnBackgroundHighlight:&amp;nbsp;darken(@white,&amp;nbsp;10%);&amp;nbsp;!!discoiqbr!!@btnPrimaryBackgroundHighlight:&amp;nbsp;spin(@btnPrimaryBackground,&amp;nbsp;20%);&amp;nbsp;!!discoiqbr!!@baseFontSize:&amp;nbsp;17px;!!discoiqbr!!@baseFontFamily:&amp;nbsp;@sansFontFamily; 
+  </codeblock> 
+  <h3>Element Plugins</h3> 
+  <p>Many of the HTML elements will need to exhibit some sort of dynamic behavior, such as opening and closing pop-up menus. This is the role of the element plugins, which accomplish such tasks by manipulating the DOM using JavaScript.</p> 
+  <p>A plugin is either:</p> 
+  <ul> 
+   <li>Designed to operate on a specific DOM element. For example, a dialog plugin expects to find <span class="code">DIV class=dialog</span></li> 
+   <li>Generic in nature. For example, a layout manager provides layout for any list of <span class="code">DIV</span> or <span class="code">LI</span> elements</li> 
+  </ul> 
+  <p>Plugin behavior can be customized with parameters, by either:</p> 
+  <ul> 
+   <li>Passing the parameters by means of a javascript call</li> 
+   <li>Using dedicated <span class="code">data-*</span> attributes tied to the HTML markup</li> 
+  </ul> 
+  <p>Though the developer can select the best approach for any plugin, the rule of thumb is to use:</p> 
+  <ul> 
+   <li><span class="code">data-*</span> attributes for options related to HTML layout. For example, to specify the number of columns</li> 
+   <li>API options/classes for functionality related to data. For example, constructing the list of items to display</li> 
+  </ul> 
+  <p>The same concept is used to implement form validation. For an element that you want validated, you must specify the required input form as a custom <span class="code">data-*</span> attribute. This attribute is then used as an option for a validation plugin.<br /> </p> 
+  <note> 
+   <p>HTML5-native form validation should be used whenever possible and/or expanded upon.<br /> </p> 
+  </note> 
+  <p></p> 
+  <p>Purpose:</p> 
+  <ul> 
+   <li>Provide dynamic behavior for HTML Elements</li> 
+   <li>Provide custom layouts not possible with pure CSS</li> 
+   <li>Perform form validation</li> 
+   <li>Perform advanced DOM manipulation</li> 
+  </ul> 
+  <p>Implementation:</p> 
+  <ul> 
+   <li>jQuery plugin, tied to specific DOM element(s)</li> 
+   <li>Using <span class="code">data-*</span> attributes to customize behavior </li> 
+  </ul> 
+  <p></p> 
+  <p>An extract of example markup (note the options specified as data-* attributes):</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;ul&amp;nbsp;data-column-width="220"&amp;nbsp;data-layout="card"&amp;nbsp;class="cards"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;li&amp;nbsp;class="item"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="thumbnail"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img&amp;nbsp;href="/a.html"&amp;nbsp;src="/a.thumb.319.319..png"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="caption"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h4&gt;Toolbar&lt;/h4&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;&lt;small&gt;toolbar&lt;/small&gt;&lt;br&gt;&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/li&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;li&amp;nbsp;class="item"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="thumbnail"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img&amp;nbsp;href="/a.html"&amp;nbsp;src="/a.thumb.319.319..png"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="caption"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h4&gt;Toolbar&lt;/h4&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;&lt;small&gt;toolbar&lt;/small&gt;&lt;br&gt;&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/li&gt; 
+  </codeblock> 
+  <p>The call to the jQuery plugin:</p> 
+  <codeblock gutter="true" class="syntax js">
+    $(‘.cards’).cardlayout&amp;nbsp;(); 
+  </codeblock> 
+  <p>This will show as:<br /> </p> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T05:25:35.408-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>need a better screenshot (clearer)<br /> </p> 
+  </draft-comment> 
+  <img imageRotate="0" src="assets/chlimage_1-208.png" /> 
+  <p>The <span class="code">cardLayout</span> plugin lays out the enclosed <span class="code">UL</span> elements based on their respective heights and also taking the parent’s width into consideration. </p> 
+  <h3>HTML Elements Widgets</h3> 
+  <p>A widget combines one or more basic elements with a javascript plugin to form "higher level" UI elements. These can implement more complex behavior and also a more complex look and feel than a single element could deliver. Good examples are the tag-picker or rail widgets.<br /> </p> 
+  <p>A widget can both trigger and listen to custom events to cooperate with other widgets on the page. Some widgets are actually native jQuery widgets that use the Coral HTML elements.<br /> </p> 
+  <p>Purpose:</p> 
+  <ul> 
+   <li>Implement higher level UI elements exhibiting complex behavior<br /> </li> 
+   <li>Triggering and handling events</li> 
+  </ul> 
+  <p>Implementation:</p> 
+  <ul> 
+   <li>jQuery plugin + HTML markup</li> 
+   <li>Can utilize client/server side templates</li> 
+  </ul> 
+  <p>Example markup is:<br /> </p> 
+  <codeblock gutter="true" class="syntax js">
+    &lt;input&amp;nbsp;type="text"&amp;nbsp;name="tags"&amp;nbsp;placeholder="Tags"&amp;nbsp;class="tagManager"/&gt; 
+  </codeblock> 
+  <p>The call to the jQuery plugin (with options):</p> 
+  <codeblock gutter="true" class="syntax js">
+    $(".tagManager").tagsManager({!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;prefilled:&amp;nbsp;["Pisa",&amp;nbsp;"Rome"]&amp;nbsp;}) 
+  </codeblock> 
+  <p>The plugin emits HTML markup (this markup uses basic elements, which may use other plugins internally):</p> 
+  <codeblock gutter="true" class="syntax js">
+    &lt;span&gt;Pisa&lt;/span&gt;!!discoiqbr!!&lt;a&amp;nbsp;title="Removing&amp;nbsp;tag"&amp;nbsp;tagidtoremove="0"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;id="myRemover_0"&amp;nbsp;class="myTagRemover"&amp;nbsp;href="#"&gt;x&lt;/a&gt;&lt;/span&gt;!!discoiqbr!!!!discoiqbr!!&lt;span&amp;nbsp;id="myTag_1"&amp;nbsp;class="myTag"&gt;&lt;span&gt;Rome&lt;/span&gt;!!discoiqbr!!&lt;a&amp;nbsp;title="Removing&amp;nbsp;tag"&amp;nbsp;tagidtoremove="1"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;id="myRemover_1"&amp;nbsp;class="myTagRemover"&amp;nbsp;href="#"&gt;x&lt;/a&gt;&lt;/span&gt;!!discoiqbr!!!!discoiqbr!!&lt;input&amp;nbsp;type="text"&amp;nbsp;data-original-title=""&amp;nbsp;class="input-medium&amp;nbsp;tagManager"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;placeholder="Tags"&amp;nbsp;name="tags"&amp;nbsp;data-provide="typeahead"&amp;nbsp;data-items="6"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;autocomplete="off"&gt; 
+  </codeblock> 
+  <p>This will show as:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-209.png" /> 
+  <h3>Utility Library</h3> 
+  <p>This library is a collection of javascript helper plugins and/or functions that are:</p> 
+  <ul> 
+   <li>UI independent</li> 
+   <li>Yet crucial for building full featured web applications</li> 
+  </ul> 
+  <p>These include XSS handling and the event bus.</p> 
+  <p>Although the HTML element plugins and widgets may rely on functionality provided by the utility library, the utility library cannot have any hard dependency on the elements nor widgets themselves.</p> 
+  <p></p> 
+  <p>Purpose:</p> 
+  <ul> 
+   <li>Provide common functionality <br /> </li> 
+   <li>Event bus implementation</li> 
+   <li>Client-side templates</li> 
+   <li>XSS</li> 
+  </ul> 
+  <p>Implementation:</p> 
+  <ul> 
+   <li>jQuery plugins or AMD-compliant JavaScript modules </li> 
+  </ul> 
+  <p></p> 
+ </body> 
+</html>

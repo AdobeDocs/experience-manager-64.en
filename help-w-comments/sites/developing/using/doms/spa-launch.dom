@@ -1,0 +1,56 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:spa" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2018-12-11T04:52:25.878-0500" name="firstPublishExternalDate" />
+  <meta content="2018-12-11T04:52:25.890-0500" name="cq:lastModified" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Adobe Launch is the recommended way to implement Analytics, Target, and Audience Manager within SPAs." name="seoDescription" />
+  <meta content="video" name="pageLayout" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-01-15T15:39:01.255-0500" name="jcr:created" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2018-12-11T04:52:25.878-0500" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="af36efbf-8b5a-46cd-9455-e049d672e152" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="2018-12-11T04:52:25.878-0500" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="bohnert" name="contentOwner" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/spa-launch.html" name="publishExternalURL" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/spa;/content/help/en/experience-manager/6-4/sites/developing/morehelp/spa" name="moreHelpPaths" />
+  <meta content="2018-12-11T04:52:26.380-0500" name="cq:lastReplicated" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-12-11T04:52:25.878-0500" name="topicBrowsingSortDate" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="b245848a-bbb3-44b3-969f-9cded24ab5e7" name="jcr:uuid" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="SPA and Launch Integration" name="jcr:title" />
+  <meta content="SPA and Launch Integration" name="seoTitle" />
+ </head>
+ <body>
+  <p>Adobe Launch is the recommended way to implement Analytics, Target, and Audience Manager within Single Page Applications (SPAs).</p> 
+  <note>
+   <p>The Single-Page Application (SPA) Editor feature was introduced with AEM 6.4 and is currently a release candidate. The SPA Editor will be available in <a href="/content/help/en/experience-manager/maintenance-releases-roadmap">6.4 SP2</a>.</p> 
+   <p>The SPA Editor is the recommended solution for projects that require SPA framework based client-side rendering (e.g. React).</p> 
+  </note>
+  <h2>Tutorial</h2>
+  <p>To understand how to integrate your SPA with Adobe Launch, please see <a href="/content/help/en/experience-manager/kt/integration/using/launch-reference-architecture-SPA-tutorial-implement">this knowledge base article and tutorial</a>, which will guide you through the Launch setup as well as implement the Experience Cloud in built with Angular or React.</p> 
+  <note>
+   <p>The referenced KB was created to enable Launch integration with SPAs that don't leverage the AEM SPA Editor. These methods should also allow the Launch integration to coexist with SPAs that are built to use the SPA Editor.<br /> </p> 
+   <p>Because the SPA Editor is in prerelease, the use of Redux alongside the Javascript SPA libraries has not been fully explored. Support of Redux is planned in a future release of the SPA Editor.<br /> </p> 
+  </note>
+ </body>
+</html>

@@ -1,0 +1,718 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-05-08T12:45:44.332-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="fd94fe37-d269-4eb7-bc80-40eba9ae9792" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="2018-04-03T09:01:21.331-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-01-06T19:02:17.155-0500" name="jcr:created" /> 
+  <meta content="Use the Content Package Maven plugin to integrate package management tasks into your Maven projects" name="seoDescription" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Managing Packages Using Maven" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="alvawb@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/vlt-mavenplugin.html" name="publishExternalURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Managing Packages Using Maven" name="seoTitle" /> 
+  <meta content="2018-01-05T16:14:28.699-0500" name="publishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools;/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools" name="moreHelpPaths" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:development-tools;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-31T16:16:05.690-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2134841f-a4f0-4b26-b25f-f1e15698f0c2" name="jcr:uuid" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/dev-tools/vlt-mavenplugin" name="qaNotes" /> 
+  <meta content="2018-01-05T16:14:28.699-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Managing Packages Using Maven" name="navTitle" /> 
+  <meta content="2018-01-05T16:14:28.699-0500" name="lastPublishExternalDate" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-05-08T12:45:44.333-0400" name="cq:lastModified" /> 
+ </head> 
+ <body> 
+  <p>Use the Content Package Maven plugin to integrate package management tasks into your Maven projects. The plugin goals and parameters enable you to automate many of the tasks that you would normally perform using the Package Manager page or the FileVault command line:</p> 
+  <ul> 
+   <li>Create new packages from files in the file system.</li> 
+   <li>Install and uninstall packages on the CRX or CQ server.</li> 
+   <li>Build packages that are already defined on the server.</li> 
+   <li>Obtain a list of packages that are installed on the server.</li> 
+   <li>Remove a package from the server.</li> 
+  </ul> 
+  <p></p> 
+  <h3>Adding the Content Package Maven Plugin to the POM File</h3> 
+  <p>To use the Content Package Maven Plugin, add the following plugin element inside the build element of your POM file:</p> 
+  <p></p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;plugin&gt;!!discoiqbr!!&amp;nbsp;&lt;groupId&gt;com.day.jcr.vault&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&lt;artifactId&gt;content-package-maven-plugin&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&lt;version&gt;0.0.24&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&lt;configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;parameters&amp;nbsp;and&amp;nbsp;values&amp;nbsp;common&amp;nbsp;to&amp;nbsp;all&amp;nbsp;goals,&amp;nbsp;as&amp;nbsp;required&amp;nbsp;--&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&lt;/configuration&gt;!!discoiqbr!!&lt;/plugin&gt; 
+  </codeblock> 
+  <p>To enable Maven to download the plugin, use the profile provided in the <a href="#obtainingthecontentpackagemavenplugin">Obtaining the Content Package Maven Plugin</a> section on this page.</p> 
+  <h2>Goals of the Content Package Maven Plugin</h2> 
+  <p>The goals and goal parameters that the Content Package plugin provides are described in the sections that follow. Parameters that are described in the Common Parameters section can be used for most of the goals. Parameters that apply to one goal are described in the section for that goal.</p> 
+  <p><strong>Plugin Prefix</strong></p> 
+  <p>The plugin prefix is content-package. Use this prefix to execute a goal from the command line, as in the following example:</p> 
+  <codeblock class="syntax shell">
+    mvn&amp;nbsp;content-package:build&amp;nbsp; 
+  </codeblock> 
+  <p><strong>Parameter Prefix</strong></p> 
+  <p>Unless otherwise noted, the plugin goals and parameters use the vault prefix, as in the following example:</p> 
+  <codeblock class="syntax shell">
+    mvn&amp;nbsp;content-package:install&amp;nbsp;-Dvault.targetURL="http://192.168.1.100:4502/crx/packmgr/service.jsp" 
+  </codeblock> 
+  <p><strong>Proxies</strong></p> 
+  <p>Goals that use proxies for the CRX or CQ server use the first valid proxy configuration found in the Maven settings. If no proxy configuration is found, no proxy is used. See the useProxy parameter in the Common Settings section.</p> 
+  <h3>Common Parameters</h3> 
+  <p>The parameters in the following table are common to all goals except when noted in the Goals column.</p> 
+  <p></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Name</th> 
+     <th>Type</th> 
+     <th>Required</th> 
+     <th>Default Value</th> 
+     <th>Description</th> 
+     <th>Goals</th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;">failOnError</td> 
+     <td style="text-align: left;">boolean</td> 
+     <td style="text-align: left;">No</td> 
+     <td style="text-align: left;">false</td> 
+     <td style="text-align: left;">A value of <code>true</code> causes the build to fail when an error occurs. A value of <code>false</code> causes the build to ignore the error.</td> 
+     <td style="text-align: left;">All goals except package.</td> 
+    </tr> 
+    <tr> 
+     <td>name</td> 
+     <td width="5">String</td> 
+     <td>build: Yes<br /> install: No<br /> rm: Yes</td> 
+     <td>Build: No default.<br /> install: The value of the artifactId property of the Maven project.</td> 
+     <td>The name of the package to act on.</td> 
+     <td>All goals except ls.</td> 
+    </tr> 
+    <tr> 
+     <td>password</td> 
+     <td width="5">String</td> 
+     <td>Yes</td> 
+     <td>admin</td> 
+     <td>The password used for authentication with the CRX server.</td> 
+     <td>All goals except package.</td> 
+    </tr> 
+    <tr> 
+     <td>serverId</td> 
+     <td width="5">String</td> 
+     <td>No</td> 
+     <td></td> 
+     <td>The server ID from which to retrieve the user name and password for authentication.</td> 
+     <td>All goals except package.</td> 
+    </tr> 
+    <tr> 
+     <td>targetURL</td> 
+     <td width="5">String</td> 
+     <td>Yes</td> 
+     <td>http://localhost:4502/<br /> crx/packmgr/<br /> service.jsp</td> 
+     <td>The URL of the HTTP service API of the CRX package manager.</td> 
+     <td>All goals except package.</td> 
+    </tr> 
+    <tr> 
+     <td>timeout</td> 
+     <td width="5">int</td> 
+     <td>No</td> 
+     <td>5</td> 
+     <td>The connection timeout for communicating with the package manager service, in seconds.</td> 
+     <td>All goals except package.</td> 
+    </tr> 
+    <tr> 
+     <td>useProxy</td> 
+     <td width="5">boolean</td> 
+     <td>No</td> 
+     <td>true</td> 
+     <td>Determines whether to use proxy configurations from the Maven settings file. A value of <code>true</code> causes the use of the first active proxy configuration found to proxy requests to the package manager. A value of false causes no proxy to be used.</td> 
+     <td>All goals except package.</td> 
+    </tr> 
+    <tr> 
+     <td>userId</td> 
+     <td width="5">String</td> 
+     <td>Yes</td> 
+     <td>admin</td> 
+     <td>The user name to authenticate with the CRX server.</td> 
+     <td>All goals except package.</td> 
+    </tr> 
+    <tr> 
+     <td>verbose</td> 
+     <td width="5">boolean</td> 
+     <td>No</td> 
+     <td>false</td> 
+     <td>Enables or disables verbose logging. A value of <code>true</code> enables verbose logging.</td> 
+     <td>All goals except package.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>build</h3> 
+  <p>Builds a content package that is already defined on a CRX or CQ5 server.</p> 
+  <note> 
+   <p>This goal does not need to be executed within a Maven project.</p> 
+  </note> 
+  <h4>Parameters</h4> 
+  <p>All paramaters for the build goal are described in the <a href="#commonparameters">Common Parameters</a> section.</p> 
+  <p></p> 
+  <h4>Example</h4> 
+  <p>The following example builds the workflow-mbean package that is installed on the CQ server with the IP address 10.36.79.223. The goal is executed using the followng command:</p> 
+  <codeblock class="syntax shell">
+    mvn&amp;nbsp;content-package:build 
+  </codeblock> 
+  <p>The following POM file is located in the current directory of the command line tool. The POM specifies the package name and the URL of the package service.</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;project&amp;nbsp;xmlns="http://maven.apache.org/POM/4.0.0"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;xsi:schemaLocation="http://maven.apache.org/POM/4.0.0&amp;nbsp;http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.example&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;example-package&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;build&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.jcr.vault&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;content-package-maven-plugin&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.24&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;name&gt;workflow-mbean&lt;/name&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;failOnError&gt;true&lt;/failOnError&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;targetURL&gt;http://10.36.79.223:4502/crx/packmgr/service.jsp&lt;/targetURL&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugin&gt;!!discoiqbr!!&amp;nbsp;&lt;/plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/build&gt;!!discoiqbr!!&lt;/project&gt; 
+  </codeblock> 
+  <h3>install</h3> 
+  <p>Installs a package in the CRX respository. Execution of this goal does not require a Maven project. The goal is bound to the Install phase of the Maven build lifecycle.</p> 
+  <p></p> 
+  <h4>Parameters</h4> 
+  <p>In addition to the following parameters, see the descriptions in the <a href="#commonparameters">Common Parameters</a> section.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Name</th> 
+     <th>Type</th> 
+     <th>Required</th> 
+     <th>Default Value</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>artifact</td> 
+     <td>String</td> 
+     <td>No</td> 
+     <td>The value of the artifactId property of the Maven project.</td> 
+     <td>A string of the form groupId:artifactId:version[:packaging].</td> 
+    </tr> 
+    <tr> 
+     <td>artifactId</td> 
+     <td>String</td> 
+     <td>No</td> 
+     <td></td> 
+     <td>The ID of the artifact to install</td> 
+    </tr> 
+    <tr> 
+     <td>groupId</td> 
+     <td>String</td> 
+     <td>No</td> 
+     <td></td> 
+     <td>The groupId of the artifact to install</td> 
+    </tr> 
+    <tr> 
+     <td>install</td> 
+     <td>boolean</td> 
+     <td>No</td> 
+     <td>true</td> 
+     <td>Determines whether to unpack the package automatically when it is uploaded. A value of true unpacks the package, and false does not unpack the package.</td> 
+    </tr> 
+    <tr> 
+     <td>localRepository</td> 
+     <td>org.apache.maven.<br /> artifact. repository.<br /> ArtifactRepository</td> 
+     <td>No</td> 
+     <td>The value of the localRepository system variable.</td> 
+     <td>The local Maven repository. You cannot configure this paramter using the plugin configuration. The system property is always used.</td> 
+    </tr> 
+    <tr> 
+     <td>packageFile</td> 
+     <td>java.io.File</td> 
+     <td>No</td> 
+     <td>The primary artifact that is defined for the Maven project.</td> 
+     <td>The name of the package file to install.</td> 
+    </tr> 
+    <tr> 
+     <td>packaging</td> 
+     <td>String</td> 
+     <td>No</td> 
+     <td>zip</td> 
+     <td>The type of packaging of the artifact to install</td> 
+    </tr> 
+    <tr> 
+     <td>pomRemoteRepositories</td> 
+     <td>java.util.List</td> 
+     <td>Yes</td> 
+     <td>The value of the remoteAtifactRepositories property that is defined for the Maven project.</td> 
+     <td>This value cannot be configured using the plugin configuration. The value must be specified in the project. </td> 
+    </tr> 
+    <tr> 
+     <td>project</td> 
+     <td>org.apache.maven.<br /> project.MavenProject</td> 
+     <td>Yes</td> 
+     <td>The project for which the plugin is configured.</td> 
+     <td>The Maven project. The project is implicit because the project contains the plugin configuration.</td> 
+    </tr> 
+    <tr> 
+     <td>repositoryId <i>(POM)</i><br /> repoID <i>(command line)</i></td> 
+     <td>String</td> 
+     <td>No</td> 
+     <td>temp</td> 
+     <td>The ID of the repository from which the artifact is retrieved. In a POM, use repositoryID. In a command line, use repoID.</td> 
+    </tr> 
+    <tr> 
+     <td>repositoryUrl <i>(POM)</i><br /> repoURL <i>(command line)</i></td> 
+     <td>String</td> 
+     <td>No</td> 
+     <td></td> 
+     <td>The URL of the repository from which the artifact is retrieved. In a POM, use repositoryURL. In a command line, use repoURL.</td> 
+    </tr> 
+    <tr> 
+     <td>version</td> 
+     <td>String</td> 
+     <td>No</td> 
+     <td></td> 
+     <td>The version of the artifact to install.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Example</h4> 
+  <p>The following example creates a package that contains the workflow-mbean OSGi bundle (see the example for the <a href="#build">build</a> goal) and then installs the package. Because the install goal is bound to the package install phase, the following command executes the install goal:</p> 
+  <codeblock class="syntax shell">
+    mvn&amp;nbsp;install 
+  </codeblock> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;project&amp;nbsp;xmlns="http://maven.apache.org/POM/4.0.0"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xsi:schemaLocation="http://maven.apache.org/POM/4.0.0&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.example.myapp&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;workflow-mbean&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.3-SNAPSHOT&lt;/version&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;build&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.jcr.vault&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;content-package-maven-plugin&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.24&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;builtContentDirectory&gt;jcr_root&lt;/builtContentDirectory&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;targetURL&gt;http://10.36.79.223:4502/crx/packmgr/service.jsp&lt;/targetURL&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;executions&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;execution&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;goals&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;goal&gt;package&lt;/goal&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/goals&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/execution&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/executions&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/build&gt;!!discoiqbr!!&lt;/project&gt; 
+  </codeblock> 
+  <h3>ls</h3> 
+  <p>Lists the packages that are deployed to Package Manager.</p> 
+  <p></p> 
+  <h4>Parameters</h4> 
+  <p>All parameters of the ls goal are described in the <a href="#commonparameters">Common Parameters</a> section.</p> 
+  <h4>Example</h4> 
+  <p>The following example lists the packages that are installed on the CQ server with the IP address 10.36.79.223. The goal is executed using the followng command:</p> 
+  <codeblock class="syntax shell">
+    mvn&amp;nbsp;content-package:ls 
+  </codeblock> 
+  <p>The following POM file is located in the current directory of the command line tool. The POM specifies the URL of the package service.</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;project&amp;nbsp;xmlns="http://maven.apache.org/POM/4.0.0"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;xsi:schemaLocation="http://maven.apache.org/POM/4.0.0&amp;nbsp;http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.example&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;example-package&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;build&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.jcr.vault&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;content-package-maven-plugin&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.24&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;targetURL&gt;http://10.36.79.223:4502/crx/packmgr/service.jsp&lt;/targetURL&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/build&gt;!!discoiqbr!!&lt;/project&gt; 
+  </codeblock> 
+  <h3>rm</h3> 
+  <p>Removes a package from Package Manager.</p> 
+  <p></p> 
+  <h4>Parameters</h4> 
+  <p>All parameters of the rm goal are described in the <a href="#commonparameters">Common Parameters</a> section.</p> 
+  <h4>Example</h4> 
+  <p>The following example removes the workfow-mbean package that is installed on the CQ server with the IP address 10.36.79.223. The goal is executed using the followng command:</p> 
+  <codeblock class="syntax shell">
+    mvn&amp;nbsp;content-package:rm 
+  </codeblock> 
+  <p>The following POM file is located in the current directory of the command line tool. The POM specifies the URL of the package service and the name of the package.</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;project&amp;nbsp;xmlns="http://maven.apache.org/POM/4.0.0"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;xsi:schemaLocation="http://maven.apache.org/POM/4.0.0&amp;nbsp;http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.example&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;example-package&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;build&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.jcr.vault&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;content-package-maven-plugin&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.24&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;name&gt;workflow-mbean&lt;/name&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;targetURL&gt;http://10.36.79.223:4502/crx/packmgr/service.jsp&lt;/targetURL&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/build&gt;!!discoiqbr!!&lt;/project&gt; 
+  </codeblock> 
+  <h3>uninstall</h3> 
+  <p>Uninstalls a package. The package remains on the server in the uninstalled state.</p> 
+  <p></p> 
+  <h4>Parameters</h4> 
+  <p>All parameters of the uninstall goal are described in the <a href="#commonparameters">Common Parameters</a> section.</p> 
+  <h4>Example</h4> 
+  <p>The following example uninstalls the workflow-mbean package that is installed on the CQ server with the IP address 10.36.79.223. The goal is executed using the followng command:</p> 
+  <codeblock class="syntax shell">
+    mvn&amp;nbsp;content-package:uninstall 
+  </codeblock> 
+  <p>The following POM file is located in the current directory of the command line tool. The POM specifies the package name and the URL of the package service.</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;project&amp;nbsp;xmlns="http://maven.apache.org/POM/4.0.0"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;xsi:schemaLocation="http://maven.apache.org/POM/4.0.0&amp;nbsp;http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.example&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;workflow-mbean&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.3-SNAPSHOT&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;build&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.jcr.vault&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;content-package-maven-plugin&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.24&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;name&gt;workflow-mbean&lt;/name&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;failOnError&gt;true&lt;/failOnError&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;targetURL&gt;http://10.36.79.223:4502/crx/packmgr/service.jsp&lt;/targetURL&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugin&gt;!!discoiqbr!!&amp;nbsp;&lt;/plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/build&gt;!!discoiqbr!!&lt;/project&gt; 
+  </codeblock> 
+  <h3>package</h3> 
+  <p>Creates a content package. The default configuration of the package goal includes the contents of the directory where compiled files are saved. The execution of the package goal requires that the compile build phase has completed. The package goal is bound to the package phase of the Maven build lifecycle.</p> 
+  <p></p> 
+  <h4>Parameters</h4> 
+  <p>In addition to the following parameters, see the description of the <span class="code">name</span> parameter in the <a href="#commonparameters">Common Parameters</a> section.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Name</th> 
+     <th>Type</th> 
+     <th>Required</th> 
+     <th>Default Value</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>archive</td> 
+     <td>org.apache.maven.<br /> archiver.<br /> MavenArchiveConfiguration</td> 
+     <td>No</td> 
+     <td></td> 
+     <td>The archive configuration to use. See <a href="http://maven.apache.org/shared/maven-archiver/index.html">the documentation for Maven Archiver</a>.</td> 
+    </tr> 
+    <tr> 
+     <td>builtContentDirectory</td> 
+     <td>java.io.File</td> 
+     <td>Yes</td> 
+     <td>The value of the output directory of the Maven build.</td> 
+     <td>The directory that contains the content to include in package.</td> 
+    </tr> 
+    <tr> 
+     <td>dependencies</td> 
+     <td>java.util.List</td> 
+     <td>No</td> 
+     <td></td> 
+     <td></td> 
+    </tr> 
+    <tr> 
+     <td>embeddedTarget</td> 
+     <td>java.lang.String</td> 
+     <td>No</td> 
+     <td></td> 
+     <td></td> 
+    </tr> 
+    <tr> 
+     <td>embeddeds</td> 
+     <td>java.util.List</td> 
+     <td>No</td> 
+     <td></td> 
+     <td></td> 
+    </tr> 
+    <tr> 
+     <td>failOnMissingEmbed</td> 
+     <td>boolean</td> 
+     <td>Yes</td> 
+     <td>false</td> 
+     <td>A value of true causes the build to fail when an embedded artifact is not found in the project dependencies. A value offalse causes the build to ignore the error.</td> 
+    </tr> 
+    <tr> 
+     <td>filterSource</td> 
+     <td>java.io.File</td> 
+     <td>No</td> 
+     <td></td> 
+     <td>A file that specifies the source of the workspace filter. The filters specified in the configuration and injected via emebeds or subpackages are merged with the file content.</td> 
+    </tr> 
+    <tr> 
+     <td>filters</td> 
+     <td>com.day.jcr.<br /> vault.maven.pack.impl.<br /> DefaultWorkspaceFilter</td> 
+     <td>No</td> 
+     <td></td> 
+     <td>Contains filter elements that define the package content. When executed, the filters are included in the filter.xml file. See the Using Filters section below.</td> 
+    </tr> 
+    <tr> 
+     <td>finalName</td> 
+     <td>java.lang.String</td> 
+     <td>Yes</td> 
+     <td>The finalName defined in the Maven project (build phase).</td> 
+     <td>The name of the generated package ZIP file, without the .zip file extension.</td> 
+    </tr> 
+    <tr> 
+     <td>group</td> 
+     <td>java.lang.String</td> 
+     <td>Yes</td> 
+     <td>The groupID defined in the Maven project.</td> 
+     <td>The groupId of the generated content package. This value is part of the target installation path for the content package.</td> 
+    </tr> 
+    <tr> 
+     <td>outputDirectory</td> 
+     <td>java.io.File</td> 
+     <td>Yes</td> 
+     <td>The build directory defined in the Maven project.</td> 
+     <td>The local directory where the content package is saved.</td> 
+    </tr> 
+    <tr> 
+     <td>prefix</td> 
+     <td>java.lang.String</td> 
+     <td>No</td> 
+     <td></td> 
+     <td></td> 
+    </tr> 
+    <tr> 
+     <td>project</td> 
+     <td>org.apache.maven.<br /> project.MavenProject</td> 
+     <td>Yes</td> 
+     <td></td> 
+     <td>The Maven project.</td> 
+    </tr> 
+    <tr> 
+     <td>properties</td> 
+     <td>java.util.Map</td> 
+     <td>No</td> 
+     <td></td> 
+     <td>Additional properties that you can set in the properties.xml file. These properties cannot overwrite the following predefined properties: 
+      <ul> 
+       <li>group: Use group parameter to set</li> 
+       <li>name: Use name parameter to set</li> 
+       <li>version: Use version parameter to set</li> 
+       <li>description: Set from the project description</li> 
+       <li>groupId: groupId of the Maven project descriptor</li> 
+       <li>artifactId: artifactId of the Maven project descriptor</li> 
+       <li>dependencies: Use dependencies parameter to set</li> 
+       <li>createdBy: The value of the user.name system property</li> 
+       <li>created: The current system time</li> 
+       <li>requiresRoot: Use requiresRoot parameter to set</li> 
+       <li>packagePath: Automatically generated from the group and package name</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>requiresRoot</td> 
+     <td>boolean</td> 
+     <td>Yes</td> 
+     <td>false</td> 
+     <td>Defines whether the package requires root. This will become the &lt;code&gt;requiresRoot&lt;/code&gt; property of the properties.xml file.</td> 
+    </tr> 
+    <tr> 
+     <td>subPackages</td> 
+     <td>java.util.List</td> 
+     <td>No</td> 
+     <td></td> 
+     <td></td> 
+    </tr> 
+    <tr> 
+     <td>version</td> 
+     <td>java.lang.String</td> 
+     <td>Yes</td> 
+     <td>The version defined in the Maven project</td> 
+     <td>The version of the content package.</td> 
+    </tr> 
+    <tr> 
+     <td>workDirectory</td> 
+     <td>java.io.File</td> 
+     <td>Yes</td> 
+     <td>The directory defined in the Maven project (build phase).</td> 
+     <td>The directory that contains the content to include in the package.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Using filters</h4> 
+  <p>Use the filters element to define the package content. The filters are added to the workspaceFilter element in the <span class="code">META-INF/vault/filter.xml</span> file of the package.</p> 
+  <p>The following filter example shows the XML structure to use:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;filter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;root&gt;/apps/myapp&lt;/root&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;mode&gt;merge&lt;/mode&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;includes&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;include&gt;/apps/myapp/install/&lt;/include&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;include&gt;/apps/myapp/components&lt;/include&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/includes&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;excludes&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;exclude&gt;/apps/myapp/config/*&lt;/exclude&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/excludes&gt;!!discoiqbr!!&lt;/filter&gt; 
+  </codeblock> 
+  <p><strong>Import mode</strong></p> 
+  <p>The <span class="code">mode</span> element defines how content is the repository is affected when the package is imported. The following values can be used:</p> 
+  <ul> 
+   <li><strong>Merge:</strong> Content in the package that is not already in the repository is added. Content that is in both the package and the repository is unchanged. No content is removed from the repository. </li> 
+   <li><strong>Replace:</strong> Content in the package that is not in the repository is added to the repository. Content in the repository is replaced with matching content in the package. Content is removed from the repository when it does not exist in the package.</li> 
+   <li><strong>Update:</strong> Content in the package that is not in the repository is added to the repository. Content in the repository is replaced with matching content in the package. Existing content gets removed from the repository. </li> 
+  </ul> 
+  <p>When the filter contains no <span class="code">mode</span> element, the default value of <span class="code">replace</span> is used. </p> 
+  <h4>Example</h4> 
+  <p>The following example creates a package that contains the workflow-mbean OSGi bundle. The POM file identifies the jcr_root directory as the value of the builtContentDirectory property. The jcr_root directory contains the bundle JAR file in the directory structure that mirrors the repository:</p> 
+  <p><span class="code">jcr_root/apps/myapp/install/workflow-mbean-0.03-SNAPSHOT.jar</span></p> 
+  <p><span class="code"></span>Because the goal is bound to the package build phase, the following command executes the package goal:</p> 
+  <codeblock class="syntax shell">
+    mvn&amp;nbsp;package 
+  </codeblock> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;project&amp;nbsp;xmlns="http://maven.apache.org/POM/4.0.0"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xsi:schemaLocation="http://maven.apache.org/POM/4.0.0&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.example.myapp&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;workflow-mbean&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.3-SNAPSHOT&lt;/version&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;build&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.jcr.vault&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;content-package-maven-plugin&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.24&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;builtContentDirectory&gt;jcr_root&lt;/builtContentDirectory&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;targetURL&gt;http://10.36.79.223:4502/crx/packmgr/service.jsp&lt;/targetURL&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;executions&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;execution&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;goals&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;goal&gt;package&lt;/goal&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/goals&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/execution&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/executions&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/build&gt;!!discoiqbr!!&lt;/project&gt; 
+  </codeblock> 
+  <p>Instead of expressing the <span class="code">package</span> goal in the plugin <span class="code">executions</span> section, you can use <span class="code">content-package</span> as the value of the project <span class="code">packaging</span> element:</p> 
+  <p></p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;project&amp;nbsp;xmlns="http://maven.apache.org/POM/4.0.0"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xsi:schemaLocation="http://maven.apache.org/POM/4.0.0&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.example.myapp&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;workflow-mbean&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.3-SNAPSHOT&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;packaging&gt;content-package&lt;/packaging&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;build&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.jcr.vault&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;content-package-maven-plugin&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.24&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;builtContentDirectory&gt;jcr_root&lt;/builtContentDirectory&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;targetURL&gt;http://10.36.79.223:4502/crx/packmgr/service.jsp&lt;/targetURL&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/build&gt;!!discoiqbr!!&lt;/project&gt; 
+  </codeblock> 
+  <h3>help</h3> 
+  <h4>Parameters</h4> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Name</th> 
+     <th>Type</th> 
+     <th>Required</th> 
+     <th>Default Value</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>detail</td> 
+     <td>boolean</td> 
+     <td>No</td> 
+     <td>false</td> 
+     <td>Determines whether to display all settable properties for each goal. A value of true displays all settable properties.</td> 
+    </tr> 
+    <tr> 
+     <td>goal</td> 
+     <td>String</td> 
+     <td>No</td> 
+     <td></td> 
+     <td>The name of the goal for which to show help. If no value is specified, help for all goals is displayed.</td> 
+    </tr> 
+    <tr> 
+     <td>indentSize</td> 
+     <td>int</td> 
+     <td>No</td> 
+     <td>2</td> 
+     <td>The number of spaces to use for the indentation of each level. If you specify a value, the value should be positive.</td> 
+    </tr> 
+    <tr> 
+     <td>lineLength</td> 
+     <td>int</td> 
+     <td>No</td> 
+     <td>80</td> 
+     <td>The maximum length of a display line. If you specify a value, the value should be positive.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Obtaining the Content Package Maven Plugin</h2> 
+  <p>The plugin is available from the public Adobe repository. To download the plugin, add the following Maven profile to your Maven settings file and activate it. When you use a Maven command, the plugin is downloaded to your local repository if needed.</p> 
+  <note> 
+   <p>The Adobe Public Releases repository is not browsable, so that navigating to the repository URL using your web browser results in a Not Found error. However, Maven is able to access the repository directories.</p> 
+  </note> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;profile&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;id&gt;adobe-public&lt;/id&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;activation&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;activeByDefault&gt;false&lt;/activeByDefault&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/activation&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;properties&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;releaseRepository-Id&gt;adobe-public-releases&lt;/releaseRepository-Id&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;releaseRepository-Name&gt;Adobe&amp;nbsp;Public&amp;nbsp;Releases&lt;/releaseRepository-Name&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;releaseRepository-URL&gt;https://repo.adobe.com/nexus/content/groups/public&lt;/releaseRepository-URL&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/properties&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;repositories&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;repository&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;id&gt;adobe-public-releases&lt;/id&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;name&gt;Adobe&amp;nbsp;Basel&amp;nbsp;Public&amp;nbsp;Repository&lt;/name&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;url&gt;https://repo.adobe.com/nexus/content/groups/public&lt;/url&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;releases&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;enabled&gt;true&lt;/enabled&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;updatePolicy&gt;never&lt;/updatePolicy&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/releases&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;snapshots&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;enabled&gt;false&lt;/enabled&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/snapshots&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/repository&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/repositories&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;pluginRepositories&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;pluginRepository&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;id&gt;adobe-public-releases&lt;/id&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;name&gt;Adobe&amp;nbsp;Basel&amp;nbsp;Public&amp;nbsp;Repository&lt;/name&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;url&gt;https://repo.adobe.com/nexus/content/groups/public&lt;/url&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;releases&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;enabled&gt;true&lt;/enabled&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;updatePolicy&gt;never&lt;/updatePolicy&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/releases&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;snapshots&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;enabled&gt;false&lt;/enabled&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/snapshots&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/pluginRepository&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/pluginRepositories&gt;!!discoiqbr!!&lt;/profile&gt; 
+  </codeblock> 
+  <h2>Embedding OSGi Bundles in a Content Package</h2> 
+  <p></p> 
+  <p class="p1"></p> 
+  <p class="p1">Use the Content Package Maven Plugin to embed OSGi bundles into the content package. To embed the bundle, implement the following configurations:</p> 
+  <ul> 
+   <li>The bundle must be declared as a dependency of the Maven project.</li> 
+   <li>The plugin configuration references the bundle using the desired path of the bundle in the package.</li> 
+  </ul> 
+  <p class="p1">The following example POM creates a package that contains the Apache Sling JCR UserManager bundle. In the package, the bundle JAR is located in the <span class="code">jcr_root/apps/myapp/install</span> folder:</p> 
+  <p></p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="UTF-8"?&gt;!!discoiqbr!!&lt;project&amp;nbsp;xmlns="http://maven.apache.org/POM/4.0.0"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xsi:schemaLocation="http://maven.apache.org/POM/4.0.0!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;http://maven.apache.org/maven-v4_0_0.xsd"&gt;!!discoiqbr!!&amp;nbsp;&lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.example.myapp&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&lt;artifactId&gt;embedded-example&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&lt;packaging&gt;content-package&lt;/packaging&gt;!!discoiqbr!!&amp;nbsp;&lt;version&gt;1.0.0-SNAPSHOT&lt;/version&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;build&gt;!!discoiqbr!!&amp;nbsp;&lt;plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugin&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.jcr.vault&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;content-package-maven-plugin&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;0.0.24&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;extensions&gt;true&lt;/extensions&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;filters&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;filter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;root&gt;/apps/myapp&lt;/root&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/filter&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/filters&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;embeddeds&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;embedded&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;org.apache.sling&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;org.apache.sling.jcr.jackrabbit.usermanager&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;target&gt;/apps/myproject/install&lt;/target&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/embedded&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/embeddeds&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/configuration&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/plugin&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/build&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dependencies&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;org.apache.sling&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;org.apache.sling.jcr.jackrabbit.usermanager&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;2.2.0&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dependencies&gt;&amp;nbsp;!!discoiqbr!!&lt;/project&gt;!!discoiqbr!! 
+  </codeblock> 
+  <h2>Including a Thumbnail Image or Properties File in the Package</h2> 
+  <p>Replace the default package configuration files to customize the package properties. For example, include a thumbnail image to distinguish the package in Package Manager and Package Share.</p> 
+  <p>In the package, FileVault-specific files are located in the /META-INF/vault folder. The source files can be located anywhere in your file system. In the POM file, define build resources to copy the source files to the target/vault-work/META-INF for inclusion in the package.</p> 
+  <p>The following POM code adds the files in the META-INF folder of the project source to the package:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;build&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;resources&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;vault&amp;nbsp;META-INF&amp;nbsp;resources&amp;nbsp;(thumbnail&amp;nbsp;etc.)&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;resource&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;directory&gt;${basedir}/src/main/content/META-INF&lt;/directory&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;targetPath&gt;../vault-work/META-INF&lt;/targetPath&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/resource&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/resources&gt;!!discoiqbr!!&lt;/build&gt; 
+  </codeblock> 
+  <p>The following POM code adds only a thumbnail image to the package. The thumbnail image must be named thumbnail.png, and must be located in the META-INF/vault/definition folder of the package. In this example, the source file is located in the /src/main/content/META-INF/vault/definition folder of the project:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;build&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;resources&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;thumbnail&amp;nbsp;only&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;resource&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;directory&gt;${basedir}/src/main/content/META-INF/vault/definition&lt;/directory&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;targetPath&gt;../vault-work/META-INF/vault/definition&lt;/targetPath&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/resource&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/resources&gt;!!discoiqbr!!&lt;/build&gt; 
+  </codeblock> 
+  <h2>Using Archetypes To Generate CQ Projects</h2> 
+  <p>Several Maven archetypes are available for generating CQ projects. Use the archetype that corresponds with your development goals:</p> 
+  <ul> 
+   <li>A content package that installs resources for a CQ application: <a href="#simplecontentpackagearchetype">simple-content-package-archetype</a></li> 
+   <li>A content package that includes third-party artifacts: <a href="#simplecontentpackagewithembeddedarchetype">simple-content-package-with-embedded-archetype</a>.</li> 
+   <li>A multi-module application that accomodates the development of Java classes and unit tests: <a href="#multimodulecontentpackagearchetype">multimodule-content-package-archetype</a>.</li> 
+  </ul> 
+  <note> 
+   <p>The Apache Sling project also offers archetypes useful in CQ development. These are documented at <a href="https://sling.apache.org/documentation/development/maven-archetypes.html">http://sling.apache.org/site/maven-archetypes.html</a>.</p> 
+  </note> 
+  <p>Each archetype generates the following items:</p> 
+  <ul> 
+   <li>The project folder structure.</li> 
+   <li>POM files.</li> 
+   <li>FileVault configuration files. </li> 
+  </ul> 
+  <p>Archetype artifacts are available from the Adobe public Maven repository. To download and execute an archetype, identify the archetype and the Adobe repository using the parameters of the Maven archetype:generate command:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    mvn&amp;nbsp;archetype:generate&amp;nbsp;-DarchetypeGroupId=com.day.jcr.vault&amp;nbsp;\!!discoiqbr!!-DarchetypeArtifactId={id_of_archetype}&amp;nbsp;-DarchetypeVersion=1.0.2&amp;nbsp;\!!discoiqbr!!-DarchetypeRepository=adobe-public-releases 
+  </codeblock> 
+  <p>The Maven archetype plugin uses interactive mode in the shell or command prompt to collect information about your project. The information that you provide is used to configure various project properties, such as folder names and artifact ID's.</p> 
+  <p><strong>POM files</strong></p> 
+  <p>The generated POM files include commands for compiling code, creating bundles, and deploying them to CQ in packages. The <span class="code">groupID</span>, <span class="code">artifactId</span>, <span class="code">version</span>, and <span class="code">name</span> properties of the Maven project are automatically populated using the values that you provide to the Maven <span class="code">archetype:generate</span> interactive prompt.</p> 
+  <p>You may want to change the the following default values in the generated pom.xml file:</p> 
+  <ul> 
+   <li>The CQ server name or IP address: The default value is <span class="code">localhost</span>. The<span class="code"> crx.host</span> element below <span class="code">project/properties</span> contains this value.</li> 
+   <li>The port number for the CQ server: The default value is <span class="code">4502</span>. The <span class="code">crx.port</span> element below <span class="code">project/properties</span> contains this value.</li> 
+   <li>The version of Content Package Maven Plugin: Use the latest version as the content of the <span class="code">version</span> element for the plugin with <span class="code">artifactId</span> of <span class="code">content-package-maven-plugin</span>. The default value is <span class="code">0.0.24</span>.</li> 
+  </ul> 
+  <p><strong>Using the archetypes</strong></p> 
+  <ol> 
+   <li>In a shell window or command prompt, enter the Maven <span class="code">archetype:generate</span> command. When prompted, provide values for the remaining parameters.<p>For information about each parameter, refer to the section for the archetype that you are using.</p> </li> 
+   <li>Use a text editor to open the pom.xml file and edit default values according to your requriements.</li> 
+   <li>Populate the generated folders with resources.</li> 
+   <li>Enter the <span class="code">mvn clean install</span> command. </li> 
+  </ol> 
+  <h3>simple-content-package-archetype</h3> 
+  <p>Creates a maven project that is suitable for installing resources for a simple CQ application. The folder structure is that used below the /apps folder of the CQ repository. The POM defines commands for packaging the resources that you place in the folders and installing the packages on the CQ server.</p> 
+  <p><strong>Archetype artifact properties:</strong></p> 
+  <ul> 
+   <li>Group ID: <span class="code">com.day.jcr.vault</span></li> 
+   <li>Artifact ID: <span class="code">simple-content-package-archetype</span></li> 
+   <li>Version: <span class="code">1.0.2</span></li> 
+   <li>Repository: <span class="code">adobe-public-releases</span></li> 
+  </ul> 
+  <p><strong>Maven command:</strong></p> 
+  <codeblock gutter="true" class="syntax shell">
+    mvn&amp;nbsp;archetype:generate&amp;nbsp;-DarchetypeGroupId=com.day.jcr.vault&amp;nbsp;\!!discoiqbr!!-DarchetypeArtifactId=simple-content-package-archetype&amp;nbsp;\!!discoiqbr!!-DarchetypeVersion=1.0.2&amp;nbsp;\!!discoiqbr!!-DarchetypeRepository=adobe-public-releases 
+  </codeblock> 
+  <p><strong>Archetype parameters:</strong></p> 
+  <ul> 
+   <li>groupId: The groupId of the content package that Maven generates. The value is autoatically used in the POM file. </li> 
+   <li>artifactId: The name of the content package. The value is also used as the name of the project folder.</li> 
+   <li>version: The version of the content package.</li> 
+   <li>package: This value is not used for simple-content-package-archetype.</li> 
+   <li>appsFolderName: The name of the folder below /apps. </li> 
+   <li>artifactName: The description of the content package. </li> 
+   <li>packageGroup: The name of the content package group. This value configures the group parameter for the Package goal of the Content Package Maven Plugin.</li> 
+  </ul> 
+  <p><strong>Folder structure:</strong></p> 
+  <p></p> 
+  <codeblock class="syntax xml">
+    ${artifactId}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;pom.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;README.txt!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;src!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;main!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;content!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;jcr_root!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;apps!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;${appsFolderName}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;components&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;.content.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;config!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;install!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;META-INF!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;vault!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;config.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;filter.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;nodetypes.cnd!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;properties.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;definition!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;.content.xml 
+  </codeblock> 
+  <h3>simple-content-package-with-embedded-archetype</h3> 
+  <p>Performs the same tasks as the simple-content-package-archetype, and also downloads and includes an artifact from a public Maven repository. </p> 
+  <p><strong>Archetype bundle properties:</strong></p> 
+  <ul> 
+   <li>Group ID: <span class="code">com.day.jcr.vault</span></li> 
+   <li>Artifact ID: <span class="code">simple-content-package-with-embedded-archetype</span></li> 
+   <li>Version: <span class="code">1.0.2</span></li> 
+   <li>Repository: <span class="code">adobe-public-releases</span></li> 
+  </ul> 
+  <p><strong>Maven command:</strong></p> 
+  <codeblock gutter="true" class="syntax shell">
+    mvn&amp;nbsp;archetype:generate&amp;nbsp;-DarchetypeGroupId=com.day.jcr.vault&amp;nbsp;\!!discoiqbr!!-DarchetypeArtifactId=simple-content-package-with-embedded-archetype&amp;nbsp;\!!discoiqbr!!-DarchetypeVersion=1.0.2&amp;nbsp;\!!discoiqbr!!-DarchetypeRepository=adobe-public-releases 
+  </codeblock> 
+  <p><strong>Archetype parameters:</strong></p> 
+  <ul> 
+   <li>groupId: The groupId of the content package that Maven generates. The value is autoatically used in the POM file. </li> 
+   <li>artifactId: The name of the content package. The value is also used as the name of the project folder.</li> 
+   <li>version: The version of the content package.</li> 
+   <li>package: This parameter is not used.</li> 
+   <li>appsFolderName: The name of the folder below /apps. </li> 
+   <li>artifactName: The description of the content package. </li> 
+   <li>embeddedArtifactId: The ID of the artifact to embed in the content package.</li> 
+   <li>embeddedGroupId: The group ID of the artifact to embed.</li> 
+   <li>embeddedVersion: The version of the artifact to embed.</li> 
+   <li>packageGroup: The name of the content package group. This value configures the group parameter for the Package goal of the Content Package Maven Plugin.</li> 
+  </ul> 
+  <p><strong>Folder structure:</strong></p> 
+  <p></p> 
+  <codeblock class="syntax xml">
+    ${artifactId}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;pom.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;README.txt!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;src!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;main!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;content!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;jcr_root!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;apps!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;${appsFolderName}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;components&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;config!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;install!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;META-INF!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;vault!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;config.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;filter.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;nodetypes.cnd!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;properties.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;definition 
+  </codeblock> 
+  <h3>multimodule-content-package-archetype</h3> 
+  <p>Creates a maven project that includes the folder structure for developing a CQ application and installing resources to the server.</p> 
+  <p>The <span class="code">bundle</span> folder contains the folder structure that stores the Java and JUnit source files that you develop. The pom.xml file in this folder creates the OSGi bundle. The following values in the POM identify the artifact and the bundle:</p> 
+  <ul> 
+   <li>artifactID: <span class="code">${artifactID}-bundle</span>. </li> 
+   <li>Bundle-SymbolicName: <span class="code">${groupId}.${artifactId}-bundle</span>.</li> 
+  </ul> 
+  <p><span class="code">${artifactID}</span> and <span class="code">${groupId}</span> are the values that you provide for these parameters when executing the archetypes.</p> 
+  <p>The <span class="code">content</span> folder contains the resources that are installed to the CQ server. The value of artifactID is <span class="code"> ${artifactID}multimodule-bundle</span>. </p> 
+  <p>The parent folder contains the parent POM that manages Maven plugins and dependencies. </p> 
+  <p><strong>Archetype bundle properties:</strong></p> 
+  <ul> 
+   <li>Group ID: <span class="code">com.day.jcr.vault</span></li> 
+   <li>Artifact ID: <span class="code">multimodule-content-package-archetype</span></li> 
+   <li>Version: <span class="code">1.0.2</span></li> 
+   <li>Repository: <span class="code">adobe-public-releases</span></li> 
+  </ul> 
+  <p><strong>Maven command:</strong></p> 
+  <codeblock gutter="true" class="syntax shell">
+    mvn&amp;nbsp;archetype:generate&amp;nbsp;-DarchetypeGroupId=com.day.jcr.vault&amp;nbsp;\!!discoiqbr!!-DarchetypeArtifactId=multimodule-content-package-archetype&amp;nbsp;\!!discoiqbr!!-DarchetypeVersion=1.0.2&amp;nbsp;\!!discoiqbr!!-DarchetypeRepository=adobe-public-releases 
+  </codeblock> 
+  <p><strong>Archetype parameters:</strong></p> 
+  <ul> 
+   <li>groupId: The groupId of the content package that Maven generates. The value is autoatically used in the POM file. </li> 
+   <li>artifactId: The name of the content package. The value is also used as the name of the project folder.</li> 
+   <li>version: The version of the content package.</li> 
+   <li>package: This value is not used for multimodule-content-package-archetype.</li> 
+   <li>appsFolderName: The name of the folder below /apps. </li> 
+   <li>artifactName: The description of the content package. </li> 
+   <li>packageGroup: The name of the content package group. This value configures the group parameter for the Package goal of the Content Package Maven Plugin.</li> 
+  </ul> 
+  <p><strong>Folder structure:</strong></p> 
+  <p></p> 
+  <codeblock class="syntax xml">
+    ${artifactId}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;pom.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;bundle!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;pom.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;src!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;main!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;java!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;${groupId}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;SimpleDSComponent.java!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;test!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;java!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;${groupId}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;SimpleUnitTest.java!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;content!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;pom.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;src!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;main!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;content!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;jcr_root!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;apps!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;${appsFolderName}&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;config!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;install!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;META-INF!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;vault!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;config.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;filter.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;nodetypes.cnd!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;properties.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;definition!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;.content.xml 
+  </codeblock> 
+ </body> 
+</html>

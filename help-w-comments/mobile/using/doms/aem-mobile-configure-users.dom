@@ -1,0 +1,115 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-05-04T05:12:30.544-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="2018-05-04T05:12:30.392-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-05-04T05:12:30.392-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-31T16:26:39.248-0400" name="firstPublishExternalDate" /> 
+  <meta content="Configure Your Users and User Groups" name="jcr:title" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-12-13T19:01:20.967-0500" name="jcr:created" /> 
+  <meta content="c210087c-9095-455f-a6b6-bdbed1cd4f32" name="jcr:predecessors" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/administering-on-demand-services-app;/content/help/en/experience-manager/6-4/mobile/morehelp/administering-on-demand-services-app" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-05-11T10:01:14.780-0400" name="cq:lastModified" /> 
+  <meta content="2018-05-04T05:12:30.392-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="cd093988-fd22-4f3e-a932-5e5b68e2e7ca" name="jcr:uuid" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/aem-mobile-configure-users.html" name="publishExternalURL" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/mobile-apps/aem-mobile/configure-your-users-and-user-groups" name="qaNotes" /> 
+  <meta content="2018-05-11T10:01:14.780-0400" name="locHandOffDate" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:administering-on-demand-services-app" name="cq:tags" /> 
+  <meta content="Follow this page to understand the user roles and how to configure your users and groups to support the authoring and mangement of your mobile On-Demand services app." name="seoDescription" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Configure Your Users and User Groups" name="seoTitle" /> 
+  <meta content="Configure Your Users and User Groups" name="navTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>This chapter describes the user roles and how to configure your users and groups to support the authoring and mangement of your mobile apps.</p> 
+  <h2>AEM Mobile Application Users and Group Administration</h2> 
+  <h3>AEM Mobile Application Content Authors (app-author group)</h3> 
+  <p>Members of the app-author group are responsible for authoring AEM mobile application content including, pages, text, images and videos.</p> 
+  <h4>Group configuration - app-authors</h4> 
+  <ol> 
+   <li><p>Create a new user group called, 'app-authors':</p> <p>Navigate to the User Admin Console: <a href="http://localhost:4502/libs/granite/security/content/groupadmin.html">http://localhost:4502/libs/granite/security/content/groupadmin.html</a></p> <p>From within the user group console, select the '+' button to create a the group.</p> <p>Set the ID of this group to 'app-authors' to denote that it is a specific type of author user group specific to authoring mobile applications within AEM.</p> </li> 
+   <li><p>Add member to group: Authors</p> <img captionBottom="Add app-authors to the Authors group" imageRotate="0" src="assets/chlimage_1-183.png" /></li> 
+   <li><p>Now that you have created the app-authors User Group, you can add individual team members to this new group through the <a href="/libs/granite/security/content/useradmin">User Admin console</a>.</p> <img captionBottom="Edit user groups" imageRotate="0" src="assets/chlimage_1-184.png" /></li> 
+   <li><p>The following allows you to add to AEM's Content Authors Group:</p> <p>(Read) on</p> 
+    <ul> 
+     <li>/app</li> 
+     <li>/etc/clientlibs</li> 
+     <li>/etc/designs</li> 
+     <li>/etc/cloudservices/dps2015</li> 
+    </ul> </li> 
+  </ol> 
+  <h3>AEM Mobile Application Administrators Group (app-admins group)</h3> 
+  <p>Members of the app-admins group can author application content with the same permissions included with app-authors <strong>AND </strong>in addition are also responsible for:</p> 
+  <ul> 
+   <li>Staging, publishing and clearing application ContentSync OTA updates</li> 
+  </ul> 
+  <p> </p> 
+  <note> 
+   <p>Permissions determine availability of some user actions in the AEM App Command Center.</p> 
+   <p>You'll notice some options are not available for app-authors that are available for app-admins.</p> 
+  </note> 
+  <h3>Group configuration - app-admins</h3> 
+  <ol> 
+   <li><p>Create a new group called app-admins.</p> </li> 
+   <li><p>Add the following groups to your new app-admins group:</p> 
+    <ul> 
+     <li>content-authors</li> 
+     <li>workflow-users</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-185.png" /> 
+    <note> 
+     <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">workflow-users are required to remote build with PhoneGap Build service</p> 
+    </note></li> 
+   <li><p>Navigate to the <a href="http://localhost:4502/useradmin">Permissions console</a> and add permissions to administer cloudservices</p> 
+    <ul> 
+     <li>(Read, Modify, Create, Delete, Replicate) on /etc/cloudservices/mobileservices</li> 
+    </ul> </li> 
+   <li><p>On the same Permissions console, add permissions to stage, publish and clear app content updates;</p> 
+    <ul> 
+     <li>(Read, Modify, Create, Delete, Replicate) on /etc/packages/mobileapp</li> 
+     <li>(Read) on /var/contentsync</li> 
+    </ul> 
+    <note> 
+     <p>Package replication is used to publish app updates from author instance to publish instance</p> 
+    </note> 
+    <note> 
+     <p>/var/contentsync access is denied OOTB. </p> 
+     <p>Omitting the READ permission can result in empty update packages being built and replicated.</p> 
+    </note></li> 
+   <li><p>Add members to this group as needed</p> </li> 
+   <li><p>To Export Content or Upload</p> 
+    <ul> 
+     <li>(Read) on /etc/contentsync to to access export templates</li> 
+     <li>(Read) on /var to for path traversal on reads</li> 
+     <li>(Read, Write, Modify, Delete) on /var/contentsync to write, read, and cleanup ContentSync cached export content </li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Additional Resources</h3> 
+  <p>To understand more on the other two roles and responsibilities for creating an AEM Mobile On-Demand Services App, see the following resources:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/aem-mobile-on-demand.md">Developing AEM Content for AEM Mobile On-Demand Services</a></li> 
+   <li><a href="../../mobile/using/mobile-apps-ondemand.md">Authoring AEM Content for AEM Mobile On-Demand Services App</a></li> 
+  </ul> 
+ </body> 
+</html>

@@ -1,0 +1,228 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Configuring Email Notification" name="seoTitle" /> 
+  <meta content="2018-10-17T08:57:53.783-0400" name="locHandOffDate" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:operations;content_type:reference" name="cq:tags" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/notification.html" name="publishExternalURL" /> 
+  <meta content="2018-10-17T08:57:53.784-0400" name="cq:lastModified" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="asgupta" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/operations/notification" name="qaNotes" /> 
+  <meta content="asgupta" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-10-10T10:18:02.225-0400" name="lastPublishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-10-10T10:18:02.459-0400" name="cq:lastReplicated" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="2017-10-31T16:24:37.464-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Configuring Email Notification" name="navTitle" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2017-12-01T19:04:56.791-0500" name="jcr:created" /> 
+  <meta content="2018-10-10T10:18:02.225-0400" name="publishExternalDate" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations;/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations" name="moreHelpPaths" /> 
+  <meta content="2018-10-10T10:18:02.225-0400" name="topicBrowsingSortDate" /> 
+  <meta content="d20cd58a-57a3-430e-abb6-8b14cb3f19cf" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="359cbab1-a22f-45a2-afed-75c168b74859" name="jcr:uuid" /> 
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Learn how to configure Email Notification in AEM." name="seoDescription" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Configuring Email Notification" name="jcr:title" /> 
+ </head> 
+ <body> 
+  <p>AEM sends email notifications to users who:</p> 
+  <ul> 
+   <li>Have subscribed to page events, for example modification or replication. The <a href="../../../sites/classic-ui-authoring/using/author-env-inbox.md#subscribingtonotifications">Notification Inbox</a> section describes how to subscribe to such events.<br /> </li> 
+   <li>Have subscribed to forum events.</li> 
+   <li>Have to perform a step in a workflow. The <a href="../../../sites/developing/using/workflows-step-ref.md#participantstep">Participant Step</a> section describes how to trigger email notification in a workflow.</li> 
+  </ul> 
+  <p>Pre-requisites:</p> 
+  <ul> 
+   <li>The user(s) needs to have a valid email address defined in his profile.</li> 
+   <li>The <strong>Day CQ Mail Service</strong> needs to be properly configured.</li> 
+  </ul> 
+  <p>When a user is notified, he receives an email in the language that is defined in his profile. Each language has its own template that can be customized. New email templates can be added for new languages.</p> 
+  <note> 
+   <p>When working with AEM there are several methods of managing the configuration settings for such services; see <a href="../../../sites/deploying/using/configuring-osgi.md">Configuring OSGi</a> for more details and the recommended practices.</p> 
+  </note> 
+  <h2>Configuring the Mail Service</h2> 
+  <p>For AEM to be able to send emails, the <strong>Day CQ Mail Service</strong> needs to be properly configured. You can view the configuration in the Web console. When working with AEM there are several methods of managing the configuration settings for such services; see <a href="../../../sites/deploying/using/configuring-osgi.md">Configuring OSGi</a> for more details and the recommended practices.</p> 
+  <p>The following constraints apply:<br /> </p> 
+  <ul> 
+   <li>The <strong>SMTP server port</strong> must be 25 or higher.<br /> </li> 
+   <li>The <strong>SMTP server host name</strong> must not be blank.</li> 
+   <li>The <strong>"From" address</strong> must not be blank.<br /> </li> 
+  </ul> 
+  <p>To help you debug an issue with the <strong>Day CQ Mail Service</strong>, you can watch the logs of the service:</p> 
+  <p><span class="code">com.day.cq.mailer.DefaultMailService</span><br /> </p> 
+  <p>The configuration looks as follows in the Web console:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-339.png" /> 
+  <h2>Configuring the Email Notification Channel</h2> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:01:05.357-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>As part of https://jira.corp.adobe.com/browse/CQDOC-9878</p> 
+   <p>Have checked the Web Console and <strong>Day CQ Email Notification Channel</strong> seems to have been replaced by <strong>Notification Email Channel</strong>.</p> 
+  </draft-comment> 
+  <p>When you subscribe to either page or forum events notifications, the from-email address is set to <span class="code">no-reply@acme.com</span> per default. You can change this value by configuring the <strong>Notification Email Channel</strong> service in the Web Console.</p> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:01:05.386-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>are the following (manual) steps still required? and/or recommended? if so, what's the specific scenario?</p> 
+  </draft-comment> 
+  <p>To configure the from-email address, add a <span class="code">sling:OsgiConfig</span> node to the repository. Use the following procedure to add the node directly using CRXDE Lite:</p> 
+  <ol> 
+   <li>In CRXDE Lite, add a folder named <span class="code">config</span> below your application folder.</li> 
+   <li>In the config folder, add a node named:<br /> <span class="code">com.day.cq.wcm.notification.email.impl.EmailChannel</span> of type <span class="code">sling:OsgiConfig</span></li> 
+   <li>Add a <span class="code">String</span> property to the node] named <span class="code">email.from</span>. For the value, specify the email address that you want to use.</li> 
+   <li>Click <strong>Save All</strong>.</li> 
+  </ol> 
+  <p>Use the following procedure to define the node in your content package source folders:</p> 
+  <ol> 
+   <li>In your <span class="code">jcr_root/apps/<i>app_name</i>/config folder</span>, create a file named <span class="code">com.day.cq.wcm.notification.email.impl.EmailChannel.xml</span> </li> 
+   <li>Add the following XML to represent the node: </li> 
+   <li>Replace the value of the <span class="code">email.from</span> attribute (<span class="code">name@server.com</span>) with your email address.</li> 
+   <li>Save the file.</li> 
+  </ol> 
+  <h2>Configuring the Workflow Email Notification Service</h2> 
+  <p>When you receive workflow email notifications, both the from-email address and the host URL prefix are set to default values. You can change these values by configuring the <strong>Day CQ Workflow Email Notification Service</strong> in the Web Console. If you do so, it is recommended to persist the change in the repository.</p> 
+  <p>The default configuration looks as follows in the Web Console:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-340.png" /> 
+  <h3>Email Templates for Page Notification</h3> 
+  <p>Email templates for page notifications are located below:</p> 
+  <p style="margin-left: 40px;"><span class="code">/etc/notification/email/default/com.day.cq.wcm.core.page</span><br /> </p> 
+  <p>The default English template (<span class="code">en.txt</span>) is defined as follows:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    subject=[CQ&amp;nbsp;Page&amp;nbsp;Event&amp;nbsp;Notification]:&amp;nbsp;Page&amp;nbsp;Event!!discoiqbr!!!!discoiqbr!!header=-------------------------------------------------------------------------------------\n&amp;nbsp;\!!discoiqbr!!Time:&amp;nbsp;${time}\n&amp;nbsp;\!!discoiqbr!!User:&amp;nbsp;${userFullName}&amp;nbsp;(${userId})\n&amp;nbsp;\!!discoiqbr!!-------------------------------------------------------------------------------------\n\n!!discoiqbr!!!!discoiqbr!!message=The&amp;nbsp;following&amp;nbsp;pages&amp;nbsp;were&amp;nbsp;affected&amp;nbsp;by&amp;nbsp;the&amp;nbsp;event:&amp;nbsp;\n&amp;nbsp;\!!discoiqbr!!&amp;nbsp;\n&amp;nbsp;\!!discoiqbr!!${modifications}&amp;nbsp;\n&amp;nbsp;\!!discoiqbr!!&amp;nbsp;\n\n!!discoiqbr!!footer=\n&amp;nbsp;\!!discoiqbr!!-------------------------------------------------------------------------------------\n&amp;nbsp;\!!discoiqbr!!This&amp;nbsp;is&amp;nbsp;an&amp;nbsp;automatically&amp;nbsp;generated&amp;nbsp;message.&amp;nbsp;Please&amp;nbsp;do&amp;nbsp;not&amp;nbsp;reply. 
+  </codeblock> 
+  <h4>Customizing Email Templates for Page Notification</h4> 
+  <p>To customize the English email template for page notification:<br /> </p> 
+  <ol> 
+   <li>In CRXDE, open the file:<br /> <span class="code">/etc/notification/email/default/com.day.cq.wcm.core.page/en.txt</span></li> 
+   <li>Modify the file to your needs.</li> 
+   <li>Save the changes.</li> 
+  </ol> 
+  <p>The template needs to have the following format:</p> 
+  <p style="margin-left: 40px;"><code class="code">subject=&amp;lt;text_1&amp;gt;
+    <discoiqbr /> header=&amp;lt;text_2&amp;gt;
+    <discoiqbr /> message=&amp;lt;text_3&amp;gt;
+    <discoiqbr /> footer=&amp;lt;text_4&amp;gt;</code></p> 
+  <p>Where &amp;lt;text_x&amp;gt; can be a mix of static text and dynamic string variables. The following variables can be used within the email template for page notifications:</p> 
+  <ul> 
+   <li><span class="code">${time}</span>, the event date and time.<br /> </li> 
+   <li><span class="code">${userFullName}</span>, the full name of the user who triggered the event.<br /> </li> 
+   <li><span class="code">${userId}</span>, the ID of the user who triggered the event.</li> 
+   <li><span class="code">${modifications}</span>, describes the type of the page event and the page path in the format:<br /> &amp;lt;page event type&amp;gt; =&amp;gt; &amp;lt;page path&amp;gt;<br /> For example:<br /> PageModified =&amp;gt; /content/geometrixx/en/products</li> 
+  </ul> 
+  <h3>Email Templates for Forum Notification</h3> 
+  <p>Email templates for forum notifications are located under:</p> 
+  <p style="margin-left: 40px;"><span class="code">/etc/notification/email/default/com.day.cq.collab.forum</span><br /> </p> 
+  <p>The default English template (<span class="code">en.txt</span>) is defined as follows:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    subject=[CQ&amp;nbsp;Forum&amp;nbsp;Notification]!!discoiqbr!!!!discoiqbr!!header=-------------------------------------------------------------------------------------\n&amp;nbsp;\!!discoiqbr!!Time:&amp;nbsp;Time:&amp;nbsp;${time}\n&amp;nbsp;\!!discoiqbr!!Forum&amp;nbsp;Page&amp;nbsp;Path:&amp;nbsp;${forum.path}\n&amp;nbsp;\!!discoiqbr!!-------------------------------------------------------------------------------------\n\n!!discoiqbr!!!!discoiqbr!!message=Page:&amp;nbsp;${host.prefix}${forum.path}.html\n!!discoiqbr!!!!discoiqbr!!footer=\n&amp;nbsp;\!!discoiqbr!!-------------------------------------------------------------------------------------\n&amp;nbsp;\!!discoiqbr!!This&amp;nbsp;is&amp;nbsp;an&amp;nbsp;automatically&amp;nbsp;generated&amp;nbsp;message.&amp;nbsp;Please&amp;nbsp;do&amp;nbsp;not&amp;nbsp;reply.!!discoiqbr!!!!discoiqbr!! 
+  </codeblock> 
+  <h4>Customizing Email Templates for Forum Notification</h4> 
+  <p>To customize the English email template for forum notification:<br /> </p> 
+  <ol> 
+   <li>In CRXDE, open the file:<br /> <span class="code">/etc/notification/email/default/com.day.cq.collab.forum/en.txt</span></li> 
+   <li>Modify the file to your needs.</li> 
+   <li>Save the changes.</li> 
+  </ol> 
+  <p>The template needs to have the following format:</p> 
+  <p style="margin-left: 40px;"><code class="code">subject=&amp;lt;text_1&amp;gt;
+    <discoiqbr /> header=&amp;lt;text_2&amp;gt;
+    <discoiqbr /> message=&amp;lt;text_3&amp;gt;
+    <discoiqbr /> footer=&amp;lt;text_4&amp;gt;</code></p> 
+  <p>Where <span class="code">&amp;lt;text_x&amp;gt;</span> can be a mix of static text and dynamic string variables.</p> 
+  <p>The following variables can be used within the email template for forum notifications:</p> 
+  <ul> 
+   <li><span class="code">${time}</span>, the event date and time.<br /> </li> 
+   <li><span class="code">${forum.path}</span>, the path to the forum page.<br /> </li> 
+  </ul> 
+  <h3>Email Templates for Workflow Notification</h3> 
+  <p>The email template for workflow notifications (English) is located at:</p> 
+  <p style="margin-left: 40px;"><span class="code">/etc/workflow/notification/email/default/en.txt</span><br /> </p> 
+  <p>It is defined as follows:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    subject=Workflow&amp;nbsp;notification:&amp;nbsp;${event.EventType}!!discoiqbr!!!!discoiqbr!!header=-------------------------------------------------------------------------------------\n&amp;nbsp;\!!discoiqbr!!Time:&amp;nbsp;${event.TimeStamp}\n&amp;nbsp;\!!discoiqbr!!Step:&amp;nbsp;${item.node.title}\n&amp;nbsp;\!!discoiqbr!!User:&amp;nbsp;${participant.name}&amp;nbsp;(${participant.id})\n&amp;nbsp;\!!discoiqbr!!Workflow:&amp;nbsp;${model.title}\n&amp;nbsp;\!!discoiqbr!!-------------------------------------------------------------------------------------\n\n!!discoiqbr!!!!discoiqbr!!message=Content:&amp;nbsp;${host.prefix}${payload.path.open}\n!!discoiqbr!!!!discoiqbr!!footer=\n&amp;nbsp;\!!discoiqbr!!-------------------------------------------------------------------------------------\n&amp;nbsp;\!!discoiqbr!!View&amp;nbsp;the&amp;nbsp;overview&amp;nbsp;in&amp;nbsp;your&amp;nbsp;${host.prefix}/aem/inbox\n&amp;nbsp;\!!discoiqbr!!-------------------------------------------------------------------------------------\n&amp;nbsp;\!!discoiqbr!!This&amp;nbsp;is&amp;nbsp;an&amp;nbsp;automatically&amp;nbsp;generated&amp;nbsp;message.&amp;nbsp;Please&amp;nbsp;do&amp;nbsp;not&amp;nbsp;reply. 
+  </codeblock> 
+  <h4>Customizing Email Templates for Workflow Notification</h4> 
+  <p>To customize the English email template for workflow event notification:<br /> </p> 
+  <ol> 
+   <li>In CRXDE, open the file:<br /> <span class="code">/etc/workflow/notification/email/default/en.txt</span></li> 
+   <li>Modify the file to your needs.</li> 
+   <li>Save the changes.</li> 
+  </ol> 
+  <p>The template needs to have the following format:</p> 
+  <p style="margin-left: 40px;"><code class="code">subject=&amp;lt;text_1&amp;gt;
+    <discoiqbr /> header=&amp;lt;text_2&amp;gt;
+    <discoiqbr /> message=&amp;lt;text_3&amp;gt;
+    <discoiqbr /> footer=&amp;lt;text_4&amp;gt;</code></p> 
+  <note> 
+   <p>Where <span class="code">&amp;lt;text_x&amp;gt;</span> can be a mix of static text and dynamic string variables. Each line of an <span class="code">&amp;lt;text_x&amp;gt;</span> item needs to be ended with a backslash (<span class="code">\</span>), except for the last instance, when the absence of the backslash indicates the end of the <span class="code">&amp;lt;text_x&amp;gt;</span> string variable.</p> 
+   <p>More information about the template format can be found in the <a href="http://docs.oracle.com/javase/8/docs/api/java/util/Properties.html#load-java.io.InputStream-">javadocs of the Properties.load()</a> method.</p> 
+  </note> 
+  <p>The method <span class="code">${payload.path.open}</span> reveals the path to the payload of the workitem. For example, for a page in Sites then then <span class="code">payload.path.open</span> would be similar to <span class="code">/bin/wcmcommand?cmd=open&amp;path=…</span>.; this is without the server name, which is why the template prepends this with <span class="code">${host.prefix}</span>.</p> 
+  <p>The following variables can be used within the email template:</p> 
+  <ul> 
+   <li><span class="code">${event.EventType}</span>, type of the event</li> 
+   <li><span class="code">${event.TimeStamp}</span>, date and time of the event</li> 
+   <li><span class="code">${event.User}</span>, the user who triggered the event</li> 
+   <li><span class="code">${initiator.home}</span>, the initiator node path<br /> </li> 
+   <li><span class="code">${initiator.name}</span>, the initiator name<br /> </li> 
+   <li><span class="code">${initiator.email}</span>, email address of the initiator</li> 
+   <li><span class="code">${item.id}</span>, the id of the work item</li> 
+   <li><span class="code">${item.node.id}</span>, id of the node in the workflow model associated with this workitem</li> 
+   <li><span class="code">${item.node.title}</span>, title of the work item</li> 
+   <li><span class="code">${participant.email}</span>, email address of the participant</li> 
+   <li><span class="code">${participant.name}</span>, name of the participant</li> 
+   <li><span class="code">${participant.familyName}</span>, family name of the participant</li> 
+   <li><span class="code">${participant.id}</span>, id of the participant</li> 
+   <li><span class="code">${participant.language}</span>, the participant language</li> 
+   <li><span class="code">${instance.id}</span>, the workflow id</li> 
+   <li><span class="code">${instance.state}</span>, the workflow state</li> 
+   <li><span class="code">${model.title}</span>, title of the workflow model</li> 
+   <li><span class="code">${model.id}</span>, the id of the workflow model<br /> </li> 
+   <li><span class="code">${model.version}</span>, the version of the workflow model</li> 
+   <li><span class="code">${payload.data}</span>, the payload<br /> </li> 
+   <li><span class="code">${payload.type}</span>, the payload type</li> 
+   <li><span class="code">${payload.path}</span>, path of the payload</li> 
+   <li><span class="code">${host.prefix}</span>, host prefix, e.g.: http://localhost:4502</li> 
+  </ul> 
+  <h3>Adding an Email Template for a New Language</h3> 
+  <p>To add a template for a new language:</p> 
+  <ol> 
+   <li>In CRXDE, add a file <span class="code">&amp;lt;language-code&amp;gt;.txt</span> below:<br /> 
+    <ul> 
+     <li><span class="code">/etc/notification/email/default/com.day.cq.wcm.core.page</span> : for page notifications<br /> </li> 
+     <li><span class="code">/etc/notification/email/default/com.day.cq.collab.forum</span> : for forum notifications</li> 
+     <li><span class="code">/etc/workflow/notification/email/default</span> : for workflow notifications</li> 
+    </ul> </li> 
+   <li>Adapt the file to the language.</li> 
+   <li>Save the changes.</li> 
+  </ol> 
+  <note> 
+   <p>The <span class="code">&amp;lt;language-code&amp;gt;</span> used as the filename for the email template needs to be a two-letters lower-case language code that is recognized by AEM. For language codes, AEM relies on ISO-639-1.<br /> </p> 
+  </note> 
+  <h2 id="assetsconfig">Configuring AEM Assets email notifications</h2> 
+  <draft-comment color="yellow" lastModifiedBy="asgupta" lastModifiedDate="2018-10-10T09:04:33.170-0400" prevFirstName="Ashish" prevLastName="Gupta ." type="remark"> 
+   <p>asgupta, 10/10/18: I am adding a fix for CQDOC-13344 here in this article, alongside the other email notification settings, so as to keep all email notification settings consolidated in a single article. Also, I'm backlinking it from the Managing Collections page.</p> 
+   <p>I see a few email configurations required for Assets' workflows to work. Over time, as and when the need arises, these will be consolidated in this section. Hence, the title is generic.</p> 
+  </draft-comment> 
+  <p>When Collections in AEM Assets are shared or unshared, users can receive email notifications from AEM. To configure email notifications, follow these steps.</p> 
+  <ol> 
+   <li><p>Configure the email service, as described above in <a href="../../../sites/administering/using/notification.md#configuringthemailservice">Configuring the Mail Service</a>.</p> </li> 
+   <li><p>Log into AEM as an administrator. Click <strong>Tools </strong>&amp;gt; <strong>Operations </strong>&amp;gt; <strong>Web Console</strong> to open Web Console Configuration.</p> </li> 
+   <li><p>Edit <strong>Day CQ DAM Resource Collection Servlet</strong>. Select <strong>send email</strong>. Click <strong>Save</strong>.</p> </li> 
+  </ol> 
+ </body> 
+</html>

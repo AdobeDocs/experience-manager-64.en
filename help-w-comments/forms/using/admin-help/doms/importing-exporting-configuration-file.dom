@@ -1,0 +1,71 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-31T16:32:12.443-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_user_management;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="237" name="acrolinxWords" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2016-02-05T03:27:25.688-0500" name="lr_lastModified" /> 
+  <meta content="191cfac5-abf1-485c-91da-f9fd60912462" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="9bfe4286-bbb9-489e-8735-30c59f1ac7bb" name="jcr:predecessors" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="Importing and exporting the configuration file" name="jcr:title" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/importing_exporting_configuration_file_admin_5e12de0b318c6865_2331_report.xml" name="acrolinxReportURL" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7fd0.2" name="cq:gepId" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2017-12-01T19:05:09.872-0500" name="jcr:created" /> 
+  <meta content="Learn how to import and export the configuration file in order to edit server preferences or configure another AEM forms product instance." name="seoDescription" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2017-10-31T16:32:12.443-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2016-05-31T07:01:38.287-0400" name="acrolinxDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-03T09:10:13.557-0400" name="cq:lastReplicated" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/importing-exporting-configuration-file.html" name="publishExternalURL" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="15" name="acrolinxSentences" /> 
+  <meta content="Importing and exporting the configuration&amp;#xA;file" name="navTitle" /> 
+  <meta content="2016-04-20T10:05:36.361-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-26T04:23:27.836-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-26T04:23:27.836-0400" name="cq:lastModified" /> 
+ </head> 
+ <body> 
+  <p>Use the Manual Configuration page to download a copy of the configuration settings in XML format. The settings in this file control all server preferences. You can then edit the file and upload it back to the server. You can also use the file to configure another AEM forms product instance.</p> 
+  <p>To avoid security risks, the bind password value for the directory server is not included in an exported configuration file. Update the password in the XML file before you import the file to a new system.</p> 
+  <note> 
+   <p>Importing the configuration file reconfigures AEM forms based on the information in the file. Only a system administrator or a professional services consultant who is familiar with the AEM forms product and XML should consider modifying the configuration file. They may need to edit the configuration file, for example, to reconfigure a corrupted setting.</p> 
+  </note> 
+  <p><strong>Export the configuration information</strong></p> 
+  <ol> 
+   <li><p>In Administration Console, click Settings &amp;gt; User Management &amp;gt; Configuration &amp;gt; Import And Export Configuration Files.</p></li> 
+   <li><p>Click Export. If you are using Microsoft Internet Explorer, you are prompted to specify a location to save the file. If you are using Firefox, the file is saved on your desktop. </p></li> 
+  </ol> 
+  <p><strong>Import the configuration information</strong></p> 
+  <ol> 
+   <li><p>In Administration Console, click Settings &amp;gt; User Management &amp;gt; Configuration &amp;gt; Import And Export Configuration Files.</p></li> 
+   <li><p>Click Browse to find the configuration file, click Import, and then click OK.</p></li> 
+  </ol> 
+ </body> 
+</html>

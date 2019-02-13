@@ -1,0 +1,232 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-08-09T03:29:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-03T06:52:27.095-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-08-09T03:29:00.000-0400" name="sortDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="2017-11-21T06:59:48.629-0500" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="a2fb4a5d-b122-46cb-8184-a8873afcbb0e" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="c5ab9a53-d88a-4400-bf4d-4413cc5a23b1" name="jcr:uuid" /> 
+  <meta content="2017-08-09T03:29:45.446-0400" name="lr_lastModified" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2017-10-03T06:52:27.095-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Rendering HTML Forms with CustomToolbars" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-04-03T08:33:06.379-0400" name="cq:lastReplicated" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/rendering_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="2017-11-22T19:06:35.800-0500" name="jcr:created" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Rendering HTML Forms with Custom&amp;#xA;Toolbars Rendering HTML Forms with Custom&amp;#xA;Toolbars Rendering HTML Forms with Custom&amp;#xA;Toolbars" name="navTitle" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e31.2,AEMForms/6.1/ProgramLC/WS72b24a1e23d980d744e6dfd315a1c677a85-8000,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6a3f86e41336a352aef-7ffb.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-79ec.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-79eb.2" name="cq:gepId" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/rendering-html-forms-custom-toolbars.html" name="publishExternalURL" /> 
+  <meta content="2017-10-03T06:52:27.095-0400" name="firstPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <h2 id="rendering_html_forms_with_custom_toolbars">Rendering HTML Forms with Custom Toolbars</h2> 
+  <p></p> 
+  <p>The Forms service lets you customize a toolbar that is rendered with an HTML form. A toolbar can be customized to alter its appearance by overriding default CSS styles and to add dynamic behavior by overriding Java scripts. A toolbar is customized by using an XML file named fscmenu.xml. By default, the Forms service retrieves this file from an internally specified URI location.</p> 
+  <note> 
+   <p>This URI location is located in the adobe-forms-core.jar file, which is located in the adobe-forms-dsc.jar file. The adobe-forms-dsc.jar file is located in C:\Adobe\Adobe_Experience_Manager_forms\ folder (C:\ is the installation directory). You can use a file extraction tool, such as Win RAR, to open the adobe.</p> 
+  </note> 
+  <p>You can copy the fscmenu.xml from this location, modify it to meet your requirements, and then place it in a custom URI location. Next, using the Forms Service API, set run-time options that result in the Forms service using your fscmenu.xml file from the specified location. These actions result in the Forms service rendering an HTML form that has a custom toolbar.</p> 
+  <p>In addition to the fscmenu.xml file, you also need to obtain the following files:</p> 
+  <ul> 
+   <li><p>fscmenu.js</p></li> 
+   <li><p>fscattachments.js</p></li> 
+   <li><p>fscmenu.css</p></li> 
+   <li><p>fscmenu-v.css</p></li> 
+   <li><p>fscmenu-ie.css</p></li> 
+   <li><p>fscdialog.css</p></li> 
+  </ul> 
+  <p>fscJS is the Java script that is associated with each node. It is necessary to supply one for the <span class="code">div#fscmenu</span> node and optionally for <span class="code">ul#fscmenuItem</span> nodes. The JS files implement core toolbar functionality and the default files work.</p> 
+  <p>fscCSS is a style sheet that is associated with a particular node. The styles in the CSS files specify the toolbar appearance. <i>fscVCSS</i> is a style sheet for a vertical toolbar, which is displayed on the left of the rendered HTML form. <i>fscIECSS</i> is a style sheet used for HTML forms that are rendered in Internet Explorer.</p> 
+  <p>Ensure that all the above files are referenced in the fscmenu.xml file. That is, in the fscmenu.xml file, specify URI locations to point to these files so that the Forms service can locate them. By default, these files are available at URI locations starting with internal keywords <span class="code">FSWebRoot</span> or <span class="code">ApplicationWebRoot</span>. </p> 
+  <p>To customize the toolbar, replace the keywords by using the external keyword <span class="code">FSToolBarURI</span>. This keyword represents the URI that is passed to the Forms service at run time (this approach is shown later in this section). </p> 
+  <p>You can also specify the absolute locations of these JS and CSS files, such as http://www.mycompany.com/scripts/misc/fscmenu.js. In this situation, you do not need to use the <span class="code">FSToolBarURI</span> keyword.</p> 
+  <note> 
+   <p>It is not recommended that you mix the ways in which these files are referenced. That is, all URIs should be referenced by using either the <span class="code">FSToolBarURI</span> keyword or an absolute location.</p> 
+  </note> 
+  <p>You can obtain the JS and CSS files by opening the adobe-forms-&amp;lt;appserver&amp;gt;.ear file. Within this file, open the adobe-forms-res.war. All of these files are located in the WAR file. The adobe-forms-&amp;lt;appserver&amp;gt;.ear file is located in the AEM forms installation folder (C:\ is the installation directory). You can open the adobe-forms-&amp;lt;appserver&amp;gt;.ear using a file extraction tool such as WinRAR. </p> 
+  <p>The following XML syntax shows an example fscmenu.xml file.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     &lt;div&amp;nbsp;id="fscmenu"&amp;nbsp;fscJS="FSToolBarURI/scripts/fscmenu.js"&amp;nbsp;fscCSS="FSToolBarURI/fscmenu.css"&amp;nbsp;fscVCSS="FSToolBarURI/fscmenu-v.css"&amp;nbsp;fscIECSS="FSToolBarURI/fscmenu-ie.css"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ul&amp;nbsp;class="fscmenuItem"&amp;nbsp;id="Home"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="#"&amp;nbsp;fscTarget="_top"&amp;nbsp;tabindex="1"&gt;Home&lt;/a&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ul&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ul&amp;nbsp;class="fscmenuItem"&amp;nbsp;id="Upload"&amp;nbsp;fscJS="FSToolBarURI/scripts/fscattachments.js"&amp;nbsp;fscCSS="FSToolBarURI/fscdialog.css"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;tabindex="2"&gt;Upload&amp;nbsp;Attachments&lt;/a&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ul&amp;nbsp;class="fscmenuPopup"&amp;nbsp;id="fscUploadAttachments"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="javascript:doUploadDialog();"&amp;nbsp;tabindex="3"&gt;Add&amp;nbsp;...&lt;/a&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="javascript:doDeleteDialog();"&amp;nbsp;tabindex="4"&gt;Delete&amp;nbsp;...&lt;/a&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ul&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ul&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ul&amp;nbsp;class="fscmenuItem"&amp;nbsp;id="Download"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;tabindex="100"&gt;Download&amp;nbsp;Attachments&lt;/a&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ul&amp;nbsp;class="fscmenuPopup"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;tabindex="101"&gt;None&amp;nbsp;available&lt;/a&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ul&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ul&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt; 
+  </codeblock> 
+  <note> 
+   <p>The bold text represents the URIs to the CSS and JS files that must be referenced.</p> 
+  </note> 
+  <p>The following items describe how you can customize a toolbar:</p> 
+  <ul> 
+   <li><p>Change the values of <span class="code">fscJS</span>, <span class="code">fscCSS</span>, <span class="code">fscVCSS</span>, <span class="code">fscIECSS</span> attributes (in the fscmenu.xml file) to reflect the custom locations of the referenced files by using one of the methods that are described in this section (for example, <span class="code">fscJS="FSToolBarURI/scripts/fscmenu.js"</span>).</p></li> 
+   <li><p>All the CSS and JS files must be specified. If none of the files are modified, provide the default one at the custom location. You can obtain the default files by opening various files as described in this section.</p></li> 
+   <li><p>Providing an absolute reference (for example, http://www.example.com/scripts/custom-vertical-fscmenu.css) for any file is allowed.</p></li> 
+   <li><p>The JS and CSS files that the <span class="code">div#fscmenu</span> node requires are essential for toolbar functionality. Individual <span class="code">ul#fscmenuItem</span> nodes may or may not have supporting JS or CSS files.</p></li> 
+  </ul> 
+  <p><strong>Changing the local value</strong></p> 
+  <p>As part of customizing a toolbar, you can change the locale value of the toolbar. That is, you can display it in another language. The following illustration shows a custom toolbar that is displayed in French.</p> 
+  <img alt="" src="lc_re_render_forms_custom_toolbar_rf.xml" /> 
+  <note> 
+   <p>It is not possible to create a custom toolbar in more than one language. Toolbars cannot use different XML files based on the locale settings.</p> 
+  </note> 
+  <p>To change the locale value of a toolbar, ensure that the fscmenu.xml file contains the language you want to display. The following XML syntax shows the fscmenu.xml file that is used to display a French toolbar.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     &lt;div&amp;nbsp;id="fscmenu"&amp;nbsp;fscJS="FSToolBarURI/scripts/fscmenu.js"&amp;nbsp;fscCSS="FSToolBarURI/fscmenu.css"&amp;nbsp;fscVCSS="FSToolBarURI/fscmenu-v.css"&amp;nbsp;fscIECSS="FSToolBarURI/fscmenu-ie.css"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ul&amp;nbsp;class="fscmenuItem"&amp;nbsp;id="Home"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="#"&amp;nbsp;fscTarget="_top"&amp;nbsp;tabindex="1"&gt;Accueil&lt;/a&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ul&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ul&amp;nbsp;class="fscmenuItem"&amp;nbsp;id="Upload"&amp;nbsp;fscJS="FSToolBarURI/scripts/fscattachments.js"&amp;nbsp;fscCSS="FSToolBarURI/fscdialog.css"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;tabindex="2"&gt;Télécharger&amp;nbsp;les&amp;nbsp;pièces&amp;nbsp;jointes&lt;/a&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ul&amp;nbsp;class="fscmenuPopup"&amp;nbsp;id="fscUploadAttachments"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="javascript:doUploadDialog();"&amp;nbsp;tabindex="3"&gt;Ajouter...&lt;/a&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="javascript:doDeleteDialog();"&amp;nbsp;tabindex="4"&gt;Supprimer...&lt;/a&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ul&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ul&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ul&amp;nbsp;class="fscmenuItem"&amp;nbsp;id="Download"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;tabindex="100"&gt;Télécharger&amp;nbsp;les&amp;nbsp;pièces&amp;nbsp;jointes&lt;/a&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ul&amp;nbsp;class="fscmenuPopup"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;tabindex="101"&gt;Aucune&amp;nbsp;disponible&lt;/a&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ul&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ul&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt; 
+  </codeblock> 
+  <note> 
+   <p>The Quick Starts that are associated with this section use this XML file to display a French custom toolbar, as shown in the previous illustration. </p> 
+  </note> 
+  <p>Also, specify a valid locale value by invoking the <span class="code">HTMLRenderSpec</span> object’s <span class="code">setLocale</span> method and passing a string value that specifies the locale value. For example, pass <span class="code">fr_FR</span> to specify French. The Forms service is bundled with localized toolbars. </p> 
+  <note> 
+   <p>Before you render an HTML form that uses a custom toolbar, you must know how HTML forms are rendered. (See <a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms#rendering_forms_as_html">Rendering Forms as HTML</a>.) </p> 
+  </note> 
+  <p>For more information about the Forms service, see<a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>. </p> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To render an HTML form that contains a custom toolbar, perform these tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a Forms Java API object. </p></li> 
+   <li><p>Reference a custom fscmenu XML file.</p></li> 
+   <li><p>Render an HTML form.</p></li> 
+   <li><p>Write the form data stream to the client web browser.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, include the proxy files.</p> 
+  <p><strong>Create a Forms Java API object</strong></p> 
+  <p>Before you can programmatically perform an operation that the Forms service supports, you must create a Forms client object.</p> 
+  <p><strong>Reference a custom fscmenu XML file</strong></p> 
+  <p>To render an HTML form that contains a custom toolbar, reference a fscmenu XML file that describes the toolbar. (This section provides two examples of a fscmenu XML file.) Also, ensure that the fscmenu.xml file specifies the locations of all referenced files correctly. As mentioned earlier in this section, ensure that all files are referenced by either the <span class="code">FSToolBarURI</span> keyword or their absolute locations. </p> 
+  <p><strong>Render an HTML form</strong></p> 
+  <p>To render an HTML form, specify a form design that was created in Designer and saved as an XDP file. Also select an HTML transformation type. For example, you can specify the HTML transformation type that renders a dynamic HTML for Internet Explorer 5.0 or later. </p> 
+  <p>Rendering an HTML form also requires values, such as URI values for rendering other form types. </p> 
+  <p><strong>Write the form data stream to the client web browser</strong></p> 
+  <p>When the Forms service renders an HTML form, it returns a form data stream that you must write to the client web browser to make the HTML form visible to users.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars rendering-html-forms-custom-toolbars#render_an_html_form_with_a_custom_toolbar_using_the_java_api">Render an HTML Form with a custom toolbar using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars rendering-html-forms-custom-toolbars#rendering_an_html_form_with_a_custom_toolbar_using_the_web_service_api">Rendering an HTML Form with a custom toolbar using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2">Forms Service API Quick Starts</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering#rendering_interactive_pdf_forms">Rendering Interactive PDF Forms</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms#rendering_forms_as_html">Rendering Forms as HTML</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms#creating_web_applications_that_renders_forms">Creating Web Applications that Renders Forms</a></p> 
+  <h3 id="render_an_html_form_with_a_custom_toolbar_using_the_java_api">Render an HTML Form with a custom toolbar using the Java API</h3> 
+  <p></p> 
+  <p>Render an HTML Form that contains a custom toolbar by using the Forms Service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files, such as adobe-forms-client.jar, in your Java project’s class path. </p></li> 
+   <li><p>Create a Forms Java API object </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+     <li><p>Create a <span class="code">FormsServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object.</p></li> 
+    </ul></li> 
+   <li><p>Reference a custom fscmenu XML file </p> 
+    <ul> 
+     <li><p>Create an <span class="code">HTMLRenderSpec</span> object by using its constructor. </p></li> 
+     <li><p>To render an HTML form with a toolbar, invoke the <span class="code">HTMLRenderSpec</span> object’s <span class="code">setHTMLToolbar</span> method and pass an <span class="code">HTMLToolbar</span> enum value. For example, to display a vertical HTML toolbar, pass <span class="code">HTMLToolbar.Vertical</span>.</p></li> 
+     <li><p>Specify the location of the fscmenu XML file by invoking the <span class="code">HTMLRenderSpec</span> object’s <span class="code">setToolbarURI</span> method and passing a string value that specifies the URI location of the XML file.</p></li> 
+     <li><p>If applicable, set the locale value by invoking the <span class="code">HTMLRenderSpec</span> object’s <span class="code">setLocale</span> method and passing a string value that specifies the locale value. The default value is English. </p></li> 
+    </ul> 
+    <note> 
+     <p>The Quick Starts that are associated with this section sets this value to <span class="code">fr_FR</span><i>.</i></p> 
+    </note></li> 
+   <li><p>Render an HTML form </p><p>Invoke the <span class="code">FormsServiceClient</span> object’s <span class="code">renderHTMLForm</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A string value that specifies the form design name, including the file name extension. If you reference a form design that is part of a Forms application, ensure that you specify the complete path, such as <span class="code">Applications/FormsApplication/1.0/FormsFolder/Loan.xdp</span>.</p></li> 
+     <li><p>A <span class="code">TransformTo</span> enum value that specifies the HTML preference type. For example, to render an HTML form that is compatible with dynamic HTML for Internet Explorer 5.0 or later, specify <span class="code">TransformTo.MSDHTML</span>. </p></li> 
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that contains data to merge with the form. If you do not want to merge data, pass an empty <span class="code">com.adobe.idp.Document</span> object. </p></li> 
+     <li><p>The <span class="code">HTMLRenderSpec</span> object that stores HTML run-time options. </p></li> 
+     <li><p>A string value that specifies the <span class="code">HTTP_USER_AGENT</span> header value, such as <span class="code">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)</span>.</p></li> 
+     <li><p>A <span class="code">URLSpec</span> object that stores URI values that are required to render an HTML form. </p></li> 
+     <li><p>A <span class="code">java.util.HashMap</span> object that stores file attachments. This is an optional parameter, and you can specify <span class="code">null</span> if you do not want to attach files to the form. </p></li> 
+    </ul><p>The <span class="code">renderHTMLForm</span> method returns a <span class="code">FormsResult</span> object that contains a form data stream that must be written to the client web browser.</p></li> 
+   <li><p>Write the form data stream to the client web browser </p> 
+    <ul> 
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by invoking the <span class="code">FormsResult</span> object ‘s <span class="code">getOutputContent</span> method.</p></li> 
+     <li><p>Get the content type of the <span class="code">com.adobe.idp.Document</span> object by invoking its <span class="code">getContentType</span> method.</p></li> 
+     <li><p>Set the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s content type by invoking its <span class="code">setContentType</span> method and passing the content type of the <span class="code">com.adobe.idp.Document</span> object.</p></li> 
+     <li><p>Create a <span class="code">javax.servlet.ServletOutputStream</span> object that is used to write the form data stream to the client web browser by invoking the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">getOutputStream</span> method.</p></li> 
+     <li><p>Create a <span class="code">java.io.InputStream</span> object by invoking the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">getInputStream</span> method. </p></li> 
+     <li><p>Create a byte array and populate it with the form data stream by invoking the <span class="code">InputStream</span> object’s <span class="code">read</span> method and passing the byte array as an argument. </p></li> 
+     <li><p>Invoke the <span class="code">javax.servlet.ServletOutputStream</span> object’s <span class="code">write</span> method to send the form data stream to the client web browser. Pass the byte array to the <span class="code">write</span> method.</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars#rendering_html_forms_with_custom_toolbars">Rendering HTML Forms with Custom Toolbars</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e33.2">Quick Start (SOAP mode): Rendering an HTML Form with a custom toolbar using the Java API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p> 
+  <h3 id="rendering_an_html_form_with_a_custom_toolbar_using_the_web_service_api">Rendering an HTML Form with a custom toolbar using the web service API</h3> 
+  <p></p> 
+  <p>Render an HTML form that contains a custom toolbar by using the Forms Service API (web service):</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create Java proxy classes that consume the Forms service WSDL.</p></li> 
+     <li><p>Include the Java proxy classes in your class path. </p></li> 
+    </ul></li> 
+   <li><p>Create a Forms Java API object </p><p>Create a <span class="code">FormsService</span> object and set authentication values. </p></li> 
+   <li><p>Reference a custom fscmenu XML file </p> 
+    <ul> 
+     <li><p>Create an <span class="code">HTMLRenderSpec</span> object by using its constructor. </p></li> 
+     <li><p>To render an HTML form with a toolbar, invoke the <span class="code">HTMLRenderSpec</span> object’s <span class="code">setHTMLToolbar</span> method and pass an <span class="code">HTMLToolbar</span> enum value. For example, to display a vertical HTML toolbar, pass <span class="code">HTMLToolbar.Vertical</span>. </p></li> 
+     <li><p>Specify the location of the fscmenu XML file by invoking the <span class="code">HTMLRenderSpec</span> object’s <span class="code">setToolbarURI</span> method and passing a string value that specifies the URI location of the XML file. </p></li> 
+     <li><p>If applicable, set the locale value by invoking the <span class="code">HTMLRenderSpec</span> object’s <span class="code">setLocale</span> method and passing a string value that specifies the locale value. The default value is English. </p></li> 
+    </ul> 
+    <note> 
+     <p>The Quick Starts that are associated with this section sets this value to <span class="code">fr_FR</span><i>.</i></p> 
+    </note></li> 
+   <li><p>Render an HTML form </p><p>Invoke the <span class="code">FormsService</span> object’s <span class="code">renderHTMLForm</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A string value that specifies the form design name, including the file name extension. If you reference a form design that is part of a Forms application, ensure that you specify the complete path, such as <span class="code">Applications/FormsApplication/1.0/FormsFolder/Loan.xdp</span>.</p></li> 
+     <li><p>A <span class="code">TransformTo</span> enum value that specifies the HTML preference type. For example, to render an HTML form that is compatible with dynamic HTML for Internet Explorer 5.0 or later, specify <span class="code">TransformTo.MSDHTML</span>. </p></li> 
+     <li><p>A <span class="code">BLOB</span> object that contains data to merge with the form. If you do not want to merge data, pass <span class="code">null</span>. </p></li> 
+     <li><p>The <span class="code">HTMLRenderSpec</span> object that stores HTML run-time options. </p></li> 
+     <li><p>A string value that specifies the <span class="code">HTTP_USER_AGENT</span> header value, such as <span class="code">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322</span>). You can pass an empty string if you do not want to set this value. </p></li> 
+     <li><p>A <span class="code">URLSpec</span> object that stores URI values that are required to render an HTML form.</p></li> 
+     <li><p>A <span class="code">java.util.HashMap</span> object that stores file attachments. This parameter is optional, and you can specify <span class="code">null</span> if you do not intend to attach files to the form.</p></li> 
+     <li><p>An empty <span class="code">com.adobe.idp.services.holders.BLOBHolder</span> object that is populated by the <span class="code">renderHTMLForm</span> method. This parameter value stores the rendered form. </p></li> 
+     <li><p>An empty <span class="code">com.adobe.idp.services.holders.BLOBHolder</span> object that is populated by the <span class="code">renderHTMLForm</span> method. This parameter stores the output XML data. </p></li> 
+     <li><p>An empty <span class="code">javax.xml.rpc.holders.LongHolder</span> object that is populated by the <span class="code">renderHTMLForm</span> method. This argument stores the number of pages in the form.</p></li> 
+     <li><p>An empty <span class="code">javax.xml.rpc.holders.StringHolder</span> object that is populated by the <span class="code">renderHTMLForm</span> method. This argument stores the locale value.</p></li> 
+     <li><p>An empty <span class="code">javax.xml.rpc.holders.StringHolder</span> object that is populated by the <span class="code">renderHTMLForm</span> method. This argument stores the HTML rendering value that is used.</p></li> 
+     <li><p>An empty <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object that will contain the results of this operation.</p></li> 
+    </ul><p>The <span class="code">renderHTMLForm</span> method populates the <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object that is passed as the last argument value with a form data stream that must be written to the client web browser.</p></li> 
+   <li><p>Write the form data stream to the client web browser </p> 
+    <ul> 
+     <li><p>Create a <span class="code">FormResult</span> object by getting the value of the <span class="code">com.adobe.idp.services.holders.FormsResultHolder</span> object’s <span class="code">value</span> data member. </p></li> 
+     <li><p>Create a <span class="code">BLOB</span> object that contains form data by invoking the <span class="code">FormsResult</span> object’s <span class="code">getOutputContent</span> method.</p></li> 
+     <li><p>Get the content type of the <span class="code">BLOB</span> object by invoking its <span class="code">getContentType</span> method.</p></li> 
+     <li><p>Set the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s content type by invoking its <span class="code">setContentType</span> method and passing the content type of the <span class="code">BLOB</span> object.</p></li> 
+     <li><p>Create a <span class="code">javax.servlet.ServletOutputStream</span> object that is used to write the form data stream to the client web browser by invoking the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">getOutputStream</span> method.</p></li> 
+     <li><p>Create a byte array and populate it by invoking the <span class="code">BLOB</span> object’s <span class="code">getBinaryData</span> method. This task assigns the content of the <span class="code">FormsResult</span> object to the byte array. </p></li> 
+     <li><p>Invoke the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">write</span> method to send the form data stream to the client web browser. Pass the byte array to the <span class="code">write</span> method. </p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars#rendering_html_forms_with_custom_toolbars">Rendering HTML Forms with Custom Toolbars</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e2f.2">Quick Start (Base64): Rendering an HTML Form with a custom toolbar using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2">Invoking AEM Forms using Base64 encoding</a></p> 
+ </body> 
+</html>

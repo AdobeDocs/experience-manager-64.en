@@ -1,0 +1,61 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="3" name="acrolinxSentences" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2016-02-05T03:27:23.843-0500" name="lr_lastModified" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/enabling_online_commenting_reader_web_admin_5e12de0b318c6865_2319_report.xml" name="acrolinxReportURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2016-05-31T06:59:47.167-0400" name="acrolinxDate" />
+  <meta content="left" name="sideColumn" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="2016-04-20T10:05:21.245-0400" name="firstPublishExternalDate" />
+  <meta content="video" name="pageLayout" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2017-12-01T19:03:57.889-0500" name="jcr:created" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="2018-04-26T04:23:44.273-0400" name="locHandOffDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/enabling-online-commenting-reader-web.html" name="publishExternalURL" />
+  <meta content="2017-10-31T16:32:15.276-0400" name="publishExternalDate" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Enabling online commenting for Adobe Reader web browser plug-in" name="jcr:title" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e8d.2" name="cq:gepId" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="Enabling online commenting for&amp;#xA;Adobe Reader web browser plug-in" name="navTitle" />
+  <meta content="2f036e19-18d1-4e93-82a5-2c25f3e13c61" name="jcr:predecessors" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="f3491c32-c6de-4a36-8b2e-7eeeb909f7f3" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-04-26T04:23:44.274-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-10-31T16:32:15.276-0400" name="lastPublishExternalDate" />
+  <meta content="111" name="acrolinxWords" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="Learn how to enable online commenting for Adobe Reader web browser plug-in." name="seoDescription" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-03T09:10:06.957-0400" name="cq:lastReplicated" />
+ </head>
+ <body>
+  <draft-comment type="remark">
+   <p>Bug 1649828:</p>
+  </draft-comment>
+  <p>To enable the Comment and Markup toolbar in a PDF file that is viewed by using the Adobe Reader web browser plug-in, a collaboration back end must be in place, such as a review server. If a collaboration back end is not available, you must save the PDF file to your computer, review and mark up the file in Adobe Reader, and send it back to the originator.</p>
+  <p>If online commenting is required in a non-collaborative environment, contact Adobe Support for more information.</p>
+ </body>
+</html>

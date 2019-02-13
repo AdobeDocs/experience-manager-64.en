@@ -1,0 +1,72 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="45883f8e-cff2-4fe7-9b7c-fb5f678aaa11" name="jcr:predecessors" />
+  <meta content="2018-10-27T23:47:28.139-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/dialog-editor.html" name="publishExternalURL" />
+  <meta content="2018-05-08T12:42:57.898-0400" name="locHandOffDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Dialog Editor" name="jcr:title" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-10-31T16:16:50.319-0400" name="firstPublishExternalDate" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="The dialog editor provides a graphical interface for easily creating and editing dialog boxes and scaffolds" name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-10-31T16:16:50.319-0400" name="publishExternalDate" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools;/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools" name="moreHelpPaths" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2017-10-31T16:16:50.319-0400" name="lastPublishExternalDate" />
+  <meta content="Dialog Editor" name="navTitle" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="2018-05-08T12:42:57.900-0400" name="cq:lastModified" />
+  <meta content="2017-12-01T19:05:28.234-0500" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="/content/docs/en/aem/6-3/develop/dev-tools/dialog-editor" name="qaNotes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="2017-10-31T16:16:50.319-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:development-tools;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="4fd20095-1dec-4ed9-a27c-8f0b16c3b3b3" name="jcr:uuid" />
+  <meta content="Dialog Editor" name="seoTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>The dialog editor provides a graphical interface for easily creating and editing dialog boxes and scaffolds.</p> 
+  <p>To see how it works, go to CRXDE Lite, open the explorer tree to <span class="code">/libs/foundation/components/chart</span> and double click on the node <span class="code">dialog</span>:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-269.png" />
+  <p>The dialog node will open in the <strong>dialog editor</strong>:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-01at25033pm.png" />
+  <h3>User Interface Overview</h3>
+  <p>The dialog editor interface is composed of four panes:</p> 
+  <ul> 
+   <li>The <strong>palette</strong>, in the top left corner. This pane holds the widgets available for building a dialog box, such as tab panels, text fields, selection lists and buttons. You can expand the different categories within the palette by clicking on the desired divider bar.</li> 
+   <li>The <strong>structure</strong> pane, in the bottom left corner. This pane shows the hierarchical structure of nodes that makes up the dialog definition. You can see the same structure by expanding the dialog node in either CRXDE Lite or CRX Content Explorer.</li> 
+   <li>The <strong>render</strong> pane, in the center of the window. This pane shows how the dialog definition defined in the structure pane will be rendered as an actual dialog box.</li> 
+   <li>The <strong>properties</strong> pane. This pane shows the properties of the node currently highlighted in the structure pane.</li> 
+  </ul> 
+  <h3>Using the Dialog Editor</h3>
+  <p>To build a dialog box, the user drags and drops elements from the palette to the structure pane into position within the dialog definition hierarchy.</p> 
+  <p>Once the desired structure is completed, the user clicks <strong>Save</strong>, at the top of the render pane.</p> 
+  <note>
+   <p>Note that the dialog editor is intended for the creation is relatively simple dialogs and may not be able to edit more complex dialog definitions. In cases where the dialog editor does not allow the editing of a dialog structure, the dialog definition must be created and/or edited manually by directly editing the node structure using for example, CRXDE Lite or CRX Content Explorer.</p> 
+  </note>
+  <h3>Creating a New Dialog</h3>
+  <p>To create a new dialog box you need to select the required component, click <strong>Create...</strong> and then <strong>Create Dialog...</strong>.</p> 
+  <p>Enter the required details then click <strong>Save All</strong> - now you can double-click on the dialog to open it with the editor.<br /> </p> 
+  <h3>Using the Dialog Editor for Scaffolds</h3>
+  <p>A scaffold is a special page containing a form that can be filled in and submitted in one step. This allows you to rapidly create a page using the content entered. </p> 
+  <p>The form that makes up a scaffold is defined by a dialog definition, just like a normal dialog, though it appears on the scaffolding page in a different form. Because dialog definitions are used to define scaffolds, scaffolds can be designed using the dialog editor. Note that when using the dialog editor in this fashion, the render pane will still display the the dialog definition in the form of a dialog box not as a scaffold. </p> 
+  <p>See <a href="../../../sites/authoring/using/scaffolding.md#main-pars-title-0">Scaffolding</a> for more information on using the dialog editor to create scaffolds.</p> 
+ </body>
+</html>

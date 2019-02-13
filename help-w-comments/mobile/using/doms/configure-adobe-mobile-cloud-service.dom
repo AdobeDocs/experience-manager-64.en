@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-05-11T10:01:21.043-0400" name="cq:lastModified" />
+  <meta content="2018-05-04T05:12:36.480-0400" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:administering-adobe-phonegap-enterprise" name="cq:tags" />
+  <meta content="/content/docs/en/aem/6-3/administer/mobile-apps/phonegap/configure-your-adobe-mobile-services-cloud-service" name="qaNotes" />
+  <meta content="2018-05-04T05:12:36.480-0400" name="topicBrowsingSortDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="d076ae54-b623-4dda-969d-09ca7a3f43e2" name="jcr:uuid" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/configure-adobe-mobile-cloud-service.html" name="publishExternalURL" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="1b783cc1-a74d-480f-8cca-378c055cbb1c" name="jcr:predecessors" />
+  <meta content="2018-05-04T05:12:36.480-0400" name="publishExternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/administering-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/administering-adobe-phonegap-enterprise" name="moreHelpPaths" />
+  <meta content="/content/docs/en/aem/6-1/develop/mobile-apps/apps/managing-aem-mobile-apps/configure-your-adobe-phonegap-build-cloud-service1" name="legacyPath" />
+  <meta content="2017-10-31T16:26:33.848-0400" name="firstPublishExternalDate" />
+  <meta content="Follow this page to configure your Adobe Mobile Services Cloud Service." name="seoDescription" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Configure your Adobe Mobile Services Cloud Service" name="navTitle" />
+  <meta content="Configure your Adobe Mobile Services Cloud Service" name="jcr:title" />
+  <meta content="2018-05-04T05:12:36.720-0400" name="cq:lastReplicated" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Configure your Adobe Mobile Services Cloud Service" name="seoTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="User" name="contentOwner" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="2018-05-11T10:01:21.042-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-12-13T19:01:30.928-0500" name="jcr:created" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <p>The <strong>Mobile Metrics Tile</strong> on the command center provides real-time analytics for your mobile application.</p> 
+  <p>The <a href="http://www.adobe.com/ca/solutions/digital-analytics/mobile-web-apps-analytics.html">Adobe Mobile Analytics</a> SDK is made available through a PhoneGap plug-in. Metrics are collected and cached on the device until the device is connected, at which time the data is pushed to the Adobe Mobile Services Cloud for reporting and analysis.</p> 
+  <p>Adobe Mobile Analytics SDK provides the following:</p> 
+  <ol> 
+   <li><strong>Data collection for mobile channels</strong> - Collect comprehensive data for your mobile websites and apps on all major operating systems.</li> 
+   <li><strong>Mobile engagement analysis</strong> - Understand user engagement within your mobile app, website, or video, including how frequently consumers launch the channel, whether they make purchases from it, and more.</li> 
+   <li><strong>Mobile app dashboards and reports</strong> - Get usage reports that include lifecycle metrics for your apps and app store metrics — see trends for users, launches, average session length, retention length, and crashes.</li> 
+   <li><strong>Mobile campaign analysis</strong> - Quantify the effectiveness of mobile-specific campaigns such as SMS, mobile search ads, mobile display ads, and QR codes.</li> 
+   <li><strong>Geolocation analysis</strong> - Find where your app users launch and interact with your mobile experiences by GPS location or points of interest.</li> 
+   <li><strong>Pathing analysis</strong> - See how users navigate through your app to determine which screens and UI elements are engaging users and which cause users to drop off.</li> 
+  </ol> 
+  <note>
+   <p>The <strong>Analyze Metrics</strong> Tile displays in the dashboard, only if you have configured cloud services.</p> 
+  </note>
+  <img captionBottom="AEM Command Center Metrics Tile " imageRotate="0" src="assets/chlimage_1-26.png" />
+  <h3>Configuring the Cloud Service</h3>
+  <p>In order to take advantage of Adobe Mobile Services Analytics you need to configure the AEM Mobile Analytics Cloud Service with your Adobe Analytics account information.</p> 
+  <ol>
+   <li><p>Click on the top right hand side icon to add or edit the Cloud Services from the <strong>Manage Cloud Services</strong> tile from the app dashboard.</p> <img imageRotate="0" src="assets/chlimage_1-27.png" /></li>
+   <li><p>The <strong>Add or Edit Cloud Services</strong> screen displays. Select <strong>Adobe Mobile Services</strong> and click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-28.png" /></li>
+   <li><p>Choose an existing configuration from the <strong>Mobile Services</strong> or choose <strong>Create Configuration</strong> to create a new one.</p> <p>For new configuration, enter the <strong>Mobile Services Properties </strong>and click<strong> Verify.</strong></p> <img imageRotate="0" src="assets/chlimage_1-29.png" /><p>If the credentials are verified, the <strong>Verify</strong> button changes to <strong>Verified</strong>. You can choose a mobile service app from <strong>Select a Mobile App Service</strong>.</p> <p>Click<strong> Submit</strong> for setting up your configuration.</p> <img imageRotate="0" src="assets/chlimage_1-30.png" /></li>
+   <li><p>Once you set up a cloud configuration, you can view the same in your dashboard.</p> <img imageRotate="0" src="assets/chlimage_1-31.png" />
+    <note>
+     <p>Once you set up your cloud configuration, you can view the <strong>Analyze Metrics</strong> Tile in your app dashboard.</p> 
+    </note><img imageRotate="0" src="assets/chlimage_1-32.png" /></li>
+  </ol>
+ </body>
+</html>

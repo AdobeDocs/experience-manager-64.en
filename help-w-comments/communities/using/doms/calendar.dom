@@ -1,0 +1,137 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/content/docs/en/aem/6-3/author/communities/calendar" name="qaNotes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Provides community event information in a calendar format" name="seoDescription" />
+  <meta content="053da17b-15b2-4c09-8230-2f6545d24439" name="jcr:predecessors" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/authoring;/content/help/en/experience-manager/6-4/communities/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="2018-04-03T07:32:01.749-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-05-17T05:50:52.591-0400" name="locHandOffDate" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="2017-10-31T16:33:58.152-0400" name="firstPublishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Calendar Feature" name="seoTitle" />
+  <meta content="Calendar Feature" name="jcr:title" />
+  <meta content="8711b089-6565-4332-b31f-5b5d6fa1442e" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-12-01T19:02:49.460-0500" name="jcr:created" />
+  <meta content="Calendar Feature" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-05-17T05:50:52.592-0400" name="cq:lastModified" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/calendar.html" name="publishExternalURL" />
+  <meta content="2018-04-03T07:32:01.749-0400" name="lastPublishExternalDate" />
+  <meta content="2018-04-03T07:32:03.803-0400" name="cq:lastReplicated" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:authoring;content_type:reference" name="cq:tags" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="2018-04-03T07:32:01.749-0400" name="topicBrowsingSortDate" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+ </head>
+ <body>
+  <h2>Introduction</h2>
+  <p>The calendar feature supports providing community event information in a calendar format either to all site visitors or only signed in site visitors (community members), while only authorized members may add events.</p> 
+  <p>This section of the documentation describes</p> 
+  <ul> 
+   <li>adding the calendar feature to an AEM site</li> 
+   <li>configuration settings for <span class="code">Calendar </span>components</li> 
+  </ul> 
+  <h2>Adding a Calendar to a Page</h2>
+  <p>To add a <span class="code">Calendar</span> component to a page in author mode, use the component browser to locate</p> 
+  <ul> 
+   <li><span class="code">Communities / Calendar</span></li> 
+  </ul> 
+  <p>and drag it into place on a page, such as a position relative to the feature for users to review.</p> 
+  <p>For necessary information, visit <a href="../../communities/using/basics.md">Communities Components Basics</a>.</p> 
+  <p>When the <a href="../../communities/using/calendar-basics-for-developers.md#essentialsforclientside">required client-side libraries</a> are included, this is how the <span class="code">Calendar</span> component will appear.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-119.png" />
+  <h3>Configuring Calendar</h3>
+  <p>Select the placed <span class="code">Calendar </span>component to access and select the <span class="code">Configure</span> icon which opens the edit dialog.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-120.png" />
+  <img imageRotate="0" src="assets/chlimage_1-121.png" />
+  <h4>Settings tab</h4>
+  <p>Under the <strong>Settings </strong>tab, specify whether or not to allow tags to be applied to calendar entries.</p> 
+  <ul> 
+   <li><strong>Events Per Page</strong><br /> Defines the number of evens shown per page. Default is 10.</li> 
+   <li><strong>Moderated</strong><br /> If checked, posting of calendar events and comments must be approved before they will appear on a publish site. Default is unchecked.</li> 
+   <li><strong>Closed</strong><br /> If checked, the calendar is closed to new event entries and comments. Default is unchecked.</li> 
+   <li><strong>Rich Text Editor</strong><br /> If checked, calendar events and comments may be entered with markup. Default is checked.</li> 
+   <li><strong>Allow Tagging</strong><br /> If checked, allow members to add tag labels to the events they post (see <strong>Tag field</strong> tab). Default is checked.</li> 
+   <li><strong>Allow File Uploads</strong><br /> If checked, allow file attachments to be added to a calendar event or comment. Default is checked.</li> 
+   <li><strong>Allow Following</strong><br /> If checked, allow members to follow events posted to the calendar. Default is checked.</li> 
+   <li><strong>Max File Size</strong><br /> Relevant only if <span class="code">Allow File Uploads</span> is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).</li> 
+   <li><strong>Allowed File Types</strong><br /> Relevant only if <span class="code">Allow File Uploads</span> is checked. A comma separated list of file extensions with the "dot" separater. For example : .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that all file types are allowed.</li> 
+   <li><strong>Max Attach Image File Size</strong><br /> Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152<strong> </strong>(2 Mb).</li> 
+   <li><strong>Allowed Cover Image Types</strong><br /> A comma separated list of image file extensions with the "dot" separater. Default is <span class="code">.jpg,.jpeg,.png,.gif,.bmp</span>.</li> 
+   <li><strong>Allow Threaded Replies</strong><br /> If checked, allow replies to comments posted to the calendar event. Default is checked.</li> 
+   <li><strong>Allow Users to Delete Comments and Events</strong><br /> If checked, allow members to delete the comments and calendar events they posted. Default is<strong> </strong>checked.</li> 
+   <li><strong>Allow Voting</strong><br /> If checked, include the Voting feature with a calendar event. Default is checked.</li> 
+   <li><strong>Show Breadcrumbs</strong><br /> Show breadcrumbs on event page. Default is checked.</li> 
+   <li><strong>Date Range Filter</strong><br /> Defines the number of days added to the current date in order to compute the "To" value of the calendar event listing page filter. Default number is 30.</li> 
+   <li><strong>Allow Featured Content</strong><br /> if checked, the idea is able to be identified as <a href="../../communities/using/featured.md">featured content</a>. Default is unchecked.</li> 
+  </ul> 
+  <p>Under the <strong>User Moderation </strong>tab, specify how the posted topics and replies (user generated content) are managed. For more information, see <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+  <h4>User Moderation tab</h4>
+  <ul> 
+   <li><strong>Deny Posts</strong><br /> If checked, trusted member moderators will be allowed to deny posts and prevent the post from appearing on the public forum. Default is checked.<br /> </li> 
+   <li><strong>Close / Reopen Events</strong><br /> If checked, trusted member moderators may close an event to further edits and comments, and may also reopen an event. Default is checked.<br /> </li> 
+   <li><strong>Flag Posts</strong><br /> If checked, allow members to flag others' events or comments as inappropriate. Default is checked<strong>.</strong><br /> </li> 
+   <li><strong>Flag Reason List</strong><br /> If checked, allow members to choose, from a drop-down list, their reason for flagging an event or comment as inappropriate. Default is unchecked.<br /> </li> 
+   <li><strong>Custom Flag Reason</strong><br /> If checked, allow members to enter their own reason for flagging an event or comment as inappropriate. Default is unchecked<strong>.</strong><br /> </li> 
+   <li><strong>Moderation Threshold</strong><br /> Enter the number of times an event or comment has to be flagged by members before moderators are notified. Default is 1 ( one time).</li> 
+   <li><strong>Flagging Limit</strong><br /> Enter the number of times an event or comment has to be flagged before it is hidden from public view. If set to -1, the flagged topic or comment is never hidden from public view. Else, this number must be greater than or equal to the Moderation Threshold. Default is 5.</li> 
+  </ul> 
+  <h4>Tag field tab</h4>
+  <p>Under the <strong>Tag field</strong> tab, the tags which may be applied, if allowed under the <strong>Settings </strong>tab, are limited according to namespaces chosen.</p> 
+  <ul> 
+   <li><strong>Allowed Namespaces</strong><br /> Relevant if <span class="code">Allow Tagging</span> is checked under the <strong>Settings </strong>tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.</li> 
+   <li><strong>Suggestion Limit</strong><br /> Enter the number of tags to be displayed as a suggestion to the member posting to the forum. Default is <strong>-</strong>1 (no limits).</li> 
+  </ul> 
+  <note>
+   <p>Visit <a href="../../sites/administering/using/tags.md">Administering Tags</a> to learn how to add a new tag namespace (taxonomy).</p> 
+  </note>
+  <h4>Translation tab</h4>
+  <p>Under the <strong>Translation </strong>tab, if translation is enabled for the community site, translation may be set to translate the entire thread (event and comments) instead of specific posts.</p> 
+  <ul> 
+   <li><strong>Translate All</strong><br /> If checked, the event and comments are translated into the user's preferred language. Default is checked.</li> 
+  </ul> 
+  <h2>Site Visitor Experience</h2>
+  <p>In the publish environment, the calendar feature will display a search field with a default date range, and any calendar events which fall within that range.</p> 
+  <p>When a calendar event is selected, the calendar event details, description and comments are displayed.</p> 
+  <p>Other abilities depend on whether the site visitor is a moderator, administrator, community member, privileged member or anonymous.</p> 
+  <h4>Moderators and Administrators</h4>
+  <p>When the signed in user has moderator or administrator privileges, they are able to perform <a href="../../communities/using/moderate-ugc.md">moderation tasks</a> (as permitted by the configuration of the component) on all calendar events and comments posted to an event.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-122.png" />
+  <h4>Members</h4>
+  <p>When the signed in user is a community member or <a href="../../communities/using/users.md#privilegedmembersgroup">privileged member</a> (depending on configuration), they are able to select <span class="code">New Event</span> to create and post a new calendar event.</p> 
+  <p>Specifically, they may</p> 
+  <ul> 
+   <li>create a new calendar event</li> 
+   <li>post a comment to a calendar event</li> 
+   <li>edit their own calendar event or comment</li> 
+   <li>delete their own calendar event or comment</li> 
+   <li>flag others' calendar events or comments</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-123.png" />
+  <img imageRotate="0" src="assets/chlimage_1-124.png" />
+  <h4>Anonymous</h4>
+  <p>Site visitors who are not signed in may only read posted calendar events, translate them if supported, but may not add an event or comment nor flag others' events or comments.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-125.png" />
+  <h2>Additional Information</h2>
+  <p>More information may be found on the <a href="../../communities/using/calendar-basics-for-developers.md">Calendar Essentials</a> page for developers.</p> 
+  <p>For moderation of calendar events and comments, see <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+  <p>For tagging calendar events and comments, see <a href="../../communities/using/tag-ugc.md">Tagging User Generated Content</a>.</p> 
+  <p>For translation of calendar events and comments, see <a href="../../communities/using/translate-ugc.md">Translating User Generated Content</a>.</p> 
+ </body>
+</html>

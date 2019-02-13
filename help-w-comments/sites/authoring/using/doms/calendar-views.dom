@@ -1,0 +1,32 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="2017-12-01T19:01:24.530-0500" name="jcr:created" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-11-24T10:32:43.060-0500" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-08-13T06:05:19.857-0400" name="cq:lastModified" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/projects;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/projects" name="moreHelpPaths" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Calendar Views" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:projects;content_type:reference" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="33fbd2e5-5fa9-4cca-85f1-92b06f23addf" name="jcr:uuid" />
+  <meta content="/content/docs/en/aem/6-3/author/projects/calendar-views" name="qaNotes" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Calendar Views" name="seoTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="ce93a9f0-7eb2-4483-be21-11d9585304aa" name="jcr:predecessors" />
+ </head>
+ <body></body>
+</html>

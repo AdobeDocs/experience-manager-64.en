@@ -1,0 +1,95 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-12-01T19:04:34.149-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="6695e679-4c63-42b7-b508-8695e7110b4e" name="jcr:predecessors" /> 
+  <meta content="Learn about Analytics with External Providers." name="seoDescription" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/external-providers.html" name="publishExternalURL" /> 
+  <meta content="2018-04-26T10:13:13.184-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-03T07:03:34.039-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-31T16:25:04.764-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Analytics with External Providers" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration;/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration" name="moreHelpPaths" /> 
+  <meta content="Analytics with External Providers" name="jcr:title" /> 
+  <meta content="2018-04-03T07:03:34.039-0400" name="lastPublishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/integration/external-providers" name="qaNotes" /> 
+  <meta content="2018-04-26T10:13:13.184-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-03T07:03:34.563-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-03T07:03:34.039-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:integration;content_type:reference" name="cq:tags" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Analytics with External Providers" name="seoTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="c7e845b0-3ba2-498e-b93a-12dc71024650" name="jcr:uuid" /> 
+ </head> 
+ <body> 
+  <p>Analytics can provide you with important and interesting information about how your website is being used.<br /> </p> 
+  <p>Various out-of-the box configurations are available for integrating with the appropriate service, for example:</p> 
+  <ul> 
+   <li><a href="../../../sites/administering/using/adobeanalytics.md">Adobe Analytics</a></li> 
+   <li><a href="../../../sites/administering/using/target.md">Adobe Target</a></li> 
+  </ul> 
+  <p>You can also configure your own instance of the <strong>Generic Analytics Snippets</strong> to define a new service configurations.</p> 
+  <p>The information is then collected by means of small snippets of code that are added to the web pages. For example:<br /> </p> 
+  <note> 
+   <p>Scripts must not be enclosed in <span class="code">script</span> tags.</p> 
+  </note> 
+  <codeblock gutter="true" class="syntax js">
+    var&amp;nbsp;_gaq&amp;nbsp;=&amp;nbsp;_gaq&amp;nbsp;||&amp;nbsp;[];!!discoiqbr!!_gaq.push(['_setAccount',&amp;nbsp;'UA-XXXXX-X']);!!discoiqbr!!_gaq.push(['_trackPageview']);!!discoiqbr!!!!discoiqbr!!(function()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;ga&amp;nbsp;=&amp;nbsp;document.createElement('script');&amp;nbsp;ga.type&amp;nbsp;=&amp;nbsp;'text/javascript';&amp;nbsp;ga.async&amp;nbsp;=&amp;nbsp;true;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ga.src&amp;nbsp;=&amp;nbsp;('https:'&amp;nbsp;==&amp;nbsp;document.location.protocol&amp;nbsp;?&amp;nbsp;'https://ssl'&amp;nbsp;:&amp;nbsp;'http://www')&amp;nbsp;+&amp;nbsp;'.google-analytics.com/ga.js';!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;s&amp;nbsp;=&amp;nbsp;document.getElementsByTagName('script')[0];&amp;nbsp;s.parentNode.insertBefore(ga,&amp;nbsp;s);!!discoiqbr!!})(); 
+  </codeblock> 
+  <p>Such snippets enable data to be collected and reports generated. The actual data collected depends on the provider and the actual code snippet used. Example statistics include:</p> 
+  <ul> 
+   <li>how many visitors over time</li> 
+   <li>how many pages visited</li> 
+   <li>search terms used</li> 
+   <li>landing pages</li> 
+  </ul> 
+  <note> 
+   <p>The Geometrixx-Outdoors demo site is configured so that the attributes provided in the Page Properties are appended to the html source code (just above the <span class="code">&amp;lt;/html&amp;gt;</span> endtag) in the corresponding <span class="code">js</span> script.<br /> </p> 
+   <p>If your own <span class="code">/apps</span> do not inherit from the default page component (<span class="code">/libs/foundation/components/page</span>) you (or your developers) have to make sure that the corresponding <span class="code">js</span> scripts are included, for example by either including <span class="code">cq/cloudserviceconfigs/components/servicescomponents</span>, or using a similar mechanism.<br /> </p> 
+   <p>Without this, none of the services (Generic, Analytics, Target, etc) will work.<br /> </p> 
+  </note> 
+  <h2>Creating a new Service with a Generic Snippet</h2> 
+  <p>For the basic configuration:<br /> </p> 
+  <ol> 
+   <li><p>Open the <strong>Tools</strong> console.<br /> </p> </li> 
+   <li><p>From the left pane expand <strong>Cloud Services Configurations</strong>.<br /> </p> </li> 
+   <li><p>Double-click on <strong>Generic Analytics Snippet</strong> to open the page:</p> <img imageRotate="0" src="assets/analytics_genericoverview.png" /></li> 
+   <li><p>Click on the + to add a new configuration using the dialog; at a minimum assign a name, for example google analytics:<br /> </p> <img imageRotate="0" src="assets/analytics_addconfig.png" /></li> 
+   <li><p>Click <strong>Create</strong>, the snippet dialog will open immediately - paste the appropriate javascript snippet into the field:<br /> </p> <img imageRotate="0" src="assets/analytics_snippet.png" /></li> 
+   <li><p>Click <strong>OK</strong> to save.<br /> </p> </li> 
+  </ol> 
+  <h2>Using your new Service on Pages</h2> 
+  <p>Having created the service configuration you now need configure the required pages to use it:<br /> </p> 
+  <ol> 
+   <li><p>Navigate to the page.<br /> </p> </li> 
+   <li><p>Open the <strong>Page Properties</strong> from sidekick, then the <strong>Cloud Services</strong> tab.<br /> </p> </li> 
+   <li><p>Click <strong>Add Service</strong>, then select the required service; for example the <strong>Generic Analytics Snippet</strong>:<br /> </p> <img imageRotate="0" src="assets/analytics_selectservice.png" /></li> 
+   <li><p>Click <strong>OK</strong> to save.<br /> </p> </li> 
+   <li><p>You will be returned to the <strong>Cloud Services</strong> tab. The <strong>Generic Analytics Snippet</strong> is now listed with the message <span class="code">Configuration reference missing</span>. Use the drop down list to select your specific service instance; for example google-analytics:<br /> </p> <img imageRotate="0" src="assets/analytics_selectspecificservice.png" /></li> 
+   <li><p>Click <strong>OK</strong> to save.<br /> </p> <p>The snippet can now be seen if you view the Page Source for the page. </p> <p>After a suitable period of time has elapsed, you will be able to view the statistics that have been collected.</p> 
+    <note> 
+     <p>If the configuration is attached to a page that has child pages, the service is inherited by those as well.<br /> </p> 
+    </note></li> 
+  </ol> 
+ </body> 
+</html>

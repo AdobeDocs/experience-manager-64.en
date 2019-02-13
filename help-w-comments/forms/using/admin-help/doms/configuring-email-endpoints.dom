@@ -1,0 +1,208 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="3814" name="acrolinxWords" /> 
+  <meta content="Configuring email endpoints" name="jcr:title" /> 
+  <meta content="249" name="acrolinxSentences" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-04-26T04:24:42.396-0400" name="cq:lastModified" /> 
+  <meta content="84a6292f-b0d0-4d1e-b3b0-a6aa635a267a" name="jcr:predecessors" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7ee9.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7edc.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7ee8.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb1c01fa7512905cdf2c9-7ff9.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb1c01fa7512905cdf2c9-7ff8.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7efb.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7ee7.2" name="cq:gepId" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_email_endpoints_admin_5e12de0b318c6865_2289_report.xml" name="acrolinxReportURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="Configuring email endpoints" name="navTitle" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="6c777a4a-23c9-4d86-8d91-ac3fb845e6c3" name="jcr:uuid" /> 
+  <meta content="2018-04-26T04:24:42.395-0400" name="locHandOffDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-31T16:32:30.630-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:07:43.607-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:32:30.630-0400" name="publishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2016-02-05T03:27:17.304-0500" name="lr_lastModified" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-email-endpoints.html" name="publishExternalURL" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2016-05-31T06:56:27.641-0400" name="acrolinxDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2016-04-20T10:02:08.500-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="2018-04-03T09:09:45.023-0400" name="cq:lastReplicated" /> 
+  <meta content="Learn how to configure email endpoints." name="seoDescription" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/managing_endpoints;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+ </head> 
+ <body> 
+  <p>Email endpoints enable users to invoke a service by sending one or more documents (as email attachments) to a specified email account. The email inbox acts as a collecting point for the attachments. The service monitors the inbox and processes the attachments. The results of the conversion are forwarded to the user defined in the endpoint. </p> 
+  <p>For an email endpoint, authorized users can invoke a process by emailing files to the appropriate account. The results will be returned to the submitting user (by default) or to the user defined in the endpoint settings.</p> 
+  <p>Before you configure an email endpoint, create a POP3 or IMAP email account for use by the endpoint. Set up a separate account for each type of conversion. For example, one account can be configured to generate standard PDF documents from incoming file attachments, and another account can be configured to generate secure PDF documents. </p> 
+  <note> 
+   <p>Each email address must map to only one email endpoint. You cannot configure multiple email endpoints to a single email address, even if the additional email endpoints are disabled.</p> 
+  </note> 
+  <p>All email endpoints are configured with an authorized user name and password for the email inbox, which are required when invoking the service. The email account is protected by the mail server system on which it is configured. </p> 
+  <p>If your users send documents with Western European language characters in file and conversion path names, they must use an email application that supports the required encoding types (Latin1 [ISO-8859-1], Western European [Windows], or UTF-8). For more information, see the <i>Installing and Deploying AEM forms</i> document for your application server. </p> 
+  <p>Before you configure an email endpoint, configure the Email service. (See <a href="configuring-email-endpoints#configure_default_email_endpoint_settings">Configure default email endpoint settings</a>.) The Email service’s configuration parameters have two purposes:</p> 
+  <ul> 
+   <li><p>To configure attributes that are common for all email endpoints</p></li> 
+   <li><p>To provide default values for all the email endpoints</p></li> 
+  </ul> 
+  <h2 id="configure_ssl_for_an_email_endpoint">Configure SSL for an email endpoint</h2> 
+  <p></p> 
+  <p>You can configure POP3, IMAP, or SMTP to use Secure Sockets Layer (SSL) for an email endpoint.</p> 
+  <ol> 
+   <li><p>On the email server, enable SSL for POP3, IMAP, or SMTP according to the manufacturer’s documentation.</p></li> 
+   <li><p>Export a client certificate from the email server.</p></li> 
+   <li><p>Use the keytool program to import the client certificate file to the application server’s Java Virtual Machine (JVM) certificate store. The procedure for this step will depend on the JVM and client installation paths. </p><p>For example, if you are using a default Oracle WebLogic Server installation with JDK 1.5.0 on Microsoft Windows Server® 2003, type the following text in a command prompt:</p></li> 
+   <li><p>When prompted, enter the password (for Java, the default password is <span class="code">changeit</span>). You will receive a message stating that the certificate was imported successfully.</p></li> 
+   <li><p>Use administration console to add the email endpoint to the service. </p></li> 
+   <li><p>Create the email endpoint in administration console. When configuring the endpoint settings, select POP3/IMAP SSL Enabled for incoming messages and SMTP SSL Enabled for outgoing messages, and change the port properties accordingly.</p></li> 
+  </ol> 
+  <note> 
+   <p>Tip: If you experience problems when using SSL, use an email client such as Microsoft Outlook to check whether it can access the email server using SSL. If the email client cannot access the email server, the issue is related to the configuration of either your certificate or your email server.</p> 
+  </note> 
+  <h2 id="configure_default_email_endpoint_settings">Configure default email endpoint settings</h2> 
+  <p></p> 
+  <p>You can use the Service Management page to configure attributes that are common for all email endpoints, and to provide default values for all the email endpoints.</p> 
+  <p>For forms workflow to receive and handle incoming email messages from users, you need to create an email endpoint for the Complete Task service. This email endpoint requires additional settings, as described in <a href="configuring-email-endpoints#create_an_email_endpoint_for_the_complete_task_service">Create an Email endpoint for the Complete Task service</a>.</p> 
+  <h3 id="change_the_default_values_for_email_endpoints">Change the default values for email endpoints</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Service Management.</p></li> 
+   <li><p>On the Service Management page, click Email: 1.0 (the Component ID is com.adobe.idp.dsc.provider.service.email.Email).</p></li> 
+   <li><p>On the Configuration tab, specify the default email endpoint settings and then click Save.</p></li> 
+  </ol> 
+  <h3 id="default_email_endpoint_settings">Default email endpoint settings</h3> 
+  <p></p> 
+  <p><strong>Cron Expression:</strong> The cron expression as used by quartz to schedule the polling of the input directory.</p> 
+  <p><strong>Repeat Interval:</strong> The number of times the directory polling is repeated. The default repeat interval is in seconds if this value is not specified in the endpoint configuration. The default value is 10. This value cannot be less than 10.</p> 
+  <p><strong>Repeat Count:</strong> The number of times the input directory is polled. The default repeat count to use if this value is not specified in the endpoint configuration. A value of -1 indicates indefinite scanning of the directory. The default value is -1.</p> 
+  <p><strong>Delay when job starts:</strong> The default value, in seconds, for the delay before the job starts to scan the endpoint. The default value is 0.</p> 
+  <p><strong>Batch Size:</strong> The number of emails the receiver processes per scan for optimum performance. A value of -1 indicates all emails. The default value is 2.</p> 
+  <p><strong>Asynchronous:</strong> Identifies the invocation type as asynchronous or synchronous. Transient and synchronous processes can only be invoked synchronously. The default value is asynchronous.</p> 
+  <p><strong>Domain Pattern:</strong> The domain name pattern that is used to filter incoming emails. For example, if adobe.com is used, only email from adobe.com will be processed; email from other domains is ignored.</p> 
+  <p><strong>File Pattern:</strong> The incoming file attachment patterns that the provider accepts. This includes files that have specific extensions (*.dat, *.xml), specific names (data), and composite expressions in the name and extension (*.[dD][aA][Tt]). The default value is *.*.</p> 
+  <p><strong>Successful Job’s Recipients:</strong> One or more email addresses that are used to send emails to indicate successful jobs. By default, a successful job message is always sent to the sender of the initial job. Up to 100 recipients are supported. To turn off this setting, leave this field blank.</p> 
+  <p><strong>Failed Job’s Recipients:</strong> One or more email addresses that are used to send emails to indicate failed jobs. By default, a failed job message is always sent to the sender who sent the initial job. Up to 100 recipients are supported. To turn off this setting, leave this field blank.</p> 
+  <p><strong>Inbox Host:</strong> The inbox host name or IP address for the email provider to scan.</p> 
+  <p><strong>Inbox Port:</strong> The inbox port number for the email provider to scan. If the value is 0, the default IMAP or POP3 port will be used.</p> 
+  <p><strong>Inbox Protocol:</strong> The email protocol for the email endpoint to use to scan the inbox. The choices are IMAP or POP3. The inbox host mail server must support these protocols.</p> 
+  <p><strong>Inbox Time Out:</strong> Specifies the amount of time the endpoint will wait before canceling when attempting to connect to the inbox. If a connection is not acquired before the time-out value is reached, the inbox will not be polled.</p> 
+  <p><strong>Inbox User:</strong> The user name required to log in to the email account. Depending on the email server and configuration, this name may only be the user name portion of the email or it may be the full email address.</p> 
+  <p><strong>Inbox Password:</strong> The password for the Inbox User.</p> 
+  <p><strong>POP3/IMAP SSL Enabled:</strong> When selected, enables SSL.</p> 
+  <p><strong>SMTP Host:</strong> The host name of the mail server that the email provider uses to send results and error messages. For example, mail.corp.example.com.</p> 
+  <p><strong>SMTP Port:</strong> The port that is used to connect to the mail server. The default value is 25.</p> 
+  <p><strong>SMTP User:</strong> The user account for the email provider to use when it sends email for results and errors.</p> 
+  <p><strong>SMTP Password:</strong> The password for the SMTP account. Some mail servers do not require an SMTP password.</p> 
+  <p><strong>Send From:</strong> The email address (for example, user@company.com) used to send email notifications of results and errors. If you do not specify a Send From value, the email server attempts to determine the email address by combining the value specified in the SMTP User setting with a default domain configured on the email server. If your email server does not have a default domain and you do not specify a value for Send From, errors may occur. To ensure that the email messages have the correct from address, specify a value for the Send From setting.</p> 
+  <p><strong>SMTP SSL Enabled:</strong> When selected, enables SSL over SMTP.</p> 
+  <p><strong>Include The Original Email Body As An Attachment:</strong> By default, when you send an email to the forms server, the original text of the message is included in the body of the message. To instead include the text as an attachment, select this option.</p> 
+  <p><strong>Use The Original Subject Line For Result Emails:</strong> By default, Forms server uses the values specified in the Success Email Subject and Error Email Subject settings as the subject line when sending result email messages. To instead use the same subject line as the original email sent to the server, select this option.</p> 
+  <p><strong>Success Email Subject:</strong> After you send an email to an email endpoint to start or continue a process, you receive a return email message from the AEM forms server. If your email succeeds, you receive a success email. If your email fails, you receive a failure email informing why it failed. This setting enables you to specify the subject line of success email messages sent for this endpoint.</p> 
+  <p><strong>Success Email Body:</strong> Enables you to specify the body text of success email messages sent for this endpoint.</p> 
+  <p><strong>Error Email Subject Prefix:</strong> Enables you to specify the text used at the beginning of the subject line of failure email messages sent for this endpoint.</p> 
+  <p><strong>Error Email Subject:</strong> Enables you to specify the subject line of failure email messages sent for this endpoint. This text is displayed after the Error Email Subject Prefix.</p> 
+  <p><strong>Error Email Body:</strong> Enables you to specify the first line in the body text of failure email messages sent for this endpoint.</p> 
+  <p><strong>Email Summary Info:</strong> Each success or failure message includes a section containing the original email text that you sent to the forms server. This setting specifies the text that appears above that section.</p> 
+  <p><strong>Validate Inbox Before Creating/Updating This Endpoint:</strong> When this option is selected, the forms server checks whether your SMTP/POP3 settings are correct before creating the endpoint. When you click Add, a message displays, stating whether the inbox account is valid. If this option is not selected, the AEM forms server creates the endpoint without validating the inbox.</p> 
+  <p><strong>Character Set Encoding:</strong> The encoding format to use for the email message. The default is UTF-8, which most users outside Japan will use. Users in a Japanese environment may choose ISO2022-JP.</p> 
+  <p><strong>Failed Email Sent Folder:</strong> Specifies a directory in which to store results if the SMTP mail server is not operational.</p> 
+  <h2 id="email_endpoint_settings">Email endpoint settings</h2> 
+  <p></p> 
+  <p>Use the following settings to configure an email endpoint. </p> 
+  <p><strong>Name:</strong> A mandatory setting that identifies the endpoint. Do not include a &lt; character because it truncates the name displayed in Workspace. If you’re entering a URL as the name of the endpoint, ensure that it conforms with the syntax rules specified in RFC1738.</p> 
+  <p><strong>Description:</strong> A description of the endpoint. Do not include a &lt; character because it truncates the description displayed in Workspace.</p> 
+  <p><strong>Cron Expression:</strong> Enter a cron expression if the email must be scheduled by using a cron expression.</p> 
+  <p><strong>Repeat Count:</strong> Number of times the email endpoint scans the folder or directory. A value of -1 indicates indefinite scanning. The default value is -1.</p> 
+  <p><strong>Repeat Interval:</strong> The scanning rate that the receiver uses for checking for incoming mail.</p> 
+  <p><strong>Delay when job starts:</strong> The time to wait to scan after the scheduler starts.</p> 
+  <p><strong>Batch Size:</strong> The number of emails the receiver processes per scan for optimum performance. A value of -1 indicates all emails. The default value is 2.</p> 
+  <p><strong>User Name:</strong> A mandatory setting, which is the user name that is used when invoking a target service from email. The default value is SuperAdmin.</p> 
+  <p><strong>Domain Name:</strong> A mandatory setting, which is the user’s domain. The default value is DefaultDom.</p> 
+  <p><strong>Domain Pattern:</strong> Specifies the domain patterns of incoming email that the provider accepts. For example, if adobe.com is used, only email from adobe.com is processed; email from other domains is ignored.</p> 
+  <p><strong>File Pattern:</strong> Specifies the incoming file attachment patterns that the provider accepts. This includes files that have specific extensions (*.dat, *.xml), specific names (data), or composite expressions in the name and extension (*.[dD][aA][Tt]).</p> 
+  <p><strong>Successful Job’s Recipients:</strong> An email address to which messages are sent to indicate successful jobs. By default, a successful job message is always sent to the sender. If you type sender, email results are sent to the sender. Up to 100 recipients are supported. Specify additional recipients with email addresses, separated by commas (,).</p> 
+  <p>To turn off this setting, leave the setting blank. In some cases, you want to trigger a process and do not want an email notification of the result.</p> 
+  <p><strong>Failed Job’s Recipients:</strong> An email address to which messages are sent to indicate failed jobs. By default a failed job message is always sent to the sender. If you type sender, email results are sent to the sender. Up to 100 recipients are supported. Specify additional recipients with email addresses, separated by commas (,).</p> 
+  <p>To turn off this setting, leave the setting blank. In some cases, you want to trigger a process and do not want an email notification of the result.</p> 
+  <p><strong>Inbox Host:</strong> The inbox host name or IP address for the email provider to scan.</p> 
+  <p><strong>Inbox Port:</strong> The port that the email server uses. The default value for POP3 is 110 and the default value for IMAP is 143. If SSL is enabled, the default value for POP3 is 995 and the default value for IMAP is 993.</p> 
+  <p><strong>Inbox Protocol:</strong> The email protocol for the email endpoint to use to scan the inbox. The values are IMAP or POP3. The inbox host mail server must support these protocols.</p> 
+  <p><strong>Inbox Time Out:</strong> The time-out, in seconds, for the email provider to wait for inbox responses.</p> 
+  <p><strong>Inbox User:</strong> The user name that is required to log in to the email account. Depending on the email server and configuration, this value may be only the user name portion of the email or it may be the full email address.</p> 
+  <p><strong>Inbox Password:</strong> The password for the inbox user.</p> 
+  <p><strong>POP3/IMAP SSL Enabled:</strong> Select this setting to force the email provider to use SSL to scan the inbox. Ensure that your mail server supports SSL.</p> 
+  <p><strong>SMTP Host:</strong> The host name of the mail server the email provider uses to send results and error messages.</p> 
+  <p><strong>SMTP Port:</strong> The default value for the SMTP port is 25.</p> 
+  <p><strong>SMTP User:</strong> The user account for the email provider to use when it sends email notifications of results and errors.</p> 
+  <p><strong>SMTP Password:</strong> The password for the SMTP account. Some mail servers do not require an SMTP password.</p> 
+  <p><strong>Send From:</strong> The email address (for example, user@company.com) used to send email notifications of results and errors. If you do not specify a Send From value, the email server attempts to determine the email address by combining the value specified in the SMTP User setting with a default domain configured on the email server. If your email server does not have a default domain and you do not specify a value for Send From, errors may occur. To ensure that the email messages have the correct from address, specify a value for the Send From setting.</p> 
+  <p><strong>SMTP SSL Enabled:</strong> Select this setting to force the email provider to use SSL to scan the inbox. Ensure that your mail server supports SSL.</p> 
+  <p><strong>Failed Email Sent Folder:</strong> Specifies a directory in which to store results if the SMTP mail server is not operational.</p> 
+  <p><strong>asynchronous:</strong> When set to synchronous, all input documents are processed and a single response is returned. When set to asynchronous, a response is sent for each document that is processed.</p> 
+  <p>For example, an email endpoint is created for a service that takes a single Word document and returns that document as a PDF file. An email can be sent to the endpoint’s inbox that contains multiple (3) Word documents. When all three documents are processed, if the endpoint is configured as synchronous, a single response email is sent with all three documents attached. If the endpoint is asynchronous, a response email is sent after each Word document is converted to PDF. The result is three emails, each with a single PDF attachment.</p> 
+  <p>The default value is asynchronous.</p> 
+  <p><strong>Include the original email body as an attachment:</strong> By default, when you send an email to the forms server, the original text of the message is included in the body of the message. To instead include the text as an attachment, select this option.</p> 
+  <p><strong>Use the original subject line for result emails:</strong> By default, Forms server uses the values specified in the Success Email Subject and Error Email Subject settings as the subject line when sending result email messages. To instead use the same subject line as the original email sent to the server, select this option.</p> 
+  <p><strong>Success Email Subject:</strong> After you send an email to an email endpoint to start or continue a process, you receive a return email message from the AEM forms server. If your email succeeds, you receive a success email. If your email fails, you receive a failure email informing why it failed. This setting enables you to specify the subject line of success email messages sent for this endpoint.</p> 
+  <p><strong>Success Email Body:</strong> Enables you to specify the body text of success email messages sent for this endpoint.</p> 
+  <p><strong>Error Email Subject Prefix:</strong> Enables you to specify the text used at the beginning of the subject line of failure email messages sent for this endpoint.</p> 
+  <p><strong>Error Email Subject:</strong> Enables you to specify the subject line of failure email messages sent for this endpoint. This text is displayed after the Error Email Subject Prefix.</p> 
+  <p><strong>Error Email Body:</strong> Enables you to specify the first line in the body text of failure email messages sent for this endpoint.</p> 
+  <p><strong>Email Summary Info:</strong> Each success or failure message includes a section containing the original email text that you sent to the forms server. This setting specifies the text that appears above that section.</p> 
+  <p><strong>Validate Inbox before creating/updating this endpoint:</strong> When this option is selected, the forms server checks whether your SMTP/POP3 settings are correct before creating the endpoint. When you click Add, a message displays, stating whether the inbox account is valid. If this option is not selected, the AEM forms server creates the endpoint without validating the inbox.</p> 
+  <p><strong>Operation Name:</strong> This setting is mandatory. A list of operations that can be assigned to the email endpoint. The operation that you select here determines which fields are displayed in the Input Parameter Mappings and Output Parameter Mappings sections.</p> 
+  <p><strong>Input Parameter Mappings:</strong> Used to configure the input that is required to process the service and operation. The two types of input are literal and variable:</p> 
+  <p><strong>Literal:</strong> The email uses the value that is entered in the field as it is displayed.</p> 
+  <p><strong>Variable:</strong> You can map a string from the email subject, body, header, or sender's email address. To do this, use one of the following keywords: %SUBJECT%, %BODY%, %HEADER%, or %SENDER%. For example, if you use %SUBJECT%, the email subject content is used as the input parameter. To pick up attachments, enter a file pattern that the email endpoint can use to select the attached documents. For example, entering *.pdf selects any attached document that has a .pdf filename extension. Entering * selects any attached document. Entering example.pdf selects any attached document named example.pdf.</p> 
+  <p><strong>Output Parameter Mappings:</strong> Used to configure the output of the service and operation. The following characters in the output parameter mapping values are expanded in the attachment filename:</p> 
+  <p><strong>%F</strong> Represents the source file’s filename (not including an extension).</p> 
+  <p><strong>%E</strong> Represents the source file’s extension.</p> 
+  <p><strong></strong> Any occurrence of the backslash (\) is replaced with %%.</p> 
+  <p><i><strong>note</strong>: If the service request message includes multiple file attachments, you cannot use the %F and %E parameters for the Output Parameter Mappints property of the endpoint. If the services response returns multiple file attachments, you cannot specify the same file name for more than one attachment. If you do not follow these recommendations, the invoked service create the names for the returned files, and the names are not predictable.</i></p> 
+  <p>The following values are available: </p> 
+  <p><strong>Single Object:</strong> The email provider does not have the source folder destination; results are returned as attachments. The pattern is Result/%F.ps and returns Result%%sourcefilename.ps as the filename attachment.</p> 
+  <p><strong>List:</strong> The pattern is Result/%F/ and returns Result%%sourcefilename%%file1 as the filename attachment.</p> 
+  <p><strong>Map:</strong> The pattern is Result/%F/ and the source destination is Result%%sourcefilename%%file1 and Result%%sourcefilename%%file2. If the map contains more than one object and the pattern is Result/%F.ps, the response file attachments are Result%%sourcefilename1.ps (output 1) and Result%%sourcefilename2.ps (output 2).</p> 
+  <h2 id="create_an_email_endpoint_for_the_complete_task_service">Create an Email endpoint for the Complete Task service</h2> 
+  <p></p> 
+  <p>For forms workflow to receive and handle incoming email messages from users, you need to create an email endpoint for the Complete Task service. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Service Management.</p></li> 
+   <li><p>On the Service Management page, click the Complete Task service.</p></li> 
+   <li><p>On the Endpoints tab, select Email from the drop-down list and click Add.</p></li> 
+   <li><p>In the Inbox Host box, type the host name or IP address of the mail server. </p></li> 
+   <li><p>In the Inbox User box, type the user name required to log in to the email account that you created to handle form submissions. Depending on the email server and configuration, this name may be only the user name portion of the email or it may be the full email address. </p></li> 
+   <li><p>In the Inbox Password box, type the password for the Inbox User.</p></li> 
+   <li><p>In the SMTP Host box, type the host name or IP address of the mail server from which the email provider sends results and error messages.</p></li> 
+   <li><p>In the SMTP User box, type the user account for the email provider to use when it sends out email for results and errors. This user account can be the same value you used for Inbox User. </p></li> 
+   <li><p>In the SMTP Password box, type the password for the SMTP account. </p></li> 
+   <li><p>In the Operation Name list, select invoke. </p></li> 
+   <li><p>In the attachmentMap list, select Variable and type <span class="code">*.*</span> in the adjacent box. This sends all attachments from the inbound mail messages to a map variable for the Complete Task process. </p></li> 
+   <li><p>In the mailBody list, select variable and type <span class="code">%BODY%</span> in the adjacent box. </p></li> 
+   <li><p>In the mailFrom list, select Variable and type <span class="code">%SENDER%</span> in the adjacent box. This maps the sender address to the Complete Task process data.</p></li> 
+   <li><p>In the results box, type <span class="code">results</span>. This causes the Complete Task or Start Process to return a result string.</p></li> 
+   <li><p>Click Add.</p></li> 
+  </ol> 
+  <related-links> 
+   <a href="configuring-email-endpoints#configuring_email_endpoints">Configuring email endpoints</a> 
+   <a href="configuring-email-endpoints#configuring_email_endpoints">Configuring email endpoints</a> 
+   <a href="configuring-email-endpoints#configuring_email_endpoints">Configuring email endpoints</a> 
+  </related-links> 
+ </body> 
+</html>

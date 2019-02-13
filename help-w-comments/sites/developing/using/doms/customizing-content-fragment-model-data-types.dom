@@ -1,0 +1,271 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-06T01:46:12.450-0400" name="unpublishExternalDate" /> 
+  <meta content="Customizing Data Types for Content Fragment Models" name="seoTitle" /> 
+  <meta content="74ab2c8c-4605-4c2c-993f-e4b26dfaa0ad" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="1a1ca4e7-efcf-4065-a7e1-2367300fd753" name="jcr:uuid" /> 
+  <meta content="aheimoz" name="contentOwner" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-03-14T09:01:16.965-0400" name="jcr:created" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-06T01:46:12.497-0400" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="" name="cq:tags" /> 
+  <meta content="Customizing Data Types for Content Fragment Models" name="navTitle" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="DO NOT PUBLISH, BUT DO NOT DELETE Customizing Data Types for Content Fragment Models" name="jcr:title" /> 
+  <meta content="2018-08-13T06:05:19.483-0400" name="cq:lastModified" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="Deactivate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2018-04-06T01:44:42.762-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-04-06T01:44:42.762-0400" name="firstPublishExternalDate" /> 
+  <meta content="Data types used in Content Fragment Models can be customized." name="seoDescription" /> 
+  <meta content="true" name="noIndex" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="publishExternalURL" /> 
+ </head> 
+ <body> 
+  <draft-comment color="purple" lastModifiedBy="aheimoz" lastModifiedDate="2018-04-05T23:48:05.611-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>Tags/Keywords have been removed</p> 
+  </draft-comment> 
+  <p><a href="../../../assets/using/content-fragments.md">Content fragments</a> are based on <a href="../../../assets/using/content-fragments-models.md">content fragment models</a>. These models are built up from <a href="../../../assets/using/content-fragments.md#constituentpartsofacontentfragment">elements</a> of different data types.</p> 
+  <p>Various data types are available out-of-the-box, including single-line text, multi-line rich text, numerical fields, boolean selectors, dropdown menu options, date and time, and others. AEM users can select data types based on the editorial intent of the corresponding fragment(s). This allows you to cater for simple text models through to complex models with various different kinds of content, and the associated fragment authoring experience. </p> 
+  <p>Data types are defined by a <a href="#properties">combination of node properties</a> held in <a href="#locationsintherepository">specific locations in the repository</a>. You can also create your own <a href="#creatingyourdatatype">data types</a> and <a href="#creatingyourownfieldpropertiesproperty">fieldProperties</a>.<br /> </p> 
+  <note> 
+   <p>See also <a href="../../../sites/developing/using/customizing-content-fragment-models.md">Customizing Content Fragment Models</a>.</p> 
+  </note> 
+  <h2>Locations in the Repository</h2> 
+  <p>All the out-of-the-box datatypes are declared under:</p> 
+  <p style="margin-left: 40px;"><span class="code">/libs/settings</span></p> 
+  <p>You can add new data types by overlaying the node structure as follows under <span class="code">/apps</span>:</p> 
+  <p style="margin-left: 40px;"><span class="code">/apps/settings/dam/cfm/models/formbuilderconfig/datatypes/items</span></p> 
+  <note> 
+   <p>You must not change anything in the <span class="code">/libs</span> path.</p> 
+   <p>Anything there is liable to change at the next upgrade, or installation of a service or fix pack.<br /> </p> 
+  </note> 
+  <h2>Properties</h2> 
+  <p>Node properties are used to define the data types:</p> 
+  <ul> 
+   <li><a href="#datatypeproperties">Data Types Properties</a></li> 
+   <li>and within those <a href="#fieldproperties-">fieldProperties</a></li> 
+  </ul> 
+  <h3>Data Type Properties</h3> 
+  <p>All data types are represented in a node structure as under:</p> 
+  <p style="margin-left: 40px;"><span class="code">/libs/settings/dam/cfm/models/formbuilderconfig/datatypes/items</span></p> 
+  <p>Each node under <span class="code">/items</span> has properties that define how that data type should be represented inside the model editor. </p> 
+  <p>All of the following properties must be present for the data type to be present in the model editor:</p> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-02-20T00:37:40.303-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>wiki page</p> 
+   <p>https://wiki.corp.adobe.com/display/WEM/Content+Fragment+Model+Editor+Data+Types+and+Customization+Options#ContentFragmentModelEditorDataTypesandCustomizationOptions-datatypeproperties</p> 
+   <p>said all properties must be present, but not all items have the fieldViewResourceProperty</p> 
+   <p>what is correct?</p> 
+   <p>eg</p> 
+   <p>/libs/settings/dam/cfm/models/formbuilderconfig/datatypes/items/text-multi - doesn't<br /> /libs/settings/dam/cfm/models/formbuilderconfig/datatypes/items/text-single - doesn't<br /> /libs/settings/dam/cfm/models/formbuilderconfig/datatypes/items/number - does</p> 
+  </draft-comment> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-03-19T05:17:48.563-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>"For more information on the difference between renderType and valueType <span class="uicontrol">check out here</span>."</p> 
+   <p>Where - no link on wiki?</p> 
+   <p>- might have found it on https://wiki.corp.adobe.com/display/~sgrimm/Data+type+concept under Feature Pack</p> 
+   <p>for public consumption?</p> 
+  </draft-comment> 
+  <draft-comment color="blue" lastModifiedBy="sgrimm" lastModifiedDate="2018-03-14T05:49:48.887-0400" prevFirstName="Stefan" prevLastName="Grimm" type="remark"> 
+   <p>The part about the render type vs. value type can be used from the mentioned Wiki (other parts may not be accurate any more or may not have been implemented yet):</p> 
+   <p><em>Distinction between "value type" and "render type":</em></p> 
+   <ul> 
+    <li><em>value type is the type in the backend (HTTP API, Java API, Repository) → defined by BasicDataTypes.</em></li> 
+    <li><em>render type is the (still semantic) type for connecting the editing of the value type to a UI component</em></li> 
+    <li><em>data type is a combination of both (and what the JIRA finally defines)</em></li> 
+   </ul> 
+   <p>There is actually another aspect here, for example the Enumeration data type:</p> 
+   <ul> 
+    <li>The data type is Enumeration</li> 
+    <li>The value type would probably be String</li> 
+    <li>The render type is Enumeration (according to the table below)</li> 
+    <li>There's a "sub render type" that determines the component that is used for picking the value (dropdown,. radio button group, ...)</li> 
+   </ul> 
+   <p>How can we formalize/document this? I guess the "sub render type" is configured as field properties, so it should probably go there.</p> 
+  </draft-comment> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-03-19T06:29:49.821-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>what sort of field properties are used to configure the sub-render-type?</p> 
+   <p>is this related to the Note after the list/table (about multi-fields)?</p> 
+  </draft-comment> 
+  <ul> 
+   <li><span class="code">fieldIcon</span><br /> <a href="/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon#availableIcons">CoralUI icon</a> to represent the data type in the model editor UI. </li> 
+   <li><span class="code"><a href="#fieldproperties">fieldProperties</a></span><br /> An array that represents the configuration properties for each data type.<br /> </li> 
+   <li><span class="code">fieldResourceType</span><br /> The Sling resource type used to render the data type in a content fragment. For data types that can be rendered in different ways (for example, as simple text input and/or multiline text input), this property must be created as an array, containing all resource types. The <span class="code">renderasfield</span> property will be added automatically to <span class="code">fieldProperties</span> to let the user choose the resource type they need to add to the model,<br /> </li> 
+   <li><span class="code">fieldPropResourceType</span><br /> The Sling resource type used to render the default property for the data type.<br /> For example, for the data type: 
+    <ul> 
+     <li>Single line text, the <span class="code">fieldPropResourceType</span> would be a <span class="code">textfield</span> component</li> 
+     <li>Boolean, the <span class="code">fieldPropResourceType</span> would be a <span class="code">checkbox</span> component</li> 
+    </ul> </li> 
+   <li><span class="code">fieldViewResourceType</span><br /> The Sling resource type used to render the data type in the preview, when constructing the model. When the user drags the data type to the left side of the model editor, the <span class="code">fieldViewResourceType</span> property represents the component that is rendered there. This is used for cases where you do not want to render the full component, but only want to render a substitute that minimizes the overhead to the model editor.</li> 
+   <li><span class="code">fieldTitle</span><br /> Property that defines the title of this data type. For example, <strong>Single line text</strong> for a <span class="code">textfield</span> component, <strong>Multi line text</strong> for a multifield component.</li> 
+   <li><span class="code">valueType</span><br /> This is the type of value that the data type returns when it is stored internally. See <a href="#mappings">Mappings</a>.<br /> </li> 
+   <li><span class="code">renderType</span><br /> This is an internal representation of the data type. It connects the <span class="code">valueType</span> to a UI component. See <a href="#mappings">Mappings</a>.<br /> </li> 
+   <li><span class="code">listOrder</span><br /> Each data type needs a value that represents its order in the list. This is used to assure the correct ordering of the various fields (added/moved by drag and drop) when saving the model editor. This value must be an integer and it is recommended to assign the number in an ascending, ordered manner. When creating a new data type it is best to assign the value based on the last data type in the list (the highest value of <span class="code">listOrder</span> value present in the data types).</li> 
+  </ul> 
+  <h4>Mappings</h4> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Data Type<br /> </td> 
+     <td>Value Type<br /> </td> 
+     <td>Render Type</td> 
+    </tr> 
+    <tr> 
+     <td>Single line text</td> 
+     <td>string</td> 
+     <td>text-single</td> 
+    </tr> 
+    <tr> 
+     <td>Multi line text</td> 
+     <td>string, with content type<br /> </td> 
+     <td>text-multi</td> 
+    </tr> 
+    <tr> 
+     <td>Number (integer/long)<br /> </td> 
+     <td>long</td> 
+     <td>number</td> 
+    </tr> 
+    <tr> 
+     <td>Number (double/float)</td> 
+     <td>double</td> 
+     <td>number</td> 
+    </tr> 
+    <tr> 
+     <td>Boolean</td> 
+     <td>boolean</td> 
+     <td>boolean</td> 
+    </tr> 
+    <tr> 
+     <td>Date and time</td> 
+     <td>calendar</td> 
+     <td>time</td> 
+    </tr> 
+    <tr> 
+     <td>Enumeration</td> 
+     <td>string/long</td> 
+     <td>enumeration</td> 
+    </tr> 
+    <tr> 
+     <td>Tags</td> 
+     <td>string</td> 
+     <td>tags</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>Some types (for example, <span class="code">string</span>, <span class="code">long</span>, amongst others) may be multi-valued. In this case, the component used for rendering and editing is typically wrapped by a multifield component (<span class="code">granite/ui/components/coral/foundation/form/multifield</span>). The exception is tags, where the editing component is responsible for rendering it correctly.</p> 
+  </note> 
+  <h3>fieldProperties</h3> 
+  <p>The configuration properties for each data type. Values for <span class="code">fieldProperties</span>:<br /> </p> 
+  <ul> 
+   <li><span class="code">base</span><br /> This is the basis for all <span class="code">fieldProperties</span> components. The definition is situated under <span class="code">/libs/dam/cfm/models/editor/components/datatypeproperties/base</span>.<br /> It contains the variable <span class="code">fieldRoot</span>, which subsequent <span class="code">fieldProperties</span> can use when creating inputs to retrieve the correct path.<br /> Example: to get the correct path for a <strong>Field Label</strong> you will the need the key to identify the component this belongs to, the input for this field should be <span class="code">fieldRoot</span> + <span class="code">&amp;lt;<em>fieldLabel</em>&amp;gt;</span></li> 
+   <li><span class="code">checkboxfields</span><br /> This component adds the default checkbox for the <span class="code">Boolean</span> data type, as well as the Sling parameters <span class="code">checked@Delete</span> and <span class="code">checked@TypeHint</span>.</li> 
+   <li><span class="code">datepickerfields</span><br /> Component that adds the hidden inputs needed for the date picker component to function. Includes creating the properties <span class="code">defaultDateField</span>, <span class="code">displayedFormat</span>, <span class="code">emptyText</span>, <span class="code">valueFormat</span>, <span class="code">minDate</span> and <span class="code">maxDate</span>.</li> 
+   <li><span class="code">datetimepickerfields</span><br /> This adds a select field for <span class="kbd">Date&amp;Time</span> data type to distinguish between <span class="kbd">Date</span> and <span class="kbd">Date&amp;Time</span> options.</li> 
+   <li><span class="code">datevaluefield</span><br /> This adds a datepicker to the properties, so that a user can select a default for the <span class="kbd">Date&amp;Time</span> data type.</li> 
+   <li><span class="code">descriptionfield</span><br /> This component adds a multline text field that represents the description of the currently selected component in the multi-line editor. It is automatically added by the Model Editor renderer at the end of each data type properties.</li> 
+   <li><span class="code">labelfield</span><br /> Component that adds a <span class="code">textfield</span> input that adds the field label for a data type that can have field labels.</li> 
+   <li><span class="code">maptopropertyfield</span><br /> This component adds the <span class="code">Name</span> field in the properties, giving an identifier to the selected component of a data type. It should be present in all data types.</li> 
+   <li><span class="code">maxlengthfield</span><br /> It is used to add the <span class="code">maxLength</span> property for use with data types that accept this property. For example, with <strong>Single Line Text</strong>, <strong>Number</strong>, etc.</li> 
+   <li><span class="code">multieditorfield</span><br /> This adds all the hidden field necesarry for the multi-line editor to work, which is represented by the <strong>Multi Line Text</strong> data type.</li> 
+   <li><span class="code">mvfields</span><br /> Component that adds all the hidden fields needed for a multifield component to work. For example, for the second option of a <strong>Single Line Text</strong> data type. This should be added for any component that is rendered as a multifield.</li> 
+   <li><span class="code">numbertypefield</span><br /> Select option for the <strong>Number</strong> data type that selects between <strong>Integer</strong> or <strong>Fraction</strong> for the <strong>Number</strong> data type.</li> 
+   <li><span class="code">numbervaluefield</span><br /> A <span class="code">numberfield</span> default value selector for the <strong>Number</strong> <span class="code">type.options</span> This adds the options input for the <strong>Enumeration</strong> data type, which is used to determine the values for the select box component.</li> 
+   <li><span class="code">placeholderfield</span><br /> This is a textfield that acts as the input for the <span class="code">emptyText</span> property of a component. This should be used by all data types that accept a placeholder (that is not very complicated; e.g. <strong>Single Line Text</strong>, <strong>Number</strong>, etc).</li> 
+   <li><span class="code">renderasfield</span><br /> This is the component that is rendered automatically when several <span class="code">fieldResourceTypes</span> are present in the property of the data type node.</li> 
+   <li><span class="code">requiredfield</span><br /> This is a checkbox that represents the <span class="code">required</span> property for a component. Because most components accept the <span class="code">required</span> field, this field can be used for most data types.</li> 
+   <li><span class="code">tagsfields</span><br /> Components that adds the inputs necessary for a <span class="code">tagfield</span> component to be rendered, used by the <strong>Tags</strong> data type.</li> 
+   <li><span class="code">tagsroot</span><br /> A path picker used by the <strong>Tags</strong> data type to set the root path for <span class="code">tagsfield</span> component.</li> 
+   <li><span class="code">textfield</span><br /> Used by the <span class="code">Boolean</span> data type to set the field label of the checkbox defined by this data type.</li> 
+   <li><span class="code">textvaluefield</span><br /> The default value property for <strong>Single Line Text</strong> data type.</li> 
+  </ul> 
+  <h2>Creating your Data Type</h2> 
+  <p>To create your own data type you need to:</p> 
+  <ul> 
+   <li><a href="#creatingthenodestructure">Create the Node Structure</a></li> 
+   <li><a href="#definingthepropertiesforyourdatatype">Define the Properties for your Data Type</a></li> 
+  </ul> 
+  <p>You can then <a href="#usingyourdatatype">use your data type</a>.</p> 
+  <p>You can also <a href="#creatingyourownfieldpropertiesproperty">create your own <span class="code">fieldProperties</span></a>.</p> 
+  <h3>Creating the Node Structure</h3> 
+  <draft-comment color="blue" lastModifiedBy="sgrimm" lastModifiedDate="2018-03-14T05:53:00.993-0400" prevFirstName="Stefan" prevLastName="Grimm" type="remark"> 
+   <p>What about /conf/... ?</p> 
+  </draft-comment> 
+  <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-03-19T06:22:24.236-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>all input welcome</p> 
+  </draft-comment> 
+  <p>The node structure must be created under <span class="code">/apps</span> in order to overlay the data types. If it does not exist already you must create:</p> 
+  <ol> 
+   <li><p>If it does not exist already you must create:<br /> </p> 
+    <codeblock gutter="true" class="syntax plain">
+      +&amp;nbsp;apps&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;+&amp;nbsp;settings!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;dam&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;cfm&amp;nbsp;(cq:Page)&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;models&amp;nbsp;(nt:folder)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;formbuilderconfig&amp;nbsp;(sling:folder)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;datatypes&amp;nbsp;(nt:unstructured)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;items&amp;nbsp;(nt:unstructured)!!discoiqbr!! 
+    </codeblock> 
+    <note> 
+     <p><span class="code">/apps/settings/dam</span> should already exist.</p> 
+     <p><span class="code">/cfm/models/formbuilderconfig/datatypes/items</span> may need to be created with the nodetypes specified.</p> 
+    </note></li> 
+   <li><p>Under <span class="code">/items</span> you can add new node(s) to represent your new data type(s):</p> 
+    <ul> 
+     <li>Node Type: <span class="code">nt:unstructured</span></li> 
+     <li><span class="code"></span>Properties: see <a href="#definingthepropertiesforyourdatatype">Defining the Properties for your Data Type</a></li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Defining the Properties for your Data Type</h3> 
+  <ol> 
+   <li><p>Determine values for the following <a href="#datatypeproperties">data type properties</a> that are required for your data type:</p> 
+    <ul> 
+     <li><span class="code">fieldResourceType</span></li> 
+     <li><span class="code">fieldPropResourceType</span></li> 
+     <li><span class="code">fieldViewResourceType</span></li> 
+    </ul> <p>These define how the components for your data type will be rendered. They can be any component; including your own custom components (need a matching set of <span class="code"><a href="#fieldproperties">fieldProperties</a></span>).</p> <p>Define these properties, with the approriate values, on the node for your data type.<br /> </p> </li> 
+   <li><p>Determine the <span class="code"><a href="#fieldproperties">fieldProperties</a></span> to be used. This is dependent on the attributes or properties that your <span class="code">fieldResourceType</span> needs.</p> <p>For example, a <span class="code">granite/ui/components/coral/foundation/form/textfield </span>should have a <strong>Label Name</strong>, a <strong>Maximum Length</strong>, a <strong>Placeholder Text</strong> and a <strong>Default Value</strong> property.</p> <p>You can choose from the out-of-the-box <a href="#fieldproperties">fieldProperties</a>, or <a href="#creatingyourownfieldproperties">create your own properties</a>.</p> <p>Define these properties, with the approriate values, on the node for your data type.</p> </li> 
+   <li><p>Determine values for the following <a href="#datatypeproperties">data type properties</a>:</p> 
+    <ul> 
+     <li><span class="code">fieldIcon</span></li> 
+     <li><span class="code">fieldTitle</span></li> 
+     <li><span class="code">renderType</span><br /> </li> 
+     <li><span class="code">valueType</span><br /> </li> 
+     <li><span class="code">listOrder</span></li> 
+    </ul> <p>Define these properties, with the approriate values, on the node for your data type.<br /> </p> </li> 
+  </ol> 
+  <h3>Using your Data Type</h3> 
+  <p>After you save this node structure, with all properties applied, you can open any model with the model editor and see, and use, your new data type.</p> 
+  <h2>Creating your own fieldProperties Property</h2> 
+  <p>You can choose from the out-of-the-box <a href="#fieldproperties">fieldProperties</a>, or create your own:</p> 
+  <ol> 
+   <li><p>Create a component under:</p>  <p>If the path does not exist, you can create it using <span class="code">nt:folder</span> nodes.</p> 
+    <ol> 
+     <li>To have access to the variables, this component should extend:<br /> <span class="code">/libs/dam/cfm/models/editor/components/datatypeproperties/base</span><em> </em><br /> </li> 
+     <li>The component should be able to be included through:<br /> <span class="code">sling:include</span></li> 
+     <li>This component should either render a field (if a user needs to introduce data) or a hidden input with the properties needed by your data type. For example, a multifield component requires a child node with the type of field it should duplicate, therefore there should be an input that can create (through sling POST mechanics) a child node of a specific type.</li> 
+    </ol> </li> 
+   <li>  
+    <draft-comment color="green" lastModifiedBy="aheimoz" lastModifiedDate="2018-03-19T05:38:34.890-0400" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+     <p>fieldProperties on which node?</p> 
+    </draft-comment>
+    <draft-comment color="green" lastmodifiedby="aheimoz" lastmodifieddate="2018-02-19T08:25:35.298-0500" prevfirstname="Alison" prevlastname="Heimoz" type="remark"> 
+     <p>base name as in the name of the base node name?</p> 
+    </draft-comment><p>The base name of this component should be added to <span class="code">fieldProperties</span>.</p> </li> 
+   <li><p>Repeat for all the properties you need.</p> </li> 
+  </ol> 
+ </body> 
+</html>

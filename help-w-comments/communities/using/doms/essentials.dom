@@ -1,0 +1,116 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="51822f00-51c5-46d5-b0e5-ac0d618664b1" name="jcr:predecessors" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Component, Function and Feature Essentials" name="navTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/developing;/content/help/en/experience-manager/6-4/communities/morehelp/developing" name="moreHelpPaths" />
+  <meta content="2018-05-17T05:54:22.935-0400" name="locHandOffDate" />
+  <meta content="2018-05-17T05:54:22.936-0400" name="cq:lastModified" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2c2d00df-1d52-4bac-b526-d05ce48c9a15" name="jcr:uuid" />
+  <meta content="2017-12-01T19:01:00.772-0500" name="jcr:created" />
+  <meta content="Component, Function and Feature Essentials" name="seoTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-04-03T07:40:25.557-0400" name="publishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Component, Function and Feature Essentials" name="jcr:title" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/essentials.html" name="publishExternalURL" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="How community sites, templates, and groups function" name="seoDescription" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-31T16:33:40.294-0400" name="firstPublishExternalDate" />
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials" name="qaNotes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-04-03T07:40:25.557-0400" name="lastPublishExternalDate" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-04-03T07:40:25.557-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-04-03T07:40:26.815-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+ </head>
+ <body>
+  <p>AEM Communities features require site visitors to become members and login to the <a href="../../communities/using/overview.md#communitiessites">community site</a> before being able to post content. Thus, <a href="../../communities/using/sites.md">community site templates</a>, from which a community site is <a href="../../communities/using/sites-console.md">created</a>, are designed to include a login feature as well as user profiles, messaging, search, moderation, and translation.</p> 
+  <p>A community site will support members creating community groups when the <a href="../../communities/using/functions.md#groupsfunction">community groups function</a> is included in the selected community site template.</p> 
+  <p>Following are links to essential information for Communities components, functions and features.</p> 
+  <h3>Base Components</h3>
+  <ul> 
+   <li><a href="../../communities/using/essentials-comments.md">Comments</a></li> 
+   <li><a href="../../communities/using/reviews-basics.md">Reviews</a></li> 
+   <li><a href="../../communities/using/tally.md">Tally</a> 
+    <ul> 
+     <li><a href="../../communities/using/essentials-liking.md">Liking</a></li> 
+     <li><a href="../../communities/using/rating-basics.md">Rating</a></li> 
+     <li><a href="../../communities/using/essentials-voting.md">Voting</a></li> 
+     <li><i>Poll (not currently available)</i></li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Components with Functions</h3>
+  <ul> 
+   <li><a href="../../communities/using/essentials-activities.md">Activity Streams</a></li> 
+   <li><a href="../../communities/using/essentials-assignments.md">Assignments</a></li> 
+   <li><a href="../../communities/using/blog-developer-basics.md">Blog</a> (<span class="code">Journal</span>)</li> 
+   <li><a href="../../communities/using/calendar-basics-for-developers.md">Calendar</a></li> 
+   <li><a href="../../communities/using/catalog-developer-essentials.md">Catalog</a></li> 
+   <li><a href="../../communities/using/essentials-featured.md">Featured Content</a></li> 
+   <li><a href="../../communities/using/essentials-file-library.md">File Library</a></li> 
+   <li><a href="../../communities/using/essentials-forum.md">Forum</a></li> 
+   <li><a href="../../communities/using/essentials-groups.md">Groups</a></li> 
+   <li><a href="../../communities/using/ideation.md">Ideation</a></li> 
+   <li><a href="../../communities/using/leaderboard.md">Leaderboard</a></li> 
+   <li><a href="../../communities/using/qna-essentials.md">Questions and Answers</a><span class="code"> (QnA)</span></li> 
+  </ul> 
+  <h3>Features</h3>
+  <ul> 
+   <li><a href="../../communities/using/clientlibs.md">Client Libraries</a></li> 
+   <li><a href="../../communities/using/sites-for-developers.md">Community Sites</a></li> 
+   <li><a href="../../communities/using/events.md">Component OSGi Events</a></li> 
+   <li><a href="../../communities/using/sideloading.md">Component Sideloading</a></li> 
+   <li><a href="../../communities/using/essentials-messaging.md">Messaging</a></li> 
+   <li><a href="../../communities/using/rte.md">Rich Text Editor</a></li> 
+   <li><a href="../../communities/using/configure-scoring.md">Scoring and Badges</a></li> 
+   <li><a href="../../communities/using/search-implementation.md">Search</a></li> 
+   <li><a href="../../communities/using/essentials-socialgraph.md">Social Graph</a></li> 
+   <li><a href="../../communities/using/srp-and-ugc.md">Storage Resource Provider</a> <span class="code">(SRP)</span></li> 
+   <li><a href="../../communities/using/tag.md">Tagging</a></li> 
+  </ul> 
+  <draft-comment type="draft">
+   <p>Need to add :</p> 
+   <ul> 
+    <li>Moderation Dashboard</li> 
+    <li>Members &amp; Login<br /> 
+     <ul> 
+      <li>User Details</li> 
+      <li>User Profile</li> 
+      <li>Connect</li> 
+     </ul> </li> 
+    <li>Pages</li> 
+   </ul> 
+  </draft-comment>
+  <h3>Javadocs</h3>
+  <p>The <a href="../../sites/developing/using/reference-materials.md">online javadocs</a> reflect the APIs available in the AEM 6.3 release.<br /> Communities APIs are in <span class="code">com.adobe.cq.social.*</span> packages.</p> 
+  <p>For each <a href="../../communities/using/deploy-communities.md#latestfeaturepack">feature pack</a>, a javadoc jar is made available. For more information, visit <a href="../../communities/using/maven.md#javadocs">Using Maven for Communities</a>.</p> 
+  <h3>Additional Information</h3>
+  <ul> 
+   <li><a href="../../communities/using/scf.md">Social Component Framework (SCF)</a>
+    <ul> 
+     <li><a href="../../communities/using/client-customize.md">Client-side Customizations</a></li> 
+     <li><a href="../../communities/using/server-customize.md">Server-side Customizations</a></li> 
+     <li><a href="../../communities/using/srp.md">Storage Resource Provider Overview</a></li> 
+    </ul> </li> 
+   <li><a href="../../communities/using/code-guide.md">Coding Guidelines</a></li> 
+   <li><a href="../../communities/using/tutorials.md">Tutorials</a></li> 
+   <li><a href="../../communities/using/troubleshooting.md">Troubleshooting</a><br /> </li> 
+  </ul> 
+ </body>
+</html>

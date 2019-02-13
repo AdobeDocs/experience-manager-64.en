@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-05-11T10:02:03.728-0400" name="cq:lastModified" />
+  <meta content="ef4f5609-5480-46a8-8c4d-ed7bd6473848" name="jcr:uuid" />
+  <meta content="Follow this page to learn about app definitions, that are a way to identify what spaces and other configurations are appropriate for the app. App definitions allows the user to add space, without having to recompile the app. " name="seoDescription" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="987d2c3a-3437-49b7-898d-d6b176fe3cae" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:authoring-adobe-phonegap-enterprise" name="cq:tags" />
+  <meta content="2017-12-13T19:01:05.655-0500" name="jcr:created" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap-app-definitions.html" name="publishExternalURL" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-05-04T05:13:31.822-0400" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-05-04T05:13:31.531-0400" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-05-04T05:13:31.531-0400" name="lastPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-05-04T05:13:31.531-0400" name="topicBrowsingSortDate" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/authoring-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/authoring-adobe-phonegap-enterprise" name="moreHelpPaths" />
+  <meta content="2017-10-31T16:26:18.941-0400" name="firstPublishExternalDate" />
+  <meta content="/content/docs/en/aem/6-3/author/mobile-apps/phonegap/app-definitions" name="qaNotes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="App definitions" name="seoTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-05-11T10:02:03.727-0400" name="locHandOffDate" />
+  <meta content="User" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="App definitions" name="jcr:title" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <p>App definitions are a way to identify what spaces and other configurations are appropriate for the app. App definitions allows the user to add space, without having to recompile the app. The app definition is updated and that will include the information for any new spaces.</p> 
+  <note>
+   <p>App definitions are tied to an app, therefore they require the creation of an App in the AEM Mobile App console.</p> 
+  </note>
+  <h3>Creating a New App definition</h3>
+  <ol>
+   <li><p>Choose <strong>Mobile</strong> from the AEM Navigation Console.</p> <img imageRotate="0" src="assets/chlimage_1-186.png" /></li>
+   <li><p>Choose <strong>Apps</strong> from <strong>Mobile </strong>and click <strong>Create.</strong></p> <p>Choose <strong>App</strong> to and enter details to create your your new app.</p> <img imageRotate="0" src="assets/chlimage_1-11.gif" /></li>
+  </ol>
+  <h3>The Next Steps</h3>
+  <p>Once you are familiar with App Definitions, learn more about the following authoring resources:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/phonegap-import-hybrid-app.md">Import an existing hybrid app</a></li> 
+   <li><a href="../../mobile/using/phonegap-create-new-app.md">Create a New App using Create App Wizard</a></li> 
+   <li><a href="/mobile/using/content-as-a-service">Content Services</a></li> 
+  </ul> 
+  <h3>Additional Resources</h3>
+  <p>To learn about the roles and responsibilities of an Adminstrator and Developer, see the resources below:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/developing-in-phonegap.md">Developing for Adobe PhoneGap Enterprise with AEM</a></li> 
+   <li><a href="../../mobile/using/administer-phonegap.md">Administering Content for Adobe PhoneGap Enterprise with AEM</a></li> 
+  </ul> 
+ </body>
+</html>

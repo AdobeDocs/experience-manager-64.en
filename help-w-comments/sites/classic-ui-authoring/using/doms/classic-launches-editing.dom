@@ -1,0 +1,89 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="ecd7a803-c6b8-4911-8c75-c089d2664027" name="jcr:uuid" /> 
+  <meta content="Editing Launches" name="navTitle" /> 
+  <meta content="2017-12-01T19:03:43.068-0500" name="jcr:created" /> 
+  <meta content="2018-04-03T06:43:55.161-0400" name="lastPublishExternalDate" /> 
+  <meta content="Editing Launches" name="jcr:title" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="When a launch has been created for a page (or set of pages) you can edit the content in the launch copy of the page(s)." name="seoDescription" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-launches-editing.html" name="publishExternalURL" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/site-page-features/launches/editing-launches" name="qaNotes" /> 
+  <meta content="d011626d-f226-4dae-9bcf-9774d5db233c" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-31T16:19:20.053-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:site-features" name="cq:tags" /> 
+  <meta content="2018-04-03T06:43:55.161-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Editing Launches" name="seoTitle" /> 
+  <meta content="/content/docs/en/aem/6-0/author/site-page-features/launches" name="legacyPath" /> 
+  <meta content="2018-04-19T10:23:15.954-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-03T06:43:55.161-0400" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-19T10:23:15.956-0400" name="cq:lastModified" /> 
+  <meta content="2018-10-27T23:46:19.063-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+ </head> 
+ <body> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:06:04.835-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>6.2</p> 
+   <ul> 
+    <li>edit launch content to add/remove pages</li> 
+    <li>any other functionality in the launch console (touch)?</li> 
+   </ul> 
+  </draft-comment> 
+  <h2>Editing Launch Pages</h2> 
+  <p>When a launch has been created for a page (or set of pages) you can edit the content in the launch copy of the page(s).</p> 
+  <ol> 
+   <li><p>Open the page for editing.</p> </li> 
+   <li><p>In Sidekick, select the <strong>Versioning</strong> tab, then expand the <strong>Launches</strong> group. The title of the launch that is currently being edited uses a bold font.</p> <img imageRotate="0" src="assets/chlimage_1-16.jpeg" /></li> 
+   <li><p>Select the launch that you want to work on and then click <strong>Switch</strong>.</p> </li> 
+   <li><p>Start editing.</p> 
+    <note> 
+     <p>You can use the <strong>Page</strong> tab of sidekick to perform actions such as <strong>Create Child Page</strong>, amongst others.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h2>Editing a Launch Configuration</h2> 
+  <p>After you create a launch you can change the launch name and the date of the launch. You can also specify an image to associate with the launch.</p> 
+  <ol> 
+   <li><p>Open the launches administration page (<a href="http://localhost:4502/libs/launches/content/admin.html">http://localhost:4502/libs/launches/content/admin.html</a>).<br /> </p> </li> 
+   <li><p>Select the required launch and click <strong>Edit</strong> to open the dialog:</p> 
+    <ul> 
+     <li>In the <strong>General</strong> tab, you can edit: 
+      <ul> 
+       <li><strong>Title</strong><br /> </li> 
+       <li><strong>Live Date</strong>: this is equivalent to the launch date<br /> </li> 
+       <li><strong>Production Ready</strong></li> 
+      </ul> See <a href="../../../sites/authoring/using/launches.md#main-pars-title-6">Launches - the Order of Events</a> for information about the purpose and interaction of these fields.</li> 
+     <li>In the <strong>Image</strong> tab, you can upload an image file.</li> 
+    </ul> </li> 
+   <li><p>Click <strong>Save</strong>.</p> </li> 
+  </ol> 
+  <h2>Discovering the Launch Status of a Page</h2> 
+  <p>When you are editing a launch of a page, information about the launch appears at the bottom of the <strong>Versioning</strong> tab of Sidekick:</p> 
+  <ul> 
+   <li>The name of the launch.</li> 
+   <li>The time since the last change.</li> 
+   <li>The user who performed the last change.</li> 
+   <li>The status of the <strong>Production Ready</strong> flag (orange=not set; green=set).<br /> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-211.png" /> 
+ </body> 
+</html>

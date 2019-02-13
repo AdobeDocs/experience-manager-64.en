@@ -1,0 +1,169 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-11-30T06:13:33.410-0500" name="cq:lastModified" />
+  <meta content="824" name="acrolinxWords" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/aem_forms_components_admin_5e12de0b318c6865_2394_report.xml" name="acrolinxReportURL" />
+  <meta content="2016-05-31T07:04:49.171-0400" name="acrolinxDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="Learn how to use AEM Forms Components and Component properties to create fields to let your customers effectively provide data. " name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="DO NOT PUBLISH - AEM Forms Components" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="/content/help/en" name="pageCreatedAt" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="sashanka" name="contentOwner" />
+  <meta content="b2789290-d2ce-4500-8b80-df383cf1e401" name="jcr:uuid" />
+  <meta content="7645546e-c5c6-401a-a5fd-65e2240bf83a" name="jcr:predecessors" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;content_type:reference" name="cq:tags" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="true" name="preview" />
+  <meta content="2019-02-11T20:42:45.189-0500" name="jcr:created" />
+  <meta content="50" name="acrolinxSentences" />
+ </head>
+ <body>
+  <p>The adaptive form components let you create fields in which your customers enter information. Properties of a component let you customize the usability of a component. For example, you add a text box component in your form, and it adds a text field. You can use the properties such as title, required field message, and default value to customize how a user interacts with the field and provides details. </p> 
+  <p>All the AEM Forms components that are available out-of-the-box are described below. Click a component to see how to use it. </p> 
+  <h2>Adaptive Form Footer</h2>
+  <p>Drops a page footer in the adaptive form layout. Includes a rich text out-of-the-box that you can edit in the form. Typically, a footer includes the copyright information of a company. When you tap the text component of the footer, you see the component toolbar. Tap <img src="assets/cmppr.png" /> to customize the properties of the text. Properties are listed below:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <th>Property</th> 
+     <th>Description</th> 
+    </tr>
+    <tr>
+     <td>Element Name</td> 
+     <td>The name of the field. You can use Element Name for identifying the field and use value in it. For example, you have field with the name age. You can use <span class="code">age.value</span> to fetch value stored in the field.<br /> </td> 
+    </tr>
+    <tr>
+     <td>Bind Reference</td> 
+     <td>For XSD based adaptive forms, bind reference property lets you bind values entered in a field to a node in a data model. For example, a value "21" is stored in the field agebox of a form called <span class="code">application</span>. You want to bind the field <span class="code">agebox</span> to the node <span class="code">age</span> in the data model. To bind agebox field to age node, specify the bind reference: <span class="code">/application/age</span></td> 
+    </tr>
+    <tr>
+     <td>Default Value</td> 
+     <td>The default text that appears in the footer section. </td> 
+    </tr>
+    <tr>
+     <td>CSS Class</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>Exclude from Document of Record</td> 
+     <td>Enable this property to exclude the footer from appearing in the Document of Record. </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Adaptive Form Header</h2>
+  <p> Adaptive form header component lets you add a page header that you can use to provide the company logo and name. When you drop a header, you can select the logo image and text sub-components, and use properties to customize the header.</p> 
+  <p>When you select the logo image component and tap <img src="assets/cmppr.png" />, you can use the following properties to customize the logo image:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <th>Property</th> 
+     <th>Description</th> 
+    </tr>
+    <tr>
+     <td>Element Name</td> 
+     <td>The name of the field. You can use Element Name for identifying the field and use value in it. For example, you have field with the name <span class="code">age</span>. You can use <span class="code">age.value</span> to fetch value stored in the field.</td> 
+    </tr>
+    <tr>
+     <td>Title</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>Description</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>Image</td> 
+     <td>Lets you select the logo image that you want to show in the header. </td> 
+    </tr>
+    <tr>
+     <td>Alternate Text<br /> </td> 
+     <td>Text that users see when they hover over the logo image.<br /> </td> 
+    </tr>
+    <tr>
+     <td>CSS Class</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>Exclude from Document of Record</td> 
+     <td>Enable this property to exclude the component from appearing in the document of record. </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <p>When you select the text sub-component and tap <img src="assets/cmppr.png" />, you can see the following properties to customize the header text:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <th>Property</th> 
+     <th>Description</th> 
+    </tr>
+    <tr>
+     <td>Element Name</td> 
+     <td>The name of the field. You can use Element Name for identifying the field and use value in it. For example, you have field with the name age. You can use <span class="code">age.value</span> to fetch value stored in the field.<br /> </td> 
+    </tr>
+    <tr>
+     <td>Bind Reference</td> 
+     <td>For XSD based adaptive forms, bind reference property lets you bind values entered in a field to a node in a data model. For example, a value "21" is stored in the field agebox of a form called <span class="code">application</span>. You want to bind the field <span class="code">agebox</span> to the node <span class="code">age</span> in the data model. To bind agebox field to age node, specify the bind reference: <span class="code">/application/age</span></td> 
+    </tr>
+    <tr>
+     <td>Default Value</td> 
+     <td>The default text that appears in the footer section. </td> 
+    </tr>
+    <tr>
+     <td>CSS Class</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>Exclude from Document of Record</td> 
+     <td>Enable this property to exclude the component from appearing in the Document of Record. </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Adaptive Form Title</h2>
+  <p>Lets you provide a title for your adaptive form, that your customers use to identify and differentiate from other adaptive forms. You can use the following properties to customize the form title: </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <th>Property</th> 
+     <th>Description</th> 
+    </tr>
+    <tr>
+     <td>Element Name</td> 
+     <td>The name of the field. You can use Element Name for identifying the field and use value in it. For example, you have field with the name age. You can use <span class="code">age.value</span> to fetch value stored in the field.<br /> </td> 
+    </tr>
+    <tr>
+     <td>Bind Reference</td> 
+     <td>For XSD based adaptive forms, bind reference property lets you bind values entered in a field to a node in a data model. For example, a value "21" is stored in the field agebox of a form called <span class="code">application</span>. You want to bind the field <span class="code">agebox</span> to the node <span class="code">age</span> in the data model. To bind agebox field to age node, specify the bind reference: <span class="code">/application/age</span></td> 
+    </tr>
+    <tr>
+     <td>Default Value</td> 
+     <td>The default text that appears in the footer section. </td> 
+    </tr>
+    <tr>
+     <td>CSS Class</td> 
+     <td> </td> 
+    </tr>
+    <tr>
+     <td>Exclude from Document of Record</td> 
+     <td>Enable this property to exclude the component from appearing in the Document of Record. </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Chart</h2>
+  <h2>Date Input Field</h2>
+  <h2>Document Fragment</h2>
+ </body>
+</html>

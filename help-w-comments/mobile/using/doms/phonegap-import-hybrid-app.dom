@@ -1,0 +1,70 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Import an existing hybrid app" name="jcr:title" />
+  <meta content="2017-10-31T16:26:02.941-0400" name="firstPublishExternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/using/phonegap-adding-content-to-imported-app" name="redirectTarget" />
+  <meta content="Import an existing hybrid app" name="seoTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/authoring-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/authoring-adobe-phonegap-enterprise" name="moreHelpPaths" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="2018-05-04T05:13:41.010-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="9e8107cf-58d7-4207-bc07-bfe406e44927" name="jcr:predecessors" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:authoring-adobe-phonegap-enterprise" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="A sample app has been created that demonstrates all of the new features in AEM Mobile to support migrating an existing PhoneGap app into AEM as well as valid app structure." name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="User" name="contentOwner" />
+  <meta content="2018-05-04T05:13:41.010-0400" name="lastPublishExternalDate" />
+  <meta content="ec69bb0d-1eb9-4f96-820b-ff9fa65f34e9" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-05-04T05:13:41.010-0400" name="publishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/content/docs/en/aem/6-3/author/mobile-apps/phonegap/import-an-existing-hybrid-app" name="qaNotes" />
+  <meta content="2018-05-11T10:03:05.289-0400" name="cq:lastModified" />
+  <meta content="2018-05-11T10:03:05.289-0400" name="locHandOffDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-12-13T19:01:06.065-0500" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-05-04T05:13:41.179-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap-import-hybrid-app.html" name="publishExternalURL" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <h3>The Hybrid App Sample</h3> 
+  <p>A <a href="https://github.com/Adobe-Marketing-Cloud-Apps/aem-mobile-hybrid-reference">sample app</a> has been created that demonstrates all of the new features in AEM Mobile to support migrating an existing PhoneGap app into AEM as well as valid app structure.</p> 
+  <h3>Importing a Hybrid App</h3> 
+  <p>This feature is great for bootstrapping an app in AEM and for demos. Proper AEM package management techniques should still be used before moving an app to production. Any existing PhoneGap app that has been zipped up can be imported into AEM Mobile.</p> 
+  <p>The import process is fully automated and takes care of copying the content to the correct location and setting up the correct app instance properties. A new app will also be created if an existing one cannot be found. An existing app will need to have an <strong>app-assets</strong> handler already but this handler will be included with new apps. </p> 
+  <p>Dragging the zipped app onto the AEM Mobile apps catalog will automatically start the import process as shown below.</p> 
+  <p style="font-size: 14px; margin: 10px 0px 0px; padding: 0px; color: rgb(51, 51, 51); font-family: Arial, sans-serif; line-height: 20px; background-color: rgb(255, 255, 255);"> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-41.png" />
+  <h3>The Next Steps</h3>
+  <p>See the following resources to learn more about other authoring roles:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/phonegap-app-details-tile.md">The Manage App Tile</a></li> 
+   <li><a href="../../mobile/using/phonegap-editmetadata.md">Editing App Metadata</a></li> 
+   <li><a href="../../mobile/using/phonegap-app-definitions.md">App Definitions</a></li> 
+   <li><a href="../../mobile/using/phonegap-create-new-app.md">Creating a New App using Create App Wizard</a></li> 
+   <li><a href="/mobile/using/content-as-a-service">Content Services</a><a href="/mobile/using/content-as-a-service"></a></li> 
+  </ul> 
+  <h3>Additional Resources</h3>
+  <p>To learn about the roles and responsibilities of an Adminstrator and Developer, see the resources below:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/developing-in-phonegap.md">Developing for Adobe PhoneGap Enterprise with AEM</a></li> 
+   <li><a href="../../mobile/using/administer-phonegap.md">Administering Content for Adobe PhoneGap Enterprise with AEM</a></li> 
+  </ul> 
+ </body>
+</html>

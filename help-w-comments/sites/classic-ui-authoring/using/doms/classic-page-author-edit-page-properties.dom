@@ -1,0 +1,132 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="bab48b8b-99c7-4069-9d31-c350a99af728" name="jcr:predecessors" /> 
+  <meta content="Editing Page Properties" name="navTitle" /> 
+  <meta content="2018-04-19T10:24:20.567-0400" name="locHandOffDate" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-04-03T06:44:39.609-0400" name="publishExternalDate" /> 
+  <meta content="Editing Page Properties" name="seoTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T06:44:42.082-0400" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-19T10:24:20.569-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Editing Page Properties" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-03T06:44:39.609-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-03T06:44:39.609-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="036f136e-26bb-4572-9546-a58992bad431" name="jcr:uuid" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring" name="moreHelpPaths" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.html" name="publishExternalURL" /> 
+  <meta content="2017-12-01T19:02:47.482-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/page-authoring/editing-page-properties" name="qaNotes" /> 
+  <meta content="Properties of a page can vary depending on the nature of the page. For example some pages might be connected to a live copy while others are not and the live copy information will be available as appropriate." name="seoDescription" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+  <meta content="2017-10-31T16:19:05.728-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+ </head> 
+ <body> 
+  <p>You can define the required properties for a page. These can vary depending on the nature of the page. For example some pages might be connected to a live copy while others are not and the live copy information will be available as appropriate.</p> 
+  <h2>Page Properties</h2> 
+  <p>The properties are distributed across several tabs:</p> 
+  <h3>Basic</h3> 
+  <ul> 
+   <li> <p>The title of the page is shown in various locations. For example, the <strong>Websites</strong> tab list and the <strong>Sites</strong> card/list views.</p> <p>This is a mandatory field.</p> </li> 
+   <li> <p>Here you can add, or remove tags from the page by updating the list in the selection box:</p> 
+    <ul> 
+     <li>After selecting a tag is it listed below the selection box. You can remove a tag from this list using the x.</li> 
+     <li>A completely new tag can be entered by typing the name in an empty selection box.<br /> The new tag will actually be created when you hit enter. The new tag will then be shown in a box, with a small star on the right indicating that it is a new tag.</li> 
+     <li>With the drop-down functionality you can select from existing tags.</li> 
+     <li>An x appears when you mouse-over a tag entry in the selection box; this can be used to remove that tag for this page.</li> 
+    </ul> </li> 
+   <li> <p>A toggle switch to indicate whether the page is shown or hidden in the page navigation.</p> </li> 
+   <li> <p>A title to be used on the page.</p> </li> 
+   <li> <p>You can specify a separate title for use in the navigation (for example, if you want something more concise). If empty, the <strong>Title</strong> will be used.</p> </li> 
+   <li> <p>A subtitle for use on the page.</p> </li> 
+   <li> <p>Your description of the page, its purpose or any other details you want to add.</p> </li> 
+   <li> <p>The date and time at which the published page will be activated. When published this page will be kept dormant until the specified time.</p> <p>Leave these fields empty for pages you want to publish immediately (the normal scenario).</p> </li> 
+   <li> <p>The time at which the published page will be deactivated.</p> <p>Again leave these fields empty for pages you want to publish immediately.</p> </li> 
+   <li> <p>Allows you to enter a vanity URL for this page. That allows you to have a shorter and more expressive URL.</p> <p>For example, if the Vanity URL is set to w<span class="code">elcome </span>to the page identified by the path /<span class="code">v1.0/startpage </span>for the website h<span class="code">ttp://example.com,</span> then h<span class="code">ttp://example.com/welcome </span>would be the vanity URL of h<span class="code">ttp://example.com/content/v1.0/startpage</span></p> 
+    <note> 
+     <p>Vanity URLs:</p> 
+     <ul> 
+      <li>must be unique so you should take care that the value is not already used by another page.</li> 
+      <li>do not support regex patterns.</li> 
+     </ul> 
+    </note></li> 
+   <li> <p>Indicates whether you want the page to use the vanity URL.</p> </li> 
+  </ul> 
+  <h3>Advanced</h3> 
+  <ul> 
+   <li> <p>The page language.</p> </li> 
+   <li> <p>Indicate the page to which this page should automatically redirect.</p> </li> 
+   <li> <p>Indicate the <a href="../../../sites/developing/using/designer.md">design</a> to be used for this page.</p> </li> 
+   <li> <p>Specify an alias to be used with this page.</p> </li> 
+   <li> <p><a href="../../../sites/classic-ui-authoring/using/classic-feature-templates.md#allowingatemplate">Define the list of templates that will be available</a> within this sub-branch.</p> </li> 
+   <li> <p>Enables (or disables) use of <a href="../../../sites/administering/using/cug.md">closed user groups</a> (CUGs).</p> </li> 
+   <li> <p>The page to be used for login.</p> </li> 
+   <li> <p>Groups eligible for login to the CUG.</p> </li> 
+   <li> <p>Realm name for the CUG.</p> </li> 
+   <li> <p>Specify an export configuration.</p> </li> 
+  </ul> 
+  <h3>Thumbnail</h3> 
+  <ul> 
+   <li> <p>Shows the page thumbnail image. You can:<br /> </p> 
+    <ul> 
+     <li><strong>Generate Preview</strong><br /> Generate a preview of the page to use as thumbnail.<br /> </li> 
+     <li><strong>Upload Image</strong><br /> Upload an image to use as thumbnail.</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Cloud Services</h3> 
+  <ul> 
+   <li> <p>Define properties for <a href="../../../sites/developing/using/extending-cloud-config.md">cloud services</a>.</p> </li> 
+  </ul> 
+  <h3>Personalization</h3> 
+  <ul> 
+   <li> <p>Select a <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md">Brand to specify a scope for Targeting</a>.</p> </li> 
+  </ul> 
+  <h3>Permissions</h3> 
+  <ul> 
+   <li><p><strong>Permissions</strong> (touch-optimized UI)</p> <p>View the <a href="../../../sites/administering/using/user-group-ac-admin.md">effective permissions and add new permissions</a>.<br /> </p> </li> 
+  </ul> 
+  <h3>Blueprint</h3> 
+  <ul> 
+   <li> <p>Define properties for a Blueprint page within <a href="../../../sites/administering/using/msm.md">multi-site management</a>. Controls the circumstances under which modifications will be propagated to the Live Copy.</p> </li> 
+  </ul> 
+  <h3>Live Copy</h3> 
+  <ul> 
+   <li> <p>Define properties for a Live Copy page within <a href="../../../sites/administering/using/msm.md">multi-site management</a>. Controls the circumstances under which modifications will be propagated from the Blueprint.</p> </li> 
+  </ul> 
+  <h3>Site Structure</h3> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:06:25.931-0500" type="remark"> 
+   <p>need more info; need links</p> 
+  </draft-comment> 
+  <ul> 
+   <li>Provide links to pages that provide site-wide functionality, such as <strong>Signup Page</strong>, <strong>Offline Page</strong>, amongst others.<br /> </li> 
+  </ul> 
+  <h2>Editing Page Properties</h2> 
+  <h3>Editing Page Properties for a Specific Page</h3> 
+  <p>Page Properties define the various properties of the page, such as titles, when they appear on the website and others.</p> 
+  <ol> 
+   <li><p>Open the page you want to edit.<br /> </p> </li> 
+   <li><p>In the sidekick open the <strong>Page</strong> tab then select <strong>Page Properties...</strong> </p> <p>This opens a dialog with multiple tabs.<br /> </p> </li> 
+   <li><p>Make the changes you require, then click <strong>OK</strong> to save.<br /> </p> </li> 
+  </ol> 
+ </body> 
+</html>

@@ -1,0 +1,75 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-10-31T16:32:05.878-0400" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="6" name="acrolinxSentences" />
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7ca7.2" name="cq:gepId" />
+  <meta content="Log files" name="jcr:title" />
+  <meta content="5794d8ec-159d-404c-a834-8c3d1452be7c" name="jcr:uuid" />
+  <meta content="e7269800-f116-436f-98f0-b9c966efdeaa" name="jcr:predecessors" />
+  <meta content="2016-02-05T03:27:26.346-0500" name="lr_lastModified" />
+  <meta content="light" name="heroGradient" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="2017-12-01T19:04:06.886-0500" name="jcr:created" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-04-26T04:23:18.432-0400" name="locHandOffDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Events such as run-time or startup errors are recorded to the application server log files, which can be  opened using any text editor." name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2016-05-31T07:01:56.757-0400" name="acrolinxDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="2018-04-26T04:23:18.433-0400" name="cq:lastModified" />
+  <meta content="Log files" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="123" name="acrolinxWords" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-04-03T09:10:19.691-0400" name="cq:lastReplicated" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/log_files_admin_5e12de0b318c6865_2336_report.xml" name="acrolinxReportURL" />
+  <meta content="video" name="pageLayout" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-10-31T16:32:05.878-0400" name="lastPublishExternalDate" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="2016-04-20T10:05:42.663-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/log-files.html" name="publishExternalURL" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/maintaining_aem_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+ </head>
+ <body>
+  <p>Events such as run-time or startup errors are recorded to the application server log files. If you have any problems deploying to the application server, you can use the log files to help you find the problem. You can open the log files using any text editor. </p>
+  <p>(JBoss) The following log files are located in the <i>[appserver root]</i>/server/<i>[server]</i>/log directory:</p>
+  <ul>
+   <li><p>boot.log</p></li>
+   <li><p>server.log.<i>[yyyy-mm-dd]</i></p></li>
+   <li><p>server.log</p></li>
+  </ul>
+  <p>(WebLogic) Domain log files are located in the <i>[appserverdomain]</i> directory, and server log files are located in the <i>[appserverdomain]/servers/[appserver name]/logs </i>directory:</p>
+  <ul>
+   <li><p>access.log </p></li>
+   <li><p><i>[appserver name]</i>.log </p></li>
+   <li><p><i>[appserver name]</i>.out.<i>[incremental number]</i></p></li>
+  </ul>
+  <p>(WebSphere) The following log files are located in the <i>[appserver root]</i>/profiles/default/logs/<i>[appserver name]</i> directory:</p>
+  <ul>
+   <li><p>SystemErr.log</p></li>
+   <li><p>SystemOut.log</p></li>
+   <li><p>StartServer.log</p></li>
+  </ul>
+ </body>
+</html>

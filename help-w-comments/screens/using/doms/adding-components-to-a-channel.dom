@@ -1,0 +1,277 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-19T10:27:52.560-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="2018-11-02T16:57:54.178-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-11-02T16:57:54.178-0400" name="lastPublishExternalDate" /> 
+  <meta content="2019-01-15T15:39:04.609-0500" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-11-02T16:57:54.178-0400" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="942ae37d-b15e-47e8-8732-b5d98f9e4903" name="jcr:predecessors" /> 
+  <meta content="Adding Components to a Channel" name="jcr:title" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Follow this page to learn more about adding components to channels in an AEM Screens project." name="seoDescription" /> 
+  <meta content="2018-11-02T16:57:54.196-0400" name="cq:lastReplicated" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/adding-components-to-a-channel.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-11-02T16:57:54.181-0400" name="cq:lastModified" /> 
+  <meta content="2018-01-10T17:01:15.269-0500" name="firstPublishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="8b4dfc90-c46f-4ca6-abe8-497d030f59f7" name="jcr:uuid" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring" name="cq:tags" /> 
+ </head> 
+ <body> 
+  <p>Components are the fundamental elements of the AEM (Adobe Experience Manager) experience. You can use a number of components and add it to your channel in an AEM Screens project.</p> 
+  <h2>Components in AEM Screens</h2> 
+  <p>AEM Screens provide different AEM components that can be used in a Screens project.</p> 
+  <h3>Viewing AEM Screens Components</h3> 
+  <p>Whenever you create an AEM Screens project, you will see a list of default components that can be added to the project.</p> 
+  <p>To view the default components to your Screens project, follow the steps below:</p> 
+  <ol> 
+   <li>Select the channel. For example, <strong>We.Retail In Store</strong> --&amp;gt; <strong>Channels</strong> --&amp;gt; <strong>Idle Channel</strong>.</li> 
+   <li>Click <strong>Edit</strong> from the action bar to open the AEM editor.</li> 
+   <li>Click the <strong>+</strong> icon from the side bar to open the components.</li> 
+   <li>All the components that are included by default in an AEM Screens project displays, as shown in the figure below.</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/screen_shot_2017-12-18at21350pm.png" /> 
+  <h3>Adding a New Component</h3> 
+  <p>AEM provides a number of other components. You can always add other components (not included by default) to your project, given that those are compatible with AEM Screens.</p> 
+  <p>The following example shows the addition of a Livefyre component to a an AEM Screens project:</p> 
+  <ol> 
+   <li>Select the channel where you want to add a new component. For example, <strong>We.Retail In Store</strong> --&amp;gt; <strong>Channels</strong> --&amp;gt; <strong>Idle Channel</strong>.</li> 
+   <li>Click<strong> Edit f</strong>rom the action bar to open the editor.</li> 
+   <li> Select <strong>Design</strong> mode.</li> 
+   <li>Select the entire design editor on the right and click on the settings symbol to open the <strong>ParSys Design</strong> dialog box.</li> 
+   <li>You can select the components that you want to import to your AEM Screens project. The following example shows the the addition of <strong>Livefyre</strong> component to an AEM Screens project. </li> 
+  </ol> 
+  <img imageRotate="0" src="assets/adding_components.gif" /> 
+  <note> 
+   <p>Similarly, you can add any number of other new components that are compatible with AEM Screens to your project.</p> 
+  </note> 
+  <h2>Understanding AEM Screen Components</h2> 
+  <p>The following section explains the AEM Screens components' that you can use in your project.</p> 
+  <note> 
+   <p>To view the properties of any component, select the component and click on the hammer icon to open/view properties.</p> 
+  </note> 
+  <h3>Application</h3> 
+  <p>The <strong>Application</strong> component allows you to add an application to your channel.</p> 
+  <p>Application component has the following properties:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Property</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Application Path</em></strong></td> 
+     <td>Select the absolute path where the application exists.</td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Duration (ms)</em></strong></td> 
+     <td>Select the duration of the application. By default, the duration is set to -1, that means the element runs forever (that is, single page application). Setting the duration value &gt;0, shows the element for the specified duration and then moves on to the next one.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>The following example shows how to embedd an application component along with the preview of its properties:</p> 
+  <img imageRotate="0" src="assets/adding_componentsapplication.gif" /> 
+  <note> 
+   <p>Refer to the example above to view properties of each of the components below.</p> 
+  </note> 
+  <h3>Channel</h3> 
+  <p>The <strong>Channel</strong> component allows you to add an entire channel to your project.</p> 
+  <p>The Channel component has the following properties:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Property</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Channel Path</em></strong></td> 
+     <td>Select this absolute path where the application exists.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Duration (ms)</em></strong></td> 
+     <td>Select the entire duration of the channel. Setting the duration as -1 indicates that the embedded channel will run its full length in a particular channel.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Embedded Page</h3> 
+  <p>An <strong>Embedded Page</strong> allows you to add an embedded page to your project. For example, it can be a web application or a product catalog.<br /> </p> 
+  <p>The Embedded page has the following properties:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Property</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Page Path<br /> </em></strong></td> 
+     <td>Select this absolute path where the channel exists.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Duration (ms)</em></strong></td> 
+     <td>Select the entire duration of the channel. Setting the duration as -1 indicates that the embedded channel will run its full length in a particular channel.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Embedded Sequence</h3> 
+  <note> 
+   <p>Refer to <a href="../../screens/using/embedded-sequences.md"><strong>Embedded Sequences</strong></a> under Authoring Screens section, to learn in detail about embedded sequences.</p> 
+  </note> 
+  <p>An Embedded Sequence allows you to add an embedded sequence channel inside your existing channel (with other assets).</p> 
+  <p>The Embedded Sequence has the following page properties:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Property</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Channel Path</td> 
+     <td>Select the absolute path of the sequence that you want to include in your channel.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Duration (ms)</em></strong></td> 
+     <td>Select the entire duration of the channel. Setting the duration as -1 indicates that the embedded channel will run its full length in a particular channel.</td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Strategy</em></strong></td> 
+     <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to <strong>original</strong> means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is <strong>single</strong> and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Dynamic Embedded Sequence</h3> 
+  <p>A dynamic embedded sequence allows to add a sequence similar to the above mentioned except by channel role. </p> 
+  <p>Refer to <a href="../../screens/using/embedded-sequences.md"><strong>Embedded Sequences</strong></a> under Authoring Screens section, to learn in detail about embedded sequences.</p> 
+  <p>The dynamic embedded sequence has the following properties:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Property</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Channel Assignment Role</em></strong><br /> </td> 
+     <td>Enter the channel role.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Duration (ms)</em></strong></td> 
+     <td>Select the entire duration of the channel. Setting the duration as -1 indicates that the embedded channel will run its full length in a particular channel.</td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Strategy</em></strong></td> 
+     <td>Set it to <strong>original</strong> or <strong>single</strong>. Setting the value to <strong>original</strong> means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is <strong>single</strong> and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Image</h3> 
+  <p>An Image allows you to add an image to your channel.</p> 
+  <p>The image asset has three tabs namely <strong>Image</strong>, <strong>Accessibility</strong>, and <strong>Sequence</strong>:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Property</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td colspan="2" style="text-align: left;" valign="bottom"><strong>Image</strong></td> 
+    </tr> 
+    <tr> 
+     <td><em><strong>Image Asset</strong></em></td> 
+     <td>Select the image asset.</td> 
+    </tr> 
+    <tr> 
+     <td><em><strong>Title</strong></em></td> 
+     <td>Title of the image.</td> 
+    </tr> 
+    <tr> 
+     <td><em><strong>Link To</strong></em></td> 
+     <td>Add a link to the image.</td> 
+    </tr> 
+    <tr> 
+     <td><em><strong>Description</strong></em></td> 
+     <td>Brief description for the image.</td> 
+    </tr> 
+    <tr> 
+     <td><em><strong>Size</strong></em></td> 
+     <td>Size of the image.</td> 
+    </tr> 
+    <tr> 
+     <td colspan="2"><strong>Accessibility</strong></td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Alternative Text</em></strong></td> 
+     <td>Alternative text to the image.</td> 
+    </tr> 
+    <tr> 
+     <td colspan="2"><strong>Sequence</strong></td> 
+    </tr> 
+    <tr> 
+     <td><strong><em>Duration</em></strong></td> 
+     <td>Select the entire duration of the image. Setting the duration as -1 indicates that the embedded image will run its full length in a particular channel.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Transition</h3> 
+  <p>The Transition component allows you to add a transition to your Screens project.</p> 
+  <p>The transition component has the following properties:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Property</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td><em><strong>Type</strong></em></td> 
+     <td>The type of the transition between the element before and the one after. It can be a fade effect, or a slide effect from the four slides of the screen.</td> 
+    </tr> 
+    <tr> 
+     <td><em><strong>Duration (ms)</strong></em></td> 
+     <td>Select the entire duration of the transition. Setting the duration as -1 indicates that the embedded transition will run its full length in a particular channel.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Video</h3> 
+  <p>The Video component allows you to add a video to your Screens project.</p> 
+  <p>The video component has the following properties:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Property</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td><em><strong>Video asset</strong></em></td> 
+     <td>Select the link to the video.</td> 
+    </tr> 
+    <tr> 
+     <td><em><strong>Duration</strong></em></td> 
+     <td>Select the duration of the video. By default, the duration is set to -1, that means the element runs forever. Setting the duration value &gt;0, shows the element for the specified duration and then moves on to the next one.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td><em><strong>Rendering</strong></em></td> 
+     <td><p>If the video aspect ratio does not fit the screen, you can adjust the rendering to either <strong>contain</strong> or <strong>cover</strong>.</p> <p><em>Contain</em> means the full video is displayed and the missing areas are padded with a black border.</p> <p><em>Cover</em> means the video covers the whole viewport, but some parts that overflow on the sides are hidden.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><em><strong>Size</strong></em></td> 
+     <td>Size of the video.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body> 
+</html>

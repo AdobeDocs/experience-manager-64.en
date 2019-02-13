@@ -1,0 +1,175 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="24b1bc87-3737-427b-a36d-f12b57c8d580" name="jcr:uuid" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="2017-12-01T19:02:41.920-0500" name="jcr:created" />
+  <meta content="e60a64b0-d2b3-4d77-a183-3c524e36bae1" name="jcr:predecessors" />
+  <meta content="2018-11-27T02:33:08.343-0500" name="cq:lastReplicated" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2018-11-27T02:33:08.302-0500" name="topicBrowsingSortDate" />
+  <meta content="70" name="acrolinxSentences" />
+  <meta content="2018-12-03T08:08:24.155-0500" name="locHandOffDate" />
+  <meta content="now" name="locPublishOption" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="asgupta" name="contentOwner" />
+  <meta content="2018-12-03T08:08:24.155-0500" name="cq:lastModified" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-11-27T02:33:08.302-0500" name="publishExternalDate" />
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/best-practices-for-assets/assets-file-format-best-practices" name="qaNotes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-11-27T02:33:08.302-0500" name="lastPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/assets-file-format-best-practices.html" name="publishExternalURL" />
+  <meta content="Assets file format best practices" name="jcr:title" />
+  <meta content="Best practices for file support in AEM Assets." name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="asgupta" name="cq:lastReplicatedBy" />
+  <meta content="2017-10-31T16:35:23.335-0400" name="firstPublishExternalDate" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="2019-01-12T17:11:51.317-0500" name="acrolinxDate" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/assets_file_format_best_practices_krs_workflow_f3c2f2ccebf6138e_90_report.xml" name="acrolinxReportURL" />
+  <meta content="asgupta" name="cq:lastModifiedBy" />
+  <meta content="747" name="acrolinxWords" />
+  <meta content="Assets file format best practices" name="seoTitle" />
+ </head>
+ <body>
+  <p>AEM Assets supports many proprietary and third-party file format libraries to cater to diverse file support requirements of users. The supported Adobe libraries include, Adobe Camera Raw, Gibson, Adobe PDF Rasterizer, and Adobe InDesign Server. In addition, AEM Assets supports third-party libraries, including ImageMagick, TwelveMonkeys, and so on.</p> 
+  <p>For the supported file formats, see <a href="../../assets/using/assets-formats.md">Assets supported formats</a>.</p> 
+  <h2>Adobe Camera Raw library</h2>
+  <div>
+   For optimal performance, Adobe recommends using Adobe Camera Raw library for:
+  </div> 
+  <ul> 
+   <li>RAW</li> 
+   <li>DNG</li> 
+  </ul> 
+  <p>The Adobe Camera Raw library supports CMYK color profile as input. However, it generates the output in RGB colorspace and supports output in JPEG format only. It does not retain the source file colorspace (for example CMYK) in the thumbnails.</p> 
+  <p>For more information, see <a href="../../assets/using/camera-raw.md">Camera Raw support</a> in AEM Assets.</p> 
+  <h2>Adobe PDF Rasterizer library</h2>
+  <div>
+   For best results, Adobe recommends using the Adobe PDF Rasterizer library for the following files:
+  </div> 
+  <ul> 
+   <li>Heavy, content intensive PDF files</li> 
+   <li>AI files with thumbnails not generated out of the box</li> 
+   <li>For AI files with SPOT (PMS) colors</li> 
+  </ul> 
+  <div>
+   Thumbnails and previews generated using PDF Rasterizer are better in quality compared to out-of-the-box raster output. The Adobe PDF Rasterizer library does not support any color space conversion. Irrespective of the color space of the source PDF file, Adobe PDF Rasterizer generates RGB output only.
+  </div> 
+  <h2>Adobe InDesign CC Server</h2>
+  <p>Adobe recommends that you use Adobe InDesign CC Server to extract Adobe InDesign-specific renditions, such as IDML and HTML. For more information, see <a href="../../assets/using/managing-linked-subassets.md#addingaemassetsasreferencesinadobeindesign">Adding AEM assets as references in Adobe InDesign</a>.</p> 
+  <h2>Dynamic Media </h2>
+  <p>Dynamic Media generates and delivers multiple variations of rich content in real time through its global, scalable, and performance-optimized network. It serves interactive viewing experiences and streamlines the digital campaign management process. For details around enabling Dynamic Media, see <a href="../../assets/using/config-dynamic.md">Configuring Dynamic Media</a>.</p> 
+  <p>Currently, Dynamic Media can support videos up to 20 GB of content per file.</p> 
+  <h2>ImageMagick library</h2>
+  <div>
+   Adobe recommends using the ImageMagick library in the following scenarios:
+  </div> 
+  <ul> 
+   <li>To generate thumbnail renditions for EPS files</li> 
+   <li>To preserve image profile information</li> 
+   <li>To preserve transparency</li> 
+   <li>To process PSD and PSB files<br /> </li> 
+  </ul> 
+  <p>To know how to set up the ImageMagic library in AEM, see <a href="../../assets/using/media-handlers.md#main-pars-title-2">Using ImageMagick</a>. For optimum usage, see <a href="../../assets/using/best-practices-for-imagemagick.md" target="_blank">Best Practices for Configuring ImageMagick</a>.</p> 
+  <h2>Image Transcoding Library</h2>
+  <p>The Adobe Imaging Transcoding Library is an image-processing solution that performs core image-handling functions, including image encoding, transcoding, resampling, resizing, and so on.</p> 
+  <p>Imaging Transcoding library supports the following MIME types:</p> 
+  <ul> 
+   <li>JPG/JPEG</li> 
+   <li>PNG (8 bit and 16 bit)</li> 
+   <li>GIF</li> 
+   <li>BMP</li> 
+   <li>TIFF/Compressed TIFF (apart from 32 Bit Tiffs and PTiffs).<br /> </li> 
+   <li>ICO</li> 
+   <li>ICN</li> 
+  </ul> 
+  <p>For details, see <a href="../../assets/using/imaging-transcoding-library.md">Imaging Transcoding Library</a>.</p> 
+  <draft-comment type="draft">
+   <h2>TIFF file support</h2>
+  </draft-comment>
+  <draft-comment type="draft">
+   <p>AEM Assets encounters out-of-memory issues not only if the size of the image you upload is large but also if its dimensions exceed recommended limits. Generally, you can avoid such issues with large TIFF files by using FLITE or Image Transcoding Library, instead of using heap memory.<br /> </p> 
+   <p>In addition, open Configuration Manager and set the <span class="code">threshold size to use intermediate temporary file</span> property of the <span class="code">com.day.cq.dam.commons.handler.StandardImageHandler</span> component to a value greater than 0.</p> 
+   <p>Adobe does not recommend using Camera Raw for TIFF processing (due to CMYK issues). If renditions are generated incorrectly, you may want to check by regenerating using the Camera Raw library. However, the Camera Raw library cannot process images that have more than 65000 pixels on their longest side. Moreover, irrespective of the file size, the Camera Raw library can only process images that contain a maximum of 512 MP (512 x 1024 x 1024 pixels).</p> 
+  </draft-comment>
+  <draft-comment type="draft">
+   <h3>Working with TIFF files</h3>
+  </draft-comment>
+  <draft-comment type="draft">
+   <p>It is difficult to accurately determine the maximum size of a TIFF image that can be processed. In addition to the size of the file, the ability to process depends on other factors, such as pixel size. For example, the Camera Raw library may be able to process a 255-MB TIFF file out of the box. However, it may fail to process an 18-MB file if it has a huge pixel difference. Also, Camera Raw library cannot be used to process CMYK TIFF images.<br /> </p> 
+   <p>The following table lists the sizes of Camera Raw-generated TIFF files that have been validated with a 14 GB heap space.</p> 
+  </draft-comment>
+  <draft-comment type="draft">
+   <note type="note">
+    <p>In general, increasing heap size helps processing larger files efficiently. However, when processing compressed files (ZIP files), low resolution files may not be processed.</p> 
+   </note>
+  </draft-comment>
+  <draft-comment type="draft">
+   <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+    <tbody>
+     <tr>
+      <td><strong>Size</strong> (MB)</td> 
+      <td><strong>Dimension</strong> (px)</td> 
+     </tr>
+     <tr>
+      <td>18</td> 
+      <td>18897 x 47244</td> 
+     </tr>
+     <tr>
+      <td>38.3</td> 
+      <td>8301 x 3429</td> 
+     </tr>
+     <tr>
+      <td>39.9</td> 
+      <td>3936 x 2624</td> 
+     </tr>
+     <tr>
+      <td>46.6</td> 
+      <td>3008 x 2008</td> 
+     </tr>
+     <tr>
+      <td>51.5</td> 
+      <td>3000 x 3000</td> 
+     </tr>
+     <tr>
+      <td>72</td> 
+      <td>2048 x 3072</td> 
+     </tr>
+     <tr>
+      <td>91.4</td> 
+      <td>3264 x 2448</td> 
+     </tr>
+     <tr>
+      <td>91.5</td> 
+      <td>4000 x 4000</td> 
+     </tr>
+     <tr>
+      <td>143</td> 
+      <td>5000 x 5000</td> 
+     </tr>
+     <tr>
+      <td>225.1</td> 
+      <td>5433 x 7240</td> 
+     </tr>
+    </tbody>
+   </table> 
+  </draft-comment>
+ </body>
+</html>

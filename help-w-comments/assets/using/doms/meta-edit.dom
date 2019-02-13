@@ -1,0 +1,111 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/metadata/meta-edit" name="qaNotes" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2017-12-01T19:04:44.186-0500" name="jcr:created" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="2018-04-03T08:10:11.883-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Learn about asset metadata in AEM Assets an various ways by which you can edit asset metadata." name="seoDescription" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="445" name="acrolinxWords" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="ba161d80-6dae-41f6-ab2b-aa14b2aa7d17" name="jcr:uuid" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Chiradeep Majumdar" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="4935b437-4113-408a-b483-b665fbceca73" name="jcr:predecessors" /> 
+  <meta content="35" name="acrolinxSentences" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-01-12T17:33:11.403-0500" name="acrolinxDate" /> 
+  <meta content="alvawb@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/meta-edit.html" name="publishExternalURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="How to edit or add metadata" name="navTitle" /> 
+  <meta content="2017-11-28T14:47:54.755-0500" name="lastPublishExternalDate" /> 
+  <meta content="2017-10-31T16:34:24.368-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-24T11:56:56.442-0400" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="How to edit or add metadata" name="jcr:title" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/meta_edit_krs_workflow_f3c2f2ccebf6138e_162_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2017-11-28T14:47:54.755-0500" name="topicBrowsingSortDate" /> 
+  <meta content="How to edit or add metadata" name="seoTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-24T11:56:56.441-0400" name="locHandOffDate" /> 
+  <meta content="2017-11-28T14:47:54.755-0500" name="publishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+ </head> 
+ <body> 
+  <p>Metadata is additional information about the asset that can be searched. It is automatically extracted when you upload an image. You can edit the existing metadata or add new metadata properties to existing fields (for example, when a metadata field is blank).</p> 
+  <p>Because companies need controlled and reliable metadata vocabularies, AEM Assets does not allow for adhoc adding of new metadata properties. Although authors cannot add new metadata fields for assets, developers can. See <a href="../../assets/using/meta-edit.md#main-pars-title">Creating New Metadata Property for Assets</a>.</p> 
+  <h2>Editing metadata for an asset</h2> 
+  <p>To edit metadata:</p> 
+  <ol> 
+   <li><p>Do one of the following:</p> 
+    <ul> 
+     <li>From the Assets UI, select the asset and click/tap the View Properties icon from the toolbar.</li> 
+     <li>From the asset thumbnail, select the View Properties quick action.</li> 
+     <li>From the asset page, click/tap the View Properties icon from the toolbar. </li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-170.png" /><p>The asset page displays all of the asset's metadata. This metadata was automatically extracted when it was uploaded (ingested) into AEM Assets.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-171.png" /></li> 
+   <li><p>Make edits to the metadata under the various tabs, as required, and when completed, click/tap <strong>Save</strong> from the toolbar to save your changes. Click/tap <strong>Close</strong> to return to the Assets UI.</p> 
+    <note> 
+     <p>If a text field is empty, there is no existing metadata set. You can enter a value into the field and save it to add that metadata property.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <p>Any changes to the metadata of an asset are written back to the original binary as part of its XMP data. This is done via AEM's Metadata write-back workflow. Changes made to the existing properties (such as <span class="code">dc:title</span>) are overwritten and newly created properties (including custom properties like <span class="code">cq:tags</span>) are added together with the schema.</p> 
+  <p>XMP write-back is supported and enabled for the platforms and file formats described in <a href="../../sites/deploying/using/technical-requirements.md">Technical Requirements.</a></p> 
+  <h2>Editing Metadata Schema</h2> 
+  <draft-comment lastModifiedBy="alvawb" lastModifiedDate="2017-11-30T05:30:09.387-0500" prevFirstName="Alva" prevLastName="Ware-Bevacqui" type="remark"> 
+   <p>The information in "Creating New Metadata Property for Assets" is incomplete and some of it is wrong. Please check the remarks below (copied from page "Customizing and Extending CQ DAM".) These notes have originally been added by myself - please ask me in case something is unclear.</p> 
+   <p>&amp;gt; [...] by configuring the metadata dialog box.<br /> What is the metadata dialog box?</p> 
+   <p>&amp;gt; To configure a new metadata property so that it is available for all assets:<br /> Wrong. The form items defined in /apps/dam/content/asseteditor/formitems are not available for all assets. It is the fallback where no MIME type specific form items are defined.</p> 
+   <p><br /> Missing: non-alphanumeric characters in a mime type result in a new collection (see below)<br /> e.g. text/vnd.latex-z &amp;gt;&amp;gt; text/vnd/latex/z<br /> (Maybe a more common sample than tex/vnd.latex-z should be found)</p> 
+   <p>&amp;gt; Format-specific metadata reside at the path image/<em>format</em>/formitems.xml<br /> Wrong/unclear: They reside at the path <em>format</em>/formitems.xml where format consists of at least two items (e.g image/jpeg or text/vnd/latex/z - see note about non-alphanumeric characters above)</p> 
+   <p>Missing: The same mechanism as for the form items can also be used to define different Asset Editors for different MIME types, e.g. different thumbnail sizes, different tabs available. In most cases this feature probably will not be used but maybe this is the place to mention it. WDYT?</p> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="kautzman" lastModifiedDate="2017-11-30T05:30:09.397-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <ul> 
+    <li>doubleclicking an asset in DAM Admin opens the Asset Editor</li> 
+    <li>there can be an editor for each mime type, resp. a collection of mime types (best match)<br /> 
+     <ul> 
+      <li>non-alphanumeric characters in a mime type ends in a new collection:<br /> image/jpeg &amp;gt;&amp;gt; image/jpeg<br /> image/vnd.fpx &amp;gt;&amp;gt; image/vnd/fpx<br /> text/vnd.latex-z &amp;gt;&amp;gt; text/vnd/latex/z<br /> <br /> </li> 
+     </ul> </li> 
+    <li>the editors and/or the metadata forms are configurable in /apps<br /> </li> 
+    <li>a set of out of the box editors are located in /libs/dam/content/asseteditors. These can be overwritten in /apps<br /> <i>not yet, see <a href="http://bugs.day.com/bugzilla/show_bug.cgi?id=25765">#25765 - Asset Editor: Define sample editors for libs</a></i></li> 
+    <li>for config/overwrite see also <a href="http://bugs.day.com/bugzilla/show_bug.cgi?id=25688">#25688 - Asset Editor: Configurable form</a></li> 
+   </ul> 
+   <p> </p> 
+   <p>The editors for certain mime types can be overwritten in /apps:<br /> <br /> /apps/dam/asseteditors/<br /> asseteditor.xml &amp;gt;&amp;gt; Overwrite Default Asset Editor (fallback)<br /> image/<br /> asseteditor.xml &amp;gt;&amp;gt; Overwrite Image Asset Editor<br /> jpeg/<br /> asseteditor.xml &amp;gt;&amp;gt; Overwrite JPEG Asset Editor</p> 
+  </draft-comment> 
+  <draft-comment lastModifiedBy="alvawb" lastModifiedDate="2017-11-30T05:30:09.407-0500" prevFirstName="Alva" prevLastName="Ware-Bevacqui" type="remark"> 
+   <p>The very same chapter is available on page "Managing Digital Assets".</p> 
+   <p>See my remarks over there.</p> 
+   <p> </p> 
+   <p>AWB - Just moved remarks from Vinzenz and Peeter over here for ease of use. No new info (and now it says all the remarks are mine)</p> 
+  </draft-comment> 
+  <p>For details on how to edit metadata schema, see <a href="../../assets/using/metadata-schemas.md#main-pars-title">Editing metadata schema forms</a>. </p> 
+  <draft-comment lastModifiedBy="alvawb" lastModifiedDate="2017-11-30T05:30:09.425-0500" prevFirstName="Alva" prevLastName="Ware-Bevacqui" type="remark"> 
+   <p>Will add link to metadata documentation once complete.</p> 
+  </draft-comment> 
+  <h2>Registering a custom namespace within AEM</h2> 
+  <p>You can add your own namespaces within AEM. Just as there are predefined namespaces such as cq, jcr and sling, you can have a namespace for your repository metadata and xml processing.</p> 
+  <ol> 
+   <li><p>Go to the node type administration page <i>http://&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;/crx/explorer/nodetypes/index.jsp</i>.</p> </li> 
+   <li><p>Click or tap <strong>Namespaces</strong> at the top of the page. The namespace administration page is displayed in a window.<br /> </p> </li> 
+   <li><p>To add a namespace, click or tap <strong>New</strong> at the bottom.</p> </li> 
+   <li><p>Specify a custom namespace in the XML namespace convention (Specify the id in the form of a URI and an associated prefix for the id), and click or tap <strong>Save</strong>.<br /> </p> </li> 
+  </ol> 
+ </body> 
+</html>

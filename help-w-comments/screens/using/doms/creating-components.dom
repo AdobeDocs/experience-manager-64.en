@@ -1,0 +1,97 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="2018-05-08T12:42:15.744-0400" name="locHandOffDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="6aa78d05-d580-43db-837a-f316efa0368d" name="jcr:uuid" />
+  <meta content="cec86dbc-addb-408c-bfd4-7b78eeda65a4" name="jcr:predecessors" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/developing;/content/help/en/experience-manager/6-4/screens/morehelp/developing" name="moreHelpPaths" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/creating-components.html" name="publishExternalURL" />
+  <meta content="2018-11-02T13:35:56.626-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-11-02T13:35:56.719-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="AEM components are used to hold, format, and render the content made available on your webpages. Follow this page to learn about authoring channels and rendering components." name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-11-02T13:35:56.626-0400" name="lastPublishExternalDate" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-10-31T16:16:54.092-0400" name="firstPublishExternalDate" />
+  <meta content="Creating Components" name="seoTitle" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="Creating Components" name="jcr:title" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:developing" name="cq:tags" />
+  <meta content="Jyotika Syal" name="contentOwner" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2019-01-15T15:39:03.265-0500" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-11-02T13:35:57.837-0400" name="cq:lastReplicated" />
+  <meta content="/content/docs/en/aem/6-3/develop/developing-screens/creating-components" name="qaNotes" />
+  <meta content="2018-11-02T13:35:56.626-0400" name="publishExternalDate" />
+ </head>
+ <body>
+  <p>AEM components are used to hold, format, and render the content made available on your webpages.</p> 
+  <note>
+   <p>To learn about the details of creating AEM Components, see <a href="../../sites/developing/using/components-basics.md">Developing AEM Components</a>.</p> 
+  </note>
+  <h2>Authoring Channels</h2>
+  <p>The channel is the central object of content delivered to a set of displays. Therefore, a content author would typically open a channel in the editor to add or modify content. Since the Channel is a <strong><i>cq:Page</i></strong> it will follow the same traditional UX pattern to add and change components on the channel.</p> 
+  <p>However, since components within a channel are typically rendered fullscreen, the authoring experience will suffer when trying to edit single components or compose new orders. Therefore the channel will rely on selectors to render different views of the components. The authoring environment will leverage the edit selector to activate the custom channel rendering.</p> 
+  <p>For example, <i><a href="http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html">http://localhost:4502/editor.html/content/screens/we-retail/channels/idle.edit.html</a></i></p> 
+  <p>The user does not have to take care of adding the selector to the URL while editing. A client side logic is listening to the layer switch event and adds the selector if a the channel has the dedicated resource type <i>screens/core/components/channel.</i></p> 
+  <note>
+   <p>To learn about the basics on developing your AEM application using CRXDE Lite, See <a href="../../sites/developing/using/developing-with-crxde-lite.md">Developing with CRXDE Lite</a>.</p> 
+  </note>
+  <h2>Rendering Components</h2>
+  <p>To enable proper authoring, components need to provide the following two renderings:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Component</strong></td> 
+     <td><strong>Renditions</strong></td> 
+    </tr>
+    <tr>
+     <td><i>my-component/my-component.html</i></td> 
+     <td>production rendering</td> 
+    </tr>
+    <tr>
+     <td><i>my-component/edit.html</i></td> 
+     <td>editing rendering in a smaller view</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <p>The built-in components leverage the following client library categories:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Component</strong></td> 
+     <td><strong>Client Library</strong></td> 
+    </tr>
+    <tr>
+     <td><i>cq.screens.components.edit</i></td> 
+     <td>CSS and JS which has to be loaded during authoring</td> 
+    </tr>
+    <tr>
+     <td><i>cq.screens.components.production</i></td> 
+     <td>CSS and JS which has to be loaded when the channel is running</td> 
+    </tr>
+    <tr>
+     <td><i>cq.screens.components</i></td> 
+     <td>shared CSS and JS</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <note>
+   <p>To develop custom components, use the <strong><em><a href="https://github.com/Adobe-Marketing-Cloud/aem-screens-component-template">AEM Screens sample component template</a></em></strong>.</p> 
+  </note>
+ </body>
+</html>

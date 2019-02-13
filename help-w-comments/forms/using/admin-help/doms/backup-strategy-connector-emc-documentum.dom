@@ -1,0 +1,70 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Backup strategy for Connector for EMC Documentum users" name="jcr:title" />
+  <meta content="2016-05-31T06:53:04.268-0400" name="acrolinxDate" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="Backup strategy for Connector for EMC Documentum users" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="2018-04-03T09:09:24.042-0400" name="cq:lastReplicated" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/aem_forms_backup_and_recovery;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="video" name="pageLayout" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-10-31T16:32:38.750-0400" name="lastPublishExternalDate" />
+  <meta content="fb982e66-e77d-4152-a5a9-9751a143c479" name="jcr:uuid" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="2018-04-26T04:25:31.851-0400" name="cq:lastModified" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/backup-strategy-connector-emc-documentum.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2016-04-20T09:59:13.484-0400" name="firstPublishExternalDate" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="8edf33a7-4ddc-4934-ad5d-fbb065ccdeec" name="jcr:predecessors" />
+  <meta content="161" name="acrolinxWords" />
+  <meta content="Check how to create a backup strategy for Connector for EMC Documentum users." name="seoDescription" />
+  <meta content="2017-12-01T19:02:06.788-0500" name="jcr:created" />
+  <meta content="2016-02-05T03:27:11.799-0500" name="lr_lastModified" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/backup_strategy_connector_emc_documentum_admin_5e12de0b318c6865_2260_report.xml" name="acrolinxReportURL" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="light" name="heroGradient" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="2017-10-31T16:32:38.750-0400" name="publishExternalDate" />
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7c5a.2" name="cq:gepId" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2018-04-26T04:25:31.850-0400" name="locHandOffDate" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="6" name="acrolinxSentences" />
+ </head>
+ <body>
+  <draft-comment type="remark">
+   <p>Added for bug 1787759, removed for 1811387, modified for bug 1874975:</p>
+  </draft-comment>
+  <p>If you have Connector for EMC Documentum installed, in addition to the instructions in this chapter, your backup and recovery strategy must include backing up (or recovering) the computer that the respective ECM system is installed on. (See the ECM Documentum documentation).</p>
+  <p>Back up your AEM forms environment by using ECM repository and performing the following tasks:</p>
+  <ul>
+   <li><p>Back up AEM forms by following the instructions described in this document.</p></li>
+   <li><p>Back up your ECM Documentum system by following the instructions in <a href="../../../forms/using/admin-help/backing-recovering-emc-documentum-repository.md#back-up-the-emc-documentum-content-server">Back up the EMC Documentum Content Server</a>.</p></li>
+  </ul>
+  <p>Restore AEM forms environment by using ECM repository and performing the following tasks:</p>
+  <ul>
+   <li><p>Restore your respective ECM system by following the instructions in <a href="../../../forms/using/admin-help/backing-recovering-emc-documentum-repository.md#restore-the-emc-documentum-content-server">Restore the EMC Documentum Content Server</a>.</p></li>
+   <li><p>Restore AEM forms by following the instructions described in this document.</p></li>
+  </ul>
+ </body>
+</html>

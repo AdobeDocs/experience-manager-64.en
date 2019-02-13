@@ -1,0 +1,91 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="eabc2449-9216-4241-8fbf-434dbb97b0af" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-05-17T05:55:10.233-0400" name="locHandOffDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-31T16:33:34.539-0400" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="Ideation Essentials" name="seoTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="Ideation Essentials" name="jcr:title" />
+  <meta content="2018-04-03T07:46:27.218-0400" name="publishExternalDate" />
+  <meta content="2018-04-03T07:46:27.218-0400" name="lastPublishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Ideation feature overview" name="seoDescription" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" />
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/ideation" name="qaNotes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2018-04-03T07:46:28.613-0400" name="cq:lastReplicated" />
+  <meta content="2018-04-03T07:46:27.218-0400" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-12-01T19:01:10.591-0500" name="jcr:created" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/ideation.html" name="publishExternalURL" />
+  <meta content="a0e31004-ed14-4a4d-81c5-c60cc0280907" name="jcr:uuid" />
+  <meta content="2018-05-17T05:55:10.234-0400" name="cq:lastModified" />
+ </head>
+ <body>
+  <p>This page provides the essential information for working with the ideation feature, which is similar to a forum, but with the ability to save as a draft and a more collaborative feel.</p> 
+  <h2>Essentials for Client-Side</h2>
+  <table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+   <tbody>
+    <tr>
+     <td> <strong>resourceType</strong></td> 
+     <td>social/ideation/components/hbs/ideation</td> 
+    </tr>
+    <tr>
+     <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+     <td>No</td> 
+    </tr>
+    <tr>
+     <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+     <td>cq.social.hbs.voting<br /> cq.social.hbs.liking<br /> cq.social.hbs.ideation</td> 
+    </tr>
+    <tr>
+     <td> <strong>templates</strong></td> 
+     <td> /libs/social/ideation/components/hbs/ideation/ideation.hbs<br /> /libs/social/ideation/components/hbs/ideation/ideationlists.hbs<br /> /libs/social/ideation/components/hbs/ideation/composer.hbs</td> 
+    </tr>
+    <tr>
+     <td> <strong>css</strong></td> 
+     <td> /libs/social/ideation/components/hbs/ideation/clientlibs/ideation.css</td> 
+    </tr>
+    <tr>
+     <td><strong> properties</strong></td> 
+     <td>see <a href="../../communities/using/ideation-feature.md">Ideation Feature</a></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <ul> 
+   <li><a href="../../communities/using/client-customize.md">Client-side Customizations</a></li> 
+  </ul> 
+  <draft-comment type="draft">
+   <h2>Essentials for Server-Side</h2>
+  </draft-comment>
+  <draft-comment type="draft">
+   <ul> 
+    <li>Ideation API ???</li> 
+   </ul> 
+   <ul> 
+    <li>Ideation Endpoints ???</li> 
+   </ul> 
+   <ul> 
+    <li><a href="../../communities/using/server-customize.md">Server-side Customizations</a> ???</li> 
+   </ul> 
+  </draft-comment>
+  <h3>Ideation Function</h3>
+  <p>A community site structure that includes the <a href="../../communities/using/functions.md#ideationfunction">Ideation function</a>, includes a configured <span class="code">ideation</span> component.</p> 
+ </body>
+</html>

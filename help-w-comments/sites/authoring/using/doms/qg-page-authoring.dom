@@ -1,0 +1,304 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Quick Guide to Authoring Pages" name="navTitle" /> 
+  <meta content="2018-10-27T23:56:06.991-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+  <meta content="2018-10-27T23:56:06.991-0400" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="Quick Guide to Authoring Pages" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="513bbd2c-2a0d-44f8-873f-84bab1e1475d" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/qg-page-authoring.html" name="publishExternalURL" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring" name="moreHelpPaths" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-10-27T23:56:07.041-0400" name="cq:lastReplicated" /> 
+  <meta content="664893bb-0550-42ac-8372-f949f8be2678" name="jcr:uuid" /> 
+  <meta content="2018-10-27T23:56:06.997-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-19T10:34:26.183-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/author/page-authoring/qg-page-authoring" name="qaNotes" /> 
+  <meta content="trushton" name="cq:lastModifiedBy" /> 
+  <meta content="A quick, high-level guide to the key actions of authoring page content" name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-31T16:19:53.689-0400" name="firstPublishExternalDate" /> 
+  <meta content="Quick Guide to Authoring Pages" name="seoTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-10-27T23:56:06.991-0400" name="lastPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-12-01T19:02:02.804-0500" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>These procedures are intended as a quick guide (high-level) to the key actions of authoring page content in AEM.</p> 
+  <p>They:</p> 
+  <ul> 
+   <li>Are not intended as comprehensive coverage.</li> 
+   <li>Provide links to the detailed documentation.</li> 
+  </ul> 
+  <p>For full details about authoring with AEM see:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/first-steps.md">First Steps for Authors</a><br /> </li> 
+   <li><a href="../../../sites/authoring/using/author-environment.md">Working with the Author Environment</a></li> 
+   <li><a href="../../../sites/authoring/using/page-authoring.md">Authoring Pages</a></li> 
+  </ul> 
+  <h3>A Few Quick Hints</h3> 
+  <p>Before giving the overview of specifics, here is a small collection of general tips and hints that are worth bearing in mind, especially if you are used to the <a href="../../../sites/classic-ui-authoring/using/classicui.md">classic UI authoring environment</a>.</p> 
+  <h4>Sites Console</h4> 
+  <ul> 
+   <li><strong>Create</strong> 
+    <ul> 
+     <li>This button is available in many consoles - the options presented are context sensitive so can vary according to the scenario.</li> 
+    </ul> </li> 
+   <li>Re-ordering pages in a folder 
+    <ul> 
+     <li>This can be done in <a href="../../../sites/authoring/using/basic-handling.md#listview">List View</a>. The changes will be applied and be visible in other views.</li> 
+    </ul> </li> 
+   <li>Changing your UI 
+    <ul> 
+     <li>This can be done from various locations. See <a href="../../../sites/authoring/using/select-ui.md">Selecting your UI</a>.<br /> </li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Page Authoring</h4> 
+  <ul> 
+   <li>Navigating Links<br /> 
+    <ul> 
+     <li><strong><i>Links are not available for navigation</i></strong> when you are in <strong>Edit</strong> mode. To navigate with links you need to <a href="../../../sites/authoring/using/editing-content.md#previewingpages">preview the page</a> using either: 
+      <ul> 
+       <li><a href="../../../sites/authoring/using/editing-content.md#previewmode">Preview Mode</a></li> 
+       <li><a href="../../../sites/authoring/using/editing-content.md#viewaspublished">View as Published</a></li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li>Workflows and Versions are no longer started/created from the page editor; this is now done from <a href="../../../sites/authoring/using/basic-handling.md#timeline">Timeline</a> (accessible from the console).<br /> </li> 
+  </ul> 
+  <note> 
+   <p>There are a number of keyboard shortcuts that can make the authoring experience easier.</p> 
+   <ul> 
+    <li><a href="../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md">Keyboard Shortcuts When Editing Pages</a></li> 
+    <li><a href="../../../sites/authoring/using/keyboard-shortcuts.md">Keyboard Shortcuts for Consoles</a><br /> </li> 
+   </ul> 
+  </note> 
+  <h3>Finding Your Page</h3> 
+  <ol> 
+   <li><p>Open the <strong>Sites</strong> console (using the <strong>Sites</strong> option in the <a href="../../../sites/authoring/using/basic-handling.md#globalnavigation">Global Navigation</a> - this is triggered (drop down) when you select the Adobe Experience Manager link (top left).<br /> </p> </li> 
+   <li><p>Navigate down the tree by tapping/clicking on the appropriate page. How the page resources are represented depends on the view you are using - <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-14">Card, List, or Column</a>:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at160214.png" /></li> 
+   <li><p>Navigate up the tree using <a href="../../../sites/authoring/using/basic-handling.md#theheaderwithbreadcrumbs">the breadcrumb in the header</a>, which allows you to return to the selected location:</p> <img imageRotate="0" src="assets/chlimage_1-134.png" /></li> 
+  </ol> 
+  <h3>Creating a New Page</h3> 
+  <ol> 
+   <li><p><a href="#findingyourpage">Navigate to the location</a> where you want to create the new page.</p> </li> 
+   <li><p>Use the <strong>Create</strong> icon and then select <strong>Page</strong> from the list:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at160324.png" /></li> 
+   <li><p>This opens the wizard that will guide you through collecting the information needed when <a href="../../../sites/authoring/using/managing-pages.md#main-pars-title-0">creating your new page</a>. Follow the on screen instructions.</p> </li> 
+  </ol> 
+  <h3>Selecting Your Page for Further Action</h3> 
+  <draft-comment color="yellow" lastModifiedBy="aheimoz" lastModifiedDate="2017-11-30T04:50:30.474-0500" prevFirstName="Alison" prevLastName="Heimoz" type="remark"> 
+   <p>definitive list of all actions accessible via toolbar?</p> 
+  </draft-comment> 
+  <p>You can select a page so that you can take action on it. Selecting a page will automatically update the toolbar so that the actions relevant to that resource are shown.</p> 
+  <p>How to select a page depends on which view you are using in the console:</p> 
+  <ol> 
+   <li><p>Card View:</p> 
+    <ul> 
+     <li>Enter selection mode by <a href="../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresources">selecting the required resource</a> with: 
+      <ul> 
+       <li>Mobile device: tap-and-hold</li> 
+       <li>Desktop: the <a href="../../../sites/authoring/using/basic-handling.md#quickactions">quick action</a> - tick icon:</li> 
+      </ul> </li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2018-03-21at160503.png" /> 
+    <ul> 
+     <li>The card will be overlaid with a tick to show that the page has been selected.</li> 
+    </ul> 
+    <note> 
+     <p>Once in selection mode the <strong>Select</strong> icon (a tick) will change to the <strong>Deselect</strong> icon (a cross).<br /> </p> 
+    </note></li> 
+   <li><p>List View:</p> 
+    <ul> 
+     <li>Tap/click on the thumbnail for the required resource - the thumbnail will be overlaid with a tick to show that it has been selected.<br /> </li> 
+    </ul> </li> 
+   <li><p>Column View:<br /> </p> 
+    <ul> 
+     <li>Tap/click on the thumbnail for the required resource - the thumbnail will be overlaid with a tick to show that it has been selected.<br /> </li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Quick Actions (Card View/Desktop Only)</h3> 
+  <ol> 
+   <li><p><a href="#findingyourpage">Navigate to the page</a> you want to take action on.</p> </li> 
+   <li><p>Hover your mouse pointer over the card that represents your required resource; the quick actions will be shown:<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at160503-1.png" /></li> 
+  </ol> 
+  <h3>Editing Your Page Content</h3> 
+  <ol> 
+   <li><p><a href="#findingyourpage">Navigate to the page</a> you want to edit.</p> </li> 
+   <li><p><a href="../../../sites/authoring/using/managing-pages.md#main-pars-title-6">Open your page for editing</a> using the Edit (pencil) icon:<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at160607.png" /><p>This can be accessed from either:</p> 
+    <ul> 
+     <li><a href="#quickactionscardviewdesktoponly">Quick Actions (Card View/Desktop Only)</a> for the approprate resource.</li> 
+     <li>The toolbar when your <a href="#selectiingyourpageforfurtheraction">page has been selected</a>.</li> 
+    </ul> </li> 
+   <li><p>When the editor opens you can:</p> 
+    <ul> 
+     <li><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-2">Add a new compenent to your page</a> by: 
+      <ul> 
+       <li>opening the side panel</li> 
+       <li>selecting the components tab (the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-17">components browser</a>)</li> 
+       <li>dragging the required component onto your page.</li> 
+      </ul> The side panel can be opened (and closed) with:</li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2018-03-21at160738.png" /> 
+    <ul> 
+     <li><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-32">Edit the content of an existing component</a> on the page: 
+      <ul> 
+       <li>Open the component toolbar with either tap or click. Use the <strong>Edit</strong> (pencil) icon to open the dialog.</li> 
+       <li>Open the in place editor for the component with either tap-and-hold or a double-slow-click. The available actions will be shown (for some components, this will be a limited selection).</li> 
+       <li>To see all actions available enter full-screen mode using:</li> 
+      </ul> </li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2018-03-21at160706.png" /> 
+    <ul> 
+     <li><a href="../../../sites/authoring/using/editing-content.md#main-pars-title">Configure the properties of an existing component</a> 
+      <ul> 
+       <li>Open the component toolbar with either tap or click. Use the <strong>Configure</strong> (wrench) icon to open the dialog.</li> 
+      </ul> </li> 
+     <li><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-30">Move a component</a> either: 
+      <ul> 
+       <li>Drag the required component to its new location.</li> 
+       <li>Open the component toolbar with either tap or click. Use the <strong>Cut</strong> then <strong>Paste</strong> icons where required.</li> 
+      </ul> </li> 
+     <li><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-32">Copy (and Paste)</a> a component: 
+      <ul> 
+       <li>Open the component toolbar with either tap or click. Use the <strong>Copy</strong> then <strong>Paste</strong> icons as required.<br /> </li> 
+      </ul> </li> 
+    </ul> 
+    <note> 
+     <p>You can <strong>Paste</strong> components to either the same page, or a different page. If pasting to a different page that was already open before the cut/copy operation, then that page will need a page refresh.<br /> </p> 
+    </note> 
+    <ul> 
+     <li><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-32">Delete</a> a component: 
+      <ul> 
+       <li>Open the component toolbar with either tap or click, then use the <strong>Delete</strong> icon.<br /> </li> 
+      </ul> </li> 
+     <li><a href="../../../sites/authoring/using/annotations.md#main-pars-title-1">Add annotations</a> to the page: 
+      <ul> 
+       <li>Select the <strong>Annotate</strong> mode (speech bubble icon). Add annotations using the <strong>Add annotation</strong> (plus) icon. Exit annotation mode using the X at top right.<br /> </li> 
+      </ul> </li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2018-03-21at160813.png" /> 
+    <ul> 
+     <li><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-196884421">Preview a page</a> (to see how it will appear in the publish environment) 
+      <ul> 
+       <li>Select <strong>Preview</strong> from the toolbar.</li> 
+      </ul> </li> 
+     <li>Return to edit mode (or select another mode) using the <strong>Edit</strong> drop down selector.</li> 
+    </ul> 
+    <note> 
+     <p>To navigate using links in the content you must use <a href="../../../sites/authoring/using/editing-content.md#main-pars-title-196884421">Preview mode</a>.</p> 
+    </note></li> 
+  </ol> 
+  <h3>Editing the Page Properties</h3> 
+  <p>There are two (main) methods of <a href="../../../sites/authoring/using/editing-page-properties.md">editing page properties</a>:</p> 
+  <ul> 
+   <li><p>From the <strong>Sites</strong> console:</p> 
+    <ol> 
+     <li><a href="#findingyourpage">Navigate to the page</a> you want to publish.</li> 
+     <li>Select the <strong>Properties</strong> icon from either: 
+      <ul> 
+       <li><a href="#quickactionscardviewdesktoponly">Quick Actions (Card View/Desktop Only)</a> for the approprate resource.</li> 
+       <li>The toolbar when your <a href="#selectiingyourpageforfurtheraction">page has been selected</a>.</li> 
+      </ul> </li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-03-21at160850.png" /><p style="margin-left: 40px;">3. The page properties will be shown. You can make updates as required, then use Save to persist these</p> </li> 
+   <li><p>When <a href="#editingyourpagecontent">editing your page</a>:</p> 
+    <ol> 
+     <li>Open the <strong>Page Information</strong> menu.</li> 
+     <li>Select <strong>Open Properties</strong> to open the dialog for editing the properties.</li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-03-21at160920.png" /></li> 
+  </ul> 
+  <h3>Publishing Your Page (or Unpublishing)</h3> 
+  <p>There are two main methods of <a href="../../../sites/authoring/using/publishing-pages.md">publishing your page</a> (and also of unpublishing):</p> 
+  <ul> 
+   <li><p>From the <strong>Sites</strong> console:</p> 
+    <ol> 
+     <li><a href="#findingyourpage">Navigate to the page</a> you want to publish.</li> 
+     <li>Select the <strong>Quick Publish</strong> icon from either: 
+      <ul> 
+       <li><a href="#quickactionscardviewdesktoponly">Quick Actions (Card View/Desktop Only)</a> for the approprate resource.</li> 
+       <li>The toolbar when your <a href="#selectiingyourpageforfurtheraction">page has been selected</a> (also gives access to <a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-12">Publish Later</a>).</li> 
+      </ul> </li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-03-21at160957.png" /></li> 
+   <li><p>When <a href="#editingyourpagecontent">editing your page</a>:</p> 
+    <ol> 
+     <li>Open the <strong>Page Information</strong> menu.</li> 
+     <li>Select <strong>Publish Page</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-03-21at161026.png" /></li> 
+   <li><p>Unpublishing a page from the console can only be done via the <strong>Manage Publication</strong> option, which is only available on the toolbar (not via the quick actions).</p> <p>The <strong>Unpublish Page</strong> option is still available via the <strong>Page Information</strong> menu in the editor.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at161059.png" /><p>See <a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-9d71">Publishing Pages</a> for more information.</p> </li> 
+  </ul> 
+  <h3>Move, Copy and Paste, or Delete Your Page</h3> 
+  <ol> 
+   <li><p><a href="#findingyourpage">Navigate to the page</a> you want to move, copy and paste, or delete.</p> </li> 
+   <li><p>Select the copy (and then paste), move or delete icon as required using either:</p> 
+    <ul> 
+     <li><a href="#quickactionscardviewdesktoponly">Quick Actions (Card View/Desktop Only)</a> for the required resource.</li> 
+     <li>The toolbar when your <a href="#selectingyourpageforfurtheraction">page has been selected</a>.</li> 
+    </ul> 
+    <ul> 
+     <li>Copy:<br /> 
+      <ul> 
+       <li>You will then need to navigate to the new location and paste.</li> 
+      </ul> </li> 
+     <li>Move:<br /> 
+      <ul> 
+       <li>The wizard will open to collect the information needed to move the page. Follow the on-screen instructions.<br /> </li> 
+      </ul> </li> 
+     <li>Delete:<br /> 
+      <ul> 
+       <li>You will be asked to confirm the action.<br /> </li> 
+      </ul> </li> 
+    </ul> 
+    <note> 
+     <p>Delete is not available as a Quick Action.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h3>Locking Your Page (then Unlocking)</h3> 
+  <p><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-13">Locking a page</a> prevents other authors from working on it while you are. The Lock (and Unlock) icon/button can be found:</p> 
+  <ul> 
+   <li>The toolbar when your <a href="#selectingyourpageforfurtheraction">page has been selected</a>.</li> 
+   <li>The <a href="#editingthepageproperties">Page Information drop down menu</a> when editing a page.</li> 
+   <li>The page toolbar when editing a page (when the page is locked)<br /> </li> 
+  </ul> 
+  <p>For example, the lock icon looks like this:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-21at161124.png" /> 
+  <h3>Accessing Page References</h3> 
+  <p><a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-11">Quick access to references</a> to/from a page are available in the References Rail.<br /> </p> 
+  <ol> 
+   <li><p>Select <strong>References</strong> using the toolbar icon (either before or after <a href="#selectingyourpageforfurtheraction">selecting your page</a>):<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at161210.png" /><p>A list of reference types is shown:<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at161315.png" /></li> 
+   <li><p>Tap/click on the required type of reference to show more details and (when appropriate) take further actions.</p> </li> 
+  </ol> 
+  <h3>Creating a Version of Your Page</h3> 
+  <ol> 
+   <li><p>To open the Timeline rail, select <strong><a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-281465694">Timeline</a></strong> using the toolbar icon (either before or after <a href="#selectingyourpageforfurtheraction">selecting your page</a>):<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at161355.png" /></li> 
+   <li><p>Tap/click on the up-arrow at the bottom right of the Timeline column to reveal extra buttons, including <strong>Save as Version</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at161507.png" /></li> 
+   <li><p>Select <strong>Save as Version</strong>, then <strong>Create</strong>.<br /> </p> </li> 
+  </ol> 
+  <h3>Restoring/Comparing a Version of Your Page</h3> 
+  <p>The same basic mechanism is used when restoring and/or comparing versions of your page:</p> 
+  <ol> 
+   <li><p>Select <strong><a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-281465694">Timeline</a></strong> using the toolbar icon (either before or after <a href="#selectingyourpageforfurtheraction">selecting your page</a>):<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at161355-1.png" /><p>If a version of your page has already been saved, this will be listed in the Timeline. </p> </li> 
+   <li><p>Tap/click on the version you want to restore - this will reveal additional action buttons:</p> 
+    <ul> 
+     <li><strong>Revert to this Version</strong> 
+      <ul> 
+       <li>The version will be restored.<br /> </li> 
+      </ul> </li> 
+     <li><strong>Show Differences</strong> 
+      <ul> 
+       <li>The page will be opened with differences (between the two versions) highlighted.</li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ol> 
+ </body> 
+</html>

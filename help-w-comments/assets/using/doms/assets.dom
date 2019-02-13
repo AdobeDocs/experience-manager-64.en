@@ -1,0 +1,155 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="76" name="acrolinxSentences" /> 
+  <meta content="2017-10-31T16:35:23.509-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-24T11:59:49.114-0400" name="cq:lastModified" /> 
+  <meta content="40b1dc4e-e8c0-4ef5-a624-c6236793dc0e" name="jcr:uuid" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2017-12-01T19:01:22.993-0500" name="jcr:created" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="2017-11-22T10:14:58.792-0500" name="publishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-11-22T10:14:58.792-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Chiradeep Majumdar" name="contentOwner" /> 
+  <meta content="2017-11-22T10:14:58.792-0500" name="lastPublishExternalDate" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/assets_krs_workflow_f3c2f2ccebf6138e_89_report.xml" name="acrolinxReportURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-01-12T17:11:47.920-0500" name="acrolinxDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-10-27T23:42:49.058-0400" name="cq:lastReplicated" /> 
+  <meta content="0da2c14e-fe60-4e01-afc8-05a94ddc2c6c" name="jcr:predecessors" /> 
+  <meta content="Learn about the activities typically performed by an AEM Assets administrator." name="seoDescription" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="Administering Assets" name="navTitle" /> 
+  <meta content="Administering Assets" name="jcr:title" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-24T11:59:49.113-0400" name="locHandOffDate" /> 
+  <meta content="Administering Assets" name="seoTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets" name="qaNotes" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/assets.html" name="publishExternalURL" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="1023" name="acrolinxWords" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+ </head> 
+ <body> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-77F410094CD97C4F0A746C1B@AdobeID" lastModifiedDate="2017-11-30T05:28:15.147-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>Needs to be rebranded to Assets. And text below needs updating.</p> 
+   <p> </p> 
+   <p>Really needs an update! </p> 
+  </draft-comment> 
+  <p>Assets is a digital asset management tool that is fully integrated with the AEM platform and enables your enterprise to share and distribute digital assets. Users across an organization can manage, store, and access images, videos, documents, audio clips, and rich media such as Flash files for use on the web, in print, and for digital distribution.</p> 
+  <p>The following activities are those that you typically perform as a digital asset administrator: </p> 
+  <ul> 
+   <li><a href="../../assets/using/medialibrary.md">AEM Assets vs. AEM MediaLibrary</a></li> 
+   <li><a href="../../assets/using/assets-formats.md">Assets Supported Formats</a></li> 
+   <li><a href="../../assets/using/indesign.md">Integrating AEM Assets with InDesign Server</a></li> 
+   <li><a href="../../assets/using/metadata.md">Managing Metadata for Digital Assets</a></li> 
+   <li><a href="/assets/using/custom-search-facets">Search Facets</a></li> 
+   <li><a href="../../assets/using/camera-raw.md">Camera Raw Support</a></li> 
+   <li><a href="../../assets/using/metadata-schemas.md">Metadata Schemas</a></li> 
+   <li><a href="../../assets/using/processing-profiles.md">Profiles for Processing Metadata, Images, and Videos</a></li> 
+   <li><a href="../../assets/using/xmp-writeback.md">XMP writeback to renditions</a></li> 
+   <li><a href="../../assets/using/video-transcoder.md">Installing and Configuring Video Transcoder with FFmpeg</a></li> 
+   <li><a href="../../assets/using/watermarking.md">Watermarking</a></li> 
+   <li><a href="../../assets/using/link-sharing.md">Asset link sharing</a></li> 
+   <li><a href="../../assets/using/best-practices-for-assets.md">Best Practices for Assets</a></li> 
+   <li><a href="../../assets/using/detect-asset-mime-type-with-tika.md">Detecting MIME Type of Assets Using Apache Tika</a></li> 
+   <li><a href="../../assets/using/configuring-asset-upload-restrictions.md">Configuring Asset Upload Restrictions</a></li> 
+   <li><a href="../../assets/using/aem-pdf-rasterizer.md">Using PDF Rasterizer</a></li> 
+   <li><a href="../../assets/using/multi-tenancy.md">Multi-tenancy for Collections, Snippets, and Snippet TemplatesAsset Templates</a></li> 
+   <li><a href="../../assets/using/iptc-support.md">Support for IPTC Metadata</a></li> 
+   <li><a href="../../assets/using/imaging-transcoding-library.md">Imaging Transcoding Library</a></li> 
+   <li><a href="../../assets/using/serial-uploads.md">Serial Uploads</a></li> 
+   <li><a href="../../assets/using/drm.md">Digital Rights Management in Assets</a></li> 
+  </ul> 
+  <p>For supported file formats, see <a href="../../assets/using/assets-formats.md">Assets Supported Formats</a>. </p> 
+  <p>For information about extending CQ DAM, see <a href="../../assets/using/extending-assets.md">Customizing and Extending CQ DAM</a>. To learn how authors add assets to web pages, see <a href="/assets/using/author-assets">Working with Assets</a>.</p> 
+  <h2>What is Digital Asset Management?</h2> 
+  <p>Assets provides enterprise-wide sharing and distribution of an organization’s key digital assets. Users across an organization can store, manage, and access digital assets such as images, graphics, audio, video, and documents through a Web interface (or a CIFS or WebDAV folder).</p> 
+  <p>Completely integrated into AEM, AEM Assets lets you do the following:</p> 
+  <ul> 
+   <li>Add and share images, documents, audio files, and video files in a variety of file formats.</li> 
+   <li>Manage assets by grouping them by tags, lightboxes, or stars (your favorites). Add annotations to assets.</li> 
+   <li>Find assets by searching file names, the full text of documents, and by searching dates, document type, and tags. </li> 
+   <li>Add or edit metadata information for assets. Metadata is automatically versioned together with the corresponding asset. You can import or export asset metadata. </li> 
+   <li>Perform image editing functions such as scaling and adding image filters. Import and export multiple digital assets simultaneously using a WebDAV or CIFS folder. </li> 
+   <li>Use workflows and notifications to allow joint processing and downloading of any set of assets and manage access rights to assets.</li> 
+  </ul> 
+  <h3>AEM Assets fully integrated in CQ WCM</h3> 
+  <p>AEM Assets is fully integrated with CQ WCM and functionality is available using the DAM icon:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-04-17at15946pm.png" /> 
+  <img imageRotate="0" src="assets/screen_shot_2012-04-17at20100pm.png" /> 
+  <p>Assets managed within CQ DAM can then be accessed via the content finder of WCM:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-04-17at20214pm.png" /> 
+  <note> 
+   <p>The basic GUI handling is the same as the rest of WCM - see <a href="../../sites/authoring/using/page-authoring.md">Overview of the GUI Console</a> for full details.</p> 
+  </note> 
+  <h3>Digital Asset Management versus Image Component</h3> 
+  <p>When determining whether to put an image into AEM Assets or use CQ's image component, consider the image lifecycle:</p> 
+  <ul> 
+   <li>If the image has the same lifecycle as the page, use the Image Component.</li> 
+   <li>If the image has a separate life cycle, for example, if you use the image twice or outside WCM, use AEM Assets.</li> 
+  </ul> 
+  <h2>What are Digital Assets?</h2> 
+  <p>An asset is a digital document, image, video, or audio (or part thereof) that can have multiple renditions and can have sub-assets (for example, layers in a photoshop file, slides in a powerpoint file, pages in a pdf, files in a ZIP).</p> 
+  <p>An asset is essentially a binary plus metadata plus renditions plus sub-assets. See the <a href="../../sites/deploying/using/assets-performance-sizing.md">DAM Performance Guide</a> for detailed information.</p> 
+  <note> 
+   <p>Uploading and/or editing a large volume of assets (particularly images) can impact the performance of your CQ instance.</p> 
+  </note> 
+  <h3>AEM Assets Terminology</h3> 
+  <p>When working with digital assets in AEM, you need to understand the following terminology:<br /> </p> 
+  <p><strong>Collection</strong> A collection of assets, either based on physical location (folder), common properties (saved search folder), or user selection (lightbox folders).</p> 
+  <p><strong>Metadata</strong></p> 
+  <p>Assets have metadata; for example, author, expiry date, DRM Information (Digital Rights Management), and so on. Metadata is under access control. AEM Assets supports the following various common metadata schemata out of the box:</p> 
+  <ul> 
+   <li><p>Dublin Core: including author, description, date, subject, and so on.</p> </li> 
+   <li><p>IPTC: including event, model, location, and so on.</p> </li> 
+   <li><p>WCM: including page properties, on- and offtimes, and so on.</p> </li> 
+  </ul> 
+  <draft-comment type="draft"> 
+   <p>Metadata is covered in detail in <a href="../../assets/using/metadata.md">Metadata for Digital Asset Management</a>.</p> 
+  </draft-comment> 
+  <draft-comment lastModifiedBy="ltrielof" lastModifiedDate="2017-11-30T05:28:15.442-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>I think we need a better guide to the supported metadata properties. I am thinking of going through all metadata properties that we support OOTB, writing a one-line description for each one and suggesting something along the lines: "If you need a description, use dc:description from the Dublin Core Namespace"</p> 
+  </draft-comment> 
+  <draft-comment lastModifiedBy="alvawb" lastModifiedDate="2017-11-30T05:28:15.451-0500" prevFirstName="Alva" prevLastName="Ware-Bevacqui" type="remark"> 
+   <p>Maybe those descriptions can go in the Metadata for Digital Asset Management document?</p> 
+  </draft-comment> 
+  <p><strong>Tagging</strong> Assets can be tagged and classified. See Using Tags and Administering Tags.</p> 
+  <p><strong>Renditions</strong> A rendition is the binary representation of an asset. Assets always have a primary representation - that of the uploaded file. They can have any number of additional representations that are created, for example by customized workflow steps or when an asset is uploaded. Renditions may be of a different size, with a different resolution, with an added watermark, or some other changed characteristic.</p> 
+  <p><strong>Versions</strong> Versioning creates a snapshot of digital assets at a specific point in time. You can restore assets to previous versions. See Versioning in AEM Assets.</p> 
+  <p><strong>Sub-assets</strong> Sub-assets are assets that make up an asset, for example, layers in an Adobe Photoshop file or pages in a PDF file. In AEM Assets, you can manage sub-assets as you would assets.</p> 
+  <h3>How to Work With Assets</h3> 
+  <p>You perform an action on an asset or collection. Actions can create or modify assets, collections, and renditions. Many of the basic actions you perform on assets - upload, delete, update, save sub-assets - trigger preconfigured workflows. These are automatically turned on in AEM Assets and are described in detail in AEM Assets media handlers.</p> 
+  <p>The tasks you can perform with these preconfigured workflows: </p> 
+  <ul> 
+   <li>save the asset in, or delete the asset from, the repository.</li> 
+   <li>extract, and save, metadata for the asset; the individual metadata items are saved as XMP.</li> 
+   <li>generate renditions and thumbnails for the asset; including automatic resizing and cropping where necessary.</li> 
+   <li>transcode the asset where necessary. For example, video for mobile and web usage is transcoded with 24 frames per second, download video with 30 frames per second. Audio for mobile and web usage is transcoded with 128 kbps, audio for download with 192 kbps.</li> 
+  </ul> 
+  <p>Of course, you can apply workflows manually as well. See <a href="../../assets/using/media-handlers.md">AEM Assets Media Handlers </a>for a list of default workflows.</p> 
+  <h2>CQ DAM vs. CQ MediaLibrary</h2> 
+  <p>See <a href="../../assets/using/medialibrary.md">CQ DAM and the CQ MediaLibrary</a> for information on the differences.</p> 
+  <draft-comment color="yellow" lastModifiedBy="gschneck" lastModifiedDate="2017-11-30T05:28:15.554-0500" prevFirstName="Geoffroy" prevLastName="Schneck" type="remark"> 
+   <p>On the FAQ Above, "How can I prevent my users from using DAM if I did not license DAM?", there is still mention of the CQ 5.3 remove-dam package .<br /> <br /> This one has not been updated for CQ 5.4 and 5.5, see Bug #35137 .<br /> <br /> I then think this FAQ should be updated as well..</p> 
+   <p></p> 
+  </draft-comment> 
+ </body> 
+</html>

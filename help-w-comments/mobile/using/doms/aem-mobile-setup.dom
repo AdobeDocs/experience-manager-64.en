@@ -1,0 +1,142 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/administering-on-demand-services-app;/content/help/en/experience-manager/6-4/mobile/morehelp/administering-on-demand-services-app" name="moreHelpPaths" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-10-31T09:05:42.202-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="trushton" name="cq:lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/mobile-apps/aem-mobile/aem-mobile-setup" name="qaNotes" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2018-10-31T09:05:42.213-0400" name="cq:lastModified" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-10-31T09:05:42.202-0400" name="lastPublishExternalDate" /> 
+  <meta content="trushton@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="8c794505-0854-44a7-9455-5a70723c8e69" name="jcr:predecessors" /> 
+  <meta content="AEM Mobile SetUp" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:administering-on-demand-services-app" name="cq:tags" /> 
+  <meta content="0b499e98-d7f3-4149-97af-e0067601758d" name="jcr:uuid" /> 
+  <meta content="2018-10-31T09:05:42.202-0400" name="publishExternalDate" /> 
+  <meta content="AEM Mobile SetUp" name="seoTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Follow this page for setting up AEM Mobile and thus allowing the user to create and manage the content within AEM. This page provides information on integrating the AEM instance with the cloud-based AEM Mobile On-Demand Services account and project(s).
+" name="seoDescription" /> 
+  <meta content="2017-10-31T16:26:37.114-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/aem-mobile-setup.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="2017-12-13T19:01:14.980-0500" name="jcr:created" /> 
+  <meta content="2018-10-31T09:05:42.262-0400" name="cq:lastReplicated" /> 
+  <meta content="trushton" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-05-11T10:01:16.847-0400" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <note> 
+   <p>Existing AEM Mobile Apps customers migrating from AEM 6.2 or 6.3 to AEM 6.4 can continue to use AEM Mobile Apps by downloading a <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/compatpack/aem-mobile-package">package from PackageShare</a>. However, new installs of AEM 6.4 will not support AEM Mobile Apps functionality.</p> 
+  </note> 
+  <p>In order to use AEM to produce content for AEM Mobile apps, you must integrate the AEM instance with the cloud-based AEM Mobile On-Demand Services account and project(s).</p> 
+  <p>Follow these steps for setting up AEM Mobile and thus allowing the user to create and manage the content within AEM.</p> 
+  <h2>AEM Mobile Provisioning</h2> 
+  <p>To get started with AEM Mobile set up, you need to:</p> 
+  <ul> 
+   <li><strong>Request an API key</strong>: To access the On-Demand Services API, you need to request an API key. To request the API key, complete the <a href="https://helpx.adobe.com/digital-publishing-solution/help/integrating-dps.html">PDF form</a>. Send the completed form to Adobe Developer Support: <a href="mailto:wwds@adobe.com">wwds@adobe.com</a></li> 
+   <li><strong>Generate the Device ID and Device Token</strong>: Once you have received your API key, you can generate the device id and device token. Go to <a href="https://aex.aemmobile.adobe.com/">https://aex.aemmobile.adobe.com</a> and do the following: 
+    <ul> 
+     <li>Provide the API Key</li> 
+     <li>Login with an Adobe ID that you have added to an AEM Mobile project with following permissions (see below steps to create project) 
+      <ul> 
+       <li>Administration &amp;gt; Manage Projects and Users</li> 
+       <li>Content &amp;gt; Add &amp; Edit Content, Delete Content, View Content, Publish Content</li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <p> If all conditions are met, a Device ID and Device Token will be generated.</p> 
+  <note> 
+   <p>The Adobe ID needed should be granted access on a AEM Mobile Project. See <a href="https://helpx.adobe.com/digital-publishing-solution/help/account-admin-dps.html">Account Administration for AEM Mobile</a> in Online Help.</p> 
+  </note> 
+  <h2>Creating Projects for AEM Mobile</h2> 
+  <p>When you create a project, you specify settings for any platform you're targeting: iOS, Android, Windows, and Desktop Web Viewer. Many of the project settings you specify affect the behavior of the app.</p> 
+  <p>Creating a project requires signing in to the On-Demand Services portal using an Adobe ID that has a Master Admin role. Editing a project requires either a Master Admin role or a user role with a <strong>Manage Projects and Users</strong> permission.</p> 
+  <note> 
+   <p>To learn more about Creating Projects in AEM Mobile, click <a href="https://helpx.adobe.com/digital-publishing-solution/help/creating-projects.html">here</a>.</p> 
+  </note> 
+  <h2>Configuring an AEM Mobile Connector</h2> 
+  <p>AEM set up involves the followng steps for connector configuration. Once the AEM Mobile connector configuration is complete, the user can set up user groups and permissions.</p> 
+  <p>The AEM Mobile On-Demand connector is used to bind AEM Mobile managed content with Adobe Experience Manager Mobile’s On-Demand services. This enables content authors to create and manage material for mobile applications using AEM’s tools while using AEM Mobile’s On-Demand services for easy distribution of mobile content.</p> 
+  <note> 
+   <p>This is a one time step to setup the AEM instance.</p> 
+  </note> 
+  <h3>Configuring AEM Mobile On-Demand Services Client</h3> 
+  <p>You must complete the configuration steps in order for the AEM Mobile integrations to function correctly.</p> 
+  <ol> 
+   <li>Go to OSGI service configuration 
+    <ol> 
+     <li>AEM &amp;gt; Tools &amp;gt; Operations &amp;gt; Web Console</li> 
+     <li>Scroll or search for <strong><i>Experience Manager Mobile On-demand Services Client (was Adobe Digital Publishing Solution Client)</i></strong></li> 
+    </ol> </li> 
+   <li>Edit<strong><i> Experience Manager Mobile On-demand Services Client</i></strong> 
+    <ol> 
+     <li>[<strong>Mandatory</strong>] Enter required fields: 
+      <ol> 
+       <li>Client ID.</li> 
+       <li>Client Secret.</li> 
+      </ol> </li> 
+     <li>[<strong>Optional</strong>] Edit existing values.</li> 
+    </ol> </li> 
+   <li>Save the changes.</li> 
+   <li>Here is an example configuration:</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-58.png" /> 
+  <h3>Configuring AEM Mobile On-Demand Services CloudService</h3> 
+  <ol> 
+   <li>Go to Cloud Services 
+    <ol> 
+     <li>AEM &amp;gt; Tools &amp;gt; Deployment&amp;gt; <a href="http://localhost:4502/libs/cq/core/content/tools/cloudservices.html">CloudServices</a>. Scroll or search for <i><strong>Adobe Experience Manager Mobile On-demand Services</strong></i></li> 
+    </ol> </li> 
+   <li>Select <i><strong>Configure now</strong></i> or <i><strong>Show Configurations</strong></i> and select the add new configuration icon </li> 
+   <li>Create a new configuration<br /> 
+    <ol> 
+     <li>Enter a Title and Name </li> 
+     <li>Enter Device Id </li> 
+     <li>Enter Device Token</li> 
+     <li>Select <strong><i>Test Device Configuration </i></strong>to validate entered values </li> 
+     <li>Select Ok</li> 
+    </ol> </li> 
+  </ol> 
+  <h2>Adding AEM Mobile User Roles and Assigning Permissions</h2> 
+  <p>After creating a project you should create roles and grant access to users. Only Master Admins can create and edit roles. When you create a role, you enable capabilities (or permissions) for whichever users are assigned those permissions. For example, you can create one role that includes permissions for app building and another role that includes permissions for creating and publishing content. </p> 
+  <p>In AEM Mobile app development, three different roles exist:</p> 
+  <ul> 
+   <li>Administrator</li> 
+   <li>Developer</li> 
+   <li>Author</li> 
+  </ul> 
+  <p>For more information on creating roles with different permissions such as for app building or for creating and publishing content, click <a href="https://helpx.adobe.com/digital-publishing-solution/help/account-admin-dps.html">Creating User Roles and Granting Access</a> in AEM Mobile Help.</p> 
+  <note> 
+   <p>Managing app content requires a collective effort from developers, content authors and administrators. Authors manipulate pages, which are in turn based on templates and components generated by app developers. Finally, administrators strategically publish the updated app content. Setting up AEM Groups and Permissions defines their roles in the app Dashboard or Control Center.</p> 
+   <p>For more information on AEM Mobile Dashboard, click <a href="../../mobile/using/mobile-apps-ondemand-application-dashboard.md">here</a>.</p> 
+  </note> 
+  <p>Once you are done creating roles with different permissions such as for app building or for creating and publishing content, see <a href="../../mobile/using/aem-mobile-configure-users.md"><strong>Configure your User and User Groups</strong></a> to configure your users and groups to support the authoring and mangement of your mobile apps.</p> 
+  <h3>Additional Resources</h3> 
+  <p>To understand more on the other two roles and responsibilities for creating an AEM Mobile On-Demand Services App, see the following resources:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/aem-mobile-on-demand.md">Developing AEM Content for AEM Mobile On-Demand Services</a></li> 
+   <li><a href="../../mobile/using/mobile-apps-ondemand.md">Authoring AEM Content for AEM Mobile On-Demand Services App</a></li> 
+  </ul> 
+  <note> 
+   <p>To preview the app contents, including browse pages and articles, see <a href="../../mobile/using/aem-mobile-manage-ondemand-services.md">Previewing with Preflight</a>.</p> 
+  </note> 
+ </body> 
+</html>

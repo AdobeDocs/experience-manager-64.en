@@ -1,0 +1,217 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-09-03T06:26:28.947-0400" name="lastPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="Text in Interactive Communications" name="seoTitle" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="aba526a8-de01-4319-aa49-b7877a1f9fe8" name="jcr:predecessors" /> 
+  <meta content="2018-04-03T08:53:33.182-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-09-03T06:26:28.947-0400" name="publishExternalDate" /> 
+  <meta content="2018-09-03T06:26:29.006-0400" name="cq:lastReplicated" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="topic_tags:interactive-communications;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/interactive-communications;/content/help/en/experience-manager/6-4/forms/morehelp/interactive-communications" name="moreHelpPaths" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Texts in Interactive Communications" name="navTitle" /> 
+  <meta content="Creating and editing text document fragments to be used in Interactive Communications - text is one of the four types of document fragments used to build Interactive Communications. The other three are conditions, lists, and layout fragments.  " name="jcr:description" /> 
+  <meta content="Creating and editing text document fragments to be used in Interactive Communications" name="seoDescription" /> 
+  <meta content="2018-04-02T07:28:39.700-0400" name="jcr:created" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/texts-interactive-communications.html" name="publishExternalURL" /> 
+  <meta content="Texts in Interactive Communications" name="jcr:title" /> 
+  <meta content="2018-09-03T06:26:28.947-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-09-03T06:26:28.955-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-26T04:32:40.202-0400" name="locHandOffDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="eef76af2-8fae-474b-b485-c073b968ec40" name="jcr:uuid" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>A text document fragment consists of one or more paragraphs of text. A paragraph can be static or dynamic. A dynamic paragraph may contain form data model properties and variables. You can also apply rules and repeat within a text document fragment. For example, the customer name in a salutation could be a Form Data Model (FDM) property with its value made available at runtime. By changing these values, the same Interactive Communication can be used to prepare Interactive Communication for different customers using the Agent UI.</p> 
+  <p>The text document fragment in Interactive Communication supports the following type of dynamic data:</p> 
+  <ul> 
+   <li><strong>Data model objects</strong>: The data properties use a back end data source. </li> 
+   <li><strong>Rule based content</strong>: Parts of content in a text that appear or get hidden based on a rule. A rule could also be based on form data model properties and variables. </li> 
+   <li><strong>Variables</strong>: In text document fragment, variables are not bound to a backend data source. The agent fills in/selects values in variables or binds the variables to data sources while preparing the Interactive Communication for submitting it to a post process. </li> 
+   <li><strong>Repeat</strong>: You may have dynamic information in your Interactive Communication, such as transactions in a credit card statement, the number of occurrences of which may keep changing with each generated Interactive Communication. Using repeat, you can format and structure such dynamic information. For more information, see <a href="https://helpx.adobe.com/experience-manager/6-3/forms/using/cm-inline-condition.html" target="_blank">Inline condition and repeat</a>.</li> 
+  </ul> 
+  <h2 id="CreateText">Create text</h2> 
+  <ol> 
+   <li><p>Select <span class="uicontrol">Forms</span> &amp;gt; <span class="uicontrol">Document Fragments</span>. </p> </li> 
+   <li><p>Select <span class="uicontrol">Create</span> &amp;gt; <span class="uicontrol">Text</span>. </p> </li> 
+   <li><p>Specify the following information:</p> 
+    <ul> 
+     <li><span class="uicontrol">Title</span>: (Optional) Enter the title for the text document fragment. Titles need not be unique and can have special characters and non-English characters. Texts are referred by their titles (when available) such as in thumbnails and properties. </li> 
+     <li><span class="uicontrol">Name</span>: The unique name for the text, within a folder. No two document fragments (text, condition, or list) in any state can exist with the same name in a folder. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.<br /> </li> 
+     <li><span class="uicontrol">Description</span>: Type a description of the text.</li> 
+     <li><span class="uicontrol">Form Data Model</span>: Optionally, select the Form Data Model radio button to create the text based on a form data model. When you select Form Data Model radio button, <span class="uicontrol">Form Data Model*</span> field appears. Browse and select a form data model. While creating text and condition for an Interactive Communication, ensure that you use the same data model that you intend to use in the Interactive Communication. For more information on Form Data Model, see <a href="../../forms/using/data-integration.md" target="_blank">Data Integration</a>. </li> 
+     <li><span class="uicontrol">Tags</span>: Optionally, to create custom tag enter value in text field and press Enter. When you save this text, the newly added tags get created.</li> 
+    </ul> 
+    <draft-comment lastModifiedBy="gtalwar" lastModifiedDate="2018-02-07T04:19:53.579-0500" type="annotation">
+      Title - layout fragment? can a layout fragment have name similar to a text? 
+    </draft-comment></li> 
+   <li><p>Tap <span class="uicontrol">Next</span>. </p> <p>Create Text page appears. If you have chosen to create a form data model-based text, the form data model properties appear in the left pane. </p> </li> 
+   <li><p>Type in the text and use the following options for formatting, conditionalizing, and inserting form data model properties and variables in your text:</p> 
+    <ul> 
+     <li><a href="#formdatamodel">Form Data Model</a></li> 
+     <li><a href="#variables">Variables</a></li> 
+     <li><a href="#rules">Rule editor</a></li> 
+     <li><a href="#formatting">Formatting options</a> 
+      <ul> 
+       <li><a href="#paste">Copy paste formatted text from other applications</a><br /> </li> 
+       <li><a href="#highlight">Highlight parts of text</a></li> 
+      </ul> </li> 
+     <li><a href="../../forms/using/cm-inline-condition.md" target="_blank">Repeat</a></li> 
+     <li><a href="#special">Special characters</a></li> 
+     <li><a href="#search">Searching and replacing text</a></li> 
+     <li><a href="../../forms/using/keyboard-shortcuts.md" target="_blank">Keyboard shortcuts</a></li> 
+    </ul> 
+    <draft-comment lastModifiedBy="gtalwar" lastModifiedDate="2018-02-07T14:48:24.100-0500" type="annotation">
+      Explain page break here 
+    </draft-comment></li> 
+   <li><p>Tap <span class="uicontrol">Save</span>.</p> <p>The text is created. Now you can proceed to using the text as a building block while creating an Interactive Communication. </p> </li> 
+  </ol> 
+  <h2 id="EditText">Edit text</h2> 
+  <p>You can edit an existing text document fragment using the following steps. You can also choose to edit a text document fragment from within an Interactive Communication editor. </p> 
+  <ol> 
+   <li><p>Select <span class="uicontrol">Forms</span> &amp;gt; <span class="uicontrol">Document Fragments</span>. </p> </li> 
+   <li><p>Navigate to a text document fragment and select it. </p> </li> 
+   <li><p>Tap <span class="uicontrol">Edit</span>. </p> </li> 
+   <li><p>Make the required changes. For more information on options in text, see <a href="#createtext">Create text</a>. </p> </li> 
+   <li><p>Tap <span class="uicontrol">Save </span>and then tap <span class="uicontrol">Close</span>. </p> </li> 
+  </ol> 
+  <h2 id="FormDataModel">Personalizing a text document fragment using form data model properties</h2> 
+  <p>You can personalize text document fragments by inserting the form data model properties. By inserting form data model properties in text, you can fetch and populate recipient-specific data from the associated data source while previewing an Interactive Communication. For more information on form data model, see <a href="../../forms/using/data-integration.md" target="_blank">AEM Forms Data Integration</a>. </p> 
+  <p>If you have specified a form data model while creating a text, the properties in the form data model appear in the left pane of the text editor. The specified form data model should be same for the text document fragment as well as the Interactive Communication that includes it. </p> 
+  <img imageRotate="0" src="assets/insertfdmelementtext.png" /> 
+  <ul> 
+   <li>To insert an FDM property into text, place the cursor where you want to insert the property, then select the <strong>[A]</strong> property in the left pane by tapping on it, and tap <strong>[B]</strong> <span class="uicontrol">Add Selected</span>. You can also just double-tap the property to insert it at the <strong>[C]</strong> cursor position. Form data model properties are highlighted in a brownish background color. </li> 
+   <li>To allow the agents to edit an FDM property's value in the agent UI while <a href="../../forms/using/prepare-send-interactive-communication.md" target="_blank">Prepare and send Interactive Communication</a> using the Agent UI, tap the <strong>[D]</strong> lock icon for that property and ensure it is in an unlocked state. The default state of the property is locked and an agent cannot edit the property in the Agent UI. </li> 
+   <li> </li> 
+  </ul> 
+  <p>You can also use form data model properties to construct rules for displaying or hiding parts of content. For more information, see <a href="#rules">Create rules in text</a>.</p> 
+  <h2 id="Variables">Creating and using variables in a text document fragment</h2> 
+  <p>Variables are placeholders that can be bound while creating an Interactive Communication. Variables can be bound to a form data model property or text fragment. Variables can also be left for the agent to fill. </p> 
+  <p>You can use variables instead of form data model properties when:</p> 
+  <ul> 
+   <li>A text document fragment is to be used in multiple Interactive Communications where the binding needs to be different for different Interactive Communications.</li> 
+   <li>Text document fragment does not have a form data model at the time of its creation. You can insert variables and later bind them to the form data model properties at the time of creation of the Interactive Communication.</li> 
+   <li>You need to bind and retrieve text from a text document fragment. Only those text document fragments can be bound to variables should not have that have no variables within. </li> 
+  </ul> 
+  <p>While creating or editing a text document fragment, you can create and insert variables. The variables you create appear in the Data tab of the Agent UI. The agent specifies the values for the variables while <a href="../../forms/using/prepare-send-interactive-communication.md" target="_blank">Prepare and send Interactive Communication using the Agent UI</a>.</p> 
+  <draft-comment lastModifiedBy="gtalwar" lastModifiedDate="2018-03-22T06:50:19.160-0400" type="annotation">
+    Annu: Variables are placeholders that can be bound while creating IC. They can be bound to an FDM element or text fragment or left for the agent to fill. Added 
+  </draft-comment> 
+  <h3>Create variables</h3> 
+  <ol> 
+   <li><p>In the left pane, tap <span class="uicontrol">Variables</span>. </p> <p>The Variables pane appears. </p> <img imageRotate="0" src="assets/variablespane.png" /></li> 
+   <li><p>Tap <span class="uicontrol">Create</span>.</p> <p>Create Variables pane appears. </p> </li> 
+   <li><p>Enter the following information and tap <span class="uicontrol">Create</span>:</p> 
+    <ul> 
+     <li><span class="uicontrol">Name*</span>: Name of the variable.</li> 
+     <li><span class="uicontrol">Description</span>: Optionally enter a description about the variable. </li> 
+     <li><span class="uicontrol">Type*</span>: Select a type of the variable: String, Number, Boolean, or Date. </li> 
+     <li><span class="uicontrol">Allow Specific Values Only</span>: For String and Number variables, you can ensure that the agent chooses from a specific set of values for a placeholder in the Agent UI. To specify the set of values, select this option and then specify comma-separated values that are allowed in the <span class="uicontrol">Values*</span> field. </li> 
+    </ul> </li> 
+   <li><p>Tap <span class="uicontrol">Create</span>. </p> <p>The variable is created and listed in the Variables pane. </p> </li> 
+   <li><p>To insert a variable in the text, place the cursor at the appropriate place, select the variable, and tap <span class="uicontrol">Add Selected</span>. </p> <img imageRotate="0" src="assets/variableinserted.png" /><p>Variables are highlighted in light blue background color, while form data model properties are highlighted in a brownish color. </p> </li> 
+   <li><p>Tap <span class="uicontrol">Save</span>. </p> </li> 
+  </ol> 
+  <h2 id="Rules">Create rules in text</h2> 
+  <p>Using rule editor in a text, you can create rules to display or hide strings of text or pieces of content based on <strong>preset conditions</strong>. These conditions can be constructed based on:</p> 
+  <ul> 
+   <li>Strings</li> 
+   <li>Numbers</li> 
+   <li>Mathematical expression</li> 
+   <li>Dates</li> 
+   <li>Associated form data model's properties</li> 
+   <li>Any variables that you may have created in the text</li> 
+  </ul> 
+  <h3>Create rules in text</h3> 
+  <ol> 
+   <li><p>While creating or editing a text, select the text string, paragraph, or content that you want to conditionalize using the rule. </p> <img imageRotate="0" src="assets/selectcontentapplyrule.png" /></li> 
+   <li><p>Tap <span class="uicontrol">Create Rule</span>. </p> <p>The Create Rule dialog appears. In addition to string, number, mathematical expression, and date, the following are also available in the Rule Editor for creating statements of the rules:</p> 
+    <ul> 
+     <li>Associated form data model's properties</li> 
+     <li>Any variables that you may have created</li> 
+    </ul> <p>Select the appropriate option to be evaluated. </p> <img imageRotate="0" src="assets/ruleeditor.png" /><img imageRotate="0" src="assets/ruleeditorfdm.png" /> 
+    <note> 
+     <p>Collection property is not supported for creating rules to conditionalize and display text. <br /> </p> 
+    </note></li> 
+   <li><p>Select the appropriate operator to evaluate the rule, such as Is Equal To, Contains, and Starts With. </p> <img imageRotate="0" src="assets/ruleeditorfdm-1.png" /></li> 
+   <li><p>Insert the evaluating expression, value, data model property, or variable.</p> <img alt="Rule to display the selected text if the location of the recipient is US according to the source data of FDM" captionBottom="Rule to display the selected text if the location of the recipient is US according to the source data of FDM" imageRotate="0" src="assets/ruleeditorfdm-1-1.png" title="Rule to show or hide text" /> 
+    <ul> 
+     <li>While creating or editing a rule, you can also tap <img src="assets/icon_resize.png" /> (Resize) to expand the Create Rule/Edit Rule dialog. The expanded, full-window dialog allows you to drag-and-drop form data model properties and variables to construct rules. Tap Resize again to go back to the Create Rule dialog. </li> 
+     <li>You can also create multiple conditions in a rule. </li> 
+     <li>You can also create overlapping rules, in which a rule is applied to a part of a content that already has a rule applied. </li> 
+    </ul> </li> 
+   <li><p>Tap <span class="uicontrol">Done</span>.</p> 
+    <draft-comment lastModifiedBy="gtalwar" lastModifiedDate="2018-02-07T08:11:24.956-0500" type="annotation">
+      on hover, the rule appears - applies to repeat also Rule cannot be applied to collection element multiple conditions within a rule multiple rules on a piece of content - nested 
+    </draft-comment><p>The rule gets applied. The text or content to which the rule is applied is highlighted in green. When you hover over the left handle of the highlight, the applied rule appears.</p> <img imageRotate="0" src="assets/appliedruletext.png" /><p>On clicking the left handle of the applied rule, you get the options to edit or remove the rule. </p> </li> 
+  </ol> 
+  <h2 id="Formatting">Formatting text</h2> 
+  <p>While creating or editing text, the toolbar changes depending on the type of edits you choose to make: Paragraph, Alignment, or Listing:</p> 
+  <a href="assets/toolbarselection.png"><img alt="Select type of toolbar" captionBottom="Select type of toolbar: Paragraph, Alignment, or Listing" imageRotate="0" src="assets/toolbarselection-1.png" title="Select type of toolbar" /></a> 
+  <img alt="Font editing toolbar" captionBottom="Font editing toolbar" imageRotate="0" src="assets/paragraphtoolbar-1.png" title="Font editing toolbar" /> 
+  <img alt="Alignment toolbar" captionBottom="Alignment toolbar" imageRotate="0" src="assets/alignmenttoolbar.png" title="Alignment toolbar" /> 
+  <img alt="Listing toolbar" captionBottom="Listing toolbar" imageRotate="0" src="assets/listingtoolbar.png" title="Listing toolbar" /> 
+  <h3 id="Highlight">Highlight/Emphasize parts of text</h3> 
+  <p>To highlight\emphasize parts of text in an editable document fragment, select the text and tap Highlight Color.</p> 
+  <img imageRotate="0" src="assets/textbackgroundcolorapplied-1.png" /> 
+  <p>You can either directly tap a basic color <strong>[A]</strong> present in the Basic Colors palette or tap <strong>Select</strong> after using the slider <strong>[B]</strong> to choose the appropriate shade of the color.</p> 
+  <p>Optionally, you can also go to the Advanced tab to select the appropriate Hue, Lightness, and Saturation <strong>[C]</strong> to create the precise color and then tap Select <strong>[D]</strong> to apply the color to highlight the text. </p> 
+  <img imageRotate="0" src="assets/textbackgroundcolor-2.png" /> 
+  <h3 id="Paste">Paste formatted text</h3> 
+  <draft-comment lastModifiedBy="gtalwar" lastModifiedDate="2018-02-18T09:14:58.046-0500" type="annotation">
+    small change in the above graphic 
+  </draft-comment> 
+  <p>To reuse one of more paragraphs of text that exist in another application, such as from Microsoft® Word or HTML pages, copy and paste the text into the text editor. The formatting of the copied text is retained in the text editor.</p> 
+  <p>You can copy and paste one or more paragraphs of text in an editable text document fragment. For example, you may have an Microsoft® Word document with a bulleted list of acceptable proofs of residence such a following:</p> 
+  <img imageRotate="0" src="assets/pastetextmsword-2.png" /> 
+  <p>You can directly copy and paste the text from the Microsoft® Word document to an editable text document fragment. The formatting such as bulleted list, font, and text color is retained in the text document fragment.</p> 
+  <img imageRotate="0" src="assets/pastetexteditablemodule-1.png" /> 
+  <note> 
+   <p>The formatting of pasted text, however, has some <a href="/content/help/en/aem-forms/kb/cm-copy-paste-text-limitations">limitations</a>.</p> 
+  </note> 
+  <h2 id="Special">Insert special characters in text</h2> 
+  <p>If required, insert special characters in the document fragment. For example, you can use the Special Characters palette to insert:</p> 
+  <ul> 
+   <li>Currency symbols such as €,￥, and £</li> 
+   <li>Mathematical symbols such as ∑, √, ∂, and ^</li> 
+   <li>Punctuation symbols such as ‟ and ”</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/specialcharacters-2.png" /> 
+  <p>Text editor has built in support for 210 special characters. The admin can <a href="../../forms/using/custom-special-characters.md">add support for more/custom special characters by customization</a>. </p> 
+  <h2 id="Search">Searching and replacing text</h2> 
+  <p>When working with text document fragments containing a large amount of text, you need to search for a specific text string. You may also need to replace a specific string of text with an alternative string.</p> 
+  <p>The Find and Replace feature allows you to search for (and replace) any string of text in a text document fragment. The feature also includes a powerful regular expression search. </p> 
+  <ol> 
+   <li><p>Open a text document fragment for <a href="#edittext">editing</a>. </p> </li> 
+   <li><p>Tap <span class="uicontrol">Find &amp; Replace</span>.<br /> </p> </li> 
+   <li><p>Enter the text to search in the <span class="uicontrol">Find</span> text box and the new text (replacement text) in the <span class="uicontrol">Replace</span> text box and tap <span class="uicontrol">Replace</span>.<br /> </p> </li> 
+   <li><p>If the searched text is found, the text is replaced by the replacement text.</p> 
+    <ul> 
+     <li>If another instance of the search text is found, that instance is highlighted in the text document fragment. If you tap <span class="uicontrol">Replace</span> again, the highlighted instance is replaced and the cursor moves forward, if a third instance is found.</li> 
+     <li>If another instance is not found, the Find &amp; Replace dialog displays a message: Reached end of module.</li> 
+    </ul> <p>You can also tap Replace all to replace all the matches in a one go. </p> <p>Find &amp; Replace also includes a powerful regular expression search. To use regex in your search, select <span class="uicontrol">Reg ex</span> and then tap <span class="uicontrol">Find</span> or <span class="uicontrol">Replace</span>. <span class="uicontrol"></span></p> </li> 
+  </ol> 
+ </body> 
+</html>

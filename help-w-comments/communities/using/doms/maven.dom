@@ -1,0 +1,102 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-03T07:48:39.877-0400" name="topicBrowsingSortDate" /> 
+  <meta content="AEM Communities API jar and AEM Uber API jar" name="seoDescription" /> 
+  <meta content="2017-12-01T19:02:23.024-0500" name="jcr:created" /> 
+  <meta content="Using Maven for Communities" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Janice Kendall" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="Using Maven for Communities" name="seoTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-03T07:48:41.224-0400" name="cq:lastReplicated" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Using Maven for Communities" name="navTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-31T16:33:32.375-0400" name="firstPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-05-17T05:54:50.883-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-03T07:48:39.877-0400" name="publishExternalDate" /> 
+  <meta content="e67fa5f9-10e2-4ce9-8e01-2c105b18ed0e" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/code-guide/maven" name="qaNotes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-03T07:48:39.877-0400" name="lastPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/maven.html" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-05-17T05:54:50.884-0400" name="cq:lastModified" /> 
+  <meta content="69cc0f59-3e5c-4829-92ac-cb2eee77395a" name="jcr:predecessors" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>This section of the AEM Communities documentation is in addition to: </p> 
+  <ul> 
+   <li><a href="../../sites/developing/using/ht-projects-maven.md">How to Build AEM Projects using Apache Maven</a></li> 
+  </ul> 
+  <p>There are now two "uber" artifacts that replace individual artifacts :</p> 
+  <ul> 
+   <li>AEM <a href="#communitiesapijarartifact">Communities API jar</a></li> 
+   <li>AEM <a href="../../sites/developing/using/ht-projects-maven.md#whatistheuberjar">Uber API jar</a></li> 
+  </ul> 
+  <p> </p> 
+  <h2>Communities API Jar Artifact</h2> 
+  <p>Following is an example of a GAV for the AEM Communities API jar :</p> 
+  <codeblock class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.cq.social&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;cq-socialcommunities-api&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;1.11.170&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&lt;/dependency&gt;!!discoiqbr!! 
+  </codeblock> 
+  <p>The version specified should correspond to the Communities package version installed for AEM Communities. To verify the installed version number :</p> 
+  <ul> 
+   <li>login with adminstrative privileges</li> 
+   <li>browse to <a href="../../sites/administering/using/package-manager.md">Package Manager</a><br /> for example, <a href="http://localhost:4502/crx/packmgr/">http://localhost:4502/crx/packmgr/</a></li> 
+   <li>locate the package <i>cq-socialcommunities-pkg-1.x.xxx</i></li> 
+   <li>extract the version from the package name 
+    <ul> 
+     <li>first version for AEM 6.3 is version 1.11.170</li> 
+     <li>feature packs will be versions 1.12.xxx</li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>It is recommended to keep up-to-date with the most recent Communities release. </p> 
+   <p>Visit the <a href="../../communities/using/deploy-communities.md#latestreleases">Latest Releases</a> section to identify the most recent version.</p> 
+  </note> 
+  <h2>Maven Dependency Example</h2> 
+  <p>The Communities API jar must be specified before the Uber API jar.</p> 
+  <codeblock class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.cq.social&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;cq-socialcommunities-api&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;1.11.170&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&lt;/dependency&gt;!!discoiqbr!!&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.aem&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;uber-jar&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;6.3.0&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;classifier&gt;apis&lt;/classifier&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <draft-comment type="draft"> 
+   <h2>Javadocs</h2> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>The <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/package-summary">online javadocs</a> reflect the APIs available in the AEM 6.3 release (Communities version 1.11.170).</p> 
+   <p>When a <a href="../../communities/using/deploy-communities.md#latestfeaturepack">feature pack</a>* is released, its javadoc jar is made available to be loaded into an IDE or downloaded to a local disk, exploded, and referenced using a browser.</p> 
+   <p>For example, the AEM 6.3 javadoc jar is located within this Adobe public repository folder :</p> 
+   <ul> 
+    <li><a href="https://repo.adobe.com/nexus/content/groups/public/com/adobe/cq/social/cq-socialcommunities-api/1.11.170/">https://repo.adobe.com/nexus/content/groups/public/com/adobe/cq/social/cq-socialcommunities-api/1.11.170/</a> 
+     <ul> 
+      <li>cq-socialcommunities-api-1.11.170-javadoc.jar</li> 
+      <li>cq-socialcommunities-api-1.11.170-javadoc.jar.md5</li> 
+      <li>cq-socialcommunities-api-1.11.170-javadoc.jar.sha1</li> 
+      <li>cq-socialcommunities-api-1.11.170.jar</li> 
+      <li>cq-socialcommunities-api-1.11.170.jar.md5</li> 
+      <li>cq-socialcommunities-api-1.11.170.jar.sha1</li> 
+      <li>cq-socialcommunities-api-1.11.170.pom</li> 
+      <li>cq-socialcommunities-api-1.11.170.pom.md5</li> 
+      <li>cq-socialcommunities-api-1.11.170.pom.sha1</li> 
+     </ul> </li> 
+   </ul> 
+   <p>* feature packs for AEM 6.3 Communities are versions labeled 1.12.xxx</p> 
+  </draft-comment> 
+ </body> 
+</html>

@@ -1,0 +1,193 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/adobeanalytics-saint.html" name="publishExternalURL" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="Adobe Classifications" name="jcr:title" /> 
+  <meta content="2018-07-05T02:17:50.711-0400" name="lastPublishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/integration/marketing-cloud/sitecatalyst/sc-saint" name="qaNotes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="2018-07-05T02:17:50.716-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-07-05T02:17:50.711-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:25:53.715-0400" name="firstPublishExternalDate" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="ecc7af42-1d76-48d1-b3e8-a2039ff9be3b" name="jcr:predecessors" /> 
+  <meta content="c4cae64d-9ffe-405b-a5e0-879625870f2c" name="jcr:uuid" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:integration;content_type:reference" name="cq:tags" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Learn about Adobe Classifications." name="seoDescription" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-07-05T02:39:01.038-0400" name="cq:lastReplicated" /> 
+  <meta content="Adobe Classifications" name="navTitle" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration;/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration" name="moreHelpPaths" /> 
+  <meta content="2018-04-26T10:14:09.743-0400" name="locHandOffDate" /> 
+  <meta content="Adobe Classifications" name="seoTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-07-05T07:29:18.470-0400" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-07-05T02:17:50.711-0400" name="publishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>Adobe Classifications exports classifications data to <a href="../../../sites/administering/using/adobeanalytics.md">Adobe Analytics</a> in a scheduled manner. The exporter is an implementation of a <strong>com.adobe.cq.scheduled.exporter.Exporter</strong>.</p> 
+  <p>To configure this:</p> 
+  <ol> 
+   <li><p>Navigate via <strong>Tools, Cloudservices</strong> to the <strong>Adobe Analytics</strong> section.</p> </li> 
+   <li><p>Add a new configuration . You will see that the <strong>Adobe Analytics Classifications</strong> Configuration template displays below the <strong>Adobe Analytics Framework</strong> configuration. Supply a <strong>Title</strong> and <strong>Name</strong> as required:</p> <img imageRotate="0" src="assets/aa-25.png" /></li> 
+   <li><p>Click <strong>Create</strong> to configure the settings.</p> <img imageRotate="0" src="assets/chlimage_1-2.png" /><p>Properties include the following:</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td><strong>Field</strong></td> 
+       <td><strong>Description</strong></td> 
+      </tr> 
+      <tr> 
+       <td>Enabled</td> 
+       <td>Select <strong>Yes</strong> to enable the Adobe Classifications settings.</td> 
+      </tr> 
+      <tr> 
+       <td>Overwrite on conflict</td> 
+       <td>Select <strong>Yes</strong> to overwrite any data collisions. By default, this is set to <strong>No</strong>.</td> 
+      </tr> 
+      <tr> 
+       <td>Delete processed</td> 
+       <td>If set to <strong>Yes</strong>, deletes processed nodes after they are exported. The default is <strong>False</strong>.</td> 
+      </tr> 
+      <tr> 
+       <td>Export job description</td> 
+       <td>Enter a description for the Adobe Classifications job.</td> 
+      </tr> 
+      <tr> 
+       <td>Notification E-mail</td> 
+       <td>Enter an email address for Adobe Classifications notification.</td> 
+      </tr> 
+      <tr> 
+       <td>Report Suite</td> 
+       <td>Enter the Report suite to run the import job for.</td> 
+      </tr> 
+      <tr> 
+       <td>Data Set</td> 
+       <td>Enter the dataset relation ID to run the import job for.</td> 
+      </tr> 
+      <tr> 
+       <td>Transformer</td> 
+       <td>From the drop-down menu, select a transformer implementation.</td> 
+      </tr> 
+      <tr> 
+       <td>Data Source</td> 
+       <td>Navigate to the path for the data container.</td> 
+      </tr> 
+      <tr> 
+       <td>Export Schedule</td> 
+       <td>Select the schedule for the export. The default is every 30 minutes.</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li><p>Click <strong>OK</strong> to save your settings.</p> </li> 
+  </ol> 
+  <h2>Modifying Page Size</h2> 
+  <p>Records are processed in pages. By default, Adobe Classifications creates pages with a page size of 1000.</p> 
+  <p>A page may be 25000 in size at maximum, per definition in Adobe Classifications and can be modified from the Felix console. During the export, Adobe Classifications locks the source node to prevent concurrent modifications. The node is unlocked after export, on error, or when the session is closed.</p> 
+  <p>To change the page size:</p> 
+  <ol> 
+   <li><p>Navigate to the OSGI console at <strong>http://&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr </strong>and select <strong>Adobe AEM Classifications Exporter</strong>.</p> <img imageRotate="0" src="assets/aa-26.png" /></li> 
+   <li><p>Update the <strong>Export Page Size</strong> as required, then click <strong>Save</strong>.</p> </li> 
+  </ol> 
+  <h2>SAINTDefaultTransformer</h2> 
+  <note> 
+   <p>Adobe Classifications was previously known as the SAINT Exporter.</p> 
+  </note> 
+  <p>An Exporter may use a Transformer to transform the export data to a specific format. For Adobe Classifications, a subinterface <span class="code">SAINTTransformer&amp;lt;String[]&amp;gt;</span> implementing the Transformer interface has been provided. This interface is used to restrict the data type to <span class="code">String[]</span> which is used by the SAINT API and to have a marker interface to find such services for selection.</p> 
+  <p>In the default implementation SAINTDefaultTransformer, the child resources of the exporter source are treated as records with property names as keys and property values as values. The <strong>Key</strong> column is added automatically as first column - its value will be the node name. Namespaced properties (containing <strong>:</strong>) are disregarded.</p> 
+  <p><em>Node structure:</em></p> 
+  <ul> 
+   <li>id-classification [nt:unstructured] 
+    <ul> 
+     <li>1 [nt:unstructured] 
+      <ul> 
+       <li>Product = ﻿﻿My Product Name (String)</li> 
+       <li>Price = 120.90 (String)</li> 
+       <li>Size = M (String)</li> 
+       <li>Color = black (String)</li> 
+       <li>Color^Code = 101 (String)</li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <p><strong>SAINT Header &amp; Record:</strong></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Key</strong></td> 
+     <td><strong>Product</strong></td> 
+     <td><strong>Price</strong></td> 
+     <td><strong>Size</strong></td> 
+     <td><strong>Color</strong></td> 
+     <td><strong>Color^Code</strong></td> 
+    </tr> 
+    <tr> 
+     <td>1</td> 
+     <td>My Product Name</td> 
+     <td>120.90</td> 
+     <td>M</td> 
+     <td>black</td> 
+     <td>101</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Properties include the following:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Property path</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>transformer</td> 
+     <td>A class name of a SAINTTransformer implementation</td> 
+    </tr> 
+    <tr> 
+     <td>email</td> 
+     <td>Notification e-mail address.</td> 
+    </tr> 
+    <tr> 
+     <td>reportsuites</td> 
+     <td>Report suite IDs to run the import job for. </td> 
+    </tr> 
+    <tr> 
+     <td>dataset</td> 
+     <td>Dataset relation ID to run the import job for. </td> 
+    </tr> 
+    <tr> 
+     <td>description</td> 
+     <td>Job description. <br /> </td> 
+    </tr> 
+    <tr> 
+     <td>overwrite</td> 
+     <td>Flag to overwrite data collisions. Default is <strong>false</strong>.</td> 
+    </tr> 
+    <tr> 
+     <td>checkdivisions</td> 
+     <td>Flag to check report suites for compatibility. Default is <strong>true</strong>.</td> 
+    </tr> 
+    <tr> 
+     <td>deleteprocessed</td> 
+     <td>Flag to delete the processed nodes after export. Default is <strong>false</strong>.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Automating Adobe Classifications Export</h2> 
+  <p>You can create your own workflow, so that any new imports launch the workflow to create the appropriate, and correctly structured, data in <strong>/var/export/</strong> so that it can be exported to Adobe Classifications.</p> 
+ </body> 
+</html>

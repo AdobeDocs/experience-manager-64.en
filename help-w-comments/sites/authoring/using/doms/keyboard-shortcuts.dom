@@ -1,0 +1,193 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-10-28T01:22:31.975-0400" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/keyboard-shortcuts.html" name="publishExternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/docs/en/aem/6-3/author/author-environment/keyboard-shortcuts" name="qaNotes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Save time when authoring by using these keyboard shortcuts" name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Keyboard Shortcuts for Consoles" name="seoTitle" />
+  <meta content="Keyboard Shortcuts for Consoles" name="jcr:title" />
+  <meta content="a7d8359e-4d9c-47cf-b639-6dc5ae929099" name="jcr:predecessors" />
+  <meta content="2017-12-01T19:02:03.812-0500" name="jcr:created" />
+  <meta content="2017-10-31T16:20:32.140-0400" name="firstPublishExternalDate" />
+  <meta content="2018-10-28T01:22:32.009-0400" name="cq:lastReplicated" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-10-28T01:22:31.967-0400" name="publishExternalDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-10-28T01:22:31.967-0400" name="lastPublishExternalDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="16c0a9e8-96a1-4042-a9ef-0aeb97ac9895" name="jcr:uuid" />
+  <meta content="2018-04-19T10:32:08.508-0400" name="locHandOffDate" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="Keyboard Shortcuts for Consoles" name="navTitle" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-10-28T01:22:31.967-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to <a href="../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md">page editing</a>.<br /> </p> 
+  <note>
+   <p>The <a href="../../../sites/authoring/using/keyboard-shortcuts.md#main-pars-header-879548855">modifier keys</a> required for AEM keyboard shortcuts vary depending on operating system.<br /> </p> 
+  </note>
+  <h2>Keyboard Shortcuts</h2>
+  <p>The following shortcuts are available for the Sites, Commerce, Screens, Assets, Users, Groups, Projects, and Experience Fragments consoles.<br /> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <th>Location</th> 
+     <th>Shortcut</th> 
+     <th>Description</th> 
+    </tr>
+    <tr>
+     <td>General</td> 
+     <td><span class="kbd">Ctrl+Click</span></td> 
+     <td>Multi-select on a desktop device</td> 
+    </tr>
+    <tr>
+     <td>Console - Column View &amp; Content Tree<br /> </td> 
+     <td><span class="kbd">Right Arrow</span></td> 
+     <td>Navigate down into the structure of your website / expand tree node</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">Left Arrow</span><br /> </td> 
+     <td>Navigate up the tree structure / collapse tree node</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">Down Arrow</span></td> 
+     <td>Move down a list of pages at the same level</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">Up Arrow</span><br /> </td> 
+     <td>Move up a list of pages at the same level</td> 
+    </tr>
+    <tr>
+     <td>Console - Column View</td> 
+     <td><span class="kbd">Shift-Up Arrow<br /> Shift-Down Arrow</span></td> 
+     <td>Select multiple items (at the same level)</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">Esc</span></td> 
+     <td>Remove all selections</td> 
+    </tr>
+    <tr>
+     <td>Consoles</td> 
+     <td><span class="kbd">?</span></td> 
+     <td>Keyboard shortcut help</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">/</span></td> 
+     <td>Invoke <a href="../../../sites/authoring/using/search.md">search</a></td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">Alt+&lt;Number&gt;</span></td> 
+     <td>Toggle which <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-53c">rail selector option</a> to view</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">`</span></td> 
+     <td>Hide rail<br /> </td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">e</span></td> 
+     <td>Edit</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">p</span></td> 
+     <td>Properties</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">m</span></td> 
+     <td>Move</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">Ctrl+c</span></td> 
+     <td>Copy</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">Ctrl+v</span><br /> </td> 
+     <td>Paste</td> 
+    </tr>
+    <tr>
+     <td> </td> 
+     <td><span class="kbd">Backspace</span></td> 
+     <td>Delete</td> 
+    </tr>
+    <tr>
+     <td>Property Pages<br /> </td> 
+     <td><span class="kbd">Ctrl+s</span></td> 
+     <td>Save</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <p>The key combinations are listed with the Windows <a href="../../../sites/authoring/using/keyboard-shortcuts.md#main-pars-header-879548855">modifier keys</a>.<br /> </p> 
+  <p>Various keyboard shortcuts are also available for desktop users when using the <a href="../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md">page editor</a> to author pages.</p> 
+  <h2>OS-Specific Modifier Keys</h2>
+  <p>The modfier keys used for the keyboard shortcuts vary depending on the operating system used by the client.<br /> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Windows and Linux</strong></td> 
+     <td><strong>macOS</strong><br /> </td> 
+    </tr>
+    <tr>
+     <td><span class="kbd">Alt</span><br /> </td> 
+     <td><span class="kbd">Option</span><br /> </td> 
+    </tr>
+    <tr>
+     <td><span class="kbd">Ctrl</span></td> 
+     <td><span class="kbd">Command</span></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Browsers and Keyboard Shortcuts</h2>
+  <p>AEM avoids common shortcuts already used by popular browsers, however default browser behavior is not overridden by AEM shortcuts.</p> 
+  <p>In addition keyboard shortcuts are the same for all locales and keyboard layouts.</p> 
+  <note>
+   <p>AEM shortcuts do not override default browser behavior.</p> 
+   <p>In the case that conflicts should occur between AEM and browser shortcuts, AEM shortcuts will not function, yielding to browser functionality.</p> 
+  </note>
+  <note>
+   <p>AEM keyboard shortcuts could interfere with screen readers, some browser features, and other accessibility tools.</p> 
+   <p>Adobe recommends <a href="../../../sites/authoring/using/keyboard-shortcuts.md#main-pars-header">disabling AEM keyboard shortcuts</a> when using a screen reader.<br /> </p> 
+  </note>
+  <h2>Deactivating Keyboard Shortcuts</h2>
+  <p>AEM provides keyboard shortcuts for some of the commonly-used features (edit, properties, copy / paste, showing various side-rail menus, etc.). </p> 
+  <p>For users that do not use keyboard shortcuts or have certain accessibility requirements, all keyboard shortcuts can be disabled.</p> 
+  <p>You can deactivate keyboard shortcuts in two locations:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/user-properties.md#main-pars-title-2">My Preferences</a></li> 
+   <li>The <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-24">help menu</a><br /> </li> 
+  </ul> 
+  <note>
+   <p>The navigation shortcut keys for the column view and content tree are always active.<br /> </p> 
+  </note>
+ </body>
+</html>

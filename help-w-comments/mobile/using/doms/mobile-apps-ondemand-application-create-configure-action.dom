@@ -1,0 +1,91 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-10-31T16:26:28.789-0400" name="firstPublishExternalDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="User" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/authoring-on-demand-services-app;/content/help/en/experience-manager/6-4/mobile/morehelp/authoring-on-demand-services-app" name="moreHelpPaths" />
+  <meta content="2018-05-04T05:12:49.159-0400" name="topicBrowsingSortDate" />
+  <meta content="Application Create and Configuration Actions" name="navTitle" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-05-11T10:01:49.948-0400" name="cq:lastModified" />
+  <meta content="Application Create and Configuration Actions" name="seoTitle" />
+  <meta content="2018-05-04T05:12:49.420-0400" name="cq:lastReplicated" />
+  <meta content="2017-12-13T19:01:04.076-0500" name="jcr:created" />
+  <meta content="583fda5f-b81a-48aa-890a-9e25842d826a" name="jcr:uuid" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-05-04T05:12:49.159-0400" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-05-11T10:01:49.948-0400" name="locHandOffDate" />
+  <meta content="801579f8-7960-42ba-812b-8e85512ba053" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/mobile-apps-ondemand-application-create-configure-action.html" name="publishExternalURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Application Create and Configuration Actions" name="jcr:title" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Creating an app is often the first step towards creating and managing AEM Mobile On-Demand content. Follow this page to learn more." name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-05-04T05:12:49.159-0400" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/content/docs/en/aem/6-3/author/mobile-apps/mobile-on-demand/application-create-and-configuration-actions" name="qaNotes" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:authoring-on-demand-services-app" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <h2>Creating an On-Demand Application</h2>
+  <p>Creating an app is often the first step towards creating and managing AEM Mobile On-Demand content, and is often performed at the AEM Administrator level. It represents a content shell, viewable on mobile devices, ready to display author created content such as articles, images, collections, etc.</p> 
+  <p>The details of your app can be viewed in the Dashboard or AEM Mobile Control Center. </p> 
+  <note>
+   <p>The Dashboard is a series of useful tiles which give an overview of the app's content, metadata, and AEM Mobile On-Demand connection status.</p> 
+   <p>See <a href="../../mobile/using/mobile-apps-ondemand-application-dashboard.md">AEM Mobile Application Dashboard</a> for details.</p> 
+  </note>
+  <p><strong>To create an on-demand app:</strong></p> 
+  <ol> 
+   <li><p>Select <strong>Mobile</strong> from the side rail.</p> </li>
+   <li><p>Select <strong>Apps </strong>from the Navigation.</p> </li> 
+   <li><p>Click <strong>Create</strong> and select <strong>App</strong> from the drop down.</p> </li> 
+   <li><p>Choose the Mobile app template and click <strong>Next</strong>.</p> </li> 
+   <li><p>Enter app properties such as <strong>Title</strong>, <strong>Name</strong>, <strong>Description</strong>.</p> </li> 
+   <li><p>Click <strong>Next</strong>.</p> </li> 
+   <li><p>If known, enter cloud config details, otherwise click <strong>Create</strong>.</p> </li> 
+   <li><p>Click <strong>Done</strong> to view your new AEM Mobile app in the catalog.</p> </li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1.gif" />
+  <note>
+   <p>This process lets you create an app instance in AEM.</p> 
+  </note>
+  <h2>Using App Templates</h2>
+  <p>App templates provide an easy way to leverage existing designs created by devlopers, used for the creation of new apps within AEM. </p> 
+  <p>What is an app template? Think of it as a collection of page templates and components that represent a baseline or foundation of an app. <br /> When creating a new app based on the template of another app, you will get an app that has a starting point representative of the app in which it was created from.</p> 
+  <p>You must have an existing mobile app template (or an app installed that has an app template) to make use of this feature.</p> 
+  <h3>The Next Step</h3>
+  <p>Once you create an On-Demand app from the application dashboard, the next step is to associate your app to the cloud configuration.</p> 
+  <p>See <a href="../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md">Associating your app to the Cloud Configuration</a> for more details.</p> 
+  <h3>Getting Ahead</h3>
+  <p>Once you are familiar with creating an on-demand application and thus associating that app to a cloud configuration, see <a href="../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md">Content Management Actions</a>.</p> 
+  <p><strong>Content Management Actions</strong> involes creation and management of following content:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/mobile-on-demand-managing-articles.md">Managing Articles</a></li> 
+   <li><a href="../../mobile/using/mobile-on-demand-managing-banners.md">Managing Banners</a></li> 
+   <li><a href="../../mobile/using/mobile-on-demand-managing-collections.md">Managing Collections</a></li> 
+   <li><a href="../../mobile/using/mobile-on-demand-shared-resources.md">Uploading Shared Resources</a></li> 
+   <li><a href="../../mobile/using/mobile-on-demand-publishing-unpublishing.md">Publish UnPublish Content</a></li> 
+  </ul> 
+  <p>To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/aem-mobile-on-demand.md">Developing AEM Content for AEM Mobile On-Demand Services</a></li> 
+   <li><a href="../../mobile/using/aem-mobile.md">Administering Content to Use AEM Mobile On-Demand Services</a></li> 
+  </ul> 
+ </body>
+</html>

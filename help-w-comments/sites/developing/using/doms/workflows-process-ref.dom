@@ -1,0 +1,232 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-02-28T08:01:41.652-0500" name="jcr:created" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="2018-05-08T12:47:05.701-0400" name="locHandOffDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Workflow Process Reference" name="navTitle" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:extending-aem;content_type:reference" name="cq:tags" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2018-04-22T02:12:28.242-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-22T02:12:28.242-0400" name="topicBrowsingSortDate" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="6d1a5211-54e6-4b28-b1bf-25ef2bed0af5" name="jcr:predecessors" /> 
+  <meta content="2018-05-08T12:47:05.702-0400" name="cq:lastModified" /> 
+  <meta content="Workflow Process Reference" name="jcr:title" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="07dfb7f6-b1a2-4bb1-9599-c18611c24298" name="jcr:uuid" /> 
+  <meta content="2018-04-22T02:12:28.260-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-22T02:12:28.242-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/extending/workflows/process-ref" name="qaNotes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-31T16:15:46.533-0400" name="firstPublishExternalDate" /> 
+  <meta content="Workflow Process Reference" name="seoTitle" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/workflows-process-ref.html" name="publishExternalURL" /> 
+ </head> 
+ <body> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2018-02-26T08:10:30.130-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>any github examples?</p> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-162E3E7B471F3A4A992015C3@AdobeID" lastModifiedDate="2018-02-26T08:10:30.155-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>no github examples available for this, we will leave it as it is for now.</p> 
+  </draft-comment> 
+  <p>AEM provides several process steps that can be used for creating workflow models. Custom process steps can also be added for tasks not covered by the built-in steps (see <a href="../../../sites/developing/using/workflows-models.md">Creating Workflow Models</a>).</p> 
+  <h2>Process Characteristics</h2> 
+  <div>
+    For each process step, the following characteristics are described. 
+  </div> 
+  <h3>Java Class or ECMA Path</h3> 
+  <p>Process steps are defined either by a Java class or an ECMAScript.</p> 
+  <ul> 
+   <li>For the Java class processes, the fully qualified class name is provided. </li> 
+   <li>For the ECMAScript processes the path to the script is provided.</li> 
+  </ul> 
+  <h3>Payload</h3> 
+  <p>The payload is the entity upon which a workflow instance acts. The payload is selected implicitly by the context within which a workflow instance is started.</p> 
+  <p>For example, if a workflow is applied to an AEM page <i>P</i> then <i>P</i> is passed from step to step as the workflow advances, with each step optionally acting upon <i>P </i>in some way.</p> 
+  <p>In the most common case the payload is a JCR node in the repository (for example, an AEM Page or Asset). A JCR Node payload is passed as a string that is either a JCR path or a JCR identifier (UUID). In some cases the payload may be a JCR property (passed as a JCR path), a URL, a binary object or a generic Java object. Individual process steps that do act on the payload will usually expect a payload of a certain type, or act differently depending on the payload type. For each process described below, the expected payload type, if any, is described.</p> 
+  <h3>Arguments</h3> 
+  <p>Some workflow processes accept arguments that the administrator specifies when setting up the workflow step.</p> 
+  <p>Arguments are entered as a single string in the <strong>Process Arguments</strong> property in the <strong>Properties</strong> pane of the workflow editor. For each process described below, the format of the argument string is described in a simple EBNF grammar. For example, the following indicates that the argument string consists of one or more comma-delimited pairs, where each pair consists of a name (which is a string) and a value, seperated by a double colon:</p> 
+  <p style="margin-left: 40px;"><span class="code">args := name '::' value [',' name '::' value]*</span></p> 
+  <p style="margin-left: 40px;"><code class="code">name := /* A string */
+    <discoiqbr /> </code></p> 
+  <p style="margin-left: 40px;"><span class="code">value := /* A string */</span></p> 
+  <h3>Timeout</h3> 
+  <p>After this timeout period the workflow step is no longer operational. Some workflow processes respect the timeout, while for others it does not apply and is ignored.</p> 
+  <h3>Permissions</h3> 
+  <p>The session passed to the <span class="code">WorkflowProcess</span> is backed by the service user for the workflow process service, which has the following permissions at the root of the repository:</p> 
+  <ul> 
+   <li><span class="code">jcr:read</span></li> 
+   <li><span class="code">rep:write</span></li> 
+   <li><span class="code">jcr:versionManagement</span></li> 
+   <li><span class="code">jcr:lockManagement</span></li> 
+   <li><span class="code">crx:replicate</span></li> 
+  </ul> 
+  <p>If that set of permissions is not sufficient for your <span class="code">WorkflowProcess</span> implementation, then it must use a session with the required permissions.</p> 
+  <p>The recommended way to do this is to use a service user created with the necessary, but minimal, subset of permissions required.</p> 
+  <note> 
+   <p>If you are upgrading from a version prior to AEM 6.2 you might need to update your implementation. </p> 
+   <p>In previous versions, the admin session was passed to the <span class="code">WorkflowProcess</span> implementations and could then had full access to the repository without having to define specific ACLs.</p> 
+   <p>The permissions are now defined as above (<a href="#permissions">Permissions</a>). As is the recommended method for updating your implementation.</p> 
+   <p>A short term solution is also available for backward-compatibility purposes when code changes are not feasible:</p> 
+   <ul> 
+    <li>Using the Web Console (<span class="code">/system/console/configMgr</span> locate the <strong>Adobe Granite Workflow Configuration Service</strong></li> 
+    <li>enable the <strong>Workflow Process Legacy Mode</strong></li> 
+   </ul> 
+   <p>This will revert to the old behaviour of providing an admin session to the <span class="code">WorkflowProcess</span> implementation and provide unrestricted access to the entirety of the repository once again.</p> 
+  </note> 
+  <h2>Workflow Control Processes</h2> 
+  <p>The following processes do not perform any actions on content. They serve to control the behavior of the workflow itself.<br /> </p> 
+  <h3>AbsoluteTimeAutoAdvancer (Absolute Time Auto Advancer)</h3> 
+  <p>The <span class="code">AbsoluteTimeAutoAdvancer</span> (Absolute Time Auto Advancer) process behaves identically to <strong>AutoAdvancer</strong>, except that it times out at a given time and date, instead of after a given length of time.</p> 
+  <ul> 
+   <li><strong>Java Class</strong>: <span class="code">com.adobe.granite.workflow.console.timeout.autoadvance.AbsoluteTimeAutoAdvancer</span></li> 
+   <li><span class="code"></span><strong>Payload</strong>: None.</li> 
+   <li><strong>Arguments</strong>: None.</li> 
+   <li><strong>Timeout</strong>: Process times out when the set time and date is reached.<br /> </li> 
+  </ul> 
+  <h3>AutoAdvancer (Auto Advancer)</h3> 
+  <p>The <span class="code">AutoAdvancer</span> process automatically advances the workflow to the next step. If there is more than one possible next step (for example, if there is an OR split) then this process will advance the workflow along the <i>default route</i>, if one has been specified, otherwise the workflow will not be advanced.</p> 
+  <ul> 
+   <li><strong>Java Class</strong>: <span class="code">com.adobe.granite.workflow.console.timeout.autoadvance.AutoAdvancer</span></li> 
+   <li><strong>Payload</strong>: None.</li> 
+   <li><strong>Arguments</strong>: None.</li> 
+   <li><strong>Timeout</strong>: Process times out after set length of time.<span class="code"></span></li> 
+  </ul> 
+  <h3>ProcessAssembler (Process Assembler)</h3> 
+  <p>The <span class="code">ProcessAssembler</span> process executes multiple sub-processes sequentially in a single workflow step. To use the <span class="code">ProcessAssembler</span>, create a single step of this type in your workflow and set its arguments to indicate the names and arguments of the sub-processes you wish to execute.</p> 
+  <ul> 
+   <li><strong>Java Class</strong>: <span class="code">com.day.cq.workflow.impl.process.ProcessAssembler</span></li> 
+   <li><strong>Payload</strong>: A DAM Asset, AEM Page or no payload (depends on requirements of subprocesses).</li> 
+   <li><strong>Arguments</strong>: 
+    <ul> 
+     <li><code class="code">args := arg [',' arg]
+       <discoiqbr /> arg := processname ['::' processargs]
+       <discoiqbr /> processname := /* A fully qualified Java Class or absolute 
+       <discoiqbr /> repository path to an ECMAScript */
+       <discoiqbr /> processargs := processarg [';' processarg]*
+       <discoiqbr /> processarg := '[' nobracketprocessarg ']' | nobracketprocessarg
+       <discoiqbr /> nobracketprocessarg := listitem [':' listitem]*
+       <discoiqbr /> listitem := /* A string */</code></li> 
+    </ul> </li> 
+   <li><strong>Timeout</strong>: Respected.</li> 
+  </ul> 
+  <p>For example:</p> 
+  <ul> 
+   <li>Extract the metadata from the asset.</li> 
+   <li>Create three thumbnails of the three specified sizes.</li> 
+   <li>Create an JPEG image from the asset, assuming the asset is originally neither a GIF nor a PNG (in which case no JPEG is created).</li> 
+   <li>Set the last-modified date on the asset.</li> 
+  </ul> 
+  <codeblock gutter="true" class="syntax shell">
+    com.day.cq.dam.core.process.ExtractMetadataProcess,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.dam.core.process.CreateThumbnailProcess::[140:100];[48:48];[319:319:false],!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.dam.core.process.CreateWebEnabledImageProcess::dimension:1280:1280;mimetype:image/jpeg,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.dam.core.process.AssetSetLastModifiedProcess 
+  </codeblock> 
+  <h2>Basic Processes</h2> 
+  <p><span class="code"></span>The following processes perform simple tasks or serve as examples.</p> 
+  <note> 
+   <p>You <strong><em>must</em></strong> not change anything in the <span class="code">/libs</span> path.</p> 
+   <p>This is because the content of <span class="code">/libs</span> is overwritten the next time you upgrade your instance (and may be overwritten when you apply either a hotfix or feature pack).</p> 
+  </note> 
+  <h3>delete</h3> 
+  <p>The item at the given path is deleted.</p> 
+  <ul> 
+   <li><strong>ECMAScript path</strong>: <span class="code">/libs/workflow/scripts/delete.ecma</span></li> 
+   <li><strong>Payload</strong>: JCR path.</li> 
+   <li><strong>Arguments</strong>: None.</li> 
+   <li><strong>Timeout</strong>: Ignored.<span class="code"></span></li> 
+  </ul> 
+  <h3>noop</h3> 
+  <p>This is the null process. It performs no operation, but does log a debug message.<br /> </p> 
+  <ul> 
+   <li><strong>ECMAScript path</strong>: <span class="code">/libs/workflow/scripts/noop.ecma</span></li> 
+   <li><strong>Payload</strong>: None.</li> 
+   <li><strong>Arguments</strong>: None.</li> 
+   <li><strong>Timeout</strong>: Ignored.</li> 
+  </ul> 
+  <h3>rule-false</h3> 
+  <p>This is a null process that returns <span class="code">false</span> on the <span class="code">check()</span> method.</p> 
+  <ul> 
+   <li><strong>ECMAScript path</strong>: <span class="code">/libs/workflow/scripts/rule-false.ecma</span></li> 
+   <li><strong>Payload</strong>: None.</li> 
+   <li><strong>Arguments</strong>: None.</li> 
+   <li><strong>Timeout</strong>: Ignored.<span class="code"></span></li> 
+  </ul> 
+  <h3>sample</h3> 
+  <p>This is a sample ECMAScript process.</p> 
+  <ul> 
+   <li><strong>ECMAScript path</strong>: <span class="code">/libs/workflow/scripts/sample.ecma</span></li> 
+   <li><strong>Payload</strong>: None.</li> 
+   <li><strong>Arguments</strong>: None.</li> 
+   <li><span class="code"></span><strong>Timeout</strong>: Ignored.</li> 
+  </ul> 
+  <h3>urlcaller</h3> 
+  <p>This is a simple workflow process that calls the given URL. Typically the URL will be a reference to a JSP (or other servlet equivalent) that performs a simple task. This process should be used only during development and demonstrations and not in a production environment. The arguments specify the URL, login and password.</p> 
+  <ul> 
+   <li><strong>ECMAScript path</strong>: <span class="code">/libs/workflow/scripts/urlcaller.ecma</span></li> 
+   <li><strong>Payload</strong>: None.</li> 
+   <li><strong>Arguments</strong>: 
+    <ul> 
+     <li><span class="code">args := url [',' login ',' password]</span></li> 
+     <li><span class="code">url := /* The URL to be called */</span></li> 
+     <li><span class="code">login := /* The login to access the URL */</span></li> 
+     <li><span class="code">password := /* The password to access the URL */</span></li> 
+     <li>for example: <span class="code">http://localhost:4502/my.jsp, mylogin, mypassword</span></li> 
+    </ul> </li> 
+   <li><strong>Timeout</strong>: Ignored.</li> 
+  </ul> 
+  <h3>LockProcess</h3> 
+  <p>Locks the payload of the workflow. </p> 
+  <ul> 
+   <li><strong>Java class:</strong> <span class="code">com.day.cq.workflow.impl.process.LockProcess</span></li> 
+   <li><strong>Payload:</strong> JCR_PATH and JCR_UUID </li> 
+   <li><strong>Arguments:</strong> None</li> 
+   <li><strong>Timeout:</strong> Ignored</li> 
+  </ul> 
+  <p>The step has no effect under the following circumstances:</p> 
+  <ul> 
+   <li>The payload is already locked.</li> 
+   <li>The payload node does not contain a jcr:content child node.</li> 
+  </ul> 
+  <h3>UnlockProcess</h3> 
+  <p>Unlocks the payload of the workflow. </p> 
+  <ul> 
+   <li><strong>Java class:</strong> <span class="code">com.day.cq.workflow.impl.process.UnlockProcess</span></li> 
+   <li><strong>Payload:</strong> JCR_PATH and JCR_UUID </li> 
+   <li><strong>Arguments:</strong> None</li> 
+   <li><strong>Timeout:</strong> Ignored</li> 
+  </ul> 
+  <p>The step has no effect under the following circumstances:</p> 
+  <ul> 
+   <li>The payload is already unlocked.</li> 
+   <li>The payload node does not contain a jcr:content child node.</li> 
+  </ul> 
+  <h2>Versioning Processes</h2> 
+  <p>The following process performs a version-related task.</p> 
+  <h3>CreateVersionProcess</h3> 
+  <p>Creates a new version of the workflow payload (AEM page or DAM asset).</p> 
+  <ul> 
+   <li><strong>Java class</strong>: <span class="code">com.day.cq.wcm.workflow.process.CreateVersionProcess</span></li> 
+   <li><strong>Payload</strong>: A JCR path or UUID that refers to a page or DAM asset.</li> 
+   <li><strong>Arguments</strong>: None.</li> 
+   <li><strong>Timeout</strong>: Respected.</li> 
+  </ul> 
+ </body> 
+</html>

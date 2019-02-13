@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="Designing accessible HTML5 forms" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/design-accessible-html5-forms.html" name="publishExternalURL" />
+  <meta content="light" name="heroGradient" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="f18dc96b-2b81-4fe7-a5da-d8dd51072c49" name="jcr:predecessors" />
+  <meta content="khsingh" name="cq:lastModifiedBy" />
+  <meta content="2018-11-12T08:04:09.537-0500" name="lastPublishExternalDate" />
+  <meta content="2016-05-31T06:46:56.254-0400" name="acrolinxDate" />
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" />
+  <meta content="left" name="sideColumn" />
+  <meta content="HTML5 forms use the ARIA HTML5 accessibility standard. These forms support tabbed navigation and are certified to be compatible with common screen readers." name="seoDescription" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2013-02-28T07:03:50.285-0500" name="firstPublishQADate" />
+  <meta content="2ddb81e5-b19e-4e7f-863b-139c2a0940c8" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2013-03-22T13:10:22.762-0400" name="firstPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/html5_forms;/content/help/en/experience-manager/6-4/forms/morehelp/html5_forms" name="moreHelpPaths" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="350" name="acrolinxWords" />
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html5-forms/design-accessible-html5-forms.html" name="publishQAURL" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/design_accessible_html5_forms_admin_5e12de0b318c6865_2098_report.xml" name="acrolinxReportURL" />
+  <meta content="2015-10-28T05:12:28.281-0400" name="lastPublishQADate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="21" name="acrolinxSentences" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-11-12T08:04:09.537-0500" name="topicBrowsingSortDate" />
+  <meta content="2017-12-01T19:03:47.535-0500" name="jcr:created" />
+  <meta content="Designing an accessible form" name="navTitle" />
+  <meta content="2018-11-12T08:04:09.537-0500" name="publishExternalDate" />
+  <meta content="2018-04-26T04:39:09.106-0400" name="locHandOffDate" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:hTML5_forms" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2019-02-08T06:12:04.939-0500" name="cq:lastModified" />
+  <meta content="video" name="pageLayout" />
+  <meta content="2015-10-28T05:12:28.281-0400" name="publishQADate" />
+  <meta content="2018-11-12T08:04:09.590-0500" name="cq:lastReplicated" />
+ </head>
+ <body>
+  <p>HTML5 forms use the ARIA HTML5 accessibility standard to generate accessible HTML forms. These forms support tabbed navigation (except Mozilla FireFox) and are certified to be compatible with common screen readers. To generate an HTML5 form with good accessibility features, design the XFA form template based on some <a href="../../forms/using/Best-practices-for-HTML5-forms.md" target="_blank">basic designing guidelines</a>. The design guidelines include configuring the correct tab order and providing the Speak Text content for each form control. AEM Forms Designer supports the setting of these form control attributes to generate an Accessible PDF and HTML5 form.</p> 
+  <p><em>Note:Tabbed navigation does not cover protected fields such as calculation fields displaying sum of values. For the screen reader to read the value of a protected field, place an empty Read Only field either on top of, or next to, the protected field. Assign the value of the protected field to the new Read Only field. The screen reader or tabbed navigation can pick this read only field and speak it out as the value of the protected field.</em></p> 
+  <p>AEM Forms Designer includes a number of Speak Text options that can be passed to screen readers. For each object in a form, the user can specify one of several settings for the screen reader text:</p> 
+  <ul> 
+   <li>Custom screen reader text, which can be set using the Accessibility palette. Authors can annotate the names of buttons and fields, as well as their purpose.</li> 
+   <li>Tool tips, which can be set in the Accessibility palette.</li> 
+   <li>Captions for fields on the form.</li> 
+   <li>Names of objects, as specified in the Name option of the Binding tab.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/accessibility.png" />
+  <p> </p> 
+  <p>When multiple options like tool tip, Screen Reader Text, and Caption are available on a Form control, the Screen Reader uses only one of these properties. The default order is Custom Screen Reader Text, tool tip, Caption, and Name. You can override the default order using the Screen Reader <strong>Precedence </strong>option in the Accessibility palette.</p> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+ </body>
+</html>

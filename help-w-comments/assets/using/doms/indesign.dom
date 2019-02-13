@@ -1,0 +1,222 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-11-28T15:32:35.469-0500" name="topicBrowsingSortDate" /> 
+  <meta content="asgupta" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="dffeeff7-36ff-463a-b27d-aae0cc115118" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-11-28T15:32:35.469-0500" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-12-01T19:07:00.030-0500" name="jcr:created" /> 
+  <meta content="fa2f5ee9-3b7a-4cd2-bf22-b89fac68133b" name="jcr:predecessors" /> 
+  <meta content="Integrating AEM Assets with InDesign Server" name="seoTitle" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/indesign_krs_workflow_f3c2f2ccebf6138e_142_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-12-03T08:08:16.511-0500" name="cq:lastModified" /> 
+  <meta content="2017-10-31T16:34:45.340-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-11-28T15:32:35.469-0500" name="lastPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-12-03T08:08:16.511-0500" name="locHandOffDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Integrating AEM Assets with InDesign Server" name="jcr:title" /> 
+  <meta content="127" name="acrolinxSentences" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2018-11-28T15:32:36.142-0500" name="cq:lastReplicated" /> 
+  <meta content="Learn how to integrate AEM Assets with InDesign Server." name="seoDescription" /> 
+  <meta content="2019-01-12T17:29:59.621-0500" name="acrolinxDate" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="1708" name="acrolinxWords" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="Chiradeep Majumdar" name="contentOwner" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="asgupta" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Integrating AEM Assets with InDesign Server" name="navTitle" /> 
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/indesign" name="qaNotes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/indesign.html" name="publishExternalURL" /> 
+ </head> 
+ <body> 
+  <p>Adobe Experience Manager (AEM) Assets uses:<br /> </p> 
+  <ul> 
+   <li>A proxy to distribute the load of certain processing tasks. A proxy is an AEM instance that communicates with a proxy worker to fulfil a specific task, and other AEM instances to deliver the results.<br /> </li> 
+   <li>A proxy worker to define and manage a specific task.<br /> These can cover a wide variety of tasks; for example, using an InDesign Server to process files.<br /> </li> 
+  </ul> 
+  <p>To fully upload files to AEM Assets that you have created with Adobe InDesign a proxy is used. This uses a proxy worker to communicate with the Adobe InDesign Server, where <a href="http://www.adobe.com/devnet/indesign/documentation.html#idscripting">scripts</a> are run to extract metadata and generate various renditions for AEM Assets. The proxy worker enables the two-way communication between the InDesign Server and the AEM instance(s) in a cloud configuration.</p> 
+  <note> 
+   <p>Adobe InDesign comes as two products:</p> 
+   <ul> 
+    <li><a href="http://www.adobe.com/products/indesign.html">InDesign</a><br /> This allows you design page layouts for print and/or digital distribution.</li> 
+    <li><a href="http://www.adobe.com/products/indesignserver.html">InDesign Server</a><br /> This engine enables you to programmatically create automated documents based on what you have created with InDesign. It operates as a service offering an interface to its <a href="http://www.adobe.com/devnet/scripting.html">ExtendScript</a> engine.<br /> The scripts are written in extendscript, which is similar to javascript. For information about Indesign scripts see <a href="http://www.adobe.com/devnet/indesign/documentation.html#idscripting">http://www.adobe.com/devnet/indesign/documentation.html#idscripting</a>.</li> 
+   </ul> 
+  </note> 
+  <h3>How the Extraction Works</h3> 
+  <p>The InDesign Server can be integrated with AEM Assets so that files created with InDesign (<span class="code">.indd</span>) can be uploaded, renditions generated, <i>all</i> media extracted (for example, video) and stored as assets:</p> 
+  <note> 
+   <p>Previous versions of AEM were able to extract XMP and the thumbnail, now all media can be extracted.<br /> </p> 
+  </note> 
+  <ol> 
+   <li><p>Upload your <span class="code">.indd</span> file to AEM Assets.</p> </li> 
+   <li><p>A framework sends command script(s) to the InDesign Server via SOAP (Simple Object Access Protocol).<br /> This command script will:</p> 
+    <ul> 
+     <li>Retrieve the <span class="code">.indd</span> file.</li> 
+     <li>Execute InDesign Server commands: 
+      <ul> 
+       <li>The structure, text and any media files are extracted.</li> 
+       <li>PDF and JPG renditions are generated.</li> 
+       <li>HTML and IDML renditions are generated.</li> 
+      </ul> </li> 
+     <li>Post the resulting files back to AEM Assets.</li> 
+    </ul> 
+    <note> 
+     <p>IDML is an XML-based format that renders <i>everything</i> in the InDesign file. It is stored as an compressed package using <a href="http://www.techterms.com/definition/zip">Zip</a> compression.</p> 
+     <p>See <a href="http://www.adobepress.com/articles/article.asp?p=1381880&amp;seqNum=8">Adobe Press - InDesign Interchange Formats INX and IDML</a> for further information.</p> 
+    </note> 
+    <note> 
+     <p>If the InDesign Server is not installed or not configured, then you can still upload an <span class="code">.indd</span> file into AEM. However the renditions generated will be limited to <span class="code">png</span> and <span class="code">jpeg</span>, you will not be able to generate <span class="code">html</span>, <span class="code">idml</span> or the page renditions.<br /> </p> 
+    </note></li> 
+   <li><p>After the extraction and rendition generation:<br /> </p> 
+    <ul> 
+     <li>The structure is replicated to a <span class="code">cq:Page</span> (type of rendition).</li> 
+     <li>The extracted text and files are stored in AEM Assets.<br /> </li> 
+     <li>All renditions are stored in AEM Assets, in the asset itself.</li> 
+    </ul> </li> 
+  </ol> 
+  <h2>Integrating the InDesign Server with AEM</h2> 
+  <p>To integrate the InDesign Server for use with AEM Assets and after configuring your proxy, you need to:</p> 
+  <ol> 
+   <li><a href="#installingtheindesignserver">Install the InDesign Server</a>.</li> 
+   <li>If required, <a href="#configuringthecqdamworkflow">configure the AEM Assets Workflow</a>.<br /> This is only necessary if the default values are not appropriate for your instance.</li> 
+   <li>Configure a <a href="#configuringtheproxyworkerforindesignserver">proxy worker for the InDesign Server</a>.</li> 
+  </ol> 
+  <h3>Installing the InDesign Server</h3> 
+  <p>To install and start the InDesign Server for use with AEM:<br /> </p> 
+  <ol> 
+   <li><p>Download and install the Adobe InDesign Server.<br /> </p> 
+    <note> 
+     <p>InDesign Server (CS6 and higher).<br /> </p> 
+    </note></li> 
+   <li><p>If required, you can customize the configuration of your InDesign Server instance.<br /> </p> </li> 
+   <li><p>From the command line, start the server:</p>  <p>This will start the server with the SOAP plugin listening on port 8080. All log messages and output are written directly to the command window.<br /> </p> 
+    <note> 
+     <p>If you want to save the output messages to a file then use redirection; for example, under Windows:</p> 
+     <p> <span class="code">&amp;lt;ids-installation-dir&amp;gt;/InDesignServer.com -port 8080 &amp;gt; ~/temp/INDD-logfile.txt 2&amp;gt;&amp;1</span></p> 
+    </note></li> 
+  </ol> 
+  <h3>Configuring the AEM Assets Workflow</h3> 
+  <p>AEM Assets has a preconfigured workflow <strong>DAM Update Asset</strong>, that has several process steps specifically for InDesign:</p> 
+  <ul> 
+   <li><a href="#mediaextraction">Media Extraction</a></li> 
+   <li><a href="#pageextraction">Page Extraction</a></li> 
+  </ul> 
+  <p>This workflow is setup with default values that can be adapted for your setup on the various author instances (this is a standard workflow, so further information is available under <a href="../../sites/developing/using/workflows-models.md#main-pars-title-2-laecnd-refd">Editing a Workflow</a>). If you are using the default values (including the SOAP port), then no configuration is needed.<br /> </p> 
+  <p>After the setup, uploading InDesign files into AEM Assets (by any of the usual methods) will trigger the workflow required to process the asset and prepare the various renditions. Test your configuration by uploading an <span class="code">.indd</span> file into AEM Assets to confirm that you see the different renditions created by IDS under <span class="code">&amp;lt;<i>your_asset</i>&amp;gt;.indd/Renditions</span><br /> </p> 
+  <h4>Media Extraction</h4> 
+  <draft-comment lastModifiedBy="ashishc" lastModifiedDate="2018-10-26T01:24:07.012-0400" type="annotation">
+    The images in these sections are not from a 6.4 server (which has the Touch UI workflow-step-configurator). I think they should be adapted, esp. since "Editing a Workflow" link in the section above points to a Touch UI workflow-authoring-and-editing surface Also, in the "Extent Scripts" bullet, we should say: You can specify different script combinations here. If you want your own scripts to be executed on the InDesign Server, save them under: /apps/settings/dam/indesign/scripts 
+  </draft-comment> 
+  <p>This step controls the extraction of media from the <span class="code">.indd</span> file. </p> 
+  <p>To customize, you can edit <strong>Arguments</strong> tab of the<strong> Media Extraction</strong> step.</p> 
+  <img alt="Media extraction arguments and script paths" captionBottom="Media extraction arguments and script paths" imageRotate="0" src="assets/media_extraction_arguments_scripts.png" title="Media extraction arguments and script paths" /> 
+  <ul> 
+   <li><strong>ExtendScript library</strong><br /> This is a simple http get/post method library, required by the other scripts.<br /> </li> 
+   <li><strong>Extend Scripts</strong><br /> You can specify different script combinations here. If you want your own scripts to be executed on the InDesign Server, save the scripts at <span class="code">/apps/settings/dam/indesign/scripts</span>.<br /> For information about Indesign scripts see:<br /> <a href="http://www.adobe.com/devnet/indesign/documentation.html#idscripting">http://www.adobe.com/devnet/indesign/documentation.html#idscripting</a><br /> </li> 
+  </ul> 
+  <note> 
+   <p>Do <strong>not</strong> change the <strong>ExtendScript library</strong>.<br /> </p> 
+   <p>This library provides the HTTP functionality required to communicate with Sling. This setting specifies the library to be send to the InDesign Server for use there.<br /> </p> 
+  </note> 
+  <p>The <span class="code">ThumbnailExport.jsx</span> script run by the Media Extraction workflow step generates a thumbnail rendition in .jpg format. This rendition is used by the Process Thumbnails workflow step to generate the static renditions required by AEM. </p> 
+  <p>You can configure the Process Thumbnails workflow step to generate static renditions at different sizes. Ensure that you do not remove the defaults, because they are required by the AEM Assets UI. Finally, the Delete Image Preview Rendition workflow step removes the .jpg thumbnail rendition, as it is no longer needed.</p> 
+  <h4>Page Extraction</h4> 
+  <p>This creates an AEM page from the extracted elements. An extraction handler is used to extract data from a rendition (currently HTML or IDML). This data is then used to create a page using the PageBuilder.<br /> </p> 
+  <p>To customize, you can edit the <strong>Arguments</strong> tab of the<strong> Page Extraction</strong> step.<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-292.png" /> 
+  <ul> 
+   <li><strong>Page Extraction Handler</strong><br /> From the drop down list, select the handler that you want to use. An extraction handler operates on a specific rendition, chosen by a related <span class="code">RenditionPicker</span> (see the <span class="code">ExtractionHandler</span> API).<br /> In a standard AEM installation the following is available: 
+    <ul> 
+     <li>IDML Export Extraction Handler<br /> Operates on the <span class="code">IDML</span> rendition generated in the MediaExtract step.<br /> </li> 
+    </ul> </li> 
+   <li><strong>Page Name</strong><br /> Specify the name you want to have assigned to the resulting page. If left blank then the name is "page" (or a derivative if "page" already exists).</li> 
+   <li><strong>Page Title</strong><br /> Specify the title you want to have assigned to the resulting page.</li> 
+   <li><strong>Page Root Path</strong><br /> The path to the root location of the resulting page.<br /> If left blank the node holding the asset's renditions will be used.<br /> </li> 
+   <li><strong>Page Template</strong><br /> The template to use when generating the resulting page.</li> 
+   <li><strong>Page Design</strong><br /> The page design to be used when generating the resulting page.<br /> </li> 
+  </ul> 
+  <h3>Configuring the Proxy Worker for InDesign Server</h3> 
+  <note> 
+   <p>The worker resides on the proxy instance.</p> 
+  </note> 
+  <ol> 
+   <li><p>In the Tools console, expand <strong>Cloud Services Configurations</strong> in the left pane. Then expand <strong>Cloud Proxy Configuration</strong>.<br /> </p> </li> 
+   <li><p>Double-click the <strong>IDS worker</strong> to open for configuration.<br /> </p> </li> 
+   <li><p>Click <strong>Edit</strong> to open the configuration dialog and define the required settings:<br /> </p> <img imageRotate="0" src="assets/proxy_idsworkerconfig.png" /> 
+    <ul> 
+     <li><strong>IDS Pool</strong><br /> The SOAP endpoint(s) to be used for communicating with the InDesign Server. You can add, remove and order items are required.</li> 
+    </ul> </li> 
+   <li><p>Click <strong>OK</strong> to save.<br /> </p> </li> 
+  </ol> 
+  <h3>Configuring Day CQ Link Externalizer </h3> 
+  <p>If the InDesign server and AEM run on different hosts or either or both these applications do not run on default ports, configure <strong>Day CQ Link Externalizer</strong> to set the host name, port, and content path for the InDesign server.</p> 
+  <ol> 
+   <li><p>Access Configuration Manager at the URL <i>http://&amp;lt;AEM server name&amp;gt;:&amp;lt;Port&amp;gt;/system/console/configMgr</i>. </p> </li> 
+   <li><p>Locate the configuration <strong>Day CQ Link Externalizer</strong>, and click the <strong>Edit</strong> icon to open it.</p> </li> 
+   <li><p>Specify the host name and context path for the Indesign server and click <strong>Save</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-293.png" /></li> 
+  </ol> 
+  <h3>Enabling Parallel Job Processing for InDesign Server(s)</h3> 
+  <p>You can now enable parallel job processing for IDS.</p> 
+  <p>First you need to determine the maximum number of parallel jobs (<span class="code">x</span>) an InDesign Server can process:</p> 
+  <ul> 
+   <li>On a single multiprocessor machine, the maximum number of parallel jobs (x) that an InDesign Server can process is one less than the number of processors running IDS.</li> 
+   <li>When you are running IDS on multiple machines you need to count the total number of processors available (ie on all machines) then subtract the total number of machines.</li> 
+  </ul> 
+  <p>To configure the number of parallel IDS jobs:</p> 
+  <ol> 
+   <li><p>Open the <strong>Configurations</strong> tab of the Felix Console; for example:</p>  </li> 
+   <li><p>Select the IDS processing queue under:</p>  </li> 
+   <li><p>Set:<strong><br /> </strong></p> 
+    <ul> 
+     <li><strong>Type</strong> - <span class="code">Parallel</span><strong><br /> </strong></li> 
+     <li><strong>Maximum Parallel Jobs</strong> - <span class="code">&amp;lt;<i>x</i>&amp;gt;</span> (as calculated above)</li> 
+    </ul> </li> 
+   <li><p>Save these changes.</p> </li> 
+   <li><p>Enable multisession support for CS6 (and above) by checking the:</p> <p style="margin-left: 40px;"> <span class="code">enable.multisession.name</span> checkbox</p> <p> Under:</p>  </li> 
+   <li><p>Create a <a href="#configuringtheproxyworkerforindesignserver">pool of &amp;lt;<span class="code"><i>x</i>&amp;gt;</span> IDS workers by adding SOAP endpoints to the IDS Worker configuration</a>. <br /> </p> <p>If there are multiple machines running InDesign Servers, add SOAP endpoints (number of processors per machine -1) for each machine.</p> 
+    <note> 
+     <p>You may choose to enable Blacklisting of IDS workers when working with pool of workers.</p> 
+     <p>To do so, enable the "enable.retry.name" checkbox, under the <span class="code">com.day.cq.dam.ids.impl.IDSJobProcessor.name</span> configuration, which enables IDS job retrials. </p> 
+     <p>Also, under the <span class="code">com.day.cq.dam.ids.impl.IDSPoolImpl.name</span> configuration, set a positive value for max.errors.to.blacklist parameter which determines number of job retrials before barring an IDS from the job handlers list</p> 
+     <p>By default, after the configurable (retry.interval.to.whitelist.name) time in minutes the IDS worker is revalidated. If the worker is found online, it is removed from the blacklist</p> 
+    </note></li> 
+  </ol> 
+  <h2>Enabling support for InDesign server 10.0 or higher</h2> 
+  <p>For InDesign server 10.0 or higher, perform the following steps to enable multi-session support.</p> 
+  <ol> 
+   <li><p>Open Configuration Manager from your AEM Assets instance <a href="http://localhost:4502/system/console/configMgr">http://&amp;lt;Host Name&amp;gt;:&amp;lt;Port&amp;gt;/system/console/configMgr</a>.</p> </li> 
+   <li><p>Edit the configuration <strong><i>com.day.cq.dam.ids.impl.IDSJobProcessor.name</i></strong>.</p> </li> 
+   <li><p>Select the <strong>ids.cc.enable</strong> option, and click <strong>Save</strong>.</p> </li> 
+  </ol> 
+  <note> 
+   <p>For InDesign Server integration with AEM Assets, use a multi-core processor because the Session Support feature necessary for the integration is not supported on single core systems.</p> 
+  </note> 
+  <h2>Configure AEM credentials</h2> 
+  <p>You can change the default administrator credentials (user name and password) for accessing the InDesign server from your AEM instance without breaking the intergration with the InDesign server.</p> 
+  <ol> 
+   <li><p>Go to <i>/etc/cloudservices/proxy.html</i>.</p> </li> 
+   <li><p>In the dialog, specify the new user name and password.</p> </li> 
+   <li><p>Save the credentials.</p> </li> 
+  </ol> 
+ </body> 
+</html>

@@ -1,0 +1,136 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/creating_custom_adaptive_form_themes_admin_5e12de0b318c6865_1986_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2016-05-31T06:35:59.410-0400" name="acrolinxDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2018-07-24T05:28:08.670-0400" name="cq:lastReplicated" /> 
+  <meta content="44" name="acrolinxSentences" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-07-24T05:28:08.628-0400" name="lastPublishExternalDate" /> 
+  <meta content="2014-04-15T10:27:18.205-0400" name="jcr:created" /> 
+  <meta content="4a962fea-8dce-478b-af18-eb916412420b" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2015-07-20T07:35:20.358-0400" name="lastPublishQADate" /> 
+  <meta content="mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" /> 
+  <meta content="content_type:reference;topic_tags:customization;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2018-07-24T05:28:08.628-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="623f4fdd-b3fd-425d-ad10-bf32681bccff" name="jcr:predecessors" /> 
+  <meta content="Creating custom Adaptive form themes" name="navTitle" /> 
+  <meta content="10/31/17" name="locPublishDate" /> 
+  <meta content="Creating custom adaptive form themes" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="asgupta" name="jcr:createdBy" /> 
+  <meta content="966" name="acrolinxWords" /> 
+  <meta content="2018-07-24T05:28:08.628-0400" name="topicBrowsingSortDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/customization;/content/help/en/experience-manager/6-4/forms/morehelp/customization" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-07-24T05:25:05.780-0400" name="firstPublishExternalDate" /> 
+  <meta content="later" name="locPublishOption" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/creating-custom-adaptive-form-themes.html" name="publishExternalURL" /> 
+  <meta content="2018-08-13T06:05:20.609-0400" name="cq:lastModified" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="An adaptive form theme is an AEM client library that you use to define the styles (look and feel) for an adaptive form. Learn how you can create custom adaptive form themes." name="seoDescription" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>AEM Forms provide the <a href="../../forms/using/themes.md" target="_blank">Theme Editor</a> capability to create and modify adaptive forms <a href="../../forms/using/themes.md" target="_blank">themes</a>. Peform the steps listed in this article, only if you have upgraded from a version that does not have <a href="../../forms/using/themes.md" target="_blank">Theme Editor</a> and you have an existing investment in themes created using Less/CSS files (pre-theme editor method).</p> 
+  </note> 
+  <h2>Prerequisites</h2> 
+  <ul> 
+   <li>Knowledge of the LESS (Leaner CSS) framework</li> 
+   <li>How to create a client library in Adobe Experience Manager</li> 
+   <li><a href="../../forms/using/custom-adaptive-forms-templates.md" target="_blank">Creating an adaptive form template</a> for using the theme you create</li> 
+  </ul> 
+  <h2>Adaptive form theme</h2> 
+  <p>An <strong>adaptive form theme</strong> is an AEM client library that you use to define the styles (look and feel) for an adaptive form.</p> 
+  <p>You create an <strong>adaptive template</strong> and apply the theme to the template. You then use this custom template to create an <strong>adaptive form</strong>.</p> 
+  <img alt="Adaptive Form and Client Library" imageRotate="0" src="assets/hierarchy-1.png" title="Adaptive Form and Client Library" /> 
+  <h2>To create an adaptive form theme</h2> 
+  <note> 
+   <p>The following procedure is described using sample names for AEM objects such as node, properties, and folders.</p> 
+   <p>If you follow these steps using the names, the resultant template should appear similar to the following snapshot:<br /> </p> 
+  </note> 
+  <img alt="Forest themed Adaptive Form snapshot" imageRotate="0" src="assets/thumbnail.png" title="Forest themed Adaptive Form snapshot" /> 
+  <p>Forest Theme Sample</p> 
+  <ol> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Create a node of type <span class="code">cq:ClientLibraryFolder</span> under the <span class="code">/apps </span>node.</p> <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">For example, create the following node:</p>  </li> 
+   <li><p>Add a multi-valued string property <span class="code">categories</span> to the node and set its value appropriately.</p> <p>For example, set the property to: <span class="code">af.theme.forest</span>.</p> <img alt="CRX repository snapshot" imageRotate="0" src="assets/3-2.png" title="CRX repository snapshot" /></li> 
+   <li><p>Add two folders, <span class="code">less</span> and <span class="code">css</span>, and a file <span class="code">css.txt</span> to the node created in step 1:</p> 
+    <ul> 
+     <li><span class="code">less</span> folder: Contains the <span class="code">less</span> variable files in which you define the <span class="code">less</span> variables and <span class="code">less mixins</span> that are used to manage the .css styles.<br /> This folder consists of <span class="code">less</span> variable files, <span class="code">less</span> mixin files, <span class="code">less</span> files defining styles using mixins and variables. And all these less files are then imported in styles.less.<br /> </li> 
+     <li><span class="code">css </span>folder: Contains the .css files in which you define the static styles to be used in the theme.</li> 
+    </ul> <p><strong>Less variables files</strong>: These are the files, where you define or override the variables that are used in defining CSS styles.</p> <p>Adaptive forms provide OOTB variables defined in the following .less files:</p> 
+    <ul> 
+     <li><span class="code">/apps/clientlibs/fd/af/guidetheme/common/less/globalvariables.less</span></li> 
+     <li><span class="code">/apps/clientlibs/fd/af/guidetheme/common/less/layoutvariables.less</span></li> 
+    </ul> <p>Adaptive forms also provide third-party variables defined in:</p>  <p>You can use the less variables provided with adaptive forms, you can override these variables, or you can create new less variables.<br /> </p> 
+    <note> 
+     <p>While importing the files of the less pre-processor, in the import statement specify the relative path of the files.</p> 
+    </note><p>Sample overriding variables:</p> 
+    <codeblock gutter="true" class="syntax plain">
+      @button-background-color:&amp;nbsp;rgb(19,&amp;nbsp;102,&amp;nbsp;44);!!discoiqbr!!@button-border-color:&amp;nbsp;rgb(19,&amp;nbsp;102,&amp;nbsp;44);!!discoiqbr!!@button-border-size:&amp;nbsp;0px;!!discoiqbr!!@button-padding:&amp;nbsp;10px&amp;nbsp;15px;!!discoiqbr!!@button-font-color:&amp;nbsp;#ffffff; 
+    </codeblock><p>To override the <span class="code">less </span>variables:</p> 
+    <ol> 
+     <li>Import default adaptive form variables:<br /> <span class="code">/apps/clientlibs/fd/af/guidetheme/common/less/globalvariables.less/apps/clientlibs/fd/af/guidetheme/common/less/layoutvariables.less</span><br /> </li> 
+     <li>Then import the less file that includes overridden variables.</li> 
+    </ol> <p>Sample new variable definitions:</p> 
+    <codeblock gutter="true" class="syntax plain">
+      @button-focus-bg-color:&amp;nbsp;rgb(40,&amp;nbsp;208,&amp;nbsp;90);!!discoiqbr!!@button-hover-bg-color:&amp;nbsp;rgb(30,&amp;nbsp;156,&amp;nbsp;67); 
+    </codeblock><p><strong>Less mixin files: </strong>You can define the functions that accept variables as arguments. The output of these functions are the resultant styles. Use these mixins within different styles, to avoid repeating CSS styles.</p> <p>Adaptive forms provide OOTB mixins defined in:</p> 
+    <ul> 
+     <li><span class="code">/apps/clientlibs/fd/af/guidetheme/common/less/adaptiveforms-mixins.less</span></li> 
+    </ul> <p>Adaptive forms also provide third-party mixins defined in:</p> 
+    <ul> 
+     <li><span class="code">/apps/clientlibs/fd/af/third-party/less/mixins.less</span></li> 
+    </ul> <p>Sample mixin definition:<br /> </p> 
+    <codeblock gutter="true" class="syntax plain">
+      .rounded-corners&amp;nbsp;(@radius)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;-webkit-border-radius:&amp;nbsp;@radius;!!discoiqbr!!&amp;nbsp;&amp;nbsp;-moz-border-radius:&amp;nbsp;@radius;!!discoiqbr!!&amp;nbsp;&amp;nbsp;-ms-border-radius:&amp;nbsp;@radius;!!discoiqbr!!&amp;nbsp;&amp;nbsp;-o-border-radius:&amp;nbsp;@radius;!!discoiqbr!!&amp;nbsp;&amp;nbsp;border-radius:&amp;nbsp;@radius;!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!.border(@color,&amp;nbsp;@type,&amp;nbsp;@size)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;border:&amp;nbsp;@color&amp;nbsp;@size&amp;nbsp;@type;!!discoiqbr!!} 
+    </codeblock><p><strong>Styles.less File: </strong>Use this file to include all the less files (variables, mixins, styles) that you need to use in the client library.</p> <p>In the following sample <span class="code">styles.less</span> file, the import statement can be placed in any order.</p> <p>The statements to import the following .less files are mandatory:</p> 
+    <ul> 
+     <li><span class="code">globalvariables.less</span></li> 
+     <li><span class="code">layoutvariables.less</span></li> 
+     <li><span class="code">components.less</span></li> 
+     <li><span class="code">layouts.less</span></li> 
+    </ul> 
+    <codeblock gutter="true" class="syntax plain">
+      @import&amp;nbsp;"../../../clientlibs/fd/af/guidetheme/common/less/globalvariables.less";!!discoiqbr!!@import&amp;nbsp;"../../../clientlibs/fd/af/guidetheme/common/less/layoutvariables.less";!!discoiqbr!!@import&amp;nbsp;"forestTheme-variables";!!discoiqbr!!@import&amp;nbsp;"../../../clientlibs/fd/af/guidetheme/common/less/components.less";!!discoiqbr!!@import&amp;nbsp;"../../../clientlibs/fd/af/guidetheme/common/less/layouts.less";!!discoiqbr!!!!discoiqbr!!/*&amp;nbsp;custom&amp;nbsp;styles&amp;nbsp;*/!!discoiqbr!!!!discoiqbr!!.guidetoolbar&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;input[type="button"],&amp;nbsp;button,&amp;nbsp;.button&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.rounded-corners&amp;nbsp;(@button-radius);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;:hover&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;background-color:&amp;nbsp;@button-hover-bg-color;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;:focus&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;background-color:&amp;nbsp;@button-focus-bg-color;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!form&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;background-image:&amp;nbsp;url(../images/forest.png);!!discoiqbr!!&amp;nbsp;background-repeat:&amp;nbsp;no-repeat;!!discoiqbr!!&amp;nbsp;background-size:&amp;nbsp;100%;!!discoiqbr!!} 
+    </codeblock><p>The <span class="code">css.txt</span> contains the paths of .css files to be downloaded for the library.</p> <p>For example:<br /> </p> 
+    <codeblock gutter="true" class="syntax plain">
+      #base=/apps/clientlibs/fd/af/third-party/css!!discoiqbr!!bootstrap.css!!discoiqbr!!!!discoiqbr!!#base=less!!discoiqbr!!styles.less!!discoiqbr!!!!discoiqbr!!#base=/apps/clientlibs/fd/xfaforms/xfalib/css!!discoiqbr!!datepicker.css!!discoiqbr!!listboxwidget.css!!discoiqbr!!scribble.css!!discoiqbr!!dialog.css 
+    </codeblock> 
+    <note> 
+     <p>The styles.less file is not mandatory. This means that you do not need to create this file, if you have not defined any custom styles, variables, or mixins.</p> 
+     <p>However, if you do not create a style.less file, in the css.txt file, you need to uncomment the following line:</p> 
+     <p><strong><span class="code">#base=less</span></strong></p> 
+     <p>And comment the following line:</p> 
+     <p><strong><span class="code">styles.less</span></strong><br /> </p> 
+    </note></li> 
+  </ol> 
+  <h2>To use a theme in an adaptive form</h2> 
+  <p>After you have created an adaptive form theme, perform the following steps to use this theme in an adaptive form:<br /> </p> 
+  <ol> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">To include the theme created in <a href="../../forms/using/creating-custom-adaptive-form-themes.md#main-pars-header-1">to create an adaptive form theme</a> section, create a custom page of type <span class="code">cq:Component</span>.</p> <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">For example, <span class="code">/apps/myAfCustomizations/myAfPages/forestPage</span></p> 
+    <ol> 
+     <li><p>Add a <span class="code">sling:resourceSuperType</span> property and set its value as <span class="code">fd/af/components/page/base</span>.<br /> </p> <img alt="CRX repository snapshot" imageRotate="0" src="assets/1-2.png" title="CRX repository snapshot" /></li> 
+     <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">To use a theme in the page, you need to add an overriding file library.jsp to the node.</p> <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">You then import the theme created in To create an adaptive form theme section of this article.</p> <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">The following sample code snippet imports the <span class="code">af.theme.forest</span> theme.</p> 
+      <codeblock gutter="true" class="syntax plain">
+        &lt;%@include&amp;nbsp;file="/libs/fd/af/components/guidesglobal.jsp"%&gt;!!discoiqbr!!&lt;cq:includeClientLib&amp;nbsp;categories="af.theme.forest"/&gt; 
+      </codeblock></li> 
+     <li><p><strong>Optional</strong>: In the custom page, override the header.jsp, footer.jsp, and the body.jsp, as required.</p> </li> 
+    </ol></li> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Create a cutom template (for example: <span class="code">/apps/myAfCustomizations/myAfTemplates/forestTemplate</span>) whose the jcr:content points to custom page created in the previous step (for example: <span class="code">myAfCustomizations/myAfPages/forestPage)</span>.</p> <img alt="CRX repository snapshot" imageRotate="0" src="assets/2-1.png" title="CRX repository snapshot" /></li> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Create an Adaptive form using the template created in the previous step. The look and feel of the adaptive form is defined by the theme created in To create an adaptive form theme section of this article.</p> </li> 
+  </ol> 
+ </body> 
+</html>

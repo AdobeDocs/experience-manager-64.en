@@ -1,0 +1,390 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/introduction;/content/help/en/experience-manager/6-4/forms/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="anujkapo" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-11-22T09:10:58.404-0500" name="firstPublishExternalDate" /> 
+  <meta content="2018-11-22T12:39:04.464-0500" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2019-01-15T15:36:12.354-0500" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/create-document-fragments.html" name="publishExternalURL" /> 
+  <meta content="anujkapo" name="cq:lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-11-22T05:30:59.791-0500" name="acrolinxDate" /> 
+  <meta content="1621" name="acrolinxWords" /> 
+  <meta content="Create document fragments for Interactive Communication" name="jcr:description" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-11-22T12:39:04.487-0500" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="anujkapo" name="acrolinxLastCheckedBy" /> 
+  <meta content="checked_improved" name="acrolinxStatus" /> 
+  <meta content="2018-11-22T12:39:04.464-0500" name="lastPublishExternalDate" /> 
+  <meta content="Create document fragments for Interactive Communication" name="seoDescription" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2342403b-2ffb-4f20-8f5e-993fef0dd91d" name="jcr:predecessors" /> 
+  <meta content="175" name="acrolinxSentences" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/create_document_fragments_krs_workflow_27a21c3e5e538b90_66_report.xml" name="acrolinxReportURL" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="fe5694b1-ffeb-41d9-9c38-efbeb670e07f" name="jcr:uuid" /> 
+  <meta content="2018-12-03T08:06:57.336-0500" name="locHandOffDate" /> 
+  <meta content="Tutorial: Create document fragments" name="jcr:title" /> 
+  <meta content="Create document fragments for Interactive Communication" name="seoTitle" /> 
+  <meta content="2018-12-03T08:06:57.337-0500" name="cq:lastModified" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="anujkapo" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-11-22T12:39:04.464-0500" name="topicBrowsingSortDate" /> 
+ </head> 
+ <body> 
+  <p><img src="assets/05-create-form-data-model-main_small.png" /></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>This tutorial is a step in the <a href="../../forms/using/create-your-first-interactive-communication.md">Create your first Interactive Communication</a> series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Document fragments are reusable components of a correspondence that are used to compose an Interactive Communication. The document fragments are of the following types:</p> 
+  <ul> 
+   <li>Text - A text asset is a piece of content that consists of one or more paragraphs of text. A paragraph can be static or dynamic.</li> 
+   <li>List - List is a group of document fragments, including text, lists, conditions, and images. </li> 
+   <li>Condition - Conditions enable you to define what content gets included in the Interactive Communication based on the data received from the Form Data Model.</li> 
+  </ul> 
+  <p>This tutorial walks you through the steps to create multiple text document fragments based on the anatomy provided in <a href="../../forms/using/planning-interactive-communications.md" target="_blank">Plan the Interactive Communication</a> section. At the end of this tutorial, you will be able to:</p> 
+  <ul> 
+   <li>Create document fragments</li> 
+   <li>Create variables</li> 
+   <li>Create and apply rules</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/text_document_fragments.gif" /> 
+  <p>The following is the list of document fragments that are created in this tutorial:</p> 
+  <ul> 
+   <li><a href="../../forms/using/create-document-fragments.md#main-pars-header-1924639505">Bill details</a></li> 
+   <li><a href="../../forms/using/create-document-fragments.md#main-pars-header">Customer details</a></li> 
+   <li><a href="../../forms/using/create-document-fragments.md#main-pars-header-561280447">Bill summary</a></li> 
+   <li><a href="../../forms/using/create-document-fragments.md#main-pars-header-28153425">Summary of charges</a></li> 
+  </ul> 
+  <p>Each document fragment includes fields with static text, data received from form data model, and data entered using the Agent UI. All these fields have been depicted in the <a href="../../forms/using/planning-interactive-communications.md">Plan the Interactive Communication</a> section.</p> 
+  <p>While creating document fragments in this tutorial, variables are created for fields that receive data using the Agent UI.</p> 
+  <p>Use <strong>FDM_Create_First_IC</strong>, as described in the <a href="../../forms/using/create-form-data-model0.md" target="_blank">Create form data model</a> section, as the form data model to create document fragments in this tutorial.</p> 
+  <h2>Step 1: Create Bill Details text document fragment</h2> 
+  <p>The Bill Details document fragment includes the following fields:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Field</td> 
+     <td>Data Source</td> 
+    </tr> 
+    <tr> 
+     <td>Invoice No</td> 
+     <td>Agent UI</td> 
+    </tr> 
+    <tr> 
+     <td>Bill Period</td> 
+     <td>Agent UI</td> 
+    </tr> 
+    <tr> 
+     <td>Bill Date</td> 
+     <td>Agent UI</td> 
+    </tr> 
+    <tr> 
+     <td>Your Plan</td> 
+     <td>Form data model</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Execute the following steps to create variables for fields with Agent UI as the data source, create static text, and use form data model elements in the document fragment:</p> 
+  <ol> 
+   <li><p>Select <strong>Forms</strong> &amp;gt; <strong>Document Fragments</strong>. <br /> </p> </li> 
+   <li><p>Select <strong>Create</strong> &amp;gt; <strong>Text</strong>.</p> </li> 
+   <li><p>Specify the following information:</p> 
+    <ol> 
+     <li>Enter <strong>bill_details_first_ic</strong> as the name in the <strong>Title</strong> field. The title gets auto-populated in the <strong>Name</strong> field.</li> 
+     <li>Select <strong>Form Data Model</strong> from the <strong>Data Model</strong> section.</li> 
+     <li>Select <strong>FDM_Create_First_IC</strong> as the form data model and tap <strong>Select</strong>.</li> 
+     <li>Tap <strong>Next</strong>.</li> 
+    </ol> </li> 
+   <li><p>Select the <strong>Variables</strong> tab in the left pane and tap <strong>Create</strong>.</p> </li> 
+   <li><p>In the <strong>Create Variable</strong> section:</p> 
+    <ol> 
+     <li>Enter <strong>Invoicenumber</strong> as the name of the variable.</li> 
+     <li>Select <strong>String</strong> as type.</li> 
+     <li>Tap <strong>Create</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/variable_create_string.png" /><p>Repeat step 4 and 5 to create the following variables:</p> 
+    <ul> 
+     <li>Billperiod: String type</li> 
+     <li>BillDate: Date type</li> 
+    </ul> <img imageRotate="0" src="assets/variables_bill_details.png" /></li> 
+   <li><p>Create static text for the following fields using the right pane:</p> 
+    <ul> 
+     <li>Invoice No</li> 
+     <li>Bill Period</li> 
+     <li>Bill Date</li> 
+     <li>Your Plan</li> 
+    </ul> <img imageRotate="0" src="assets/variable_bill_details_static_text.png" /></li> 
+   <li><p>Place the cursor next to the <strong>Invoice No</strong> field and double-click the <strong>InvoiceNumber</strong> variable from the <strong>Variables</strong> tab in the left pane.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Bill Period</strong> field and double-click the <strong>Billperiod</strong> variable.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Bill Date</strong> field and double-click the <strong>Bill Date</strong> variable.</p> </li> 
+   <li><p>Select the <strong>Data Model Objects</strong> tab in the left pane.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Your Plan</strong> field and double-click the <strong>customer</strong> &amp;gt; <strong>customerplan</strong> property.</p> <img imageRotate="0" src="assets/bill_details_customerplan_fdm.png" /></li> 
+   <li><p>Click <strong>Save </strong>to create the Bill Details text document fragment.</p> </li> 
+  </ol> 
+  <h2>Step 2: Create Customer Details text document fragment</h2> 
+  <p>The Customer Details document fragment includes the following fields:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Field</td> 
+     <td>Data Source</td> 
+    </tr> 
+    <tr> 
+     <td>Customer name</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>Address</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>Place of Supply</td> 
+     <td>Agent UI</td> 
+    </tr> 
+    <tr> 
+     <td>State Code</td> 
+     <td>Agent UI</td> 
+    </tr> 
+    <tr> 
+     <td>Mobile Number</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>Alternate Contact Number</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>Relationship Number</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>Number of Connections</td> 
+     <td>Agent UI</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Execute the following steps to create variables for fields with Agent UI as the data source, create static text, and use form data model elements in the document fragment:</p> 
+  <ol> 
+   <li><p>Select <strong>Forms</strong> &amp;gt; <strong>Document Fragments</strong>. </p> </li> 
+   <li><p>Select <strong>Create</strong> &amp;gt; <strong>Text</strong>.</p> </li> 
+   <li><p>Specify the following information:</p> 
+    <ol> 
+     <li>Enter <strong>customer_details_first_ic</strong> as the name in the <strong>Title</strong> field. The title gets auto-populated in the <strong>Name</strong> field.</li> 
+     <li>Select <strong>Form Data Model</strong> from the <strong>Data Model</strong> section.</li> 
+     <li>Select <strong>FDM_Create_First_IC</strong> as the form data model and tap <strong>Select</strong>.</li> 
+     <li>Tap <strong>Next</strong>.</li> 
+    </ol> </li> 
+   <li><p>Select the <strong>Variables</strong> tab in the left pane and tap <strong>Create</strong>.</p> </li> 
+   <li><p>In the <strong>Create Variable</strong> section:</p> 
+    <ol> 
+     <li>Enter <strong>Placesupply</strong> as the name of the variable.</li> 
+     <li>Select <strong>String</strong> as type.</li> 
+     <li>Tap <strong>Create</strong>.</li> 
+    </ol> <p>Repeat step 4 and 5 to create the following variables:</p> 
+    <ul> 
+     <li>Statecode: Number type</li> 
+     <li>Numberconnections: Number type</li> 
+    </ul> </li> 
+   <li><p>Select the <strong>Data Model Objects</strong> tab, place the cursor in the right pane, and double-click the <strong>customer</strong> &amp;gt; <strong>name</strong> property.</p> </li> 
+   <li><p>Press Enter to move the cursor to the next line and double-click the <strong>customer</strong> &amp;gt; <strong>address</strong> property.</p> </li> 
+   <li><p>Create static text for the following fields using the right pane:</p> 
+    <ul> 
+     <li>Mobile Number</li> 
+     <li>Alternate Contact Number</li> 
+     <li>Place of Supply</li> 
+     <li>Relationship Number</li> 
+     <li>State Code</li> 
+     <li>Number of connections</li> 
+    </ul> <img imageRotate="0" src="assets/customer_details_static_text_fdm.png" /></li> 
+   <li><p>Place the cursor next to the <strong>Mobile Number</strong> field and double-click the <strong>customer</strong> &amp;gt; <strong>mobilenum</strong> property.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Alternate Contact Number</strong> field and double-click the<strong> customer</strong> &amp;gt; <strong>alternatemobilenumber</strong> property.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Relationship Number</strong> field and double-click the <strong>customer</strong> &amp;gt; <strong>relationshipnumber</strong> property.</p> </li> 
+   <li><p>Select the <strong>Variables</strong> tab, place the cursor next to the <strong>Place of Supply</strong> field and double-click the <strong>Placesupply</strong> variable.</p> </li> 
+   <li><p>Place the cursor next to the <strong>State Code</strong> field and double-click the <strong>Statecode</strong> variable.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Number of Connections</strong> field and double-click the <strong>Numberconnections</strong> variable.</p> <img imageRotate="0" src="assets/customer_details_df2.png" /></li> 
+   <li><p>Click <strong>Save </strong>to create the Customer Details text document fragment.</p> </li> 
+  </ol> 
+  <h2>Step 3: Create Bill Summary text document fragment</h2> 
+  <p>The Bill Summary document fragment includes the following fields:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Field</td> 
+     <td>Data Source</td> 
+    </tr> 
+    <tr> 
+     <td>Previous Balance</td> 
+     <td>Agent UI</td> 
+    </tr> 
+    <tr> 
+     <td>Payments</td> 
+     <td>Agent UI</td> 
+    </tr> 
+    <tr> 
+     <td>Adjustments</td> 
+     <td>Agent UI</td> 
+    </tr> 
+    <tr> 
+     <td>Charges current bill period</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>Amount Due</td> 
+     <td>Agent UI</td> 
+    </tr> 
+    <tr> 
+     <td>Due Date</td> 
+     <td>Agent UI</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Execute the following steps to create variables for fields with Agent UI as the data source, create static text, and use form data model elements in the document fragment:</p> 
+  <ol> 
+   <li><p>Select <strong>Forms</strong> &amp;gt; <strong>Document Fragments</strong>. </p> </li> 
+   <li><p>Select <strong>Create</strong> &amp;gt; <strong>Text</strong>.</p> </li> 
+   <li><p>Specify the following information:</p> 
+    <ol> 
+     <li>Enter <strong>bill_summary_first_ic</strong> as the name in the <strong>Title</strong> field. The title gets auto-populated in the <strong>Name</strong> field.</li> 
+     <li>Select <strong>Form Data Model</strong> from the <strong>Data Model</strong> section.</li> 
+     <li>Select <strong>FDM_Create_First_IC</strong> as the form data model and tap <strong>Select</strong>.</li> 
+     <li>Tap <strong>Next</strong>.</li> 
+    </ol> </li> 
+   <li><p>Select the <strong>Variables</strong> tab in the left pane and tap <strong>Create</strong>.</p> </li> 
+   <li><p>In the <strong>Create Variable</strong> section:</p> 
+    <ol> 
+     <li>Enter <strong>Previousbalance</strong> as the name of the variable.</li> 
+     <li>Select <strong>Number</strong> as type.</li> 
+     <li>Tap <strong>Create</strong>.</li> 
+    </ol> <p>Repeat step 4 and 5 to create the following variables:</p> 
+    <ul> 
+     <li>Payments: Number type</li> 
+     <li>Adjustments: Number type</li> 
+     <li>Amountdue: Number type</li> 
+     <li>Duedate: Date type</li> 
+    </ul> </li> 
+   <li><p>Create static text for the following fields using the right pane:</p> 
+    <ul> 
+     <li>Previous Balance</li> 
+     <li>Payments</li> 
+     <li>Adjustments</li> 
+     <li>Charges current bill period</li> 
+     <li>Amount Due</li> 
+     <li>Due Date</li> 
+     <li>Late payment charges after Due Date is $ 20</li> 
+    </ul> <img imageRotate="0" src="assets/bill_summary_static.png" /></li> 
+   <li><p>Place the cursor next to the <strong>Previous Balance</strong> field and double-click the <strong>Previousbalance</strong> variable.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Payments</strong> field and double-click the <strong>Payments</strong> variable.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Adjustments</strong> field and double-click the <strong>Adjustments</strong> variable.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Amount Due</strong> field and double-click the <strong>Amountdue</strong> variable.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Due Date</strong> field and double-click the <strong>Duedate</strong> variable.</p> </li> 
+   <li><p>Select the <strong>Data Model Objects</strong> tab, place the cursor next to the <strong>Charges current bill period</strong> field in the right pane, and double-click the <strong>bills</strong> &amp;gt; <strong>usagecharges</strong> property.</p> <img imageRotate="0" src="assets/bill_summary_static_variables.png" /></li> 
+   <li><p>Click <strong>Save</strong> to create the Customer Details text document fragment.</p> </li> 
+  </ol> 
+  <h2>Step 4: Create Summary of charges text document fragment</h2> 
+  <p>The Summary of charges document fragment includes the following fields:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Field</td> 
+     <td>Data Source</td> 
+    </tr> 
+    <tr> 
+     <td>Call Charges</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>Conference Call Charges</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>SMS Charges</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>Mobile Internet Charges</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>National Roaming Charges</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>International Roaming Charges</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>Value Added Services Charges</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>Total Charges</td> 
+     <td>Form data model</td> 
+    </tr> 
+    <tr> 
+     <td>TOTAL PAYABLE</td> 
+     <td>Form data model</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Execute the following steps to create static text and use form data model elements in the document fragment:</p> 
+  <ol> 
+   <li><p>Select <strong>Forms</strong> &amp;gt; <strong>Document Fragments</strong>. </p> </li> 
+   <li><p>Select <strong>Create</strong> &amp;gt; <strong>Text</strong>.</p> </li> 
+   <li><p>Specify the following information:</p> 
+    <ol> 
+     <li>Enter <strong>summary_charges_first_ic </strong>as the name in the <strong>Title</strong> field. The title gets auto-populated in the Name field.</li> 
+     <li>Select <strong>Form Data Model</strong> from the <strong>Data Model</strong> section.</li> 
+     <li>Select <strong>FDM_Create_First_IC</strong> as the form data model and tap <strong>Select</strong>.</li> 
+     <li>Tap <strong>Next</strong>.</li> 
+    </ol> </li> 
+   <li><p>Create static text for the following fields using the right pane:</p> 
+    <ul> 
+     <li>Call Charges</li> 
+     <li>Conference Call Charges</li> 
+     <li>SMS Charges</li> 
+     <li>Mobile Internet Charges</li> 
+     <li>National Roaming Charges</li> 
+     <li>International Roaming Charges</li> 
+     <li>Value Added Services Charges</li> 
+     <li>Total Charges</li> 
+     <li>TOTAL PAYABLE</li> 
+    </ul> <img imageRotate="0" src="assets/summary_charges_static.png" /></li> 
+   <li><p>Select the <strong>Data Model Objects</strong> tab.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Call Charges</strong> field and double-click the <strong>bills</strong> &amp;gt; <strong>callcharges </strong>property.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Conference</strong> <strong>Call Charges</strong> field and double-click the <strong>bills</strong> &amp;gt; <strong>confcallcharges </strong>property.</p> </li> 
+   <li><p>Place the cursor next to the <strong>SMS Charges</strong> field and double-click the <strong>bills</strong> &amp;gt; <strong>smscharges </strong>property.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Mobile Internet Charges</strong> field and double-click the <strong>bills</strong> &amp;gt; <strong>internetcharges </strong>property.</p> </li> 
+   <li><p>Place the cursor next to the <strong>National Roaming Charges</strong> field and double-click the <strong>bills</strong> &amp;gt; <strong>roamingnational </strong>property.</p> </li> 
+   <li><p>Place the cursor next to the <strong>International Roaming Charges</strong> field and double-click the <strong>bills</strong> &amp;gt; <strong>roamingintnl </strong>property.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Value Added Services Charges</strong> field and double-click the <strong>bills</strong> &amp;gt; <strong>vas </strong>property.</p> </li> 
+   <li><p>Place the cursor next to the <strong>Total Charges</strong> field and double-click the <strong>bills</strong> &amp;gt; <strong>usagecharges </strong>property.</p> </li> 
+   <li><p>Place the cursor next to the <strong>TOTAL PAYABLE</strong> field and double-click the <strong>bills</strong> &amp;gt; <strong>usagecharges </strong>property.</p> <img imageRotate="0" src="assets/summary_charges_static_fdm.png" /></li> 
+   <li><p>Select the text in the <strong>Value Added Services Charges</strong> row and tap <strong>Create Rule </strong>to create a condition based on which the row is displayed in the Interactive Communication:</p> </li> 
+   <li><p>On the <strong>Create Rule</strong> pop-up window:</p> 
+    <ol> 
+     <li>Select <strong>Data Models and Variables</strong> and then <strong>bills</strong> &amp;gt; <strong>callcharges</strong>.</li> 
+     <li>Select <strong>is less than</strong> as the operator.</li> 
+     <li>Select <strong>Number</strong> and enter the value as <strong>60</strong>.</li> 
+    </ol> <p>Based on this condition, Value Added Services Charges row is displayed only if the value for the Call Charges field is less than 60.</p> <img imageRotate="0" src="assets/create_rules_caption.gif" /></li> 
+   <li><p>Click <strong>Save </strong>to create the Summary of charges text document fragment.</p> </li> 
+  </ol> 
+ </body> 
+</html>

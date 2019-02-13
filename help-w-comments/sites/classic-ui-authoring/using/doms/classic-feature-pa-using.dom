@@ -1,0 +1,57 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Seeing Page Analytics Data" name="jcr:title" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="Seeing Page Analytics Data" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="c60af983-8218-4873-b250-2530f86d31b3" name="jcr:uuid" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:site-features" name="cq:tags" />
+  <meta content="2018-04-03T06:43:35.963-0400" name="lastPublishExternalDate" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/site-page-features/pa-using" name="qaNotes" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-feature-pa-using.html" name="publishExternalURL" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2751c223-91ca-4500-b1b9-9292a146b53f" name="jcr:predecessors" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="2018-04-19T10:23:29.416-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T06:43:35.963-0400" name="topicBrowsingSortDate" />
+  <meta content="Use page analytics data to gauge the effectiveness of their page content." name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-10-27T23:46:14.621-0400" name="cq:lastReplicated" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Seeing Page Analytics Data" name="seoTitle" />
+  <meta content="2017-12-01T19:02:51.274-0500" name="jcr:created" />
+  <meta content="2017-10-31T16:19:23.031-0400" name="firstPublishExternalDate" />
+  <meta content="2018-04-03T06:43:35.963-0400" name="publishExternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/site-features" name="moreHelpPaths" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-04-19T10:23:29.415-0400" name="locHandOffDate" />
+ </head>
+ <body>
+  <p>Use page analytics data to gauge the effectiveness of their page content.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-127.png" />
+  <p>Page analytics data is displayed in the Sites console. When sites are displayed in list format, the following columns are available by default:</p> 
+  <ul> 
+   <li>Page Views</li> 
+   <li>Unique Visitors</li> 
+   <li>Time on Page</li> 
+  </ul> 
+  <p> </p> 
+  <note>
+   <p>Displaying site analytics data diretly in the console is only available in the touch-optimized UI. See <a href="../../../sites/authoring/using/pa-using.md">Seeing Page Analytics Data</a> in the standard authoring documentation for details.</p> 
+  </note>
+ </body>
+</html>

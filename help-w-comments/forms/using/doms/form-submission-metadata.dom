@@ -1,0 +1,75 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/develop;/content/help/en/experience-manager/6-4/forms/morehelp/develop" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-12-01T19:06:43.475-0500" name="jcr:created" /> 
+  <meta content="2018-04-03T08:38:30.932-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-03T08:38:32.130-0400" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="e95f1419-eb54-459a-93c5-4c21fb8be6b1" name="jcr:uuid" /> 
+  <meta content="2015-12-03T01:43:01.283-0500" name="lastPublishQADate" /> 
+  <meta content="717" name="acrolinxWords" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="Learn how to add information to metadata of a submitted form with user provided data. " name="seoDescription" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:develop" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2016-05-31T06:38:46.974-0400" name="acrolinxDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2018-04-26T04:38:21.261-0400" name="locHandOffDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-03T08:38:30.932-0400" name="topicBrowsingSortDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/form_submission_metadata_admin_5e12de0b318c6865_2015_report.xml" name="acrolinxReportURL" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:38:21.261-0400" name="cq:lastModified" /> 
+  <meta content="2016-04-20T09:31:07.829-0400" name="firstPublishExternalDate" /> 
+  <meta content="42" name="acrolinxSentences" /> 
+  <meta content="Adding information from user data to form submission metadata" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-03T08:38:30.932-0400" name="lastPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/form-submission-metadata.html" name="publishExternalURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="5f208c16-f69c-42b9-8866-cf75b591d0c1" name="jcr:predecessors" /> 
+ </head> 
+ <body> 
+  <p>You can use values entered in an element of your form to compute metadata fields of a draft or a form submission. Metadata lets you filter content based on user data. For example, a user enters John Doe in the name field of your form. You can use this information to compute metadata that can categorize this submission under the initials JD.</p> 
+  <p>To compute metadata fields with user entered values, add elements of your form in the metadata. When a user enters a value in that element, a script uses the value to compute information. This information is added in the metadata. When you add an element as a metadata field, you provide a key for it. The key is added as a field in the metadata, and the computed information is logged against it. </p> 
+  <p>For example, a health insurance firm publishes a form. In this form, a field captures age of the end users. The customer wants to check all the submissions in a particular age range after a number of users submit the form. Instead of going through all the data that gets complicated with increasing number of forms, additional metadata helps the customer. The form author can configure which properties/data filled by the end user is stored at the top level so that search is easiest. Additional metadata is user filled information stored at the top level of the metadata node, as author configured it. </p> 
+  <p>Consider another example of a form that captures email id and phone number. When a user visits this form anonymously and abandons the form, the author can configure the form to auto-save email id and phone number. This form is auto-saved, and the phone number and email id is stored in the metadata node of draft. A use-case of this configuration is lead management dashboard.</p> 
+  <h2>Adding form elements to metadata</h2> 
+  <p>Perform the following steps to add an element in the metadata: </p> 
+  <ol> 
+   <li><p>Open your adaptive form in edit mode.<br /> To open your form in edit mode, in the forms manager, select your form and tap <strong>Open</strong>.</p> </li> 
+   <li><p>In the edit mode, select a component, tap <img src="assets/field-level.png" /> &amp;gt; <strong>Adaptive Form Container</strong>, and then tap <img src="assets/cmppr.png" />.</p> </li> 
+   <li><p>In the sidebar, click <strong>Metadata</strong>.</p> </li> 
+   <li><p>In the Metadata section, click <strong>Add</strong>.</p> </li> 
+   <li><p>Use the Value field of the Metadata tab to add scripts. The scripts you add collect data from elements on the form and compute values that are fed to the metadata. </p> <p>For example, <strong>true</strong> is logged in the metadata if age entered is greater than 21, and <strong>false</strong> is logged if it is less than 21. You enter the following script in the Metadata tab:</p>  <img alt="Metadata script" captionBottom="Script entered in the Metadata tab" imageRotate="0" src="assets/add-element-metadata.png" title="Metadata script" /></li> 
+   <li><p>Click <strong>OK</strong>.</p> </li> 
+  </ol> 
+  <p>After a user enters data in the element selected as a metadata field, the computed information is logged in the metadata. You can see the metadata in the repository you configured to store metadata. </p> 
+  <h2>Seeing updated form&amp;nbsp;submission metadata:</h2> 
+  <p>For the example above, the metadata is stored in the CRX repository. The metadata looks like:</p> 
+  <img imageRotate="0" src="assets/metadata-entry.png" /> 
+  <p>If you add a check box element in the metadata, selected values are stored as a comma separated string. For example, you add a check box component in your form, and specify its name as <span class="code">checkbox1</span>. In the check box component properties, you add the items Driving License, Social Security Number, and Passport for values 0, 1, and 2.</p> 
+  <img alt="Storing multiple values from a check box" imageRotate="0" src="assets/checkbox-metadata.png" title="Storing multiple values from a check box" /> 
+  <p>You select adaptive form container, and in the form properties you add a metadata key <span class="code">cb1</span> which stores <span class="code">checkbox1.value</span>, and publish the form. When a customer fills the form, the customer selects Passport and Social Security Number options in the check box field. The values 1 and 2 are stored as 1, 2 in the cb1 field of the submission metadata.</p> 
+  <img alt="Metadata entry for multiple values selected in a checkbox field" imageRotate="0" src="assets/metadata-entry-1.png" title="Metadata entry for multiple values selected in a checkbox field" /> 
+  <note> 
+   <p>The above example is for learning purpose only. Ensure that you look for metadata in the correct location as configured in your AEM Forms implementation. </p> 
+  </note> 
+ </body> 
+</html>

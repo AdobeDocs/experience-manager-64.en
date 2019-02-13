@@ -1,0 +1,377 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Reusing Content: Multi Site Manager and Live Copy" name="navTitle" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Alison Heimoz" name="contentOwner" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="2017-10-31T16:24:45.729-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:02:11.269-0500" name="jcr:created" /> 
+  <meta content="c6604457-5a48-46b2-a4cd-a6b2e6c665d8" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-26T10:12:37.018-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-26T10:12:37.018-0400" name="locHandOffDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/administering/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="3afbcf56-4e39-43c5-8cff-ba64fe6588e2" name="jcr:uuid" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Learn about reusing content with Live Copies and the Multi Site Manager." name="seoDescription" /> 
+  <meta content="Reusing Content: Multi Site Manager and Live Copy" name="seoTitle" /> 
+  <meta content="2018-04-03T07:04:45.477-0400" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:site-features;content_type:reference" name="cq:tags" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Reusing Content: Multi Site Manager and Live Copy" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/sites/msm" name="qaNotes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-04-03T07:04:45.477-0400" name="lastPublishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-10-27T23:45:21.754-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/msm.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T07:04:45.477-0400" name="topicBrowsingSortDate" /> 
+ </head> 
+ <body> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:00:50.590-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>are the comments (throughout the page) still correct for we.retail?</p> 
+  </draft-comment> 
+  <p>Multi Site Manager (MSM) enables you to use the same site content in multiple locations. MSM uses its Live Copy functionality to achieve this:</p> 
+  <ul> 
+   <li>With MSM you can: 
+    <ul> 
+     <li>Create content once (<a href="#sourceandblueprints">source</a>), then</li> 
+     <li>Copy this content to, and re-use this content in, other areas (<a href="#livecopies">live copies</a>) of the same or other sites.</li> 
+    </ul> </li> 
+   <li>MSM then maintains the (live) relationships between your source content and its live copies so that: 
+    <ul> 
+     <li>When you make changes to the source content, the source and live copies are synchronized (to apply these changes to the live copies too).</li> 
+     <li>You can make adjustments to the content of the live copies by disconnecting the live relationship for individual sub pages and/or components. By doing this, changes to the source will no longer be applied to the live copy.</li> 
+    </ul> </li> 
+  </ul> 
+  <p>This and the following pages cover the related issues:</p> 
+  <ul> 
+   <li><a href="../../../sites/administering/using/msm-livecopy.md">Creating and Synchronizing Live Copies</a></li> 
+   <li><a href="../../../sites/administering/using/msm-livecopy-overview.md">Live Copy Overview Console</a></li> 
+   <li><a href="../../../sites/administering/using/msm-sync.md">Configuring Live Copy Synchronization</a></li> 
+   <li><a href="../../../sites/administering/using/msm-rollout-conflicts.md">MSM Rollout Conflicts</a></li> 
+   <li><a href="../../../sites/administering/using/msm-best-practices.md">MSM Best Practices</a></li> 
+  </ul> 
+  <h3>Possible Scenarios</h3> 
+  <p>There are many use-cases for MSM and live copies, some scenerios include:</p> 
+  <ul> 
+   <li> <p>One typical use case that MSM supports is to reuse content in several multinational same-language sites. This allows the core content to be re-used, while allowing for national variations.</p> <p>For example, the English section of the We.Retail Reference Site sample is created for customers in the USA. Most of the content in this site can also be used for other We.Retail sites that cater to English-speaking customers of different countries and cultures. The core content remains the same over all sites, while regional adjustments can be made.</p> <p>The following structure can be used for sites for the United States, United Kingdom, Canada, and Australia:</p> 
+    <codeblock class="syntax xml">
+      /content!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;we.retail!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;language-masters!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;en!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;we.retail!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;us!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;en!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;we.retail!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;gb!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;en!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;we.retail!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;ca!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;en!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;we.retail!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;au!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;en!!discoiqbr!! 
+    </codeblock> 
+    <note> 
+     <p>MSM does not translate the content. It is used to create the required structure and deploy the content.</p> 
+     <p>See <a href="../../../sites/administering/using/translation.md">Translating Content for Multilingual Sites</a> if you want to extend such an example. </p> 
+    </note></li> 
+   <li> <p>Alternatively a company with a network of dealers might want separate websites for their individual dealerships - each being a variation of the main site provided by the head-office. This might be for a single company with multiple regional offices, or a national franchise system comprised of a central franchisor and multiple local franchisees.</p> <p>The head office can supply the core information, whereas the regional entities can add local information, such as contact details, opening hours and events.</p> 
+    <codeblock class="syntax xml">
+      /content!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;head-office-Berlin!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;branch-Hamburg!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;branch-Stuttgart!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;branch-Munich!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;branch-Frankfurt 
+    </codeblock></li> 
+   <li> <p>Or you can use MSM to create versions of a specific sub-branch, For example, a support sub-site holding details of the different versions of a specific product, where the base information remains constant and only the updated features need to be changed:</p> 
+    <codeblock class="syntax xml">
+      /content!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;support!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;product&amp;nbsp;X!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;v5.0!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;v4.0!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;v3.0!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;v2.0!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;v1.0 
+    </codeblock> 
+    <note> 
+     <p>In such a scenario there is always the question of whether to make a straightforward copy or use live copies.</p> 
+     <p>There is a balance of:</p> 
+     <ul> 
+      <li>How much of the core content will need updating over the multiple versions.</li> 
+     </ul> 
+     <p>Against:</p> 
+     <ul> 
+      <li>How much of the individual copies will need to be adjusted.</li> 
+     </ul> 
+    </note></li> 
+  </ul> 
+  <h3>MSM from the UI</h3> 
+  <p>MSM is directly accessible in the UI using various options from the appropriate console. To provide an introduction the following lists the main locations:</p> 
+  <ul> 
+   <li><strong>Create Site</strong> (<strong>Sites</strong>) 
+    <ul> 
+     <li>MSM helps you to manage multiple websites that share common content; for example, websites are often provided for international audiences such that most of the content is common across all countries, with a subset of the content specfic to each individual country. MSM allows you to <a href="../../../sites/administering/using/msm-livecopy.md#creatingalivecopyofasitefromablueprintconfiguration">create live copies that automatically update one or more sites based on your source site</a>. This also helps you to enforce a common base structure, use the common content across the multiple sites, maintain a common look and feel and focus efforts on managing the content that actually differs between the sites.</li> 
+     <li>Requires a predefined blueprint configuration to specify the source.</li> 
+     <li>Creates a live copy of the (predefined) source.</li> 
+     <li>Provides the user with the <strong>Rollout</strong> button.</li> 
+    </ul> </li> 
+   <li><strong>Create Live Copy</strong> (<strong>Sites</strong>) 
+    <ul> 
+     <li>MSM allows you to <a href="../../../sites/administering/using/msm-livecopy.md#creatingalivecopyofapage">create an ad-hoc (one-off) live copy of an individual page or sub-branch of a website</a>; for example, duplicating a sub-branch to provide information about a new/updated version of a product.</li> 
+     <li>Creates an ad-hoc live copy (no blueprint configuration required).</li> 
+     <li>Can be used to (immediately) create a live copy of any page/branch.</li> 
+     <li>Requires <strong>Synchronize</strong> (does not provide the <strong>Rollout</strong> button).</li> 
+    </ul> </li> 
+   <li><strong>View Properties</strong> (<strong>Sites</strong>) 
+    <ul> 
+     <li>Where appropriate, this option helps you <a href="../../../sites/administering/using/msm-livecopy.md#monitoringyourlivecopy">monitor your live copy</a> by providing information on the related <strong>Live Cop</strong>y or <strong>Blueprint</strong>.</li> 
+    </ul> </li> 
+   <li><strong>References</strong> (<strong>Sites</strong>) 
+    <ul> 
+     <li>The <a href="../../../sites/authoring/using/basic-handling.md#references">References</a> rail provides information about <strong>Live Copies</strong> together with access to appropriate actions.</li> 
+    </ul> </li> 
+   <li><strong>Live Copy Overview</strong> (<strong>Sites</strong>) 
+    <ul> 
+     <li>This console allows you to <a href="../../../sites/administering/using/msm-livecopy-overview.md">view and manage your blueprint and its live copies</a>.</li> 
+    </ul> </li> 
+   <li><strong>Blueprints</strong> (<strong>Tools</strong> - <strong>Sites</strong>) 
+    <ul> 
+     <li>This console allows you to <a href="../../../sites/administering/using/msm-livecopy.md#creatingablueprintconfiguration">create and manage your blueprint configurations</a>.</li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>Aspects of MSM functionality are used in several other AEM features (for example, Launches, Catalog); in these cases the live copy is managed by that feature.</p> 
+  </note> 
+  <h3>Terms Used</h3> 
+  <p>As an introduction the following table provides an overview of the main terms used with MSM; these will be covered in more details in the subsequent sections and pages:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Term</strong></td> 
+     <td><strong>Definition</strong></td> 
+     <td><strong>Further details</strong></td> 
+    </tr> 
+    <tr> 
+     <td width="150"><strong>Source</strong></td> 
+     <td>The original pages.</td> 
+     <td>Synonymous with Blueprints and/or Blueprint pages.</td> 
+    </tr> 
+    <tr> 
+     <td><strong>Live Copy</strong></td> 
+     <td>The copy (of the source), maintained by synchronization actions as defined by the rollout configurations. </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Live Copy Configuration</strong></td> 
+     <td>Definition of the configuration details for a live copy.</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Live Relationship</strong><br /> </td> 
+     <td>Effective definition of the inheritance for a given resource; the connection(s) between the source and live copies.<br /> </td> 
+     <td>Ensures that changes to the source can be sychronized with the live copy.</td> 
+    </tr> 
+    <tr> 
+     <td><strong>Blueprint</strong></td> 
+     <td>Synonymous with Source.</td> 
+     <td>Can be defined by a blueprint configuration.</td> 
+    </tr> 
+    <tr> 
+     <td><strong>Blueprint Configuration</strong></td> 
+     <td>Predefined configuration specifying a source path.</td> 
+     <td>When a blueprint page is referenced in a blueprint configuration the Rollout command becomes available.</td> 
+    </tr> 
+    <tr> 
+     <td><strong>Synchronization</strong></td> 
+     <td>The generic term for the synchronization of content between the source and the live copies (by both <strong>Rollout</strong> and <strong>Synchronize</strong>).</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Rollout</strong><br /> </td> 
+     <td>Synchronizes from the source to the livecopy.<br /> Can be triggered by an author (on a blueprint page) or by a system event (as defined by the rollout configuration).</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Rollout Configuration</strong></td> 
+     <td>Rules that determine which properties will be synchronized, how and when.</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Synchronize</strong></td> 
+     <td>A manual request for synchronization, made from the livecopy pages.</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Inheritance</strong></td> 
+     <td>A live copy page/component inherits content from its source page/component when synchronization occurs.</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Suspend</strong></td> 
+     <td>Temporarily removes the live relationship between a live copy and its blueprint page.</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Detach</strong></td> 
+     <td>Permanently removes the live relationship between a live copy and its blueprint page.</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Reset</strong></td> 
+     <td><p>Reset a live copy page to:</p> 
+      <ul> 
+       <li>Remove all inheritance cancellations and<br /> </li> 
+       <li>Return the page to the same state as the source page.</li> 
+      </ul> <p>Reset affects any changes that you have made to page properties, the paragraph system and components.</p> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Shallow</strong></td> 
+     <td>A live copy of a single page.</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Deep</strong></td> 
+     <td>A live copy of a page, together with its child pages.</td> 
+     <td> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>See <a href="../../../sites/developing/using/extending-msm.md#overviewofthejavaapi">Overview of the Java API</a> for the object names.</p> 
+  </note> 
+  <h2>Live Copies</h2> 
+  <p>An MSM live copy is a copy of specific site content for which a live relationship with the original source is maintained:</p> 
+  <ul> 
+   <li>The live copy inherits content from its source.</li> 
+   <li>Synchronization performs the actual transfer of content when changes are made to the source.</li> 
+   <li>A live copy can be considered as either: 
+    <ul> 
+     <li>Shallow: a single page<br /> </li> 
+     <li>Deep: the page, together with its child pages<br /> </li> 
+    </ul> </li> 
+   <li>Synchronization rules, called rollout configurations, determine which properties are synchronized and when the sychronization occurs. </li> 
+  </ul> 
+  <p>In the previous example, <span class="code">/content/we-retail/language-masters/en</span> is the global master site in English. To reuse the content of this site, MSM live copies are created:</p> 
+  <ul> 
+   <li>The content below <span class="code">/content/we-retail/language-masters/en</span> is the source.<br /> </li> 
+   <li>The content below <span class="code">/content/we-retail/language-masters/en</span> is copied below the <span class="code">/content/we-retail/us/en/</span>, <span class="code">/content/we-retail/gb/en</span>, <span class="code">/content/we-retail/ca/en</span>, and <span class="code">/content/we-retail/au/en</span> nodes. These are the live copies.<br /> </li> 
+   <li>Authors make changes to pages below <span class="code">/content/we-retail/language-masters/en</span>.</li> 
+   <li>When triggered, MSM synchronizes these changes to the live copies.</li> 
+  </ul> 
+  <h3>Live Copies - Composition</h3> 
+  <note> 
+   <p>The diagrams and descriptions in this section represent snapshots of potential live copies. They are not comprehensive, but provide an overview to highlight specific characteristics.</p> 
+  </note> 
+  <p>When you initially create a live copy, the selected source pages are reflected on a 1:1 basis in the live copy. After this, new resources (pages and/or paragraphs) can also be created directly within the live copy, so it is useful to be aware of these variations and how they impact synchronization. Possible compositions include:</p> 
+  <ul> 
+   <li><a href="#livecopywithnonlivecopypages">Live Copy with non-Live-Copy pages</a></li> 
+   <li><a href="#nestedlivecopies">Nested Live Copies</a></li> 
+  </ul> 
+  <p>The basic form of live copy has:</p> 
+  <ul> 
+   <li>Live copy pages that reflect the selected source pages on a 1:1 basis.</li> 
+   <li>One configuration definition.</li> 
+   <li>A live relationship defined for every resource: 
+    <ul> 
+     <li>Link the live copy resource with its blueprint/source. </li> 
+     <li>Are used when realizing inheritance and rollout.</li> 
+    </ul> </li> 
+   <li>Changes can be <a href="../../../sites/administering/using/msm-livecopy.md#synchronizingyourlivecopy">synchronized</a> according to requirements.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-454.png" /> 
+  <h4>Live Copy with non-Live-Copy pages</h4> 
+  <p>When you create a live copy in AEM you can see and navigate through the live copy branch - and use normal AEM functionality on the live copy branch. This means that you (or a process) can create new resources (pages and/or paragraphs) inside the live copy branch (e.g. <span class="code">myCanadaOnlyProduct</span>).</p> 
+  <ul> 
+   <li>Such resources have no live relationship to the source/blueprint pages and are not synchronized. </li> 
+   <li>Scenarios can occur that MSM handles as special cases. For example, when you (or a process) create a page with the same position and name in both the source/blueprint and live copy branches. For such situations see <a href="../../../sites/administering/using/msm-rollout-conflicts.md">MSM Rollout Conflicts</a> for more information.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-455.png" /> 
+  <h4>Nested Live Copies</h4> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:00:51.160-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>"rollout" has connotations.....as Rollout is only available when used with a blueprint configuration<br /> - a deep rollout or a deep sychronization (as in generic term) or....?<br /> - or ignore as this sort of situation wouldn't really happen with an adhoc livecopy :)</p> 
+  </draft-comment> 
+  <p>When you (or a process) create a <a href="#livecopywithnonlivecopypages">new page within an existing live copy</a> this new page can also be set up as a live copy of a different blueprint. This is known as a Nested Live Copy, here the behavior of the second (inner) live copy is affected by the first (outer) live copy in the following way: </p> 
+  <ul> 
+   <li>A deep rollout triggered for the top-level live copy can be continued into the nested live copy (for example, if the trigger matches). </li> 
+   <li>Any links between the sources will be rewritten within the live copies.<br /> For example, links from the second to the first blueprint will be rewritten as links from the nested/second live copy to the first live copy.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-456.png" /> 
+  <note> 
+   <p>If you move/rename a page within the live copy branch then (internally) this will be treated as a nested live copy to enable AEM to track the relationships.</p> 
+  </note> 
+  <h4>Stacked Live Copies</h4> 
+  <p>A live copy is known as a Stacked Live Copy when it is created as the child of a shallow live copy. It behaves in the same manner as a <a href="#nestedlivecopies">Nested Live Copy</a>.</p> 
+  <h3>Source, Blueprints and Blueprint Configurations</h3> 
+  <p>Any page or branch of pages can be used as the source of a live copy.</p> 
+  <p>However, MSM also allows you to define a blueprint configuration that specifies a source path. The benefits of using a blueprint configuration are that they:</p> 
+  <ul> 
+   <li>Allow the author to use the <strong>Rollout</strong> option on a blueprint - to (explicitly) push modifications to live copies that inherit from this blueprint. </li> 
+   <li>Allow the author to use <strong>Create Site</strong>; this allows the user to easily select languages and configure the structure of the live copy.</li> 
+   <li>Define a default rollout configuration for live copies that have a relationship with the blueprint.</li> 
+  </ul> 
+  <p>The source for a live copy can be either regular pages or pages encompassed by a blueprint configuration - both are valid use cases.</p> 
+  <p>The source forms the blueprint for the live copy. The blueprint is defined when you either:</p> 
+  <ul> 
+   <li><a href="../../../sites/administering/using/msm-livecopy.md#creatingablueprintconfiguration">Create a Blueprint configuration</a><br /> The configuration defines (in advance) the pages to be used to create the live copy.</li> 
+   <li><a href="../../../sites/administering/using/msm-livecopy.md#creatingalivecopyofapage">Create a Live Copy of a Page</a><br /> The pages used to create the live copy (the source pages) are the blueprint pages.<br /> The source page can be referenced by a blueprint configuration, or not.</li> 
+  </ul> 
+  <h3>Rollout and Synchronize</h3> 
+  <p>A rollout is the central MSM action that synchronizes live copies with their source. You can perform rollouts manually or they can occur automatically:</p> 
+  <ul> 
+   <li><p>A <a href="#rolloutconfigurations">rollout configuration</a> can be defined so that specific <a href="../../../sites/administering/using/msm-sync.md#rollouttriggers">events</a> can cause a rollout to occur automatically.</p> </li> 
+   <li><p>When authoring a blueprint page you can use the <a href="../../../sites/administering/using/msm-livecopy.md#rollingoutablueprint">Rollout</a> command to push changes to the live copy.</p> <p><strong>The Rollout</strong> command is available on a blueprint page that is referenced by a blueprint configuration.</p> <img imageRotate="0" src="assets/chlimage_1-457.png" /></li> 
+   <li><p>When authoring a live copy page you can use the <a href="../../../sites/administering/using/msm-livecopy.md#synchronizingalivecopy">Synchronize</a> command to pull changes from the source to the live copy.</p> <p>The <strong>Synchronize</strong> command is always available on the live copy page (regardless of whether the source/blueprint page is encompassed by a blueprint configuration).</p> <img imageRotate="0" src="assets/chlimage_1-458.png" /></li> 
+  </ul> 
+  <h3>Rollout Configurations</h3> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-11-30T05:00:51.514-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>mention here how the actual rollout configuration is selected? top-down?</p> 
+   <ul> 
+    <li>defined at the time of create site/live copy 
+     <ul> 
+      <li>take the default from the blueprint configuration</li> 
+     </ul> </li> 
+   </ul> 
+  </draft-comment> 
+  <p>A rollout configuration defines when and how a live copy is synchronized with the source content. A rollout configuration consists of a trigger and one or more synchronization actions:</p> 
+  <ul> 
+   <li> <p>A trigger is an event that causes the live action synchronization to occur, such as the activation of a source page. MSM defines the triggers that you can use. </p> </li> 
+   <li> <p>Are performed on the live copy to synchronize it with the source. Example actions are copying content, ordering child nodes, and activating the live copy page. MSM provides a number of synchronzation actions. </p> 
+    <note> 
+     <p>You can create custom actions for your instance using the Java API.</p> 
+    </note></li> 
+  </ul> 
+  <p>Rollout configurations can be re-used, so that more than one live copy can use the same rollout configuration. Several <a href="../../../sites/administering/using/msm-sync.md#installedrolloutconfigurations">rollout configurations</a> are included in a standard installation.</p> 
+  <h3>Rollout Conflicts</h3> 
+  <p>Rollouts can become complicated, especially when authors are editing content in both the source and the live copy, so it is useful to be aware of how AEM handles any <a href="../../../sites/administering/using/msm-rollout-conflicts.md">conflicts that might occur during rollout</a>.</p> 
+  <h3>Suspending and Cancelling Inheritance and Synchronization</h3> 
+  <p>Each page and component in a live copy is associated with its source page and component via a live relationship. The live relationship configures the synchronization of live copy content from the source.</p> 
+  <p>You can <strong>Suspend</strong> the live copy inheritance for a live copy page so that you can change page properties and components. When you suspend inheritance, the page properties and components are no longer synchronized with the source. </p> 
+  <p>When editing an individual page, authors can <strong>Cancel Inheritance</strong> for a component. When inheritance is cancelled, the live relationship is suspended and synchronization does not occur for that component. Cancelling inheritance and synchronization is useful when sub-sections of the content needs to be customized.</p> 
+  <h3>Detaching a Live Copy</h3> 
+  <p>You can also <a href="../../../sites/administering/using/msm-livecopy.md#detachingalivecopy">detach a live copy</a> from its blueprint to remove all connections. </p> 
+  <note> 
+   <p>The Detach action is permanent and non-reversible.</p> 
+  </note> 
+  <p>Detach permanently removes the live relationship between a live copy and its blueprint page. All MSM-relevant properties are removed from the live copy and the live copy pages become a standalone copy. </p> 
+  <note> 
+   <p>See <a href="../../../sites/administering/using/msm-livecopy.md#detachingalivecopy">Detaching a Live Copy</a> for full details; including the related impact on sub- and parent pages.</p> 
+  </note> 
+  <h2>Standard Steps for Using MSM</h2> 
+  <p>The following steps describe the standard procedure for using MSM to reuse content and synchronize changes to live copies.</p> 
+  <ol> 
+   <li>Develop the content of the source site.</li> 
+   <li>Determine the rollout configuration to use.<br /> 
+    <ol> 
+     <li>MSM <a href="../../../sites/administering/using/msm-sync.md#installedrolloutconfigurations">installs several rollout configurations</a> that can satisfy a number of use cases.</li> 
+     <li>Optionally you can <a href="../../../sites/administering/using/msm-sync.md#creatingarolloutconfiguration">create a rollout configuration</a> if required.</li> 
+    </ol> </li> 
+   <li>Determine where you need to <a href="../../../sites/administering/using/msm-sync.md#specifyingtherolloutconfigurationstouse">specify the rollout configurations to use</a> and configure as required.</li> 
+   <li>If required, <a href="../../../sites/administering/using/msm-livecopy.md#creatingablueprintconfiguration">create a blueprint configuration</a> that identifies the source content of the live copy.</li> 
+   <li><a href="../../../sites/administering/using/msm-livecopy.md#creatingalivecopy">Create a live copy</a>. </li> 
+   <li>Make changes to the source content as required. You should employ the normal content review and approval process that your organization has established.</li> 
+   <li><a href="../../../sites/administering/using/msm-livecopy.md#rollingoutablueprint">Roll out</a> the blueprint, or <a href="../../../sites/administering/using/msm-livecopy.md#main-pars-title-411540549">synchronize the live copy</a> with the changes. </li> 
+  </ol> 
+  <h2>Customizing MSM</h2> 
+  <p>MSM provides tools so that your implementation can adapt to the exceptional complexities that can exist when sharing content:</p> 
+  <ul> 
+   <li><strong>Custom Rollout Configurations</strong><br /> <a href="../../../sites/administering/using/msm-sync.md#creatingarolloutconfiguration">Create a rollout configuration</a> when the installed rollout configurations do not meet your requirements. You can use any available rollout trigger and synchronization action.</li> 
+   <li><strong>Custom Synchronization Actions</strong><br /> <a href="../../../sites/developing/using/extending-msm.md#creatinganewsynchronizationaction">Create a custom synchronization action</a> when the installed actions do not meet your specific application requirements. MSM provides a Java API for creating custom synchronization actions.</li> 
+  </ul> 
+  <h2>Best Practices</h2> 
+  <p>The <a href="../../../sites/administering/using/msm-best-practices.md">MSM Best Practices</a> page contains important information regarding your implementation.</p> 
+ </body> 
+</html>

@@ -1,0 +1,59 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/classic-ui-authoring/using/classic-page-author-default-components.html" name="publishExternalURL" />
+  <meta content="Deactivate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-31T16:19:16.004-0400" name="firstPublishExternalDate" />
+  <meta content="Components" name="seoTitle" />
+  <meta content="2017-12-01T19:01:26.203-0500" name="jcr:created" />
+  <meta content="2017-10-31T16:19:16.004-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="53c38a7e-615d-418b-a153-f8b7a2e65c8a" name="jcr:uuid" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/page-authoring/default-components" name="qaNotes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="16837f56-42b0-4617-8412-00d88ae32fcd" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-31T16:19:16.004-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Components" name="jcr:title" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring" name="moreHelpPaths" />
+  <meta content="AEM comes with a variety of out-of-the-box components that provide comprehensive functionality for website authors. " name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Components" name="navTitle" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2017-11-27T05:25:21.704-0500" name="locHandOffDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-10-31T16:19:16.004-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-12-15T11:20:49.746-0500" name="cq:lastReplicated" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-08-13T06:05:19.684-0400" name="cq:lastModified" />
+ </head>
+ <body>
+  <p>Adobe Experience Manager (AEM) comes with a variety of out-of-the-box components that provide comprehensive functionality for website authors. They are available when <a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-content.md">editing a page</a> and are grouped by main functional area (i.e. component group) to aid filtering.</p> 
+  <note>
+   <p>This section only discusses components that are available out-of-the-box in a standard AEM installation.</p> 
+   <p>Depending on your instance you may have customized components developed explicitly for your requirements. These may even have the same name as some of the components discussed here.</p> 
+  </note>
+  <h2>Components - Major Areas</h2>
+  <p>The following pages provide fast links to some of the major areas of content management (links to further areas are given on the overview page above):<br /> </p> 
+  <ul> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-mode.md">Components for Page Authoring</a><br /> Components used for creating standard page content are primarily contained in the groups <strong>General</strong>, <strong>Columns</strong> and <strong>Forms</strong>.<br /> <br /> </li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-communities.md">Communities</a><br /> Components found in the <strong>Communities</strong> component group provide interactive features for a website, such as forums and comments. Many of these components are included when a <a href="../../../communities/using/overview.md">Community Site</a> is created.<br /> <br /> </li> 
+   <li><a href="../../../sites/administering/using/ecommerce.md">eCommerce</a><br /> The eCommerce functionality within AEM also includes a range of components, contained in the <strong>Commerce</strong> group. Actual use can depend on the commerce engine being used.<br /> </li> 
+  </ul> 
+  <h2>Using Design Mode to Configure Components</h2>
+  <p>In addition to the components that authors can access through the sidekick in a standard installation, various other components are also available. You can use <a href="../../../sites/classic-ui-authoring/using/classic-page-author-design-mode.md#main-pars-title">Design mode</a> to enable/disable these and edit parameters for specific components.<br /> </p> 
+ </body>
+</html>

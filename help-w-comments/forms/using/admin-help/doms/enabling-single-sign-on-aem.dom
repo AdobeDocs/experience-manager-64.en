@@ -1,0 +1,168 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2016-02-05T03:27:23.964-0500" name="lr_lastModified" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2018-04-03T09:10:06.957-0400" name="cq:lastReplicated" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="c67850f5-d6e2-4ff5-abd3-3f8f341d896a" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/enabling-single-sign-on-aem.html" name="publishExternalURL" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2017-12-01T19:05:51.304-0500" name="jcr:created" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f9a.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f92.2,AEMForms/6.1/AdminHelp/WS2d2a17056e21919825a33ec5140e82506e8-8000,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7fc5.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f8b.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f8a.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f89.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f86.2" name="cq:gepId" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-26T04:23:42.716-0400" name="locHandOffDate" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_user_management;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2018-04-26T04:23:42.716-0400" name="cq:lastModified" /> 
+  <meta content="4ec491e9-d697-4275-a95b-3c926fe494b6" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="Enabling single sign-on in AEM&amp;#xA;forms" name="navTitle" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-31T16:32:15.001-0400" name="lastPublishExternalDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/enabling_single_sign_on_aem_admin_5e12de0b318c6865_2320_report.xml" name="acrolinxReportURL" /> 
+  <meta content="112" name="acrolinxSentences" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="1541" name="acrolinxWords" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2016-05-31T06:59:54.578-0400" name="acrolinxDate" /> 
+  <meta content="2016-04-20T10:05:21.553-0400" name="firstPublishExternalDate" /> 
+  <meta content="Learn how to enable single sign-on (SSO) using HTTP headers and SPNEGO." name="seoDescription" /> 
+  <meta content="2017-10-31T16:32:15.001-0400" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Enabling single sign-on in AEM forms" name="jcr:title" /> 
+  <meta content="light" name="heroGradient" /> 
+ </head> 
+ <body> 
+  <p>AEM forms provides two ways to enable single sign-on (SSO) - HTTP headers and SPNEGO.</p> 
+  <p>When SSO is implemented, the AEM forms user login pages are not required and do not appear if the user is already authenticated through their company portal.</p> 
+  <p>If AEM forms cannot authenticate a user by using either of these methods, the user is redirected to a login page.</p> 
+  <h2 id="enable_sso_using_http_headers">Enable SSO using HTTP headers</h2> 
+  <p></p> 
+  <p>You can use the Portal Configuration page to enable single sign-on (SSO) between applications and any application that supports conveying the identity over HTTP header. When SSO is implemented, the AEM forms user login pages are not required and do not appear if the user is already authenticated through their company portal.</p> 
+  <p>You can also enable SSO by using SPNEGO. (See <a href="enabling-single-sign-on-aem#enable_sso_using_spnego">Enable SSO using SPNEGO</a>.)</p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Configuration &amp;gt; Configure Portal Attributes.</p></li> 
+   <li><p>Select Yes to enable SSO. If you select No, the remaining settings on the page are unavailable.</p></li> 
+   <li><p>Set the remaining options on the page as required and click OK: </p> 
+    <ul> 
+     <li><p><strong>SSO type: </strong>(Mandatory) Select HTTP Header to enable SSO using HTTP headers.</p></li> 
+     <li><p><strong>HTTP header for user’s identifier: </strong>(Mandatory) Name of the header whose value contains the logged-in user’s unique identifier. User Management uses this value to find the user in the User Management database. The value obtained from this header should match the unique identifier of the user who is synchronized from the LDAP directory. (See <a href="../../../forms/using/admin-help/adding-configuring-users.md#user-settings">User settings</a>.) </p></li> 
+     <li><p><strong>Identifier value maps to user’s User ID instead of user’s unique identifier: </strong>Maps the user’s unique identifier value to the User ID. Select this option if the user’s unique identifier is a binary value that cannot be easily propagated through HTTP headers (for example, objectGUID if you are synchronizing users from Active Directory).</p></li> 
+     <li><p><strong>HTTP header for domain: </strong>(Not mandatory) Name of the header whose value contains the domain name. Use this setting only if no single HTTP header uniquely identifies the user. Use this setting for cases where multiple domains exist and the unique identifier is unique only within a domain. In this case, specify the header name in this text box and specify domain mapping for the multiple domains in the Domain mapping box. (See <a href="../../../forms/using/admin-help/editing-converting-existing-domains.md#editing-and-converting-existing-domains">Editing and converting existing domains</a>.)</p></li> 
+     <li><p><strong>Domain mapping: </strong>(Mandatory) Specifies mapping for multiple domains in the format <i>header value=domain name</i>. </p><p>For example, consider a situation where the HTTP header for a domain is domainName, and it can have values of domain1, domain2, or domain3. In this case, use domain mapping to map the domainName values to User Management domain names. Each mapping must be on a different line:</p><p>domain1=UMdomain1</p><p>domain2=UMdomain2</p><p>domain3=UMdomain3</p></li> 
+    </ul></li> 
+  </ol> 
+  <h3 id="configure_allowed_referers">Configure allowed referers</h3> 
+  <p></p> 
+  <p>For the steps to configure allowed referers, see <a href="../../../forms/using/admin-help/preventing-csrf-attacks.md#configure-allowed-referers">Configure allowed referers</a>.</p> 
+  <h2 id="enable_sso_using_spnego">Enable SSO using SPNEGO</h2> 
+  <p></p> 
+  <p>You can use Simple and Protected GSSAPI Negotiation Mechanism (SPNEGO) to enable single sign-on (SSO) when using Active Directory as your LDAP server in a Windows environment. When SSO is enabled, the AEM forms user login pages are not required and do not appear. </p> 
+  <p>You can also enable SSO by using HTTP headers. (See <a href="enabling-single-sign-on-aem#enable_sso_using_http_headers">Enable SSO using HTTP headers</a>.)</p> 
+  <note> 
+   <p>AEM Forms on JEE does not support configuring SSO using Kerberos/SPNEGO in a multiple child domain environments . </p> 
+  </note> 
+  <ol> 
+   <li><p>Decide which domain to use to enable SSO. The AEM forms server and the users must be part of the same Windows domain or trusted domain. </p></li> 
+   <li><p>In Active Directory, create a user who represents the AEM forms server. (See <a href="enabling-single-sign-on-aem#create_a_user_account">Create a user account</a>.) If you are configuring more than one domain to use SPNEGO, ensure that the passwords for each of these users is different. If the passwords are not different, SPNEGO SSO does not work.</p></li> 
+   <li><p>Map the service principal name. (See <a href="enabling-single-sign-on-aem#map_a_service_principal_name_spn">Map a Service Principal Name (SPN)</a>.)</p></li> 
+   <li><p>Configure the domain controller. (See <a href="enabling-single-sign-on-aem#prevent_kerberos_integrity_check_failures">Prevent Kerberos integrity-check failures</a>.)</p></li> 
+   <li><p>Add or edit an enterprise domain as described in <a href="../../../forms/using/admin-help/adding-domains.md#adding-domains">Adding domains</a> or <a href="../../../forms/using/admin-help/editing-converting-existing-domains.md#editing-and-converting-existing-domains">Editing and converting existing domains</a>. When you create or edit the enterprise domain, perform these tasks:</p> 
+    <ul> 
+     <li><p>Add or edit a directory that contains your Active Directory information. </p></li> 
+     <li><p>Add LDAP as an authentication provider.</p></li> 
+     <li><p>Add Kerberos as an authentication provider. Provide the following information on the New or Edit Authentication page for Kerberos:</p> 
+      <ul> 
+       <li><p><strong>Authentication Provider:</strong> Kerberos</p></li> 
+       <li><p><strong>DNS IP:</strong> The DNS IP address of the server where AEM forms is running. You can determine this IP address by running <span class="code">ipconfig/all</span> on the command line.</p></li> 
+       <li><p><strong>KDC Host:</strong> Fully qualified host name or IP address of the Active Directory server used for authentication</p></li> 
+       <li><p><strong>Service User: </strong>The service principal name (SPN) passed to the KtPass tool. In the example used earlier, the service user is <span class="code">HTTP/lcserver.um.lc.com</span>.</p></li> 
+       <li><p><strong>Service Realm:</strong> Domain name for Active Directory. In the example used earlier, the Domain name is <span class="code">UM.LC.COM.</span></p></li> 
+       <li><p><strong>Service Password:</strong> Service user’s password. In the example used earlier, the service password is <span class="code">password</span>.</p></li> 
+       <li><p><strong>Enable SPNEGO: </strong>Enables the use of SPNEGO for single sign-on (SSO). Select this option.</p></li> 
+      </ul></li> 
+    </ul></li> 
+   <li><p>Configure SPNEGO client browser settings. (See <a href="enabling-single-sign-on-aem#configuring_spnego_client_browser_settings">Configuring SPNEGO client browser settings</a>.)</p></li> 
+  </ol> 
+  <h3 id="create_a_user_account">Create a user account</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In SPNEGO, register a service as a user in Active Directory on the domain controller to represent AEM forms. On the domain controller, go to Start Menu &amp;gt; Administrative Tools &amp;gt; Active Directory Users And Computers. If Administrative Tools is not in the Start menu, use the Control Panel. </p></li> 
+   <li><p>Click the Users folder to display a list of users. </p></li> 
+   <li><p>Right-click the user folder and select New &amp;gt; User.</p></li> 
+   <li><p>Type the First Name/Last Name and User Logon Name and then click Next. For example, set the following values: </p> 
+    <ul> 
+     <li><p><strong>First Name</strong>: umspnego </p></li> 
+     <li><p><strong>User Logon Name</strong>: spnegodemo</p></li> 
+    </ul></li> 
+   <li><p>Type a password. For example, set it to <i>password</i>. Ensure that Password Never Expires is selected and no other options are selected.</p></li> 
+   <li><p>Click Next and then click Finish. </p></li> 
+  </ol> 
+  <h3 id="map_a_service_principal_name_spn">Map a Service Principal Name (SPN)</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>Obtain the KtPass utility. This utility is used to map an SPN to a REALM. You can obtain the KtPass utility as part of Windows Server Tool pack or Resource Kit. (See <a href="http://support.microsoft.com/kb/892777">Windows Server 2003 Service Pack 1 Support Tools</a>.)</p></li> 
+   <li><p>In a command prompt, run <span class="code">ktpass</span> using the following arguments:</p><p>For example, type the following text:</p><p>The values that you must provide are described as follows:</p><p><strong>host:</strong> Fully qualified name of the forms server or any unique URL. In this example, it is set to lcserver.um.lc.com.</p><p><strong>REALM:</strong> The Active Directory realm for the domain controller. In this example, it is set to UM.LC.COM. Ensure that you enter the realm in uppercase characters. To determine the realm for Windows 2003, complete the following steps: </p> 
+    <ul> 
+     <li><p>Right-click My Computer and select Properties </p></li> 
+     <li><p>Click the Computer Name tab. The<strong></strong> Domain Name value is the realm name. </p></li> 
+    </ul><p><strong>user:</strong> The login name of the user account you created in the previous task. In this example, it is set to spnegodemo.</p></li> 
+  </ol> 
+  <p>If you encounter this error:</p> 
+  <codeblock gutter="true" class="syntax as3">
+    DsCrackNames&amp;nbsp;returned&amp;nbsp;0x2&amp;nbsp;in&amp;nbsp;the&amp;nbsp;name&amp;nbsp;entry&amp;nbsp;for&amp;nbsp;spnegodemo.&amp;nbsp;&amp;nbsp;!!discoiqbr!!ktpass:failed&amp;nbsp;getting&amp;nbsp;target&amp;nbsp;domain&amp;nbsp;for&amp;nbsp;specified&amp;nbsp;user. 
+  </codeblock> 
+  <p>try specifying the user as spnegodemo@um.lc.com: </p> 
+  <codeblock gutter="true" class="syntax as3">
+    ktpass&amp;nbsp;-princ&amp;nbsp;HTTP/lcserver.um.lc.com@UM.LC.COM&amp;nbsp;-mapuser&amp;nbsp;spnegodemo 
+  </codeblock> 
+  <h3 id="prevent_kerberos_integrity_check_failures">Prevent Kerberos integrity-check failures</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>On the domain controller, go to Start Menu &amp;gt; Administrative Tools &amp;gt; Active Directory Users And Computers. If Administrative Tools is not in the Start menu, use the Control Panel. </p></li> 
+   <li><p>Click the Users folder to display a list of users. </p></li> 
+   <li><p>Right-click the user account that you created in a previous task. In this example, the user account is <span class="code">spnegodemo</span>.</p></li> 
+   <li><p>Click Reset Password. </p></li> 
+   <li><p>Type and confirm the same password that you typed previously. In this example, it is set to <span class="code">password</span>. </p></li> 
+   <li><p>Deselect Change Password At Next Logon and then click OK.</p></li> 
+  </ol> 
+  <h3 id="configuring_spnego_client_browser_settings">Configuring SPNEGO client browser settings</h3> 
+  <p></p> 
+  <p>For SPNEGO-based authentication to work, the client computer must be part of the domain the user account is created in. You must also configure the client browser to allow SPNEGO-based authentication. As well, the site that requires SPNEGO- based authentication must be a trusted site.</p> 
+  <p>If the server is accessed by using the computer name, such as http://lcserver:8080<i>,</i> no settings are required for Internet Explorer. If you enter a URL that does not contain any dots ("."), Internet Explorer treats the site as a local intranet site. If you are using a fully qualified name for the site, the site must be added as a trusted site.</p> 
+  <p><strong>Configure Internet Explorer 6.x</strong></p> 
+  <ol> 
+   <li><p>Go to Tools &amp;gt; Internet Options and click the Security tab. </p></li> 
+   <li><p>Click the Local Intranet icon and then click Sites.</p></li> 
+   <li><p>Click Advanced and, in the Add This Web Site To The Zone box, type the URL of your forms server. For example, type <span class="code">http://lcserver.um.lc.com</span></p></li> 
+   <li><p>Click OK until all dialog boxes are closed.</p></li> 
+   <li><p>Test the configuration by accessing the URL of your AEM forms server. For example, in the browser URL box, type <span class="code">http://lcserver.um.lc.com:8080/um/login?um_no_redirect=true</span></p></li> 
+  </ol> 
+  <p><strong>Configure Mozilla Firefox</strong></p> 
+  <ol> 
+   <li><p>In the browser URL box, type <span class="code">about:config</span></p><p>The about:config - Mozilla Firefox dialog box appears.</p></li> 
+   <li><p>In the Filter box, type <span class="code">negotiate</span></p></li> 
+   <li><p>In the list shown, click network.negotiate-auth.trusted-uri and type one of the following commands as appropriate for your environment:</p><p><span class="code">.um.lc.com </span>- Configures Firefox to allow SPNEGO for any URL that ends with um.lc.com. Ensure that you include the dot (".") at the beginning.</p><p><span class="code">lcserver.um.lc.com</span> - Configures Firefox to allow SPNEGO for your specific server only. Do not start this value with a dot (".").</p></li> 
+   <li><p>Test the configuration by accessing the application. The welcome page for the target application should appear. </p></li> 
+  </ol> 
+ </body> 
+</html>

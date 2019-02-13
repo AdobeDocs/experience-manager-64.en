@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;content_type:reference" name="cq:tags" />
+  <meta content="checked_improved" name="acrolinxStatus" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="green" name="acrolinxPageStatus" />
+  <meta content="rbrough" name="cq:lastModifiedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/content/docs/en/aem/6-3/author/assets/dynamic-media/images" name="qaNotes" />
+  <meta content="2018-04-24T11:58:18.501-0400" name="locHandOffDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-03-14T09:01:06.629-0400" name="jcr:created" />
+  <meta content="true" name="preview" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2018-04-24T11:58:18.501-0400" name="cq:lastModified" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-04-03T08:12:17.641-0400" name="cq:lastReplicated" />
+  <meta content="Alva Ware-Bevacqui" name="contentOwner" />
+  <meta content="3cb1c2fb-71f8-4491-a3ab-8e8c793a76f5" name="jcr:predecessors" />
+  <meta content="2" name="acrolinxSentences" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="noIndex" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/dynamic_media_images_krs_workflow_f3c2f2ccebf6138e_209_report.xml" name="acrolinxReportURL" />
+  <meta content="2019-01-12T17:36:47.097-0500" name="acrolinxDate" />
+  <meta content="08fd71f6-ff9c-4ddc-8ec1-532642e91598" name="jcr:uuid" />
+  <meta content="Images" name="jcr:title" />
+  <meta content="Images" name="seoTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2" name="acrolinxWords" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <draft-comment color="yellow" lastModifiedBy="rbrough" lastModifiedDate="2018-03-13T13:54:21.413-0400" prevFirstName="Rick" prevLastName="Brough" type="remark">
+   <p>From Alva: Yes, there is a jira issue about images. I think I had planned to get it done for 6.4. I assigned the issue to you. Basically Cynthia had wanted to create a topic about images - she actually did the outline so it's fairly simple but of course completely up to you if you want to do it.<br /> <br /> I can't remember if I had a page in 6.3. I might've but I think I deleted it. (Can't remember offhand)</p> 
+  </draft-comment>
+ </body>
+</html>

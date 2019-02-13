@@ -1,0 +1,381 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2018-04-03T09:01:10.140-0400" name="cq:lastReplicated" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="querybuilder" name="tagsKeywords" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform;/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-01-17T05:29:18.805-0500" name="publishExternalDate" /> 
+  <meta content="Query Builder API" name="pageTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="79af6a75-5e46-46cf-98c2-a873fa95929a" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/search/querybuilder-api" name="qaNotes" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-05-08T12:44:45.761-0400" name="locHandOffDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-31T16:16:20.886-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-01-17T05:29:18.805-0500" name="lastPublishExternalDate" /> 
+  <meta content="Query Builder API" name="seoTitle" /> 
+  <meta content="f337ac98-afde-4c01-8fc6-43c95abfd94e" name="jcr:predecessors" /> 
+  <meta content="2018-01-17T05:29:18.805-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Query Builder API" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/querybuilder-api.html" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="2018-05-08T12:44:45.763-0400" name="cq:lastModified" /> 
+  <meta content="sarchiz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-01-18T19:06:19.874-0500" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Query Builder API" name="jcr:title" /> 
+  <meta content="The functionality of the Asset Share Query Builder is exposed through a Java API and a REST API." name="seoDescription" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:platform;content_type:reference" name="cq:tags" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+ </head> 
+ <body> 
+  <p>The functionality of the <a href="../../../assets/using/assets-finder-editor.md">Asset Share Query Builder</a> is exposed through a Java API and a REST API. This section describes these APIs.</p> 
+  <p>The server-side query builder (<span class="code"><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder">QueryBuilder</a></span>) will accept a query description, create and run an XPath query, optionally filter the result set, and also extract facets, if desired.</p> 
+  <p>The query description is simply a set of predicates (<span class="code"><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/Predicate">Predicate</a></span>). Examples include a full-text predicate, which corresponds to the <span class="code">jcr:contains()</span> function in XPath, and an image size predicate that looks for width and height properties in the DAM asset subtree.</p> 
+  <p>For each predicate type, there is an evaluator component (<span class="code"><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator">PredicateEvaluator</a></span>) that knows how to handle that specific predicate for XPath, filtering, and facet extraction. It is very easy to create custom evaluators, which are plugged-in through the OSGi component runtime.</p> 
+  <p>The REST API provides access to exactly the same features through HTTP with responses being sent in JSON.</p> 
+  <note> 
+   <p>The QueryBuilder API is built using the JCR API. You can also query the Adobe Experience Manager JCR by using the JCR API from within an OSGi bundle. For information, see <a href="/content/help/en/experience-manager/using/querying-experience-manager-data-using1">Querying Adobe Experience Manager Data using the JCR API</a>.</p> 
+  </note> 
+  <h2>Gem Session</h2> 
+  <p><a href="/content/ddc/en/gems">AEM Gems</a> is a series of technical deep dives into Adobe Experience Manager delivered by Adobe experts. This session dedicated to the query builder is very useful for an overview and use of the tool.</p> 
+  <note> 
+   <p>See the AEM Gem session <a href="/content/ddc/en/gems/Search-forms-made-easy-with-the-AEM-querybuilder">Search forms made easy with the AEM querybuilder</a> for a detailed overview of the query builder.</p> 
+  </note> 
+  <h2>Sample Queries</h2> 
+  <p>These samples are given in Java properties style notation. To use them with the Java API, use a Java <span class="code">HashMap</span> as in the API sample that follows.</p> 
+  <p>For the <span class="code">QueryBuilder</span> JSON Servlet, each example includes a link to your local CQ installation (at the default location, <span class="code">http://localhost:4502</span>). Note that you have to log in to your CQ instance before using these links.</p> 
+  <note> 
+   <p>By default, the query builder json servlet displays a maximum of 10 hits.</p> 
+   <p>Adding the following parameter allows the servlet to display all query results:</p> 
+   <p> <strong><span class="code">p.limit=-1</span></strong></p> 
+  </note> 
+  <note> 
+   <p>To view the returned JSON data in your browser you may want to use a plugin such as JSONView for Firefox.</p> 
+  </note> 
+  <h3>Returning all results</h3> 
+  <p>The following query will <strong>return ten results</strong> (or to be precise a maximum of ten), but inform you of the <strong>Number of hits:</strong> that are actually available:</p> 
+  <p><span class="code"><a href="http://localhost:4502/bin/querybuilder.json?path=/content&amp;1_property=sling:resourceType&amp;1_property.value=foundation/components/text&amp;1_property.operation=like&amp;orderby:path">http://localhost:4502/bin/querybuilder.json?path=/content&amp;1_property=sling:resourceType&amp;1_property.value=foundation/components/text&amp;1_property.operation=like&amp;orderby=path</a></span></p> 
+  <codeblock gutter="true" class="syntax xml">
+    path=/content!!discoiqbr!!1_property=sling:resourceType!!discoiqbr!!1_property.value=foundation/components/text!!discoiqbr!!1_property.operation=like!!discoiqbr!!orderby=path 
+  </codeblock> 
+  <p>The same query (with the parameter <span class="code">p.limit=-1</span>) will <strong>return all results</strong> (this might be a high number depending on your instance):</p> 
+  <p><span class="code"><a href="http://localhost:4502/bin/querybuilder.json?path=/content&amp;1_property=sling:resourceType&amp;1_property.value=foundation/components/text&amp;1_property.operation=like&amp;p.limit=-1&amp;orderby:path">http://localhost:4502/bin/querybuilder.json?path=/content&amp;1_property=sling:resourceType&amp;1_property.value=foundation/components/text&amp;1_property.operation=like&amp;p.limit=-1&amp;orderby=path</a></span></p> 
+  <codeblock gutter="true" class="syntax xml">
+    path=/content!!discoiqbr!!1_property=sling:resourceType!!discoiqbr!!1_property.value=foundation/components/text!!discoiqbr!!1_property.operation=like!!discoiqbr!!p.limit=-1!!discoiqbr!!orderby=path 
+  </codeblock> 
+  <h3>Using p.guessTotal to return the results</h3> 
+  <p>The purpose of the <span class="code">p.guessTotal</span> parameter is to return the appropiate number of results that can be shown by combining the minimum viable p.offset and p.limit values. The advantage of using this parameter is improved performance with large result sets. This avoids calculating the full total (e.g calling result.getSize()) and reading the entire result set, optimized all the way down to the OAK engine &amp; index. This can be a significant difference when there are 100 thousands of results, both in execution time and memory usage.</p> 
+  <p>The disadvantage to the parameter is users do not see the exact total. But you can set a minimum number like p.guessTotal=1000 so it will always read up to 1000, so you get exact totals for smaller result sets, but if it's more than that, you can only show "and more".</p> 
+  <p>Add <span class="code">p.guessTotal=true</span> to the query below to see how it works:</p> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?path=/content&amp;1_property=sling:resourceType&amp;1_property.value=foundation/components/text&amp;1_property.operation=like&amp;p.guesstotal=true&amp;orderby:path">http://localhost:4502/bin/querybuilder.json?path=/content&amp;1_property=sling:resourceType&amp;1_property.value=foundation/components/text&amp;1_property.operation=like&amp;p.guessTotal=true&amp;orderby=path</a></p> 
+  <p> </p> 
+  <p> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    path=/content!!discoiqbr!!1_property=sling:resourceType!!discoiqbr!!1_property.value=foundation/components/text!!discoiqbr!!1_property.operation=like!!discoiqbr!!p.guessTotal=true!!discoiqbr!!orderby=path 
+  </codeblock> 
+  <p>The query will return the <span class="code">p.limit</span> default of <span class="code">10</span> results with a <span class="code">0</span> offset:</p> 
+  <codeblock class="syntax xml">
+    "success":&amp;nbsp;true,!!discoiqbr!!"results":&amp;nbsp;10,!!discoiqbr!!"total":&amp;nbsp;10,!!discoiqbr!!"more":&amp;nbsp;true,!!discoiqbr!!"offset":&amp;nbsp;0, 
+  </codeblock> 
+  <p> </p> 
+  <p> </p> 
+  <p>As of AEM 6.0 SP2, you can also use a numeric value to count up to a custom number of maximum results. Use the same query as above, but change the value of <span class="code">p.guessTotal</span> to <span class="code">50</span>:</p> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?path=/content&amp;1_property=sling:resourceType&amp;1_property.value=foundation/components/text&amp;1_property.operation=like&amp;p.guessTotal=50&amp;orderby:path">http://localhost:4502/bin/querybuilder.json?path=/content&amp;1_property=sling:resourceType&amp;1_property.value=foundation/components/text&amp;1_property.operation=like&amp;p.guessTotal=50&amp;orderby=path</a></p> 
+  <p>It will return a numer the same default limit of 10 results with a 0 offset, but will only display a maximum of 50 results:</p> 
+  <p> </p> 
+  <p> </p> 
+  <codeblock class="syntax xml">
+    "success":&amp;nbsp;true,!!discoiqbr!!"results":&amp;nbsp;10,!!discoiqbr!!"total":&amp;nbsp;50,!!discoiqbr!!"more":&amp;nbsp;true,!!discoiqbr!!"offset":&amp;nbsp;0, 
+  </codeblock> 
+  <h3>Implementing pagination</h3> 
+  <p>By default the Query Builder would also provide the number of hits. Depending on the result size this might take long time as determining the accurate count involves checking every result for access control. Mostly the total is used to implement pagination for the end user UI. As determining the exact count can be slow it is recommended to make use of the guessTotal feature to implement the pagination.</p> 
+  <p>For example, the UI can adapt following approach:</p> 
+  <ul> 
+   <li>Get and display the accurate count of the number of total hits (<a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/result/SearchResult#getTotalMatches">SearchResult.getTotalMatches()</a> or total in the querybuilder.json response) are less than or equal to 100;</li> 
+   <li>Set <span class="code">guessTotal</span> to 100 while making the call to the Query Builder.<br /> </li> 
+   <li>The response can have the following outcome: 
+    <ul> 
+     <li><span class="code">total=43</span>, <span class="code">more=false</span> - Indicates that total number of hits is 43. The UI can show up to ten results as part of the first page and provide pagination for the next three pages. You can also use this implementation to display a descriptive text like <strong>"43 results found"</strong>.<br /> </li> 
+     <li><span class="code">total=100</span>, <span class="code">more=true</span> - Indicates that the total number of hits is greater than 100 and the exact count is not known. The UI can show up to ten as part of the first page and provide pagination for the next ten pages. You can also use this to display a text like <strong>"more than 100 results found"</strong>. As the user goes to the next pages calls made to the Query Builder would increase the limit of <span class="code">guessTotal</span> and also of the <span class="code">offset</span> and <span class="code">limit</span> parameters.</li> 
+    </ul> </li> 
+  </ul> 
+  <p><span class="code">guessTotal</span> should also be used in cases where the UI needs to make use of infinite scrolling, in order to avoid the Query Builder from determining the exact hit count.</p> 
+  <h3>Find jar files and order them, newest first</h3> 
+  <p><span class="code"><a href="http://localhost:4502/bin/querybuilder.json?type=nt:file&amp;nodename=*.jar&amp;orderby=@jcr:content/jcr:lastModified&amp;orderby.sort=desc ">http://localhost:4502/bin/querybuilder.json?type=nt:file&amp;nodename=*.jar&amp;orderby=@jcr:content/jcr:lastModified&amp;orderby.sort=desc</a></span></p> 
+  <codeblock gutter="true" class="syntax xml">
+    type=nt:file!!discoiqbr!!nodename=*.jar!!discoiqbr!!orderby=@jcr:content/jcr:lastModified!!discoiqbr!!orderby.sort=desc 
+  </codeblock> 
+  <h3>Find all pages and order them by last modified</h3> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?type=cq:Page&amp;orderby=@jcr:content/cq:lastModified"><span class="code">http://localhost:4502/bin/querybuilder.json?type=cq:Page&amp;orderby=@jcr:content/cq:lastModified</span></a></p> 
+  <codeblock gutter="true" class="syntax xml">
+    type=cq:Page!!discoiqbr!!orderby=@jcr:content/cq:lastModified 
+  </codeblock> 
+  <h3>Find all pages and order them by last modified, but descending</h3> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?type=cq:Page&amp;orderby=@jcr:content/cq:lastModified&amp;orderby.sort=desc">http://localhost:4502/bin/querybuilder.json?type=cq:Page&amp;orderby=@jcr:content/cq:lastModified&amp;orderby.sort=desc</a></p> 
+  <codeblock gutter="true" class="syntax xml">
+    type=cq:Page!!discoiqbr!!orderby=@jcr:content/cq:lastModified!!discoiqbr!!orderby.sort=desc 
+  </codeblock> 
+  <h3>Fulltext search, ordered by score</h3> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?fulltext=Management&amp;orderby=@jcr:score&amp;orderby.sort=desc">http://localhost:4502/bin/querybuilder.json?fulltext=Management&amp;orderby=@jcr:score&amp;orderby.sort=desc</a></p> 
+  <codeblock gutter="true" class="syntax xml">
+    fulltext=Management!!discoiqbr!!orderby=@jcr:score!!discoiqbr!!orderby.sort=desc 
+  </codeblock> 
+  <h3>Search for pages tagged with a certain tag</h3> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?type=cq:Page&amp;tagid=marketing:interest/product&amp;tagid.property=jcr:content/cq:tags">http://localhost:4502/bin/querybuilder.json?type=cq:Page&amp;tagid=marketing:interest/product&amp;tagid.property=jcr:content/cq:tags</a></p> 
+  <draft-comment color="yellow" lastModifiedBy="guillaume" lastModifiedDate="2018-01-17T05:29:20.580-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>Blogs are referenced by tags, but tags don't display in properties dialog<br /> </p> 
+  </draft-comment> 
+  <codeblock gutter="true" class="syntax xml">
+    type=cq:Page!!discoiqbr!!tagid=marketing:interest/product!!discoiqbr!!tagid.property=jcr:content/cq:tags 
+  </codeblock> 
+  <p>Use the <span class="code">tagid</span> predicate as in the example if you know the explicit tag ID.</p> 
+  <p>Use the <span class="code">tag</span> predicate for the tag title path (without spaces).</p> 
+  <p>Because, in the previous example, you are searching for pages (<span class="code">cq:Page</span> nodes), you need to use the relative path from that node for the <span class="code">tagid.property</span> predicate, which is <span class="code">jcr:content/cq:tags</span>. By default, the <span class="code">tagid.property</span> would simply be <span class="code">cq:tags</span>.</p> 
+  <h3>Search under multiple paths (using groups)</h3> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?fulltext=Management&amp;group.1_path=/content/geometrixx/en/company/management&amp;group.2_path=/content/geometrixx/en/company/bod&amp;group.p.or=true">http://localhost:4502/bin/querybuilder.json?fulltext=Management&amp;group.1_path=/content/geometrixx/en/company/management&amp;group.2_path=/content/geometrixx/en/company/bod&amp;group.p.or=true</a></p> 
+  <codeblock gutter="true" class="syntax xml">
+    fulltext=Management!!discoiqbr!!group.p.or=true!!discoiqbr!!group.1_path=/content/geometrixx/en/company/management!!discoiqbr!!group.2_path=/content/geometrixx/en/company/bod 
+  </codeblock> 
+  <p>This query uses a <i>group</i> (named "<span class="code">group</span>"), which acts to delimit subexpressions within a query, much as parentheses do in more standard notations. For example, the previous query might be expressed in a more familiar style as:</p> 
+  <p><span class="code">"Management" and ("/content/geometrixx/en/company/management" or "/content/geometrixx/en/company/bod")</span></p> 
+  <p>Inside the group in the example, the <span class="code">path</span> predicate is used multiple times. To differentiate and order the two instances of the predicate (ordering is required for some predicates), you must prefix the predicates with <i>N</i><span class="code">_ where </span><i>N</i> is the ordering index. In the previous example, the resulting predicates are <span class="code">1_path</span> and <span class="code">2_path</span>.</p> 
+  <p>The <span class="code">p</span> in <span class="code">p.or</span> is a special delimiter indicating that what follows (in this case an <span class="code">or</span>) is a <i>parameter</i> of the group, as opposed to a subpredicate of the group, such as <span class="code">1_path</span>.</p> 
+  <p>If no <span class="code">p.or</span> is given then all predicates are ANDed together, that is, each result must satisfy all predicates.</p> 
+  <note> 
+   <p>You cannot use the same numeric prefix in one single query, even for different predicates.</p> 
+  </note> 
+  <h3>Search for properties</h3> 
+  <p>Here you are searching for all pages of a given template, using the <span class="code">cq:template</span> property:</p> 
+  <p><span class="code"><a href="http://localhost:4502/bin/querybuilder.json?property=cq%3atemplate&amp;property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&amp;type=cq%3aPageContent">http://localhost:4502/bin/querybuilder.json?property=cq%3atemplate&amp;property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&amp;type=cq%3aPageContent</a></span></p> 
+  <codeblock gutter="true" class="syntax xml">
+    type=cq:PageContent!!discoiqbr!!property=cq:template!!discoiqbr!!property.value=/apps/geometrixx/templates/homepage 
+  </codeblock> 
+  <p>This has the drawback that the <span class="code">jcr:content</span> nodes of the pages, not the pages themselves, are returned. To solve this, you can search by relative path:</p> 
+  <p><span class="code"><a href="http://localhost:4502/bin/querybuilder.json?property=jcr%3acontent%2fcq%3atemplate&amp;property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&amp;type=cq%3aPage">http://localhost:4502/bin/querybuilder.json?property=jcr%3acontent%2fcq%3atemplate&amp;property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&amp;type=cq%3aPage</a> </span></p> 
+  <codeblock gutter="true" class="syntax xml">
+    type=cq:Page!!discoiqbr!!property=jcr:content/cq:template!!discoiqbr!!property.value=/apps/geometrixx/templates/homepage 
+  </codeblock> 
+  <h3>Search for multiple properties</h3> 
+  <p>When using the property predicate multiple times, you have to add the number prefixes again:</p> 
+  <p><span class="code"></span><span class="code"><a href="http://localhost:4502/bin/querybuilder.json?1_property=jcr%3acontent%2fcq%3atemplate&amp;1_property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&amp;2_property=jcr%3acontent%2fjcr%3atitle&amp;2_property.value=English&amp;type=cq%3aPage">http://localhost:4502/bin/querybuilder.json?1_property=jcr%3acontent%2fcq%3atemplate&amp;1_property.value=%2fapps%2fgeometrixx%2ftemplates%2fhomepage&amp;2_property=jcr%3acontent%2fjcr%3atitle&amp;2_property.value=English&amp;type=cq%3aPage</a></span></p> 
+  <codeblock gutter="true" class="syntax xml">
+    type=cq:Page!!discoiqbr!!1_property=jcr:content/cq:template!!discoiqbr!!1_property.value=/apps/geometrixx/templates/homepage!!discoiqbr!!2_property=jcr:content/jcr:title!!discoiqbr!!2_property.value=English 
+  </codeblock> 
+  <h3>Search for multiple property values</h3> 
+  <p>To avoid big groups when you want to search for multiple values of a property (<span class="code">"A" or "B" or "C"</span>), you can provide multiple values to the <span class="code">property</span> predicate:</p> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?property=jcr%3atitle&amp;property.1_value=Products&amp;property.2_value=Square&amp;property.3_value=Events"><span class="code"> http://localhost:4502/bin/querybuilder.json?property=jcr%3atitle&amp;property.1_value=Products&amp;property.2_value=Square&amp;property.3_value=Events </span></a></p> 
+  <codeblock gutter="true" class="syntax xml">
+    property=jcr:title!!discoiqbr!!property.1_value=Products!!discoiqbr!!property.2_value=Square!!discoiqbr!!property.3_value=Events 
+  </codeblock> 
+  <p></p> 
+  <p>For multi-value properties, you can also require that multiple values match (<span class="code">"A" and "B" and "C"</span>):</p> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?property=jcr%3atitle&amp;property.and=true&amp;property.1_value=test&amp;property.2_value=foo&amp;property.3_value=bar"><span class="code">http://localhost:4502/bin/querybuilder.json?property=jcr%3atitle&amp;property.and=true&amp;property.1_value=test&amp;property.2_value=foo&amp;property.3_value=bar</span></a></p> 
+  <p></p> 
+  <draft-comment color="yellow" lastModifiedBy="guillaume" lastModifiedDate="2018-01-17T05:29:21.027-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>I couldn't find an example which delivers hits.</p> 
+   <p>The link will also have to be changed.<br /> </p> 
+  </draft-comment> 
+  <codeblock gutter="true" class="syntax xml">
+    property=jcr:title!!discoiqbr!!property.and=true!!discoiqbr!!property.1_value=test!!discoiqbr!!property.2_value=foo!!discoiqbr!!property.3_value=bar 
+  </codeblock> 
+  <h2>Refining What Is Returned</h2> 
+  <p>By default, the <code>QueryBuilder</code> JSON Servlet will return a default set of properties for each node in the search result (e.g. path, name, title, etc.). In order to gain control over which properties are returned, you can do one of the following:</p> 
+  <p>Specify <code>p.hits=full</code>, in which case all properties will be included for each node:<br /> </p> 
+  <p><span class="code"><a href="http://localhost:4502/bin/querybuilder.json?p.hits=full&amp;property=jcr%3atitle&amp;property.value=Triangle">http://localhost:4502/bin/querybuilder.json?p.hits=full&amp;property=jcr%3atitle&amp;property.value=Triangle</a></span></p> 
+  <codeblock gutter="true" class="syntax xml">
+    property=jcr:title!!discoiqbr!!property.value=Triangle!!discoiqbr!!p.hits=full 
+  </codeblock> 
+  <p>Use <code>p.hits=selective</code> and specify the properties you want to get in <code>p.properties</code>, separated by a space:<br /> <a href="http://localhost:4502/bin/querybuilder.json?p.hits=selective&amp;property=jcr%3atitle&amp;property.value=Triangle"></a></p> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?p.hits=selective&amp;p.properties=sling%3aresourceType%20jcr%3aprimaryType&amp;property=jcr%3atitle&amp;property.value=Triangle"><span class="code">http://localhost:4502/bin/querybuilder.json?</span></a><a href="http://localhost:4502/bin/querybuilder.json?p.hits=selective&amp;p.nodedepth=5&amp;p.properties=sling%3aresourceType%20jcr%3apath&amp;property=jcr%3atitle&amp;property.value=Triangle">p.hits=selective&amp;</a>p.properties=sling%3aresourceType%20jcr%3aprimaryType&amp;property=jcr%3atitle&amp;property.value=Triangle </p> 
+  <codeblock gutter="true" class="syntax xml">
+    property=jcr:title!!discoiqbr!!property.value=Triangle!!discoiqbr!!p.hits=selective!!discoiqbr!!p.properties=sling:resourceType&amp;nbsp;jcr:primaryType 
+  </codeblock> 
+  <p>Another thing you can do is include child nodes in the <code>QueryBuilder</code> response. In order to do this you need to specify <code>p.nodedepth=n</code>, where <strong>n</strong> is the number of levels you want the query to return. Note that, in order for a child node to be returned, it must be specified by the properties selector (<code>p.hits=full</code><code></code><code></code>). Example:</p> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?p.hits=full&amp;p.nodedepth=5&amp;property=jcr%3atitle&amp;property.value=Triangle"><span class="code">http://localhost:4502/bin/querybuilder.json?p.hits=full&amp;p.nodedepth=5&amp;property=jcr%3atitle&amp;property.value=Triangle </span></a></p> 
+  <draft-comment type="draft"> 
+   <p>Another thing you can do is include child nodes in the <code>QueryBuilder</code> response. In order to do this you need to specify <code>p.nodedepth=n</code>, where <strong>n</strong> is the number of levels you want the query to return. Note that, in order for a child node to be returned, it must be specified by the properties selector (i.e. either use <code>p.hits=full</code> or <code>p.hits=selective</code> and specify the name of the child node in <code>p.properties</code>). Examples:</p> 
+   <p><a href="http://localhost:4502/bin/querybuilder.json?p.hits=full&amp;p.nodedepth=100&amp;property=jcr%3atitle&amp;property.1_value=Triangle"><span class="code">http://localhost:4502/bin/querybuilder.json?p.hits=full&amp;p.nodedepth=5&amp;property=jcr%3atitle&amp;property.value=Triangle </span></a></p> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="guillaume" lastModifiedDate="2018-01-17T05:29:21.256-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>Is it meaningfull to use p.hits=selective and p.nodedepth at the same time ?<br /> </p> 
+  </draft-comment> 
+  <codeblock gutter="true" class="syntax xml">
+    property=jcr:title!!discoiqbr!!property.value=Triangle!!discoiqbr!!p.hits=full!!discoiqbr!!p.nodedepth=5 
+  </codeblock> 
+  <draft-comment type="draft"> 
+   <p><a href="http://localhost:4502/bin/querybuilder.json?p.hits=selective&amp;p.nodedepth=5&amp;p.properties=sling%3aresourceType%20jcr%3apath&amp;property=jcr%3atitle&amp;property.value=Triangle"><span class="code">http://localhost:4502/bin/querybuilder.json?p.hits=selective&amp;p.nodedepth=5&amp;p.properties=sling%3resourceType%20jcr%3apath&amp;property=jcr%3atitle&amp;property.value=Triangle </span></a></p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <codeblock gutter="true" class="syntax xml">
+     property=jcr:title!!discoiqbr!!property.value=Triangle!!discoiqbr!!p.hits=selective!!discoiqbr!!p.properties=sling:resourceType&amp;nbsp;jcr:path!!discoiqbr!!p.nodedepth=5!!discoiqbr!! 
+   </codeblock> 
+  </draft-comment> 
+  <h2 id="MorePredicates">More Predicates</h2> 
+  <p>For more predicates, see the <a href="../../../sites/developing/using/querybuilder-predicate-reference.md" target="_blank">Query Builder Predicate Reference page</a>.<br /> </p> 
+  <p>You can also check the <a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator">Javadoc for the <span class="code">*PredicateEvaluator</span> classes</a>. The Javadoc for these classes contains the list of properties that you can use.</p> 
+  <p>The prefix of the class name (for example, "<span class="code">similar</span>" in <span class="code"><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/SimilarityPredicateEvaluator">SimilarityPredicateEvaluator</a></span>) is the <em>principal property</em> of the class. This property is also the name of the predicate to use in the query (in lower case).</p> 
+  <p>For such principal properties, you can shorten the query and use "<span class="code">similar=/content/en</span>" instead of the fully qualified variant "<span class="code">similar.similar=/content/en</span>". The fully qualified form must be used for all non-principal properties of a class.</p> 
+  <h2>Example Query Builder API Usage</h2> 
+  <codeblock gutter="true" class="syntax java">
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;fulltextSearchTerm&amp;nbsp;=&amp;nbsp;"Geometrixx";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;create&amp;nbsp;query&amp;nbsp;description&amp;nbsp;as&amp;nbsp;hash&amp;nbsp;map&amp;nbsp;(simplest&amp;nbsp;way,&amp;nbsp;same&amp;nbsp;as&amp;nbsp;form&amp;nbsp;post)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Map&lt;String,&amp;nbsp;String&gt;&amp;nbsp;map&amp;nbsp;=&amp;nbsp;new&amp;nbsp;HashMap&lt;String,&amp;nbsp;String&gt;();!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!//&amp;nbsp;create&amp;nbsp;query&amp;nbsp;description&amp;nbsp;as&amp;nbsp;hash&amp;nbsp;map&amp;nbsp;(simplest&amp;nbsp;way,&amp;nbsp;same&amp;nbsp;as&amp;nbsp;form&amp;nbsp;post)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;map.put("path",&amp;nbsp;"/content");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;map.put("type",&amp;nbsp;"cq:Page");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;map.put("group.p.or",&amp;nbsp;"true");&amp;nbsp;//&amp;nbsp;combine&amp;nbsp;this&amp;nbsp;group&amp;nbsp;with&amp;nbsp;OR!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;map.put("group.1_fulltext",&amp;nbsp;fulltextSearchTerm);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;map.put("group.1_fulltext.relPath",&amp;nbsp;"jcr:content");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;map.put("group.2_fulltext",&amp;nbsp;fulltextSearchTerm);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;map.put("group.2_fulltext.relPath",&amp;nbsp;"jcr:content/@cq:tags");!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;can&amp;nbsp;be&amp;nbsp;done&amp;nbsp;in&amp;nbsp;map&amp;nbsp;or&amp;nbsp;with&amp;nbsp;Query&amp;nbsp;methods!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;map.put("p.offset",&amp;nbsp;"0");&amp;nbsp;//&amp;nbsp;same&amp;nbsp;as&amp;nbsp;query.setStart(0)&amp;nbsp;below!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;map.put("p.limit",&amp;nbsp;"20");&amp;nbsp;//&amp;nbsp;same&amp;nbsp;as&amp;nbsp;query.setHitsPerPage(20)&amp;nbsp;below!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Query&amp;nbsp;query&amp;nbsp;=&amp;nbsp;builder.createQuery(PredicateGroup.create(map),&amp;nbsp;session);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;query.setStart(0);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;query.setHitsPerPage(20);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SearchResult&amp;nbsp;result&amp;nbsp;=&amp;nbsp;query.getResult();!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;paging&amp;nbsp;metadata!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;hitsPerPage&amp;nbsp;=&amp;nbsp;result.getHits().size();&amp;nbsp;//&amp;nbsp;20&amp;nbsp;(set&amp;nbsp;above)&amp;nbsp;or&amp;nbsp;lower!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;long&amp;nbsp;totalMatches&amp;nbsp;=&amp;nbsp;result.getTotalMatches();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;long&amp;nbsp;offset&amp;nbsp;=&amp;nbsp;result.getStartIndex();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;long&amp;nbsp;numberOfPages&amp;nbsp;=&amp;nbsp;totalMatches&amp;nbsp;/&amp;nbsp;20;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//Place&amp;nbsp;the&amp;nbsp;results&amp;nbsp;in&amp;nbsp;XML&amp;nbsp;to&amp;nbsp;return&amp;nbsp;to&amp;nbsp;client!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;DocumentBuilderFactory&amp;nbsp;factory&amp;nbsp;=&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;DocumentBuilderFactory.newInstance();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;DocumentBuilder&amp;nbsp;builder&amp;nbsp;=&amp;nbsp;factory.newDocumentBuilder();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Document&amp;nbsp;doc&amp;nbsp;=&amp;nbsp;builder.newDocument();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//Start&amp;nbsp;building&amp;nbsp;the&amp;nbsp;XML&amp;nbsp;to&amp;nbsp;pass&amp;nbsp;back&amp;nbsp;to&amp;nbsp;the&amp;nbsp;AEM&amp;nbsp;client!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Element&amp;nbsp;root&amp;nbsp;=&amp;nbsp;doc.createElement(&amp;nbsp;"results"&amp;nbsp;);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;doc.appendChild(&amp;nbsp;root&amp;nbsp;);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;iterating&amp;nbsp;over&amp;nbsp;the&amp;nbsp;results!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;for&amp;nbsp;(Hit&amp;nbsp;hit&amp;nbsp;:&amp;nbsp;result.getHits())&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;path&amp;nbsp;=&amp;nbsp;hit.getPath();!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//Create&amp;nbsp;a&amp;nbsp;result&amp;nbsp;element!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Element&amp;nbsp;resultel&amp;nbsp;=&amp;nbsp;doc.createElement(&amp;nbsp;"result"&amp;nbsp;);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;root.appendChild(&amp;nbsp;resultel&amp;nbsp;);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Element&amp;nbsp;pathel&amp;nbsp;=&amp;nbsp;doc.createElement(&amp;nbsp;"path"&amp;nbsp;);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;pathel.appendChild(&amp;nbsp;doc.createTextNode(path&amp;nbsp;)&amp;nbsp;);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;resultel.appendChild(&amp;nbsp;pathel&amp;nbsp;);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;} 
+  </codeblock> 
+  <note> 
+   <p>To learn how to build an OSGi bundle that uses the QueryBuilder API and use that OSGi bundle within an Adobe Experience Manager application, see <a href="/content/help/en/experience-manager/using/using-query-builder-api">Creating Adobe CQ OSGi bundles that use the Query Builder AP</a>I.</p> 
+  </note> 
+  <p></p> 
+  <p>The same query executed over HTTP using the Query Builder (JSON) Servlet:</p> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?path=/content&amp;type=cq:Page&amp;group.p.or=true&amp;group.1_fulltext=Geometrixx&amp;group.1_fulltext.relPath=jcr:content&amp;group.2_fulltext=Geometrixx&amp;group.2_fulltext.relPath=jcr:content/@cq:tags&amp;p.offset=0&amp;p.limit=20"><span class="code">http://localhost:4502/bin/querybuilder.json?path=/content&amp;type=cq:Page&amp;group.p.or=true&amp;group.1_fulltext=Geometrixx&amp;group.1_fulltext.relPath=jcr:content&amp;group.2_fulltext=Geometrixx&amp;group.2_fulltext.relPath=jcr:content/@cq:tags&amp;p.offset=0&amp;p.limit=20</span></a></p> 
+  <p></p> 
+  <h2>Storing and loading queries</h2> 
+  <p>Queries can be stored to the repository so that you can use them later. The <span class="code">QueryBuilder</span> provides the <span class="code"></span><span class="code">storeQuery</span> method with the following signature:<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    void&amp;nbsp;storeQuery(Query&amp;nbsp;query,&amp;nbsp;String&amp;nbsp;path,&amp;nbsp;boolean&amp;nbsp;createFile,&amp;nbsp;Session&amp;nbsp;session)&amp;nbsp;throws&amp;nbsp;RepositoryException,&amp;nbsp;IOException; 
+  </codeblock> 
+  <p>When using the <a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder#storeQuerycomdaycqsearchQueryjavalangStringbooleanjavaxjcrSession"><span class="code">QueryBuilder#storeQuery</span></a> method, the given <span class="code">Query</span> is stored into the repository as a file or as a property according to the <span class="code">createFile</span> argument value. The following example shows how to save a <span class="code">Query</span> to the path <span class="code">/mypath/getfiles</span> as a file:<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    builder.storeQuery(query,&amp;nbsp;"/mypath/getfiles",&amp;nbsp;true,&amp;nbsp;session); 
+  </codeblock> 
+  <p>Any previously stored queries can be loaded from the repository by using the <span class="code"><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder#loadQueryjavalangStringjavaxjcrSession">QueryBuilder#loadQuery</a></span> method:<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    Query&amp;nbsp;loadQuery(String&amp;nbsp;path,&amp;nbsp;Session&amp;nbsp;session)&amp;nbsp;throws&amp;nbsp;RepositoryException,&amp;nbsp;IOException 
+  </codeblock> 
+  <p>For example, a <span class="code">Query</span> stored to the path <span class="code">/mypath/getfiles</span> can be loaded by the following snippet:<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    Query&amp;nbsp;loadedQuery&amp;nbsp;=&amp;nbsp;builder.loadQuery("/mypath/getfiles",&amp;nbsp;session); 
+  </codeblock> 
+  <draft-comment type="draft"> 
+   <h2>Debugging Slow Queries</h2> 
+  </draft-comment> 
+  <h2>Testing and Debugging</h2> 
+  <p>For playing around and debugging querybuilder queries, you can use the QueryBuilder debugger console at</p> 
+  <p><span class="code"><a href="http://localhost:4502/libs/cq/search/content/querydebug.html">http://localhost:4502/libs/cq/search/content/querydebug.html</a></span></p> 
+  <p>or alternatively the querybuilder json servlet at</p> 
+  <p><a href="http://localhost:4502/bin/querybuilder.json?path=/tmp  "><span class="code">http://localhost:4502/bin/querybuilder.json?path=/tmp</span></a></p> 
+  <p>(<span class="code">path=/tmp</span> is only an example).</p> 
+  <h3>General Debugging Recommendations</h3> 
+  <h3>Obtain explain-able XPath via logging</h3> 
+  <p>Explain <strong>all</strong> queries during the development cycle against the target index set.</p> 
+  <ul> 
+   <li>Enable DEBUG logs for QueryBuilder to obtain underlying, explainable XPath query 
+    <ul> 
+     <li>Navigate to <i>http://serveraddress:serverport/system/console/slinglog</i>. Create a new logger for <span class="code">com.day.cq.search.impl.builder.QueryImpl</span> at <strong>DEBUG</strong>. </li> 
+    </ul> </li> 
+   <li>Once DEBUG has been enabled for the above class, the logs will display the XPath generated by Query Builder.</li> 
+   <li>Copy the XPath query from the log entry for the associated QueryBuilder query, For example: 
+    <ul> 
+     <li><span class="code">com.day.cq.search.impl.builder.QueryImpl XPath query: /jcr:root/content//element(*, cq:Page)[(jcr:contains(jcr:content, "Geometrixx") or jcr:contains(jcr:content/@cq:tags, "Geometrixx"))]</span><br /> </li> 
+    </ul> </li> 
+   <li>Paste the XPath query into <a href="../../../sites/administering/using/operations-dashboard.md#main-pars-title-1097830066" target="_blank">Explain Query</a> as XPath to obtrain the query plan</li> 
+  </ul> 
+  <h3>Obtain explain-able XPath via the Query Builder debugger</h3> 
+  <ul> 
+   <li>Use the AEM QueryBuilder debugger to generate an explainable XPath query:</li> 
+  </ul> 
+  <p> </p> 
+  <p>Explain <strong>all</strong> queries during the development cycle against the target index set.</p> 
+  <p><strong>Obtain explain-able XPath via logging</strong></p> 
+  <ul> 
+   <li>Enable DEBUG logs for QueryBuilder to obtain underlying, explainable XPath query 
+    <ul> 
+     <li>Navigate to <i>http://serveraddress:serverport/system/console/slinglog</i>. Create a new logger for <span class="code">com.day.cq.search.impl.builder.QueryImpl</span> at <strong>DEBUG</strong>. </li> 
+    </ul> </li> 
+   <li>Once DEBUG has been enabled for the above class, the logs will display the XPath generated by Query Builder.</li> 
+   <li>Copy the XPath query from the log entry for the associated QueryBuilder query, For example: 
+    <ul> 
+     <li><span class="code">com.day.cq.search.impl.builder.QueryImpl XPath query: /jcr:root/content//element(*, cq:Page)[(jcr:contains(jcr:content, "Geometrixx") or jcr:contains(jcr:content/@cq:tags, "Geometrixx"))]</span><br /> </li> 
+    </ul> </li> 
+   <li>Paste the XPath query into <a href="../../../sites/administering/using/operations-dashboard.md#main-pars-title-1097830066" target="_blank">Explain Query</a> as XPath to obtrain the query plan</li> 
+  </ul> 
+  <div> 
+   <p><strong>Obtain explain-able XPath via the Query Builder debugger</strong></p> 
+   <ul> 
+   </ul> 
+  </div> 
+  <ul> 
+   <li>Use the AEM QueryBuilder debugger to generate an explainable XPath query:</li> 
+  </ul> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-76.png" /> 
+  <ol> 
+   <li>Provide the Query Buidler query in the Query Builder debugger</li> 
+   <li>Execute the Search</li> 
+   <li>Obtain the generated XPath</li> 
+   <li style="box-sizing: border-box; border: 0px; margin: 0px 0px 3px; padding: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; vertical-align: baseline;">Paste the XPath query into <a style="box-sizing: border-box; border: 0px; cursor: pointer; margin: 0px; padding: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: adobe-clean-semilight, sans-serif; vertical-align: baseline; text-decoration-line: none; color: rgb(15, 100, 210); transition: color 150ms ease-in-out;" target="_blank">Explain Query</a> as XPath to obtrain the query plan</li> 
+  </ol> 
+  <p> </p> 
+  <note> 
+   <p>Non-querybuilder queries (XPath, JCR-SQL2) can be provided directly to Explain Query.</p> 
+  </note> 
+  <p>For a rundown on how to debug queries with QueryBuilder, see the video below.</p> 
+  <note> 
+   <p><a href="https://www.youtube.com/watch?v=BnyXjhRKYKc" target="_blank">https://www.youtube.com/watch?v=BnyXjhRKYKc</a></p> 
+  </note> 
+  <h2>Debugging Queries with Logging</h2> 
+  <note> 
+   <p>The configuration of the loggers is described in the section <a href="../../../sites/deploying/using/configure-logging.md#creatingyourownloggersandwriters">Creating Your Own Loggers and Writers</a>.<br /> </p> 
+  </note> 
+  <p>The log output (INFO level) of the query builder implementation when executing the query described in Testing and Debugging:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    com.day.cq.search.impl.builder.QueryImpl&amp;nbsp;executing&amp;nbsp;query&amp;nbsp;(predicate&amp;nbsp;tree):!!discoiqbr!!null=group:&amp;nbsp;limit=20,&amp;nbsp;offset=0[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{group=group:&amp;nbsp;or=true[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{1_fulltext=fulltext:&amp;nbsp;fulltext=Geometrixx,&amp;nbsp;relPath=jcr:content}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{2_fulltext=fulltext:&amp;nbsp;fulltext=Geometrixx,&amp;nbsp;relPath=jcr:content/@cq:tags}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;]}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{path=path:&amp;nbsp;path=/content}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{type=type:&amp;nbsp;type=cq:Page}!!discoiqbr!!]!!discoiqbr!!com.day.cq.search.impl.builder.QueryImpl&amp;nbsp;XPath&amp;nbsp;query:&amp;nbsp;/jcr:root/content//element(*,&amp;nbsp;cq:Page)[(jcr:contains(jcr:content,&amp;nbsp;"Geometrixx")&amp;nbsp;or&amp;nbsp;jcr:contains(jcr:content/@cq:tags,&amp;nbsp;"Geometrixx"))]!!discoiqbr!!com.day.cq.search.impl.builder.QueryImpl&amp;nbsp;no&amp;nbsp;filtering&amp;nbsp;predicates!!discoiqbr!!com.day.cq.search.impl.builder.QueryImpl&amp;nbsp;query&amp;nbsp;execution&amp;nbsp;took&amp;nbsp;69&amp;nbsp;ms!!discoiqbr!! 
+  </codeblock> 
+  <p>If you have a query using predicate evaluators that filter or that use a custom order by comparator, this will also be noted in the query:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    com.day.cq.search.impl.builder.QueryImpl&amp;nbsp;executing&amp;nbsp;query&amp;nbsp;(predicate&amp;nbsp;tree):!!discoiqbr!!null=group:&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{nodename=nodename:&amp;nbsp;nodename=*.jar}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{orderby=orderby:&amp;nbsp;orderby=@jcr:content/jcr:lastModified}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{type=type:&amp;nbsp;type=nt:file}!!discoiqbr!!]!!discoiqbr!!com.day.cq.search.impl.builder.QueryImpl&amp;nbsp;custom&amp;nbsp;order&amp;nbsp;by&amp;nbsp;comparator:&amp;nbsp;jcr:content/jcr:lastModified!!discoiqbr!!com.day.cq.search.impl.builder.QueryImpl&amp;nbsp;XPath&amp;nbsp;query:&amp;nbsp;//element(*,&amp;nbsp;nt:file)!!discoiqbr!!com.day.cq.search.impl.builder.QueryImpl&amp;nbsp;filtering&amp;nbsp;predicates:&amp;nbsp;{nodename=nodename:&amp;nbsp;nodename=*.jar}!!discoiqbr!!com.day.cq.search.impl.builder.QueryImpl&amp;nbsp;query&amp;nbsp;execution&amp;nbsp;took&amp;nbsp;272&amp;nbsp;ms 
+  </codeblock> 
+  <h2>Javadoc Links</h2> 
+  <table border="1" cellpadding="1" cellspacing="0" width="400"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Javadoc</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/package-summary">com.day.cq.search</a></td> 
+     <td>Basic QueryBuilder and Query API</td> 
+    </tr> 
+    <tr> 
+     <td><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/result/package-summary">com.day.cq.search.result</a></td> 
+     <td>Result API</td> 
+    </tr> 
+    <tr> 
+     <td><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/package-summary">com.day.cq.search.facets</a></td> 
+     <td>Facets</td> 
+    </tr> 
+    <tr> 
+     <td><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/buckets/package-summary">com.day.cq.search.facets.buckets</a></td> 
+     <td>Buckets (contained within facets)</td> 
+    </tr> 
+    <tr> 
+     <td><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary">com.day.cq.search.eval</a></td> 
+     <td>Predicate Evaluators</td> 
+    </tr> 
+    <tr> 
+     <td><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/extractors/package-summary">com.day.cq.search.facets.extractors</a></td> 
+     <td>Facet Extractors (for evaluators)</td> 
+    </tr> 
+    <tr> 
+     <td><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/writer/package-summary">com.day.cq.search.writer</a></td> 
+     <td>JSON Result Hit Writer for Querybuilder servlet (/bin/querybuilder.json)</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body> 
+</html>

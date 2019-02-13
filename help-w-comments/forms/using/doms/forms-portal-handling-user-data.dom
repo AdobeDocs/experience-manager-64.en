@@ -1,0 +1,155 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-05-03T06:24:31.386-0400" name="lastPublishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/morehelp/grdp;/content/help/en/experience-manager/6-4/forms/morehelp/grdp" name="moreHelpPaths" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="9c4be5fe-0970-4fc5-b208-e5d6504e2dea" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="vishgupt" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-19T10:46:16.172-0400" name="acrolinxDate" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="67" name="acrolinxSentences" /> 
+  <meta content="2018-04-06T04:29:04.171-0400" name="firstPublishExternalDate" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="topic_tags:grdp;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2018-04-30T03:14:53.873-0400" name="locHandOffDate" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2018-05-03T06:24:31.573-0400" name="cq:lastReplicated" /> 
+  <meta content="vishgupt" name="contentOwner" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="vishgupt@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/forms_portal_handling_user_data_krs_workflow_0eaa5f398ed6741b_627_report.xml" name="acrolinxReportURL" /> 
+  <meta content="af1d9c85-8a7c-4664-b38c-6fe10451c4ff" name="jcr:predecessors" /> 
+  <meta content="2018-05-03T06:24:31.403-0400" name="cq:lastModified" /> 
+  <meta content="899" name="acrolinxWords" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4" name="primaryProductTag" /> 
+  <meta content="2018-05-03T06:24:31.386-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="vishgupt" name="cq:lastModifiedBy" /> 
+  <meta content="Forms Portal | Handling user data" name="jcr:title" /> 
+  <meta content="2018-03-15T09:02:44.049-0400" name="jcr:created" /> 
+  <meta content="2018-05-03T06:24:31.386-0400" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/forms-portal-handling-user-data.html" name="publishExternalURL" /> 
+ </head> 
+ <body> 
+  <p>AEM Forms portal provides components that you can use to list adaptive forms, HTML5 forms, and other Forms assets on AEM Sites page. In addition, you can configure it to display drafts and submitted adaptive forms and HTML5 forms for a logged-in user. For more information about forms portal, see <a href="../../forms/using/introduction-publishing-forms.md" target="_blank">Introduction to publishing forms on a portal</a>.</p> 
+  <p>When a logged-in user saves an adaptive form as draft or submits it, they are displayed in the Drafts and Submissions tabs on forms portal. The data for drafts or submitted forms is stored in the data store configured for AEM deployment. The drafts and submissions of anonymous users are not displayed on forms portal page; however, the data is stored in the configured data store. For more information, see <a href="../../forms/using/configuring-draft-submission-storage.md" target="_blank">Configuring storage services for drafts and submissions</a>.</p> 
+  <h2>User data and data stores</h2> 
+  <p>Forms portal stores data for draft and submitted forms in following scenarios:</p> 
+  <ul> 
+   <li>The submit action configured in the adaptive form is <strong>Forms Portal Submit Action</strong>. </li> 
+   <li>For submit actions other than <strong>Forms Portal Submit Action</strong>, the <span class="uicontrol">Store data in forms portal</span> option is enabled in the <strong>Submission</strong> properties of the adaptive form container.</li> 
+  </ul> 
+  <p>For every draft and submitted form for logged-in and anonymous users, forms portal stores the following data:</p> 
+  <ul> 
+   <li>Form metadata such as the form name, form path, draft or submission ID, attachments path, and user data ID</li> 
+   <li>Form attachment as data bytes</li> 
+   <li>Form data as data bytes</li> 
+  </ul> 
+  <p>Depending on the configured data store persistence, drafts and submitted forms data is stored at the following locations.</p> 
+  <table border="1" cellpadding="0" cellspacing="0"> 
+   <tbody> 
+    <tr> 
+     <td valign="top" width="98"><p><strong>Persistence type</strong></p> </td> 
+     <td valign="top" width="315"><p><strong>Data store</strong></p> </td> 
+     <td valign="top" width="234"><p><strong>Location</strong></p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="98"><p>Default</p> </td> 
+     <td valign="top" width="315"><p>AEM repository of author and publish instances</p> </td> 
+     <td valign="top" width="234"><p><span class="code">/content/forms/fp/</span></p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="98"><p>Remote</p> </td> 
+     <td valign="top" width="315"><p>AEM repository of author and remote AEM instances</p> </td> 
+     <td valign="top" width="234"><p><span class="code">/content/forms/fp/</span></p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="98"><p>Database</p> </td> 
+     <td valign="top" width="315"><p>AEM repository of author instance and database tables</p> </td> 
+     <td valign="top" width="234">Database tables <span class="code">data</span>, <span class="code">metadata</span>, and <span class="code">additionalmetadata</span></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Access and delete user data</h2> 
+  <p>You can access draft and submitted forms data for logged-in and anonymous users in the configured data stores, and if required, delete it.</p> 
+  <h3>AEM instances</h3> 
+  <p>All drafts and submitted forms data in AEM instances (author, publish, or remote) for logged-in and anonymous users are stored in the <span class="code">/content/forms/fp/</span> node of the applicable AEM repository. Every time a logged-in or anonymous user saves a draft or submits a form, a <span class="code">draft ID</span> or <span class="code">submission ID</span>, a <span class="code">user data ID</span>, and a random <span class="code">ID</span> for each attachment (if applicable) is generated, which is associated with the respective draft or submission.</p> 
+  <h4>Access user data</h4> 
+  <p>When a logged-in user saves a draft or submits a form, a child node is created with her user ID. For example, drafts and submissions data for Sarah Rose whose user ID is <span class="kbd">srose</span> are stored in <span class="code">/content/forms/fp/srose/</span> node in AEM repository. Within the user ID node, the data is organized in a hierarchical structure.</p> 
+  <p>The following table explains how the data for all drafts by <span class="code">srose</span> is stored in AEM repository.</p> 
+  <note> 
+   <p>An exact structure like <span class="code">drafts</span> is replicated for submitted forms for <span class="code">srose</span> under the <span class="code">/content/forms/fp/srose/submit/</span> node.</p> 
+   <p>All drafts and submissions by <span class="code">anonymous</span> users are stored under the <span class="code">/content/forms/fp/anonymous/</span> node, which organizes drafts and submissions for all anonymous users under the <span class="code">draft</span> and <span class="code">submit</span> nodes.</p> 
+  </note> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Node</td> 
+     <td>Description</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">/content/forms/fp/srose/drafts</span></td> 
+     <td>Container node data for all drafts by the user</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">/content/forms/fp/srose/drafts/attachments/</span></td> 
+     <td>Organizes all attachments for the user based on draft ID</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">/content/forms/fp/srose/drafts/attachments/&lt;ID&gt;</span></td> 
+     <td>Contains attachment for the selected ID in binary format</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">/content/forms/fp/srose/drafts/metadata/</span></td> 
+     <td>Organizes form metadata for the user based on draft ID</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">/content/forms/fp/srose/drafts/metadata/&lt;draft ID&gt;</span></td> 
+     <td>Contains form metadata for the selected draft ID</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">/content/forms/fp/srose/drafts/data/</span></td> 
+     <td>Organizes forms data for the user based on user data ID</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">/content/forms/fp/srose/drafts/data/&lt;user data ID&gt;</span></td> 
+     <td>Contains form data for the selected user data ID in binary format</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Delete user data</h4> 
+  <p>To delete user data from drafts and submissions for a logged-in user from AEM systems completely, you must delete the <span class="code">user ID</span> node for a specific user from the author node. You must manually delete data from all applicable AEM instances. </p> 
+  <p>Drafts and submission data for all anonymous users is stored within the common <span class="code">drafts</span> and <span class="code">submit</span> nodes under <span class="code">/content/forms/fp/anonymous</span>. There is no method to find data for a particular anonymous user unless some identifiable information is known.In this case, you can search for the information that identifies the anonymous user in AEM repository and manually delete the node containing it from all applicable AEM instances to remove data from the AEM system. However, to delete data for all anonymous users, you can delete the <span class="code">anonymous</span> node to remove drafts and submissions data for all anonymous users. </p> 
+  <h3>Database</h3> 
+  <p>When AEM is configured to store data in a database, forms portal draft and submission data is stored in the following database tables for both logged-in and anonymous users:</p> 
+  <ul> 
+   <li>data</li> 
+   <li>metadata</li> 
+   <li>additionalmetadata</li> 
+  </ul> 
+  <h4>Access user data</h4> 
+  <p>To access drafts and submissions data for a logged-in and anonymous users in the database tables, run the following database command. In the query, replace <span class="code">logged-in user</span> with the user ID whose data you want to access or with <span class="code">anonymous</span> for anonymous users.</p> 
+  <codeblock lineWrap="true" class="syntax sql">
+    select&amp;nbsp;*&amp;nbsp;from&amp;nbsp;metadata,&amp;nbsp;data,&amp;nbsp;additionalmetadatatable&amp;nbsp;where&amp;nbsp;metadata.owner&amp;nbsp;=&amp;nbsp;'logged-in&amp;nbsp;user'&amp;nbsp;and&amp;nbsp;metadata.id&amp;nbsp;=&amp;nbsp;additionalmetadatatable.id&amp;nbsp;and&amp;nbsp;metadata.userdataID&amp;nbsp;=&amp;nbsp;data.id 
+  </codeblock> 
+  <h4>Delete user data</h4> 
+  <p>To delete drafts and submissions data for a logged-in user from the database tables, run the following database command. In the query, replace <span class="code">logged-in user</span> with the user ID whose data you want to delete or with <span class="code">anonymous</span> for anonymous users. Note that to delete data for a particular anonymous user from the database, you need to find it using some identifiable information and delete it from database tables containing the information.</p> 
+  <codeblock lineWrap="true" class="syntax sql">
+    DELETE&amp;nbsp;FROM&amp;nbsp;metadata,&amp;nbsp;data,&amp;nbsp;additionalmetadatatable&amp;nbsp;USING&amp;nbsp;metadata&amp;nbsp;INNER&amp;nbsp;JOIN&amp;nbsp;data&amp;nbsp;ON&amp;nbsp;metadata.userdataID&amp;nbsp;=&amp;nbsp;data.id&amp;nbsp;INNER&amp;nbsp;JOIN&amp;nbsp;additionalmetadatatable&amp;nbsp;ON&amp;nbsp;metadata.id&amp;nbsp;=&amp;nbsp;additionalmetadatatable.id&amp;nbsp;WHERE&amp;nbsp;metadata.owner&amp;nbsp;=&amp;nbsp;'logged-in&amp;nbsp;user' 
+  </codeblock> 
+ </body> 
+</html>

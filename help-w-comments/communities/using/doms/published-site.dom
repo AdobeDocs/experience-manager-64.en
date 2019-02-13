@@ -1,0 +1,213 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-09-19T02:41:08.836-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/introduction;/content/help/en/experience-manager/6-4/communities/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="2017-12-01T19:02:41.263-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/published-site.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="Experience the Published Site" name="jcr:title" /> 
+  <meta content="mgulati" name="cq:lastReplicatedBy" /> 
+  <meta content="f4563f36-27b2-48d8-81d5-ebb7a16ddcef" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mgulati" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="mgulati@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/communities/getting-started/published-site" name="qaNotes" /> 
+  <meta content="2018-05-17T14:13:40.350-0400" name="locHandOffDate" /> 
+  <meta content="2018-12-18T07:05:58.694-0500" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-09-19T02:41:08.933-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-09-19T02:41:08.836-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Janice Kendall" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:introduction;content_type:reference" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Browse to a published site" name="seoDescription" /> 
+  <meta content="Experience the Published Site" name="navTitle" /> 
+  <meta content="2018-09-19T02:41:08.836-0400" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-31T16:33:22.984-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Experience the Published Site" name="seoTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="99e38f84-01d6-41bd-a62b-1733138a34f7" name="jcr:uuid" /> 
+ </head> 
+ <body> 
+  <p> </p> 
+  <table cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;"><strong><a href="../../communities/using/create-site.md">⇐ Author a New Community Site</a></strong></td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/nested-groups.md">Authoring Nested Groups ⇒</a></strong></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Browse to New Site on Publish</h2> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Now that the newly created communities site has been published, browse to the URL displayed when creating the site, but on the publish server, e.g.</p> 
+  <ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"> 
+   <li>author URL = http://localhost:4502/content/sites/engage/en.html</li> 
+   <li>publish URL = http://localhost:4503/content/sites/engage/en.html</li> 
+  </ul> 
+  <p>To minimize confusion as to which member is signed in on author and publish, it is suggested to use different browsers for each instance.</p> 
+  <p>When first arriving at the published site, the site visitor would typically not already be signed in and would be anonymous.</p> 
+  <h4>http://localhost:4503/content/sites/engage/en.html</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-324.png" /> 
+  <h2>Anonymous Site Visitor</h2> 
+  <p>An anonymous site visitor sees the following in the UI:</p> 
+  <ul> 
+   <li>Title of the site. Which is Getting Started Tutorial</li> 
+   <li>no profile link</li> 
+   <li>no messages link</li> 
+   <li>no notifications link</li> 
+   <li>search field</li> 
+   <li>Log in link</li> 
+   <li>The brand banner</li> 
+   <li>Menu links for the components included in the Reference Site Template</li> 
+  </ul> 
+  <p>If you select various links, you will find they are in read-only mode.</p> 
+  <h3>Prevent anonymous access on JCR</h3> 
+  <p>A known limitation exposes the community site content to anonymous visitors through 
+   <g class="gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="8" id="8">
+     jcr 
+   </g> content and 
+   <g class="gr_ gr_9 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="9" id="9">
+     json 
+   </g>, though <strong>allow anonymous access</strong> is disabled for the site's content. However, this behavior can be controlled using Sling Restrictions as a workaround.</p> 
+  <p>To protect your community site's content from access by anonymous users through 
+   <g class="gr_ gr_6 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="6" id="6">
+     jcr 
+   </g> content and 
+   <g class="gr_ gr_7 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="7" id="7">
+     json 
+   </g>, follow these steps:</p> 
+  <ol> 
+   <li><p>On AEM Author instance, go to http://&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;/editor.html/content/site/&amp;lt;sitename&amp;gt;.html.</p> 
+    <note> 
+     <p>Do not go to the localized site.</p> 
+    </note></li> 
+   <li><p>Go to <strong>Page Properties</strong>.</p> <img imageRotate="0" src="assets/site-authentication.png" /></li> 
+   <li><p>Go to <strong>Advanced </strong>tab.</p> <img imageRotate="0" src="assets/page-properties.png" /></li> 
+   <li><p>Enable <strong>Authentication Requirement</strong>.</p> </li> 
+   <li><p>Add the path of the login page. For example,<strong> /content/......./GetStarted</strong>.</p> </li> 
+   <li><p>Publish the page.</p> </li> 
+  </ol> 
+  <h2>Trusted Community Member</h2> 
+  <p>This experience assumes <a href="../../communities/using/tutorials.md#demousers">Aaron McDonald</a> was assigned the roles of <a href="../../communities/using/create-site.md#roles">community manager and moderator</a>. If not, return to the author environment to <a href="../../communities/using/sites-console.md#modifyingsiteproperties">modify the site settings</a> and select Aaron McDonald as both community manager and moderator.</p> 
+  <p>In the upper right corner, select <span class="code">Log in</span>, and sign with username "aaron.mcdonald@mailinator.com" and password "password". Notice the ability to sign in with Twitter or Facebook credentials.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-325.png" /> 
+  <p>Once signed in, notice there is a new menu item, <span class="code">Administration</span>, which appears because the member was given the role of Moderator. Now selecting various links is more interesting.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-326.png" /> 
+  <p>Notice the Calendar page is the home page because the chosen Reference Site Template included the Calendar function first, followed by Activity Stream function, Forum function, and so on. This structure is visible from the <a href="../../communities/using/sites.md#editsitetemplate">Site Template</a> console or when modifying site properties in the author environment :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-327.png" /> 
+  <note> 
+   <p>For more information on Communities components and functions, visit</p> 
+   <ul> 
+    <li><a href="../../communities/using/author-communities.md">Communities Components</a> (for authors)</li> 
+    <li><a href="../../communities/using/essentials.md">Component, Function, and Feature Essentials</a> (for developers)</li> 
+   </ul> 
+  </note> 
+  <h3>Forum link</h3> 
+  <p>View the basic forum feature by selecting the Forum link. </p> 
+  <p>Members are able to post a new topic or follow a topic. </p> 
+  <p>Site visitors are able to view posts and sort them in various ways.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-328.png" /> 
+  <h3>Groups link</h3> 
+  <p>Since Aaron is a group administrator, selecting the Groups link will allow Aaron to create a new community group by selecting a group template, image, whether the group is open or secret, and inviting members.</p> 
+  <p>This is an example where a group is created in the publish environment.</p> 
+  <p>Groups may also be created in the author environment and managed within the community site in the author environment (the <a href="../../communities/using/groups.md">Community Groups console</a>). The experience of <a href="../../communities/using/nested-groups.md">creating groups on author</a> is next in this tutorial.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-329.png" /> 
+  <p>Create a Reference Group :</p> 
+  <ol> 
+   <li>select <strong>New Group</strong></li> 
+   <li><strong>Settings tab</strong> 
+    <ul> 
+     <li>Group Name : <span class="code">Sports</span></li> 
+     <li>Description : <span class="code">A parent group for various sporting groups</span></li> 
+     <li>Group URL Name : <span class="code">sports</span></li> 
+     <li>select <span class="code">Open Group</span> (allow any community member to participate by joining)</li> 
+    </ul> </li> 
+   <li><strong>Template tab</strong> 
+    <ul> 
+     <li>select <span class="code">Reference Group</span> (contains a groups function in its structure to allow nested groups)</li> 
+    </ul> </li> 
+   <li>select <strong>Create Group</strong></li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-330.png" /> 
+  <p>After new group is created, <strong>select the new Sports group</strong> in order to create two groups (nested) within it. As a site structure can not begin with the groups function, after opening the Sports group, it is necessary to select the Groups link :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-331.png" /> 
+  <p>The second set of links, beginning with <span class="code">Blog</span>, belong to the currently selected group, the <span class="code">Sports </span>group. By selecting the Sports' <span class="code">Groups</span> link, it is possible to nest two groups within the Sports group. </p> 
+  <p>As an example, add two n<span class="code">ew groups.</span></p> 
+  <ul> 
+   <li>one named <span class="code">Baseball</span> 
+    <ul> 
+     <li>leave it set as an <span class="code">Open Group</span> (required membership)</li> 
+     <li>on Templates tab, select <span class="code">Conversational Group</span></li> 
+    </ul> </li> 
+   <li>one named <span class="code">Gymnastics</span> 
+    <ul> 
+     <li>change its setting to <span class="code">Member Only Group</span> (restricted membership)</li> 
+     <li>on Templates tab, select <span class="code">Conversational Group</span></li> 
+    </ul> </li> 
+  </ul> 
+  <p><strong>Notice </strong>:</p> 
+  <ul> 
+   <li>a refresh of the page may be necessary before both groups are displayed</li> 
+   <li>this template does <i>not </i>include the groups function, so no further nesting of groups will be possible</li> 
+   <li>on author, the <a href="../../communities/using/groups.md">Groups console</a> provides a third choice - a <span class="code">Public Group</span> (optional membership)</li> 
+  </ul> 
+  <p>Once both groups are created, select the Baseball group, an open group, and notice its links :</p> 
+  <p style="margin-left: 40px;"><span class="code">Discussions</span> <span class="code">What's New</span> <span class="code">Members</span></p> 
+  <p>The group's links are displayed below the main site's links and results in the following display :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-332.png" /> 
+  <p>On author - with administrative privileges, navigate to the <a href="../../communities/using/members.md">Communities Groups console</a> and add Weston McCall to the <span class="code">Community Engage Gymnastics &amp;lt;uid&amp;gt; Members</span> group.</p> 
+  <p>Continuing on publish, log out as Aaron McDonald, and view the groups in the Sports Group as an anonymous site visitor :</p> 
+  <ul> 
+   <li>from home page </li> 
+   <li>select <span class="code">Groups </span>link</li> 
+   <li>select <span class="code">Sports </span>link</li> 
+   <li>select the Sports' <span class="code">Groups </span>link</li> 
+  </ul> 
+  <p>Only the Baseball group will be visible. </p> 
+  <p>Log in as Weston McCall (weston.mccall@dodgit.com / password), and navigate to the same location. Notice that Weston is able to <span class="code">Join</span> the open <span class="code">Baseball</span> group and either <span class="code">enter or Leave</span> the private <span class="code">Gymnastics </span>group.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-333.png" /> 
+  <h3>Web Page link</h3> 
+  <p>View the basic web page included in the site by selecting the Web Page link. The standard AEM authoring tools may be used to add content to this page in the author environment. </p> 
+  <p>For example, go to <strong>author</strong> instance, open the <span class="code">engage</span> folder in the <a href="../../communities/using/sites-console.md">Communities Sites console</a>, select the <strong>Open Site</strong> icon to enter author edit mode. Then select preview mode to select the <span class="code">Web Page </span>link, then select edit mode to add Title and Text components. Last, re-publish either just the page or the entire site.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-334.png" /> 
+  <h3>Administration Link</h3> 
+  <p>When the community member has moderation privileges, then the Administration link will be visible and selecting it will display the community content posted and allow it to be <a href="../../communities/using/moderate-ugc.md">moderated</a> in a manner similar to the <a href="../../communities/using/moderation.md">moderation console</a> in the author environment.</p> 
+  <p>Use the browser's back button to return to the published site. Most consoles are not accessible from global navigation in the publish environment.<a href="../../communities/using/moderate-ugc.md"></a></p> 
+  <img imageRotate="0" src="assets/chlimage_1-335.png" /> 
+  <h2>Self-Registration</h2> 
+  <p>After logging out, it is possible to create a new user registration.</p> 
+  <ul> 
+   <li>select <span class="code">Log In</span></li> 
+   <li>select <span class="code">Sign up for a new account</span></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-336.png" /> 
+  <img imageRotate="0" src="assets/chlimage_1-337.png" /> 
+  <p>By default, the email address is the login id. If unchecked, the visitor is able to enter their own login id (user name). The user name must be unique in the publish environment.</p> 
+  <p>After specifying the user's name, email, and password, selecting <span class="code">Sign Up </span>will create the user and enable them to sign.</p> 
+  <p>Once signed in, the first page presented is their <span class="code">Profile </span>page, which they can personalize.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-338.png" /> 
+  <p>If the member forgets their login id, it is possible to recover is using their email address.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-339.png" /> 
+  <p> </p> 
+  <table cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;"><strong><a href="../../communities/using/create-site.md">⇐ Author a New Community Site</a></strong></td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/nested-groups.md">Authoring Nested Groups ⇒</a></strong></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+ </body> 
+</html>

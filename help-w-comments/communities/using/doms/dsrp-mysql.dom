@@ -1,0 +1,171 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="MySQL Configuration for Enablement Features" name="navTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-03T07:39:22.522-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-03T07:39:22.522-0400" name="topicBrowsingSortDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/communities/srp/dsrp/mysql" name="qaNotes" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2017-10-31T16:33:45.924-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-03T07:39:24.350-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="Janice Kendall" name="contentOwner" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="How to connect to the MySQL server and establish the UGC database" name="seoDescription" /> 
+  <meta content="39b152dc-cf7e-4b0f-b799-793c0bd2db20" name="jcr:predecessors" /> 
+  <meta content="MySQL Configuration for DSRP" name="seoTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-03T07:39:22.522-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-05-17T05:55:42.002-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-05-17T05:55:42.002-0400" name="cq:lastModified" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="MySQL Configuration for DSRP" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-12-01T19:04:46.972-0500" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/dsrp-mysql.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="1b236bc2-d993-4823-906a-dcf4e366cdd4" name="jcr:uuid" /> 
+ </head> 
+ <body> 
+  <p>MySQL is a relational database that can be used to store user generated content (UGC).</p> 
+  <p>These instructions describe how to connect to the MySQL server and establish the UGC database.</p> 
+  <h2>Requirements</h2> 
+  <ul> 
+   <li><a href="../../communities/using/deploy-communities.md#latestfeaturepack">latest Communities feature pack</a></li> 
+   <li><a href="../../communities/using/deploy-communities.md#jdbcdriverformysql">JDBC driver for MySQL</a></li> 
+   <li>a relational database : 
+    <ul> 
+     <li><a href="http://dev.mysql.com/downloads/mysql/">MySQL server</a> Community Server version 5.6 or later 
+      <ul> 
+       <li>may run on same host as AEM or run remotely</li> 
+      </ul> </li> 
+     <li><a href="http://dev.mysql.com/downloads/tools/workbench/">MySQL workbench</a></li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Installing MySQL</h2> 
+  <p><a href="http://dev.mysql.com/downloads/mysql/">MySQL</a> should be downloaded and installed following the instructions for the target OS.</p> 
+  <h3>Lower case table names</h3> 
+  <p>As SQL is case insensitive, for case sensitive operating systems, it is necessary to include a setting to lower case all table names.</p> 
+  <p>For example, to specify all lower case table names on a Linux OS :</p> 
+  <ul> 
+   <li>edit file <span class="code">/etc/my.cnf</span></li> 
+   <li>in the <span class="code">[mysqld]</span> section, add the following line :<br /> <span class="code"> lower_case_table_names = 1</span></li> 
+  </ul> 
+  <h3>UTF8 character set</h3> 
+  <p>To provide better multilingual support, it is necessary to use the UTF8 character set.</p> 
+  <p>Change MySQL to have UTF8 as its character set :</p> 
+  <ul> 
+   <li>mysql&amp;gt; SET NAMES 'utf8';</li> 
+  </ul> 
+  <p>Change the MySQL database to default to UTF8 :</p> 
+  <ul> 
+   <li>edit file <span class="code">/etc/my.cnf</span></li> 
+   <li>in the <span class="code">[client]</span> section, add the following line:<br /> <span class="code"> default-character-set=utf8</span></li> 
+   <li>in the <span class="code">[mysqld]</span> section, add the following line:<br /> <span class="code"> character-set-server=utf8</span></li> 
+  </ul> 
+  <h2>Installing MySQL Workbench</h2> 
+  <p>MySQL Workbench provides an UI for executing SQL scripts which install the schema and initial data. </p> 
+  <p>MySQL Workbench should be downloaded and installed following the instructions for the target OS.</p> 
+  <h2>Communities Connection</h2> 
+  <p>When the MySQL Workbench is first launched, unless already in use for other purposes, it will not yet show any connections :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-111.png" /> 
+  <h3>New Connection Settings</h3> 
+  <ol> 
+   <li>select the '+' icon to the right of <span class="code">MySQL Connections</span>.</li> 
+   <li>in the dialog <span class="code">Setup New Connection</span>, enter values appropriate for your platform<br /> for demonstration purposes, with the author AEM instance and MySQL on the same server : 
+    <ul> 
+     <li>Connection Name: <span class="code">Communities</span></li> 
+     <li>Connection Method: <span class="code">Standard (TCP/IP)</span></li> 
+     <li>Hostname: <span class="code">127.0.0.1</span></li> 
+     <li>Username: <span class="code">root</span></li> 
+     <li>Password: <span class="code"><i>no password by default</i></span></li> 
+     <li>Default Schema: <span class="code"><i>leave blank</i></span></li> 
+    </ul> </li> 
+   <li>select <span class="code">Test Connection</span> to verify the connection to the running MySQL service</li> 
+  </ol> 
+  <p><strong>Notes </strong>:</p> 
+  <ul> 
+   <li>the default port is 3306</li> 
+   <li>the Connection Name chosen is entered as the datasource name in <a href="#configurejdbcconnections">JDBC OSGi configuration</a></li> 
+  </ul> 
+  <h4>New Communities Connection</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-112.png" /> 
+  <h2>Database Setup</h2> 
+  <p>Open the Communities connection in order to install the database.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-113.png" /> 
+  <h3>Obtain the SQL Script</h3> 
+  <p>The SQL script is obtained from the AEM repository :</p> 
+  <ol> 
+   <li>browse to CRXDE Lite 
+    <ul> 
+     <li>for example, <a href="http://localhost:4502/crx/de">http://localhost:4502/crx/de</a></li> 
+    </ul> </li> 
+   <li>select the /libs/social/config/datastore/dsrp/schema folder</li> 
+   <li>download* <span class="code">init-schema.sql</span></li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-114.png" /> 
+  <p>* One method for downloading the schema is to</p> 
+  <ul> 
+   <li>select the <span class="code">jcr:content </span>node for the sql file</li> 
+   <li>notice the value for the <span class="code">jcr:data </span>property is a <u>view </u>link</li> 
+   <li>select the <u>view </u>link to save the data to a local file</li> 
+  </ul> 
+  <h3>Create the DSRP Database</h3> 
+  <p>Follow the steps below to install the database. The default name of the database is <span class="code">communities</span>.</p> 
+  <p>If the database name is changed in the script, be sure to also change it in the <a href="#configurejdbcconnections">JDBC config</a>.</p> 
+  <h4>Step 1 : open SQL file</h4> 
+  <p>In the MySQL Workbench</p> 
+  <ul> 
+   <li>from the File pulldown menu</li> 
+   <li>select the downloaded <span class="code">init_schema.sql</span></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-115.png" /> 
+  <h4>Step 2 : execute SQL Script</h4> 
+  <p>In the Workbench window for the file opened in Step 1, select the <span class="code">lightening (flash) icon</span> to execute the script.</p> 
+  <p>In the following image, the <span class="code">init_schema.sql</span> file is ready to be executed :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-116.png" /> 
+  <h4>Refresh</h4> 
+  <p>Once the script is executed, it is necessary to refresh the <span class="code">SCHEMAS </span>section of the <span class="code">Navigator</span> in order to see the new database. Use the refresh icon to the right of 'SCHEMAS' :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-117.png" /> 
+  <h2>Configure JDBC Connection</h2> 
+  <p>The OSGi configuration for <strong>Day Commons JDBC Connections Pool</strong> configures the MySQL JDBC Driver.</p> 
+  <p>All publish and author AEM instances should point to the same MySQL server. </p> 
+  <p>When MySQL runs on a server different from AEM, the server hostname must be specified in place of 'localhost' in the JDBC connector.</p> 
+  <ul> 
+   <li>on each author and publish AEM instance</li> 
+   <li>signed in with administrator privileges</li> 
+   <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">web console</a> 
+    <ul> 
+     <li>for example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a></li> 
+    </ul> </li> 
+   <li>locate the <span class="code">Day Commons JDBC Connections Pool</span></li> 
+   <li>select the '+' icon to create a new connection configuration</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-118.png" /> 
+  <ul> 
+   <li>enter the following values : 
+    <ul> 
+     <li><strong>JDBC driver class</strong> : com.mysql.jdbc.Driver</li> 
+     <li><strong>JDBC connection URI</strong> : jdbc:mysql://localhost:3306/communities?characterEncoding=UTF-8<br /> specify server in place of localhost if MySQL server is not the same as 'this' AEM server<br /> <i>communities</i> is the default database (schema) name</li> 
+     <li><strong>Username </strong>: root<br /> or enter the configured Username for the MySQL server, if not 'root'</li> 
+     <li><strong>Password</strong> : <br /> clear this field if no password set for MySQL,<br /> else enter the configured password for the MySQL Username</li> 
+     <li><strong>...</strong></li> 
+     <li><strong>Datasource name</strong> : name entered for the <a href="#newconnectionsettings">MySQL connection</a>, for example, 'communities'</li> 
+    </ul> </li> 
+   <li>select <strong>Save</strong></li> 
+  </ul> 
+ </body> 
+</html>

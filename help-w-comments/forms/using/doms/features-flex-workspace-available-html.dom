@@ -1,0 +1,79 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" />
+  <meta content="AEM Forms workspace innovates beyond Flex-based Workspace. Read about the differences in features and capabilities." name="seoDescription" />
+  <meta content="2015-09-28T09:50:31.076-0400" name="lastPublishQADate" />
+  <meta content="2018-04-03T08:37:51.604-0400" name="lastPublishExternalDate" />
+  <meta content="2016-05-31T06:48:16.625-0400" name="acrolinxDate" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2017-12-01T19:03:43.434-0500" name="jcr:created" />
+  <meta content="Features of Flex workspace not available in AEM Forms workspace" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/forms-workspace;/content/help/en/experience-manager/6-4/forms/morehelp/forms-workspace" name="moreHelpPaths" />
+  <meta content="2018-04-03T08:37:51.604-0400" name="publishExternalDate" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" />
+  <meta content="2015-09-28T09:50:31.076-0400" name="publishQADate" />
+  <meta content="2013-02-19T05:45:20.492-0500" name="firstPublishQADate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2013-03-22T13:14:48.372-0400" name="firstPublishExternalDate" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/features_flex_workspace_available_html_admin_5e12de0b318c6865_2129_report.xml" name="acrolinxReportURL" />
+  <meta content="2018-04-03T08:37:52.411-0400" name="cq:lastReplicated" />
+  <meta content="robhagat" name="contentOwner" />
+  <meta content="robhagat" name="lr_creator" />
+  <meta content="left" name="sideColumn" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a5429249-6e5323b313ccf05b1e4-8000" name="cq:gepId" />
+  <meta content="robhagat" name="lr_lastModifiedBy" />
+  <meta content="2013-02-13T03:00:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/features-flex-workspace-available-html.html" name="publishQAURL" />
+  <meta content="video" name="pageLayout" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/features-flex-workspace-available-html.html" name="publishExternalURL" />
+  <meta content="3e00d285-48ba-4c2c-b252-4c33ed889f92" name="jcr:predecessors" />
+  <meta content="Features of Flex Workspace not&amp;#xA;available in HTML Workspace" name="navTitle" />
+  <meta content="284" name="acrolinxWords" />
+  <meta content="light" name="heroGradient" />
+  <meta content="ebc0f28f-e8fc-4d69-947b-f1ca13e1b84f" name="jcr:uuid" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="" name="autotags" />
+  <meta content="" name="autotagsRejected" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-04-26T04:38:29.456-0400" name="cq:lastModified" />
+  <meta content="16" name="acrolinxSentences" />
+  <meta content="2013-02-13T03:00:00.000-0500" name="sortDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-04-26T04:38:29.455-0400" name="locHandOffDate" />
+ </head>
+ <body>
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">AEM Forms workspace is the brand new workspace. The following are some of the features of Flex-based workspace that are not available in AEM Forms workspace.</p> 
+  <ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"> 
+   <li>Welcome Page is not available. You can set Start Process, To-do, Tracking, and Favorites pages as the first page to appear when you log in workspace.<br /> </li> 
+   <li>Messages and notification for system events do not show in AEM Forms workspace. All settings corresponding to messages (like 'Message Notification View Time') are also not applicable for AEM Forms workspace.</li> 
+   <li>The view has been reorganized and now there is no distinction between card and list view, for start points and tasks.</li> 
+   <li>As there is no distinction between card and list view in AEM Forms workspace, the setting to Manage Column Headings in To-do, History, and Preferences are not available.</li> 
+   <li>The option to manage Column headings for Tracking page is not available in AEM Forms workspace.</li> 
+   <li>Setting an approval container or custom container for a user task is not honored in AEM Forms workspace.</li> 
+   <li>An option to search templates is available in the Tracking tab but not in the ToDo tab.</li> 
+  </ul> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links>
+   <a href="../../forms/using/features-html-workspace-available-flex.md">Features of AEM Forms workspace not available in Flex-based workspace</a>
+   <a href="http://www.adobe.com/go/learn_lc_workspace_11" target="_blank">Using Flex-based workspace</a>
+   <a href="http://www.adobe.com/go/learn_aemforms_admin_61" target="_blank">Administration Guide</a>
+  </related-links>
+ </body>
+</html>

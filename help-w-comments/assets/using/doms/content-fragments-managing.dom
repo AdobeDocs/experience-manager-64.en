@@ -1,0 +1,297 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="e715dfdf-7c12-48a0-989a-c4f54ec178af" name="jcr:predecessors" /> 
+  <meta content="2019-01-12T17:28:00.567-0500" name="acrolinxDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/content_fragments_managing_krs_workflow_f3c2f2ccebf6138e_117_report.xml" name="acrolinxReportURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="2019-01-02T02:53:38.708-0500" name="cq:lastReplicated" /> 
+  <meta content="Managing Content Fragments" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:content-fragments;content_type:reference" name="cq:tags" /> 
+  <meta content="Alison Heimoz" name="contentOwner" /> 
+  <meta content="1494" name="acrolinxWords" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="2018-02-14T08:01:25.711-0500" name="jcr:created" /> 
+  <meta content="107" name="acrolinxSentences" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/content-fragments;/content/help/en/experience-manager/6-4/assets/morehelp/content-fragments" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/content-fragments/managing" name="qaNotes" /> 
+  <meta content="2019-01-02T02:53:38.501-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Managing Content Fragments" name="jcr:title" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments-managing.html" name="publishExternalURL" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-01-02T02:53:38.501-0500" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-24T11:58:38.524-0400" name="locHandOffDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-01-02T02:53:38.501-0500" name="publishExternalDate" /> 
+  <meta content="ba0bcac6-19b2-4b95-b2a4-7fc49462f7ad" name="jcr:uuid" /> 
+  <meta content="2019-01-02T02:53:38.510-0500" name="cq:lastModified" /> 
+  <meta content="2017-10-31T16:35:02.970-0400" name="firstPublishExternalDate" /> 
+  <meta content="Content Fragments are stored as Assets, so are primarily managed from the Assets console." name="seoDescription" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Some Content Fragment functionality requires the application of <a href="../../release-notes/sp-release-notes.md">AEM 6.4 Service Pack 2 (6.4.2.0) or later</a>.</p> 
+  </note> 
+  <p>Content Fragments are stored as <strong>Assets</strong>, so are primarily managed from the <strong>Assets</strong> console.</p> 
+  <note> 
+   <p>Content fragments are then used with authoring pages; see <a href="../../sites/authoring/using/content-fragments.md">Page Authoring with Content Fragments</a>.</p> 
+  </note> 
+  <h2>Creating Content Fragments</h2> 
+  <h3>Creating a Content Model</h3> 
+  <p><a href="../../assets/using/content-fragments-models.md">Content fragment models</a> can be enabled and created, prior to creating content fragments with structured content.</p> 
+  <note> 
+   <p>See <a href="../../sites/developing/using/customizing-content-fragments.md">Developing Content Fragments</a> for further information on templates; used for simple content fragments.</p> 
+  </note> 
+  <h3>Creating a Content Fragment</h3> 
+  <p>The method of creating a content fragment is (basically) the same for both simple and structured fragments:</p> 
+  <ol> 
+   <li><p>Navigate to the <strong>Assets</strong> folder where you want to create the fragment.</p> </li> 
+   <li><p>Select <strong>Create</strong>, then <strong>Content Fragment</strong> to open the wizard.</p> </li> 
+   <li><p>The first step of the wizard requires you to specify the basis of the new fragment.</p> 
+    <ul> 
+     <li>This can be a: 
+      <ul> 
+       <li><a href="../../sites/developing/using/content-fragment-templates.md">Template</a> - for example <strong>Simple Fragment</strong></li> 
+       <li><a href="../../assets/using/content-fragments-models.md">Model</a> - used to create a fragment that requires structured content; for example the <strong>Airport</strong> model</li> 
+      </ul> </li> 
+     <li>All available templates and models are displayed.</li> 
+    </ul> <p>After selection, use <strong>Next</strong> to proceed.</p> <img imageRotate="0" src="assets/cfm-6420-15.png" /></li> 
+   <li><p>In the <strong>Properties</strong> step specify:</p> 
+    <ul> 
+     <li><strong>Basic</strong> 
+      <ul> 
+       <li><strong>Title</strong><br /> The fragment title.<br /> Mandatory.<br /> </li> 
+       <li><strong>Description</strong></li> 
+       <li><strong>Tags</strong></li> 
+      </ul> </li> 
+     <li><strong>Advanced</strong> 
+      <ul> 
+       <li><strong>Name</strong><br /> The name; will be used to form the URL.<br /> Mandatory; will be automatically derived from the title, but can be updated.<br /> </li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><p>Select <strong>Create</strong> to complete the action, then either <strong>Open</strong> the fragment for editing or return to the console with <strong>Done</strong>.</p> </li> 
+  </ol> 
+  <h2>Actions for a Content Fragment</h2> 
+  <p>In the <strong>Assets</strong> console a range of actions are available for your content fragments, either:</p> 
+  <ul> 
+   <li>From the toolbar; after selection of your fragment all appropriate actions are available.</li> 
+   <li>As <a href="../../sites/authoring/using/basic-handling.md#quickactions">quick actions</a>; a subset of actions available for the individual fragment cards.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/cfm-6420-17.png" /> 
+  <p>Select the fragment to reveal the toolbar with applicable actions:<br /> </p> 
+  <ul> 
+   <li><strong>Download</strong> 
+    <ul> 
+     <li>Save the fragment as a ZIP file; you can define whether to include Elements, Variations, Metadata. <strong><br /> </strong></li> 
+    </ul> </li> 
+   <li><strong>Create</strong></li> 
+   <li><strong>Checkout</strong></li> 
+   <li><strong>Properties</strong> 
+    <ul> 
+     <li>Allows you to view and/or edit the fragment's metadata.</li> 
+    </ul> </li> 
+   <li><strong>Edit</strong> 
+    <ul> 
+     <li>Allows you to <a href="../../assets/using/content-fragments-variations.md">open the fragment for editing content</a> together with its elements, variations, associated content and metadata.</li> 
+    </ul> </li> 
+   <li><strong>Manage Tags</strong></li> 
+   <li><strong>To Collection</strong> 
+    <ul> 
+     <li>Add the fragment to a collection.<br /> </li> 
+     <li>This can also be done when <a href="../../assets/using/content-fragments-assoc-content.md#addingassociatedcontent">associating a collection with the fragment</a>.</li> 
+    </ul> </li> 
+   <li><strong>Copy</strong>/<strong>Paste</strong></li> 
+   <li><strong>Move</strong></li> 
+   <li><strong>Quick Publish</strong></li> 
+   <li><strong>Manage Publication</strong></li> 
+   <li><strong>Delete</strong></li> 
+  </ul> 
+  <note> 
+   <p>Many of these are <a href="../../assets/using/managing-assets-touch-ui.md">standard actions for Assets</a> and/or the <a href="/content/help/en/experience-manager/desktop-app/aem-desktop-app">Desktop App</a>.</p> 
+  </note> 
+  <h2>Opening the Fragment Editor</h2> 
+  <p>To open your fragment for editing:</p> 
+  <note> 
+   <p>To edit a content fragment you need <a href="../../sites/developing/using/customizing-content-fragments.md#assetpermissions">the appropriate permissions</a>. Please contact your system administrator if you are experiencing issues.</p> 
+  </note> 
+  <ol> 
+   <li><p>Use the <strong>Assets</strong> console to navigate to the location of your content fragment.</p> </li> 
+   <li><p>Open the fragment for editing, by either:</p> 
+    <ul> 
+     <li>Clicking/tapping on the fragment or fragment link (this is dependent on the console view).</li> 
+     <li>Selecting the fragment, then <strong>Edit</strong> from the toolbar.</li> 
+    </ul> <p>The fragment editor will open:</p> <img imageRotate="0" src="assets/cfm-6420-18.png" /> 
+    <note> 
+     <p>1. A message will be shown when the fragment is already referenced on a content page.</p> 
+     <p>2. The side panel can be hidden/shown using the <strong>Toggle Side Panel</strong> icon.</p> 
+    </note></li> 
+   <li><p>Navigate through the three modes using the icons in the side panel:</p> 
+    <ul> 
+     <li>Variations: <a href="#editingthecontentofyourfragment">Editing the content</a> and <a href="#creatingandmanagingvariationswithinyourfragment">Managing your Variations</a></li> 
+     <li><a href="../../assets/using/content-fragments-variations.md#annotatingacontentfragment">Annotations</a></li> 
+     <li><a href="#associatingcontentwithyourfragment">Associated Content</a></li> 
+     <li><a href="#viewingandeditingthemetadataofyourfragment">Metadata</a></li> 
+    </ul> <img imageRotate="0" src="assets/cfm-10.png" /></li> 
+   <li><p>After making changes, use <strong>Save</strong> or <strong>Cancel</strong> as required.</p> 
+    <note> 
+     <p>Both <strong>Save</strong> and <strong>Cancel</strong> will exit the editor - see <a href="#savecancelandversions">Save, Cancel and Versions</a> for full information on how both options operate for content fragments.</p> 
+    </note></li> 
+  </ol> 
+  <h2>Save, Cancel and Versions</h2> 
+  <note> 
+   <p>Versions can also be <a href="/content/help/en/experience-manager/6-3/assets/using/content-fragments-managing#TimelineforContentFragments">created, compared and reverted from the Timeline</a>.<br /> </p> 
+  </note> 
+  <p>The editor has two options:</p> 
+  <ul> 
+   <li> <p>Will save the latest changes and exit the editor.</p> 
+    <note> 
+     <p>To edit a content fragment you need <a href="../../sites/developing/using/customizing-content-fragments.md#assetpermissions">the appropriate permissions</a>. Please contact your system administrator if you are experiencing issues.</p> 
+    </note> 
+    <note> 
+     <p>It is possible to remain in the editor, making a series of changes, before selecting <strong>Save</strong>.</p> 
+    </note> 
+    <note> 
+     <p>In addition to simply saving your changes, <strong>Save</strong> also updates any references and ensures that the dispatcher is flushed as required. These changes can take time to process. Due to this, there can be a performance impact on a large/complex/heavily-loaded system.</p> 
+     <p>Please bear this in mind when using <strong>Save</strong> and then quickly re-entering the fragment editor to make and save further changes.</p> 
+    </note></li> 
+   <li> <p>Will exit the editor without saving the latest changes.</p> </li> 
+  </ul> 
+  <p>While editing your content fragment AEM automatically creates versions to ensure that prior content can be restored if you <strong>Cancel</strong> your changes:</p> 
+  <ol> 
+   <li><p>When a content fragment is opened for editing AEM checks for the existence of the cookie-based token that indicates whether an <i>editing session </i>exists:<br /> </p> 
+    <ol> 
+     <li>If the token is found, the fragment is considered to be part of the existing editing session.</li> 
+     <li>If the token is <i>not</i> available and the user starts editing content, a version is created and a token for this new editing session is sent to the client, where it is saved in a cookie.</li> 
+    </ol> </li> 
+   <li><p>While there is an <i>active</i> editing session, the content being edited is automatically saved every 600 seconds (default).</p> 
+    <note> 
+     <p>The auto save interval is configurable using the <span class="code">/conf</span> mechanism.</p> 
+     <p>Default value, see:</p> 
+     <p><span class="code">/libs/settings/dam/cfm/jcr:content/autoSaveInterval</span></p> 
+    </note></li> 
+   <li><p>If the user selects to <strong>Cancel</strong> the edit, the version created at the start of the editing session is restored and the token is removed to end the editing session.</p> </li> 
+   <li><p>If the user selects to <strong>Save</strong> the edits, the updated elements/variations are persisted and the token is removed to end the editing session.</p> </li> 
+  </ol> 
+  <h2>Editing the Content of your Fragment</h2> 
+  <p>Once you have opened your fragment, you can use the <a href="../../assets/using/content-fragments-variations.md">Variations</a> tab to author your content.</p> 
+  <h2>Creating and Managing Variations within your Fragment</h2> 
+  <p>Once you have created the Master content, you can create, and manage, <a href="../../assets/using/content-fragments-variations.md">Variations</a> of that content.</p> 
+  <h2>Associating Content with your Fragment</h2> 
+  <p>You can also <a href="../../assets/using/content-fragments-assoc-content.md">associate content</a> with a fragment. This provides a connection so that assets (i.e. images) can be (optionally) used with the fragment when it is added to a content page.</p> 
+  <h2>Viewing and Editing the Metadata (Properties) of your Fragment</h2> 
+  <p>You can view, and edit, the properties of a fragment using the <a href="../../assets/using/content-fragments-metadata.md">Metadata</a> tab.</p> 
+  <h2>Timeline for Content Fragments</h2> 
+  <p>In addition to the standard options, <a href="../../assets/using/managing-assets-touch-ui.md#timeline">Timeline</a> provides both information and actions specific to content fragments:</p> 
+  <ul> 
+   <li>View information about versions, comments, and annotations</li> 
+   <li>Actions for Versions 
+    <ul> 
+     <li><strong><a href="#revertingtoaversion">Revert to this Version</a></strong> (select an existing fragment, then a specific version)<br /> </li> 
+     <li><strong><a href="#comparingfragmentversions">Compare to Current</a></strong> (select an existing fragment, then a specific version)<br /> </li> 
+     <li>Add a <strong>Label</strong> and/or <strong>Comment</strong> (select an existing fragment, then a specific version)<br /> </li> 
+     <li><strong>Save as Version</strong> (select an existing fragment, then the up arrow at the bottom of Timeline)</li> 
+    </ul> </li> 
+   <li>Actions for Annotations 
+    <ul> 
+     <li><strong>Delete</strong></li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>Comments are:</p> 
+   <ul> 
+    <li>Standard functionality for all assets</li> 
+    <li>Made in Timeline</li> 
+    <li>Related to the fragment asset</li> 
+   </ul> 
+   <div>
+     Annotations (for Content Fragments) are: 
+   </div> 
+   <ul> 
+    <li>Entered in the fragment editor</li> 
+    <li>Specific to a selected segment of text within the fragment</li> 
+   </ul> 
+  </note> 
+  <p>For example:</p> 
+  <img imageRotate="0" src="assets/cfm-6420-19.png" /> 
+  <h2>Comparing Fragment Versions</h2> 
+  <p>The <strong>Compare to Current</strong> action is available from the <a href="/content/help/en/experience-manager/6-3/assets/using/content-fragments-managing#TimelineforContentFragments">Timeline</a> after you have selected a specific version.</p> 
+  <p>This will open:</p> 
+  <ul> 
+   <li>the <strong>Current</strong> (latest) version (left)<br /> </li> 
+   <li>the selected version <strong>v&amp;lt;<em>x.y</em>&amp;gt;</strong> (right)</li> 
+  </ul> 
+  <div>
+    They will be shown side-by-side, where: 
+  </div> 
+  <ul> 
+   <li>Any differences are highlighted 
+    <ul> 
+     <li>Deleted text - red</li> 
+     <li>Inserted text - green<br /> </li> 
+     <li>Replaced text - blue</li> 
+    </ul> </li> 
+   <li>The full-screen icon allows you to open either version on its own; then toggle back to the parallel view</li> 
+   <li>You can <strong>Revert</strong> to the specific version</li> 
+   <li><strong>Done</strong> will return you to the console</li> 
+  </ul> 
+  <note> 
+   <p>You cannot edit the fragment content when comparing fragments.</p> 
+  </note> 
+  <img imageRotate="0" src="assets/cfm-6420-20.png" /> 
+  <h2>Reverting to a Version </h2> 
+  <p>You can revert to a specific version of your fragment:</p> 
+  <ul> 
+   <li>Directly from the <a href="../../assets/using/content-fragments-managing.md#timelineforcontentfragments">Timeline</a>.<br /> Select the required version, then the <strong>Revert to this Version</strong> action.</li> 
+   <li>While <a href="../../assets/using/content-fragments-managing.md#comparingfragmentversions">comparing a version to the current version</a> you can <strong>Revert</strong> to the selected version.<br /> </li> 
+  </ul> 
+  <h2>Publishing and Referencing a Fragment</h2> 
+  <note> 
+   <p>If your fragment is based on a model, then you should ensure that the <a href="../../assets/using/content-fragments-models.md#publishingacontentfragmentmodel">model has been published</a>.</p> 
+   <p>If you publish a content fragment for which the model has not yet been published, a selection list will indicate this and the model will be published with the fragment.</p> 
+  </note> 
+  <p>Content Fragments must be published for use in the publish enviroment. They can be published:</p> 
+  <ul> 
+   <li>After creation; from the <strong>Assets</strong> console.</li> 
+   <li>When you <a href="../../sites/authoring/using/content-fragments.md#publishing">publish a page that uses the fragment</a>; the fragment will be listed in the page references.<br /> </li> 
+  </ul> 
+  <note> 
+   <p>After a fragment has been published and/or referenced, AEM will display a warning when an author opens the fragment for editing again. This is to warn that changes to the fragment will affect the referenced pages as well.<br /> </p> 
+  </note> 
+  <draft-comment type="draft"> 
+   <note type="note"> 
+    <p>Content fragments cannot be published to the Brand Portal interface. Therefore, if you select content fragment(s) on AEM Author, then <strong>Publish to Brand Portal</strong> action is not available.</p> 
+   </note> 
+  </draft-comment> 
+  <h2>Deleting a Fragment</h2> 
+  <p>To delete a fragment:</p> 
+  <ol> 
+   <li><p>In the <strong>Assets</strong> console navigate to the location of the content fragment.</p> </li> 
+   <li><p>Select the fragment.</p> 
+    <note> 
+     <p>The <strong>Delete</strong> action is not available as a quick action.</p> 
+    </note></li> 
+   <li><p>Select <strong>Delete</strong> from the toolbar.</p> </li> 
+   <li><p>Confirm the <strong>Delete</strong> action.</p> 
+    <note> 
+     <p>If the fragment is already referenced in a page you will then see a warning message and be required to confirm that you want to proceed with a <strong>Force Delete</strong>. The fragment, together with its content fragment component, will be deleted from any content pages.</p> 
+    </note></li> 
+  </ol> 
+ </body> 
+</html>

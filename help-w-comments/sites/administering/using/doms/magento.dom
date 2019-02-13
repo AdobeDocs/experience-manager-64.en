@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="426x240" name="modalSize" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/magento.html" name="publishExternalURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Administering Magento" name="pageTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Magento" name="navTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/ecommerce/magento" name="qaNotes" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T07:04:34.713-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="62701e31-8e6d-4867-8dbd-71053ce67ecf" name="jcr:uuid" /> 
+  <meta content="2018-04-26T10:12:43.277-0400" name="cq:lastModified" /> 
+  <meta content="2017-12-01T19:01:39.050-0500" name="jcr:created" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/e-commerce;/content/help/en/experience-manager/6-4/sites/administering/morehelp/e-commerce" name="moreHelpPaths" /> 
+  <meta content="2018-04-03T07:04:34.713-0400" name="lastPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="96573c74-5c62-464b-8205-8685f5dc76e4" name="jcr:predecessors" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Magento" name="seoTitle" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:e-commerce;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-03T07:04:34.713-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-31T16:24:49.405-0400" name="firstPublishExternalDate" /> 
+  <meta content="inherit" name="hideMerchandisingBar" /> 
+  <meta content="inherit" name="hidePromoComponent" /> 
+  <meta content="no" name="groupSectionNavItems" /> 
+  <meta content="2018-10-27T23:45:20.682-0400" name="cq:lastReplicated" /> 
+  <meta content="Learn how to use AEM with Magento." name="seoDescription" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-26T10:12:43.277-0400" name="locHandOffDate" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Magento" name="jcr:title" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+ </head> 
+ <body> 
+  <h2>Registration</h2> 
+  <p>You can create a registration form using the <a href="../../../sites/authoring/using/default-components-foundation.md#form">foundation form component</a> and add the necessary fields.<br /> Make sure you select <strong>Magento Registration</strong> as the action type.<a href="../../../sites/authoring/using/default-components-foundation.md#form"></a></p> 
+  <h2>Product/Catalog Import</h2> 
+  <p>You can re-import catalog blueprint and products from your Magento server by using the <a href="../../../sites/administering/using/generic.md#importingproducts">standard blueprint import procedure</a>.<br /> You just need to select the <strong>Magento2</strong> importer.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-43.jpeg" /> 
+  <h2>Order-Service</h2> 
+  <p>You can add a new mapping to the Apache Sling Service User Mapper Service Amendment. To do that:</p> 
+  <ol> 
+   <li><p>Navigate to <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</p> </li> 
+   <li><p>Click <strong>Apache Sling Service User Mapper Service Amendment</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-44.jpeg" /></li> 
+   <li><p>Enter the following information:</p> 
+    <ul> 
+     <li><p><strong>Ranking</strong>: 0</p> </li> 
+     <li><p><strong>Service Mapping</strong>: com.infield.aem.magento2.core:orders=commerce-orders-service</p> </li> 
+    </ul> </li> 
+   <li><p>Click <strong>Save</strong>.</p> </li> 
+  </ol> 
+ </body> 
+</html>

@@ -1,0 +1,290 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2019-01-07T06:43:11.103-0500" name="locHandOffDate" /> 
+  <meta content="2019-02-01T04:14:48.886-0500" name="cq:lastModified" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management" name="moreHelpPaths" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:correspondence-management" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2019-01-03T05:46:25.220-0500" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="96374f00-fded-4818-afae-6f88509c607e" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Learn how to add custom action/button in Create Correspondence UI" name="seoDescription" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="Add custom action/button in Create Correspondence UI" name="jcr:title" /> 
+  <meta content="2017-12-01T19:06:50.852-0500" name="jcr:created" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/add-action-button-in-create-correspondence-ui.html" name="publishExternalURL" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="36aa7771-0a91-4867-96a5-07f1b743bea1" name="jcr:predecessors" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/add_action_button_in_create_correspondence_ui_admin_5e12de0b318c6865_1950_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2019-01-03T05:46:25.169-0500" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="145" name="acrolinxSentences" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2016-04-20T09:28:55.019-0400" name="firstPublishExternalDate" /> 
+  <meta content="2015-11-29T11:07:05.993-0500" name="lastPublishQADate" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="anujkapo" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-01-03T05:46:25.169-0500" name="lastPublishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2152" name="acrolinxWords" /> 
+  <meta content="2019-01-03T05:46:25.169-0500" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="anujkapo" name="cq:lastModifiedBy" /> 
+  <meta content="2016-05-31T06:31:41.520-0400" name="acrolinxDate" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>The Correspondence Management solution allows you add custom actions to the Create Correspondence user interface.</p> 
+  <p>The scenario in this document explains how you can create a button in the Create Correspondence User Interface to share a letter as a review PDF attached to an email.</p> 
+  <h3>Prerequisites</h3> 
+  <p>To complete this scenario, you require the following:</p> 
+  <ul> 
+   <li>Knowledge of CRX and JavaScript</li> 
+   <li>LiveCycle Server</li> 
+  </ul> 
+  <h2>Scenario: Create the button in the Create Correspondence User Interface to send a letter for review</h2> 
+  <p>Adding a button with an action (here send letter for review) to the Create Correspondence User Interface includes:</p> 
+  <ol> 
+   <li>Adding the button to the Create Correspondence User Interface</li> 
+   <li>Adding action handling to the button</li> 
+   <li>Adding the LiveCycle process to enable action <span class="acrolinxCursorMarker"></span>handling</li> 
+  </ol> 
+  <h3>Add the button to the Create Correspondence user interface</h3> 
+  <ol> 
+   <li><p>Go to <span class="code">http://[server]:[port]/[ContextPath]/crx/de</span> and login as Administrator.</p> </li> 
+   <li><p>In the apps folder, create a folder named <span class="code">defaultApp</span> with path/structure similar to the defaultApp folder (located in config folder). Use the following steps to create the folder:</p> 
+    <ol> 
+     <li><p>Right-click the <strong>defaultApp</strong> folder at the following path and select <strong>Overlay Node</strong>: </p> <p>/libs/fd/cm/config/defaultApp/<br /> </p> <img alt="Overlay node" imageRotate="0" src="assets/1_defaultapp.png" title="Overlay node" /></li> 
+     <li><p>Ensure that the Overlay Node dialog has the following values:</p> <p><strong>Path:</strong> /libs/fd/cm/config/defaultApp/</p> <p><strong>Overlay Location:</strong> /apps/</p> <p><strong>Match Node Types:</strong> Checked</p> <img alt="Overlay node" imageRotate="0" src="assets/2_defaultappoverlaynode.png" title="Overlay node" /></li> 
+     <p>Click <strong>OK</strong>.</p> 
+     <li><p>Click <strong>Save All</strong>.</p> </li> 
+    </ol></li> 
+   <li><p>Make a copy of the acmExtensionsConfig.xml file (exists under the /libs branch) under the /apps branch.<br /> </p> 
+    <ol> 
+     <li><p>Go to "/libs/fd/cm/config/defaultApp/acmExtensionsConfig.xml"<br /> </p> </li> 
+     <li><p>Right click the acmExtensionsConfig.xml file and select <strong>Copy</strong>.</p> <img alt="Copy acmExtensionsConfig.xml" imageRotate="0" src="assets/3_acmextensionsconfig_xml_copy.png" title="Copy acmExtensionsConfig.xml" /></li> 
+     <li><p>Right-click the <strong>defaultApp</strong> folder at "/apps/fd/cm/config/defaultApp/," and select <strong>Paste</strong>.</p> </li> 
+     <li><p>Click <strong>Save All</strong>.</p> </li> 
+    </ol></li> 
+   <li><p>Double-click the copy of acmExtentionsConfig.xml you have newly created in the apps folder. The file opens for editing. </p> </li> 
+   <li><p>Locate the following code:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="utf-8"?&gt;!!discoiqbr!!&lt;extensionsConfig&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;modelExtensions&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;modelExtension&amp;nbsp;type="LetterInstance"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;customAction&amp;nbsp;name="Preview"&amp;nbsp;label="loc.letterInstance.preview.label"&amp;nbsp;tooltip="loc.letterInstance.preview.tooltip"&amp;nbsp;styleName="previewButton"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;customAction&amp;nbsp;name="Submit"&amp;nbsp;label="loc.letterInstance.submit.label"&amp;nbsp;tooltip="loc.letterInstance.submit.tooltip"&amp;nbsp;styleName="submitButton"&amp;nbsp;permissionName="forms-users"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;customAction&amp;nbsp;name="SaveAsDraft"&amp;nbsp;label="loc.letterInstance.saveAsDraft.label"&amp;nbsp;tooltip="loc.letterInstance.saveAsDraft.tooltip"&amp;nbsp;styleName="submitButton"&amp;nbsp;permissionName="forms-users"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;customAction&amp;nbsp;name="Close"&amp;nbsp;label="loc.letterInstance.close.label"&amp;nbsp;tooltip="loc.letterInstance.close.tooltip"&amp;nbsp;styleName="closeButton"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/modelExtension&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/modelExtensions&gt;!!discoiqbr!!&lt;/extensionsConfig&gt;&amp;nbsp; 
+    </codeblock></li> 
+   <li><p>To email letter, you can use LiveCycle Forms Workflow. Add a customAction tag under the modelExtension tag in acmExtensionsConfig.xml as following:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &amp;nbsp;&lt;customAction&amp;nbsp;name="Letter&amp;nbsp;Review"&amp;nbsp;label="Letter&amp;nbsp;Review"&amp;nbsp;tooltip="Letter&amp;nbsp;Review"&amp;nbsp;styleName=""&amp;nbsp;permissionName="forms-users"&amp;nbsp;actionHandler="CM.domain.CCRCustomActionHandler"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;serviceName&gt;Forms&amp;nbsp;Workflow&amp;nbsp;-&gt;&amp;nbsp;SendLetterForReview/SendLetterForReviewProcess&lt;/serviceName&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/customAction&gt; 
+    </codeblock><img alt="customAction tag" imageRotate="0" src="assets/5_acmextensionsconfig_xml.png" title="customAction tag" /><p>The modelExtension tag has a set of customAction child tags that configure the action, permissions, and appearance of the action button. Following is the list of customAction configuration tags:</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td><strong>Name</strong></td> 
+       <td><strong>Description</strong></td> 
+      </tr> 
+      <tr> 
+       <td>name</td> 
+       <td>The alphanumeric name for the action to perform. Value of this tag is required, must be unique (within the modelExtension tag), and must start with an alphabet. </td> 
+      </tr> 
+      <tr> 
+       <td>label</td> 
+       <td>The label to display on the action button</td> 
+      </tr> 
+      <tr> 
+       <td>tooltip</td> 
+       <td>Tool tip text of the button, which is displayed when the user hovers over the button.</td> 
+      </tr> 
+      <tr> 
+       <td>styleName</td> 
+       <td>Name of the custom style that is applied on the action button. </td> 
+      </tr> 
+      <tr> 
+       <td>permissionName</td> 
+       <td>The corresponding action is displayed only if user has the permission specified by permissionName. When you specify permissionName as <span class="code">forms-users</span>, all the users get access to this option.</td> 
+      </tr> 
+      <tr> 
+       <td>actionHandler</td> 
+       <td>Fully qualified name of the ActionHandler class that is called when user clicks the button.</td> 
+      </tr> 
+     </tbody> 
+    </table> <p>Apart from the above parameters, there can be additional configurations associated with a customAction. These additional configurations are made available to the handler through the CustomAction object.</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td><strong>Name</strong></td> 
+       <td><strong>Description</strong></td> 
+      </tr> 
+      <tr> 
+       <td>serviceName </td> 
+       <td>If a customAction contains a child tag with name serviceName, then on clicking of the relevant button/link, a process is called with the name represented by serviceName tag. Ensure this process has the same signature as the Letter PostProcess. Add "Forms Workflow -&gt;" prefix in service name.</td> 
+      </tr> 
+      <tr> 
+       <td>Parameters containing cm_ prefix in tag name</td> 
+       <td>If a customAction contains a child tags starting with name cm_, then in post process (be it Letter Post Process or the special process represented by serviceName tag) these parameters are available in the input XML code under the relevant tag with cm_ prefix removed.</td> 
+      </tr> 
+      <tr> 
+       <td>actionName</td> 
+       <td>Whenever a post process is due to a click, submitted XML contains a special tag with name under the tag with the name of the user action.</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li><p>Click <strong>Save All</strong>.</p> </li> 
+  </ol> 
+  <h4>Create a locale folder with properties file in the /apps branch</h4> 
+  <p>The ACMExtensionsMessages.properties file includes labels and tooltip messages of various fields in Create Correspondence user interface. For the customized actions/buttons to work, make a copy of this file in the /apps branch.</p> 
+  <ol> 
+   <li><p>Right-click the <strong>locale </strong>folder at the following path and select <strong>Overlay Node</strong>: </p> <p>/libs/fd/cm/config/defaultApp/locale<br /> </p> </li> 
+   <li><p>Ensure that the Overlay Node dialog has the following values:</p> <p><strong>Path:</strong> /libs/fd/cm/config/defaultApp/locale</p> <p><strong>Overlay Location:</strong> /apps/</p> <p><strong>Match Node Types:</strong> Checked</p> </li> 
+   <p>Click <strong>OK</strong>.</p> 
+   <li><p>Click <strong>Save All</strong>.</p> </li> 
+   <li><p>Right-click the following file and select <strong>Copy</strong>: </p>  </li> 
+   <li><p>Right-click the <strong>locale </strong>folder at the following path and select <strong>Paste</strong>:</p>  <p>ACMExtensionsMessages.properties file is copied in the locale folder.</p> </li> 
+   <li><p>To localize the labels of the newly added custom action/button, create the ACMExtensionsMessages.properties file for the relevant locale in <span class="code">/apps/fd/cm/config/defaultApp/locale/</span>.</p> <p>For example, for localizing the custom action/button created in this article, create a file named ACMExtensionsMessages_fr.properties with the following entry:</p>  <p>Similarly, you can add more properties, such as for tooltip and style, in this file. <br /> </p> </li> 
+   <li><p>Click <strong>Save All</strong>.</p> </li> 
+  </ol> 
+  <h4>Restart the Adobe Asset Composer Building Block bundle</h4> 
+  <p>After making every server-side change, restart the Adobe Asset Composer Building Block bundle. In this scenario, the acmExtensionsConfig.xml and ACMExtensionsMessages.properties files on the server-side are edited, and hence the Adobe Asset Composer Building Block bundle requires a restart.</p> 
+  <note> 
+   <p>You may need to clear the browser cache.</p> 
+  </note> 
+  <ol> 
+   <li><p>Go to <span class="code">http://[host]:[port]/system/console/bundles</span>. If necessary, log in as Administrator.<br /> </p> </li> 
+   <li><p>Locate the Adobe Asset Composer Building Block bundle. Restart the bundle: click Stop and then click Start.<br /> <br /> </p> <img alt="Adobe Asset Composer Building Block" imageRotate="0" src="assets/6_assetcomposerbuildingblockbundle.png" title="Adobe Asset Composer Building Block" /></li> 
+  </ol> 
+  <p>After restarting the Adobe Asset Composer Building Block bundle, the custom button appears in the Create Correspondence User Interface. You can open a letter in the Create Correspondence User Interface to preview the custom button.</p> 
+  <h3>Add action handling to the button</h3> 
+  <p>The Create Correspondence user interface by default has implementation of ActionHandler in the cm.domain.js file at the following location:</p> 
+  <p>/libs/fd/cm/ccr/gui/components/admin/clientlibs/ccr/js/cm.domain.js</p> 
+  <p>For custom action handling, create an overlay of the cm.domain.js file in the /apps branch of CRX. </p> 
+  <p>Handling the action/button on clicking action/button includes logic for: </p> 
+  <ul> 
+   <li>Making the newly added action as visibe/invisible: done by overriding the actionVisible() function.</li> 
+   <li>Enabling/disabling newly added action: done by overriding the actionEnabled() function.</li> 
+   <li>Actual handling of action when user clicks the button: done by overriding the implementation of the handleAction() function.<br /> </li> 
+  </ul> 
+  <ol> 
+   <li><p>Go to <span class="code">http://[server]:[port]/[ContextPath]/crx/de</span>. If necessary, log in as Administrator.<br /> </p> </li> 
+   <li><p>In the apps folder, create a folder named <span class="code">js</span> in the /apps branch of CRX with structure similar to the following folder:</p>  <p>Use the following steps to create the folder:<br /> </p> 
+    <ol> 
+     <li><p>Right-click the <strong>js</strong> folder at the following path and select <strong>Overlay Node</strong>: </p>  </li> 
+     <li><p>Ensure that the Overlay Node dialog has the following values:</p> <p><strong>Path:</strong> /libs/fd/cm/ccr/gui/components/admin/clientlibs/ccrui/js</p> <p><strong>Overlay Location:</strong> /apps/</p> <p><strong>Match Node Types:</strong> Checked</p> </li> 
+     <p>Click <strong>OK</strong>.</p> 
+     <li><p>Click <strong>Save All</strong>.</p> </li> 
+    </ol></li> 
+   <li><p>In the js folder, create a file named ccrcustomization.js with the code for action handling of the button using the following steps:<br /> </p> 
+    <ol> 
+     <li><p>Right-click the <strong>js</strong> folder at the following path and select <strong>Create &amp;gt; Create File</strong>: </p>  <p>Name the file as ccrcustomization.js.</p> </li> 
+     <li><p>Double-click the ccrcustomization.js file to open it in CRX.</p> </li> 
+     <li><p>In the file, paste the following code and click <strong>Save All</strong>:</p> 
+      <codeblock gutter="true" lineWrap="true" class="syntax js">
+        /*&amp;nbsp;&amp;nbsp;for&amp;nbsp;adding&amp;nbsp;and&amp;nbsp;handling&amp;nbsp;custom&amp;nbsp;actions&amp;nbsp;in&amp;nbsp;Extensible&amp;nbsp;Toolbar.!!discoiqbr!!&amp;nbsp;&amp;nbsp;*&amp;nbsp;One&amp;nbsp;instance&amp;nbsp;of&amp;nbsp;handler&amp;nbsp;will&amp;nbsp;be&amp;nbsp;created&amp;nbsp;for&amp;nbsp;each&amp;nbsp;action.!!discoiqbr!!&amp;nbsp;&amp;nbsp;*&amp;nbsp;CM.domain.CCRCustomActionHandler&amp;nbsp;is&amp;nbsp;actionHandler&amp;nbsp;class.!!discoiqbr!!&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!var&amp;nbsp;CCRCustomActionHandler;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CCRCustomActionHandler&amp;nbsp;=&amp;nbsp;CM.domain.CCRCustomActionHandler&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Class({!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;className:&amp;nbsp;'CCRCustomActionHandler',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;extend:&amp;nbsp;CCRDefaultActionHandler,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;construct&amp;nbsp;:&amp;nbsp;function(action,model){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;Called&amp;nbsp;when&amp;nbsp;user&amp;nbsp;user&amp;nbsp;click&amp;nbsp;an&amp;nbsp;action!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;extraParams&amp;nbsp;additional&amp;nbsp;arguments&amp;nbsp;that&amp;nbsp;may&amp;nbsp;be&amp;nbsp;passed&amp;nbsp;to&amp;nbsp;handler&amp;nbsp;(For&amp;nbsp;future&amp;nbsp;use)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CCRCustomActionHandler.prototype.handleAction&amp;nbsp;=&amp;nbsp;function(extraParams){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(this.action.name&amp;nbsp;==&amp;nbsp;CCRCustomActionHandler.SEND_FOR_REVIEW)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;sendForReview&amp;nbsp;=&amp;nbsp;function(){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;serviceName&amp;nbsp;=&amp;nbsp;this.action.actionConfig["serviceName"];!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;inputParams&amp;nbsp;=&amp;nbsp;{};!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;inputParams["dataXML"]&amp;nbsp;=&amp;nbsp;this.model.iccData.data;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;inputParams["letterId"]&amp;nbsp;=&amp;nbsp;this.letterVO.id;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;inputParams["letterName"]&amp;nbsp;=&amp;nbsp;this.letterVO.name;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;inputParams["mailId"]&amp;nbsp;=&amp;nbsp;$('#email').val();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*function&amp;nbsp;to&amp;nbsp;invoke&amp;nbsp;the&amp;nbsp;LivecyleService&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ServiceDelegate.callJSONService(this,"lc.icc.renderlib.serviceInvoker.json","invokeProcess",[serviceName,inputParams],this.onProcessInvokeComplete,this.onProcessInvokeFail);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$('#ccraction').modal("hide");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if($('#ccraction').length&amp;nbsp;==&amp;nbsp;0){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*For&amp;nbsp;first&amp;nbsp;click&amp;nbsp;adding&amp;nbsp;popup&amp;nbsp;&amp;&amp;nbsp;setting&amp;nbsp;letterName.*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$("body").append(popUp);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$("input[id*='letterName']").val(this.letterVO.name);&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$(document).on('click',"#submitLetter",$.proxy(&amp;nbsp;sendForReview,&amp;nbsp;this&amp;nbsp;));!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$('#ccraction').modal("show");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;};!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;Should&amp;nbsp;the&amp;nbsp;action&amp;nbsp;be&amp;nbsp;enabled&amp;nbsp;in&amp;nbsp;toolbar!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;extraParams&amp;nbsp;additional&amp;nbsp;arguements&amp;nbsp;that&amp;nbsp;may&amp;nbsp;be&amp;nbsp;passed&amp;nbsp;to&amp;nbsp;handler&amp;nbsp;(For&amp;nbsp;future&amp;nbsp;use)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@return&amp;nbsp;flag&amp;nbsp;indicating&amp;nbsp;whether&amp;nbsp;the&amp;nbsp;action&amp;nbsp;should&amp;nbsp;be&amp;nbsp;enabled!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;CCRCustomActionHandler.prototype.actionEnabled&amp;nbsp;=&amp;nbsp;function(extraParams){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*can&amp;nbsp;be&amp;nbsp;customized&amp;nbsp;as&amp;nbsp;per&amp;nbsp;user&amp;nbsp;requirement*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;true;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;};!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;Should&amp;nbsp;the&amp;nbsp;action&amp;nbsp;be&amp;nbsp;visible&amp;nbsp;in&amp;nbsp;toolbar!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;extraParams&amp;nbsp;additional&amp;nbsp;arguments&amp;nbsp;that&amp;nbsp;may&amp;nbsp;be&amp;nbsp;passed&amp;nbsp;to&amp;nbsp;handler&amp;nbsp;(For&amp;nbsp;future&amp;nbsp;use)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;@return&amp;nbsp;flag&amp;nbsp;indicating&amp;nbsp;whether&amp;nbsp;the&amp;nbsp;action&amp;nbsp;should&amp;nbsp;be&amp;nbsp;enabled!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CCRCustomActionHandler.prototype.actionVisible&amp;nbsp;=&amp;nbsp;function(extraParams){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*Check&amp;nbsp;can&amp;nbsp;be&amp;nbsp;enabled&amp;nbsp;for&amp;nbsp;Non-Preview&amp;nbsp;Mode.*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;true;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;};!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*SuccessHandler*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CCRCustomActionHandler.prototype.onProcessInvokeComplete&amp;nbsp;=&amp;nbsp;function(response)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ErrorHandler.showSuccess("Letter&amp;nbsp;Sent&amp;nbsp;for&amp;nbsp;Review");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;};!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*FaultHandler*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CCRCustomActionHandler.prototype.onProcessInvokeFail&amp;nbsp;=&amp;nbsp;function(event)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ErrorHandler.showError(event.message);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;};!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CCRCustomActionHandler.SEND_FOR_REVIEW&amp;nbsp;&amp;nbsp;=&amp;nbsp;"Letter&amp;nbsp;Review";!!discoiqbr!!/*For&amp;nbsp;PopUp*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;popUp&amp;nbsp;=&amp;nbsp;'&lt;div&amp;nbsp;class="modal&amp;nbsp;fade"&amp;nbsp;id="ccraction"&amp;nbsp;tabindex="-1"&amp;nbsp;role="dialog"&amp;nbsp;aria-hidden="true"&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;div&amp;nbsp;class="modal-dialog&amp;nbsp;modal-sm"&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;div&amp;nbsp;class="modal-content"&gt;'&amp;nbsp;+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;div&amp;nbsp;class="modal-header"&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;button&amp;nbsp;type="button"&amp;nbsp;class="close"&amp;nbsp;data-dismiss="modal"&amp;nbsp;aria-label="Close"&gt;&lt;span&amp;nbsp;aria-hidden="true"&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;h4&amp;nbsp;class="modal-title"&gt;&amp;nbsp;Send&amp;nbsp;Review&amp;nbsp;&lt;/h4&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;/div&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;div&amp;nbsp;class="modal-body"&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;form&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;div&amp;nbsp;class="form-group"&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;label&amp;nbsp;class="control-label"&gt;Email&amp;nbsp;Id&lt;/label&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;input&amp;nbsp;type="text"&amp;nbsp;class="form-control"&amp;nbsp;id="email"&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;/div&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;div&amp;nbsp;class="form-group"&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;label&amp;nbsp;&amp;nbsp;class="control-label"&gt;Letter&amp;nbsp;Name&lt;/label&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;input&amp;nbsp;id="letterName"&amp;nbsp;type="text"&amp;nbsp;class="form-control"&amp;nbsp;readonly&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;/div&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;div&amp;nbsp;class="form-group"&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;input&amp;nbsp;id="letterData"&amp;nbsp;type="text"&amp;nbsp;class="form-control&amp;nbsp;hide"&amp;nbsp;readonly&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;/div&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;/form&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;/div&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;div&amp;nbsp;class="modal-footer"&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;button&amp;nbsp;type="button"&amp;nbsp;class="btn&amp;nbsp;btn-default"&amp;nbsp;data-dismiss="modal"&gt;&amp;nbsp;Cancel&amp;nbsp;&lt;/button&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;button&amp;nbsp;type="button"&amp;nbsp;class="btn&amp;nbsp;btn-primary"&amp;nbsp;id="submitLetter"&gt;&amp;nbsp;Submit&amp;nbsp;&lt;/button&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;/div&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;/div&gt;'+!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'&lt;/div&gt;'+!!discoiqbr!!'&lt;/div&gt;'; 
+      </codeblock></li> 
+    </ol></li> 
+  </ol> 
+  <h3>Add the LiveCycle process to enable action &lt;span class="acrolinxCursorMarker"&gt;&lt;/span&gt;handling</h3> 
+  <p>In this scenario, enable the following components, which are a part of the attached components.zip file:</p> 
+  <ul> 
+   <li>DSC component jar (DSCSample.jar)</li> 
+   <li>Send letter for review process LCA (SendLetterForReview.lca)</li> 
+  </ul> 
+  <div>
+    Download and unzip the components.zip file to get DSCSample.jar and SendLetterForReview.lca files. Use these files as specified in the following procedures. 
+  </div> 
+  <div> 
+   <p>components.zip</p> 
+   <p><a alt="components.zip" href="assets/components.zip">Get File</a></p> 
+  </div> 
+  <h4>Configure the LiveCycle Server to run the LCA process</h4> 
+  <note> 
+   <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">This step is required only if you are on an<span class="acrolinxCursorMarker"></span> OSGI setup and LC integration is required for the type of customization you are implementing. </p> 
+  </note> 
+  <p>The LCA process runs on the LiveCycle server and requires the server address and the login credentials.</p> 
+  <ol> 
+   <li><p>Go to <span class="code">http://[server]:[port]/system/console/configMgr</span> and login as Administrator.</p> </li> 
+   <li><p>Locate Adobe LiveCycle Client SDK Configuration and click <strong>Edit</strong> (edit icon). The Configurations panel opens.<br /> </p> </li> 
+   <li><p>Enter the following details and click <strong>Save</strong>:</p> 
+    <ul> 
+     <li><strong>Server Url</strong>: URL of the LC server whose Send For Review service the action handler code uses.</li> 
+     <li><strong>Username</strong>: Admin user name of the LC server </li> 
+     <li><strong>Password</strong>: Password of the Admin user name</li> 
+    </ul> <img alt="Adobe LiveCycle Client SDK Configuration" imageRotate="0" src="assets/3_clientsdkconfiguration.png" title="Adobe LiveCycle Client SDK Configuration" /></li> 
+  </ol> 
+  <h4>Install LiveCycle Archive (LCA)</h4> 
+  <p>The required LiveCycle process that enables email service process.</p> 
+  <note> 
+   <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">To view what this process does or to create a similar process of your own, you need Workbench.</p> 
+  </note> 
+  <ol> 
+   <li><p>Log in as Administrator to Livecycle Server adminui at <span class="code">http:/[lc server]/:[lc port]/adminui</span>.<br /> </p> </li> 
+   <li><p>Navigate to <strong>Home &amp;gt; Services &amp;gt; Applications and Services &amp;gt; Application Management</strong>.<br /> </p> </li> 
+   <li><p>If SendLetterForReview application is already present, skip the remaining steps in this procedure, otherwise continue to the next steps.<br /> </p> <img alt="SendLetterForReview application in the UI" imageRotate="0" src="assets/12_applicationmanagementlc.png" title="SendLetterForReview application in the UI" /></li> 
+   <li><p>Click <strong>Import</strong>. <br /> </p> </li> 
+   <li><p>Click <strong>Choose File</strong> and select SendLetterForReview.lca.<br /> </p> <img alt="Select SendLetterForReview.lca file" imageRotate="0" src="assets/14_sendletterforreview_lca.png" title="Select SendLetterForReview.lca file" /></li> 
+   <li><p>Click <strong>Preview</strong>. <br /> </p> </li> 
+   <li><p>Select <strong>Deploy assets to runtime when import is complete</strong>.<br /> </p> </li> 
+   <li><p>Click <strong>Import</strong>. </p> </li> 
+  </ol> 
+  <h4>Adding ServiceName to the WhiteListed Service list</h4> 
+  <p>Mention in the AEM server the LiveCycle services you want to access the AEM server.</p> 
+  <ol> 
+   <li><p>Log in as Administrator to <span class="code">http:/[host]/:[port]/system/console/configMgr</span>.<br /> </p> </li> 
+   <li><p>Locate and click <strong>Adobe LiveCycle Client SDK Configuration</strong>. The Adobe LiveCycle Client SDK Configuration panel appears. </p> </li> 
+   <li><p>In the Service Name list, click + icon and add a serviceName <strong>SendLetterForReview/SendLetterForReviewProcess</strong>.<br /> </p> </li> 
+   <li><p>Click <strong>Save</strong>.</p> </li> 
+  </ol> 
+  <h4>Configure the email service</h4> 
+  <p>In this scenario, for Correspondence Management to be able to send an email, configure the email service in the LiveCycle server.</p> 
+  <ol> 
+   <li><p>Log in with Admin credentials to Livecycle Server adminui at <span class="code">http:/[lc server]:[lc port]/adminui</span>.<br /> </p> </li> 
+   <li><p>Navigate to <strong>Home &amp;gt; Services &amp;gt; Applications and Services &amp;gt; Service Management</strong>.<br /> </p> </li> 
+   <li><p>Locate and click <strong>EmailService</strong>.<br /> </p> </li> 
+   <li><p> In <strong>SMTP Host</strong>, configure the email service. <br /> </p> </li> 
+   <li><p>Click <strong>Save</strong>.<br /> </p> </li> 
+  </ol> 
+  <h4>Configure the DSC service</h4> 
+  <p>To use the Correspondence Management API, download the DSCSample.jar (attached in this document as part of components.zip) and upload it to the LiveCycle server. After the DSCSample.jar file is uploaded to the LiveCycle server, the AEM server uses the DSCSample.jar file to access the renderLetter API. <br /> <br /> For more information, see <a href="../../forms/using/aem-livecycle-connector.md" target="_blank">Connecting AEM Forms with Adobe LiveCycle</a>.</p> 
+  <ol> 
+   <li><p>Update the AEM server URL in cmsa.properties in DSCSample.jar, which is at the following location: </p> <p>DSCSample.jar\com\adobe\livecycle\cmsa.properties</p>  </li> 
+   <li><p>Provide the following parameters in configuration file:</p> 
+    <ul> 
+     <li><strong>crx.serverUrl</strong>=http:/[host]/:[port]/[context path]/[AEM URL]</li> 
+     <li><strong>crx.username</strong>= AEM user name</li> 
+     <li><strong>crx.password</strong>= AEM password</li> 
+     <li><strong>crx.appRoot</strong>=/content/apps/cm</li> 
+    </ul> 
+    <note> 
+     <p>Every time you make any changes at the server sidde, restart the LiveCycle Server. For information on creating your own LiveCycle component, see <a href="http://www.adobe.com/devnet/livecycle/articles/dsc_development.html" target="_blank">Extending LiveCycle ES software through custom DSC development</a>.</p> 
+    </note><p>The DSCSample.jar file uses the renderLetter API. For more Information about the renderLetter API, see <a href="https://helpx.adobe.com/aem-forms/6-2/javadocs/com/adobe/icc/ddg/api/LetterRenderService.html" target="_blank">Interface LetterRenderService</a>.</p> </li> 
+  </ol> 
+  <h4>Import DSC to LiveCyle</h4> 
+  <p>DSCSample.jar file uses the renderLetter API to render letter as PDF bytes from XML data that C give as input. For more Information about the renderLetter and other APIs, see <a href="https://helpx.adobe.com/aem-forms/6-2/javadocs/com/adobe/icc/ddg/api/LetterRenderService.html" target="_blank">Letter Render Service</a>.</p> 
+  <ol> 
+   <li><p>Start Workbench and log in.</p> </li> 
+   <li><p>Select <strong>Window &amp;gt; Show Views &amp;gt; Components</strong>. The Components view gets added to Workbench ES2.<br /> </p> </li> 
+   <li><p>Right-click <strong>Components</strong> and select <strong>Install Component</strong>.<br /> </p> </li> 
+   <li><p>Select the <strong>DSCSample.jar</strong> file through the file browser and click <strong>Open</strong>.</p> </li> 
+   <li><p>Right-click <strong>RenderWrapper</strong> and select <strong>Start Component</strong>. If the component starts, a green arrow appears next to the component name.<br /> </p> </li> 
+  </ol> 
+  <h2>Send letter for review</h2> 
+  <p>After you have configured the action and button for sending the letter for review:</p> 
+  <p>1. Clear the browser cache.</p> 
+  <p>2. In the Create Correspondence UI, click <strong>Letter Review</strong> and specify the reviewer's email ID.</p> 
+  <p>3. Click <strong>Submit</strong>. </p> 
+  <img imageRotate="0" src="assets/sendreview.png" /> 
+  <p>The reviewer receives an email from the system with the letter as a PDF attachment. </p> 
+  <related-links> 
+   <a href="../../forms/using/add-custom-properties-cm-assets.md">Add Custom Action to the Asset Listing View</a> 
+   <a href="../../forms/using/add-custom-properties-cm-assets.md">Add custom properties to Correspondence Management assets</a> 
+   <a href="../../forms/using/customize-create-correspondence-ui.md">Customize Create Correspondence UI Logo</a> 
+  </related-links> 
+ </body> 
+</html>

@@ -1,0 +1,88 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;content_type:reference;topic_tags:authoring" name="cq:tags" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/content/docs/en/aem/6-3/author/assets/managing-assets-touch-ui/assets-workflow" name="qaNotes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="2018-04-24T11:59:28.676-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-12-01T19:03:10.525-0500" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/assets_workflow_krs_workflow_f3c2f2ccebf6138e_99_report.xml" name="acrolinxReportURL" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-04-24T11:59:28.676-0400" name="locHandOffDate" />
+  <meta content="8a880d71-f1f8-4b1b-8807-50cc3192f131" name="jcr:predecessors" />
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-11-22T10:52:42.987-0500" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2017-11-22T10:52:42.987-0500" name="topicBrowsingSortDate" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="2018-10-27T23:42:52.621-0400" name="cq:lastReplicated" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/assets-workflow.html" name="publishExternalURL" />
+  <meta content="29" name="acrolinxSentences" />
+  <meta content="2017-11-22T10:52:42.987-0500" name="publishExternalDate" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="Applying Workflows to Assets" name="navTitle" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/authoring;/content/help/en/experience-manager/6-4/assets/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Applying Workflows to Assets" name="jcr:title" />
+  <meta content="2019-01-12T17:12:57.834-0500" name="acrolinxDate" />
+  <meta content="3c7180fa-e36e-45e5-970a-47ebce75cf90" name="jcr:uuid" />
+  <meta content="2017-10-31T16:35:20.602-0400" name="firstPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="green" name="acrolinxPageStatus" />
+  <meta content="323" name="acrolinxWords" />
+  <meta content="Applying Workflows to Assets" name="seoTitle" />
+  <meta content="Learn how to apply workflows to assets, folders, and collections in AEM Assets." name="seoDescription" />
+ </head>
+ <body>
+  <draft-comment color="yellow" lastModifiedBy="alvawb" lastModifiedDate="2017-11-30T05:28:25.607-0500" prevFirstName="Alva" prevLastName="Ware-Bevacqui" type="remark">
+   <p>Move it to authoring and Chiradeep to edit/update</p> 
+  </draft-comment>
+  <p>Applying workflows to digital assets is the same as for website pages. For a complete guide on how to create and use workflows in AEM, see <a href="../../sites/authoring/using/workflows-participating.md">Starting Workflows</a>.</p> 
+  <p>Use workflows in digital assets to activate the asset or create watermarks. Many of the workflows for assets are automatically turned on. For example, the workflow that automatically creates a rendition after an image is edited is automatically turned on.</p> 
+  <draft-comment lastModifiedBy="ltrielof" lastModifiedDate="2017-11-30T05:28:25.628-0500" prevFirstName="unknown" prevLastName="unknown" type="remark">
+   <p>We also need to explain that DAM uses workflows for asset processing, which workflows there are out of the box, which workflow launcher configurations and how to add new auto-processing workflows.</p> 
+   <p><br /> </p> 
+   <p>Create a new workflow, Create a new workflow launcher configuration for /content/dam and dam:Asset - connect launcher config to new workflow. Add the steps you need to the workflow.</p> 
+  </draft-comment>
+  <draft-comment type="draft">
+   <p>To add new auto-processing workflows:<br /> </p> 
+   <ol> 
+    <li>Create a new workflow.</li> 
+    <li>Create a new workflow launcher configuration for /content/dam and dam:Asset.</li> 
+    <li>Connect the launcher configuration to the new workflow.</li> 
+    <li>Add the steps you need to the workflow.</li> 
+   </ol> 
+   <p> </p> 
+  </draft-comment>
+  <h2>Applying a workflow to an AEM asset</h2>
+  <p>For details of applying a workflow to an AEM asset, see <a href="../../assets/using/managing-assets-touch-ui.md#startingaworkflowonanasset">Starting a Workflow on an Asset</a>.</p> 
+  <h2>Applying a workflow to multiple assets</h2>
+  <ol>
+   <li><p>From the Assets console, navigate to the location of the assets for which you want to start a workflow, and select the assets.</p> </li>
+   <li><p>Click the GlobalNav icon, and the choose <strong>Timeline</strong> from the menu to display the timeline.</p> <img imageRotate="0" src="assets/chlimage_1-138.png" /></li>
+   <li><p>Click the <strong>Actions</strong> (arrow) icon at the bottom.</p> <img imageRotate="0" src="assets/chlimage_1-139.png" /></li>
+   <li><p>Click <strong>Start Workflow</strong>.</p> </li>
+   <li><p>In the <strong>Start Workflow</strong> dialog, select a workflow model from the list.</p> <img imageRotate="0" src="assets/chlimage_1-140.png" /></li>
+   <li><p>(Optional) Specify a title for the workflow, which can be used to reference the workflow instance.</p> </li>
+   <li><p>Click <strong>Start </strong>and then click <strong>Confirm</strong> in the dialog. The workflow runs on all the assets you selected.</p> </li>
+  </ol>
+  <h2>Applying a workflow to multiple folders</h2>
+  <p>The procedure to apply a workflow to multiple folders is similar to the procedure to apply a workflow to multiple assets. Select the folders in the Assets console, and perform steps 2-7 of the procedure <a href="../../assets/using/assets-workflow.md#main-pars-title-322337838">Applying a workflow to multiple assets</a>.</p> 
+  <h2>Applying a workflow to a collection</h2>
+  <p>For details of applying a workflow to a collection, see <a href="../../assets/using/managing-collections-touch-ui.md#runningaworkflowonacollection">Running a workflow on a collection</a>.</p> 
+ </body>
+</html>

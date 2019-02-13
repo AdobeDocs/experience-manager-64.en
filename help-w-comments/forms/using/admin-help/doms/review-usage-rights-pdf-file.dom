@@ -1,0 +1,61 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="video" name="pageLayout" />
+  <meta content="2017-12-01T19:04:03.480-0500" name="jcr:created" />
+  <meta content="2016-04-20T10:07:47.409-0400" name="firstPublishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="c06039d4-991a-4761-83f7-d51227e0b153" name="jcr:predecessors" />
+  <meta content="Review the usage rights of a PDF&amp;#xA;file" name="navTitle" />
+  <meta content="Learn how to review the usage rights of a PDF file." name="seoDescription" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="2016-05-31T07:02:51.686-0400" name="acrolinxDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/review-usage-rights-pdf-file.html" name="publishExternalURL" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Review the usage rights of a PDF file" name="jcr:title" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="5" name="acrolinxSentences" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="109" name="acrolinxWords" />
+  <meta content="2018-04-26T04:22:52.225-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T09:10:30.574-0400" name="cq:lastReplicated" />
+  <meta content="23e8ceb7-e000-4249-b33c-545cdea520c2" name="jcr:uuid" />
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e9c.2" name="cq:gepId" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/review_usage_rights_pdf_file_admin_5e12de0b318c6865_2359_report.xml" name="acrolinxReportURL" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-31T16:32:00.720-0400" name="lastPublishExternalDate" />
+  <meta content="2017-10-31T16:32:00.720-0400" name="publishExternalDate" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2018-04-26T04:22:52.224-0400" name="locHandOffDate" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="2016-02-05T03:27:30.072-0500" name="lr_lastModified" />
+  <meta content="left" name="sideColumn" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+ </head>
+ <body>
+  <p>When you upload a PDF file to the Acrobat Reader DC extensions web application, you can view this information:to view whether it has been Reader extended, any usage rights applied, and their expiry dates.</p>
+  <ol>
+   <li><p>Log in to the Acrobat Reader DC extensions web application at http://localhost:<i>[port]</i>/ReaderExtensions (where <i>[port]</i> is your application server’s port number).</p></li>
+   <li><p>Click Browse to upload the PDF file and then click Info. The information appears below the filename.</p> <p>See Acrobat Reader DC extensions Help for details on modifying the file’s usage rights.</p> </li>
+  </ol>
+ </body>
+</html>

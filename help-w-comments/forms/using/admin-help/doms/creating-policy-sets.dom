@@ -1,0 +1,155 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-31T16:32:17.804-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="Policy sets are used to group policies that have a common business purpose. You can create, edit and delete policies in a policy set." name="seoDescription" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2016-05-31T06:59:21.315-0400" name="acrolinxDate" /> 
+  <meta content="2018-04-26T04:23:55.927-0400" name="cq:lastModified" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/creating_policy_sets_admin_5e12de0b318c6865_2311_report.xml" name="acrolinxReportURL" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2018-04-26T04:23:55.927-0400" name="locHandOffDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="19c17333-92e4-46f6-aa97-628a0c163eb5" name="jcr:predecessors" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_document_security;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2017-10-31T16:32:17.804-0400" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2016-04-20T10:05:03.593-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2016-02-05T03:27:21.967-0500" name="lr_lastModified" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-03T09:09:59.238-0400" name="cq:lastReplicated" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2017-12-01T19:06:32.182-0500" name="jcr:created" /> 
+  <meta content="Creating and managing policy sets" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Creating and managing policy sets" name="jcr:title" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/creating-policy-sets.html" name="publishExternalURL" /> 
+  <meta content="70" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="1308" name="acrolinxWords" /> 
+  <meta content="c2111713-bebe-48a8-b57f-771b90dbeaeb" name="jcr:uuid" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-5edaef441298ead6af9-8000.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-5edaef441298ead6af9-7fff.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-5edaef441298ead6af9-7ffe.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-5edaef441298ead6af9-7ffd.2" name="cq:gepId" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+ </head> 
+ <body> 
+  <draft-comment type="remark"> 
+   <p>This is an Admin Only content, but not tagging because the EU Help is not conreffing this topic.</p> 
+  </draft-comment> 
+  <p>Policy sets are used to group policies that have a common business purpose. Policy sets can be made available to a subset of users in the system.</p> 
+  <p>Each policy set has at least one associated policy set coordinator. The <i>policy set coordinator</i> is an administrator or a user who has additional permissions. The policy set coordinator is typically a specialist in the organization who can best author the policies in a given policy set.</p> 
+  <p>Policy set coordinators can perform these tasks: </p> 
+  <ul> 
+   <li><p>Create new policies</p></li> 
+   <li><p>Edit and delete any policy in the policy set</p></li> 
+   <li><p>Edit policy set settings</p></li> 
+   <li><p>Add and remove coordinators for the policy set</p></li> 
+   <li><p>View policy and document events for any policy or document within the policy set</p></li> 
+   <li><p>Revoke access to documents</p></li> 
+   <li><p>Switch policies for the document</p></li> 
+  </ul> 
+  <p>Policy sets are created and deleted in the document security administrator interface by super users and policy set coordinators who have permission to do so.</p> 
+  <p>When you delete a policy set, policies that were part of the set cannot be applied to new documents. However, you can view the policy information in both the administration console and the end user web pages for policies that are still in use. You can view the policy information from the document detail page for any document protected by the policy. Policies still in use can be edited.</p> 
+  <p>The super user or policy set coordinator adds domains that are created in User Management to the visible user and group for each policy set. This list is visible to the policy set coordinator and is used to put limits on which domains the policy set coordinator can browse when choosing users to add to policies.</p> 
+  <p>When you create policy sets, you assign users the role of document publisher. The <i>document publisher</i> is the user who protects the document with a policy. This user is, by default, always included on a policy with full access rights, including revoke and policy switching capabilities. However, administrators can change the document publisher’s access rights for shared policies. For example, the administrator can disable the document publisher’s right to revoke document access or switch the policy. If an administrator switches the policy attached to the document, the Publisher name will be updated to the name of the owner of the policy last applied to the document.</p> 
+  <draft-comment type="remark"> 
+   <p>Bug #2848755-- Change due to engg. bug </p> 
+  </draft-comment> 
+  <p>Upon installation of document security, a default policy set is created called <i>Global Policy Set</i>. This policy set is managed by the administrator who installed the software or the policy set coordinator who is designated for this policy set.</p> 
+  <h2 id="create_a_policy_set">Create a policy set</h2> 
+  <p></p> 
+  <p>Global Policy Set is the only default policy set that is created upon installation. You can create additional policy sets and add policies, users, policy set coordinators, and document publishers. After creating a policy set, you can create policies within the set.</p> 
+  <p>During policy set creation, you can use the Back button to return to the previous screen and the Save button to save your policy set at any time. </p> 
+  <ol> 
+   <li><p>On the document security, page, click Policies, click the Policy Sets tab, and then click New.</p></li> 
+   <li><p>In the Name box, type a name for the policy set, optionally type a Description, and then click Next. The name cannot contain a colon (:).</p> 
+    <note> 
+     <p>You can create a policy set name that contains extended characters; however, when a comparison is made between two strings, accented and non-accented characters such as "e" and "é" are considered to be the same. When someone creates a policy set, a comparison is made to check whether a policy set with the same name already exists. The comparison cannot distinguish between names that are the same except for accented characters. It is assumed that the policy set is already added to the database and the new one is not added. </p> 
+    </note></li> 
+   <li><p>(Optional) To set the domains that are visible to Document Publishers when they are adding users to a policy, click Add Domains, select the domains to make searchable, click Add, and then click OK.</p></li> 
+   <li><p>On the Add Visible Users and Groups page, click Next.</p></li> 
+   <li><p>(Optional) To add a policy set coordinator, click Add Users and Groups on the Add Policy Set Coordinator(s) (Step 3 of 4) page and perform these tasks: </p> 
+    <ul> 
+     <li><p>In the Find box, type the name or email address.</p></li> 
+     <li><p>In the Using list, select the appropriate option.</p></li> 
+     <li><p>In the Type list, select User and, in the In list, select a domain to search.</p></li> 
+     <li><p>In the Display list, select the number of results to display per page, and then click Find.</p></li> 
+     <li><p>Select the check box for the user or group to add and click Next.</p></li> 
+     <li><p>Select the policy set coordinator permissions and click Add. The following permissions can be set: </p> 
+      <ul> 
+       <li><p>View events</p></li> 
+       <li><p>Manage documents (revoke and reinstate access to documents, and switch policies on documents)</p></li> 
+       <li><p>Manage policies (create, edit, and delete policies)</p></li> 
+       <li><p>Managing Document Publishers (add and remove Document Publishers)</p></li> 
+       <li><p>Delegate (add and remove Policy Set Coordinators)</p></li> 
+      </ul></li> 
+    </ul></li> 
+   <li><p>Repeat step 5 to add more policy set coordinators.</p></li> 
+   <li><p>Review the policy set coordinator settings and click Next.</p></li> 
+   <li><p>Click Add Users and Groups to add document publishers who can use the policies within the policy set to protect documents.</p></li> 
+   <li><p>On the Add Document Publishers page, perform these tasks:</p> 
+    <ul> 
+     <li><p>In the Find box, type the name or email address.</p></li> 
+     <li><p>In the Using list, select the appropriate option.</p></li> 
+     <li><p>In the Type list, select User and, in the In list, select a domain to search.</p></li> 
+     <li><p>In the Display list, select the number of results to display per page, and then click Find.</p></li> 
+     <li><p>Select the check boxes for the users and groups to add, click Add, and then click OK. </p></li> 
+    </ul></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <draft-comment type="remark"> 
+   <p>Bug 1674900:</p> 
+  </draft-comment> 
+  <p>You can now add policies to your policy set. (See <a href="../../../forms/using/admin-help/creating-policies.md#creating-and-editing-policies">Creating and editing policies</a>.)</p> 
+  <h2 id="edit_a_policy_set">Edit a policy set</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>On the document security, page, click Policies, click the Policy Sets tab, and click the policy set to edit.</p></li> 
+   <li><p>Click the appropriate tab and edit as required: </p> 
+    <ul> 
+     <li><p><strong>Detail:</strong> Edit the policy set name and description.</p></li> 
+     <li><p><strong>Policies:</strong> Create, enable, edit, and delete policies within the policy set.</p></li> 
+     <li><p><strong>Visible Users and Groups:</strong> Add and remove visible users and groups who can be included in a policy.</p></li> 
+     <li><p><strong>Policy Set Coordinators:</strong> Add, remove, and change permissions for coordinators.</p></li> 
+     <li><p><strong>Document Publishers:</strong> Add and remove users who can publish documents by using the policies in the set.</p></li> 
+    </ul></li> 
+   <li><p>To delete a visible user or group, Policy Set Coordinator, or Document Publisher, click the appropriate tab, select the check box for the entry, click Delete, and then click OK.</p></li> 
+   <li><p>To add visible users or groups, a Policy Set Coordinator, or Document Publishers, click the appropriate tab, click Add Users or Groups, search for the user or group to add, select the entry, click Add, and then click OK.</p></li> 
+   <li><p>On the Policies tab, search for policies to add to the policy set and create new policies:</p> 
+    <ul> 
+     <li><p>To search for a policy, select Policy ID or Policy Name, type the corresponding value, select the number of items to display, and click Find. </p></li> 
+     <li><p>For details about creating a new policy, see <a href="../../../forms/using/admin-help/creating-policies.md#creating-and-editing-policies">Creating and editing policies</a>.</p></li> 
+    </ul></li> 
+  </ol> 
+  <h2 id="delete_a_policy_set">Delete a policy set</h2> 
+  <p></p> 
+  <p>When you delete a policy set, policies that were part of the set cannot be applied to new documents. However, you can view the policy information in both the administration console and the end-user web pages for policies that are still in use. You can view the policy information from the document detail page for any document protected by the policy. Policies still in use can be edited.</p> 
+  <ol> 
+   <li><p>Click Policies and click the Policy Sets tab.</p></li> 
+   <li><p>Select the check box for the policy set to delete.</p></li> 
+   <li><p>Click Delete and then click OK.</p></li> 
+  </ol> 
+  <draft-comment type="remark"> 
+   <p>End RMAdminOnly</p> 
+  </draft-comment> 
+ </body> 
+</html>

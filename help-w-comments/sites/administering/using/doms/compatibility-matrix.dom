@@ -1,0 +1,171 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="primaryProductTag" />
+  <meta content="" name="cq:tags" />
+  <meta content="jsyal" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2018-05-08T07:28:44.061-0400" name="jcr:created" />
+  <meta content="Compatibility Matrix for AEM Screens Player" name="jcr:title" />
+  <meta content="audience:administering" name="primaryAudienceTag" />
+  <meta content="This page lists the AEM Screens Players with their respective AEM Screens version." name="seoDescription" />
+  <meta content="true" name="preview" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/screens;/content/help/en/experience-manager/6-4/sites/administering/morehelp/screens" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="light" name="heroGradient" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-09-19T14:30:11.644-0400" name="cq:lastModified" />
+  <meta content="video" name="pageLayout" />
+  <meta content="false" name="doNotLocalize" />
+ </head>
+ <body>
+  <note>
+   <p>The following information is updated as of May 14, 2018.</p> 
+  </note>
+  <p>The following section lists the Adobe Experience Manager (AEM) Screens Players with their respective AEM Screens version.</p> 
+  <h2>iOS Player</h2>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>AEM Server Version</strong></td> 
+     <td><strong>iOS Player</strong></td> 
+    </tr>
+    <tr>
+     <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
+     <td><p><strong>3.2.72</strong> - Available on Apple store</p> <p> </p> </td> 
+    </tr>
+    <tr>
+     <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
+     <td><p><strong>3.3.0</strong> </p> <p> </p> </td> 
+    </tr>
+    <tr>
+     <td><strong>AEM 6.4</strong></td> 
+     <td><strong>3.3.0</strong> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h3>Download Link</h3>
+  <p>Click download link for iOS Player:</p> 
+  <div>
+   <p>aem-screens-player-ios-3.3.0.ipa.zip</p>
+   <p><a alt="aem-screens-player-ios-3.3.0.ipa.zip" href="assets/aem-screens-player-ios-330ipa.zip" status="changing">Get File</a></p>
+  </div>
+  <h2>Windows10 Player</h2>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>AEM Server Version</strong></td> 
+     <td><strong>Windows10 Player</strong></td> 
+    </tr>
+    <tr>
+     <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
+     <td><strong>1.0.12</strong><br /> </td> 
+    </tr>
+    <tr>
+     <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
+     <td><strong>1.0.48 </strong></td> 
+    </tr>
+    <tr>
+     <td><strong>AEM 6.4</strong></td> 
+     <td><p><strong>1.0.48 </strong></p> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <draft-comment lastModifiedBy="jsyal" lastModifiedDate="2018-05-14T10:23:05.555-0400" type="annotation">
+   Once we decide, on macromedia (whether to keep these links public or not), I'll remove from here. -Jyotika
+  </draft-comment>
+  <draft-comment lastModifiedBy="dantipa" lastModifiedDate="2018-05-23T05:26:01.209-0400" type="annotation">
+   Could we link the versions directly to download? So the visitor does not need to go on the macromedia page.
+  </draft-comment>
+  <draft-comment lastModifiedBy="dantipa" lastModifiedDate="2018-05-23T05:27:48.783-0400" type="annotation">
+   I am not sure anymore, but will the iOS app stay in the AppStore (please check with Jim) after we had issues releasing due to Apple's comments
+  </draft-comment>
+  <h3>Download Link</h3>
+  <p>Click download link for Windows10 Player:</p> 
+  <div>
+   <p>aem-screens-player-windows-1.0.48-signed.exe.zip</p>
+   <p><a alt="aem-screens-player-windows-1.0.48-signed.exe.zip" href="assets/aem-screens-player-windows-1048-signedexe.zip" status="changing">Get File</a></p>
+  </div>
+  <h2>Android Player</h2>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>AEM Server Version</strong></td> 
+     <td><strong>Android Player</strong></td> 
+    </tr>
+    <tr>
+     <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
+     <td><strong>3.2.68 -</strong> (Available on Macromedia Site) &amp; Google Play Store</td> 
+    </tr>
+    <tr>
+     <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
+     <td><strong>3.3.0 </strong></td> 
+    </tr>
+    <tr>
+     <td><strong>AEM 6.4</strong></td> 
+     <td><strong>3.3.0 </strong></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <draft-comment lastModifiedBy="jsyal" lastModifiedDate="2018-05-14T10:23:05.555-0400" type="annotation">
+   Once we decide, on macromedia (whether to keep these links public or not), I'll remove from here. -Jyotika
+  </draft-comment>
+  <draft-comment lastModifiedBy="dantipa" lastModifiedDate="2018-05-23T05:26:01.209-0400" type="annotation">
+   Could we link the versions directly to download? So the visitor does not need to go on the macromedia page.
+  </draft-comment>
+  <draft-comment lastModifiedBy="dantipa" lastModifiedDate="2018-05-23T05:27:48.783-0400" type="annotation">
+   I am not sure anymore, but will the iOS app stay in the AppStore (please check with Jim) after we had issues releasing due to Apple's comments
+  </draft-comment>
+  <h3>Download Link</h3>
+  <p>Click download link for Android Player:</p> 
+  <div>
+   <p>aem-screens-player-android-3.3.0.apk.zip</p>
+   <p><a alt="aem-screens-player-android-3.3.0.apk.zip" href="assets/aem-screens-player-android-330apk.zip" status="changing">Get File</a></p>
+  </div>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>AEM Server Version</strong></td> 
+     <td><strong>iOS Player</strong></td> 
+     <td><strong>Windows10 Player</strong></td> 
+     <td><strong>Chrome OS Player</strong><br /> </td> 
+     <td><strong>Android Player</strong></td> 
+    </tr>
+    <tr>
+     <td><strong>AEM 6.3+SP1+Screens FP1(1.0.64_B002)</strong></td> 
+     <td><p><strong>3.2.72 - </strong>Available on Apple store</p> <p><strong>3.3.0</strong> - Does not work</p> <p> </p> </td> 
+     <td><strong>1.0.12</strong> - (Available on Macromedia)</td> 
+     <td><p><strong>1.0.30 -</strong> Available on Chrome Store.</p> <p>Not Supported with Feature Pack1</p> </td> 
+     <td><strong>3.2.68 -</strong> (Available on Macromedia Site) &amp; Google Play Store</td> 
+    </tr>
+    <tr>
+     <td><strong><strong>AEM 6.3+SP1+Screens FP2(1.0.298)</strong></strong></td> 
+     <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>To be published on Apple Store</p> <p> </p> </td> 
+     <td><strong>1.0.48 -</strong> <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
+     <td><p><strong>1.0.42 - </strong></p> <p>To be Published on Chrome Store</p> </td> 
+     <td><strong>3.3.0 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
+    </tr>
+    <tr>
+     <td><strong>AEM 6.4</strong></td> 
+     <td><p><strong>3.3.0</strong> - <a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> <p>To be published on Apple Store</p> </td> 
+     <td><p><strong>1.0.48 -</strong><br /> </p> <p><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></p> </td> 
+     <td><p><strong>1.0.42 - </strong></p> <p>To be Published on Chrome Store</p> </td> 
+     <td><strong>3.3.0 - </strong><a href="https://download.macromedia.com/screens/">https://download.macromedia.com/screens/</a></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <draft-comment lastModifiedBy="jsyal" lastModifiedDate="2018-05-14T10:23:05.555-0400" type="annotation">
+   Once we decide, on macromedia (whether to keep these links public or not), I'll remove from here. -Jyotika
+  </draft-comment>
+  <draft-comment lastModifiedBy="dantipa" lastModifiedDate="2018-05-23T05:27:48.783-0400" type="annotation">
+   I am not sure anymore, but will the iOS app stay in the AppStore (please check with Jim) after we had issues releasing due to Apple's comments
+  </draft-comment>
+ </body>
+</html>

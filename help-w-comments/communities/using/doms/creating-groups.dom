@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="d8f62c28-cf5a-4f7d-a886-75a0d76ce21a" name="jcr:uuid" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/creating-groups.html" name="publishExternalURL" />
+  <meta content="3d107764-a746-4ddc-bc17-347a3925dfb7" name="jcr:predecessors" />
+  <meta content="2018-04-03T07:37:11.885-0400" name="topicBrowsingSortDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Community Groups" name="jcr:title" />
+  <meta content="2017-12-01T19:02:07.880-0500" name="jcr:created" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Community Groups" name="seoTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-04-03T07:37:14.653-0400" name="cq:lastReplicated" />
+  <meta content="2018-04-03T07:37:11.885-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-10-31T16:33:52.778-0400" name="firstPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="Creating community groups" name="seoDescription" />
+  <meta content="2018-05-17T05:49:52.118-0400" name="cq:lastModified" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Community Groups" name="navTitle" />
+  <meta content="/content/docs/en/aem/6-3/author/communities/groups" name="qaNotes" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="2018-05-17T05:49:52.117-0400" name="locHandOffDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/authoring;/content/help/en/experience-manager/6-4/communities/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-04-03T07:37:11.885-0400" name="publishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:authoring;content_type:reference" name="cq:tags" />
+ </head>
+ <body>
+  <p>The community groups feature is the ability for a sub-community to be dynamically created within a community site by authorized users (community members and authors) from the publish and author environments.</p> 
+  <p>This ability is present when the <a href="../../communities/using/functions.md#groupsfunction">groups function</a> is present in the <a href="../../communities/using/sites-console.md">community site</a> structure.</p> 
+  <p>A <a href="../../communities/using/tools-groups.md">community group template</a> provides the design of the community group page when a community group is dynamically created.</p> 
+  <p>One or more group templates are selected for the groups function when the function is added to a community site's structure or to a community site template. This list of group templates is presented to the member or author who dynamically creates a new group from within the community site.</p> 
+  <h3>Creating a New Group</h3>
+  <p>The ability to create a new community group relies on the existance of a community site which includes the groups function, such as one created from the <span class="code"><a href="../../communities/using/sites.md">Reference Site Template</a></span>. </p> 
+  <p>The examples that follow use the community site created from the <span class="code">Reference Site Template</span> as described in the <a href="../../communities/using/getting-started.md">Getting Started with AEM Communities</a> tutorial.</p> 
+  <p>This is the page that loads on publish when the <strong>Groups </strong>menu item is selected :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-243.png" />
+  <p>When you select the <strong>New Group</strong> icon, an edit dialog opens up.</p> 
+  <p>Under the <strong>Settings </strong>tab, you provide the basic features of the group :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-244.png" />
+  <ul> 
+   <li><strong>Group Name</strong><br /> The title of the group to display on the community site.</li> 
+   <li><strong>Description</strong><br /> A description of the group to display on the community site.</li> 
+   <li><strong>Invite</strong><br /> A list of members to invite to join the group. Type-ahead search will provide suggestions of community members to invite.</li> 
+   <li><strong>Group URL Name</strong><br /> The name for the group page that becomes part of the URL.</li> 
+   <li><strong>Open Group</strong><br /> Selecting <span class="code">Open Group</span> indicates any anonymous site visitor may view the content, and will de-select <span class="code">Member Only Group</span>.</li> 
+   <li><strong>Member Only Group</strong><br /> Selecting <span class="code">Member Only Group</span> indicates only members of the group may view the content, and will de-select <span class="code">Open Group</span>.</li> 
+  </ul> 
+  <p>Under the <strong>Template </strong>tab is the ability to select from the list of community group templates that were specified when the groups function was included in the community site's structure or in a community site template.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-245.png" />
+  <p>Under the <strong>Image </strong>tab is the ability to upload an image to display for the group on the community site's Groups page. The default style sheet will size the image to 170 x 90 pixels.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-246.png" />
+  <p>By selecting the <strong>Create Group</strong> button, the pages for the group are created based on the chosen template, and a user group is created for membership and the Groups page will be updated to show the new sub-community.</p> 
+  <p>For example, the Groups page with a new sub-community titled "Focus Group", for which an image thumbnail was uploaded, will appear as follows (still signed in as a community group administrator) :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-247.png" />
+  <p>Selecting the <span class="code">Focus Group</span> link will open the Focus Group page in the browser, which has an initial appearance based on the chosen template, and includes a sub-menu underneath the main community site's menu :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-248.png" />
+  <h3>Community Group Member List Component</h3>
+  <p>The <span class="code">Community Group Member List</span> component is intended for use by developers of group templates.</p> 
+  <h3>Additional Information</h3>
+  <p>More information may be found on the <a href="../../communities/using/essentials-groups.md">Community Group Essentials</a> page for developers.</p> 
+  <p>For other information related to community groups, visit <a href="../../communities/using/users.md">Managing Users and User Groups</a>.</p> 
+ </body>
+</html>

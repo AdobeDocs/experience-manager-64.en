@@ -1,0 +1,80 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2016-02-05T03:27:11.931-0500" name="lr_lastModified" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="28" name="acrolinxSentences" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/categories-displayed-workspace.html" name="publishExternalURL" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2016-04-20T09:59:13.474-0400" name="firstPublishExternalDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="2016-05-31T06:53:06.587-0400" name="acrolinxDate" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7cc5.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb6c44304f12905ce0037-7ffc.2,AEMForms/6.1/AdminHelp/WSf23b27ebc7b554b6-3ca2a67a135e11b5492-8000,AEMForms/6.1/AdminHelp/WS92d06802c76abadb6c44304f12905ce0037-7ffb.2" name="cq:gepId" /> 
+  <meta content="2018-04-26T04:25:30.893-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/categories_displayed_workspace_admin_5e12de0b318c6865_2261_report.xml" name="acrolinxReportURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="9b111202-e120-4b2a-b340-f11db7e99aa6" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-31T16:32:38.546-0400" name="lastPublishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_workspace;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2018-04-26T04:25:30.893-0400" name="cq:lastModified" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Managing the categories displayed in Workspace " name="jcr:title" /> 
+  <meta content="Managing the categories displayed in Workspace" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="In Workspace, the processes that a user can start are displayed in categories in the left navigation pane. Learn how you can manage these categories displayed in Workspace." name="seoDescription" /> 
+  <meta content="2017-12-01T19:06:19.660-0500" name="jcr:created" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="890edfb8-817f-49ee-b247-fb617485838f" name="jcr:predecessors" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="460" name="acrolinxWords" /> 
+  <meta content="2018-04-03T09:09:24.042-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-31T16:32:38.546-0400" name="publishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>In Workspace, the processes that a user can start are displayed in categories in the left navigation pane. You can set up the categories in administration console, or process designers can set them up in Workbench. When process designers creates processes, they assign them to categories.</p> 
+  <p>When you specify category names, create them so that they appear properly in the Workspace navigation pane. By default, the left navigation pane has a fixed width of 210 pixels, which is approximately 24 characters. If the category name that you specify is too long to fit within the fixed width of the left navigation pane, it is truncated. The full name appears only when the mouse pointer is paused over it. Try to avoid category names that will be truncated. The following examples illustrate category names that fit and those that are truncated:</p> 
+  <p><strong>Category name that fits:</strong> Attendance &amp; Leave</p> 
+  <p><strong>Category name that is truncated:</strong> Attendance &amp; Leave (United States)</p> 
+  <p>In Workspace, processes within a category are typically displayed as cards on the Start Process page. In general, six cards can be displayed on the screen for a category before the user is required to scroll to view remaining cards. Because scrolling makes it more difficult to find a process, consider limiting each category to six processes or, depending on your resolution, limiting the number of processes that can be displayed on the screen without requiring any scrolling.</p> 
+  <p>If you are using MySQL as your AEM forms database, Administration Console cannot differentiate between two category names that differ only in the use of extended characters. For example, if you create a category named abcde and a category named âbcdè, they are considered the same. </p> 
+  <h2 id="add_a_category">Add a category</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Category Management.</p></li> 
+   <li><p>Click Add. If you wish to add a sub-cateogry, select a category and then click Add.</p></li> 
+   <li><p>In the Name box, type a name for the category and in the Description box, type a description of the category.</p></li> 
+   <li><p>Click Add. The category is displayed on the Category Management page.</p></li> 
+  </ol> 
+  <h2 id="edit_a_category">Edit a category</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Category Management.</p></li> 
+   <li><p>Select the category you wish to edit and click Edit. Alternatively, you can double click a category to edit.</p></li> 
+   <li><p>Edit the name of the category in the Name box.</p></li> 
+  </ol> 
+  <h2 id="remove_a_category">Remove a category</h2> 
+  <p></p> 
+  <p>You can remove only the categories that are not in use.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Category Management.</p></li> 
+   <li><p>On the Category Management page, select the check box for the category to remove and click Remove. The category is no longer displayed.</p></li> 
+  </ol> 
+ </body> 
+</html>

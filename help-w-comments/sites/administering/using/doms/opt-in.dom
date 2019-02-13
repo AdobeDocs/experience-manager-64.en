@@ -1,0 +1,181 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-05-31T08:27:53.491-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="2018-04-26T10:12:29.721-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html" name="publishExternalURL" /> 
+  <meta content="Opting Into Adobe Analytics and Adobe Target" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-01-05T19:01:37.525-0500" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in" name="qaNotes" /> 
+  <meta content="24c90731-265e-4f24-8858-88bae3d2234b" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:24:33.143-0400" name="firstPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Opting Into Adobe Analytics and Adobe Target" name="jcr:title" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="2018-05-31T08:27:53.491-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration;/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration" name="moreHelpPaths" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Opting Into Adobe Analytics and Adobe Target" name="seoTitle" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-05-31T08:27:53.499-0400" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:integration;content_type:reference" name="cq:tags" /> 
+  <meta content="Learn how to opt into Adobe Analytics and Adobe Target." name="seoDescription" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-10-27T23:45:28.268-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-05-31T08:27:53.491-0400" name="lastPublishExternalDate" /> 
+  <meta content="b4c2f1af-1770-4f5b-82a1-4dbc03279b14" name="jcr:predecessors" /> 
+ </head> 
+ <body> 
+  <p>AEM has an opt-in procedure to help you integrate with Adobe Analytics and Adobe Target. This is available out-of-the-box, as a pre-loaded task assigned to the administrator user group. </p> 
+  <p>When you log in as an administrator this task (<strong>Configuring Analytics &amp; Targeting</strong>) is available from the <a href="../../../sites/authoring/using/inbox.md#outoftheboxadministrativetasks">Inbox</a>. Based on the credentials you supply, it helps you configure and integrate these services.</p> 
+  <p>You have the following options for configuring the integration:</p> 
+  <ul> 
+   <li>Configure the integration via the task.<br /> This can be done either immediately or later, the task will remain in the Inbox until some action is taken. In either case the configuration can be done directly in the UI, or with the use of a pre-defined <span class="code">.properties</span> file.<br /> </li> 
+   <li>Opt out of the integration.<br /> Consider this option if you prefer to <a href="../../../sites/administering/using/marketing-cloud.md">manually configure the integration</a>. See also <a href="https://helpx.adobe.com/experience-manager/using/integrate-digital-marketing-solutions.html">Integrating AEM with Adobe Target and Adobe Analytics using DTM</a>.</li> 
+   <li>Configure the set up and provisioning by using a script.</li> 
+  </ul> 
+  <h2>Configuring the Integration</h2> 
+  <p>Opt into the integration with:</p> 
+  <ul> 
+   <li> Analytics to enable the use of their page tracking and analysis capabilities.</li> 
+   <li>Target to enable the use of their personalization capabilities. </li> 
+  </ul> 
+  <p>For either option you need to provide the user account information and specify the pages that are tracked.</p> 
+  <note> 
+   <p>You can optionally provide Analytics and Target account information using a properties file that is read upon server startup. See <a href="../../../sites/administering/using/opt-in.md#providingaccountinformationusingapropertiesfile">Providing Account Information Using a Properties File</a>.</p> 
+  </note> 
+  <p>When you opt into the integration, AEM performs the following tasks:</p> 
+  <ul> 
+   <li>Creates the cloud configurations that enable the connection to Analytics and Target.</li> 
+   <li>Creates the frameworks that determine the data that is tracked.</li> 
+   <li>Configures the web pages to use these services.</li> 
+  </ul> 
+  <note> 
+   <p>AT.js is the default client library. This is configured under your <a href="../../../sites/administering/using/target-configuring.md#creatingatargetcloudconfiguration">target cloud services configuration</a>. </p> 
+   <p>Adobe recommends that you use AT.js as the client library.</p> 
+  </note> 
+  <p>To opt-in from the pre-loaded, out-of-the-box task:</p> 
+  <ol> 
+   <li><p>From your <a href="../../../sites/authoring/using/inbox.md#takingactiononanitem">Inbox, select and <strong>Open</strong> the Configure Analytics &amp; Targeting</a> task.<br /> </p> <img imageRotate="0" src="assets/optin-01.png" /></li> 
+   <li><p>For Analytics:</p> 
+    <ol> 
+     <li>Enter the user account information for Analytics, then click the corresponding <strong>Add</strong> button.</li> 
+     <li>The appropriate credentials are authenticated.<br /> </li> 
+     <li>When the Analytics account is authenticated, select the Analytics report suite to use. AEM retrieves those Analytics report suites. The status is updated to <strong>Added</strong>.<br /> </li> 
+    </ol> </li> 
+   <li><p>For Target:</p> 
+    <ol> 
+     <li>Enter the user account information for Target then click the corresponding <strong>Add</strong> button.</li> 
+     <li>The appropriate credentials are authenticated. The status is updated to <strong>Added</strong>. <br /> </li> 
+    </ol> </li> 
+   <li><p>Select <strong>Next</strong>.</p> </li> 
+   <li><p>Select the sites for which Analytics and/or Target should be used.<br /> </p> </li> 
+   <li><p>Select <strong>Done</strong> to complete.<br /> </p> 
+    <note> 
+     <p>After you opt into the configuration, you need to publish the affected site/pages to replicate these changes to your publish instance.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h2>Opting Out of the Integration</h2> 
+  <p>Opt out of the integration with Analytics and Target when you either:</p> 
+  <ul> 
+   <li>Do not want to integrate with these products.</li> 
+   <li>Prefer to configure the integrations manually.<br /> For information about configuring the integrations manually, see <a href="../../../sites/administering/using/adobeanalytics.md">Integrating with Adobe Analytics</a> and <a href="../../../sites/administering/using/target.md">Integrating with Adobe Target</a>.</li> 
+  </ul> 
+  <p>To opt out you need to complete the pre-loaded task:</p> 
+  <ul> 
+   <li><p>From your <a href="../../../sites/authoring/using/inbox.md#takingactiononanitem">Inbox, select and <strong>Complete</strong> the Configure Analytics &amp; Targeting</a> task.<br /> </p> </li> 
+  </ul> 
+  <h2>Providing Account Information Using a Properties File</h2> 
+  <p>Install a properties file that AEM reads on server startup to configure the account properties for the integration with Analytics and Target. When you use the properties file, the opt-in wizard automatically uses the properties from the file and the cloud configuration is created accordingly.</p> 
+  <p>The properties file is a text file named marketingcloud.properties that you save in the working directory that the AEM process is using (typically the same directory as the JAR file). The file includes the following properties:</p> 
+  <ul> 
+   <li>analytics.server: The URL of the Analytics data center that you use.</li> 
+   <li>analytics.company: The company that is associated with your Analytics user account.</li> 
+   <li>analytics.username: Your Analytics user name.</li> 
+   <li>analytics.secret: The secret that is associated with your Analytics user name.</li> 
+   <li>analytics.reportsuite: The name of the Analytics report suite to use.</li> 
+   <li>target.clientcode: The client code that is associated with your Target account.</li> 
+   <li>target.email: The email address that you use to authenticate your Target account.</li> 
+   <li>target.password: The password that is associated with your email address.</li> 
+  </ul> 
+  <p>Properties and values are separated with equal signs (=). The Analytics properties are prefixed with <span class="code">analytics</span>, and the Target properties are prefixed with <span class="code">target</span>. To configure a service, provide values for all of the properties for that service. If you do not want to configure a service, provide no values for that service.</p> 
+  <p>The following example <span class="code">.properties</span> file includes the property values for creating a cloud configuration for Analytics:</p> 
+  <codeblock class="syntax xml">
+    analytics.server=https://test.omniture.com/login/!!discoiqbr!!analytics.company=MyCompany!!discoiqbr!!analytics.username=sbroders!!discoiqbr!!analytics.secret=12345678!!discoiqbr!!analytics.reportsuite=myreportsuite!!discoiqbr!!target.clientcode=!!discoiqbr!!target.email=!!discoiqbr!!target.password= 
+  </codeblock> 
+  <p>The following procedure describes how to opt into the integration using the properties file.</p> 
+  <ol> 
+   <li><p>Create the <span class="code">marketingcloud.properties</span> file in the working directory that the AEM process is using (author instance).</p> 
+    <note> 
+     <p>The working directory is usually the directory that holds the jar or <span class="code">license.properties</span> file.</p> 
+     <p>However, it can also be defined as an absolute path by the system property:</p> 
+     <p><span class="code"> mac.provisioning.file.container</span></p> 
+    </note></li> 
+   <li><p>Add the property values according to your Analytics and/or Target accounts.</p> </li> 
+   <li><p>Start or restart the server, and then log in using an administrator account.</p> </li> 
+   <li><p>Open the Configure Analytics &amp; Targeting task as described in <a href="../../../sites/administering/using/opt-in.md#main-pars-title">Configuring the Integration</a>. Instead of requesting your account information, the wizard uses the values from the <span class="code">.properties</span> file. <br /> </p> <p>Select <strong>Add</strong> for the appropriate service, then continue with the wizard. </p> <img imageRotate="0" src="assets/optin-02.png" /></li> 
+  </ol> 
+  <h2>About the Cloud Configurations</h2> 
+  <p>When you configure the integration with Analytics and Target, AEM automatically creates the required cloud configurations and frameworks. For example, the Analytics cloud configuration is called Provisioned Analytics Account.</p> 
+  <p>You do not need to alter the cloud configurations. However, you can configure the frameworks as needed. (See <a href="../../../sites/administering/using/adobeanalytics-mapping.md">Mapping Component Data with Adobe Analytics Properties</a> and <a href="../../../sites/administering/using/target.md#main-pars-title-14">Add a Target Framework</a>.)</p> 
+  <note> 
+   <p>By default when you opt into the Adobe Target configuration wizard, Accurate Targeting is enabled. </p> 
+   <p>Accurate targeting means that the cloud service configuration waits for the context to load before loading content. As a result, in terms of performance, accurate targeting may create a few millisecond delay before loading content.</p> 
+   <p>Accurate targeting is always enabled on the author instance. However, on the publish instance you can opt to turn accurate targeting off globally by clearing the check mark next to Accurate Targeting in the cloud service configuration (<strong>http://localhost:4502/etc/cloudservices.html</strong>). You can also still turn accurate targeting on and off for individual components regardless of your setting in the cloud service configuration.</p> 
+   <p>If you have <i><strong>already</strong></i> created targeted components and you change this setting, your changes do not affect those components. You must make any changes to those component directly.</p> 
+  </note> 
+  <note> 
+   <p>When you opt into the Analytics configuration and a specific <span class="code">reportsuite</span> is selected, then the framework is restricted to the publish run mode. This means that tracking only works on the publish instance.</p> 
+   <p>If tracking is needed on an authoring instance as well the value should be changed to <span class="code">all</span>.<br /> </p> 
+  </note> 
+  <h2>Configuring the Setup and Provisioning via Script</h2> 
+  <p>As an administrator, you may want to trigger setup and provisioning with a script rather than manually stepping through the wizard. You can do so by:</p> 
+  <ul> 
+   <li>Sending a POST request to <strong>/libs/cq/cloudservicesprovisioning/content/autoprovisioning.json</strong> with the required parameters.</li> 
+  </ul> 
+  <p>Which parameters you send depends on the following:</p> 
+  <ul> 
+   <li><p>If you want to use the <strong>marketingcloud.properties</strong> file filled in with all the required credentials, then you must send the following parameters:</p> 
+    <ul> 
+     <li><span class="code">automaticProvisioning</span>=<span class="code">true</span></li> 
+     <li><span class="code">servicename</span>=<span class="code">analytics|target</span></li> 
+     <li><span class="code">path</span>=path to an AEM page to attach the created cloud services configs</li> 
+    </ul> <p>For example, a curl request that creates both Analytics and Target configurations and attachs them to the we.retail page would be:</p> 
+    <codeblock gutter="true" class="syntax shell">
+      curl&amp;nbsp;-v&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-X&amp;nbsp;POST&amp;nbsp;-d"automaticProvisioning=true&amp;servicename=target&amp;servicename=analytics&amp;path=/content/we-retail"&amp;nbsp;http://localhost:4502/libs/cq/cloudservicesprovisioning/content/autoprovisioning.json 
+    </codeblock></li> 
+   <li><p>If you do not want to use the <strong>marketingcloud.properties</strong> file then you will have to send the credentials as well as parameters; for example:</p> 
+    <ul> 
+     <li>automaticProvisioning=<span class="code">true</span></li> 
+     <li>servicename=<span class="code">analytics|target</span></li> 
+     <li>path=path to an AEM page to attach the created cloud services configs; multiple paths can be defined<br /> </li> 
+     <li>analytics.server=<span class="code">https://servername</span></li> 
+     <li>analytics.company=<span class="code">Name of company</span></li> 
+     <li>analytics.username=<span class="code">me</span></li> 
+     <li>analytics.secret=<span class="code">secret</span></li> 
+     <li>analytics.reportsuite=<span class="code">we-retail</span></li> 
+     <li>target.clientcode=<span class="code">mycompany</span></li> 
+     <li>target.email=<span class="code">me@adobe.com</span></li> 
+     <li>target.password=<span class="code">password</span></li> 
+    </ul> <p>In this case, the curl request that creates both Analytics and Target configurations and attachs them to the we-retail page would be:</p> 
+    <codeblock gutter="true" class="syntax shell">
+      !!discoiqbr!!curl&amp;nbsp;-v&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-X&amp;nbsp;POST&amp;nbsp;-d"automaticProvisioning=false&amp;servicename=target&amp;servicename=analytics&amp;path=/content/we-retail&amp;analytics.server=https://servername/&amp;analytics.company=Name&amp;nbsp;of&amp;nbsp;company&amp;analytics.username=me&amp;analytics.secret=secret&amp;analytics.reportsuite=weretail&amp;target.clientcode=mycompany&amp;target.email=me@adobe.com&amp;target.password=password"&amp;nbsp;http://localhost:4502/libs/cq/cloudservicesprovisioning/content/autoprovisioning.json 
+    </codeblock></li> 
+  </ul> 
+ </body> 
+</html>

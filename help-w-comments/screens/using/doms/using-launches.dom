@@ -1,0 +1,30 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-01-15T15:39:11.761-0500" name="jcr:created" />
+  <meta content="2019-01-14T16:53:39.088-0500" name="cq:lastModified" />
+  <meta content="Launches" name="jcr:title" />
+  <meta content="true" name="preview" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="jsyal" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>This page shows how to use Launches in your Screens project and covers the following topics:</p> 
+  <ul> 
+   <li>Overview</li> 
+   <li>Using Launches in an AEM Screens Project</li> 
+  </ul> 
+  <h2>Overview</h2>
+  <p>Launches allows the Screens users to deploy a scheduled content update mechanism to roll out the changes and enable you to efficiently develop content for a future release.</p> 
+  <p>A launch is created to allow you to make changes ready for future publication (while maintaining your current pages). After editing and updating your launch pages you promote them back to the source, then activate the source pages (top-level). Promoting duplicates the launch content back to the source pages and can be done either manually or automatically (dependent on fields set when creating and editing the launch).</p> 
+  <p>To learn in detail about creating, editing, and promoting launches, please refer to <a href="../../sites/authoring/using/launches.md">Launches</a> in Sites.<br /> </p> 
+  <h2>Using Launches in an AEM Screens Project</h2>
+ </body>
+</html>

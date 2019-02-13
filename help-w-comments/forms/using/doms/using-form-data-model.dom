@@ -1,0 +1,124 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-05-03T07:34:53.746-0400" name="cq:lastModified" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="2018-03-14T08:56:08.873-0400" name="firstPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-05-03T03:52:14.697-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-05-03T07:34:53.744-0400" name="locHandOffDate" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/using_form_data_model_krs_workflow_15d6c9caeb3c0c6a_175_report.xml" name="acrolinxReportURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="vishgupt@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="vishgupt" name="cq:lastModifiedBy" /> 
+  <meta content="050565c8-e5f5-4f89-995f-96e0d57c0f4b" name="jcr:uuid" /> 
+  <meta content="72" name="acrolinxSentences" /> 
+  <meta content="Learn how to use form data model to create and work with adaptive forms and interactive communications." name="seoDescription" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2018-03-14T09:01:08.159-0400" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:integration" name="cq:tags" /> 
+  <meta content="2018-05-03T03:52:14.675-0400" name="lastPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Use form data model" name="jcr:title" /> 
+  <meta content="vishgupt" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/integration;/content/help/en/experience-manager/6-4/forms/morehelp/integration" name="moreHelpPaths" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/using-form-data-model.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-05-03T03:52:14.675-0400" name="topicBrowsingSortDate" /> 
+  <meta content="1243" name="acrolinxWords" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="ba4ba014-55e2-4575-9d31-b2bb858bb582" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-05-03T03:52:14.675-0400" name="publishExternalDate" /> 
+  <meta content="2018-03-14T10:10:05.010-0400" name="acrolinxDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+ </head> 
+ <body> 
+  <img imageRotate="0" src="assets/data-integeration.png" /> 
+  <p>AEM Forms data integration lets you use disparate backend data sources to create a form data model that you can use as schema in various adaptive forms and interactive communications workflows. It requires configuring data sources and creating form data model based on data model objects and services available in data sources. For more information, see the following:</p> 
+  <ul> 
+   <li><a href="../../forms/using/data-integration.md">AEM Forms Data Integration</a></li> 
+   <li><a href="../../forms/using/configure-data-sources.md">Configure data sources</a></li> 
+   <li><a href="../../forms/using/create-form-data-models.md">Create form data model</a></li> 
+   <li><a href="../../forms/using/work-with-form-data-model.md">Work with form data model</a></li> 
+  </ul> 
+  <p>A form data model is an extension of JSON schema that you can use to:</p> 
+  <ul> 
+   <li><a href="#create-af">Create adaptive forms and fragments</a></li> 
+   <li><a href="#create-ic">Create interactive communications and building blocks like text, list, and condition fragments</a></li> 
+   <li><a href="#preview-ic">Preview interactive communications with sample data</a></li> 
+   <li><a href="#prefill">Prefill adaptive forms and interactive communications</a></li> 
+   <li><a href="#write-af">Write submitted adaptive form data back into data sources</a></li> 
+   <li><a href="#invoke-services">Invoke services using adaptive form rules</a></li> 
+  </ul> 
+  <h2 id="create-af">Create adaptive forms and fragments</h2> 
+  <p>You can create <a href="../../forms/using/creating-adaptive-form.md" target="_blank">adaptive forms</a> and <a href="../../forms/using/adaptive-form-fragments.md" target="_blank">adaptive form fragments</a> based on a form data model. Do the following to use a form data model when creating an adaptive form or adaptive form fragment:</p> 
+  <ol> 
+   <li><p>In Form Model tab on Add Properties screen, select <span class="uicontrol">Form Data Model</span> in the <span class="uicontrol">Select From</span> drop-down list.</p> <img imageRotate="0" src="assets/create-af-1.png" /></li> 
+   <li><p>Tap to expand <span class="uicontrol">Select Form Data Model</span>. All available form data models are listed.</p> <p>Select a from data model.</p> <img imageRotate="0" src="assets/create-af-2.png" /></li> 
+   <li><p>(<strong>Adaptive form fragments only</strong>) You can create an adaptive form fragment based on only one data model object in a form data model. Expand <span class="uicontrol">Form Data Model Definitions</span> drop-down. It lists all data model objects in the specified form data model. Select a data model object from the list.</p> <img imageRotate="0" src="assets/create-af-3.png" /></li> 
+  </ol> 
+  <p>Once the adaptive form or adaptive form fragment based on a form data model is created, form data model objects appear in the <span class="uicontrol">Data Model Objects</span> tab of the Content browser in adaptive form editor.</p> 
+  <note grayBox="true"> 
+   <p>For an adaptive form fragment, only the data model object selected at the time of authoring and its associated data model objects appear in the Data Model Objects tab.</p> 
+  </note> 
+  <img imageRotate="0" src="assets/data-model-objects-tab.png" /> 
+  <p>You can drag-drop data model objects onto the adaptive form or fragment to add form fields. The added form fields retain the metadata properties and binding with data model object properties. The binding ensures that the field values are updated in the corresponding data sources on form submission and prefilled when the form is rendered.</p> 
+  <h2 id="create-ic">Create interactive communications</h2> 
+  <p>You can create an interactive communication based on a form data model that you can use to prefill interactive communication with data from configured data sources. In addition, the building blocks of an interactive communication, such as text, list, and condition document fragments can be based on a form data model. </p> 
+  <p>You can choose a form data model when creating an interactive communication or a document fragment. The following image shows the General tab of the Create Interactive Communication dialog.</p> 
+  <img captionBottom="General tab of Create Interactive Communication dialog" imageRotate="0" src="assets/create-ic.png" /> 
+  <p>For more information, see:</p> 
+  <p><a href="../../forms/using/create-interactive-communication.md">Create an interactive communication</a></p> 
+  <p><a href="/forms/using/text-interactive-communications">Text in Interactive Communications</a></p> 
+  <p><a href="/forms/using/condition-interactive-communications">Conditions in Interactive Communications</a></p> 
+  <p><a href="/forms/using/list" target="_blank">List fragments</a></p> 
+  <h2 id="preview-ic">Preview with sample data</h2> 
+  <p>Form data model editor allows you to generate and edit sample data for data model objects in the form data model. You can use this data to preview and test interactive communications and adaptive forms. You must generate the sample data before previewing as described in <a href="../../forms/using/work-with-form-data-model.md#sample" target="_blank">Work with form data model</a>.</p> 
+  <p>To preview an interactive communication with sample form data model data:</p> 
+  <ol> 
+   <li><p>On AEM author instance, navigate to <span class="uicontrol">Forms &amp;gt; Forms &amp; Documents</span>. </p> </li> 
+   <li><p>Select an interactive communication and tap <span class="uicontrol">Preview </span>in the toolbar to select <span class="uicontrol">Web Channel</span>, <span class="uicontrol">Print Channel</span>, or <span class="uicontrol">Both Channels</span> to preview the interactive communication.</p> </li> 
+   <li><p>In the Preview [<em>channel</em>] dialog, ensure that <span class="uicontrol">Test Data of Form Data Model</span> is selected and tap <span class="uicontrol">Preview</span>.</p> </li> 
+  </ol> 
+  <p>The interactive communication opens with prefilled sample data.</p> 
+  <img imageRotate="0" src="assets/web-preview.png" /> 
+  <p>Similarly, to preview an adaptive form with sample data, open the adaptive adaptive form in author mode and tap <span class="uicontrol">Preview</span>. </p> 
+  <h2 id="prefill">Prefill using form data model service</h2> 
+  <p>AEM Forms provides out-of-the-box Form Data Model Prefill Service that you can enable for adaptive forms and interactive communications based on form data model. The prefill service queries data sources for data model objects in the adaptive form and interactive communication and accordingly prefills data while rendering the form or the communication.</p> 
+  <p>To enable the Form Data Model Prefill Service for an adaptive form, open the Adaptive Form Container properties and select <span class="uicontrol">Form Data Model Prefill service</span> from the <span class="uicontrol">Prefill Service</span> drop-down in the Basic accordion. Then, save the properties.</p> 
+  <img imageRotate="0" src="assets/prefill-service.png" /> 
+  <p>To configure form data model prefill service in an interactive communication, you can select Form Data Model Prefill Service in the Prefill Service drop-down while creating it or later by modifying the properties.</p> 
+  <img captionBottom="Edit Properties dialog for an interactive communication" imageRotate="0" src="assets/edit-ic-props.png" /> 
+  <h2 id="write-af">Write submitted adaptive form data into data sources</h2> 
+  <p>When a user submits a form based on a form data model, you can configure the form to write submitted data for a data model object to its data sources. To achieve this use case, AEM Forms provide <a href="../../forms/using/configuring-submit-actions.md" target="_blank">Form Data Model submit action</a>, available out-of-the-box only for adaptive forms based on a form data model. It writes submitted data for a data model object in its data source.</p> 
+  <p>To configure the Form Data Model submit action, open Adaptive Form Container properties and select <span class="uicontrol">Submit using Form Data Model</span> from the Submit Action drop-down under the Submission accordion. Then, browse and select a data model object from the <span class="uicontrol">Name of the data model object to submit</span> drop-down. Save the properties.</p> 
+  <p>On form submission, data for the configured data model object is written to the respective data source. </p> 
+  <img imageRotate="0" src="assets/data-submission.png" /> 
+  <p>You can also submit form attachments to a data source using binary data model object property. Do the following to submit attachments to a JDBC data source:</p> 
+  <ol> 
+   <li><p>Add a data model object that includes a binary property to the form data model.</p> </li> 
+   <li><p>In the adaptive form, drag-drop the <span class="uicontrol">File Attachment</span> component from the Components browser onto the adaptive form.</p> </li> 
+   <li><p>Tap to select the added component and tap <img src="assets/settings_icon.png" /> to open the Properties browser for the component.</p> </li> 
+   <li><p>In the Bind Reference field, tap <img src="assets/foldersearch_18.png" /> and navigate to select the binary property you added in the form data model. Configure other properties, as appropriate.</p> <p>Tap <img src="assets/check-button.png" /> to save the properties. The attachment field is now bound to the binary property of the form data model.</p> </li> 
+   <li><p>In the Submission section of the Adaptive Form Container properties, enable <span class="uicontrol">Submit Form Attachments</span>. It submits the attachment in the binary property field to the data source on form submission.</p> </li> 
+  </ol> 
+  <h2 id="invoke-services">Invoke services in adaptive forms using rules</h2> 
+  <p>In an adaptive form based on a form data model, you can <a href="../../forms/using/rule-editor.md" target="_blank">create rules</a> to invoke services configured in the form data model. The <span class="uicontrol">Invoke Services</span> operation in a rule lists all available services in the form data model and allows you to select input and output fields for the service. You can also use the <strong>Set Value</strong> rule type to invoke a form data model service and set the value of a field to the output returned by the service.</p> 
+  <p>For example, the following rule invokes a get service that takes Employee Id as input and the values returned are populated in the corresponding Dependent Id, Last Name, First Name, and Gender fields in the form.</p> 
+  <img imageRotate="0" src="assets/invoke-service.png" /> 
+  <p>In addition, you can use the <span class="code">guidelib.dataIntegrationUtils.executeOperation</span> API to write a JavaScript in the code editor for the rule editor. For API details, see <a href="../../forms/using/invoke-form-data-model-services.md" target="_blank">API to invoke form data model service</a>.</p> 
+ </body> 
+</html>

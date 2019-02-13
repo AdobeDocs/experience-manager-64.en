@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="2017-10-31T16:34:21.248-0400" name="firstPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2019-01-12T17:34:24.995-0500" name="acrolinxDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-04-03T08:11:10.808-0400" name="cq:lastReplicated" />
+  <meta content="a05355e4-51c2-427c-8adb-08c4a3d3c7d8" name="jcr:uuid" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="A profile a set of rules around the options to be applied to assets uploaded to a folder. Specify what metadata profile and video encoding profile to apply to video assets that you upload. For image assets, you can also specify what imaging profile to apply to image assets to have them properly cropped." name="seoDescription" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/processing-profiles.html" name="publishExternalURL" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Profiles for Processing Metadata, Images, and Videos" name="jcr:title" />
+  <meta content="Profiles for Processing Metadata, Images, and Videos" name="seoTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-04-24T11:56:34.163-0400" name="cq:lastModified" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" />
+  <meta content="2018-04-24T11:56:34.162-0400" name="locHandOffDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-11-30T11:33:27.680-0500" name="publishExternalDate" />
+  <meta content="2017-11-30T11:33:27.680-0500" name="lastPublishExternalDate" />
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/processing-profiles" name="qaNotes" />
+  <meta content="298" name="acrolinxWords" />
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="rbrough" name="cq:lastModifiedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-11-30T11:33:27.680-0500" name="topicBrowsingSortDate" />
+  <meta content="2018-02-13T08:01:24.709-0500" name="jcr:created" />
+  <meta content="17" name="acrolinxSentences" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/processing_profiles_krs_workflow_f3c2f2ccebf6138e_185_report.xml" name="acrolinxReportURL" />
+  <meta content="Alva Ware-Bevacqui" name="contentOwner" />
+  <meta content="green" name="acrolinxPageStatus" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="6d25b6a7-add4-4cee-a173-e08e149134c2" name="jcr:predecessors" />
+  <meta content="Profiles for Processing Metadata, Images, and Videos" name="navTitle" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <draft-comment color="yellow" lastModifiedBy="ims-author-77F410094CD97C4F0A746C1B@AdobeID" lastModifiedDate="2017-11-30T11:33:27.959-0500" prevFirstName="unknown" prevLastName="unknown" type="remark">
+   <p>Page inheritance canceled</p> 
+  </draft-comment>
+  <p>A profile is a recipe for what options to apply to assets that get uploaded to a folder. For example, you can specify what metadata profile and video encoding profile to apply to video assets that you upload. Or, what imaging profile to apply to image assets to have them properly cropped.</p> 
+  <p>Those rules can include adding metadata, smart cropping of images, or establishing video encoding profiles. In AEM, you can create three types of profiles, which are covered in detail at the following links:</p> 
+  <ul> 
+   <li><a href="../../assets/using/metadata-profiles.md">Metadata profiles</a></li> 
+   <li><a href="../../assets/using/image-profiles.md">Image profiles</a></li> 
+   <li><a href="../../assets/using/video-profiles.md">Video profiles</a></li> 
+  </ul> 
+  <p>You must have Administrator rights to create, edit, and delete metadata, image, or video profiles.</p> 
+  <p>After you create your metadata, image, or video profile, you assign it to one or more folders that you use as the destination for newly uploaded assets.</p> 
+  <p>See also <a href="../../assets/using/best-practices-for-file-management.md">Best Practices for Organizing your Digital Assets for using Processing Profiles</a>. </p> 
+  <note>
+   <p>Assets that you move from one folder to another do not get reprocessed. For example, suppose you have Folder 1 that has profile A assigned to it and Folder 2 that has profile B assigned to it. If you move assets from Folder 1 to Folder 2, the moved assets retain their original processing from Folder 1.</p> 
+   <p>The same is true even when you move assets between two folders that have the same profile assigned to it.</p> 
+  </note>
+ </body>
+</html>

@@ -1,0 +1,66 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-05-11T10:03:09.897-0400" name="locHandOffDate" /> 
+  <meta content="2018-05-04T05:14:06.887-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Follow this page to learn about how to create structure of an app. This page describes how to structure templates and components along with information on JavaScript and CSS Clientlibs." name="seoDescription" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/developing-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/developing-adobe-phonegap-enterprise" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-05-04T05:14:06.817-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-05-04T05:14:06.817-0400" name="publishExternalDate" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:developing-adobe-phonegap-enterprise" name="cq:tags" /> 
+  <meta content="2017-10-31T16:25:58.103-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap-structure-an-app.html" name="publishExternalURL" /> 
+  <meta content="2017-12-13T19:01:29.221-0500" name="jcr:created" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-apps/developing-in-phonegap/developing-mobile-applications/structure-an-app" name="qaNotes" /> 
+  <meta content="fd222275-c816-40bc-bc0c-00271fa1fa00" name="jcr:uuid" /> 
+  <meta content="2018-05-11T10:03:09.898-0400" name="cq:lastModified" /> 
+  <meta content="Structure an App" name="seoTitle" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-05-04T05:14:06.817-0400" name="lastPublishExternalDate" /> 
+  <meta content="Structure an App" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="ec6b957f-db0b-46bf-8a8c-cb3021532611" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Structure an App" name="navTitle" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>An AEM Mobile project involves a diverse set of content types including pages, JavaScript and CSS client libraries, reusable AEM components, Content Sync configurations, and PhoneGap app shell content. Basing your new AEM Mobile app on the <a href="https://github.com/Adobe-Marketing-Cloud-Apps/aem-phonegap-starter-kit">Starter Kit</a> is a good way to get all the different types of content into our recommended structure to ease both portability and maintainability over the long term.</p> 
+  <h3>Page Content</h3> 
+  <p>The pages of your application should all be located below /content/mobileapps in order for them to be recognized by the AEM Mobile console.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-57.png" /> 
+  <p>By AEM convention, the first page of your app should be a redirect to one of it's children which serves as the default language of the app ('en' in both Geometrixx and Starter Kit cases). The top level locale page typically inherits from the foundation 'splash-page' component (/libs/mobileapps/components/splash-page) which takes care of the initialization necessary to support the installation of over-the-air Content Sync updates (contentInit code can be found at /etc/clientlibs/mobile/content-sync/js/contentInit.js).</p> 
+  <h3>Templates and Components</h3> 
+  <p>The template and component code for your app should be located in /apps/&amp;lt;brand name&amp;gt;/&amp;lt;app name&amp;gt;. In conformity with convention, you should place your template and component code in /apps/&amp;lt;brand name&amp;gt;/&amp;lt;app name&amp;gt;. This pattern should be familiar to developers who have already worked with Site in AEM. It is typically followed as /apps/ is locked down to anonymous access by default on publish instances. Accordingly, your raw JSP code is hidden away from potential attackers.</p> 
+  <p>App specific templates can be configured to only be presented by using the `allowedPaths` property node on the template itself, and setting its value to '/content/mobileapps(/.*)?' - or even something more specific if the template should only be usable for a single app. The `allowedParents` and `allowedChildren` properties can also be leveraged for very fine grained control of which templates will be available to an author based on the where the new page is being created.</p> 
+  <p>When creating a new app page component from scratch, it is recommended to set it's `sling:resourceSuperType` property to 'mobileapps/components/angular/ng-page'. This will set your page up for both authoring and rendering as a single-page app and enable you to overlay any .jsp files that your component might need to change. Since ng-page does not include any UI framework at all, a developer will typically end up overlaying (at least) 'template.jsp' (overlaid from /libs/mobileapps/components/angular/ng-page/template.jsp).</p> 
+  <p>Authorable page components, wishing to leverage AngularJS, have an equivalent `sling:resourceSuperType` component located at /libs/mobileapps/components/angular/ng-component which can be overlaid and customized in the same way.</p> 
+  <h3>JavaScript and CSS Clientlibs</h3> 
+  <p>When it comes to client libraries there are a few options available to the developer of where to place them in the repository. The following pattern is offered for guidance, but is not a hard requirement.</p> 
+  <p>If your clientside code can stand on its own and doesn't relate to a specific component of your application - meaning it may be reused in other applications - we recommend storing it in /etc/clientlibs/&amp;lt;brand name&amp;gt;/&amp;lt;lib name&amp;gt;. On the other hand, if the clientlib is specific to a single app, you can nest it as a child of your app's design node; /etc/designs/phonegap/&amp;lt;brand name&amp;gt;/&amp;lt;app name&amp;gt;/clientlibs. This clientlib's category should not be used by other libs, and should be used to embed other libs as necessary. Following this patterns saves the developer from having to add new Content Sync configurations each time a client library is added to the app, instead simply updating the 'embeds' property of the app's design clientlib. For example, take a look at the Geometrixx clientlibs-all Content Sync config node at /content/phonegap/geometrixx-outdoors/en/jcr:content/pge-app/app-config/clientlibs-all.</p> 
+  <p>If your client side code is tightly coupled to a specific component, place that code in a client library nested below the component's location in /apps/, and embed it's category into your app's 'design' clientlib.</p> 
+  <h3>PhoneGap Configuration</h3> 
+  <p>Each AEM Mobile app contains a directory which hosts the configuration files used by the PhoneGap <a href="https://github.com/phonegap/phonegap-cli">command line interface</a> and <a href="https://build.phonegap.com/">PhoneGap build</a> to turn your web content into a runnable application. In the Geometrixx sample for instance, this directory (/content/phonegap/geometrixx-outdoors/shell/jcr:content/pge-app/app-content) is located as part of the Shell; a design decision made due to the fact that it contains only content which cannot be updated over-the-air, such as plugins which deal with device APIs and configuration of the app itself.</p> 
+  <p>In this directory you will also find a number of <a href="http://cordova.apache.org/docs/en/edge/guide_appdev_hooks_index.md.html#Hooks%20Guide">Cordova hooks</a> which can be used to install plugins, place resource files in their platform specific locations, and other actions which should be executed as part of the build. Note: as an alternative to downloading each plugin as part of the build, you can follow the pattern of the Kitchen Sink app and <a href="https://github.com/blefebvre/aem-phonegap-kitchen-sink/tree/master/content/src/main/content/jcr_root/content/phonegap/kitchen-sink/shell/_jcr_content/pge-app/app-content/phonegap/plugins">include plugin source code</a> with the rest of your app project.</p> 
+  <h3>The Next Steps</h3> 
+  <p>Once you learn about the Structure of the app, see <a href="../../mobile/using/phonegap-apps-console.md">Creating and Editing the Apps using App Console</a>.</p> 
+ </body> 
+</html>

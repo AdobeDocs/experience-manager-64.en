@@ -1,0 +1,275 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-30T03:26:47.508-0400" name="locHandOffDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-01-13T19:01:23.960-0500" name="jcr:created" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy" name="qaNotes" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Deploying and Maintaining" name="jcr:title" /> 
+  <meta content="Learn how to get started with the AEM installation." name="seoDescription" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-11-26T17:17:23.644-0500" name="cq:lastModified" /> 
+  <meta content="2018-11-16T14:10:12.022-0500" name="lastPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="406bd14b-f013-44ae-bdfd-bbcba088aa2a" name="jcr:uuid" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:deploying" name="cq:tags" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-11-16T14:10:12.022-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2018-11-16T14:10:12.022-0500" name="publishExternalDate" /> 
+  <meta content="2017-10-31T16:17:59.261-0400" name="firstPublishExternalDate" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Deploying and Maintaining" name="navTitle" /> 
+  <meta content="2018-11-16T14:10:12.039-0500" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/deploy.html" name="publishExternalURL" /> 
+  <meta content="ca1a0670-1180-4477-986f-6d0ff75308d9" name="jcr:predecessors" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/deploying;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/deploying" name="moreHelpPaths" /> 
+  <meta content="Deploying and Maintaining" name="seoTitle" /> 
+ </head> 
+ <body> 
+  <p>In this page you will find:</p> 
+  <ul> 
+   <li><a href="#basicconcepts">Basic Concepts</a> 
+    <ul> 
+     <li><a href="#whatisaem">What is AEM?</a></li> 
+     <li><a href="#typicaldeploymentscenarios">Typical Deployments</a> 
+      <ul> 
+       <li><a href="#onpremise">On-premise</a></li> 
+       <li><a href="#managedservicesusingcloudmanager">Managed Services using Cloud Manager</a></li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><a href="#gettingstarted">Getting Started</a> 
+    <ul> 
+     <li><a href="#prerequisites">Prerequisites</a></li> 
+     <li><a href="#gettingthesoftware">Getting the Software</a></li> 
+     <li><a href="#defaultlocalinstall">Default Local Install</a></li> 
+     <li><a href="#authorandpublishinstalls">Author and Publish Installs</a></li> 
+     <li><a href="#unpackedinstalldirectory">Unpacked Install Directory</a></li> 
+     <li><a href="#startingandstopping">Starting and Stopping</a></li> 
+    </ul> </li> 
+  </ul> 
+  <p>Once you have familiarized yourself with these basics, you will find in more advanced and detailed information in the following subpages:</p> 
+  <draft-comment lastModifiedBy="jsyal" lastModifiedDate="2018-11-08T18:08:01.177-0500" type="annotation">
+    Added under Typical Deployments 
+  </draft-comment> 
+  <draft-comment lastModifiedBy="jsyal" lastModifiedDate="2018-11-09T15:11:06.206-0500" type="annotation">
+    Does it make sense to include the link at the end of this section? (I'd like Pierre to confirm) For more details on AEM Managed Services product description, go to: https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html Pending (JS) 
+  </draft-comment> 
+  <ul> 
+   <li><a href="../../../sites/deploying/using/technical-requirements.md">Technical Requirements</a></li> 
+   <li><a href="../../../sites/deploying/using/recommended-deploys.md">Recommended Deployments</a></li> 
+   <li><a href="../../../sites/deploying/using/custom-standalone-install.md">Custom Standalone Install</a></li> 
+   <li><a href="../../../sites/deploying/using/application-server-install.md">Application Server Install</a></li> 
+   <li><a href="../../../sites/deploying/using/troubleshooting.md">Troubleshooting</a></li> 
+   <li><a href="../../../sites/deploying/using/command-line-start-and-stop.md">Command Line Start and Stop</a></li> 
+   <li><a href="../../../sites/deploying/using/configuring.md">Configuring</a></li> 
+   <li><a href="../../../sites/deploying/using/upgrade.md">Upgrading to AEM 6.4</a></li> 
+   <li><a href="../../../sites/deploying/using/ecommerce.md">eCommerce</a></li> 
+   <li><a href="../../../sites/deploying/using/ht-deploy.md">Configuration How-To Articles</a></li> 
+   <li><a href="../../../sites/deploying/using/web-console.md">Web Console</a></li> 
+   <li><a href="../../../sites/deploying/using/troubleshoot-rep.md">Troubleshooting Replication</a></li> 
+   <li><a href="../../../sites/deploying/using/best-practices.md">Best Practices</a></li> 
+   <li><a href="../../../communities/using/deploy-communities.md">Deploying Communities</a></li> 
+   <li><a href="../../../sites/deploying/using/platform.md">Introduction to the AEM Platform</a></li> 
+   <li><a href="../../../sites/deploying/using/DO-NOT-DELETE-performance-guidelines-pdf.md">Performance Guidelines</a></li> 
+   <li><a href="../../../mobile/using/getting-started-aem-mobile.md">Getting Started with AEM Mobile</a></li> 
+   <li><a href="../../../sites/deploying/using/maintenance-release-vehicle-definitions.md">Maintenance Release Vehicle Definitions</a></li> 
+   <li><a href="../../../sites/deploying/using/aem-screens-introduction.md">What is AEM Screens?</a></li> 
+  </ul> 
+  <h2>Basic Concepts</h2> 
+  <h3>What is AEM?</h3> 
+  <p>Adobe Experience Manager is a web-based client-server system for building, managing and deploying commercial websites and related services. It combines a number of infrastructure-level and application-level functions into a single integrated package.</p> 
+  <p>At the infrastructure level AEM provides the following:</p> 
+  <ul> 
+   <li><strong>Web Application Server</strong>: AEM can be deployed in standalone mode (it includes an integrated Jetty web server) or as a web application within a third-party application server (WebLogic, WebSphere, etc).</li> 
+   <li><strong>Web Application Framework</strong>: AEM incorporates the Sling Web Application Framework that simplifies the writing of RESTful, content-oriented web applications.</li> 
+   <li><strong>Content Repository</strong>: AEM includes a Java Content Repository (JCR), a type of hierarchical database designed specifically for unstructured and semi-structured data. The repository stores not only the user-facing content but also all code, templates and internal data used by the application.</li> 
+  </ul> 
+  <p>Building on this base, AEM also offers a number of application-level features for the management of:</p> 
+  <ul> 
+   <li><strong>Websites</strong></li> 
+   <li><strong>Mobile Applications</strong></li> 
+   <li><strong>Digital Publications</strong></li> 
+   <li><strong>Forms</strong></li> 
+   <li><strong>Digital Assets</strong></li> 
+   <li><strong>Communities</strong></li> 
+   <li><strong>Online Commerce</strong></li> 
+  </ul> 
+  <p>Finally, customers can use these infrastructrue and application-level building blocks to create customized solutions by building applications of their own.</p> 
+  <p>The AEM server is <strong>Java-based</strong> and runs on most operating systems that support that platform. All client interaction with AEM is done through a <strong>web browser</strong>.</p> 
+  <h3>Typical Deployment Scenarios</h3> 
+  <p>In AEM terminology an "instance" is a copy of AEM running on a server. AEM installations usually involve at least two instances, typically running on separate machines:</p> 
+  <ul> 
+   <li><strong>Author</strong>: An AEM instance used to create, upload and edit content and to administer the website. Once content is ready to go live, it is replicated to the publish instance.</li> 
+   <li><strong>Publish</strong>: An AEM instance that serves the published content to the public.</li> 
+  </ul> 
+  <div>
+    These instances are identical in terms of installed software. They are differentiated by configuration only. In addition, most installations use a dispatcher: 
+  </div> 
+  <ul> 
+   <li><strong>Dispatcher</strong>: A static web server (Apache httpd, Microsoft IIS, etc.) augmented with the AEM dispatcher module. It caches web pages produced by the publish instance to improve performance.</li> 
+  </ul> 
+  <p>There are many advanced options and elaborations of this setup, but the basic pattern of author, publish and dispatcher is at the core of most deployments. We will begin by focusing on a relatively simple set up. Discussion of advanced deployment options will follow.</p> 
+  <p>The following sections describe both the scenarios:</p> 
+  <ul> 
+   <li><strong>On-premise</strong>: AEM deployed and managed in your corporate environment.<br /> </li> 
+   <li><strong>Managed Services - Cloud Manager for Adobe Experience Manager</strong>: AEM deployed and managed by Adobe Managed Services.</li> 
+  </ul> 
+  <draft-comment lastModifiedBy="jsyal" lastModifiedDate="2018-11-08T18:08:29.149-0500" type="annotation">
+    two scenarios added 
+  </draft-comment> 
+  <h3>On-premise</h3> 
+  <p>You can install AEM on servers in your Corporate environment. Typical installation instances include: Development, Testing and Publishing environments. Please refer to the <a href="../../../sites/deploying/using/deploy.md#getting%20started">Getting Started</a> section for basic details on how to get the AEM software to install it locally.<br /> </p> 
+  <p>To learn more about the typical on-premises deployments, refer to <a href="../../../sites/deploying/using/recommended-deploys.md">Recommended Deployments</a>.</p> 
+  <draft-comment lastModifiedBy="jsyal" lastModifiedDate="2018-11-08T18:08:37.084-0500" type="annotation">
+    New Section 
+  </draft-comment> 
+  <draft-comment lastModifiedBy="jsyal" lastModifiedDate="2018-11-09T15:11:14.588-0500" type="annotation">
+    for basic details on how to get the AEM software to install it locally. -Done (JS) 
+  </draft-comment> 
+  <draft-comment lastModifiedBy="panchapa" lastModifiedDate="2018-11-09T14:11:32.970-0500" type="annotation">
+    This sentence makes no sense. Do you mean by typical instances (Author, Publish, Dispatcher) or typical environments (Production, Stage, Development)? Currently this does not read well. 
+  </draft-comment> 
+  <h3>Managed Services using Cloud Manager</h3> 
+  <p>AEM Managed Services is a complete solution for Digital Experience management. It provides benefits of experience delivery solution in the cloud while retaining all the control, security and customization benefits of an on-premise deployment. AEM Managed Services enables customers to launch faster by deploying on the cloud and also by leaning on the best practices and support from Adobe. Organizations and business users can engage customers in minimal time, drive market share, and focus on creating innovative marketing campaigns while reducing the burden on IT.</p> 
+  <p>With AEM Managed Services customers can realize the following benefits:</p> 
+  <p><strong>Faster Time to Market: </strong>With flexible cloud infrastructure of Adobe Managed Services, organizations can rapidly plan, launch and optimize successful digital experiences. Adobe manages the cloud architecture with no additional capital, hardware, or software required and Adobe’s Customer Success Engineers, help with AEM architecture, provisioning, customization for connecting to back-end apps and go-live best practices. </p> 
+  <p><strong>Higher Performance: </strong>Provides reliable digital experiences for your business with four service availability options 99.5%, 99.9%, 99.95%, and 99.99%. Additionally, it allows automatic backup and multimode disaster recovery models to help ensure reliability and contingency management. </p> 
+  <p><strong>Optimized IT Costs: </strong>Proactive guidance and expertise helps organizations stay current on the latest version of AEM. Adobe Platinum Maintenance and Support is automatically included in new deployments of AMS Enterprise/Basic, offering technical expertise and operational experience to help organizations maintain their mission-critical applications. Free basic Analytics or Target capabilities offer additional value especially for mid-market organizations with limited needs for analytics and personalization.</p> 
+  <p><strong>Highest Security: </strong>Ensures enterprise-grade physical, network, and data security by hosting customer applications in a restricted-access facility, behind firewall systems, or inside a virtual private cloud. It includes single-tenant virtual machines with robust data storage encryption, antivirals, and data isolation.</p> 
+  <p><strong>Cloud Manager</strong>: Cloud Manager, part of the Adobe Experience Manager Managed Services offering is a self-service portal that further enables organizations to self-manage Adobe Experience Manager in the cloud. It includes a state-of-the-art continuous integration and continuous delivery (CI/CD) pipeline that lets IT teams and implementation partners speed the delivery of customizations or updates without compromising performance or security. Cloud Manager is only available for Adobe Managed Service customers.</p> 
+  <p>To learn more about Cloud Manger and its resources, please refer to <a href="/content/help/en/experience-manager/cloud-manager/user-guide"><strong>Cloud Manager User Guide</strong></a>.</p> 
+  <h2>Getting Started</h2> 
+  <h3>Prerequisites</h3> 
+  <p>While production instances are usually run on dedicated machines running an officially supported OS (see <a href="../../../sites/deploying/using/technical-requirements.md">Technical Requirements</a>), the Experience Manager server will actually run on any system that supports <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html"><strong>Java Standard Edition 8</strong></a>.</p> 
+  <p>For purposes of familiarization and for developing on AEM it is quite common to use an instance installed on your local machine running Apple OS X or desktop versions of Microsoft Windows or Linux.</p> 
+  <p>On the client-side, AEM works with all modern browsers (<strong>Microsoft Edge</strong>, <strong>Internet Explorer</strong> 11, <strong>Chrome </strong>51+<strong> </strong>, <strong>Firefox </strong>47+, <strong>Safari</strong> 8+) on both desktop and tablet operating systems. See <a href="../../../sites/deploying/using/technical-requirements.md#main-pars-title-17">Supported Client Platforms</a> for details.</p> 
+  <h3>Getting the Software</h3> 
+  <p>Customers with a valid maintenance and support contract should have received a mail notification with a code and be able to download AEM from the <a href="https://licensing.adobe.com/" target="_blank"><strong>Adobe Licensing Website</strong></a>. Business partners can request download access from <a href="mailto:spphelp@adobe.com"><strong>spphelp@adobe.com</strong></a>.</p> 
+  <p>The AEM software package is available in two foms:</p> 
+  <ul> 
+   <li><strong>cq-quickstart-6.4.0.jar:</strong> A standalone executable <em>jar</em> file that includes everything needed to get up and running.</li> 
+   <li><strong>cq-quickstart-6.4.0.war: </strong>A <em>war</em> file for deployment in a third-party application server.</li> 
+  </ul> 
+  <p>In the following section we describe the <strong>standalone installation</strong>. For details on installing AEM in an application server see <a href="../../../sites/deploying/using/application-server-install.md">Application Server Install</a>.</p> 
+  <h3>Default Local Install</h3> 
+  <ol> 
+   <li><p>Create an install directory on your local machine. For example:</p> <p>UNIX install location: <strong>/opt/aem</strong></p> <p>Windows install location: <strong><span class="code">C:\Program Files\aem</span></strong></p> <p>Equally, it is common to install sample instances in a folder right on the desktop. In any case we will refer to this location generically as:</p>   </li> 
+   <li><p>Place the the <strong>jar</strong> and <strong>license </strong>files in this directory:</p> 
+    <codeblock class="syntax shell">
+      &lt;aem-install&gt;/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cq-quickstart-6.4.0.jar!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;license.properties 
+    </codeblock><p>If you do not provide a <span class="code">license.properties</span> file, AEM will redirect your browser to a <strong>Welcome</strong> screen on startup, where you can enter a license key. You will need to request a valid license key from Adobe if you do not yet have one.</p> </li> 
+   <li><p>To start up the instance in a GUI environment, just double-click the <strong><span class="code">cq-quickstart-6.4.0.jar</span></strong> file.</p> <p>Alternative, you can launch AEM from the command line. For a 32-bit Java VM enter the following:</p> 
+    <codeblock class="syntax shell">
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;java&amp;nbsp;-Xmx1024M&amp;nbsp;-jar&amp;nbsp;cq-quickstart-6.4.0.jar 
+    </codeblock><p>For a 64-bit VM, enter:</p> 
+    <codeblock class="syntax shell">
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;java&amp;nbsp;-XX:MaxPermSize=256m&amp;nbsp;-Xmx1024M&amp;nbsp;-jar&amp;nbsp;cq-quickstart-6.4.0.jar 
+    </codeblock></li> 
+  </ol> 
+  <p>AEM will take a few minutes to unpack the jar file, install itself, and start up. The above procedure results in:</p> 
+  <ul> 
+   <li>an <strong>AEM author</strong> instance </li> 
+   <li>running on <strong>localhost</strong> </li> 
+   <li>on port <strong>4502</strong></li> 
+  </ul> 
+  <p>To access the instance point your browser to:</p> 
+  <p style="margin-left: 40px;"><strong><span class="code">http://localhost:4502</span></strong></p> 
+  <p>The result in author instance will be automatically configured to connect to a <strong>publish instance</strong> on <strong><span class="code">localhost:4503</span></strong>.</p> 
+  <h3>Author and Publish Installs</h3> 
+  <p>The default install (an <strong>author</strong> instance on <strong><span class="code">localhost:4502</span></strong>) can be changed simply by renaming the <span class="code">jar</span> file before launching it for the first time. The naming pattern is:</p> 
+  <p style="margin-left: 40px;"><strong><span class="code">cq-&amp;lt;instance-type&amp;gt;-p&amp;lt;port-number&amp;gt;.jar</span></strong></p> 
+  <p>For example, renaming the file to</p> 
+  <p style="margin-left: 40px;"><strong><span class="code">cq-author-p4502.jar</span></strong></p> 
+  <p>and launching it will result in an author instance running on <strong><span class="code">localhost:4502</span></strong>.</p> 
+  <p>Similarly, renaming and launching the file</p> 
+  <p style="margin-left: 40px;"><strong><span class="code">cq-publish-p4503.jar</span></strong></p> 
+  <p>will result in a publish instance running on <strong><span class="code">localhost:4503</span></strong>.</p> 
+  <p>You would install these two instances in, for example</p> 
+  <p style="margin-left: 40px;"><span class="code">&amp;lt;aem-install&amp;gt;/author </span>and</p> 
+  <p style="margin-left: 40px;"><strong><span class="code">&amp;lt;aem-install&amp;gt;/publish</span></strong></p> 
+  <p> </p> 
+  <p>For more details on customizing your installation see the following:</p> 
+  <ul> 
+   <li><a href="../../../sites/deploying/using/custom-standalone-install.md">Custom Standalone Install</a></li> 
+   <li><a href="../../../sites/deploying/using/configure-runmodes.md">Run Modes</a></li> 
+  </ul> 
+  <h3>Unpacked Install Directory</h3> 
+  <p>When the quickstart jar is launched for the first time it will unpack itself into the same directory under a new sub-directory called <span class="code">crx-quickstart</span>. You should end up with the following:</p> 
+  <codeblock class="syntax xml">
+    &lt;aem-install&gt;/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;license.properties!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cq-quickstart-6.4.0.jar!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;crx-quickstart/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;app/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bin/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;conf/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;launchpad/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;logs/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;metrics/&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;monitoring/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;opt/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;repository/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;threaddumps/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;eula-de_DE.html!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;eula-en_US.html!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;eula-fr_FR.html!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;eula-ja_JP.html!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;readme.txt 
+  </codeblock> 
+  <p>If the instance was installed from the GUI, then a browser window will open auomatically and a desktop application window will also open displaying the host and port of the instance and an on/off switch:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-04-05at91504am1.png" /> 
+  <note> 
+   <p>If you are using symlinks, have a look at <a href="/content/help/en/experience-manager/kb/changing-symlink">issues with symlink</a>.</p> 
+  </note> 
+  <h3>Starting and Stopping</h3> 
+  <p>Once AEM has unpacked itself and started up for the first time, double clicking on the jar file in the install directory simply starts the instance, it does not re-install it.</p> 
+  <p>To stop the instance fom the GUI, simply click the <strong>on/off</strong> switch on the desktop application window.</p> 
+  <p>You can also stop and start AEM from the command line. Assuming you have already installed the instance for the first time, the <strong>command-line scripts</strong> are located here:</p> 
+  <p style="margin-left: 40px;"><strong><span class="code">&amp;lt;aem-install&amp;gt;/crx-quickstart/bin/</span></strong></p> 
+  <p>This folder contains the following Unix bash shell scripts:</p> 
+  <ul> 
+   <li><strong><span class="code">start</span></strong>: Starts the instance</li> 
+   <li><span class="code">stop</span>: Stops the instance</li> 
+   <li><strong><span class="code">status</span></strong>: Reports the Status of the instance</li> 
+   <li><strong><span class="code">quickstart</span></strong>: Used to configure start information, if necessary.</li> 
+  </ul> 
+  <div>
+    There are also equivalent 
+   <strong><span class="code">bat</span></strong> files for Windows. For more detailed information see: 
+  </div> 
+  <ul> 
+   <li><a href="../../../sites/deploying/using/command-line-start-and-stop.md">Command Line Start and Stop</a></li> 
+  </ul> 
+  <p>AEM starts and automatically redirects your web browser to the appropriate page, usually the login page; for example:</p> 
+  <p><span class="code"> http://localhost:4502/</span></p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-04-03at15317pm1.png" /> 
+  <p>Once logged in, you have access to AEM. For further information, depending on the your role, see the following:</p> 
+  <ul> 
+   <li><a href="/sites/authoring/user-guide">Authoring</a> </li> 
+   <li><a href="/sites/administering/user-guide">Administering</a></li> 
+   <li><a href="/sites/developing/user-guide">Developing</a></li> 
+   <li><a href="../../../managing/using/manage-reference.md">Managing</a></li> 
+  </ul> 
+  <h2>Advanced Deployment</h2> 
+  <p>The above section should give you a good understanding of the basics of AEM installation. However, installing a full production system of AEM can involve considerably more complexity. For full coverage of advanced installation see the following subpages:</p> 
+  <ul> 
+   <li><a href="../../../sites/deploying/using/technical-requirements.md">Technical Requirements</a></li> 
+   <li><a href="../../../sites/deploying/using/recommended-deploys.md">Recommended Deployments</a></li> 
+   <li><a href="../../../sites/deploying/using/custom-standalone-install.md">Custom Standalone Install</a></li> 
+   <li><a href="../../../sites/deploying/using/application-server-install.md">Application Server Install</a></li> 
+   <li><a href="../../../sites/deploying/using/troubleshooting.md">Troubleshooting</a></li> 
+   <li><a href="../../../sites/deploying/using/command-line-start-and-stop.md">Command Line Start and Stop</a></li> 
+   <li><a href="../../../sites/deploying/using/configuring.md">Configuring</a></li> 
+   <li><a href="../../../sites/deploying/using/upgrade.md">Upgrading to AEM 6.4</a></li> 
+   <li><a href="../../../sites/deploying/using/ecommerce.md">eCommerce</a></li> 
+   <li><a href="../../../sites/deploying/using/ht-deploy.md">Configuration How-To Articles</a></li> 
+   <li><a href="../../../sites/deploying/using/web-console.md">Web Console</a></li> 
+   <li><a href="../../../sites/deploying/using/troubleshoot-rep.md">Troubleshooting Replication</a></li> 
+   <li><a href="../../../sites/deploying/using/best-practices.md">Best Practices</a></li> 
+   <li><a href="../../../communities/using/deploy-communities.md">Deploying Communities</a></li> 
+   <li><a href="../../../sites/deploying/using/platform.md">Introduction to the AEM Platform</a></li> 
+   <li><a href="../../../sites/deploying/using/DO-NOT-DELETE-performance-guidelines-pdf.md">Performance Guidelines</a></li> 
+   <li><a href="../../../mobile/using/getting-started-aem-mobile.md">Getting Started with AEM Mobile</a></li> 
+   <li><a href="../../../sites/deploying/using/maintenance-release-vehicle-definitions.md">Maintenance Release Vehicle Definitions</a></li> 
+   <li><a href="../../../sites/deploying/using/aem-screens-introduction.md">What is AEM Screens?</a></li> 
+  </ul> 
+ </body> 
+</html>

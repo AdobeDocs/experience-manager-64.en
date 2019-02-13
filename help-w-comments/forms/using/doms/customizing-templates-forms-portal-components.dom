@@ -1,0 +1,165 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/customizing-templates-forms-portal-components.html" name="publishExternalURL" /> 
+  <meta content="Display custom metadata in form listing" name="seoDescription" /> 
+  <meta content="2018-04-03T08:24:52.478-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-26T04:39:16.946-0400" name="locHandOffDate" /> 
+  <meta content="2018-11-21T02:24:38.213-0500" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2016-04-20T09:45:00.588-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-03T08:24:52.478-0400" name="lastPublishExternalDate" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="Display custom metadata in form listing" name="navTitle" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="c51bb16f-67c1-447c-9aa4-f76f20349d4b" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="1206" name="acrolinxWords" /> 
+  <meta content="2018-04-03T08:24:52.478-0400" name="topicBrowsingSortDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2015-06-12T04:25:41.557-0400" name="lastPublishQADate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:customization" name="cq:tags" /> 
+  <meta content="2018-04-03T08:24:54.292-0400" name="cq:lastReplicated" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/customization;/content/help/en/experience-manager/6-4/forms/morehelp/customization" name="moreHelpPaths" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/customizing_templates_forms_portal_components_admin_5e12de0b318c6865_1998_report.xml" name="acrolinxReportURL" /> 
+  <meta content="65ffe8bd-292f-42db-badf-9d6b5f792dcf" name="jcr:uuid" /> 
+  <meta content="75" name="acrolinxSentences" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2016-05-31T06:37:02.199-0400" name="acrolinxDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-12-01T19:04:55.543-0500" name="jcr:created" /> 
+  <meta content="Customizing templates for forms portal components" name="jcr:title" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <h2>Prerequisites</h2> 
+  <p><a href="../../forms/using/manage-form-metadata.md">Managing form metadata</a></p> 
+  <p>Working knowledge of HTML and CSS</p> 
+  <h2>Overview</h2> 
+  <p>The AEM Forms user interface lets you add metadata to any form. Custom metadata can enhance user experience while listing and searching forms of your organization.</p> 
+  <p>Forms Portal lets you use custom metadata in form listings. While creating custom templates for assets, you can modify their layout and use custom metadata with your CSS style set.</p> 
+  <p>Perform the following steps to create a custom template for various Forms Portal components.</p> 
+  <h2>Creating a&amp;nbsp;custom template</h2> 
+  <ol> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 13px;">Create a sling:Folder node under <em>/apps </em></p> 
+    <div style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 13px;">
+      Add a "fpContentType" property. Specify appropriate values for the property depending on the component for which you are defining the custom template. 
+     <br /> 
+    </div> 
+    <ul> 
+     <li>Search &amp; Lister component: "/libs/fd/fp/formTemplate"</li> 
+     <li>Drafts &amp; Submissions Component: 
+      <ul> 
+       <li>Drafts Section: /libs/fd/fp/draftsTemplate</li> 
+       <li>Submissions Section: /libs/fd/fp/submissionsTemplate</li> 
+      </ul> </li> 
+     <li>Link Component: /libs/fd/fp/linkTemplate</li> 
+    </ul> <p>Add a title that you want displayed while selecting layout templates.</p> 
+    <div style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 13px;"> 
+     <em>Note: The title can be different from the node name of sling:Folder you created. </em> 
+    </div> 
+    <div style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 13px;"> 
+     <em>The following image depicts the configuration for the Search &amp; Lister component.</em> 
+    </div> <img alt="Creating a sling:Folder" imageRotate="0" src="assets/1-3.png" title="Creating a sling:Folder" /></li> 
+   <li><p>Create a file template.html in this folder to serve as the custom template.</p> </li> 
+   <li><p>Write the custom template and use custom metadata as described below.</p> </li> 
+  </ol> 
+  <h2>Working example</h2> 
+  <p>The following is a sample implementation of a custom template where Forms Portal acquires a custom Geometrixx Gov Card Layout for the Search &amp; Lister component.</p> 
+  <codeblock gutter="true" class="syntax mxml">
+    &lt;div&amp;nbsp;class="__FP_boxes-container&amp;nbsp;__FP_single-color"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="boxes&amp;nbsp;__FP_boxes&amp;nbsp;__FP_single-color"&amp;nbsp;data-repeatable="true"&gt;!!discoiqbr!!&amp;nbsp;&lt;div&amp;nbsp;class="__FP_boxes-thumbnail"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img&amp;nbsp;src&amp;nbsp;="${path}/jcr:content/renditions/cq5dam.thumbnail.319.319.png"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h3&amp;nbsp;class="__FP_single-color"&amp;nbsp;title="${name}"&amp;nbsp;tabindex="0"&gt;${name}&lt;/h3&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;${description}&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="boxes-icon-cont&amp;nbsp;__FP_boxes-icon-cont"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="op-dow"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="${formUrl}"&amp;nbsp;target="_blank"&amp;nbsp;class="__FP_button&amp;nbsp;${htmlStyle}"&amp;nbsp;title="${config-htmlLinkText}"&gt;${localize-Apply}&lt;/a&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="${pdfUrl}"&amp;nbsp;class="__FP_button&amp;nbsp;${pdfStyle}"&amp;nbsp;title="${config-pdfLinkText}"&gt;${localize-Download}&lt;/a&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&lt;/div&gt; 
+  </codeblock> 
+  <h2>Technical specifications for custom templates</h2> 
+  <p>A custom template for any Forms Portal component includes repeatable and non-repeatable entries. Repeatable entries are basic entities for listing. Examples of repeatable entries are Search &amp; Lister, Drafts &amp; Submissions, and Link components.</p> 
+  <p>Forms Portal provides a syntax for place-holders to display custom/OOTB metadata. The placeholders are populated after displaying the results of forms, drafts, or submissions.</p> 
+  <p>To include a repeatable entry, configure the value of the attribute <strong>data-repeatable</strong> to <strong>true</strong>.</p> 
+  <p><em>In the example discussed, two Div elements are present at the top in the custom template. The first, with "__FP_boxes-container" CSS class, works as a container element for the forms that are listed. The second, with "__FP_boxes" CSS class, is a template for the basic entities, in this case a Form. The <strong>data-repeatable </strong>attribute present in the Div element has the value <strong>true</strong>.</em></p> 
+  <p>Each placeholder has an exclusive OOTB metadata set. To display custom metadata at a particular place on the form, add the <strong>${metadata_prop} property </strong>at the place.</p> 
+  <p><em>In the example, the metadata property is used at multiple instance. For example, it is used in <strong>description</strong>, <strong>name</strong>, <strong>formUrl</strong>, <strong>htmlStyle</strong>, <strong>pdfUrl</strong>, <strong>pdfStyle</strong>, and <strong>path </strong>in the prescribed manner.</em><br /> </p> 
+  <h2>Out of the box metadata</h2> 
+  <p>Various Forms Portal components provide exclusive sets of OOTB metadata that you can use for listing.</p> 
+  <h3>Search &amp;amp; Lister component</h3> 
+  <ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 13px;"> 
+   <li><strong>Title: </strong>Title of the form</li> 
+   <li><strong>name</strong>: Name of the form (mostly it is the same as the title)</li> 
+   <li><strong>description</strong>: Description of the form</li> 
+   <li><strong>formUrl</strong>: URL to render the form as HTML</li> 
+   <li><strong>pdfUrl</strong>: URL to render the form as PDF</li> 
+   <li><strong>assetType</strong>: Type of the asset. Valid values include <strong>Form</strong>,<strong> PDF Form</strong>,<strong> Print Form</strong>, and <strong>Adaptive Form</strong></li> 
+   <li><strong>htmlStyle </strong>&amp; <strong>pdfStyle</strong>: Display style for HTML and PDF icons respectively used for rendering. Valid values are “<strong>__FP_display_none</strong>” or <strong>blank<br /> </strong><em>Note: Remember to use the __FP_display_none class in your custom style sheet</em></li> 
+   <li><strong>downloadUrl</strong>: URL to download an asset. </li> 
+  </ul> 
+  <div style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 13px;">
+    Support for localization, sorting, and using configuration properties on the user interface (Search &amp; Lister Only): 
+  </div> 
+  <ol style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 13px;"> 
+   <li><strong>Localization Support</strong>: To localize any static text use the attribute <strong>${localize-</strong><em>YOUR_TEXT</em><strong>} </strong>and make the localized value available, if doesn't exist already.<br /> <em>In the example discussed, the attributes ${localize-Apply} and ${localize-Download} are used to localize the Apply and Download text.</em></li> 
+   <li><strong>Support for Sorting</strong>: Click the HTML element to sort search results. To implement sorting in a tabled layout, add the "data-sortKey" attribute on the particular table header. In addition, add its value as the metadata for which you want to sort.<br /> For example, for the "Title" header in the grid view, the value of the "data-sortKey" header is "title". Click the heading to sort the values in a particular column.</li> 
+   <li><strong>Using configuration properties</strong>: The Search &amp; Lister component has several configurations that you can use on the user interface. For example, to display HTML ToolTip text saved through the edit dialog, use the <strong>${config-htmlLinkText} attribute. </strong>Similarly, for PDF tool tip text, use the<strong> ${config-pdfLinkText}</strong> attribute.</li> 
+  </ol> 
+  <h3>Link component</h3> 
+  <ul> 
+   <li><strong>Title: </strong>Title of the form</li> 
+   <li><strong>formUrl</strong>: URL to render the form as HTML</li> 
+   <li><strong>target</strong>: Target attribute of the link. Valid values are “_blank” and “_self.”</li> 
+   <li><strong>linkText</strong>: Link caption</li> 
+  </ul> 
+  <h3>Drafts &amp;amp; Submissions component</h3> 
+  <ul> 
+   <li><strong>Path</strong>: Path of the draft/submissions metadata node. Use it with the .HTML extension as a URL to open a draft or submission.</li> 
+   <li><strong>contextPath</strong>: Context path of the AEM instance</li> 
+   <li><strong>firstLetter</strong>: First letter (uppercase) of the title of the adaptive form, which was saved as Draft or submitted.</li> 
+   <li><strong>formName</strong>: The title of the adaptive form, which was saved as Draft or submitted.</li> 
+   <li><strong>draftID</strong>: ID for the draft that is listed (Use only in the template for the Draft section).</li> 
+   <li><strong>submitID</strong>: ID for the submission that is listed (Use only in the template for the Submission section).</li> 
+   <li><strong>status</strong>: Status of the submitted form. (Use only in the template for the Submission section).</li> 
+   <li><strong>description</strong>: Description of the adaptive form associated with the draft or submission.</li> 
+   <li><strong>diffTime</strong>: Difference between the current time and the last save action for the draft. Alternatively, difference between the current time and the last submit action for the submission.</li> 
+   <li><strong>iconClass</strong>: CSS class used to display the first letter of the draft/submission. Forms Portal includes the following classes, which provide various colored backgrounds.</li> 
+   <li><strong>owner</strong>: User who created the draft/submission.</li> 
+   <li><strong>Today</strong>: Date of creation of draft or submission in DD:MM:YYYY format.</li> 
+   <li><strong>TimeNow</strong>: Time of creation of draft or submission in HH:MM:SS 24-hour format</li> 
+  </ul> 
+  <div> 
+   <em>Note:</em> 
+  </div> 
+  <ol> 
+   <li>For the delete option in the Drafts section under the Drafts &amp; Submissions component, name the CSS class "__FP_deleteDraft." In addition, include the attribute "draftID" with the value <strong>${draftID}</strong>, which is<strong> </strong>the draft id of corresponding draft.</li> 
+   <li>While creating links to open drafts and submissions, you can specify <strong>${path}.html </strong>as the value of the <strong>href</strong> attribute for the anchor tag.</li> 
+  </ol> 
+  <img alt="Drafts and Submission node" imageRotate="0" src="assets/raw-image-with-index.png" title="Drafts and Submission node" /> 
+  <p><em><strong>A</strong>. </em>Container element </p> 
+  <p><em><strong>B.</strong></em> "path"<strong> </strong>metadata with a fixed hierarchy to obtain the thumbnail stored for each form.</p> 
+  <p><strong>C. </strong>Data-repeatable attribute used for the template section for each form </p> 
+  <p><em><strong>D.</strong> </em>To localize "Apply" string </p> 
+  <p><em><strong>E.</strong> </em>Using the configuration property pdfLinkText<strong> </strong></p> 
+  <p><strong><em>F.</em></strong> Using the "pdfUrl" metadata</p> 
+  <h2>Tips, tricks, and known issues</h2> 
+  <ol> 
+   <li>Do not use single quote (') in any custom template.</li> 
+   <li>For custom metadata, store this property on the <strong>jcr:content/metadata</strong> node only. If you store it at any other place, Forms Portal can't display the metadata.</li> 
+   <li>Ensure that the name of any custom metadata or existing metadata does not include a colon (:). If it does, you cannot display it on the user interface.</li> 
+   <li><strong>data-repeatable </strong>does not have any significance for a <strong>Link </strong>component. Adobe recommends that you avoid using this property in the template for a Link component.</li> 
+  </ol> 
+  <related-links> 
+   <a href="../../forms/using/manage-form-metadata.md" target="_blank">Manage form metadata</a> 
+   <a href="../../forms/using/creating-form-portal-page.md" target="_blank">Creating a forms portal page</a> 
+   <a href="/forms/using/create-custom-templates-adaptive-forms-documents" target="_blank">Create custom templates for adaptive forms and adaptive documents</a> 
+  </related-links> 
+ </body> 
+</html>

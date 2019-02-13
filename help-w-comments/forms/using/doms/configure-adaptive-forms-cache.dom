@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="video" name="pageLayout" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-04-26T04:20:38.275-0400" name="locHandOffDate" />
+  <meta content="khsingh" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/configuration;/content/help/en/experience-manager/6-4/forms/morehelp/configuration" name="moreHelpPaths" />
+  <meta content="green" name="acrolinxPageStatus" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="15" name="acrolinxSentences" />
+  <meta content="44b70f0f-54d0-4f6c-a8e8-01a4a0a03d06" name="jcr:uuid" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="2018-08-13T09:01:03.258-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/configure-adaptive-forms-cache.html" name="publishExternalURL" />
+  <meta content="2018-08-13T09:01:03.120-0400" name="topicBrowsingSortDate" />
+  <meta content="2015-07-21T09:01:47.081-0400" name="lastPublishQADate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="left" name="sideColumn" />
+  <meta content="Configure adaptive forms cache" name="jcr:title" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="e680f87d-5d3a-4bd7-ac82-3c5536ee3f13" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:Configuration" name="cq:tags" />
+  <meta content="2018-08-13T09:01:03.120-0400" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-08-13T09:01:03.120-0400" name="lastPublishExternalDate" />
+  <meta content="2016-05-31T06:34:41.422-0400" name="acrolinxDate" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configure_adaptive_forms_cache_admin_5e12de0b318c6865_1972_report.xml" name="acrolinxReportURL" />
+  <meta content="270" name="acrolinxWords" />
+  <meta content="The adaptive forms cache is designed specifically for adaptive forms and documents. It caches adaptive forms and adaptive documents with the objective of reducing the time required to render an adaptive form or document on the client. " name="seoDescription" />
+  <meta content="checked_improved" name="acrolinxStatus" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-12-01T19:05:04.720-0500" name="jcr:created" />
+  <meta content="2016-04-20T09:08:12.256-0400" name="firstPublishExternalDate" />
+  <meta content="2018-08-13T09:01:03.151-0400" name="cq:lastModified" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+ </head>
+ <body>
+  <p>A cache is a mechanism to shorten data access times, reduce latency, and improve input/output (I/O) speeds. Adaptive forms cache stores only HTML content and JSON structure of an adaptive form without saving any pre-filled data. It helps in reducing the time required to render an adaptive form or document on the client. It is designed specifically for adaptive forms and also supports adaptive documents.<br /> </p> 
+  <note>
+   <p>When using the adaptive forms cache, use the AEM Dispatcher to cache client libraries (CSS and JavaScript) of an adaptive form or document. <br /> </p> 
+  </note>
+  <note>
+   <p>While developing custom components, on the server used for development, keep the adaptive forms cache disabled.</p> 
+  </note>
+  <h3>Configure the cache</h3>
+  <p>Perform the following steps to configure the adaptive forms cache: </p> 
+  <ol>
+   <li><p>Go to AEM web console configuration manager at http://[server]:[port]/system/console/configMgr.</p> </li>
+   <li><p>Click <strong>Adaptive Form and Interactive Communication Web Channel Configuration</strong> to edit its configuration values.</p> </li>
+   <li><p>In the edit configuration values dialog, specify the maximum number of forms or documents an instance of the AEM Forms server can cache in the <strong>Number of Adaptive Forms</strong> field. The default value is 100.</p> 
+    <note>
+     <p>To disable the cache, set the value in the Number of Adaptive Forms field to <strong>0</strong>. The cache is reset and all forms and documents are removed from the cache when you disable or change the cache configuration. </p> 
+    </note><img alt="Configuration dialog for adaptive forms HTML cache" imageRotate="0" src="assets/cache-configuration-edit.png" title="Configuration dialog for adaptive forms HTML cache" /></li>
+   <li><p>Click <strong>Save</strong> to save the configuration.</p> </li>
+  </ol>
+ </body>
+</html>

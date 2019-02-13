@@ -1,0 +1,196 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-10-15T17:26:34.476-0400" name="cq:lastModified" /> 
+  <meta content="2013-02-01T09:39:10.563-0500" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="AEM Assets" name="seoTitle" /> 
+  <meta content="Release notes specific to Adobe Experience Manager 6.4 Assets." name="jcr:description" /> 
+  <meta content="/content/docs/en/aem/6-3/release-notes/assets" name="qaNotes" /> 
+  <meta content="asgupta" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-07-05T09:07:59.823-0400" name="topicBrowsingSortDate" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="cq:ReplicationStatus;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4;topic_tags:release-notes;content_type:reference" name="cq:tags" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="2169" name="acrolinxWords" /> 
+  <meta content="2018-04-03T08:46:22.962-0400" name="acrolinxDate" /> 
+  <meta content="pklassen@adobe.com" name="jcr:createdBy" /> 
+  <meta content="2018-07-05T09:07:59.823-0400" name="lastPublishExternalDate" /> 
+  <meta content="132" name="acrolinxSentences" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/help/en/experience-manager/6-4/morehelp/release-notes;/content/help/en/experience-manager/6-4/morehelp/release-notes" name="moreHelpPaths" /> 
+  <meta content="26a6acd9-3336-4cf6-b643-a08305487cd9" name="jcr:predecessors" /> 
+  <meta content="cmajumda" name="acrolinxLastCheckedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="AEM Assets" name="navTitle" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="2017-10-31T16:38:00.015-0400" name="firstPublishExternalDate" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-09T11:10:07.755-0400" name="locHandOffDate" /> 
+  <meta content="2018-07-05T09:07:59.823-0400" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="AEM Assets Release Notes" name="jcr:title" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/assets_release_notes_krs_workflow_0eaa5f398ed6741b_306_report.xml" name="acrolinxReportURL" /> 
+  <meta content="0cb9862d-85c5-4c7b-a3a7-7a92b427edd9" name="jcr:uuid" /> 
+  <meta content="2018-07-05T09:07:59.845-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/release-notes/assets.html" name="publishExternalURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>Here are the key features and highlights of the AEM 6.4 Assets release.</p> 
+  <h2>Adobe Asset Link</h2> 
+  <div>
+    Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise, providing a connection to AEM Assets directly from Photoshop, Illustrator, and InDesign—without leaving their tools of choice. 
+  </div> 
+  <div> 
+  </div> 
+  <div>
+    To learn more about the capability, prerequisites, and how to access it, see the 
+   <a href="https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html">Adobe Asset Link</a> page. 
+  </div> 
+  <h2>Enhanced Smart Tags (powered by Adobe Sensei)</h2> 
+  <p>AEM 6.4 introduces Artificial Intelligence based Enhanced Smart Tags capability in addition to Smart Tags which was launched in 6.3.</p> 
+  <ul> 
+   <li>Smart Content Service learns customer's business taxonomy and uses it to automatically tag digital assets with customer relevant tags in addition to generic tags. It improves asset discoverability significantly and reduces time to market. </li> 
+   <li>Adobe Sensei powers the Smart Content Service, which enables you to train the image recognition algorithm on your business taxonomy. This content intelligence is then used to apply relevant tags on similar assets.</li> 
+  </ul> 
+  <p>AEM Assets Enhanced Smart Tags requires the <a href="/content/help/en/experience-manager/aem-releases-updates" target="_blank">latest service pack of AEM 6.4</a>.</p> 
+  <h2>Smart Translation Search (powered by Adobe Sensei)</h2> 
+  <p>AEM 6.4 introduces Smart Translation Search capability to support multi lingual search scenarios. Customers with globally distributed teams across multiple locales now have access to search in different languages without having to go through costly and time-consuming translation workflows.<br /> </p> 
+  <ul> 
+   <li>Search query is translated without manual intervention</li> 
+   <li>Has support for Smart Tags, which are generated in English, but are machine translated to others language </li> 
+   <li>Multi-lingual search is built using open source library Apache Joshua, which supports more than 50 languages.</li> 
+  </ul> 
+  <h2>User Experience</h2> 
+  <p>AEM 6.4 delivers significant user experience improvents in areas of browse, search, multi page assets and admin tools. Details below:</p> 
+  <p>Browse Improvements</p> 
+  <ul> 
+   <li>New Content Tree rail to quickly navigate an asset hierarchy. In combination with the list view, this restores the Classic UI interaction model to browse asset hierarchies.</li> 
+   <li>New Keyboard Shortcuts such as (m) for Move operation, (p) for navigation to properties page, (ctrl+c) for copy operation and many more.</li> 
+   <li>Improved scrolling, lazy loading experience in card and list view for browsing large number of assets. </li> 
+   <li>Improved Card View with support for different sized cards based on view setting.</li> 
+   <li>Improved asset detail experience with ability to view, navigate to “previous” or "next" asset along with number of assets, current asset. </li> 
+  </ul> 
+  <p>Search Improvements</p> 
+  <ul> 
+   <li>New Search back button with ability to navigate to a search item and come back to same position in search results without running the search query again.</li> 
+   <li>New Search results count to display number of search results.</li> 
+   <li>Improved File Type Search Filter with ability to filter search results based on fine grained mime types such as .jpg, .png, and .psd compared to earlier Image, Document, Multimedia options.</li> 
+   <li>Improved search filters with accurate time stamps instead of previous time slider functionality.</li> 
+  </ul> 
+  <p>Multi-Page Assets Improvements</p> 
+  <ul> 
+   <li>Improved multi page assets browsing experience with reduced number of clicks.</li> 
+   <li>Improved comments and annotations support with all of them collated at asset level rather than page level. </li> 
+  </ul> 
+  <p>Admin Tools Improvements</p> 
+  <ul> 
+   <li>Improved Property picker in Admin tools for Metadata, Search and Reports with Type ahead and browsing capability to simplify admin experience.</li> 
+  </ul> 
+  <p>Catalogs</p> 
+  <ul> 
+   <li>Improved user experience, alignement with Templates UI. For more information, see <a href="../sites/administering/using/catalog-producer.md" style="font-size: 16px;">Catalog Producer</a>.</li> 
+  </ul> 
+  <h2>Metadata</h2> 
+  <p>AEM 6.4 includes multiple advanced metadata management capabilities to manage metadata at scale and enforce metadata integrity through rules and validations. Here are the key capabilities:</p> 
+  <ul> 
+   <li>New Bulk Metadata Export capability to export (all, selective) metadata for large number of assets in CSV format for editing, sharing, and third-party integration.</li> 
+   <li>New Bulk Metadata Import capability to import CSV file for adding new metadata, updating existing metadata for multiple assets in one go. This operation is asynchronous, and does not hinder system performance. Once complete, user is notified via AEM's Notification system.</li> 
+   <li>New Cascading and Contextual Metadata using Metadata Schema Tool. It’s now possible to define chains of dependencies, and value mappings between fields. You can also define the context in which metadata form fields are displayed/hidden. This way, you can display only relevant fields at any moment depending on values in other fields.</li> 
+  </ul> 
+  <h2>Reports</h2> 
+  <p>AEM 6.4 delivers significant Asset Reporting enhancements:</p> 
+  <ul> 
+   <li>New enterprise-level, scalable (for large repositories) reports framework applying Sling jobs for asynchronously processing report requests. You can schedule report at a specific date and time. You can also add custom columns to a report.</li> 
+   <li>New OOTB reports most commonly asked by customers such as Disk Usage, Files, Link Shares, Publish to Brand Portal, Smart Tags Training.</li> 
+   <li>New Reports creation and management UI with fine grained options, ability to access archived reports, see report run status (success, failed, queued, and so on).</li> 
+  </ul> 
+  <h2>Brand Portal</h2> 
+  <ul> 
+   <li><strong>6.3 Platform Upgrade</strong>: Brand Portal upgraded from AEM 6.0 to AEM 6.3, with new features and performance improvements.</li> 
+   <li><strong>Parallel Publish</strong>: Up to replications can occur between AEM Assets and Brand Portal (previously 1), which significantly improves publishing performance</li> 
+   <li><strong>Schema &amp; Search Facet Publish</strong>: Ability to publish metadata schemas and custom search facets to Brand Portal, which eliminates effort duplication.</li> 
+   <li><strong>Bulk Tags Publish</strong>: Ability to publish taxonomy (along with hierarchy) to Brand Portal, which eliminates effort duplication.</li> 
+   <li><strong>Self sign up/Request access</strong>: Workflow for non-registered users to Brand Portal.</li> 
+   <li><strong>In-app (on screen) Maintenance Notification</strong>: Notifications are displayed well in advance to avoid disruption in business.</li> 
+   <li><strong>Reporting improvements</strong>: Three OOTB reports are available: downloads, publish and link-shares.</li> 
+   <li><strong>DRM-based restrictions</strong>: After a licensed asset expires, it is no longer available for download from Brand Portal.</li> 
+  </ul> 
+  <h2>AEM Desktop App</h2> 
+  <div>
+    AEM Desktop App has been updated to Version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM Desktop App is provided in a dedicated 
+   <a href="/content/help/en/experience-manager/desktop-app/release-notes">AEM Desktop App release notes</a> document. 
+  </div> 
+  <div>
+    Here is a list of AEM Desktop App highlights added since AEM 6.3 was released: 
+  </div> 
+  <ul> 
+   <li>Ability to upload hierarchical folders in the background.</li> 
+   <li>UI to monitor asset uploads in the background.</li> 
+   <li>Caching improvements, including a UI to manage caching parameters.</li> 
+   <li>Broader support for AEM authentication configurations (SAML/SSO) and network proxy.</li> 
+   <li>Supportability: easy access to logs from a UI.</li> 
+   <li>Improved stability and fixes for customer issues.</li> 
+  </ul> 
+  <p>For easier access to the documentation and best practices, the following documentation is available:</p> 
+  <ul> 
+   <li><a href="/assets/using/aem-desktop-app">User Guide</a>, aimed at end users working with the application</li> 
+   <li><a href="/assets/using/aem-desktop-app-best-practices">Best Practices Guide</a>, aimed at end users and administrators</li> 
+   <li>Configuration Guide, aimed at administrators setting up AEM and AEM Desktop App to work together</li> 
+  </ul> 
+  <h2>Tiered Storage</h2> 
+  <p>AEM 6.4 includes a set of features that support various tiered storage preferences and implement lifecycle rules. The storage options also support (but are not limited) public clouds - AWS or Azure.</p> 
+  <ul> 
+   <li>The ability for users to select and later change storage class at will, and define rules for storage of assets from one class to another or manage the lifecycle of their assets.</li> 
+   <li>The ability for users to lower their storage cost by selecting a different AWS or Azure.</li> 
+  </ul> 
+  <p>For an overview of supported platforms, please refer to the <a href="../sites/deploying/using/technical-requirements.md">Technical Requirements Documentation</a>.</p> 
+  <draft-comment lastModifiedBy="arora" lastModifiedDate="2018-04-04T06:10:16.512-0400" type="annotation">
+    Can we please check whether Azure &amp; Google cloud are supported? 
+  </draft-comment> 
+  <h2>Closed User Group</h2> 
+  <ul> 
+   <li>In AEM 6.4, Closed User Group or CUG provides a way to restrict folder access on publish instance, it’s a touch UI option to add principals through folder properties page at the folder level and are applied to all folder and subfolders/assets inside. </li> 
+   <li>In publish mode, if a CUG is configured and authorization enabled om a folder, users are redirected to a login page when they try to access the folder. Therefore, authorized users can access the folder and its assets only after successful login. Hence, CUG restricts read access to a given tree in the content repository for everyone except selected principals.</li> 
+  </ul> 
+  <h2>Dynamic Media add-on</h2> 
+  <p>Dynamic Media in 6.4 supports a new mode - where master asset is uploaded and managed with AEM Assets web UI, and dynamic renditions and other dynamic media features are handled in the background by the Dynamic Media cloud delivery service.</p> 
+  <p>In this new mode (introduced first with the release of AEM 6.3 Feature Packs 14410 and 18912), users benefit from end-to-end asset management and dynamic media features using the modern AEM Assets web UI, and still leverage the delivery services that are backwards compatible with Dynamic Media Classic (Scene7)—including delivery URLs, which are unchanged.</p> 
+  <p>In addition, AEM 6.4 introduces new features powered by Adobe Sensei, enhancements for emerging media like VR and 3D, Dynamic Media viewers, and support for Experience Fragments in Interactive Images and Carousel Banners.</p> 
+  <h4>Smart Crop (Powered by Adobe Sensei)</h4> 
+  <ul> 
+   <li>Smart Crop automatically provides non-destructive cropping of images to preserve the point of interest for responsive design. You can preview cropped suggestions and manually adjust them, if necessary. <br /> </li> 
+   <li>This feature also enables automated swatch generation for product imagery. Automated swatch generation helps to add color swatches, pattern swatches, or both to product images automatically.</li> 
+  </ul> 
+  <p>See <a href="../assets/using/image-profiles.md" target="_blank">Image Profiles</a> documentation to learn more.</p> 
+  <p>See also <a href="../assets/using/adding-dynamic-media-assets-to-pages.md" target="_blank">Adding Dynamic Media Assets to Pages</a> documentation to learn more about using Smart Crop with the Dynamic Media component.</p> 
+  <h4>Smart Imaging</h4> 
+  <ul> 
+   <li>Smart imaging leverages each user's unique viewing characteristics to automatically serve images optimized for their experience, resulting in better pefromance and engagement.</li> 
+   <li>Images are automatically converted to different formats based on browser capabilities.</li> 
+   <li>Image quality settings are determined in the browser and applied respectively. This intelligence keeps image loading performance acceptable for limited bandwidth and slow connection speeds.</li> 
+  </ul> 
+  <p>See <a href="../assets/using/imaging-faq.md" target="_blank">Smart Imaging</a> documentation to learn more.</p> 
+  <h4>Emerging Media &amp;amp; Viewer Enhancements</h4> 
+  <ul> 
+   <li>New viewers are supported, providing better, immersive experiences for the user.</li> 
+   <li>Panoramic Viewer helps engage the user and provide ability to better experience room scenes, properites, locations, and landscapes. See <a href="../assets/using/panoramic-images.md" target="_blank">Panoramic Images</a> documentation to learn.<br /> </li> 
+   <li>VR Viewer provides immersive experience for properites, locations, and landscapes.</li> 
+   <li>Vertical Image Viewer optimized for product imagery.</li> 
+   <li>Keyboard accessibility improvements.</li> 
+  </ul> 
+  <h4>3D and Integration with Dimension CC</h4> 
+  <p>Integration with <a href="https://www.adobe.com/products/dimension.html">Dimension CC</a> for more seamless 3D workflow has been introducted.</p> 
+  <p>See <a href="../assets/using/3d-assets.md" target="_blank">Working with 3D assets</a> documentation to learn more.</p> 
+ </body> 
+</html>

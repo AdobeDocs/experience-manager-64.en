@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Delivering Dynamic Media Assets" name="navTitle" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-04-19T10:30:43.854-0400" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="With Dynamic Media you have several options to deliver your dynamic media assets - both video and images -  to your website." name="seoDescription" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:authoring;content_type:reference" name="cq:tags" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/classic-ui-authoring/morehelp/authoring;/content/help/en/experience-manager/6-4/assets/classic-ui-authoring/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-04-03T06:50:02.263-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/dynamic-media-assets-delivering.html" name="publishExternalURL" />
+  <meta content="2017-10-31T16:18:22.736-0400" name="firstPublishExternalDate" />
+  <meta content="fe7badef-9c08-483f-9daa-0282bdc94eff" name="jcr:predecessors" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-19T10:30:43.855-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T06:50:02.263-0400" name="publishExternalDate" />
+  <meta content="Delivering Dynamic Media Assets" name="seoTitle" />
+  <meta content="Delivering Dynamic Media Assets" name="jcr:title" />
+  <meta content="2017-12-01T19:02:07.279-0500" name="jcr:created" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="6ed1a235-34e4-4edb-8cbc-a1d1e8f18b2b" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="User" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/assets/dynamic-media/delivering-dynamic-media-assets" name="qaNotes" />
+  <meta content="2018-04-03T06:50:02.336-0400" name="cq:lastReplicated" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-04-03T06:50:02.263-0400" name="topicBrowsingSortDate" />
+ </head>
+ <body>
+  <p>How you can deliver your dynamic media assets - both video and images - depends on how your web site is implemented.</p> 
+  <p>With Dynamic Media you have several options:</p> 
+  <ul> 
+   <li>If your website is hosted on AEM, then you want to add the dynamic media assets directly to your page. </li> 
+   <li>If your website is not on AEM, then see <a href="../../../assets/using/delivering-dynamic-media-assets.md">Delivering Dynamic Media Assets</a> in the touch-enabled user interface.</li> 
+  </ul> 
+  <p>For more information, see the following topics:</p> 
+  <ul> 
+   <li><a href="../../../sites/classic-ui-authoring/using/dynamic-media-assets-adding-to-page.md">Adding Dynamic Media Assets to Pages</a></li> 
+  </ul> 
+ </body>
+</html>

@@ -1,0 +1,226 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T07:06:55.989-0400" name="topicBrowsingSortDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="Learn about Service Users in AEM." name="seoDescription" /> 
+  <meta content="2018-04-26T10:11:59.385-0400" name="locHandOffDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/security;/content/help/en/experience-manager/6-4/sites/administering/morehelp/security" name="moreHelpPaths" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="656f774d-fd9d-4dba-8f23-9013b2eb4e7f" name="jcr:predecessors" /> 
+  <meta content="8e9320ad-d0c6-4289-ba40-70f73892b39d" name="jcr:uuid" /> 
+  <meta content="2018-04-03T07:06:55.989-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-12-02T19:01:44.567-0500" name="jcr:created" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/security/service-users" name="qaNotes" /> 
+  <meta content="2018-04-03T07:06:56.608-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Service Users in AEM" name="navTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/security-service-users.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:21:58.104-0400" name="firstPublishExternalDate" /> 
+  <meta content="Service Users in AEM" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="2018-04-26T10:11:59.386-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-03T07:06:55.989-0400" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:Security;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Service Users in AEM" name="seoTitle" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>The main way of getting an administrative session or resource resolver in AEM was using the <span class="code">SlingRepository.loginAdministrative()</span> and <span class="code">ResourceResolverFactory.getAdministrativeResourceResolver()</span> methods provided by Sling.</p> 
+  <p>However, neither of these methods were designed around the <a href="http://en.wikipedia.org/wiki/Principle_of_least_privilege">principle of least privilege</a> and make it too easy for a developer not to plan for a proper structure and corresponding Access Control Levels (ACLs) for their content early on. If a vulnerability is present in such a service it often leads to privilege escalations to the <span class="code">admin</span> user, even if the code itself would not need administrative privileges to work.</p> 
+  <h2>How to Phase Out Admin Sessions</h2> 
+  <h3>Priority 0: Is the feature active/needed/derelict?</h3> 
+  <p>There may be cases where the admin session is not used, or the feature is disabled entirely. If this is the case with your implementation, make sure you remove the feature altogether or fit it with <a href="https://en.wikipedia.org/wiki/NOP">NOP code</a>.<br /> </p> 
+  <h3>Priority 1: Use The Request Session</h3> 
+  <p>Whenever possible refactor your feature so that the given, authenticated request session can be used for reading or writing content. If this is not doable, it can often be achieved by applying the priorities following the ones below.</p> 
+  <h3>Priority 2: Restructure Content</h3> 
+  <p>Many issues can be resolved by restructuring the content. Keep these simple rules in mind when doing the restructure:</p> 
+  <ul> 
+   <li><strong>Change access control</strong> 
+    <ul> 
+     <li>Make sure that the users or groups that really need access actually have access;</li> 
+    </ul> </li> 
+   <li><strong>Refine content structure</strong> 
+    <ul> 
+     <li>Move it to other locations, for example where access control matches the request sessions available;</li> 
+     <li>Change the content granularity;</li> 
+    </ul> </li> 
+   <li><strong>Refactor your code to be a proper service </strong><br /> 
+    <ul> 
+     <li>Move the business logic from JSP code to service. This allows different content modelling.</li> 
+    </ul> </li> 
+  </ul> 
+  <p>Also, make sure that any new features you develop adhere to these principles:</p> 
+  <ul> 
+   <li><strong>Security requirements should drive the content structure</strong> 
+    <ul> 
+     <li>Managing access control should feel natural</li> 
+     <li>Access control must be enforced by the repository, not the application</li> 
+    </ul> </li> 
+   <li><strong>Make use of nodetypes</strong> 
+    <ul> 
+     <li>Restrict the set of properties that can be set</li> 
+    </ul> </li> 
+   <li><strong>Respect privacy settings</strong><br /> 
+    <ul> 
+     <li>In the case of private profiles, one example would be to not expose the profile picture, email or full name found on the private <span class="code">/profile</span> node.<br /> </li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Strict Access Control</h2> 
+  <p>Whether you apply access control while restructuring content or when you do it for a new service user, you must apply the strictest ACLs possible. Use all possible facilities of access control:</p> 
+  <ul> 
+   <li>For example, instead of applying <span class="code">jcr:read</span> on <span class="code">/apps</span>, only apply it to <span class="code">/apps/*/components/*/analytics</span><br /> </li> 
+   <li>Use <a href="http://jackrabbit.apache.org/oak/docs/security/authorization/restriction.html">restrictions</a><br /> </li> 
+   <li>Apply ACLs for node types</li> 
+   <li>Limit permissions 
+    <ul> 
+     <li>for example, when only needing to write properties, do not give the <span class="code">jcr:write</span> permission; use <span class="code">jcr:modifyProperties</span> instead</li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Service Users and Mappings</h2> 
+  <p>If the above fails, Sling 7 offers a Service User Mapping service, which allows to configure a bundle-to-user mapping and two corresponding API methods: <span class="code"><a href="https://sling.apache.org/apidocs/sling7/org/apache/sling/jcr/api/SlingRepository.html#loginService-java.lang.String-java.lang.String-" target="_blank">SlingRepository.loginService()</a></span> and <span class="code"><a href="https://sling.apache.org/apidocs/sling7/org/apache/sling/api/resource/ResourceResolverFactory.html#getServiceResourceResolver-java.util.Map-" target="_blank">ResourceResolverFactory.getServiceResourceResolver()</a></span> which return a session/resource resolver with the privileges of a configured user only. These methods have the following characteristics:</p> 
+  <ul> 
+   <li>They allow mapping services to users<br /> </li> 
+   <li>They make it possinle to define sub-service users</li> 
+   <li>The central configuration point is: <span class="code">org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl</span></li> 
+   <li><span class="code">service-id</span> = <span class="code">service-name</span> [ “:” subservice-name ] </li> 
+   <li><span class="code">service-id</span> is mapped to a resource resolver and/or JCR repository user ID for authentication</li> 
+   <li><span class="code">service-name</span> is the symbolic name of the bundle providing the service<br /> </li> 
+  </ul> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-AAC0465A528DC04F0A490D44@AdobeID" lastModifiedDate="2017-12-01T12:34:31.792-0500" type="remark"> 
+   <p>Check the names to see if they're correct<br /> </p> 
+  </draft-comment> 
+  <h2>Other Recommendations</h2> 
+  <h3>Replacing the admin-session with a service-user</h3> 
+  <p>A service user is a JCR user with no password set and a minimal set of privileges that are necessary to perform a specific task. Having no password set means that it will not be possible to login with a service user.</p> 
+  <p>A way to deprecate an administrative session is to replace it with service user sessions. It could also be replaced by multiple sub-service users if needed.</p> 
+  <p>To replace the admin session with a service user, you should perform the following steps:</p> 
+  <ol> 
+   <li>Identify the necessary permissions for your service, keeping the principle of least permission in mind.</li> 
+   <li>Check if there is already a user available with exactly the permission setup you need. Create a new system service user if no existing user matches your needs. RTC is needed to create a new service user. Sometimes, it makes sense to create multiple sub-service users (for example, one for writing and one for reading) to compartmentalize access even more.</li> 
+   <li>Setup and test ACEs for your user.</li> 
+   <li>Add a <span class="code">service-user</span> mapping for your service and for <span class="code">user/sub-users</span></li> 
+   <li>Make the service user sling feature available to your bundle: update to the most recent version of <span class="code">org.apache.sling.api</span>.<br /> </li> 
+   <li>Replace the <span class="code">admin-session</span> in your code with the <span class="code">loginService</span> or <span class="code">getServiceResourceResolver</span> APIs.</li> 
+  </ol> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-AAC0465A528DC04F0A490D44@AdobeID" lastModifiedDate="2017-12-01T12:34:31.906-0500" type="remark"> 
+   <p>to review from here<br /> </p> 
+  </draft-comment> 
+  <h2>Creating a new service user</h2> 
+  <p>After you verified that no user in the list of AEM service users is applicable for your use case and the corresponding RTC issues have been approved, you can go ahead and add the new user to the default content.</p> 
+  <p>The recommended approach is to create a service user to use the repository explorer at <i>http://server:port/crx/explorer/index.jsp</i></p> 
+  <p>The goal is to get a valid <span class="code">jcr:uuid</span> property which is mandatory in order to create the user via a content package installation.</p> 
+  <p>You can create service users by:</p> 
+  <ol> 
+   <li><p>Going to the repository explorer at <i>http://server:port/crx/explorer/index.jsp</i></p> </li> 
+   <li><p>Logging in as admin by pressing the <strong>Log In</strong> link in the upper left corner of the screen.</p> </li> 
+   <li><p>Next, create and name your system user. In order to create the user as a system one, set the intermediate path as <span class="code">system</span> and add optional subfolders depending on your needs:<br /> </p> <img imageRotate="0" src="assets/chlimage_1-115.png" /></li> 
+   <li><p>Verify that your system user node looks as follows:</p> <img imageRotate="0" src="assets/chlimage_1-116.png" /> 
+    <note> 
+     <p>Note that there are no mixin types associated with service users. This means that there will be no access control policies for system users.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <p>When adding the corresponding .content.xml to the content of your bundle, make sure you have set the <span class="code">rep:authorizableId</span> and that the primary type is <span class="code">rep:SystemUser</span>. It should look like this:</p> 
+  <codeblock class="syntax xml">
+    &lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="UTF-8"?&gt;!!discoiqbr!!&lt;jcr:root&amp;nbsp;xmlns:jcr="http://www.jcp.org/jcr/1.0"&amp;nbsp;xmlns:rep="internal"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="rep:SystemUser"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:uuid="4917dd68-a0c1-3021-b5b7-435d0044b0dd"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;rep:principalName="authentication-service"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;rep:authorizableId="authentication-service"/&gt; 
+  </codeblock> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-AAC0465A528DC04F0A490D44@AdobeID" lastModifiedDate="2017-12-01T12:34:32.517-0500" type="remark"> 
+   <p>To review the last bullet list. Also, a list of all default service users in AEM needs to be added to this page from https://wiki.corp.adobe.com/pages/viewpage.action?pageId=910668870</p> 
+  </draft-comment> 
+  <h2>Adding a configuration amendment to the ServiceUserMapper configuration</h2> 
+  <p>To add a mapping from your service to the corresponding System Users you need to create a factory configuration for the <span class="code"><a href="https://sling.apache.org/apidocs/sling7/org/apache/sling/serviceusermapping/ServiceUserMapper.html" target="_blank">ServiceUserMapper</a></span> service. To keep this modular such configurations can be provided using the <a href="https://issues.apache.org/jira/browse/SLING-3578" target="_blank">Sling amend mechanism</a>. The recommended way to install such configurations with your bundle is by using <a href="https://sling.apache.org/documentation/bundles/content-loading-jcr-contentloader.html" target="_blank">Sling Initial Content Loading</a>:</p> 
+  <ol> 
+   <li>Create a subfolder SLING-INF/content below the src/main/resources folder of your bundle </li> 
+   <li><p>In this folder create a file named org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-&amp;lt;some unique name for your factory configuration&amp;gt;.xml with the content of your factory configuration (including all sub-service user mappings). Example:</p> </li> 
+  </ol> 
+  <ol> 
+   <li><p>Create a <span class="code">SLING-INF/content</span> folder below the <span class="code">src/main/resources</span> folder of your bundle;</p> </li> 
+   <li><p>In this folder create a file <span class="code">named org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-&amp;lt;a unique name for your factory configuration&amp;gt;.xml</span> with the content of your factory configuration, including all sub-service user mappings.</p> <p>For illustration purposes, take a the file called <span class="code">org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended-com.adobe.granite.auth.saml.xml</span>:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="UTF-8"?&gt;!!discoiqbr!!&lt;node&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;primaryNodeType&gt;sling:OsgiConfig&lt;/primaryNodeType&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;name&gt;user.default&lt;/name&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;value&gt;&lt;/value&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/property&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;property&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;name&gt;user.mapping&lt;/name&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;values&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;value&gt;com.adobe.granite.auth.saml=authentication-service&lt;/value&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/values&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/property&gt;!!discoiqbr!!&lt;/node&gt; 
+    </codeblock></li> 
+   <li><p>Reference the Sling initial content in the configuration of the <span class="code">maven-bundle-plugin</span> in the <span class="code">pom.xml</span> of your bundle. Example:</p> 
+    <codeblock class="syntax xml">
+      &lt;Sling-Initial-Content&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;SLING-INF/content;path:=/libs/system/config;overwrite:=true;!!discoiqbr!!&lt;/Sling-Initial-Content&gt; 
+    </codeblock></li> 
+   <li><p>Install your bundle and make sure the factory configuration has been installed. You can do this by:</p> 
+    <ul> 
+     <li>Going to the Web Console at <i><span class="code">http://serverhost:serveraddress/system/console/configMgr</span></i></li> 
+     <li>Search for <strong>Apache Sling Service User Mapper Service Amendment</strong></li> 
+     <li>Click the link to see if the proper configuration is in place.<br /> </li> 
+    </ul> </li> 
+  </ol> 
+  <h2>Dealing with shared sessions in services</h2> 
+  <p>Calls to <span class="code">loginAdministrative()</span> often appear together with shared sessions. These sessions are acquired on service activation and are only logged out after the service is stopped. Although this is common practice, it leads to two problems: </p> 
+  <ul> 
+   <li><strong>Security:</strong> Such admin sessions are used to cache and return resources or other objects that are bound to the shared session. Later in the call stack these objects could get adapted to sessions or resource resolvers with elevated privileges, and often it is not clear to the caller that it is an admin session they are operating with.</li> 
+   <li><strong>Performance:</strong> In Oak shared sessions can cause performance problems, and it is currently not recommended to use them.</li> 
+  </ul> 
+  <p>The most obvious solution for the security risk is to simply replace the <span class="code">loginAdministrative()</span> call with a <span class="code">loginService()</span> one to a user with restricted privileges. However, this will not have any impact on any potential performance degradation. A possibility to mitigate that is to wrap all requested information in an object that has no association with the session. Then, create (or destroy) the session on demand.</p> 
+  <p>The recommended approach is to refactor the service's API to give the caller control over the creation/destruction of the session.</p> 
+  <h2>Administrative sessions in JSPs</h2> 
+  <p>JSPs cannot use <span class="code">loginService()</span>, because there is no associated service. However, administrative sessions in JSPs are usually a sign of a violation of the MVC paradigm. </p> 
+  <p>This can be fixed in two ways: </p> 
+  <ol> 
+   <li>Restructuring the content in a way that allows manipulating it with the user session;</li> 
+   <li>Extracting the logic to a service that provides an API that can then be used by the JSP.</li> 
+  </ol> 
+  <p>The first method is the preferred one.<br /> </p> 
+  <h2>Processing Events, Replication Preprocessors and Jobs</h2> 
+  <p>When processing events or jobs, and in some cases workflows, the corresponding session that triggered the event is usually lost. This leads to event handlers and job processors often using administrative sessions to do their work. There are different conceivable approaches to solve this problem, each with their advantages and disatvantages:</p> 
+  <ol> 
+   <li>Pass the <span class="code">user-id</span> in the event payload and use impersonation. <br /> <strong>Advantages:</strong> Easy to use. <br /> Disatvantages: Still uses <span class="code">loginAdministrative()</span>. It re-authenticates a request that has already been authenticated.</li> 
+   <li>Create or reuse a service user that has access to the data.<br /> <strong>Advantages:</strong> Consistent with the current design. Needs minimal change.<br /> <strong>Disatvantages:</strong> Needs very powerful service users to be flexible, which can easily lead to privilege escalations. Circumvents the security model.</li> 
+   <li>Pass a serialization of the <span class="code">Subject</span> in the event payload, and create a <span class="code">ResourceResolver</span> based on that subject. One example would be using the JAAS <span class="code">doAsPrivileged</span> in the <span class="code">ResourceResolverFactory</span>.<br /> <strong>Advantages:</strong> Clean implementation from a security standpoint. It avoids re-authentication and it operates with the original privileges. Security relevant code is transparent to the consumer of the event. <br /> <strong>Disatvantages:</strong> Needs refactoring. The fact that the security relevant code transparent to the consumer of the event might also lead to problems.</li> 
+  </ol> 
+  <p>The third approach is currently the preferred processing technique.</p> 
+  <h2>Workflow Processes</h2> 
+  <p>Within workflow process implementations the corresponding user session that triggered the workflow is usually lost. This leads to workflow processes often using administrative sessions to perform their work. </p> 
+  <p>In order to fix these issues, it is recommended that the same approaches mentioned in <a href="../../../sites/administering/using/security-service-users.md#main-pars-title-219930217" target="_blank">Processing Events, Replication Preprocessors and Jobs</a> be used.</p> 
+  <h2>Sling POST Processors and Deleted Pages</h2> 
+  <p>There are a couple of administrative sessions used in sling POST processor implementations. Usually, administrative sessions are used to access nodes that are pending deletion within the POST being processed. In consequence, they are no longer available via the request session. A node pending deletion may be accessed to disclose metada that otherwise should not be accessible.</p> 
+  <draft-comment type="draft"> 
+   <h2>Defining the Initial Set Of Users</h2> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>After conclusion of the login administrative analysis, a set of OOTB default users for various purposes should be defined, many of which could be shared among the cases listed.<br /> </p> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="ims-author-AAC0465A528DC04F0A490D44@AdobeID" lastModifiedDate="2017-12-01T12:34:33.201-0500" type="remark"> 
+   <p>OOTB service users are internal - not mentioning them in the docs.<br /> </p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <h2>Administrative sessions in deprecated code</h2> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>If an administrative session is used in code that has been deprecated for at least two versions, and there is no associated security vulnerability, and there are no usages of the API in vanilla AEM, it is possible to resolve the corresponding issue as "Won't fix".</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <h2>Affected Modules</h2> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>We have set the somewhat ambitious goal of getting rid of all administrative sessions in CQ and Granite for the 2015 AEM release. This document should help track the progress of this effort, and provide guidance on fixing all of the issues.</p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <h2>Overall Stats</h2> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>Lists the number of detected <i>loginAdmins</i>/_getAdministrativeResourceResolvers_ detected in source. Excludes "/test" folders. May contain false positives (javadoc).</p> 
+  </draft-comment> 
+ </body> 
+</html>

@@ -1,0 +1,135 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-26T04:23:13.818-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/maintaining_aem_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2016-04-20T10:07:32.227-0400" name="firstPublishExternalDate" /> 
+  <meta content="b1ab1c6f-7680-44ef-aa55-8d1869e5e1d3" name="jcr:predecessors" /> 
+  <meta content="Monitoring AEM forms deployments" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-26T04:23:13.819-0400" name="cq:lastModified" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-03T09:10:19.691-0400" name="cq:lastReplicated" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="You can monitor AEM forms deployments from both a system level and an internal level. Learn more about monitoring AEM forms deployments from this document." name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/monitoring-aem-forms-deployments.html" name="publishExternalURL" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="Monitoring AEM forms deployments" name="jcr:title" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/monitoring_aem_forms_deployments_admin_5e12de0b318c6865_2340_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2017-10-31T16:32:04.823-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2017-12-01T19:06:44.466-0500" name="jcr:created" /> 
+  <meta content="034560e4-bf85-4ae8-bd92-29403ab28fc6" name="jcr:uuid" /> 
+  <meta content="2017-10-31T16:32:04.823-0400" name="lastPublishExternalDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2016-02-05T03:27:26.912-0500" name="lr_lastModified" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2016-05-31T07:02:09.066-0400" name="acrolinxDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7ca1.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-6ad975e12905ce0269-7ff7.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-6ad975e12905ce0269-7ff5.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-6ad975e12905ce0269-7ff4.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-6ad975e12905ce0269-7ff2.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-6ad975e12905ce0269-7fee.2" name="cq:gepId" /> 
+  <meta content="759" name="acrolinxWords" /> 
+  <meta content="44" name="acrolinxSentences" /> 
+ </head> 
+ <body> 
+  <draft-comment type="remark"> 
+   <p>Bug 1559833:</p> 
+  </draft-comment> 
+  <p>You can monitor AEM forms deployments from both a system level and an internal level. You can use specialist management tools such as HP OpenView, IBM Tivoli, and CA UniCenter and a third-party JMX monitor called <i>JConsole</i> to specifically monitor Java activity. Implementation of a monitoring strategy improves availability, reliability, and performance of your AEM forms deployments.</p> 
+  <p>For more information about monitoring AEM forms deployments, see <a href="http://www.adobe.com/devnet/livecycle/pdfs/lc_monitoring_wp_ue.pdf">A technical guide for monitoring AEM forms deployments</a>. </p> 
+  <h2 id="monitoring_using_mbeans">Monitoring using MBeans</h2> 
+  <p></p> 
+  <p>AEM forms provides two registered MBeans that provide navigation and statistic information. These are the only MBeans that are supported for integration and inspection:</p> 
+  <ul> 
+   <li><p><strong>ServiceStatistic: </strong>This MBean provides information about Service name and its version. </p></li> 
+   <li><p><strong>OperationStatistic: </strong>This MBean provides the statistic of every forms server’s service. This is where administrators can get information about a particular service such as invocation time, number of errors, and so on.</p></li> 
+  </ul> 
+  <h3 id="servicestatisticmbean_public_interfaces">ServiceStatisticMbean public interfaces</h3> 
+  <p></p> 
+  <p>These public interfaces of ServiceStatistic MBean can be accessed for testing purposes:</p> 
+  <codeblock gutter="true" class="syntax as3">
+     public&amp;nbsp;String&amp;nbsp;getServiceId();&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;int&amp;nbsp;getMajorVersion();&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;int&amp;nbsp;getMinorVersion(); 
+  </codeblock> 
+  <h3 id="operationstatisticmbean_public_interfaces">OperationStatisticMbean public interfaces</h3> 
+  <p></p> 
+  <p>These public interfaces of OperationStatistic MBean can be accessed for testing purposes:</p> 
+  <codeblock gutter="true" class="syntax as3">
+     //&amp;nbsp;InvocationCount:&amp;nbsp;The&amp;nbsp;number&amp;nbsp;of&amp;nbsp;times&amp;nbsp;the&amp;nbsp;method&amp;nbsp;is&amp;nbsp;invoked.&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;long&amp;nbsp;getInvocationCount();&amp;nbsp;&amp;nbsp;!!discoiqbr!! //&amp;nbsp;InvocationStartTime:&amp;nbsp;The&amp;nbsp;time&amp;nbsp;at&amp;nbsp;which&amp;nbsp;the&amp;nbsp;method&amp;nbsp;started&amp;nbsp;to&amp;nbsp;execute.&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;long&amp;nbsp;getInvocationStartTime();&amp;nbsp;&amp;nbsp;!!discoiqbr!! //&amp;nbsp;InvocationEndTime:&amp;nbsp;The&amp;nbsp;time&amp;nbsp;at&amp;nbsp;which&amp;nbsp;the&amp;nbsp;method&amp;nbsp;finished&amp;nbsp;execution.&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;long&amp;nbsp;getInvocationEndTime();&amp;nbsp;&amp;nbsp;!!discoiqbr!! //&amp;nbsp;InvocationTime:&amp;nbsp;The&amp;nbsp;time&amp;nbsp;taken&amp;nbsp;for&amp;nbsp;the&amp;nbsp;execution&amp;nbsp;of&amp;nbsp;the&amp;nbsp;method.&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;long&amp;nbsp;getInvocationTime();&amp;nbsp;&amp;nbsp;!!discoiqbr!! //&amp;nbsp;LastSamplingDateTime:&amp;nbsp;Convert&amp;nbsp;InvocationStartTime&amp;nbsp;to&amp;nbsp;a&amp;nbsp;formatted&amp;nbsp;string&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;String&amp;nbsp;getLastSamplingDateTime();&amp;nbsp;&amp;nbsp;!!discoiqbr!! //&amp;nbsp;MaxInvocationTime:&amp;nbsp;The&amp;nbsp;maximum&amp;nbsp;time&amp;nbsp;taken&amp;nbsp;for&amp;nbsp;the&amp;nbsp;execution&amp;nbsp;of&amp;nbsp;the&amp;nbsp;method.&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;long&amp;nbsp;getMaxInvocationTime();&amp;nbsp;&amp;nbsp;!!discoiqbr!! //&amp;nbsp;MinInvocationTime:&amp;nbsp;The&amp;nbsp;minimum&amp;nbsp;time&amp;nbsp;taken&amp;nbsp;for&amp;nbsp;the&amp;nbsp;execution&amp;nbsp;of&amp;nbsp;the&amp;nbsp;method.&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;long&amp;nbsp;getMinInvocationTime();&amp;nbsp;&amp;nbsp;!!discoiqbr!! //&amp;nbsp;AverageInvocationTime:&amp;nbsp;the&amp;nbsp;averege&amp;nbsp;execution&amp;nbsp;time&amp;nbsp;taken&amp;nbsp;for&amp;nbsp;the&amp;nbsp;execution&amp;nbsp;of&amp;nbsp;the&amp;nbsp;method.&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;double&amp;nbsp;getAverageInvocationTime();&amp;nbsp;&amp;nbsp;!!discoiqbr!! //&amp;nbsp;ExceptionCount:&amp;nbsp;The&amp;nbsp;number&amp;nbsp;of&amp;nbsp;times&amp;nbsp;the&amp;nbsp;method&amp;nbsp;has&amp;nbsp;thrown&amp;nbsp;an&amp;nbsp;Exception.&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;long&amp;nbsp;getExceptionCount();&amp;nbsp;&amp;nbsp;!!discoiqbr!! //&amp;nbsp;ExceptionMessage:&amp;nbsp;The&amp;nbsp;message&amp;nbsp;of&amp;nbsp;the&amp;nbsp;last&amp;nbsp;exception&amp;nbsp;occurred.&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;String&amp;nbsp;getExeptionMessage();&amp;nbsp;&amp;nbsp;!!discoiqbr!! public&amp;nbsp;void&amp;nbsp;setExceptionMessage(String&amp;nbsp;errorMessage); 
+  </codeblock> 
+  <h3 id="mbean_tree_operation_statistics">MBean Tree &amp; Operation Statistics</h3> 
+  <p></p> 
+  <p>Using a JMX console (JConsole), statistics from OperationStatistic MBean are available. These statistics are MBean's attributes, and can be navigated under the following hierarchy tree:</p> 
+  <p><strong>MBean tree</strong></p> 
+  <p><strong>Adobe Domain Name:</strong> Depends on Application Server. If the Application Server does not define the domain, the default is adobe.com.</p> 
+  <p><strong>ServiceType:</strong> AdobeService is the name used to list all services.</p> 
+  <p><strong>AdobeServiceName:</strong> Service Name, or Service ID.</p> 
+  <p><strong>Version:</strong> Version of the service.</p> 
+  <p><strong>Operation Statistics</strong></p> 
+  <p><strong>Invocation Time:</strong> Time taken for the execution of the method. This does not include the time the request is serialized, transferred from client to server, and deserialized.</p> 
+  <p><strong>Invocation count:</strong> The number of times the service is invoked.</p> 
+  <p><strong>Average invocation time:</strong> Average time of all invocations that have executed since the server was started.</p> 
+  <p><strong>Max invocation time:</strong> The duration of the longest invocation that has executed since the server was started.</p> 
+  <p><strong>Min invocation time:</strong> The duration of the shortest invocation that has executed since the server was started.</p> 
+  <p><strong>Exception Count:</strong> Number of invocations that have resulted in failures.</p> 
+  <p><strong>Exception Message:</strong> The error message of the last exception that occurred.</p> 
+  <p><strong>Last Sampling Date Time:</strong> The date of the last invocation.</p> 
+  <p><strong>Time Unit:</strong> Default is millisecond.</p> 
+  <p>To enable JMX monitoring, the application servers typically need some configuration. See your application server documentation for the specifics. </p> 
+  <h3 id="examples_of_how_to_set_up_open_jmx_access">Examples of how to set up open JMX access</h3> 
+  <p></p> 
+  <p><strong>JBoss 4.0.3/4.2.0 - configure the JVM startup</strong></p> 
+  <p>To view MBeans from JConsole, configure the JBoss application server’s JVM startup parameters. Ensure JBoss is started from the run.bat/sh file.</p> 
+  <ol> 
+   <li><p>Edit the run.bat file that is located under InstallJBoss/bin.</p></li> 
+   <li><p>Find the JAVA_OPTS line and add the following: </p> 
+    <codeblock gutter="true" class="syntax as3">
+       -Dcom.sun.management.jmxremote&amp;nbsp;-Dcom.sun.management.jmxremote.port=9088&amp;nbsp;-Dcom.sun.management.jmxremote.authenticate=false&amp;nbsp;-Dcom.sun.management.jmxremote.ssl=false 
+    </codeblock></li> 
+  </ol> 
+  <p><strong>WebLogic 9.2 /10 - configure the JVM startup</strong></p> 
+  <ol> 
+   <li><p>Edit the startWebLogic.bat file that is located under<i> [WebLogic home]</i>/user_projects/domains/Adobe_Live_Cycle/bin. </p></li> 
+   <li><p>Find the JAVA_OPTS line and add the following: </p> 
+    <codeblock gutter="true" class="syntax as3">
+       -Dcom.sun.management.jmxremote&amp;nbsp;-Dcom.sun.management.jmxremote.port=9088&amp;nbsp;-Dcom.sun.management.jmxremote.authenticate=false&amp;nbsp;-Dcom.sun.management.jmxremote.ssl=false 
+    </codeblock></li> 
+   <li><p>Restart WebLogic.</p></li> 
+  </ol> 
+  <note> 
+   <p>For WebLogic, you can access the MBean using either remote or IIOP. </p> 
+  </note> 
+  <p><strong>Access the MBean remotely</strong></p> 
+  <ol> 
+   <li><p>Launch JConsole for new connection and click remote tab.</p></li> 
+   <li><p>Enter the hostname and port (9088, the number you specify during the start up options of JVM).</p></li> 
+  </ol> 
+  <p><strong>Websphere 6.1 - configure JVM startup</strong></p> 
+  <ol> 
+   <li><p>On the admin console (Application server &amp;gt; server1 &amp;gt; Process Definition &amp;gt; JVM), add the following line into the field for Generic JVM Argument: </p> 
+    <codeblock gutter="true" class="syntax as3">
+       -Djavax.management.builder.initial=&amp;nbsp;-Dcom.sun.management.jmxremote 
+    </codeblock></li> 
+   <li><p>Add or uncomment the following three lines in the /opt/IBM/WebSphere/AppServer/java/jre/lib/management/management.properties file (or &amp;lt;Your Websphere JRE&amp;gt;/ lib/management/management.properties): </p> 
+    <codeblock gutter="true" class="syntax as3">
+       com.sun.management.jmxremote.port=9999&amp;nbsp;//any&amp;nbsp;port&amp;nbsp;you&amp;nbsp;like,&amp;nbsp;but&amp;nbsp;make&amp;nbsp;sure&amp;nbsp;you&amp;nbsp;use&amp;nbsp;this&amp;nbsp;port&amp;nbsp;when&amp;nbsp;you&amp;nbsp;connect&amp;nbsp;&amp;nbsp;!!discoiqbr!! com.sun.management.jmxremote.authenticate=false&amp;nbsp;&amp;nbsp;!!discoiqbr!! com.sun.management.jmxremote.ssl=false 
+    </codeblock></li> 
+   <li><p>Restart WebSphere.</p></li> 
+  </ol> 
+ </body> 
+</html>

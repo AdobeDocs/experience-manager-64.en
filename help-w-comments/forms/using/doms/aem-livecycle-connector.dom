@@ -1,0 +1,286 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Connecting AEM Forms with Adobe LiveCycle" name="jcr:title" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="9aa0c843-5bda-4a65-8fc4-7b989f846905" name="jcr:uuid" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2015-06-23T06:54:34.036-0400" name="lastPublishQADate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-26T04:21:40.228-0400" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:Configuration" name="cq:tags" /> 
+  <meta content="2017-12-01T19:04:58.570-0500" name="jcr:created" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="007d1b49-f6b8-4a7f-9bc1-0ea1cfad308f" name="jcr:predecessors" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/configuration;/content/help/en/experience-manager/6-4/forms/morehelp/configuration" name="moreHelpPaths" /> 
+  <meta content="AEM LiveCycle connector allows you to start LiveCycle ES4 Document Services from within AEM apps and workflows." name="seoDescription" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/aem_livecycle_connector_admin_5e12de0b318c6865_1959_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-05T08:47:24.047-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-05T08:47:23.811-0400" name="publishExternalDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-05T08:47:23.811-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2016-04-20T09:47:20.866-0400" name="firstPublishExternalDate" /> 
+  <meta content="AEM LiveCycle Connector" name="navTitle" /> 
+  <meta content="true" name="generateCascadingToc" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2018-04-05T08:47:23.811-0400" name="lastPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="71" name="acrolinxSentences" /> 
+  <meta content="2016-05-31T06:33:46.339-0400" name="acrolinxDate" /> 
+  <meta content="2018-04-26T04:21:40.228-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/aem-livecycle-connector.html" name="publishExternalURL" /> 
+  <meta content="1262" name="acrolinxWords" /> 
+ </head> 
+ <body> 
+  <p>Adobe Experience Manager (AEM) LiveCycle connector enables seamless invocation of Adobe LiveCycle ES4 Document Services from within AEM web apps and workflows. LiveCycle provides a rich client SDK, which allows client applications to start LiveCycle services using Java APIs. AEM LiveCycle Connector simplifies using these APIs within the OSGi environment.</p> 
+  <h2>Connecting AEM server to Adobe LiveCycle &lt;br&gt;</h2> 
+  <p>AEM LiveCycle Connector is part of the <a href="../../forms/using/installing-configuring-aem-forms-osgi.md" target="_blank">AEM Forms add-on package</a>. After installing the AEM Forms add-on package, perform the following steps to add details of LiveCycle server to AEM Web Console.<br /> </p> 
+  <ol> 
+   <li>In AEM web console configuration manager, locate the Adobe LiveCycle Client SDK configuration component.</li> 
+   <li>Click the component to edit the configuration server URL, user name, and password.</li> 
+   <li>Review the settings and click <strong>Save</strong>.</li> 
+  </ol> 
+  <p>Although the properties are self explanatory, the important ones are as follows:</p> 
+  <ul> 
+   <li><strong>Server URL</strong> - Specifies URL to the LiveCycle server. If you want LiveCycle and AEM to communicate over https, start AEM with the following JVM <code class="code">argument 
+     <discoiqbr /> -Djavax.net.ssl.trustStore=&amp;lt;<em>path to LC keystore</em>&amp;gt;</code> option.</li> 
+   <li><strong>Username </strong>- Specifies user name of the account which is used to establish communication between AEM and LiveCycle. The account is a LiveCycle user account who has the permissions to start Document Services.</li> 
+   <li><strong>Password </strong>- Specifies the password.</li> 
+   <li><strong>Service Name</strong> - Specifies the services which are started using the user credentials provided in Username and Password fields. By default, no credentials are passed while starting LiveCycle services.</li> 
+  </ul> 
+  <h2>Starting document services</h2> 
+  <p>Client applications can programmatically start LiveCycle services using a Java API, Web Services, Remoting, and REST. For Java clients, the application can use LiveCycle SDK. The LiveCycle SDK provides a Java API for starting these services remotely. For example, to convert a Microsoft Word Document to PDF, the client starts GeneratePDFService. The invocation flow consists of the following steps:</p> 
+  <ol> 
+   <li><p>Create a ServiceClientFactory instance.</p> </li> 
+   <li><p>Each service provides a client class. To start a service, create a client instance of the service.</p> </li> 
+   <li><p>Start the service and process the result.</p> </li> 
+  </ol> 
+  <div>
+    AEM LiveCycle Connector simplifies the flow by exposing these client instances as OSGi services that can be accessed using standard OSGi means. The LiveCycle connector provides the following features: 
+  </div> 
+  <ul> 
+   <li>Client instances as OSGi Service: The clients packaged as OSGI bundles are listed in the <a href="../../forms/using/aem-livecycle-connector.md#main-pars-header-4">Document Services list</a> section. Each client jar registers the client instance as OSGi service with the OSGi Service Registry.</li> 
+   <li>User Credential Propagation: The connection details required to connect to LiveCycle server are managed at a central place.</li> 
+   <li>ServiceClientFactory Service: To start the processes, client application can access the ServiceClientFactory instance.</li> 
+  </ul> 
+  <h3>Starting via Service References from OSGi Service Registry</h3> 
+  <p>To start an exposed service from within AEM, perform the following steps:</p> 
+  <ol> 
+   <li><p>Determine maven dependencies. Add dependency to the required client jar in your maven pom.xml file. At a minimum, add dependency to adobe-livecycle-client and adobe-usermanager-client jars.</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-livecycle-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt;!!discoiqbr!!&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-usermanager-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt;!!discoiqbr!!&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-cq-integration-api&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+    </codeblock><p>To start a service, add corresponding Maven dependency for the service. For the list of dependencies, see <a href="../../forms/using/aem-livecycle-connector.md#main-pars-header-4">Document Service List</a>. For example, for the Generate PDF service add the following dependency: </p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-generatepdf-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+    </codeblock></li> 
+   <li><p>Obtain the service reference. Get a handle to the service instance. If you are writing a Java class, you can use the Declarative Services annotations.</p> 
+    <codeblock gutter="true" class="syntax java">
+      !!discoiqbr!!import&amp;nbsp;com.adobe.livecycle.generatepdf.client.GeneratePdfServiceClient;!!discoiqbr!!import&amp;nbsp;com.adobe.livecycle.generatepdf.client.CreatePDFResult;!!discoiqbr!!import&amp;nbsp;com.adobe.idp.Document;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!@Reference!!discoiqbr!!GeneratePdfServiceClient&amp;nbsp;generatePDF;!!discoiqbr!!...!!discoiqbr!!&amp;nbsp;!!discoiqbr!!Resource&amp;nbsp;r&amp;nbsp;=&amp;nbsp;resourceResolver.getResource("/path/tp/docx");!!discoiqbr!!Document&amp;nbsp;sourceDoc&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Document(r.adaptTo(InputStream.class));!!discoiqbr!!CreatePDFResult&amp;nbsp;result&amp;nbsp;=&amp;nbsp;generatePDF.createPDF2(!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sourceDoc,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;extension,&amp;nbsp;//inputFileExtension!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;null,&amp;nbsp;//fileTypeSettings!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;null,&amp;nbsp;//pdfSettings!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;null,&amp;nbsp;//securitySettings!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;settingsDoc,&amp;nbsp;//settingsDoc!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;null&amp;nbsp;//xmpDoc!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;); 
+    </codeblock><p>The above code snippet starts the createPDF API of GeneratePdfServiceClient to convert a document to PDF. You can perform similar invocation in a JSP using the following code. The major difference is the following code uses Sling ScriptHelper to access the GeneratePdfServiceClient.<br /> </p> 
+    <codeblock gutter="true" class="syntax java">
+      !!discoiqbr!!&lt;%@&amp;nbsp;page&amp;nbsp;import="com.adobe.livecycle.generatepdf.client.GeneratePdfServiceClient"&amp;nbsp;%&gt;!!discoiqbr!!&lt;%@&amp;nbsp;page&amp;nbsp;import="com.adobe.livecycle.generatepdf.client.CreatePDFResult"&amp;nbsp;%&gt;!!discoiqbr!!&lt;%@&amp;nbsp;page&amp;nbsp;import="com.adobe.idp.Document"&amp;nbsp;%&gt;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!GeneratePdfServiceClient&amp;nbsp;generatePDF&amp;nbsp;=&amp;nbsp;sling.getService(GeneratePdfServiceClient.class);!!discoiqbr!!Document&amp;nbsp;sourceDoc&amp;nbsp;=&amp;nbsp;...!!discoiqbr!!CreatePDFResult&amp;nbsp;result&amp;nbsp;=&amp;nbsp;generatePDF.createPDF2(!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sourceDoc,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;extension,&amp;nbsp;//inputFileExtension!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;null,&amp;nbsp;//fileTypeSettings!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;null,&amp;nbsp;//pdfSettings!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;null,&amp;nbsp;//securitySettings!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;settingsDoc,&amp;nbsp;//settingsDoc!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;null&amp;nbsp;//xmpDoc!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;); 
+    </codeblock></li> 
+  </ol> 
+  <h3>Starting via ServiceClientFactory</h3> 
+  <p>The ServiceClientFactory class is required in some cases. For example, you require ServiceClientFactory to call processes.<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    !!discoiqbr!!import&amp;nbsp;com.adobe.livecycle.dsc.clientsdk.ServiceClientFactoryProvider;!!discoiqbr!!import&amp;nbsp;com.adobe.idp.dsc.clientsdk.ServiceClientFactory;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!@Reference!!discoiqbr!!ServiceClientFactoryProvider&amp;nbsp;scfProvider;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!...!!discoiqbr!!ServiceClientFactory&amp;nbsp;scf&amp;nbsp;=&amp;nbsp;scfProvider.getDefaultServiceClientFactory();!!discoiqbr!!... 
+  </codeblock> 
+  <h2>RunAs support</h2> 
+  <p>Almost every Document Service in LiveCycle requires authentication. You can use any of the following options to start these services without providing explicit credentials in the code:</p> 
+  <h3>Whitelist configuration</h3> 
+  <p>LiveCycle Client SDK configuration contains a setting about service names. This configuration is a list of services for which the invocation logic uses administrator credential out of the box. For example, if you add DirectoryManager services (part of User Management API) to this list, any client code can directly use the service and the invocation layer automatically passes on the configured credentials as part of the request sent to the LiveCycle server</p> 
+  <h3>RunAsManager</h3> 
+  <p>As part of the integration, a new service RunAsManager is provided. It allows you to programmatically control credential to be used when making call to LiveCycle server.</p> 
+  <codeblock gutter="true" class="syntax java">
+    import&amp;nbsp;com.adobe.livecycle.dsc.clientsdk.security.PasswordCredential;!!discoiqbr!!import&amp;nbsp;com.adobe.livecycle.dsc.clientsdk.security.PrivilegedAction;!!discoiqbr!!import&amp;nbsp;com.adobe.livecycle.dsc.clientsdk.security.RunAsManager;!!discoiqbr!!import&amp;nbsp;com.adobe.idp.dsc.registry.component.ComponentRegistry;!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!@Reference!!discoiqbr!!private&amp;nbsp;RunAsManager&amp;nbsp;runAsManager;!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!List&lt;Component&gt;&amp;nbsp;components&amp;nbsp;=&amp;nbsp;runAsManager.doPrivileged(new&amp;nbsp;PrivilegedAction&lt;List&lt;Component&gt;&gt;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;List&lt;Component&gt;&amp;nbsp;run()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;componentRegistry.getComponents();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!assertNotNull(components); 
+  </codeblock> 
+  <p>If you want to pass different credential, you can use the overloaded method that takes a PasswordCredential instance.</p> 
+  <codeblock gutter="true" class="syntax java">
+    PasswordCredential&amp;nbsp;credential&amp;nbsp;=&amp;nbsp;new&amp;nbsp;PasswordCredential("administrator","password");!!discoiqbr!!List&lt;Component&gt;&amp;nbsp;components&amp;nbsp;=&amp;nbsp;runAsManager.doPrivileged(new&amp;nbsp;PrivilegedAction&lt;List&lt;Component&gt;&gt;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;List&lt;Component&gt;&amp;nbsp;run()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;componentRegistry.getComponents();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!},credential); 
+  </codeblock> 
+  <h3>InvocationRequest property</h3> 
+  <p>If you call a process or make direct use of the ServiceClientFactory class and create an InvocationRequest, you can specify a property to indicate that invocation layer should use configured credentials.</p> 
+  <codeblock gutter="true" class="syntax java">
+    import&amp;nbsp;com.adobe.idp.dsc.InvocationResponse!!discoiqbr!!import&amp;nbsp;com.adobe.idp.dsc.InvocationRequest!!discoiqbr!!import&amp;nbsp;com.adobe.livecycle.dsc.clientsdk.ServiceClientFactoryProvider!!discoiqbr!!import&amp;nbsp;com.adobe.idp.dsc.clientsdk.ServiceClientFactory!!discoiqbr!!import&amp;nbsp;com.adobe.livecycle.dsc.clientsdk.InvocationProperties!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!ServiceClientFactoryProvider&amp;nbsp;scfp&amp;nbsp;=&amp;nbsp;sling.getService(ServiceClientFactoryProvider.class)!!discoiqbr!!ServiceClientFactory&amp;nbsp;serviceClientFactory&amp;nbsp;=&amp;nbsp;scfp.getDefaultServiceClientFactory()!!discoiqbr!!InvocationRequest&amp;nbsp;ir&amp;nbsp;=&amp;nbsp;serviceClientFactory.createInvocationRequest("sample/LetterSubmissionProcess",&amp;nbsp;"invoke",&amp;nbsp;new&amp;nbsp;HashMap(),&amp;nbsp;true);!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!//Here&amp;nbsp;we&amp;nbsp;are&amp;nbsp;invoking&amp;nbsp;the&amp;nbsp;request&amp;nbsp;with&amp;nbsp;system&amp;nbsp;user!!discoiqbr!!ir.setProperty(InvocationProperties.INVOKER_TYPE,InvocationProperties.INVOKER_TYPE_SYSTEM)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!InvocationResponse&amp;nbsp;response&amp;nbsp;=&amp;nbsp;serviceClientFactory.getServiceClient().invoke(ir); 
+  </codeblock> 
+  <h2>Document Services list</h2> 
+  <h3>Adobe LiveCycle Client SDK API bundle</h3> 
+  <p>The following services are available: </p> 
+  <ul> 
+   <li>com.adobe.idp.um.api.AuthenticationManager</li> 
+   <li>com.adobe.idp.um.api.DirectoryManager</li> 
+   <li>com.adobe.idp.um.api.AuthorizationManager</li> 
+   <li>com.adobe.idp.dsc.registry.service.ServiceRegistry</li> 
+   <li>com.adobe.idp.dsc.registry.component.ComponentRegistry</li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    !!discoiqbr!!&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-livecycle-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt;!!discoiqbr!!&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-usermanager-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt;!!discoiqbr!! 
+  </codeblock> 
+  <h3>Adobe LiveCycle Client SDK Bundle</h3> 
+  <p>The following services are available:</p> 
+  <ul> 
+   <li>com.adobe.livecycle.dsc.clientsdk.security.RunAsManager</li> 
+   <li>com.adobe.livecycle.dsc.clientsdk.ServiceClientFactoryProvider</li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-livecycle-cq-integration-api&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;1.1.10&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3>Adobe LiveCycle TaskManager Client bundle</h3> 
+  <p>The following services are available:</p> 
+  <ul> 
+   <li>com.adobe.idp.taskmanager.dsc.client.task.TaskManager</li> 
+   <li>com.adobe.idp.taskmanager.dsc.client.TaskManagerQueryService</li> 
+   <li>com.adobe.idp.taskmanager.dsc.client.queuemanager.QueueManager</li> 
+   <li>com.adobe.idp.taskmanager.dsc.client.emailsettings.EmailSettingService</li> 
+   <li>com.adobe.idp.taskmanager.dsc.client.endpoint.TaskManagerEndpointClient</li> 
+   <li>com.adobe.idp.taskmanager.dsc.client.userlist.UserlistService</li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    !!discoiqbr!!&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-taskmanager-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3>Adobe LiveCycle Workflow Client Bundle</h3> 
+  <p>The following service is available:</p> 
+  <ul> 
+   <li>com.adobe.idp.workflow.client.WorkflowServiceClient</li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    !!discoiqbr!!&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-workflow-client-sdk&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3>Adobe LiveCycle PDF Generator Client bundle</h3> 
+  <p>The following service is available:</p> 
+  <ul> 
+   <li>com.adobe.livecycle.generatepdf.client.GeneratePdfServiceClient</li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    !!discoiqbr!!&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-generatepdf-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3>Adobe LiveCycle Application Manager Client bundle</h3> 
+  <p>The following services are available:<br /> </p> 
+  <ul> 
+   <li>com.adobe.idp.applicationmanager.service.ApplicationManager</li> 
+   <li>com.adobe.livecycle.applicationmanager.client.ApplicationManager</li> 
+   <li>com.adobe.livecycle.design.service.DesigntimeService</li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    !!discoiqbr!!&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-applicationmanager-client-sdk&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3>Adobe LiveCycle Assembler Client bundle</h3> 
+  <p>The following service is available:</p> 
+  <ul> 
+   <li>com.adobe.livecycle.assembler.client.AssemblerServiceClient</li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    !!discoiqbr!!&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-assembler-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3>Adobe LiveCycle Form Data Integration Client bundle</h3> 
+  <p>The following service is available:</p> 
+  <ul> 
+   <li>com.adobe.livecycle.formdataintegration.client.FormDataIntegrationClient</li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-formdataintegration-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt;!!discoiqbr!! 
+  </codeblock> 
+  <h3>Adobe LiveCycle Forms Client bundle</h3> 
+  <p>The following service is available:</p> 
+  <ul> 
+   <li>com.adobe.livecycle.formsservice.client.FormsServiceClient<br /> </li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-forms-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3>Adobe LiveCycle Output Client bundle</h3> 
+  <p>The following service is available:<br /> </p> 
+  <ul> 
+   <li>com.adobe.livecycle.output.client.OutputClient<br /> </li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-output-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3>Adobe LiveCycle Reader Extensions Client bundle</h3> 
+  <p>The following service is available:</p> 
+  <ul> 
+   <li>com.adobe.livecycle.readerextensions.client.ReaderExtensionsServiceClient<br /> </li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-reader-extensions-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3>Adobe LiveCycle Rights Manager Client bundle</h3> 
+  <p>The following services are available: </p> 
+  <ul> 
+   <li>com.adobe.livecycle.rightsmanagement.client.DocumentManager</li> 
+   <li>com.adobe.livecycle.rightsmanagement.client.EventManager</li> 
+   <li>com.adobe.livecycle.rightsmanagement.client.ExternalUserManager</li> 
+   <li>com.adobe.livecycle.rightsmanagement.client.LicenseManager</li> 
+   <li>com.adobe.livecycle.rightsmanagement.client.WatermarkManager</li> 
+   <li>com.adobe.livecycle.rightsmanagement.client.PolicyManager</li> 
+   <li>com.adobe.livecycle.rightsmanagement.client.AbstractPolicyManager</li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-rightsmanagement-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3>Adobe LiveCycle Signatures Client bundle</h3> 
+  <p>The following service is available:<br /> </p> 
+  <ul> 
+   <li>com.adobe.livecycle.signatures.client.SignatureServiceClientInterface<br /> </li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-signatures-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3>Adobe LiveCycle Truststore Client bundle</h3> 
+  <p>The following services are available:<br /> </p> 
+  <ul> 
+   <li>com.adobe.truststore.dsc.TrustConfigurationService</li> 
+   <li>com.adobe.truststore.dsc.CRLService</li> 
+   <li>com.adobe.truststore.dsc.CredentialService</li> 
+   <li>com.adobe.truststore.dsc.CertificateService</li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-truststore-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3>Adobe LiveCycle Repository Client bundle</h3> 
+  <p>The following services are available:</p> 
+  <ul> 
+   <li>com.adobe.repository.bindings.ResourceRepository</li> 
+   <li>com.adobe.repository.bindings.ResourceSynchronizer</li> 
+  </ul> 
+  <h4>Maven dependencies</h4> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.livecycle&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;adobe-repository-client&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;11.0.0&lt;/version&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links> 
+   <a href="../../sites/developing/using/vlt-mavenplugin.md" target="_blank">Managing Packages Using Maven</a> 
+  </related-links> 
+ </body> 
+</html>

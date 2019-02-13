@@ -1,0 +1,212 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="23acd4f1-9ed6-4467-a994-8234998792ad" name="jcr:uuid" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="alvawb@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/flash.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="1098" name="acrolinxWords" /> 
+  <meta content="Chiradeep Majumdar" name="contentOwner" /> 
+  <meta content="2018-04-24T11:58:10.140-0400" name="locHandOffDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-31T16:34:53.447-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/flash_krs_workflow_f3c2f2ccebf6138e_134_report.xml" name="acrolinxReportURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Authoring Adobe Flash Content" name="navTitle" /> 
+  <meta content="true" name="noIndex" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="alvawb" name="cq:lastReplicatedBy" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-04-24T11:58:10.140-0400" name="cq:lastModified" /> 
+  <meta content="b12838e4-30b8-415a-8ec3-81f29d78a471" name="jcr:predecessors" /> 
+  <meta content="alvawb" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;content_type:reference" name="cq:tags" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/user-guide" name="redirectTarget" /> 
+  <meta content="Authoring Adobe Flash Content" name="seoTitle" /> 
+  <meta content="2018-04-12T09:23:05.838-0400" name="publishExternalDate" /> 
+  <meta content="81" name="acrolinxSentences" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/flash" name="qaNotes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-12T09:23:05.838-0400" name="topicBrowsingSortDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="[Redirect] Authoring Adobe Flash Content" name="jcr:title" /> 
+  <meta content="2018-03-02T08:01:12.381-0500" name="jcr:created" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="2018-04-12T09:23:05.838-0400" name="lastPublishExternalDate" /> 
+  <meta content="2019-01-12T17:28:52.216-0500" name="acrolinxDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-12T09:23:05.858-0400" name="cq:lastReplicated" /> 
+ </head> 
+ <body> 
+  <draft-comment color="yellow" lastModifiedBy="alvawb" lastModifiedDate="2018-03-02T03:00:37.571-0500" prevFirstName="Alva" prevLastName="Ware-Bevacqui" type="remark"> 
+   <p>Chiradeep to check. May be legacy</p> 
+  </draft-comment> 
+  <p>Do you wish to manage your Flash based AIR application the same way you manage your web site? That is: authoring Flash content without being a developer? Or enabling your customers to view your Flash based web site on an iPad? The short answer is: AEM does it all for you!</p> 
+  <p>AEM enables you to:</p> 
+  <ul> 
+   <li>Author Flash content for use in an AIR application.</li> 
+   <li>Author Flash content that can be viewed on Flash disabled devices like the iPad.</li> 
+  </ul> 
+  <h3>Authoring Flash Content for AIR Applications</h3> 
+  <p>The Mobile Trader application is a Flash based AIR application that can run on any Flash enabled device. It consists of a window with four tabs (Assets, Watchlist, Alerts, Advisor) displaying some financial informations in a dynamic and interactive way. Its content can be managed with AEM, the same way a web page is authored with AEM. You can for example change a title, add an image or add a new tab. Once you have modified the content with AEM, you just have to refresh the application on your desktop computer to display the modifications.</p> 
+  <p>The following procedure shows you how to set up the Mobile Trader application on your computer, to modify a title with AEM and to display the modified content in the AIR application:</p> 
+  <ol> 
+   <li>Start an author AEM instance that runs on port 4502.</li> 
+   <li>Start a publish AEM instance that runs on port 4503.</li> 
+   <li>Download the Mobile Trader AIR application on your desktop. The application is available in the repository at:<br /> <span class="code">/etc/designs/geometrixx/clientlibs/flash/MobileTrader.air</span><br /> To download this file, you can <a href="../../sites/administering/using/webdav-access.md">map the repository to your local filesystem</a> by using the WebDAV server that is embedded into AEM.<br /> </li> 
+   <li>Run the Mobile Trader application on your desktop by double-clicking the <span class="code">MobileTrader.air</span> file.<br /> The application connects to the AEM publish instance.<br /> </li> 
+   <li>Open the Mobile Trader page in the AEM author instance: in your browser, go to:<br /> <span class="code">http://localhost:4502/cf#/content/geometrixx_mobile/en/trader.touch.html</span></li> 
+   <li>Modify a title:<br /> 
+    <ol> 
+     <li>Double-click the <strong>Performance History</strong> title.</li> 
+     <li>Edit the title.</li> 
+     <li>Press <strong>Enter</strong> to save the changes.<br /> </li> 
+    </ol> Note: you can also right-click the title, select <strong>Edit Component</strong> to open the edit dialog, edit the title and click <strong>OK</strong>.</li> 
+   <li>Activate the page corresponding to the tab that you have modified. In this example, as the <strong>Assets</strong> tab has been modified: 
+    <ol> 
+     <li>Go to the <strong>Site Admin</strong> console.</li> 
+     <li>Select the <strong>Assets</strong> page below <strong>Websites / Geometrixx Mobile Demo Site / Mobile Trader</strong>.</li> 
+     <li>Click <strong>Activate</strong>.</li> 
+    </ol> </li> 
+   <li>Refresh the <strong>Mobile Trader</strong> AIR application to see the changes: 
+    <ol> 
+     <li>In the AIR app, click the top title <strong>Geometrixx Financial Services</strong>.</li> 
+     <li>Click <strong>OK</strong> below the URL field to see the modified tab.</li> 
+    </ol> </li> 
+  </ol> 
+  <draft-comment color="yellow" lastModifiedBy="jkautzma" lastModifiedDate="2018-03-02T03:00:37.647-0500" prevFirstName="Jean-Christophe" prevLastName="Kautzmann" type="remark"> 
+   <p>step 5: when I open the page from the siteadmin, it opens the html5 version.<br /> </p> 
+   <p>-&amp;gt; bug 37731<br /> </p> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="jkautzma" lastModifiedDate="2018-03-02T03:00:37.673-0500" prevFirstName="Jean-Christophe" prevLastName="Kautzmann" type="remark"> 
+   <p>step 7: bug: the console doesn't show the replicated status icon<br /> </p> 
+   <p>-&amp;gt; this is a platform (known) issue<br /> </p> 
+  </draft-comment> 
+  <p>You can also:<br /> </p> 
+  <ul> 
+   <li>Rearrange the order of existing components on a page by dragging and dropping them.<br /> </li> 
+   <li>Add a Mobile Trader component: 
+    <ol> 
+     <li>In the Sidekick, in the <strong>Components</strong> tab, select the <strong>MobileTrader</strong> panel.</li> 
+     <li>Drag and drop the component into the page.<br /> </li> 
+    </ol> </li> 
+   <li>Delete a component: 
+    <ol> 
+     <li>Right-click the component.<br /> </li> 
+     <li>Select Delete Component in the context menu.<br /> </li> 
+    </ol> </li> 
+   <li>Add an image: 
+    <ol> 
+     <li>Go into Design mode and make the <strong>Mobile Image</strong> () component available to the page.</li> 
+     <li>In the Sidekick, in the <strong>Components</strong> tab, select the <strong>Mobile</strong> panel.</li> 
+     <li>Drag and drop the <strong>Mobile Image</strong> component into the page.</li> 
+     <li>Drag and drop an image from the <strong>Content Finder</strong> into the component.</li> 
+     <li>Edit the image: double-click it, modify it and click <strong>OK</strong>.</li> 
+    </ol> </li> 
+   <li>Add a new tab: 
+    <ol> 
+     <li>Right-click a tab at the bottom of the page.</li> 
+     <li>Select <strong>New Tab</strong> in the context menu.</li> 
+     <li>In the <strong>Create Page</strong> dialog, add a title, a name and select the <strong>Geometrixx Mobile Trader Content Page</strong> template. Click <strong>Create</strong>.<br /> </li> 
+    </ol> Note: a tab corresponds to a AEM page.</li> 
+   <li>Delete a tab: 
+    <ol> 
+     <li>Right-click the tab to be deleted at the bottom of the page.</li> 
+     <li>Select <strong>Delete Tab</strong> in the context menu.</li> 
+     <li>Click <strong>Yes</strong> in the Delete Page dialog.</li> 
+    </ol> </li> 
+  </ul> 
+  <note> 
+   <p>To see the changes in the AIR application, you need to perform the steps 7 and 8 of the above procedure.</p> 
+  </note> 
+  <draft-comment color="yellow" lastModifiedBy="jkautzma" lastModifiedDate="2018-03-02T03:00:37.738-0500" prevFirstName="Jean-Christophe" prevLastName="Kautzmann" type="remark"> 
+   <p>Is it possible to add some text?</p> 
+   <p>I've been able to add a text component in the browser but it's not showing in the AIR app.<br /> </p> 
+   <p>It's because the flash-text component is not enabled<br /> </p> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="jkautzma" lastModifiedDate="2018-03-02T03:00:37.761-0500" prevFirstName="Jean-Christophe" prevLastName="Kautzmann" type="remark"> 
+   <p>The following section ("Authoring Flash Content for Web Sites") should be discarded as the feature should not be available in its current state. </p> 
+   <p>The corresponding content will be removed from the repository. </p> 
+   <p>Discussed with David N. and Tobi B. on 18.10.2011.<br /> </p> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <h3>Authoring Flash Content for Web Sites</h3> 
+  </draft-comment> 
+  <draft-comment type="draft"> 
+   <p>With CQ it is possible to create and manage Adobe Flash content within a browser environment. The Flash content is managed the same way a web page is authored with CQ. You can manage titles, texts and images.</p> 
+   <p>The following procedure shows you how to create a web page that includes Flash content consisting of a title, some text and an image:</p> 
+   <ol> 
+    <li>In <strong>Site Admin</strong> console, create a page below <strong>Websites / Geometrixx Demo Site / English</strong>: 
+     <ul> 
+      <li><strong>Title</strong>: My Flash Page</li> 
+      <li>Select the <strong>Mosaic Content Page</strong> template</li> 
+      <li>Click <strong>Create</strong>.</li> 
+     </ul> </li> 
+    <li>Open the new page.</li> 
+    <li>Add a title to the page: from the <strong>Components</strong> tab of the Sidekick, drag and drop a <strong>Title</strong> component to the page.</li> 
+    <li>Edit the title:<br /> 
+     <ol> 
+      <li>Click the <strong>Title</strong> component.</li> 
+      <li>Edit the title.</li> 
+      <li>Press <strong>Enter</strong> to save the changes.<br /> You can also double-click the <strong>Title</strong> component, define the title in the dialog and click <strong>OK</strong>.<br /> </li> 
+     </ol> </li> 
+    <li>Add a <strong>Text</strong> component to the page: from the <strong>Components</strong> tab of the Sidekick, drag and drop a <strong>Text</strong> component to the page.</li> 
+    <li>Edit the text:<br /> 
+     <ol> 
+      <li>Double-click the <strong>Text</strong> component.</li> 
+      <li>Edit the text.</li> 
+      <li>Click <strong>OK</strong> to save the changes.<br /> You can also right-click the <strong>Text</strong> component, define the text in the dialog and click <strong>OK</strong>.<br /> </li> 
+     </ol> </li> 
+    <li>Add an <strong>Image</strong> component to the page: from the <strong>Components</strong> tab of the Sidekick, drag and drop an <strong>Image</strong> component to the page.</li> 
+    <li>Edit the image: 
+     <ol> 
+      <li>Drag and drop an image from the <strong>Content Finder</strong> into the <strong>Image</strong> component.</li> 
+      <li>Edit the image: double-click it, modify it and click <strong>OK</strong>.<br /> You can also right-click the image to open the edit dialog.</li> 
+     </ol> </li> 
+   </ol> 
+   <p>You can also:</p> 
+   <ul> 
+    <li>Rearrange the order of existing components on a page by dragging and dropping them.<br /> </li> 
+    <li>Delete a component: 
+     <ol> 
+      <li>Right-click the component.<br /> </li> 
+      <li>Select <strong>Delete Component</strong> in the context menu.</li> 
+     </ol> </li> 
+   </ul> 
+   <p></p> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="jkautzma" lastModifiedDate="2018-03-02T03:00:37.822-0500" prevFirstName="Jean-Christophe" prevLastName="Kautzmann" type="remark"> 
+   <p>the component dialog doesn't display ok (some shifts in the lines).<br /> </p> 
+   <p>-&amp;gt; bug 37732<br /> </p> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="jkautzma" lastModifiedDate="2018-03-02T03:00:37.845-0500" prevFirstName="Jean-Christophe" prevLastName="Kautzmann" type="remark"> 
+   <p>there is a typo in the context menu of the component:<br /> 'Edit Copmonent' should be 'Edit Component'<br /> </p> 
+   <p>-&amp;gt; known issue<br /> </p> 
+  </draft-comment> 
+  <draft-comment color="yellow" lastModifiedBy="jkautzma" lastModifiedDate="2018-03-02T03:00:37.867-0500" prevFirstName="Jean-Christophe" prevLastName="Kautzmann" type="remark"> 
+   <p>doesn't work on publish (javascript error):<br /> -&amp;gt; tobi is not planning to invest more time on this feature as it is not known yet how customer will use this feature<br /> <br /> <br /> </p> 
+  </draft-comment> 
+  <h3>Viewing Flash Content on an iPad</h3> 
+  <p>When a Flash disabled device like the iPad requests a AEM page that includes Flash-AEM compatible components, AEM automatically sends the page content in HTML5 format to the device.<br /> <br /> The following procedure shows you how to access Flash content on your iPad. To access the Mobile Trader pages:<br /> </p> 
+  <ol> 
+   <li>On your iPad, open the Safari browser and go to the page:<br /> <span class="code">http://&amp;lt;aem-server-ip&amp;gt;:4502/content/geometrixx_mobile/en/trader.html</span></li> 
+   <li>Login with the default credentials (<span class="code">admin/admin</span>).<br /> </li> 
+   <li>Click the <strong>Gx</strong> icon.<br /> You can also click the link Click "Add to Home Screen" to set a bookmark on the iPad Home Screen and then click the icon: you would then view the pages in the iPad app way (without e.g. the browser navigation bar).<br /> </li> 
+   <li>The Flash based pages are displayed on your iPad.</li> 
+  </ol> 
+  <note> 
+   <p>There is a small icon in the top right corner of the screen that tells you if you are online (green) or offline (yellow).<br /> </p> 
+  </note> 
+ </body> 
+</html>

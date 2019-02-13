@@ -1,0 +1,87 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-19T10:23:16.910-0400" name="cq:lastModified" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-launches-creating.html" name="publishExternalURL" /> 
+  <meta content="/content/docs/en/aem/6-0/author/site-page-features/launches" name="legacyPath" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page." name="seoDescription" /> 
+  <meta content="9b2ec9cb-efe1-4ab1-867e-79867661b754" name="jcr:predecessors" /> 
+  <meta content="Creating Launches" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="74fe650e-400e-4940-8bf9-2faaa1411795" name="jcr:uuid" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-03T06:43:53.582-0400" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-03T06:43:53.582-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/site-page-features/launches/creating-launches" name="qaNotes" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="2017-10-31T16:19:20.556-0400" name="firstPublishExternalDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2017-12-07T19:01:12.891-0500" name="jcr:created" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-10-27T23:46:18.102-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-19T10:23:16.908-0400" name="locHandOffDate" /> 
+  <meta content="Creating Launches" name="navTitle" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Creating Launches" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:site-features" name="cq:tags" /> 
+  <meta content="2018-04-03T06:43:53.582-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+ </head> 
+ <body> 
+  <draft-comment color="blue" lastModifiedBy="ims-author-57F1056A4CD116590A746C15@AdobeID" lastModifiedDate="2017-12-06T04:44:08.035-0500" prevFirstName="unknown" prevLastName="unknown" type="remark"> 
+   <p>6.2</p> 
+   <ul> 
+    <li>create from multiple roots</li> 
+    <li>clone a launch from the console 
+     <ul> 
+      <li>os there any connection between the clone and the original launch?<br /> </li> 
+     </ul> </li> 
+   </ul> 
+  </draft-comment> 
+  <p>Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page:</p> 
+  <ul> 
+   <li>The title appears in the <a href="../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#sidekick">Sidekick</a>, from where authors can access them to work on them.</li> 
+   <li>The child pages of the source page are included in the launch by default. You can use only the source page if desired. </li> 
+   <li>By default, <a href="../../../sites/administering/using/msm.md">Live Copy</a> automatically updates the launch pages as the source pages change. You can specify that a static copy is created to prevent automatic changes.</li> 
+  </ul> 
+  <p>Optionally, you can specify the <strong>Launch Date</strong> (and time) to define when the launch pages are to be promoted and activated. However the <strong>Launch Date</strong> only operates in combination with the <strong>Production Ready</strong> flag (see <a href="../../../sites/classic-ui-authoring/using/classic-launches-editing.md#editingalaunchconfiguration">Editing a Launch Configuration</a>); for the actions to actually occur automatically, both must be set.</p> 
+  <h2>Creating a Launch</h2> 
+  <p>The following procedure creates a launch.</p> 
+  <ol> 
+   <li><p>Open the Website administration page (<a href="http://localhost:4502/siteadmin">http://localhost:4502/siteadmin</a>). </p> </li> 
+   <li><p>Click <strong>New...</strong> then <strong>New Launch...</strong>.</p> </li> 
+   <li><p>In the <strong>Create Launch</strong> dialog, specify values for the following properties:</p> 
+    <ul> 
+     <li><strong>Launch Title</strong>: The name of the Launch. The name should be meaningful for authors.</li> 
+     <li><strong>Source Page</strong>: The path to the page for which to create the launch. By default, all child pages are included.</li> 
+     <li><strong>Exclude Sub Pages</strong>: Select this option to create the launch only for the source page and not the child pages. By default, this option is not selected.</li> 
+     <li><strong>Keep In Sync</strong>: Select this option to automatically update the content of launch pages when the source pages change. This is achieved by making the launch a <a href="../../../sites/administering/using/msm.md">live copy</a>.</li> 
+     <li><strong>Launch Date</strong>: The date and time when the launch copy is to be activated (dependent on the <strong>Production Ready</strong> flag; see <a href="../../../sites/authoring/using/launches.md#main-pars-title-6">Launches - the Order of Events</a>).</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-111.png" /></li> 
+   <li><p>Click <strong>Create</strong>.</p> </li> 
+  </ol> 
+  <h2>Deleting a Launch</h2> 
+  <p>You can also delete a launch.<br /> </p> 
+  <ol> 
+   <li><p>In the <a href="../../../sites/classic-ui-authoring/using/classic-launches.md">launches console</a>, select the required launch.</p> </li> 
+   <li><p>Click <strong>Delete</strong> - confirmation is required:<br /> </p> <img imageRotate="0" src="assets/chlimage_1-112.png" /> 
+    <note> 
+     <p>When deleting nested launches you should delete lower levels first.</p> 
+    </note></li> 
+  </ol> 
+ </body> 
+</html>

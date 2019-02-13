@@ -1,0 +1,36 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-01-15T15:39:01.512-0500" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Core Components" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-11-26T09:33:55.786-0500" name="cq:lastModified" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="005f513d-77bf-43f7-8356-cbf2f5bd21e0" name="jcr:predecessors" />
+  <meta content="bohnert" name="contentOwner" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/components;/content/help/en/experience-manager/6-4/sites/developing/morehelp/components" name="moreHelpPaths" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/content/help/en/experience-manager/core-components/user-guide" name="redirectTarget" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:components;content_type:reference" name="cq:tags" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="26407c60-d44e-4db7-b30f-f3d45a76cae0" name="jcr:uuid" />
+  <meta content="Components are the building blocks of any AEM site. Core Components leverage the latest technology to allow the creation of flexible, extensible, and feature-rich components to enable authors to easily create content." name="seoDescription" />
+  <meta content="2018-11-26T09:35:59.697-0500" name="cq:lastReplicated" />
+ </head>
+ <body>
+  <p>Components are the building blocks of any AEM site. Core Components leverage the latest technology to allow the creation of flexible, extensible, and feature-rich components to enable authors to easily create content.</p> 
+  <p><a href="/content/help/en/experience-manager/core-components/user-guide">Check out the documentation here.</a></p> 
+ </body>
+</html>
